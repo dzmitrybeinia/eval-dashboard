@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Jaśne morze, jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich, odgrywa znaczną rolę w regulacji klimatu. Woda działa jak termost, regulując wzór pogodowy. Te morskie ruchy wpływają na temperaturę, co potwierdza naszą tendencję do prawdy.",
+      "correction": "Oceany odgrywają znaczącą rolę w regulacji klimatu Ziemi. Woda magazynuje i oddaje ciepło, stabilizując wzorce pogodowe. Ruchy wód morskich wpływają na temperaturę i rozkład ciepła na świecie.",
+      "description": "The original feedback contains unnatural and confusing phrasing, including an irrelevant reference to Jastrzębie-Zdroje, which is not a coastal city and does not relate to oceanic climate regulation. The sentence 'Woda działa jak termost, regulując wzór pogodowy' uses the incorrect word 'termost' (should be 'termostat') and 'regulując wzór pogodowy' is awkward and unclear. The overall style is unnatural and lacks scientific clarity, making the explanation difficult to understand and culturally inappropriate for educational content. The correction provides a clear, accurate, and culturally neutral explanation suitable for Polish educational standards.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:37:44.909323",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Personagens não se limitam à personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+      "correction": "Personagens não se limitam a personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+      "description": "The use of the crase ('à') before 'personagens principais' is incorrect because 'personagens principais' does not require the preposition 'a' followed by the definite article 'a'. The correct form is 'a personagens principais'. This is a common error in Portuguese and affects grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Em *A Teia de Charlotte*, Wilbur, o porco, é o personagem principal, e Charlotte, a aranha, é sua amiga.",
+      "correction": "Em *A Teia de Charlotte*, Wilbur, o porco, é o personagem principal, e Charlotte, a aranha, é sua amiga.",
+      "description": "The translation of the book title 'Charlotte's Web' as 'A Teia de Charlotte' is not the standard Brazilian Portuguese title. The correct localized title is 'A Menina e o Porquinho'. Using the original or a literal translation may confuse Brazilian readers and does not reflect local publishing conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "O tema de *O Sol é para Todos* é justiça e a importância da empatia.",
+      "correction": "O tema de *O Sol é para Todos* é justiça e a importância da empatia.",
+      "description": "The book title 'O Sol é para Todos' is a literal translation of 'To Kill a Mockingbird'. The standard Brazilian Portuguese title is 'O Sol é Para Todos', which is correct here. However, ensure consistency in capitalization according to Brazilian publishing standards: only the first word and proper nouns are capitalized in titles.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "O tema de *O Doador de Memórias* é o valor da individualidade e os perigos da conformidade.",
+      "correction": "O tema de *O Doador de Memórias* é o valor da individualidade e os perigos da conformidade.",
+      "description": "The book title 'O Doador de Memórias' is the correct Brazilian Portuguese title for 'The Giver'. No correction needed, but ensure consistency in using official published titles for all literary works referenced.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements_1.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:13:05.189868",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Powieść 'Żółw i zając' jest przykładem fikcji.",
+      "correction": "Bajka 'Żółw i zając' jest przykładem fikcji.",
+      "description": "The term 'powieść' is incorrect in this context, as 'Żółw i zając' is a fable, not a novel. The correct lexical choice is 'bajka', which accurately describes the genre and avoids misleading students about literary forms.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Omała powieść autorstwa Ursuli Kona, która opisuje historię życia samotnej dziewczyny w Włoszech.",
+      "correction": "Omawiana powieść autorstwa Ursuli Kona, która opisuje historię życia samotnej dziewczyny we Włoszech.",
+      "description": "The word 'Omała' is a grammatical error; the correct form is 'Omawiana' (the discussed novel). Additionally, 'w Włoszech' should be 'we Włoszech' due to euphony rules in Polish. These errors affect clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten tekst nie jest literaturą faktu, ponieważ opowiada fikcyjną historia.",
+      "correction": "Ten tekst nie jest literaturą faktu, ponieważ opowiada fikcyjną historię.",
+      "description": "The noun 'historia' is incorrectly inflected; it should be 'fikcyjną historię' (accusative case) to match the verb 'opowiada'. This is a case agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Literatura faktu koncentruje się na rzeczystych wydarzeniach i prawdziwych postawach, często zawierającymi faktyczne informacje, na przykład biograficzne książki czy naukowy artykuł.",
+      "correction": "Literatura faktu koncentruje się na rzeczywistych wydarzeniach i prawdziwych postaciach, często zawierając faktyczne informacje, na przykład biograficzne książki czy naukowe artykuły.",
+      "description": "Multiple grammatical errors: 'rzeczystych' should be 'rzeczywistych' (correct adjective form), 'postawach' should be 'postaciach' (referring to people, not attitudes), 'zawierającymi' is incorrect participle form and should be 'zawierając', and 'naukowy artykuł' should be pluralized to 'naukowe artykuły' for consistency with 'biograficzne książki'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Powieści, typem dzieła literackiego, charakteryzują się wyimaginowaną lub wymyśloną treścią.",
+      "correction": "Powieści, będące typem dzieła literackiego, charakteryzują się wyimaginowaną lub wymyśloną treścią.",
+      "description": "The phrase 'typem dzieła literackiego' is incorrectly inserted and disrupts sentence structure. The correct syntax is 'będące typem dzieła literackiego', which properly introduces the relative clause and maintains clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To wyróżnia je na tle literatury faktu, która opiera się rzeczywistych wydarzeń lub zjawisk.",
+      "correction": "To wyróżnia je na tle literatury faktu, która opiera się na rzeczywistych wydarzeniach lub zjawiskach.",
+      "description": "The preposition 'na' is missing before 'rzeczywistych wydarzeniach', and 'zjawisk' should be in the locative plural form 'zjawiskach' to match the prepositional phrase. This is a prepositional and case agreement error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:39:01.981974",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "label": "v2",
+    "language": "polish",
+    "generated_at": "2025-10-05T01:29:05.838676"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Non-existent or incorrect lexical items",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 13,
+      "description": "Use of words or phrases that do not exist in Polish or are incorrect for the context, leading to confusion and misrepresentation of facts.",
+      "examples": [
+        {
+          "wrong": "żarowce",
+          "correct": "świątynie",
+          "context": "Ancient Egyptian structures"
+        },
+        {
+          "wrong": "Stanach Ziemiańskich",
+          "correct": "Stanach Zjednoczonych",
+          "context": "Country name in historical context"
+        },
+        {
+          "wrong": "prelecency",
+          "correct": "prelekcje",
+          "context": "Term for lectures"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect case, gender, or number agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Frequent errors in noun/adjective case, gender, or number agreement, which disrupt grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "W starożytnym Egipsku",
+          "correct": "W starożytnym Egipcie",
+          "context": "Locative case for country name"
+        },
+        {
+          "wrong": "Hieroglify, znany również jako hieroglify, był systemem pisma",
+          "correct": "Hieroglify, znane również jako hieroglify, były systemem pisma",
+          "context": "Plural noun with singular verb/adjective"
+        },
+        {
+          "wrong": "procesami wewnętrzne",
+          "correct": "procesami wewnętrznymi",
+          "context": "Instrumental case agreement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling errors and non-standard forms",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Misspelled words or non-standard forms that hinder comprehension and reduce professionalism.",
+      "examples": [
+        {
+          "wrong": "poniewaćż",
+          "correct": "ponieważ",
+          "context": "Conjunction spelling"
+        },
+        {
+          "wrong": "Jeśl wątpiesz",
+          "correct": "Jeśli wątpisz",
+          "context": "Conditional phrase spelling"
+        },
+        {
+          "wrong": "zazwyczniowo",
+          "correct": "zazwyczaj",
+          "context": "Adverb spelling"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or awkward phraseology",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of grammatically incorrect or awkward phrases that obscure meaning and reduce clarity.",
+      "examples": [
+        {
+          "wrong": "wykonywać decyzje",
+          "correct": "podejmować decyzje",
+          "context": "Verb for making decisions"
+        },
+        {
+          "wrong": "umiejętności rozumieć i stawiać wartość na argumenty",
+          "correct": "umiejętności rozumienia i oceniania wartości argumentów",
+          "context": "Skills description"
+        },
+        {
+          "wrong": "zdanej się o relacji",
+          "correct": "zdanie o relacji",
+          "context": "Phrase for opinion about relationship"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect technical or scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of incorrect or non-standard technical terms, especially in scientific or educational contexts, leading to misinformation.",
+      "examples": [
+        {
+          "wrong": "liczby zmienniste",
+          "correct": "liczby zmiennoprzecinkowe",
+          "context": "Term for floating-point numbers"
+        },
+        {
+          "wrong": "perycytry",
+          "correct": "lizosomy",
+          "context": "Cell organelle terminology"
+        },
+        {
+          "wrong": "'elektrarnicami komórki'",
+          "correct": "'elektrowniami komórki'",
+          "context": "Metaphor for mitochondria"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or irrelevant cultural references",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of confusing or contextually inappropriate references that do not fit the educational or cultural context, reducing clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Jaśne morze, jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich, odgrywa znaczną rolę w regulacji klimatu.",
+          "correct": "Morza i oceany odgrywają znaczącą rolę w regulacji klimatu.",
+          "context": "Feedback for climate zone question uses irrelevant city and sea references."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of untranslated English technical terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Retention of English technical terms instead of using standard Polish equivalents, which can hinder comprehension and reduce professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "'system calls' lub 'system calls'",
+          "correct": "wywołania systemowe",
+          "context": "Technical explanation in quiz uses English term instead of Polish."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Frequent mistakes in gender, number, and case agreement between nouns, adjectives, and verbs, leading to unnatural or incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "funkcje komórkową",
+          "correct": "funkcję komórkową",
+          "context": "Incorrect noun case and number agreement."
+        },
+        {
+          "wrong": "miałby trudności",
+          "correct": "miałyby trudności",
+          "context": "Subject-verb agreement error with plural noun."
+        },
+        {
+          "wrong": "głównego formy energii",
+          "correct": "głównej formy energii",
+          "context": "Adjective-noun gender and case mismatch."
+        },
+        {
+          "wrong": "co skutkowałoby błędne działanie lub błąd kompilacji.",
+          "correct": "co skutkowałoby błędnym działaniem lub błędem kompilacji.",
+          "context": "Instrumental case required after 'skutkowałoby'."
+        },
+        {
+          "wrong": "Ostateczne rodzaj przechowywanej informacji",
+          "correct": "Ostateczny rodzaj przechowywanej informacji",
+          "context": "Adjective-noun gender agreement."
+        },
+        {
+          "wrong": "z ciasto",
+          "correct": "z ciastem",
+          "context": "Instrumental case error after preposition 'z'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Choice and Idiomaticity Issues",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of unnatural, incorrect, or non-idiomatic words and phrases that reduce clarity and sound unnatural to native speakers.",
+      "examples": [
+        {
+          "wrong": "aby utrzymać równanie równomierne",
+          "correct": "aby zachować równowagę równania",
+          "context": "Unnatural phrase for maintaining equation balance."
+        },
+        {
+          "wrong": "Rozwiązywanie konfliktów nie chodzi o zniechęcanie stron do nieustanowania sporu.",
+          "correct": "Rozwiązywanie konfliktów nie polega na zniechęcaniu stron do kontynuowania sporu.",
+          "context": "Non-idiomatic construction and incorrect word choice."
+        },
+        {
+          "wrong": "Empatia polega tylko na poczynianiu zobowiązań w stosunku do innych.",
+          "correct": "Empatia nie polega tylko na składaniu zobowiązań wobec innych.",
+          "context": "Non-idiomatic verb and prepositional phrase."
+        },
+        {
+          "wrong": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i przeznaczeń.",
+          "correct": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i tradycji.",
+          "context": "Incorrect word 'przeznaczeń' instead of 'tradycji'."
+        },
+        {
+          "wrong": "zobrazowane",
+          "correct": "widoczne",
+          "context": "Lexical error for describing something visible."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic and Register Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of colloquial abbreviations or spelling mistakes that undermine the professional tone required in educational content.",
+      "examples": [
+        {
+          "wrong": "szacun",
+          "correct": "szacunek",
+          "context": "Colloquial abbreviation inappropriate for formal context."
+        },
+        {
+          "wrong": "Ta faktualność opiera się na podstawowej wiedzy w kodowaniu...",
+          "correct": "Ta prawidłowość opiera się na podstawowej wiedzy w kodowaniu...",
+          "context": "Calque from English; unnatural word in Polish."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntax and Punctuation Errors",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Problems with sentence structure, missing punctuation, or incorrect prepositions that affect clarity and grammatical correctness.",
+      "examples": [
+        {
+          "wrong": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+          "correct": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny', ponieważ jest na rynku od wielu lat.",
+          "context": "Missing quotation mark and incorrect preposition."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inaccuracy in Terminology",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms that do not fit the cultural or historical context, leading to misrepresentation or confusion for Polish audiences.",
+      "examples": [
+        {
+          "wrong": "złote kule",
+          "correct": "złote ozdoby",
+          "context": "Ancient Egyptian artifacts; 'złote kule' is not culturally accurate, while 'złote ozdoby' reflects actual historical items."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic Mathematical Expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of awkward or non-standard phrasing in mathematical contexts, reducing clarity and naturalness for Polish learners.",
+      "examples": [
+        {
+          "wrong": "rozwiązują zmienną",
+          "correct": "je spełniają",
+          "context": "Describing solutions to equations; the corrected phrase is idiomatic and widely understood in Polish mathematics education."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Adjective-Noun Agreement Errors",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrect grammatical agreement between adjectives and nouns, affecting linguistic accuracy and professional tone.",
+      "examples": [
+        {
+          "wrong": "bardziej zróżnicowaną i wszechstronną programowanie",
+          "correct": "bardziej zróżnicowane i wszechstronne programowanie",
+          "context": "Describing programming; adjectives must match the neuter singular noun 'programowanie'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or imprecise lexical choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of words or phrases that are not idiomatic or precise in Polish, affecting naturalness and clarity.",
+      "examples": [
+        {
+          "wrong": "poprawia ich osobisty rozwój",
+          "correct": "wspiera ich rozwój osobisty",
+          "context": "More natural and idiomatic phrasing for personal development."
+        },
+        {
+          "wrong": "pomaga w rozwiązaniu konfliktów",
+          "correct": "pomaga w rozwiązywaniu konfliktów",
+          "context": "Aspect and context require the gerund form."
+        },
+        {
+          "wrong": "poleganie na zobowiązaniach",
+          "correct": "składanie zobowiązań",
+          "context": "Correct term for making commitments."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect case or form of adjectives and nouns",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Adjectives or nouns are used in the wrong grammatical case or form, leading to minor clarity or correctness issues.",
+      "examples": [
+        {
+          "wrong": "Ta propozycja jest poprawną",
+          "correct": "Ta propozycja jest poprawna",
+          "context": "Adjective in instrumental case instead of nominative to match the subject."
+        },
+        {
+          "wrong": "bez wyrażenia uczuć",
+          "correct": "bez wyrażania uczuć",
+          "context": "Gerund form needed for standard usage after 'bez'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Imprecise terminology in technical contexts",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Technical terms are used imprecisely, which may cause minor confusion in specialized contexts.",
+      "examples": [
+        {
+          "wrong": "instrukcji programowych",
+          "correct": "instrukcji programistycznych",
+          "context": "Correct adjective for programming instructions."
+        }
+      ]
+    }
+  ]
+}

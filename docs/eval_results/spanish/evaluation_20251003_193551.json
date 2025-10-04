@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Fijarse en las primeras y últimas frases de los párrafos.",
+      "correction": "Fijarse en las primeras y últimas oraciones de los párrafos.",
+      "description": "The word 'frases' is often used interchangeably with 'oraciones' in Spanish, but in the context of reading strategies, 'oraciones' (sentences) is more precise and standard. 'Frases' can refer to any phrase, not necessarily a complete sentence, which may cause confusion in educational contexts. Using 'oraciones' ensures clarity and aligns with standard Spanish terminology for reading comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Al buscar un artículo sobre cambio climático en una revista, puedes leer los títulos y encabezados para localizar el artículo relevante.",
+      "correction": "Al buscar un artículo sobre cambio climático en una revista, puedes leer los títulos y encabezados para encontrar el artículo relevante.",
+      "description": "The verb 'localizar' is technically correct but less natural in this context for standard Spanish. 'Encontrar' is more commonly used when referring to finding an article in everyday educational Spanish, making the sentence sound more natural and locally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Desplazar los ojos rápidamente sobre el texto buscando palabras clave o números.",
+      "correction": "Desplazar la vista rápidamente sobre el texto buscando palabras clave o números.",
+      "description": "The phrase 'desplazar los ojos' is understandable but not idiomatic in Spanish. 'Desplazar la vista' is the standard and natural way to express scanning with one's eyes in Spanish, improving both linguistic accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Escaneo es una técnica de lectura que ayuda a localizar rápidamente información específica dentro de un texto, lo cual es útil para obtener información importante de manera eficiente.",
+      "correction": "El escaneo es una técnica de lectura que ayuda a localizar rápidamente información específica dentro de un texto, lo cual es útil para obtener información importante de manera eficiente.",
+      "description": "The sentence omits the definite article 'El' before 'escaneo', which is required for standard Spanish terminology when introducing a technique. Adding 'El' ensures the sentence follows proper Spanish conventions and sounds natural in educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:35:51.567634",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

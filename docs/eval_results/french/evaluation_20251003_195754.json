@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En utilisant ces trois stratégies selon les besoins, vous pouvez aborder n'importe quelle tâche de lecture avec confiance et efficacité.",
+      "correction": "En utilisant ces trois stratégies selon les besoins, vous pouvez aborder n’importe quelle tâche de lecture avec confiance et efficacité.",
+      "description": "The apostrophe in 'n'importe' should be a typographic apostrophe (’), not a straight apostrophe ('). This is a minor orthographic issue that improves the professional appearance and typographic correctness of the text.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:54.018885",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

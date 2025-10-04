@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "承認学校での卒業式に参加するか、卒業後の快適な旅行に出発する選択肢があるとしましょう。.",
+      "correction": "承認学校での卒業式に参加するか、卒業後の快適な旅行に出発する選択肢があるとしましょう。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "このような状況は、論理的推論が感情的な欲求を取り扱う際の意思決定において重要な役割を果たします。この種の決定は、日常生活で頻繁に遭遇され、それに対処する能力を形成します。.",
+      "correction": "このような状況は、論理的推論が感情的な欲求を取り扱う際の意思決定において重要な役割を果たします。この種の決定は、日常生活で頻繁に遭遇され、それに対処する能力を形成します。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "論理的推論は感情によって強制されるべきではありません。.",
+      "correction": "論理的推論は感情によって強制されるべきではありません。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "論理的推論は、情報と事実に基づいたステップごとの決定プロセスであり、感情や感情が直接的に影響を与えません。感情的影響は別の考慮事項であり、意思決定には論理的な考慮が必要です。.",
+      "correction": "論理的推論は、情報と事実に基づいたステップごとの決定プロセスであり、感情や感情が直接的に影響を与えません。感情的影響は別の考慮事項であり、意思決定には論理的な考慮が必要です。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情は常に良い意思決定の指標である。.",
+      "correction": "感情は常に良い意思決定の指標である。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情は意思決定に大きな影響を与えることがありますが、それが常に最善の選択を導くわけではないこともあります。例えば、緊急時には落ち着いた判断が必要な場合があります。.",
+      "correction": "感情は意思決定に大きな影響を与えることがありますが、それが常に最善の選択を導くわけではないこともあります。例えば、緊急時には落ち着いた判断が必要な場合があります。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "財務計画を立てる際には、財政的利益よりも個人的な恩恵を優先する必要はありません。.",
+      "correction": "財務計画を立てる際には、財政的利益よりも個人的な恩恵を優先する必要はありません。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "財務計画は、長期的な財政的目標を考慮し、個人的な恩恵よりも経済的な利益を優先することが一般的です。.",
+      "correction": "財務計画は、長期的な財政的目標を考慮し、個人的な恩恵よりも経済的な利益を優先することが一般的です。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "誰かが健康のために運動を始めるかどうかを決定する際に、依存しているのは論理的推論と感情的影響のみです。.",
+      "correction": "誰かが健康のために運動を始めるかどうかを決定する際に、依存しているのは論理的推論と感情的影響のみです。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "この声明は誤解を招く可能性があります。意思決定には、目標や結果、リスク評価、そして個人的な価値観などのさまざんな要素が含まれています。健康行動を選択する際には、例えば、身体的な利点（論理的推論）と個人的な健康の欲求やモチベーション（感情的影響）を考慮することも含まれます。.",
+      "correction": "この声明は誤解を招く可能性があります。意思決定には、目標や結果、リスク評価、そして個人的な価値観などのさまざんな要素が含まれています。健康行動を選択する際には、例えば、身体的な利点（論理的推論）と個人的な健康の欲求やモチベーション（感情的影響）を考慮することも含まれます。",
+      "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:25:40.622125",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

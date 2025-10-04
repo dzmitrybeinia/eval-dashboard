@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Si tienes $20 y quieres comprar cuadernos que cuestan $4 cada uno, puedes usar álgebra para calcular cuántos cuadernos puedes comprar.",
+      "correction": "Si tienes 20 € y quieres comprar cuadernos que cuestan 4 € cada uno, puedes usar álgebra para calcular cuántos cuadernos puedes comprar.",
+      "description": "The use of the dollar sign ($) is not culturally appropriate for Spanish educational content unless specifically referring to US currency. For general Spanish-speaking audiences, the euro (€) or local currency should be used, or the currency should be specified. This improves cultural relevance and avoids confusion.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Necesitas 1.5 huevos.",
+      "correction": "Necesitas 1 huevo y medio.",
+      "description": "The phrase '1.5 huevos' is mathematically correct but unnatural in Spanish culinary context. The more natural and idiomatic way to express this is '1 huevo y medio.' This correction improves clarity and aligns with common usage in Spanish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "El álgebra es como un lenguaje secreto que usamos para expresar relaciones y resolver problemas utilizando números y símbolos.",
+      "correction": "El álgebra es como un lenguaje especial que usamos para expresar relaciones y resolver problemas utilizando números y símbolos.",
+      "description": "The phrase 'lenguaje secreto' may be confusing or misleading for educational purposes, as it could imply exclusivity or mystery rather than accessibility. 'Lenguaje especial' is more appropriate and inclusive for Spanish learners, making the content more welcoming and culturally sensitive.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "En la ecuación \\( x + 5 = 10 \\), \\( x \\) es la variable.",
+      "correction": "En la ecuación x + 5 = 10, x es la variable.",
+      "description": "The use of LaTeX math delimiters (\\( ... \\)) may not be supported or familiar in all Spanish educational contexts, especially for beginners. Removing them and presenting the equation in plain text improves accessibility and comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La declaración es incorrecta porque el álgebra no se usa para ajustar fracciones de ingredientes. En la cocina, las medidas suelen ser de tamaño entero, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de servicios, no para ajustar fracciones exactas de una receta.",
+      "correction": "La declaración es incorrecta porque, aunque el álgebra puede ayudar a ajustar cantidades en recetas, en la práctica culinaria las medidas suelen ser enteras y no siempre es posible usar fracciones exactas de ingredientes como huevos.",
+      "description": "The feedback overgeneralizes the use of algebra in cooking. While algebra can help adjust ingredient quantities, the practical limitation is with indivisible items like eggs. The correction clarifies that algebra is useful for planning, but in practice, some ingredients cannot be divided exactly, which is a more accurate and culturally relevant explanation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T01:30:26.617169",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

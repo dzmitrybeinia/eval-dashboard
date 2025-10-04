@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "再生可能資源は地球の生態系に不可欠です。.",
+      "correction": "再生可能資源は地球の生態系に不可欠です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。). In Japanese, sentences should end with a single full-width period (。) and not be followed by an English period. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "再生可能エネルギーは化石燃料に比べて環境への影響が少ない。.",
+      "correction": "再生可能エネルギーは化石燃料に比べて環境への影響が少ない。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used at the end of a sentence. This is a minor orthographic error but should be corrected for proper Japanese writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これらは化石燃料とは異なり、燃焼時に減少させる汚染物質を排出しないため、環境への負荷が少ないとされています。.",
+      "correction": "これらは化石燃料とは異なり、燃焼時に減少させる汚染物質を排出しないため、環境への負荷が少ないとされています。",
+      "description": "There is an unnecessary English period (.) after the Japanese full stop (。). Only the Japanese full stop should be used at the end of a sentence. This is a minor orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "再利用は資源の消耗を減らす重要な方法です。.",
+      "correction": "再利用は資源の消耗を減らす重要な方法です。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "再利用は資源を一度だけ使用した後、次に使用することを意味します。これにより、新しい資源を必要としないため、資源の循環を促進します。これは、環境への影響を軽減し、資源を長く持続可能に保つために重要です。.",
+      "correction": "再利用は資源を一度だけ使用した後、次に使用することを意味します。これにより、新しい資源を必要としないため、資源の循環を促進します。これは、環境への影響を軽減し、資源を長く持続可能に保つために重要です。",
+      "description": "There is an unnecessary English period (.) after the Japanese full stop (。) at the end of the feedback. Only the Japanese full stop should be used. This is a minor orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "資源が豊富な地域は経済が繁荣することが一般的です。.",
+      "correction": "資源が豊富な地域は経済が繁栄することが一般的です。",
+      "description": "There are two issues: (1) The sentence ends with both a Japanese full stop (。) and an English period (.), which is an orthographic error. (2) The kanji '繁荣' is incorrect for Japanese; the correct kanji is '繁栄'. This is a medium-severity issue as it affects both spelling and comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "資源が豊富な地域はしばしば産業が発展し、経済活動が活発になる傾向があります。これは、大量の石油や金などの貴重な資源を持つ地域が、それらを輸出して経済を支えることによって確立される経済モデルに反映されています。.",
+      "correction": "資源が豊富な地域はしばしば産業が発展し、経済活動が活発になる傾向があります。これは、大量の石油や金などの貴重な資源を持つ地域が、それらを輸出して経済を支えることによって確立される経済モデルに反映されています。",
+      "description": "There is an unnecessary English period (.) after the Japanese full stop (。) at the end of the feedback. Only the Japanese full stop should be used. This is a minor orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自然資源は永遠に存在しているため、人間の利用には限度がありません。.",
+      "correction": "自然資源は永遠に存在しているため、人間の利用には限度がありません。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自然資源は確かに限られていますが、その存在は絶えないわけではありません。例えば、水や木材は再生可能資源として耐久性に富んでいますが、それでも資源の循環は人間の活動や環境への影響を考慮する必要があります。.",
+      "correction": "自然資源は確かに限られていますが、その存在は絶えないわけではありません。例えば、水や木材は再生可能資源として耐久性に富んでいますが、それでも資源の循環は人間の活動や環境への影響を考慮する必要があります。",
+      "description": "There is an unnecessary English period (.) after the Japanese full stop (。) at the end of the feedback. Only the Japanese full stop should be used. This is a minor orthographic issue.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:28:04.154309",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 9,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

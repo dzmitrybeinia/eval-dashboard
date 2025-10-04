@@ -1,0 +1,1291 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The word 'органел' is an incorrect form; the correct Russian term is 'органелла' (singular) or 'органеллы' (plural). This error affects lexical precision and may confuse learners about the correct terminology for cell organelles.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "дележкам",
+      "correction": "мастерам",
+      "description": "The word 'дележкам' is not appropriate in this context. The intended meaning is likely 'мастерам' (craftsmen) or 'работникам' (workers), as 'дележка' refers to division or sharing, not a person. This lexical error impacts the clarity and accuracy of the analogy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "organelлы",
+      "correction": "органеллы",
+      "description": "Mixing Latin-rooted 'organelлы' with Cyrillic is incorrect and nonstandard in Russian. The proper term is 'органеллы'. This lexical error disrupts the naturalness and professionalism of the scientific terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The singular form 'органел' is incorrect; the correct term is 'органелла'. This error affects lexical precision and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "дележка",
+      "correction": "мастер",
+      "description": "The word 'дележка' is used incorrectly to refer to a person in a workshop. The correct term is 'мастер' or 'работник'. This lexical error confuses the analogy and impacts comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органел' instead of 'органелла'. This affects scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "Incorrect singular form 'органел' should be 'органелла'. This impacts lexical precision and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органел' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "The plural 'органелл' is used as singular in some contexts. The correct singular form is 'органелла'. This error affects lexical precision and scientific clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' instead of 'органелла'. This error affects the scientific terminology and may mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Incorrect use of 'органелл' as singular. The correct term is 'органелла'. This impacts scientific terminology and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органелл",
+      "correction": "органелла",
+      "description": "Repeated incorrect use of 'органелл' as singular. The correct form is 'органелла'. This affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "центральной бизоном",
+      "correction": "центральным офисом",
+      "description": "The phrase 'центральной бизоном' is a mistranslation or typo; it should be 'центральным офисом' (central office) or 'центром управления'. The current phrase is unnatural and confusing in Russian, affecting the analogy and overall clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "цитоскелемент",
+      "correction": "цитоскелет",
+      "description": "The term 'цитоскелемент' is incorrect; the proper scientific term is 'цитоскелет'. This lexical error affects the accuracy of biological terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "пластинку",
+      "correction": "основу",
+      "description": "The word 'пластинку' is not appropriate in the context of cell membranes. The correct term is 'основу' (basis) or 'структуру' (structure). This lexical error impacts the clarity and scientific accuracy of the explanation.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:00:36.803007",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 0.0,
+    "classification": "UNACCEPTABLE",
+    "total_issues": 158,
+    "total_penalty": 47.3,
+    "issue_breakdown": {
+      "linguistic": 157,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 47.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "déveloermener",
+      "correction": "développer",
+      "description": "The word 'déveloermener' in the feedback for the Buddhism section is a spelling error. The correct word should be 'développer', which means 'to develop'. This error affects comprehension and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La Bible (Ancien et Nouveau Testament)",
+      "correction": "La Bible (Ancien Testament et Nouveau Testament)",
+      "description": "The phrase 'La Bible (Ancien et Nouveau Testament)' is understandable but lacks the standard French terminology, which typically specifies 'Ancien Testament et Nouveau Testament' for clarity and consistency in educational contexts. This correction ensures the terminology aligns with common usage in French-speaking educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "7ème siècle de notre ère",
+      "correction": "VIIe siècle de notre ère",
+      "description": "In French, centuries are conventionally written in Roman numerals with the superscript 'e' (e.g., 'VIIe siècle') rather than Arabic numerals ('7ème siècle'). This correction aligns with standard French academic formatting and improves the professionalism of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Eid al-Fitr (fin du Ramadan) et Eid al-Adha (sacrifice d'Abraham)",
+      "correction": "Aïd el-Fitr (fin du Ramadan) et Aïd el-Adha (fête du sacrifice)",
+      "description": "The names of the Islamic festivals should use the French transliterations 'Aïd el-Fitr' and 'Aïd el-Adha' for consistency and naturalness in French educational content. Additionally, 'fête du sacrifice' is the standard French description for 'Aïd el-Adha', which avoids direct reference to Abraham and aligns with local terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Pâque (commémoration de l'Exode d'Égypte)",
+      "correction": "Pessa'h (commémoration de l'Exode d'Égypte)",
+      "description": "In French, the Jewish holiday is more accurately referred to as 'Pessa'h' rather than 'Pâque', which can be confused with the Christian holiday 'Pâques'. Using 'Pessa'h' ensures clarity and respects the distinction between the two holidays in French-speaking contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Casher",
+      "correction": "Kasher",
+      "description": "The correct French spelling for Jewish dietary laws is 'Kasher', not 'Casher'. This correction ensures the use of standard terminology in French educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "5ème-6ème siècle avant notre ère",
+      "correction": "Ve-VIe siècle avant notre ère",
+      "description": "French academic convention uses Roman numerals for centuries (e.g., 'Ve-VIe siècle') rather than Arabic numerals ('5ème-6ème siècle'). This correction improves the professionalism and consistency of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:58:33.329851",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

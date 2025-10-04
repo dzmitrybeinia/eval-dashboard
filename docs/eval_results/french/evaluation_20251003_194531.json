@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "À travers des actions militantes, des lois importantes, et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité. 🌍",
+      "correction": "À travers des actions militantes, des lois importantes et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité.",
+      "description": "The use of the globe emoji (🌍) at the end of a formal educational introduction is not appropriate for French academic content, as it can undermine the seriousness and professionalism of the text. Additionally, the comma before 'et' in the enumeration is unnecessary in French and should be removed for stylistic consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marche sur Washington (1963) : Manifestation massive en faveur des droits civiques, où Martin Luther King Jr. a prononcé son discours \"I Have a Dream\".",
+      "correction": "Marche sur Washington (1963) : Manifestation massive en faveur des droits civiques, où Martin Luther King Jr. a prononcé son discours « I Have a Dream ».",
+      "description": "French typographic conventions require the use of guillemets (« ») instead of English quotation marks (\" \") for direct speech or titles. This ensures orthographic accuracy and maintains professional standards in French writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Comité de coordination des étudiants non-violents (SNCC)",
+      "description": "The name of the organization is presented only in English, which may hinder comprehension for French learners. Providing the French equivalent alongside the abbreviation ensures clarity and aligns with localization best practices for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NAACP",
+      "correction": "NAACP (Association nationale pour la promotion des gens de couleur)",
+      "description": "The abbreviation NAACP is used without explanation, which may not be immediately clear to French-speaking learners. Adding the French translation in parentheses improves accessibility and understanding.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ce mouvement a non seulement changé les États-Unis, mais il a également laissé un héritage durable qui influence la société moderne.",
+      "correction": "Ce mouvement n’a pas seulement changé les États-Unis, mais il a également laissé un héritage durable qui influence la société moderne.",
+      "description": "The phrase 'non seulement... mais également' is correct, but in formal French, 'non seulement... mais aussi' is more idiomatic. Additionally, the contraction 'n’a' should be used instead of 'a' for proper negation structure, though the original is not strictly incorrect. This correction enhances naturalness and idiomatic usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement_1.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:45:31.987960",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "label": "v2",
+    "language": "spanish",
+    "generated_at": "2025-10-05T01:31:07.662648"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Gender Agreement Errors with Articles and Nouns",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Incorrect use of definite articles that do not match the grammatical gender of the noun, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "El clorofila",
+          "correct": "La clorofila",
+          "context": "Mismatch between masculine article and feminine noun."
+        },
+        {
+          "wrong": "las sentimientos",
+          "correct": "los sentimientos",
+          "context": "Mismatch between feminine article and masculine plural noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy in Key References",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of incorrect or non-standard terms for well-known concepts or references, resulting in misrepresentation and loss of meaning.",
+      "examples": [
+        {
+          "wrong": "Son de Reverde",
+          "correct": "Sueño de libertad",
+          "context": "Mislabeling of Martin Luther King Jr.'s famous speech, causing confusion about the historical reference."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Educational Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Emojis such as 🌍, ✨, and 🌟 are used in educational materials, which may be perceived as informal or unprofessional in Spanish-speaking academic contexts. Removing them maintains a suitable tone for formal learning environments.",
+      "examples": [
+        {
+          "wrong": "Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo. 🌍✨",
+          "correct": "Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo.",
+          "context": "Lesson introductions and motivational statements"
+        },
+        {
+          "wrong": "¡Prepárense para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+          "correct": "¡Prepárate para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta!",
+          "context": "Lesson opening statements"
+        },
+        {
+          "wrong": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida. 🌟",
+          "correct": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida.",
+          "context": "Motivational closing statements"
+        },
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Standalone visual emphasis"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical imprecision and unnatural phrasing",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of terms or phrasing that are technically correct but unnatural or imprecise in Spanish, reducing clarity and localization fit.",
+      "examples": [
+        {
+          "wrong": "Necesitas 1.5 huevos.",
+          "correct": "Necesitas 1 huevo y medio.",
+          "context": "Culinary instructions in quiz content."
+        },
+        {
+          "wrong": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos.",
+          "correct": "En el lenguaje de programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos.",
+          "context": "Technical explanations in programming quizzes."
+        },
+        {
+          "wrong": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y el Sphinx.",
+          "correct": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y la Esfinge.",
+          "context": "Historical references in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or Calque Expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Direct translations or calques from English (e.g., 'para consistencia', 'lenguaje secreto') result in unnatural phrasing in Spanish. Corrections use more idiomatic and inclusive language, improving clarity and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Usar letras minúsculas para consistencia.",
+          "correct": "Usar letras minúsculas para mantener la consistencia.",
+          "context": "Instructions for formatting"
+        },
+        {
+          "wrong": "El álgebra es como un lenguaje secreto que usamos para expresar relaciones y resolver problemas utilizando números y símbolos.",
+          "correct": "El álgebra es como un lenguaje especial que usamos para expresar relaciones y resolver problemas utilizando números y símbolos.",
+          "context": "Concept explanations"
+        },
+        {
+          "wrong": "Imagina que quieres encontrar el número más grande en una lista de números:",
+          "correct": "Imagina que quieres encontrar el número mayor en una lista de números:",
+          "context": "Problem statements"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology Consistency and Redundancy",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Technical terms are sometimes capitalized incorrectly or used redundantly. Corrections ensure terms like 'verdadero o falso' are not capitalized mid-sentence and avoid unnecessary repetition (e.g., 'creíble y confiable').",
+      "examples": [
+        {
+          "wrong": "Booleano: Verdadero o falso.",
+          "correct": "Booleano: verdadero o falso.",
+          "context": "Technical definitions"
+        },
+        {
+          "wrong": "Fiabilidad: ¿Es la fuente creíble y confiable?",
+          "correct": "Fiabilidad: ¿Es la fuente confiable?",
+          "context": "Critical thinking prompts"
+        },
+        {
+          "wrong": "Outback australiano",
+          "correct": "desierto australiano",
+          "context": "Geographical terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Verb tense inconsistency",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Mixing present and past tenses within the same sentence or context, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+          "correct": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
+          "context": "Quiz explanations about historical processes."
+        },
+        {
+          "wrong": "Las zonas climáticas continentales tienen temperaturas extremadamente altas durante el verano.",
+          "correct": "Las zonas climáticas continentales pueden tener temperaturas altas durante el verano, pero no necesariamente extremas.",
+          "context": "Describing climate characteristics in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender and article agreement errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Incorrect use of gendered articles and missing definite articles, which affects grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "para la camuflaje en su ambiente helado y para mantener calor.",
+          "correct": "para el camuflaje en su ambiente helado y para mantener el calor.",
+          "context": "Describing animal adaptations and functions."
+        },
+        {
+          "wrong": "Pensamiento grupal",
+          "correct": "pensamiento de grupo",
+          "context": "Critical thinking terminology in quiz questions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect currency symbol usage",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of the dollar sign ($) instead of the culturally appropriate euro (€) or local currency symbol in Spanish educational content, which can cause confusion and reduce localization quality.",
+      "examples": [
+        {
+          "wrong": "Si tienes $20 y quieres comprar cuadernos que cuestan $4 cada uno...",
+          "correct": "Si tienes 20 € y quieres comprar cuadernos que cuestan 4 € cada uno...",
+          "context": "Currency references in math or shopping scenarios"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard legal terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of literal or uncommon translations for official names of laws or acts, rather than the standard terminology recognized in Spanish-speaking contexts, which can hinder comprehension and consistency.",
+      "examples": [
+        {
+          "wrong": "Ley de Derechos Electorales de 1965",
+          "correct": "Ley de Derecho al Voto de 1965",
+          "context": "References to historical or legal acts in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Format and Syntax Adaptation for Spanish Contexts",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Formatting conventions such as LaTeX delimiters or pseudocode syntax may not be familiar or accessible to all Spanish-speaking learners. Corrections present equations and code in plain text or with Spanish keywords.",
+      "examples": [
+        {
+          "wrong": "En la ecuación \\( x + 5 = 10 \\), \\( x \\) es la variable.",
+          "correct": "En la ecuación x + 5 = 10, x es la variable.",
+          "context": "Math explanations"
+        },
+        {
+          "wrong": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+          "correct": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+          "context": "Programming pseudocode"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of quotation marks",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "English-style double quotes are used instead of Spanish angle quotation marks (« ») for highlighting terms or concepts.",
+      "examples": [
+        {
+          "wrong": "Comienza con el primer número como el \"mayor\".",
+          "correct": "Comienza con el primer número como el «mayor».",
+          "context": "Highlighting terms or concepts in instructions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect capitalization in headings",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Titles or headings capitalize more than the first word, which is not standard in Spanish unless proper nouns are involved.",
+      "examples": [
+        {
+          "wrong": "¿Qué son los Bucles Simples?",
+          "correct": "¿Qué son los bucles simples?",
+          "context": "Quiz headings and section titles."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing definite articles in noun phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Definite articles are omitted in complex noun phrases, reducing clarity and naturalness in Spanish.",
+      "examples": [
+        {
+          "wrong": "Esto demuestra su avanzado conocimiento en organización de trabajo y planificación logística.",
+          "correct": "Esto demuestra su avanzado conocimiento en la organización del trabajo y la planificación logística.",
+          "context": "Describing skills or knowledge areas."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect verb conjugation in general statements",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Subjunctive is used instead of indicative when expressing general facts, leading to grammatical inaccuracy.",
+      "examples": [
+        {
+          "wrong": "La idea de que las variables no puedan almacenar información es incorrecta...",
+          "correct": "La idea de que las variables no pueden almacenar información es incorrecta...",
+          "context": "Explaining programming concepts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic phrasing for code examples",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Phrases like 'Ejemplo en código' are used instead of the idiomatic 'Ejemplo de código' to introduce code examples.",
+      "examples": [
+        {
+          "wrong": "Ejemplo en código:",
+          "correct": "Ejemplo de código:",
+          "context": "Introducing code samples in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Contextualization of Explanations",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Explanations sometimes overgeneralize or misrepresent practical realities (e.g., algebra in cooking). Corrections clarify cultural and practical limitations, making content more relevant and accurate for Spanish-speaking learners.",
+      "examples": [
+        {
+          "wrong": "En la cocina, las medidas suelen ser de tamaño entero, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de servicios, no para ajustar fracciones exactas de una receta.",
+          "correct": "En la práctica culinaria las medidas suelen ser enteras y no siempre es posible usar fracciones exactas de ingredientes como huevos.",
+          "context": "Feedback on math applications"
+        }
+      ]
+    }
+  ]
+}

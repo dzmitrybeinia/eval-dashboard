@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Złamanie DNA może prowadzić do nowych cech biologicznych.",
+      "correction": "A mutation in DNA can lead to new biological traits.",
+      "description": "The statement is in Polish, not English, which is inconsistent with the rest of the English-language educational content. This disrupts comprehension for English-speaking learners and is a critical localization error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Warstwa znaczenia DNA polega na przekazywaniu genetycznych informacji przez pokolenia, co jest kluczowe dla przejawiania życia poprzez podziały komórek. Zmiany w jego strukturze, często nazywane mutacjami, mogą prowadzić do nowych cech, które mogą wpłynąć na rozwój organizmu. To zrozumienie jest kluczowe dla różnych dziedzin nauki, w tym biologii, medycyny i nauki kryminalnej.",
+      "correction": "The significance of DNA lies in passing genetic information through generations, which is crucial for the manifestation of life via cell division. Changes in its structure, often called mutations, can lead to new traits that may affect organism development. This understanding is key for various scientific fields, including biology, medicine, and forensic science.",
+      "description": "The feedback is in Polish, not English, which is inconsistent with the rest of the English-language educational content. This is a critical localization error that impedes comprehension for English-speaking learners.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "English",
+    "timestamp": "2025-10-03T19:30:49.779454",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

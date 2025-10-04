@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情はみんなが経験するものではありません。.",
+      "correction": "感情はみんなが経験するものではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情は私たちが自然に経験するものです。異なる人々は異なる感情を持つことがありますが、感情自体は全員が経験するものではありません。例えば、ある人は特定の状況で混乱を感じることがある人もいれば、その人が落ち込んだり、喜びを感じることがある人もいます。.",
+      "correction": "感情は私たちが自然に経験するものです。異なる人々は異なる感情を持つことがありますが、感情自体は全員が経験するものです。例えば、ある人は特定の状況で混乱を感じることがある一方で、落ち込んだり、喜びを感じることがある人もいます。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Additionally, the sentence '感情自体は全員が経験するものではありません' contradicts the intended meaning and the lesson's theme, as it incorrectly states that not everyone experiences emotions. The correct statement should affirm that everyone experiences emotions. The sentence structure is also improved for clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情の表現は常に身体的な反応を伴います。.",
+      "correction": "感情の表現は常に身体的な反応を伴います。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情の表現には身体的な反応があることはありますが、それが常にあるわけではありません。例えば、紙の上に書かれた文章を読むときには、感情的な反応が生じるかもしれませんが、それは個々の感情や状況によって大きく異なる可能性があります。.",
+      "correction": "感情の表現には身体的な反応があることはありますが、それが常にあるわけではありません。例えば、紙の上に書かれた文章を読むときには、感情的な反応が生じるかもしれませんが、それは個々の感情や状況によって大きく異なる可能性があります。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "健康的な感情表現は、他人に責めることが一般的です。.",
+      "correction": "健康的な感情表現は、他人に責めることが一般的です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "健康的な感情表現は、自分が直面している状況や感じている感情を冷静に伝えることに焦点を当てています。それは、対話を促進し、解決に向けているのであって、責めることはありません。.",
+      "correction": "健康的な感情表現は、自分が直面している状況や感じている感情を冷静に伝えることに焦点を当てています。それは、対話を促進し、解決に向けているのであって、責めることはありません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "強い感情に直面した際、すぐに解決策を見つけることが常に最善の策です。.",
+      "correction": "強い感情に直面した際、すぐに解決策を見つけることが常に最善の策です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "即時の解決策を探ることは、時には効果的ですが、すぐには固まっていない状況では役に立ちません。感情を管理する際には、時間をかけて深呼吸をし、自分の感情を理解し、状況を再評価することが有益です。緊張する状況の中でも、休憩を取り、心を落ち着かせることが、より良い決定を下せるための重要なステップです。.",
+      "correction": "即時の解決策を探ることは、時には効果的ですが、すぐには固まっていない状況では役に立ちません。感情を管理する際には、時間をかけて深呼吸をし、自分の感情を理解し、状況を再評価することが有益です。緊張する状況の中でも、休憩を取り、心を落ち着かせることが、より良い決定を下せるための重要なステップです。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情は意思決定に影響を与えない。.",
+      "correction": "感情は意思決定に影響を与えない。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情は確かに意思決定プロセスに影響を与えます。例えば、ポジティブな気持ちは明確な思考を促し、ネガティブな気持ちは判断が遅れることがあります。.",
+      "correction": "感情は確かに意思決定プロセスに影響を与えます。例えば、ポジティブな気持ちは明確な思考を促し、ネガティブな気持ちは判断が遅れることがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings_1.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:26:18.450648",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

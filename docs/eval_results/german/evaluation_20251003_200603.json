@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Montgomery Bus Boykott",
+      "correction": "Montgomery-Bus-Boykott",
+      "description": "The term 'Montgomery Bus Boykott' should be written as a compound noun in German, using hyphens to connect the elements. This follows standard German orthographic rules for event names and ensures clarity and correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Student Nonviolent Coordinating Committee (SNCC)",
+      "description": "While the English name is correct, in German educational content, it is standard to provide the German translation or explanation for clarity, especially for learners. Consider adding 'Studentischer Ausschuss für gewaltfreie Koordination (SNCC)' or a brief explanation in German to improve comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍",
+      "correction": "",
+      "description": "The use of the globe emoji '🌍' in formal educational German content is generally considered informal and may not align with the expected tone for academic materials. It is recommended to remove the emoji to maintain a professional and neutral style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Voting Rights Act von 1965",
+      "correction": "Wahlrechtsgesetz von 1965 (Voting Rights Act)",
+      "description": "For German audiences, it is preferable to use the translated term 'Wahlrechtsgesetz von 1965' followed by the original English name in parentheses. This ensures clarity and consistency with German legal terminology conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "LGBTQ+-Personen",
+      "correction": "LSBTIQ+-Personen",
+      "description": "The abbreviation 'LGBTQ+' is commonly used in English, but the standard German equivalent is 'LSBTIQ+'. Using the German abbreviation ensures cultural and terminological consistency for the target audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:06:03.382286",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

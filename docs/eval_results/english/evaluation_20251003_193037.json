@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Variables in algebra can be letters or symbols, and sometimes numbers.",
+      "correction": "Variables in algebra are typically represented by letters or symbols, not numbers.",
+      "description": "The feedback suggests that variables can sometimes be numbers, which is misleading. In algebra, variables are symbols (usually letters) that stand for unknown values, not actual numbers. Numbers are used as constants or coefficients, not as variables.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician.",
+      "correction": "Variables in algebra are represented by letters or symbols, not numbers. Numbers are used as constants or coefficients.",
+      "description": "The feedback incorrectly states that variables can be represented by numbers. This is conceptually inaccurate, as variables are placeholders for unknown values and are not numbers themselves.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Variables allow us to solve problems in a generalized way.",
+      "correction": "Variables allow us to represent unknown or changeable values in mathematical problems.",
+      "description": "The phrase 'solve problems in a generalized way' is vague and may confuse learners. A more precise explanation clarifies the role of variables in representing unknowns or changeable values.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "An expression cannot be simplified to zero by simply choosing a value for the variable.",
+      "correction": "An expression cannot be simplified by choosing a value for the variable to make it equal to zero.",
+      "description": "The original sentence could be misinterpreted as saying that simplification is about making the expression zero, rather than reducing its complexity. The correction clarifies that simplification is not about setting the expression to zero.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "English",
+    "timestamp": "2025-10-03T19:30:37.534189",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

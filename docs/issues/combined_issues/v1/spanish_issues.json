@@ -1,0 +1,1555 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "spanish",
+    "generated_at": "2025-10-03T20:30:47.919850",
+    "source_files": [
+      "evaluation_20251003_193306.json",
+      "evaluation_20251003_193310.json",
+      "evaluation_20251003_193318.json",
+      "evaluation_20251003_193321.json",
+      "evaluation_20251003_193325.json",
+      "evaluation_20251003_193331.json",
+      "evaluation_20251003_193335.json",
+      "evaluation_20251003_193338.json",
+      "evaluation_20251003_193342.json",
+      "evaluation_20251003_193349.json",
+      "evaluation_20251003_193352.json",
+      "evaluation_20251003_193354.json",
+      "evaluation_20251003_193356.json",
+      "evaluation_20251003_193405.json",
+      "evaluation_20251003_193416.json",
+      "evaluation_20251003_193419.json",
+      "evaluation_20251003_193421.json",
+      "evaluation_20251003_193425.json",
+      "evaluation_20251003_193426.json",
+      "evaluation_20251003_193439.json",
+      "evaluation_20251003_193442.json",
+      "evaluation_20251003_193444.json",
+      "evaluation_20251003_193447.json",
+      "evaluation_20251003_193451.json",
+      "evaluation_20251003_193453.json",
+      "evaluation_20251003_193458.json",
+      "evaluation_20251003_193500.json",
+      "evaluation_20251003_193504.json",
+      "evaluation_20251003_193508.json",
+      "evaluation_20251003_193515.json",
+      "evaluation_20251003_193519.json",
+      "evaluation_20251003_193526.json",
+      "evaluation_20251003_193529.json",
+      "evaluation_20251003_193533.json",
+      "evaluation_20251003_193534.json",
+      "evaluation_20251003_193537.json",
+      "evaluation_20251003_193544.json",
+      "evaluation_20251003_193547.json",
+      "evaluation_20251003_193551.json",
+      "evaluation_20251003_193553.json",
+      "evaluation_20251003_193600.json",
+      "evaluation_20251003_193603.json",
+      "evaluation_20251003_193605.json",
+      "evaluation_20251003_193606.json",
+      "evaluation_20251003_193608.json",
+      "evaluation_20251003_193611.json",
+      "evaluation_20251003_193613.json",
+      "evaluation_20251003_193620.json"
+    ],
+    "issue_counts": {
+      "linguistic": 90,
+      "localization": 96
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+        "correction": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
+        "description": "The verb 'sustenta' is in the present tense, which creates a tense inconsistency with the rest of the sentence, which is in the past. The correct form is 'sustentó' to maintain past tense throughout the statement. This improves grammatical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esto demuestra su avanzado conocimiento en organización de trabajo y planificación logística.",
+        "correction": "Esto demuestra su avanzado conocimiento en la organización del trabajo y la planificación logística.",
+        "description": "The phrase 'organización de trabajo y planificación logística' lacks definite articles, which are required in Spanish for clarity and naturalness. The corrected version adds 'la' before both 'organización del trabajo' and 'planificación logística', improving grammatical correctness and natural flow.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y el Sphinx.",
+        "correction": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y la Esfinge.",
+        "description": "The use of 'Sphinx' is an anglicism and not the standard Spanish term. The correct term is 'la Esfinge'. This correction addresses both a lexical error and a localization issue, ensuring the use of culturally and linguistically appropriate terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "lo cual es esencial para la camuflaje en su ambiente helado y para mantener calor.",
+        "correction": "lo cual es esencial para el camuflaje en su ambiente helado y para mantener el calor.",
+        "description": "There is a gender agreement error: 'la camuflaje' should be 'el camuflaje' because 'camuflaje' is masculine. Additionally, 'mantener calor' should be 'mantener el calor' to correctly use the definite article with an abstract noun. Both errors affect grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "pies anchos para caminar en la arena, pestañas largas para protegerse del viento y una joroba que almacena grasa para energía.",
+        "correction": "pies anchos para caminar en la arena, pestañas largas para protegerse del viento y una joroba que almacena grasa para obtener energía.",
+        "description": "The phrase 'almacena grasa para energía' is semantically imprecise. The correct collocation is 'para obtener energía' or 'para usar como energía.' This improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "El núcleo es conocido como el \"centro de control\" de la célula.",
+        "correction": "El núcleo es conocido como el \"centro de control\" de la célula.",
+        "description": "The phrase 'centro de control' is a literal translation of 'control center' and is commonly used in educational contexts in Spanish. However, in some regions, 'centro regulador' or 'regulador principal' may be preferred for scientific accuracy. In this context, 'centro de control' is acceptable, but educators should be aware of regional preferences for terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El retículo endoplasmático (RE) es una red de membranas que transporta materiales dentro de la célula.",
+        "correction": "El retículo endoplasmático (RE) es una red de membranas que transporta materiales dentro de la célula.",
+        "description": "No grammatical errors are present. However, the phrase 'transporta materiales dentro de la célula' could be clarified for educational purposes by specifying 'a diferentes partes de la célula' to avoid ambiguity, but this is stylistic rather than a strict linguistic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "El clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+        "correction": "La clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+        "description": "The noun 'clorofila' is feminine in Spanish and requires the article 'la' instead of 'el'. This is a gender agreement error that affects grammatical correctness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Son de Reverde",
+        "correction": "Sueño de Martin Luther King",
+        "description": "The phrase 'Son de Reverde' is a lexical error and does not correspond to any known speech or concept related to Martin Luther King Jr. The intended reference is to his famous 'I Have a Dream' speech, which in Spanish is commonly referred to as 'Sueño de Martin Luther King' or 'Tengo un sueño'. This error affects comprehension and accuracy, as it misrepresents a key historical event and could confuse learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las zonas climáticas influyen en todo, desde las plantas y animales que prosperan en un área hasta la forma en que los humanos viven y cultivan alimentos.",
+        "correction": "Las zonas climáticas influyen en todo, desde las plantas y animales que prosperan en un área hasta la forma en que los seres humanos viven y cultivan alimentos.",
+        "description": "The use of 'los humanos' is grammatically correct but less formal and less precise in educational Spanish. 'Los seres humanos' is the preferred term in academic and scientific contexts, providing greater clarity and formality. This correction improves lexical precision and aligns with standard educational register.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "perritos de las praderas",
+        "correction": "perros de la pradera",
+        "description": "The term 'perritos de las praderas' is a literal translation of 'prairie dogs.' In Spanish, the standard term is 'perros de la pradera.' The original uses a diminutive and plural form that is not standard for this animal in educational or scientific contexts. This correction ensures lexical precision and proper terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Imagina que quieres encontrar el número más grande en una lista de números:",
+        "correction": "Imagina que quieres encontrar el número mayor en una lista de números:",
+        "description": "The phrase 'el número más grande' is understandable but less precise in Spanish for this context. 'El número mayor' is the standard and more accurate term when referring to the largest value in a set of numbers, improving lexical precision.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Las variables permiten almacenar y actualizar datos de manera dinámica.",
+        "correction": "Las variables permiten almacenar y actualizar datos de manera dinámica.",
+        "description": "No linguistic errors found. The sentence is correct in terms of spelling, punctuation, and grammar.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos.",
+        "correction": "En el lenguaje de programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos.",
+        "description": "The phrase 'números sin signo' is inaccurate in this context. In programming, 'enteros' can be signed or unsigned, but the statement implies that unsigned integers include negative values, which is incorrect. The correction clarifies that integers can be signed (including negatives) or unsigned (only positives), improving both technical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La idea de que las variables no puedan almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+        "correction": "La idea de que las variables no pueden almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+        "description": "The use of 'no puedan' is grammatically incorrect in this context. The indicative 'no pueden' should be used because it refers to a general fact, not a hypothetical or uncertain situation. This correction improves grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "las sentimientos",
+        "correction": "los sentimientos",
+        "description": "The noun 'sentimientos' is masculine and plural, so the correct definite article is 'los', not 'las'. This is a gender agreement error that affects grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pensamiento grupal",
+        "correction": "Pensamiento grupal",
+        "description": "Although 'Pensamiento grupal' is linguistically correct, in Spanish the more widely accepted term for 'groupthink' is 'pensamiento de grupo'. Using 'pensamiento grupal' may cause confusion or reduce clarity, as it is less standard in academic and educational contexts. The correction improves lexical precision and aligns with established terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Dulces como laddoos y barfis, y snacks como samosas son compartidos entre familiares y amigos.",
+        "correction": "Dulces como laddus y barfis, y bocadillos como samosas son compartidos entre familiares y amigos.",
+        "description": "The word 'snacks' is an anglicism and should be replaced with the more natural Spanish term 'bocadillos' for better linguistic and localization quality. Additionally, 'laddoos' is more commonly rendered as 'ladus' in Spanish transliteration, though 'barfis' is acceptable.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las máscaras y disfraces representan libertad y creatividad, mientras que el Carnaval celebra la unidad y la alegría.",
+        "correction": "Las máscaras y los disfraces representan libertad y creatividad, mientras que el Carnaval celebra la unidad y la alegría.",
+        "description": "The definite article 'los' should be used before 'disfraces' to maintain parallel structure and proper grammar in Spanish ('las máscaras y los disfraces').",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "retroalimentación",
+        "correction": "retroalimentación",
+        "description": "While the word 'retroalimentación' is spelled correctly, it is used repeatedly throughout the content. For improved lexical variety and naturalness, consider alternating with synonyms such as 'comentarios' or 'opiniones' where appropriate. This enhances readability and avoids repetition.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "¡Bienvenidos a una exploración sobre la etiqueta digital! 🌐 En este mundo conectado, nuestras acciones en línea tienen un impacto significativo. Aprenderemos sobre cómo comportarnos de manera segura, respetuosa y ética en internet, mientras protegemos nuestra privacidad y evitamos comportamientos dañinos como el ciberacoso.",
+        "correction": "¡Bienvenidos a una exploración sobre la etiqueta digital! 🌐 En este mundo conectado, nuestras acciones en línea tienen un impacto significativo. Aprenderemos cómo comportarnos de manera segura, respetuosa y ética en internet, mientras protegemos nuestra privacidad y evitamos comportamientos dañinos como el ciberacoso.",
+        "description": "The phrase 'Aprenderemos sobre cómo comportarnos...' is a calque from English ('learn about how to...') and is not idiomatic in Spanish. The correct and natural form is 'Aprenderemos cómo comportarnos...', which avoids unnecessary preposition usage and improves sentence flow. This is a minor orthographic and lexical issue affecting naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Al comentar en una publicación de un compañero en un foro de discusión, utiliza un lenguaje constructivo y amable, como lo harías en una conversación cara a cara.",
+        "correction": "Al comentar en la publicación de un compañero en un foro de discusión, utiliza un lenguaje constructivo y amable, como lo harías en una conversación cara a cara.",
+        "description": "The phrase 'en una publicación de un compañero' should use the definite article 'la' to specify the publication being commented on, as is standard in Spanish for specific references. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "No publiques fotos ni información de otros sin su permiso.",
+        "correction": "No publiques fotos ni información de otras personas sin su permiso.",
+        "description": "The phrase 'de otros' is ambiguous and less precise than 'de otras personas', which clearly refers to other individuals. This correction improves clarity and precision in Spanish.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "En lugar de copiar texto directamente de un sitio web para un proyecto escolar, parafrasea la información y da crédito al autor original.",
+        "correction": "En lugar de copiar texto directamente de un sitio web para un proyecto escolar, parafrasea la información y da crédito al autor original.",
+        "description": "No linguistic or localization errors found. The sentence is grammatically correct and culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "El ciberacoso tiene consecuencias serias—sé proactivo en prevenirlo y abordarlo.",
+        "correction": "El ciberacoso tiene consecuencias serias; sé proactivo en prevenirlo y abordarlo.",
+        "description": "The use of an em dash (—) to separate clauses is not standard in Spanish. A semicolon (;) is the correct punctuation for joining related independent clauses.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "difuminos",
+        "correction": "difumino",
+        "description": "The word 'difuminos' is incorrect in Spanish; the correct term for the blending tool used in drawing is 'difumino'. This error affects lexical precision and may confuse learners about the proper terminology for art tools.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Usando diferentes grados de claridad en partes de un dibujo, la técnica del hachurado ayuda a crear una sensación de volumen y espacio tridimensional, haciendo que el edificio parezca más realista.",
+        "correction": "Al usar diferentes grados de claridad en partes de un dibujo, la técnica del hachurado ayuda a crear una sensación de volumen y espacio tridimensional, haciendo que el edificio parezca más realista.",
+        "description": "The sentence begins with a gerund ('Usando') without a clear subject, which is less natural and can be ambiguous in Spanish. Starting with 'Al usar' clarifies the subject and improves grammatical structure, making the sentence more precise and easier to understand.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El puntillismo, una técnica que utiliza puntos de colores discretos para formar una imagen, es efectivo para añadir dimensión y detalle a los diseños.",
+        "correction": "El puntillismo, una técnica que utiliza puntos discretos para formar una imagen, es efectivo para añadir dimensión y detalle a los diseños.",
+        "description": "The phrase 'puntos de colores discretos' is misleading, as puntillismo in drawing often uses monochrome or grayscale points, not necessarily colored points. Removing 'de colores' improves lexical precision and avoids confusion about the technique.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esta técnica ayuda a mejorar la percepción espacial y añade dimensión a las obras visuales.",
+        "correction": "Esta técnica ayuda a mejorar la percepción espacial y a añadir dimensión a las obras visuales.",
+        "description": "The sentence lacks the preposition 'a' before the second verb in the coordinated structure ('añadir'), which is required for grammatical correctness in Spanish. Adding 'a' ensures proper parallelism and verb coordination.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "introducción a inteligencia emocional",
+        "correction": "introducción a la inteligencia emocional",
+        "description": "The phrase is missing the definite article 'la' before 'inteligencia emocional', which is required in Spanish for grammatical correctness. This affects the clarity and accuracy of the theme description.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "introducción a inteligencia emocional",
+        "correction": "introducción a la inteligencia emocional",
+        "description": "The phrase lacks the definite article 'la', which is necessary for grammatical correctness in Spanish. This error affects the naturalness and accuracy of the theme label.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "fruncede del ceño",
+        "correction": "fruncir el ceño",
+        "description": "The phrase 'fruncede del ceño' contains a spelling and lexical error. The correct expression in Spanish is 'fruncir el ceño', which means to frown. 'Fruncede' is not a valid word; the verb should be 'fruncir' and the definite article 'el' should be used instead of 'del' in this context. This error affects comprehension and the naturalness of the language.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "El corazón delator",
+        "correction": "El corazón delator",
+        "description": "The title 'El corazón delator' is correctly written in Spanish, but it should be italicized or placed in quotation marks for consistency with other literary titles in the list. This is a stylistic orthographic convention in Spanish educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "riesgons",
+        "correction": "riesgos",
+        "description": "The word 'riesgons' is a misspelling; the correct form is 'riesgos'. This error affects the clarity and professionalism of the content, as 'riesgos' is the standard term for 'risks' in Spanish. Correct spelling is essential for comprehension and credibility in educational materials.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Hoy aprenderemos cómo las fracciones nos ayudan a representar partes de un todo, como dividir una pizza o compartir dulces con amigos.",
+        "correction": "Hoy aprenderemos cómo las fracciones nos ayudan a representar partes de un todo, como dividir una pizza o compartir dulces con amigos.",
+        "description": "No orthographic errors detected. The sentence uses correct accent marks and punctuation. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Descubre cómo identificar los números clave en una fracción y cómo usarlas en situaciones reales.",
+        "correction": "Descubre cómo identificar los números clave en una fracción y cómo usarlos en situaciones reales.",
+        "description": "The pronoun 'usarlas' incorrectly refers to 'fracción' (singular) when it should refer to 'números clave' (plural) or be replaced with 'usarlos' to match the plural noun. This is a grammatical agreement error.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Si una parte está sombreada, la fracción es 1/4.",
+        "correction": "Si una parte está sombreada, la fracción es 1/4.",
+        "description": "No orthographic errors detected. The sentence is correctly punctuated and uses proper accent marks.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El numerador indica cuántas partes estamos considerando, mientras que el denominador indica en cuántas partes iguales se ha dividido el todo.",
+        "correction": "El numerador indica cuántas partes estamos considerando, mientras que el denominador indica en cuántas partes iguales se ha dividido el todo.",
+        "description": "No grammatical errors detected. The sentence structure and verb conjugations are correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esto ocurre al multiplicar o dividir el numerador y el denominador por el mismo número.",
+        "correction": "Esto ocurre al multiplicar o dividir el numerador y el denominador por el mismo número.",
+        "description": "No grammatical errors detected. The sentence is clear and correctly constructed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las fracciones se usan en situaciones reales como:",
+        "correction": "Las fracciones se usan en situaciones reales como:",
+        "description": "No grammatical errors detected. The sentence is correctly formed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las operaciones básicas con fracciones incluyen:",
+        "correction": "Las operaciones básicas con fracciones incluyen:",
+        "description": "No grammatical errors detected. The sentence is correctly constructed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las fracciones nos ayudan a representar partes de un todo, como compartir una pizza o medir ingredientes.",
+        "correction": "Las fracciones nos ayudan a representar partes de un todo, como compartir una pizza o medir ingredientes.",
+        "description": "No grammatical errors detected. The sentence is clear and correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "\"Me siento triste cuando no siento que me escuchan.\" en lugar de \"Nunca me escuchas.\"",
+        "correction": "«Me siento triste cuando no siento que me escuchan.» en lugar de «Nunca me escuchas.»",
+        "description": "Spanish typographic conventions require the use of angular quotation marks (« ») instead of English-style double quotes (\" \") for direct speech or examples. This improves orthographic accuracy and aligns with standard Spanish writing practices.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las líneas se nombran usando dos puntos en la línea, como la Línea AB.",
+        "correction": "Las líneas se nombran usando dos puntos en la línea, como la línea AB.",
+        "description": "The word 'Línea' should not be capitalized in 'la Línea AB' because in Spanish, common nouns are not capitalized unless they begin a sentence or are part of a title. This is a minor orthographic error affecting consistency and adherence to Spanish capitalization rules.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Estados Unidos",
+        "correction": "Estados Unidos",
+        "description": "The term 'Estados Unidos' is correctly capitalized and spelled. However, in Spanish educational content, it is preferable to use the full official name 'Estados Unidos de América' when first mentioned for clarity and formality, especially in academic contexts. This is a minor stylistic improvement rather than a strict linguistic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Puede destituir al Presidente o jueces mediante juicio político.",
+        "correction": "Puede destituir al Presidente o a los jueces mediante juicio político.",
+        "description": "The sentence lacks the preposition 'a' before 'los jueces', which is required for correct grammatical structure when referring to specific people in Spanish. Additionally, 'jueces' should be preceded by the definite article 'los' to clarify that it refers to specific judges. This correction ensures proper grammar and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "individués",
+        "correction": "individuos",
+        "description": "The word 'individués' is a misspelling and does not exist in Spanish. The correct term is 'individuos', which means 'individuals'. This error affects comprehension and should be corrected for proper lexical precision and spelling accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Proveen energía mediante los carbohidratos.",
+        "correction": "Proporcionan energía mediante los carbohidratos.",
+        "description": "The verb 'proveer' is less commonly used in this context in Spanish when referring to food groups; 'proporcionar' is more precise and natural for describing how grains supply energy. Additionally, 'proporcionan' matches the plural subject 'granos' for proper agreement. This correction improves both grammatical accuracy and lexical precision.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Grasas saludables están en nueces, aguacates y pescado.",
+        "correction": "Las grasas saludables están en nueces, aguacates y pescado.",
+        "description": "The sentence is missing the definite article 'Las' at the beginning, which is required in Spanish for grammatical correctness when referring to a specific group ('grasas saludables'). This correction ensures proper article usage and sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esto es parte de lo que hace que las verduras sean una parte esencial de una dieta equilibrada.",
+        "correction": "Esto es parte de lo que hace que las verduras sean esenciales en una dieta equilibrada.",
+        "description": "The phrase 'una parte esencial de una dieta equilibrada' is redundant and wordy. 'Esenciales en una dieta equilibrada' is more concise and grammatically correct, improving clarity and sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Los derechos humanos son inherentes a todos los individuicios.",
+        "correction": "Los derechos humanos son inherentes a todos los individuos.",
+        "description": "The word 'individuicios' is a misspelling and does not exist in Spanish. The correct term is 'individuos', which means 'individuals'. This lexical error affects comprehension and must be corrected for clarity and accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Animarte a ti mismo cuando cometes errores.",
+        "correction": "Animarte a ti mismo cuando cometes errores.",
+        "description": "Although the sentence is grammatically correct, the verb 'animarte' is reflexive and properly used here. However, in some Spanish-speaking regions, 'animarte a ti mismo' may be considered slightly redundant, as 'animarte' already implies the reflexive action. For educational clarity, the phrase is acceptable, but students should be aware of potential regional stylistic preferences. No correction is strictly necessary, but this is a minor stylistic note.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "La bondad solo se beneficia a la persona que la practica.",
+        "correction": "La bondad solo beneficia a la persona que la practica.",
+        "description": "The original sentence incorrectly uses the reflexive construction 'se beneficia' with 'la bondad' as the subject. The correct form is 'La bondad solo beneficia a la persona que la practica,' where 'beneficia' is a transitive verb and does not require the reflexive pronoun. This error affects grammatical accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "I antes de E excepto después de C",
+        "correction": "I antes de E, excepto después de C",
+        "description": "A comma is needed after 'E' to separate the clauses and improve readability according to Spanish punctuation rules. The lack of a comma may cause confusion in parsing the phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "se establecen conexiones más fuertes entre la información y las recuerdos",
+        "correction": "se establecen conexiones más fuertes entre la información y los recuerdos",
+        "description": "The noun 'recuerdos' is masculine plural, so the article should be 'los' instead of 'las' to maintain correct gender agreement. This is a grammatical error affecting clarity and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "mnemonics",
+        "correction": "mnemotecnia",
+        "description": "The term 'mnemonics' is used repeatedly in the Spanish content, but the correct Spanish equivalent is 'mnemotecnia' or 'mnemotécnicos'. Using the English term is a lexical error and affects both linguistic accuracy and localization, as it is not standard or natural in Spanish educational contexts. The correction ensures proper terminology and improves comprehension for Spanish-speaking learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Los mnemonics son herramientas que nos ayudan a recordar información mediante asociaciones con patrones, frases o acrónimos.",
+        "correction": "Las mnemotecnias son herramientas que nos ayudan a recordar información mediante asociaciones con patrones, frases o acrónimos.",
+        "description": "The noun 'mnemonics' is incorrectly used with the masculine article 'Los' and the masculine plural form. The correct Spanish term is 'mnemotecnias', which is feminine and plural, requiring the article 'Las'. This correction addresses both lexical and grammatical agreement errors.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "manzanas en una mesa, leche derramada en el piso, pan en una canasta.",
+        "correction": "manzanas en una mesa, leche derramada en el suelo, pan en una canasta.",
+        "description": "The word 'piso' is used to refer to the floor, but in most Spanish-speaking countries, 'suelo' is the standard term for the ground or floor in this context. 'Piso' can mean 'apartment' or 'story' in some regions, so 'suelo' is more precise and avoids ambiguity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "El rock music es el único género que ha tenido un impacto cultural significativo.",
+        "correction": "El rock es el único género que ha tenido un impacto cultural significativo.",
+        "description": "The phrase 'rock music' uses an unnecessary English loanword ('music') within a Spanish sentence, which is incorrect and unnatural. The correct term in Spanish is simply 'rock'. This lexical error affects the naturalness and clarity of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "agua (hidroenergía)",
+        "correction": "agua (energía hidroeléctrica)",
+        "description": "The term 'hidroenergía' is not standard in Spanish; the correct term is 'energía hidroeléctrica' when referring to renewable energy generated from water. This correction ensures proper technical terminology and clarity for learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "agua dulce: distribución desigual, algunas regiones enfrentan escasez.",
+        "correction": "Agua dulce: su distribución es desigual; algunas regiones enfrentan escasez.",
+        "description": "The original sentence lacks proper subject reference and punctuation, making it less clear. Adding 'su distribución es desigual' clarifies the subject and improves sentence structure. The use of a semicolon or period separates the ideas more effectively.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "El uso excesivo o el desperdicio pueden llevar a la escasez.",
+        "correction": "El uso excesivo o el desperdicio pueden provocar escasez.",
+        "description": "While 'llevar a la escasez' is understandable, 'provocar escasez' is a more precise and natural collocation in Spanish for educational contexts. This improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esta afirmación es verdadera porque la energía solar y eólica son fuentes de energía renovable que se pueden reabastecer naturalmente, a diferencia de los combustibles fósiles que se agotan con el uso.",
+        "correction": "Esta afirmación es correcta porque la energía solar y eólica son fuentes de energía renovable que pueden reabastecerse naturalmente, a diferencia de los combustibles fósiles que se agotan con el uso.",
+        "description": "The phrase 'es verdadera' is less idiomatic in Spanish for this context; 'es correcta' is preferred when confirming the accuracy of a statement. Additionally, 'pueden reabastecerse' is the correct reflexive form for the verb in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "plantar árboles para reemplazar los que se talan.",
+        "correction": "plantar árboles para reemplazar aquellos que han sido talados.",
+        "description": "The phrase 'los que se talan' is grammatically correct but less precise. 'Aquellos que han sido talados' clarifies that the trees have already been cut down, improving the accuracy and clarity of the statement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "tecnologías eficientes: desarrollar tecnologías que requieran menos recursos.",
+        "correction": "tecnologías eficientes: desarrollar tecnologías que requieran menos recursos naturales.",
+        "description": "Specifying 'recursos naturales' instead of just 'recursos' provides greater clarity and precision, ensuring learners understand the context refers specifically to natural resources.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Proveen madera, oxígeno y hábitats para fauna.",
+        "correction": "Proveen madera, oxígeno y hábitats para la fauna.",
+        "description": "The phrase 'hábitats para fauna' is missing the definite article 'la' before 'fauna'. In Spanish, when referring to fauna in a general sense, the definite article is required for grammatical correctness and naturalness. The corrected version improves both linguistic accuracy and natural flow.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Su utilización disminuye la necesidad de combustibles fósiles, los cuales son no renovables y su uso excesivo lleva a la contaminación ambiental y a la alteración de los ecosistemas.",
+        "correction": "Su utilización disminuye la necesidad de combustibles fósiles, que son no renovables y cuyo uso excesivo lleva a la contaminación ambiental y a la alteración de los ecosistemas.",
+        "description": "The relative pronoun 'los cuales' is unnecessarily formal and less natural in this context. Replacing it with 'que' and restructuring the sentence with 'cuyo uso excesivo' improves grammatical flow and clarity. This correction enhances both linguistic accuracy and readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Nunca compartas información personal con desconocidos en línea.",
+        "correction": "Nunca compartas información personal con desconocidos en línea.",
+        "description": "The imperative 'Nunca compartas' is correctly formed, but the phrase 'en línea' could be ambiguous for some Spanish-speaking regions where 'en Internet' or 'por Internet' is more common. However, grammatically, the sentence is correct and clear. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "diagramo decorativo",
+        "correction": "diagrama decorativo",
+        "description": "The word 'diagramo' is a lexical error; the correct Spanish term is 'diagrama'. This mistake affects the clarity and professionalism of the content. The rest of the sentence is linguistically and culturally appropriate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "introducción a escritura persuasiva",
+        "correction": "introducción a la escritura persuasiva",
+        "description": "The original phrase is missing the definite article 'la' before 'escritura persuasiva', which is required in Spanish to specify the subject. This omission affects grammatical correctness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "En un discurso sobre derechos de los animales, podrías describir las condiciones en refugios para animales o utilizar un lenguaje conmovedor para inspirar compasión.",
+        "correction": "En un discurso sobre los derechos de los animales, podrías describir las condiciones en refugios para animales o utilizar un lenguaje conmovedor para inspirar compasión.",
+        "description": "The phrase 'derechos de los animales' should include the definite article 'los' to be grammatically correct in Spanish. Omitting the article makes the sentence less natural and can affect comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El soneto se divide en dos cuartetos. ¿Es esta afirmación verdadera o falsa?.",
+        "correction": "El soneto se divide en dos cuartetos. ¿Es esta afirmación verdadera o falsa?",
+        "description": "The original sentence contains an unnecessary period after the question mark, which is incorrect punctuation in Spanish. In Spanish, only one closing punctuation mark should be used at the end of a question. The correct form is to end the sentence with a single question mark.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Sacar un número de 6 en una sola tirada de un mazo estándar de cartas.",
+        "correction": "Sacar un 6 en una sola tirada de un mazo estándar de cartas.",
+        "description": "The phrase 'número de 6' is not idiomatic in Spanish; the correct and natural way to refer to drawing a card with the number 6 is 'sacar un 6'. The original wording is awkward and may confuse learners about standard Spanish phrasing for card games.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Fijarse en las primeras y últimas frases de los párrafos.",
+        "correction": "Fijarse en las primeras y últimas oraciones de los párrafos.",
+        "description": "The word 'frases' is often used interchangeably with 'oraciones' in Spanish, but in the context of reading strategies, 'oraciones' (sentences) is more precise and standard. 'Frases' can refer to any phrase, not necessarily a complete sentence, which may cause confusion in educational contexts. Using 'oraciones' ensures clarity and aligns with standard Spanish terminology for reading comprehension.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Desplazar los ojos rápidamente sobre el texto buscando palabras clave o números.",
+        "correction": "Desplazar la vista rápidamente sobre el texto buscando palabras clave o números.",
+        "description": "The phrase 'desplazar los ojos' is understandable but not idiomatic in Spanish. 'Desplazar la vista' is the standard and natural way to express scanning with one's eyes in Spanish, improving both linguistic accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Decide si tu hipótesis fue correcta basada en la evidencia.",
+        "correction": "Decide si tu hipótesis fue correcta basándote en la evidencia.",
+        "description": "The original sentence uses 'basada en la evidencia,' which incorrectly modifies 'hipótesis' as if the hypothesis is based on the evidence. The intended meaning is that the decision should be made based on the evidence. The correct construction is 'basándote en la evidencia,' using the gerund to indicate the basis for the decision. This is a grammatical error affecting clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "puentes levantadores",
+        "correction": "palancas",
+        "description": "The term 'puentes levantadores' is not a standard example of a simple machine in Spanish and may confuse learners. The correct term for the simple machine in this context is 'palancas'. This correction ensures technical accuracy and clarity for educational purposes.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La eficiencia de la palanca se debe a la eficiencia mecánica, que es la relación entre la fuerza aplicada y el desplazamiento.",
+        "correction": "La eficiencia de la palanca se determina por la eficiencia mecánica, que es la relación entre la fuerza aplicada y el desplazamiento.",
+        "description": "The verb 'se debe a' is not the most precise choice in this technical context. 'Se determina por' is more accurate when describing how efficiency is calculated. This correction improves the technical clarity and grammatical precision of the explanation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Las poleas se utilizan en ciertos tipos de máquinas simples, como las máquinas de palanca o las máquinas de palanca inclinada, pero no en todos los tipos.",
+        "correction": "Las poleas se utilizan en ciertos tipos de máquinas simples, como las palancas o los planos inclinados, pero no en todos los tipos.",
+        "description": "The phrase 'máquinas de palanca inclinada' is not standard in Spanish and may confuse learners. The correct terms are 'palancas' and 'planos inclinados'. This correction improves grammatical accuracy and technical clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Su funcionamiento se basa en principios como el leverage y la elevación, lo que simplifica nuestras labores cotidianas.",
+        "correction": "Su funcionamiento se basa en principios como la palanca y la elevación, lo que simplifica nuestras labores cotidianas.",
+        "description": "The use of the English word 'leverage' is inappropriate in Spanish educational content. The correct term is 'palanca'. This correction addresses both lexical and grammatical accuracy, ensuring the explanation is clear and culturally appropriate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "tirones gravitatorios",
+        "correction": "asistencias gravitacionales",
+        "description": "The term 'tirones gravitatorios' is not standard in Spanish scientific discourse and may cause confusion. The correct and widely accepted term is 'asistencias gravitacionales' or 'maniobras de asistencia gravitacional', which refers to gravitational slingshot maneuvers used in space travel. This correction improves both technical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "velocidad de escape",
+        "correction": "velocidad orbital",
+        "description": "The feedback incorrectly states that a spacecraft needs 'velocidad de escape' to maintain a stable orbit. 'Velocidad de escape' refers to the speed required to break free from a planet's gravity, not to remain in orbit. The correct term is 'velocidad orbital', which is the speed needed to stay in orbit around a planet or star. This is a semantic error that could mislead learners about orbital mechanics.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "En los estados sólido, las partículas no vibran y permanecen estáticas.",
+        "correction": "En el estado sólido, las partículas no vibran y permanecen estáticas.",
+        "description": "The original sentence incorrectly uses the plural 'estados sólido' when referring to the singular 'estado sólido'. The correct form is 'En el estado sólido'. Additionally, the rest of the sentence is grammatically correct, but the error in agreement affects clarity and accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "naratura",
+        "correction": "narrativa",
+        "description": "The word 'naratura' is a spelling error; the correct term in Spanish is 'narrativa'. This mistake affects the clarity and professionalism of the feedback, as 'naratura' is not a recognized word in Spanish.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "cuestiones éticos",
+        "correction": "cuestiones éticas",
+        "description": "The phrase 'cuestiones éticos' contains a gender agreement error. 'Cuestiones' is feminine, so the adjective should be 'éticas' instead of 'éticos'. This affects grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "La competencia por recursos llevó a...",
+        "correction": "La competencia por recursos llevó a…",
+        "description": "The ellipsis at the end of the sentence uses three periods instead of the correct single ellipsis character (…). In Spanish, the typographically correct ellipsis is a single character, which improves readability and maintains orthographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "EE.UU",
+        "correction": "EE. UU.",
+        "description": "The abbreviation for 'Estados Unidos' should be written with a space and a period after each letter: 'EE. UU.'. This follows Spanish orthographic conventions for abbreviations. The current form lacks the space and the second period, which is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "EE.UU,",
+        "correction": "EE. UU.,",
+        "description": "In this instance, the abbreviation 'EE.UU' is missing the space and the second period, and the comma should follow the correct abbreviation. The correct form is 'EE. UU.,' according to Spanish orthographic rules for abbreviations and punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "diagnócias médicas",
+        "correction": "diagnósticos médicos",
+        "description": "The word 'diagnócias' is a misspelling; the correct term is 'diagnósticos'. Additionally, 'médicas' should agree in gender and number with 'diagnósticos', so 'médicos' is the correct form. This error affects both spelling and gender/number agreement, which are critical for clarity and correctness in Spanish.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "comprometírse",
+        "correction": "comprometerse",
+        "description": "The word 'comprometírse' contains an incorrect accent mark. In Spanish, 'comprometerse' does not require an accent on the 'i'. Incorrect accentuation can lead to confusion in pronunciation and meaning.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Su grueso pelaje y capa de grasa los mantienen calientes en el Ártico.",
+        "correction": "Su grueso pelaje y capa de grasa lo mantienen caliente en el Ártico.",
+        "description": "The pronoun 'los' is incorrectly used; it should be 'lo' to refer to 'oso polar' (singular masculine). This is a style and grammatical issue affecting naturalness and agreement. The sentence should read 'lo mantienen caliente' to match the subject.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Osos que reducen su actividad en invierno para conservar energía.",
+        "correction": "Osos que disminuyen su actividad en invierno para conservar energía.",
+        "description": "The verb 'reducir' is less natural in this context; 'disminuir' is the standard term used in educational and scientific Spanish when referring to animals lowering their activity levels. This change improves terminology consistency and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Las mitocondrias son los \"generadores de energía\" de la célula.",
+        "correction": "Las mitocondrias son las \"centrales energéticas\" de la célula.",
+        "description": "The term 'generadores de energía' is understandable but less natural in Spanish scientific discourse. 'Centrales energéticas' is a more widely accepted term in educational and scientific materials, providing a clearer analogy for students.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "El retículo endoplasmático liso es el principal sitio de síntesis de proteínas en la célula.",
+        "correction": "El retículo endoplasmático rugoso es el principal sitio de síntesis de proteínas en la célula.",
+        "description": "This statement contains a factual error regarding cellular biology. The 'retículo endoplasmático liso' is not the main site of protein synthesis; this function is performed by the 'retículo endoplasmático rugoso'. The terminology must be corrected to ensure scientific accuracy and proper localization for Spanish-speaking students.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Outback australiano",
+        "correction": "el interior de Australia",
+        "description": "The term 'Outback australiano' is a direct borrowing from English and may not be widely understood by all Spanish-speaking audiences, especially in educational contexts. 'El interior de Australia' is a more natural and locally accepted term that maintains clarity and avoids unnecessary anglicisms.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Prepárense para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+        "correction": "¡Prepárate para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+        "description": "The use of 'Prepárense' (plural, formal) may be less engaging for individual learners, which is typical in digital educational content. 'Prepárate' (singular, informal) is more appropriate for direct address to the student, making the tone more personal and engaging. This correction improves the style and tone for the intended audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! 🌟 En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+        "correction": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+        "description": "The use of the emoji 🌟 in educational Spanish content may be considered informal and less appropriate for formal learning materials, especially in regions or contexts where academic tone is preferred. Removing the emoji ensures a more professional and culturally neutral presentation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "En un videojuego, podrías usar una variable llamada `monedasJugador` para rastrear cuántas monedas ha recogido el jugador:",
+        "correction": "En un videojuego, podrías usar una variable llamada `monedasJugador` para llevar la cuenta de cuántas monedas ha recogido el jugador:",
+        "description": "The verb 'rastrear' is not the most natural choice in Spanish for tracking a count; 'llevar la cuenta de' is more idiomatic and commonly used in educational and technical contexts to describe keeping track of quantities.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+        "correction": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+        "description": "The pseudocode format is clear and appropriate for Spanish-speaking learners. No localization issues detected regarding code formatting or terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Supongamos que quieres imprimir los números del 1 al 10 en la pantalla. En lugar de escribir 10 líneas de código, puedes usar un bucle:",
+        "correction": "Supongamos que quieres mostrar los números del 1 al 10 en la pantalla. En lugar de escribir 10 líneas de código, puedes usar un bucle:",
+        "description": "The verb 'imprimir' can be ambiguous in Spanish, as it may refer to printing on paper. 'Mostrar' is more precise and natural when referring to displaying information on a screen in programming contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Usar letras minúsculas para consistencia.",
+        "correction": "Usar letras minúsculas para mantener la consistencia.",
+        "description": "The original phrase 'para consistencia' is a direct calque from English ('for consistency') and is not idiomatic in Spanish. The correction uses a more natural expression, improving the style and readability for native Spanish speakers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Esta afirmación es incorrecta porque las variables en programación pueden almacenar varios tipos de datos, incluyendo enteros, cadenas de texto, booleanos, y más.",
+        "correction": "Esta afirmación es incorrecta porque las variables en programación pueden almacenar varios tipos de datos, como enteros, cadenas de texto, booleanos y más.",
+        "description": "The use of 'incluyendo' followed by a list is less natural in Spanish than 'como'. Additionally, the comma before 'y más' is unnecessary. The correction improves the naturalness and flow of the sentence for Spanish readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational content may not be appropriate for all Spanish-speaking audiences, especially in formal or academic contexts. It can be perceived as informal or distracting. Consider removing the emoji or replacing it with a more neutral symbol if visual emphasis is needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida. 🌟",
+        "correction": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida.",
+        "description": "The use of the emoji '🌟' in educational Spanish content may be perceived as informal or unprofessional, especially in formal learning environments. Removing the emoji ensures the tone remains appropriate for a wide range of audiences and maintains professional style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Diwali, conocido como el Festival de las Luces, es una celebración hinduista que marca el triunfo de la luz sobre la oscuridad y el bien sobre el mal.",
+        "correction": "Diwali, conocido como el Festival de las Luces, es una celebración hindú que marca el triunfo de la luz sobre la oscuridad y el bien sobre el mal.",
+        "description": "The term 'hinduista' is not the correct Spanish word for the religion or its adherents in this context. 'Hindú' is the standard term for the religion and its festivals, while 'hinduista' refers to a follower of Hinduism. For cultural and terminological accuracy, 'celebración hindú' should be used to refer to the festival itself.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Entregar sobres rojos (hongbao) con dinero como regalos.",
+        "correction": "Entregar sobres rojos (hongbao) con dinero como obsequios.",
+        "description": "The word 'regalos' is acceptable, but 'obsequios' is more formal and culturally appropriate in the context of ceremonial gift-giving, especially in educational content about traditions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Platos indulgentes como la feijoada en Brasil y pasteles de rey en Europa.",
+        "correction": "Platos típicos como la feijoada en Brasil y el roscón de reyes en Europa.",
+        "description": "The term 'pasteles de rey' is not the standard name for the traditional cake associated with Carnival in Europe. 'Roscón de reyes' is the correct term in Spanish for the cake eaten during Epiphany, which is sometimes associated with Carnival in Spain. Also, 'platos indulgentes' is less natural than 'platos típicos' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Piensa en el ADN como un libro de recetas que contiene las instrucciones para crear cada parte de tu cuerpo.",
+        "correction": "Imagina el ADN como un libro de recetas que contiene las instrucciones para crear cada parte de tu cuerpo.",
+        "description": "The use of 'Piensa en' is less natural in educational Spanish for analogies; 'Imagina' is preferred for visualizing concepts and is more culturally appropriate in this context. This change improves the naturalness and engagement of the analogy for Spanish-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Esta afirmación captura la esencia de la estructura del ADN.",
+        "correction": "Esta afirmación refleja la esencia de la estructura del ADN.",
+        "description": "The verb 'captura' is a direct translation from English ('captures') and is less idiomatic in Spanish in this context. 'Refleja' is more natural and commonly used in educational Spanish to express that a statement accurately represents a concept.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Las proteínas creadas gracias a las instrucciones del ADN incluyen enzimas que ayudan a digerir alimentos, hormonas que regulan el crecimiento y anticuerpos que combaten infecciones.",
+        "correction": "Las proteínas producidas a partir de las instrucciones del ADN incluyen enzimas que ayudan a digerir los alimentos, hormonas que regulan el crecimiento y anticuerpos que combaten las infecciones.",
+        "description": "The phrase 'creadas gracias a' is less precise and natural than 'producidas a partir de' in scientific Spanish. Additionally, adding definite articles ('los alimentos', 'las infecciones') aligns with standard Spanish usage and improves clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "El estándar HS-ETS1-1 de NGSS enfatiza el análisis de desafíos globales.",
+        "correction": "El estándar HS-ETS1-1 de NGSS enfatiza el análisis de desafíos globales.",
+        "description": "The acronyms 'HS-ETS1-1' and 'NGSS' are used without explanation or localization. In Spanish educational contexts, these US-specific standards may not be familiar to all learners. It is recommended to briefly clarify what NGSS stands for (Next Generation Science Standards) and its relevance, or provide a localized equivalent if available. This improves accessibility and comprehension for Spanish-speaking audiences unfamiliar with US education standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos! Hoy exploraremos cómo las ideas pueden convertirse en soluciones prácticas mediante el proceso de diseño. Este enfoque creativo y estructurado nos ayudará a resolver problemas y crear innovaciones. 🌟",
+        "correction": "¡Bienvenidos! Hoy exploraremos cómo las ideas pueden convertirse en soluciones prácticas mediante el proceso de diseño. Este enfoque creativo y estructurado nos ayudará a resolver problemas y crear innovaciones.",
+        "description": "The use of the emoji '🌟' in educational Spanish content may be considered informal and not suitable for all audiences, especially in professional or academic contexts. Removing the emoji ensures a more neutral and universally appropriate tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Lluvia de ideas (Brainstorming)",
+        "correction": "Lluvia de ideas",
+        "description": "Including the English term 'Brainstorming' in parentheses is unnecessary for a Spanish-speaking audience and may disrupt the flow of the content. The term 'lluvia de ideas' is widely understood in Spanish and does not require clarification with the English equivalent.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "La etiqueta digital, o \"netiqueta\", son las normas que guían el comportamiento respetuoso y apropiado en espacios en línea. Es esencial para garantizar interacciones positivas y seguras.",
+        "correction": "La etiqueta digital, o \"netiqueta\", es el conjunto de normas que guían el comportamiento respetuoso y apropiado en espacios en línea. Es esencial para garantizar interacciones positivas y seguras.",
+        "description": "The original uses 'son las normas' with 'la etiqueta digital', which is singular, causing a mismatch in number agreement. Additionally, 'el conjunto de normas' is a more natural and precise way to introduce the concept in Spanish educational contexts. This improves both linguistic agreement and localization style.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Nunca compartas contraseñas ni datos personales sensibles.",
+        "correction": "Nunca compartas contraseñas ni datos personales confidenciales.",
+        "description": "The term 'datos personales sensibles' is less common in Spanish educational and legal contexts than 'datos personales confidenciales'. Using 'confidenciales' aligns with standard terminology and improves localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Utiliza correctamente las configuraciones de privacidad en redes sociales.",
+        "correction": "Utiliza correctamente la configuración de privacidad en las redes sociales.",
+        "description": "The plural 'las configuraciones de privacidad' is less natural than the singular 'la configuración de privacidad', which is the standard term in Spanish for privacy settings. Also, 'en las redes sociales' is more idiomatic than 'en redes sociales'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Denunciar incidentes a un adulto de confianza o moderadores de la plataforma.",
+        "correction": "Denuncia los incidentes a un adulto de confianza o a los moderadores de la plataforma.",
+        "description": "The original uses the infinitive 'Denunciar', which is less direct and engaging than the imperative 'Denuncia', commonly used in educational instructions. Adding 'los' before 'incidentes' and 'a los' before 'moderadores' improves clarity and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Recuerda que tus acciones en línea reflejan quién eres y afectan a otros. ¡Elige la positividad y el respeto en cada interacción digital!",
+        "correction": "Recuerda que tus acciones en línea reflejan quién eres y afectan a los demás. ¡Elige la positividad y el respeto en cada interacción digital!",
+        "description": "The phrase 'afectan a otros' is less idiomatic than 'afectan a los demás', which is the standard way to refer to other people in general in Spanish educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational content may be considered informal and less appropriate for formal or academic contexts. It can detract from the professional tone expected in instructional materials, especially for older students or adult learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "lienzo",
+        "correction": "superficie",
+        "description": "The term 'lienzo' (canvas) is used in contexts where the drawing surface may not be a canvas, such as paper or digital media. Using 'superficie' (surface) is more inclusive and appropriate for educational content that covers various drawing media.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos! Hoy exploraremos cómo la inteligencia emocional nos ayuda a comprender nuestras emociones, conectar con los demás y mejorar nuestras relaciones. 🌟",
+        "correction": "¡Bienvenidos! Hoy exploraremos cómo la inteligencia emocional nos ayuda a comprender nuestras emociones, conectar con los demás y mejorar nuestras relaciones.",
+        "description": "The use of the star emoji (🌟) may not be appropriate in formal educational content, as it can be perceived as informal or childish in some Spanish-speaking cultures. Removing it ensures a more professional and neutral tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "trabajo en equipo",
+        "correction": "colaboración en equipo",
+        "description": "While 'trabajo en equipo' is widely used, 'colaboración en equipo' is often preferred in educational and professional contexts in Spain and Latin America for its emphasis on active participation. Consider using the more locally accepted term for consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Reflexión final: Desarrollar la inteligencia emocional es un viaje que mejora nuestras relaciones, decisiones y bienestar general. Practicar autoconciencia, empatía y habilidades interpersonales nos ayuda a construir conexiones más fuertes y llevar una vida más plena.",
+        "correction": "Reflexión final: Desarrollar la inteligencia emocional es un proceso que mejora nuestras relaciones, decisiones y bienestar general. Practicar autoconciencia, empatía y habilidades interpersonales nos ayuda a construir conexiones más fuertes y llevar una vida más plena.",
+        "description": "The metaphor 'es un viaje' may not resonate equally across all Spanish-speaking cultures and can be replaced with 'es un proceso' for a more neutral and universally accepted expression in educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Novelas como *Harry Potter* de J.K. Rowling.",
+        "correction": "Novelas como *Harry Potter* de J.K. Rowling.",
+        "description": "The example 'Harry Potter' is widely recognized, but it may not be the most culturally relevant or accessible reference for all Spanish-speaking audiences, especially in educational contexts. Consider including a well-known Spanish-language novel or author to enhance cultural resonance and inclusivity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Obras teatrales como *Romeo y Julieta* de William Shakespeare.",
+        "correction": "Obras teatrales como *La casa de Bernarda Alba* de Federico García Lorca.",
+        "description": "Using 'Romeo y Julieta' as an example of theater is globally recognized, but for Spanish-speaking learners, referencing a classic from Spanish literature such as 'La casa de Bernarda Alba' by Federico García Lorca would provide greater cultural relevance and educational value.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Biografías como *El Diario de Ana Frank*.",
+        "correction": "Biografías como *El Diario de Ana Frank*.",
+        "description": "While 'El Diario de Ana Frank' is a valid example, including a biography of a notable figure from the Spanish-speaking world (e.g., 'Vivir para contarla' by Gabriel García Márquez) would improve cultural appropriateness and engagement for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Textos informativos como *Breve historia del tiempo* de Stephen Hawking.",
+        "correction": "Textos informativos como *Breve historia del tiempo* de Stephen Hawking.",
+        "description": "The title 'Breve historia del tiempo' is correctly localized, but the example could be complemented with a Spanish-language informational text to better reflect local educational resources and reading habits.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "como dividir una pizza o compartir dulces con amigos",
+        "correction": "como dividir una pizza o compartir dulces con amigos",
+        "description": "The examples used (pizza and sweets) are culturally neutral and widely understood in Spanish-speaking regions. No cultural adaptation required.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "línea inclinada",
+        "correction": "barra",
+        "description": "The term 'línea inclinada' is less standard in mathematical Spanish for fractions. The correct and widely accepted term is 'barra'. Using 'barra' improves terminology consistency and professional usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "En la vida real, si compartes una pizza con amigos y comes 2 de las 8 rebanadas, la fracción sería 2/8, equivalente a 1/4.",
+        "correction": "En la vida real, si compartes una pizza con amigos y comes 2 de las 8 rebanadas, la fracción sería 2/8, equivalente a 1/4.",
+        "description": "The style is informal and appropriate for educational content aimed at children or beginners. No adjustment needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "el número que se coloca sobre el signo de división",
+        "correction": "el número que se coloca sobre la barra",
+        "description": "The phrase 'signo de división' is not the standard way to refer to the fraction line in Spanish. 'Barra' is the correct mathematical term for the line separating numerator and denominator.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Visualiza un rectángulo dividido en 2 partes iguales con 1 parte sombreada (1/2).",
+        "correction": "Visualiza un rectángulo dividido en 2 partes iguales con 1 parte sombreada (1/2).",
+        "description": "The use of a rectangle as a visual model is culturally neutral and appropriate for Spanish-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Al cocinar, puedes usar 1/4 de taza de azúcar, representando una parte de un todo dividido en cuatro.",
+        "correction": "Al cocinar, puedes usar 1/4 de taza de azúcar, representando una parte de un todo dividido en cuatro.",
+        "description": "The example of measuring ingredients is culturally appropriate and relevant for Spanish-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Invierte la segunda fracción y multiplica.",
+        "correction": "Invierte la segunda fracción y multiplica.",
+        "description": "The terminology used for division of fractions is standard and appropriate for Spanish mathematical instruction.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Las fracciones equivalentes y las operaciones básicas nos permiten trabajar con ellas en matemáticas y situaciones cotidianas.",
+        "correction": "Las fracciones equivalentes y las operaciones básicas nos permiten trabajar con ellas en matemáticas y situaciones cotidianas.",
+        "description": "The style is appropriate for educational content and maintains a clear, neutral tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Mostrar atención mientras tu amigo habla, haciendo preguntas o asintiendo.",
+        "correction": "Mostrar atención mientras tu amigo habla, haciendo preguntas o asintiendo con la cabeza.",
+        "description": "The phrase 'asintiendo' alone may be ambiguous in Spanish, as it could refer to agreeing verbally or physically. Specifying 'asintiendo con la cabeza' clarifies the intended nonverbal gesture, making the example more natural and culturally clear for Spanish-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Decidir turnarse para jugar diferentes juegos cuando no están de acuerdo.",
+        "correction": "Decidir turnarse para jugar a diferentes juegos cuando no están de acuerdo.",
+        "description": "In Spanish, the verb 'jugar' typically requires the preposition 'a' when referring to games ('jugar a juegos'). Adding 'a' improves the naturalness and correctness of the expression, aligning with standard usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Una rebanada de pizza tiene forma de triángulo, mientras que la cara de un reloj tiene forma de círculo.",
+        "correction": "Una porción de pizza tiene forma de triángulo, mientras que la esfera de un reloj tiene forma de círculo.",
+        "description": "The term 'rebanada de pizza' is less commonly used in many Spanish-speaking regions compared to 'porción de pizza', which is more natural and widely accepted. Additionally, 'cara de un reloj' is not the standard way to refer to the face of a clock in Spanish; 'esfera de un reloj' is the correct and culturally appropriate term. These changes improve the naturalness and regional appropriateness of the examples.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "microestados",
+        "correction": "microestados",
+        "description": "The term 'microestados' is accurate in Spanish, but it may not be familiar to all learners. For localization quality, consider providing a brief definition or example (e.g., 'microestados como Mónaco o San Marino') to ensure clarity for diverse audiences. This enhances accessibility and comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "EE.UU.",
+        "correction": "Estados Unidos",
+        "description": "The abbreviation 'EE.UU.' is standard in Spanish, but in educational materials for a general audience, it is preferable to use the full name 'Estados Unidos' for clarity and to avoid confusion, especially for learners unfamiliar with abbreviations.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "cheques y balances",
+        "correction": "sistema de pesos y contrapesos",
+        "description": "The phrase 'cheques y balances' is a direct calque from English ('checks and balances') and is not the standard or natural term in Spanish. The correct and widely accepted term in Spanish is 'sistema de pesos y contrapesos'. Using the proper terminology improves clarity and aligns with educational standards in Spanish-speaking contexts.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "dos tercios tanto en el Senado como en la Cámara de Representantes",
+        "correction": "dos tercios en la Cámara de Representantes y en el Senado",
+        "description": "The phrase 'tanto en el Senado como en la Cámara de Representantes' is unnecessarily wordy and less natural in Spanish for describing the impeachment process. The more standard and concise format is 'en la Cámara de Representantes y en el Senado', which reflects the actual order of the process and is more commonly used in educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos! Hoy exploraremos cómo está organizado el gobierno de los Estados Unidos para proteger la democracia y garantizar la justicia. Aprenderemos sobre las tres ramas principales y cómo trabajan juntas para servir a los ciudadanos. 🌟",
+        "correction": "¡Bienvenidos! Hoy exploraremos cómo está organizado el gobierno de los Estados Unidos para proteger la democracia y garantizar la justicia. Aprenderemos sobre las tres ramas principales y cómo trabajan juntas para servir a los ciudadanos.",
+        "description": "The use of the emoji '🌟' at the end of an educational introduction may be considered informal and less appropriate for formal educational content, especially in Spanish-language academic contexts. Removing the emoji maintains a professional tone suitable for the subject matter.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos a una aventura para descubrir cómo los alimentos impactan nuestra salud y bienestar! 🌟",
+        "correction": "¡Bienvenidos a una aventura para descubrir cómo los alimentos influyen en nuestra salud y bienestar! 🌟",
+        "description": "The verb 'impactar' is a direct anglicism from 'impact', which is less natural in standard Spanish in this context. 'Influir' is the preferred verb for describing how something affects health and well-being, making the sentence more idiomatic and culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Alimentos proteicos",
+        "correction": "Alimentos ricos en proteínas",
+        "description": "The term 'alimentos proteicos' is technically correct but less commonly used in educational Spanish for general audiences. 'Alimentos ricos en proteínas' is the standard, more natural phrase in Spanish nutrition education, improving terminology consistency and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Imagina los nutrientes como herramientas que hacen funcionar tu cuerpo: los carbohidratos son las baterías, las proteínas son los constructores, las grasas son los aislantes, las vitaminas y minerales son las herramientas de reparación, y el agua es el lubricante que mantiene todo funcionando.",
+        "correction": "Imagina los nutrientes como herramientas que hacen funcionar tu cuerpo: los carbohidratos son las baterías, las proteínas son los constructores, las grasas son los aislantes, las vitaminas y minerales son las herramientas de reparación, y el agua es el lubricante que mantiene todo en marcha.",
+        "description": "The phrase 'mantiene todo funcionando' is understandable but less idiomatic in Spanish. 'Mantiene todo en marcha' is a more natural and culturally appropriate expression for describing something that keeps the body operating smoothly.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Compartir tu almuerzo con un amigo que olvidó el suyo.",
+        "correction": "Compartir tu almuerzo con un amigo que olvidó el suyo.",
+        "description": "The example is culturally appropriate for most Spanish-speaking regions, but the concept of 'almuerzo' can vary. In some countries, 'almuerzo' refers to a mid-morning snack, while in others it is the main midday meal. For educational content, consider clarifying the context or using a more universally understood term such as 'comida' if targeting a pan-Hispanic audience. No correction needed, but awareness of regional variation is recommended.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Voluntariado en un banco de alimentos local.",
+        "correction": "Voluntariado en un banco de alimentos local.",
+        "description": "The term 'banco de alimentos' is widely understood in Spain and many Latin American countries, but in some regions, alternative terms like 'despensa comunitaria' or 'centro de acopio' may be more common. For maximum localization quality, consider adapting terminology to match the target region's standard usage. No correction required for general Spanish, but regional adaptation may improve naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "PEMDAS (operaciones matemáticas)",
+        "correction": "PEMDAS (operaciones matemáticas en inglés)",
+        "description": "The acronym 'PEMDAS' is specific to English-language math education and is not standard in Spanish-speaking contexts, where 'PEMDAS' is not commonly used. For Spanish audiences, the equivalent is 'PEMDAS' explained as an English acronym, or the Spanish version 'PEMDAS' should be replaced with 'PEMDAS (operaciones matemáticas en inglés)' or the Spanish acronym 'PEMDAS'/'PEMDAS' is not used; instead, 'PEMDAS' should be clarified as an English-language example. This ensures cultural appropriateness and clarity for learners unfamiliar with the English acronym.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "555-123-4567",
+        "correction": "555 123 4567",
+        "description": "The phone number format '555-123-4567' uses hyphens, which is typical in the United States but not standard in Spanish-speaking countries, where spaces are more commonly used to separate groups of digits. Adapting the format improves cultural appropriateness and user familiarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos a una aventura para mejorar tu memoria!",
+        "correction": "¡Bienvenidos a una aventura para mejorar su memoria!",
+        "description": "The sentence uses 'tu' (informal singular) while 'Bienvenidos' is plural, creating a register inconsistency. In educational content addressing a group, the formal plural 'su' is preferred for tone consistency and professionalism. This correction aligns the register and improves the naturalness of the introduction.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Fragmentación: Dividiendo Información en Piezas Manejables",
+        "correction": "Fragmentación: Dividiendo la información en partes manejables",
+        "description": "The phrase 'Piezas Manejables' is a literal translation from English ('manageable pieces') and is not the most natural or standard expression in Spanish educational contexts. 'Partes manejables' is more idiomatic and widely accepted. This correction improves the naturalness and professional tone of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Aplicando estas técnicas, los estudiantes pueden mejorar su rendimiento académico y habilidades de memoria en la vida cotidiana.",
+        "correction": "Al aplicar estas técnicas, los estudiantes pueden mejorar su rendimiento académico y sus habilidades de memoria en la vida cotidiana.",
+        "description": "The phrase 'Aplicando estas técnicas' is a gerund at the beginning of the sentence, which is less formal and can be stylistically awkward in Spanish. 'Al aplicar estas técnicas' is more natural and preferred in formal educational writing. Additionally, 'sus habilidades de memoria' ensures parallel structure and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "One More Time\" de Daft Punk combina beats repetitivos y ganchos melódicos, mostrando el atractivo de la música electrónica.",
+        "correction": "\"One More Time\" de Daft Punk combina ritmos repetitivos y estribillos melódicos, mostrando el atractivo de la música electrónica.",
+        "description": "The terms 'beats' and 'ganchos' are anglicisms. While 'beat' is sometimes used in Spanish music contexts, 'ritmo' is the standard and more widely accepted term. 'Gancho' is a literal translation of 'hook', but 'estribillo' is the natural equivalent in Spanish for a melodic refrain. Using standard Spanish terminology improves localization and professional tone.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "software de computadora",
+        "correction": "software de ordenador",
+        "description": "The phrase 'software de computadora' uses the Latin American term 'computadora', which may not be fully localized for audiences in Spain, where 'ordenador' is preferred. For neutral, international Spanish, 'ordenador' is more widely accepted in educational contexts. Consistency in terminology enhances localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "EE. UU.",
+        "correction": "Estados Unidos",
+        "description": "The abbreviation 'EE. UU.' for 'Estados Unidos' is correct in Spanish, but in educational content for a general audience, especially younger learners or those unfamiliar with abbreviations, it is clearer and more culturally appropriate to use the full name 'Estados Unidos'. This avoids confusion and ensures accessibility for all readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍",
+        "correction": "",
+        "description": "The use of the globe emoji '🌍' in educational content may be considered informal and not suitable for all audiences, especially in formal or academic contexts. It is recommended to remove the emoji to maintain a professional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Apoyar iniciativas globales como el Acuerdo de París para combatir el cambio climático.",
+        "correction": "Apoyar iniciativas globales como el Acuerdo de París para combatir el cambio climático y otras acciones locales relevantes.",
+        "description": "While referencing the Paris Agreement is globally relevant, adding 'y otras acciones locales relevantes' makes the content more inclusive and culturally appropriate for Spanish-speaking regions, encouraging learners to consider both global and local conservation efforts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Imaginen un día sin agua, electricidad o combustible. La vida sería muy difícil.",
+        "correction": "Imagina un día sin agua, electricidad o combustible. La vida sería muy difícil.",
+        "description": "The use of 'Imaginen' (plural imperative) is inconsistent with the rest of the lesson, which uses a neutral or singular register. For educational content aimed at a general audience, the singular 'Imagina' is more direct and engaging, aligning with standard Spanish educational style. This change improves tone consistency and reader engagement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Usa sitios web seguros (busca \"https\" en la URL) para ingresar información sensible.",
+        "correction": "Usa sitios web seguros (verifica que la URL comience con \"https\") para ingresar información sensible.",
+        "description": "The phrase 'busca \"https\" en la URL' is understandable but not the most natural or precise way to instruct Spanish-speaking users. 'Verifica que la URL comience con \"https\"' is a more standard and clear instruction in Spanish localization, improving clarity and professionalism.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Nunca confía en compartir información personal en foros públicos.",
+        "correction": "Nunca confíes en compartir información personal en foros públicos.",
+        "description": "The original uses 'confía' (third person singular) instead of the correct imperative 'confíes' (second person singular, subjunctive). This is both a grammatical and stylistic issue, but the primary category is localization due to the unnatural imperative form. The corrected version uses the appropriate negative imperative, making the advice clear and natural.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡La seguridad en línea es tomar decisiones inteligentes cada vez que navegas!",
+        "correction": "¡La seguridad en línea consiste en tomar decisiones inteligentes cada vez que navegas!",
+        "description": "The phrase 'es tomar decisiones inteligentes' is understandable but less natural in Spanish. 'Consiste en tomar decisiones inteligentes' is a more idiomatic and natural way to express this idea in educational Spanish content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Vamos a descubrir cómo funcionan y cómo puedes usarlas! 🌟",
+        "correction": "¡Vamos a descubrir cómo funcionan y cómo puedes usarlas!",
+        "description": "The use of the emoji '🌟' may not be appropriate in formal educational content, as it can reduce the perceived professionalism and may not align with cultural expectations for academic materials in Spanish-speaking contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "El Haiku es una forma de poesía tradicional japonesa que consta de tres líneas, con un patrón de sílabas 5-7-5.",
+        "correction": "El haiku es una forma de poesía tradicional japonesa que consta de tres versos, con un patrón de sílabas 5-7-5.",
+        "description": "The term 'Haiku' should be written in lowercase ('haiku') according to Spanish orthographic conventions for foreign genre names. Additionally, in Spanish poetry, 'versos' is the standard term for lines in a poem, not 'líneas'. This correction improves both terminology consistency and naturalness for Spanish-speaking audiences.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Escrito en pentámetro yámbico (10 sílabas por línea, alternando acentos).",
+        "correction": "Escrito en verso de arte mayor (10 sílabas por verso, alternando acentos).",
+        "description": "The term 'pentámetro yámbico' is an English poetic meter and is not commonly used in Spanish literary analysis. Spanish poetry typically refers to 'verso de arte mayor' or 'versos endecasílabos' for lines with more than eight syllables. Also, 'línea' should be replaced with 'verso' for accuracy in Spanish poetic terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Villanelle",
+        "correction": "Villanela",
+        "description": "The word 'Villanelle' is the English term for this poetic form. In Spanish, the correct term is 'villanela'. Using the Spanish term ensures consistency and cultural appropriateness for Spanish-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Refranes",
+        "correction": "Versos repetidos",
+        "description": "In the context of poetry, 'refrán' in Spanish refers to a proverb or saying, not a repeated line in a poem. The correct term for repeated lines in a villanela is 'versos repetidos' or 'estribillos'. This correction clarifies the poetic structure for Spanish learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Splash! Silencio otra vez.",
+        "correction": "¡Splash! Silencio otra vez.",
+        "description": "In Spanish, exclamations should begin with an opening exclamation mark (¡). The original text omits this, which is a minor orthographic issue affecting naturalness and correctness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Verso Libre",
+        "correction": "verso libre",
+        "description": "The term 'Verso Libre' should be written in lowercase ('verso libre') according to Spanish conventions for poetic forms. This improves consistency and aligns with standard usage in Spanish literary contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Soneto",
+        "correction": "soneto",
+        "description": "The term 'Soneto' should be written in lowercase ('soneto') according to Spanish conventions for poetic forms. This enhances consistency and naturalness in educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Villanelle",
+        "correction": "villanela",
+        "description": "The poetic form 'Villanelle' should be written in lowercase ('villanela') in Spanish, following standard conventions for genre names. This correction ensures consistency and proper localization.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "figuras (J, Q, K) y el As",
+        "correction": "figuras (J, Q, K) y el as",
+        "description": "The word 'As' should be lowercase ('as') in Spanish when referring to playing cards, as it is not a proper noun. This improves consistency and aligns with standard terminology in Spanish card games.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "'cruz'",
+        "correction": "'cruz' (también conocida como 'reverso' o 'sello' en algunos países)",
+        "description": "The term 'cruz' for the tails side of a coin is regionally variable in Spanish. In some countries, 'reverso' or 'sello' is more common. For educational content, it is best to clarify or mention alternative terms to ensure all Spanish-speaking learners understand.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Al buscar un artículo sobre cambio climático en una revista, puedes leer los títulos y encabezados para localizar el artículo relevante.",
+        "correction": "Al buscar un artículo sobre cambio climático en una revista, puedes leer los títulos y encabezados para encontrar el artículo relevante.",
+        "description": "The verb 'localizar' is technically correct but less natural in this context for standard Spanish. 'Encontrar' is more commonly used when referring to finding an article in everyday educational Spanish, making the sentence sound more natural and locally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Escaneo es una técnica de lectura que ayuda a localizar rápidamente información específica dentro de un texto, lo cual es útil para obtener información importante de manera eficiente.",
+        "correction": "El escaneo es una técnica de lectura que ayuda a localizar rápidamente información específica dentro de un texto, lo cual es útil para obtener información importante de manera eficiente.",
+        "description": "The sentence omits the definite article 'El' before 'escaneo', which is required for standard Spanish terminology when introducing a technique. Adding 'El' ensures the sentence follows proper Spanish conventions and sounds natural in educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "¡Bienvenidos al fascinante mundo del método científico! 🌟",
+        "correction": "¡Bienvenidos al fascinante mundo del método científico!",
+        "description": "The use of the star emoji (🌟) in educational Spanish content may be considered informal or distracting in some academic or professional contexts, especially in Latin American educational materials where such symbols are less common. Removing the emoji ensures a more neutral and professional tone, aligning with standard educational style conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "palanca de botella",
+        "correction": "abrebotellas",
+        "description": "The term 'palanca de botella' is not commonly used in Spanish; the standard term for this tool is 'abrebotellas'. Using the correct terminology ensures learners are familiar with the tool in real-life contexts and improves localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "tope de puerta",
+        "correction": "cuña para puerta",
+        "description": "While 'tope de puerta' is understandable, 'cuña para puerta' is more precise and directly relates to the concept of a wedge as a simple machine. This correction enhances technical accuracy and localization for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "base de bombilla",
+        "correction": "casquillo de bombilla",
+        "description": "The term 'base de bombilla' is less commonly used in Spanish for the screw part of a light bulb. 'Casquillo de bombilla' is the standard term, improving naturalness and localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "según la Ley de Newton",
+        "correction": "según la tercera ley de Newton",
+        "description": "The summary refers to 'la Ley de Newton' without specifying which law, which may be ambiguous for learners. Since the lesson consistently references the third law of Newton, it is clearer and more educational to specify 'la tercera ley de Newton' for consistency and precision.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ejemplo: rayos, el sol, luces de neón.",
+        "correction": "Ejemplo: rayos, el Sol, luces de neón.",
+        "description": "In Spanish, 'Sol' referring to the star should be capitalized as a proper noun. Using lowercase 'sol' may be perceived as a general term rather than the astronomical object, which affects scientific accuracy and localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Mi Vieja Estimada Madre Jamás Supo Usar Nachos.",
+        "correction": "Mi Vieja Estimada Madre Jamás Supo Usar Números.",
+        "description": "The use of 'Nachos' in the mnemonic for the planets is culturally inappropriate for educational Spanish content, as it introduces a food reference that is not relevant to the context and may distract from the learning objective. A more neutral term like 'Números' maintains the mnemonic's function without introducing unnecessary cultural elements.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "El cristianismo es la religión más grande del mundo, con más de 2 mil millones de seguidores.",
+        "correction": "El cristianismo es una de las religiones más grandes del mundo, con más de 2 mil millones de seguidores.",
+        "description": "The phrase 'la religión más grande del mundo' may be perceived as culturally insensitive or inaccurate, as it implies a hierarchy and may not reflect the diversity and significance of other religions. Using 'una de las religiones más grandes' is more culturally appropriate and neutral, avoiding potential bias.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "2 mil millones",
+        "correction": "2.000 millones",
+        "description": "The use of '2 mil millones' is understandable but not the most standard way to express large numbers in formal Spanish educational content. '2.000 millones' is the preferred format in most Spanish-speaking countries, aligning with local conventions for number formatting.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "1.9 mil millones",
+        "correction": "1.900 millones",
+        "description": "The number '1.9 mil millones' is not the standard way to express large numbers in Spanish. '1.900 millones' is more appropriate and aligns with Spanish number formatting conventions, improving clarity and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Edad de Oro del Islam",
+        "correction": "Edad de Oro islámica",
+        "description": "The term 'Edad de Oro del Islam' is understandable but 'Edad de Oro islámica' is more natural and commonly used in Spanish academic and educational contexts. This improves terminology consistency and aligns with local usage.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

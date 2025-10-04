@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Emotionale Intelligenz (EI) ist die Fähigkeit, die eigenen Emotionen zu verstehen, zu steuern und auszudrücken sowie die Emotionen anderer zu erkennen und darauf zu reagieren.",
+      "correction": "Emotionale Intelligenz ist die Fähigkeit, die eigenen Emotionen zu verstehen, zu steuern und auszudrücken sowie die Emotionen anderer zu erkennen und darauf zu reagieren.",
+      "description": "The use of the English abbreviation 'EI' in parentheses is not standard in German educational content and may confuse learners. In German, 'emotionale Intelligenz' is typically used without abbreviation, or with 'EQ' (for 'Emotionaler Quotient') if needed. Removing '(EI)' improves naturalness and aligns with local conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟 Diese Fähigkeiten spielen eine entscheidende Rolle für persönliche und soziale Erfolge.",
+      "correction": "Diese Fähigkeiten spielen eine entscheidende Rolle für persönliche und soziale Erfolge.",
+      "description": "The use of the star emoji (🌟) is not appropriate in formal German educational content. Emojis can undermine the professional tone expected in instructional materials and may not be culturally accepted in this context. Removing the emoji maintains a suitable register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Emotionale Intelligenz beschreibt die Fähigkeit, die eigenen Emotionen zu erkennen, zu verstehen und zu steuern sowie die Emotionen anderer wahrzunehmen und entsprechend zu reagieren.",
+      "correction": "Emotionale Intelligenz beschreibt die Fähigkeit, die eigenen Emotionen zu erkennen, zu verstehen und zu steuern sowie die Emotionen anderer wahrzunehmen und darauf entsprechend zu reagieren.",
+      "description": "The phrase 'entsprechend zu reagieren' is slightly ambiguous in German and can be improved for clarity. Adding 'darauf' before 'entsprechend zu reagieren' clarifies that the reaction is to the emotions of others, enhancing precision and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Effektive Kommunikation und Zusammenarbeit sowie die Fähigkeit, Konflikte zu lösen.",
+      "correction": "Effektive Kommunikation und Zusammenarbeit sowie die Fähigkeit, Konflikte zu lösen.",
+      "description": "No correction needed; however, the sentence is a fragment and lacks a main verb, which may affect clarity. For improved grammatical completeness, it could be rephrased as 'Soziale Fähigkeiten umfassen effektive Kommunikation und Zusammenarbeit sowie die Fähigkeit, Konflikte zu lösen.'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stell dir vor, du bist frustriert während eines Gruppenprojekts.",
+      "correction": "Stellen Sie sich vor, Sie sind frustriert während eines Gruppenprojekts.",
+      "description": "The use of informal 'du' is inconsistent with the formal register typically used in German educational materials. Switching to the formal 'Sie' ensures appropriate tone and respect for the audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn du vor einer Präsentation nervös bist, hilft dir Selbstwahrnehmung, deine Angst zu erkennen und Maßnahmen zu ergreifen, um dich zu beruhigen, wie z. B. tiefes Atmen oder zusätzliche Vorbereitung.",
+      "correction": "Wenn Sie vor einer Präsentation nervös sind, hilft Ihnen Selbstwahrnehmung, Ihre Angst zu erkennen und Maßnahmen zu ergreifen, um sich zu beruhigen, wie zum Beispiel tiefes Atmen oder zusätzliche Vorbereitung.",
+      "description": "The sentence uses informal 'du' and 'dir', which is not appropriate for formal educational content. It should be changed to the formal 'Sie' and 'Ihnen'. Additionally, 'wie z. B.' is better replaced with 'wie zum Beispiel' for a more natural and formal expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn ein Freund nach einer schlechten Note traurig ist, ermöglicht dir Empathie, zuzuhören, Unterstützung anzubieten und ihm das Gefühl zu geben, verstanden zu werden.",
+      "correction": "Wenn ein Freund nach einer schlechten Note traurig ist, ermöglicht Ihnen Empathie, zuzuhören, Unterstützung anzubieten und ihm das Gefühl zu geben, verstanden zu werden.",
+      "description": "The use of 'dir' is informal and should be replaced with the formal 'Ihnen' to maintain consistency with the formal register of educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Während eines Gruppenprojekts helfen dir starke soziale Fähigkeiten, effektiv zusammenzuarbeiten, indem du die Ideen anderer anhörst, deine Gedanken respektvoll teilst und Meinungsverschiedenheiten konstruktiv löst.",
+      "correction": "Während eines Gruppenprojekts helfen Ihnen starke soziale Fähigkeiten, effektiv zusammenzuarbeiten, indem Sie die Ideen anderer anhören, Ihre Gedanken respektvoll teilen und Meinungsverschiedenheiten konstruktiv lösen.",
+      "description": "The use of informal 'dir', 'du', and related verb forms is inconsistent with the formal tone expected in German educational materials. These should be replaced with the formal 'Ihnen', 'Sie', and corresponding verb forms for proper register.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Einfühlen von Empathie kann die Qualität von zwischenmenschlichen Beziehungen verbessern.",
+      "correction": "Empathie kann die Qualität von zwischenmenschlichen Beziehungen verbessern.",
+      "description": "The phrase 'Einfühlen von Empathie' is not idiomatic in German. 'Empathie' alone suffices to convey the intended meaning. Removing 'Einfühlen von' improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Klare Kommunikation ist nicht notwendig für effektive Teamarbeit.",
+      "correction": "Klare Kommunikation ist nicht notwendig für eine effektive Teamarbeit.",
+      "description": "The phrase 'für effektive Teamarbeit' is missing the article 'eine', which is required for grammatical correctness in German. The corrected version includes 'eine' for proper article usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:07:01.445070",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 1.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

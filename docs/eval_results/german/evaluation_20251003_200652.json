@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Verwischen: Nutzung von Werkzeugen wie Finger oder Papierwischer, um Bleistiftmarkierungen zu glätten.",
+      "correction": "Verwischen: Nutzung von Werkzeugen wie dem Finger oder einem Papierwischer, um Bleistiftmarkierungen zu glätten.",
+      "description": "The original text omits the definite article before 'Finger' and the indefinite article before 'Papierwischer', which is required for correct German noun phrase structure. The corrected version adds 'dem' and 'einem' to ensure proper grammatical agreement and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Kreuzschraffieren: Hinzufügen von sich kreuzenden Linien für dunklere Schattierungen.",
+      "correction": "Kreuzschraffieren: Hinzufügen von sich kreuzenden Linien für dunklere Schattierungen.",
+      "description": "No linguistic or localization issues found. The spelling, capitalization, and terminology are correct. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Übung ist der Schlüssel – experimentieren Sie mit diesen Methoden, um Ihren eigenen künstlerischen Stil zu entdecken!",
+      "correction": "Übung ist der Schlüssel – probieren Sie diese Methoden aus, um Ihren eigenen künstlerischen Stil zu entdecken!",
+      "description": "The phrase 'experimentieren Sie mit diesen Methoden' is understandable but slightly formal and less idiomatic in German educational contexts. 'Probieren Sie diese Methoden aus' is more natural and commonly used in instructional materials, improving the tone and approachability of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Blindkonturzeichnung: Die Konturen eines Objekts werden gezeichnet, während man sich auf das Objekt selbst konzentriert, nicht auf das Papier.",
+      "correction": "Blindkonturzeichnung: Die Konturen eines Objekts werden gezeichnet, während man sich auf das Objekt selbst konzentriert und nicht auf das Papier.",
+      "description": "The original sentence uses a comma before 'nicht auf das Papier', which is not required and disrupts the flow of the sentence. The corrected version uses 'und' to properly coordinate the two clauses, resulting in a more natural and grammatically correct sentence structure.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Diese Methoden helfen dabei, Tiefe, Realismus und Details in Kunstwerken zu schaffen, und verwandeln einfache Skizzen in lebensechte Meisterwerke. ✏️",
+      "correction": "Diese Methoden helfen dabei, Tiefe, Realismus und Details in Kunstwerken zu schaffen und verwandeln einfache Skizzen in lebensechte Meisterwerke.",
+      "description": "The use of the pencil emoji (✏️) at the end of the sentence may be considered informal or distracting in formal educational content. Removing the emoji aligns the style with standard German educational materials, ensuring a more professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:06:52.563159",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

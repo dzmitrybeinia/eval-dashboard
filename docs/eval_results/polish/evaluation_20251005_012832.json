@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "liczby zmienniste",
+      "correction": "liczby zmiennoprzecinkowe",
+      "description": "The term 'liczby zmienniste' is incorrect in Polish when referring to floating-point numbers. The proper technical term is 'liczby zmiennoprzecinkowe'. Using the correct terminology is essential for clarity and professional language in educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "nie wykonywa żadnych operacji",
+      "correction": "nie wykonuje żadnych operacji",
+      "description": "The verb 'wykonywa' is a misspelling and incorrect conjugation; the correct form is 'wykonuje'. This error affects grammatical accuracy and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "'system calls' lub 'system calls'",
+      "correction": "wywołania systemowe",
+      "description": "The phrase uses the English term 'system calls' twice instead of the standard Polish technical term 'wywołania systemowe'. For educational content, it is important to use locally accepted terminology to ensure clarity and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "bardziej zróżnicowaną i wszechstronną programowanie",
+      "correction": "bardziej zróżnicowane i wszechstronne programowanie",
+      "description": "The phrase uses incorrect adjective endings and agreement with the noun 'programowanie'. The adjectives should be neuter singular to match 'programowanie'. This affects both linguistic accuracy and naturalness of expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T01:28:32.132417",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

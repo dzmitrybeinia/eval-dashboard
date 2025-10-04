@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "mindset de croissance",
+      "correction": "état d'esprit de croissance",
+      "description": "The term 'mindset' is an English loanword that is increasingly used in French, but in educational contexts, especially for younger audiences or formal materials, 'état d'esprit' is the preferred and more natural equivalent. Using 'mindset' may sound unnatural and less accessible to some learners. This issue affects lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "mindset fixe",
+      "correction": "état d'esprit fixe",
+      "description": "Similar to 'mindset de croissance', 'mindset fixe' uses an English loanword where a French equivalent exists. 'État d'esprit fixe' is more idiomatic and appropriate for educational content, ensuring clarity and accessibility for all learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un *mindset de croissance* vous aide à voir les défis comme des opportunités d'apprendre et de s'améliorer.",
+      "correction": "Un état d'esprit de croissance vous aide à voir les défis comme des opportunités d'apprendre et de vous améliorer.",
+      "description": "The reflexive verb 's'améliorer' should agree with the subject 'vous', so it should be 'vous améliorer'. This is a grammatical error affecting pronoun agreement and reflexive verb usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Cela signifie croire que vos capacités et votre intelligence peuvent croître grâce à l'effort, la pratique et la persévérance.",
+      "correction": "Cela signifie croire que vos capacités et votre intelligence peuvent croître grâce à l'effort, à la pratique et à la persévérance.",
+      "description": "In French, when listing items after 'grâce à', the preposition 'à' should be repeated before each noun for clarity and correctness: 'grâce à l'effort, à la pratique et à la persévérance'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imaginez que vous apprenez une nouvelle compétence, comme jouer d'un instrument ou résoudre un problème mathématique difficile.",
+      "correction": "Imaginez que vous apprenez une nouvelle compétence, comme jouer d’un instrument ou résoudre un problème de mathématiques difficile.",
+      "description": "While 'problème mathématique' is understandable, 'problème de mathématiques' is more idiomatic and natural in French educational contexts. This improves the style and naturalness of the expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Vous pouvez tomber plusieurs fois, mais chaque chute vous enseigne à mieux équilibrer.",
+      "correction": "Vous pouvez tomber plusieurs fois, mais chaque chute vous enseigne à mieux garder l’équilibre.",
+      "description": "The phrase 'à mieux équilibrer' is not idiomatic in French. The correct expression is 'garder l’équilibre', which is the standard way to refer to balancing when learning to ride a bike.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:14.029580",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

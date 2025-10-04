@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Les conflits peuvent être résolus grâce à la calme, l'écoute et les compromis.",
+      "correction": "Les conflits peuvent être résolus grâce au calme, à l'écoute et aux compromis.",
+      "description": "The original sentence incorrectly uses 'la calme' instead of the correct masculine form 'le calme' with the preposition 'au'. Additionally, the prepositions should be repeated for each noun to maintain parallel structure: 'au calme, à l'écoute et aux compromis'. This correction ensures proper gender agreement and syntactic parallelism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Pratiquer l'écoute active en attendant pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+      "correction": "Pratiquer l'écoute active en attendant des pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+      "description": "The original sentence is missing the article 'des' before 'pauses naturelles', which is required for grammatical correctness in French. The corrected version adds 'des' to ensure proper syntax and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+      "correction": "Le maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+      "description": "The original sentence lacks the definite article 'Le' before 'maintien', which is necessary for grammatical accuracy in French. The correction adds 'Le' to properly introduce the subject of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Mentir peut en fait diminuer la confiance et la confiance dans une amitié, car cela suggère que l'ami ne peut pas compter sur vous pour dire la vérité.",
+      "correction": "Mentir peut en fait diminuer la confiance dans une amitié, car cela suggère que l'ami ne peut pas compter sur vous pour dire la vérité.",
+      "description": "The phrase 'diminuer la confiance et la confiance' is redundant and affects clarity. The correction removes the repetition, resulting in a more precise and natural sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:56:49.433157",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

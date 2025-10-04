@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Los derechos humanos son inherentes a todos los individuicios.",
+      "correction": "Los derechos humanos son inherentes a todos los individuos.",
+      "description": "The word 'individuicios' is a misspelling and does not exist in Spanish. The correct term is 'individuos', which means 'individuals'. This lexical error affects comprehension and must be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:35:00.134644",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

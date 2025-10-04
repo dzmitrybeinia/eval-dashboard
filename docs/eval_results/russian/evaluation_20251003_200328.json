@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "рассмарив",
+      "correction": "рассматривая",
+      "description": "The word 'рассмарив' is a spelling error; the correct form is 'рассматривая'. This error affects the clarity and professionalism of the text, and may confuse learners about the correct verb form.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "нереценсируемые",
+      "correction": "нерецензируемые",
+      "description": "The word 'нереценсируемые' is misspelled; the correct spelling is 'нерецензируемые'. This mistake can lead to misunderstanding and sets a poor example for correct Russian orthography.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Этос является основой в аргументе, поскольку он устанавливает авторитета и усиливает доверие к аргументу. Соответственно, итоговая сила аргумента часто зависит от сочетания всестона, логоса и пафоса.",
+      "correction": "Этос является основой аргумента, поскольку он устанавливает авторитет и усиливает доверие к аргументу. Соответственно, итоговая сила аргумента часто зависит от сочетания этоса, логоса и пафоса.",
+      "description": "There are two issues: 1) 'устанавливает авторитета' is incorrect; the genitive case is not required, and the correct form is 'устанавливает авторитет'. 2) 'сочетания всестона, логоса и пафоса' contains a lexical error; 'всестона' is not a word in Russian and should be 'этоса'. Both errors impact grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Письтемос обладает силой влиять на аудиторию благодаря использованию эмоциональных, логических и убедительных аргументов.",
+      "correction": "Письмо обладает силой влиять на аудиторию благодаря использованию эмоциональных, логических и убедительных аргументов.",
+      "description": "The word 'Письтемос' is a spelling error and not a valid Russian word. The correct term is 'Письмо'. This mistake affects comprehension and the professional tone of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Этос является центральным элементом в убедительном письме, так как он формирует доверие аудитории к автору. Учитывая эти концепции, понимание их значимого в контексте эффективной коммуникации и аргументации.",
+      "correction": "Этос является центральным элементом в убедительном письме, так как он формирует доверие аудитории к автору. Учитывая эти концепции, важно понимать их значимость в контексте эффективной коммуникации и аргументации.",
+      "description": "The phrase 'понимание их значимого' is grammatically incorrect; 'значимого' is not used as a noun in this context. The correct phrase is 'их значимость'. This error affects the clarity and grammatical accuracy of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Эффективность элемента этиса заключается в подкреплении авторитета и надежд автора, что вовлекает читателя в поведение и усиливает убедительность аргумента.",
+      "correction": "Эффективность элемента этоса заключается в подкреплении авторитета и надежности автора, что вовлекает читателя и усиливает убедительность аргумента.",
+      "description": "There are two issues: 1) 'этиса' is a spelling error; the correct form is 'этоса'. 2) 'надежд автора' is a lexical error; the intended meaning is 'надежности автора' (author's reliability), not 'hopes of the author'. These errors affect both spelling and semantic accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:03:28.099915",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

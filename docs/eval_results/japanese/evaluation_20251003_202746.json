@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "記憶術、チャンク化、視覚化は脳を破壊することです。",
+      "correction": "記憶術、チャンク化、視覚化は脳を破壊するものではありません。",
+      "description": "The original sentence contains a semantic inaccuracy and an unnatural expression. The phrase '脳を破壊することです' is not only factually incorrect but also uses an unnatural construction for expressing negative attributes in Japanese. The corrected version uses 'ものではありません' to clearly negate the statement in a natural and appropriate way, improving both linguistic accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NGSS HS-LS1-3で示されているように、これらの記憶テクニックは脳の構造が認知機能をサポートする証拠を提供します。",
+      "correction": "NGSS HS-LS1-3で示されているように、これらの記憶テクニックは脳の構造が認知機能を支えることを示しています。",
+      "description": "The phrase '証拠を提供します' is a direct translation of 'provide evidence,' which is less natural in Japanese educational contexts. '示しています' is more commonly used to express that something demonstrates or shows a relationship, making the statement more natural and culturally appropriate for Japanese learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "記憶術は、覚えやすいものや既知のものに情報を関連付けることで記憶を助けるツールです。",
+      "correction": "記憶術は、覚えやすいものや既知のものに情報を関連付けて記憶を助ける方法です。",
+      "description": "The use of 'ツール' (tool) is not the most accurate term for 'mnemonic' in Japanese educational contexts. '方法' (method) is more appropriate. Additionally, the phrase '関連付けることで記憶を助ける' is better expressed as '関連付けて記憶を助ける' for smoother sentence flow and correct grammar.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "記憶の保存を強化するメカニズムです。",
+      "correction": "記憶の定着を強化する仕組みです。",
+      "description": "The term 'メカニズム' is a loanword that can sound technical or unnatural in general Japanese educational content. '仕組み' is a more natural and widely accepted term in this context. Additionally, '定着' is a more precise term for 'retention' in Japanese memory science, improving clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "記憶術は新しい情報のみを保存する脳の部位に関連しています。",
+      "correction": "記憶術は新しい情報のみを保存する脳の部位に関連しているわけではありません。",
+      "description": "The original sentence is grammatically correct but semantically inaccurate. The correction adds 'わけではありません' to clearly negate the statement, which is the standard way to express 'not only' or 'not necessarily' in Japanese, improving both accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "123-456-7890",
+      "correction": "123-4567-890",
+      "description": "The phone number format '123-456-7890' follows the US convention, which is not appropriate for Japanese learners. Japanese phone numbers typically use formats like 'XXX-XXXX-XXXX' or 'XXX-XXXX-XXX'. Adjusting the example to a Japanese-style number improves cultural relevance and comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "記憶の力を最大限に活用する秘謀です。",
+      "correction": "記憶の力を最大限に活用する方法です。",
+      "description": "The word '秘謀' means 'secret plot' or 'scheme,' which is inappropriate and unnatural in educational contexts. '方法' (method) is the correct term for describing a technique or strategy in Japanese, ensuring the sentence is culturally appropriate and clear.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:27:46.327482",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W tym lekcji dowiesz się, jak podejście rozwojowe pomaga radzić sobie z wyzwaniami i wspiera proces rozwiązywania problemów.",
+      "correction": "W tej lekcji dowiesz się, jak podejście rozwojowe pomaga radzić sobie z wyzwaniami i wspiera proces rozwiązywania problemów.",
+      "description": "The noun 'lekcja' is feminine, so the locative case should be 'w tej lekcji' instead of 'w tym lekcji'. This is a grammatical case error affecting noun-adjective agreement and must be corrected for proper Polish usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Błędy są zawsódami, które powinniśmy unikawać.",
+      "correction": "Błędy są przeszkodami, których powinniśmy unikać.",
+      "description": "The word 'zawsódami' is a misspelling and not a valid Polish word. The intended meaning is 'przeszkodami' (obstacles). Additionally, 'unikawać' is a misspelling of 'unikać'. Both errors significantly impact comprehension and must be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Akceptując błędy jako punktowy punkt rozwijania, możemy nauczyć się, co działa i jak poprawić nasze podejście.",
+      "correction": "Akceptując błędy jako punkt wyjścia do rozwoju, możemy nauczyć się, co działa i jak poprawić nasze podejście.",
+      "description": "The phrase 'punktowy punkt rozwijania' is unnatural and semantically incorrect in Polish. The correct expression is 'punkt wyjścia do rozwoju', which accurately conveys the idea of using mistakes as a starting point for growth.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Znajmując sposoby rozciągnięcia się poza komfortową zakończoną myślą, podejście rozwojowe pozwala na rozmieszczenie możliwości rozwiązywania problemów.",
+      "correction": "Poznając sposoby wyjścia poza strefę komfortu, podejście rozwojowe pozwala na rozważanie różnych możliwości rozwiązywania problemów.",
+      "description": "The phrase 'Znajmując sposoby rozciągnięcia się poza komfortową zakończoną myślą' is awkward and unclear in Polish. The intended meaning is about going beyond one's comfort zone. Also, 'rozmieszczenie możliwości' is incorrect; 'rozważanie różnych możliwości' is the proper collocation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "To podejście nie tylko zachęca do eksploracji wielu rozwiązań, ale także wzmacnia kreatywne myślenie i odporność przed niepowodzeniami.",
+      "correction": "To podejście nie tylko zachęca do eksploracji wielu rozwiązań, ale także wzmacnia kreatywne myślenie i odporność na niepowodzenia.",
+      "description": "The phrase 'odporność przed niepowodzeniami' is incorrect; the standard Polish collocation is 'odporność na niepowodzenia'. This lexical error affects the naturalness and clarity of the statement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Podejście rozwojowe jest tak samo skomplikowane, jak podejście statyczne, co nie pozwala na jakąkolwiek rozwój.",
+      "correction": "Podejście rozwojowe jest tak samo skomplikowane, jak podejście statyczne, co nie pozwala na jakikolwiek rozwój.",
+      "description": "The phrase 'jakąkolwiek rozwój' is incorrect due to gender agreement; 'rozwój' is masculine, so the correct form is 'jakikolwiek rozwój'. This is a lexical and grammatical error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sugeruje, że w porządku z rozwiązywaniem problemów, szczególnie jeśli jest to trudne, wartościowo jest uzyskana.",
+      "correction": "Sugeruje, że w procesie rozwiązywania problemów, szczególnie gdy jest to trudne, wartość jest uzyskiwana.",
+      "description": "The phrase 'w porządku z rozwiązywaniem problemów' is unnatural; 'w procesie rozwiązywania problemów' is the correct expression. Also, 'wartościowo jest uzyskana' is awkward; 'wartość jest uzyskiwana' is the proper phrasing.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sugeruje, że podwajanie się poprzez wyzwania, a nie odpustanie, może prowadzić do wzrostu umiejętności i osobistego rozwoju, co jest przeciwnym do założenia, że jest to skomplikowane i nie jest przydatne.",
+      "correction": "Sugeruje, że podejmowanie wyzwań, a nie rezygnowanie, może prowadzić do wzrostu umiejętności i osobistego rozwoju, co jest przeciwne założeniu, że jest to skomplikowane i nieprzydatne.",
+      "description": "The phrase 'podwajanie się poprzez wyzwania' is incorrect; the intended meaning is 'podejmowanie wyzwań'. 'Odpustanie' is not a valid Polish word; 'rezygnowanie' is correct. Also, 'przeciwnym do założenia' should be 'przeciwne założeniu', and 'nie jest przydatne' should be 'nieprzydatne'. These lexical errors affect clarity and correctness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:40:06.074892",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

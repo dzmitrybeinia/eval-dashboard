@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "gases de efeito estufa",
+      "correction": "gases de efeito estufa",
+      "description": "Although the phrase 'gases de efeito estufa' is spelled correctly, in scientific and educational contexts, the plural 'gases' is sometimes misused when referring to the general phenomenon. However, in Brazilian Portuguese, the plural is acceptable and commonly used. No correction is needed, but educators should be aware of context-specific terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas! 🌟",
+      "correction": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas!",
+      "description": "The use of the emoji '🌟' at the end of a formal educational introduction may be considered informal and less appropriate for adult or academic audiences in Brazilian Portuguese. Removing the emoji ensures a more professional and culturally neutral tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:42.051043",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

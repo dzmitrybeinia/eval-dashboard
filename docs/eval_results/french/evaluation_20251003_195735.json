@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Déforestation",
+      "correction": "Déforestation",
+      "description": "The term 'Deforestation' is presented in English in a French-language educational context. It should be 'Déforestation' with the correct accent and in French to maintain linguistic consistency and proper orthography. This affects both spelling and localization, but the primary issue is orthography.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lumière solaire",
+      "correction": "Énergie solaire",
+      "description": "The term 'lumière solaire' is used as an example of a renewable resource. In French educational and scientific contexts, 'énergie solaire' is the standard term for solar energy as a resource. 'Lumière solaire' is less precise and not commonly used in this context, which affects terminology consistency and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Les sources renouvelables comme l'énergie solaire, éolienne et hydraulique sont utilisées pour produire une énergie propre.",
+      "correction": "Les sources d'énergie renouvelable, telles que l'énergie solaire, éolienne et hydraulique, sont utilisées pour produire une énergie propre.",
+      "description": "The phrase 'Les sources renouvelables' is less natural than 'Les sources d'énergie renouvelable' in French educational materials. Additionally, 'comme' should be replaced with 'telles que' for formal and precise listing. This improves style and tone for a more professional and natural expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ressources naturelles sont des matériaux ou des substances qui se trouvent dans la nature et peuvent être utilisés par les humains pour divers besoins, comme l'énergie, les matériaux de construction et la nourriture.",
+      "correction": "Les ressources naturelles sont des matériaux ou des substances que l'on trouve dans la nature et qui peuvent être utilisés par les humains pour divers besoins, comme l'énergie, les matériaux de construction et la nourriture.",
+      "description": "The relative clause 'qui se trouvent dans la nature' is less idiomatic in French than 'que l'on trouve dans la nature'. The corrected version uses a more natural and standard French structure for relative clauses, improving grammatical accuracy and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Les combustibles fossiles, comme le charbon, le pétrole et le gaz naturel, ne sont pas des sources d'énergie renouvelable.",
+      "correction": "Les combustibles fossiles, tels que le charbon, le pétrole et le gaz naturel, ne sont pas des sources d'énergie renouvelable.",
+      "description": "In formal French, 'tels que' is preferred over 'comme' when listing examples in educational or scientific contexts. This change improves the format and style consistency for French academic writing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:35.392963",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

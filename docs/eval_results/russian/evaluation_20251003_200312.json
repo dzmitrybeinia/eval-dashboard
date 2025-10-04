@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "имеют ограниченный количество и не могут быть восстановлены",
+      "correction": "имеют ограниченное количество и не могут быть восстановлены",
+      "description": "The adjective 'ограниченный' is incorrectly used in the nominative masculine singular form, while it should agree in gender, number, and case with the noun 'количество' (neuter singular accusative). The correct form is 'ограниченное количество'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "разнообразное биоразнообразие способствует экономическому росту",
+      "correction": "биоразнообразие способствует экономическому росту",
+      "description": "The phrase 'разнообразное биоразнообразие' is tautological and unnatural in Russian, as 'биоразнообразие' already implies diversity. This redundancy affects lexical precision and naturalness of expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "отрасль лесов и ремесленную торговлю",
+      "correction": "лесную отрасль и ремесленную торговлю",
+      "description": "The phrase 'отрасль лесов' is not idiomatic in Russian. The correct term is 'лесная отрасль', which is the standard way to refer to the forestry sector. This error affects lexical precision and professional terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "направлено на поддержание и восстановление окружающей среды, а не на ее удвоение",
+      "correction": "направлено на поддержание и восстановление окружающей среды, а не на её разрушение",
+      "description": "The word 'удвоение' (doubling) is semantically incorrect in this context. The intended meaning is to contrast environmental restoration with environmental harm, so 'разрушение' (destruction) is the appropriate term. This error affects semantic accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Управление производством, подобно управлению финансами, позволяет сохранить ресурсы для будущих поколений.",
+      "correction": "Контроль за производством, как и контроль за финансами, позволяет сохранить ресурсы для будущих поколений.",
+      "description": "The analogy 'управление производством, подобно управлению финансами' is somewhat unnatural and may not resonate with Russian learners, as 'контроль за производством' is a more common and idiomatic expression in educational contexts. Adjusting the analogy improves naturalness and cultural appropriateness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:03:12.125249",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

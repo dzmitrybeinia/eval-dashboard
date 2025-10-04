@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cristianos acreditam em um único Deus e seguem os ensinamentos de Jesus Cristo.",
+      "correction": "Cristãos acreditam em um único Deus e seguem os ensinamentos de Jesus Cristo.",
+      "description": "The word 'Cristianos' is a Spanish term and not correct in Brazilian Portuguese. The correct term is 'Cristãos'. This lexical error could cause confusion and affects the linguistic accuracy of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O Hinduísmo é uma religião que se concentra exclusivamente no conceito de reencarnação, ignorando todos os outros princípulos como karma e dharma.",
+      "correction": "O Hinduísmo é uma religião que se concentra exclusivamente no conceito de reencarnação, ignorando todos os outros princípios como karma e dharma.",
+      "description": "The word 'princípulos' is a misspelling; the correct word is 'princípios'. This orthographic error affects the clarity and professionalism of the content.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions_1.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:13:21.362642",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

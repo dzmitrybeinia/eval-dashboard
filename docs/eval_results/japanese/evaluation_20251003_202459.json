@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonは1991年にGuido van Rossumによって作られました。.",
+      "correction": "Pythonは1991年にGuido van Rossumによって作られました。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) in the statement. In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be removed for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonの設計は確かに1991年にGuido van Rossumによって行われました。これはプログラミングの歴史において重要な節目であることを理解することが重要です。.",
+      "correction": "Pythonの設計は確かに1991年にGuido van Rossumによって行われました。これはプログラミングの歴史において重要な節目であることを理解することが重要です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error and should be corrected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonでは、変数には値を格納することしかできません。.",
+      "correction": "Pythonでは、変数には値を格納することしかできません。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonでは、変数が値を格納することだけでなく、条件やループなどのコードの中で処理を変えるためにも使用されます。.",
+      "correction": "Pythonでは、変数が値を格納することだけでなく、条件やループなどのコードの中で処理を変えるためにも使用されます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonでは、文字列型を整数型として使用することができます。.",
+      "correction": "Pythonでは、文字列型を整数型として使用することができます。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonでは、文字列型はテキストを扱うために使用されますが、整数型として使用することはできません。文字列型は文字列のシーケンスを表し、整数型は数値を表します。異なるデータ型を適切に使用することが、プログラムの挙動を理解するために重要です。.",
+      "correction": "Pythonでは、文字列型はテキストを扱うために使用されますが、整数型として使用することはできません。文字列型は文字列のシーケンスを表し、整数型は数値を表します。異なるデータ型を適切に使用することが、プログラムの挙動を理解するために重要です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonの `+` 演算子を使用して数値を加算することができます。.",
+      "correction": "Pythonの `+` 演算子を使用して数値を加算することができます。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pythonでは `+` 演算子が数値を加算するための習慣的な方法です。この演算子は、2つ以上の数値を結合してその合計を計算することを可能にします。例えば、`a = 5` と `b = 3` のように数値を定義した後、`和 = a + b` で `5 + 3` を計算して `8` を得ることができます。.",
+      "correction": "Pythonでは `+` 演算子が数値を加算するための習慣的な方法です。この演算子は、2つ以上の数値を結合してその合計を計算することを可能にします。例えば、`a = 5` と `b = 3` のように数値を定義した後、`和 = a + b` で `5 + 3` を計算して `8` を得ることができます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "変数はプログラム内でのデータの保存を可能にします。.",
+      "correction": "変数はプログラム内でのデータの保存を可能にします。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "変数はプログラムで使用されるデータを保存するための構造であり、プログラム内で変数に格納された値を参照することができます。これにより、コードを簡潔かつ柔軟に書くことが可能になります。.",
+      "correction": "変数はプログラムで使用されるデータを保存するための構造であり、プログラム内で変数に格納された値を参照することができます。これにより、コードを簡潔かつ柔軟に書くことが可能になります。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:24:59.759006",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

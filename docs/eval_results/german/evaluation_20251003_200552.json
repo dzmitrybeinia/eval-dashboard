@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Physikalische Anpassungen",
+      "correction": "Physische Anpassungen",
+      "description": "The term 'Physikalische Anpassungen' is a false friend in German. 'Physikalisch' refers to physics-related properties, while 'physisch' is the correct term for physical (bodily) adaptations in biology. This lexical error could mislead learners about the scientific meaning. All instances of 'Physikalische Anpassungen' should be replaced with 'Physische Anpassungen'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Kaktuszaunkönigin",
+      "correction": "Kaktuszaunkönig",
+      "description": "The bird species referenced is 'Kaktuszaunkönig' (Cactus Wren), which is masculine in German. The use of 'Kaktuszaunkönigin' is incorrect and not standard; it may confuse learners and is not used in scientific or educational contexts. The noun should be capitalized and use the correct gender form.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ihr dicker Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+      "correction": "Ihr dickes Fell ist eine physische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+      "description": "The phrase 'Ihr dicker Fell' contains a gender agreement error: 'Fell' is neuter, so the correct adjective ending is 'dickes'. Additionally, 'physikalische Anpassung' should be 'physische Anpassung' for biological context. Both errors affect grammatical correctness and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Physikalische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres, wie etwa die Entwicklung von dickem Fell bei Eisbären oder starke Krallen bei Adlern.",
+      "correction": "Physische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres, wie etwa die Entwicklung von dickem Fell bei Eisbären oder starken Krallen bei Adlern.",
+      "description": "The term 'Physikalische Anpassungen' is not standard in German biology education; 'physische Anpassungen' is correct. Additionally, 'starke Krallen' should be in the accusative plural ('starken Krallen') to match 'Entwicklung von ...'. This correction improves both terminology consistency and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Tiere sind Meister der Anpassung und finden Wege, in ihren einzigartigen Lebensräumen zu gedeihen.",
+      "correction": "Tiere sind Meister der Anpassung und finden Wege, in ihren einzigartigen Lebensräumen zu überleben und zu gedeihen.",
+      "description": "The phrase 'zu gedeihen' alone may sound unnatural in educational German, as 'überleben und gedeihen' is the standard collocation for describing animal adaptation. Adding 'überleben' ensures the style matches common educational usage and improves clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:05:52.465716",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

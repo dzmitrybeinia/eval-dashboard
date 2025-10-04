@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La compréhension et l'expression des émotions sont cruciales pour établir des connexions profondes et résonner avec les autres.",
+      "correction": "La compréhension et l'expression des émotions sont cruciales pour établir des connexions profondes et entrer en résonance avec les autres.",
+      "description": "The verb 'résonner' is a lexical false friend in this context. In French, 'résonner' means 'to resonate' in a physical or acoustic sense, not 'to connect emotionally.' The correct expression is 'entrer en résonance avec,' which conveys the idea of emotionally connecting or resonating with others. This correction improves semantic accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational French content may be considered informal and less appropriate for formal or academic contexts. While emojis can enhance engagement in some settings, their use should be carefully considered for audience and register. For a formal lesson, it is recommended to remove the emoji to maintain a professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:56:23.168513",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

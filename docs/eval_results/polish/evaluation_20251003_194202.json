@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dźwignia są zawsze niepotrzebne w codziennym życiu.",
+      "correction": "Dźwignie są zawsze niepotrzebne w codziennym życiu.",
+      "description": "The noun 'Dźwignia' is singular, but the verb 'są' is plural. The correct plural form is 'Dźwignie' to match the verb. This is a subject-verb agreement error, which is a critical grammatical issue.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dźwignie odgrywa kluczową rolę w wielu codziennych przedmiotach, takich jak huczka, łomki i otwieracz do butelek.",
+      "correction": "Dźwignie odgrywają kluczową rolę w wielu codziennych przedmiotach, takich jak huśtawka, łom i otwieracz do butelek.",
+      "description": "The verb 'odgrywa' is singular, but the subject 'Dźwignie' is plural, requiring 'odgrywają'. Additionally, 'huczka' and 'łomki' are incorrect lexical choices; the correct terms are 'huśtawka' and 'łom'. This sentence contains both grammatical and lexical errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dzięki ich zdolności do podnoszenia lub przesuwania ciężkości, stawiają one pewne zadania łatwiejsze do wykonania.",
+      "correction": "Dzięki ich zdolności do podnoszenia lub przesuwania ciężarów, czynią one pewne zadania łatwiejszymi do wykonania.",
+      "description": "The word 'ciężkości' is incorrect; the proper noun in this context is 'ciężarów'. The verb 'stawiają' is not appropriate; 'czynią' is the correct verb for 'make tasks easier'. Also, 'łatwiejsze' should be in the instrumental case: 'łatwiejszymi'. Multiple grammatical and lexical errors are present.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta założenie jest poprawną interpretacją działania koła i osi.",
+      "correction": "To założenie jest poprawną interpretacją działania koła i osi.",
+      "description": "The demonstrative pronoun 'Ta' is feminine, but 'założenie' is neuter, so 'To' is required for correct gender agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zastosowanie tarcia zmniejsza, co pozwala ruchomelom na płynniejszy.",
+      "correction": "Tarcie się zmniejsza, co pozwala obiektom na płynniejszy ruch.",
+      "description": "The sentence structure is incorrect and the word 'ruchomelom' is not a valid Polish word. The correct construction is 'Tarcie się zmniejsza, co pozwala obiektom na płynniejszy ruch.' This corrects both grammar and lexical errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Pochylnie zazwyczniowo są używane do uproszczenia ruchu obiektów w kierunku górnej lub dolnej, a nie wyłącznie do stabilizacji.",
+      "correction": "Pochylnie zazwyczaj są używane do uproszczenia ruchu obiektów w kierunku górnym lub dolnym, a nie wyłącznie do stabilizacji.",
+      "description": "The word 'zazwyczniowo' is a misspelling; the correct word is 'zazwyczaj'. Also, 'górnej lub dolnej' should be 'górnym lub dolnym' to match the context and case. This sentence contains both spelling and grammatical errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pochylnice jak rampy, schody, czy zjeżdżalnia są zaprojektowane, aby łatwiej przekroczyć przeszkody, a nie utrzymywać stabilności.",
+      "correction": "Pochylnie, takie jak rampy, schody czy zjeżdżalnie, są zaprojektowane, aby łatwiej pokonywać przeszkody, a nie utrzymywać stabilność.",
+      "description": "The word 'Pochylnice' is incorrect; the correct plural is 'Pochylnie'. The phrase 'przekroczyć przeszkody' should be 'pokonywać przeszkody' for naturalness. Also, 'zjeżdżalnia' should be plural 'zjeżdżalnie' to match the list. The verb 'utrzymywać stabilności' should be 'utrzymywać stabilność'. Multiple grammatical and lexical errors are present.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Śruba można znaleźć w wielu domowych urządzeniach.",
+      "correction": "Śrubę można znaleźć w wielu domowych urządzeniach.",
+      "description": "The noun 'Śruba' should be in the accusative case 'Śrubę' as the object of 'można znaleźć'. This is a case error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Śruby są używane do połączenia różnych części w maszynach, które wykonują pracę. W domowym środowisku często widzisz śruby w urządzeniach takich jak żarówki i wiertło, które potrzebują utrzymywać pozycję lub wykonywać pracę.",
+      "correction": "Śruby są używane do łączenia różnych części w maszynach, które wykonują pracę. W domowym środowisku często można znaleźć śruby w urządzeniach takich jak meble czy sprzęt AGD, które wymagają utrzymania pozycji lub wykonywania pracy.",
+      "description": "The examples 'żarówki' and 'wiertło' are not typical or accurate examples of where screws are found in household devices. More culturally and technically appropriate examples are 'meble' (furniture) and 'sprzęt AGD' (household appliances). The verb 'widzieć' is also less formal; 'można znaleźć' is more appropriate for educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:42:02.609366",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

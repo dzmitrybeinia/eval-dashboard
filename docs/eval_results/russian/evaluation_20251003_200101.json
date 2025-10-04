@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "обрабаatesть",
+      "correction": "обрабатывать",
+      "description": "The word 'обрабаatesть' contains a spelling error due to an incorrect insertion of Latin characters ('ates'). The correct Russian verb is 'обрабатывать', which means 'to process'. This error significantly affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Это как коробка, куда можно положить данные, чтобы использовать их позже.",
+      "correction": "Это как коробка, в которую можно положить данные, чтобы использовать их позже.",
+      "description": "The phrase 'куда можно положить данные' is understandable but less natural in Russian. The preposition 'в которую' is more idiomatic and aligns with standard Russian usage for describing containers. This improves the naturalness and readability of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "for каждый студент в 5 студентах:",
+      "correction": "для каждого студента из 5:",
+      "description": "The phrase 'for каждый студент в 5 студентах' is a direct translation from English and is not idiomatic in Russian. The corrected version 'для каждого студента из 5' uses natural Russian phrasing for iterating over a set of students, improving localization and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:01.966250",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "固定マインドセットには、障害や挑戦を避けることが多いです.",
+      "correction": "固定マインドセットには、障害や挑戦を避けることが多いです。",
+      "description": "The statement ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error that affects the professionalism and consistency of Japanese writing. The sentence should use the full-width Japanese period to conform to standard punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります..",
+      "correction": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります。",
+      "description": "The feedback ends with two consecutive full-width periods ('..'), which is incorrect in Japanese orthography. Only a single full-width period ('。') should be used at the end of a sentence. This error affects the naturalness and correctness of the written Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "困難な課題を避けることが成長にとって最も有益である.",
+      "correction": "困難な課題を避けることが成長にとって最も有益である。",
+      "description": "The statement ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "実際には、困難な課題を避けることは成長を阻むものです。成長マインドセットの核心は、挑戦を受け入れ、過去の失敗から学ぶことです。これにより、個人は新しいスキルや知識を身につけ、強さと対応力を身につけることができます..",
+      "correction": "実際には、困難な課題を避けることは成長を阻むものです。成長マインドセットの核心は、挑戦を受け入れ、過去の失敗から学ぶことです。これにより、個人は新しいスキルや知識を身につけ、強さと対応力を身につけることができます。",
+      "description": "The feedback ends with two consecutive full-width periods ('..'), which is incorrect in Japanese writing. Only a single full-width period ('。') should be used at the end of a sentence. This affects the orthographic accuracy and should be corrected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "挑戦に立ち向かうことは、成長の機会を提供します.",
+      "correction": "挑戦に立ち向かうことは、成長の機会を提供します。",
+      "description": "The statement ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:27:10.098095",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Der Handelsbilanz misst die Differenz zwischen den Importen und Exporten eines Landes:",
+      "correction": "Die Handelsbilanz misst die Differenz zwischen den Importen und Exporten eines Landes:",
+      "description": "The definite article 'Der' is incorrect here; 'Handelsbilanz' is a feminine noun and requires 'Die'. This is a grammatical error affecting noun gender agreement and article usage. The rest of the sentence is correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Der Handel verbindet die Weltwirtschaft und beeinflusst sowohl Nationen als auch Einzelpersonen.",
+      "correction": "Der Handel verbindet die Weltwirtschaft und beeinflusst sowohl Nationen als auch Einzelpersonen.",
+      "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses proper noun capitalization, and is culturally appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:07:41.483621",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

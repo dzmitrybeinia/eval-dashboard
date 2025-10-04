@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Estados Unidos",
+      "correction": "Estados Unidos",
+      "description": "The term 'Estados Unidos' is correctly capitalized and spelled. However, in Spanish educational content, it is preferable to use the full official name 'Estados Unidos de América' when first mentioned for clarity and formality, especially in academic contexts. This is a minor stylistic improvement rather than a strict linguistic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "microestados",
+      "correction": "microestados",
+      "description": "The term 'microestados' is accurate in Spanish, but it may not be familiar to all learners. For localization quality, consider providing a brief definition or example (e.g., 'microestados como Mónaco o San Marino') to ensure clarity for diverse audiences. This enhances accessibility and comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "EE.UU.",
+      "correction": "Estados Unidos",
+      "description": "The abbreviation 'EE.UU.' is standard in Spanish, but in educational materials for a general audience, it is preferable to use the full name 'Estados Unidos' for clarity and to avoid confusion, especially for learners unfamiliar with abbreviations.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:34:47.554694",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

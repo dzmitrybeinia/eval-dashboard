@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Natal. Isso significa que o Carnaval acontece no final do ano, não no início.",
+      "correction": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum que antecede a Páscoa. Isso significa que o Carnaval acontece no início do ano, não no final.",
+      "description": "The original text contains a lexical and factual error regarding the timing of Lent. Lent does not occur immediately after Christmas; it precedes Easter. This mistake could mislead learners about the calendar placement of Carnival. The correction clarifies that Lent comes before Easter and that Carnival occurs at the beginning of the year, not at the end.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "O Dia dos Mortos no México é uma tradição de honra aos entes queridos falecidos, celebrado com altares decorados, flores, caveiras de açúcar e desfiles.",
+      "correction": "O Dia dos Mortos no México é uma tradição de honra aos entes queridos falecidos, celebrado com altares decorados, flores, caveiras de açúcar e procissões.",
+      "description": "The use of 'desfiles' (parades) may misrepresent the typical activities of Dia dos Mortos, as the event is more commonly associated with 'procissões' (processions) and family gatherings rather than large parades. This correction improves cultural accuracy and better reflects the traditional practices of the celebration.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Eid al-Fitr, conhecido como o Festival de Quebra do Jejum, é uma celebração religiosa significativa que se concentra na oração, na doação (Sadaqah), e na renovação espiritual.",
+      "correction": "Eid al-Fitr, conhecido como o Festival de Quebra do Jejum, é uma celebração religiosa significativa que se concentra na oração, na doação (Zakat al-Fitr), e na renovação espiritual.",
+      "description": "The term 'Sadaqah' is a general word for charity in Islam, but the specific charitable act associated with Eid al-Fitr is 'Zakat al-Fitr'. Using the correct term enhances both linguistic precision and cultural accuracy for educational purposes.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:46.227894",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

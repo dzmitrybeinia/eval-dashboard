@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "образаний",
+      "correction": "образов",
+      "description": "The word 'образаний' is a lexical error; the correct genitive plural form is 'образов'. The original word is not standard Russian and may confuse learners. This also affects the overall clarity and professionalism of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Orthography",
+      "original": "водных изображения",
+      "correction": "водных изображений",
+      "description": "The phrase 'водных изображения' contains a case error: 'изображения' should be in the genitive plural form 'изображений' to agree with 'водных'. This is a grammatical mistake that affects the accuracy of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "произворе",
+      "correction": "произведении",
+      "description": "The word 'произворе' is a spelling and lexical error. The intended word is 'произведении' (in the work/artwork), which is the correct locative form. The error impairs comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:37.887497",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

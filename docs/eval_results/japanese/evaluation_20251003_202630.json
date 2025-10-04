@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "火の三角形は火災を引き起こすのには不可欠ではありません。.",
+      "correction": "火の三角形は火災を引き起こすのには不可欠ではありません。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "火の三角形は火災を引き起こすための必要要素を示していますが、それ自体が火災を引き起こすわけではありません。火災は、熱、燃料、酸素が融合したときに発生します。.",
+      "correction": "火の三角形は火災を引き起こすための必要要素を示していますが、それ自体が火災を引き起こすわけではありません。火災は、熱、燃料、酸素が融合したときに発生します。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "電気器具は常に安全に使用できるため、留める必要はありません。.",
+      "correction": "電気器具は常に安全に使用できるため、留める必要はありません。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "電気器具は安全に使用するために適切なケアが必要です。使用していない場合は、電源を切り、維持しないほうが良いです。.",
+      "correction": "電気器具は安全に使用するために適切なケアが必要です。使用していない場合は、電源を切り、維持しないほうが良いです。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "煙探知機は火災時に小さな灰粒子を検出して警報を出す。.",
+      "correction": "煙探知機は火災時に小さな灰粒子を検出して警報を出す。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "煙探知機は主に煙粒子を検出し、火災時には汚染物質を検出して警報を出す。灰粒子は通常、火災後に出現するため、煙探知機は火災の初期段階において重要な役割を果たします。.",
+      "correction": "煙探知機は主に煙粒子を検出し、火災時には汚染物質を検出して警報を出す。灰粒子は通常、火災後に出現するため、煙探知機は火災の初期段階において重要な役割を果たします。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "火災避難計画は避難時に対象となる人数を決定するために作成されます。.",
+      "correction": "火災避難計画は避難時に対象となる人数を決定するために作成されます。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "火災避難計画は事前に作成され、緊急時に迅速かつ安全に避難する方法を確立するために作成されます。これにより、家族や同僚が迅速に行動し、安全な出口や集合場所を知り、緊急通報を行うことができます。.",
+      "correction": "火災避難計画は事前に作成され、緊急時に迅速かつ安全に避難する方法を確立するために作成されます。これにより、家族や同僚が迅速に行動し、安全な出口や集合場所を知り、緊急通報を行うことができます。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:26:30.958514",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

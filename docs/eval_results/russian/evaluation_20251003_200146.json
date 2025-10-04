@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это утверждение не совсем верно, так как основные эмоции, как указано, — это сильные погоня, которые человек может испытывать.",
+      "correction": "Это утверждение не совсем верно, так как основные эмоции, как указано, — это сильные переживания, которые человек может испытывать.",
+      "description": "The word 'погоня' is a lexical error; it means 'chase' or 'pursuit' and is not appropriate in this context. The correct term is 'переживания', which means 'experiences' or 'feelings'. This error affects the clarity and accuracy of the explanation about emotions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Счасть всегда приводит к положительным действиям и поступкам.",
+      "correction": "Счастье всегда приводит к положительным действиям и поступкам.",
+      "description": "The word 'Счасть' is a spelling error; the correct form is 'Счастье' (happiness). This mistake affects the grammatical correctness and comprehension of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Счасть — это сила мотивации, но он не является единственной фактором в принятии решений.",
+      "correction": "Счастье — это сила мотивации, но оно не является единственным фактором в принятии решений.",
+      "description": "There are two grammatical errors: 1) 'Счасть' should be 'Счастье' (spelling and noun form), and 2) 'он' should be 'оно' to match the neuter gender of 'счастье'. Additionally, 'единственной фактором' should be 'единственным фактором' to ensure correct case and gender agreement. These errors impact grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Управление эмоциями включает в себя подальше всего от стрессовой ситуации.",
+      "correction": "Управление эмоциями включает в себя удаление себя от стрессовой ситуации.",
+      "description": "The phrase 'подальше всего' is grammatically incorrect and unnatural in Russian. The correct expression is 'удаление себя от стрессовой ситуации' or 'отдаление от стрессовой ситуации'. This error affects the grammatical structure and naturalness of the sentence.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:46.138413",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

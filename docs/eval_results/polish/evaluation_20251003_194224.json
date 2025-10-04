@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Złotej Księżyca odwiedzają ludzie na orbicie Ziemi.",
+      "correction": "Złoty Księżyc odwiedzają ludzie na orbicie Ziemi.",
+      "description": "The phrase 'Złotej Księżyca' incorrectly uses the genitive case and feminine gender, while 'Księżyc' is masculine and should be in nominative case as the subject. The correct form is 'Złoty Księżyc'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Złotej Księżyca odwiedzają ludzie na orbicie Ziemi nie.",
+      "correction": "Ludzie nie odwiedzają Złotego Księżyca na orbicie Ziemi.",
+      "description": "The sentence structure is incorrect: the word order is unnatural, and 'Złotej Księżyca' is in the wrong case and gender. The negation should precede the verb, and the subject should be in nominative case. The corrected sentence is 'Ludzie nie odwiedzają Złotego Księżyca na orbicie Ziemi.'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta księżyc jest znana z swojego jasnego blasku i znajduje się około tygodnia po Księżyku.",
+      "correction": "Ten księżyc jest znany ze swojego jasnego blasku i znajduje się około tygodnia po pełni.",
+      "description": "The noun 'księżyc' is masculine, so the correct form is 'ten księżyc'. The phrase 'z swojego' should be 'ze swojego' due to euphony. 'Księżyku' is incorrect; the proper term is 'pełni' (full moon) in this context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Złotej Księżyca to miejsce na orbicie Ziemi, a nie księżyc.",
+      "correction": "Złoty Księżyc to nie miejsce na orbicie Ziemi, lecz księżyc.",
+      "description": "The phrase 'Złotej Księżyca' is incorrect in case and gender; it should be 'Złoty Księżyc'. The sentence structure is also unnatural; 'to miejsce na orbicie Ziemi, a nie księżyc' should be rephrased for clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Saturn V rakieta używa paliwa roziemowego do ulotu z atmosfery na wysokim poziomie, a nie do utrzymania się w powierzchni atmosfery.",
+      "correction": "Rakieta Saturn V używa paliwa chemicznego do opuszczenia atmosfery, a nie do utrzymania się w jej obrębie.",
+      "description": "The term 'paliwa roziemowego' is not a correct Polish term; the proper term is 'paliwa chemicznego'. 'Ulotu z atmosfery na wysokim poziomie' is an unnatural and incorrect phrase; it should be 'opuszczenia atmosfery'. The word order should be corrected to 'Rakieta Saturn V'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Systemy podtrzymywania życia w kosmosie nie wymagają regularnej konserwacji i utrzymują się bez problemów przez całe okres eksplozji.",
+      "correction": "Systemy podtrzymywania życia w kosmosie wymagają regularnej konserwacji i nie działają bezproblemowo przez cały okres misji.",
+      "description": "The phrase 'przez całe okres eksplozji' is incorrect; 'eksplozji' is a mistranslation and should be 'misji' (mission). The sentence also incorrectly states that life support systems do not require maintenance, which is factually inaccurate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Systemy podtrzymywania życia są zaawansowane, ale nadal wymagają konserwacji i utrzymania. Na przykład, system ECLSS na ISS wymaga regularnej opróżniania, konserwacji oraz kontroli nawet w przypadku awarii.",
+      "correction": "Systemy podtrzymywania życia są zaawansowane, ale nadal wymagają konserwacji i utrzymania. Na przykład, system ECLSS na ISS wymaga regularnego opróżniania, konserwacji oraz kontroli, nawet w przypadku awarii.",
+      "description": "The word 'regularnej opróżniania' is incorrect; the correct form is 'regularnego opróżniania' to match the gender and case agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jak w kosmosie, tak jak w szczelinach, ciśnienie grawitacyjne jest znacznie niższe, organizm człowieka odpiera mniejszą siłę grawitacji.",
+      "correction": "W kosmosie ciśnienie grawitacyjne jest znacznie niższe, więc organizm człowieka podlega mniejszej sile grawitacji.",
+      "description": "The phrase 'tak jak w szczelinach' is irrelevant and confusing in this context. The verb 'odpiera' is incorrect; the correct verb is 'podlega'. The sentence should be restructured for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To może prowadzić do przesunięcia płynów w ciele, co może wpłynąć na funkcje płynowe.",
+      "correction": "To może prowadzić do przesunięcia płynów w ciele, co może wpłynąć na funkcje organizmu.",
+      "description": "The phrase 'funkcje płynowe' is not a standard or meaningful term in Polish; the correct phrase is 'funkcje organizmu'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W rezultacie, zwiększa się istotność regularnych ćwiczeń fizycznych i ściskających, aby przeciwdziałać tych zmian.",
+      "correction": "W rezultacie, zwiększa się istotność regularnych ćwiczeń fizycznych, aby przeciwdziałać tym zmianom.",
+      "description": "The phrase 'ćwiczeń ściskających' is not standard in Polish and is unclear. The correct case after 'przeciwdziałać' is dative ('tym zmianom'), not accusative ('tych zmian').",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Podróże kosmiczne są głównie realizowane przez statki ziemskie.",
+      "correction": "Podróże kosmiczne są głównie realizowane przez statki kosmiczne.",
+      "description": "The term 'statki ziemskie' is incorrect in this context; the correct term is 'statki kosmiczne'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "W rzeczywistości, wraz z rozwojem technologii, większość statków kosmicznych i orbitalnych satelitów wykonuje swoje zadania na orbity słoneczne, a nie ziemskie.",
+      "correction": "W rzeczywistości, wraz z rozwojem technologii, większość statków kosmicznych i satelitów orbitalnych wykonuje swoje zadania na orbitach słonecznych, a nie ziemskich.",
+      "description": "The phrase 'na orbity słoneczne' should be 'na orbitach słonecznych' to match the correct case and number. 'Satelitów orbitalnych' is more natural than 'orbitalnych satelitów'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Dzieje eksploracji kosmosu pokazują, że kosmos to miejsce dla statków złotej elowy i łazików jak Mars Express, a nie ziemskie statki.",
+      "correction": "Dzieje eksploracji kosmosu pokazują, że kosmos to miejsce dla statków kosmicznych i łazików, takich jak Mars Express, a nie statków ziemskich.",
+      "description": "The phrase 'statków złotej elowy' is nonsensical and likely a mistranslation or typo. The correct term is 'statków kosmicznych'. The phrase 'łazików jak Mars Express' should be 'łazików, takich jak Mars Express'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:42:24.550024",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 13,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

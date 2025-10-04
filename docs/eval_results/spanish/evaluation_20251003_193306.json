@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+      "correction": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
+      "description": "The verb 'sustenta' is in the present tense, which creates a tense inconsistency with the rest of the sentence, which is in the past. The correct form is 'sustentó' to maintain past tense throughout the statement. This improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Esto demuestra su avanzado conocimiento en organización de trabajo y planificación logística.",
+      "correction": "Esto demuestra su avanzado conocimiento en la organización del trabajo y la planificación logística.",
+      "description": "The phrase 'organización de trabajo y planificación logística' lacks definite articles, which are required in Spanish for clarity and naturalness. The corrected version adds 'la' before both 'organización del trabajo' and 'planificación logística', improving grammatical correctness and natural flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y el Sphinx.",
+      "correction": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y la Esfinge.",
+      "description": "The use of 'Sphinx' is an anglicism and not the standard Spanish term. The correct term is 'la Esfinge'. This correction addresses both a lexical error and a localization issue, ensuring the use of culturally and linguistically appropriate terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:33:06.367703",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

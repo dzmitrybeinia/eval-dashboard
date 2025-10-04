@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "naratura",
+      "correction": "narrativa",
+      "description": "The word 'naratura' is a spelling error; the correct term in Spanish is 'narrativa'. This mistake affects the clarity and professionalism of the feedback, as 'naratura' is not a recognized word in Spanish.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "cuestiones éticos",
+      "correction": "cuestiones éticas",
+      "description": "The phrase 'cuestiones éticos' contains a gender agreement error. 'Cuestiones' is feminine, so the adjective should be 'éticas' instead of 'éticos'. This affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:36:06.989240",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

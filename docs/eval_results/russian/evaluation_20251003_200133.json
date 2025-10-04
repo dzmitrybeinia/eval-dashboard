@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "идеортов",
+      "correction": "идей",
+      "description": "The word 'идеортов' is a spelling error and should be 'идей'. This mistake affects comprehension and disrupts the flow of the feedback. Additionally, the sentence should be checked for overall clarity, but the primary issue is the misspelling.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "этот сравнение помогает определить, соответствует ли прототип требуемым характеристикам",
+      "correction": "это сравнение помогает определить, соответствует ли прототип требуемым характеристикам",
+      "description": "The phrase 'этот сравнение' is grammatically incorrect because 'сравнение' is a neuter noun and requires the neuter pronoun 'это', not the masculine 'этот'. This error affects grammatical agreement and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ограничения или ограничения",
+      "correction": "ограничения",
+      "description": "The phrase 'ограничения или ограничения' is redundant and unnatural in Russian. Only one instance of 'ограничения' is needed. This affects the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:33.752577",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

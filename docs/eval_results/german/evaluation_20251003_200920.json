@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Bar/Bat Mitzwa",
+      "correction": "Bar/Bat Mizwa",
+      "description": "The correct German spelling for the Jewish coming-of-age ritual is 'Mizwa' rather than 'Mitzwa'. The use of 'tz' is not standard in German orthography for this term, and 'Mizwa' is the accepted form in educational and religious contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "St. Paul",
+      "correction": "Paulus",
+      "description": "The use of 'St. Paul' is an anglicism and not the standard way to refer to the apostle in German educational or religious texts. The culturally and linguistically appropriate term is 'Paulus', which aligns with German conventions and avoids unnecessary English influence.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:09:20.181505",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

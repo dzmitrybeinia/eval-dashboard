@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Zasoby odnawialne mogą być naturalnie zrewzględowane w czasie.",
+      "correction": "Zasoby odnawialne mogą być naturalnie odnawiane w czasie.",
+      "description": "The word 'zrewzględowane' is incorrect and does not exist in Polish. The correct term is 'odnawiane', which accurately conveys the idea of renewable resources being naturally replenished over time. This lexical error could confuse learners and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To oznacza, że musimy stosować rozważane prace, aby zapobiec wyczerpaniu i zachować równowagę ekosystemu.",
+      "correction": "To oznacza, że musimy stosować rozważne działania, aby zapobiec wyczerpaniu i zachować równowagę ekosystemu.",
+      "description": "The phrase 'rozważane prace' is grammatically incorrect and unnatural in Polish. The correct expression is 'rozważne działania', which means 'thoughtful actions'. This correction improves both grammatical accuracy and naturalness of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Zasoby naturalne są wyłącznie używane do rozrywki i rozrywki.",
+      "correction": "Zasoby naturalne są wyłącznie używane do rozrywki.",
+      "description": "The phrase 'do rozrywki i rozrywki' is a redundant repetition of the same word, which is a lexical error. Only one instance of 'rozrywki' is needed to convey the meaning. This correction removes unnecessary duplication and improves clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta deklaracja jest poprawna, ponieważ zasoby odnawialne, takie jak światło słoneczne, woda, i lasy, mogą się odnawiać ponownie naturalnym procesom.",
+      "correction": "Ta deklaracja jest poprawna, ponieważ zasoby odnawialne, takie jak światło słoneczne, woda i lasy, mogą się odnawiać dzięki naturalnym procesom.",
+      "description": "The phrase 'mogą się odnawiać ponownie naturalnym procesom' is grammatically incorrect. The correct construction is 'mogą się odnawiać dzięki naturalnym procesom', which properly expresses that renewable resources are replenished by natural processes. Additionally, the comma before 'i lasy' should be removed for correct punctuation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Koncepcja zrównoważonego zarządzania obejmuje czyny takie jak ochrona, odnawialne źródła energii, recykling oraz zalesianie, które wszystkie wspierają równowagę między potrzebami ludzi a zdrowiem środowiska.",
+      "correction": "Koncepcja zrównoważonego zarządzania obejmuje działania takie jak ochrona, odnawialne źródła energii, recykling oraz zalesianie, które wspierają równowagę między potrzebami ludzi a zdrowiem środowiska.",
+      "description": "The word 'czyny' is not appropriate in this context; 'działania' is the correct term for 'actions' or 'measures'. Also, 'które wszystkie wspierają' is unnatural; 'które wspierają' is sufficient and more idiomatic. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:41:02.273591",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

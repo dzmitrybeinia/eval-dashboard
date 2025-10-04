@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "сотлала более сотня человек",
+      "correction": "участвовала более сотни человек",
+      "description": "The word 'сотлала' is a spelling error and does not exist in Russian. The correct verb is 'участвовала', which means 'participated'. Additionally, 'сотня' should be in the genitive case ('сотни') to agree with 'более'. This error affects comprehension and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Роза Паркс уступила место белому пассажиру",
+      "correction": "Роза Паркс отказалась уступить место белому пассажиру",
+      "description": "The sentence incorrectly states that Rosa Parks 'gave up her seat', while the historical fact is that she 'refused to give up her seat'. This is a semantic and grammatical error that misrepresents the event and affects the accuracy of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В Бойкоте автобусов в Монтгомери был присоеднен только один человек.",
+      "correction": "К бойкоту автобусов в Монтгомери присоединился только один человек.",
+      "description": "The verb 'был присоеднен' is incorrect; the correct form is 'присоединился'. The preposition 'в' is also unnatural in this context; 'к' is standard. This error affects grammatical correctness and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "непрерымный характер протеста",
+      "correction": "непрерывный характер протеста",
+      "description": "The word 'непрерымный' is a spelling error; the correct word is 'непрерывный', meaning 'continuous'. This error affects clarity and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "это было действие Роза Паркс, которые были одной из лидеров, организовавших этот значительный акт сопротивления.",
+      "correction": "это было действие многих лидеров, среди которых была Роза Паркс, организовавших этот значительный акт сопротивления.",
+      "description": "The sentence incorrectly attributes the organization of the March on Washington solely to Rosa Parks and uses 'которые были одной из лидеров', which is grammatically incorrect (plural 'которые' with singular 'одной'). The correction clarifies that multiple leaders, including Rosa Parks, organized the event and fixes the agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Принятие закона о гражданских прав в 1964 году",
+      "correction": "Принятие закона о гражданских правах в 1964 году",
+      "description": "The phrase 'закона о гражданских прав' is incorrect; 'правах' should be in the genitive plural to agree with 'закона о'. This is a grammatical error affecting case agreement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:00:48.480028",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

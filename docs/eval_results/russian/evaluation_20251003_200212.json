@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "противорежившее бы определение дроби",
+      "correction": "противоречило бы определению дроби",
+      "description": "The word 'противорежившее' is a misspelling and incorrect form; the correct form is 'противоречило бы', which is the proper conditional past tense of the verb 'противоречить'. This error affects the clarity and grammatical correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "представляет собой количество частей, которые мы имеем",
+      "correction": "показывает количество частей, которые мы имеем",
+      "description": "The phrase 'представляет собой количество частей' is an awkward and unnatural way to express the function of the numerator in Russian. The more precise and natural wording is 'показывает количество частей'. This improves clarity and aligns with standard mathematical terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "увеличивается дробь, когда увеличивается знаменатель",
+      "correction": "увеличивается дробь, когда увеличивается числитель",
+      "description": "The statement incorrectly claims that a fraction increases when the denominator increases, which is mathematically incorrect. The correct relationship is that a fraction increases when the numerator increases (with a fixed denominator). This is a semantic error that could mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "вычисляете фактическое значение дроби, а не его представление",
+      "correction": "значение дроби не изменяется, изменяется только её запись",
+      "description": "The phrase 'вычисляете фактическое значение дроби, а не его представление' is misleading. Multiplying numerator and denominator by the same number does not change the value of the fraction, only its representation. The correction clarifies the mathematical property being described.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "площадь, покрытая дробом, становится меньше",
+      "correction": "площадь, покрытая дробью, остаётся неизменной",
+      "description": "The statement incorrectly claims that the area covered by the fraction becomes smaller when the model is divided into more parts. In fact, the area representing the fraction remains the same; only the size of each part changes. This is a semantic error that affects mathematical understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Умножение числителя и знаменателя на одно и то же число, называется упрощением дроби.",
+      "correction": "Умножение числителя и знаменателя на одно и то же число называется расширением дроби.",
+      "description": "The process described is not 'упрощение дроби' (simplification), but 'расширение дроби' (expansion). This is a terminology error that could confuse learners about the mathematical process being discussed.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "2/3 находится ближе к 1, чем 3/4, значит, 2/3 больше.",
+      "correction": "3/4 находится ближе к 1, чем 2/3, значит, 3/4 больше.",
+      "description": "The statement incorrectly claims that 2/3 is closer to 1 than 3/4, and therefore greater. In fact, 3/4 is closer to 1 and is greater than 2/3. This is a factual and semantic error that misrepresents the mathematical relationship.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Высота дроби определяет её величину, а не её площадь.",
+      "correction": "Величина дроби определяется отношением числителя к знаменателю, а не её высотой или площадью.",
+      "description": "The statement 'Высота дроби определяет её величину' is incorrect and misleading. The value of a fraction is determined by the ratio of numerator to denominator, not by its height or area in a visual model. This error could confuse learners about the concept of fractions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В делении дроби мы делим числитель и знаменатель на общий множитель, чтобы получить результат меньше 1.",
+      "correction": "При делении числителя и знаменателя на общий множитель мы получаем более простую дробь, но её значение не обязательно становится меньше 1.",
+      "description": "The statement incorrectly claims that dividing numerator and denominator by a common factor always results in a fraction less than 1. In reality, this process simplifies the fraction, but does not necessarily change its value relative to 1. This is a semantic error affecting mathematical understanding.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:02:12.876781",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.6,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.4,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

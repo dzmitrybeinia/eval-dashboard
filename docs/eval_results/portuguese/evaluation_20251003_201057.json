@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Este aprendizado explora os mecanismos do cérebro, as emoções e o raciocínio lógico que influenciam nossas escolhas, trazendo exemplos do cotidiano para ilustrar como essas forças interagem.",
+      "correction": "Este conteúdo explora os mecanismos do cérebro, as emoções e o raciocínio lógico que influenciam nossas escolhas, trazendo exemplos do cotidiano para ilustrar como essas forças interagem.",
+      "description": "The word 'aprendizado' is not the most appropriate term in this context. In Brazilian Portuguese, 'aprendizado' refers to the process of learning, not the lesson or content itself. The correct term is 'conteúdo' or 'lição', which better fits the context of an educational lesson. This lexical choice affects clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Decidir entre estudar para uma prova ou ir a uma festa.",
+      "correction": "Decidir entre estudar para uma prova ou ir a uma festa.",
+      "description": "While the sentence is linguistically correct, the example may not be fully inclusive or relatable for all learners, as not every student faces this specific scenario. Consider diversifying examples to reflect a broader range of real-life decisions, such as family, work, or personal development, to enhance cultural relevance and inclusivity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A escolha ideal integra emoção e lógica, garantindo satisfação e estabilidade.",
+      "correction": "A escolha ideal integra emoção e lógica, garantindo satisfação e estabilidade.",
+      "description": "No linguistic errors are present. However, the sentence could be improved stylistically by specifying 'emocional' and 'lógica' for parallelism: 'A escolha ideal integra a dimensão emocional e a lógica, garantindo satisfação e estabilidade.' This would enhance clarity and parallel structure.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "homeostase cerebral",
+      "correction": "homeostase cerebral",
+      "description": "The term 'homeostase cerebral' is not commonly used in Brazilian Portuguese scientific or educational contexts. The standard term is 'homeostase' (without the qualifier 'cerebral'), as homeostasis is generally understood to refer to physiological balance, including brain function. Consider using 'homeostase' or clarifying the meaning for better terminology consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ao colocar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+      "correction": "Ao deixar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo a tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+      "description": "The phrase 'dedicar tempo para tarefas' is less idiomatic in Brazilian Portuguese. The correct preposition is 'a': 'dedicar tempo a tarefas'. Additionally, 'colocar de lado' can be replaced with 'deixar de lado' for a more natural expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:57.444864",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

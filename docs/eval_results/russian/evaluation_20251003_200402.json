@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Частицы расположены свободно и могут перемещаться друг мимо друга.",
+      "correction": "Частицы расположены свободно и могут перемещаться друг мимо друга.",
+      "description": "The phrase 'друг мимо друга' is grammatically incorrect in Russian. The correct form is 'друг мимо друга' should be 'мимо друг друга', which properly expresses the idea of particles moving past each other. The error affects clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В физике известно, что температура уменьшение способствует образованию твердого состояния, а не разрушению твердого состояния.",
+      "correction": "В физике известно, что уменьшение температуры способствует образованию твердого состояния, а не разрушению твердого состояния.",
+      "description": "The phrase 'температура уменьшение' is grammatically incorrect. The correct construction is 'уменьшение температуры', which uses the genitive case and proper word order. This error impacts comprehension and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Твердые тела, как камни или здания, неизменны, пока не подвергаются силам, таким как удар или воздействие тепла.",
+      "correction": "Твердые тела, такие как камни или здания, неизменны, пока не подвергаются силам, таким как удар или воздействие тепла.",
+      "description": "The use of 'как' in 'Твердые тела, как камни или здания' is not idiomatic in Russian for listing examples. The phrase should use 'такие как' to introduce examples naturally and clearly.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Твердые тела имеют фиксированный объем и не изменяют свой объем при изменении температуры, в отличие от жидких и газообразных состояний, которые могут расшириться или сжаться в зависимости от температуры.",
+      "correction": "Твердые тела имеют фиксированный объем и не изменяют свой объем при изменении температуры, в отличие от жидких и газообразных веществ, которые могут расширяться или сжиматься в зависимости от температуры.",
+      "description": "The terms 'жидких и газообразных состояний' are not precise in this context. The correct terms are 'жидких и газообразных веществ', which refer to substances rather than states. Additionally, the verbs 'расшириться или сжаться' should be 'расширяться или сжиматься' to match the habitual aspect and plural subject.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это правда, потому что твёрдые вещества состоят из неразделяемых частиц, которые сильно расположены и не могут свободно двигаться.",
+      "correction": "Это правда, потому что твёрдые вещества состоят из неразделяемых частиц, которые плотно расположены и не могут свободно двигаться.",
+      "description": "The adjective 'сильно расположены' is incorrect in this context. The correct term is 'плотно расположены', which accurately describes the close packing of particles in solids.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это придаёт твёрдым объектам стабильную форму и размер, пока не будет влияние, например, натяжения или проникания.",
+      "correction": "Это придаёт твёрдым объектам стабильную форму и размер, пока не будет воздействия, например, натяжения или проникновения.",
+      "description": "The word 'влияние' is not the most appropriate choice here; 'воздействие' is more precise for describing external forces. Additionally, 'проникания' should be 'проникновения' to match the correct noun form.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:04:02.166494",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

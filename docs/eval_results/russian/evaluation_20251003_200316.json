@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Киберугрозы обычно не способны нанести значительный вреда.",
+      "correction": "Киберугрозы обычно не способны нанести значительный вред.",
+      "description": "The word 'вреда' is incorrectly used in the accusative case, while the noun 'вред' should be in the nominative case as the direct object of 'нанести'. This is a grammatical error affecting noun case usage. The corrected sentence uses 'вред' in the proper case.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вирусное ПО может безопасно использоваться для улучшения производительности компьютера без риска.",
+      "correction": "Вирусное ПО не может безопасно использоваться для улучшения производительности компьютера без риска.",
+      "description": "The statement is factually incorrect and misleading, as 'вирусное ПО' (malware) cannot be safely used to improve computer performance. This is a lexical error due to the inappropriate use of 'вирусное ПО' in a positive context, which contradicts the meaning of the term.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Данное утверждение неточно.",
+      "correction": "Данное утверждение неточно.",
+      "description": "The sentence is grammatically correct, but the feedback following this statement contains a localization issue regarding the use of 'операционный системный дистрибутив', which is not a standard or natural term in Russian for operating systems.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Приложения Android, как и любой другой операционный системный дистрибутив, могут иметь возможность получать обновления безопасности через Google Play Store.",
+      "correction": "Приложения Android, как и любые другие приложения, могут получать обновления безопасности через Google Play Store.",
+      "description": "The phrase 'операционный системный дистрибутив' is unnatural and not commonly used in Russian. The standard term would be 'приложения' or 'программное обеспечение'. The correction uses more natural and widely accepted terminology for Russian-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "например \"password\" или \"123456\"",
+      "correction": "например «password» или «123456»",
+      "description": "Quotation marks should use Russian-style (« ») instead of English-style (\" \") for better localization and adherence to Russian typographic conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:03:16.843821",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

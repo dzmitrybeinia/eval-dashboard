@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "クラシック音楽は19世紀に始まったジャンルです。.",
+      "correction": "クラシック音楽は19世紀に始まったジャンルです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "クラシック音楽は、17世紀から18世紀にかけての時期に始まりました。その時代に活躍した作曲家には、ベートーヴェン、モーツァルト、バッハが含まれます。.",
+      "correction": "クラシック音楽は、17世紀から18世紀にかけての時期に始まりました。その時代に活躍した作曲家には、ベートーヴェン、モーツァルト、バッハが含まれます。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ジャズ音楽は初期の19世紀後期にアメリカ南部で誕生した。.",
+      "correction": "ジャズ音楽は初期の19世紀後期にアメリカ南部で誕生した。",
+      "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ジャズ音楽は実際には19世紀後半から20世紀初頭にかけて発展しました。.",
+      "correction": "ジャズ音楽は実際には19世紀後半から20世紀初頭にかけて発展しました。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロック音楽は1970年代に誕生した音楽ジャンルです。.",
+      "correction": "ロック音楽は1970年代に誕生した音楽ジャンルです。",
+      "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロック音楽は実際には1950年代と1960年代にその起源を持っており、その時代の文化的な影響を強く表しています。.",
+      "correction": "ロック音楽は実際には1950年代と1960年代にその起源を持っており、その時代の文化的な影響を強く表しています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ポップ音楽は主にアコースティック楽器を使用している。.",
+      "correction": "ポップ音楽は主にアコースティック楽器を使用している。",
+      "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ポップ音楽は電子的な制作に強く依存しており、しばしば電子ドラムやストラングスなどの電子音楽装置が使われます。アコースティック楽器は主流ではなく、ジャンルの特徴的な要素ではありません。.",
+      "correction": "ポップ音楽は電子的な制作に強く依存しており、しばしば電子ドラムやストラングスなどの電子音楽装置が使われます。アコースティック楽器は主流ではなく、ジャンルの特徴的な要素ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ヒップホップは1980年代に始まった音楽ジャンルです。.",
+      "correction": "ヒップホップは1980年代に始まった音楽ジャンルです。",
+      "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ヒップホップは実際には1970年代に誕生しました。ニューヨーク市で起源を持つアフリカ系アメリカ人とラテン系コミュニティの文化です。このジャンルは社会の問題や個人的な苦悩について語ることで知られ、現代においても影響力を持ち続けています。.",
+      "correction": "ヒップホップは実際には1970年代に誕生しました。ニューヨーク市で起源を持つアフリカ系アメリカ人とラテン系コミュニティの文化です。このジャンルは社会の問題や個人的な苦悩について語ることで知られ、現代においても影響力を持ち続けています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ビートル・ヤーゼンスはクラシック音楽の作曲家でした。.",
+      "correction": "ビートル・ヤーゼンスはクラシック音楽の作曲家でした。",
+      "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ビートル・ヤーゼンスは、ジャンルの多様性の中でも特にロックとヒップホップの影響力を持つアーティストであり、クラシック音楽で知られていません。.",
+      "correction": "ビートル・ヤーゼンスは、ジャンルの多様性の中でも特にロックとヒップホップの影響力を持つアーティストであり、クラシック音楽で知られていません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:27:55.901665",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 12,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

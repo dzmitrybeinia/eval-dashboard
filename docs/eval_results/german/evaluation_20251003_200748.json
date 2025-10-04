@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Zudem muss ein veto eines Bundesgesetzes durch ein Zweidrittelmehrheit in beiden Kammern des Kongresses aufgehoben werden, um Gesetze zu verabschieden.",
+      "correction": "Zudem muss ein Veto eines Bundesgesetzes durch eine Zweidrittelmehrheit in beiden Kammern des Kongresses aufgehoben werden, um Gesetze zu verabschieden.",
+      "description": "The word 'veto' should be capitalized as it is a noun in German. Additionally, 'ein Zweidrittelmehrheit' is incorrect; the correct form is 'eine Zweidrittelmehrheit' because 'Mehrheit' is feminine. These errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Anzahl der Richter am Obersten Gerichtshof ist abwechslungsartig und nicht fester. Im Gegensatz dazu wird die Amtszeit von 14 Jahren durch eine Amtszeit von 18 Jahren für Richter, die von Präsidenten ernannt werden, und eine Amtszeit von 10 Jahren für Amtsinhaber des Obersten Gerichtshofs angegeben.",
+      "correction": "Die Anzahl der Richter am Obersten Gerichtshof ist nicht festgelegt. Richter am Obersten Gerichtshof werden auf Lebenszeit ernannt, nicht für eine bestimmte Amtszeit.",
+      "description": "The original text contains lexical inaccuracies and factual errors. 'abwechslungsartig und nicht fester' is unnatural and incorrect; the correct phrase is 'nicht festgelegt'. The statement about terms of 14, 18, and 10 years is factually wrong—Supreme Court justices are appointed for life. These errors misrepresent the US system and confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Der Präsident kann ein von Kongress verabschiedetes Gesetz ablehnen, aber der Kongress kann das Veto überstimmen.",
+      "correction": "Der Präsident kann ein vom Kongress verabschiedetes Gesetz ablehnen, aber der Kongress kann das Veto überstimmen.",
+      "description": "The preposition 'von' requires the dative case, and the correct form is 'vom Kongress' (not 'von Kongress'). This is a syntactic error affecting the sentence structure and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Im amerikanischen politischen System hat der Präsident die Aufgabe, Gesetze auszuführen und umzusetzen, nicht zu verabschieden.",
+      "correction": "Im amerikanischen politischen System hat der Präsident die Aufgabe, Gesetze auszuführen und umzusetzen, nicht zu verabschieden.",
+      "description": "No issues found. The sentence is linguistically correct and follows proper orthography and grammar rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Der Kongress von Nordamerika",
+      "correction": "Der Kongress der Vereinigten Staaten",
+      "description": "The phrase 'Kongress von Nordamerika' is culturally inappropriate and misleading. The correct term is 'Kongress der Vereinigten Staaten' to accurately refer to the US Congress. This ensures cultural and factual accuracy for German-speaking learners.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:07:48.037925",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

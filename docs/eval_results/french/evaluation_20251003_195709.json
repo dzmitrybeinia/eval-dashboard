@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Il est conçu pour garantir la justice, la responsabilité et la protection des libertés individuelles.",
+      "correction": "Il est conçu pour garantir la justice, la responsabilité et la protection des libertés individuelles.",
+      "description": "The use of 'la responsabilité' is semantically ambiguous in this context. In French, 'responsabilité' can refer to personal accountability or official responsibility. For clarity and precision, consider specifying 'la responsabilité du gouvernement' or 'la responsabilité civique' if referring to governmental accountability. Otherwise, the sentence is grammatically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Découvrez les trois branches distinctes : exécutive, législative et judiciaire, ainsi que leur rôle dans le maintien de l'équilibre démocratique. 🌟",
+      "correction": "Découvrez les trois branches distinctes : exécutive, législative et judiciaire, ainsi que leur rôle dans le maintien de l'équilibre démocratique.",
+      "description": "The use of the star emoji (🌟) is not standard in formal French educational content and may be perceived as informal or childish. Removing the emoji ensures a more professional and culturally appropriate tone for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le gouvernement des États-Unis est divisé en trois branches principales :",
+      "correction": "Le gouvernement des États-Unis est divisé en trois branches principales :",
+      "description": "The sentence is grammatically correct. No issues found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Imaginez une école :\n- Les enseignants (exécutif) appliquent les règles.\n- Le conseil étudiant (législatif) crée de nouvelles règles.\n- Le directeur (judiciaire) résout les conflits autour des règles.",
+      "correction": "Imaginez une école :\n- Les enseignants (exécutif) appliquent les règles.\n- Le conseil des élèves (législatif) crée de nouvelles règles.\n- Le chef d'établissement (judiciaire) résout les conflits autour des règles.",
+      "description": "The term 'conseil étudiant' is an anglicism and not the standard term in French educational contexts; 'conseil des élèves' is more appropriate. Similarly, 'directeur' is regionally variable; 'chef d'établissement' is a more neutral and widely accepted term in France. These changes improve cultural relevance and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Cette déclaration est correcte car la branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer et d'interpréter les lois, tout comme les enseignants appliquent les règles dans une école.",
+      "correction": "Cette déclaration est correcte car la branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer les lois, tout comme les enseignants appliquent les règles dans une école.",
+      "description": "The phrase 'd'appliquer et d'interpréter les lois' is inaccurate; the executive branch applies laws but does not interpret them, which is the role of the judiciary. This is a semantic error affecting the accuracy of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les nommés prennent leur poste.",
+      "correction": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les personnes nommées prennent leur poste.",
+      "description": "The use of 'les nommés' is awkward and not standard in French. 'Les personnes nommées' or 'les candidats nommés' is more natural and grammatically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La Chambre des représentants",
+      "correction": "La Chambre des représentants",
+      "description": "The term 'Chambre des représentants' is the official translation for 'House of Representatives' in French. No localization issue found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la plus grande chambre du Congrès.",
+      "correction": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la plus grande chambre du Congrès.",
+      "description": "The sentence is grammatically correct and clear. No issues found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La branche judiciaire, qui comprend la Cour suprême et d'autres tribunaux fédéraux, est principalement chargée de l'interprétation des lois et de la Constitution, de la résolution des conflits juridiques et de l'évaluation de la conformité des lois et des actions exécutives avec la Constitution. Elle n'a pas de pouvoir de légiférer; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+      "correction": "La branche judiciaire, qui comprend la Cour suprême et d'autres tribunaux fédéraux, est principalement chargée de l'interprétation des lois et de la Constitution, de la résolution des conflits juridiques et de l'évaluation de la conformité des lois et des actions exécutives avec la Constitution. Elle n'a pas le pouvoir de légiférer ; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+      "description": "The phrase 'n'a pas de pouvoir de légiférer' should be 'n'a pas le pouvoir de légiférer' for correct article usage. Also, a space is required before the semicolon in French typography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le système de freins et contrepoids garantit qu'aucune branche ne devienne trop puissante.",
+      "correction": "Le système de freins et contrepoids garantit qu'aucune branche ne devienne trop puissante.",
+      "description": "The sentence is grammatically correct. No issues found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le Président la veto, et le Congrès passe outre le veto.",
+      "correction": "Le Président oppose son veto, et le Congrès passe outre le veto.",
+      "description": "The phrase 'le Président la veto' is a calque from English and not idiomatic in French. The correct expression is 'oppose son veto'. This correction improves naturalness and aligns with standard French terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En réalité, le pouvoir de déclarer la guerre est un frein au pouvoir exécutif, car il nécessite l'approbation du Congrès.",
+      "correction": "En réalité, le pouvoir de déclarer la guerre est une limite au pouvoir exécutif, car il nécessite l'approbation du Congrès.",
+      "description": "The use of 'un frein' is awkward in this context; 'une limite' is more idiomatic when referring to a restriction on power. 'Frein' is better used in the context of the system as a whole, not for individual powers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le gouvernement des États-Unis est divisé en trois branches : exécutive, législative et judiciaire, chacune ayant des rôles distincts.",
+      "correction": "Le gouvernement des États-Unis est divisé en trois branches : exécutive, législative et judiciaire, chacune ayant un rôle distinct.",
+      "description": "The phrase 'des rôles distincts' is less precise than 'un rôle distinct' because each branch has a distinct role, not multiple roles. This correction improves clarity and grammatical agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La branche exécutive applique les lois, la législative crée les lois, et la judiciaire interprète les lois.",
+      "correction": "La branche exécutive applique les lois, la législative crée les lois et la judiciaire interprète les lois.",
+      "description": "In French, a comma before 'et' in a list is generally omitted unless required for clarity. Removing the comma before 'et' aligns with standard French punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les exemples incluent le pouvoir de veto, la révision judiciaire et la supervision du Congrès.",
+      "correction": "Les exemples incluent le pouvoir de veto, le contrôle judiciaire et la supervision du Congrès.",
+      "description": "The term 'révision judiciaire' is not standard in French for 'judicial review'; 'contrôle judiciaire' is the correct legal term in this context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:09.030345",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 15,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

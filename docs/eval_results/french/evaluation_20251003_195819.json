@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "processus de décision-taking",
+      "correction": "processus de prise de décision",
+      "description": "The phrase 'processus de décision-taking' incorrectly mixes French and English. The correct French term is 'processus de prise de décision'. This lexical error affects clarity and professionalism, and should be corrected to maintain linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "des calendriers différents",
+      "correction": "des dates différentes",
+      "description": "The use of 'calendriers' in this context is a false friend; in French, 'calendrier' refers to a physical calendar or schedule, not the timing or frequency of events. 'Dates différentes' or 'fréquences différentes' would be more precise. This lexical inaccuracy could cause confusion for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "margins",
+      "correction": "marges",
+      "description": "The word 'margins' is an English loanword and should be replaced with the correct French term 'marges'. This lexical error disrupts the natural flow and comprehension of the text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "la décisions finale",
+      "correction": "la décision finale",
+      "description": "There is a grammatical error in 'la décisions finale': the noun should be singular ('décision') to agree with the singular article 'la'. This affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:58:19.432372",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

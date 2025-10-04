@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "W algebry równań jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji.",
+      "correction": "W algebrze równania jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji.",
+      "description": "The phrase 'W algebry' is incorrect due to the wrong case usage; the correct form is 'W algebrze' (locative case). Additionally, 'równań jednoruchowe' is incorrect; the correct phrase is 'równania jednoruchowe' (nominative plural). These errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Jeśl wątpiesz, zauważ, że złożone operacje wymagają więcej kroków, aby utrzymać równanie równomierne.",
+      "correction": "Jeśli wątpisz, zauważ, że złożone operacje wymagają więcej kroków, aby utrzymać równanie równomierne.",
+      "description": "The word 'Jeśl' is missing the final 'i' and should be 'Jeśli'. The word 'wątpiesz' is a misspelling and should be 'wątpisz'. These spelling errors hinder comprehension and should be corrected for proper Polish orthography.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "aby utrzymać równanie równomierne",
+      "correction": "aby zachować równowagę równania",
+      "description": "The phrase 'utrzymać równanie równomierne' is unnatural and semantically incorrect in Polish. The correct and natural expression is 'zachować równowagę równania', which accurately conveys the intended meaning of maintaining the equation's balance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania rozwiązują zmienną.",
+      "correction": "Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania je spełniają.",
+      "description": "The phrase 'rozwiązują zmienną' is awkward and not idiomatic in Polish. The natural way to express this is 'które po podstawieniu do równania je spełniają', which is commonly used in mathematical contexts.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T01:28:08.988351",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

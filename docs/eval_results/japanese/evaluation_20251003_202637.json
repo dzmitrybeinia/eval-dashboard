@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自己保護は、応急処置を行う前に、安全を確保するために重要です。これにより、助けることができる状況に己がることが保証されます。.",
+      "correction": "自己保護は、応急処置を行う前に、安全を確保するために重要です。これにより、助けることができる状況にいることが保証されます。",
+      "description": "The phrase '己がることが保証されます' contains a lexical and grammatical error. '己がる' is not a valid Japanese verb or expression in this context; the intended meaning is 'いること' (to be in a situation). Additionally, the sentence ends with an unnecessary period ('.') after the Japanese full stop, which is incorrect punctuation. Correction improves both lexical accuracy and orthographic convention.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "切り傷は鋭いものから出血や痛みを引き起こすことが多く、熱くなることはありません。熱を感じるのは通常、火傷ややけどの症状であり、切り傷とは異なります。.",
+      "correction": "切り傷は鋭いものから出血や痛みを引き起こすことが多く、熱くなることはありません。熱を感じるのは通常、火傷ややけどの症状であり、切り傷とは異なります。",
+      "description": "The sentence ends with a Japanese full stop ('。') followed by an unnecessary period ('.'), which is incorrect punctuation in Japanese writing. The correction removes the extraneous period to conform to Japanese orthographic standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "捻挫の場合、紙箊を使って腫れを押さえると良いです。.",
+      "correction": "捻挫の場合、包帯を使って腫れを押さえると良いです。",
+      "description": "The term '紙箊' is incorrect and unnatural in Japanese; the standard term for a bandage is '包帯'. Additionally, the sentence ends with a Japanese full stop followed by an unnecessary period, which is incorrect punctuation. Correction addresses both lexical choice and orthographic convention.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "捻挫の場合、紙箊を使用すると腫れをさらに痛めたり悪化させる可能性があります。実際には、布で包んだ氷や冷却を行い、圧迫を避けることが重要です。.",
+      "correction": "捻挫の場合、紙箊を使用すると腫れをさらに痛めたり悪化させる可能性があります。実際には、布で包んだ氷や冷却を行い、圧迫を避けることが重要です。",
+      "description": "The sentence ends with a Japanese full stop ('。') followed by an unnecessary period ('.'), which is incorrect punctuation in Japanese writing. The correction removes the extraneous period to conform to Japanese orthographic standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感覚受容体は主に感覚を介して外部からの刺激を検知します。環境変化に対しては、直接的な機能変化には関与しません。例えば、温度や圧力の変化を感じ取ることができますが、これは身体の機能を直接的に変えるわけではありません。.",
+      "correction": "感覚受容体は主に感覚を介して外部からの刺激を検知します。環境変化に対しては、直接的な機能変化には関与しません。例えば、温度や圧力の変化を感じ取ることができますが、これは身体の機能を直接的に変えるわけではありません。",
+      "description": "The sentence ends with a Japanese full stop ('。') followed by an unnecessary period ('.'), which is incorrect punctuation in Japanese writing. The correction removes the extraneous period to conform to Japanese orthographic standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:26:37.249482",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

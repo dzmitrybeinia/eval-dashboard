@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las zonas climáticas continentales tienen temperaturas extremadamente altas durante el verano.",
+      "correction": "Las zonas climáticas continentales pueden tener temperaturas altas durante el verano, pero no necesariamente extremas.",
+      "description": "The original statement uses 'extremadamente altas' to describe summer temperatures in continental climate zones. While summers can be hot, the use of 'extremadamente' is an exaggeration and may mislead learners about the typical temperature range. This is a lexical imprecision that affects the accuracy of the information. The correction provides a more precise and accurate description.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Outback australiano",
+      "correction": "desierto australiano",
+      "description": "The term 'Outback australiano' is an anglicism and may not be immediately clear to all Spanish-speaking learners, especially in educational contexts where standard terminology is preferred. Using 'desierto australiano' is more universally understood and aligns with locally accepted terminology for Spanish educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Prepárense para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+      "correction": "¡Prepárate para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+      "description": "The use of 'Prepárense' (plural) in the introduction may be inconsistent with the rest of the lesson, which appears to address the learner in singular form. For educational content aimed at individual learners, the singular 'Prepárate' is more appropriate and maintains a consistent tone throughout the lesson.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T01:30:32.658253",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

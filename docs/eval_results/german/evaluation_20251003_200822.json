@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Elemente in der zweiten Periode haben tatsächlich drei Valenzelektronen. Zum Beispiel hat Magnesium (Mg) drei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+      "correction": "Elemente in der zweiten Periode haben tatsächlich unterschiedliche Anzahlen von Valenzelektronen, abhängig vom jeweiligen Element. Zum Beispiel hat Magnesium (Mg) zwei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+      "description": "The feedback incorrectly states that all elements in the second period have three valence electrons and uses magnesium (Mg) as an example, which is factually wrong. Magnesium is in the third period and has two valence electrons. This is a lexical and factual error that could mislead learners about the structure of the periodic table and the properties of elements.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Periodensystem ist wie eine Landkarte für Chemiker: Es zeigt alle bekannten Elemente und wie sie miteinander verbunden sind.",
+      "correction": "Das Periodensystem ist wie eine Landkarte für Chemikerinnen und Chemiker: Es zeigt alle bekannten Elemente und wie sie miteinander verbunden sind.",
+      "description": "The original sentence uses the masculine form 'Chemiker' only, which is not inclusive and does not reflect current German educational and scientific language standards. The correction uses both feminine and masculine forms ('Chemikerinnen und Chemiker'), making the text more inclusive and culturally appropriate for modern German audiences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In Gruppe 1, auch bekannt als Alkalimetalle, nimmt die Reaktivität mit zunehmender Atomnummer zu, da die Elektronen in äußere Schalen hinzukommen.",
+      "correction": "In Gruppe 1, auch bekannt als Alkalimetalle, nimmt die Reaktivität mit zunehmender Atomnummer zu, da die Valenzelektronen sich weiter von dem Atomkern entfernen.",
+      "description": "The phrase 'da die Elektronen in äußere Schalen hinzukommen' is grammatically correct but semantically inaccurate. The increase in reactivity is due to the valence electron being further from the nucleus, not because electrons are added to outer shells. This is a lexical and conceptual error that affects scientific accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:08:22.381438",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

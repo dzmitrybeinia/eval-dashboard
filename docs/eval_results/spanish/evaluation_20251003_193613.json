@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "diagnócias médicas",
+      "correction": "diagnósticos médicos",
+      "description": "The word 'diagnócias' is a misspelling; the correct term is 'diagnósticos'. Additionally, 'médicas' should agree in gender and number with 'diagnósticos', so 'médicos' is the correct form. This error affects both spelling and gender/number agreement, which are critical for clarity and correctness in Spanish.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "comprometírse",
+      "correction": "comprometerse",
+      "description": "The word 'comprometírse' contains an incorrect accent mark. In Spanish, 'comprometerse' does not require an accent on the 'i'. Incorrect accentuation can lead to confusion in pronunciation and meaning.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:36:13.364410",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

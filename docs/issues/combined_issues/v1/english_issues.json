@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "english",
+    "generated_at": "2025-10-03T20:30:47.912033",
+    "source_files": [
+      "evaluation_20251003_193033.json",
+      "evaluation_20251003_193037.json",
+      "evaluation_20251003_193038.json",
+      "evaluation_20251003_193039.json",
+      "evaluation_20251003_193040.json",
+      "evaluation_20251003_193041.json",
+      "evaluation_20251003_193045.json",
+      "evaluation_20251003_193046.json",
+      "evaluation_20251003_193047.json",
+      "evaluation_20251003_193049.json",
+      "evaluation_20251003_193050.json",
+      "evaluation_20251003_193051.json",
+      "evaluation_20251003_193052.json",
+      "evaluation_20251003_193053.json",
+      "evaluation_20251003_193054.json",
+      "evaluation_20251003_193139.json",
+      "evaluation_20251003_193140.json",
+      "evaluation_20251003_193141.json",
+      "evaluation_20251003_193142.json",
+      "evaluation_20251003_193143.json",
+      "evaluation_20251003_193149.json",
+      "evaluation_20251003_193150.json",
+      "evaluation_20251003_193151.json",
+      "evaluation_20251003_193152.json",
+      "evaluation_20251003_193153.json",
+      "evaluation_20251003_193154.json",
+      "evaluation_20251003_193155.json",
+      "evaluation_20251003_193157.json",
+      "evaluation_20251003_193158.json",
+      "evaluation_20251003_193237.json",
+      "evaluation_20251003_193243.json",
+      "evaluation_20251003_193244.json",
+      "evaluation_20251003_193245.json",
+      "evaluation_20251003_193246.json",
+      "evaluation_20251003_193247.json"
+    ],
+    "issue_counts": {
+      "linguistic": 23,
+      "localization": 2
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables in algebra can be letters or symbols, and sometimes numbers.",
+        "correction": "Variables in algebra are typically represented by letters or symbols, not numbers.",
+        "description": "The feedback suggests that variables can sometimes be numbers, which is misleading. In algebra, variables are symbols (usually letters) that stand for unknown values, not actual numbers. Numbers are used as constants or coefficients, not as variables.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician.",
+        "correction": "Variables in algebra are represented by letters or symbols, not numbers. Numbers are used as constants or coefficients.",
+        "description": "The feedback incorrectly states that variables can be represented by numbers. This is conceptually inaccurate, as variables are placeholders for unknown values and are not numbers themselves.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables allow us to solve problems in a generalized way.",
+        "correction": "Variables allow us to represent unknown or changeable values in mathematical problems.",
+        "description": "The phrase 'solve problems in a generalized way' is vague and may confuse learners. A more precise explanation clarifies the role of variables in representing unknowns or changeable values.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "An expression cannot be simplified to zero by simply choosing a value for the variable.",
+        "correction": "An expression cannot be simplified by choosing a value for the variable to make it equal to zero.",
+        "description": "The original sentence could be misinterpreted as saying that simplification is about making the expression zero, rather than reducing its complexity. The correction clarifies that simplification is not about setting the expression to zero.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Human rights are the basic rights and freedoms that belong to every person, regardless of nationality, ethnicity, gender, or background.",
+        "correction": "Human rights are the basic rights and freedoms that belong to every person, regardless of their nationality, ethnicity, gender, or background.",
+        "description": "The sentence lacks parallel structure. Adding 'their' before the list of attributes improves clarity and maintains grammatical consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Human rights are the inherent rights and freedoms that belong to all individuals simply because they are human.",
+        "correction": "Human rights are the inherent rights and freedoms that belong to all individuals simply because they are human beings.",
+        "description": "The phrase 'they are human' is slightly awkward and less precise than 'they are human beings.' The correction improves clarity and formality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Human rights are considered inalienable, meaning they cannot be taken away except under very specific and legally defined circumstances, such as a threat to national security.",
+        "correction": "Human rights are considered inalienable, meaning they cannot be taken away except under very specific and legally defined circumstances, such as threats to national security.",
+        "description": "The phrase 'a threat to national security' should be pluralized to 'threats to national security' to better reflect the general nature of such circumstances.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "The adoption of the Universal Declaration of Human Rights occurred in the aftermath of World War II, not after its end.",
+        "correction": "The Universal Declaration of Human Rights was adopted after the end of World War II.",
+        "description": "The feedback contradicts itself and the correct historical fact. The UDHR was adopted after the end of World War II, not during its aftermath. The correction aligns with the actual timeline.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "This document was a proactive step towards ensuring human rights globally and has since been a cornerstone for further human rights legislation.",
+        "correction": "This document was a proactive step towards ensuring human rights globally and has since been a cornerstone for further human rights developments.",
+        "description": "The term 'legislation' is not entirely accurate, as the UDHR itself is not legally binding legislation but rather a declaration that inspired subsequent legal instruments and developments.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Supported organizations like Amnesty International.",
+        "correction": "Supported the creation and work of organizations like Amnesty International.",
+        "description": "The original phrase is incomplete and lacks clarity. The correction provides a clearer explanation of the UDHR's impact on organizations.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Abolition of apartheid in South Africa.",
+        "correction": "The abolition of apartheid in South Africa.",
+        "description": "The phrase lacks an article, making it a sentence fragment. Adding 'The' improves grammatical correctness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Advancements in women’s rights.",
+        "correction": "Advancements in women's rights.",
+        "description": "The apostrophe in 'women’s' is a typographical error; it should be a straight apostrophe for consistency in English educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Recognition of LGBTQ+ rights.",
+        "correction": "The recognition of LGBTQ+ rights.",
+        "description": "The phrase lacks an article, making it a sentence fragment. Adding 'The' improves grammatical correctness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Marginalized groups face inequalities.",
+        "correction": "Marginalized groups continue to face inequalities.",
+        "description": "Adding 'continue to' clarifies that the issue is ongoing, improving the accuracy and clarity of the statement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "A Limerick always ends with a couplet that rhymes.",
+        "correction": "A Limerick always ends with a final line that rhymes with the first two lines.",
+        "description": "The statement is misleading because a limerick does not end with a couplet; it ends with a single line (the fifth line) that rhymes with the first and second lines. The third and fourth lines form a rhyming couplet, but the poem itself does not end with a couplet.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "He awoke with a fright, In the middle of the night, To find that his dream had come true.",
+        "correction": "He awoke with a fright, In the middle of the night, To find that his dream had come true.",
+        "description": "The example limerick is correct in structure, but the feedback and statement above it misrepresent the ending as a couplet, which could cause confusion about the form. The example itself is fine, but the surrounding explanation should be clarified.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+        "correction": "Hypotheses are not random guesses; they are well-considered, testable predictions about what is expected.",
+        "description": "The sentence incorrectly defines 'hypotheses' as random guesses and states they are 'opposite to what is expected.' In scientific context, hypotheses are informed predictions, not random guesses, and they are not necessarily opposite to expectations. This could mislead learners about the nature of hypotheses.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+        "correction": "Hypotheses are well-considered, testable predictions, not random guesses.",
+        "description": "The sentence structure is confusing and conflates random guesses with hypotheses, which may cause misunderstanding. The syntax should clearly distinguish between random guesses and hypotheses.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "They don't create energy but make tasks easier by increasing efficiency.",
+        "correction": "They don't create energy but make tasks easier by increasing mechanical advantage.",
+        "description": "The term 'increasing efficiency' is misleading in the context of simple machines. Simple machines primarily provide mechanical advantage, not necessarily increased efficiency, as some energy is lost to friction. Using 'mechanical advantage' is more precise and educationally accurate.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "A screw is a type of simple machine that can change the direction of a force.",
+        "correction": "A screw is a type of simple machine that converts rotational force into linear force.",
+        "description": "The statement is technically imprecise. While a screw does change the direction of force, its primary function is to convert rotational motion into linear motion. This correction improves conceptual accuracy for educational purposes.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Turning a screw on a jar lid requires more energy than turning one on a corkscrew.",
+        "correction": "Turning a screw on a jar lid does not necessarily require more energy than turning one on a corkscrew.",
+        "description": "The original statement is misleading because the energy required depends on multiple factors such as friction, thread pitch, and material. The correction clarifies that energy requirements vary and are not inherently greater for jar lids.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Simple machines like ramps, scissors, and doorknobs simplify daily tasks by reducing force.",
+        "correction": "Simple machines like ramps, scissors, and doorknobs simplify daily tasks by reducing the amount of force needed.",
+        "description": "The phrase 'reducing force' is vague and could be misinterpreted. Specifying 'reducing the amount of force needed' clarifies the intended meaning and improves educational clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Simple machines always require human intervention to function effectively.",
+        "correction": "Simple machines do not always require human intervention to function effectively.",
+        "description": "The original statement is absolute and inaccurate. Some simple machines, such as ramps, can function without continuous human intervention. The correction provides a more accurate and nuanced understanding.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Złamanie DNA może prowadzić do nowych cech biologicznych.",
+        "correction": "A mutation in DNA can lead to new biological traits.",
+        "description": "The statement is in Polish, not English, which is inconsistent with the rest of the English-language educational content. This disrupts comprehension for English-speaking learners and is a critical localization error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Warstwa znaczenia DNA polega na przekazywaniu genetycznych informacji przez pokolenia, co jest kluczowe dla przejawiania życia poprzez podziały komórek. Zmiany w jego strukturze, często nazywane mutacjami, mogą prowadzić do nowych cech, które mogą wpłynąć na rozwój organizmu. To zrozumienie jest kluczowe dla różnych dziedzin nauki, w tym biologii, medycyny i nauki kryminalnej.",
+        "correction": "The significance of DNA lies in passing genetic information through generations, which is crucial for the manifestation of life via cell division. Changes in its structure, often called mutations, can lead to new traits that may affect organism development. This understanding is key for various scientific fields, including biology, medicine, and forensic science.",
+        "description": "The feedback is in Polish, not English, which is inconsistent with the rest of the English-language educational content. This is a critical localization error that impedes comprehension for English-speaking learners.",
+        "severity": "HIGH"
+      }
+    ]
+  }
+}

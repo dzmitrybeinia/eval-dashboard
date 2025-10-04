@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "label": "v2",
+    "language": "polish",
+    "generated_at": "2025-10-05T01:28:45.421741",
+    "source_files": [
+      "evaluation_20251005_012800.json",
+      "evaluation_20251005_012805.json",
+      "evaluation_20251005_012808.json",
+      "evaluation_20251005_012814.json",
+      "evaluation_20251005_012820.json",
+      "evaluation_20251005_012823.json",
+      "evaluation_20251005_012829.json",
+      "evaluation_20251005_012832.json",
+      "evaluation_20251005_012840.json",
+      "evaluation_20251005_012845.json"
+    ],
+    "issue_counts": {
+      "linguistic": 52,
+      "localization": 5
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Egipt nie był ozdobiony żarowiami, które odgrywały znaczną rolę w jego rozwoju.",
+        "correction": "Egipt nie był ozdobiony żarowcami, które odgrywały znaczną rolę w jego rozwoju.",
+        "description": "The word 'żarowiami' is a lexical error; it is not a valid Polish word and does not correspond to any known concept in the context of ancient Egypt. The intended term is likely 'żarowcami', but even this is not standard in Polish historical terminology. The sentence is misleading and should be revised for clarity and accuracy. The primary issue is incorrect word choice, which affects comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "W starożytnym Egipsku dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+        "correction": "W starożytnym Egipcie dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+        "description": "The phrase 'W starożytnym Egipsku' uses the incorrect case and form for the country name. The correct locative case is 'Egipcie'. This is a grammatical error affecting noun case usage, which is critical in Polish.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "żarowce",
+        "correction": "świątynie",
+        "description": "The term 'żarowce' does not exist in Polish and is not related to ancient Egyptian structures. The correct term for places of worship and protective structures in ancient Egypt is 'świątynie' (temples) or 'budowle obronne' (defensive structures). This lexical error leads to confusion and misrepresentation of historical facts.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Hieroglify, znany również jako hieroglify, był systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych.",
+        "correction": "Hieroglify, znane również jako hieroglify, były systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych.",
+        "description": "The sentence incorrectly uses the singular form 'znany' and 'był' with the plural noun 'hieroglify'. The correct forms are 'znane' and 'były'. This is a grammatical error in gender and number agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "poniewaćż",
+        "correction": "ponieważ",
+        "description": "The word 'poniewaćż' is a spelling error; the correct spelling is 'ponieważ'. This affects readability and comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "było ono skomplikowane i szybkie do nauczania.",
+        "correction": "było ono skomplikowane i trudne do nauczenia.",
+        "description": "The phrase 'szybkie do nauczania' is grammatically incorrect and semantically illogical in Polish. The intended meaning is 'difficult to learn', which should be 'trudne do nauczenia'. This is both a grammatical and lexical error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i przeznaczeń.",
+        "correction": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i tradycji.",
+        "description": "The word 'przeznaczeń' is not appropriate in this context; 'tradycji' (traditions) is the correct term. The sentence also suffers from redundancy in 'przekazywania przekazywania'. The primary issue is incorrect word choice and awkward phrasing.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Egipcjanie używali rzemion do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+        "correction": "Egipcjanie używali narzędzi do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+        "description": "The word 'rzemion' refers to leather straps or thongs, not tools. The correct term in this context is 'narzędzi' (tools). This is a lexical error that misleads the reader about the methods used by ancient Egyptians.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "procesami wewnętrzne",
+        "correction": "procesami wewnętrznymi",
+        "description": "The noun 'procesami' requires the instrumental case ending for the adjective 'wewnętrzny', which should be 'wewnętrznymi' to agree in case and number. This is a grammatical error affecting noun-adjective agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "dogrywanie drapieżników",
+        "correction": "chwytanie zdobyczy",
+        "description": "The phrase 'dogrywanie drapieżników' is a lexical error. 'Dogrywanie' is not appropriate in this context and does not convey the intended meaning. The correct term should be 'chwytanie zdobyczy', which accurately describes predators catching prey.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "na swojej przenośnej",
+        "correction": "na swojej ofierze",
+        "description": "The phrase 'na swojej przenośnej' is a lexical error. 'Przenośna' is not a correct term for 'prey' in Polish and is confusing in this context. The correct term is 'ofierze', which means 'prey'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "zobrazowane",
+        "correction": "widoczne",
+        "description": "The word 'zobrazowane' is a spelling and lexical error in this context. It is not the natural or correct word to describe something that can be seen externally. 'Widoczne' is the appropriate term for 'visible' or 'seen'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Adaptacje, które poprawiają przetrwanie, zazwyczniąją się w populacjach, a nie znikają.",
+        "correction": "Adaptacje, które poprawiają przetrwanie, utrwalają się w populacjach, a nie znikają.",
+        "description": "The verb 'zazwyczniają się' is incorrect and ungrammatical in this context. The correct verb is 'utrwalają się', which means 'become established' or 'persist' in populations. This error affects clarity and grammatical correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "W algebry równań jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji.",
+        "correction": "W algebrze równania jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji.",
+        "description": "The phrase 'W algebry' is incorrect due to the wrong case usage; the correct form is 'W algebrze' (locative case). Additionally, 'równań jednoruchowe' is incorrect; the correct phrase is 'równania jednoruchowe' (nominative plural). These errors affect grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Jeśl wątpiesz, zauważ, że złożone operacje wymagają więcej kroków, aby utrzymać równanie równomierne.",
+        "correction": "Jeśli wątpisz, zauważ, że złożone operacje wymagają więcej kroków, aby utrzymać równanie równomierne.",
+        "description": "The word 'Jeśl' is missing the final 'i' and should be 'Jeśli'. The word 'wątpiesz' is a misspelling and should be 'wątpisz'. These spelling errors hinder comprehension and should be corrected for proper Polish orthography.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "aby utrzymać równanie równomierne",
+        "correction": "aby zachować równowagę równania",
+        "description": "The phrase 'utrzymać równanie równomierne' is unnatural and semantically incorrect in Polish. The correct and natural expression is 'zachować równowagę równania', which accurately conveys the intended meaning of maintaining the equation's balance.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "pery, mitochondria czy placoda",
+        "correction": "peroksysomy, mitochondria czy lizosomy",
+        "description": "The terms 'pery' and 'placoda' are incorrect and do not refer to any known cell organelles in Polish. The correct terms should be 'peroksysomy' (peroxisomes) and 'lizosomy' (lysosomes), which are actual organelles found in cells. This lexical error could confuse learners and should be corrected for scientific accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "funkcje komórkową",
+        "correction": "funkcję komórkową",
+        "description": "The noun 'funkcje' is in the plural form, but the context requires the singular accusative 'funkcję komórkową' to match the intended meaning. This is a grammatical case error affecting noun declension and agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "perycytry są odpowiedzialne za rozkładanie materiałów organicznych",
+        "correction": "lizosomy są odpowiedzialne za rozkładanie materiałów organicznych",
+        "description": "The term 'perycytry' does not exist in Polish cell biology terminology. The correct organelle responsible for breaking down organic materials is 'lizosomy' (lysosomes). This lexical error misinforms learners about cell structure and function.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "miałby trudności",
+        "correction": "miałyby trudności",
+        "description": "The pronoun 'komórki' is plural, so the verb should be in the plural form 'miałyby', not the singular 'miałby'. This is a subject-verb agreement error.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Ta propozycja jest poprawną",
+        "correction": "Ta propozycja jest poprawna",
+        "description": "The adjective 'poprawną' is in the instrumental case, but the context requires the nominative 'poprawna' to agree with the subject 'propozycja'. This is an orthographic and grammatical error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "'elektrarnicami komórki'",
+        "correction": "'elektrowniami komórki'",
+        "description": "The word 'elektrarnicami' is not a correct Polish term. The proper term is 'elektrowniami', which is the standard metaphor for mitochondria as the 'powerhouses' of the cell. This lexical error affects clarity and scientific accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "głównego formy energii",
+        "correction": "głównej formy energii",
+        "description": "The adjective 'głównego' is in the masculine genitive, but it should agree with the feminine noun 'forma' in the genitive case, resulting in 'głównej formy energii'. This is a gender and case agreement error.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Decyzja w Brown v. Board of Education założyła, że segregacja w szkołach publicznych jest zgodna z Konstytucją, co jest poprawną interpretacją wydarzenia. Tym samym zakazała segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+        "correction": "Decyzja w Brown v. Board of Education uznała, że segregacja w szkołach publicznych jest niezgodna z Konstytucją, co jest właściwą interpretacją wydarzenia. Tym samym zakazała segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+        "description": "The original Polish text contains a critical factual and linguistic error: it states that the Brown v. Board of Education decision established that segregation in public schools is constitutional, which is incorrect. The correct interpretation is that the decision found segregation unconstitutional. This error affects both the grammatical construction and the semantic accuracy of the statement, leading to a misleading educational message.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę. Jego metody zakorzenione były w ideach Mahatmą Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+        "correction": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niestosowania przemocy, które były inspirowane ideami Mahatmy Gandhiego i zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+        "description": "The original Polish feedback contains several linguistic issues: the phrase 'strategia niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę' is grammatically incorrect and semantically unclear. The use of 'Mahatmą Gandhiego' is incorrect; it should be 'Mahatmy Gandhiego' (genitive case). The sentence structure is convoluted and does not clearly communicate King's philosophy of nonviolence. The correction provides a clear, grammatically correct, and semantically accurate description of King's approach.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ruch Praw Obywatelskich znaczył znaczną poprawę wewnętrznych relacji między różnymi etnicznościami w Stanach Ziemiańskich.",
+        "correction": "Ruch Praw Obywatelskich oznaczał znaczną poprawę relacji między różnymi grupami etnicznymi w Stanach Zjednoczonych.",
+        "description": "The original Polish statement contains a lexical error: 'Stanach Ziemiańskich' is not a correct translation of 'United States' and is nonsensical in this context. The correct term is 'Stanach Zjednoczonych.' Additionally, 'znaczył' is not the appropriate verb; 'oznaczał' or 'przyniósł' would be more natural. The phrase 'wewnętrznych relacji między różnymi etnicznościami' is awkward; 'relacji między różnymi grupami etnicznymi' is more idiomatic.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "posłudzenie wskazuje na zmniejszona bariera rasowa i wzrost współpracy.",
+        "correction": "Ruch wskazuje na zmniejszenie barier rasowych i wzrost współpracy.",
+        "description": "The original Polish sentence contains grammatical errors: 'posłudzenie' is not a correct word in this context and should be replaced with 'Ruch.' The phrase 'zmniejszona bariera rasowa' should be 'zmniejszenie barier rasowych' to correctly express the reduction of racial barriers. The correction provides a grammatically accurate and clear statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Zniesienie barier, takich jak testy umiejętności czy podatki, które uniemożliwiały Afroamerykanom głosowanie.",
+        "correction": "Zniesienie barier, takich jak testy umiejętności czy podatki, które uniemożliwiały Afroamerykanom oddanie głosu.",
+        "description": "The original Polish sentence uses 'głosowanie,' which refers to the act of voting in general, but in this context, 'oddanie głosu' (casting a vote) is more precise and idiomatic. This improves the clarity and accuracy of the statement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Strefy klimatyczne są podzielane na podstawie długoterminowych warunków pogodowych.",
+        "correction": "Strefy klimatyczne są podzielane na podstawie długoterminowych warunków pogodowych.",
+        "description": "The verb 'podzielane' is incorrect in this context. The correct verb should be 'klasyfikowane' or 'dzielone', as 'podzielane' is not standard Polish and does not convey the intended meaning of classification or division. This is a lexical error affecting the clarity and accuracy of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "zmiennych zazwyczni odnoszą się do zmiennych, które wymagają nazwy, aby wypadło się na jakąś wartość.",
+        "correction": "zmiennych zazwyczaj odnoszą się do zmiennych, które wymagają nazwy, aby przypisać im jakąś wartość.",
+        "description": "The word 'zazwyczni' is a spelling error; the correct form is 'zazwyczaj'. Additionally, the phrase 'aby wypadło się na jakąś wartość' is ungrammatical and unclear in Polish. It should be 'aby przypisać im jakąś wartość' to accurately convey the intended meaning. This correction addresses both the spelling and the clarity of the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "co skutkowałoby błędne działanie lub błąd kompilacji.",
+        "correction": "co skutkowałoby błędnym działaniem lub błędem kompilacji.",
+        "description": "The phrase 'błędne działanie' should be in the instrumental case: 'błędnym działaniem', and 'błąd kompilacji' should be in the instrumental case: 'błędem kompilacji', to match the construction 'skutkowałoby ...'. This ensures proper case agreement in Polish.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Ta faktualność opiera się na podstawowej wiedzy w kodowaniu, gdzie typ danych jest podstawowym elementem w tworzeniu i używaniu zmiennych.",
+        "correction": "Ta prawidłowość opiera się na podstawowej wiedzy w kodowaniu, gdzie typ danych jest podstawowym elementem w tworzeniu i używaniu zmiennych.",
+        "description": "The word 'faktualność' is a calque from English ('factuality') and is not used in natural Polish. The correct term is 'prawidłowość' or 'zasada', which better fits the context and is idiomatic in Polish.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "zazwyczniowo używają języków programowania",
+        "correction": "zazwyczaj używają języków programowania",
+        "description": "The word 'zazwyczniowo' is a spelling error; the correct form is 'zazwyczaj'. This correction is necessary for proper understanding and linguistic accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "z ciasto",
+        "correction": "z ciastem",
+        "description": "The phrase 'z ciasto' is incorrect; the noun 'ciasto' should be in the instrumental case: 'z ciastem'. This ensures proper case usage in Polish.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "nie może obsługiwać złożonych instrukcji programowych potrzebnych do działania komputera.",
+        "correction": "nie może obsługiwać złożonych instrukcji programistycznych potrzebnych do działania komputera.",
+        "description": "The adjective 'programowych' is less precise in this context; 'programistycznych' is the correct term to describe instructions related to programming.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "liczby zmienniste",
+        "correction": "liczby zmiennoprzecinkowe",
+        "description": "The term 'liczby zmienniste' is incorrect in Polish technical language. The correct term for 'float' is 'liczby zmiennoprzecinkowe'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ostateczne rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+        "correction": "Ostateczny rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+        "description": "The word 'Ostateczne' should be 'Ostateczny' to agree in gender and case with 'rodzaj'. This correction ensures proper grammatical agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "liczby zmienniste",
+        "correction": "liczby zmiennoprzecinkowe",
+        "description": "The term 'liczby zmienniste' is incorrect in Polish when referring to floating-point numbers. The proper technical term is 'liczby zmiennoprzecinkowe'. Using the correct terminology is essential for clarity and professional language in educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "nie wykonywa żadnych operacji",
+        "correction": "nie wykonuje żadnych operacji",
+        "description": "The verb 'wykonywa' is a misspelling and incorrect conjugation; the correct form is 'wykonuje'. This error affects grammatical accuracy and comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Rozwiązywanie konfliktów zazwyczniwuje rozwiązanie konfliktów przez zniechęcanie stron do nieustanowania sporu.",
+        "correction": "Rozwiązywanie konfliktów polega na rozwiązaniu konfliktów poprzez zachęcanie stron do konstruktywnego dialogu.",
+        "description": "The original sentence contains the non-existent word 'zazwyczniwuje', which is a lexical error and makes the statement incomprehensible. Additionally, 'nieustanowania sporu' is incorrect; the intended meaning is unclear, but it should refer to resolving or not continuing the dispute. The corrected version uses proper Polish vocabulary and clearly expresses the intended idea.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Rozwiązywanie konfliktów nie chodzi o zniechęcanie stron do nieustanowania sporu.",
+        "correction": "Rozwiązywanie konfliktów nie polega na zniechęcaniu stron do kontynuowania sporu.",
+        "description": "The phrase 'nie chodzi o' is not idiomatic in this context; 'nie polega na' is the correct construction. Additionally, 'nieustanowania sporu' is not a valid Polish phrase; 'kontynuowania sporu' is the correct term for continuing a dispute.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Uczniowie, którzy popierają te umiejętności, zazwyczni bardziej rozumieją się nawzajdzie i mają silniejsze relacje z kolegami.",
+        "correction": "Uczniowie, którzy rozwijają te umiejętności, zazwyczaj lepiej się rozumieją i mają silniejsze relacje z kolegami.",
+        "description": "The word 'popierają' (support) is not appropriate in this context; 'rozwijają' (develop) is the correct verb for skills. 'zazwyczni' is a non-existent word and should be 'zazwyczaj' (usually). 'rozumieją się nawzajdzie' is incorrect; the correct phrase is 'lepiej się rozumieją'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "To nie tylko poprawia ich osobisty rozwój, ale także pomaga w rozwiązaniu konfliktów, ponieważ pozwala na pełne zrozumienie różnic w punktach widzenia.",
+        "correction": "To nie tylko wspiera ich rozwój osobisty, ale także pomaga w rozwiązywaniu konfliktów, ponieważ umożliwia pełne zrozumienie różnic w punktach widzenia.",
+        "description": "The phrase 'poprawia ich osobisty rozwój' is not idiomatic; 'wspiera ich rozwój osobisty' is more natural. 'pomaga w rozwiązaniu konfliktów' should be 'pomaga w rozwiązywaniu konfliktów' to match the aspect and context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Empatia polega tylko na poczynianiu zobowiązań w stosunku do innych.",
+        "correction": "Empatia nie polega tylko na składaniu zobowiązań wobec innych.",
+        "description": "The phrase 'poczynianiu zobowiązań' is not idiomatic; 'składaniu zobowiązań' is the correct term. Additionally, 'w stosunku do innych' is less natural than 'wobec innych'. The corrected sentence also negates the statement to match the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Empatia obejmuje nie tylko działanie, ale także zrozumienie i docenienie uczuć innych. To nie jest to samo co poleganie na zobowiązaniach, ale raczej na empatycznej interakcji, która może pomóc w rozwiązywaniu konfliktów.",
+        "correction": "Empatia obejmuje nie tylko działanie, ale także zrozumienie i docenienie uczuć innych. To nie jest to samo co składanie zobowiązań, lecz raczej empatyczna interakcja, która może pomóc w rozwiązywaniu konfliktów.",
+        "description": "The phrase 'poleganie na zobowiązaniach' is not appropriate; 'składanie zobowiązań' is the correct term. 'ale raczej na empatycznej interakcji' should be 'lecz raczej empatyczna interakcja' for proper sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ogólna rozmowa na temat konfliktów może zakończyć się bez wyrażenia uczuć.",
+        "correction": "Ogólna rozmowa na temat konfliktów może zakończyć się bez wyrażania uczuć.",
+        "description": "The phrase 'bez wyrażenia uczuć' should use the gerund form 'wyrażania' to match the context and standard Polish usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Dodatkowo, rozważanie uznania emocjonalnego stanu drugiej osoby może zwiększyć szacun i zwiększyć szczegółowe rozwiązanie problemu.",
+        "correction": "Dodatkowo, uznanie emocjonalnego stanu drugiej osoby może zwiększyć szacunek i ułatwić szczegółowe rozwiązanie problemu.",
+        "description": "The word 'szacun' is a colloquial abbreviation and inappropriate in educational content; 'szacunek' is the correct term. The phrase 'rozważanie uznania emocjonalnego stanu' is awkward and should be simplified to 'uznanie emocjonalnego stanu'. 'zwiększyć szczegółowe rozwiązanie problemu' is not idiomatic; 'ułatwić szczegółowe rozwiązanie problemu' is more natural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "prelecency",
+        "correction": "prelekcje",
+        "description": "The word 'prelecency' is a lexical error; it is not a valid Polish word. The correct term for lectures or presentations in Polish is 'prelekcje'. This error affects clarity and professionalism in educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Oświecają nasze myśli i pomagają wierzyć w różne stwierdzenia lub wykonywać decyzje.",
+        "correction": "Oświecają nasze myśli i pomagają wierzyć w różne stwierdzenia lub podejmować decyzje.",
+        "description": "The phrase 'wykonywać decyzje' is grammatically incorrect in Polish. The correct verb is 'podejmować decyzje' (to make decisions). Additionally, 'wierzyć w różne stwierdzenia' is awkward; a more natural phrasing would be 'wierzyć różnym stwierdzeniom', but the main issue is with the verb for decisions.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "To praktyczne zastosowanie umiejętności rozumieć i stawiać wartość na argumenty.",
+        "correction": "To praktyczne zastosowanie umiejętności rozumienia i oceniania wartości argumentów.",
+        "description": "The phrase 'umiejętności rozumieć i stawiać wartość na argumenty' is grammatically incorrect. The correct form is 'umiejętności rozumienia i oceniania wartości argumentów'. The infinitive 'rozumieć' should be in the genitive form 'rozumienia', and 'stawiać wartość na argumenty' is unnatural; 'oceniania wartości argumentów' is the proper expression.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "To może wpłynąć na zdanej się o relacji, potencjalnie wpływając na decyzje o związkach.",
+        "correction": "To może wpłynąć na zdanie o relacji, potencjalnie wpływając na decyzje dotyczące związków.",
+        "description": "The phrase 'zdanej się o relacji' is grammatically incorrect; the correct form is 'zdanie o relacji'. Additionally, 'decyzje o związkach' is less precise than 'decyzje dotyczące związków', which is the standard way to express decisions about relationships.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+        "correction": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny', ponieważ jest na rynku od wielu lat.",
+        "description": "The sentence is missing a closing quotation mark and the phrase 'przez wiele lat' should be 'od wielu lat' for correct Polish syntax. The lack of punctuation and incorrect preposition affect clarity and grammatical correctness.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "złote kule",
+        "correction": "złote ozdoby",
+        "description": "The phrase 'złote kule' (golden balls) is not culturally or historically accurate for ancient Egypt. Egyptians are known for creating 'złote ozdoby' (golden ornaments) such as jewelry, amulets, and decorative items. This is a localization issue affecting cultural appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania rozwiązują zmienną.",
+        "correction": "Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania je spełniają.",
+        "description": "The phrase 'rozwiązują zmienną' is awkward and not idiomatic in Polish. The natural way to express this is 'które po podstawieniu do równania je spełniają', which is commonly used in mathematical contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Jaśne morze, jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich, odgrywa znaczną rolę w regulacji klimatu. Woda działa jak termost, regulując wzór pogodowy. Te morskie ruchy wpływają na temperaturę, co potwierdza naszą tendencję do prawdy.",
+        "correction": "Morza i oceany odgrywają znaczącą rolę w regulacji klimatu. Woda działa jak termostat, regulując wzorce pogodowe. Ruchy wód morskich wpływają na temperaturę na Ziemi.",
+        "description": "This feedback contains unnatural and confusing references, such as 'Jaśne morze' and 'miasto Jastrzębie-Zdroje, znane z żywiołów morskich', which are not relevant or appropriate in the context of climate zones. The phrase 'termost' is a misspelling of 'termostat'. The overall style is not suitable for educational content and lacks clarity. The correction provides a clear, culturally neutral, and educationally appropriate explanation.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "'system calls' lub 'system calls'",
+        "correction": "wywołania systemowe",
+        "description": "The phrase uses the English term 'system calls' twice instead of the standard Polish technical term 'wywołania systemowe'. For educational content, it is important to use locally accepted terminology to ensure clarity and professionalism.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "bardziej zróżnicowaną i wszechstronną programowanie",
+        "correction": "bardziej zróżnicowane i wszechstronne programowanie",
+        "description": "The phrase uses incorrect adjective endings and agreement with the noun 'programowanie'. The adjectives should be neuter singular to match 'programowanie'. This affects both linguistic accuracy and naturalness of expression.",
+        "severity": "MEDIUM"
+      }
+    ]
+  }
+}

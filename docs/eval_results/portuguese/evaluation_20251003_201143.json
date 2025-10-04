@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Prepare-se para descobrir como o comércio global afeta nossas vidas e o funcionamento das economias!",
+      "correction": "Prepare-se para descobrir como o comércio global afeta nossas vidas e o funcionamento das economias.",
+      "description": "The use of the exclamation mark at the end of this sentence is not appropriate for formal educational content in Brazilian Portuguese. A period is preferred to maintain a neutral and informative tone. This correction improves the orthographic and stylistic consistency of the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Exemplos incluem os Estados Unidos importando eletrônicos da China e exportando produtos agrícolas como trigo e milho, ou a Alemanha exportando carros e importando matérias-primas como petróleo.",
+      "correction": "Exemplos incluem o Brasil importando eletrônicos da China e exportando produtos agrícolas como soja e café, ou a Alemanha exportando carros e importando matérias-primas como petróleo.",
+      "description": "The examples provided focus on the United States, which may not be as relatable for Brazilian learners. Replacing the US with Brazil and using locally relevant agricultural products (soja and café) increases cultural appropriateness and engagement for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A interdependência econômica ocorre quando os países dependem uns dos outros para bens, serviços e recursos.",
+      "correction": "A interdependência econômica ocorre quando os países dependem uns dos outros por bens, serviços e recursos.",
+      "description": "The preposition 'para' is not the most accurate choice in this context. 'Por' is more appropriate when expressing dependence for something in Brazilian Portuguese. This correction improves grammatical precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Os acordos comerciais são arranjos formais entre países para promover o comércio, reduzindo barreiras como tarifas e cotas.",
+      "correction": "Os acordos comerciais são tratados formais entre países para promover o comércio, reduzindo barreiras como tarifas e cotas.",
+      "description": "The term 'arranjos' is less formal and not standard in economic or legal contexts in Brazilian Portuguese. 'Tratados' is the preferred term for formal agreements between countries, ensuring terminological accuracy and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Por exemplo, enquanto mercados emergentes como China e Índia prosperam, economias menores enfrentam dificuldades para competir.",
+      "correction": "Por exemplo, enquanto mercados emergentes como a China e a Índia prosperam, economias menores enfrentam dificuldades para competir.",
+      "description": "Missing definite articles before country names ('a China', 'a Índia') is a common grammatical error in Portuguese. Including the articles ensures correct noun phrase structure and agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Esses mecanismos são fundamentais para moldar o comércio global, incentivando ou restringindo trocas internacionais.",
+      "correction": "Esses mecanismos são fundamentais para moldar o comércio global, promovendo ou restringindo trocas internacionais.",
+      "description": "The verb 'incentivar' is less commonly used in this context in Brazilian Portuguese. 'Promover' is more natural and widely accepted when referring to the facilitation of trade, improving the style and naturalness of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O comércio global é essencial para entender como as economias operam e como os países dependem uns dos outros.",
+      "correction": "O comércio global é essencial para entendermos como as economias operam e como os países dependem uns dos outros.",
+      "description": "In Brazilian Portuguese, the infinitive 'entender' should be conjugated to 'entendermos' to match the implied subject 'nós', making the sentence more grammatically precise and natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Compreender esses aspectos é crucial para analisar a economia mundial.",
+      "correction": "Compreender esses aspectos é fundamental para analisar a economia mundial.",
+      "description": "The word 'crucial' is less commonly used in educational contexts in Brazilian Portuguese. 'Fundamental' is more natural and widely accepted, improving the style and tone of the lesson.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:11:43.345079",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

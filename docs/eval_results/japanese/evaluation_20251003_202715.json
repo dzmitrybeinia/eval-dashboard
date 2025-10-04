@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "果物はビタミンとミネラルが豊富です。.",
+      "correction": "果物はビタミンとミネラルが豊富です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "食事の栄養素は健康を維持するために重要ではありません。.",
+      "correction": "食事の栄養素は健康を維持するために重要ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "健康的な食事は、炭水化物、タンパク質、脂質の三大栄養素のバランスが重要です。.",
+      "correction": "健康的な食事は、炭水化物、タンパク質、脂質の三大栄養素のバランスが重要です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "健康的な食事は体のみに影響を与えることが多いです。.",
+      "correction": "健康的な食事は体のみに影響を与えることが多いです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "この私たちの食事には、炭水化物をサラダやご飯に、タンパク質を鶏肉や豆腐に、脂質をオリーブオイルやナッツにとることで摂取する食材が含まれています。これらの栄養素がバランスを取ることで、私たちの体に必要な栄養を十分に受け取ることができます。",
+      "correction": "私たちの食事には、サラダやご飯から炭水化物、鶏肉や豆腐からタンパク質、オリーブオイルやナッツから脂質を摂取する食材が含まれています。これらの栄養素がバランスよく取れることで、私たちの体に必要な栄養を十分に受け取ることができます。",
+      "description": "The original sentence contains unnatural phrasing and incorrect particle usage, such as 'この私たちの食事には' and '炭水化物をサラダやご飯に'. The corrected version uses natural Japanese expressions and proper particles to clarify the sources of nutrients and improve readability. This correction addresses both grammatical and stylistic issues, ensuring the sentence is clear and idiomatic.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:27:15.001471",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "A Limerick always ends with a couplet that rhymes.",
+      "correction": "A Limerick always ends with a final line that rhymes with the first two lines.",
+      "description": "The statement is misleading because a limerick does not end with a couplet; it ends with a single line (the fifth line) that rhymes with the first and second lines. The third and fourth lines form a rhyming couplet, but the poem itself does not end with a couplet.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "He awoke with a fright, In the middle of the night, To find that his dream had come true.",
+      "correction": "He awoke with a fright, In the middle of the night, To find that his dream had come true.",
+      "description": "The example limerick is correct in structure, but the feedback and statement above it misrepresent the ending as a couplet, which could cause confusion about the form. The example itself is fine, but the surrounding explanation should be clarified.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms_1.md",
+    "language": "English",
+    "timestamp": "2025-10-03T19:31:57.844435",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "zuhörfähigkeiten",
+      "correction": "Zuhörfähigkeiten",
+      "description": "The noun 'Zuhörfähigkeiten' is not capitalized in the original text. In German, all nouns must be capitalized. This is a fundamental orthographic rule and its violation can affect comprehension and the perceived professionalism of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational German content may be considered informal and not standard in professional or academic contexts. While emojis can enhance engagement in some settings, their use should be carefully considered for appropriateness, especially in formal educational materials. Removing the emoji would ensure a more neutral and professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:06:25.324001",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

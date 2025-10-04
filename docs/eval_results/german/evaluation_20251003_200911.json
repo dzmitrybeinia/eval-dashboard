@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das Aufschreiben aller wichtigen Punkte ohne eine Zusammenfassung würde den Zweck der Methode untergraben, was die Kernidee der Cornell-Methode zu verfehlen vermuten könnte.",
+      "correction": "Das Aufschreiben aller wichtigen Punkte ohne eine Zusammenfassung würde den Zweck der Methode untergraben und die Kernidee der Cornell-Methode verfehlen.",
+      "description": "The original sentence contains an awkward and incorrect subordinate clause construction ('was die Kernidee der Cornell-Methode zu verfehlen vermuten könnte'), which is not idiomatic in German and results in a grammatical error. The corrected version removes the unnecessary clause and uses a clear, direct statement, improving both grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji in educational German content may be considered informal and less appropriate for academic materials, especially in higher education contexts. It is recommended to remove emojis to maintain a professional and neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Planer verwenden",
+      "correction": "Kalender oder Terminplaner verwenden",
+      "description": "The term 'Planer' is an anglicism and not the most natural or widely accepted term in German educational contexts. 'Kalender' or 'Terminplaner' are more standard and clear for German-speaking learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Versuche, nicht zu überfordern, indem du all deine Lernaktivitäten auf einen Tag legst.",
+      "correction": "Versuche, dich nicht zu überfordern, indem du all deine Lernaktivitäten auf einen Tag legst.",
+      "description": "The original sentence omits the reflexive pronoun 'dich', which is necessary for natural and grammatically correct German. The correction improves both linguistic accuracy and naturalness of expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Notizen-, Schlüsselwörter- und Zusammenfassungsbereiche",
+      "correction": "Notizen-, Schlüsselwort- und Zusammenfassungsbereiche",
+      "description": "The plural 'Schlüsselwörter' is less common in the context of the Cornell Method, where 'Schlüsselwort' (singular) is typically used to refer to the keyword column. Using the singular form aligns better with standard terminology in German educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Aktives Lesen Techniken",
+      "correction": "Techniken für aktives Lesen",
+      "description": "The phrase 'Aktives Lesen Techniken' is not idiomatic in German. The corrected version 'Techniken für aktives Lesen' is more natural and aligns with standard German phrasing for educational topics.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:09:11.266015",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

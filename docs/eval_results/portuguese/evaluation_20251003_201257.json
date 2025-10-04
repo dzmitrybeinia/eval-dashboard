@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A plasma é o estado da matéria mais comum encontrado na Terra.",
+      "correction": "O plasma é o estado da matéria mais comum encontrado na Terra.",
+      "description": "The original sentence incorrectly uses the feminine article 'A' with 'plasma', which is a masculine noun in Portuguese. The correct form is 'O plasma'. This is a grammatical gender agreement error and should be corrected to ensure linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O plasma é um estado da matéria raro na Terra, comum em estrelas e no sol.",
+      "correction": "O plasma é um estado da matéria raro na Terra, comum em estrelas e no Sol.",
+      "description": "The word 'sol' should be capitalized as 'Sol' when referring to the star, following standard orthographic conventions in Portuguese. This improves lexical precision and orthographic correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Exemplo do dia a dia: Uma mesa de madeira mantém sua forma e tamanho independentemente de onde está colocada.",
+      "correction": "Exemplo do dia a dia: Uma mesa de madeira mantém sua forma e tamanho, não importa onde esteja.",
+      "description": "The original sentence uses a more formal and technical structure ('independentemente de onde está colocada'), which may sound unnatural in educational content for younger audiences. The correction uses a more natural and conversational style ('não importa onde esteja'), improving localization and making the example more relatable.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Exemplo do dia a dia: Quando se coloca água em um copo, ela toma a forma do copo sem alterar sua quantidade.",
+      "correction": "Exemplo do dia a dia: Quando se coloca água em um copo, ela toma a forma do copo sem alterar sua quantidade.",
+      "description": "No linguistic or localization errors found. The sentence is correct in terms of grammar, spelling, and style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplo do dia a dia: Os raios durante uma tempestade representam o plasma, uma forma de matéria altamente energética.",
+      "correction": "Exemplo do dia a dia: Os raios durante uma tempestade representam o plasma, um estado da matéria altamente energético.",
+      "description": "The term 'forma de matéria' is less precise than 'estado da matéria', which is the standard terminology used in scientific and educational contexts. The correction improves terminology consistency and aligns with locally accepted scientific language.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O plasma é caracterizado por ter partículas carregadas, como íons e elétrons, devido à sua alta energia. Ele não é neutro, contrastando com o estado de sólido, líquido ou gás, que geralmente têm partículas carregadas em menor quantidade ou nenhuma.",
+      "correction": "O plasma é caracterizado por ter partículas carregadas, como íons e elétrons, devido à sua alta energia. Ele não é neutro, contrastando com os estados sólido, líquido ou gasoso, que geralmente têm partículas carregadas em menor quantidade ou nenhuma.",
+      "description": "The original sentence incorrectly uses 'o estado de sólido, líquido ou gás' (singular) when referring to multiple states. The correct form is 'os estados sólido, líquido ou gasoso' (plural), ensuring proper grammatical agreement and scientific terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:12:57.441573",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

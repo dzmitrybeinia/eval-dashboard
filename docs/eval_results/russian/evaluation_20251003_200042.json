@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Правдословность заблуждена. Митохондрии содержат внутри кристали, которые являются сложными структурами, но не называются монструм. Эти кристали играют важную роль в увеличении поверхности для улучшения эффективности клеточного дыхания.",
+      "correction": "Это утверждение неверно. Митохондрии содержат внутри кристы, которые являются складками внутренней мембраны, но не называются монструм. Эти кристы играют важную роль в увеличении поверхности для повышения эффективности клеточного дыхания.",
+      "description": "The word 'Правдословность заблуждена' is not a correct or meaningful phrase in Russian; it appears to be a lexical error. The term 'кристали' is a misspelling and should be 'кристы' (the correct term for mitochondrial folds). The word 'монструм' is not a Russian biological term and is inappropriate in this context. The sentence structure and terminology should be corrected for clarity and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующими фотосинтезу.",
+      "correction": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующим фотосинтезу.",
+      "description": "The participle 'способствующими' is incorrectly used in the instrumental plural form, while 'компонентом' is singular and instrumental. The participle should agree in case and number with 'компонентом', so it must be 'способствующим'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Хлоропласты, или 'хлоропласты', являются особенно важными для растений, так как они содержат хлорофилл — пигмент, который играет центральную роль в фотосинтезе.",
+      "correction": "Хлоропласты являются особенно важными для растений, так как они содержат хлорофилл — пигмент, который играет центральную роль в фотосинтезе.",
+      "description": "The phrase 'Хлоропласты, или 'хлоропласты'' is redundant and confusing, as it repeats the same term without providing an alternative or clarification. This should be removed for clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Отличаясь от других органеллов в клетках, таких как митохондры или яйцеклетки, хлоропласты показывают уникальную способность растений получать энергию от солнца.",
+      "correction": "Отличаясь от других органелл в клетках, таких как митохондрии, хлоропласты показывают уникальную способность растений получать энергию от солнца.",
+      "description": "The word 'митохондры' is incorrect; the correct term is 'митохондрии'. 'Яйцеклетки' are not organelles but cells, so their mention here is inappropriate and misleading. The sentence should only reference actual organelles for scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Хотя рибосомы также участвуют в деградации белков, основная роль рибосом - синтез белков.",
+      "correction": "Основная роль рибосом — синтез белков.",
+      "description": "The statement incorrectly claims that ribosomes participate in protein degradation, which is not accurate; their primary function is protein synthesis. The sentence should be corrected to avoid spreading misinformation.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts_1.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:00:42.744092",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

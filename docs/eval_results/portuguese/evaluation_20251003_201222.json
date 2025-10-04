@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Esta afirmação é verdadeira porque, à medida que você se move para cima em um grupo, mais camadas eletrônicas são adicionadas, o que aumenta o tamanho atômico. Por outro lado, se você se mover de cima para baixo em um grupo, os elétrons externos tendem a ser menos fortemente ligados ao núcleo, causando uma diminuição no tamanho atômico.",
+      "correction": "Esta afirmação é verdadeira porque, à medida que você se move para cima em um grupo, menos camadas eletrônicas estão presentes, o que diminui o tamanho atômico. Por outro lado, ao se mover de cima para baixo em um grupo, mais camadas eletrônicas são adicionadas, aumentando o tamanho atômico.",
+      "description": "The original text contains a logical and syntactic error regarding atomic size trends in groups. It incorrectly states that moving up a group adds electron shells and increases atomic size, when in fact moving up reduces the number of shells and decreases atomic size. The correction clarifies the scientific concept and improves sentence structure for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "O sódio (Na) tem 1 elétron de valência, enquanto o cloro (Cl) tem 7 elétrons de valência, tornando o cloro mais reativo e mais propenso a ganhar elétrons para completar sua camada de valência, não ter mais de elétrons de valência.",
+      "correction": "O sódio (Na) tem 1 elétron de valência, enquanto o cloro (Cl) tem 7 elétrons de valência, tornando o cloro mais propenso a ganhar elétrons para completar sua camada de valência.",
+      "description": "The original sentence contains a syntactic error and a fragment ('não ter mais de elétrons de valência') that is incomplete and confusing. The correction removes the fragment and clarifies the comparison between sodium and chlorine regarding valence electrons.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "A eletronegatividade de um elemento aumenta ao se mover de esquerda para direita em uma coluna da tabela periódica.",
+      "correction": "A eletronegatividade de um elemento aumenta ao se mover da esquerda para a direita em um período da tabela periódica.",
+      "description": "The original sentence incorrectly refers to 'coluna' (column/group) instead of 'período' (row/period) when describing the trend of electronegativity. The correction replaces 'coluna' with 'período' to accurately reflect the scientific concept and corrects the preposition for naturalness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:12:22.901088",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos.",
+      "correction": "En el lenguaje de programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos.",
+      "description": "The phrase 'números sin signo' is inaccurate in Spanish for describing integers, as it suggests that integers cannot be negative or positive. The correct terminology is 'números con o sin signo' to reflect that integers can be both signed and unsigned, depending on the context. This correction improves technical accuracy and clarity for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usar letras minúsculas para consistencia.",
+      "correction": "Usar letras minúsculas para mantener la consistencia.",
+      "description": "The original phrase 'para consistencia' is a direct calque from English ('for consistency') and is not idiomatic in Spanish. The corrected version 'para mantener la consistencia' uses a more natural and locally accepted expression, improving the style and readability for Spanish-speaking learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La idea de que las variables no puedan almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+      "correction": "La idea de que las variables no pueden almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+      "description": "The use of 'no puedan' is grammatically incorrect in this context. The correct form is 'no pueden', as the statement refers to a general fact rather than a possibility or hypothetical situation. This correction ensures proper verb conjugation and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleano: Verdadero o falso.",
+      "correction": "Booleano: verdadero o falso.",
+      "description": "In Spanish, technical terms such as 'verdadero' and 'falso' are not capitalized unless they begin a sentence. The original capitalization is inconsistent with standard Spanish technical writing conventions. The correction improves terminology consistency and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ejemplo en código:",
+      "correction": "Ejemplo de código:",
+      "description": "The phrase 'Ejemplo en código' is not the most natural or grammatically correct way to introduce a code example in Spanish. 'Ejemplo de código' is the standard and idiomatic expression, improving both orthographic and stylistic accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T01:30:43.412936",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

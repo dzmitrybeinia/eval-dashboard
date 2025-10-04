@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A localização do Egito conectava-o a outras regiões, promovendo comércio e intercâmbio cultural.",
+      "correction": "A localização do Egito conectava-o a outras regiões, promovendo o comércio e o intercâmbio cultural.",
+      "description": "The original sentence omits the definite articles 'o' before 'comércio' and 'o' before 'intercâmbio cultural', which are required in Brazilian Portuguese to specify these nouns. This omission affects grammatical correctness and clarity. The corrected version includes the articles, ensuring proper noun phrase construction and agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A arte egípcia representava deuses, faraós e cenas cotidianas, usando cores vibrantes e simbolismo.",
+      "correction": "A arte egípcia representava deuses, faraós e cenas do cotidiano, usando cores vibrantes e simbolismo.",
+      "description": "The word 'cotidianas' is an adjective modifying 'cenas', but the more natural and precise expression in Brazilian Portuguese is 'cenas do cotidiano' (scenes from daily life). While 'cenas cotidianas' is not strictly incorrect, 'cenas do cotidiano' is preferred for clarity and idiomatic usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bem-vindos ao fascinante mundo do Egito Antigo! ✨ Neste estudo, exploraremos como esta civilização incrível moldou a história e deixou um legado duradouro. Prepare-se para descobrir a geografia, cultura, governo e as contribuições do Egito Antigo para o mundo moderno!",
+      "correction": "Bem-vindos ao fascinante mundo do Egito Antigo! Neste estudo, exploraremos como esta civilização incrível moldou a história e deixou um legado duradouro. Prepare-se para descobrir a geografia, cultura, governo e as contribuições do Egito Antigo para o mundo moderno!",
+      "description": "The use of the sparkle emoji '✨' in educational content may be considered informal and less appropriate for academic contexts in Brazilian Portuguese. Removing the emoji ensures a more professional and neutral tone, which is culturally expected in formal educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:09.114333",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это строго не верно.",
+      "correction": "Это строго неверно.",
+      "description": "The phrase contains a grammatical error: 'не верно' should be written as one word 'неверно' when used as an adverb meaning 'incorrectly' or 'wrong'. In Russian, 'неверно' is the correct spelling in this context. Additionally, the phrase 'строго неверно' is somewhat unnatural; 'совершенно неверно' or 'это неправильно' would be more idiomatic, but the main issue is the spelling error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Практика заранее улучшает квалификацию на экзамене.",
+      "correction": "Практика заранее улучшает результаты на экзамене.",
+      "description": "The word 'квалификация' is not appropriate in this educational context. In Russian, 'квалификация' typically refers to professional qualifications or skill level, not exam performance. The more natural and culturally appropriate term is 'результаты', which refers to exam outcomes or scores. This correction improves clarity and aligns with standard Russian educational terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:04:07.568420",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

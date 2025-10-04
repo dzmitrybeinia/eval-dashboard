@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "фантатических миров",
+      "correction": "фантастических миров",
+      "description": "The word 'фантатических' is a misspelling of 'фантастических'. This is a lexical and orthographic error that affects the clarity and professionalism of the educational content. The correct word is 'фантастических', which means 'fantastic' or 'fantastical' in Russian.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "фатиках",
+      "correction": "фактах",
+      "description": "The word 'фатиках' is a misspelling of 'фактах'. This lexical error changes the meaning of the sentence and may confuse learners, as 'фактах' means 'facts', which is the intended meaning in the context of documentary literature.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "персонажев",
+      "correction": "персонажей",
+      "description": "The word 'персонажев' is an incorrect genitive plural form of 'персонаж'. The correct form is 'персонажей'. This grammatical error affects the accuracy of noun declension and may hinder comprehension for learners studying Russian grammar.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Идиот Донате Вашингтона",
+      "correction": "Идиот Фёдора Достоевского",
+      "description": "The reference 'Идиот Донате Вашингтона' is incorrect. 'Идиот' is a famous novel by Fyodor Dostoevsky, not Donate Washington. This lexical and factual error misleads learners about Russian literature and authorship.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Продуманная литература",
+      "correction": "Документальная литература",
+      "description": "The term 'Продуманная литература' is not standard in Russian and is confusing in this context. The correct term for non-fiction literature is 'документальная литература'. Using the proper terminology ensures clarity and aligns with educational standards in Russian-speaking contexts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "представлены через призму персонажев и литературного стиля",
+      "correction": "представлены через призму персонажей и литературного стиля",
+      "description": "This phrase contains the same genitive plural error as previously noted ('персонажев' instead of 'персонажей'). The correction ensures proper noun declension and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "предоставляя уникальную или воображаемую перспективу",
+      "correction": "предоставляя уникальную или вымышленную перспективу",
+      "description": "The word 'воображаемую' (imaginary) is less natural in this context than 'вымышленную' (fictional) when describing literature. 'Вымышленная перспектива' is the standard phrase in Russian literary discourse.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:52.020557",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

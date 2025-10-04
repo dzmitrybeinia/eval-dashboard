@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Respect et actions positives",
+      "correction": "Respect et actions positives",
+      "description": "The title 'Respect et actions positives' is linguistically correct in terms of spelling, capitalization, and punctuation. However, in French educational content, section titles are often capitalized only on the first word unless they are proper nouns. This title follows the standard French capitalization rules, so no correction is needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟 Dans cette leçon, nous allons explorer comment la gentillesse peut renforcer les relations et construire des communautés solides et solidaires.",
+      "correction": "Dans cette leçon, nous allons explorer comment la gentillesse peut renforcer les relations et construire des communautés solides et solidaires.",
+      "description": "The use of the star emoji '🌟' at the beginning of the sentence is not standard in formal French educational materials. While emojis can add visual interest, they may be perceived as informal or distracting in some French classroom contexts, especially in printed or official materials. Removing the emoji aligns the style with typical French educational conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Offrir de l’aide lorsqu’on remarque que quelqu’un a des difficultés.",
+      "correction": "Offrir de l’aide lorsqu’on remarque que quelqu’un rencontre des difficultés.",
+      "description": "The phrase 'a des difficultés' is grammatically correct, but 'rencontre des difficultés' is a more idiomatic and precise expression in French for describing someone experiencing challenges. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Tenir la porte ouverte pour quelqu’un peut l’inspirer à faire un geste gentil pour une autre personne plus tard dans la journée.",
+      "correction": "Tenir la porte ouverte pour quelqu’un peut l’inspirer à faire un geste aimable pour une autre personne plus tard dans la journée.",
+      "description": "The term 'geste gentil' is understandable but 'geste aimable' is more commonly used in French to describe a kind gesture. This adjustment enhances cultural appropriateness and naturalness in French educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:22.415222",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

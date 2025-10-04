@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos, foi cortado do time de basquete da escola. Em vez de desistir, ele trabalhou mais duro, praticou mais e se tornou uma lenda no esporte.",
+      "correction": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos, foi cortado do time de basquete da escola. Em vez de desistir, ele trabalhou mais duro, praticou mais e se tornou uma lenda no esporte.",
+      "description": "The reference to Michael Jordan being cut from his school basketball team is a well-known anecdote in the United States, but may not be as familiar or impactful for Brazilian students. For improved localization, consider using a Brazilian sports figure or providing additional context to make the example more relatable to the local audience. The language itself is correct, but the cultural reference could be adapted for greater relevance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Serena Williams",
+      "correction": "Serena Williams",
+      "description": "While Serena Williams is a globally recognized athlete, her story may not resonate as strongly with Brazilian learners compared to local sports figures. For enhanced localization, consider referencing a Brazilian athlete who exemplifies perseverance and growth mindset, or provide more context about Serena Williams' achievements to increase relatability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "feedbacks",
+      "correction": "retornos",
+      "description": "The use of 'feedbacks' is an anglicism that is not standard in Brazilian Portuguese. The correct and natural term is 'retornos' or 'comentários'. Using the local equivalent improves the professionalism and naturalness of the text.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:11:49.097019",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

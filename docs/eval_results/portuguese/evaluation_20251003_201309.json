@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Métodos como o Cornell Notes dividem a página em colunas para palavras-chave, notas detalhadas e resumos.",
+      "correction": "Métodos como o método Cornell dividem a página em colunas para palavras-chave, notas detalhadas e resumos.",
+      "description": "The term 'Cornell Notes' is an anglicism and not the most natural or standard way to refer to the method in Brazilian Portuguese educational contexts. The more appropriate and widely accepted term is 'método Cornell'. This correction improves terminology consistency and aligns with local usage, enhancing clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Métodos incluem o uso de ferramentas de agendamento como calendários e aplicativos, priorização de tarefas com métodos como ABC, e evitar a procrastinação com prazos específicos e recompensas.",
+      "correction": "As técnicas incluem o uso de ferramentas de agendamento como calendários e aplicativos, a priorização de tarefas com métodos como ABC, e o combate à procrastinação com prazos específicos e recompensas.",
+      "description": "The original sentence uses 'Métodos incluem', which is less natural in Brazilian Portuguese for this context. 'As técnicas incluem' is more idiomatic and aligns with the educational register. Additionally, 'evitar a procrastinação' is improved to 'o combate à procrastinação', which is a more active and natural phrasing in local educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Revisar regularmente e usar abreviações pode otimizar o processo.",
+      "correction": "Revisar regularmente e utilizar abreviações pode otimizar o processo.",
+      "description": "The verb 'usar' is correct but 'utilizar' is more formal and commonly used in educational contexts in Brazilian Portuguese, improving the tone and professionalism of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pré-visualização do texto",
+      "correction": "prévia do texto",
+      "description": "The term 'pré-visualização' is a direct translation from English ('preview') and is less commonly used in Brazilian Portuguese educational materials. 'Prévia do texto' is more natural and widely understood, improving terminology localization.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:13:09.304426",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした.",
+      "correction": "ナイル川はエジプトの長きにわたる経済発展の重要な要因でした。",
+      "description": "The phrase '生涯にわたる' is a lexical error in this context, as it means 'lifelong' and is typically used for individuals, not civilizations. The correct term is '長きにわたる' or '長期間にわたる' to indicate a long period for a civilization. Additionally, the sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'), which is an orthographic error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これにより、エジプト人は農業により集中し、経済の発展を促進しました..",
+      "correction": "これにより、エジプト人は農業により集中し、経済の発展を促進しました。",
+      "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error that affects the professionalism and readability of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "古代エジプトではファラオの権力が絶えず変わり、各ファラオは建築に大きな貢納を求めませんでした.",
+      "correction": "古代エジプトではファラオの権力が絶えず変わり、各ファラオは建築に大きな貢納を求めませんでした。",
+      "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "古代エジプトでは、ファラオの権力は非常に強大であり、建築に大きな貢納を要求することがある一方で、それが普遍的な現象ではありませんでした。例として、ファラオ・クフはピラミッド建設のために大量の資源を使用しました..",
+      "correction": "古代エジプトでは、ファラオの権力は非常に強大であり、建築に大きな貢納を要求することがある一方で、それが普遍的な現象ではありませんでした。例として、ファラオ・クフはピラミッド建設のために大量の資源を使用しました。",
+      "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "古代エジプトのピラミッドは主に宗教的儀式のために建設されました.",
+      "correction": "古代エジプトのピラミッドは主に宗教的儀式のために建設されました。",
+      "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ピラミッドは主にファラオの遺体と所有物を来世に保存するために建設されました。宗教的儀式は重要でしたが、その主な目的は依然として墓としての役割でした..",
+      "correction": "ピラミッドは主にファラオの遺体と所有物を来世に保存するために建設されました。宗教的儀式は重要でしたが、その主な目的は依然として墓としての役割でした。",
+      "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロゼッタストーンは古代エジプトの文明の理解を深めるために使用される重要な遺物です.",
+      "correction": "ロゼッタストーンは古代エジプトの文明の理解を深めるために使用される重要な遺物です。",
+      "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロゼッタストーンは、象形文字を含む古代エジプト文明の文明を理解する上で重要な役割を果たしています。これらの遺物は学術的に解読され、文明の言語、習慣、政治的構造についての洞察を提供しました..",
+      "correction": "ロゼッタストーンは、象形文字を含む古代エジプト文明の文明を理解する上で重要な役割を果たしています。これらの遺物は学術的に解読され、文明の言語、習慣、政治的構造についての洞察を提供しました。",
+      "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "古代エジプトの統治システムは財政的な停況によって支配されていた.",
+      "correction": "古代エジプトの統治システムは財政的な停滞によって支配されていた。",
+      "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). Additionally, the word '停況' is a lexical error; the correct term is '停滞' to mean 'stagnation.'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "この誤った考えは古代エジプトにおける統治システムの複雑さを誤解しています。ナイル川の豊かな資源と独占的な貿易を通じて繁栄しました..",
+      "correction": "この誤った考えは古代エジプトにおける統治システムの複雑さを誤解しています。ナイル川の豊かな資源と独占的な貿易を通じて繁栄しました。",
+      "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:24:17.003192",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

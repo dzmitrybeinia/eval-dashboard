@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "gradualmente clareando os tons próximos à luz.",
+      "correction": "gradualmente clareando os tons próximos à luz.",
+      "description": "The use of the crase in 'à luz' is correct, as it refers to proximity to 'a luz' (the light). No correction needed, but this is a common area for errors in Portuguese. The sentence is linguistically accurate and uses proper accentuation and crase.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usar ferramentas como dedos ou tecidos para suavizar traços.",
+      "correction": "Usar ferramentas como esfuminho, dedos ou tecidos para suavizar traços.",
+      "description": "The term 'esfuminho' is the standard and widely recognized tool for blending in Brazilian art education. Including 'esfuminho' alongside 'dedos ou tecidos' improves terminology consistency and aligns with local art teaching practices, making the content more professional and culturally appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Lembre-se, cada traço é um passo em direção à expressão de sua visão única!",
+      "correction": "Lembre-se: cada traço é um passo em direção à expressão de sua visão única!",
+      "description": "The use of a comma after 'Lembre-se' is less natural in formal Brazilian Portuguese writing. A colon is preferred to introduce an explanatory or motivational statement, improving the style and naturalness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Essas técnicas tornam os desenhos mais realistas e envolventes, elevando suas habilidades artísticas e permitindo uma comunicação eficaz através da arte. 🎨",
+      "correction": "Essas técnicas tornam os desenhos mais realistas e envolventes, elevando suas habilidades artísticas e permitindo uma comunicação eficaz através da arte.",
+      "description": "The use of the '🎨' emoji at the end of a formal educational introduction may be considered informal and less appropriate for adult or professional audiences in Brazilian educational contexts. Removing the emoji improves the tone and maintains a more professional style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:11:09.462120",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

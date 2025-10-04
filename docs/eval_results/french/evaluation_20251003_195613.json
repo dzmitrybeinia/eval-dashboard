@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Cela peut rendre vous vulnérable à des arnaques et à d'autres formes d'exploitation.",
+      "correction": "Cela peut vous rendre vulnérable à des arnaques et à d'autres formes d'exploitation.",
+      "description": "The original sentence contains an incorrect word order for the pronoun 'vous' in French. In French, the pronoun should precede the verb, so 'rendre vous vulnérable' is incorrect. The correct structure is 'vous rendre vulnérable.' This error affects grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Éviter les majuscules (perçues comme crier).",
+      "correction": "Évitez d'utiliser les majuscules (elles sont perçues comme crier).",
+      "description": "The original phrase uses an infinitive form 'Éviter' in a list of recommendations, which is less natural in French instructional style. The imperative 'Évitez' is more appropriate and consistent with the other examples. Additionally, clarifying 'elles sont perçues comme crier' improves naturalness and readability.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Répondre respectueusement, même en cas de désaccord.",
+      "correction": "Répondez respectueusement, même en cas de désaccord.",
+      "description": "The use of the infinitive 'Répondre' is less natural in the context of direct advice. The imperative 'Répondez' is preferred for instructional content, ensuring consistency and a more engaging tone for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Utiliser un langage poli dans les courriels et messages.",
+      "correction": "Utilisez un langage poli dans les courriels et messages.",
+      "description": "The infinitive 'Utiliser' is less appropriate for direct recommendations in educational content. The imperative 'Utilisez' aligns better with the instructional style and matches the tone of the other advice given.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:56:13.889692",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

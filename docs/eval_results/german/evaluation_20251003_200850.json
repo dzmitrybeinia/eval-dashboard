@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Kraft, die auf einen Hebel angewendet wird, wird als Schubkraft oder moment bezeichnet. Der Schubkraft erzeugt ein Drehmoment, das die Bewegung des Hebels antreibt.",
+      "correction": "Die Kraft, die auf einen Hebel angewendet wird, wird als Kraft oder Moment bezeichnet. Die Kraft erzeugt ein Drehmoment, das die Bewegung des Hebels antreibt.",
+      "description": "The term 'Schubkraft' is incorrect in the context of levers; the correct term is 'Kraft' or 'Moment'. Additionally, 'moment' should be capitalized as 'Moment' in German. The definite article 'Der' before 'Schubkraft' is incorrect because 'Kraft' is feminine and should use 'Die'. The sentence also uses 'Der Schubkraft' instead of 'Die Kraft', which is grammatically incorrect. These errors affect both lexical precision and grammatical agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Drehmomentumübertragung erfolgt durch die Rotation des Rades.",
+      "correction": "Die Drehmomentübertragung erfolgt durch die Rotation des Rades.",
+      "description": "The word 'Drehmomentumübertragung' is incorrect; the correct term is 'Drehmomentübertragung'. The use of 'Momentum' is an anglicism and not standard in German technical language. This error affects both lexical precision and terminology consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In Wirklichkeit bewegen sich die Achse, wenn das Rad rotiert.",
+      "correction": "In Wirklichkeit bewegt sich die Achse, wenn das Rad rotiert.",
+      "description": "The verb 'bewegen' is incorrectly conjugated for the singular noun 'die Achse'. It should be 'bewegt sich' instead of 'bewegen sich'. This is a subject-verb agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Wandkraft über die Distanz erhöht wird, wodurch weniger Kraft pro Schritt notwendig ist.",
+      "correction": "Die Kraft wird über die Distanz verteilt, wodurch weniger Kraft pro Schritt notwendig ist.",
+      "description": "The phrase 'Wandkraft' is incorrect and not standard in German; the correct concept is that the force is distributed over the distance. The sentence structure is also awkward and does not clearly convey the intended meaning. This affects both lexical precision and sentence clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:08:50.379860",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

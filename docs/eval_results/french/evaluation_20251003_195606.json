@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Écriture libre : Écrire rapidement sans jugement.",
+      "correction": "Écriture libre : écrire rapidement sans jugement.",
+      "description": "In French, after a colon, the following word should not be capitalized unless it is a proper noun or the start of a new sentence. Here, 'Écrire' should be in lowercase to follow standard orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à découvrir comment les techniques de brainstorming et les principes de conception centrée sur l'utilisateur permettent de créer des solutions innovantes et pratiques. 🌟",
+      "correction": "Préparez-vous à découvrir comment les techniques de brainstorming et les principes de conception centrée sur l'utilisateur permettent de créer des solutions innovantes et pratiques.",
+      "description": "The use of the star emoji (🌟) at the end of an educational sentence is not standard in French academic or professional contexts. Removing it improves the formality and appropriateness of the tone for educational material.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:56:06.392444",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

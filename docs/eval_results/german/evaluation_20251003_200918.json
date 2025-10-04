@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Wegrechnen",
+      "correction": "Subtrahieren",
+      "description": "The term 'Wegrechnen' is not standard or precise in educational German for mathematical operations. The correct term for basic arithmetic subtraction is 'Subtrahieren'. Using 'Wegrechnen' may confuse learners and is not appropriate in formal or instructional contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Streaming-Dienste wie Netflix schlagen Filme und Serien basierend auf individuellen Interessen vor.",
+      "correction": "Streaming-Dienste wie Netflix empfehlen Filme und Serien basierend auf individuellen Interessen.",
+      "description": "The verb 'schlagen ... vor' is grammatically correct but less natural in this context. 'Empfehlen' is the standard and more idiomatic verb for recommendations in German, especially in the context of digital services. This change improves the naturalness and professionalism of the language.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Personalisierte Einkaufsempfehlungen basieren auf Kundenvorlieben.",
+      "correction": "Personalisierte Einkaufsempfehlungen basieren auf den Vorlieben der Kunden.",
+      "description": "The phrase 'Kundenvorlieben' is understandable but less precise and slightly awkward. The correct grammatical construction is 'den Vorlieben der Kunden', which uses the dative plural and a more natural possessive structure in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Künstliche Intelligenz (KI) verbessert die menschliche Kreativität und ist nicht nützlich in repetitive oder routine-basierten Aufgaben.",
+      "correction": "Künstliche Intelligenz (KI) verbessert die menschliche Kreativität und ist nicht nützlich bei repetitiven oder routinebasierten Aufgaben.",
+      "description": "The preposition 'in' is incorrect in this context; 'bei' is the correct choice for describing usefulness in tasks. Additionally, 'repetitive' should be 'repetitiven' to match the adjective ending, and 'routine-basierten' should be written as 'routinebasierten' (compound noun without hyphen) for proper German orthography.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:09:18.219355",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

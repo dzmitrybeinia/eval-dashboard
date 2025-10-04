@@ -1,0 +1,3037 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "japanese",
+    "generated_at": "2025-10-03T20:30:47.977625",
+    "source_files": [
+      "evaluation_20251003_202417.json",
+      "evaluation_20251003_202423.json",
+      "evaluation_20251003_202429.json",
+      "evaluation_20251003_202433.json",
+      "evaluation_20251003_202439.json",
+      "evaluation_20251003_202446.json",
+      "evaluation_20251003_202450.json",
+      "evaluation_20251003_202459.json",
+      "evaluation_20251003_202509.json",
+      "evaluation_20251003_202515.json",
+      "evaluation_20251003_202522.json",
+      "evaluation_20251003_202525.json",
+      "evaluation_20251003_202530.json",
+      "evaluation_20251003_202540.json",
+      "evaluation_20251003_202544.json",
+      "evaluation_20251003_202552.json",
+      "evaluation_20251003_202556.json",
+      "evaluation_20251003_202601.json",
+      "evaluation_20251003_202608.json",
+      "evaluation_20251003_202618.json",
+      "evaluation_20251003_202623.json",
+      "evaluation_20251003_202630.json",
+      "evaluation_20251003_202637.json",
+      "evaluation_20251003_202641.json",
+      "evaluation_20251003_202646.json",
+      "evaluation_20251003_202653.json",
+      "evaluation_20251003_202658.json",
+      "evaluation_20251003_202705.json",
+      "evaluation_20251003_202710.json",
+      "evaluation_20251003_202715.json",
+      "evaluation_20251003_202730.json",
+      "evaluation_20251003_202734.json",
+      "evaluation_20251003_202746.json",
+      "evaluation_20251003_202755.json",
+      "evaluation_20251003_202804.json",
+      "evaluation_20251003_202808.json",
+      "evaluation_20251003_202812.json",
+      "evaluation_20251003_202820.json",
+      "evaluation_20251003_202828.json",
+      "evaluation_20251003_202838.json",
+      "evaluation_20251003_202841.json",
+      "evaluation_20251003_202849.json",
+      "evaluation_20251003_202856.json",
+      "evaluation_20251003_202903.json",
+      "evaluation_20251003_202910.json",
+      "evaluation_20251003_202916.json",
+      "evaluation_20251003_202924.json",
+      "evaluation_20251003_202931.json",
+      "evaluation_20251003_202938.json",
+      "evaluation_20251003_202944.json"
+    ],
+    "issue_counts": {
+      "linguistic": 362,
+      "localization": 9
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした.",
+        "correction": "ナイル川はエジプトの長きにわたる経済発展の重要な要因でした。",
+        "description": "The phrase '生涯にわたる' is a lexical error in this context, as it means 'lifelong' and is typically used for individuals, not civilizations. The correct term is '長きにわたる' or '長期間にわたる' to indicate a long period for a civilization. Additionally, the sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'), which is an orthographic error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これにより、エジプト人は農業により集中し、経済の発展を促進しました..",
+        "correction": "これにより、エジプト人は農業により集中し、経済の発展を促進しました。",
+        "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error that affects the professionalism and readability of the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "古代エジプトではファラオの権力が絶えず変わり、各ファラオは建築に大きな貢納を求めませんでした.",
+        "correction": "古代エジプトではファラオの権力が絶えず変わり、各ファラオは建築に大きな貢納を求めませんでした。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "古代エジプトでは、ファラオの権力は非常に強大であり、建築に大きな貢納を要求することがある一方で、それが普遍的な現象ではありませんでした。例として、ファラオ・クフはピラミッド建設のために大量の資源を使用しました..",
+        "correction": "古代エジプトでは、ファラオの権力は非常に強大であり、建築に大きな貢納を要求することがある一方で、それが普遍的な現象ではありませんでした。例として、ファラオ・クフはピラミッド建設のために大量の資源を使用しました。",
+        "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "古代エジプトのピラミッドは主に宗教的儀式のために建設されました.",
+        "correction": "古代エジプトのピラミッドは主に宗教的儀式のために建設されました。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ピラミッドは主にファラオの遺体と所有物を来世に保存するために建設されました。宗教的儀式は重要でしたが、その主な目的は依然として墓としての役割でした..",
+        "correction": "ピラミッドは主にファラオの遺体と所有物を来世に保存するために建設されました。宗教的儀式は重要でしたが、その主な目的は依然として墓としての役割でした。",
+        "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ロゼッタストーンは古代エジプトの文明の理解を深めるために使用される重要な遺物です.",
+        "correction": "ロゼッタストーンは古代エジプトの文明の理解を深めるために使用される重要な遺物です。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ロゼッタストーンは、象形文字を含む古代エジプト文明の文明を理解する上で重要な役割を果たしています。これらの遺物は学術的に解読され、文明の言語、習慣、政治的構造についての洞察を提供しました..",
+        "correction": "ロゼッタストーンは、象形文字を含む古代エジプト文明の文明を理解する上で重要な役割を果たしています。これらの遺物は学術的に解読され、文明の言語、習慣、政治的構造についての洞察を提供しました。",
+        "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "古代エジプトの統治システムは財政的な停況によって支配されていた.",
+        "correction": "古代エジプトの統治システムは財政的な停滞によって支配されていた。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). Additionally, the word '停況' is a lexical error; the correct term is '停滞' to mean 'stagnation.'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "この誤った考えは古代エジプトにおける統治システムの複雑さを誤解しています。ナイル川の豊かな資源と独占的な貿易を通じて繁栄しました..",
+        "correction": "この誤った考えは古代エジプトにおける統治システムの複雑さを誤解しています。ナイル川の豊かな資源と独占的な貿易を通じて繁栄しました。",
+        "description": "The sentence ends with two half-width periods ('..') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "動物は環境変化に適応せず、時間が経つと生存できることがあります。.",
+        "correction": "動物は環境変化に適応せず、時間が経つと生存できることがあります。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the sentence. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "例えば、陸上動物が冬になると皮が退色することはありません。.",
+        "correction": "例えば、陸上動物が冬になると皮が退色することはありません。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the sentence. Japanese punctuation conventions require only the full-width period (。) at the end of sentences. This should be corrected for proper orthographic accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "一部の動物は環境の変化に対して瞬時に適応することができます。.",
+        "correction": "一部の動物は環境の変化に対して瞬時に適応することができます。",
+        "description": "There is an unnecessary Western period after the Japanese full stop at the end of the sentence. Only the full-width Japanese period (。) should be used to end sentences in Japanese. This is an orthographic error and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "動物は環境変化に対して適応することができますが、それは通常遺伝的変化や生涯の経過を通じて起こります。瞬時の適応は主に生物がする行動的適応と見なされます。身体的適応は遺伝的変化によるもので、多くの場合、数十代から数百代にかけて発展します。.",
+        "correction": "動物は環境変化に対して適応することができますが、それは通常遺伝的変化や生涯の経過を通じて起こります。瞬時の適応は主に生物がする行動的適応と見なされます。身体的適応は遺伝的変化によるもので、多くの場合、数十代から数百代にかけて発展します。",
+        "description": "There is an unnecessary Western period after the Japanese full stop at the end of the sentence. Japanese sentences should end with a single full-width period (。). This is an orthographic issue and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "フェネックギツネは砂漠で大きな体型で生き残ることができます。.",
+        "correction": "フェネックギツネは砂漠で大きな体型で生き残ることができます。",
+        "description": "There is an unnecessary Western period after the Japanese full stop at the end of the sentence. Only the full-width Japanese period (。) should be used at the end of sentences. This is an orthographic error and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "フェネックギツネは砂漠環境に適応しており、大きな耳を持っています。これは熱を放散し、体温を調節するためです。したがって、大きな体型は砂漠では適応とは限らないということになります。.",
+        "correction": "フェネックギツネは砂漠環境に適応しており、大きな耳を持っています。これは熱を放散し、体温を調節するためです。したがって、大きな体型は砂漠では適応とは限らないということになります。",
+        "description": "There is an unnecessary Western period after the Japanese full stop at the end of the sentence. Japanese sentences should end with a single full-width period (。). This is an orthographic issue and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "定数は変数と同じように変わることがあります。.",
+        "correction": "定数は変数と同じように変わることがあります。",
+        "description": "There is an unnecessary period after the sentence-ending punctuation, resulting in a double period. In Japanese, only one full-width period (。) should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "変数は常に数値を表す必要があります。.",
+        "correction": "変数は常に数値を表す必要があります。",
+        "description": "The sentence ends with a double period (。.), which is incorrect in Japanese orthography. Only a single full-width period (。) should be used at the end of a sentence. This is a minor orthographic error that should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "方程式は2つの項が等しい状慁を表すものであり、それによって解を見つけるために使用されます。.",
+        "correction": "方程式は2つの項が等しい状慁を表すものであり、それによって解を見つけるために使用されます。",
+        "description": "There is a double period at the end of the sentence (。.), which is incorrect in Japanese. Only one full-width period (。) should be used. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "本質的にはそうです。代数において、変数は未知の数を表しています。その値を確認するために、代数的な操作を通じて解くことができます。.",
+        "correction": "本質的にはそうです。代数において、変数は未知の数を表しています。その値を確認するために、代数的な操作を通じて解くことができます。",
+        "description": "The sentence ends with a double period (。.), which is incorrect in Japanese orthography. Only a single full-width period (。) should be used at the end of a sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "細胞の中で、核は二重の膜に囲まれています。.",
+        "correction": "細胞の中で、核は二重の膜に囲まれています。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "細胞の核には、細胞の遺伝情報を守り、細胞の活動をコントロールする重要な役割を果たします。この説明は、細胞の核の基本的な特性を正確に捉えています..",
+        "correction": "細胞の核には、細胞の遺伝情報を守り、細胞の活動をコントロールする重要な役割を果たします。この説明は、細胞の核の基本的な特性を正確に捉えています。",
+        "description": "There are two consecutive periods at the end of the sentence (..). In Japanese, only a single full-width period (。) should be used. This is an orthographic error and should be corrected to a single period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ミトコンドリアは細胞内のリン脂肪である。.",
+        "correction": "ミトコンドリアは細胞内のリン脂肪である。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ミトコンドリアは細胞質の中で独特の構造を持ち、その主要な機能は細胞呼吸におけるエネルギー変換であり、細胞内のリン脂肪ではありません。.",
+        "correction": "ミトコンドリアは細胞質の中で独特の構造を持ち、その主要な機能は細胞呼吸におけるエネルギー変換であり、細胞内のリン脂肪ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ブラウン対教育委員会事件の判決は、公立学校における人種分離を違憲とした。.",
+        "correction": "ブラウン対教育委員会事件の判決は、公立学校における人種分離を違憲とした。",
+        "description": "There is an incorrect use of punctuation: a Japanese full stop (。) is immediately followed by an English period (.). Only the Japanese full stop should be used at the end of the sentence. This affects orthographic correctness and should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "この判決は、公民権運動における継続的な議論と抗議活動を刺激した..",
+        "correction": "この判決は、公民権運動における継続的な議論と抗議活動を刺激した。",
+        "description": "The sentence ends with two consecutive Japanese full stops (..). Only one full stop (。) should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "マーティン・ルーサー・キング・ジュニアは主に教育改革を推進した人物です。.",
+        "correction": "マーティン・ルーサー・キング・ジュニアは主に教育改革を推進した人物です。",
+        "description": "There is an incorrect use of punctuation: a Japanese full stop (。) is immediately followed by an English period (.). Only the Japanese full stop should be used at the end of the sentence. This affects orthographic correctness and should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "マーティン・ルーサー・キング・ジュニアは、非暴力抵抗と平等権利の早期メンバーであり、教育改革よりも社会的不平等の解消に重点を置いていました..",
+        "correction": "マーティン・ルーサー・キング・ジュニアは、非暴力抵抗と平等権利の早期メンバーであり、教育改革よりも社会的不平等の解消に重点を置いていました。",
+        "description": "The sentence ends with two consecutive Japanese full stops (..). Only one full stop (。) should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "公民権運動は、アメリカの社会の変化に直接的な法的解決をもたらしました。.",
+        "correction": "公民権運動は、アメリカの社会の変化に直接的な法的解決をもたらしました。",
+        "description": "There is an incorrect use of punctuation: a Japanese full stop (。) is immediately followed by an English period (.). Only the Japanese full stop should be used at the end of the sentence. This affects orthographic correctness and should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "公民権運動は、倫理的、社会的な意識の変化に大きく貢献しましたが、直接的な法的変化には限定されていません。例えば、1964年の公民権法や1965年の投票権法の施行は、この運動の努力の重要な成果でありました。しかし、これらの法的変化は広範な社会変革を促進する上での公民権運動の役割を反映しています..",
+        "correction": "公民権運動は、倫理的、社会的な意識の変化に大きく貢献しましたが、直接的な法的変化には限定されていません。例えば、1964年の公民権法や1965年の投票権法の施行は、この運動の努力の重要な成果でありました。しかし、これらの法的変化は広範な社会変革を促進する上での公民権運動の役割を反映しています。",
+        "description": "The sentence ends with two consecutive Japanese full stops (..). Only one full stop (。) should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "冷却帯の温度は非常に高いため、生物多様性が豊かです。",
+        "correction": "極地気候帯の温度は非常に低いため、生物多様性は限られています。",
+        "description": "The term '冷却帯' is not a standard or correct term in Japanese climatology; the appropriate term is '極地気候帯' (polar climate zone). Additionally, the statement incorrectly claims that the temperature is very high and biodiversity is rich, which is factually inaccurate for polar regions. The correction uses the proper terminology and accurately describes the climate and biodiversity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "熱帯気候は、極地に位置する地域に見られる主要な気候帯です。",
+        "correction": "熱帯気候は、赤道付近に位置する地域に見られる主要な気候帯です。",
+        "description": "The original sentence contains a factual error: '熱帯気候' (tropical climate) is incorrectly described as being found in polar regions ('極地'). The correction replaces '極地' with '赤道付近', which is the accurate location for tropical climates. This improves both factual accuracy and linguistic precision.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "熱帯気候帯では夏と冬の気温差は大きい。",
+        "correction": "熱帯気候帯では夏と冬の気温差は小さい。",
+        "description": "The original sentence incorrectly states that the temperature difference between summer and winter is large in tropical climates. In reality, tropical climates have little seasonal temperature variation. The correction provides the accurate description, improving both factual and linguistic accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "熱帯気候帯は大陸性気候帯よりも温度が高いです。",
+        "correction": "熱帯気候帯は大陸性気候帯よりも年間を通じて温度が高いです。",
+        "description": "The original sentence is generally correct but lacks specificity regarding the time frame. Adding '年間を通じて' clarifies that tropical climates maintain higher temperatures throughout the year compared to continental climates, which have greater seasonal variation. This improves precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "熱帯気候は、赤道に位置する地域に見られる主要な気候帯であり、極地の地域には極地気候が発生します。",
+        "correction": "熱帯気候は、赤道付近に位置する地域に見られる主要な気候帯であり、極地の地域には極地気候が見られます。",
+        "description": "The verb '発生します' (to occur) is not the most natural choice for describing climate zones; '見られます' (to be seen/found) is more appropriate in this context. This correction improves the naturalness and accuracy of the expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "熱帯気候帯は一年を通じて高温を維持し、冬は夏よりも涼しい傾向があります。夏と冬の気温差は大きいのは、主に大陸性気候帯で見られる特徴です。",
+        "correction": "熱帯気候帯は一年を通じて高温を維持し、夏と冬の気温差は小さいです。気温差が大きいのは、主に大陸性気候帯で見られる特徴です。",
+        "description": "The original sentence suggests that winter is cooler than summer in tropical climates, which is misleading. In tropical climates, the temperature remains high year-round with minimal seasonal variation. The correction clarifies this and improves factual accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "冷却帯は地球の温度が低い地域であり、生物多様性が少ない傾向があります。例えば、極地地域では寒冷な気候が特徴で、生物の多様性が限られています。",
+        "correction": "極地気候帯は地球の温度が低い地域であり、生物多様性が少ない傾向があります。例えば、極地地域では寒冷な気候が特徴で、生物の多様性が限られています。",
+        "description": "The term '冷却帯' is not standard in Japanese climatology. The correct term is '極地気候帯' (polar climate zone). This correction ensures the use of proper terminology and improves clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "プログラミングでは、変数は一度に一つのデータ値のみを保持できます。.",
+        "correction": "プログラミングでは、変数は一度に一つのデータ値のみを保持できます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full stop should be used to end a sentence. This affects orthographic correctness and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "データ型はプログラムにおいてどの情報を保存するかを決定します。.",
+        "correction": "データ型はプログラムにおいてどの情報を保存するかを決定します。",
+        "description": "There is an extra period after the Japanese full stop (。) at the end of the sentence. Only one full stop should be used in Japanese. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アルゴリズムはプログラミングでは決定論的です。.",
+        "correction": "アルゴリズムはプログラミングでは決定論的です。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "プログラムでは、変数を使ってユーザーの名前と年齢を保存します。.",
+        "correction": "プログラムでは、変数を使ってユーザーの名前と年齢を保存します。",
+        "description": "There is an unnecessary Western period (.) after the Japanese full stop (。) at the end of the sentence. Only the Japanese full stop should be used. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonは1991年にGuido van Rossumによって作られました。.",
+        "correction": "Pythonは1991年にGuido van Rossumによって作られました。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) in the statement. In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be removed for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonの設計は確かに1991年にGuido van Rossumによって行われました。これはプログラミングの歴史において重要な節目であることを理解することが重要です。.",
+        "correction": "Pythonの設計は確かに1991年にGuido van Rossumによって行われました。これはプログラミングの歴史において重要な節目であることを理解することが重要です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonでは、変数には値を格納することしかできません。.",
+        "correction": "Pythonでは、変数には値を格納することしかできません。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonでは、変数が値を格納することだけでなく、条件やループなどのコードの中で処理を変えるためにも使用されます。.",
+        "correction": "Pythonでは、変数が値を格納することだけでなく、条件やループなどのコードの中で処理を変えるためにも使用されます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonでは、文字列型を整数型として使用することができます。.",
+        "correction": "Pythonでは、文字列型を整数型として使用することができます。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonでは、文字列型はテキストを扱うために使用されますが、整数型として使用することはできません。文字列型は文字列のシーケンスを表し、整数型は数値を表します。異なるデータ型を適切に使用することが、プログラムの挙動を理解するために重要です。.",
+        "correction": "Pythonでは、文字列型はテキストを扱うために使用されますが、整数型として使用することはできません。文字列型は文字列のシーケンスを表し、整数型は数値を表します。異なるデータ型を適切に使用することが、プログラムの挙動を理解するために重要です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonの `+` 演算子を使用して数値を加算することができます。.",
+        "correction": "Pythonの `+` 演算子を使用して数値を加算することができます。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pythonでは `+` 演算子が数値を加算するための習慣的な方法です。この演算子は、2つ以上の数値を結合してその合計を計算することを可能にします。例えば、`a = 5` と `b = 3` のように数値を定義した後、`和 = a + b` で `5 + 3` を計算して `8` を得ることができます。.",
+        "correction": "Pythonでは `+` 演算子が数値を加算するための習慣的な方法です。この演算子は、2つ以上の数値を結合してその合計を計算することを可能にします。例えば、`a = 5` と `b = 3` のように数値を定義した後、`和 = a + b` で `5 + 3` を計算して `8` を得ることができます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "変数はプログラム内でのデータの保存を可能にします。.",
+        "correction": "変数はプログラム内でのデータの保存を可能にします。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used. This is an orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "変数はプログラムで使用されるデータを保存するための構造であり、プログラム内で変数に格納された値を参照することができます。これにより、コードを簡潔かつ柔軟に書くことが可能になります。.",
+        "correction": "変数はプログラムで使用されるデータを保存するための構造であり、プログラム内で変数に格納された値を参照することができます。これにより、コードを簡潔かつ柔軟に書くことが可能になります。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the feedback. Only one full stop should be used in Japanese sentences. This is an orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "衝突の主な原因は競合する優先事項に限られます。.",
+        "correction": "衝突の主な原因は競合する優先事項に限られます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) in the statement. In Japanese, only one full-width period should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "衝突には複数の要因が関与しており、競合する優先事項はその一つに過ぎません。例えば、コミュニケーション不足や感情的な反応も衝突の重要な原因です。.",
+        "correction": "衝突には複数の要因が関与しており、競合する優先事項はその一つに過ぎません。例えば、コミュニケーション不足や感情的な反応も衝突の重要な原因です。",
+        "description": "The feedback sentence ends with an unnecessary period after the Japanese full stop (。). Only one full-width period should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "衝突は常に考えの対立であるということは間違いません。.",
+        "correction": "衝突は常に考えの対立であるということは間違いません。",
+        "description": "There is an extra period after the Japanese full stop (。) at the end of the statement. Japanese sentences should end with a single full-width period. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "衝突は、意見や態度の対立を指すことが多いですが、必ずしも考えの対立を意味するわけではありません。衝突は、途切れたコミュニケーションや誤解など、様々な要因によって発生する可能性があります。.",
+        "correction": "衝突は、意見や態度の対立を指すことが多いですが、必ずしも考えの対立を意味するわけではありません。衝突は、途切れたコミュニケーションや誤解など、様々な要因によって発生する可能性があります。",
+        "description": "The feedback ends with an unnecessary period after the Japanese full stop (。). Only one full-width period should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アクティブリスニングには、話者に対する批判を絡めることが含まれます。.",
+        "correction": "アクティブリスニングには、話者に対する批判を絡めることが含まれます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the statement. Japanese sentences should end with a single full-width period. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アクティブリスニングは、相手の意見や懸念を聞き、理解を示すことに焦点を当てています。これは、建設的な対話を促進し、解決に向かうための重要なコミュニケーション技術です。批判や否定的な評価は、このプロセスには含まれません。.",
+        "correction": "アクティブリスニングは、相手の意見や懸念を聞き、理解を示すことに焦点を当てています。これは、建設的な対話を促進し、解決に向かうための重要なコミュニケーション技術です。批判や否定的な評価は、このプロセスには含まれません。",
+        "description": "The feedback ends with an unnecessary period after the Japanese full stop (。). Only one full-width period should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "共感を示すことで緊張が増える.",
+        "correction": "共感を示すことで緊張が増える。",
+        "description": "The statement ends with a half-width period (.) instead of a full-width Japanese period (。). Japanese sentences should end with a full-width period for proper orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "共感は通常、相互の尊敬を促進し緊張を和らげる役割を果たします。相手の感情を認めることで、より良いコミュニケーションと関係の強化が可能になります。.",
+        "correction": "共感は通常、相互の尊敬を促進し緊張を和らげる役割を果たします。相手の感情を認めることで、より良いコミュニケーションと関係の強化が可能になります。",
+        "description": "The feedback ends with an unnecessary period after the Japanese full stop (。). Only one full-width period should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "協力的な問題解決の第1ステップは、解決策を提案することです。.",
+        "correction": "協力的な問題解決の第1ステップは、解決策を提案することです。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the statement. Japanese sentences should end with a single full-width period. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実際には、協力的な問題解決の第1ステップは、問題の根本原因を特定することです。これにより、解決策が正確に理解され、必要な解決策が見つかる可能性が高まります。.",
+        "correction": "実際には、協力的な問題解決の第1ステップは、問題の根本原因を特定することです。これにより、解決策が正確に理解され、必要な解決策が見つかる可能性が高まります。",
+        "description": "The feedback ends with an unnecessary period after the Japanese full stop (。). Only one full-width period should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "衝突は人生の不可避な部分であり、それを悪化させることがしばしば起こります。.",
+        "correction": "衝突は人生の不可避な部分であり、それを悪化させることがしばしば起こります。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the statement. Japanese sentences should end with a single full-width period. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "衝突は、確かに人生の一部ですが、それを負の経験に変えることはありません。適切なコミュニケーションと戦略を用いて、より積極的で有益な結果につながる可能性があります。.",
+        "correction": "衝突は、確かに人生の一部ですが、それを負の経験に変えることはありません。適切なコミュニケーションと戦略を用いて、より積極的で有益な結果につながる可能性があります。",
+        "description": "The feedback ends with an unnecessary period after the Japanese full stop (。). Only one full-width period should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "バイアスは確かに批判的思考の障害です。.",
+        "correction": "バイアスは確かに批判的思考の障害です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "証拠が常に誤って評価される.",
+        "correction": "証拠が常に誤って評価される。",
+        "description": "The sentence ends with a half-width period (.) instead of the correct Japanese full-width period (。). Japanese sentences should use full-width punctuation for proper orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "証拠を主張に正しく関連付けることが、強固な論理的結論を形成するために不可欠です。.",
+        "correction": "証拠を主張に正しく関連付けることが、強固な論理的結論を形成するために不可欠です。",
+        "description": "There is an unnecessary half-width period after the Japanese full stop, resulting in double punctuation. Only the full-width period (。) should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "証拠は、適切な基準を用いて継続的に評価されるべきです。誰もが誤って評価することはありませんが、その評価は時間とともに変わる可能性があります。.",
+        "correction": "証拠は、適切な基準を用いて継続的に評価されるべきです。誰もが誤って評価することはありませんが、その評価は時間とともに変わる可能性があります。",
+        "description": "The sentence ends with a half-width period after the Japanese full stop, which is incorrect. Only the full-width period (。) should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "証拠を正しく関連付けることで、論理的結論が強固で説得力のあるものになります。証拠が不適切に関連付けられると、混乱や誤った結論が生じる可能性があるため、この学習過程において重要なステップです。.",
+        "correction": "証拠を正しく関連付けることで、論理的結論が強固で説得力のあるものになります。証拠が不適切に関連付けられると、混乱や誤った結論が生じる可能性があるため、この学習過程において重要なステップです。",
+        "description": "There is an unnecessary half-width period after the Japanese full stop, resulting in double punctuation. Only the full-width period (。) should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "バイアスは議論の全ての面を中立的に扱うために必要です。.",
+        "correction": "バイアスは議論の全ての面を中立的に扱うために必要です。",
+        "description": "The sentence ends with a half-width period after the Japanese full stop, which is incorrect. Only the full-width period (。) should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "バイアスは議論を中立的に保つのではなく、特定の視点を強化する可能性があるため、批判的思考においては議論の批判的分析と公平な評価を目指すべきです。.",
+        "correction": "バイアスは議論を中立的に保つのではなく、特定の視点を強化する可能性があるため、批判的思考においては議論の批判的分析と公平な評価を目指すべきです。",
+        "description": "There is an unnecessary half-width period after the Japanese full stop, resulting in double punctuation. Only the full-width period (。) should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "証拠は情報を導き出すために使用されるものであり、その信頼性を評価することは重要です。.",
+        "correction": "証拠は情報を導き出すために使用されるものであり、その信頼性を評価することは重要です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "確証バイアスは個人が考えることに寄与しない情報を無視することを含むことがあるかもしれない。.",
+        "correction": "確証バイアスは個人が考えることに寄与しない情報を無視することを含むことがあるかもしれない。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "論理的な議論は主張、証拠、推論、または問題の定義を含みません。.",
+        "correction": "論理的な議論は主張、証拠、推論、または問題の定義を含みません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "海面上昇は沿岸地域に影響を与えない。.",
+        "correction": "海面上昇は沿岸地域に影響を与えない。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これにより、誤情報に基づいた誤解を防ぎ、より良い判断が可能になります。.",
+        "correction": "これにより、誤情報に基づいた誤解を防ぎ、より良い判断が可能になります。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "確証バイアスは、通常、情報を確認し、それが自分の前提に合致するかどうかに関係しています。.",
+        "correction": "確証バイアスは、通常、情報を確認し、それが自分の前提に合致するかどうかに関係しています。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "問題の定義は関連するですが、それ自体が論理的な議論の構成要素ではありません。.",
+        "correction": "問題の定義は関連するですが、それ自体が論理的な議論の構成要素ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これは、気候変動に関連する科学的データによって裏付けられています。.",
+        "correction": "これは、気候変動に関連する科学的データによって裏付けられています。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "アメリらみとカナダで祝われる独特の祝日です。",
+        "correction": "アメリカとカナダで祝われる独特の祝日です。",
+        "description": "There is a spelling error in the word 'アメリらみ', which should be 'アメリカ'. This mistake affects comprehension and accuracy, as 'アメリらみ' is not a valid word in Japanese. The corrected sentence uses the proper country name, ensuring clarity and correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ディワリでは家を飾るだけでなく、甘いものや贈り物を交換することも重要です。.",
+        "correction": "ディワリでは家を飾るだけでなく、甘いものや贈り物を交換することも重要です。",
+        "description": "There is an unnecessary period ('.') at the end of the Japanese sentence. Japanese sentences should end with a full-width period '。' or no punctuation if the sentence is complete. The correction removes the extraneous period, aligning with Japanese orthographic conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これは家族や友人とのつながりを育む重要な部分です。.",
+        "correction": "これは家族や友人とのつながりを育む重要な部分です。",
+        "description": "The sentence ends with a half-width period ('.'), which is not standard in Japanese writing. Japanese sentences should use a full-width period '。' or no punctuation if the sentence is complete. Removing the half-width period improves orthographic accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "日本には異なる祝日がありますが、感謝祭はそのような祝日の一つではありません。.",
+        "correction": "日本には異なる祝日がありますが、感謝祭はそのような祝日の一つではありません。",
+        "description": "The sentence ends with a half-width period ('.'), which is incorrect in Japanese. Japanese sentences should end with a full-width period '。'. Removing the half-width period ensures proper orthographic convention.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "DNAでは、生物の性質を決定する情報が記録されています。.",
+        "correction": "DNAでは、生物の性質を決定する情報が記録されています。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "DNAの二重らせん構造には、糖とリン酸分子が側面を形成し、窒素塩基対が段を形成します。.",
+        "correction": "DNAの二重らせん構造には、糖とリン酸分子が側面を形成し、窒素塩基対が段を形成します。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "遺伝子は細胞の機能に直接的な影響を与える。.",
+        "correction": "遺伝子は細胞の機能に直接的な影響を与える。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "DNA複製は細胞の成長と修復に必要不可能です。.",
+        "correction": "DNA複製は細胞の成長と修復に必要不可能です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "DNA複製は細胞の成長と修復に必要不可能です。",
+        "correction": "DNA複製は細胞の成長と修復に必要不可欠です。",
+        "description": "The phrase '必要不可能' is incorrect and unnatural in Japanese. The correct term is '必要不可欠', which means 'indispensable' or 'essential'. The current wording could confuse learners and does not accurately convey the intended meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "DNA、またはデオキシリボ核酸は、すべての生物の遺伝情報を運ぶ分子です。このレッスンでは、DNAの構造、機能、そして複製の過程について学びます。生命の基本を理解するための重要なステップです！ 🌱",
+        "correction": "DNA、またはデオキシリボ核酸は、すべての生物の遺伝情報を運ぶ分子です。このレッスンでは、DNAの構造、機能、そして複製の過程について学びます。生命の基本を理解するための重要なステップです！",
+        "description": "The use of the plant sprout emoji (🌱) at the end of the sentence may be considered informal and not standard in educational content. While not a linguistic error, it can affect the tone and professionalism of the lesson introduction. For formal educational materials, it is recommended to avoid emojis unless they serve a specific pedagogical purpose.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "承認学校での卒業式に参加するか、卒業後の快適な旅行に出発する選択肢があるとしましょう。.",
+        "correction": "承認学校での卒業式に参加するか、卒業後の快適な旅行に出発する選択肢があるとしましょう。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "このような状況は、論理的推論が感情的な欲求を取り扱う際の意思決定において重要な役割を果たします。この種の決定は、日常生活で頻繁に遭遇され、それに対処する能力を形成します。.",
+        "correction": "このような状況は、論理的推論が感情的な欲求を取り扱う際の意思決定において重要な役割を果たします。この種の決定は、日常生活で頻繁に遭遇され、それに対処する能力を形成します。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "論理的推論は感情によって強制されるべきではありません。.",
+        "correction": "論理的推論は感情によって強制されるべきではありません。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "論理的推論は、情報と事実に基づいたステップごとの決定プロセスであり、感情や感情が直接的に影響を与えません。感情的影響は別の考慮事項であり、意思決定には論理的な考慮が必要です。.",
+        "correction": "論理的推論は、情報と事実に基づいたステップごとの決定プロセスであり、感情や感情が直接的に影響を与えません。感情的影響は別の考慮事項であり、意思決定には論理的な考慮が必要です。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情は常に良い意思決定の指標である。.",
+        "correction": "感情は常に良い意思決定の指標である。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情は意思決定に大きな影響を与えることがありますが、それが常に最善の選択を導くわけではないこともあります。例えば、緊急時には落ち着いた判断が必要な場合があります。.",
+        "correction": "感情は意思決定に大きな影響を与えることがありますが、それが常に最善の選択を導くわけではないこともあります。例えば、緊急時には落ち着いた判断が必要な場合があります。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "財務計画を立てる際には、財政的利益よりも個人的な恩恵を優先する必要はありません。.",
+        "correction": "財務計画を立てる際には、財政的利益よりも個人的な恩恵を優先する必要はありません。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "財務計画は、長期的な財政的目標を考慮し、個人的な恩恵よりも経済的な利益を優先することが一般的です。.",
+        "correction": "財務計画は、長期的な財政的目標を考慮し、個人的な恩恵よりも経済的な利益を優先することが一般的です。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "誰かが健康のために運動を始めるかどうかを決定する際に、依存しているのは論理的推論と感情的影響のみです。.",
+        "correction": "誰かが健康のために運動を始めるかどうかを決定する際に、依存しているのは論理的推論と感情的影響のみです。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "この声明は誤解を招く可能性があります。意思決定には、目標や結果、リスク評価、そして個人的な価値観などのさまざんな要素が含まれています。健康行動を選択する際には、例えば、身体的な利点（論理的推論）と個人的な健康の欲求やモチベーション（感情的影響）を考慮することも含まれます。.",
+        "correction": "この声明は誤解を招く可能性があります。意思決定には、目標や結果、リスク評価、そして個人的な価値観などのさまざんな要素が含まれています。健康行動を選択する際には、例えば、身体的な利点（論理的推論）と個人的な健康の欲求やモチベーション（感情的影響）を考慮することも含まれます。",
+        "description": "There is an unnecessary period ('.') at the end of the sentence, following the Japanese full-width period '。'. In Japanese, only the full-width period should be used to end sentences, and mixing with the Western period is incorrect. Remove the extra period for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "イデーションは困難を探しているプロセスです。",
+        "correction": "イデーションは困難を探すプロセスです。",
+        "description": "The original sentence uses the verb form '探している', which implies an ongoing action ('is searching'), but in this context, the process is more appropriately described as '探す' (to search). Additionally, the statement is factually incorrect regarding the definition of 'イデーション', but the primary issue here is the verb form. The period should be a full-width Japanese period, not a Western period.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "物理的プロトタイプは、段ボールやプラスチックで作成されることが多いです。",
+        "correction": "物理的プロトタイプは、段ボールやプラスチックで作成されることが多いです。",
+        "description": "No linguistic or localization issues found. The sentence uses correct grammar, appropriate particles, and natural Japanese expression. The materials listed are culturally appropriate examples for Japanese learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "テストを実施することで、製品が目的を達成し、ユーザーの期待に応えることが保証されます。",
+        "correction": "テストを実施することで、製品が目的を達成し、ユーザーの期待に応えることが保証されます。",
+        "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate particles, and the terminology is standard for Japanese educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "デザインプロセスでは、ユーザーのフィードバックを継続的に取り入れることが重要です。",
+        "correction": "デザインプロセスでは、ユーザーのフィードバックを継続的に取り入れることが重要です。",
+        "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate vocabulary, and is culturally appropriate for the context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "プロトタイプは概念ではなく実験的な試作品です。",
+        "correction": "プロトタイプは概念ではなく実験的な試作品です。",
+        "description": "No linguistic or localization issues found. The sentence is clear, uses correct grammar and terminology, and is appropriate for the educational context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "冷革な対話が続きます。",
+        "correction": "冷静な対話が続きます。",
+        "description": "The word '冷革' is a lexical error; it is not a valid Japanese word and appears to be a misspelling or incorrect kanji selection for '冷静' (calm). The intended meaning is that calm dialogue continues, so '冷静な対話が続きます' is the correct phrase. This error affects comprehension and should be corrected.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "個人情報は誰にも貸い渡されることはないべきでしょう。",
+        "correction": "個人情報は誰にも渡されるべきではありません。",
+        "description": "The phrase '貸い渡されることはないべきでしょう' contains an orthographic and grammatical error. '貸い渡される' is not a standard Japanese expression; the correct verb is '渡される' (to be given/handed over). Additionally, the negative obligation should be expressed as 'べきではありません' rather than 'ないべきでしょう'. The corrected sentence is more natural and grammatically accurate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ウェブサイトから画像やテキストを直接コピーするのは許されています。",
+        "correction": "ウェブサイトから画像やテキストを直接コピーするのは許されていません。",
+        "description": "The statement uses '許されています' (is permitted), which contradicts the intended meaning in the context of copyright. The correct negative form is '許されていません' (is not permitted). This is a critical error as it reverses the meaning and could mislead learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "オンラインでは、自分の感情を表現することが全く問題ありません。",
+        "correction": "オンラインでは、自分の感情を表現することが全く問題ではありません。",
+        "description": "The sentence ends with '問題ありません', which is grammatically correct, but the use of '全く問題ありません' is slightly unnatural. The more natural phrasing is '全く問題ではありません'. However, the main issue is the period at the end: '。.' is incorrect punctuation. Only a Japanese full stop '。' should be used.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "オンラインでの情報共有は常に慎重に行うべきです。",
+        "correction": "オンラインでの情報共有は常に慎重に行うべきです。",
+        "description": "The original sentence is linguistically correct, but the period at the end is '。.' which is incorrect punctuation. Only the Japanese full stop '。' should be used.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ウェブサイトから画像やテキストを直接コピーするのは許されていません。",
+        "correction": "ウェブサイトから画像やテキストを直接コピーするのは許されていません。",
+        "description": "The original sentence is linguistically correct, but the period at the end is '。.' which is incorrect punctuation. Only the Japanese full stop '。' should be used.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "デジタルエチケットは、私がオンラインで見せる外見が全ての世界で受け取られるという考えに基づいていません。",
+        "correction": "デジタルエチケットは、私がオンラインで見せる外見が全ての世界で受け入れられるという考えに基づいていません。",
+        "description": "The verb '受け取られる' (to be received) is not appropriate in this context. The correct verb is '受け入れられる' (to be accepted), which better conveys the intended meaning. This correction improves semantic accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これは、相互作用がフィールドが異なる可能性があるためです。",
+        "correction": "これは、相互作用する相手の背景が異なる可能性があるためです。",
+        "description": "The phrase 'フィールドが異なる' is a direct loan from English ('field') and is unnatural in Japanese in this context. The more appropriate and natural expression is '背景が異なる' (backgrounds may differ). This correction improves both lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "陰影の技法には、光源の位置が関係ない。",
+        "correction": "陰影の技法には、光源の位置が関係ありません。",
+        "description": "The original sentence ends with the plain negative form '関係ない' but uses the polite explanatory style elsewhere. For consistency and proper register in educational content, the polite negative form '関係ありません' should be used. This improves the overall tone and matches the expected level of formality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "地平線は視点の目の高さを表します。",
+        "correction": "地平線は視点の目の高さを表します。",
+        "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate terminology, and is culturally neutral.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "構図を理解することが絵画の中心に焦点を当てるのに役立ちます。",
+        "correction": "構図を理解することは絵画の中心に焦点を当てるのに役立ちます。",
+        "description": "The original uses 'が' as the subject marker, but in this context, 'は' is more appropriate to mark the topic and improve naturalness. This change enhances the sentence's clarity and aligns with standard Japanese usage in educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "陰影は画面の中央部分だけに使用されることが多い。",
+        "correction": "陰影は画面の中央部分だけに使用されることが多いです。",
+        "description": "The sentence ends with the plain form '多い', which is less appropriate in formal educational content. Changing to the polite form '多いです' ensures consistency in register and improves the overall tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情知能を持つ人は、自分の感情や他人の感情のニュアンスをより深く理解することができる.",
+        "correction": "感情知能を持つ人は、自分の感情や他人の感情のニュアンスをより深く理解することができる。",
+        "description": "The sentence ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error that affects the professionalism and consistency of Japanese writing. The correction replaces the half-width period with the appropriate full-width Japanese period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自己認識能力は、自己管理能力に直結しています.",
+        "correction": "自己認識能力は、自己管理能力に直結しています。",
+        "description": "The sentence ends with a half-width period ('.') instead of the standard Japanese full-width period ('。'). This is an orthographic issue that should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自己調整は、批判に対して感情的に反応することを助長する.",
+        "correction": "自己調整は、批判に対して感情的に反応することを助長する。",
+        "description": "The sentence ends with a half-width period ('.') instead of the full-width Japanese period ('。'). This is a minor orthographic error that should be corrected for standard Japanese writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "共感は他人の感情を完全に理解することができる.",
+        "correction": "共感は他人の感情を完全に理解することができる。",
+        "description": "The sentence ends with a half-width period ('.') instead of the full-width Japanese period ('。'). This is a minor orthographic issue and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "社会的スキルは、個人の孤立を防ぐことが主な目的です.",
+        "correction": "社会的スキルは、個人の孤立を防ぐことが主な目的です。",
+        "description": "The sentence ends with a half-width period ('.') instead of the full-width Japanese period ('。'). This is a minor orthographic error and should be corrected for standard Japanese writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情知能は、個人の知能を決定します.",
+        "correction": "感情知能は、個人の知能を決定します。",
+        "description": "The sentence ends with a half-width period ('.') instead of the full-width Japanese period ('。'). This is a minor orthographic issue and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "感情は私たちの経験に影響を与える。.",
+        "correction": "感情は私たちの経験に影響を与える。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only one full-width period (。) should be used at the end of a sentence. This is a minor orthographic error but should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "その通りです。感情は私たちの経験、たとえそれが短期間であっても長期間もあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。.",
+        "correction": "その通りです。感情は私たちの経験、たとえそれが短期間であっても長期間であってもあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。",
+        "description": "The phrase '短期間であっても長期間もあります' is grammatically awkward and lacks parallelism. It should be '短期間であっても長期間であってもあります' to properly express 'whether short-term or long-term.' Additionally, there is an unnecessary period at the end (。.), which should be removed. These issues affect clarity and grammatical correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "身体的な反応や行動は、私たちが感じている感情を理解する際の重要な手がかりです。例えば、笑いや涙は喜びや悲しみを表します。これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。.",
+        "correction": "身体的な反応や行動は、私たちが感じている感情を理解する際の重要な手がかりです。例えば、笑いや涙は喜びや悲しみを表します。これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。",
+        "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "この文は、感情をどのように表現するかについての重要なポイントを正確に伝えています。感情を具体的に言葉にすることで、自分の気持ちをより明確に伝え、他人が理解しやすくなります。.",
+        "correction": "この文は、感情をどのように表現するかについての重要なポイントを正確に伝えています。感情を具体的に言葉にすることで、自分の気持ちをより明確に伝え、他人が理解しやすくなります。",
+        "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "笑いや落ち込むような感情は確かに、自分の考えや行動に影響を与えることがあります。これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。.",
+        "correction": "笑いや落ち込むような感情は確かに、自分の考えや行動に影響を与えることがあります。これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。",
+        "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "感情は人独自のもので、それがどのように変わるかは個人によって異なる可能性があります。認識をすることが重要ですが、必ずしも良いまたは悪いとは限りません。.",
+        "correction": "感情は人独自のもので、それがどのように変わるかは個人によって異なる可能性があります。認識をすることが重要ですが、必ずしも良いまたは悪いとは限りません。",
+        "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情はみんなが経験するものではありません。.",
+        "correction": "感情はみんなが経験するものではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情は私たちが自然に経験するものです。異なる人々は異なる感情を持つことがありますが、感情自体は全員が経験するものではありません。例えば、ある人は特定の状況で混乱を感じることがある人もいれば、その人が落ち込んだり、喜びを感じることがある人もいます。.",
+        "correction": "感情は私たちが自然に経験するものです。異なる人々は異なる感情を持つことがありますが、感情自体は全員が経験するものです。例えば、ある人は特定の状況で混乱を感じることがある一方で、落ち込んだり、喜びを感じることがある人もいます。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Additionally, the sentence '感情自体は全員が経験するものではありません' contradicts the intended meaning and the lesson's theme, as it incorrectly states that not everyone experiences emotions. The correct statement should affirm that everyone experiences emotions. The sentence structure is also improved for clarity and naturalness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情の表現は常に身体的な反応を伴います。.",
+        "correction": "感情の表現は常に身体的な反応を伴います。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情の表現には身体的な反応があることはありますが、それが常にあるわけではありません。例えば、紙の上に書かれた文章を読むときには、感情的な反応が生じるかもしれませんが、それは個々の感情や状況によって大きく異なる可能性があります。.",
+        "correction": "感情の表現には身体的な反応があることはありますが、それが常にあるわけではありません。例えば、紙の上に書かれた文章を読むときには、感情的な反応が生じるかもしれませんが、それは個々の感情や状況によって大きく異なる可能性があります。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "健康的な感情表現は、他人に責めることが一般的です。.",
+        "correction": "健康的な感情表現は、他人に責めることが一般的です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "健康的な感情表現は、自分が直面している状況や感じている感情を冷静に伝えることに焦点を当てています。それは、対話を促進し、解決に向けているのであって、責めることはありません。.",
+        "correction": "健康的な感情表現は、自分が直面している状況や感じている感情を冷静に伝えることに焦点を当てています。それは、対話を促進し、解決に向けているのであって、責めることはありません。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "強い感情に直面した際、すぐに解決策を見つけることが常に最善の策です。.",
+        "correction": "強い感情に直面した際、すぐに解決策を見つけることが常に最善の策です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "即時の解決策を探ることは、時には効果的ですが、すぐには固まっていない状況では役に立ちません。感情を管理する際には、時間をかけて深呼吸をし、自分の感情を理解し、状況を再評価することが有益です。緊張する状況の中でも、休憩を取り、心を落ち着かせることが、より良い決定を下せるための重要なステップです。.",
+        "correction": "即時の解決策を探ることは、時には効果的ですが、すぐには固まっていない状況では役に立ちません。感情を管理する際には、時間をかけて深呼吸をし、自分の感情を理解し、状況を再評価することが有益です。緊張する状況の中でも、休憩を取り、心を落ち着かせることが、より良い決定を下せるための重要なステップです。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情は意思決定に影響を与えない。.",
+        "correction": "感情は意思決定に影響を与えない。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, sentences should end with a single full-width period (。).",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感情は確かに意思決定プロセスに影響を与えます。例えば、ポジティブな気持ちは明確な思考を促し、ネガティブな気持ちは判断が遅れることがあります。.",
+        "correction": "感情は確かに意思決定プロセスに影響を与えます。例えば、ポジティブな気持ちは明確な思考を促し、ネガティブな気持ちは判断が遅れることがあります。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end, resulting in double punctuation. Only a single full-width period (。) should be used to end a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "フィクションは必ず真実の出来事である.",
+        "correction": "フィクションは必ず真実の出来事である。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). Japanese sentences should use the full-width period for proper orthography and natural presentation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ノンフィクション書は、歴史上の人物の生活についての創作物です.",
+        "correction": "ノンフィクション書は、歴史上の人物の生活についての創作物です。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). This is a minor orthographic error that affects the naturalness and correctness of written Japanese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ノンフィクションは完全に架空の世界ではない.",
+        "correction": "ノンフィクションは完全に架空の世界ではない。",
+        "description": "The sentence ends with a half-width period ('.') instead of the Japanese full-width period ('。'). Proper Japanese punctuation requires the use of the full-width period for sentence endings.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "火の三角形は火災を引き起こすのには不可欠ではありません。.",
+        "correction": "火の三角形は火災を引き起こすのには不可欠ではありません。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "火の三角形は火災を引き起こすための必要要素を示していますが、それ自体が火災を引き起こすわけではありません。火災は、熱、燃料、酸素が融合したときに発生します。.",
+        "correction": "火の三角形は火災を引き起こすための必要要素を示していますが、それ自体が火災を引き起こすわけではありません。火災は、熱、燃料、酸素が融合したときに発生します。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "電気器具は常に安全に使用できるため、留める必要はありません。.",
+        "correction": "電気器具は常に安全に使用できるため、留める必要はありません。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "電気器具は安全に使用するために適切なケアが必要です。使用していない場合は、電源を切り、維持しないほうが良いです。.",
+        "correction": "電気器具は安全に使用するために適切なケアが必要です。使用していない場合は、電源を切り、維持しないほうが良いです。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "煙探知機は火災時に小さな灰粒子を検出して警報を出す。.",
+        "correction": "煙探知機は火災時に小さな灰粒子を検出して警報を出す。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "煙探知機は主に煙粒子を検出し、火災時には汚染物質を検出して警報を出す。灰粒子は通常、火災後に出現するため、煙探知機は火災の初期段階において重要な役割を果たします。.",
+        "correction": "煙探知機は主に煙粒子を検出し、火災時には汚染物質を検出して警報を出す。灰粒子は通常、火災後に出現するため、煙探知機は火災の初期段階において重要な役割を果たします。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "火災避難計画は避難時に対象となる人数を決定するために作成されます。.",
+        "correction": "火災避難計画は避難時に対象となる人数を決定するために作成されます。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "火災避難計画は事前に作成され、緊急時に迅速かつ安全に避難する方法を確立するために作成されます。これにより、家族や同僚が迅速に行動し、安全な出口や集合場所を知り、緊急通報を行うことができます。.",
+        "correction": "火災避難計画は事前に作成され、緊急時に迅速かつ安全に避難する方法を確立するために作成されます。これにより、家族や同僚が迅速に行動し、安全な出口や集合場所を知り、緊急通報を行うことができます。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in a double punctuation mark (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自己保護は、応急処置を行う前に、安全を確保するために重要です。これにより、助けることができる状況に己がることが保証されます。.",
+        "correction": "自己保護は、応急処置を行う前に、安全を確保するために重要です。これにより、助けることができる状況にいることが保証されます。",
+        "description": "The phrase '己がることが保証されます' contains a lexical and grammatical error. '己がる' is not a valid Japanese verb or expression in this context; the intended meaning is 'いること' (to be in a situation). Additionally, the sentence ends with an unnecessary period ('.') after the Japanese full stop, which is incorrect punctuation. Correction improves both lexical accuracy and orthographic convention.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "切り傷は鋭いものから出血や痛みを引き起こすことが多く、熱くなることはありません。熱を感じるのは通常、火傷ややけどの症状であり、切り傷とは異なります。.",
+        "correction": "切り傷は鋭いものから出血や痛みを引き起こすことが多く、熱くなることはありません。熱を感じるのは通常、火傷ややけどの症状であり、切り傷とは異なります。",
+        "description": "The sentence ends with a Japanese full stop ('。') followed by an unnecessary period ('.'), which is incorrect punctuation in Japanese writing. The correction removes the extraneous period to conform to Japanese orthographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "捻挫の場合、紙箊を使って腫れを押さえると良いです。.",
+        "correction": "捻挫の場合、包帯を使って腫れを押さえると良いです。",
+        "description": "The term '紙箊' is incorrect and unnatural in Japanese; the standard term for a bandage is '包帯'. Additionally, the sentence ends with a Japanese full stop followed by an unnecessary period, which is incorrect punctuation. Correction addresses both lexical choice and orthographic convention.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "捻挫の場合、紙箊を使用すると腫れをさらに痛めたり悪化させる可能性があります。実際には、布で包んだ氷や冷却を行い、圧迫を避けることが重要です。.",
+        "correction": "捻挫の場合、紙箊を使用すると腫れをさらに痛めたり悪化させる可能性があります。実際には、布で包んだ氷や冷却を行い、圧迫を避けることが重要です。",
+        "description": "The sentence ends with a Japanese full stop ('。') followed by an unnecessary period ('.'), which is incorrect punctuation in Japanese writing. The correction removes the extraneous period to conform to Japanese orthographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "感覚受容体は主に感覚を介して外部からの刺激を検知します。環境変化に対しては、直接的な機能変化には関与しません。例えば、温度や圧力の変化を感じ取ることができますが、これは身体の機能を直接的に変えるわけではありません。.",
+        "correction": "感覚受容体は主に感覚を介して外部からの刺激を検知します。環境変化に対しては、直接的な機能変化には関与しません。例えば、温度や圧力の変化を感じ取ることができますが、これは身体の機能を直接的に変えるわけではありません。",
+        "description": "The sentence ends with a Japanese full stop ('。') followed by an unnecessary period ('.'), which is incorrect punctuation in Japanese writing. The correction removes the extraneous period to conform to Japanese orthographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "分数の分子は分数の全体を表す部分です。.",
+        "correction": "分数の分子は分数の全体を表す部分です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. In Japanese, sentences should end with a single full-width period (。) and not be followed by an English period. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "分数の分子は、分数の上部の数字であり、考慮されている部分の数を表します。分数全体を示すのは分母です。.",
+        "correction": "分数の分子は、分数の上部の数字であり、考慮されている部分の数を表します。分数全体を示すのは分母です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. In Japanese, sentences should end with a single full-width period (。) and not be followed by an English period. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "分数の分子が大きい場合には、その分数が必ず大きいと言えます。.",
+        "correction": "分数の分子が大きい場合には、その分数が必ず大きいと言えます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. In Japanese, sentences should end with a single full-width period (。) and not be followed by an English period. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "分数の大小を比較する際、分母のサイズが同じ場合に限り、分子の大きさが大きいと結論づけられます。ただし、分数が異なる分母を持っている場合、まず共通の分母を揃える必要があり、その後に分子を比較します。分数が同じ分母を持っている場合、分子の数値が大きい分数が大きいと結論づけられます。.",
+        "correction": "分数の大小を比較する際、分母のサイズが同じ場合に限り、分子の大きさが大きいと結論づけられます。ただし、分数が異なる分母を持っている場合、まず共通の分母を揃える必要があり、その後に分子を比較します。分数が同じ分母を持っている場合、分子の数値が大きい分数が大きいと結論づけられます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. In Japanese, sentences should end with a single full-width period (。) and not be followed by an English period. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "積極的傾聽は、理解を促すために話し手の考えを完全に捉える能力を指します。これは、積極的な聞き方であり、聞き手が積極的に関与し、共感し、誤解を避けることを可能にする技術です。.",
+        "correction": "積極的傾聴は、理解を促すために話し手の考えを完全に捉える能力を指します。これは、積極的な聞き方であり、聞き手が積極的に関与し、共感し、誤解を避けることを可能にする技術です。",
+        "description": "The original text uses the incorrect kanji '傾聽' instead of the standard '傾聴' for 'active listening.' This is a spelling error that affects the clarity and professionalism of the educational content. Additionally, there is an unnecessary period at the end of the sentence, which is not standard in Japanese punctuation. Both should be corrected for linguistic accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "共感は、他人が耐えることができるポジティブな反応を含むことができます。.",
+        "correction": "共感は、他人が耐えることができるポジティブな反応を含むことができます。",
+        "description": "There is an unnecessary period at the end of the Japanese sentence, which is not standard punctuation usage. Japanese sentences should end with a full-width period (。) or no punctuation in this context. This affects the orthographic correctness of the statement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "積極的傾聴は、話し手のメッセージを完全に理解するための技術です。.",
+        "correction": "積極的傾聴は、話し手のメッセージを完全に理解するための技術です。",
+        "description": "The sentence ends with a half-width period (.) instead of the standard Japanese full-width period (。) or no punctuation, which is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "対立解消は対立を怒りに変えることです。.",
+        "correction": "対立解消は対立を怒りに変えることです。",
+        "description": "The sentence ends with a half-width period (.) instead of the standard Japanese full-width period (。) or no punctuation, which is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "友情スキルには競争力のある競争が含まれます。.",
+        "correction": "友情スキルには競争力のある競争が含まれます。",
+        "description": "The sentence ends with a half-width period (.) instead of the standard Japanese full-width period (。) or no punctuation, which is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "円は囲まれた形を持つことはできません。.",
+        "correction": "円は囲まれた形を持つことはできません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "円は確かに狭い円形の範囇を囲むことができます。この概念は円環のようなもので、円の幾何学的特性を理解する上で重要です..",
+        "correction": "円は確かに狭い円形の範囲を囲むことができます。この概念は円環のようなもので、円の幾何学的特性を理解する上で重要です。",
+        "description": "There are two issues: (1) The kanji '範囇' is incorrect and should be '範囲' for the intended meaning of 'area' or 'range.' (2) There is a double period at the end of the sentence, which is incorrect in Japanese orthography. Both errors affect clarity and correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "正三角形には3つの等しい辺があります。.",
+        "correction": "正三角形には3つの等しい辺があります。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one full-width period should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "三角形の種類について学んでいるところなので、正三角形という名前が指しているのは、その特徴である3つの等しい辺についてのことです..",
+        "correction": "三角形の種類について学んでいるところなので、正三角形という名前が指しているのは、その特徴である3つの等しい辺についてのことです。",
+        "description": "There is a double period at the end of the sentence, which is incorrect in Japanese orthography. Only one full-width period should be used.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "正方形は4つの辺が全て同じ長さではありません。.",
+        "correction": "正方形は4つの辺が全て同じ長さではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one full-width period should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "正方形は特有の特性を持ち、すべての4つの辺が等しい長さであることが特徴です。この特性が形状を正方形として定義する重要な要素です..",
+        "correction": "正方形は特有の特性を持ち、すべての4つの辺が等しい長さであることが特徴です。この特性が形状を正方形として定義する重要な要素です。",
+        "description": "There is a double period at the end of the sentence, which is incorrect in Japanese orthography. Only one full-width period should be used.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "三角形は常に3つの頂点を持ちます。.",
+        "correction": "三角形は常に3つの頂点を持ちます。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one full-width period should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "三角形には頂点が3つすべてではありません。各頂点は点となり、三角形は頂点を持つという概念を誤解しています。三角形は、頂点が3つあるという事実を理解することが重要です。",
+        "correction": "三角形には必ず3つの頂点があります。各頂点は点であり、三角形は3つの頂点を持つという事実を理解することが重要です。",
+        "description": "The original sentence contains a grammatical error and a logical contradiction: '三角形には頂点が3つすべてではありません' incorrectly suggests that triangles do not always have three vertices, which is false. The sentence should clearly state that all triangles have three vertices. The rest of the explanation should be adjusted for clarity and logical consistency.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "グローバル貿易は国境を越えて商品、サービス、資本が交換されることを指します。.",
+        "correction": "グローバル貿易は国境を越えて商品、サービス、資本が交換されることを指します。",
+        "description": "There is an unnecessary period (full stop) after the Japanese sentence-ending punctuation mark '。'. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "グローバル貿易は経済成長を消減させることがあります。.",
+        "correction": "グローバル貿易は経済成長を消減させることがあります。",
+        "description": "The sentence ends with both a full-width Japanese period '。' and an unnecessary half-width period '.'. Only the Japanese period should be used to end the sentence. The extra period is a typographical error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "グローバル貿易は経済成長を消減させることがあります。",
+        "correction": "グローバル貿易は経済成長を減少させることがあります。",
+        "description": "The word '消減' is not a standard or natural Japanese term for 'decrease' or 'reduce' in this context. The correct and commonly used term is '減少'. Using '減少' ensures lexical precision and naturalness in Japanese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "グローバル貿易は、すべての国に均等な経済的利益をもたらします。.",
+        "correction": "グローバル貿易は、すべての国に均等な経済的利益をもたらします。",
+        "description": "There is an unnecessary half-width period after the Japanese sentence-ending punctuation '。'. Only the full-width Japanese period should be used to end the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "WTOは各国の経済に対して独自の財政支援を行います。.",
+        "correction": "WTOは各国の経済に対して独自の財政支援を行います。",
+        "description": "The sentence ends with both a full-width Japanese period '。' and an unnecessary half-width period '.'. Only the Japanese period should be used to end the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "グローバル貿易は、経済発展だけでなく文化の衝突をもたらします。.",
+        "correction": "グローバル貿易は、経済発展だけでなく文化の衝突をもたらします。",
+        "description": "There is an unnecessary half-width period after the Japanese sentence-ending punctuation '。'. Only the full-width Japanese period should be used to end the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "立法部門は財政運営に関与していません。.",
+        "correction": "立法部門は財政運営に関与していません。",
+        "description": "There is an incorrect use of punctuation: a Japanese full stop (。) is immediately followed by a Western period (.). Only the Japanese full stop should be used at the end of the sentence. This error affects the orthographic correctness and should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これにより、立法部門が財政運営に直接的に関わることが理解できます。.",
+        "correction": "これにより、立法部門が財政運営に直接的に関わることが理解できます。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error but should be corrected for standard Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アメリカ合衆国大統領は連邦法を直接変更できる。.",
+        "correction": "アメリカ合衆国大統領は連邦法を直接変更できる。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for proper Japanese writing style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "立法部門は、大統領の拒否権を覆す権限を持っています。これにより、立法は行政の決定に対して確固たる抑制を行うことができます。.",
+        "correction": "立法部門は、大統領の拒否権を覆す権限を持っています。これにより、立法は行政の決定に対して確固たる抑制を行うことができます。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for standard Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "最高裁判所は問題の解決に重要な役割を果たす。.",
+        "correction": "最高裁判所は問題の解決に重要な役割を果たす。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "最高裁判所は、法律と憲法の解釈に関する重要な審判を行う。ブラウン対教育委員会裁判例を考えると、この部門が公民権を守るために果たした責任が明確に示されている。.",
+        "correction": "最高裁判所は、法律と憲法の解釈に関する重要な審判を行う。ブラウン対教育委員会裁判例を考えると、この部門が公民権を守るために果たした責任が明確に示されている。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for standard Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アメリカ政府の各部門は相補的な権限を持っていない。.",
+        "correction": "アメリカ政府の各部門は相補的な権限を持っていない。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アメリカ政府の三権分立の概念は、立法、行政、司法の三部門間で権力を分散することを目的としています。この分散により、一方的な権力の支配を防ぎ、公共の利益を維持することができます。この考え方の有効性は、異なる部門間の異なる義務と監視メカニズムがどのように相互に作用するかを理解することにあります。.",
+        "correction": "アメリカ政府の三権分立の概念は、立法、行政、司法の三部門間で権力を分散することを目的としています。この分散により、一方的な権力の支配を防ぎ、公共の利益を維持することができます。この考え方の有効性は、異なる部門間の異なる義務と監視メカニズムがどのように相互に作用するかを理解することにあります。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for standard Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "固定マインドセットには、障害や挑戦を避けることが多いです.",
+        "correction": "固定マインドセットには、障害や挑戦を避けることが多いです。",
+        "description": "The statement ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error that affects the professionalism and consistency of Japanese writing. The sentence should use the full-width Japanese period to conform to standard punctuation rules.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります..",
+        "correction": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります。",
+        "description": "The feedback ends with two consecutive full-width periods ('..'), which is incorrect in Japanese orthography. Only a single full-width period ('。') should be used at the end of a sentence. This error affects the naturalness and correctness of the written Japanese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "困難な課題を避けることが成長にとって最も有益である.",
+        "correction": "困難な課題を避けることが成長にとって最も有益である。",
+        "description": "The statement ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実際には、困難な課題を避けることは成長を阻むものです。成長マインドセットの核心は、挑戦を受け入れ、過去の失敗から学ぶことです。これにより、個人は新しいスキルや知識を身につけ、強さと対応力を身につけることができます..",
+        "correction": "実際には、困難な課題を避けることは成長を阻むものです。成長マインドセットの核心は、挑戦を受け入れ、過去の失敗から学ぶことです。これにより、個人は新しいスキルや知識を身につけ、強さと対応力を身につけることができます。",
+        "description": "The feedback ends with two consecutive full-width periods ('..'), which is incorrect in Japanese writing. Only a single full-width period ('。') should be used at the end of a sentence. This affects the orthographic accuracy and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "挑戦に立ち向かうことは、成長の機会を提供します.",
+        "correction": "挑戦に立ち向かうことは、成長の機会を提供します。",
+        "description": "The statement ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "果物はビタミンとミネラルが豊富です。.",
+        "correction": "果物はビタミンとミネラルが豊富です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "食事の栄養素は健康を維持するために重要ではありません。.",
+        "correction": "食事の栄養素は健康を維持するために重要ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "健康的な食事は、炭水化物、タンパク質、脂質の三大栄養素のバランスが重要です。.",
+        "correction": "健康的な食事は、炭水化物、タンパク質、脂質の三大栄養素のバランスが重要です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "健康的な食事は体のみに影響を与えることが多いです。.",
+        "correction": "健康的な食事は体のみに影響を与えることが多いです。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "この私たちの食事には、炭水化物をサラダやご飯に、タンパク質を鶏肉や豆腐に、脂質をオリーブオイルやナッツにとることで摂取する食材が含まれています。これらの栄養素がバランスを取ることで、私たちの体に必要な栄養を十分に受け取ることができます。",
+        "correction": "私たちの食事には、サラダやご飯から炭水化物、鶏肉や豆腐からタンパク質、オリーブオイルやナッツから脂質を摂取する食材が含まれています。これらの栄養素がバランスよく取れることで、私たちの体に必要な栄養を十分に受け取ることができます。",
+        "description": "The original sentence contains unnatural phrasing and incorrect particle usage, such as 'この私たちの食事には' and '炭水化物をサラダやご飯に'. The corrected version uses natural Japanese expressions and proper particles to clarify the sources of nutrients and improve readability. This correction addresses both grammatical and stylistic issues, ensuring the sentence is clear and idiomatic.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "国内の特権ではなく、異国から発表された一連の概念であり、世界中で平等な権利を保証します。",
+        "correction": "国内の特権ではなく、世界中で平等な権利を保証する普遍的な概念です。",
+        "description": "The phrase '異国から発表された一連の概念' is an unnatural and misleading expression in Japanese. It incorrectly suggests that human rights are a set of concepts announced from a foreign country, which is not accurate. The correct explanation should emphasize the universality of human rights, not their foreign origin. This lexical error affects both clarity and cultural appropriateness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人権は、すべての人に平等に与えられる基本的な権利です。",
+        "correction": "人権はすべての人に平等に与えられる基本的な権利です。",
+        "description": "The use of the comma '、' after '人権は' is unnecessary in Japanese and disrupts the natural flow of the sentence. Japanese typically avoids placing a comma after the topic marker 'は' unless the sentence is very long or complex. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人権は普遍的で、誰にでも与えられるものです。",
+        "correction": "人権は普遍的で誰にでも与えられるものです。",
+        "description": "The comma '、' after '普遍的で' is not required in this short sentence and slightly interrupts the natural reading. Japanese prefers smoother sentence flow without unnecessary punctuation in simple constructions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人権は、平等、正義、尊厳を促進します。",
+        "correction": "人権は平等、正義、尊厳を促進します。",
+        "description": "The comma '、' after '人権は' is unnecessary and should be omitted for natural Japanese sentence structure. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人権は特権ではなく、人間であることによって当然の権利です。",
+        "correction": "人権は特権ではなく、人間であることによって当然の権利です。",
+        "description": "No correction needed. The sentence is orthographically and grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は、戦争の恐怖や抑圧が再び起こることを防ぐために作成されました。",
+        "correction": "世界人権宣言は戦争の恐怖や抑圧が再び起こることを防ぐために作成されました。",
+        "description": "The comma '、' after '世界人権宣言は' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "それは人間の尊厳を守るための集団的な約束を表しています。",
+        "correction": "それは人間の尊厳を守るための集団的な約束を表しています。",
+        "description": "No correction needed. The sentence is orthographically and grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "例えば、エレノア・ルーズベルトは、世界人権宣言を「すべての人々と国々のための共通の達成基準」と表現しました。",
+        "correction": "例えば、エレノア・ルーズベルトは世界人権宣言を「すべての人々と国々のための共通の達成基準」と表現しました。",
+        "description": "The comma '、' after '例えば' and after 'エレノア・ルーズベルトは' are unnecessary. Japanese typically omits commas after introductory phrases and before quotations unless the sentence is complex.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は30の条項から成り、基本的な権利と自由を規定しています。",
+        "correction": "世界人権宣言は30の条項から成り基本的な権利と自由を規定しています。",
+        "description": "The comma '、' after '成り' is unnecessary in this sentence and should be omitted for smoother reading.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これらの条項は市民的、政治的、経済的、社会的、文化的な権利をカバーしています。",
+        "correction": "これらの条項は市民的、政治的、経済的、社会的、文化的な権利をカバーしています。",
+        "description": "No correction needed. The sentence is orthographically and grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "例えば、第26条では、教育が少なくとも初等教育段階で無料でアクセス可能であるべきだと強調しています。",
+        "correction": "例えば第26条では教育が少なくとも初等教育段階で無料でアクセス可能であるべきだと強調しています。",
+        "description": "The commas '、' after '例えば' and after '第26条では' are unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は、人権保護の枠組みを提供することにより、地球規模の政策や慣行を形作ってきました。",
+        "correction": "世界人権宣言は人権保護の枠組みを提供することにより地球規模の政策や慣行を形作ってきました。",
+        "description": "The commas '、' after '世界人権宣言は' and after '提供することにより' are unnecessary and should be omitted for smoother reading.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "宣言は、個人やコミュニティが正義と責任を求める力を与えました。",
+        "correction": "宣言は個人やコミュニティが正義と責任を求める力を与えました。",
+        "description": "The comma '、' after '宣言は' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "例えば、宣言は国際人権規約（ICCPR）や国際経済的、社会的及び文化的権利規約（ICESCR）の作成に影響を与えました。",
+        "correction": "例えば宣言は国際人権規約（ICCPR）や国際経済的、社会的及び文化的権利規約（ICESCR）の作成に影響を与えました。",
+        "description": "The comma '、' after '例えば' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は、国内の法律に影響を与えた。",
+        "correction": "世界人権宣言は国内の法律に影響を与えた。",
+        "description": "The comma '、' after '世界人権宣言は' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人権は普遍的で、尊厳、平等、正義を保証するために必要です。",
+        "correction": "人権は普遍的で尊厳、平等、正義を保証するために必要です。",
+        "description": "The comma '、' after '普遍的で' is unnecessary and should be omitted for smoother reading.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は1948年に作成され、人権保護のための世界基準を確立しました。",
+        "correction": "世界人権宣言は1948年に作成され人権保護のための世界基準を確立しました。",
+        "description": "The comma '、' after '作成され' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "宣言の重要な条項は、生命の権利、表現の自由、教育を受ける権利などを強調しています。",
+        "correction": "宣言の重要な条項は生命の権利、表現の自由、教育を受ける権利などを強調しています。",
+        "description": "The comma '、' after '宣言の重要な条項は' is unnecessary and should be omitted for smoother reading.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は、法律、政策、運動を通じて人権を促進する上で大きな影響を与えました。",
+        "correction": "世界人権宣言は法律、政策、運動を通じて人権を促進する上で大きな影響を与えました。",
+        "description": "The comma '、' after '世界人権宣言は' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "世界人権宣言は、人類を団結させる共通の価値観を思い出させてくれます。",
+        "correction": "世界人権宣言は人類を団結させる共通の価値観を思い出させてくれます。",
+        "description": "The comma '、' after '世界人権宣言は' is unnecessary and should be omitted for smoother reading.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これらの権利を理解し擁護することで、より公正で公平な世界に貢献することができます。",
+        "correction": "これらの権利を理解し擁護することでより公正で公平な世界に貢献することができます。",
+        "description": "The comma '、' after 'ことで' is unnecessary and should be omitted for natural Japanese sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "儿童は自分の感情を完全に理解することができます。.",
+        "correction": "子どもは自分の感情を完全に理解することができます。",
+        "description": "The word '儿童' is a Chinese term and not standard Japanese; the correct Japanese term is '子ども'. Additionally, the period should be a full-width Japanese period '。' rather than a half-width period '.', to match Japanese punctuation conventions.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "儿童が友達と喉を水で満たしてもいいですか？.",
+        "correction": "子どもが友達と喉を水で満たしてもいいですか？",
+        "description": "The word '儿童' is a Chinese term and not standard Japanese; the correct Japanese term is '子ども'. Also, the period at the end should be removed as Japanese questions end with the question mark '？' only, not with a period.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "共感は他人の感情を自分のものとして認識する能力です。.",
+        "correction": "共感は他人の感情を自分のものとして認識する能力です。",
+        "description": "There is an unnecessary half-width period '.' after the full-width Japanese period '。'. In Japanese, sentences should end with a single full-width period '。'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "思いやりは他人に対して常に私たちの利益を上げる行為です。.",
+        "correction": "思いやりは他人に対して常に私たちの利益を上げる行為です。",
+        "description": "There is an unnecessary half-width period '.' after the full-width Japanese period '。'. In Japanese, sentences should end with a single full-width period '。'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "優しさは人との交流に影響を与えない。.",
+        "correction": "優しさは人との交流に影響を与えない。",
+        "description": "There is an unnecessary half-width period '.' after the full-width Japanese period '。'. In Japanese, sentences should end with a single full-width period '。'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "記憶術、チャンク化、視覚化は脳を破壊することです。",
+        "correction": "記憶術、チャンク化、視覚化は脳を破壊するものではありません。",
+        "description": "The original sentence contains a semantic inaccuracy and an unnatural expression. The phrase '脳を破壊することです' is not only factually incorrect but also uses an unnatural construction for expressing negative attributes in Japanese. The corrected version uses 'ものではありません' to clearly negate the statement in a natural and appropriate way, improving both linguistic accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "記憶術は、覚えやすいものや既知のものに情報を関連付けることで記憶を助けるツールです。",
+        "correction": "記憶術は、覚えやすいものや既知のものに情報を関連付けて記憶を助ける方法です。",
+        "description": "The use of 'ツール' (tool) is not the most accurate term for 'mnemonic' in Japanese educational contexts. '方法' (method) is more appropriate. Additionally, the phrase '関連付けることで記憶を助ける' is better expressed as '関連付けて記憶を助ける' for smoother sentence flow and correct grammar.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "記憶術は新しい情報のみを保存する脳の部位に関連しています。",
+        "correction": "記憶術は新しい情報のみを保存する脳の部位に関連しているわけではありません。",
+        "description": "The original sentence is grammatically correct but semantically inaccurate. The correction adds 'わけではありません' to clearly negate the statement, which is the standard way to express 'not only' or 'not necessarily' in Japanese, improving both accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "クラシック音楽は19世紀に始まったジャンルです。.",
+        "correction": "クラシック音楽は19世紀に始まったジャンルです。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "クラシック音楽は、17世紀から18世紀にかけての時期に始まりました。その時代に活躍した作曲家には、ベートーヴェン、モーツァルト、バッハが含まれます。.",
+        "correction": "クラシック音楽は、17世紀から18世紀にかけての時期に始まりました。その時代に活躍した作曲家には、ベートーヴェン、モーツァルト、バッハが含まれます。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ジャズ音楽は初期の19世紀後期にアメリカ南部で誕生した。.",
+        "correction": "ジャズ音楽は初期の19世紀後期にアメリカ南部で誕生した。",
+        "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ジャズ音楽は実際には19世紀後半から20世紀初頭にかけて発展しました。.",
+        "correction": "ジャズ音楽は実際には19世紀後半から20世紀初頭にかけて発展しました。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ロック音楽は1970年代に誕生した音楽ジャンルです。.",
+        "correction": "ロック音楽は1970年代に誕生した音楽ジャンルです。",
+        "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ロック音楽は実際には1950年代と1960年代にその起源を持っており、その時代の文化的な影響を強く表しています。.",
+        "correction": "ロック音楽は実際には1950年代と1960年代にその起源を持っており、その時代の文化的な影響を強く表しています。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ポップ音楽は主にアコースティック楽器を使用している。.",
+        "correction": "ポップ音楽は主にアコースティック楽器を使用している。",
+        "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ポップ音楽は電子的な制作に強く依存しており、しばしば電子ドラムやストラングスなどの電子音楽装置が使われます。アコースティック楽器は主流ではなく、ジャンルの特徴的な要素ではありません。.",
+        "correction": "ポップ音楽は電子的な制作に強く依存しており、しばしば電子ドラムやストラングスなどの電子音楽装置が使われます。アコースティック楽器は主流ではなく、ジャンルの特徴的な要素ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ヒップホップは1980年代に始まった音楽ジャンルです。.",
+        "correction": "ヒップホップは1980年代に始まった音楽ジャンルです。",
+        "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ヒップホップは実際には1970年代に誕生しました。ニューヨーク市で起源を持つアフリカ系アメリカ人とラテン系コミュニティの文化です。このジャンルは社会の問題や個人的な苦悩について語ることで知られ、現代においても影響力を持ち続けています。.",
+        "correction": "ヒップホップは実際には1970年代に誕生しました。ニューヨーク市で起源を持つアフリカ系アメリカ人とラテン系コミュニティの文化です。このジャンルは社会の問題や個人的な苦悩について語ることで知られ、現代においても影響力を持ち続けています。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ビートル・ヤーゼンスはクラシック音楽の作曲家でした。.",
+        "correction": "ビートル・ヤーゼンスはクラシック音楽の作曲家でした。",
+        "description": "There is an unnecessary period after the Japanese full stop. In Japanese, only one full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ビートル・ヤーゼンスは、ジャンルの多様性の中でも特にロックとヒップホップの影響力を持つアーティストであり、クラシック音楽で知られていません。.",
+        "correction": "ビートル・ヤーゼンスは、ジャンルの多様性の中でも特にロックとヒップホップの影響力を持つアーティストであり、クラシック音楽で知られていません。",
+        "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback sentence. Only one full-width period (。) should be used in Japanese. Remove the extra half-width period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "再生可能資源は地球の生態系に不可欠です。.",
+        "correction": "再生可能資源は地球の生態系に不可欠です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。). In Japanese, sentences should end with a single full-width period (。) and not be followed by an English period. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "再生可能エネルギーは化石燃料に比べて環境への影響が少ない。.",
+        "correction": "再生可能エネルギーは化石燃料に比べて環境への影響が少ない。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used at the end of a sentence. This is a minor orthographic error but should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これらは化石燃料とは異なり、燃焼時に減少させる汚染物質を排出しないため、環境への負荷が少ないとされています。.",
+        "correction": "これらは化石燃料とは異なり、燃焼時に減少させる汚染物質を排出しないため、環境への負荷が少ないとされています。",
+        "description": "There is an unnecessary English period (.) after the Japanese full stop (。). Only the Japanese full stop should be used at the end of a sentence. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "再利用は資源の消耗を減らす重要な方法です。.",
+        "correction": "再利用は資源の消耗を減らす重要な方法です。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "再利用は資源を一度だけ使用した後、次に使用することを意味します。これにより、新しい資源を必要としないため、資源の循環を促進します。これは、環境への影響を軽減し、資源を長く持続可能に保つために重要です。.",
+        "correction": "再利用は資源を一度だけ使用した後、次に使用することを意味します。これにより、新しい資源を必要としないため、資源の循環を促進します。これは、環境への影響を軽減し、資源を長く持続可能に保つために重要です。",
+        "description": "There is an unnecessary English period (.) after the Japanese full stop (。) at the end of the feedback. Only the Japanese full stop should be used. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "資源が豊富な地域は経済が繁荣することが一般的です。.",
+        "correction": "資源が豊富な地域は経済が繁栄することが一般的です。",
+        "description": "There are two issues: (1) The sentence ends with both a Japanese full stop (。) and an English period (.), which is an orthographic error. (2) The kanji '繁荣' is incorrect for Japanese; the correct kanji is '繁栄'. This is a medium-severity issue as it affects both spelling and comprehension.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "資源が豊富な地域はしばしば産業が発展し、経済活動が活発になる傾向があります。これは、大量の石油や金などの貴重な資源を持つ地域が、それらを輸出して経済を支えることによって確立される経済モデルに反映されています。.",
+        "correction": "資源が豊富な地域はしばしば産業が発展し、経済活動が活発になる傾向があります。これは、大量の石油や金などの貴重な資源を持つ地域が、それらを輸出して経済を支えることによって確立される経済モデルに反映されています。",
+        "description": "There is an unnecessary English period (.) after the Japanese full stop (。) at the end of the feedback. Only the Japanese full stop should be used. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自然資源は永遠に存在しているため、人間の利用には限度がありません。.",
+        "correction": "自然資源は永遠に存在しているため、人間の利用には限度がありません。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自然資源は確かに限られていますが、その存在は絶えないわけではありません。例えば、水や木材は再生可能資源として耐久性に富んでいますが、それでも資源の循環は人間の活動や環境への影響を考慮する必要があります。.",
+        "correction": "自然資源は確かに限られていますが、その存在は絶えないわけではありません。例えば、水や木材は再生可能資源として耐久性に富んでいますが、それでも資源の循環は人間の活動や環境への影響を考慮する必要があります。",
+        "description": "There is an unnecessary English period (.) after the Japanese full stop (。) at the end of the feedback. Only the Japanese full stop should be used. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "強力なパスワードは短く簡����antoいすることが推奨されます。.",
+        "correction": "強力なパスワードは短く簡単にすることが推奨されます。",
+        "description": "The original sentence contains corrupted text ('簡����antoい'), which is a severe orthographic error. The correct word should be '簡単' (kantan), meaning 'simple.' This error significantly affects readability and comprehension. Additionally, the sentence ends with a period and a Japanese full stop, which is redundant; only one should be used. The corrected version uses the proper kanji and removes the extra punctuation.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "オンラインで新しい友達を見つけることは、常に危険であるべきではありません。.",
+        "correction": "オンラインで新しい友達を見つけることは、常に危険であるべきではありません。",
+        "description": "The sentence ends with both a Japanese full stop and a Western period, which is incorrect punctuation usage. Only the Japanese full stop ('。') should be used in Japanese text. The rest of the sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "オンラインで共有される情報は必ずしも重要です。.",
+        "correction": "オンラインで共有される情報は必ずしも重要ではありません。",
+        "description": "The original sentence is grammatically incorrect. '必ずしも重要です' implies that all shared information is always important, but the intended meaning is that not all shared information is necessarily important. The correct construction is '必ずしも重要ではありません' to express 'not necessarily important.' Additionally, the sentence ends with both a Japanese full stop and a Western period, which is redundant.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "フィッシングメールは通常、簡単に認識できる疑問点を含まない。.",
+        "correction": "フィッシングメールは通常、簡単に認識できる疑問点を含まない。",
+        "description": "The sentence ends with both a Japanese full stop and a Western period, which is incorrect punctuation usage. Only the Japanese full stop ('。') should be used in Japanese text. The rest of the sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "オンラインで公開された情報を共有することは常に安全です。.",
+        "correction": "オンラインで公開された情報を共有することは常に安全です。",
+        "description": "The sentence ends with both a Japanese full stop and a Western period, which is incorrect punctuation usage. Only the Japanese full stop ('。') should be used in Japanese text. The rest of the sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "族は同じ族に属する元素の数の電子が同じであることによって決まります。. ",
+        "correction": "族は同じ族に属する元素の外殻電子の数が同じであることによって決まります。",
+        "description": "The original sentence incorrectly uses '元素の数の電子' which is grammatically incorrect and semantically unclear. The correct phrase should be '元素の外殻電子の数', meaning 'the number of valence electrons of elements in the same group'. This correction clarifies the scientific meaning and fixes the grammatical error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "原子構成は元素の酸素電子数によって決定されます。. ",
+        "correction": "原子構成は元素の原子番号によって決定されます。",
+        "description": "The phrase '酸素電子数' is a linguistic error; it is not a standard scientific term and is confusing in Japanese. The correct term is '原子番号', which refers to the number of protons and defines the atomic structure. This correction addresses both the grammatical and scientific inaccuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "族17の元素は水によく反応し、おそくも酸化されることが多い。. ",
+        "correction": "族17の元素は水とはあまり反応せず、酸化されることが多い。",
+        "description": "The phrase 'おそくも酸化されることが多い' is grammatically incorrect and unnatural in Japanese. The correct expression is '酸化されることが多い'. Additionally, '水によく反応し' is misleading; halogens do not typically react well with water. The correction improves both grammatical accuracy and scientific clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "核電荷が周期によって減少する.",
+        "correction": "核電荷は周期によって増加する。",
+        "description": "The original statement incorrectly claims that nuclear charge decreases across a period, which is scientifically inaccurate. The correct statement is '核電荷は周期によって増加する', meaning 'nuclear charge increases across a period'. This correction addresses both the grammatical and scientific error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "エトスは、単に強力な言葉だけで成り立っている。.",
+        "correction": "エトスは、単に強力な言葉だけで成り立っている。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "単に強力な言葉を使うことはあまり含まれていません。.",
+        "correction": "単に強力な言葉を使うことはあまり含まれていません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "パトスは、聴衆の共通の価値観に訴えることで行動を促す技法です。.",
+        "correction": "パトスは、聴衆の共通の価値観に訴えることで行動を促す技法です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "聴衆の共通の信念や感情を引きつけます。この説得は、より広範な聴衆を動機付けるために使われます。.",
+        "correction": "聴衆の共通の信念や感情を引きつけます。この説得は、より広範な聴衆を動機付けるために使われます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ロゴスは、感情やストーリーを通じて説得する方法です。.",
+        "correction": "ロゴスは、感情やストーリーを通じて説得する方法です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ロゴスは論理に基づいた説得法であり、感情やストーリーを使用しない。.",
+        "correction": "ロゴスは論理に基づいた説得法であり、感情やストーリーを使用しない。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "エトス、パトス、ロゴスを組み合わせて議論を構築することができます。.",
+        "correction": "エトス、パトス、ロゴスを組み合わせて議論を構築することができます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これらの技法を組み合わせることで、より広範な聴衆に対しても強力なメッセージを伝えることができます。.",
+        "correction": "これらの技法を組み合わせることで、より広範な聴衆に対しても強力なメッセージを伝えることができます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "エトスは聴衆を笑いさせることが主な目的です。.",
+        "correction": "エトスは聴衆を笑いさせることが主な目的です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "笑いを引くことは、エトスの目的ではありません。.",
+        "correction": "笑いを引くことは、エトスの目的ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "俳句は五七五の音のリズムの中で短い形で表現されます。.",
+        "correction": "俳句は五七五の音のリズムの中で短い形で表現されます。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "俳句は日本の古典的な詩形式で、特定の音節のパターンに従い、季節や自然の瞬間を短く詩的に表現します。.",
+        "correction": "俳句は日本の古典的な詩形式で、特定の音節のパターンに従い、季節や自然の瞬間を短く詩的に表現します。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ソネットは通常、16行で構成されています。.",
+        "correction": "ソネットは通常、16行で構成されています。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ソネットは14行の詩で構成されており、シェイクスピア形式のソネットには終結の対句があります。16行の詩とは言いません。.",
+        "correction": "ソネットは14行の詩で構成されており、シェイクスピア形式のソネットには終結の対句があります。16行の詩とは言いません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "リメリックの構造には、長い行と短い行が交互にあります。.",
+        "correction": "リメリックの構造には、長い行と短い行が交互にあります。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "リメリック詩は、通常、第一、第二、第五行が長い韻律で始まり、第三、第四行が短い韻律で続きます。このリズミングパターンは、読者の期待を設定し、その後の短い行での予測を打ち破ることで、ユーモアを生み出します。.",
+        "correction": "リメリック詩は、通常、第一、第二、第五行が長い韻律で始まり、第三、第四行が短い韻律で続きます。このリズミングパターンは、読者の期待を設定し、その後の短い行での予測を打ち破ることで、ユーモアを生み出します。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自由詩は固定された構造を持ちません。.",
+        "correction": "自由詩は固定された構造を持ちません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自由詩は形式に固定された韻律や行の長さを持たない点で特異化されています。これにより詩人は自由に思考や表現を表現することができ、伝統的な詩の形式に縛られません。.",
+        "correction": "自由詩は形式に固定された韻律や行の長さを持たない点で特異化されています。これにより詩人は自由に思考や表現を表現することができ、伝統的な詩の形式に縛られません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "俳句は常に複雑な主題を扱います。.",
+        "correction": "俳句は常に複雑な主題を扱います。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "俳句は、自然や季節の簡潔なイメージを通して普遍的なテーマを探求することが多いです。.",
+        "correction": "俳句は、自然や季節の簡潔なイメージを通して普遍的なテーマを探求することが多いです。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the sentence. In Japanese, only one full-width period should be used to end a sentence. The extra half-width period is a typographical error and should be removed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "確率は、ある出来事が発生する可能性が0です。.",
+        "correction": "確率は、ある出来事が発生する可能性が0です。",
+        "description": "The original sentence contains an unnecessary period after the Japanese full stop (。), resulting in '。.'. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "確率は、ある出来事が発生する可能性を表すため、1より大きい数で表されることがあります。0の確率は、可能性がないことを意味しますが、これは確率の基本的な概念ではありません。.",
+        "correction": "確率は、ある出来事が発生する可能性を表すため、1より大きい数で表されることがあります。0の確率は、可能性がないことを意味しますが、これは確率の基本的な概念ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. Only one full-width period should be used at the end of a Japanese sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "サイコロを投げると、常に6が出る確率は1/6です。.",
+        "correction": "サイコロを投げると、常に6が出る確率は1/6です。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), resulting in '。.'. Only the Japanese full stop should be used at the end of the sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "サイコロは公平であり、各面が等しい確率で出る可能性があるため、6が常に出る確率は1/6ではありません。各数字が出る確率は同じです。.",
+        "correction": "サイコロは公平であり、各面が等しい確率で出る可能性があるため、6が常に出る確率は1/6ではありません。各数字が出る確率は同じです。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. Only one full-width period should be used at the end of a Japanese sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "コインを投げていると、1回目の投げの後にもつので表が出る確率は1/3です。.",
+        "correction": "コインを投げていると、1回目の投げの後にもつので表が出る確率は1/3です。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), resulting in '。.'. Only the Japanese full stop should be used at the end of the sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "コインの表が出る確率は、異なる面が等しく2つあるため、1/2です。投げの順序は確率に影響しません。.",
+        "correction": "コインの表が出る確率は、異なる面が等しく2つあるため、1/2です。投げの順序は確率に影響しません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. Only one full-width period should be used at the end of a Japanese sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "標準的なトランプのデッキには、6つのスーツがあります。.",
+        "correction": "標準的なトランプのデッキには、6つのスーツがあります。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), resulting in '。.'. Only the Japanese full stop should be used at the end of the sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "トランプには4つのスーツがあり、それぞれには13枚のカードがあります。.",
+        "correction": "トランプには4つのスーツがあり、それぞれには13枚のカードがあります。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. Only one full-width period should be used at the end of a Japanese sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実験的確率は理論的確率に比べて常に高いです。.",
+        "correction": "実験的確率は理論的確率に比べて常に高いです。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), resulting in '。.'. Only the Japanese full stop should be used at the end of the sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実験的確率は実際の試行の結果に依存するため、理論的確率とは異なる可能性を持ちます。時には低く出ることもあります。.",
+        "correction": "実験的確率は実際の試行の結果に依存するため、理論的確率とは異なる可能性を持ちます。時には低く出ることもあります。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. Only one full-width period should be used at the end of a Japanese sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "確率は決定的な結果を決定します。.",
+        "correction": "確率は決定的な結果を決定します。",
+        "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), resulting in '。.'. Only the Japanese full stop should be used at the end of the sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "確率は確実性を予測するものではありません。それは出来事の発生の可能性を示しています。例えば、サイコロの振るという行為では、数字が出るのは確率が存在していることになりますが、結果は決定的ではありません。.",
+        "correction": "確率は確実性を予測するものではありません。それは出来事の発生の可能性を示しています。例えば、サイコロの振るという行為では、数字が出るのは確率が存在していることになりますが、結果は決定的ではありません。",
+        "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. Only one full-width period should be used at the end of a Japanese sentence. Remove the extra period for correct punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "\n\\frac{12}{60} = \\frac{1}{5}\\。",
+        "correction": "\n\\frac{12}{60} = \\frac{1}{5}\\。",
+        "description": "The equation ends with a Japanese full stop (。) after the LaTeX math environment, which is not standard practice. In Japanese educational content, punctuation should not be placed inside or immediately after a LaTeX math block. Remove the full stop for correct formatting.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "主題はテキスト全体を通して続く一貫したアイデアやメッセージを指します。.",
+        "correction": "主題はテキスト全体を通して続く一貫したアイデアやメッセージを指します。",
+        "description": "There is an unnecessary period (full stop) after the Japanese sentence-ending punctuation mark '。'. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "タイトルや見出しはテキストの詳細を伝えることが一般的です。.",
+        "correction": "タイトルや見出しはテキストの詳細を伝えることが一般的です。",
+        "description": "There is an unnecessary period (full stop) after the Japanese sentence-ending punctuation mark '。'. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "補足情報は固有名詞を含むことが多いです。.",
+        "correction": "補足情報は固有名詞を含むことが多いです。",
+        "description": "There is an unnecessary period (full stop) after the Japanese sentence-ending punctuation mark '。'. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "読書は即興の能力を向上させる。.",
+        "correction": "読書は即興の能力を向上させる。",
+        "description": "There is an unnecessary period (full stop) after the Japanese sentence-ending punctuation mark '。'. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "主題はテキスト全体の重要なアイデアを伝えます。.",
+        "correction": "主題はテキスト全体の重要なアイデアを伝えます。",
+        "description": "There is an unnecessary period (full stop) after the Japanese sentence-ending punctuation mark '。'. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "科学的手法は主に芸術的なスキルの発展を目指すために使われます。.",
+        "correction": "科学的手法は主に芸術的なスキルの発展を目指すために使われます。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "科学的手法は科学的な観察、分析、および推論を通じて現象を理解するために使用される技術であり、芸術的なスキルではありません。このプロセスは、観察されたデータに基づいた客観的な結論を形成するために設計されています。.",
+        "correction": "科学的手法は科学的な観察、分析、および推論を通じて現象を理解するために使用される技術であり、芸術的なスキルではありません。このプロセスは、観察されたデータに基づいた客観的な結論を形成するために設計されています。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "仮説を立てるのは、科学実験の最初のステップであり、実験自体を行うことです。.",
+        "correction": "仮説を立てるのは、科学実験の最初のステップであり、実験自体を行うことです。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実験を行うのが最初のステップではありません。科学実験のプロセスは、質問を立て、背景を調査し、仮説を立てるという順序に従います。実験は仮説をテストするために行われます。.",
+        "correction": "実験を行うのが最初のステップではありません。科学実験のプロセスは、質問を立て、背景を調査し、仮説を立てるという順序に従います。実験は仮説をテストするために行われます。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "科学的手法は単に実験を行うことだけです。.",
+        "correction": "科学的手法は単に実験を行うことだけです。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実験は科学的手法の重要な部分ですが、単に行われるものではありません。実験は、問題を設定し、仮説を立て、データを収集し、結論を下すことを含みます。科学的手法は問題解決のための一般的な手段であり、より大きな科学的プロセスの一部です。.",
+        "correction": "実験は科学的手法の重要な部分ですが、単に行われるものではありません。実験は、問題を設定し、仮説を立て、データを収集し、結論を下すことを含みます。科学的手法は問題解決のための一般的な手段であり、より大きな科学的プロセスの一部です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "科学的手法を使うと、すべての問題が正確に解けることが保証される。.",
+        "correction": "科学的手法を使うと、すべての問題が正確に解けることが保証される。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "科学的手法は問題解決のための強力なツールですが、すべての問題がそれを通じて正確に解けるわけではありません。特に複雑な問題や社会的側面を含む問題では、さらなる考慮や異なるアプローチが必要になることがあります。.",
+        "correction": "科学的手法は問題解決のための強力なツールですが、すべての問題がそれを通じて正確に解けるわけではありません。特に複雑な問題や社会的側面を含む問題では、さらなる考慮や異なるアプローチが必要になることがあります。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "簡単な機械は、力を効率的に使うための道具です。.",
+        "correction": "簡単な機械は、力を効率的に使うための道具です。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) in the statement. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "電球はねじとして分類されます。ねじは円筒に傾斜面が巻き付いたものであり、照明に使用されます。てこは棒を中心に回転させるものです。.",
+        "correction": "電球はねじとして分類されます。ねじは円筒に傾斜面が巻き付いたものであり、照明に使用されます。てこは棒を中心に回転させるものです。",
+        "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ハンマーは通常、金属の表面を強く打たせるために使用されます。瓶の蓋を外すためには、ナイフが一般的に使用されます。.",
+        "correction": "ハンマーは通常、金属の表面を強く打たせるために使用されます。瓶の蓋を外すためには、ナイフが一般的に使用されます。",
+        "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "簡単な機械は、仕事を簡単にし、物を小さな動きに変えることを目的としています。例えば、力を必要とせずに大きな物を運ぶために使われます。.",
+        "correction": "簡単な機械は、仕事を簡単にし、物を小さな動きに変えることを目的としています。例えば、力を必要とせずに大きな物を運ぶために使われます。",
+        "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "簡単な機械の概念は、時代を超えて変わってきません。たとえば、古代の傾斜面やレールは、今日のように使用される機械の原型と見なすことができます。技術の進歩によって、その機能は簡素化されたり、新しい用途に適応されたりしていますが、その基本的な存在感は強く続いています。.",
+        "correction": "簡単な機械の概念は、時代を超えて変わってきません。たとえば、古代の傾斜面やレールは、今日のように使用される機械の原型と見なすことができます。技術の進歩によって、その機能は簡素化されたり、新しい用途に適応されたりしていますが、その基本的な存在感は強く続いています。",
+        "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "機械を動かすと、物質の形や位置が変わります。それによって、物体のエネルギーが異なる形に変わるという原理があります。この原理は物理学で重要です。.",
+        "correction": "機械を動かすと、物質の形や位置が変わります。それによって、物体のエネルギーが異なる形に変わるという原理があります。この原理は物理学で重要です。",
+        "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "簡単な機械は日常生活における機能的な役割を果たしますが、それらは主に現代科学の進歩によって形作られています。.",
+        "correction": "簡単な機械は日常生活における機能的な役割を果たしますが、それらは主に現代科学の進歩によって形作られています。",
+        "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "イオン推進システムは化学ロケットよりも速い速度で宇宙に到達できます.",
+        "correction": "イオン推進システムは化学ロケットよりも速い速度で宇宙に到達できます。",
+        "description": "The sentence ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error that affects the professionalism and consistency of Japanese writing. The correction replaces the half-width period with the proper full-width Japanese period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "イオン推進システムは燃料を燃焼させることなく加速するため、化学ロケットに比べてエネルギー効率が高いですが、速度に関しては一般的には速さを提供するわけではありません..",
+        "correction": "イオン推進システムは燃料を燃焼させることなく加速するため、化学ロケットに比べてエネルギー効率が高いですが、速度に関しては一般的には速さを提供するわけではありません。",
+        "description": "The sentence ends with two consecutive full-width periods ('..'), which is incorrect in Japanese orthography. Only a single full-width period ('。') should be used to end a sentence. The correction removes the extra period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ニュートンの万有引力の法則によると、宇宙船が地球から離れるために必要な速度は一定です.",
+        "correction": "ニュートンの万有引力の法則によると、宇宙船が地球から離れるために必要な速度は一定です。",
+        "description": "The sentence ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ニュートンの万有引力の法則は、物体間の距離が変わると引力が変動することを考慮しています。地球から離れるために必要な速度は、距離が着実に減少するにつれて確実に減少します..",
+        "correction": "ニュートンの万有引力の法則は、物体間の距離が変わると引力が変動することを考慮しています。地球から離れるために必要な速度は、距離が着実に減少するにつれて確実に減少します。",
+        "description": "The sentence ends with two consecutive full-width periods ('..'), which is incorrect in Japanese writing. Only a single full-width period ('。') should be used. The correction removes the extra period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "宇宙飛行士は短期間のミッションにも重力が大きな影響を与える.",
+        "correction": "宇宙飛行士は短期間のミッションにも重力が大きな影響を与える。",
+        "description": "The sentence ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "宇宙では微小重力が長期間のミッションに特に影響を及ぼし、身体機能に変化をもたらします。短期間のミッションでは地球上の重力と大きく異なる影響を持ちません..",
+        "correction": "宇宙では微小重力が長期間のミッションに特に影響を及ぼし、身体機能に変化をもたらします。短期間のミッションでは地球上の重力と大きく異なる影響を持ちません。",
+        "description": "The sentence ends with two consecutive full-width periods ('..'), which is incorrect in Japanese orthography. Only a single full-width period ('。') should be used. The correction removes the extra period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "イオン推進システムは、宇宙船のより効率的な運動を可能にします.",
+        "correction": "イオン推進システムは、宇宙船のより効率的な運動を可能にします。",
+        "description": "The sentence ends with a half-width period ('.') instead of the correct Japanese full-width period ('。'). This is an orthographic error and should be corrected for proper Japanese punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "イオン推進システムは、従来の化学燃料に比べて資源を節約し、より長い宇宙ミッションに適しているため、宇宙旅行において効率が向上します。.",
+        "correction": "イオン推進システムは、従来の化学燃料に比べて資源を節約し、より長い宇宙ミッションに適しているため、宇宙旅行において効率が向上します。",
+        "description": "The sentence ends with a full-width period ('。') followed by a half-width period ('.'), which is incorrect in Japanese writing. Only a single full-width period should be used. The correction removes the extra half-width period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "砂のような固体は、圧力や温度変化にもかかわらず、形と体積を保持します。.",
+        "correction": "砂のような固体は、圧力や温度変化にもかかわらず、形と体積を保持します。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in double punctuation. In Japanese, only one full-width period should be used to end a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "これは、固体が一定の形と体積を保持するという特徴を示しています。.",
+        "correction": "これは、固体が一定の形と体積を保持するという特徴を示しています。",
+        "description": "The sentence ends with a double period, which is incorrect in Japanese orthography. Only one full-width period should be used at the end of a sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "気体は粒子が固体よりも運動エネルギーが高いです。.",
+        "correction": "気体は粒子が固体よりも運動エネルギーが高いです。",
+        "description": "There is an extra period at the end of the sentence, resulting in double punctuation. Japanese sentences should end with a single full-width period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "気体の粒子は液体や固体のよりも緩い結合によって運動エネルギーが大きくなります。そのため、気体の粒子がより自由に動くことが多いのです。.",
+        "correction": "気体の粒子は液体や固体のよりも緩い結合によって運動エネルギーが大きくなります。そのため、気体の粒子がより自由に動くことが多いのです。",
+        "description": "The sentence ends with a double period, which is incorrect in Japanese. Only one full-width period should be used at the end of a sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "熱エネルギーを加えると、物質は常に固体に変わります。.",
+        "correction": "熱エネルギーを加えると、物質は常に固体に変わります。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "熱エネルギーを加えると、物質の状態は変わる可能性があります。固体が常に固定されているわけではありません。熱によって、固体は液体に変わる融解が起こり、さらに気体に変わる蒸発のようになります。.",
+        "correction": "熱エネルギーを加えると、物質の状態は変わる可能性があります。固体が常に固定されているわけではありません。熱によって、固体は液体に変わる融解が起こり、さらに気体に変わる蒸発のようになります。",
+        "description": "The sentence ends with a double period, which is incorrect in Japanese orthography. Only one full-width period should be used at the end of a sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "液体が常温で熱くても凝固することはありません。.",
+        "correction": "液体が常温で熱くても凝固することはありません。",
+        "description": "There is an extra period at the end of the sentence, resulting in double punctuation. Japanese sentences should end with a single full-width period.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "液体が熱い状態では、粒子がより速く移動する傾向があります。そのため、温度が高いほど、液体はより速く液体から凝固して固体に変わる可能性が低くなります。.",
+        "correction": "液体が熱い状態では、粒子がより速く移動する傾向があります。そのため、温度が高いほど、液体はより速く液体から凝固して固体に変わる可能性が低くなります。",
+        "description": "The sentence ends with a double period, which is incorrect in Japanese. Only one full-width period should be used at the end of a sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "水は常に固体です。.",
+        "correction": "水は常に固体です。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "水は、温度と圧力によって状態が変わることがあります。固体、液体、気体、プラズマの状態の変化を観察することで、物質が異なる条件下でどのように振る舞うかをよりよく理解できます。.",
+        "correction": "水は、温度と圧力によって状態が変わることがあります。固体、液体、気体、プラズマの状態の変化を観察することで、物質が異なる条件下でどのように振る舞うかをよりよく理解できます。",
+        "description": "The sentence ends with a double period, which is incorrect in Japanese orthography. Only one full-width period should be used at the end of a sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "主人公は物語において常に正と負の両方を表します。.",
+        "correction": "主人公は物語において常に正と負の両方を表します。",
+        "description": "There is an unnecessary period after the Japanese full stop '。', resulting in '。.'. In Japanese, only one full stop should be used at the end of a sentence. This punctuation error can distract readers and is not standard orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "物語の舞台は、読者に物語の緊張感を伝える役割を持っていません。.",
+        "correction": "物語の舞台は、読者に物語の緊張感を伝える役割を持っていません。",
+        "description": "The sentence ends with both a Japanese full stop '。' and an English period '.', resulting in '。.'. Only the Japanese full stop should be used. This is a minor orthographic error but should be corrected for proper Japanese writing conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "物語の緊迫感は、登場人物の動きによって引き起こされる。.",
+        "correction": "物語の緊迫感は、登場人物の動きによって引き起こされる。",
+        "description": "There is a double ending punctuation '。.' at the end of the sentence. In Japanese, only the full-width period '。' should be used. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "登場人物と自然が直面する葛藤は、物語の進行を妨げません。.",
+        "correction": "登場人物と自然が直面する葛藤は、物語の進行を妨げません。",
+        "description": "The sentence ends with both a Japanese full stop '。' and an English period '.', which is incorrect. Only the Japanese full stop should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "物語の中心的なアイデアは物語の説得力としかりみです。.",
+        "correction": "物語の中心的なアイデアは物語の説得力としかりみです。",
+        "description": "There is a double ending punctuation '。.' at the end of the sentence. Only the Japanese full stop '。' should be used. This is a minor orthographic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "物語の中心的なアイデアは物語の説得力としかりみです。",
+        "correction": "物語の中心的なアイデアは物語の説得力と魅力です。",
+        "description": "The word 'しかりみ' is not a standard Japanese word and appears to be a typographical or lexical error. The intended meaning is likely '魅力' (charm/appeal). This lexical mistake affects comprehension and should be corrected.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "物語の舞台は主に登場人物に依存しています。.",
+        "correction": "物語の舞台は主に登場人物に依存しています。",
+        "description": "The sentence ends with both a Japanese full stop '。' and an English period '.', which is incorrect. Only the Japanese full stop should be used at the end of a Japanese sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "時間管理を行うことで学業に負担がかかることが一般的です。.",
+        "correction": "時間管理を行うことで学業に負担がかかることが一般的です。",
+        "description": "There is an unnecessary period at the end of the sentence, resulting in double punctuation. In Japanese, only one full-width period should be used to end a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "時間管理を習得することは、学業に負担をかけることではありません。逆に、それは学習プロセスをスムーズにし、優先順位をつけるのに役立ちます。効率的な学習スキルは、時間を有効活用し、学業の負担を軽減することが期待されます。.",
+        "correction": "時間管理を習得することは、学業に負担をかけることではありません。逆に、それは学習プロセスをスムーズにし、優先順位をつけるのに役立ちます。効率的な学習スキルは、時間を有効活用し、学業の負担を軽減することが期待されます。",
+        "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "継続的な学習は、時間を有効活用することで成功確率が高まる。.",
+        "correction": "継続的な学習は、時間を有効活用することで成功確率が高まる。",
+        "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "継続的な学習を行う際には、時間の管理を優先していくことが、学習プロセスにおいて大きな貢献をします。学習ステップを途切れないように計画し、一貫性を持って取り組むことで、学習成果が向上します。.",
+        "correction": "継続的な学習を行う際には、時間の管理を優先していくことが、学習プロセスにおいて大きな貢献をします。学習ステップを途切れないように計画し、一貫性を持って取り組むことで、学習成果が向上します。",
+        "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "絶対に書かないといけない重要なポイントがあります。.",
+        "correction": "絶対に書かないといけない重要なポイントがあります。",
+        "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ノート取りの目標は、重要な情報を把握し、記憶に定着させることです。重要なポイントを強調することで、学習と記憶の理解を深めます。ただ読まれると、情報の吸収が低下する可能性があります。.",
+        "correction": "ノート取りの目標は、重要な情報を把握し、記憶に定着させることです。重要なポイントを強調することで、学習と記憶の理解を深めます。ただ読まれると、情報の吸収が低下する可能性があります。",
+        "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "勉強時間を1日に集中させることで、学習効率が向上します。.",
+        "correction": "勉強時間を1日に集中させることで、学習効率が向上します。",
+        "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "集中した勉強は脳をより効果的に活用するため、効率が高まります。.",
+        "correction": "集中した勉強は脳をより効果的に活用するため、効率が高まります。",
+        "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "試験の前には、読書をした後に昼食を食べるのが最適です。.",
+        "correction": "試験の前には、読書をした後に昼食を食べるのが最適です。",
+        "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "実際には、試験の前には十分な休息を取ることが認知能力と記憶力を向上させるため、昼食を食べることが推奨されます。必要な栄養素を摂取し、脳の健康をサポートすることが重要です。.",
+        "correction": "実際には、試験の前には十分な休息を取ることが認知能力と記憶力を向上させるため、昼食を食べることが推奨されます。必要な栄養素を摂取し、脳の健康をサポートすることが重要です。",
+        "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "市民は選挙に参加するために自動的に登録される。.",
+        "correction": "市民は選挙に参加するために自動的に登録される。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "市民は自動的に登録される必要はありません。自主的に選択して登録することが許可されています。.",
+        "correction": "市民は自動的に登録される必要はありません。自主的に選択して登録することが許可されています。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "市民は、投票に参加することで、公職者が自分のニーズに応えることができます。.",
+        "correction": "市民は、投票に参加することで、公職者が自分のニーズに応えることができます。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "この文は、選出された公職者が市民のニーズや懸念を考慮することについて正しいです。投票プロセスは民主主義の原則であり、市民が意思決定者に影響を与える権利を持っていることを認識することが重要です。.",
+        "correction": "この文は、選出された公職者が市民のニーズや懸念を考慮することについて正しいです。投票プロセスは民主主義の原則であり、市民が意思決定者に影響を与える権利を持っていることを認識することが重要です。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "州選挙は州知事と州議会議員を選出します。.",
+        "correction": "州選挙は州知事と州議会議員を選出します。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "この文はアメリカの選挙の種類を正確に説明しています。州選挙では、州知事と州議会議員が選出されるという日本の選挙システムとは異なります。.",
+        "correction": "この文はアメリカの選挙の種類を正確に説明しています。州選挙では、州知事と州議会議員が選出されるという日本の選挙システムとは異なります。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アメリカの選挙は市民が参加するための排他的なイベントです。.",
+        "correction": "アメリカの選挙は市民が参加するための排他的なイベントです。",
+        "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only one Japanese full stop (。) should be used at the end of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アメリカの選挙は公開され、市民が自由に参加することができる民主的なプロセスです。この誤解を解消するために、選挙はどのような民主主義の基礎であるかを考えてみてくだ�。",
+        "correction": "アメリカの選挙は公開され、市民が自由に参加することができる民主的なプロセスです。この誤解を解消するために、選挙はどのような民主主義の基礎であるかを考えてみてください。",
+        "description": "The sentence ends with an incomplete word 'くだ�。', which is likely a typographical or encoding error. It should be 'ください。' to complete the polite request. This affects both spelling and comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人工知能は機械が完全に人間のような思考を持つことができます。.",
+        "correction": "人工知能は機械が完全に人間のような思考を持つことができます。",
+        "description": "There is an unnecessary period after the Japanese sentence-ending punctuation (。). In Japanese, only one full-width period should be used to end a sentence. This affects orthographic correctness and should be corrected for proper punctuation usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人工知能（AI）は、人間の知能を模倣するプロセスを実現するために設計されていますが、完全に人間のような思考を持つことはできません。現在の技術では、AIは特定のタスクを効率良く実行する能力を持ち、複雑な問題解決や感情認識のような人間の思考の微妙な側面を完全に理解することはまだできません。.",
+        "correction": "人工知能（AI）は、人間の知能を模倣するプロセスを実現するために設計されていますが、完全に人間のような思考を持つことはできません。現在の技術では、AIは特定のタスクを効率良く実行する能力を持ち、複雑な問題解決や感情認識のような人間の思考の微妙な側面を完全に理解することはまだできません。",
+        "description": "There is an extra period after the Japanese sentence-ending punctuation (。). Only one full-width period should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "狭いAIは、特定のタスクに焦点を当てて設計されていますが、自動車のナビゲーションシステムよりも一般的なタスクには限られていません。狭いAIは通常、スマートホームデバイスや音声アシスタントなどの特定の用途に使用されています。.",
+        "correction": "狭いAIは、特定のタスクに焦点を当てて設計されていますが、自動車のナビゲーションシステムよりも一般的なタスクには限られていません。狭いAIは通常、スマートホームデバイスや音声アシスタントなどの特定の用途に使用されています。",
+        "description": "There is an unnecessary period after the Japanese sentence-ending punctuation (。). In Japanese, only one full-width period should be used to end a sentence. This is an orthographic issue and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "自動運転車は人工知能を使って道路をナビゲートする。.",
+        "correction": "自動運転車は人工知能を使って道路をナビゲートする。",
+        "description": "There is an extra period after the Japanese sentence-ending punctuation (。). Only one full-width period should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "この声明は正しいです。自動運転車はAIを活用して運転のさまざまな側面を支援しています。その中でも、道路をナビゲートする能力はAIの重要な役割の一つです。.",
+        "correction": "この声明は正しいです。自動運転車はAIを活用して運転のさまざまな側面を支援しています。その中でも、道路をナビゲートする能力はAIの重要な役割の一つです。",
+        "description": "There is an unnecessary period after the Japanese sentence-ending punctuation (。). In Japanese, only one full-width period should be used to end a sentence. This is an orthographic issue and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人工知能は機械が人間の知能を完全に取り入れることができる。.",
+        "correction": "人工知能は機械が人間の知能を完全に取り入れることができる。",
+        "description": "There is an extra period after the Japanese sentence-ending punctuation (。). Only one full-width period should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "人工知能は人間の知能を模倣することに焦点を当てていますが、完全に取り入れるという誤解を招く誤解があります。現在のAIは特定のタスクをより効率良く処理することに焦点を当てています。.",
+        "correction": "人工知能は人間の知能を模倣することに焦点を当てていますが、完全に取り入れるという誤解を招く誤解があります。現在のAIは特定のタスクをより効率良く処理することに焦点を当てています。",
+        "description": "There is an unnecessary period after the Japanese sentence-ending punctuation (。). In Japanese, only one full-width period should be used to end a sentence. This is an orthographic issue and should be corrected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "キリスト教はイエス・キリストの教えによって始まりました。.",
+        "correction": "キリスト教はイエス・キリストの教えによって始まりました。",
+        "description": "There is an unnecessary period after the Japanese full stop (。) in the statement. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "イスラム教の五つの柱は、信仰、祈り、断食、慈善、メッカへの巡礼（ハッジ）です。.",
+        "correction": "イスラム教の五つの柱は、信仰、祈り、断食、慈善、メッカへの巡礼（ハッジ）です。",
+        "description": "The statement ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ユダヤ教の祝祭は祈りの儀式と教化の機会として調和を促進します。.",
+        "correction": "ユダヤ教の祝祭は祈りの儀式と教化の機会として調和を促進します。",
+        "description": "There is an unnecessary Western period (.) after the Japanese full stop (。) at the end of the statement. Japanese sentences should only use the full-width period (。) for sentence termination. This is an orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ヒンドゥー教の祝祭は主に肉食を含む食事を伴うものです。.",
+        "correction": "ヒンドゥー教の祝祭は主に肉食を含む食事を伴うものです。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "四つの聖なる真理には、悟りと涅槃が含まれています。.",
+        "correction": "四つの聖なる真理には、悟りと涅槃が含まれています。",
+        "description": "There is an unnecessary Western period (.) after the Japanese full stop (。) at the end of the statement. Japanese sentences should only use the full-width period (。) for sentence termination. This is an orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "キリスト教、イスラム教、ユダヤ教、ヒンドゥー教、仏教の5つの主要な世界宗教は、同一の概念に基づいていません。.",
+        "correction": "キリスト教、イスラム教、ユダヤ教、ヒンドゥー教、仏教の5つの主要な世界宗教は、同一の概念に基づいていません。",
+        "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "シャツ一枚の値段が`20`円で、3枚購入すると合計費用は:\n- `x = 20`（シャツ1枚の値段）  \n- 合計 = `3 * x = 3 * 20 = 60`円",
+        "correction": "シャツ一枚の値段が20円で、3枚購入すると合計費用は:\n- x = 20（シャツ1枚の値段）\n- 合計 = 3 × x = 3 × 20 = 60円",
+        "description": "The use of backticks (`) and asterisk (*) for mathematical notation is not standard in Japanese educational materials. Instead, numbers and variables should be written without backticks, and multiplication should use the multiplication sign (×) rather than an asterisk (*). This improves clarity and aligns with Japanese formatting conventions for math expressions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "オリジナルの作品の著作者に感謝と支払いの形で承認を得るべきです。",
+        "correction": "オリジナルの作品の著作者から許可を得るべきです。",
+        "description": "The phrase '感謝と支払いの形で承認を得るべきです' is unnatural and potentially misleading in Japanese educational context. It suggests that both gratitude and payment are required for permission, which is not always the case for copyright. The standard and culturally appropriate expression is '許可を得るべきです' (should obtain permission). This correction improves clarity and aligns with local norms regarding copyright.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ノンフィクション書は、歴史上の人物の生活についての創作物です。",
+        "correction": "ノンフィクション書は、歴史上の人物の生活についての創作物ではありません。",
+        "description": "The original statement is factually incorrect and may confuse learners about the definition of non-fiction. The correction clarifies that non-fiction works are not fictionalized accounts of historical figures' lives, which is essential for accurate educational content and cultural understanding.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ノンフィクションは完全に架空の世界ではない。",
+        "correction": "ノンフィクションは完全に架空の世界ではありません。",
+        "description": "The original statement is misleading and could cause confusion about the nature of non-fiction. The correction uses the negative polite form to clearly state that non-fiction is not set in a completely fictional world, which is important for educational clarity and cultural appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌏",
+        "correction": "",
+        "description": "The use of the globe emoji '🌏' in educational Japanese content may be considered informal and less appropriate for academic or formal contexts. It is better to avoid emojis in formal lesson introductions to maintain a professional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "NGSS HS-LS1-3で示されているように、これらの記憶テクニックは脳の構造が認知機能をサポートする証拠を提供します。",
+        "correction": "NGSS HS-LS1-3で示されているように、これらの記憶テクニックは脳の構造が認知機能を支えることを示しています。",
+        "description": "The phrase '証拠を提供します' is a direct translation of 'provide evidence,' which is less natural in Japanese educational contexts. '示しています' is more commonly used to express that something demonstrates or shows a relationship, making the statement more natural and culturally appropriate for Japanese learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "記憶の保存を強化するメカニズムです。",
+        "correction": "記憶の定着を強化する仕組みです。",
+        "description": "The term 'メカニズム' is a loanword that can sound technical or unnatural in general Japanese educational content. '仕組み' is a more natural and widely accepted term in this context. Additionally, '定着' is a more precise term for 'retention' in Japanese memory science, improving clarity and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "123-456-7890",
+        "correction": "123-4567-890",
+        "description": "The phone number format '123-456-7890' follows the US convention, which is not appropriate for Japanese learners. Japanese phone numbers typically use formats like 'XXX-XXXX-XXXX' or 'XXX-XXXX-XXX'. Adjusting the example to a Japanese-style number improves cultural relevance and comprehension.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "記憶の力を最大限に活用する秘謀です。",
+        "correction": "記憶の力を最大限に活用する方法です。",
+        "description": "The word '秘謀' means 'secret plot' or 'scheme,' which is inappropriate and unnatural in educational contexts. '方法' (method) is the correct term for describing a technique or strategy in Japanese, ensuring the sentence is culturally appropriate and clear.",
+        "severity": "HIGH"
+      }
+    ]
+  }
+}

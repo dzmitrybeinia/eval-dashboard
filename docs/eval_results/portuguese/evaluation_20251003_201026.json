@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O formador de zonas climáticas é influenciado por vários fatores como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+      "correction": "A formação das zonas climáticas é influenciada por vários fatores, como o aquecimento desigual da Terra, sua rotação e forma, além das correntes oceânicas.",
+      "description": "The original sentence uses 'O formador de zonas climáticas', which is an incorrect lexical choice and does not convey the intended meaning. The correct term is 'A formação das zonas climáticas', which accurately refers to the process of climate zone formation. Additionally, the sentence structure is improved for clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A zona tropical, que é contrastante com regiões como o Deserto do Saara, onde as temperaturas são extremamente baixas.",
+      "correction": "A zona tropical, que contrasta com regiões como o Deserto do Saara, onde as temperaturas são extremamente altas.",
+      "description": "The original sentence incorrectly states that the Sahara Desert has extremely low temperatures, which is factually inaccurate. The correct information is that the Sahara experiences extremely high temperatures. The word 'contrastante' is also less natural than 'contrasta' in this context.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:26.609131",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

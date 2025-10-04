@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Nunca compartas información personal con desconocidos en línea.",
+      "correction": "Nunca compartas información personal con desconocidos en línea.",
+      "description": "The imperative 'Nunca compartas' is correctly formed, but the phrase 'en línea' could be ambiguous for some Spanish-speaking regions where 'en Internet' or 'por Internet' is more common. However, grammatically, the sentence is correct and clear. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Usa sitios web seguros (busca \"https\" en la URL) para ingresar información sensible.",
+      "correction": "Usa sitios web seguros (verifica que la URL comience con \"https\") para ingresar información sensible.",
+      "description": "The phrase 'busca \"https\" en la URL' is understandable but not the most natural or precise way to instruct Spanish-speaking users. 'Verifica que la URL comience con \"https\"' is a more standard and clear instruction in Spanish localization, improving clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Nunca confía en compartir información personal en foros públicos.",
+      "correction": "Nunca confíes en compartir información personal en foros públicos.",
+      "description": "The original uses 'confía' (third person singular) instead of the correct imperative 'confíes' (second person singular, subjunctive). This is both a grammatical and stylistic issue, but the primary category is localization due to the unnatural imperative form. The corrected version uses the appropriate negative imperative, making the advice clear and natural.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡La seguridad en línea es tomar decisiones inteligentes cada vez que navegas!",
+      "correction": "¡La seguridad en línea consiste en tomar decisiones inteligentes cada vez que navegas!",
+      "description": "The phrase 'es tomar decisiones inteligentes' is understandable but less natural in Spanish. 'Consiste en tomar decisiones inteligentes' is a more idiomatic and natural way to express this idea in educational Spanish content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:35:33.364928",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

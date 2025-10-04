@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ao escanear um artigo de notícias sobre um evento recente, você pode procurar os nomes das pessoas envolvidas ou a data e local do evento.",
+      "correction": "Ao escanear um artigo de notícia sobre um evento recente, você pode procurar os nomes das pessoas envolvidas ou a data e o local do evento.",
+      "description": "The phrase 'artigo de notícias' is a lexical inaccuracy; the correct collocation in Brazilian Portuguese is 'artigo de notícia' (singular), as 'notícias' refers to the general concept, while 'artigo' is a single piece. Additionally, 'data e local do evento' should be 'data e o local do evento' to ensure proper coordination and clarity in listing two distinct elements.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ao ler um conto, você pode sublinhar frases que revelam as motivações do protagonista, escrever perguntas sobre trechos confusos e destacar uma frase que antecipe o desfecho.",
+      "correction": "Ao ler um conto, você pode sublinhar frases que revelem as motivações do protagonista, escrever perguntas sobre trechos confusos e destacar uma frase que antecipe o desfecho.",
+      "description": "The verb 'revelam' should be in the subjunctive mood ('revelem') to correctly express a hypothetical or non-specific action following 'frases que', which refers to an indefinite antecedent. This is a common grammatical requirement in Portuguese relative clauses.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "skimming",
+      "correction": "leitura dinâmica",
+      "description": "The term 'skimming' is used throughout the lesson without translation or explanation. While 'skimming' is sometimes used in educational contexts, the more natural and widely understood term in Brazilian Portuguese is 'leitura dinâmica' or 'leitura rápida'. Using the English term without adaptation may reduce accessibility for learners unfamiliar with English jargon.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "scanning",
+      "correction": "leitura seletiva",
+      "description": "The term 'scanning' is presented in English without translation or clarification. In Brazilian Portuguese, 'leitura seletiva' or 'leitura de busca' are more natural and accessible terms for this technique. Relying on the English word may hinder comprehension for learners who do not know the term.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência. 📚",
+      "correction": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência.",
+      "description": "The use of the book emoji (📚) at the end of a formal educational sentence may be considered informal or unprofessional in Brazilian Portuguese academic contexts. Removing the emoji ensures the tone remains consistent and appropriate for an educational setting.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:12:40.024213",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

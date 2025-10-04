@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "族は同じ族に属する元素の数の電子が同じであることによって決まります。. ",
+      "correction": "族は同じ族に属する元素の外殻電子の数が同じであることによって決まります。",
+      "description": "The original sentence incorrectly uses '元素の数の電子' which is grammatically incorrect and semantically unclear. The correct phrase should be '元素の外殻電子の数', meaning 'the number of valence electrons of elements in the same group'. This correction clarifies the scientific meaning and fixes the grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "原子構成は元素の酸素電子数によって決定されます。. ",
+      "correction": "原子構成は元素の原子番号によって決定されます。",
+      "description": "The phrase '酸素電子数' is a linguistic error; it is not a standard scientific term and is confusing in Japanese. The correct term is '原子番号', which refers to the number of protons and defines the atomic structure. This correction addresses both the grammatical and scientific inaccuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "族17の元素は水によく反応し、おそくも酸化されることが多い。. ",
+      "correction": "族17の元素は水とはあまり反応せず、酸化されることが多い。",
+      "description": "The phrase 'おそくも酸化されることが多い' is grammatically incorrect and unnatural in Japanese. The correct expression is '酸化されることが多い'. Additionally, '水によく反応し' is misleading; halogens do not typically react well with water. The correction improves both grammatical accuracy and scientific clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "核電荷が周期によって減少する.",
+      "correction": "核電荷は周期によって増加する。",
+      "description": "The original statement incorrectly claims that nuclear charge decreases across a period, which is scientifically inaccurate. The correct statement is '核電荷は周期によって増加する', meaning 'nuclear charge increases across a period'. This correction addresses both the grammatical and scientific error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:28:12.706716",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

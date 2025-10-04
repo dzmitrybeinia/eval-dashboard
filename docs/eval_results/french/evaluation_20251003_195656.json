@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "USMCA",
+      "correction": "ACEUM",
+      "description": "The acronym 'USMCA' refers to the United States-Mexico-Canada Agreement, which is known in French as 'ACEUM' (Accord Canada–États-Unis–Mexique). Using the English acronym in French educational content is not locally appropriate and may confuse learners. The French acronym should be used for consistency and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les pays dépendent davantage les uns des autres pour des biens, services et ressources.",
+      "correction": "Les pays dépendent davantage les uns des autres pour les biens, les services et les ressources.",
+      "description": "The omission of definite articles before 'biens', 'services', and 'ressources' is a grammatical error in French. In this context, the definite article 'les' should be used for each item to ensure correct agreement and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La popularité mondiale de plats comme le sushi et le taco.",
+      "correction": "La popularité mondiale de plats comme le sushi et les tacos.",
+      "description": "The use of 'le taco' in singular form is not idiomatic in French when referring to the dish in general. The plural 'les tacos' is more natural and aligns with how French speakers refer to this food. This improves the naturalness and cultural appropriateness of the example.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:56:56.726409",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

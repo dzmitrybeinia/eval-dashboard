@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La détection précoces des signes d'étouffement est cruciale.",
+      "correction": "La détection précoce des signes d'étouffement est cruciale.",
+      "description": "The adjective 'précoce' should agree in number with the noun 'détection', which is singular. The original uses 'précoces' (plural), which is incorrect. The correct form is 'précoce' (singular) to match 'détection'. This error affects grammatical agreement and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Cette compréhension des premiers secours peut faire une différence dans une urgence et même sauver des vies.",
+      "correction": "La maîtrise des premiers secours peut faire la différence lors d'une urgence et même sauver des vies.",
+      "description": "The phrase 'cette compréhension des premiers secours' is somewhat unnatural in French and less idiomatic than 'la maîtrise des premiers secours'. Additionally, 'faire une différence dans une urgence' is less natural than 'faire la différence lors d'une urgence'. The correction improves the naturalness and idiomatic expression for a French-speaking audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:56:32.729875",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это пример простой механики, которая упрощает работу с тяжелыми объектами.",
+      "correction": "Это пример простого механизма, который упрощает работу с тяжелыми объектами.",
+      "description": "The phrase uses 'простой механики' (simple mechanics) instead of the correct term 'простого механизма' (simple mechanism). The context refers to a specific device, not the general field of mechanics. This lexical error may confuse learners about the terminology and should be corrected for clarity and accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В повседневной жизни клин используется для точных задач, таких как ношение ножи, гвозди или лопаты, а не для усиления силы.",
+      "correction": "В повседневной жизни клин используется для точных задач, таких как ножи, гвозди или лопаты, а не для усиления силы.",
+      "description": "The word 'ношение' is incorrectly used here. In Russian, 'ношение' means 'carrying' or 'wearing', which does not fit the context. The intended meaning is to list examples of wedges, such as knives, nails, or shovels. Removing 'ношение' corrects the semantic inaccuracy and improves clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это правда, так как рычаги преобразуют малые усилия, прикладываемые на один конце, в большие силы на другой.",
+      "correction": "Это правда, так как рычаги преобразуют малые усилия, прикладываемые к одному концу, в большие силы на другом.",
+      "description": "The phrase 'на один конце' is grammatically incorrect; the correct prepositional phrase is 'к одному концу' (to one end). Similarly, 'на другой' should be 'на другом' (on the other). These errors affect case agreement and prepositional usage, which are critical for grammatical accuracy in Russian.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Наклонная поверхность уменьшает усилие, необходимое для вытаскивания объекта, поскольку вы можете использовать силу, работающую на большую дистанцию, что делает задачу легче, чем подъема вверх.",
+      "correction": "Наклонная плоскость уменьшает усилие, необходимое для подъема объекта, поскольку вы можете использовать силу, действующую на большую дистанцию, что делает задачу легче, чем поднимать объект вверх.",
+      "description": "The term 'наклонная поверхность' is less precise than 'наклонная плоскость', which is the standard term for 'inclined plane' in Russian mechanics. The verb 'вытаскивания' (pulling out) is not appropriate in this context; 'подъема' (lifting) is correct. The phrase 'работающую на большую дистанцию' should be 'действующую на большую дистанцию' for proper collocation. The ending 'чем подъема вверх' is ungrammatical; it should be 'чем поднимать объект вверх'. These lexical and grammatical errors reduce clarity and technical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "В контексте урока не упоминаются силовыми тренайми или конструкционные инструменты, поэтому утверждение не соответствует предоставленной информации.",
+      "correction": "В контексте урока не упоминаются силовые тренажёры или строительные инструменты, поэтому утверждение не соответствует предоставленной информации.",
+      "description": "The terms 'силовыми тренайми' and 'конструкционные инструменты' are unnatural and non-standard in Russian. The correct terms are 'силовые тренажёры' (strength training equipment) and 'строительные инструменты' (construction tools). Using standard terminology improves the naturalness and professionalism of the content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:03:51.999392",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

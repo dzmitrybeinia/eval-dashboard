@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marchi.e.e.",
+      "correction": "Marchi.e.",
+      "description": "The text 'Marchi.e.e.' contains an orthographic error with a duplicated period and an unnatural construction. The correct form should be 'Marchi.e.' if it refers to a specific event, but this term itself is not standard in French or relevant to the Civil Rights Movement. This error affects clarity and may confuse learners about historical facts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "Marchi.e.",
+      "correction": "Marche sur Washington",
+      "description": "The term 'Marchi.e.' is not a recognized event in the context of the Civil Rights Movement and does not correspond to any historical event. The correct reference should be 'Marche sur Washington', which is the well-known march associated with Martin Luther King Jr. This lexical error impacts both comprehension and cultural appropriateness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Loi sur les droits civiques de 1964, qui interdit la discrimination fondée sur la race, la couleur, la religion, la situation de naissance ou l'origine nationale",
+      "correction": "Loi sur les droits civiques de 1964, qui interdit la discrimination fondée sur la race, la couleur, la religion, le sexe ou l'origine nationale",
+      "description": "The phrase 'la situation de naissance' is not the standard terminology used in French legal or historical contexts for the Civil Rights Act of 1964. The correct term is 'le sexe', which matches the original law's language and is widely accepted in French educational and legal discourse. This improves both accuracy and consistency.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:45:26.745522",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

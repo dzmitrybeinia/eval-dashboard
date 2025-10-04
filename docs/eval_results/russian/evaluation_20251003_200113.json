@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В принятии решений важно осознавать предвзятость, поскольку она может подорвать объективное взгляды.",
+      "correction": "В принятии решений важно осознавать предвзятость, поскольку она может подорвать объективные взгляды.",
+      "description": "The phrase 'объективное взгляды' contains a grammatical error: the adjective 'объективное' is in the neuter singular form, while 'взгляды' is a plural noun. The correct form is 'объективные взгляды' to ensure proper agreement in number and case. This error affects clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Проверка того, поддерживает ли информация утверждение, и проверки наличия предвзятости или предвзятых предположений.",
+      "correction": "Проверка того, поддерживает ли информация утверждение, и проверка наличия предвзятости или предвзятых предположений.",
+      "description": "The sentence contains a syntactic inconsistency: 'проверка' is used in the singular in the first part, but 'проверки' (plural) is used in the second part, which disrupts parallel structure. Both actions should be listed in the same grammatical form for clarity and correctness. The corrected version uses 'проверка' in both instances.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Рассказывает ли исследование именно о улучшении концентрации?",
+      "correction": "Посвящено ли исследование именно улучшению концентрации?",
+      "description": "The phrase 'рассказывает ли исследование' is unnatural in Russian academic style, as studies are typically 'посвящены' or 'касаются' a topic, not 'рассказывают' about it. This affects the naturalness and professional tone of the content, making it less appropriate for educational materials.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:13.165065",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

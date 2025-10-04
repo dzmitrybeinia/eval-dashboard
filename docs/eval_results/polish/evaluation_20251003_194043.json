@@ -1,0 +1,155 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni do kilku godzin lub dni",
+      "correction": "zazwyczaj do kilku godzin lub dni",
+      "description": "The word 'zazwyczni' is a spelling error; the correct form is 'zazwyczaj', which means 'usually'. This mistake affects the clarity and professionalism of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "przyswaczalnej",
+      "correction": "przyswajalnej",
+      "description": "The word 'przyswaczalnej' is a lexical error; the correct term is 'przyswajalnej', meaning 'assimilable' or 'easy to absorb'. The incorrect word does not exist in Polish and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "kropelka do oddzielenia kawałków",
+      "correction": "kropka do oddzielenia kawałków",
+      "description": "The word 'kropelka' (droplet) is a spelling and lexical error in this context. The intended word is 'kropka' (dot/period), which is the correct symbol for separating segments. Using 'kropelka' is confusing and not standard in Polish formatting.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Powyższa stwierdzenie przypisywa ona długotrwałej pamięci na miejsce krótkotrwanej, co nie jest dokładne.",
+      "correction": "Powyższe stwierdzenie przypisuje cechy długotrwałej pamięci krótkotrwałej, co nie jest poprawne.",
+      "description": "Multiple grammatical errors: 'Powyższa stwierdzenie' should be 'Powyższe stwierdzenie' (agreement in gender and case); 'przypisywa ona' is incorrect verb conjugation and pronoun usage, should be 'przypisuje cechy'; 'na miejsce krótkotrwanej' is an unnatural phrase, better replaced with 'krótkotrwałej'. These errors significantly reduce clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "krótkotrwanej",
+      "correction": "krótkotrwałej",
+      "description": "The word 'krótkotrwanej' is a spelling error; the correct form is 'krótkotrwałej'. This mistake affects the grammatical correctness and may confuse learners about the term.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczniwuje się",
+      "correction": "zazwyczaj używa się",
+      "description": "The word 'zazwyczniwuje się' is a non-existent and incorrect form. The correct phrase is 'zazwyczaj używa się', meaning 'is usually used'. This error impacts comprehension and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "przyswaczalnej formie",
+      "correction": "przyswajalnej formie",
+      "description": "The word 'przyswaczalnej' is a spelling error; the correct form is 'przyswajalnej'. This mistake affects the clarity and accuracy of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "wzmocnić słowo/koncepcję związki",
+      "correction": "wzmocnić związki słów/koncepcji",
+      "description": "The phrase 'wzmocnić słowo/koncepcję związki' is an incorrect word order and collocation. The correct phrase is 'wzmocnić związki słów/koncepcji', which means 'strengthen word/concept associations'. The error affects clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "żywnych obrazów w umysie",
+      "correction": "żywych obrazów w umyśle",
+      "description": "The phrase 'żywnych obrazów w umysie' contains two errors: 'żywnych' should be 'żywych' (correct adjective form for 'vivid'), and 'umysie' should be 'umyśle' (correct locative case for 'mind'). These errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To skutecznie angażuje centra przetwarzania wizualne",
+      "correction": "To skutecznie angażuje centra przetwarzania wizualnego",
+      "description": "The phrase 'centra przetwarzania wizualne' should be 'centra przetwarzania wizualnego' to maintain correct grammatical agreement. The error affects the precision and professionalism of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jest to powszechne strategia edukacyjna",
+      "correction": "Jest to powszechna strategia edukacyjna",
+      "description": "The adjective 'powszechne' should agree in gender with 'strategia', which is feminine, so it should be 'powszechna'. This error affects grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni używana jest wielokrotnie z odstępami",
+      "correction": "zazwyczaj używana jest wielokrotnie z odstępami",
+      "description": "The word 'zazwyczni' is a spelling error; the correct form is 'zazwyczaj'. This mistake affects clarity and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "czasiem nauki",
+      "correction": "czasem nauki",
+      "description": "The word 'czasiem' is a spelling error; the correct form is 'czasem'. This mistake affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "zwięksić procesy poznawcze",
+      "correction": "zwiększyć procesy poznawcze",
+      "description": "The verb 'zwięksić' is incorrect; the correct form is 'zwiększyć', meaning 'to increase'. This error affects the clarity and accuracy of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "lepszą gromadzeniem pamięci",
+      "correction": "lepszym gromadzeniem pamięci",
+      "description": "The phrase 'lepszą gromadzeniem pamięci' is incorrect; the correct form is 'lepszym gromadzeniem pamięci', ensuring proper case and agreement. This error affects grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "a nie z konieczności wymagającej",
+      "correction": "a nie z konieczności wymagającej dodatkowego wysiłku",
+      "description": "The phrase 'a nie z konieczności wymagającej' is incomplete and unclear. It should be 'a nie z konieczności wymagającej dodatkowego wysiłku' to clarify the meaning. The error affects clarity and completeness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:40:43.622439",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 5.6,
+    "classification": "POOR",
+    "total_issues": 16,
+    "total_penalty": 4.4,
+    "issue_breakdown": {
+      "linguistic": 16,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 4.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

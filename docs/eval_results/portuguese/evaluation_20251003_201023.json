@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Dr. King foi uma figura proeminente nos anos 60, defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
+      "correction": "Dr. King foi uma figura proeminente nos anos 60, defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
+      "description": "The word 'boatos' in Portuguese means 'rumors', which is incorrect in this context. The intended meaning is 'peaceful protests', which should be translated as 'protestos pacíficos'. This lexical error significantly alters the meaning and could confuse learners about Dr. King's methods.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:23.622598",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

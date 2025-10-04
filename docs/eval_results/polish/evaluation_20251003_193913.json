@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Przewszczenie niewinnych złotej płynki podczas gotowania może prowadzić do pożaru.",
+      "correction": "Przewrócenie niewinnie złotej płynki podczas gotowania może prowadzić do pożaru.",
+      "description": "The word 'Przewszczenie' is a misspelling and should be 'Przewrócenie' to correctly convey 'spilling' or 'overturning'. 'niewinnych złotej płynki' is an unnatural phrase; 'niewinnie złotej płynki' is more idiomatic, but the whole phrase is awkward and should be clarified for better comprehension. The sentence structure is also unnatural, but the primary issue is the spelling error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Niepilnowane płomień lub płomień złotej płynki przyniesione przez niewinne działanie może powstać, co zwiększa ryzyko pożarów.",
+      "correction": "Niepilnowany płomień lub płomień powstały przez przypadkowe działanie może zwiększyć ryzyko pożaru.",
+      "description": "The phrase 'Niepilnowane płomień' is grammatically incorrect; 'płomień' is masculine singular and requires 'niepilnowany'. The phrase 'płomień złotej płynki przyniesione przez niewinne działanie' is ungrammatical and unclear. The sentence should be restructured for clarity and correct case and gender agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Regularne konserwacje sprzętu elektrycznego mogą zmniejszyć ryzyko pożaru zapłonowego.",
+      "correction": "Regularna konserwacja sprzętu elektrycznego może zmniejszyć ryzyko pożaru.",
+      "description": "The plural 'konserwacje' is less natural in Polish; 'konserwacja' (singular, collective) is preferred. 'pożaru zapłonowego' is not a standard collocation in Polish; simply 'pożaru' is sufficient and more idiomatic.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest rzeczowań. Gdy pojawia się pożar, kluczowe działanie to zdawać alarm dzwonu straży pożarnej, aby wszyscy wokół mogli się ukszczeniać.",
+      "correction": "To jest prawda. Gdy pojawia się pożar, kluczowe działanie to zaalarmować straż pożarną, aby wszyscy wokół mogli się ewakuować.",
+      "description": "The word 'rzeczowań' is incorrect and should be 'prawda'. The phrase 'zdawać alarm dzwonu straży pożarnej' is ungrammatical and unnatural; 'zaalarmować straż pożarną' is correct. 'ukszczeniać' is not a Polish word; 'ewakuować' is the correct term for 'evacuate'. Multiple grammar and lexical errors are present.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Planowanie ewakuacji i szkolenie na sytuacjach awaryjnych poprawia odpowiedź na potrzeby bezpieczeństwa.",
+      "correction": "Planowanie ewakuacji i szkolenia na sytuacje awaryjne poprawiają reakcję na potrzeby bezpieczeństwa.",
+      "description": "The phrase 'szkolenie na sytuacjach awaryjnych' is incorrect; 'szkolenia na sytuacje awaryjne' is the proper form. 'poprawia odpowiedź' should be 'poprawiają reakcję' to match the plural subject and use the correct collocation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Strażacy nigdy nie używają paliwek podczas rozprzestrzeniania się pożaru.",
+      "correction": "Strażacy nigdy nie używają paliw podczas rozprzestrzeniania się pożaru.",
+      "description": "The word 'paliwek' is incorrect; the proper term is 'paliw'. 'Paliwek' is a diminutive and not appropriate in this context. The rest of the sentence is grammatically correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Strażacy, w zależności od sytuacji, mogą używać paliw do ochrony lub ewentualnie do ustabilizowania pojazdu, jeśli jest to konieczne.",
+      "correction": "Strażacy, w zależności od sytuacji, mogą używać paliw do ochrony lub ewentualnie do ustabilizowania pojazdu, jeśli to konieczne.",
+      "description": "The phrase 'jeśli jest to konieczne' is grammatically correct, but 'jeśli to konieczne' is more concise and natural in Polish. The rest of the sentence is acceptable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Kluczowe jest, aby być zorganizowanym i wiedzieć, kiedy i jak używać paliwa, zawsze zgodnie z procedurami bezpieczeństwa i przepisanymi przepisami.",
+      "correction": "Kluczowe jest, aby być zorganizowanym i wiedzieć, kiedy i jak używać paliwa, zawsze zgodnie z procedurami bezpieczeństwa i obowiązującymi przepisami.",
+      "description": "The phrase 'przepisanymi przepisami' is incorrect; 'obowiązującymi przepisami' is the standard collocation for 'applicable regulations'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przypomnienie, że każdy ma rolę w bezpieczeństwie przeciwpożarowym, jest kluczowe dla utrzymania bezpiecznej środowiska.",
+      "correction": "Przypomnienie, że każdy ma rolę w bezpieczeństwie przeciwpożarowym, jest kluczowe dla utrzymania bezpiecznego środowiska.",
+      "description": "The phrase 'bezpiecznej środowiska' is incorrect due to gender agreement; 'środowisko' is neuter, so 'bezpiecznego środowiska' is correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest prawda, ponieważ aktywne zaangażowanie jednostek w środowisku bezpieczeństwa przeciwpożarowego jest fundamentalnie konieczne dla skutecznego śledzenia i implementacji procedur bezpieczeństwa.",
+      "correction": "To jest prawda, ponieważ aktywne zaangażowanie jednostek w bezpieczeństwo przeciwpożarowe jest fundamentalnie konieczne dla skutecznego wdrażania procedur bezpieczeństwa.",
+      "description": "The phrase 'w środowisku bezpieczeństwa przeciwpożarowego' is awkward and unidiomatic; 'w bezpieczeństwo przeciwpożarowe' is more natural. 'implementacji' is an anglicism; 'wdrażania' is the proper Polish term.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:39:13.311674",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.6,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.4,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

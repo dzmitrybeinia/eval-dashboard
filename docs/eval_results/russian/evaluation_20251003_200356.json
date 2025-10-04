@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Ракеты легко преодожают препятствия при выходе в космос.",
+      "correction": "Ракеты легко преодолевают препятствия при выходе в космос.",
+      "description": "The verb 'преодожают' is misspelled; the correct form is 'преодолевают'. This is a critical spelling error that affects comprehension and the grammatical correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Это утверждение неверно, потому что выход в космос представляет сложные проблемы, которые ракеты должны преодогнуть. Например, ракетам необходимо справиться с огромной силой тяги для преодожения атмосферы Земли и достижения нужной скорости, а также с экстремальными условиями, такими как высокие температуры и давление.",
+      "correction": "Это утверждение неверно, потому что выход в космос представляет сложные проблемы, которые ракеты должны преодолеть. Например, ракетам необходимо справиться с огромной силой тяги для преодоления атмосферы Земли и достижения нужной скорости, а также с экстремальными условиями, такими как высокие температуры и давление.",
+      "description": "There are two spelling errors: 'преодогнуть' should be 'преодолеть', and 'преодожения' should be 'преодоления'. Both errors affect the grammatical form and clarity of the feedback, making the text difficult to understand.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ракеты действительно используют содержимое, которое называется 'тратируемым топливом', чтобы создавать силу, которая преодолевает атмосферную силу Земли.",
+      "correction": "Ракеты действительно используют топливо, которое называется 'реактивным топливом', чтобы создавать тягу, которая преодолевает атмосферу Земли.",
+      "description": "The term 'тратируемым топливом' is incorrect and unnatural in Russian; the standard term is 'реактивное топливо'. Additionally, 'создавать силу' is not precise in this context; 'создавать тягу' is the correct technical term. The phrase 'атмосферную силу Земли' is also awkward; 'атмосферу Земли' is more accurate and natural.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это позволяет космическим шатлам и ракетам достигать высот, где могут работать на космос.",
+      "correction": "Это позволяет космическим шатлам и ракетам достигать высот, где они могут функционировать в космосе.",
+      "description": "The phrase 'работать на космос' is unnatural and semantically incorrect in Russian. The correct expression is 'функционировать в космосе', which accurately conveys the intended meaning.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:03:56.301259",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

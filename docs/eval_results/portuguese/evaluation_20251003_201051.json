@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ele atua como um plano para construir e manter a vida",
+      "correction": "ele atua como um plano mestre para construir e manter a vida",
+      "description": "The word 'plano' is ambiguous in this context and may not clearly convey the concept of a 'master plan' or 'blueprint' as intended in scientific discourse. 'Plano mestre' is a more precise term in Brazilian Portuguese for describing DNA as the master blueprint for life, improving clarity and lexical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A estrutura do DNA é um formato de dupla hélice, semelhante a uma escada torcida.",
+      "correction": "A estrutura do DNA é uma dupla hélice, semelhante a uma escada torcida.",
+      "description": "The phrase 'um formato de dupla hélice' is unnatural in Brazilian Portuguese scientific writing. The more natural and standard expression is 'uma dupla hélice'. This correction improves the style and naturalness of the text for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "adenina se conecta com timina (A-T) e citosina com guanina (C-G), mantidos juntos por ligações de hidrogênio.",
+      "correction": "adenina se conecta à timina (A-T) e citosina à guanina (C-G), mantidas juntas por ligações de hidrogênio.",
+      "description": "There are two issues: (1) The preposition 'com' should be replaced by 'à' with crase to indicate correct pairing ('se conecta à timina'). (2) The participle 'mantidos' should agree in gender and number with 'bases' (feminine plural), so it should be 'mantidas juntas'. This correction addresses both grammatical agreement and proper use of crase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A replicação é \"semi-conservativa\", pois cada nova molécula contém uma fita original e uma recém-sintetizada.",
+      "correction": "A replicação é semiconservativa, pois cada nova molécula contém uma fita original e uma recém-sintetizada.",
+      "description": "The term 'semi-conservativa' is commonly written as 'semiconservativa' in Brazilian Portuguese scientific literature, without a hyphen or quotation marks. This correction ensures the use of standard terminology and improves consistency with local scientific conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A dupla hélice, formada por pares de bases complementares, garante que cada nova molécula de DNA seja uma exata réplica da original.",
+      "correction": "A dupla hélice, formada por pares de bases complementares, garante que cada nova molécula de DNA seja uma réplica exata da original.",
+      "description": "The phrase 'uma exata réplica' is an incorrect word order in Portuguese. The adjective 'exata' should follow the noun 'réplica' ('uma réplica exata'), which is the standard syntactic structure for attributive adjectives in Portuguese.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:51.935431",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

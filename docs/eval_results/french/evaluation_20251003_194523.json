@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+      "correction": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, et non d'une digestion dans des glandes.",
+      "description": "The original sentence inaccurately describes plant digestion as occurring in 'glandes', which is misleading and not scientifically correct. Plants do not have digestive glands; instead, they absorb nutrients through different mechanisms. This is a cultural and scientific localization issue, as it may confuse learners about plant biology. The correction clarifies the distinction between animal digestion and plant nutrient absorption.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "description": "The verb 'collant' is not the appropriate scientific term in French for describing how ribosomes form proteins. The correct verb is 'assembler', which is precise and commonly used in biology. This is a lexical and grammatical issue affecting the accuracy and professionalism of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+      "correction": "Les vacuoles des cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+      "description": "The phrase 'en taille et fonction' lacks the necessary preposition 'en' before 'fonction', which is required for parallel structure in French. This is a minor terminology and style issue, as it affects the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Les organites collaborent pour maintenir le fonctionnement global de la cellule :",
+      "correction": "Les organites collaborent afin de maintenir le fonctionnement global de la cellule :",
+      "description": "The use of 'pour' is acceptable, but 'afin de' is more formal and appropriate for educational scientific content in French. This is a style issue that improves the register and professionalism of the text.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:45:23.466656",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

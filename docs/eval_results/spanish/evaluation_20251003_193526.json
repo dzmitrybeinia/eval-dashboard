@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "EE. UU.",
+      "correction": "Estados Unidos",
+      "description": "The abbreviation 'EE. UU.' for 'Estados Unidos' is correct in Spanish, but in educational content for a general audience, especially younger learners or those unfamiliar with abbreviations, it is clearer and more culturally appropriate to use the full name 'Estados Unidos'. This avoids confusion and ensures accessibility for all readers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "agua (hidroenergía)",
+      "correction": "agua (energía hidroeléctrica)",
+      "description": "The term 'hidroenergía' is not standard in Spanish; the correct term is 'energía hidroeléctrica' when referring to renewable energy generated from water. This correction ensures proper technical terminology and clarity for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍",
+      "correction": "",
+      "description": "The use of the globe emoji '🌍' in educational content may be considered informal and not suitable for all audiences, especially in formal or academic contexts. It is recommended to remove the emoji to maintain a professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "agua dulce: distribución desigual, algunas regiones enfrentan escasez.",
+      "correction": "Agua dulce: su distribución es desigual; algunas regiones enfrentan escasez.",
+      "description": "The original sentence lacks proper subject reference and punctuation, making it less clear. Adding 'su distribución es desigual' clarifies the subject and improves sentence structure. The use of a semicolon or period separates the ideas more effectively.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El uso excesivo o el desperdicio pueden llevar a la escasez.",
+      "correction": "El uso excesivo o el desperdicio pueden provocar escasez.",
+      "description": "While 'llevar a la escasez' is understandable, 'provocar escasez' is a more precise and natural collocation in Spanish for educational contexts. This improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Esta afirmación es verdadera porque la energía solar y eólica son fuentes de energía renovable que se pueden reabastecer naturalmente, a diferencia de los combustibles fósiles que se agotan con el uso.",
+      "correction": "Esta afirmación es correcta porque la energía solar y eólica son fuentes de energía renovable que pueden reabastecerse naturalmente, a diferencia de los combustibles fósiles que se agotan con el uso.",
+      "description": "The phrase 'es verdadera' is less idiomatic in Spanish for this context; 'es correcta' is preferred when confirming the accuracy of a statement. Additionally, 'pueden reabastecerse' is the correct reflexive form for the verb in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "plantar árboles para reemplazar los que se talan.",
+      "correction": "plantar árboles para reemplazar aquellos que han sido talados.",
+      "description": "The phrase 'los que se talan' is grammatically correct but less precise. 'Aquellos que han sido talados' clarifies that the trees have already been cut down, improving the accuracy and clarity of the statement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "tecnologías eficientes: desarrollar tecnologías que requieran menos recursos.",
+      "correction": "tecnologías eficientes: desarrollar tecnologías que requieran menos recursos naturales.",
+      "description": "Specifying 'recursos naturales' instead of just 'recursos' provides greater clarity and precision, ensuring learners understand the context refers specifically to natural resources.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Apoyar iniciativas globales como el Acuerdo de París para combatir el cambio climático.",
+      "correction": "Apoyar iniciativas globales como el Acuerdo de París para combatir el cambio climático y otras acciones locales relevantes.",
+      "description": "While referencing the Paris Agreement is globally relevant, adding 'y otras acciones locales relevantes' makes the content more inclusive and culturally appropriate for Spanish-speaking regions, encouraging learners to consider both global and local conservation efforts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:35:26.408570",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 9,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

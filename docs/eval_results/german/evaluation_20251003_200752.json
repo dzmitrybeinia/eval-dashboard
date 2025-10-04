@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Jeder Zweig hat spezifische Rollen und Verantwortlichkeiten, und zusammen bilden sie ein System von „Checks and Balances“, das sicherstellt, dass keine Zweig zu mächtig wird.",
+      "correction": "Jeder Zweig hat spezifische Rollen und Verantwortlichkeiten, und zusammen bilden sie ein System von „Checks and Balances“, das sicherstellt, dass kein Zweig zu mächtig wird.",
+      "description": "The phrase 'keine Zweig' incorrectly uses the feminine article 'keine' with the masculine noun 'Zweig'. The correct form is 'kein Zweig', matching the gender and case. This is a grammatical error affecting noun-article agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauptseteiglich",
+      "correction": "hauptsächlich",
+      "description": "The word 'hauptseteiglich' is a misspelling and does not exist in German. The intended word is 'hauptsächlich', meaning 'primarily'. This spelling error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "In Deutschland ist die Anzahl der Senatoren nicht festgelegt und variiert je nach Bundesland. Im Gegensatz zur Struktur der US-Regierung, wo es genau zwei Senatoren pro Bundesstaat gibt, gibt es in Deutschland keine direkte Entsprechung in der Bundespolitik.",
+      "correction": "Im Senat der Vereinigten Staaten hat jeder Bundesstaat genau zwei Senatoren, unabhängig von der Bevölkerungszahl. In Deutschland gibt es keine direkte Entsprechung zum US-Senat in der Bundespolitik.",
+      "description": "The feedback introduces information about the German political system, which is irrelevant and potentially confusing in the context of a lesson about the US government. For localization, the explanation should focus solely on the US system to maintain clarity and educational focus.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Der Präsident von Deutschland, ähnlich wie der Präsident der Vereinigten Staaten, hat die Macht, Gesetze des Parlaments zu blockieren.",
+      "correction": "Der Präsident der Vereinigten Staaten kann Gesetze des Kongresses durch ein Veto blockieren.",
+      "description": "This sentence incorrectly compares the powers of the German and US presidents, which may mislead learners about the German system. For localization, the feedback should only reference the US president's veto power, as the German president does not have an equivalent role.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure_1.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:07:52.103006",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variable Zuweisung",
+      "correction": "Variablenzuweisung",
+      "description": "The term 'Variable Zuweisung' is incorrect due to improper compound noun formation in German. The correct form is 'Variablenzuweisung', which combines 'Variable' and 'Zuweisung' into a single compound noun, following German orthographic rules. This correction improves both linguistic accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Python ist eine hochentwickelte, allgemeine Programmiersprache, die 1991 von Guido van Rossum entwickelt wurde.",
+      "correction": "Python ist eine leistungsfähige, universelle Programmiersprache, die 1991 von Guido van Rossum entwickelt wurde.",
+      "description": "The phrase 'hochentwickelte, allgemeine Programmiersprache' is not idiomatic in German technical contexts. 'Leistungsfähige, universelle Programmiersprache' is the more natural and commonly used terminology in German educational and technical materials. This correction enhances the professional tone and aligns with local expectations.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Variable",
+      "correction": "Variable",
+      "description": "The word 'Variable' is correctly capitalized as a noun in German. No correction needed, but this confirms adherence to German noun capitalization rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Python ist eine der beliebtesten Programmiersprachen der Welt.",
+      "correction": "Python ist eine der beliebtesten Programmiersprachen weltweit.",
+      "description": "The phrase 'der Welt' is grammatically correct but 'weltweit' is more concise and commonly used in German educational and technical contexts. This change improves the naturalness and style of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Nutzen Sie die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten.",
+      "correction": "Nutzen Sie die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenwirken.",
+      "description": "The verb 'zusammenarbeiten' is typically used for people or organizations, not for abstract concepts like variables and data types. 'Zusammenwirken' is the more appropriate and natural choice in this context, improving the style and clarity for German learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Python ist eine Programmiersprache, die vor allem für ihre komplexe Syntax bekannt ist.",
+      "correction": "Python ist eine Programmiersprache, die vor allem für ihre einfache Syntax bekannt ist.",
+      "description": "The statement incorrectly claims that Python is known for its complex syntax, which is factually and linguistically inaccurate. The correct description is 'einfache Syntax', as Python is renowned for its simplicity. This correction addresses both factual accuracy and proper adjective use.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Mit Python sind die Möglichkeiten endlos!",
+      "correction": "Mit Python sind die Möglichkeiten unbegrenzt!",
+      "description": "The phrase 'die Möglichkeiten endlos' is a direct translation from English ('endless possibilities') and sounds unnatural in German. 'Unbegrenzt' is the idiomatic and culturally appropriate term in German educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Python ist eine dynamische Typisierungssprache, was bedeutet, dass die Typisierung des Wertes einer Variablen zur Laufzeit bestimmt wird.",
+      "correction": "Python ist eine dynamisch typisierte Sprache, was bedeutet, dass der Typ des Wertes einer Variablen zur Laufzeit bestimmt wird.",
+      "description": "The term 'dynamische Typisierungssprache' is not standard in German; 'dynamisch typisierte Sprache' is the correct technical term. Additionally, 'Typisierung des Wertes' should be 'Typ des Wertes' for clarity and accuracy. This correction improves both technical terminology and grammatical precision.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:06:23.133645",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

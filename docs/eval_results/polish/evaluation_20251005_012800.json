@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Egipt nie był ozdobiony żarowiami, które odgrywały znaczną rolę w jego rozwoju.",
+      "correction": "Egipt nie był ozdobiony żarowcami, które odgrywały znaczną rolę w jego rozwoju.",
+      "description": "The word 'żarowiami' is a lexical error; it is not a valid Polish word and does not correspond to any known concept in the context of ancient Egypt. The intended term is likely 'żarowcami', but even this is not standard in Polish historical terminology. The sentence is misleading and should be revised for clarity and accuracy. The primary issue is incorrect word choice, which affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W starożytnym Egipsku dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+      "correction": "W starożytnym Egipcie dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+      "description": "The phrase 'W starożytnym Egipsku' uses the incorrect case and form for the country name. The correct locative case is 'Egipcie'. This is a grammatical error affecting noun case usage, which is critical in Polish.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "żarowce",
+      "correction": "świątynie",
+      "description": "The term 'żarowce' does not exist in Polish and is not related to ancient Egyptian structures. The correct term for places of worship and protective structures in ancient Egypt is 'świątynie' (temples) or 'budowle obronne' (defensive structures). This lexical error leads to confusion and misrepresentation of historical facts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Hieroglify, znany również jako hieroglify, był systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych.",
+      "correction": "Hieroglify, znane również jako hieroglify, były systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych.",
+      "description": "The sentence incorrectly uses the singular form 'znany' and 'był' with the plural noun 'hieroglify'. The correct forms are 'znane' and 'były'. This is a grammatical error in gender and number agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "poniewaćż",
+      "correction": "ponieważ",
+      "description": "The word 'poniewaćż' is a spelling error; the correct spelling is 'ponieważ'. This affects readability and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "było ono skomplikowane i szybkie do nauczania.",
+      "correction": "było ono skomplikowane i trudne do nauczenia.",
+      "description": "The phrase 'szybkie do nauczania' is grammatically incorrect and semantically illogical in Polish. The intended meaning is 'difficult to learn', which should be 'trudne do nauczenia'. This is both a grammatical and lexical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i przeznaczeń.",
+      "correction": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i tradycji.",
+      "description": "The word 'przeznaczeń' is not appropriate in this context; 'tradycji' (traditions) is the correct term. The sentence also suffers from redundancy in 'przekazywania przekazywania'. The primary issue is incorrect word choice and awkward phrasing.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Egipcjanie używali rzemion do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+      "correction": "Egipcjanie używali narzędzi do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+      "description": "The word 'rzemion' refers to leather straps or thongs, not tools. The correct term in this context is 'narzędzi' (tools). This is a lexical error that misleads the reader about the methods used by ancient Egyptians.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "złote kule",
+      "correction": "złote ozdoby",
+      "description": "The phrase 'złote kule' (golden balls) is not culturally or historically accurate for ancient Egypt. Egyptians are known for creating 'złote ozdoby' (golden ornaments) such as jewelry, amulets, and decorative items. This is a localization issue affecting cultural appropriateness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T01:28:00.094736",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

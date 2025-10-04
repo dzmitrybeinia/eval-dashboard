@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de les métaux alcalins et les métaux alcalino-terreux, ont des configurations électroniques différentes.",
+      "correction": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de métaux alcalins et de métaux alcalino-terreux, ont des configurations électroniques différentes.",
+      "description": "The phrase 'sous le nom de les métaux alcalins et les métaux alcalino-terreux' contains an incorrect use of the definite article 'les' after 'de', which should contract to 'de' before a plural noun. The correct form is 'de métaux alcalins et de métaux alcalino-terreux'. This error affects grammatical agreement and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cela est dû au fait que, à mesure que vous progressez dans une période, les couches électroniques ajoutées contiennent plus d'électrons, ce qui entraîne une augmentation de la répulsion électronique interne et une diminution de la taille atomique globale.",
+      "correction": "Cela est dû au fait que, à mesure que vous progressez dans une période, la charge nucléaire augmente, ce qui attire les électrons plus fortement et diminue la taille atomique globale.",
+      "description": "The explanation incorrectly states that added electron shells increase internal electron repulsion, leading to a decrease in atomic size. In reality, atomic size decreases across a period because the nuclear charge increases, pulling electrons closer. The original wording is misleading and semantically inaccurate.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:43.586084",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

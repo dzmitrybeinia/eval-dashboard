@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "висцепта",
+      "correction": "височная кора",
+      "description": "The word 'висцепта' is not a valid Russian term and appears to be a misspelling or incorrect transliteration. The correct term for the relevant brain region involved in memory encoding is 'височная кора' (temporal cortex). This lexical error could confuse learners and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "123-456-7890",
+      "correction": "8 (123) 456-78-90",
+      "description": "The phone number format '123-456-7890' follows the North American convention, which is not culturally appropriate for Russian educational content. Russian phone numbers typically use the format '8 (XXX) XXX-XX-XX'. Adapting the example to the local format improves cultural relevance and learner comprehension.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:03:04.980631",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

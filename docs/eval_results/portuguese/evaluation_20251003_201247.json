@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Quanto maior a inclinação de um plano inclinado, menos força é necessária para mover um objeto para cima.",
+      "correction": "Quanto menor a inclinação de um plano inclinado, menos força é necessária para mover um objeto para cima.",
+      "description": "The statement incorrectly claims that a greater inclination requires less force, which is a factual and linguistic error. In reality, the smaller the angle of inclination, the less force is needed to move an object upward. The correction reflects the accurate physical principle and proper grammatical construction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A vantagem mecânica das rodas com eixos é reduzir a força necessária para mover objetos ao permitir que eles rolem em vez de deslizar.",
+      "correction": "A vantagem mecânica das rodas com eixos é reduzir a força necessária para mover objetos, pois elas permitem que os objetos rolem em vez de deslizar.",
+      "description": "The original sentence is understandable but slightly unnatural in Brazilian Portuguese due to the use of 'ao permitir que eles rolem em vez de deslizar.' The correction improves the flow and naturalness by clarifying the causal relationship and using a more idiomatic structure.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Exemplos incluem mastros de bandeira, guindastes e varais.",
+      "correction": "Exemplos incluem mastros de bandeiras, guindastes e varais.",
+      "description": "The noun 'bandeira' should be in the plural form 'bandeiras' to agree with 'mastros,' which is also plural. This correction ensures proper number agreement and orthographic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A vantagem mecânica dos parafusos é distribuir a força ao longo das roscas, reduzindo o esforço necessário.",
+      "correction": "A vantagem mecânica dos parafusos é multiplicar a força aplicada ao longo das roscas, reduzindo o esforço necessário.",
+      "description": "The term 'distribuir a força' is not technically precise in the context of mechanical advantage. The correct terminology is 'multiplicar a força aplicada,' which better reflects the mechanical principle and is more commonly used in educational materials in Brazil.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A alavanca é, de fato, uma máquina simples que pode ajudar a levantar pesos pesados, mas não necessariamente reduzir o esforço necessário para levantar um peso muito maior do que o próprio peso.",
+      "correction": "A alavanca é, de fato, uma máquina simples que pode ajudar a levantar pesos pesados, mas não necessariamente reduz o esforço necessário para levantar um peso muito maior do que o próprio peso.",
+      "description": "The verb 'reduzir' should be conjugated as 'reduz' to agree with the subject 'a alavanca.' This correction ensures proper verb conjugation and grammatical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:12:47.675872",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

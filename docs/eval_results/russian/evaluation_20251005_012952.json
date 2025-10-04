@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "description": "The word 'Нерешённые' is spelled correctly with the letter 'ё', which is standard in educational and formal contexts. However, in Russian publishing, 'ё' is often replaced with 'е', which can lead to ambiguity. For educational clarity, especially for learners, it is preferable to retain 'ё'. No correction needed, but ensure consistency in using 'ё' throughout the content for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сделайте глубокий вдох, если эмоции накаляются.",
+      "correction": "Сделайте глубокий вдох, если эмоции накаляются.",
+      "description": "The phrase 'Сделайте глубокий вдох, если эмоции накаляются.' is culturally appropriate and natural in Russian, but the imperative form 'Сделайте' is formal. If the lesson is intended for a younger audience or informal setting, consider using 'Сделай' for a more approachable tone. Otherwise, the current form is suitable for formal or mixed-age educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Используйте «Я»-утверждения:",
+      "correction": "Используйте «Я»-высказывания:",
+      "description": "The term '«Я»-утверждения' is a literal translation of 'I-statements', but in Russian educational and psychological literature, '«Я»-высказывания' is the more commonly accepted and natural term. Using the standard terminology improves clarity and aligns with local professional usage.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T01:29:52.928803",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

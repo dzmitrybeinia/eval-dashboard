@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной охладной температуры.",
+      "correction": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной низкой температуры.",
+      "description": "The word 'охладной' is not a correct Russian adjective; the proper term is 'низкой' to describe temperature. This lexical error affects clarity and naturalness. The sentence should use 'низкой температуры' to convey the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Амазонские тропические леса",
+      "correction": "Амазонские дождевые леса",
+      "description": "The phrase 'Амазонские тропические леса' is less precise than 'Амазонские дождевые леса', which is the standard term in Russian for the Amazon rainforest. This improves lexical precision and aligns with common usage in educational and scientific contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Охлаждение летом",
+      "correction": "Охлаждение летом",
+      "description": "The phrase 'охлаждение летом' is acceptable, but in Russian, a more natural expression would be 'кондиционирование воздуха летом' or 'использование кондиционеров летом'. This would better reflect common terminology and practices in Russian-speaking regions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "медведи и пингвины",
+      "correction": "белые медведи и пингвины",
+      "description": "The phrase 'медведи и пингвины' is imprecise, as only polar bears ('белые медведи') inhabit the Arctic, and only penguins inhabit the Antarctic. The correction clarifies the specific animals adapted to polar regions, improving scientific accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "картофель может расти летом",
+      "correction": "некоторые культуры, такие как картофель, могут расти летом",
+      "description": "The original phrase implies that only potatoes can grow in polar regions during summer, which is misleading. The correction broadens the statement to include other possible crops, improving accuracy and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Океаническое течение, такое как Гольфстрим, делает климат Западной Европы мягче, чем в других местах на той же широте.",
+      "correction": "Океаническое течение, такое как Гольфстрим, делает климат Западной Европы более мягким, чем в других местах на той же широте.",
+      "description": "The word 'мягче' is less precise in this context; 'более мягким' is the correct comparative form for describing climate in Russian. This correction improves grammatical and lexical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения на Земле не влияют на климат.",
+      "correction": "Океанические течения на Земле не влияют на климат.",
+      "description": "The term 'вездовые течения' is incorrect and not used in Russian. The correct term is 'океанические течения'. This lexical error significantly affects comprehension and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения, такие как теплоидные течения и холодоносные течения, играют значительную роль в формировании климатических условий.",
+      "correction": "Океанические течения, такие как теплые и холодные течения, играют значительную роль в формировании климатических условий.",
+      "description": "The terms 'вездовые течения', 'теплоидные течения', and 'холодоносные течения' are not standard in Russian. The correct terms are 'океанические течения', 'теплые течения', and 'холодные течения'. This correction ensures scientific and lexical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:00:55.702862",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

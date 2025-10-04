@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zuzufügen.",
+      "correction": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem preiszugeben.",
+      "description": "The phrase 'niemandem zuzufügen' is a lexical error; 'zufügen' means 'to inflict' and is not appropriate in this context. The intended meaning is 'not to disclose to anyone.' The correct verb is 'preisgeben' or 'weitergeben.' This error affects comprehension and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Obwohl die Teilung von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenzielle Gefahren zu verstehen.",
+      "correction": "Obwohl das Teilen von Informationen online manchmal sinnvoll sein kann, ist es wichtig, die Sensibilität und potenziellen Gefahren zu verstehen.",
+      "description": "The use of 'Teilung' is unnatural in German for this context; 'das Teilen' is the standard term for sharing information online. Additionally, 'potenzielle Gefahren' should be 'potenziellen Gefahren' for grammatical agreement. The sentence is stylistically awkward and should be rephrased for naturalness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das Teilen von persönlichen Daten sollte mit Vorsicht geschehen, besonders wenn es um sensible Informationen geht.",
+      "correction": "Das Teilen persönlicher Daten sollte mit Vorsicht geschehen, besonders wenn es um sensible Informationen geht.",
+      "description": "The phrase 'von persönlichen Daten' is grammatically incorrect; the genitive 'persönlicher Daten' is required after 'Teilen.' This error affects grammatical correctness and should be corrected.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:08:18.838348",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

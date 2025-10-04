@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "description": "The sentence is grammatically correct, but the word 'нерешённые' uses the letter 'ё', which is often replaced with 'е' in Russian texts for stylistic reasons. However, in educational content, it is preferable to use 'ё' for clarity and to avoid ambiguity. No correction needed, but this is a minor stylistic note.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Например, спор о последнем кусочке пиццы",
+      "correction": "Например, спор о последнем кусочке пиццы",
+      "description": "The example 'спор о последнем кусочке пиццы' is culturally appropriate and understandable for Russian learners, as pizza is a common food. However, for broader localization, consider using examples more typical for Russian school or family settings, such as 'спор о последнем пирожке' or 'спор о том, кто будет первым играть в игру'. This would make the content feel more locally relevant.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "визуальным оформлением",
+      "correction": "дизайном",
+      "description": "The phrase 'визуальным оформлением' is understandable but less natural than the commonly used term 'дизайн' in Russian educational and project contexts. Using 'дизайн' would improve the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Практика активного слушания позволяет слушателю полностью услышать точку зрения человека, что может способствовать лучшему пониманию ситуации и уменьшению конфликта.",
+      "correction": "Практика активного слушания позволяет слушателю полностью услышать точку зрения другого человека, что может способствовать лучшему пониманию ситуации и уменьшению конфликта.",
+      "description": "The phrase 'точку зрения человека' is grammatically correct but slightly ambiguous, as it could refer to any person. For clarity, 'другого человека' is preferable in this context to specify the other party in the conflict. This improves precision and comprehension.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:08.500886",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

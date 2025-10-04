@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Das ist richtig, weil die Tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+      "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+      "description": "The noun 'Klimazone' is correctly capitalized, but the adjective 'tropische' should not be capitalized here, as it is not part of a proper noun or title. In German, adjectives preceding nouns are written in lowercase unless they are part of a fixed term or title. This error affects orthographic accuracy and should be corrected for proper language use.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Eis und Schnee bedecken die Region das ganze Jahr.",
+      "correction": "Eis und Schnee bedecken die Region das ganze Jahr über.",
+      "description": "The phrase 'das ganze Jahr' is missing the preposition 'über', which is required in German to express 'throughout the whole year'. Without 'über', the sentence is incomplete and less idiomatic. This is an orthographic and lexical issue affecting naturalness and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:06:05.741363",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

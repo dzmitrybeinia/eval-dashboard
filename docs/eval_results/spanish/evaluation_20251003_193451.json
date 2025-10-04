@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "cheques y balances",
+      "correction": "sistema de pesos y contrapesos",
+      "description": "The phrase 'cheques y balances' is a direct calque from English ('checks and balances') and is not the standard or natural term in Spanish. The correct and widely accepted term in Spanish is 'sistema de pesos y contrapesos'. Using the proper terminology improves clarity and aligns with educational standards in Spanish-speaking contexts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Puede destituir al Presidente o jueces mediante juicio político.",
+      "correction": "Puede destituir al Presidente o a los jueces mediante juicio político.",
+      "description": "The sentence lacks the preposition 'a' before 'los jueces', which is required for correct grammatical structure when referring to specific people in Spanish. Additionally, 'jueces' should be preceded by the definite article 'los' to clarify that it refers to specific judges. This correction ensures proper grammar and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "dos tercios tanto en el Senado como en la Cámara de Representantes",
+      "correction": "dos tercios en la Cámara de Representantes y en el Senado",
+      "description": "The phrase 'tanto en el Senado como en la Cámara de Representantes' is unnecessarily wordy and less natural in Spanish for describing the impeachment process. The more standard and concise format is 'en la Cámara de Representantes y en el Senado', which reflects the actual order of the process and is more commonly used in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy exploraremos cómo está organizado el gobierno de los Estados Unidos para proteger la democracia y garantizar la justicia. Aprenderemos sobre las tres ramas principales y cómo trabajan juntas para servir a los ciudadanos. 🌟",
+      "correction": "¡Bienvenidos! Hoy exploraremos cómo está organizado el gobierno de los Estados Unidos para proteger la democracia y garantizar la justicia. Aprenderemos sobre las tres ramas principales y cómo trabajan juntas para servir a los ciudadanos.",
+      "description": "The use of the emoji '🌟' at the end of an educational introduction may be considered informal and less appropriate for formal educational content, especially in Spanish-language academic contexts. Removing the emoji maintains a professional tone suitable for the subject matter.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:34:51.538796",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

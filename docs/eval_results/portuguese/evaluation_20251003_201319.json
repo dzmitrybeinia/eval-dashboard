@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ao contrário do que o texto sugere, não são práticas opcionais.",
+      "correction": "Ao contrário do que o texto sugere, não se trata de práticas opcionais.",
+      "description": "The phrase 'não são práticas opcionais' is grammatically ambiguous and could be misinterpreted. The correction 'não se trata de práticas opcionais' clarifies that the practices are not optional, improving sentence structure and precision. This also enhances the educational clarity for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Kosher",
+      "correction": "kashrut",
+      "description": "The term 'kosher' is commonly used in English, but in Brazilian Portuguese, 'kashrut' or 'leis alimentares judaicas' is more accurate and culturally appropriate. Using the correct terminology ensures learners understand the concept in its proper context and avoids unnecessary anglicisms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "a Torá é o texto sagrado, contendo leis e ensinamentos.",
+      "correction": "A Torá é o texto sagrado, contendo leis e ensinamentos.",
+      "description": "The sentence begins with a lowercase 'a', which is incorrect as it starts a new bullet point. Proper capitalization is required at the beginning of sentences or bullet points in Portuguese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "século V–IV a.C.",
+      "correction": "século V a IV a.C.",
+      "description": "The use of an en dash (–) is not standard in Brazilian Portuguese for indicating a range of centuries. The correct format is 'V a IV a.C.' to indicate 'from the 5th to the 4th century BCE'. This aligns with local academic and publishing conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:13:19.018043",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

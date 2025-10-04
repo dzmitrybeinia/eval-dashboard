@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Favoriser des informations qui confirment nos croyances existantes et ignorer les preuves contradictoires.",
+      "correction": "Favoriser les informations qui confirment nos croyances existantes et ignorer les preuves contradictoires.",
+      "description": "The definite article 'les' should be used instead of the partitive 'des' because the sentence refers to specific information that confirms existing beliefs, not an unspecified quantity. This improves grammatical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pourquoi reconnaître les biais est important ?",
+      "correction": "Pourquoi est-il important de reconnaître les biais ?",
+      "description": "The original sentence uses an incorrect interrogative structure. In French, the verb should precede the subject in formal questions, and the phrase should be restructured for grammatical correctness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Une preuve peut prendre de nombreuses formes : faits concrets, statistiques, exemples concrets, ou témoignages d'experts.",
+      "correction": "Une preuve peut prendre de nombreuses formes : faits concrets, statistiques, exemples concrets ou témoignages d'experts.",
+      "description": "In French, a comma should not be placed before 'ou' in a simple list. Removing the comma aligns with standard punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Moins cher, donc plus accessible.",
+      "correction": "C'est moins cher, donc plus accessible.",
+      "description": "The original phrase lacks a subject, making it incomplete. Adding 'C'est' provides a clear subject and improves grammatical correctness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Les énergies renouvelables sont inconsistantes.",
+      "correction": "Les énergies renouvelables sont intermittentes.",
+      "description": "The term 'inconsistantes' is a literal translation from English ('inconsistent') and is not commonly used in French to describe energy sources. 'Intermittentes' is the standard term in French for energy sources that are not continuously available, improving naturalness and professional terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:45:49.432190",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

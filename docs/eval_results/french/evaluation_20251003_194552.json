@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "honneurant les traditions et les ancêtres",
+      "correction": "en honorant les traditions et les ancêtres",
+      "description": "The word 'honneurant' is not a correct form in French; the proper gerund construction is 'en honorant'. This error affects the grammatical accuracy and naturalness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "gâteaux de riz",
+      "correction": "gâteaux de riz gluant",
+      "description": "The term 'gâteaux de riz' is vague and not the standard way to refer to the traditional food associated with the Lunar New Year in China. The culturally and linguistically accurate term is 'gâteaux de riz gluant' (or 'niangao'). This correction improves both lexical precision and cultural relevance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Thanksgiving aux États-Unis",
+      "correction": "Thanksgiving (Action de grâce) aux États-Unis",
+      "description": "While 'Thanksgiving' is widely recognized, the French term 'Action de grâce' is also commonly used in educational contexts, especially for Francophone audiences. Including both terms increases cultural accessibility and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Dinde et sauce aux canneberges pendant Thanksgiving (symbolisant la récolte et la gratitude)",
+      "correction": "Dinde et sauce aux canneberges pendant Thanksgiving (Action de grâce) (symbolisant la récolte et la gratitude)",
+      "description": "Adding the French equivalent 'Action de grâce' alongside 'Thanksgiving' ensures the terminology is accessible and culturally appropriate for French-speaking learners, enhancing localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:45:52.673775",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

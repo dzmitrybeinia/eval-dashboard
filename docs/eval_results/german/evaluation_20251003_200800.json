@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Können nicht entzogen werden, außer unter gesetzlich festgelegten Bedingungen.",
+      "correction": "Können nicht entzogen werden, außer unter gesetzlich festgelegten Bedingungen.",
+      "description": "The sentence is grammatically correct, but the use of 'außer unter gesetzlich festgelegten Bedingungen' could be considered slightly ambiguous. However, there are no grammatical errors present. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Internationalen Pakt über bürgerliche und politische Rechte (IPbpR) und den Internationalen Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR).",
+      "correction": "Internationaler Pakt über bürgerliche und politische Rechte (IPBPR) und Internationaler Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPWSKR).",
+      "description": "The abbreviations 'IPbpR' and 'IPwSKR' are not standard in German. The correct and widely accepted abbreviations are 'IPBPR' and 'IPWSKR'. Using the correct abbreviations ensures consistency and professional terminology in educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Recht auf Leben.",
+      "correction": "Recht auf Leben.",
+      "description": "The phrase is correct in terms of spelling and capitalization. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍 In dieser Lektion werden wir die Prinzipien der Allgemeinen Erklärung der Menschenrechte (AEMR) untersuchen und ihre Bedeutung für Gesellschaften weltweit beleuchten.",
+      "correction": "In dieser Lektion werden wir die Prinzipien der Allgemeinen Erklärung der Menschenrechte (AEMR) untersuchen und ihre Bedeutung für Gesellschaften weltweit beleuchten.",
+      "description": "The use of the globe emoji '🌍' is not standard in formal German educational content. Removing the emoji improves the professional tone and aligns with formal style conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die AEMR war die erste globale Erklärung der Menschenrechte und setzte einen Wegweiser für zukünftige Menschenrechtsrahmen.",
+      "correction": "Die AEMR war die erste globale Erklärung der Menschenrechte und setzte einen Wegweiser für zukünftige Menschenrechtsrahmen.",
+      "description": "The sentence is grammatically correct. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Die AEMR wurde in wegweisenden Gerichtsentscheidungen und globalen Bewegungen für Bürgerrechte und Gleichheit zitiert.",
+      "correction": "Die AEMR wurde in wegweisenden Gerichtsentscheidungen und globalen Bewegungen für Bürgerrechte und Gleichheit zitiert.",
+      "description": "The sentence is natural and appropriate for German educational content. No correction needed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:08:00.671949",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

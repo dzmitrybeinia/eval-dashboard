@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "立法部門は財政運営に関与していません。.",
+      "correction": "立法部門は財政運営に関与していません。",
+      "description": "There is an incorrect use of punctuation: a Japanese full stop (。) is immediately followed by a Western period (.). Only the Japanese full stop should be used at the end of the sentence. This error affects the orthographic correctness and should be corrected for proper Japanese writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これにより、立法部門が財政運営に直接的に関わることが理解できます。.",
+      "correction": "これにより、立法部門が財政運営に直接的に関わることが理解できます。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error but should be corrected for standard Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "アメリカ合衆国大統領は連邦法を直接変更できる。.",
+      "correction": "アメリカ合衆国大統領は連邦法を直接変更できる。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for proper Japanese writing style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "立法部門は、大統領の拒否権を覆す権限を持っています。これにより、立法は行政の決定に対して確固たる抑制を行うことができます。.",
+      "correction": "立法部門は、大統領の拒否権を覆す権限を持っています。これにより、立法は行政の決定に対して確固たる抑制を行うことができます。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for standard Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "最高裁判所は問題の解決に重要な役割を果たす。.",
+      "correction": "最高裁判所は問題の解決に重要な役割を果たす。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for proper Japanese writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "最高裁判所は、法律と憲法の解釈に関する重要な審判を行う。ブラウン対教育委員会裁判例を考えると、この部門が公民権を守るために果たした責任が明確に示されている。.",
+      "correction": "最高裁判所は、法律と憲法の解釈に関する重要な審判を行う。ブラウン対教育委員会裁判例を考えると、この部門が公民権を守るために果たした責任が明確に示されている。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for standard Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "アメリカ政府の各部門は相補的な権限を持っていない。.",
+      "correction": "アメリカ政府の各部門は相補的な権限を持っていない。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for proper Japanese writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "アメリカ政府の三権分立の概念は、立法、行政、司法の三部門間で権力を分散することを目的としています。この分散により、一方的な権力の支配を防ぎ、公共の利益を維持することができます。この考え方の有効性は、異なる部門間の異なる義務と監視メカニズムがどのように相互に作用するかを理解することにあります。.",
+      "correction": "アメリカ政府の三権分立の概念は、立法、行政、司法の三部門間で権力を分散することを目的としています。この分散により、一方的な権力の支配を防ぎ、公共の利益を維持することができます。この考え方の有効性は、異なる部門間の異なる義務と監視メカニズムがどのように相互に作用するかを理解することにあります。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used. This is a minor orthographic error and should be corrected for standard Japanese punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:27:05.052675",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

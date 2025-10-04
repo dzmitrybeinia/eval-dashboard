@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O ensino, por outro lado, depende de textos que fornecem informações factuais e educativas.",
+      "correction": "O ensino, por outro lado, depende de textos que fornecem informações factuais e educacionais.",
+      "description": "The word 'educativas' is not the most precise choice in this context. The correct term is 'educacionais', which is the standard adjective used to describe texts or materials intended for educational purposes in Brazilian Portuguese. 'Educativas' is more commonly used to describe actions or activities that educate, not the materials themselves.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Este é um mal-entendido comum. Embora textos de ficção possam ser interessantes e envolventes, eles são principalmente criados para entretenimento e não para fins educacionais.",
+      "correction": "Este é um mal-entendido comum. Embora textos de ficção sejam geralmente criados para entretenimento, eles também podem ser usados para fins educacionais, como estimular a criatividade, promover a empatia ou ilustrar conceitos em sala de aula.",
+      "description": "The statement that fiction texts are not used for educational purposes is culturally inaccurate and misleading. In Brazilian educational contexts, fiction is often used to teach language, literature, ethics, and other subjects. The correction reflects a more culturally appropriate and accurate perspective, acknowledging the educational value of fiction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Em sua essência, a ficção é caracterizada pela autoria de conteúdos que, apesar de poder desenhar inspiração de eventos ou pessoas reais, são moldados e limitados pelo gênero literário.",
+      "correction": "Em sua essência, a ficção é caracterizada pela autoria de conteúdos que, apesar de poderem se inspirar em eventos ou pessoas reais, são moldados e limitados pelo gênero literário.",
+      "description": "The phrase 'apesar de poder desenhar inspiração de eventos ou pessoas reais' contains a grammatical error. The verb should agree with 'conteúdos' (plural), and the construction 'desenhar inspiração de' is not idiomatic in Portuguese. The corrected version uses 'poderem se inspirar em', which is grammatically correct and natural.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:11:18.398224",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

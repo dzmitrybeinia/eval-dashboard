@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Эмоциональный интеллект — это способность эффективно воспринимать, понимать и управлять эмоциями.",
+      "correction": "Эмоциональный интеллект — это способность эффективно воспринимать, понимать и управлять своими эмоциями.",
+      "description": "The sentence lacks the possessive pronoun 'своими' before 'эмоциями', which is necessary in Russian to clarify whose emotions are being managed. Without it, the sentence is less precise and may cause ambiguity. Adding 'своими' improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Эмпатия — это способность понимать и чувствовать эмоции других, что отличается от самосознания.",
+      "correction": "Эмпатия — это способность понимать и разделять эмоции других, что отличается от самосознания.",
+      "description": "The use of 'чувствовать эмоции других' is less natural in Russian educational and psychological contexts. The more standard and culturally appropriate phrasing is 'разделять эмоции других', which better conveys the concept of empathy as understood in Russian-speaking environments. This change enhances the naturalness and professionalism of the terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Улучшенная коммуникация и способность к разрешению конфликтов значительно улучшают работу команды и достижение её целей.",
+      "correction": "Улучшенная коммуникация и способность к разрешению конфликтов значительно улучшают работу команды и достижение её целей.",
+      "description": "Although the sentence is grammatically correct, the phrase 'улучшенная коммуникация' is a calque from English and is not commonly used in Russian. A more natural expression would be 'эффективная коммуникация'. However, since the main issue is stylistic and not strictly linguistic, no grammatical correction is needed, but the style could be improved for better localization.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:41.459354",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

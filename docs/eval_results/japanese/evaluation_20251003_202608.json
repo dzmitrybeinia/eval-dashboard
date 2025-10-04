@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情は私たちの経験に影響を与える。.",
+      "correction": "感情は私たちの経験に影響を与える。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only one full-width period (。) should be used at the end of a sentence. This is a minor orthographic error but should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "その通りです。感情は私たちの経験、たとえそれが短期間であっても長期間もあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。.",
+      "correction": "その通りです。感情は私たちの経験、たとえそれが短期間であっても長期間であってもあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。",
+      "description": "The phrase '短期間であっても長期間もあります' is grammatically awkward and lacks parallelism. It should be '短期間であっても長期間であってもあります' to properly express 'whether short-term or long-term.' Additionally, there is an unnecessary period at the end (。.), which should be removed. These issues affect clarity and grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "身体的な反応や行動は、私たちが感じている感情を理解する際の重要な手がかりです。例えば、笑いや涙は喜びや悲しみを表します。これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。.",
+      "correction": "身体的な反応や行動は、私たちが感じている感情を理解する際の重要な手がかりです。例えば、笑いや涙は喜びや悲しみを表します。これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。",
+      "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "この文は、感情をどのように表現するかについての重要なポイントを正確に伝えています。感情を具体的に言葉にすることで、自分の気持ちをより明確に伝え、他人が理解しやすくなります。.",
+      "correction": "この文は、感情をどのように表現するかについての重要なポイントを正確に伝えています。感情を具体的に言葉にすることで、自分の気持ちをより明確に伝え、他人が理解しやすくなります。",
+      "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "笑いや落ち込むような感情は確かに、自分の考えや行動に影響を与えることがあります。これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。.",
+      "correction": "笑いや落ち込むような感情は確かに、自分の考えや行動に影響を与えることがあります。これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。",
+      "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情は人独自のもので、それがどのように変わるかは個人によって異なる可能性があります。認識をすることが重要ですが、必ずしも良いまたは悪いとは限りません。.",
+      "correction": "感情は人独自のもので、それがどのように変わるかは個人によって異なる可能性があります。認識をすることが重要ですが、必ずしも良いまたは悪いとは限りません。",
+      "description": "There is an unnecessary period at the end (。.), which should be removed. In Japanese, only one full-width period (。) is used to end a sentence. This is a minor orthographic error.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:26:08.525919",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

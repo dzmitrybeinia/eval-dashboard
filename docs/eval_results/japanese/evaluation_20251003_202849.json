@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "科学的手法は主に芸術的なスキルの発展を目指すために使われます。.",
+      "correction": "科学的手法は主に芸術的なスキルの発展を目指すために使われます。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "科学的手法は科学的な観察、分析、および推論を通じて現象を理解するために使用される技術であり、芸術的なスキルではありません。このプロセスは、観察されたデータに基づいた客観的な結論を形成するために設計されています。.",
+      "correction": "科学的手法は科学的な観察、分析、および推論を通じて現象を理解するために使用される技術であり、芸術的なスキルではありません。このプロセスは、観察されたデータに基づいた客観的な結論を形成するために設計されています。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "仮説を立てるのは、科学実験の最初のステップであり、実験自体を行うことです。.",
+      "correction": "仮説を立てるのは、科学実験の最初のステップであり、実験自体を行うことです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "実験を行うのが最初のステップではありません。科学実験のプロセスは、質問を立て、背景を調査し、仮説を立てるという順序に従います。実験は仮説をテストするために行われます。.",
+      "correction": "実験を行うのが最初のステップではありません。科学実験のプロセスは、質問を立て、背景を調査し、仮説を立てるという順序に従います。実験は仮説をテストするために行われます。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "科学的手法は単に実験を行うことだけです。.",
+      "correction": "科学的手法は単に実験を行うことだけです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "実験は科学的手法の重要な部分ですが、単に行われるものではありません。実験は、問題を設定し、仮説を立て、データを収集し、結論を下すことを含みます。科学的手法は問題解決のための一般的な手段であり、より大きな科学的プロセスの一部です。.",
+      "correction": "実験は科学的手法の重要な部分ですが、単に行われるものではありません。実験は、問題を設定し、仮説を立て、データを収集し、結論を下すことを含みます。科学的手法は問題解決のための一般的な手段であり、より大きな科学的プロセスの一部です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "科学的手法を使うと、すべての問題が正確に解けることが保証される。.",
+      "correction": "科学的手法を使うと、すべての問題が正確に解けることが保証される。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "科学的手法は問題解決のための強力なツールですが、すべての問題がそれを通じて正確に解けるわけではありません。特に複雑な問題や社会的側面を含む問題では、さらなる考慮や異なるアプローチが必要になることがあります。.",
+      "correction": "科学的手法は問題解決のための強力なツールですが、すべての問題がそれを通じて正確に解けるわけではありません。特に複雑な問題や社会的側面を含む問題では、さらなる考慮や異なるアプローチが必要になることがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in a double punctuation mark (。.). In Japanese, sentences should end with a single full-width period (。). Remove the extra half-width period for correct orthography.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:28:49.376191",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

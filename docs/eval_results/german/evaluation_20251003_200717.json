@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "wenn wir nicht wissen, wie wir es sicher verhindern und darauf reagieren können.",
+      "correction": "wenn wir nicht wissen, wie wir es sicher verhindern und darauf reagieren können.",
+      "description": "The phrase 'wie wir es sicher verhindern und darauf reagieren können' is grammatically correct, but semantically unclear. 'Es sicher verhindern' is awkward because 'Feuer' cannot be 'prevented' in the sense of 'verhindern'—the correct term would be 'vermeiden'. Additionally, 'darauf reagieren' is correct, but the sentence would be clearer as 'wie wir Feuer vermeiden und im Notfall richtig reagieren können.'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Kochunfälle, wie unbeaufsichtigte Herdplatten.",
+      "correction": "Kochunfälle, wie unbeaufsichtigte Herdplatten.",
+      "description": "The phrase 'Kochunfälle, wie unbeaufsichtigte Herdplatten.' is grammatically correct, but the use of 'wie' is not ideal for listing examples in German. A more natural phrasing would be 'zum Beispiel unbeaufsichtigte Herdplatten.'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Überlastung von Steckdosen vermeiden und ungenutzte Geräte ausstecken.",
+      "correction": "Überlastung von Steckdosen vermeiden und ungenutzte Geräte ausstecken.",
+      "description": "The phrase is grammatically correct, but 'ausstecken' is not the most precise verb for 'unplug'. 'Ausschalten und ausstecken' would be clearer, as 'ausstecken' alone may not be immediately understood as 'unplug' in all regions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Steckdosen, die zu oft genutzt werden, können überhitzen und dabei zu einem Brand führen.",
+      "correction": "Steckdosen, die zu oft genutzt werden, können überhitzen und dabei einen Brand verursachen.",
+      "description": "The phrase 'zu einem Brand führen' is understandable, but 'einen Brand verursachen' is the more precise and idiomatic German expression for 'cause a fire'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In einem Brandnotfall ist es äußerst riskant, versuchen, das Feuer selbst zu löschen.",
+      "correction": "In einem Brandnotfall ist es äußerst riskant, zu versuchen, das Feuer selbst zu löschen.",
+      "description": "The infinitive construction is incorrect; 'versuchen' should be preceded by 'zu' in this context: 'äußerst riskant, zu versuchen, das Feuer selbst zu löschen.'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Versuche, das Feuer zu löschen, können zu zusätzlichen Gefahren führen und das Risiko für die eigenen Leben erhöhen.",
+      "correction": "Versuche, das Feuer zu löschen, können zu zusätzlichen Gefahren führen und das Risiko für das eigene Leben erhöhen.",
+      "description": "The phrase 'für die eigenen Leben' is incorrect; 'Leben' is singular in this context. The correct phrase is 'für das eigene Leben'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Notrufnummer wählen (112).",
+      "correction": "Notrufnummer 112 wählen.",
+      "description": "The phrase 'Notrufnummer wählen (112).' is understandable, but the standard German format is 'Notrufnummer 112 wählen.' This matches local conventions for emergency instructions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Nächsten Ausgang benutzen – keine Aufzüge verwenden.",
+      "correction": "Den nächsten Ausgang benutzen – keine Aufzüge verwenden.",
+      "description": "The definite article 'den' is missing before 'nächsten Ausgang'. The correct phrase is 'Den nächsten Ausgang benutzen'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bei Rauch niedrig bleiben, um giftige Dämpfe zu vermeiden.",
+      "correction": "Bei Rauch niedrig bleiben, um giftige Dämpfe zu vermeiden.",
+      "description": "The phrase is grammatically correct, but 'niedrig bleiben' is not idiomatic. A more natural expression would be 'in Bodennähe bleiben'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Klasse B Feuerlöscher sind speziell für Brände mit brennbaren Flüssigkeiten wie Öl und Benzin entwickelt, nicht ausschließlich für die Küche.",
+      "correction": "Klasse-B-Feuerlöscher sind speziell für Brände mit brennbaren Flüssigkeiten wie Öl und Benzin entwickelt, nicht ausschließlich für die Küche.",
+      "description": "Compound nouns such as 'Klasse B Feuerlöscher' should be hyphenated as 'Klasse-B-Feuerlöscher' according to German orthographic rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jedoch sollten Brände in der Küche mit einem Klasse A Feuerlöscher begonnen werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+      "correction": "Jedoch sollten Brände in der Küche mit einem Klasse-A-Feuerlöscher gelöscht werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+      "description": "The verb 'begonnen werden' is incorrect in this context. The correct verb is 'gelöscht werden' (to be extinguished). Also, 'Klasse A Feuerlöscher' should be hyphenated: 'Klasse-A-Feuerlöscher'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Verwendung von Feuerlöscher ist die erste Maßnahme, wenn man ein Feuer entdeckt.",
+      "correction": "Die Verwendung eines Feuerlöschers ist die erste Maßnahme, wenn man ein Feuer entdeckt.",
+      "description": "The phrase is missing the definite article and the correct case: 'Die Verwendung eines Feuerlöschers' is the correct nominative form.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:07:17.701476",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

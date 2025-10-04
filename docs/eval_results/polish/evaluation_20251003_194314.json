@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W religii chrześcijańskiej, używane jest wiele bibliów z różnych autora.",
+      "correction": "W religii chrześcijańskiej używa się wielu Biblii napisanych przez różnych autorów.",
+      "description": "The original sentence contains several grammatical errors: 'bibliów' is an incorrect plural form; the correct form is 'Biblii' (genitive plural). 'z różnych autora' is incorrect; it should be 'napisanych przez różnych autorów' to properly express 'written by different authors.' The verb phrase 'używane jest' is unnatural; 'używa się' is the standard impersonal construction in Polish. The sentence also lacks proper case agreement and word order.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chrześcijaństwo uznawa jako jedną religię jedną biblię, czyli Biblę, która została napisana przez naukowie Kościołom. W przeciwieństwie do tego, nie ma innych biblik do uwzględnienia.",
+      "correction": "Chrześcijaństwo uznaje jedną Biblię, która została napisana przez uczonych Kościoła. W przeciwieństwie do tego, nie uwzględnia się innych Biblii.",
+      "description": "Multiple grammatical errors are present: 'uznawa' should be 'uznaje' (correct verb conjugation); 'jedną religię jedną biblię' is redundant and unclear, should be 'uznaje jedną Biblię.' 'Biblę' is correct in accusative, but 'naukowie Kościołom' is incorrect; it should be 'uczonych Kościoła' (genitive plural). 'biblik' is not a Polish word; the correct plural is 'Biblii.' The phrase 'do uwzględnienia' is awkward; 'nie uwzględnia się innych Biblii' is more natural.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wiara w jednym Boga, Mahometa jako proroka, modlitwie, jałmużnie, i postach są podstawowymi elementami religijnego życia muzułmanów.",
+      "correction": "Wiara w jednego Boga, Mahometa jako proroka, modlitwa, jałmużna i post są podstawowymi elementami religijnego życia muzułmanów.",
+      "description": "The phrase 'Wiara w jednym Boga' is incorrect; it should be 'Wiara w jednego Boga' (accusative case). 'modlitwie, jałmużnie, i postach' are in the locative or dative plural, but should be nominative singular: 'modlitwa, jałmużna i post.' The conjunction 'i' should not be preceded by a comma in Polish. The sentence structure is improved for clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten związek z pięciolatką praktyk religijnych, znanej jako pięć filarów islamu, jest fundamentalną częścią wierzeń muzułmanów. Działają one na poziomie osobisty, wspierają one na poziomie społeczny a także wzmacniają więzi wśród wspólnoty.",
+      "correction": "Ten zespół praktyk religijnych, znany jako pięć filarów islamu, jest fundamentalną częścią wierzeń muzułmanów. Działają one na poziomie osobistym, wspierają na poziomie społecznym, a także wzmacniają więzi we wspólnocie.",
+      "description": "The phrase 'związek z pięciolatką praktyk religijnych' is incorrect; 'zespół praktyk religijnych' is the proper term. 'znanej' should agree with 'zespół' and be 'znany.' 'na poziomie osobisty' and 'na poziomie społeczny' should be 'osobistym' and 'społecznym' (instrumental case). 'wśród wspólnoty' is awkward; 'we wspólnocie' is more natural. The sentence also benefits from improved word order and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W Hinduizmie, Brahman jest postrzegany jako najmniejsza rzeczywistość.",
+      "correction": "W hinduizmie Brahman jest postrzegany jako najwyższa rzeczywistość.",
+      "description": "The phrase 'najmniejsza rzeczywistość' is incorrect and contradicts Hindu beliefs; 'najwyższa rzeczywistość' is the correct term. 'Hinduizmie' should not be capitalized mid-sentence. The sentence structure is otherwise correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Buddyzm opiera się na Czterech Szlachetnych Prawdach, które obejmują prawdę życia, cierpienia i pokoju oraz prawdę śmierci, poprzeczną i oświadczenie oraz prawdę oświecenia, czyli wyzwolenia z cyklu odrodzeń.",
+      "correction": "Buddyzm opiera się na Czterech Szlachetnych Prawdach, które dotyczą życia, cierpienia, zakończenia cierpienia oraz drogi prowadzącej do wyzwolenia z cyklu odrodzeń.",
+      "description": "The original sentence misrepresents the Four Noble Truths and contains lexical and grammatical errors: 'poprzeczną i oświadczenie' are not relevant or correct in this context. The Four Noble Truths are about suffering, its origin, cessation, and the path to liberation. The corrected sentence accurately reflects Buddhist doctrine and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Judaizm uznaje wiele bogów jako prawdziwych.",
+      "correction": "Judaizm uznaje jednego Boga jako jedynego prawdziwego.",
+      "description": "The original sentence incorrectly states that Judaism recognizes many gods as true, which is a factual and grammatical error. The corrected sentence reflects the monotheistic nature of Judaism and uses proper singular forms.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:43:14.293683",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.9,
+    "classification": "ACCEPTABLE",
+    "total_issues": 7,
+    "total_penalty": 2.1,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

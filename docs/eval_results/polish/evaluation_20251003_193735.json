@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "pery, mitochondria czy placoda",
+      "correction": "peroksysomy, mitochondria czy plastydy",
+      "description": "The terms 'pery' and 'placoda' are incorrect and do not refer to actual cell organelles in Polish. The correct terms should be 'peroksysomy' (peroxisomes) and 'plastydy' (plastids). This lexical error could confuse learners and should be corrected for scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "kształtują DNA i kontrolują funkcje komórkową",
+      "correction": "kształtują DNA i kontrolują funkcje komórkowe",
+      "description": "The phrase 'funkcje komórkową' contains a case agreement error. 'Funkcje' is plural nominative, so the adjective should also be plural: 'komórkowe'. This is a grammatical mistake affecting noun-adjective agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "perycytry są odpowiedzialne za rozkładanie materiałów organicznych",
+      "correction": "lizosomy są odpowiedzialne za rozkładanie materiałów organicznych",
+      "description": "The term 'perycytry' is not a recognized organelle in Polish cell biology. The correct organelle responsible for breaking down organic materials is 'lizosomy' (lysosomes). This lexical error could mislead students about cell structure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "funkcje komórkową",
+      "correction": "funkcje komórkowe",
+      "description": "The phrase 'funkcje komórkową' uses the singular accusative form 'komórkową' with the plural noun 'funkcje'. The adjective should be plural nominative: 'komórkowe'. This is a grammatical error in noun-adjective agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "elektrarnicami komórki",
+      "correction": "elektrowniami komórki",
+      "description": "The word 'elektrarnicami' is a misspelling and not a Polish word. The correct term is 'elektrowniami', which means 'power plants' and is the standard metaphor for mitochondria in Polish biology education.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Mitochondria jest głównym źródłem energii dla komórki.",
+      "correction": "Mitochondria są głównym źródłem energii dla komórki.",
+      "description": "The subject 'mitochondria' is plural, but the verb 'jest' is singular. The correct verb form is 'są' to match the plural subject. This is a subject-verb agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ta propozycja jest poprawną, ponieważ błona komórkowa rzeczywiście odgrywa kluczową rolę w kontroli substancji wewnątrz komórki.",
+      "correction": "Ta propozycja jest poprawna, ponieważ błona komórkowa rzeczywiście odgrywa kluczową rolę w kontroli substancji wewnątrz komórki.",
+      "description": "The adjective 'poprawną' is incorrectly inflected; it should be 'poprawna' to agree with the feminine singular noun 'propozycja' in nominative case. This is a grammatical and orthographic error.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:37:35.940794",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

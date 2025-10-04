@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Símbolos que representam valores desconhecidos ou variáveis.",
+      "correction": "Símbolos que representam valores desconhecidos ou variáveis, ou seja, que podem variar.",
+      "description": "The phrase 'Símbolos que representam valores desconhecidos ou variáveis.' is grammatically ambiguous because 'variáveis' is used both as an adjective and as a noun, which may confuse learners. For clarity and linguistic precision, it should specify that variables are values that can change, not just 'variáveis' as a noun. This correction improves the grammatical structure and semantic clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos começar! 🎓",
+      "correction": "Vamos começar!",
+      "description": "The use of the graduation cap emoji (🎓) in 'Vamos começar! 🎓' may not be appropriate for all educational contexts, especially in formal or professional settings. While emojis can add a friendly tone, they may reduce the perceived seriousness of the lesson in some cultures or age groups. Removing the emoji ensures a more universally appropriate and professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Constantes fornecem estabilidade nas equações e ajudam a definir relações específicas.",
+      "correction": "Constantes fornecem valores fixos nas equações e ajudam a definir relações específicas.",
+      "description": "The term 'estabilidade' in 'Constantes fornecem estabilidade nas equações...' is not the most natural or standard way to describe the role of constants in Brazilian Portuguese mathematical education. 'Valores fixos' is a more accurate and commonly accepted term, improving the naturalness and clarity of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O número `5` na equação `x + 5 = 10` é de fato uma constante, pois seu valor permanece inalterado e serve como um valor fixo dentro da equação.",
+      "correction": "O número `5` na equação `x + 5 = 10` é, de fato, uma constante, pois seu valor permanece inalterado e serve como um valor fixo dentro da equação.",
+      "description": "The phrase is missing a comma after 'é' in 'é de fato uma constante', which is required for correct punctuation in Brazilian Portuguese when using the expression 'de fato' as an interjection. Adding the comma improves orthographic accuracy and reading flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Se João tem `x` maçãs e compra mais 5, o total de maçãs que ele possui pode ser representado como `x + 5`.",
+      "correction": "Se Maria tem `x` maçãs e compra mais 5, o total de maçãs que ela possui pode ser representado como `x + 5`.",
+      "description": "The use of the name 'João' is culturally appropriate for Brazilian Portuguese, but repeated use of male names in examples can unintentionally reinforce gender bias. Alternating with female names such as 'Maria' promotes inclusivity and better reflects diverse classroom contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Compreender esses elementos básicos da álgebra é o primeiro passo para resolver problemas e explorar conceitos mais avançados.",
+      "correction": "Compreender esses elementos básicos da álgebra é o primeiro passo para resolver problemas e explorar conceitos mais avançados.",
+      "description": "No linguistic or localization errors found. The sentence is grammatically correct and culturally appropriate. No correction needed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:10:18.158576",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Mi Vieja Estimada Madre Jamás Supo Usar Nachos.",
+      "correction": "Mi Vieja Estimada Madre Jamás Supo Usar Números.",
+      "description": "The use of 'Nachos' in the mnemonic for the planets is culturally inappropriate for educational Spanish content, as it introduces a food reference that is not relevant to the context and may distract from the learning objective. A more neutral term like 'Números' maintains the mnemonic's function without introducing unnecessary cultural elements.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La competencia por recursos llevó a...",
+      "correction": "La competencia por recursos llevó a…",
+      "description": "The ellipsis at the end of the sentence uses three periods instead of the correct single ellipsis character (…). In Spanish, the typographically correct ellipsis is a single character, which improves readability and maintains orthographic standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:36:08.931035",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

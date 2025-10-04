@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ютизим",
+      "correction": "юридическим лицом",
+      "description": "The word 'ютизим' is not a valid Russian word and appears to be a typographical or lexical error. The intended meaning is likely 'юридическим лицом' (legal entity), which is the correct term in this context. This error affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Верховный суд имеет широкие pouvoir для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между ютизим и государством.",
+      "correction": "Верховный суд имеет широкие полномочия для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между юридическими лицами и государством.",
+      "description": "The sentence contains a code-mixing error: 'pouvoir' is a French word meaning 'power' and should be replaced with the Russian 'полномочия'. Additionally, the phrase 'между ютизим и государством' contains the lexical error 'ютизим', which should be 'юридическими лицами'. Both errors significantly impact the linguistic accuracy and clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Выбор судей Верховного суда осуществляет Исполнительная ветвь Соединенного Штата, а не Законодательная ветвь.",
+      "correction": "Выбор судей Верховного суда осуществляет исполнительная ветвь Соединённых Штатов, а не законодательная ветвь.",
+      "description": "The phrase 'Исполнительная ветвь Соединенного Штата' uses the singular 'Штата' instead of the correct plural 'Штатов', as the United States is a plural entity. Additionally, capitalization of 'исполнительная' and 'законодательная' is unnecessary in Russian unless at the beginning of a sentence. These errors affect grammatical correctness and should be corrected.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Прокламация об освобождении рабов, изданная Авраамом Линкольном во время гражданской войны.",
+      "correction": "Прокламация об освобождении рабов, изданная Авраамом Линкольном во время Гражданской войны в США.",
+      "description": "The phrase 'гражданской войны' is ambiguous in Russian and could refer to any civil war. For Russian-speaking audiences, it is important to specify 'Гражданская война в США' to avoid confusion with other historical events, such as the Russian Civil War. This improves cultural clarity and contextual understanding.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Конгресс принял Закон о гражданских правах 1964 года, который запрещает дискриминацию по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+      "correction": "Конгресс принял Закон о гражданских правах 1964 года, который запрещает дискриминацию по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+      "description": "No linguistic errors found in this sentence. The grammar, case usage, and terminology are correct. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "В деле \"Браун против Совета по образованию\" (1954 г.) Верховный суд постановил, что расовая сегрегация в государственных школах противоречит Конституции.",
+      "correction": "В деле «Браун против Совета по образованию» (1954 г.) Верховный суд постановил, что расовая сегрегация в государственных школах противоречит Конституции.",
+      "description": "Russian typographic standards require the use of « » (angle quotes) for titles and direct speech, rather than English-style double quotes. This correction improves the naturalness and professionalism of the text for Russian readers.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:02:41.191780",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

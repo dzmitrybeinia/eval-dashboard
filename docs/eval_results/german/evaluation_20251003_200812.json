@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Beatst",
+      "correction": "Beats",
+      "description": "The word 'Beatst' in the statement 'Klassische Musik wird vor allem für ihre schnellen Rhythmen und lebendigen Beatst bekannt.' contains a spelling error. The correct plural form is 'Beats'. This error affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "hauptsanto",
+      "correction": "hauptsächlich",
+      "description": "The word 'hauptsanto' in the statement 'Rockmusik war hauptsanto ein bedeutender Teil der Jugendkultur.' is not a valid German word and appears to be a typographical or lexical error. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error significantly impacts the sentence's meaning and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Diese Genre legt den Grundstein für westliche Aufführungspraxis und wird hoch geschätzt wegen ihres künstlerischen Wertes und Einflusses auf andere Musikstile.",
+      "correction": "Dieses Genre legt den Grundstein für westliche Aufführungspraxis und wird hoch geschätzt wegen seines künstlerischen Wertes und Einflusses auf andere Musikstile.",
+      "description": "The noun 'Genre' is neuter in German ('das Genre'), so the correct demonstrative pronoun is 'Dieses' and the possessive pronoun should be 'seines' instead of 'ihres'. The original sentence uses 'Diese' and 'ihres', which incorrectly suggest a feminine noun. This affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+      "correction": "Das Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+      "description": "The noun 'Musikgenre' is neuter ('das Musikgenre'), so the correct article is 'Das' instead of 'Die'. The use of 'Die' is a grammatical error affecting gender agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dieses Musikgenre entstand aus dem urbanen Kontext und wurde von prominenten Persönlichkeiten und Gruppen prägend.",
+      "correction": "Dieses Musikgenre entstand aus dem urbanen Kontext und wurde von prominenten Persönlichkeiten und Gruppen geprägt.",
+      "description": "The verb 'prägend' is incorrectly used as a participle in this context. The correct past participle is 'geprägt', which means 'shaped' or 'influenced'. This error affects the grammatical structure and clarity of the sentence.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:08:12.221658",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

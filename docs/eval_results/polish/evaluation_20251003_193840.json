@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczniwują",
+      "correction": "zazwyczaj sugerują",
+      "description": "The word 'zazwyczniwują' is a misspelling and does not exist in Polish. The intended meaning is 'zazwyczaj sugerują' ('usually suggest'), which is the correct phrase. This error affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Cienieowanie",
+      "correction": "Cieniowanie",
+      "description": "The word 'Cienieowanie' contains an extra 'e' and should be spelled 'Cieniowanie'. This is a significant orthographic error, as correct spelling is essential for educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zawsodowują",
+      "correction": "zawsze odwołują",
+      "description": "The word 'zawsodowują' is a misspelling and does not exist in Polish. The correct phrase is 'zawsze odwołują' ('always refer to'). This error impairs understanding and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "co dodaje teksturze i dynamiki",
+      "correction": "co dodaje tekstury i dynamiki",
+      "description": "The phrase 'co dodaje teksturze i dynamiki' contains an incorrect case usage. The correct form is 'co dodaje tekstury i dynamiki', as both 'tekstury' and 'dynamiki' should be in the genitive case after 'dodaje'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:38:40.609166",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

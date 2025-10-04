@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "в мировом торговле",
+      "correction": "в мировой торговле",
+      "description": "The phrase uses the incorrect case and gender agreement. 'В мировом торговле' should be 'в мировой торговле' because 'торговля' is feminine and requires the feminine form 'мировой' in the prepositional case. This error affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "древних торговых путем",
+      "correction": "древних торговых путей",
+      "description": "The word 'путем' is incorrectly used in the genitive plural context. The correct form is 'путей' (genitive plural of 'путь'). This error disrupts grammatical agreement and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "экономическую и культурную взаимодействие",
+      "correction": "экономическое и культурное взаимодействие",
+      "description": "The adjectives 'экономическую' and 'культурную' are in the feminine accusative form, but the noun 'взаимодействие' is neuter. The correct forms are 'экономическое и культурное взаимодействие'. This error affects gender agreement and overall grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "затрошены",
+      "correction": "затронуты",
+      "description": "The word 'затрошены' is a misspelling and does not exist in Russian. The intended word is 'затронуты', meaning 'affected'. This lexical error impairs understanding and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "все продукция, которую Россия покупает, импортируется",
+      "correction": "вся продукция, которую Россия покупает, импортируется",
+      "description": "The word 'все' is incorrectly used with the singular noun 'продукция'. The correct form is 'вся продукция'. This error affects grammatical agreement and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "продукцию высокого качества из-за границы",
+      "correction": "продукцию высокого качества из-за рубежа",
+      "description": "The phrase 'из-за границы' is less idiomatic in this context. 'Из-за рубежа' is the standard expression for imported goods. This improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Граждане России всегда покупают всю свою продукцию из-за границы.",
+      "correction": "Граждане России всегда покупают всю свою продукцию за границей.",
+      "description": "The phrase 'из-за границы' is not idiomatic for describing where citizens buy products. 'За границей' is more appropriate when referring to purchasing abroad. This correction improves grammatical and lexical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:02:31.414300",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

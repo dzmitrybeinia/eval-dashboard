@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Agrarprodukte: Pflanzen wie Weizen und Mais können neu gepflanzt werden.",
+      "correction": "Agrarprodukte: Pflanzen wie Weizen und Mais können neu gepflanzt werden.",
+      "description": "No linguistic errors found in this text. All nouns are correctly capitalized, and the sentence structure is appropriate. The terminology is accurate and natural for German educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Nuklearressourcen: Uran für Kernenergie ist begrenzt und nicht erneuerbar.",
+      "correction": "Nukleare Ressourcen: Uran für Kernenergie ist begrenzt und nicht erneuerbar.",
+      "description": "The term 'Nuklearressourcen' is not standard in German; the more natural and widely accepted term is 'nukleare Ressourcen'. This correction improves the professional and educational tone, ensuring consistency with industry terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Fossile Brennstoffe, einschließlich Kohle und Öl, werden als nicht erneuerbar bezeichnet, da sie Millionen Jahre brauchen, um sich zu bilden.",
+      "correction": "Fossile Brennstoffe, einschließlich Kohle und Öl, werden als nicht erneuerbar bezeichnet, da sie Millionen Jahre benötigen, um sich zu bilden.",
+      "description": "The verb 'brauchen' is less precise in this context; 'benötigen' is the more appropriate verb for describing the time required for formation of fossil fuels. This correction enhances lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Unbegrenzte Energiequelle von der Sonne.",
+      "correction": "Eine unbegrenzte Energiequelle von der Sonne.",
+      "description": "The original phrase lacks an article, which is less natural in German educational style. Adding 'Eine' improves the flow and aligns with standard German sentence structure for explanations.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:08:15.693978",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

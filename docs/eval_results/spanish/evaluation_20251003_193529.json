@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Proveen madera, oxígeno y hábitats para fauna.",
+      "correction": "Proveen madera, oxígeno y hábitats para la fauna.",
+      "description": "The phrase 'hábitats para fauna' is missing the definite article 'la' before 'fauna'. In Spanish, when referring to fauna in a general sense, the definite article is required for grammatical correctness and naturalness. The corrected version improves both linguistic accuracy and natural flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imaginen un día sin agua, electricidad o combustible. La vida sería muy difícil.",
+      "correction": "Imagina un día sin agua, electricidad o combustible. La vida sería muy difícil.",
+      "description": "The use of 'Imaginen' (plural imperative) is inconsistent with the rest of the lesson, which uses a neutral or singular register. For educational content aimed at a general audience, the singular 'Imagina' is more direct and engaging, aligning with standard Spanish educational style. This change improves tone consistency and reader engagement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su utilización disminuye la necesidad de combustibles fósiles, los cuales son no renovables y su uso excesivo lleva a la contaminación ambiental y a la alteración de los ecosistemas.",
+      "correction": "Su utilización disminuye la necesidad de combustibles fósiles, que son no renovables y cuyo uso excesivo lleva a la contaminación ambiental y a la alteración de los ecosistemas.",
+      "description": "The relative pronoun 'los cuales' is unnecessarily formal and less natural in this context. Replacing it with 'que' and restructuring the sentence with 'cuyo uso excesivo' improves grammatical flow and clarity. This correction enhances both linguistic accuracy and readability.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources_1.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:35:29.498543",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

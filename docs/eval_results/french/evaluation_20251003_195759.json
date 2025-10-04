@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les machines simples, comme les poulies et les leviathés, sont conçues pour rendre les tâches plus faciles en divisant la force nécessaire.",
+      "correction": "Les machines simples, comme les poulies et les leviers, sont conçues pour rendre les tâches plus faciles en divisant la force nécessaire.",
+      "description": "The word 'leviathés' is a lexical error, likely a misspelling or incorrect word choice for 'leviers'. 'Levier' is the correct term for the simple machine type. This error affects comprehension and technical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "volant",
+      "correction": "roue de voiture",
+      "description": "The example 'volant' for 'roue et axe' is not the most natural or educationally clear choice in French. 'Volant' typically refers to a steering wheel, which is not a classic example of the wheel and axle mechanism in educational contexts. 'Roue de voiture' or 'roue de bicyclette' would be more appropriate and clearer for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "couvercle de pot",
+      "correction": "bouchon de bouteille",
+      "description": "The example 'couvercle de pot' for 'vis' is not the most natural or accurate in French educational context. A 'bouchon de bouteille' (bottle cap) is a more common and relatable example of a screw mechanism for French learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:59.807457",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

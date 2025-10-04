@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Haltet die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften.",
+      "correction": "Halten Sie die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um die Atemwege zu befreien.",
+      "description": "This sentence mixes informal ('Haltet') and formal ('helfen Sie', 'Sie') forms, which is inconsistent and confusing. The imperative should be consistently formal ('Halten Sie'). Additionally, 'um den Atemweg zu lüften' is not idiomatic in German; the correct phrase is 'um die Atemwege zu befreien'. This correction addresses both the register inconsistency and the unnatural expression.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Erste Hilfe ist grundlegend für jeden, der im Notfall helfen kann, nicht nur für ausgebildete Fachkräfte.",
+      "correction": "Erste Hilfe ist grundlegend für jeden, der im Notfall helfen kann, nicht nur für ausgebildete Fachkräfte.",
+      "description": "No linguistic errors found. All nouns are correctly capitalized, and the sentence structure is appropriate. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Heimlich-Manöver",
+      "correction": "Heimlich-Griff",
+      "description": "The term 'Heimlich-Manöver' is less commonly used in German-speaking countries; 'Heimlich-Griff' is the standard and widely accepted term for the abdominal thrust procedure. Using the correct terminology improves clarity and aligns with local first aid training materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Verbrennung unter kühles (nicht kaltes) Wasser halten (10–20 Minuten).",
+      "correction": "Die Verbrennung unter kühlem (nicht kaltem) Wasser halten (10–20 Minuten).",
+      "description": "The adjective 'kühles' should agree in case and gender with 'Wasser', which is neuter and in the dative case after 'unter'. The correct form is 'kühlem Wasser'. This correction ensures proper grammatical agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Mit einem sterilen Verband abdecken.",
+      "correction": "Die Wunde mit einem sterilen Verband abdecken.",
+      "description": "The original phrase is a fragment and lacks clarity. In German instructional style, it is more natural and clear to specify the object ('Die Wunde') when giving step-by-step instructions. This improves the instructional tone and ensures the action is unambiguous.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Enge Kleidung am Hals und an der Taille lockern.",
+      "correction": "Enge Kleidung am Hals und an der Taille lockern.",
+      "description": "No grammatical errors detected. The sentence is clear and uses correct case and word order. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Ablegen der Person auf dem Boden ist ein grundlegender Schritt, um die Durchblutung des Gehirns zu verbessern und potenziell lebensrettende Maßnahmen zu ermöglichen.",
+      "correction": "Das Hinlegen der Person auf den Rücken ist ein grundlegender Schritt, um die Durchblutung des Gehirns zu verbessern und potenziell lebensrettende Maßnahmen zu ermöglichen.",
+      "description": "The phrase 'Ablegen der Person auf dem Boden' is less idiomatic in German first aid instructions. 'Hinlegen der Person auf den Rücken' is the standard and clearer way to describe this action in medical contexts. This correction improves naturalness and aligns with local first aid guidelines.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "German",
+    "timestamp": "2025-10-03T20:07:24.445167",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

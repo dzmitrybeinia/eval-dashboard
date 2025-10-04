@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "簡単な機械は、力を効率的に使うための道具です。.",
+      "correction": "簡単な機械は、力を効率的に使うための道具です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) in the statement. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "電球はねじとして分類されます。ねじは円筒に傾斜面が巻き付いたものであり、照明に使用されます。てこは棒を中心に回転させるものです。.",
+      "correction": "電球はねじとして分類されます。ねじは円筒に傾斜面が巻き付いたものであり、照明に使用されます。てこは棒を中心に回転させるものです。",
+      "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ハンマーは通常、金属の表面を強く打たせるために使用されます。瓶の蓋を外すためには、ナイフが一般的に使用されます。.",
+      "correction": "ハンマーは通常、金属の表面を強く打たせるために使用されます。瓶の蓋を外すためには、ナイフが一般的に使用されます。",
+      "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "簡単な機械は、仕事を簡単にし、物を小さな動きに変えることを目的としています。例えば、力を必要とせずに大きな物を運ぶために使われます。.",
+      "correction": "簡単な機械は、仕事を簡単にし、物を小さな動きに変えることを目的としています。例えば、力を必要とせずに大きな物を運ぶために使われます。",
+      "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "簡単な機械の概念は、時代を超えて変わってきません。たとえば、古代の傾斜面やレールは、今日のように使用される機械の原型と見なすことができます。技術の進歩によって、その機能は簡素化されたり、新しい用途に適応されたりしていますが、その基本的な存在感は強く続いています。.",
+      "correction": "簡単な機械の概念は、時代を超えて変わってきません。たとえば、古代の傾斜面やレールは、今日のように使用される機械の原型と見なすことができます。技術の進歩によって、その機能は簡素化されたり、新しい用途に適応されたりしていますが、その基本的な存在感は強く続いています。",
+      "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "機械を動かすと、物質の形や位置が変わります。それによって、物体のエネルギーが異なる形に変わるという原理があります。この原理は物理学で重要です。.",
+      "correction": "機械を動かすと、物質の形や位置が変わります。それによって、物体のエネルギーが異なる形に変わるという原理があります。この原理は物理学で重要です。",
+      "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "簡単な機械は日常生活における機能的な役割を果たしますが、それらは主に現代科学の進歩によって形作られています。.",
+      "correction": "簡単な機械は日常生活における機能的な役割を果たしますが、それらは主に現代科学の進歩によって形作られています。",
+      "description": "The feedback ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of sentences. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:28:56.290554",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

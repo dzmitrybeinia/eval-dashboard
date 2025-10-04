@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "raios-X",
+      "correction": "raios X",
+      "description": "In Brazilian Portuguese, the correct form is 'raios X' without the hyphen, as 'raio X' is a compound noun where the hyphen is not standard according to the current orthographic rules. The use of the hyphen here is a minor orthographic error that should be corrected for proper spelling.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Jogos de realidade virtual (VR) usam IA para criar ambientes interativos e realistas.",
+      "correction": "Jogos de realidade virtual usam IA para criar ambientes interativos e realistas.",
+      "description": "The abbreviation 'VR' is not commonly used in Brazilian Portuguese educational contexts; 'realidade virtual' is the preferred term. Removing the English abbreviation improves naturalness and ensures terminology is locally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Chatbots oferecem suporte rápido ao cliente.",
+      "correction": "Assistentes virtuais oferecem suporte rápido ao cliente.",
+      "description": "The term 'chatbot' is an anglicism that, while increasingly recognized, may not be the most natural or widely understood term in Brazilian Portuguese educational materials. 'Assistente virtual' is a more locally accepted and natural term for automated customer support systems.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:13:14.938505",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

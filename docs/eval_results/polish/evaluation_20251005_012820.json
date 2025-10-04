@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Decyzja w Brown v. Board of Education założyła, że segregacja w szkołach publicznych jest zgodna z Konstytucją, co jest poprawną interpretacją wydarzenia. Tym samym zakazała segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+      "correction": "Decyzja w Brown v. Board of Education uznała, że segregacja w szkołach publicznych jest niezgodna z Konstytucją, co jest właściwą interpretacją wydarzenia. Tym samym zakazała segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+      "description": "The original Polish text contains a critical factual and linguistic error: it states that the Brown v. Board of Education decision established that segregation in public schools is constitutional, which is incorrect. The correct interpretation is that the decision found segregation unconstitutional. This error affects both the grammatical construction and the semantic accuracy of the statement, leading to a misleading educational message.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę. Jego metody zakorzenione były w ideach Mahatmą Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "correction": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niestosowania przemocy, które były inspirowane ideami Mahatmy Gandhiego i zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "description": "The original Polish feedback contains several linguistic issues: the phrase 'strategia niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę' is grammatically incorrect and semantically unclear. The use of 'Mahatmą Gandhiego' is incorrect; it should be 'Mahatmy Gandhiego' (genitive case). The sentence structure is convoluted and does not clearly communicate King's philosophy of nonviolence. The correction provides a clear, grammatically correct, and semantically accurate description of King's approach.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ruch Praw Obywatelskich znaczył znaczną poprawę wewnętrznych relacji między różnymi etnicznościami w Stanach Ziemiańskich.",
+      "correction": "Ruch Praw Obywatelskich oznaczał znaczną poprawę relacji między różnymi grupami etnicznymi w Stanach Zjednoczonych.",
+      "description": "The original Polish statement contains a lexical error: 'Stanach Ziemiańskich' is not a correct translation of 'United States' and is nonsensical in this context. The correct term is 'Stanach Zjednoczonych.' Additionally, 'znaczył' is not the appropriate verb; 'oznaczał' or 'przyniósł' would be more natural. The phrase 'wewnętrznych relacji między różnymi etnicznościami' is awkward; 'relacji między różnymi grupami etnicznymi' is more idiomatic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "posłudzenie wskazuje na zmniejszona bariera rasowa i wzrost współpracy.",
+      "correction": "Ruch wskazuje na zmniejszenie barier rasowych i wzrost współpracy.",
+      "description": "The original Polish sentence contains grammatical errors: 'posłudzenie' is not a correct word in this context and should be replaced with 'Ruch.' The phrase 'zmniejszona bariera rasowa' should be 'zmniejszenie barier rasowych' to correctly express the reduction of racial barriers. The correction provides a grammatically accurate and clear statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zniesienie barier, takich jak testy umiejętności czy podatki, które uniemożliwiały Afroamerykanom głosowanie.",
+      "correction": "Zniesienie barier, takich jak testy umiejętności czy podatki, które uniemożliwiały Afroamerykanom oddanie głosu.",
+      "description": "The original Polish sentence uses 'głosowanie,' which refers to the act of voting in general, but in this context, 'oddanie głosu' (casting a vote) is more precise and idiomatic. This improves the clarity and accuracy of the statement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T01:28:20.256053",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

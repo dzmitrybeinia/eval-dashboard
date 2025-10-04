@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "They don't create energy but make tasks easier by increasing efficiency.",
+      "correction": "They don't create energy but make tasks easier by increasing mechanical advantage.",
+      "description": "The term 'increasing efficiency' is misleading in the context of simple machines. Simple machines primarily provide mechanical advantage, not necessarily increased efficiency, as some energy is lost to friction. Using 'mechanical advantage' is more precise and educationally accurate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "A screw is a type of simple machine that can change the direction of a force.",
+      "correction": "A screw is a type of simple machine that converts rotational force into linear force.",
+      "description": "The statement is technically imprecise. While a screw does change the direction of force, its primary function is to convert rotational motion into linear motion. This correction improves conceptual accuracy for educational purposes.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Turning a screw on a jar lid requires more energy than turning one on a corkscrew.",
+      "correction": "Turning a screw on a jar lid does not necessarily require more energy than turning one on a corkscrew.",
+      "description": "The original statement is misleading because the energy required depends on multiple factors such as friction, thread pitch, and material. The correction clarifies that energy requirements vary and are not inherently greater for jar lids.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Simple machines like ramps, scissors, and doorknobs simplify daily tasks by reducing force.",
+      "correction": "Simple machines like ramps, scissors, and doorknobs simplify daily tasks by reducing the amount of force needed.",
+      "description": "The phrase 'reducing force' is vague and could be misinterpreted. Specifying 'reducing the amount of force needed' clarifies the intended meaning and improves educational clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Simple machines always require human intervention to function effectively.",
+      "correction": "Simple machines do not always require human intervention to function effectively.",
+      "description": "The original statement is absolute and inaccurate. Some simple machines, such as ramps, can function without continuous human intervention. The correction provides a more accurate and nuanced understanding.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "English",
+    "timestamp": "2025-10-03T19:32:43.557906",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "maximiser leur chances de survie",
+      "correction": "maximiser leurs chances de survie",
+      "description": "The possessive pronoun 'leur' should agree in number with 'chances', which is plural. The correct form is 'leurs chances'. This is a grammatical error affecting agreement between the pronoun and the noun.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Lièvre variable : Fourrure blanche en hiver pour se camoufler dans la neige.",
+      "correction": "Lièvre variable : Fourrure blanche en hiver pour se camoufler dans la neige.",
+      "description": "While the sentence is linguistically correct, the species name 'lièvre variable' is not the standard French term for 'snowshoe hare'. The more commonly accepted term in French is 'lièvre d'Amérique' or 'lièvre à raquettes'. This affects lexical precision and scientific terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Chameau : Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+      "correction": "Chameau : Bosses stockant de la graisse pour survivre longtemps sans nourriture.",
+      "description": "The phrase 'sans nourriture longtemps' is unnatural in French. The more idiomatic and culturally appropriate phrasing is 'survivre longtemps sans nourriture'. This improves the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les rongeurs du désert ont généralement des membres plus courts pour économiser de l'énergie et maintenir la chaleur corporelle, contrairement aux rongeurs des forêts qui peuvent avoir des membres plus longs pour naviguer dans les arbres.",
+      "correction": "Les rongeurs du désert ont généralement des membres plus courts pour économiser de l'énergie et maintenir la chaleur corporelle, contrairement aux rongeurs des forêts qui peuvent avoir des membres plus longs pour se déplacer dans les arbres.",
+      "description": "The verb 'naviguer' is not appropriate in this context. In French, 'naviguer' is typically used for navigation in water or metaphorically for moving through abstract spaces. The correct verb for moving through trees is 'se déplacer'. This is a lexical precision issue.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Renard des sables : Oreilles longues pour dissiper la chaleur.",
+      "correction": "Fennec : Oreilles longues pour dissiper la chaleur.",
+      "description": "The animal commonly referred to in French is 'fennec' rather than 'renard des sables'. Using the standard term improves scientific accuracy and localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:45:14.783258",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

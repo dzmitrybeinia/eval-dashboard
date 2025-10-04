@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zmiennych zazwyczni odnoszą się do zmiennych, które wymagają nazwy, aby wypadło się na jakąś wartość.",
+      "correction": "zmiennych zazwyczaj odnoszą się do zmiennych, które wymagają nazwy, aby przypisać im jakąś wartość.",
+      "description": "The word 'zazwyczni' is a spelling error; the correct form is 'zazwyczaj'. Additionally, the phrase 'aby wypadło się na jakąś wartość' is ungrammatical and unclear in Polish. It should be 'aby przypisać im jakąś wartość' to accurately convey the intended meaning. This correction addresses both the spelling and the clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "co skutkowałoby błędne działanie lub błąd kompilacji.",
+      "correction": "co skutkowałoby błędnym działaniem lub błędem kompilacji.",
+      "description": "The phrase 'błędne działanie' should be in the instrumental case: 'błędnym działaniem', and 'błąd kompilacji' should be in the instrumental case: 'błędem kompilacji', to match the construction 'skutkowałoby ...'. This ensures proper case agreement in Polish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Ta faktualność opiera się na podstawowej wiedzy w kodowaniu, gdzie typ danych jest podstawowym elementem w tworzeniu i używaniu zmiennych.",
+      "correction": "Ta prawidłowość opiera się na podstawowej wiedzy w kodowaniu, gdzie typ danych jest podstawowym elementem w tworzeniu i używaniu zmiennych.",
+      "description": "The word 'faktualność' is a calque from English ('factuality') and is not used in natural Polish. The correct term is 'prawidłowość' or 'zasada', which better fits the context and is idiomatic in Polish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczniowo używają języków programowania",
+      "correction": "zazwyczaj używają języków programowania",
+      "description": "The word 'zazwyczniowo' is a spelling error; the correct form is 'zazwyczaj'. This correction is necessary for proper understanding and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "z ciasto",
+      "correction": "z ciastem",
+      "description": "The phrase 'z ciasto' is incorrect; the noun 'ciasto' should be in the instrumental case: 'z ciastem'. This ensures proper case usage in Polish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "nie może obsługiwać złożonych instrukcji programowych potrzebnych do działania komputera.",
+      "correction": "nie może obsługiwać złożonych instrukcji programistycznych potrzebnych do działania komputera.",
+      "description": "The adjective 'programowych' is less precise in this context; 'programistycznych' is the correct term to describe instructions related to programming.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "liczby zmienniste",
+      "correction": "liczby zmiennoprzecinkowe",
+      "description": "The term 'liczby zmienniste' is incorrect in Polish technical language. The correct term for 'float' is 'liczby zmiennoprzecinkowe'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ostateczne rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+      "correction": "Ostateczny rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+      "description": "The word 'Ostateczne' should be 'Ostateczny' to agree in gender and case with 'rodzaj'. This correction ensures proper grammatical agreement.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T01:28:29.086161",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

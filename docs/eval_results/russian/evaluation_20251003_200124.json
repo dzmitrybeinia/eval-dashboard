@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ид аль-Фитр действительно является значимым праздником, но он отмечается в конце Рамадана, что является деньгам в исламском календаре.",
+      "correction": "Ид аль-Фитр действительно является значимым праздником, но он отмечается в конце Рамадана, что является важным событием в исламском календаре.",
+      "description": "The word 'деньгам' is a lexical error, as it means 'money' in Russian and is not appropriate in this context. The intended meaning is 'important event' or 'significant day.' This error affects comprehension and should be corrected to accurately reflect the significance of the holiday.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Например, в Японии используется декоративный пакет 'хими', а в Югославии широко празднуют 'Сочиян'.",
+      "correction": "Например, в Японии используются декоративные пакеты для подарков, а в Сербии отмечают праздник 'Божич'.",
+      "description": "The reference to 'хими' as a Japanese decorative package is inaccurate and not culturally recognized; the correct term would be 'фуросики' or a general reference to gift wrapping. 'Сочиян' is not a known holiday in Yugoslavia; a more accurate example would be 'Божич' (Christmas) in Serbia. These errors reduce cultural credibility and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Культурные праздники отличаются уникальными рифами, традициями и практиками в каждой культуре.",
+      "correction": "Культурные праздники отличаются уникальными ритуалами, традициями и практиками в каждой культуре.",
+      "description": "The word 'рифами' is a lexical error; it means 'rhymes' and is not appropriate in this context. The correct term is 'ритуалами' (rituals), which accurately describes the unique practices associated with cultural holidays.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "в то время как День Рождества в Индии включает ознаки и семейные походы.",
+      "correction": "в то время как День Рождества в Индии включает знаки и семейные встречи.",
+      "description": "The word 'ознаки' is not a standard Russian word and appears to be a misspelling or incorrect lexical choice. The intended meaning is likely 'знаки' (signs) or 'особенности' (features). Additionally, 'семейные походы' (family hikes) is not a typical Christmas tradition in India; 'семейные встречи' (family gatherings) is more appropriate.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations_1.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:24.837932",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

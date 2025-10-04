@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Radość jest jedyną emocją, która może pojawić się w określone sytuacje.",
+      "correction": "Radość jest jedyną emocją, która może pojawić się w określonych sytuacjach.",
+      "description": "The phrase 'w określone sytuacje' uses the accusative case incorrectly; it should be 'w określonych sytuacjach' (locative plural) to match the preposition 'w' and the context. This is a noun case error affecting grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Radość, jak wskazano, to przykład emocji pozytywnej, która może pojawić się z różnych okoliczności, takich jak osiągnięcie cele lub szczęście.",
+      "correction": "Radość, jak wskazano, to przykład emocji pozytywnej, która może pojawić się w różnych okolicznościach, takich jak osiągnięcie celu lub szczęście.",
+      "description": "Multiple noun case errors: 'z różnych okoliczności' should be 'w różnych okolicznościach' (locative plural), and 'osiągnięcie cele' should be 'osiągnięcie celu' (genitive singular). These errors affect grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sugerowanie, że jest to jedyna emocja przyjmowana w określone sytuacje, nie jest dokładne.",
+      "correction": "Sugerowanie, że jest to jedyna emocja pojawiająca się w określonych sytuacjach, nie jest dokładne.",
+      "description": "The phrase 'przyjmowana w określone sytuacje' is grammatically incorrect; 'przyjmowana' does not fit the context, and 'w określone sytuacje' should be 'w określonych sytuacjach' (locative plural). The verb should be 'pojawiająca się' to match the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Emocje są wyłącznie wrodzone i nie mogą być zmieniane przez codzienne doświadczenia.",
+      "correction": "Emocje są wyłącznie wrodzone i nie mogą być zmieniane przez codzienne doświadczenia.",
+      "description": "No linguistic errors detected. The sentence is grammatically correct and uses proper noun cases and verb forms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To stwierdzenie nie odzwierciedla z naukami uczenia się, które mówią, że emocje są złożone i są wpływane zarówno przez elementy wrodzone, jak i zewnętrzną środowisko.",
+      "correction": "To stwierdzenie nie odzwierciedla nauk o uczeniu się, które mówią, że emocje są złożone i są kształtowane zarówno przez elementy wrodzone, jak i zewnętrzne środowisko.",
+      "description": "Multiple errors: 'nie odzwierciedla z naukami uczenia się' should be 'nie odzwierciedla nauk o uczeniu się' (preposition error), 'są wpływane' is incorrect; 'są kształtowane' is the proper verb. 'zewnętrzną środowisko' should be 'zewnętrzne środowisko' (adjective-noun agreement).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zewnętrzne doświadczenia, takie jak spotkania z innymi lub wydarzenia, mogą znacznie wpływać na nasze emocje.",
+      "correction": "Zewnętrzne doświadczenia, takie jak spotkania z innymi lub wydarzenia, mogą znacznie wpływać na nasze emocje.",
+      "description": "No linguistic errors detected. The sentence is grammatically correct and uses proper noun cases and verb forms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dlatego stwierdzenie, że emocje są 'wyłącznie wrodzone', nie jest dokładne.",
+      "correction": "Dlatego stwierdzenie, że emocje są 'wyłącznie wrodzone', nie jest dokładne.",
+      "description": "No linguistic errors detected. The sentence is grammatically correct and uses proper noun cases and verb forms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Emocje wpływają na nasze zdrowie fizyczne.",
+      "correction": "Emocje wpływają na nasze zdrowie fizyczne.",
+      "description": "No linguistic errors detected. The sentence is grammatically correct and uses proper noun cases and verb forms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chociaż emocje mogą mieć związek z fizycznym zdrowie, ta afirmacja jest nieścisła w kontekście zachowania emocjonalnego.",
+      "correction": "Chociaż emocje mogą mieć związek ze zdrowiem fizycznym, ta afirmacja jest nieścisła w kontekście zachowania emocjonalnego.",
+      "description": "The phrase 'z fizycznym zdrowie' is incorrect; it should be 'ze zdrowiem fizycznym' (instrumental case, correct word order).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Emocje mogą wpływać na zachowanie, poprzez wpływać na nasze reakcje, decyzje i interakcje z innymi, ale bez dodatkowego kontekstu, ta propozycja nie odnosi się bezpośrednio na zrozumienie różnych typów emocji i ich wpływu na zachowanie.",
+      "correction": "Emocje mogą wpływać na zachowanie, wpływając na nasze reakcje, decyzje i interakcje z innymi, ale bez dodatkowego kontekstu ta propozycja nie odnosi się bezpośrednio do zrozumienia różnych typów emocji i ich wpływu na zachowanie.",
+      "description": "Redundant use of 'poprzez wpływać' should be replaced with 'wpływając'. The phrase 'odnosi się bezpośrednio na zrozumienie' should be 'odnosi się bezpośrednio do zrozumienia' (preposition error).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Praktyczne aktywności, takie jak sport czy codzienne poranny spacery, mogą zwiększyć produkcję endorfynów, które przyczyniają się do poprawy nastroju i redukcji stresu, co prowadzi do lepszego zarządzania emocjami.",
+      "correction": "Praktyczne aktywności, takie jak sport czy codzienne poranne spacery, mogą zwiększyć produkcję endorfin, które przyczyniają się do poprawy nastroju i redukcji stresu, co prowadzi do lepszego zarządzania emocjami.",
+      "description": "Two errors: 'poranny spacery' should be 'poranne spacery' (adjective-noun agreement, plural), and 'endorfinów' is the genitive plural, but in this context, 'endorfin' (genitive plural, alternative form) is more natural and standard in Polish scientific usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Tego nie zgadzamy, ponieważ emocje mogą być zarówno pozytywne, jak i negatywne, ale wszystkie mogą wpływać na nasze zachowanie w różny sposób.",
+      "correction": "Nie zgadzamy się z tym, ponieważ emocje mogą być zarówno pozytywne, jak i negatywne, ale wszystkie mogą wpływać na nasze zachowanie w różny sposób.",
+      "description": "The phrase 'Tego nie zgadzamy' is incorrect; the proper form is 'Nie zgadzamy się z tym'. This is a verb construction error affecting clarity and grammatical correctness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:38:56.325196",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.3,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.7,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

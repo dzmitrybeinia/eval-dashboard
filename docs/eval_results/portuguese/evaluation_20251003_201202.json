@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Minha Velha Mãe Estudada Jamais Saberá Usar Nada",
+      "correction": "Minha Velha Mãe Estudante Jamais Saberá Usar Nada",
+      "description": "The word 'Estudada' in the mnemonic phrase is not the standard or most natural choice in Brazilian Portuguese for this context. The correct and commonly used version is 'Estudante', which better fits the pattern of using nouns and is more familiar to learners. This improves both linguistic accuracy and mnemonic effectiveness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "123-456-789",
+      "correction": "123.456.789",
+      "description": "The grouping of numbers using hyphens ('123-456-789') follows an English convention. In Brazilian Portuguese, numbers are typically grouped using periods or spaces, especially in contexts like CPF or phone numbers. Using periods ('123.456.789') aligns with local formatting standards and improves cultural appropriateness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:12:02.715893",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

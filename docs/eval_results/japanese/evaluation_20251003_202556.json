@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "陰影の技法には、光源の位置が関係ない。",
+      "correction": "陰影の技法には、光源の位置が関係ありません。",
+      "description": "The original sentence ends with the plain negative form '関係ない' but uses the polite explanatory style elsewhere. For consistency and proper register in educational content, the polite negative form '関係ありません' should be used. This improves the overall tone and matches the expected level of formality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "地平線は視点の目の高さを表します。",
+      "correction": "地平線は視点の目の高さを表します。",
+      "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate terminology, and is culturally neutral.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "構図を理解することが絵画の中心に焦点を当てるのに役立ちます。",
+      "correction": "構図を理解することは絵画の中心に焦点を当てるのに役立ちます。",
+      "description": "The original uses 'が' as the subject marker, but in this context, 'は' is more appropriate to mark the topic and improve naturalness. This change enhances the sentence's clarity and aligns with standard Japanese usage in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "陰影は画面の中央部分だけに使用されることが多い。",
+      "correction": "陰影は画面の中央部分だけに使用されることが多いです。",
+      "description": "The sentence ends with the plain form '多い', which is less appropriate in formal educational content. Changing to the polite form '多いです' ensures consistency in register and improves the overall tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:25:56.523965",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

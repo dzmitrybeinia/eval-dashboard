@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "наследственность",
+      "correction": "наследие",
+      "description": "The word 'наследственность' refers to heredity in a biological sense, which is incorrect in this cultural context. The correct term is 'наследие', meaning heritage, which accurately conveys the idea of cultural inheritance.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "лампати",
+      "correction": "лампы",
+      "description": "The word 'лампати' is a misspelling and does not exist in Russian. The correct plural form is 'лампы'. This error affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "платформами",
+      "correction": "платформами (передвижными платформами)",
+      "description": "The word 'платформами' is ambiguous in Russian and may not be immediately understood as parade floats. Adding clarification such as 'передвижными платформами' improves accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "подыскавание дома",
+      "correction": "очистка дома",
+      "description": "The word 'подыскавание' is incorrect and does not fit the context. The correct term is 'очистка дома', which means cleaning the house, a traditional practice for Lunar New Year.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "уборство",
+      "correction": "уборка",
+      "description": "The word 'уборство' is not standard Russian; the correct term is 'уборка', meaning cleaning. This correction is necessary for proper understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "пан де муэрто",
+      "correction": "пан де муэрто (pan de muerto)",
+      "description": "The spelling 'пан де муэрто' is a transliteration from Spanish, but the correct Spanish term is 'pan de muerto'. For clarity and accuracy, the original Spanish spelling should be included in parentheses.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Октаберфст",
+      "correction": "Октоберфест",
+      "description": "The word 'Октаберфст' is a misspelling of 'Октоберфест'. The correct spelling is 'Октоберфест', which is the established Russian transliteration for Oktoberfest.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ледерхозен",
+      "correction": "ледерхозен (lederhosen)",
+      "description": "The term 'ледерхозен' is a transliteration of the German 'lederhosen'. For Russian audiences, it is helpful to include the original term in parentheses for clarity, as 'ледерхозен' may not be widely recognized.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "пивоварище",
+      "correction": "пивоварение",
+      "description": "The word 'пивоварище' is incorrect and not used in Russian. The correct term is 'пивоварение', meaning brewing. This error affects the credibility and clarity of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "участвовать и участвовать",
+      "correction": "участвовать",
+      "description": "The phrase 'участвовать и участвовать' is a tautology and should be corrected to a single 'участвовать'. Repetition here is unnecessary and affects the naturalness of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:01:19.686624",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

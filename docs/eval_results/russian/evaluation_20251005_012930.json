@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The word 'органел' is an incorrect form; the correct Russian term is 'органелла' (singular) or 'органеллы' (plural). The error affects lexical precision and may confuse learners, as 'органел' is not a standard term in Russian biology. This issue appears in the YesNo statement and feedback sections and should be corrected throughout.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "дележкам",
+      "correction": "мастерам",
+      "description": "The word 'дележкам' is not appropriate in this context. In Russian, 'дележка' refers to dividing or sharing, not to a person or worker. The intended meaning is likely 'мастерам' (craftsmen) or 'работникам' (workers), which would be culturally and semantically accurate when comparing organelles to specialized workers in a pottery workshop.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органеллы",
+      "correction": "органеллы",
+      "description": "The term 'органеллы' is used correctly in most places, but in the YesNo feedback, the English word 'organelлы' appears, which is a code-mixing error. The correct term is 'органеллы' in Russian, without English letters. This affects lexical precision and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "центральной бизоном",
+      "correction": "центральным офисом",
+      "description": "The phrase 'центральной бизоном' is incorrect and appears to be a mistranslation or typographical error. The intended comparison is likely to a 'центральный офис' (central office) or 'управляющий центр' (management center). 'Бизон' means 'bison' and is not appropriate in this context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "цитоскелемент",
+      "correction": "цитоскелет",
+      "description": "The word 'цитоскелемент' is a misspelling of 'цитоскелет' (cytoskeleton). This spelling error affects comprehension and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "пластинку для структуры",
+      "correction": "основу для структуры",
+      "description": "The phrase 'как пластинку для структуры' is unnatural and unclear in Russian. The intended meaning is likely 'как основу для структуры' (as a basis for structure) or 'как структурный компонент'. The current wording is not idiomatic and may confuse learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "обеспечение энергии для роста и размножения растений",
+      "correction": "обеспечение энергией для роста и размножения растений",
+      "description": "The phrase 'обеспечение энергии' is grammatically incorrect; the correct form is 'обеспечение энергией', using the instrumental case. This error affects grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "необходимым для различных процессов роста и размножения у растений",
+      "correction": "необходимой для различных процессов роста и размножения у растений",
+      "description": "The word 'необходимым' should agree in gender and case with 'глюкоза', which is feminine. The correct form is 'необходимой'. This error affects grammatical agreement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T01:29:30.599183",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

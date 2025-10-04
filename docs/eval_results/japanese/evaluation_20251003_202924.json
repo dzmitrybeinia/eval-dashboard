@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "時間管理を行うことで学業に負担がかかることが一般的です。.",
+      "correction": "時間管理を行うことで学業に負担がかかることが一般的です。",
+      "description": "There is an unnecessary period at the end of the sentence, resulting in double punctuation. In Japanese, only one full-width period should be used to end a sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "時間管理を習得することは、学業に負担をかけることではありません。逆に、それは学習プロセスをスムーズにし、優先順位をつけるのに役立ちます。効率的な学習スキルは、時間を有効活用し、学業の負担を軽減することが期待されます。.",
+      "correction": "時間管理を習得することは、学業に負担をかけることではありません。逆に、それは学習プロセスをスムーズにし、優先順位をつけるのに役立ちます。効率的な学習スキルは、時間を有効活用し、学業の負担を軽減することが期待されます。",
+      "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "継続的な学習は、時間を有効活用することで成功確率が高まる。.",
+      "correction": "継続的な学習は、時間を有効活用することで成功確率が高まる。",
+      "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "継続的な学習を行う際には、時間の管理を優先していくことが、学習プロセスにおいて大きな貢献をします。学習ステップを途切れないように計画し、一貫性を持って取り組むことで、学習成果が向上します。.",
+      "correction": "継続的な学習を行う際には、時間の管理を優先していくことが、学習プロセスにおいて大きな貢献をします。学習ステップを途切れないように計画し、一貫性を持って取り組むことで、学習成果が向上します。",
+      "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "絶対に書かないといけない重要なポイントがあります。.",
+      "correction": "絶対に書かないといけない重要なポイントがあります。",
+      "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ノート取りの目標は、重要な情報を把握し、記憶に定着させることです。重要なポイントを強調することで、学習と記憶の理解を深めます。ただ読まれると、情報の吸収が低下する可能性があります。.",
+      "correction": "ノート取りの目標は、重要な情報を把握し、記憶に定着させることです。重要なポイントを強調することで、学習と記憶の理解を深めます。ただ読まれると、情報の吸収が低下する可能性があります。",
+      "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "勉強時間を1日に集中させることで、学習効率が向上します。.",
+      "correction": "勉強時間を1日に集中させることで、学習効率が向上します。",
+      "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "集中した勉強は脳をより効果的に活用するため、効率が高まります。.",
+      "correction": "集中した勉強は脳をより効果的に活用するため、効率が高まります。",
+      "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "試験の前には、読書をした後に昼食を食べるのが最適です。.",
+      "correction": "試験の前には、読書をした後に昼食を食べるのが最適です。",
+      "description": "There is an unnecessary period at the end of the statement, resulting in double punctuation. Only one full-width period should be used to end a Japanese sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "実際には、試験の前には十分な休息を取ることが認知能力と記憶力を向上させるため、昼食を食べることが推奨されます。必要な栄養素を摂取し、脳の健康をサポートすることが重要です。.",
+      "correction": "実際には、試験の前には十分な休息を取ることが認知能力と記憶力を向上させるため、昼食を食べることが推奨されます。必要な栄養素を摂取し、脳の健康をサポートすることが重要です。",
+      "description": "The feedback sentence ends with an unnecessary period, resulting in double punctuation. In Japanese, only one full-width period should be used at the end of a sentence. Remove the extra period for correct orthography.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:29:24.662281",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

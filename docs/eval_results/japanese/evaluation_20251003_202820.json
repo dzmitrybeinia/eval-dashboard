@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "エトスは、単に強力な言葉だけで成り立っている。.",
+      "correction": "エトスは、単に強力な言葉だけで成り立っている。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "単に強力な言葉を使うことはあまり含まれていません。.",
+      "correction": "単に強力な言葉を使うことはあまり含まれていません。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "パトスは、聴衆の共通の価値観に訴えることで行動を促す技法です。.",
+      "correction": "パトスは、聴衆の共通の価値観に訴えることで行動を促す技法です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "聴衆の共通の信念や感情を引きつけます。この説得は、より広範な聴衆を動機付けるために使われます。.",
+      "correction": "聴衆の共通の信念や感情を引きつけます。この説得は、より広範な聴衆を動機付けるために使われます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロゴスは、感情やストーリーを通じて説得する方法です。.",
+      "correction": "ロゴスは、感情やストーリーを通じて説得する方法です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロゴスは論理に基づいた説得法であり、感情やストーリーを使用しない。.",
+      "correction": "ロゴスは論理に基づいた説得法であり、感情やストーリーを使用しない。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "エトス、パトス、ロゴスを組み合わせて議論を構築することができます。.",
+      "correction": "エトス、パトス、ロゴスを組み合わせて議論を構築することができます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これらの技法を組み合わせることで、より広範な聴衆に対しても強力なメッセージを伝えることができます。.",
+      "correction": "これらの技法を組み合わせることで、より広範な聴衆に対しても強力なメッセージを伝えることができます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "エトスは聴衆を笑いさせることが主な目的です。.",
+      "correction": "エトスは聴衆を笑いさせることが主な目的です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "笑いを引くことは、エトスの目的ではありません。.",
+      "correction": "笑いを引くことは、エトスの目的ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in a double punctuation mark (。.). In Japanese, only one full stop should be used at the end of a sentence. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T20:28:20.246961",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

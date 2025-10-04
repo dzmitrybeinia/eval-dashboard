@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "pour voir son rêve devenir vrai enfin !",
+      "correction": "pour voir son rêve enfin devenir vrai !",
+      "description": "The phrase 'devenir vrai enfin !' is awkward and unnatural in French. The adverb 'enfin' should precede the verb 'devenir vrai' for correct emphasis and natural word order. This correction improves the lexical precision and fluency of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Il y avait un homme de Perpignan, Qui rêvait de manger un vieux pain.",
+      "correction": "Il y avait un homme de Perpignan, Qui rêvait de manger du pain rassis.",
+      "description": "The phrase 'manger un vieux pain' is not idiomatic in French and may sound odd to native speakers. The culturally appropriate term for old bread is 'pain rassis.' This correction ensures the example aligns with natural French usage and cultural expectations.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "souvent capturant une image ou un sentiment brève et puissant.",
+      "correction": "souvent capturant une image ou un sentiment bref et puissant.",
+      "description": "The adjective 'brève' is feminine, but 'sentiment' is masculine. The correct form is 'bref.' This correction ensures proper gender agreement in the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pentamètre iambique",
+      "correction": "pentamètre ïambique",
+      "description": "The word 'iambique' should use the tréma on the 'i' ('ïambique') to reflect the correct French spelling of the term. This correction ensures the use of standard literary terminology in French.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "French",
+    "timestamp": "2025-10-03T19:57:48.315641",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

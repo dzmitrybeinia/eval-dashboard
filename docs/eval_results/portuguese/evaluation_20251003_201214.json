@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ela é continuamente reabastecida pelo ciclo do processo de combinação-ionização da energia solar, diferente de combustíveis fósseis que são finitos.",
+      "correction": "Ela é continuamente reabastecida pelo ciclo natural da energia solar, diferente dos combustíveis fósseis, que são finitos.",
+      "description": "The phrase 'ciclo do processo de combinação-ionização da energia solar' is not a standard or accurate scientific term in Portuguese and may confuse learners. The correct and natural expression is 'ciclo natural da energia solar.' Additionally, 'diferente de combustíveis fósseis que são finitos' should use 'dos combustíveis fósseis, que são finitos' for proper article usage and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Desperdício de materiais e energia não tem impacto na conservação dos recursos naturais.",
+      "correction": "O desperdício de materiais e energia não tem impacto na conservação dos recursos naturais.",
+      "description": "The sentence is missing the definite article 'O' before 'desperdício,' which is required for grammatical correctness in Portuguese. This omission affects the clarity and naturalness of the statement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍 Nesta lição, vamos explorar os tipos de recursos naturais, seus usos e por que é essencial conservá-los.",
+      "correction": "Nesta lição, vamos explorar os tipos de recursos naturais, seus usos e por que é essencial conservá-los.",
+      "description": "The use of the globe emoji '🌍' at the beginning of an educational sentence may be considered informal and less appropriate for formal educational content in Brazilian Portuguese. Removing the emoji ensures a more professional and culturally neutral tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T20:12:14.032027",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

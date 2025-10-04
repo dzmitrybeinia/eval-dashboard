@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "puentes levantadores",
+      "correction": "palancas",
+      "description": "The term 'puentes levantadores' is not a standard example of a simple machine in Spanish and may confuse learners. The correct term for the simple machine in this context is 'palancas'. This correction ensures technical accuracy and clarity for educational purposes.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La eficiencia de la palanca se debe a la eficiencia mecánica, que es la relación entre la fuerza aplicada y el desplazamiento.",
+      "correction": "La eficiencia de la palanca se determina por la eficiencia mecánica, que es la relación entre la fuerza aplicada y el desplazamiento.",
+      "description": "The verb 'se debe a' is not the most precise choice in this technical context. 'Se determina por' is more accurate when describing how efficiency is calculated. This correction improves the technical clarity and grammatical precision of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "palanca de botella",
+      "correction": "abrebotellas",
+      "description": "The term 'palanca de botella' is not commonly used in Spanish; the standard term for this tool is 'abrebotellas'. Using the correct terminology ensures learners are familiar with the tool in real-life contexts and improves localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las poleas se utilizan en ciertos tipos de máquinas simples, como las máquinas de palanca o las máquinas de palanca inclinada, pero no en todos los tipos.",
+      "correction": "Las poleas se utilizan en ciertos tipos de máquinas simples, como las palancas o los planos inclinados, pero no en todos los tipos.",
+      "description": "The phrase 'máquinas de palanca inclinada' is not standard in Spanish and may confuse learners. The correct terms are 'palancas' and 'planos inclinados'. This correction improves grammatical accuracy and technical clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "tope de puerta",
+      "correction": "cuña para puerta",
+      "description": "While 'tope de puerta' is understandable, 'cuña para puerta' is more precise and directly relates to the concept of a wedge as a simple machine. This correction enhances technical accuracy and localization for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "base de bombilla",
+      "correction": "casquillo de bombilla",
+      "description": "The term 'base de bombilla' is less commonly used in Spanish for the screw part of a light bulb. 'Casquillo de bombilla' is the standard term, improving naturalness and localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su funcionamiento se basa en principios como el leverage y la elevación, lo que simplifica nuestras labores cotidianas.",
+      "correction": "Su funcionamiento se basa en principios como la palanca y la elevación, lo que simplifica nuestras labores cotidianas.",
+      "description": "The use of the English word 'leverage' is inappropriate in Spanish educational content. The correct term is 'palanca'. This correction addresses both lexical and grammatical accuracy, ensuring the explanation is clear and culturally appropriate.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T19:36:00.148994",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

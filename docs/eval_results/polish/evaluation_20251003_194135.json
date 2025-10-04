@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Haiku zawsoduje się z trzech wersów, z których każdy ma dokładnie pięć sylab.",
+      "correction": "Haiku składa się z trzech wersów, z których każdy ma dokładnie pięć sylab.",
+      "description": "The word 'zawsoduje' is a non-existent and incorrect form in Polish. The correct verb is 'składa się', which means 'consists of'. This is a high-severity spelling and lexical error that affects comprehension and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Sonety zazwyczniują wyrażanie emocji w pośpiechowej, ale skomplikowanej strukturze.",
+      "correction": "Sonety zazwyczaj wyrażają emocje w poświęconej, ale skomplikowanej strukturze.",
+      "description": "The word 'zazwyczniują' is a misspelling and not a valid Polish word; the correct form is 'zazwyczaj' (usually). Additionally, 'pośpiechowej' (hurried) is not appropriate in this context; 'poświęconej' (dedicated) or another term should be used to better reflect the intended meaning. These errors are high-severity as they impact both understanding and the naturalness of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta stwierdzenie odzwierciedla kluczową cechę wolnego wiersza, czyli jego swobodne, nieograniczone wyrażanie twórców.",
+      "correction": "To stwierdzenie odzwierciedla kluczową cechę wolnego wiersza, czyli jego swobodne, nieograniczone wyrażanie twórcy.",
+      "description": "The phrase 'Ta stwierdzenie' is incorrect due to gender agreement; 'stwierdzenie' is neuter, so the correct form is 'To stwierdzenie'. Additionally, 'wyrażanie twórców' (expression of creators) should be singular 'wyrażanie twórcy' (expression of the creator) to match the context. These are medium-severity grammar errors affecting clarity and correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Poety mogą wykorzystać wolne dystychy, rytm i strukturę, aby przekazać emocje w sposób, który odzwierciedla ich subiekcję.",
+      "correction": "Poeci mogą wykorzystać wolne dystychy, rytm i strukturę, aby przekazać emocje w sposób, który odzwierciedla ich subiektywność.",
+      "description": "The word 'Poety' is incorrect; the correct nominative plural is 'Poeci'. The term 'subiekcję' is not standard Polish; 'subiektywność' is the proper word for 'subjectivity'. These lexical errors are medium-severity as they affect the naturalness and precision of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To pozwala na głębsze, bardziej naturalne przekazywanie doświadczeń, co czyni go wyborem znacznego wyrazu dla wielu poetów.",
+      "correction": "To pozwala na głębsze, bardziej naturalne przekazywanie doświadczeń, co czyni go wyborem wyrazistego stylu dla wielu poetów.",
+      "description": "The phrase 'wyborem znacznego wyrazu' is grammatically and semantically incorrect. 'Znacznego wyrazu' does not convey the intended meaning; 'wyborem wyrazistego stylu' (choice of expressive style) is more appropriate. This is a medium-severity grammar and lexical error affecting clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Twierzenie, że mają trzy długie wersy, jest niepoprawne.",
+      "correction": "Twierdzenie, że mają trzy długie wersy, jest niepoprawne.",
+      "description": "The word 'Twierzenie' is a spelling error; the correct form is 'Twierdzenie'. This is a minor spelling issue that does not significantly affect comprehension but should be corrected for accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W formie sonetu poeta zazwyczni używa rymu zwrotnego na końcu każdego wersetu.",
+      "correction": "W formie sonetu poeta zazwyczaj używa rymu zwrotnego na końcu każdego wersetu.",
+      "description": "The word 'zazwyczni' is not a valid Polish word; the correct adverb is 'zazwyczaj' (usually). This is a high-severity grammar and spelling error that affects the statement's clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sonet tradycyjnie ma strukturę z rymami zwrotnymi, ale wymaga również zgodności metrum, które często składa się na dwuwolce.",
+      "correction": "Sonet tradycyjnie ma strukturę z rymami zwrotnymi, ale wymaga również zgodności metrum, które często opiera się na pentametrze jambicznym.",
+      "description": "The term 'dwuwolce' is not standard in Polish poetry terminology; the correct term is 'pentametr jambiczny' (iambic pentameter). This is a medium-severity lexical error affecting technical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ta zrównoważona struktura tworzy efekt melodijny i rytmiczny, który może zmieniać w ramach czterowolce, czy to przed ostatnim zakończeniem, czy w dwuwolce.",
+      "correction": "Ta zrównoważona struktura tworzy efekt melodijny i rytmiczny, który może się zmieniać w ramach czternastu wersów, szczególnie przed zakończeniem.",
+      "description": "The terms 'czterowolce' and 'dwuwolce' are not standard or clear in Polish poetry terminology. The correct reference is to 'czternaście wersów' (fourteen lines), which is the defining feature of a sonnet. This is a medium-severity lexical and terminology error affecting clarity and technical accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T19:41:35.190242",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

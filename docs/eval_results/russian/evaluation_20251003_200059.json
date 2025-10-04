@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "обрабаatesть",
+      "correction": "обрабатывать",
+      "description": "The word 'обрабаatesть' contains a spelling error due to an incorrect insertion of English letters ('ates'). The correct Russian verb is 'обрабатывать', which means 'to process'. This error significantly affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "храниты",
+      "correction": "храниться",
+      "description": "The word 'храниты' is a misspelling and incorrect verb form. The correct infinitive form in Russian is 'храниться', meaning 'to be stored'. This error impacts grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Программируемые переменные",
+      "correction": "Переменные в программировании",
+      "description": "The phrase 'Программируемые переменные' is unnatural and not standard in Russian programming terminology. The correct and commonly used phrase is 'Переменные в программировании', which accurately conveys the intended meaning and aligns with industry standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Связь с стандартом NGSS (MS-ETS1-1)",
+      "correction": "Связь со стандартом NGSS (MS-ETS1-1)",
+      "description": "The phrase 'Связь с стандартом' contains an error in the use of the preposition 'с' with the instrumental case. The correct form is 'со стандартом', which is required for naturalness and proper style in Russian when the following word starts with 'ст'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:00:59.120901",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

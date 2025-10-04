@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ИИ — это мощная технология, которая позволяет машинам выполнять задачи, требующие человеческого интеллекта. Он охватывает такие концепции, как машинное обучение и нейронные сети, и применяется в медицине, транспорте, торговле и развлечениях.",
+      "correction": "ИИ — это мощная технология, которая позволяет машинам выполнять задачи, требующие человеческого интеллекта. Она охватывает такие концепции, как машинное обучение и нейронные сети, и применяется в медицине, транспорте, торговле и развлечениях.",
+      "description": "The pronoun 'Он' is grammatically incorrect because 'технология' is feminine in Russian, so the pronoun should be 'Она'. This error affects agreement and clarity in the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Голосовые помощники, такие как Siri или Алиса, используют ИИ для общения с человеком.",
+      "correction": "Голосовые помощники, такие как Siri или Алиса, используют ИИ для общения с людьми.",
+      "description": "The phrase 'общения с человеком' is unnatural in Russian in this context. The standard and more natural expression is 'общения с людьми', as voice assistants interact with multiple users, not just a single person. This improves the localization quality and naturalness of the text.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ИИ может обучаться на больших объемах данных для улучшения своих решений.",
+      "correction": "ИИ может обучаться на больших объёмах данных для улучшения своих решений.",
+      "description": "The word 'объемах' should use the correct Russian spelling with the diacritical mark: 'объёмах'. This is a minor orthographic issue but important for proper spelling in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Розничная торговля: персонализированные рекомендации товаров.",
+      "correction": "Розничная торговля: персональные рекомендации товаров.",
+      "description": "The term 'персонализированные рекомендации' is a direct calque from English ('personalized recommendations') and is less natural in Russian. The more idiomatic and widely accepted term is 'персональные рекомендации'. This change improves the naturalness and localization quality of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T20:04:13.092950",
+    "model": "gpt 4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Правдословность заблуждена. Митохондрии содержат внутри кристали, которые являются сложными структурами, но не называются монструм. Эти кристали играют важную роль в увеличении поверхности для улучшения эффективности клеточного дыхания.",
+      "correction": "Это утверждение неверно. Митохондрии содержат внутри кристы, которые являются складками внутренней мембраны, но не называются монструм. Эти кристы играют важную роль в увеличении поверхности для повышения эффективности клеточного дыхания.",
+      "description": "The word 'Правдословность заблуждена' is not a correct or meaningful phrase in Russian; it appears to be a lexical error. The term 'кристали' is a misspelling and should be 'кристы' (the correct plural form for the folds in mitochondria). The word 'монструм' is not a Russian biological term and is incorrect in this context. The sentence structure and terminology should be corrected for clarity and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Рибосомы также играют роль в деградации белков.",
+      "correction": "Рибосомы не участвуют в деградации белков.",
+      "description": "This statement is grammatically correct but factually inaccurate. Ribosomes do not play a role in protein degradation; their main function is protein synthesis. The sentence should be corrected to avoid misleading information.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующими фотосинтезу.",
+      "correction": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующим фотосинтезу.",
+      "description": "There is a grammatical error in the participle agreement. 'Способствующими' is plural instrumental, but 'компонентом' is singular instrumental. The participle should agree with the singular noun and be 'способствующим'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "эндоплазматическому ретикулуму",
+      "correction": "эндоплазматическому ретикулуму (ЭПР)",
+      "description": "While 'эндоплазматический ретикулум' is technically correct, the abbreviation 'ЭПР' is more commonly used in Russian educational and scientific contexts. Adding the abbreviation improves terminology consistency and aligns with local standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Например, подсолнух в вашем саду питается энергией, полученной хлоропластами.",
+      "correction": "Например, подсолнух в саду получает энергию благодаря хлоропластам.",
+      "description": "The phrase 'в вашем саду' is informal and may not be appropriate for all audiences in educational content. Rephrasing to 'в саду' makes the example more neutral and universally applicable. Additionally, 'питается энергией, полученной хлоропластами' is less natural than 'получает энергию благодаря хлоропластам'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "митохондры или яйцеклетки",
+      "correction": "митохондрии или другие органеллы",
+      "description": "The term 'митохондры' is a non-standard, incorrect form; the correct term is 'митохондрии'. 'Яйцеклетки' (egg cells) are not organelles and should not be compared to chloroplasts in this context. Replacing with 'другие органеллы' maintains scientific accuracy and proper terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts_1.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T01:29:36.340279",
+    "model": "gpt-4.1",
+    "label": "v2"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -15,89 +14,25 @@ from config import API_KEY, API_VERSION, DEPLOYMENT_NAME, ENDPOINT_URL
 from orchestrators.base import AbstractOrchestrator
 
 from .error_patterns import ErrorPatternAnalyzer
+from .file_index import build_file_index, save_file_index
 from .issues import IssueAggregator
+from .json_parser import parse_llm_json_response
 from .labels import LabelInfo, ensure_label
+from .scoring import calculate_quality_score
 
 
+# Kept for backward compatibility - will be removed in future version
 class SimpleScorer:
-    """Calculate weighted scores based on issue severities."""
+    """
+    DEPRECATED: Use utils.scoring.calculate_quality_score() instead.
+    This class is kept for backward compatibility only.
+    """
 
     def __init__(self, base_score: float = 10.0) -> None:
         self.base_score = base_score
-        self.severity_multipliers = {
-            "HIGH": 0.3,
-            "MEDIUM": 0.2,
-            "MINOR": 0.1,
-        }
 
     def calculate_score(self, issues_list: List[Dict]) -> Dict:
-        if not issues_list:
-            return {
-                "overall_quality_score": self.base_score,
-                "classification": "NATIVE",
-                "total_issues": 0,
-                "total_penalty": 0.0,
-                "issue_breakdown": {
-                    "linguistic": 0,
-                    "localization": 0,
-                    "distractor_quality": 0,
-                },
-                "penalty_breakdown": {
-                    "linguistic_penalty": 0.0,
-                    "localization_penalty": 0.0,
-                    "distractor_quality_penalty": 0.0,
-                },
-            }
-
-        penalties = {
-            "linguistic": 0.0,
-            "localization": 0.0,
-            "distractor_quality": 0.0,
-        }
-        counts = {
-            "linguistic": 0,
-            "localization": 0,
-            "distractor_quality": 0,
-        }
-
-        for issue in issues_list:
-            category = issue.get("category", "linguistic")
-            severity = issue.get("severity", "MEDIUM")
-            if category not in penalties:
-                continue
-
-            counts[category] += 1
-            penalties[category] += self.severity_multipliers.get(severity, 0.2)
-
-        total_penalty = sum(penalties.values())
-        score = max(0.0, self.base_score - total_penalty)
-
-        return {
-            "overall_quality_score": round(score, 1),
-            "classification": self._classify(score),
-            "total_issues": sum(counts.values()),
-            "total_penalty": round(total_penalty, 1),
-            "issue_breakdown": counts,
-            "penalty_breakdown": {
-                "linguistic_penalty": round(penalties["linguistic"], 1),
-                "localization_penalty": round(penalties["localization"], 1),
-                "distractor_quality_penalty": round(penalties["distractor_quality"], 1),
-            },
-        }
-
-    @staticmethod
-    def _classify(score: float) -> str:
-        if score >= 9.0:
-            return "NATIVE"
-        if score >= 8.0:
-            return "PROFESSIONAL"
-        if score >= 7.0:
-            return "ACCEPTABLE"
-        if score >= 6.0:
-            return "SUBSTANDARD"
-        if score >= 5.0:
-            return "POOR"
-        return "UNACCEPTABLE"
+        return calculate_quality_score(issues_list, self.base_score)
 
 
 class QuizEvaluator:
@@ -270,47 +205,14 @@ class QuizEvaluator:
         self._refresh_file_index()
 
     def _refresh_file_index(self) -> None:
-        index_data = self._build_file_index()
+        """Internal method to refresh file index - delegates to file_index utility."""
+        index_data = build_file_index(self.eval_results_dir)
         if not index_data:
             return
 
         index_path = self.eval_results_dir.parent / "file_index.json"
-        with open(index_path, "w", encoding="utf-8") as handle:
-            json.dump(index_data, handle, indent=2, ensure_ascii=False)
+        save_file_index(index_data, index_path)
         print(f"📄 Updated file index: {index_path.name}")
-
-    def _build_file_index(self) -> Optional[Dict[str, object]]:
-        if not self.eval_results_dir.exists():
-            return None
-
-        language_files: Dict[str, List[str]] = {}
-        total_files = 0
-
-        for language_dir in sorted(self.eval_results_dir.iterdir()):
-            if not language_dir.is_dir():
-                continue
-
-            files_with_mtime: List[tuple[str, float]] = []
-            for json_file in language_dir.glob("*.json"):
-                if not json_file.is_file():
-                    continue
-                try:
-                    mtime = json_file.stat().st_mtime
-                except OSError:
-                    mtime = 0
-                files_with_mtime.append((json_file.name, mtime))
-
-            if files_with_mtime:
-                files_with_mtime.sort(key=lambda item: item[1], reverse=True)
-                language_files[language_dir.name] = [name for name, _ in files_with_mtime]
-                total_files += len(files_with_mtime)
-
-        return {
-            "generated_at": datetime.now().isoformat(),
-            "total_files": total_files,
-            "languages": sorted(language_files.keys()),
-            "files": language_files,
-        }
 
     def _parse_response(
         self,
@@ -319,19 +221,13 @@ class QuizEvaluator:
         language: str,
         label: LabelInfo,
     ) -> Optional[Dict]:
-        cleaned = self._clean_json_response(response_text)
-        try:
-            evaluation_json = json.loads(cleaned)
-        except json.JSONDecodeError as err:
-            print(f"⚠️  JSON parsing failed: {err}")
+        evaluation_json = parse_llm_json_response(response_text)
+
+        if evaluation_json is None:
+            print("❌ Failed to parse JSON from LLM response")
             print(f"Raw response (first 500 chars): {response_text[:500]}...")
             print(f"Raw response (last 200 chars): ...{response_text[-200:]}")
-            print(f"🧹 Cleaned response length: {len(cleaned)} chars")
-            evaluation_json = self._fallback_parse(response_text)
-            if evaluation_json is None:
-                print("❌ All JSON extraction attempts failed")
-                return None
-            print("✓ Successfully extracted JSON using fallback strategy")
+            return None
 
         if "issues" not in evaluation_json or not isinstance(
             evaluation_json["issues"], list
@@ -366,70 +262,3 @@ class QuizEvaluator:
         with open(result_path, "w", encoding="utf-8") as handle:
             json.dump(evaluation_json, handle, indent=2, ensure_ascii=False)
         print(f"💾 Evaluation saved: {result_filename}")
-
-    def _fallback_parse(self, response_text: str) -> Optional[Dict]:
-        strategies = (
-            self._extract_json_by_braces,
-            self._aggressive_clean_and_parse,
-            self._extract_json_by_issues_pattern,
-        )
-        for index, strategy in enumerate(strategies, start=1):
-            try:
-                result = strategy(response_text)
-                if result is not None:
-                    print(f"   • Fallback strategy {index} succeeded")
-                    return result
-            except Exception as exc:
-                print(f"   • Fallback strategy {index} failed: {exc}")
-        return None
-
-    @staticmethod
-    def _clean_json_response(response: str) -> str:
-        if not response:
-            return ""
-
-        cleaned = response.strip()
-        patterns = (
-            ("```json\n", "```"),
-            ("```json", "```"),
-            ("```\n", "```"),
-            ("```", "```"),
-        )
-        for start, end in patterns:
-            if cleaned.startswith(start):
-                cleaned = cleaned[len(start) :]
-                if cleaned.endswith(end):
-                    cleaned = cleaned[: -len(end)]
-                break
-
-        cleaned = cleaned.strip()
-        prefixes = ("Here is the JSON:", "Here's the evaluation:", "JSON response:")
-        for prefix in prefixes:
-            if cleaned.lower().startswith(prefix.lower()):
-                cleaned = cleaned[len(prefix) :].strip()
-        return cleaned
-
-    @staticmethod
-    def _extract_json_by_braces(response: str) -> Optional[Dict]:
-        start_idx = response.find("{")
-        end_idx = response.rfind("}") + 1
-        if start_idx != -1 and end_idx > start_idx:
-            return json.loads(response[start_idx:end_idx])
-        return None
-
-    @staticmethod
-    def _aggressive_clean_and_parse(response: str) -> Optional[Dict]:
-        match = re.search(r"\{.*\}", response, re.DOTALL)
-        if not match:
-            return None
-        json_str = match.group()
-        json_str = re.sub(r"[\r\n\t]+", " ", json_str)
-        json_str = re.sub(r"\s+", " ", json_str)
-        return json.loads(json_str)
-
-    @staticmethod
-    def _extract_json_by_issues_pattern(response: str) -> Optional[Dict]:
-        match = re.search(r"\"issues\"\s*:\s*\[.*?\]", response, re.DOTALL)
-        if not match:
-            return None
-        return json.loads("{" + match.group() + "}")

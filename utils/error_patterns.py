@@ -225,23 +225,13 @@ class ErrorPatternAnalyzer:
 
         payload: Dict[str, object] = {"labels": {}, "latest_label": label.key}
 
+        # Load existing data (label-based format only)
         if out_path.exists():
             try:
                 with open(out_path, "r", encoding="utf-8") as handle:
                     existing = json.load(handle)
                 if isinstance(existing, dict) and isinstance(existing.get("labels"), dict):
                     payload = existing
-                elif isinstance(existing, dict) and existing.get("analyses"):
-                    legacy_label = existing.get("label") or "legacy"
-                    legacy_label_key = sanitize_label(existing.get("label", legacy_label))
-                    legacy_entry = {
-                        "label": legacy_label,
-                        "generated_at": existing.get("generated_at", ""),
-                        "languages": existing.get("languages", list(existing.get("analyses", {}).keys())),
-                        "analyses": existing.get("analyses", {}),
-                    }
-                    payload["labels"] = {legacy_label_key: legacy_entry}
-                    payload["latest_label"] = legacy_label_key
             except (OSError, json.JSONDecodeError):
                 pass
 

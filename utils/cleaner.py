@@ -119,14 +119,13 @@ class DirectoryCleaner:
         self._remove_combined_issue_files(language_key)
         self._remove_pattern_files(language_key)
         self._prune_aggregated_issues(language_key)
-        self._remove_legacy_issue_files(language_key)
 
     def _remove_combined_issue_files(self, language: str) -> None:
         combined_dir = self.issues_dir / "combined_issues"
         if not combined_dir.exists():
             return
 
-        # Label-aware directories
+        # Remove label-aware directories
         for label_dir in combined_dir.glob("*"):
             if not label_dir.is_dir():
                 continue
@@ -138,11 +137,6 @@ class DirectoryCleaner:
                     label_dir.rmdir()
                 except OSError:
                     pass
-
-        # Legacy files stored directly under combined_issues
-        legacy_file = combined_dir / f"{language}_issues.json"
-        if legacy_file.exists():
-            legacy_file.unlink()
 
         if self._is_empty(combined_dir.iterdir()):
             try:
@@ -166,24 +160,11 @@ class DirectoryCleaner:
                     except OSError:
                         pass
 
-        legacy_pattern = patterns_dir / f"{language}.json"
-        if legacy_pattern.exists():
-            legacy_pattern.unlink()
-
         if self._is_empty(patterns_dir.iterdir()):
             try:
                 patterns_dir.rmdir()
             except OSError:
                 pass
-
-    def _remove_legacy_issue_files(self, language: str) -> None:
-        legacy_paths = [
-            self.issues_dir / f"{language}.json",
-            self.issues_dir / f"{language}_issues.json",
-        ]
-        for legacy_path in legacy_paths:
-            if legacy_path.exists():
-                legacy_path.unlink()
 
     def _prune_aggregated_issues(self, language: str) -> None:
         all_dir = self.issues_dir / "all"
@@ -203,6 +184,7 @@ class DirectoryCleaner:
 
         changed = False
 
+        # Only support label-based format
         if isinstance(data, dict) and isinstance(data.get("labels"), dict):
             labels: dict[str, dict] = data["labels"]
             to_delete: list[str] = []
@@ -237,22 +219,6 @@ class DirectoryCleaner:
                 if data.get("latest_label") not in labels:
                     data["latest_label"] = next(iter(labels.keys()))
             else:
-                data = None
-
-        elif isinstance(data, dict) and isinstance(data.get("analyses"), dict):
-            analyses = data["analyses"]
-            if language in analyses:
-                del analyses[language]
-                changed = True
-
-            languages_field = data.get("languages")
-            if isinstance(languages_field, list) and language in languages_field:
-                data["languages"] = [
-                    lang for lang in languages_field if lang != language
-                ]
-                changed = True
-
-            if not analyses:
                 data = None
 
         if not changed:

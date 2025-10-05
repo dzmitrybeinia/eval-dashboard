@@ -12,9 +12,8 @@ _SANITIZE_PATTERN = re.compile(r"[^A-Za-z0-9._-]+")
 class LabelInfo:
     """Normalized representation of a label value."""
 
-    original: str
-    normalized: str
-    key: str
+    original: str  # User-provided label
+    key: str  # Filesystem-safe version
 
 
 def sanitize_label(label: str) -> str:
@@ -30,9 +29,8 @@ def normalize_label(label: str) -> LabelInfo:
     if not original:
         raise ValueError("Label cannot be empty.")
 
-    normalized = original.lower()
-    key = sanitize_label(normalized)
-    return LabelInfo(original=original, normalized=normalized, key=key)
+    key = sanitize_label(original.lower())
+    return LabelInfo(original=original, key=key)
 
 
 def ensure_label(label: LabelInfo | str) -> LabelInfo:

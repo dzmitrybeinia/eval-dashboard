@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List
 
 
@@ -10,20 +10,50 @@ from typing import List
 class PatternExample:
     """Example of an error pattern occurrence."""
 
-    wrong: str  # Problematic text
-    correct: str  # Corrected text
-    context: str  # Where/why it appears
+    wrong: str
+    correct: str
+    context: str
 
 
-@dataclass
+@dataclass(frozen=True)
 class ErrorPattern:
-    """Represents a recurring error pattern."""
+    """Represents an error pattern from analysis."""
 
-    pattern_name: str  # Concise name
-    category: str  # "linguistic" or "localization"
-    subcategory: str  # Grammar, Cultural, etc.
-    impact_level: str  # "HIGH", "MEDIUM", "LOW"
-    frequency: str  # "very_common", "common", "occasional", "rare"
-    frequency_count: int  # Number of occurrences
-    description: str  # Explanation
-    examples: List[PatternExample]
+    pattern_name: str
+    category: str
+    subcategory: str = ""
+    impact_level: str = "MEDIUM"
+    frequency: str = "common"
+    frequency_count: int = 1
+    description: str = ""
+    examples: List[str] = field(default_factory=list)
+    recommendations: str = ""
+
+    @classmethod
+    def from_dict(cls, data: dict) -> ErrorPattern:
+        """Create ErrorPattern from dictionary."""
+        return cls(
+            pattern_name=data.get("pattern_name", ""),
+            category=data.get("category", ""),
+            subcategory=data.get("subcategory", ""),
+            impact_level=data.get("impact_level", "MEDIUM"),
+            frequency=data.get("frequency", "common"),
+            frequency_count=data.get("frequency_count", 1),
+            description=data.get("description", ""),
+            examples=data.get("examples", []) or [],
+            recommendations=data.get("recommendations", ""),
+        )
+
+    def to_dict(self) -> dict:
+        """Convert ErrorPattern to dictionary."""
+        return {
+            "pattern_name": self.pattern_name,
+            "category": self.category,
+            "subcategory": self.subcategory,
+            "impact_level": self.impact_level,
+            "frequency": self.frequency,
+            "frequency_count": self.frequency_count,
+            "description": self.description,
+            "examples": self.examples,
+            "recommendations": self.recommendations,
+        }

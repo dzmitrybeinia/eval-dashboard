@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Marcar elecciones en la boleta, siguiendo las instrucciones para asegurar que se cuente.",
+      "correction": "Marcar las opciones en la boleta, siguiendo las instrucciones para asegurar que se cuente.",
+      "description": "Incorrect word usage: 'elecciones' should be replaced with 'opciones' to refer to choices on the ballot.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T03:46:26.620879",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

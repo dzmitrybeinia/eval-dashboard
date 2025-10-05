@@ -1,0 +1,163 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczniwuje",
+      "correction": "zazwyczaj",
+      "description": "Spelling error: non-existent word, should be 'zazwyczaj'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nieustanowania sporu",
+      "correction": "nieutrzymywania sporu",
+      "description": "Incorrect word usage: 'nieustanowania' is not correct, should be 'nieutrzymywania'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Rozwiązywanie konfliktów nie chodzi o zniechęcanie stron do nieustanowania sporu.",
+      "correction": "Rozwiązywanie konfliktów nie polega na zniechęcaniu stron do nieutrzymywania sporu.",
+      "description": "Incorrect verb construction: 'nie chodzi o' should be 'nie polega na', and noun case error",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "które rozważa potrzeby i obawy obu stron",
+      "correction": "które rozważają potrzeby i obawy obu stron",
+      "description": "Subject-verb agreement: 'rozwiązanie' is singular, but context requires plural 'rozważają'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "zapewnia to możliwość rozwiązania konfliktu w sposób, który promuje zrozumienie i harmonijną współpracę.",
+      "correction": "daje to możliwość rozwiązania konfliktu w sposób, który sprzyja zrozumieniu i harmonijnej współpracy.",
+      "description": "Awkward phrasing and incorrect word choice: 'zapewnia to możliwość' and 'promuje' are less natural; 'daje' and 'sprzyja' are preferred",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "Spelling error: non-existent word, should be 'zazwyczaj'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "nawzajdzie",
+      "correction": "nawzajem",
+      "description": "Spelling error: 'nawzajdzie' is incorrect, should be 'nawzajem'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "popierają te umiejętności",
+      "correction": "posiadają te umiejętności",
+      "description": "Incorrect word usage: 'popierają' means 'support', should be 'posiadają' (have)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "poczynianiu zobowiązań",
+      "correction": "podejmowaniu zobowiązań",
+      "description": "Incorrect word usage: 'poczynianiu' is awkward, 'podejmowaniu' is correct",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "poleganie na zobowiązaniach",
+      "correction": "składanie zobowiązań",
+      "description": "Incorrect word usage: 'poleganie na zobowiązaniach' is not idiomatic, 'składanie zobowiązań' is better",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "empatycznej interakcji",
+      "correction": "empatycznej postawie",
+      "description": "Word choice: 'interakcja' is less natural in this context, 'postawa' is preferred",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ogólna rozmowa na temat konfliktów",
+      "correction": "Rozmowa ogólna na temat konfliktów",
+      "description": "Word order: 'Ogólna rozmowa' should be 'Rozmowa ogólna'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Efektywna komunikacja polega na wyrażaniu myśli i uczuć odpowiednio",
+      "correction": "Efektywna komunikacja polega na odpowiednim wyrażaniu myśli i uczuć",
+      "description": "Word order: 'odpowiednio' should precede 'wyrażaniu'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "złagodzić napięte rozmowy",
+      "correction": "złagodzić napięte sytuacje",
+      "description": "Incorrect word usage: 'rozmowy' should be 'sytuacje' to match context",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "uznanie i wyrażanie również drugiej strony",
+      "correction": "uznanie i wyrażenie również perspektywy drugiej strony",
+      "description": "Awkward phrasing: 'wyrażanie również drugiej strony' is unclear, 'wyrażenie perspektywy drugiej strony' is correct",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "szacun",
+      "correction": "szacunek",
+      "description": "Spelling error: 'szacun' is colloquial, 'szacunek' is correct",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "szczegółowe rozwiązanie problemu",
+      "correction": "lepsze rozwiązanie problemu",
+      "description": "Incorrect word usage: 'szczegółowe' does not fit context, 'lepsze' is preferred",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:10:56.527618",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.9,
+    "classification": "SUBSTANDARD",
+    "total_issues": 17,
+    "total_penalty": 3.1,
+    "issue_breakdown": {
+      "linguistic": 17,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

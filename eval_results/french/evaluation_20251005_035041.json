@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "La musique classique a posé les bases des traditions occidentales, le jazz a célébré l'improvisation et la liberté, le rock a incarné la rébellion et le changement, et le hip-hop a donné une voix aux communautés marginalisées.",
+      "correction": "La musique classique a posé les bases des traditions occidentales, le jazz a célébré l'improvisation et la liberté, le rock a incarné la rébellion et le changement, et le hip-hop a donné une voix aux communautés marginalisées.",
+      "description": "No correction needed; included for deduplication demonstration. Remove this entry if no issues are found.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "French",
+    "timestamp": "2025-10-05T03:50:41.410443",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

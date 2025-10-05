@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Киберугрозы обычно не способны нанести значительный вреда.",
+      "correction": "Киберугрозы обычно не способны нанести значительный вред.",
+      "description": "Incorrect case: 'вреда' should be in nominative case 'вред' as the direct object.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Обновления включают в себя новую защиту от вредоносного программного обеспечения и уязвимостей, которые могут быть использованы злоумышленниками.",
+      "correction": "Обновления включают в себя новые средства защиты от вредоносного программного обеспечения и уязвимостей, которые могут быть использованы злоумышленниками.",
+      "description": "Word choice: 'новую защиту' is awkward; 'новые средства защиты' is more natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "используя последние версии браузера, пользователи могут избежать многих из проблем с доступом и безопасностью данных.",
+      "correction": "Используя последние версии браузера, пользователи могут избежать многих проблем с доступом и безопасностью данных.",
+      "description": "Unnecessary preposition: 'многих из проблем' should be 'многих проблем'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "иногда сказывая неприятные последствия, такие как замедление производительности или утечка личных данных.",
+      "correction": "иногда вызывая неприятные последствия, такие как замедление производительности или утечка личных данных.",
+      "description": "Incorrect verb: 'сказывая' should be 'вызывая' to indicate causing consequences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Приложения Android, как и любой другой операционный системный дистрибутив, могут иметь возможность получать обновления безопасности через Google Play Store.",
+      "correction": "Приложения Android, как и любой другой операционный системный дистрибутив, могут получать обновления безопасности через Google Play Store.",
+      "description": "Redundant phrase: 'могут иметь возможность получать' should be 'могут получать'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:20:29.802131",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

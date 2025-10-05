@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "elektrucyjne",
+      "correction": "elektronowe",
+      "description": "Spelling error: incorrect word, should be 'elektronowe' (electron shells)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dwie pierwiastki w tym samym okresie, takie jak srebro (Ag) i kadm (Cd), mają 5 powłok elektronowych",
+      "correction": "Dwa pierwiastki w tym samym okresie, takie jak srebro (Ag) i kadm (Cd), mają 5 powłok elektronowych",
+      "description": "Gender agreement error: 'dwie' is feminine, 'pierwiastki' is masculine plural, should be 'dwa'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "Spelling error: incorrect form, should be 'zazwyczaj' (usually)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Złożone pierwiastki, które składają się z dwóch lub więcej różnych rodzajów atomów, nazywane są mieszaniami lub związkami chemicznymi.",
+      "correction": "Substancje, które składają się z dwóch lub więcej różnych rodzajów atomów, nazywane są związkami chemicznymi lub mieszaninami.",
+      "description": "Incorrect word usage: 'złożone pierwiastki' is not correct, should refer to 'substancje' or 'związki chemiczne'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Oś czasów zachodzi od bismutu (Bi) do peryboru (Pb).",
+      "correction": "Oś czasowa zachodzi od bizmutu (Bi) do ołowiu (Pb).",
+      "description": "Spelling error: 'bismut' should be 'bizmut', 'perybor' is not a correct element, 'Pb' is ołów",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Oś czasów zaczyna się od bismutu, który jest elementem w półprzewadzie, a nie na końcu.",
+      "correction": "Oś czasowa zaczyna się od bizmutu, który nie znajduje się na końcu szeregu.",
+      "description": "Incorrect word usage: 'półprzewadzie' is not a correct term, and 'elementem w półprzewadzie' is unclear",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Przykładem na końcu osi czasów jest perybor, który jest bardziej ciężki i ma większą wielkość atomową w porównaniu do bismutu.",
+      "correction": "Przykładem na końcu osi czasowej jest ołów, który jest cięższy i ma większą liczbę atomową w porównaniu do bizmutu.",
+      "description": "Spelling and word choice error: 'perybor' is not a correct element, 'bardziej ciężki' should be 'cięższy', 'wielkość atomowa' should be 'liczba atomowa'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni się zwiększa",
+      "correction": "zazwyczaj się zwiększa",
+      "description": "Spelling error: incorrect form, should be 'zazwyczaj'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "przechodzeniu z jednej pierwiastka do drugiego",
+      "correction": "przechodzeniu od jednego pierwiastka do drugiego",
+      "description": "Incorrect case and preposition: should be 'od jednego pierwiastka do drugiego'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "liczba elektronów w górze pierwiastka",
+      "correction": "liczba elektronów w powłoce walencyjnej pierwiastka",
+      "description": "Ambiguous and incorrect phrase: 'w górze pierwiastka' is unclear, should specify 'powłoce walencyjnej'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "układ okresowy jest rdzeniem chemicznego zrozumienia",
+      "correction": "układ okresowy jest podstawą zrozumienia chemii",
+      "description": "Awkward phrasing: 'rdzeniem chemicznego zrozumienia' is not idiomatic, should be 'podstawą zrozumienia chemii'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "może tworzyć wodę z wodorem",
+      "correction": "może tworzyć wodę z wodorem",
+      "description": "No error: correct usage",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Wzrost większych elementów zazwyczni odpina się w dół układu okresowego.",
+      "correction": "Wzrost większych pierwiastków zazwyczaj obserwuje się w dół układu okresowego.",
+      "description": "Spelling and word choice error: 'zazwyczni' should be 'zazwyczaj', 'odpinia się' is incorrect, should be 'obserwuje się'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "elementy zwiększają się zgodnie z wzrostem liczby atomowej",
+      "correction": "pierwiastki zwiększają się wraz ze wzrostem liczby atomowej",
+      "description": "Incorrect word usage: 'elementy' should be 'pierwiastki', 'zgodnie z wzrostem' should be 'wraz ze wzrostem'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Ten wzór trwa w dół okresu i tylko odzwierciedla się w dół grup, gdzie wznoszą się elementy z większą elektroujemnością.",
+      "correction": "Ten trend utrzymuje się w dół grup, gdzie pierwiastki mają większą liczbę powłok elektronowych.",
+      "description": "Syntax and word choice error: sentence structure is awkward and unclear, 'wznoszą się elementy z większą elektroujemnością' is incorrect",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:13:51.640815",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.3,
+    "classification": "SUBSTANDARD",
+    "total_issues": 15,
+    "total_penalty": 3.7,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

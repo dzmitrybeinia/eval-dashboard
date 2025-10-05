@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "não é garantado que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+      "correction": "não é garantido que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+      "description": "Incorrect word usage: 'garantado' should be 'garantido'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "A dificuldade para respirar, acompanhada por posição das mãos no pescoço, é um sinal comum de engasgo.",
+      "correction": "A dificuldade para respirar, acompanhada pela posição das mãos no pescoço, é um sinal comum de engasgo.",
+      "description": "Missing article and preposition: 'por posição' should be 'pela posição'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:06.633793",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

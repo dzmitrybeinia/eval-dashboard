@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Un état haute énergie où les particules sont ionisées (chargées).",
+      "correction": "Un état à haute énergie où les particules sont ionisées (chargées).",
+      "description": "Missing preposition 'à' in 'à haute énergie' for correct phrasing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Les particules deviennent ionisées, formant du plasma.",
+      "correction": "Les particules s'ionisent, formant du plasma.",
+      "description": "More idiomatic phrasing: 's'ionisent' is preferred over 'deviennent ionisées'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "French",
+    "timestamp": "2025-10-05T03:51:08.688838",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Outros elementos como kairos (oportunidade) e ao (apelo à autoridade) também desempenham papéis significativos na construção de argumentos persuasivos.",
+      "correction": "Outros elementos como kairos (oportunidade) e apelo à autoridade também desempenham papéis significativos na construção de argumentos persuasivos.",
+      "description": "Incorrect word usage: 'ao' should be replaced with 'apelo à autoridade' for clarity and correctness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:52.655201",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

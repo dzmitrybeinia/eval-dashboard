@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Овся является наилучшим источником белка среди всех групп продуктов питания.",
+      "correction": "Овёс является наилучшим источником белка среди всех групп продуктов питания.",
+      "description": "Spelling error: 'Овся' should be 'Овёс' (correct nominative singular form).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Овся содержит белок, но не является самой богатой в этом питательном веществе среди всех групп.",
+      "correction": "Овёс содержит белок, но не является самым богатым этим питательным веществом среди всех групп.",
+      "description": "Word choice and agreement error: 'самой богатой' should agree with 'овёс' (masculine), and 'в этом питательном веществе' is awkward; better phrasing is 'самым богатым этим питательным веществом'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Продукты богатые белком, такие как курица и бобы, обычно предлагают больше белка в одной порции, чем зерновые.",
+      "correction": "Продукты, богатые белком, такие как курица и бобы, обычно содержат больше белка в одной порции, чем зерновые.",
+      "description": "Missing comma after 'продукты'; 'предлагают' is awkward, 'содержат' is more appropriate for food context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Сбалансированный прием пищи признается включением продуктов из разных групп питания, таких как белки, зерновые, овощи, фрукты и молочные продукты.",
+      "correction": "Сбалансированный прием пищи подразумевает включение продуктов из разных групп питания, таких как белки, зерновые, овощи, фрукты и молочные продукты.",
+      "description": "Word choice error: 'признается' is awkward; 'подразумевает' is more appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:20:07.763781",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "音節パターンは5-7-5。",
+      "correction": "音数パターンは5-7-5。",
+      "description": "In Japanese poetry, '音数' (number of sounds) is correct; '音節' (syllable) is an English-based term and not standard for haiku.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "韻律は弱強五歩格（1行に10音節、ストレスが交互に変化）。",
+      "correction": "韻律は弱強五歩格（1行に10音節、強弱が交互に変化）。",
+      "description": "The phrase 'ストレスが交互に変化' is awkward; '強弱が交互に変化' is more natural in Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "第1,2,5行は長く韻を踏み、第3,4行は短く韻を踏みます。",
+      "correction": "第1、2、5行は長く韻を踏み、第3、4行は短く韻を踏みます。",
+      "description": "Comma should be Japanese full-width '、' for list items in Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "夢が現実になったことを知った。",
+      "correction": "夢が現実になったことに気づいた。",
+      "description": "The phrase '知った' is less natural; '気づいた' better expresses the realization in Japanese.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T03:59:35.228414",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

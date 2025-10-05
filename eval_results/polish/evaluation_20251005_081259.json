@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Założenie tej deklaracji było odpowiedzieć na zbrodnie wojenne, w tym Holokaust.",
+      "correction": "Założeniem tej deklaracji było odpowiedzenie na zbrodnie wojenne, w tym Holokaust.",
+      "description": "Incorrect word form and awkward phrasing; 'założeniem' is the correct noun case, and 'odpowiedzenie' is the correct verbal noun.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "prawa te są dostarczane przez naturę",
+      "correction": "prawa te wynikają z natury",
+      "description": "Incorrect word choice; 'dostarczane przez naturę' is awkward, 'wynikają z natury' is idiomatic.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "daje im ten sam poziom ochrony i szacowania.",
+      "correction": "daje im ten sam poziom ochrony i szacunku.",
+      "description": "Incorrect word choice; 'szacowania' should be 'szacunku' for proper meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "człowiecze może być poddany cierpienie bez jakiejkolwiek formy ochrony.",
+      "correction": "człowiek może być poddany cierpieniu bez jakiejkolwiek formy ochrony.",
+      "description": "Incorrect noun form and case; 'człowiecze' should be 'człowiek', and 'cierpienie' should be 'cierpieniu' (Dative case).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest zgodne z ogólnej zasadą ochrony praw człowieka, ale konkretna interpretacja w tym artykulei jest niepoprawna.",
+      "correction": "To jest zgodne z ogólną zasadą ochrony praw człowieka, ale konkretna interpretacja w tym artykule jest niepoprawna.",
+      "description": "Incorrect case for 'ogólna zasada' and typo in 'artykułei'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten stwierdzenie jest nieprawdziwie, ponieważ Deklaracja Praw Człowieka była znaczącą postacią w historii prawa międzynarodowego, a jej wpływ na system polityczny Stanów Związkowych Azowskich jest niezidentyfikowanym.",
+      "correction": "To stwierdzenie jest nieprawdziwe, ponieważ Deklaracja Praw Człowieka była znaczącym wydarzeniem w historii prawa międzynarodowego, a jej wpływ na system polityczny Stanów Związkowych Azowskich jest niezidentyfikowany.",
+      "description": "Incorrect noun gender and adjective agreement; 'Ten stwierdzenie' should be 'To stwierdzenie', 'nieprawdziwie' should be 'nieprawdziwe', and 'znaczącą postacią' should be 'znaczącym wydarzeniem'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Została ona przyjęta na brytyjską kolonię, a z czasem, gdy Polska odzyskała niepodległość, jej zasady stały się częścią międzynarodowego prawa i niekoniecznie wpływały bezpośrednio na politykę określonej narodowości.",
+      "correction": "Została ona przyjęta w brytyjskiej kolonii, a z czasem, gdy Polska odzyskała niepodległość, jej zasady stały się częścią prawa międzynarodowego i niekoniecznie wpływały bezpośrednio na politykę określonego państwa.",
+      "description": "Incorrect preposition and word choice; 'na brytyjską kolonię' should be 'w brytyjskiej kolonii', 'międzynarodowego prawa' should be 'prawa międzynarodowego', and 'określonej narodowości' should be 'określonego państwa'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:12:59.214405",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

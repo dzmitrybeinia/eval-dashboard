@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Оставление огня после быстрого устрашения горя может быть случайной причиной пожаров.",
+      "correction": "Оставление огня после быстрого затушивания может быть случайной причиной пожаров.",
+      "description": "Incorrect word choice: 'устрашения горя' is semantically and lexically incorrect; 'затушивания' is the correct term for extinguishing fire.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Так как оставление горя, даже если оно кажется быстро устрашимым, может привести к непредвиденным последствиям, включая пожар, это тот случайный фактор, который необходимо помнить и избегать.",
+      "correction": "Так как оставление огня, даже если он кажется быстро затушимым, может привести к непредвиденным последствиям, включая пожар, это тот случайный фактор, который необходимо помнить и избегать.",
+      "description": "Incorrect word choice: 'горя' should be 'огня' (fire), and 'устрашимым' should be 'затушимым' (extinguishable).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "даже если оно кажется быстро устрашимым",
+      "correction": "даже если он кажется быстро затушимым",
+      "description": "Gender agreement error: 'огонь' is masculine, so pronoun and adjective must match.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:19:35.399685",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

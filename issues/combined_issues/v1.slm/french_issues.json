@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "french",
+    "generated_at": "2025-10-05T08:18:00.728058",
+    "source_files": [
+      "evaluation_20251005_081631.json",
+      "evaluation_20251005_081632.json",
+      "evaluation_20251005_081633.json",
+      "evaluation_20251005_081634.json",
+      "evaluation_20251005_081635.json",
+      "evaluation_20251005_081637.json",
+      "evaluation_20251005_081638.json",
+      "evaluation_20251005_081639.json",
+      "evaluation_20251005_081642.json",
+      "evaluation_20251005_081643.json",
+      "evaluation_20251005_081644.json",
+      "evaluation_20251005_081645.json",
+      "evaluation_20251005_081646.json",
+      "evaluation_20251005_081648.json",
+      "evaluation_20251005_081649.json",
+      "evaluation_20251005_081651.json",
+      "evaluation_20251005_081652.json",
+      "evaluation_20251005_081654.json",
+      "evaluation_20251005_081656.json",
+      "evaluation_20251005_081658.json",
+      "evaluation_20251005_081700.json",
+      "evaluation_20251005_081701.json",
+      "evaluation_20251005_081722.json",
+      "evaluation_20251005_081723.json",
+      "evaluation_20251005_081725.json",
+      "evaluation_20251005_081729.json",
+      "evaluation_20251005_081730.json",
+      "evaluation_20251005_081731.json",
+      "evaluation_20251005_081733.json",
+      "evaluation_20251005_081734.json",
+      "evaluation_20251005_081735.json",
+      "evaluation_20251005_081736.json",
+      "evaluation_20251005_081737.json",
+      "evaluation_20251005_081738.json",
+      "evaluation_20251005_081740.json",
+      "evaluation_20251005_081742.json",
+      "evaluation_20251005_081744.json",
+      "evaluation_20251005_081745.json",
+      "evaluation_20251005_081746.json",
+      "evaluation_20251005_081747.json",
+      "evaluation_20251005_081749.json",
+      "evaluation_20251005_081752.json",
+      "evaluation_20251005_081755.json",
+      "evaluation_20251005_081757.json",
+      "evaluation_20251005_081758.json",
+      "evaluation_20251005_081759.json",
+      "evaluation_20251005_081800.json"
+    ],
+    "issue_counts": {
+      "linguistic": 69,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "qui apportaient des alluvions riche en nutriments à leurs champs.",
+        "correction": "qui apportaient des alluvions riches en nutriments à leurs champs.",
+        "description": "Adjective 'riche' should agree in number with 'alluvions' (plural).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "maximiser leur chances de survie",
+        "correction": "maximiser leurs chances de survie",
+        "description": "Number agreement error: 'leur' should agree in number with 'chances'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "dans les plantes, elle se produit dans des structures comme les glandes",
+        "correction": "dans les plantes, elle se produit dans des structures comme les vacuoles",
+        "description": "Incorrect word choice: 'glandes' is not appropriate for plant digestion; 'vacuoles' is more accurate in this context",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Marchi.e.",
+        "correction": "Marchi.e",
+        "description": "Spelling error: unnecessary period after 'Marchi.e'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Marchi.e.e.",
+        "correction": "Marchi.e",
+        "description": "Spelling error: repeated and unnecessary periods in 'Marchi.e.e.'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "l'égalité accréditée par la loi",
+        "correction": "l'égalité garantie par la loi",
+        "description": "Incorrect word choice: 'accréditée' is not appropriate in this context; 'garantie' is the correct term.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "le Gulf Stream chauffe les côtes est-américaines et européennes",
+        "correction": "le Gulf Stream réchauffe les côtes est-américaines et européennes",
+        "description": "Word choice: 'réchauffe' is more appropriate than 'chauffe' when referring to the warming effect of ocean currents.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "devaiez",
+        "correction": "deviez",
+        "description": "Spelling error: incorrect form of the verb 'devoir', should be 'deviez'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "quel que soit la valeur de la variable",
+        "correction": "quelle que soit la valeur de la variable",
+        "description": "Article and gender agreement error: 'valeur' is feminine, so 'quelle' is required",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "En Python, le type de données d'une variable est déduit automatiquement à partir de la valeur assignée, donc il n'est pas nécessaire de déclarer explicitement le type de données.",
+        "correction": "En Python, le type de données d'une variable est déduit automatiquement à partir de la valeur assignée, il n'est donc pas nécessaire de déclarer explicitement le type de données.",
+        "description": "Incorrect placement of 'donc' in the sentence; 'il n'est donc pas nécessaire' is the correct structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Les nombres décimaux sont représentés par des flottants (`float`).",
+        "correction": "Les nombres décimaux sont représentés par des nombres flottants (`float`).",
+        "description": "The word 'flottants' should be preceded by 'nombres' for clarity: 'nombres flottants'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "La variable x a été déclarée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez stocker un nombre décimal, vous devriez utiliser `float`.",
+        "correction": "La variable x a été déclarée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez stocker un nombre décimal, vous devez utiliser `float`.",
+        "description": "Use of 'devriez' (conditional) is less appropriate than 'devez' (present) in instructional context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "correction": "En outre, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "description": "Incorrect transitional phrase: 'En attendant' is awkward and does not fit the intended meaning; 'En outre' is more appropriate.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Un argument logique peut être considéré comme solide et convaincant.",
+        "correction": "Un argument logique peut être solide et convaincant.",
+        "description": "The phrase 'peut être considéré comme' is unnecessarily wordy; 'peut être' suffices for clarity and conciseness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "honneurant les traditions et les ancêtres",
+        "correction": "honorant les traditions et les ancêtres",
+        "description": "Incorrect word form: 'honneurant' should be 'honorant' (present participle of 'honorer')",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Mutations de l'ADN n'ont aucun effet sur les traits des organismes vivants.",
+        "correction": "Les mutations de l'ADN n'ont aucun effet sur les traits des organismes vivants.",
+        "description": "Missing definite article 'Les' at the beginning of the sentence for correct syntax.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "L'étape identifiant la décision est en réalité la première étape du processus de décision.",
+        "correction": "L'étape d'identification de la décision est en réalité la première étape du processus de décision.",
+        "description": "Incorrect noun phrase structure; 'identifiant' should be replaced by 'd'identification' for proper syntax.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Dans la décision d'engagement dans une activité extrascolaire, il est important de prendre en compte plusieurs facteurs tels que l'intérêt personnel, l'alignement avec les objectifs et le temps disponible.",
+        "correction": "Lors de la décision de s'engager dans une activité extrascolaire, il est important de prendre en compte plusieurs facteurs tels que l'intérêt personnel, l'alignement avec les objectifs et le temps disponible.",
+        "description": "Awkward phrasing; 'Dans la décision d'engagement' should be replaced by 'Lors de la décision de s'engager' for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "la brainstorming en groupe",
+        "correction": "le brainstorming en groupe",
+        "description": "Incorrect article gender: 'brainstorming' is masculine in French, so 'le' should be used.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "peaufer une compréhension approfondie du problème",
+        "correction": "peaufiner une compréhension approfondie du problème",
+        "description": "Spelling and word choice error: 'peaufer' should be 'peaufiner'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "idéaux non conventionnels",
+        "correction": "idées non conventionnelles",
+        "description": "Word choice error: 'idéaux' (ideals) should be 'idées' (ideas) in this context",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Cela peut rendre vous vulnérable à des arnaques et à d'autres formes d'exploitation.",
+        "correction": "Cela peut vous rendre vulnérable à des arnaques et à d'autres formes d'exploitation.",
+        "description": "Incorrect word order: the pronoun 'vous' should follow 'peut' and precede 'rendre'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "C'est important de considérer les conséquences potentielles de ce que vous partagez sur Internet.",
+        "correction": "Il est important de considérer les conséquences potentielles de ce que vous partagez sur Internet.",
+        "description": "Awkward phrasing: 'Il est important' is the standard impersonal construction in French.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "il est recommandé de rester à l'écart du sol pour éviter la fumée et les débris.",
+        "correction": "il est recommandé de rester près du sol pour éviter la fumée et les débris.",
+        "description": "Incorrect word choice: 'à l'écart du sol' should be 'près du sol' to convey the correct safety advice.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Les incidents d'incendie peuvent mener à des débris et de la fumée qui descendent, donc rester au-dessus du sol peut être plus sûr.",
+        "correction": "Les incendies peuvent produire des débris et de la fumée qui montent, donc rester près du sol peut être plus sûr.",
+        "description": "Incorrect word choice and factual error: 'descendent' should be 'montent' and 'au-dessus du sol' should be 'près du sol' for correct meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "La détection précoces des signes d'étouffement est cruciale.",
+        "correction": "La détection précoce des signes d'étouffement est cruciale.",
+        "description": "Spelling error: 'précoces' should be singular 'précoce' to agree with 'détection'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "L'asymptomie peut se manifester par un changement de couleur de la peau, notamment une teinte bleuâtre, indiquant une diminution du flux sanguin vers les tissus en raison d'un manque d'oxygène.",
+        "correction": "L'asphyxie peut se manifester par un changement de couleur de la peau, notamment une teinte bleuâtre, indiquant une diminution du flux sanguin vers les tissus en raison d'un manque d'oxygène.",
+        "description": "Word choice error: 'asymptomie' is incorrect; 'asphyxie' is the correct term for choking.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Des fractions ont le même dénominateur si elles représentent des parties de mêmes unités, ce qui facilite la comparaison.",
+        "correction": "Des fractions ont le même dénominateur si elles représentent des parties des mêmes unités, ce qui facilite la comparaison.",
+        "description": "Missing article: 'des mêmes unités' instead of 'de mêmes unités'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Pratiquer l'écoute active en attendant pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+        "correction": "Pratiquer l'écoute active en attendant des pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+        "description": "Missing article 'des' before 'pauses naturelles' for correct sentence structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+        "correction": "Le maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+        "description": "Missing definite article 'Le' before 'maintien' for proper sentence structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Comme un segment de ligne est une portion d'une ligne délimitée par deux points finaux, il est possible de le diviser en plusieurs tranches, chacune représentant une portion plus petite de la ligne originale.",
+        "correction": "Comme un segment de ligne est une portion d'une ligne délimitée par deux points finaux, il est possible de le diviser en plusieurs segments, chacun représentant une portion plus petite de la ligne originale.",
+        "description": "Le mot 'tranches' est inapproprié dans le contexte géométrique ; 'segments' est le terme correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "plutôt que par les relations culturelles qui sont plus largement gérées par l'échange culturel.",
+        "correction": "plutôt que par les relations culturelles, qui sont généralement gérées par l'échange culturel.",
+        "description": "The phrase 'plus largement gérées' is awkward; 'généralement gérées' is more idiomatic in French.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "La branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer et d'interpréter les lois, tout comme les enseignants appliquent les règles dans une école.",
+        "correction": "La branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer les lois, tout comme les enseignants appliquent les règles dans une école.",
+        "description": "Le verbe 'interpréter' est incorrect ici, car la branche exécutive n'interprète pas les lois; cela relève de la branche judiciaire.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les nommés prennent leur poste.",
+        "correction": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les personnes nommées prennent leur poste.",
+        "description": "Le mot 'les nommés' est maladroit; 'les personnes nommées' est plus clair et correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la plus grande chambre du Congrès.",
+        "correction": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la chambre la plus nombreuse du Congrès.",
+        "description": "L'expression 'la plus grande chambre' est ambiguë; 'la chambre la plus nombreuse' est plus précise.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Elle n'a pas de pouvoir de légiférer; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+        "correction": "Elle n'a pas le pouvoir de légiférer; c'est le rôle du pouvoir législatif, qui est l'organe élu.",
+        "description": "L'expression 'pouvoir de légiférer' devrait être 'le pouvoir de légiférer'. 'Assemblée élue' est imprécis; 'organe élu' est plus approprié.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "En réalité, le pouvoir de déclarer la guerre est un frein au pouvoir exécutif, car il nécessite l'approbation du Congrès.",
+        "correction": "En réalité, le pouvoir de déclarer la guerre constitue une limite au pouvoir exécutif, car il nécessite l'approbation du Congrès.",
+        "description": "Le mot 'frein' est maladroit dans ce contexte; 'limite' est plus approprié.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "La branche législative, composée du Congrès, a des pouvoirs qui peuvent limiter la branche exécutive. Par exemple, elle peut refuser de voter sur les nominations de la Cour suprême, qui doivent être confirmées par le Sénat.",
+        "correction": "La branche législative, composée du Congrès, a des pouvoirs qui peuvent limiter la branche exécutive. Par exemple, elle peut refuser de voter sur les nominations à la Cour suprême, qui doivent être confirmées par le Sénat.",
+        "description": "L'expression 'nominations de la Cour suprême' devrait être 'nominations à la Cour suprême'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "différents vitamines et minéraux essentiels à votre santé.",
+        "correction": "différentes vitamines et minéraux essentiels à votre santé.",
+        "description": "Gender agreement error: 'vitamines' is feminine plural, so 'différentes' is required.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ce qui signifie qu'ils ne peuvent généralement pas être retirés par les gouvernements, même en cas de crise nationale.",
+        "correction": "ce qui signifie qu'ils ne peuvent généralement pas être retirés par les gouvernements, même en cas de crise nationale.",
+        "description": "The use of 'généralement' introduces ambiguity, as 'inaliénables' implies absolute. Consider removing 'généralement' for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "La DUDH a eu un impact significatif sur la société, mais son influence sur le développement des technologies modernes n'est pas directe.",
+        "correction": "La DUDH a eu un impact significatif sur la société, mais son influence sur le développement des technologies modernes n'est pas directe.",
+        "description": "The phrase 'n'est pas directe' could be more precise; consider 'n'est pas directe mais indirecte' for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "l'acte de gentillesse",
+        "correction": "l'acte de gentillesse",
+        "description": "The phrase 'l'acte de gentillesse' is somewhat awkward; 'un acte de gentillesse' or 'la gentillesse' would be more idiomatic in French.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "cette méthode, connue sous le nom de 'association', aide à ancrer de nouvelles connaissances aux concepts déjà maîtrisés, renforçant ainsi la compréhension et la rétention.",
+        "correction": "Cette méthode, connue sous le nom d'« association », aide à ancrer de nouvelles connaissances aux concepts déjà maîtrisés, renforçant ainsi la compréhension et la rétention.",
+        "description": "Incorrect article and quotation usage before 'association'; should be 'd'« association »' with French quotation marks.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Le rock music est caractérisé par l'utilisation de guitares électriques et de voix puissantes.",
+        "correction": "Le rock est caractérisé par l'utilisation de guitares électriques et de voix puissantes.",
+        "description": "Incorrect word usage: 'rock music' should be 'rock' in French.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "qui sont finies et contributent à l'épuisement des ressources naturelles.",
+        "correction": "qui sont finies et contribuent à l'épuisement des ressources naturelles.",
+        "description": "Verb conjugation error: 'contributent' should be 'contribuent' for third person plural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "pour protéger vous-même et votre famille",
+        "correction": "pour vous protéger, vous et votre famille",
+        "description": "Awkward phrasing; 'protéger vous-même' is incorrect, should be 'vous protéger'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Cela est dû au fait que, à mesure que vous progressez dans une période, les couches électroniques ajoutées contiennent plus d'électrons, ce qui entraîne une augmentation de la répulsion électronique interne et une diminution de la taille atomique globale.",
+        "correction": "Cela est dû au fait qu'à mesure que vous progressez dans une période, les couches électroniques contiennent plus d'électrons, ce qui entraîne une augmentation de l'attraction nucléaire et une diminution de la taille atomique globale.",
+        "description": "Le terme 'répulsion électronique interne' est ambigu et incorrect dans ce contexte ; il s'agit plutôt d'une augmentation de l'attraction nucléaire.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de les métaux alcalins et les métaux alcalino-terreux, ont des configurations électroniques différentes.",
+        "correction": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de métaux alcalins et de métaux alcalino-terreux, ont des configurations électroniques différentes.",
+        "description": "Syntax error: 'sous le nom de les métaux alcalins' should be 'sous le nom de métaux alcalins'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Utiliser la pathos ne convient qu'aux écrivains peu réfléchis.",
+        "correction": "Utiliser le pathos ne convient qu'aux écrivains peu réfléchis.",
+        "description": "Incorrect article: 'pathos' is masculine and should use 'le' instead of 'la'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "La pathos, ou appel à l'émotion, est une technique rhétorique puissante qui peut être utilisée de manière réfléchie pour connecter les expériences de l'audience à l'argument.",
+        "correction": "Le pathos, ou appel à l'émotion, est une technique rhétorique puissante qui peut être utilisée de manière réfléchie pour relier les expériences de l'audience à l'argument.",
+        "description": "Incorrect article and awkward verb: 'pathos' is masculine ('le'), and 'connecter' is less idiomatic than 'relier' in French.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "souvent capturant une image ou un sentiment brève et puissant.",
+        "correction": "souvent capturant une image ou un sentiment bref et puissant.",
+        "description": "Adjective 'brève' should agree in gender with 'sentiment' (masculine), so 'bref' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Les limericks suivent une structure distinctive AABBA, où les deux premières et les deux dernières lignes sont identiques ou très proches, et les lignes du milieu (troisième et quatrième) sont courtes et riment entre elles.",
+        "correction": "Les limericks suivent une structure distinctive AABBA, où les deux premières et les deux dernières lignes riment, et les lignes du milieu (troisième et quatrième) sont courtes et riment entre elles.",
+        "description": "The phrase 'sont identiques ou très proches' is awkward and ambiguous; 'riment' is the correct word to describe the rhyme scheme.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "la probabilité de tomber sur un nombre impair est la même que de tomber sur un nombre pair.",
+        "correction": "la probabilité de tomber sur un nombre impair est la même que celle de tomber sur un nombre pair.",
+        "description": "Missing pronoun 'celle' for correct comparison structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "leviathés",
+        "correction": "leviers",
+        "description": "Spelling error: 'leviathés' is incorrect; the correct term is 'leviers'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Des avancées technologiques, comme les fusées réutilisables, ont permis de réduire les coûts et d'augmenter la fréquence des voyages spatiaux.",
+        "correction": "Des avancées technologiques, telles que les fusées réutilisables, ont permis de réduire les coûts et d'augmenter la fréquence des voyages spatiaux.",
+        "description": "Word choice: 'telles que' is more appropriate than 'comme' in formal written French when introducing examples.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Les particules dans un solide sont à l'état le plus émoussé par rapport aux autres états de la matière.",
+        "correction": "Les particules dans un solide sont à l'état le moins énergétique par rapport aux autres états de la matière.",
+        "description": "Incorrect word choice: 'émoussé' is not appropriate to describe the energy state of particles; 'le moins énergétique' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ce qui les rend plus émoussés par rapport aux particules dans des états liquides, gazeux et plasmiques où elles peuvent se déplacer plus librement.",
+        "correction": "ce qui les rend moins énergétiques par rapport aux particules dans les états liquide, gazeux et plasma où elles peuvent se déplacer plus librement.",
+        "description": "Incorrect word choice: 'émoussés' is not suitable; 'moins énergétiques' is correct. Also, 'des états liquides, gazeux et plasmiques' should be 'les états liquide, gazeux et plasma'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sublimation est un processus où un solide passe directement à l'état gazeux sans devenir liquide.",
+        "correction": "La sublimation est un processus où un solide passe directement à l'état gazeux sans devenir liquide.",
+        "description": "Missing article: 'Sublimation' requires the definite article 'La'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Cela nécessite l'absorption d'énergie, pas la libération d'énergie.",
+        "correction": "Cela nécessite l'absorption d'énergie, et non la libération d'énergie.",
+        "description": "Awkward phrasing: 'pas la libération d'énergie' should be 'et non la libération d'énergie' for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La transition de l'eau de l'état liquide à l'état solide se produit à 0°C lorsqu'elle est sous pression atmosphérique standard.",
+        "correction": "La transition de l'eau de l'état liquide à l'état solide se produit à 0°C lorsque la pression est atmosphérique standard.",
+        "description": "Unnatural phrasing: 'lorsqu'elle est sous pression atmosphérique standard' should be 'lorsque la pression est atmosphérique standard'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "L'idée d'un personnage maléfique ne s'applique pas universellement aux protagonistes.",
+        "correction": "L'idée qu'un protagoniste soit un personnage maléfique ne s'applique pas universellement.",
+        "description": "Awkward phrasing: the sentence is clearer when directly referencing the protagonist.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "le cadre peut être aussi précis que la période historique ou aussi vague que le fantastique.",
+        "correction": "le cadre peut être aussi précis qu'une période historique ou aussi vague qu'un univers fantastique.",
+        "description": "Word choice: 'le fantastique' is ambiguous; 'un univers fantastique' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Cela illustre comment les conflits externes peuvent façonner l'histoire et l'intrigue.",
+        "correction": "Cela illustre comment les conflits externes peuvent façonner l'histoire et son intrigue.",
+        "description": "Word choice: 'l'histoire et l'intrigue' is redundant; 'l'histoire et son intrigue' is more precise.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Les thèmes, ou 'message ou idée centrale', d'une histoire peuvent être révélés de manière subtile ou explicite.",
+        "correction": "Les thèmes, ou le 'message ou l'idée centrale' d'une histoire, peuvent être révélés de manière subtile ou explicite.",
+        "description": "Word choice: definite article needed for clarity in parenthetical phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Les notes peuvent être révisées plus tard pour renforcer le concept.",
+        "correction": "Les notes peuvent être révisées plus tard pour renforcer la compréhension du concept.",
+        "description": "Word choice: 'renforcer le concept' is awkward; 'renforcer la compréhension du concept' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "processus de décision-taking",
+        "correction": "processus de prise de décision",
+        "description": "Incorrect word usage: 'décision-taking' is an anglicism; correct French is 'prise de décision'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "de petits margins",
+        "correction": "de petites marges",
+        "description": "Incorrect word usage: 'margins' is English; correct French is 'marges'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "la décisions finale",
+        "correction": "la décision finale",
+        "description": "Number agreement error: 'décisions' should be singular to agree with 'la'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "déveloermener",
+        "correction": "développer",
+        "description": "Spelling error: incorrect word formation, should be 'développer'",
+        "severity": "HIGH"
+      }
+    ],
+    "localization": []
+  }
+}

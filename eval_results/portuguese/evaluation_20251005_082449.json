@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Proteínas são essenciais para o crescimento e reparo dos tecidos, não apenas para energia que é principalmente fornecida por carboidratos.",
+      "correction": "Proteínas são essenciais para o crescimento e reparo dos tecidos, e não para fornecer energia, que é principalmente fornecida por carboidratos.",
+      "description": "Ambiguous phrasing: 'não apenas para energia' suggests proteins are also for energy, which is misleading. Correction clarifies the intended meaning.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:24:49.229021",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

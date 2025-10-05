@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）で構成される言語で遺伝情報を記録します。",
+      "correction": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）によって遺伝情報が記録されています。",
+      "description": "Awkward phrasing: '言語で遺伝情報を記録します' is unnatural; rephrased for clarity and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T03:58:32.364043",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

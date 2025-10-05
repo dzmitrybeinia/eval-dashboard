@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "sería extremadamente limitado la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones.",
+      "correction": "sería extremadamente limitada la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones.",
+      "description": "Gender agreement error: 'capacidad' is feminine, so 'limitada' should be used.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:08:29.796352",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

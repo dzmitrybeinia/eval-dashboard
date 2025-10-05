@@ -1,0 +1,163 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Przewszczenie niewinnych złotej płynki podczas gotowania może prowadzić do pożaru.",
+      "correction": "Przewrócenie niewinnie złotej płynki podczas gotowania może prowadzić do pożaru.",
+      "description": "Spelling error: 'Przewszczenie' should be 'Przewrócenie'; 'płynki' should be 'płynki' or 'płynu' depending on intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Niepilnowane płomień lub płomień złotej płynki przyniesione przez niewinne działanie może powstać, co zwiększa ryzyko pożarów.",
+      "correction": "Niepilnowany płomień lub rozlanie złotej płynki spowodowane niewinnym działaniem może wystąpić, co zwiększa ryzyko pożaru.",
+      "description": "Word choice and sentence structure errors: awkward phrasing and incorrect use of 'przyniesione przez niewinne działanie'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ważne jest utrzymanie bezpiecznego środowiska podczas przygotowywania posiłku.",
+      "correction": "Ważne jest utrzymanie bezpiecznego środowiska podczas przygotowywania posiłków.",
+      "description": "Number agreement error: 'posiłku' should be plural 'posiłków' for general context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Regularne konserwacje sprzętu elektrycznego mogą zmniejszyć ryzyko pożaru zapłonowego.",
+      "correction": "Regularna konserwacja sprzętu elektrycznego może zmniejszyć ryzyko pożaru.",
+      "description": "Number agreement error: 'konserwacje' should be singular 'konserwacja'; 'pożaru zapłonowego' is awkward and unnecessary.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sprawne sprzęty elektryczne upewniają, że nie występują przeciążenia i uszkodzenia, które mogą prowadzić do pożaru.",
+      "correction": "Sprawny sprzęt elektryczny zapewnia, że nie występują przeciążenia i uszkodzenia, które mogą prowadzić do pożaru.",
+      "description": "Number agreement error: 'sprzęty' should be singular 'sprzęt' for general reference.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Regularne konserwacje to kluczowe czynniki zapobiegania pożarom.",
+      "correction": "Regularna konserwacja to kluczowy czynnik zapobiegania pożarom.",
+      "description": "Number agreement error: 'konserwacje' and 'czynniki' should be singular.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Jeśli zauważysz pożar, powinieneś zdawać alarm i uciekać.",
+      "correction": "Jeśli zauważysz pożar, powinieneś ogłosić alarm i uciekać.",
+      "description": "Incorrect word choice: 'zdawać alarm' should be 'ogłosić alarm'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "To jest rzeczowań.",
+      "correction": "To jest prawda.",
+      "description": "Incorrect word choice: 'rzeczowań' is not appropriate here; should be 'prawda'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "kluczowe działanie to zdawać alarm dzwonu straży pożarnej, aby wszyscy wokół mogli się ukszczeniać.",
+      "correction": "kluczowe działanie to ogłosić alarm i powiadomić straż pożarną, aby wszyscy wokół mogli się ewakuować.",
+      "description": "Incorrect word choice and spelling: 'zdawać alarm dzwonu straży pożarnej' and 'ukszczeniać' are incorrect; should be 'ogłosić alarm', 'powiadomić straż pożarną', and 'ewakuować'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Planowanie ewakuacji i szkolenie na sytuacjach awaryjnych poprawia odpowiedź na potrzeby bezpieczeństwa.",
+      "correction": "Planowanie ewakuacji i szkolenie w zakresie sytuacji awaryjnych poprawia reakcję na potrzeby bezpieczeństwa.",
+      "description": "Incorrect word choice: 'szkolenie na sytuacjach awaryjnych' and 'odpowiedź' should be 'szkolenie w zakresie sytuacji awaryjnych' and 'reakcję'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Strażacy nigdy nie używają paliwek podczas rozprzestrzeniania się pożaru.",
+      "correction": "Strażacy nigdy nie używają paliw podczas rozprzestrzeniania się pożaru.",
+      "description": "Spelling error: 'paliwek' should be 'paliw'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Strażacy, w zależności od sytuacji, mogą używać paliw do ochrony lub ewentualnie do ustabilizowania pojazdu, jeśli jest to konieczne.",
+      "correction": "Strażacy, w zależności od sytuacji, mogą używać paliw do ochrony lub ewentualnie do ustabilizowania sprzętu, jeśli jest to konieczne.",
+      "description": "Incorrect word choice: 'pojazdu' should be 'sprzętu' for general context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "zawsze zgodnie z procedurami bezpieczeństwa i przepisanymi przepisami.",
+      "correction": "zawsze zgodnie z procedurami bezpieczeństwa i obowiązującymi przepisami.",
+      "description": "Incorrect word choice: 'przepisanymi przepisami' is awkward; should be 'obowiązującymi przepisami'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przypomnienie, że każdy ma rolę w bezpieczeństwie przeciwpożarowym, jest kluczowe dla utrzymania bezpiecznej środowiska.",
+      "correction": "Przypomnienie, że każdy ma rolę w bezpieczeństwie przeciwpożarowym, jest kluczowe dla utrzymania bezpiecznego środowiska.",
+      "description": "Gender agreement error: 'bezpiecznej środowiska' should be 'bezpiecznego środowiska'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "aktywne zaangażowanie jednostek w środowisku bezpieczeństwa przeciwpożarowego jest fundamentalnie konieczne dla skutecznego śledzenia i implementacji procedur bezpieczeństwa.",
+      "correction": "aktywne zaangażowanie jednostek w bezpieczeństwo przeciwpożarowe jest fundamentalnie konieczne dla skutecznego wdrażania procedur bezpieczeństwa.",
+      "description": "Word choice and grammar: 'w środowisku bezpieczeństwa przeciwpożarowego' and 'implementacji' are awkward; should be 'w bezpieczeństwo przeciwpożarowe' and 'wdrażania'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Wspieranie i promowanie świadomości społeczności, nawet przez małe działania, mogą znacząco zwiększyć ogólne poziomy bezpieczeństwa.",
+      "correction": "Wspieranie i promowanie świadomości społecznej, nawet przez małe działania, może znacząco zwiększyć ogólny poziom bezpieczeństwa.",
+      "description": "Word choice and number agreement: 'świadomości społeczności' should be 'świadomości społecznej'; 'mogą' should be 'może'; 'ogólne poziomy' should be 'ogólny poziom'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przez zrozumienie odpowiedzialności każdego jednostki, można poprawić skuteczność ochrony przed i reagowania na sytuacje pożarowe.",
+      "correction": "Przez zrozumienie odpowiedzialności każdej jednostki, można poprawić skuteczność ochrony przed pożarami i reagowania na sytuacje pożarowe.",
+      "description": "Gender agreement and word choice: 'każdego jednostki' should be 'każdej jednostki'; missing 'pożarami' after 'przed'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:12:02.785585",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.8,
+    "classification": "SUBSTANDARD",
+    "total_issues": 17,
+    "total_penalty": 3.2,
+    "issue_breakdown": {
+      "linguistic": 17,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

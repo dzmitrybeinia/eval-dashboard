@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "固定マインドセットには、障害や挑戦を避けることが多いです。.",
+      "correction": "固定マインドセットには、障害や挑戦を避けることが多いです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります。.",
+      "correction": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "困難な課題を避けることが成長にとって最も有益である。.",
+      "correction": "困難な課題を避けることが成長にとって最も有益である。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "実際には、困難な課題を避けることは成長を阻むものです。成長マインドセットの核心は、挑戦を受け入れ、過去の失敗から学ぶことです。これにより、個人は新しいスキルや知識を身につけ、強さと対応力を身につけることができます。.",
+      "correction": "実際には、困難な課題を避けることは成長を阻むものです。成長マインドセットの核心は、挑戦を受け入れ、過去の失敗から学ぶことです。これにより、個人は新しいスキルや知識を身につけ、強さと対応力を身につけることができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "挑戦に立ち向かうことは、成長の機会を提供します。.",
+      "correction": "挑戦に立ち向かうことは、成長の機会を提供します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "この文は、挑戦を受け入れることが成長を促進するという考え方を正しく反映しています。日本文化では、「学びの糸」という考え方があり、困難を通じて個人が成長し、能力を高めることが重視されています。.",
+      "correction": "この文は、挑戦を受け入れることが成長を促進するという考え方を正しく反映しています。日本文化では、「学びの糸」という考え方があり、困難を通じて個人が成長し、能力を高めることが重視されています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:39:34.199103",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

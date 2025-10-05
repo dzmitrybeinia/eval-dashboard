@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "人権は国固有の特権である。.",
+      "correction": "人権は国固有の特権である。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "国内の特権ではなく、異国から発表された一連の概念であり、世界中で平等な権利を保証します。.",
+      "correction": "国内の特権ではなく、異国から発表された一連の概念であり、世界中で平等な権利を保証します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "世界人権宣言は、1948年の国連での承認により、その後の戦争を防ぐための国際的な取り組みの中心となったわけではありません。.",
+      "correction": "世界人権宣言は、1948年の国連での承認により、その後の戦争を防ぐための国際的な取り組みの中心となったわけではありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "世界人権宣言は、その後の戦争を防ぐために国際的な取り組みの重要な部分として機能しました。それは、1948年に国連が承認した歴史的な節目であり、人権の普遍的な概念を広める上での重要なツールとなっています。.",
+      "correction": "世界人権宣言は、その後の戦争を防ぐために国際的な取り組みの重要な部分として機能しました。それは、1948年に国連が承認した歴史的な節目であり、人権の普遍的な概念を広める上での重要なツールとなっています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "第26条は子供たちが特定の種類の教育にのみアクセスすることを許可しています。.",
+      "correction": "第26条は子供たちが特定の種類の教育にのみアクセスすることを許可しています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "この声明は誤りです。第26条はすべての人に無料で初等教育を提供することを保証しています。これはすべての子供に対して資源を平等に提供する人権の原則を反映しています。.",
+      "correction": "この声明は誤りです。第26条はすべての人に無料で初等教育を提供することを保証しています。これはすべての子供に対して資源を平等に提供する人権の原則を反映しています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "世界人権宣言は、国内の法律に影響を与えた。.",
+      "correction": "世界人権宣言は、国内の法律に影響を与えた。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "世界人権宣言は国際的な影響を持ち、国際条約や国際社会の基準を形成しました。国内法律に影響を与えることはありますが、それは主に国際法と条約を通じてなされます。.",
+      "correction": "世界人権宣言は国際的な影響を持ち、国際条約や国際社会の基準を形成しました。国内法律に影響を与えることはありますが、それは主に国際法と条約を通じてなされます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "世界人権宣言は個人の経済的利益のみに関するものです。.",
+      "correction": "世界人権宣言は個人の経済的利益のみに関するものです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "世界人権宣言は人間の尊厳、自由、平等、安全、福祉に関する普遍的な標準を定めています。経済的利益だけではなく、個人の認識と承認においても重要な価値を持っています。.",
+      "correction": "世界人権宣言は人間の尊厳、自由、平等、安全、福祉に関する普遍的な標準を定めています。経済的利益だけではなく、個人の認識と承認においても重要な価値を持っています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not a combination of 。 and .",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:39:47.365185",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

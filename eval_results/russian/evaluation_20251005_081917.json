@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "похожущую на звезд",
+      "correction": "похожую на звезду",
+      "description": "Spelling and case error: incorrect word form and case for 'звезда' and 'похожую'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Каждая основание внутри ДНК связывается с противоположной основанией",
+      "correction": "Каждое основание внутри ДНК связывается с противоположным основанием",
+      "description": "Incorrect gender and case agreement for 'основание'; should be neuter and instrumental case",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "такие как регенерация и мутации могут происходить.",
+      "correction": "такие как регенерация и мутации, могут происходить.",
+      "description": "Missing comma after introductory phrase 'такие как регенерация и мутации'",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:19:17.871155",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

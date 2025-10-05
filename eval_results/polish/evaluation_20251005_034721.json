@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Uprzedzenie to preferencja lub uprzedzenie wpływające na sposób prezentacji informacji.",
+      "correction": "Uprzedzenie to preferencja lub stronniczość wpływająca na sposób prezentacji informacji.",
+      "description": "Repetition of 'uprzedzenie' creates ambiguity; 'stronniczość' is a more precise term.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T03:47:21.850051",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauptseteig",
+      "correction": "hauptsächlich",
+      "description": "Spelling error: incorrect word formation, should be 'hauptsächlich'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauesteig",
+      "correction": "hauptsächlich",
+      "description": "Spelling error: incorrect word formation, should be 'hauptsächlich'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Die Wüste spielte jedoch eine entscheidende Rolle bei der Entwicklung von landwirtschaftlichen Techniken und der Organisation von Ressourcen.",
+      "correction": "Die Wüste spielte jedoch eine entscheidende Rolle bei der Entwicklung landwirtschaftlicher Techniken und der Organisation von Ressourcen.",
+      "description": "Incorrect use of 'von' with 'landwirtschaftlichen Techniken'; should be 'Entwicklung landwirtschaftlicher Techniken' (Genitive construction)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Die Götter wie Ra und Osiris waren in der Religion zentraler.",
+      "correction": "Götter wie Ra und Osiris waren in der Religion zentraler.",
+      "description": "Unnecessary definite article 'Die' before 'Götter'; general reference does not require article",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Stellvertreter des Göttervaters, Akumu-Osiris, betrachtet.",
+      "correction": "Stellvertreter des Göttervaters Osiris betrachtet.",
+      "description": "Incorrect or nonstandard name 'Akumu-Osiris'; standard is 'Osiris' as Göttervater",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:21:36.505150",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

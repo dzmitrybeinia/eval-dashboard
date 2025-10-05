@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "イデーションは困難を探しているプロセスです。.",
+      "correction": "イデーションは困難を探しているプロセスです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "イデーションは実際には問題を解決するための考えを出すプロセスです。困難の探求にはブレインストーミングが関わりますが、イデーション自体は解決の方向性を指します。.",
+      "correction": "イデーションは実際には問題を解決するための考えを出すプロセスです。困難の探求にはブレインストーミングが関わりますが、イデーション自体は解決の方向性を指します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "物理的プロトタイプは、段ボールやプラスチックで作成されることが多いです。.",
+      "correction": "物理的プロトタイプは、段ボールやプラスチックで作成されることが多いです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "物理的プロトタイプは、実物の試作品であり、実際の材料を使用して機能やデザインをテストするためによく用いられます。プロジェクトの初期段階では、これらのプロトタイプが役立ちます。.",
+      "correction": "物理的プロトタイプは、実物の試作品であり、実際の材料を使用して機能やデザインをテストするためによく用いられます。プロジェクトの初期段階では、これらのプロトタイプが役立ちます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "テストを実施することで、製品が目的を達成し、ユーザーの期待に応えることが保証されます。.",
+      "correction": "テストを実施することで、製品が目的を達成し、ユーザーの期待に応えることが保証されます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "テストは製品の機能性と使いやすさを検証するため、製品が目的を果たし、利用者のニーズに対応する確認を行います。.",
+      "correction": "テストは製品の機能性と使いやすさを検証するため、製品が目的を果たし、利用者のニーズに対応する確認を行います。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "デザインプロセスでは、ユーザーのフィードバックを継続的に取り入れることが重要です。.",
+      "correction": "デザインプロセスでは、ユーザーのフィードバックを継続的に取り入れることが重要です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "デザインプロセスの中で、ユーザーの意見は常に重要視され、製品が改善されるために反復されます。このアプローチは、製品がより好評なものになるためのものです。.",
+      "correction": "デザインプロセスの中で、ユーザーの意見は常に重要視され、製品が改善されるために反復されます。このアプローチは、製品がより好評なものになるためのものです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "プロトタイプは概念ではなく実験的な試作品です。.",
+      "correction": "プロトタイプは概念ではなく実験的な試作品です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "プロトタイプ作成の段階では、デザイナーが考え出したアイデアを物理的またはシミュレーション形式で試すために作るものです。これにより、実際の問題を解決するための直接的なフィードバックを得ることができます。.",
+      "correction": "プロトタイプ作成の段階では、デザイナーが考え出したアイデアを物理的またはシミュレーション形式で試すために作るものです。これにより、実際の問題を解決するための直接的なフィードバックを得ることができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:38:18.284596",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

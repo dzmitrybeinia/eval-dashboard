@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Poetry ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+      "correction": "Poesie ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+      "description": "Spelling/word choice error: 'Poetry' should be 'Poesie' in German.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Ein Frosch springt hinein—",
+      "correction": "Ein Frosch springt hinein –",
+      "description": "Punctuation error: Use a spaced en dash (–) instead of an em dash (—) in German typography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Platsch! Wieder Stille.",
+      "correction": "Platsch! Wieder Stille.",
+      "description": "Noun capitalization: 'Stille' is correctly capitalized, but double-check for consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Shakespearean Sonett: ABAB CDCD EFEF GG",
+      "correction": "Shakespeare-Sonett: ABAB CDCD EFEF GG",
+      "description": "Word choice: 'Shakespearean Sonett' should be 'Shakespeare-Sonett' for correct German usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Petrarchan Sonett: ABBA ABBA CDE CDE",
+      "correction": "Petrarca-Sonett: ABBA ABBA CDE CDE",
+      "description": "Word choice: 'Petrarchan Sonett' should be 'Petrarca-Sonett' for correct German usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Es war ein Mann aus Peru, Der träumte, er esse seinen Schuh.",
+      "correction": "Es war ein Mann aus Peru, der träumte, er esse seinen Schuh.",
+      "description": "Capitalization error: 'Der' should be lowercase as it continues the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Er erwachte erschrocken, Mitten in der Nacht, Um zu sehen, dass sein Traum wahr wurde.",
+      "correction": "Er erwachte erschrocken, mitten in der Nacht, um zu sehen, dass sein Traum wahr wurde.",
+      "description": "Capitalization error: 'Mitten' and 'Um' should be lowercase as they continue the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "German",
+    "timestamp": "2025-10-05T03:55:10.898418",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

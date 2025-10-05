@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In einem Brandnotfall ist es äußerst riskant, versuchen, das Feuer selbst zu löschen.",
+      "correction": "In einem Brandnotfall ist es äußerst riskant, zu versuchen, das Feuer selbst zu löschen.",
+      "description": "Infinitive construction error: 'zu' is required before 'versuchen' in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "das Risiko für die eigenen Leben erhöhen.",
+      "correction": "das Risiko für das eigene Leben erhöhen.",
+      "description": "Number agreement error: 'Leben' should be singular with 'das eigene'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Jedoch sollten Brände in der Küche mit einem Klasse A Feuerlöscher begonnen werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+      "correction": "Jedoch sollten Brände in der Küche mit einem Klasse-A-Feuerlöscher gelöscht werden, wenn sie durch brennbares Material wie Papier oder Holz entstehen.",
+      "description": "Incorrect verb and preposition usage: 'begonnen werden' is awkward and incorrect; 'gelöscht werden' is the correct verb. 'mit' should be replaced by 'durch' for cause.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Feuerlöschergebrauch",
+      "correction": "Feuerlöscher-Gebrauch",
+      "description": "Compound noun should be hyphenated for clarity in lesson title.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:28.465851",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

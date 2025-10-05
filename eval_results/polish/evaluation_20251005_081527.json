@@ -1,0 +1,139 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "używane jest wiele bibliów z różnych autora.",
+      "correction": "używane jest wiele Biblii od różnych autorów.",
+      "description": "Incorrect noun and case endings: 'bibliów' should be 'Biblii', 'autora' should be 'autorów' (Genitive plural).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chrześcijaństwo uznawa jako jedną religię jedną biblię, czyli Biblę, która została napisana przez naukowie Kościołom.",
+      "correction": "Chrześcijaństwo uznaje jako jedną religię jedną Biblię, czyli Biblię, która została napisana przez naukowców Kościoła.",
+      "description": "Verb conjugation error: 'uznawa' should be 'uznaje'; noun endings: 'naukowie Kościołom' should be 'naukowców Kościoła' (Genitive singular).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "bibliów",
+      "correction": "Biblii",
+      "description": "Spelling and case error: 'bibliów' is incorrect, should be 'Biblii' (Genitive plural).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "biblik",
+      "correction": "Biblii",
+      "description": "Spelling error: 'biblik' is not a correct Polish word; should be 'Biblii'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "nie ma innych biblik do uwzględnienia.",
+      "correction": "nie ma innych Biblii do uwzględnienia.",
+      "description": "Incorrect noun form: 'biblik' should be 'Biblii' (Genitive plural).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wiara w jednym Boga, Mahometa jako proroka, modlitwie, jałmużnie, i postach są podstawowymi elementami religijnego życia muzułmanów.",
+      "correction": "Wiara w jednego Boga, Mahometa jako proroka, modlitwa, jałmużna i post są podstawowymi elementami religijnego życia muzułmanów.",
+      "description": "Incorrect case and number: 'w jednym Boga' should be 'w jednego Boga'; noun forms should be singular nominative.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten związek z pięciolatką praktyk religijnych, znanej jako pięć filarów islamu, jest fundamentalną częścią wierzeń muzułmanów.",
+      "correction": "Ten związek z pięcioma praktykami religijnymi, znanymi jako pięć filarów islamu, jest fundamentalną częścią wierzeń muzułmanów.",
+      "description": "Incorrect noun and adjective forms: 'pięciolatką praktyk religijnych' should be 'pięcioma praktykami religijnymi'; 'znanej' should be 'znanymi'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Działają one na poziomie osobisty, wspierają one na poziomie społeczny a także wzmacniają więzi wśród wspólnoty.",
+      "correction": "Działają one na poziomie osobistym, wspierają na poziomie społecznym, a także wzmacniają więzi wśród wspólnoty.",
+      "description": "Adjective endings: 'osobisty' should be 'osobistym', 'społeczny' should be 'społecznym'; missing comma before 'a także'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W Hinduizmie, Brahman jest postrzegany jako najmniejsza rzeczywistość.",
+      "correction": "W hinduizmie Brahman jest postrzegany jako najmniejsza rzeczywistość.",
+      "description": "Unnecessary comma after 'W Hinduizmie'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W Hinduizmie Brahman jest uważany za najwyższą i najbardziej wszechobecną rzeczywistość.",
+      "correction": "W hinduizmie Brahman jest uważany za najwyższą i najbardziej wszechobecną rzeczywistość.",
+      "description": "Capitalization error: 'Hinduizmie' should be 'hinduizmie' (common noun).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Buddyzm opiera się na Czterech Szlachetnych Prawdach, które obejmują prawdę życia, cierpienia i pokoju oraz prawdę śmierci, poprzeczną i oświadczenie oraz prawdę oświecenia, czyli wyzwolenia z cyklu odrodzeń.",
+      "correction": "Buddyzm opiera się na Czterech Szlachetnych Prawdach, które obejmują prawdę o życiu, cierpieniu, pokoju, śmierci, oświeceniu oraz wyzwoleniu z cyklu odrodzeń.",
+      "description": "Awkward phrasing and incorrect noun forms: 'poprzeczną i oświadczenie' are unclear and should be omitted or clarified.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Judaizm to monoteistyczna religia, co oznacza, że uznaje jednego Boga jako jedynego prawdziwego.",
+      "correction": "Judaizm to religia monoteistyczna, co oznacza, że uznaje jednego Boga jako jedynego prawdziwego.",
+      "description": "Word order: 'monoteistyczna religia' should be 'religia monoteistyczna'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Teksty religijne, takie jak Tora, podkreślają jedność wiary w jednego Boga.",
+      "correction": "Teksty religijne, takie jak Tora, podkreślają jedność wiary w Boga.",
+      "description": "Redundant wording: 'w jednego Boga' can be simplified to 'w Boga'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Większość praktyk religijnych skupia się na przestrzeganiu nauk i zasad zapisanych w Tory.",
+      "correction": "Większość praktyk religijnych skupia się na przestrzeganiu nauk i zasad zapisanych w Torze.",
+      "description": "Incorrect case ending: 'w Tory' should be 'w Torze' (Locative case).",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:15:27.276035",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.8,
+    "classification": "SUBSTANDARD",
+    "total_issues": 14,
+    "total_penalty": 3.2,
+    "issue_breakdown": {
+      "linguistic": 14,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "No se trata exclusivamente de la administración de medicamentos, aunque esto puede ser una parte de la asistencia avanzada.",
+      "correction": "No se trata exclusivamente de la administración de medicamentos, aunque esto puede ser parte de la asistencia avanzada.",
+      "description": "Unnecessary article 'una' before 'parte'; 'parte de' is sufficient and more natural in Spanish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "El uso de hielo directo no se recomienda, ya que puede causar más daño en la piel.",
+      "correction": "El uso de hielo directamente no se recomienda, ya que puede causar más daño en la piel.",
+      "description": "The phrase 'hielo directo' is awkward; 'hielo directamente' is clearer and more idiomatic.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:08:47.716709",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

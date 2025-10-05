@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "die grundlegenden Emotionen selbst sind in allen Gesellschaften erlebt.",
+      "correction": "die grundlegenden Emotionen selbst werden in allen Gesellschaften erlebt.",
+      "description": "Incorrect verb form: 'werden erlebt' is required for passive voice in present tense.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Worte sprechen",
+      "correction": "mit Worten ausdrücken",
+      "description": "Awkward phrasing: 'Worte sprechen' is not idiomatic; 'mit Worten ausdrücken' is clearer.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:23.645479",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

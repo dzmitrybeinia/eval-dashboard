@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nie jest to założenie ogólnie poprawną zasadą.",
+      "correction": "nie jest to ogólnie poprawna zasada.",
+      "description": "Awkward phrasing and incorrect word order; 'założenie' and 'zasada' are redundant.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Znacznące się rozwijać empatią zazwyczni jest wymagane połączenie z ludźmi i doświadczeniami społecznymi.",
+      "correction": "Znaczące rozwijanie empatii zazwyczaj wymaga połączenia z ludźmi i doświadczeniami społecznymi.",
+      "description": "Incorrect verb form and word order; 'znacznące się rozwijać empatią zazwyczni jest wymagane' is ungrammatical.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "Spelling error: incorrect ending.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "poprawnie dostosowywanie się do sytuacji",
+      "correction": "odpowiednie dostosowywanie się do sytuacji",
+      "description": "Incorrect word choice; 'poprawnie' should be 'odpowiednie' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "umiejawodne rozwiązanie napięcia",
+      "correction": "umiejętne rozwiązanie napięcia",
+      "description": "Spelling error: 'umiejawodne' should be 'umiejętne'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "relacji między ludźmiami",
+      "correction": "relacji między ludźmi",
+      "description": "Incorrect noun form; 'ludźmiami' is not a valid instrumental plural.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "obrazów ludzkiego zachowania",
+      "correction": "aspektów ludzkiego zachowania",
+      "description": "Incorrect word choice; 'obrazów' is awkward and unclear in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "rozsądczenie emocjonalne",
+      "correction": "rozsądzanie emocjonalne",
+      "description": "Spelling error: 'rozsądczenie' should be 'rozsądzanie'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "pozwalającą jednostkom rozpoznać i zrozumieć swoje emocje.",
+      "correction": "pozwalająca jednostkom rozpoznać i zrozumieć swoje emocje.",
+      "description": "Gender agreement error; 'pozwalającą' should be 'pozwalająca' to agree with 'samoświadomość'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:11:35.943980",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

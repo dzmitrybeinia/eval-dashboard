@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Decyzja w Brown v. Board of Education założyła, że segregacja w szkołach publicznych jest zgodna z Konstytucją, co jest poprawną interpretacją wydarzenia.",
+      "correction": "Decyzja w Brown v. Board of Education stwierdziła, że segregacja w szkołach publicznych jest niezgodna z Konstytucją, co jest poprawną interpretacją wydarzenia.",
+      "description": "Incorrect word usage: 'założyła' is awkward and imprecise; 'stwierdziła' is more appropriate for a court decision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę.",
+      "correction": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niezłomnej walki, które obejmowały coś więcej niż obronę.",
+      "description": "Awkward phrasing: 'która obejmowała pokolenie, czegoś bardziej niż obronę' is unclear and grammatically incorrect.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jego metody zakorzenione były w ideach Mahatmą Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "correction": "Jego metody zakorzenione były w ideach Mahatmy Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "description": "Incorrect noun case: 'Mahatmą Gandhiego' should be 'Mahatmy Gandhiego' (dopełniacz/genitive case).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ruch Praw Obywatelskich znaczył znaczną poprawę wewnętrznych relacji między różnymi etnicznościami w Stanach Ziemiańskich.",
+      "correction": "Ruch Praw Obywatelskich oznaczał znaczną poprawę relacji między różnymi grupami etnicznymi w Stanach Zjednoczonych.",
+      "description": "Incorrect word usage: 'znaczył' and 'etnicznościami' are awkward; 'oznaczał' and 'grupami etnicznymi' are more natural. 'Stanach Ziemiańskich' is a mistranslation; should be 'Stanach Zjednoczonych'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Chociaż Ruch Praw Obywatelskich odegrał kluczową rolę w zmianie społecznym, posłudzenie wskazuje na zmniejszona bariera rasowa i wzrost współpracy.",
+      "correction": "Chociaż Ruch Praw Obywatelskich odegrał kluczową rolę w zmianach społecznych, wskazuje to na zmniejszenie barier rasowych i wzrost współpracy.",
+      "description": "Incorrect word usage and grammar: 'zmianie społecznym' should be 'zmianach społecznych'; 'posłudzenie' is incorrect and unclear; 'zmniejszona bariera rasowa' should be 'zmniejszenie barier rasowych'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jednak nie można stwierdzić bezpośredznie o znacznym poprawie wewnętrznych relacji między różnymi grupami etnicznymi na podstawie podanego tekstu.",
+      "correction": "Jednak nie można stwierdzić bezpośrednio o znacznej poprawie relacji między różnymi grupami etnicznymi na podstawie podanego tekstu.",
+      "description": "Incorrect adverb and noun case: 'bezpośredznie' should be 'bezpośrednio'; 'znacznym poprawie' should be 'znacznej poprawie'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:10:34.508380",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

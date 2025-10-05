@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Beatst",
+      "correction": "Beats",
+      "description": "Spelling error: 'Beatst' is incorrect, should be 'Beats'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "hauptsanto",
+      "correction": "hauptsächlich",
+      "description": "Incorrect word usage: 'hauptsanto' is not a German word, should be 'hauptsächlich'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+      "correction": "Das Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+      "description": "Gender agreement error: 'Musikgenre' is neuter ('das'), not feminine ('die')",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "einer Stadt in New York",
+      "correction": "einem Stadtteil von New York",
+      "description": "Incorrect word usage: 'Bronx' is a borough/district, not a city",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:51.139469",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "russian",
+    "generated_at": "2025-10-05T03:53:46.097074"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Awkward or incorrect word choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 9,
+      "description": "Use of words or phrases that are uncommon, awkward, or not standard in Russian, affecting clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "Дома с открытой вентиляцией для охлаждения.",
+          "correct": "Дома с открытой вентиляцией для проветривания и охлаждения.",
+          "context": "Clarifying intended meaning"
+        },
+        {
+          "wrong": "Предотвращает повреждение отношений.",
+          "correct": "Предотвращает разрушение отношений.",
+          "context": "Standard term for relationships"
+        },
+        {
+          "wrong": "Совместно придумывайте решения:",
+          "correct": "Совместно находите решения:",
+          "context": "Standard collocation for conflict resolution"
+        },
+        {
+          "wrong": "ледерхозен и дирндли",
+          "correct": "ледерхозены и дирндли",
+          "context": "Russian plural usage"
+        },
+        {
+          "wrong": "пан де муэрто",
+          "correct": "пан де муэртo",
+          "context": "Spelling of Spanish term"
+        },
+        {
+          "wrong": "Это значит представить себе, как кто-то может чувствовать себя в ситуации, и реагировать с заботой.",
+          "correct": "Это значит представить себе, как кто-то может чувствовать себя в такой ситуации, и реагировать с заботой.",
+          "context": "Missing clarifying word"
+        },
+        {
+          "wrong": "Поворачивая винт, вы позволяете ему глубже войти в объект или надежно его закрепить.",
+          "correct": "Поворачивая винт, вы позволяете ему глубже входить в объект или надежно закрепляться.",
+          "context": "Verb agreement"
+        },
+        {
+          "wrong": "Частицы расположены свободно и могут перемещаться друг мимо друга.",
+          "correct": "Частицы расположены свободно и могут перемещаться мимо друг друга.",
+          "context": "Correct phrase order"
+        },
+        {
+          "wrong": "Учебные навыки — это набор стратегий и методов, которые помогают учащимся эффективно запоминать и применять информацию.",
+          "correct": "Учебные навыки — это совокупность стратегий и методов, которые помогают учащимся эффективно запоминать и применять информацию.",
+          "context": "Abstract skills terminology"
+        },
+        {
+          "wrong": "Записи служат персональным ресурсом для повторения материала.",
+          "correct": "Записи служат личным ресурсом для повторения материала.",
+          "context": "Natural word choice"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Case Usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent mistakes in case agreement, especially with instrumental and genitive forms, leading to awkward or incorrect phrasing.",
+      "examples": [
+        {
+          "wrong": "специализированная одежда для сохранения тепла",
+          "correct": "специализированной одеждой для сохранения тепла",
+          "context": "Instrumental case required after 'с' for correct meaning."
+        },
+        {
+          "wrong": "одного переменного",
+          "correct": "одной переменной",
+          "context": "Gender and case agreement error in scientific context."
+        },
+        {
+          "wrong": "уникальными происхождением",
+          "correct": "уникальным происхождением",
+          "context": "Instrumental case agreement with singular noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or Non-idiomatic Word Choice",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of words or phrases that are not idiomatic in Russian, reducing clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "нажимаете клин в объект",
+          "correct": "вдавливаете клин в объект",
+          "context": "Non-idiomatic verb choice for describing physical action."
+        },
+        {
+          "wrong": "высокой энергозатраты",
+          "correct": "высоких энергозатрат",
+          "context": "Incorrect collocation and case for describing energy expenditure."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Ambiguous or Repetitive Definitions",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Definitions or explanations use repetitive or ambiguous wording, reducing clarity for learners.",
+      "examples": [
+        {
+          "wrong": "ограничения: ограничения или ограничения",
+          "correct": "ограничения: условия или рамки",
+          "context": "Redundant repetition in definition; needs synonyms for clarity."
+        },
+        {
+          "wrong": "знаменатель — их количество",
+          "correct": "знаменатель — на сколько частей разделено целое",
+          "context": "Ambiguous explanation of mathematical terms."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect preposition usage before consonant clusters",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Preposition 'с' used instead of 'со' before words starting with consonant clusters, which disrupts natural flow and correctness.",
+      "examples": [
+        {
+          "wrong": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
+          "correct": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
+          "context": "Preposition before 'средой'"
+        },
+        {
+          "wrong": "Связь с стандартом NGSS (MS-ETS1-1)",
+          "correct": "Связь со стандартом NGSS (MS-ETS1-1)",
+          "context": "Preposition before 'стандартом'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Punctuation errors with introductory words and quotation marks",
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Missing commas after introductory words like 'например' and incorrect placement of periods with quotation marks, which affects readability and adherence to Russian punctuation norms.",
+      "examples": [
+        {
+          "wrong": "например вирусы или шпионские программы",
+          "correct": "например, вирусы или шпионские программы",
+          "context": "Comma after introductory word"
+        },
+        {
+          "wrong": "например \"password\" или \"123456\"",
+          "correct": "например, \"password\" или \"123456\"",
+          "context": "Comma after introductory word"
+        },
+        {
+          "wrong": "Кивайте или отвечайте короткими фразами, такими как \"Я понимаю\" или \"Это имеет смысл.\"",
+          "correct": "Кивайте или отвечайте короткими фразами, такими как \"Я понимаю\" или \"Это имеет смысл\".",
+          "context": "Period outside quotation marks"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and orthographic errors",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Misspellings such as unnecessary accent marks or incorrect use of 'е' instead of 'ё', which slightly affect professionalism.",
+      "examples": [
+        {
+          "wrong": "разбира́ться в книгах и текстах, которые вы читаете.",
+          "correct": "разбираться в книгах и текстах, которые вы читаете.",
+          "context": "Unnecessary accent mark"
+        },
+        {
+          "wrong": "— это мощный инструмент, который помогает убедить аудиторию в определенной точке зрения или действиях.",
+          "correct": "— это мощный инструмент, который помогает убедить аудиторию в определённой точке зрения или действиях.",
+          "context": "Use of 'ё' in 'определённой'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary or incorrect use of 'это' after dash",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Redundant use of 'это' after dash in definitions, which is not standard in Russian and affects sentence conciseness.",
+      "examples": [
+        {
+          "wrong": "Этос, пафос и логос — это основные инструменты для создания убедительных аргументов.",
+          "correct": "Этос, пафос и логос — основные инструменты для создания убедительных аргументов.",
+          "context": "Definition sentence structure"
+        }
+      ]
+    }
+  ]
+}

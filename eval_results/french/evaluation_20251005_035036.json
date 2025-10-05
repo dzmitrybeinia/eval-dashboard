@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Un *mindset de croissance* vous aide à voir les défis comme des opportunités d'apprendre et de s'améliorer.",
+      "correction": "Un *mindset de croissance* vous aide à voir les défis comme des opportunités d'apprendre et de progresser.",
+      "description": "The verb 's'améliorer' is reflexive and refers to the subject improving themselves, but 'progresser' is more idiomatic in this context for personal development.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "Cela signifie croire que vos capacités et votre intelligence peuvent croître grâce à l'effort, la pratique et la persévérance.",
+      "correction": "Cela signifie croire que vos capacités et votre intelligence peuvent croître grâce à l'effort, à la pratique et à la persévérance.",
+      "description": "Missing article 'à' before 'la pratique' for parallelism with 'à l'effort' and 'à la persévérance'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Dans cette leçon, nous découvrirons pourquoi ce mindset est important, comment gérer les revers, et les stratégies pour rester persistant lorsque les choses deviennent difficiles.",
+      "correction": "Dans cette leçon, nous découvrirons pourquoi ce mindset est important, comment gérer les revers, et les stratégies pour rester persévérant lorsque les choses deviennent difficiles.",
+      "description": "The adjective 'persistant' is less idiomatic than 'persévérant' when referring to a person's quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "Le mindset de croissance est la croyance que les capacités et l'intelligence peuvent être développées grâce à l'effort et à l'apprentissage.",
+      "correction": "Le mindset de croissance est la croyance que les capacités et l'intelligence peuvent être développées grâce à l'effort et à l'apprentissage.",
+      "description": "No article error, but 'mindset de croissance' is an anglicism; consider 'état d'esprit de croissance' for better French usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Cela s'oppose au *mindset fixe*, où les gens pensent que leurs capacités sont immuables.",
+      "correction": "Cela s'oppose au *mindset fixe*, où les gens pensent que leurs capacités sont immuables.",
+      "description": "No error, but 'mindset fixe' is an anglicism; 'état d'esprit fixe' is more idiomatic in French.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "Les défis sont des tremplins vers l'amélioration.",
+      "correction": "Les défis sont des tremplins vers l'amélioration.",
+      "description": "No article error, sentence is correct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "French",
+    "timestamp": "2025-10-05T03:50:36.436895",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

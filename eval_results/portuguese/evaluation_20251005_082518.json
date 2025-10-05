@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "comum em estrelas e no sol.",
+      "correction": "comum em estrelas e no Sol.",
+      "description": "The word 'Sol' referring to the star should be capitalized in Portuguese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Exemplos como água e leite demonstram essa propriedade ao assumir a forma do copo ou recipiente em que são colocados.",
+      "correction": "Exemplos como água e leite demonstram essa propriedade ao assumirem a forma do copo ou recipiente em que são colocados.",
+      "description": "Verb should agree in number with the compound subject 'água e leite'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:25:18.991636",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

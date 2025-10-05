@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "temas de rebelde",
+      "correction": "temas de rebeldia",
+      "description": "Incorrect word form: 'rebelde' is an adjective; 'rebeldia' is the correct noun for 'rebellion'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "identidade personal",
+      "correction": "identidade pessoal",
+      "description": "Spelling error: 'personal' should be 'pessoal' in Portuguese.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:43.531319",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

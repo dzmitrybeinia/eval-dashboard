@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Дома с открытой вентиляцией для охлаждения.",
+      "correction": "Дома с открытой вентиляцией для проветривания и охлаждения.",
+      "description": "The phrase 'открытая вентиляция' is awkward; adding 'проветривания' clarifies the intended meaning.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Дома с хорошей теплоизоляцией и специализированная одежда для сохранения тепла.",
+      "correction": "Дома с хорошей теплоизоляцией и специализированной одеждой для сохранения тепла.",
+      "description": "Instrumental case required: 'специализированной одеждой' instead of 'специализированная одежда'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T03:51:48.647331",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

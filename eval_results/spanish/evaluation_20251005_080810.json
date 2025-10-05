@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "En el ámbito de las ecuaciones matemáticas, las constantes representan valores que permanecen invariables y no varían en el curso de la solución.",
+      "correction": "En el ámbito de las ecuaciones matemáticas, las constantes representan valores que permanecen invariables y no cambian en el curso de la solución.",
+      "description": "Redundant phrasing: 'no varían' and 'permanecen invariables' repeat the same idea; 'no cambian' is more concise.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "En la cocina, las medidas suelen ser de tamaño entero, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de servicios, no para ajustar fracciones exactas de una receta.",
+      "correction": "En la cocina, las medidas suelen ser enteras, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de porciones, no para ajustar fracciones exactas de una receta.",
+      "description": "Improper word choice: 'de tamaño entero' should be 'enteras'; 'servicios' should be 'porciones' for clarity in culinary context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:08:10.977195",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

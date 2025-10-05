@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Marchi.e.",
+      "correction": "Marchi.e",
+      "description": "Spelling error: unnecessary period after 'Marchi.e'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Marchi.e.e.",
+      "correction": "Marchi.e",
+      "description": "Spelling error: repeated and unnecessary periods in 'Marchi.e.e.'",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "French",
+    "timestamp": "2025-10-05T08:16:35.964202",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

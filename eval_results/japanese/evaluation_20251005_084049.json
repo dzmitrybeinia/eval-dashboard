@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "主題はテキスト全体を通して続く一貫したアイデアやメッセージを指します。.",
+      "correction": "主題はテキスト全体を通して続く一貫したアイデアやメッセージを指します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "テキストの中心的なアイデアやメッセージを理解することは、読解力の基礎です。この文は主題の概念を正しく説明しています。.",
+      "correction": "テキストの中心的なアイデアやメッセージを理解することは、読解力の基礎です。この文は主題の概念を正しく説明しています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "タイトルや見出しはテキストの詳細を伝えることが一般的です。.",
+      "correction": "タイトルや見出しはテキストの詳細を伝えることが一般的です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "タイトルや見出しは、テキストの中心的なアイデアやテーマを簡潔に示すために作られますが、それらは詳細を提供するわけではありません。詳細は通常、中心テキスト内で見つかります。.",
+      "correction": "タイトルや見出しは、テキストの中心的なアイデアやテーマを簡潔に示すために作られますが、それらは詳細を提供するわけではありません。詳細は通常、中心テキスト内で見つかります。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "補足情報は固有名詞を含むことが多いです。.",
+      "correction": "補足情報は固有名詞を含むことが多いです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "補足情報は主題に直接関連しない追加情報を提供します。固有名詞を含む可能性はあるものの、それは主題を支える具体的な例や詳細を提供することが多いです。.",
+      "correction": "補足情報は主題に直接関連しない追加情報を提供します。固有名詞を含む可能性はあるものの、それは主題を支える具体的な例や詳細を提供することが多いです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "読書は即興の能力を向上させる。.",
+      "correction": "読書は即興の能力を向上させる。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "この文は読書が直接的に即興能力を向上させると主張していますが、提供されたテキストには即興は言及されていません。読書は語彙力と読解力を高め、知識を広げ、さまざまなテキストを分析する能力を向上させると述べられていますが、即興能力については言及されていません。.",
+      "correction": "この文は読書が直接的に即興能力を向上させると主張していますが、提供されたテキストには即興は言及されていません。読書は語彙力と読解力を高め、知識を広げ、さまざまなテキストを分析する能力を向上させると述べられていますが、即興能力については言及されていません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "主題はテキスト全体の重要なアイデアを伝えます。.",
+      "correction": "主題はテキスト全体の重要なアイデアを伝えます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "これは正しいです。テキストの中心的なメッセージや重要なポイントは、読者が理解すべき主題として機能します。.",
+      "correction": "これは正しいです。テキストの中心的なメッセージや重要なポイントは、読者が理解すべき主題として機能します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:40:49.176028",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

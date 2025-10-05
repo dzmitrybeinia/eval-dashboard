@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Классическая музыка развилась в период, который превосходил поп-музыку 20-го века.",
+      "correction": "Классическая музыка развивалась в период, который предшествовал поп-музыке 20-го века.",
+      "description": "Incorrect word choice: 'превосходил' should be 'предшествовал' to indicate chronological order, and 'развилась' should be 'развивалась' for process.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "и его культурное влияние заложено в следующих эпохах, а не в поп-музыке.",
+      "correction": "и его культурное влияние проявилось в последующих эпохах, а не в поп-музыке.",
+      "description": "Awkward phrasing: 'заложено в следующих эпохах' is unclear; 'проявилось в последующих эпохах' is more precise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Она не имеет корректного происхождения в сфере народной музыки России.",
+      "correction": "Она не имеет происхождения в сфере народной музыки России.",
+      "description": "Incorrect word usage: 'корректного происхождения' is awkward; 'происхождения' is sufficient.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "и пошла на мировой карли с помощью культовых производителей, таких как Kraftwerk, и по мере развития технологий.",
+      "correction": "и вышла на мировой уровень с помощью культовых исполнителей, таких как Kraftwerk, и по мере развития технологий.",
+      "description": "Incorrect word usage: 'пошла на мировой карли' is incorrect and unclear; 'вышла на мировой уровень' is correct. 'производителей' should be 'исполнителей' for musicians.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:20:23.453186",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

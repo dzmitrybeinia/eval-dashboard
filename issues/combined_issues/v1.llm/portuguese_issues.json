@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "portuguese",
+    "generated_at": "2025-10-05T03:58:12.089866",
+    "source_files": [
+      "evaluation_20251005_035608.json",
+      "evaluation_20251005_035609.json",
+      "evaluation_20251005_035610.json",
+      "evaluation_20251005_035611.json",
+      "evaluation_20251005_035612.json",
+      "evaluation_20251005_035613.json",
+      "evaluation_20251005_035614.json",
+      "evaluation_20251005_035615.json",
+      "evaluation_20251005_035616.json",
+      "evaluation_20251005_035622.json",
+      "evaluation_20251005_035626.json",
+      "evaluation_20251005_035628.json",
+      "evaluation_20251005_035635.json",
+      "evaluation_20251005_035636.json",
+      "evaluation_20251005_035652.json",
+      "evaluation_20251005_035654.json",
+      "evaluation_20251005_035655.json",
+      "evaluation_20251005_035656.json",
+      "evaluation_20251005_035701.json",
+      "evaluation_20251005_035710.json",
+      "evaluation_20251005_035711.json",
+      "evaluation_20251005_035712.json",
+      "evaluation_20251005_035713.json",
+      "evaluation_20251005_035714.json",
+      "evaluation_20251005_035715.json",
+      "evaluation_20251005_035716.json",
+      "evaluation_20251005_035717.json",
+      "evaluation_20251005_035718.json",
+      "evaluation_20251005_035722.json",
+      "evaluation_20251005_035724.json",
+      "evaluation_20251005_035729.json",
+      "evaluation_20251005_035736.json",
+      "evaluation_20251005_035737.json",
+      "evaluation_20251005_035754.json",
+      "evaluation_20251005_035755.json",
+      "evaluation_20251005_035756.json",
+      "evaluation_20251005_035757.json",
+      "evaluation_20251005_035758.json",
+      "evaluation_20251005_035802.json",
+      "evaluation_20251005_035810.json",
+      "evaluation_20251005_035812.json"
+    ],
+    "issue_counts": {
+      "linguistic": 17,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A localização do Egito conectava-o a outras regiões, promovendo comércio e intercâmbio cultural.",
+        "correction": "A localização do Egito o conectava a outras regiões, promovendo comércio e intercâmbio cultural.",
+        "description": "Awkward phrasing: 'conectava-o' is less natural than 'o conectava' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Representação aumentada de afro-americanos em governo, educação e mídia.",
+        "correction": "Aumento da representação de afro-americanos no governo, na educação e na mídia.",
+        "description": "Awkward phrasing and incorrect preposition usage; 'aumentada' is not idiomatic, and 'em governo' should be 'no governo'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Testes avaliam o quão bem o protótipo resolve o problema.",
+        "correction": "Testes avaliam o quanto o protótipo resolve o problema.",
+        "description": "The expression 'o quão bem' is awkward in Portuguese; 'o quanto' is more natural and idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Evite compartilhar excessivamente, mesmo com pessoas de confiança.",
+        "correction": "Evite compartilhar em excesso, mesmo com pessoas de confiança.",
+        "description": "Awkward phrasing: 'compartilhar excessivamente' is less idiomatic than 'compartilhar em excesso' in Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Como ele é expressado?",
+        "correction": "Como ele é expresso?",
+        "description": "Incorrect verb form: 'expresso' is the correct past participle for 'expressar' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Encargado de criar e aprovar leis.",
+        "correction": "Responsável por criar e aprovar leis.",
+        "description": "Word choice error: 'Encargado' is not standard in Brazilian Portuguese; 'Responsável' is the correct term.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "feedbacks",
+        "correction": "retornos",
+        "description": "Spelling/word choice error: 'feedbacks' is an English word; use the Portuguese equivalent 'retornos' or 'comentários'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Os alimentos são mais do que algo que consumimos—they são o combustível para todos os processos do nosso corpo.",
+        "correction": "Os alimentos são mais do que algo que consumimos — eles são o combustível para todos os processos do nosso corpo.",
+        "description": "Improper use of English 'they' instead of Portuguese 'eles' and missing space before dash.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Eventos Chave Relacionados aos Direitos Humanos",
+        "correction": "Eventos-chave Relacionados aos Direitos Humanos",
+        "description": "Spelling error: 'chave' should be hyphenated as 'eventos-chave' when used as a compound adjective.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Construindo Argumentos Convincente com Ethos, Pathos e Logos",
+        "correction": "Construindo Argumentos Convincentes com Ethos, Pathos e Logos",
+        "description": "Adjective 'convincente' should agree in number with 'argumentos'; use plural 'convincentes'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Limerique",
+        "correction": "Limerique",
+        "description": "The correct spelling in Portuguese is 'limerique', but the word is consistently used correctly throughout the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Que sonhava que comia seu sapato.",
+        "correction": "Que sonhava que comia o seu sapato.",
+        "description": "Missing article 'o' before 'seu sapato' for correct phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Comprando cartas com objetivos específicos.",
+        "correction": "Comprando cartas com objetivos específicos.",
+        "description": "The verb 'comprando' (buying) is incorrect in the context of card games; the correct verb is 'comprando' (drawing). Should be 'Comprando cartas com objetivos específicos.'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "O tema de *O Sol é para Todos* é justiça e a importância da empatia.",
+        "correction": "O tema de *O Sol é Para Todos* é justiça e a importância da empatia.",
+        "description": "Spelling error: 'Para' in the book title should be capitalized as it is part of a proper noun.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "importância das habilidades de estudo",
+        "correction": "A importância das habilidades de estudo",
+        "description": "Missing definite article 'A' at the beginning of the phrase",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "resumo habilidades de estudo",
+        "correction": "resumo das habilidades de estudo",
+        "description": "Missing definite article 'das' for proper noun phrase",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "oferecem perspectivas diversificadas sobre vida, espiritualidade e ética.",
+        "correction": "oferecem perspectivas diversificadas sobre a vida, a espiritualidade e a ética.",
+        "description": "Missing definite articles before 'vida', 'espiritualidade' and 'ética' for correct phrasing in Portuguese.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": []
+  }
+}

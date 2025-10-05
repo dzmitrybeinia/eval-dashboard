@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Testes avaliam o quão bem o protótipo resolve o problema.",
+      "correction": "Testes avaliam o quanto o protótipo resolve o problema.",
+      "description": "The expression 'o quão bem' is awkward in Portuguese; 'o quanto' is more natural and idiomatic.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T03:56:22.203578",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Platos indulgentes como la feijoada en Brasil y pasteles de rey en Europa.",
+      "correction": "Platos indulgentes como la feijoada en Brasil y el roscón de reyes en Europa.",
+      "description": "Incorrect word choice: 'pasteles de rey' is not the standard term; 'roscón de reyes' is the correct name for the traditional cake.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T03:45:08.796367",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

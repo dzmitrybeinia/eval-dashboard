@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Alavancas utilizam o princípio de multiplicação de força ao distribuir a carga por uma distância maior, enquanto polias reduzem o esforço ao aumentar a área sobre a qual a força é aplicada.",
+      "correction": "Alavancas utilizam o princípio de multiplicação de força ao distribuir a carga por uma distância maior, enquanto polias reduzem o esforço ao mudar a direção da força aplicada.",
+      "description": "Incorrect word usage: 'aumentar a área sobre a qual a força é aplicada' is inaccurate; polias alteram a direção da força, não aumentam a área.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Isso é baseado na conservação de energia, onde a energia potencial é convertida em energia cinética, facilitando o movimento.",
+      "correction": "Isso é baseado na conservação de energia, onde a energia potencial é convertida em trabalho, facilitando o movimento.",
+      "description": "Incorrect word usage: 'energia cinética' is not the correct term in this context; 'trabalho' is more appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:25:15.848813",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

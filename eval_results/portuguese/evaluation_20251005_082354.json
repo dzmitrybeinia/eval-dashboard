@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Camaleões são conhecidos por sua capacidade de se misturar com o entorno através de mudanças rápidas de cor.",
+      "correction": "Camaleões são conhecidos por sua capacidade de se misturar ao entorno através de mudanças rápidas de cor.",
+      "description": "Incorrect preposition: 'misturar ao entorno' is the standard collocation in Portuguese.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:23:54.796617",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Empatia polega na wymieraniu z siebie wszystkiego, co przechodzi w życie innej osoby.",
+      "correction": "Empatia polega na wyjmowaniu z siebie wszystkiego, co przechodzi w życie innej osoby.",
+      "description": "Incorrect word usage: 'wymieraniu' is not appropriate here; 'wyjmowaniu' or another verb should be used to convey the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nie polega na wymieraniu wszystkiego, co przechodzi w życie drugiej osoby.",
+      "correction": "nie polega na wyjmowaniu wszystkiego, co przechodzi w życie drugiej osoby.",
+      "description": "Incorrect word usage: 'wymieraniu' is not appropriate; 'wyjmowaniu' or another verb should be used.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "a nie na ich zanotowaniu lub potencjalnym odpłaceniu.",
+      "correction": "a nie na ich przejęciu lub potencjalnym odwzajemnieniu.",
+      "description": "Awkward phrasing: 'zanotowaniu' and 'odpłaceniu' do not fit the context; 'przejęciu' and 'odwzajemnieniu' are more appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nie kłanczeje osobę.",
+      "correction": "nie zubaża osoby.",
+      "description": "Misspelled and incorrect word: 'kłanczeje' is not a Polish word; 'zubaża' conveys the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "co zwiększa poczucie wag dla mówiącego.",
+      "correction": "co zwiększa poczucie wagi dla mówiącego.",
+      "description": "Spelling error: 'wag' should be 'wagi' (genitive case of 'waga').",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Rozwiązywanie konfliktów zazwyczniąje dalej konflikt, aby zwiększyć jego intensywność.",
+      "correction": "Rozwiązywanie konfliktów zazwyczaj pogłębia konflikt, aby zwiększyć jego intensywność.",
+      "description": "Misspelled word: 'zazwyczniąje' is not a correct Polish word; 'zazwyczaj pogłębia' is the correct form.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "złagodza napięcie między uczestnikami.",
+      "correction": "łagodzi napięcie między uczestnikami.",
+      "description": "Spelling and conjugation error: 'złagodza' should be 'łagodzi'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "rozmowie obszernującej",
+      "correction": "rozmowie otwartej",
+      "description": "Incorrect word usage: 'obszernującej' is not a Polish word; 'otwartej' fits the context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Empatia polega na rozważaniu i rozumowaniu uczuć innych",
+      "correction": "Empatia polega na rozważaniu i rozumieniu uczuć innych",
+      "description": "Incorrect word usage: 'rozumowaniu' should be 'rozumieniu' to convey understanding, not reasoning.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:12:24.834124",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

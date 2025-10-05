@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "nunca confía en compartir información personal en foros públicos.",
+      "correction": "nunca confíes en compartir información personal en foros públicos.",
+      "description": "Imperative mood error: 'confía' should be 'confíes' for negative tú command.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "entornos seguros y confiados",
+      "correction": "entornos seguros y de confianza",
+      "description": "Incorrect word choice: 'confiados' should be 'de confianza' to convey trustworthy environments.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:09:32.112760",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

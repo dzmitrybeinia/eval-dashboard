@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Spitzer Winkel",
+      "correction": "Spitzer Winkel",
+      "description": "No error: 'Spitzer Winkel' is correctly spelled and capitalized.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Stumpfer Winkel",
+      "correction": "Stumpfer Winkel",
+      "description": "No error: 'Stumpfer Winkel' is correctly spelled and capitalized.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Gleichseitig, Gleichschenklig oder Ungleichseitig",
+      "correction": "gleichseitig, gleichschenklig oder ungleichseitig",
+      "description": "Adjectives should not be capitalized unless at the beginning of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Maßeinheit von 90 Grad",
+      "correction": "Maßeinheit von weniger als 90 Grad",
+      "description": "Incorrect word usage: A 'spitzer Winkel' is less than 90 degrees, not exactly 90 degrees.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "wo man ihn an einer Seite des Buches lokalisieren kann, aber nicht messen kann.",
+      "correction": "wo man ihn an einer Seite des Buches lokalisieren, aber nicht messen kann.",
+      "description": "Verb repetition: 'kann' should only be used once at the end of the clause.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:35.719889",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

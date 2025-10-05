@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "присоеднен",
+      "correction": "присоединён",
+      "description": "Spelling error: missing letters and incorrect formation of the past participle",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "сотлала",
+      "correction": "составила",
+      "description": "Spelling error: incorrect word, should be 'составила' (amounted to)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "непрерымный",
+      "correction": "непрерывный",
+      "description": "Spelling error: missing letter 'и' in 'непрерывный' (continuous)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Роза Паркс уступила место белому пассажиру",
+      "correction": "Роза Паркс отказалась уступить место белому пассажиру",
+      "description": "Incorrect word usage: Rosa Parks refused to give up her seat, not gave up",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "Роза Паркс, которые были одной из лидеров",
+      "correction": "Роза Паркс, которая была одной из лидеров",
+      "description": "Agreement error: 'которые' (plural) should be 'которая' (singular, feminine) to match 'Роза Паркс'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "другим ненасильственным сопротивлением",
+      "correction": "другими формами ненасильственного сопротивления",
+      "description": "Awkward phrasing: 'другим ненасильственным сопротивлением' should be 'другими формами ненасильственного сопротивления'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "закона о гражданских прав",
+      "correction": "закона о гражданских правах",
+      "description": "Incorrect case ending: 'правах' is the correct genitive plural form",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:18:55.744520",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

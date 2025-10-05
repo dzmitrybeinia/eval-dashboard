@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "priorytety pozwalają skupienie się na najważniejszych zadaniach",
+      "correction": "priorytety pozwalają skupić się na najważniejszych zadaniach",
+      "description": "Incorrect verb form; 'skupienie się' should be 'skupić się' to match the intended meaning",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "zadania w A, B i C",
+      "correction": "zadania na A, B i C",
+      "description": "Incorrect preposition; 'na' is used with categories or groups in this context",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "natychliwej uwagi",
+      "correction": "natychmiastowej uwagi",
+      "description": "Spelling and word choice error; 'natychliwej' is incorrect, should be 'natychmiastowej'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "rozłożone lub przesunięte",
+      "correction": "odłożone lub przesunięte",
+      "description": "Incorrect word usage; 'rozłożone' should be 'odłożone' in this context",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "co jest kluczowym elementem zarządzania czasem",
+      "correction": "co jest kluczowym elementem zarządzania czasem.",
+      "description": "Missing period at the end of the sentence",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nie jest to konieczne dla utrzymania informacji",
+      "correction": "nie jest to konieczne do utrzymania informacji",
+      "description": "Incorrect preposition; 'do' is correct in this context",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "relacjonowania związków między różnymi elementami",
+      "correction": "rozpoznawania związków między różnymi elementami",
+      "description": "Incorrect word usage; 'relacjonowania' should be 'rozpoznawania' to match the intended meaning",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "być jedyną metodą użytej",
+      "correction": "być jedyną używaną metodą",
+      "description": "Awkward phrasing; corrected to standard Polish word order and usage",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:15:05.197078",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

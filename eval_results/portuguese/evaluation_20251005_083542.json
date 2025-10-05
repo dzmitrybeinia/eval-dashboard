@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ela utiliza uma frase com as iniciais de cada planeta, criando uma estrutura memorável para relembrar a ordem dos planetas do sistema solar.",
+      "correction": "Ela utiliza uma frase com os nomes de cada planeta, criando uma estrutura memorável para relembrar a ordem dos planetas do sistema solar.",
+      "description": "Uso inadequado de 'iniciais', pois a mnemônica apresentada utiliza os nomes completos dos planetas, não apenas as iniciais.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:42.054603",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

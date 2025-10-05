@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Erneuerbare Ressourcen wie Solarenergie und Windenergie aus natürlichen Prozessen stammen, die sich im Laufe der Zeit wieder auffüllen können.",
+      "correction": "Erneuerbare Ressourcen wie Solarenergie und Windenergie stammen aus natürlichen Prozessen, die sich im Laufe der Zeit wieder auffüllen können.",
+      "description": "Word order error: verb should precede 'aus natürlichen Prozessen' for correct sentence structure.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:52.503844",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

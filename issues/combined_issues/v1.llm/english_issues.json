@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "english",
+    "generated_at": "2025-10-05T03:44:16.821323",
+    "source_files": [
+      "evaluation_20251005_034259.json",
+      "evaluation_20251005_034300.json",
+      "evaluation_20251005_034301.json",
+      "evaluation_20251005_034302.json",
+      "evaluation_20251005_034303.json",
+      "evaluation_20251005_034304.json",
+      "evaluation_20251005_034305.json",
+      "evaluation_20251005_034306.json",
+      "evaluation_20251005_034307.json",
+      "evaluation_20251005_034308.json",
+      "evaluation_20251005_034309.json",
+      "evaluation_20251005_034310.json",
+      "evaluation_20251005_034312.json",
+      "evaluation_20251005_034313.json",
+      "evaluation_20251005_034314.json",
+      "evaluation_20251005_034315.json",
+      "evaluation_20251005_034359.json",
+      "evaluation_20251005_034400.json",
+      "evaluation_20251005_034401.json",
+      "evaluation_20251005_034402.json",
+      "evaluation_20251005_034403.json",
+      "evaluation_20251005_034406.json",
+      "evaluation_20251005_034407.json",
+      "evaluation_20251005_034408.json",
+      "evaluation_20251005_034409.json",
+      "evaluation_20251005_034410.json",
+      "evaluation_20251005_034411.json",
+      "evaluation_20251005_034413.json",
+      "evaluation_20251005_034414.json",
+      "evaluation_20251005_034415.json",
+      "evaluation_20251005_034416.json"
+    ],
+    "issue_counts": {
+      "linguistic": 2,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "Key takeaways:",
+        "correction": "Key takeaways",
+        "description": "Unnecessary colon after 'Key takeaways' since the following points are not listed as a bulleted or numbered list.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "- importance of healthy eating",
+        "correction": "- The importance of healthy eating",
+        "description": "Missing definite article 'The' before 'importance of healthy eating'",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": []
+  }
+}

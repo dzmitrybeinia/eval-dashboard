@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "証拠は情報を導き出すために使用されるものであり、その信頼性を評価することは重要です。.",
+      "correction": "証拠は情報を導き出すために使用されるものであり、その信頼性を評価することは重要です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "これにより、誤情報に基づいた誤解を防ぎ、より良い判断が可能になります。.",
+      "correction": "これにより、誤情報に基づいた誤解を防ぎ、より良い判断が可能になります。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "確証バイアスは個人が考えることに寄与しない情報を無視することを含むことがあるかもしれない。.",
+      "correction": "確証バイアスは個人が考えることに寄与しない情報を無視することを含むことがあるかもしれない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "確証バイアスは、通常、情報を確認し、それが自分の前提に合致するかどうかに関係しています。.",
+      "correction": "確証バイアスは、通常、情報を確認し、それが自分の前提に合致するかどうかに関係しています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "論理的な議論は主張、証拠、推論、または問題の定義を含みません。.",
+      "correction": "論理的な議論は主張、証拠、推論、または問題の定義を含みません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "問題の定義は関連するですが、それ自体が論理的な議論の構成要素ではありません。.",
+      "correction": "問題の定義は関連するですが、それ自体が論理的な議論の構成要素ではありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "海面上昇は沿岸地域に影響を与えない。.",
+      "correction": "海面上昇は沿岸地域に影響を与えない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "実際には、海面上昇は沿岸地域に影響を与えます。例えば、海岸の堤陸部が低下し、洪水のリスクが増大することがあります。これは、気候変動に関連する科学的データによって裏付けられています。.",
+      "correction": "実際には、海面上昇は沿岸地域に影響を与えます。例えば、海岸の堤陸部が低下し、洪水のリスクが増大することがあります。これは、気候変動に関連する科学的データによって裏付けられています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "問題の定義は関連するですが、それ自体が論理的な議論の構成要素ではありません。",
+      "correction": "問題の定義は関連していますが、それ自体が論理的な議論の構成要素ではありません。",
+      "description": "Syntax error: '関連するですが' should be '関連していますが' for correct sentence structure",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking_1.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:37:53.657828",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 9,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

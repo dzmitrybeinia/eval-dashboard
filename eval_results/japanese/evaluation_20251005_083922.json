@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は国境を越えて商品、サービス、資本が交換されることを指します。.",
+      "correction": "グローバル貿易は国境を越えて商品、サービス、資本が交換されることを指します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "この文はグローバル貿易の基本的な定義を正確に捉えています。グローバル貿易は経済活動を広範囲にわたって行う活動を指し、国境を越えた取引が含まれます。.",
+      "correction": "この文はグローバル貿易の基本的な定義を正確に捉えています。グローバル貿易は経済活動を広範囲にわたって行う活動を指し、国境を越えた取引が含まれます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は経済成長を消減させることがあります。.",
+      "correction": "グローバル貿易は経済成長を消減させることがあります。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は通常、経済成長を促進します。市場へのアクセスの増加、イノベーション、雇用創出、より多様な商品の販売、文化交流が経済を活性化させます。したがって、貿易が経済成長を減少させるという考えは一般的には誤りです。.",
+      "correction": "グローバル貿易は通常、経済成長を促進します。市場へのアクセスの増加、イノベーション、雇用創出、より多様な商品の販売、文化交流が経済を活性化させます。したがって、貿易が経済成長を減少させるという考えは一般的には誤りです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は、すべての国に均等な経済的利益をもたらします。.",
+      "correction": "グローバル貿易は、すべての国に均等な経済的利益をもたらします。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は、経済的利益を均等に分配することはしばしば難しく、裕福な国は市場に影響力を持ち、発展途上国は競争に劣ってしまうことがあります。そのため、この考えは誤りです。.",
+      "correction": "グローバル貿易は、経済的利益を均等に分配することはしばしば難しく、裕福な国は市場に影響力を持ち、発展途上国は競争に劣ってしまうことがあります。そのため、この考えは誤りです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "WTOは各国の経済に対して独自の財政支援を行います。.",
+      "correction": "WTOは各国の経済に対して独自の財政支援を行います。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "WTOは国際貿易機関であり、貿易課題に対処し、貿易条約を締結することを目的としています。経済政策や財政支援は通常、IMFや国家政府によって実施されます。.",
+      "correction": "WTOは国際貿易機関であり、貿易課題に対処し、貿易条約を締結することを目的としています。経済政策や財政支援は通常、IMFや国家政府によって実施されます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は、経済発展だけでなく文化の衝突をもたらします。.",
+      "correction": "グローバル貿易は、経済発展だけでなく文化の衝突をもたらします。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "グローバル貿易は経済成長を促進し、多様な商品へのアクセスや文化交流をもたらす利点を持ちますが、環境への影響や社会的不平等のような課題も伴います。文化間の相互作用はしばしば積極的なものであり、物理的な衝突や対立を意味することはありません。.",
+      "correction": "グローバル貿易は経済成長を促進し、多様な商品へのアクセスや文化交流をもたらす利点を持ちますが、環境への影響や社会的不平等のような課題も伴います。文化間の相互作用はしばしば積極的なものであり、物理的な衝突や対立を意味することはありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:39:22.136020",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

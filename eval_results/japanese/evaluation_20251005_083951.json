@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Kanji/Kana Usage",
+      "original": "儿童は自分の感情を完全に理解することができます。",
+      "correction": "子どもは自分の感情を完全に理解することができます。",
+      "description": "Incorrect kanji usage: '儿童' is not standard in Japanese; '子ども' is the correct term.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Kanji/Kana Usage",
+      "original": "儿童が友達と喉を水で満たしてもいいですか？",
+      "correction": "子どもが友達と喉を水で満たしてもいいですか？",
+      "description": "Incorrect kanji usage: '儿童' should be '子ども' in Japanese.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "共感は他人の感情を自分のものとして認識する能力です。.",
+      "correction": "共感は他人の感情を自分のものとして認識する能力です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "思いやりは他人に対して常に私たちの利益を上げる行為です。.",
+      "correction": "思いやりは他人に対して常に私たちの利益を上げる行為です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "優しさは人との交流に影響を与えない。.",
+      "correction": "優しさは人との交流に影響を与えない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "儿童は自分の感情を完全に理解することができます。.",
+      "correction": "儿童は自分の感情を完全に理解することができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "儿童が友達と喉を水で満たしてもいいですか？.",
+      "correction": "儿童が友達と喉を水で満たしてもいいですか？",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period or question mark, not both.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:39:51.164024",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

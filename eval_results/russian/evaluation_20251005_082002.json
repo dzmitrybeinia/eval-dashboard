@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "В России президент elected by a direct national vote, a process known as a presidential election, which is a part of the democratic system designed to ensure that the highest office in the land is chosen by the people.",
+      "correction": "В России президент избирается путем прямого национального голосования, процесс, известный как президентские выборы, который является частью демократической системы, призванной обеспечить, чтобы высший пост в стране выбирался народом.",
+      "description": "English phrase 'president elected by a direct national vote' used in Russian text; should be fully in Russian.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Верховный суд имеет широкие pouvoir для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между ютизим и государством.",
+      "correction": "Верховный суд имеет широкие полномочия для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между юридическим лицом и государством.",
+      "description": "Misspelled word 'ютизим'; should be 'юридическим лицом'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "Верховный суд имеет широкие pouvoir для рассмотрения различных вопросов",
+      "correction": "Верховный суд имеет широкие полномочия для рассмотрения различных вопросов",
+      "description": "Agreement error: 'широкие' (plural) does not agree with 'власть' (should be 'полномочия' or 'власть' in singular).",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:20:02.338571",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

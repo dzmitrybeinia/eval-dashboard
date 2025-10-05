@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Дивали, как культурный праздник в Индии, известный своим огненным фестивалем и семейными празднованиями, не включает в себя изменение внешности участникам.",
+      "correction": "Дивали, как культурный праздник в Индии, известный своим огненным фестивалем и семейными празднованиями, не включает в себя изменение внешности участников.",
+      "description": "Ошибка в падеже: требуется родительный падеж 'участников', а не дательный 'участникам'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "что является деньгам в исламском календаре.",
+      "correction": "что является днем в исламском календаре.",
+      "description": "Слово 'деньгам' ошибочно; должно быть 'днем' (именительный падеж слова 'день').",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "ознаки",
+      "correction": "знаки",
+      "description": "Слово 'ознаки' не существует в русском языке; вероятно, имелось в виду 'знаки'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations_1.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:19:15.906268",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

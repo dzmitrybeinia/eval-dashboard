@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "No ficción está destinada a informar y educar sobre hechos verídicos, mientras que la ficción se enfoca en narrativas creativas e imaginativas.",
+      "correction": "La no ficción está destinada a informar y educar sobre hechos verídicos, mientras que la ficción se enfoca en narrativas creativas e imaginativas.",
+      "description": "Missing definite article 'La' before 'no ficción'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:08:44.225888",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

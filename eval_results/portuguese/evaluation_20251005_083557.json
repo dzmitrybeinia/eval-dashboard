@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "No Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+      "correction": "Nos Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+      "description": "Incorrect article: 'No' should be 'Nos' to agree with the plural noun 'Jogos'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Entender as probabilidades de diferentes resultados permite que os jogadores tirem decisões informadas, assim como ajustar estratégias com base no que ocorreu durante o jogo.",
+      "correction": "Entender as probabilidades de diferentes resultados permite que os jogadores tomem decisões informadas, assim como ajustem estratégias com base no que ocorreu durante o jogo.",
+      "description": "Incorrect verb choice and mood: 'tirem' should be 'tomem' (collocation with 'decisões') and 'ajustar' should be 'ajustem' (subjunctive to match 'permite que').",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:57.126743",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

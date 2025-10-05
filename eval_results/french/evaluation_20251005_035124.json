@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Préparez-vous à explorer un sujet qui touche directement à vos droits et responsabilités en tant que citoyens.",
+      "correction": "Préparez-vous à explorer un sujet qui touche directement à vos droits et responsabilités en tant que citoyen.",
+      "description": "Word choice: 'citoyens' should be singular 'citoyen' to agree with 'vos droits et responsabilités' as a general statement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Les électeurs doivent rechercher les candidats, leurs politiques et les mesures de vote.",
+      "correction": "Les électeurs doivent se renseigner sur les candidats, leurs politiques et les mesures de vote.",
+      "description": "Word choice: 'rechercher' is awkward; 'se renseigner sur' is more appropriate for gathering information.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.md",
+    "language": "French",
+    "timestamp": "2025-10-05T03:51:24.618496",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

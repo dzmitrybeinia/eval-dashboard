@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ao colocar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+      "correction": "Ao deixar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+      "description": "The phrase 'colocar de lado' is awkward in this context; 'deixar de lado' is the standard expression for deprioritizing activities.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "Essa abordagem ajuda a alcançar mais em menos tempo, o que é benéfico para o crescimento pessoal e a redução do estresse.",
+      "correction": "Essa abordagem ajuda a alcançar mais em menos tempo, o que é benéfico para o crescimento pessoal e para a redução do estresse.",
+      "description": "Missing preposition 'para' before 'a redução do estresse' to maintain parallel structure and agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ambos trabalham em conjunto para formar a tomada de decisões, não um controla todas as emoções.",
+      "correction": "Ambos trabalham em conjunto para formar a tomada de decisões; nenhum deles controla todas as emoções.",
+      "description": "The phrase 'não um controla todas as emoções' is unclear; 'nenhum deles controla todas as emoções' is clearer and grammatically correct.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:24:14.300202",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

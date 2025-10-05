@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "立法部門は財政運営に関与していません。.",
+      "correction": "立法部門は財政運営に関与していません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "立法部門は財政運営に関与しています。財政に関する責任の一つに予算の承認と資金配分があります。これにより、立法部門が財政運営に直接的に関わることが理解できます。.",
+      "correction": "立法部門は財政運営に関与しています。財政に関する責任の一つに予算の承認と資金配分があります。これにより、立法部門が財政運営に直接的に関わることが理解できます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "アメリカ合衆国大統領は連邦法を直接変更できる。.",
+      "correction": "アメリカ合衆国大統領は連邦法を直接変更できる。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "アメリカ合衆国の憲法に基づき、大統領は立法院によって可決された法律を施行する権限を有していますが、立法院が決定した法律を直接変更する能力はありません。立法院と行政府間でのバランスが、立法府による立法プロセスと大統領が行政命令を発行する権限が強調されています。.",
+      "correction": "アメリカ合衆国の憲法に基づき、大統領は立法院によって可決された法律を施行する権限を有していますが、立法院が決定した法律を直接変更する能力はありません。立法院と行政府間でのバランスが、立法府による立法プロセスと大統領が行政命令を発行する権限が強調されています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "最高裁判所は問題の解決に重要な役割を果たす。.",
+      "correction": "最高裁判所は問題の解決に重要な役割を果たす。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "最高裁判所は、法律と憲法の解釈に関する重要な審判を行う。ブラウン対教育委員会裁判例を考えると、この部門が公民権を守るために果たした責任が明確に示されている。.",
+      "correction": "最高裁判所は、法律と憲法の解釈に関する重要な審判を行う。ブラウン対教育委員会裁判例を考えると、この部門が公民権を守るために果たした責任が明確に示されている。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "立法部門は大統領の拒否権を覆すことができない.",
+      "correction": "立法部門は大統領の拒否権を覆すことができない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "立法部門は、大統領の拒否権を覆う権限を持っています。これにより、立法は行政の決定に対して確固たる抑制を行うことができます。.",
+      "correction": "立法部門は、大統領の拒否権を覆う権限を持っています。これにより、立法は行政の決定に対して確固たる抑制を行うことができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "アメリカ政府の各部門は相補的な権限を持っていない。.",
+      "correction": "アメリカ政府の各部門は相補的な権限を持っていない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "アメリカ政府の三権分立の概念は、立法、行政、司法の三部門間で権力を分散することを目的としています。この分散により、一方的な権力の支配を防ぎ、公共の利益を維持することができます。この考え方の有効性は、異なる部門間の異なる義務と監視メカニズムがどのように相互に作用するかを理解することにあります。.",
+      "correction": "アメリカ政府の三権分立の概念は、立法、行政、司法の三部門間で権力を分散することを目的としています。この分散により、一方的な権力の支配を防ぎ、公共の利益を維持することができます。この考え方の有効性は、異なる部門間の異なる義務と監視メカニズムがどのように相互に作用するかを理解することにあります。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:39:29.282330",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

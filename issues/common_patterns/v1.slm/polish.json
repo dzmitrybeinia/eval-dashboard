@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "polish",
+    "generated_at": "2025-10-05T08:16:27.702647"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Awkward phrasing and sentence structure",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 45,
+      "description": "Recurring issues with word order, incomplete phrases, and awkward constructions that obscure meaning and reduce clarity.",
+      "examples": [
+        {
+          "wrong": "aby stworzyć smaczną.",
+          "correct": "aby stworzyć smaczny posiłek.",
+          "context": "Incomplete phrase missing noun."
+        },
+        {
+          "wrong": "Ten wzór trwa w dół okresu i tylko odzwierciedla się w dół grup, gdzie wznoszą się elementy z większą elektroujemnością.",
+          "correct": "Ten trend utrzymuje się w dół grup, gdzie pierwiastki mają większą liczbę powłok elektronowych.",
+          "context": "Confusing sentence structure and logic."
+        },
+        {
+          "wrong": "punkt zajmuje wewnętrznie miejsce w geometrii",
+          "correct": "punkt zajmuje miejsce w geometrii w sposób abstrakcyjny",
+          "context": "Awkward and unclear phrasing"
+        },
+        {
+          "wrong": "Through chunking, czyli podzielenie informacji...",
+          "correct": "Chunking, czyli podzielenie informacji...",
+          "context": "Unnecessary English phrase and awkward structure"
+        },
+        {
+          "wrong": "Akceptując błędy jako punktowy punkt rozwijania",
+          "correct": "Akceptując błędy jako punkt wyjścia do rozwoju",
+          "context": "Redundant and unclear phrase"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misspelling of common words and endings",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 38,
+      "description": "Frequent misspellings of high-frequency Polish words and endings, often resulting in non-existent or confusing terms that disrupt comprehension.",
+      "examples": [
+        {
+          "wrong": "zazwyczni",
+          "correct": "zazwyczaj",
+          "context": "Adverb 'usually' misspelled in multiple items."
+        },
+        {
+          "wrong": "poniewaćż",
+          "correct": "ponieważ",
+          "context": "Conjunction 'because' misspelled, affecting sentence logic."
+        },
+        {
+          "wrong": "kontempację",
+          "correct": "kontemplację",
+          "context": "Noun misspelled, distorting meaning in context of reflection."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect word choice and use of non-existent terms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 34,
+      "description": "Systematic use of incorrect, non-existent, or inappropriate Polish words, including loanwords and literal translations, leading to confusion and loss of meaning.",
+      "examples": [
+        {
+          "wrong": "rzemion",
+          "correct": "narzędzi",
+          "context": "Wrong noun used for 'tools'."
+        },
+        {
+          "wrong": "dogrywanie drapieżników",
+          "correct": "przytrzymywanie ofiary",
+          "context": "Phrase is unclear and not idiomatic."
+        },
+        {
+          "wrong": "tightenerze",
+          "correct": "opaskę uciskową",
+          "context": "Incorrect loanword for medical term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect case, gender, and number agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 29,
+      "description": "Frequent errors in noun, adjective, and verb agreement (case, gender, number), resulting in ungrammatical and hard-to-understand sentences.",
+      "examples": [
+        {
+          "wrong": "W algebry",
+          "correct": "W algebrze",
+          "context": "Locative case error in subject."
+        },
+        {
+          "wrong": "świętów",
+          "correct": "świąt",
+          "context": "Genitive plural form error."
+        },
+        {
+          "wrong": "Ta księżyc",
+          "correct": "Ten księżyc",
+          "context": "Gender agreement error."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or misleading terminology in subject domains",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 11,
+      "description": "Use of incorrect or misleading subject-specific terms (science, math, culture), often due to literal translation or lack of domain knowledge, causing factual errors.",
+      "examples": [
+        {
+          "wrong": "ułamki kwadratowe",
+          "correct": "ułamki zwykłe",
+          "context": "Non-standard math term for fractions."
+        },
+        {
+          "wrong": "zasady wodorowe",
+          "correct": "wiązania wodorowe",
+          "context": "Incorrect chemistry term for hydrogen bonds."
+        },
+        {
+          "wrong": "Chrzęstnica w Wielkiej Brytanii",
+          "correct": "Christmas pudding w Wielkiej Brytanii",
+          "context": "Incorrect cultural term for British holiday food."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect word choice and collocation",
+      "category": "linguistic",
+      "subcategory": "Lexical | Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 68,
+      "description": "Frequent use of non-idiomatic, awkward, or incorrect words and collocations that reduce clarity and naturalness of Polish text.",
+      "examples": [
+        {
+          "wrong": "wykonywać decyzje",
+          "correct": "podejmować decyzje",
+          "context": "Incorrect verb collocation for 'making decisions'"
+        },
+        {
+          "wrong": "popierają te umiejętności",
+          "correct": "posiadają te umiejętności",
+          "context": "Incorrect verb for 'having skills'"
+        },
+        {
+          "wrong": "wypisywać dane",
+          "correct": "wykradać dane",
+          "context": "Incorrect verb for 'stealing data'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Adjective-noun and gender agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar | Agreement",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 41,
+      "description": "Systematic mistakes in matching adjectives and nouns in gender, number, and case, leading to ungrammatical or confusing sentences.",
+      "examples": [
+        {
+          "wrong": "głównego formy energii",
+          "correct": "głównej formy energii",
+          "context": "Adjective does not agree with noun in gender and case"
+        },
+        {
+          "wrong": "Każdy zmienna",
+          "correct": "Każda zmienna",
+          "context": "Incorrect gender agreement with feminine noun"
+        },
+        {
+          "wrong": "każda strona ma równą szansą",
+          "correct": "każda strona ma równą szansę",
+          "context": "Incorrect case ending for noun"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-verb agreement and verb form errors",
+      "category": "linguistic",
+      "subcategory": "Grammar | Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 32,
+      "description": "Mistakes in verb conjugation, subject-verb agreement, and use of verbal nouns, resulting in sentences that are ungrammatical or unclear.",
+      "examples": [
+        {
+          "wrong": "komórki miałby trudności",
+          "correct": "komórki miałyby trudności",
+          "context": "Verb form does not agree with plural subject"
+        },
+        {
+          "wrong": "pop często łączy różne stylów",
+          "correct": "pop często łączy różne style",
+          "context": "Incorrect noun number with verb"
+        },
+        {
+          "wrong": "Składanie kluczowych punktów z tekstu nie wpływają",
+          "correct": "Składanie kluczowych punktów z tekstu nie wpływa",
+          "context": "Singular subject with plural verb"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Word Choice",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 32,
+      "description": "Non-idiomatic or awkward word choices that reduce clarity and naturalness of Polish phrasing.",
+      "examples": [
+        {
+          "wrong": "przekazywania wierzeń i przeznaczeń",
+          "correct": "przekazywania wierzeń i tradycji",
+          "context": "Confusing or unclear meaning due to inappropriate word selection."
+        },
+        {
+          "wrong": "nie są zobrazowane na zewnątrz organizmu",
+          "correct": "nie są widoczne na zewnątrz organizmu",
+          "context": "Literal translation leads to unnatural Polish expression."
+        },
+        {
+          "wrong": "regulując wzór pogodowy",
+          "correct": "regulując wzorce pogodowe",
+          "context": "Singular used instead of plural, distorting intended meaning."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling errors and incorrect word forms",
+      "category": "linguistic",
+      "subcategory": "Orthography | Spelling",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 27,
+      "description": "Frequent misspellings, incorrect inflections, and missing diacritics that reduce professionalism and may hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "zazwyczni",
+          "correct": "zazwyczaj",
+          "context": "Misspelled adverb, recurring in multiple items"
+        },
+        {
+          "wrong": "prelecency",
+          "correct": "prelekcje",
+          "context": "Incorrect word form and missing diacritic"
+        },
+        {
+          "wrong": "umiejawodne rozwiązanie",
+          "correct": "umiejętne rozwiązanie",
+          "context": "Misspelled adjective"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammar and Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 18,
+      "description": "Mistakes in gender, number, case, or verb agreement that affect sentence correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "Regularne konserwacje to kluczowe czynniki zapobiegania pożarom.",
+          "correct": "Regularna konserwacja to kluczowy czynnik zapobiegania pożarom.",
+          "context": "Plural used instead of singular, distorting meaning."
+        },
+        {
+          "wrong": "Jest to powszechne strategia edukacyjna",
+          "correct": "Jest to powszechna strategia edukacyjna",
+          "context": "Gender agreement error between adjective and noun."
+        },
+        {
+          "wrong": "mózg łatwiej rozumie i zapamięta podzielone elementy",
+          "correct": "mózg łatwiej rozumie i zapamiętuje podzielone elementy",
+          "context": "Verb tense inconsistency within a sentence."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntax and Word Order Issues",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 12,
+      "description": "Unnatural sentence structure, incorrect word order, or repetition that hinders readability and flow.",
+      "examples": [
+        {
+          "wrong": "Ogólna rozmowa na temat konfliktów",
+          "correct": "Rozmowa ogólna na temat konfliktów",
+          "context": "Adjective placed before noun, which is less idiomatic in Polish."
+        },
+        {
+          "wrong": "a nawet nawet komunikować się bez słów",
+          "correct": "a nawet komunikować się bez słów",
+          "context": "Unnecessary repetition."
+        },
+        {
+          "wrong": "To zapewnia wiarygodność i wzmacnia rozumowanie",
+          "correct": "Zapewnia to wiarygodność i wzmacnia rozumowanie",
+          "context": "More natural word order for Polish."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 13,
+      "description": "Misspellings, missing diacritics, or incorrect word forms that may cause minor confusion or reduce professionalism.",
+      "examples": [
+        {
+          "wrong": "zazwyczni",
+          "correct": "zazwyczaj",
+          "context": "Frequent misspelling of common adverbs."
+        },
+        {
+          "wrong": "szacun",
+          "correct": "szacunek",
+          "context": "Colloquial or truncated forms used instead of standard Polish."
+        },
+        {
+          "wrong": "Lod jest w stanie ciała stałego",
+          "correct": "Lód jest w stanie ciała stałego",
+          "context": "Missing diacritic changes word meaning."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Punctuation and Formatting Mistakes",
+      "category": "linguistic",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 6,
+      "description": "Missing or misplaced punctuation, quotation marks, or unnecessary periods that slightly affect clarity or professionalism.",
+      "examples": [
+        {
+          "wrong": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+          "correct": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat'.",
+          "context": "Missing closing quotation mark."
+        },
+        {
+          "wrong": "co jest kluczową funkcją tego rodzaju linii w technikach rysunkowych.",
+          "correct": "co jest kluczową funkcją tego rodzaju linii w technikach rysunkowych",
+          "context": "Unnecessary period at the end of a subordinate clause."
+        },
+        {
+          "wrong": "Obejmuje ono również liczby dziesiętne, tekst, i inne.",
+          "correct": "Obejmuje to również liczby dziesiętne, tekst i inne.",
+          "context": "Unnecessary comma before conjunction."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Strefy klimatyczne są podzielane na podstawie długoterminowych warunków pogodowych.",
+      "correction": "Strefy klimatyczne są podzielane na podstawie długoterminowych warunków pogodowych.",
+      "description": "Word choice error: 'podzielane' should be 'dzielone' to correctly express 'are divided' in Polish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "co jest sprzeczne z podaną fakcją",
+      "correction": "co jest sprzeczne z podaną informacją",
+      "description": "Word choice error: 'fakcją' is not correct in this context; 'informacją' is appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Woda działa jak termost",
+      "correction": "Woda działa jak termostat",
+      "description": "Spelling/word choice error: 'termost' should be 'termostat'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "regulując wzór pogodowy",
+      "correction": "regulując wzorce pogodowe",
+      "description": "Word choice error: 'wzór pogodowy' should be plural 'wzorce pogodowe' to match context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "co potwierdza naszą tendencję do prawdy",
+      "correction": "co potwierdza prawdziwość tej informacji",
+      "description": "Awkward phrasing: 'naszą tendencję do prawdy' is unclear; 'prawdziwość tej informacji' is clearer.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "z opadami odpowiednio różnymi przez rok",
+      "correction": "z opadami zmieniającymi się w ciągu roku",
+      "description": "Awkward phrasing: 'odpowiednio różnymi przez rok' is unclear; 'zmieniającymi się w ciągu roku' is more natural.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:10:37.922757",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

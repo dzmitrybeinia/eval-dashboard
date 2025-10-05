@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "japanese",
+    "generated_at": "2025-10-05T03:59:56.870665",
+    "source_files": [
+      "evaluation_20251005_035823.json",
+      "evaluation_20251005_035824.json",
+      "evaluation_20251005_035825.json",
+      "evaluation_20251005_035826.json",
+      "evaluation_20251005_035827.json",
+      "evaluation_20251005_035828.json",
+      "evaluation_20251005_035829.json",
+      "evaluation_20251005_035830.json",
+      "evaluation_20251005_035831.json",
+      "evaluation_20251005_035832.json",
+      "evaluation_20251005_035833.json",
+      "evaluation_20251005_035834.json",
+      "evaluation_20251005_035836.json",
+      "evaluation_20251005_035837.json",
+      "evaluation_20251005_035838.json",
+      "evaluation_20251005_035855.json",
+      "evaluation_20251005_035856.json",
+      "evaluation_20251005_035857.json",
+      "evaluation_20251005_035859.json",
+      "evaluation_20251005_035900.json",
+      "evaluation_20251005_035901.json",
+      "evaluation_20251005_035904.json",
+      "evaluation_20251005_035905.json",
+      "evaluation_20251005_035913.json",
+      "evaluation_20251005_035914.json",
+      "evaluation_20251005_035915.json",
+      "evaluation_20251005_035916.json",
+      "evaluation_20251005_035924.json",
+      "evaluation_20251005_035925.json",
+      "evaluation_20251005_035929.json",
+      "evaluation_20251005_035930.json",
+      "evaluation_20251005_035931.json",
+      "evaluation_20251005_035932.json",
+      "evaluation_20251005_035935.json",
+      "evaluation_20251005_035936.json",
+      "evaluation_20251005_035938.json",
+      "evaluation_20251005_035939.json",
+      "evaluation_20251005_035940.json",
+      "evaluation_20251005_035941.json",
+      "evaluation_20251005_035942.json",
+      "evaluation_20251005_035943.json",
+      "evaluation_20251005_035956.json"
+    ],
+    "issue_counts": {
+      "linguistic": 27,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "プログラミングは、コンピューターが理解して実行できる指示を作成することです。",
+        "correction": "プログラミングは、コンピューターが理解し実行できる指示を作成することです。",
+        "description": "Awkward phrasing: '理解して実行できる' should be '理解し実行できる' for natural coordination of verbs.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "保存するデータは変更可能または固定のままです。",
+        "correction": "保存するデータは変更可能または固定です。",
+        "description": "Awkward phrasing: '固定のままです' is unnatural; '固定です' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）で構成される言語で遺伝情報を記録します。",
+        "correction": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）によって遺伝情報が記録されています。",
+        "description": "Awkward phrasing: '言語で遺伝情報を記録します' is unnatural; rephrased for clarity and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "無火のロウソク",
+        "correction": "電池式のロウソク",
+        "description": "‘無火のロウソク’ is awkward; ‘電池式のロウソク’ is the standard term for flameless candles in Japanese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "煙探知機全体は10年ごとに交換する。",
+        "correction": "煙探知機は10年ごとに本体を交換する。",
+        "description": "‘全体’ is ambiguous; ‘本体’ is clearer for replacing the device itself.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "円は角や辺のない丸い形です。",
+        "correction": "円は角や辺がない丸い形です。",
+        "description": "Awkward phrasing: 'のない' should be attached directly to '角や辺がない' for natural Japanese expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "円の端のすべての点は中心から同じ距離にあります。",
+        "correction": "円周上のすべての点は中心から同じ距離にあります。",
+        "description": "Word choice: '円の端' is unnatural; '円周上' is the correct term for points on a circle.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ピザや時計は円の形をしています！",
+        "correction": "ピザや時計は円形をしています！",
+        "description": "Word choice: '円形' is more natural than '円の形' for describing objects shaped like a circle.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "家の屋根はしばしば三角形の形をしています。",
+        "correction": "家の屋根はしばしば三角形をしています。",
+        "description": "Word choice: '三角形をしています' is more natural than '三角形の形をしています'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "チェスボードや窓枠はしばしば正方形の形をしています。",
+        "correction": "チェスボードや窓枠はしばしば正方形をしています。",
+        "description": "Word choice: '正方形をしています' is more natural than '正方形の形をしています'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "滑り台の屋根（三角形）",
+        "correction": "滑り台の屋根（三角形）",
+        "description": "No correction needed; included for deduplication check.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "行政府門の役割",
+        "correction": "行政府の役割",
+        "description": "Incorrect word usage: '門' should be '部' to correctly refer to 'branch' in government context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "行政府門",
+        "correction": "行政府",
+        "description": "Incorrect word usage: '門' should be '部' to correctly refer to 'branch' in government context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "行政府門: 法律に拒否権を行使し、裁判官を任命する権限を持つ。",
+        "correction": "行政府: 法律に拒否権を行使し、裁判官を任命する権限を持つ。",
+        "description": "Incorrect word usage: '門' should be '部' to correctly refer to 'branch' in government context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "自然資源とは、環境に自然に存在し、生物、特に人間が生活を支えたり日々のニーズを満たしたりするために使用する物質や材料のことです。",
+        "correction": "自然資源とは、環境に自然に存在し、生物、特に人間が生活を支えたり、日々のニーズを満たしたりするために使用する物質や材料のことです。",
+        "description": "Missing comma after '支えたり' for parallel structure clarity",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "種類は以下の通りです：",
+        "correction": "種類は以下の通りです。",
+        "description": "Colon is not standard Japanese punctuation; use a period instead",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "例: 太陽光は電力を生成するために利用される。石炭は採掘されてエネルギーを生産するために燃焼される。",
+        "correction": "例：太陽光は電力を生成するために利用される。石炭は採掘されてエネルギーを生産するために燃焼される。",
+        "description": "Colon should be full-width '：' in Japanese",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "例: 水は農業の灌漑や家庭での飲料水として使用される。",
+        "correction": "例：水は農業の灌漑や家庭での飲料水として使用される。",
+        "description": "Colon should be full-width '：' in Japanese",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "例: 自転車や公共交通機関の利用はガソリンへの依存を減らす。",
+        "correction": "例：自転車や公共交通機関の利用はガソリンへの依存を減らす。",
+        "description": "Colon should be full-width '：' in Japanese",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "例: 大量の石油資源を持つ国は、石油を輸出し、エネルギー生産に関連する産業を発展させる。",
+        "correction": "例：大量の石油資源を持つ国は、石油を輸出し、エネルギー生産に関連する産業を発展させる。",
+        "description": "Colon should be full-width '：' in Japanese",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "例: 肥沃な土壌と豊富な水源を持つ国は、強力な農業経済を持つことが多い。",
+        "correction": "例：肥沃な土壌と豊富な水源を持つ国は、強力な農業経済を持つことが多い。",
+        "description": "Colon should be full-width '：' in Japanese",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "サイバーブリング",
+        "correction": "サイバーブリング（サイバーブリーイング）",
+        "description": "Spelling error: 'サイバーブリング' should be 'サイバーブリーイング' (cyberbullying) for correct loanword representation",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "音節パターンは5-7-5。",
+        "correction": "音数パターンは5-7-5。",
+        "description": "In Japanese poetry, '音数' (number of sounds) is correct; '音節' (syllable) is an English-based term and not standard for haiku.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "韻律は弱強五歩格（1行に10音節、ストレスが交互に変化）。",
+        "correction": "韻律は弱強五歩格（1行に10音節、強弱が交互に変化）。",
+        "description": "The phrase 'ストレスが交互に変化' is awkward; '強弱が交互に変化' is more natural in Japanese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "第1,2,5行は長く韻を踏み、第3,4行は短く韻を踏みます。",
+        "correction": "第1、2、5行は長く韻を踏み、第3、4行は短く韻を踏みます。",
+        "description": "Comma should be Japanese full-width '、' for list items in Japanese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "夢が現実になったことを知った。",
+        "correction": "夢が現実になったことに気づいた。",
+        "description": "The phrase '知った' is less natural; '気づいた' better expresses the realization in Japanese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "\\[\n\\frac{12}{60} = \\frac{1}{5}\\。\n\\]",
+        "correction": "\\[\n\\frac{12}{60} = \\frac{1}{5}\n\\]",
+        "description": "Unnecessary full-width Japanese period '。' after the equation; should be omitted in mathematical notation.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": []
+  }
+}

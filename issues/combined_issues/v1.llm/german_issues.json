@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "german",
+    "generated_at": "2025-10-05T03:55:54.191757",
+    "source_files": [
+      "evaluation_20251005_035348.json",
+      "evaluation_20251005_035349.json",
+      "evaluation_20251005_035350.json",
+      "evaluation_20251005_035351.json",
+      "evaluation_20251005_035352.json",
+      "evaluation_20251005_035353.json",
+      "evaluation_20251005_035355.json",
+      "evaluation_20251005_035356.json",
+      "evaluation_20251005_035359.json",
+      "evaluation_20251005_035400.json",
+      "evaluation_20251005_035401.json",
+      "evaluation_20251005_035403.json",
+      "evaluation_20251005_035404.json",
+      "evaluation_20251005_035405.json",
+      "evaluation_20251005_035410.json",
+      "evaluation_20251005_035423.json",
+      "evaluation_20251005_035424.json",
+      "evaluation_20251005_035426.json",
+      "evaluation_20251005_035434.json",
+      "evaluation_20251005_035435.json",
+      "evaluation_20251005_035436.json",
+      "evaluation_20251005_035449.json",
+      "evaluation_20251005_035450.json",
+      "evaluation_20251005_035451.json",
+      "evaluation_20251005_035452.json",
+      "evaluation_20251005_035453.json",
+      "evaluation_20251005_035454.json",
+      "evaluation_20251005_035455.json",
+      "evaluation_20251005_035457.json",
+      "evaluation_20251005_035458.json",
+      "evaluation_20251005_035500.json",
+      "evaluation_20251005_035503.json",
+      "evaluation_20251005_035505.json",
+      "evaluation_20251005_035506.json",
+      "evaluation_20251005_035510.json",
+      "evaluation_20251005_035511.json",
+      "evaluation_20251005_035512.json",
+      "evaluation_20251005_035520.json",
+      "evaluation_20251005_035525.json",
+      "evaluation_20251005_035527.json",
+      "evaluation_20251005_035534.json",
+      "evaluation_20251005_035535.json",
+      "evaluation_20251005_035551.json",
+      "evaluation_20251005_035552.json",
+      "evaluation_20251005_035553.json",
+      "evaluation_20251005_035554.json"
+    ],
+    "issue_counts": {
+      "linguistic": 52,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Die Hieroglyphen, ein Symbolschrift-System, wurden für religiöse Texte und Aufzeichnungen verwendet.",
+        "correction": "Die Hieroglyphen, ein Symbolschriftsystem, wurden für religiöse Texte und Aufzeichnungen verwendet.",
+        "description": "Compound noun 'Symbolschriftsystem' should be written as one word in German.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Kaktuszaunkönigin",
+        "correction": "Kaktuszaunkönig",
+        "description": "Spelling error: The correct German name for the bird is 'Kaktuszaunkönig', not 'Kaktuszaunkönigin'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "und sparst jede Woche x €.",
+        "correction": "und sparst jede Woche x €.",
+        "description": "Missing non-breaking space between number/variable and currency symbol as per German typographic convention.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "das DNA",
+        "correction": "die DNA",
+        "description": "Incorrect article: 'DNA' is feminine in German and requires 'die'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Student Nonviolent Coordinating Committee (SNCC)",
+        "correction": "Student Nonviolent Coordinating Committee (SNCC)",
+        "description": "The name of the organization is in English; in a German-language educational context, it should be translated or explained in German for linguistic consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Hauptklimazonen Merkmale",
+        "correction": "Hauptklimazonenmerkmale",
+        "description": "Compound noun should be written as one word in German",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Programmieren macht Spaß!",
+        "correction": "Programmieren macht Spaß!",
+        "description": "No error: correct use of Eszett (ß) in 'Spaß'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "die Grundlage der Programmierung zu bilden",
+        "correction": "die Grundlagen der Programmierung zu bilden",
+        "description": "Number agreement: 'Grundlagen' (plural) matches the context better than 'Grundlage' (singular).",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Butterbrot machen.",
+        "correction": "Butterbrot machen.",
+        "description": "No error: 'Butterbrot' is correctly written as a compound noun. (This entry is for demonstration; no correction needed.)",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Kulturelle Feierlichkeiten sind entscheidend für die Ausdruck von Identität, Werten und Gemeinschaft.",
+        "correction": "Kulturelle Feierlichkeiten sind entscheidend für den Ausdruck von Identität, Werten und Gemeinschaft.",
+        "description": "Incorrect case: 'die Ausdruck' should be 'den Ausdruck' (Accusative case required after 'für').",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "In der Landwirtschaft wird durch genetische Modifikation resistentere Ernte erzeugt.",
+        "correction": "In der Landwirtschaft werden durch genetische Modifikation resistentere Ernten erzeugt.",
+        "description": "Word choice and agreement: 'Ernte' should be plural ('Ernten') and verb should agree in number ('werden erzeugt').",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Optionenbewertung",
+        "correction": "Optionenbewertung",
+        "description": "Compound noun is correct; no error found.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Emotionale Intelligenz Einführung",
+        "correction": "Einführung in die emotionale Intelligenz",
+        "description": "Awkward phrasing; in German, 'Einführung in die emotionale Intelligenz' is the correct and idiomatic way to express this theme.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Definition emotionale Intelligenz",
+        "correction": "Definition der emotionalen Intelligenz",
+        "description": "Missing article and incorrect case; 'der emotionalen Intelligenz' is required for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Hauptkomponenten EI",
+        "correction": "Hauptkomponenten der EI",
+        "description": "Missing article; 'der EI' is needed for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Definition Selbstwahrnehmung",
+        "correction": "Definition der Selbstwahrnehmung",
+        "description": "Missing article; 'der Selbstwahrnehmung' is needed for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Vorteile Selbstwahrnehmung",
+        "correction": "Vorteile der Selbstwahrnehmung",
+        "description": "Missing article; 'der Selbstwahrnehmung' is needed for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Definition Empathie",
+        "correction": "Definition der Empathie",
+        "description": "Missing article; 'der Empathie' is needed for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Vorteile Empathie",
+        "correction": "Vorteile der Empathie",
+        "description": "Missing article; 'der Empathie' is needed for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Definition soziale Fähigkeiten",
+        "correction": "Definition der sozialen Fähigkeiten",
+        "description": "Missing article; 'der sozialen Fähigkeiten' is needed for correct German phrasing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Wichtige soziale Fähigkeiten",
+        "correction": "Wichtige soziale Fähigkeiten",
+        "description": "No error; phrase is correct. (Included for deduplication check.)",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Ein historischer Roman, der das Leben während des Bürgerkriegs imaginiert.",
+        "correction": "Ein historischer Roman, der das Leben während des Bürgerkriegs imaginiert.",
+        "description": "No error: 'Bürgerkriegs' is correctly in genitive case after 'während'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "wie wir es sicher verhindern und darauf reagieren können",
+        "correction": "wie wir es sicher vermeiden und darauf reagieren können",
+        "description": "The verb 'verhindern' is awkward in this context; 'vermeiden' is the standard collocation for preventing danger.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Feuersicherheitszusammenfassung",
+        "correction": "Feuersicherheits-Zusammenfassung",
+        "description": "Compound noun is overly long and unclear; a hyphen improves readability and conforms to German orthographic recommendations for long compounds.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Sicherheit für Helfer und Verletzten gewährleisten.",
+        "correction": "Sicherheit für Helfer und Verletzte gewährleisten.",
+        "description": "Number agreement error: 'Verletzten' should be 'Verletzte' to match the plural 'Helfer'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Wichtigkeit von Erste Hilfe",
+        "correction": "Wichtigkeit der Ersten Hilfe",
+        "description": "Article usage error: 'Erste Hilfe' requires the definite article and correct case ('der Ersten Hilfe').",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Grassamen",
+        "correction": "Gras­samen",
+        "description": "Spelling error: 'Gras' is the correct noun, 'Grassamen' is incorrect; should be 'Gras­samen' (with correct noun capitalization and spelling).",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Checks and Balances ist das System, das sicherstellt, dass jeder Zweig der Regierung die Macht der anderen Zweige begrenzen kann.",
+        "correction": "Checks and Balances ist das System, das sicherstellt, dass jeder Zweig der Regierung die Macht der anderen Zweige begrenzen kann.",
+        "description": "Foreign phrase 'Checks and Balances' should be italicized or in quotation marks to indicate it is not German; however, this is a stylistic rather than a strict linguistic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "dass keine Zweig zu mächtig wird.",
+        "correction": "dass kein Zweig zu mächtig wird.",
+        "description": "Gender agreement error: 'Zweig' is masculine and requires 'kein' instead of 'keine'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Bemühen wertschätzen und schätzen.",
+        "correction": "Bemühen wertschätzen und anerkennen.",
+        "description": "Awkward phrasing: 'schätzen' is redundant after 'wertschätzen'; 'anerkennen' is a clearer word choice.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Internationalen Pakt über bürgerliche und politische Rechte (IPbpR) und den Internationalen Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR).",
+        "correction": "Internationaler Pakt über bürgerliche und politische Rechte (IPbpR) und Internationaler Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR).",
+        "description": "Spelling/word form error: 'Internationalen Pakt' should be 'Internationaler Pakt' to match nominative case as subject.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Hausarbeiten",
+        "correction": "Hausarbeiten",
+        "description": "No error: word is correctly spelled and capitalized as a noun.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ursprung in europäischen Traditionen, entwickelt während Mittelalter, Renaissance, Barock, Klassik und Romantik.",
+        "correction": "Ursprung in europäischen Traditionen, entwickelt sich während des Mittelalters, der Renaissance, des Barock, der Klassik und der Romantik.",
+        "description": "Missing definite articles and incorrect case usage for historical periods; verb tense consistency improved.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Entstand Anfang des 20. Jahrhunderts in afroamerikanischen Gemeinschaften in New Orleans.",
+        "correction": "Entstand Anfang des 20. Jahrhunderts in afroamerikanischen Gemeinschaften in New Orleans.",
+        "description": "No error found; sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Entstand in den 1950er Jahren, mischte Elemente von Blues, Country und Rhythm & Blues.",
+        "correction": "Entstand in den 1950er Jahren und mischte Elemente von Blues, Country und Rhythm & Blues.",
+        "description": "Missing conjunction 'und' for correct sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Entwickelte sich Mitte des 20. Jahrhunderts als kommerzielles Genre.",
+        "correction": "Entwickelte sich Mitte des 20. Jahrhunderts zu einem kommerziellen Genre.",
+        "description": "Incorrect preposition; 'zu einem' is required for transformation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Themen konzentrieren sich oft auf Erzählungen, soziale Probleme und persönliche Erfahrungen.",
+        "correction": "Die Themen konzentrieren sich oft auf Erzählungen, soziale Probleme und persönliche Erfahrungen.",
+        "description": "Missing definite article 'Die' for correct subject.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Poetry ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+        "correction": "Poesie ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+        "description": "Spelling/word choice error: 'Poetry' should be 'Poesie' in German.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Ein Frosch springt hinein—",
+        "correction": "Ein Frosch springt hinein –",
+        "description": "Punctuation error: Use a spaced en dash (–) instead of an em dash (—) in German typography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Platsch! Wieder Stille.",
+        "correction": "Platsch! Wieder Stille.",
+        "description": "Noun capitalization: 'Stille' is correctly capitalized, but double-check for consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Shakespearean Sonett: ABAB CDCD EFEF GG",
+        "correction": "Shakespeare-Sonett: ABAB CDCD EFEF GG",
+        "description": "Word choice: 'Shakespearean Sonett' should be 'Shakespeare-Sonett' for correct German usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Petrarchan Sonett: ABBA ABBA CDE CDE",
+        "correction": "Petrarca-Sonett: ABBA ABBA CDE CDE",
+        "description": "Word choice: 'Petrarchan Sonett' should be 'Petrarca-Sonett' for correct German usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Es war ein Mann aus Peru, Der träumte, er esse seinen Schuh.",
+        "correction": "Es war ein Mann aus Peru, der träumte, er esse seinen Schuh.",
+        "description": "Capitalization error: 'Der' should be lowercase as it continues the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Er erwachte erschrocken, Mitten in der Nacht, Um zu sehen, dass sein Traum wahr wurde.",
+        "correction": "Er erwachte erschrocken, mitten in der Nacht, um zu sehen, dass sein Traum wahr wurde.",
+        "description": "Capitalization error: 'Mitten' and 'Um' should be lowercase as they continue the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Behaltensleistung",
+        "correction": "Behaltensvermögen",
+        "description": "Incorrect word formation: 'Behaltensleistung' is not standard; 'Behaltensvermögen' is the correct term for retention ability.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Geneigte Ebenen reduzieren den Kraftaufwand beim Heben von Objekten.",
+        "correction": "Geneigte Ebenen reduzieren den Kraftaufwand beim Heben von Gegenständen.",
+        "description": "Word choice: 'Objekten' is less idiomatic than 'Gegenständen' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Mikrogravitations-Effekte",
+        "correction": "Mikrogravitationseffekte",
+        "description": "Compound noun should be written as one word without a hyphen",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Geschichtelemente Einführung",
+        "correction": "Geschichtselemente Einführung",
+        "description": "Spelling error: missing 's' in the compound noun 'Geschichtselemente'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Geschichtelemente",
+        "correction": "Geschichtselemente",
+        "description": "Spelling error: missing 's' in the compound noun 'Geschichtselemente'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Notizen-, Schlüsselwörter- und Zusammenfassungsbereiche",
+        "correction": "Notizen-, Schlüsselwörter- und Zusammenfassungsbereiche",
+        "description": "No error found; all nouns are correctly capitalized.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Briefwahl oder Abstimmung von Abwesenden für diejenigen, die nicht persönlich teilnehmen können.",
+        "correction": "Briefwahl oder Abstimmung für Abwesende für diejenigen, die nicht persönlich teilnehmen können.",
+        "description": "The phrase 'Abstimmung von Abwesenden' is awkward; 'Abstimmung für Abwesende' is the correct and idiomatic expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Bar/Bat Mitzwa",
+        "correction": "Bar/Bat Mizwa",
+        "description": "Spelling error: 'Mitzwa' should be 'Mizwa' in German orthography",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": []
+  }
+}

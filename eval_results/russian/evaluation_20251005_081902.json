@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "обрабаatesть",
+      "correction": "обрабатывать",
+      "description": "Spelling error: incorrect word form, likely due to a typo",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "которые могут быть храниты в переменной",
+      "correction": "которые могут храниться в переменной",
+      "description": "Incorrect word form: 'храниты' should be 'храниться' for proper verb usage",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:19:02.019683",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

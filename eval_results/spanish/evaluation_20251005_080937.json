@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "La idea de que una cara afecte a la siguiente lanzamiento es incorrecta porque los lanzamientos de moneda son eventos independientes.",
+      "correction": "La idea de que una cara afecte al siguiente lanzamiento es incorrecta porque los lanzamientos de moneda son eventos independientes.",
+      "description": "Incorrect preposition and noun gender: 'a la siguiente lanzamiento' should be 'al siguiente lanzamiento'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:09:37.881742",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

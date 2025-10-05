@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "french",
+    "generated_at": "2025-10-05T03:51:40.697747"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Non-idiomatic or awkward word choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 15,
+      "description": "Use of literal translations, anglicisms, or awkward phrasing instead of idiomatic French, which can reduce clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "Opérations d'entrée/sortie de base",
+          "correct": "Opérations d'entrée/sortie basiques",
+          "context": "Technical terminology"
+        },
+        {
+          "wrong": "Exprimez-vous clairement : Utilisez des phrases en \"je\"",
+          "correct": "Exprimez-vous clairement : Utilisez des phrases commençant par \"je\"",
+          "context": "Instructional phrasing"
+        },
+        {
+          "wrong": "Une barre rigide pivotant sur un point fixe (fulcrum)",
+          "correct": "Une barre rigide pivotant sur un point fixe (point d'appui)",
+          "context": "Use of English technical term"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Word Choice",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 9,
+      "description": "Systematic misuse of words or expressions that do not fit idiomatic or standard French, leading to awkward or unclear phrasing.",
+      "examples": [
+        {
+          "wrong": "Application réelle : Calculateur basique",
+          "correct": "Application réelle : Calculatrice basique",
+          "context": "Confusion between technical and everyday terms for devices."
+        },
+        {
+          "wrong": "Les énergies renouvelables sont inconsistantes.",
+          "correct": "Les énergies renouvelables sont intermittentes.",
+          "context": "Non-idiomatic adjective for energy sources."
+        },
+        {
+          "wrong": "le Président la veto",
+          "correct": "le Président y oppose son veto",
+          "context": "Incorrect use of 'veto' as a verb instead of a noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or incorrect use of articles",
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 9,
+      "description": "Articles (definite, indefinite, partitive) are frequently omitted or incorrectly used, especially in lists and parallel structures, affecting idiomaticity and clarity.",
+      "examples": [
+        {
+          "wrong": "Dumplings et gâteaux de riz pendant le Nouvel An lunaire",
+          "correct": "Des dumplings et des gâteaux de riz pendant le Nouvel An lunaire",
+          "context": "List of foods for cultural events"
+        },
+        {
+          "wrong": "Feijoada et fruits tropicaux pendant le Carnaval",
+          "correct": "De la feijoada et des fruits tropicaux pendant le Carnaval",
+          "context": "List of foods for cultural events"
+        },
+        {
+          "wrong": "Cela signifie croire que vos capacités et votre intelligence peuvent croître grâce à l'effort, la pratique et la persévérance.",
+          "correct": "Cela signifie croire que vos capacités et votre intelligence peuvent croître grâce à l'effort, à la pratique et à la persévérance.",
+          "context": "Parallel structure in a list"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Article or Preposition Usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent errors in article gender, agreement, or preposition selection, which affect grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "grâce à la calme, l'écoute et les compromis",
+          "correct": "grâce au calme, à l'écoute et aux compromis",
+          "context": "Misuse of articles and prepositions with abstract nouns."
+        },
+        {
+          "wrong": "pour un planète plus verte",
+          "correct": "pour une planète plus verte",
+          "context": "Incorrect gender agreement for 'planète'."
+        },
+        {
+          "wrong": "Il se réveilla en peur,",
+          "correct": "Il se réveilla de peur,",
+          "context": "Incorrect preposition to express cause."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or Incorrect Sentence Structure",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Recurring issues with word order, inversion, or phrasing that result in sentences that are difficult to understand or unidiomatic.",
+      "examples": [
+        {
+          "wrong": "Comment cette décision affectera-t-elle vous et les autres ?",
+          "correct": "Comment cette décision vous affectera-t-elle, vous et les autres ?",
+          "context": "Incorrect inversion in interrogative sentence."
+        },
+        {
+          "wrong": "De petits choix comme ce que manger au petit déjeuner, à des décisions plus importantes comme choisir une activité après l'école.",
+          "correct": "De petits choix comme ce que vous mangez au petit déjeuner, à des décisions plus importantes comme choisir une activité après l'école.",
+          "context": "Missing subject in relative clause."
+        },
+        {
+          "wrong": "La panique rend les décisions sûres plus difficiles.",
+          "correct": "La panique rend la prise de décisions sûres plus difficile.",
+          "context": "Unclear phrasing due to missing nominalization."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or incorrect prepositions in parallel structures",
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Prepositions are sometimes omitted or not repeated in parallel structures, which can affect grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "dans des fresques et sculptures",
+          "correct": "dans des fresques et des sculptures",
+          "context": "Parallel structure in a list"
+        },
+        {
+          "wrong": "qui correspondent à vos objectifs et vos valeurs.",
+          "correct": "qui correspondent à vos objectifs et à vos valeurs.",
+          "context": "Parallel structure in a list"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Anglicisms in key terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "English terms such as 'mindset' are used instead of more idiomatic French equivalents, which can affect professional tone and localization fit.",
+      "examples": [
+        {
+          "wrong": "Le mindset de croissance",
+          "correct": "L'état d'esprit de croissance",
+          "context": "Educational psychology terminology"
+        },
+        {
+          "wrong": "Cela s'oppose au *mindset fixe*",
+          "correct": "Cela s'oppose à l'état d'esprit fixe",
+          "context": "Educational psychology terminology"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "gran variedad de tipos de alimentos",
+      "correction": "amplia variedad de tipos de alimentos",
+      "description": "The phrase 'gran variedad' is less idiomatic than 'amplia variedad' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "productos lácteos",
+      "correction": "lácteos",
+      "description": "The word 'productos' is unnecessary; 'lácteos' alone is standard in Spanish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "no se consideran exclusivamente alimentos ricos en azúcar",
+      "correction": "no se consideran alimentos exclusivamente ricos en azúcar",
+      "description": "Word order is awkward; 'alimentos exclusivamente ricos en azúcar' is clearer.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nutrición equilibrada incluye una variedad de alimentos para satisfacer las necesidades nutricionales sin centrarse en un solo nutriente",
+      "correction": "una nutrición equilibrada incluye una variedad de alimentos para satisfacer las necesidades nutricionales sin centrarse en un solo nutriente",
+      "description": "Missing article 'una' before 'nutrición equilibrada'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Esto es parte de lo que hace que las verduras sean una parte esencial de una dieta equilibrada.",
+      "correction": "Esto es parte de lo que hace que las verduras sean esenciales en una dieta equilibrada.",
+      "description": "The phrase 'una parte esencial de una dieta equilibrada' is redundant; 'esenciales en una dieta equilibrada' is more concise.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "El agua es, de hecho, esencial para la vida, pero su función principal no es proporcionar energía.",
+      "correction": "El agua es esencial para la vida, pero su función principal no es proporcionar energía.",
+      "description": "The phrase 'de hecho' is unnecessary and disrupts flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Su rol principal es ser el medio en el que se transportan y reaccionan los nutrientes vitales, mantener el equilibrio de fluidos dentro y fuera de las células y ayudar en la digestión.",
+      "correction": "Su función principal es ser el medio en el que se transportan y reaccionan los nutrientes vitales, mantener el equilibrio de fluidos dentro y fuera de las células y ayudar en la digestión.",
+      "description": "Use 'función' instead of 'rol' for better Spanish usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "A diferencia de los carbohidratos, proteínas o grasas que proporcionan energía, el agua es esencial para varias funciones corporales, pero no se considera una fuente de energía directa.",
+      "correction": "A diferencia de los carbohidratos, las proteínas o las grasas que proporcionan energía, el agua es esencial para varias funciones corporales, pero no se considera una fuente de energía directa.",
+      "description": "Missing articles 'las' before 'proteínas' and 'grasas'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Una dieta desequilibrada, que puede carecer de nutrientes esenciales, no suele tener un impacto positivo en el estado de ánimo y la concentración.",
+      "correction": "Una dieta desequilibrada, que puede carecer de nutrientes esenciales, no suele tener un impacto positivo sobre el estado de ánimo y la concentración.",
+      "description": "Use 'sobre' instead of 'en' for the correct preposition in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "es recomendada para mantener un buen estado de ánimo y una mejor concentración.",
+      "correction": "se recomienda para mantener un buen estado de ánimo y una mejor concentración.",
+      "description": "Use passive construction 'se recomienda' instead of 'es recomendada'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "el enfoque principal de la alimentación saludable está en la calidad y la variedad de los alimentos elegidos, asegurando una mezcla rica en nutrientes esenciales.",
+      "correction": "el enfoque principal de la alimentación saludable está en la calidad y la variedad de los alimentos elegidos, asegurando una combinación rica en nutrientes esenciales.",
+      "description": "Use 'combinación' instead of 'mezcla' for better word choice.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:09:05.609659",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 11,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

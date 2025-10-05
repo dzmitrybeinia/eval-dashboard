@@ -1,0 +1,1284 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "portuguese",
+    "generated_at": "2025-10-05T08:36:13.025649",
+    "source_files": [
+      "evaluation_20251005_082353.json",
+      "evaluation_20251005_082354.json",
+      "evaluation_20251005_082356.json",
+      "evaluation_20251005_082358.json",
+      "evaluation_20251005_082359.json",
+      "evaluation_20251005_082400.json",
+      "evaluation_20251005_082402.json",
+      "evaluation_20251005_082404.json",
+      "evaluation_20251005_082405.json",
+      "evaluation_20251005_082406.json",
+      "evaluation_20251005_082409.json",
+      "evaluation_20251005_082414.json",
+      "evaluation_20251005_082415.json",
+      "evaluation_20251005_082417.json",
+      "evaluation_20251005_082423.json",
+      "evaluation_20251005_082425.json",
+      "evaluation_20251005_082429.json",
+      "evaluation_20251005_082432.json",
+      "evaluation_20251005_082434.json",
+      "evaluation_20251005_082435.json",
+      "evaluation_20251005_082441.json",
+      "evaluation_20251005_082443.json",
+      "evaluation_20251005_082444.json",
+      "evaluation_20251005_082445.json",
+      "evaluation_20251005_082447.json",
+      "evaluation_20251005_082448.json",
+      "evaluation_20251005_082449.json",
+      "evaluation_20251005_082450.json",
+      "evaluation_20251005_082453.json",
+      "evaluation_20251005_082454.json",
+      "evaluation_20251005_082456.json",
+      "evaluation_20251005_082457.json",
+      "evaluation_20251005_082501.json",
+      "evaluation_20251005_082502.json",
+      "evaluation_20251005_082504.json",
+      "evaluation_20251005_082507.json",
+      "evaluation_20251005_082508.json",
+      "evaluation_20251005_082510.json",
+      "evaluation_20251005_082513.json",
+      "evaluation_20251005_082515.json",
+      "evaluation_20251005_082517.json",
+      "evaluation_20251005_082518.json",
+      "evaluation_20251005_082523.json",
+      "evaluation_20251005_082526.json",
+      "evaluation_20251005_082530.json",
+      "evaluation_20251005_082531.json",
+      "evaluation_20251005_082532.json",
+      "evaluation_20251005_082534.json",
+      "evaluation_20251005_082538.json",
+      "evaluation_20251005_083440.json",
+      "evaluation_20251005_083441.json",
+      "evaluation_20251005_083443.json",
+      "evaluation_20251005_083445.json",
+      "evaluation_20251005_083446.json",
+      "evaluation_20251005_083447.json",
+      "evaluation_20251005_083449.json",
+      "evaluation_20251005_083451.json",
+      "evaluation_20251005_083452.json",
+      "evaluation_20251005_083453.json",
+      "evaluation_20251005_083454.json",
+      "evaluation_20251005_083455.json",
+      "evaluation_20251005_083456.json",
+      "evaluation_20251005_083457.json",
+      "evaluation_20251005_083458.json",
+      "evaluation_20251005_083459.json",
+      "evaluation_20251005_083500.json",
+      "evaluation_20251005_083503.json",
+      "evaluation_20251005_083505.json",
+      "evaluation_20251005_083506.json",
+      "evaluation_20251005_083508.json",
+      "evaluation_20251005_083509.json",
+      "evaluation_20251005_083510.json",
+      "evaluation_20251005_083511.json",
+      "evaluation_20251005_083512.json",
+      "evaluation_20251005_083514.json",
+      "evaluation_20251005_083515.json",
+      "evaluation_20251005_083516.json",
+      "evaluation_20251005_083540.json",
+      "evaluation_20251005_083542.json",
+      "evaluation_20251005_083543.json",
+      "evaluation_20251005_083546.json",
+      "evaluation_20251005_083549.json",
+      "evaluation_20251005_083551.json",
+      "evaluation_20251005_083552.json",
+      "evaluation_20251005_083554.json",
+      "evaluation_20251005_083557.json",
+      "evaluation_20251005_083558.json",
+      "evaluation_20251005_083559.json",
+      "evaluation_20251005_083601.json",
+      "evaluation_20251005_083602.json",
+      "evaluation_20251005_083603.json",
+      "evaluation_20251005_083604.json",
+      "evaluation_20251005_083606.json",
+      "evaluation_20251005_083607.json",
+      "evaluation_20251005_083608.json",
+      "evaluation_20251005_083609.json",
+      "evaluation_20251005_083610.json",
+      "evaluation_20251005_083612.json"
+    ],
+    "issue_counts": {
+      "linguistic": 146,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A arte egípcia servia múltiplos propósitos, não apenas decoração.",
+        "correction": "A arte egípcia servia a múltiplos propósitos, não apenas à decoração.",
+        "description": "Missing preposition and article: 'servir a múltiplos propósitos' and 'à decoração' require preposition and crase for correct usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "também contém significados simbólicos que desempenham um papel crucial em entender a cultura egípcia.",
+        "correction": "também contém significados simbólicos que desempenham um papel crucial para entender a cultura egípcia.",
+        "description": "Incorrect preposition: 'em entender' should be 'para entender' for correct meaning.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Camaleões são conhecidos por sua capacidade de se misturar com o entorno através de mudanças rápidas de cor.",
+        "correction": "Camaleões são conhecidos por sua capacidade de se misturar ao entorno através de mudanças rápidas de cor.",
+        "description": "Incorrect preposition: 'misturar ao entorno' is the standard collocation in Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A equação `x + 5 = 10` é uma expressão algébrica simples que requer a resolução de uma variável.",
+        "correction": "A equação `x + 5 = 10` é uma equação algébrica simples que requer a resolução de uma variável.",
+        "description": "Incorrect word usage: 'expressão algébrica' should be 'equação algébrica' to accurately refer to an equation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "No entanto, a produção de energia, ou ATP, é uma função principalmente realizada pelos mitocôndrias, não pelo núcleo.",
+        "correction": "No entanto, a produção de energia, ou ATP, é uma função principalmente realizada pelas mitocôndrias, não pelo núcleo.",
+        "description": "Incorrect use of 'pelos' instead of 'pelas' for the feminine noun 'mitocôndrias'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "A membrana celular é bastante selectiva na sua permissividade.",
+        "correction": "A membrana celular é bastante seletiva na sua permissividade.",
+        "description": "Spelling error: 'selectiva' should be 'seletiva' in Brazilian Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
+        "correction": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar.",
+        "description": "Redundant phrasing: 'liberar para fora' is pleonastic; 'liberar' already means 'to release'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
+        "correction": "defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
+        "description": "Incorrect word usage: 'boatos' (rumors) should be 'protestos' (protests) to convey the intended meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "O formador de zonas climáticas é influenciado por vários fatores como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+        "correction": "A formação das zonas climáticas é influenciada por vários fatores, como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+        "description": "Improper word choice: 'O formador de zonas climáticas' is awkward and unclear; 'A formação das zonas climáticas' is the correct phrasing.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variáveis podem armazenar vários tipos de informações simultaneamente.",
+        "correction": "Variáveis podem armazenar diferentes tipos de informações, mas apenas um tipo de dado por vez.",
+        "description": "A frase sugere que uma variável pode guardar múltiplos tipos de dados ao mesmo tempo, o que é ambíguo e pode causar confusão.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+        "correction": "Os nomes devem começar com uma letra ou um underscore.",
+        "description": "A frase limita indevidamente o início do nome de variável apenas a letras minúsculas, quando pode ser qualquer letra.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variáveis em um programa podem armazenar só uma vez.",
+        "correction": "Variáveis em um programa podem armazenar apenas uma vez.",
+        "description": "The word 'só' is colloquial; 'apenas' is more appropriate in formal written Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Strings podem ser armazenados como números.",
+        "correction": "Strings podem ser armazenadas como números.",
+        "description": "Gender agreement error: 'strings' is feminine in Portuguese, so 'armazenadas' should be used.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Natal.",
+        "correction": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Carnaval.",
+        "description": "Incorrect reference: Quaresma occurs after Carnaval, not after Natal.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ao colocar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+        "correction": "Ao deixar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+        "description": "The phrase 'colocar de lado' is awkward in this context; 'deixar de lado' is the standard expression for deprioritizing activities.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Essa abordagem ajuda a alcançar mais em menos tempo, o que é benéfico para o crescimento pessoal e a redução do estresse.",
+        "correction": "Essa abordagem ajuda a alcançar mais em menos tempo, o que é benéfico para o crescimento pessoal e para a redução do estresse.",
+        "description": "Missing preposition 'para' before 'a redução do estresse' to maintain parallel structure and agreement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ambos trabalham em conjunto para formar a tomada de decisões, não um controla todas as emoções.",
+        "correction": "Ambos trabalham em conjunto para formar a tomada de decisões; nenhum deles controla todas as emoções.",
+        "description": "The phrase 'não um controla todas as emoções' is unclear; 'nenhum deles controla todas as emoções' is clearer and grammatically correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "prototipos",
+        "correction": "protótipos",
+        "description": "Missing accent mark: 'protótipos' requires an acute accent on the first 'o'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "seguir regras que promovem respeito e clareza nos mensagens mantém as conversas positivas e evita mal-entendidos.",
+        "correction": "seguir regras que promovem respeito e clareza nas mensagens mantém as conversas positivas e evita mal-entendidos.",
+        "description": "Agreement error: 'nos mensagens' should be 'nas mensagens' to match gender and number with 'mensagens'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "proporcionando uma representação mais 2D do objeto.",
+        "correction": "proporcionando uma representação mais bidimensional do objeto.",
+        "description": "Use of '2D' is informal; 'bidimensional' is the correct term in formal Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "sinaças",
+        "correction": "sinais",
+        "description": "Spelling error: 'sinaças' is incorrect; the correct word is 'sinais'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "apesar de poder desenhar inspiração de eventos ou pessoas reais",
+        "correction": "apesar de poder buscar inspiração em eventos ou pessoas reais",
+        "description": "Uso inadequado do verbo 'desenhar' no sentido de 'buscar' inspiração; 'desenhar' não é apropriado neste contexto.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "o não ficção também pode incluir informações que são atualizadas ou relevantes no presente.",
+        "correction": "a não ficção também pode incluir informações que são atualizadas ou relevantes no presente.",
+        "description": "Uso incorreto do artigo masculino 'o' com o termo feminino 'não ficção'; deve ser 'a não ficção'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "o não ficção também pode incluir informações que são atualizadas ou relevantes no presente.",
+        "correction": "a não ficção também pode incluir informações atualizadas ou relevantes no presente.",
+        "description": "Uso desnecessário do verbo 'são' antes de 'atualizadas ou relevantes'; o adjetivo pode ser usado diretamente.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Este é um mal-entendido comum.",
+        "correction": "Este é um equívoco comum.",
+        "description": "A expressão 'mal-entendido' refere-se a uma falha de comunicação entre pessoas; 'equívoco' é mais apropriado para erro conceitual.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "supervisão inadequada dos alimentos no fogão",
+        "correction": "supervisão inadequada dos alimentos no fogão",
+        "description": "Ambiguous phrasing: 'supervisão inadequada dos alimentos no fogão' could be clearer as 'falta de supervisão dos alimentos no fogão' to avoid awkwardness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "verificação da resistência dos cabos das peças de mobília",
+        "correction": "verificação da resistência dos cabos ou das peças de mobília",
+        "description": "Awkward phrasing: 'cabos das peças de mobília' is unclear; should clarify if referring to electrical cables or furniture parts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "manter as instalações de resgate em caso de incêndio",
+        "correction": "manter disponíveis os equipamentos de resgate em caso de incêndio",
+        "description": "Incorrect word usage: 'instalações de resgate' is not idiomatic; 'equipamentos de resgate' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "não é garantado que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+        "correction": "não é garantido que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+        "description": "Verb conjugation error: 'garantado' should be 'garantido'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "A dificuldade para respirar, acompanhada por posição das mãos no pescoço, é um sinal comum de engasgo.",
+        "correction": "A dificuldade para respirar, acompanhada pela posição das mãos no pescoço, é um sinal comum de engasgo.",
+        "description": "Preposition usage error: 'por posição' should be 'pela posição'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Se o numerador fosse maior que o denominador, isso implicaria que temos mais partes do que o total, o que não é possível.",
+        "correction": "Se o numerador fosse maior que o denominador, isso implicaria que temos mais partes do que o todo, o que não é possível.",
+        "description": "Word choice: 'total' should be 'todo' to maintain consistency and clarity in mathematical context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Embora possa parecer que o numerador poderia ser maior, o denominador sempre será um inteiro positivo.",
+        "correction": "Embora possa parecer que o numerador poderia ser maior, o denominador sempre deve ser um inteiro positivo.",
+        "description": "Word choice: 'será' (will be) should be 'deve ser' (must be) to indicate rule rather than prediction.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Frações representam partes de um todo, e quando o numerador (parte) é menor que o denominador (todo), a fração é menor que 1.",
+        "correction": "Frações representam partes de um todo, e quando o numerador (parte) é menor que o denominador (todo), a fração será menor que 1.",
+        "description": "Word choice: 'é' (is) should be 'será' (will be) to indicate conditional relationship.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "usando 'Eu' frases",
+        "correction": "usando frases com 'Eu'",
+        "description": "Awkward phrasing; correct word order for clarity in Portuguese",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "segmento de linha",
+        "correction": "segmento de reta",
+        "description": "Incorrect term: 'segmento de reta' is the standard term in Portuguese for a line segment.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Esta é uma maneira pela qual o sistema de checks and balances funciona, permitindo que o ramo executivo exerça controle sobre o ramo legislativo para prevenir a aprovação de leis que possam ser consideradas inconstitucionais ou inadequadas.",
+        "correction": "Esta é uma maneira pela qual o sistema de freios e contrapesos funciona, permitindo que o ramo executivo exerça controle sobre o ramo legislativo para prevenir a aprovação de leis que possam ser consideradas inconstitucionais ou inadequadas.",
+        "description": "Uso de expressão em inglês ('checks and balances') em vez do termo equivalente em português ('freios e contrapesos').",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o eventual sucesso de sua série Harry Potter.",
+        "correction": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o eventual sucesso da sua série Harry Potter.",
+        "description": "Incorrect article usage: 'de sua série' should be 'da sua série' to indicate possession.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Proteínas são essenciais para o crescimento e reparo dos tecidos, não apenas para energia que é principalmente fornecida por carboidratos.",
+        "correction": "Proteínas são essenciais para o crescimento e reparo dos tecidos, e não para fornecer energia, que é principalmente fornecida por carboidratos.",
+        "description": "Ambiguous phrasing: 'não apenas para energia' suggests proteins are also for energy, which is misleading. Correction clarifies the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "todos os seres humanos devem ser livres para apreciar e exercer.",
+        "correction": "todos os seres humanos devem ser livres para usufruir e exercer.",
+        "description": "The verb 'apreciar' is awkward and ambiguous in this context; 'usufruir' is more appropriate for rights.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ações consideradas bondade podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um sentido de comunidade.",
+        "correction": "Ações consideradas bondosas podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um sentido de comunidade.",
+        "description": "Incorrect word choice: 'bondade' should be 'bondosas' to correctly modify 'ações'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ela utiliza uma frase com as iniciais de cada planeta, criando uma estrutura memorável para relembrar a ordem dos planetas do sistema solar.",
+        "correction": "Ela utiliza uma frase com os nomes de cada planeta, criando uma estrutura memorável para lembrar a ordem dos planetas do sistema solar.",
+        "description": "O termo 'iniciais' é inadequado, pois a mnemônica apresentada utiliza os nomes completos dos planetas, não apenas as iniciais.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "temas de rebelde",
+        "correction": "temas de rebeldia",
+        "description": "Incorrect word form: 'rebelde' is an adjective; 'rebeldia' is the correct noun for 'rebellion'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "identidade personal",
+        "correction": "identidade pessoal",
+        "description": "Spelling error: 'personal' should be 'pessoal' in Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ela é continuamente reabastecida pelo ciclo do processo de combinação-ionização da energia solar, diferente de combustíveis fósseis que são finitos.",
+        "correction": "Ela é continuamente reabastecida pelo ciclo natural da energia solar, diferente dos combustíveis fósseis, que são finitos.",
+        "description": "A expressão 'ciclo do processo de combinação-ionização da energia solar' é confusa e inadequada; 'ciclo natural da energia solar' é mais claro e correto.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "sites faladores",
+        "correction": "sites falsos",
+        "description": "Incorrect word choice: 'faladores' is not appropriate; 'falsos' conveys the intended meaning of fraudulent sites.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "A diversidade de vias de entrada exige atenção e cautela em todas as interações digitais.",
+        "correction": "A diversidade de formas de entrada exige atenção e cautela em todas as interações digitais.",
+        "description": "Awkward phrasing: 'vias de entrada' is less natural than 'formas de entrada' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "considerar as possíveis implicações de compartilhar tal dados pessoal.",
+        "correction": "considerar as possíveis implicações de compartilhar tais dados pessoais.",
+        "description": "Number and gender agreement error: 'tal dados pessoal' should be 'tais dados pessoais'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "utilizam o internet para fins educacionais.",
+        "correction": "utilizam a internet para fins educacionais.",
+        "description": "Incorrect article usage: 'internet' is feminine and requires 'a'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não ter mais de elétrons de valência.",
+        "correction": "não tendo mais elétrons de valência.",
+        "description": "Awkward phrasing; 'ter mais de elétrons' is incorrect. Corrected to a natural structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ao se mover de esquerda para direita em uma coluna da tabela periódica.",
+        "correction": "ao se mover da esquerda para a direita em uma linha da tabela periódica.",
+        "description": "Incorrect use of 'coluna' (column) instead of 'linha' (row); also missing articles.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Outros elementos como kairos (oportunidade) e ao (apelo à autoridade) também desempenham papéis significativos na construção de argumentos persuasivos.",
+        "correction": "Outros elementos como kairos (oportunidade) e apelo à autoridade também desempenham papéis significativos na construção de argumentos persuasivos.",
+        "description": "Incorrect word usage: 'ao' should be replaced with 'apelo à autoridade' for clarity and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Construindo Argumentos Convincente com Ethos, Pathos e Logos",
+        "correction": "Construindo Argumentos Convincentes com Ethos, Pathos e Logos",
+        "description": "Number agreement error: 'Argumentos' (plural) requires 'Convincentes' (plural adjective).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "O Haikai é, na verdade, uma forma poética japonesa conhecida por suas breves e centrais, muitas vezes focando em natureza ou emoções, e segue um padrão de sílabas de 5-7-5.",
+        "correction": "O Haikai é, na verdade, uma forma poética japonesa conhecida por seus versos breves e concisos, muitas vezes focando na natureza ou em emoções, e segue um padrão de sílabas de 5-7-5.",
+        "description": "Uso inadequado de 'centrais'; o termo correto é 'concisos' para descrever versos curtos.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "que é característica da forma poética haica japonês.",
+        "correction": "que é característica da forma poética haikai japonês.",
+        "description": "Uso incorreto de 'haica'; o termo correto é 'haikai'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "focando em natureza ou emoções",
+        "correction": "focando na natureza ou em emoções",
+        "description": "Falta de artigo definido antes de 'natureza'; o correto é 'na natureza'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "No Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+        "correction": "Nos Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+        "description": "Incorrect article: 'No' should be 'Nos' to agree with the plural noun 'Jogos'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Entender as probabilidades de diferentes resultados permite que os jogadores tirem decisões informadas, assim como ajustar estratégias com base no que ocorreu durante o jogo.",
+        "correction": "Entender as probabilidades de diferentes resultados permite que os jogadores tomem decisões informadas, assim como ajustem estratégias com base no que ocorreu durante o jogo.",
+        "description": "Incorrect verb choice and mood: 'tirem decisões' should be 'tomem decisões'; 'ajustar estratégias' should be 'ajustem estratégias' to maintain parallelism and correct subjunctive usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não para evitar a ativação deles.",
+        "correction": "não para evitar o uso deles.",
+        "description": "Awkward phrasing: 'ativação' is not commonly used in this context; 'uso' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "a aprendizagem e a compreensão do método científico ficariam incompleta.",
+        "correction": "a aprendizagem e a compreensão do método científico ficariam incompletas.",
+        "description": "Number agreement error: plural subjects require plural adjective.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Alavancas utilizam o princípio de multiplicação de força ao distribuir a carga por uma distância maior, enquanto polias reduzem o esforço ao aumentar a área sobre a qual a força é aplicada.",
+        "correction": "Alavancas utilizam o princípio de multiplicação de força ao distribuir a carga por uma distância maior, enquanto polias reduzem o esforço ao mudar a direção da força aplicada.",
+        "description": "Incorrect word usage: 'aumentar a área sobre a qual a força é aplicada' is inaccurate; polias alteram a direção da força, não aumentam a área.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Isso é baseado na conservação de energia, onde a energia potencial é convertida em energia cinética, facilitando o movimento.",
+        "correction": "Isso é baseado na conservação de energia, onde a energia potencial é convertida em trabalho, facilitando o movimento.",
+        "description": "Incorrect word usage: 'energia cinética' is not the correct term in this context; 'trabalho' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "devido à maior distância do centro de atração gravitacional (a Terra)",
+        "correction": "devido à menor distância do centro de atração gravitacional (a Terra)",
+        "description": "Incorrect word choice: 'maior distância' should be 'menor distância' to match the context of low Earth orbit requiring greater centripetal force.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "comum em estrelas e no sol.",
+        "correction": "comum em estrelas e no Sol.",
+        "description": "The word 'Sol' referring to the star should be capitalized in Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Exemplos como água e leite demonstram essa propriedade ao assumir a forma do copo ou recipiente em que são colocados.",
+        "correction": "Exemplos como água e leite demonstram essa propriedade ao assumirem a forma do copo ou recipiente em que são colocados.",
+        "description": "Verb should agree in number with the compound subject 'água e leite'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Não todos os personagens em uma história são protagonistas.",
+        "correction": "Nem todos os personagens em uma história são protagonistas.",
+        "description": "Incorrect word order; 'Nem todos' is the correct structure for negative quantification.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Personagens não se limitam à personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+        "correction": "Personagens não se limitam a personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+        "description": "Incorrect use of crase: 'à' should be 'a' because 'personagens principais' is masculine and does not require crase.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A técnica SQ3R incentiva a engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+        "correction": "A técnica SQ3R incentiva o engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+        "description": "Incorrect article usage: 'a engajamento' should be 'o engajamento' to match the masculine noun.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "processação",
+        "correction": "processamento",
+        "description": "Spelling error: 'processação' is incorrect; the correct term is 'processamento'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "adere a crença em apenas um Deus",
+        "correction": "adere à crença em apenas um Deus",
+        "description": "Missing crase: 'à' is required before 'crença' due to the feminine noun and the verb 'aderir'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "princípulos",
+        "correction": "princípios",
+        "description": "Spelling error: incorrect word formation; correct is 'princípios'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Esses práticas são essenciais para o culto e a vida dos muçulmanos, cada um atendendo a diferentes aspectos da espiritualidade e comunidade.",
+        "correction": "Essas práticas são essenciais para o culto e a vida dos muçulmanos, cada uma atendendo a diferentes aspectos da espiritualidade e comunidade.",
+        "description": "Gender agreement error: 'práticas' is feminine and plural, so 'essas' and 'cada uma' should be used.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "desconsiderar uma parte importante da doutrina hinduísta.",
+        "correction": "desconsiderar uma parte importante da doutrina hindu.",
+        "description": "Word choice: 'hinduísta' refers to a follower, 'hindu' refers to the religion/doctrine.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "desenvolvimento das qualidades éticas conhecidas como 'sangha'",
+        "correction": "desenvolvimento das qualidades éticas conhecidas como 'sīla'",
+        "description": "Word choice: 'sangha' refers to the Buddhist community, 'sīla' refers to ethical conduct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A arte egípcia servia múltiplos propósitos, não apenas decoração.",
+        "correction": "A arte egípcia servia a múltiplos propósitos, não apenas à decoração.",
+        "description": "Missing preposition and article: 'servir a' requires 'a' before 'múltiplos propósitos' and 'à' before 'decoração' for correct usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A representação de deuses, faraós e figuras cotidianas, além de ser visualmente vibrante, também contém significados simbólicos que desempenham um papel crucial em entender a cultura egípcia.",
+        "correction": "A representação de deuses, faraós e figuras cotidianas, além de ser visualmente vibrante, também contém significados simbólicos que desempenham um papel crucial para entender a cultura egípcia.",
+        "description": "Incorrect preposition: 'em entender' should be 'para entender' for correct meaning.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Camaleões são conhecidos por sua capacidade de se misturar com o entorno através de mudanças rápidas de cor.",
+        "correction": "Camaleões são conhecidos por sua capacidade de se misturar ao entorno através de mudanças rápidas de cor.",
+        "description": "Incorrect preposition: 'misturar ao entorno' is the standard collocation in Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "quantidades, quantidades de substâncias químicas, ou até mesmo conceitos abstratos.",
+        "correction": "quantidades, substâncias químicas ou até mesmo conceitos abstratos.",
+        "description": "Redundant repetition of 'quantidades'; removed for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "No entanto, é essencial que elas sigam as regras da aritmética quando realizam operações.",
+        "correction": "No entanto, é essencial que elas sigam as regras da aritmética ao realizar operações.",
+        "description": "Improved sentence structure; 'ao realizar operações' is more idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A equação `x + 5 = 10` é uma expressão algébrica simples que requer a resolução de uma variável.",
+        "correction": "A equação `x + 5 = 10` é uma equação algébrica simples que requer a resolução de uma variável.",
+        "description": "Incorrect word usage; 'equação' is more precise than 'expressão' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "selectiva",
+        "correction": "seletiva",
+        "description": "Spelling error: 'selectiva' is incorrect in Brazilian Portuguese; should be 'seletiva'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "pelos mitocôndrias",
+        "correction": "pelas mitocôndrias",
+        "description": "Gender agreement error: 'mitocôndrias' is feminine, so the correct form is 'pelas'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "elaboração de proteínas",
+        "correction": "síntese de proteínas",
+        "description": "Word choice error: 'síntese' is the correct term for protein production in a biological context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
+        "correction": "defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
+        "description": "Incorrect word usage: 'boatos' (rumors) should be 'protestos' (protests) to convey the intended meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "O formador de zonas climáticas é influenciado por vários fatores como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+        "correction": "A formação das zonas climáticas é influenciada por vários fatores, como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+        "description": "Awkward phrasing: 'O formador de zonas climáticas' should be 'A formação das zonas climáticas' for clarity and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variáveis podem armazenar vários tipos de informações simultaneamente.",
+        "correction": "Variáveis podem armazenar diferentes tipos de informações.",
+        "description": "The word 'simultaneamente' is awkward and misleading in this context; 'diferentes tipos' is more precise.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+        "correction": "Os nomes devem começar com uma letra ou um underscore.",
+        "description": "The restriction to 'letra minúscula' is incorrect; variable names can start with any letter (uppercase or lowercase) or underscore.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variáveis em um programa podem armazenar só uma vez.",
+        "correction": "Variáveis em um programa podem armazenar um valor só uma vez.",
+        "description": "Ambiguous phrasing: 'só uma vez' is unclear; specifying 'um valor' clarifies the meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Strings podem ser armazenados como números.",
+        "correction": "Strings podem ser armazenadas como números.",
+        "description": "Gender agreement error: 'strings' is feminine, so 'armazenadas' should be used.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Natal.",
+        "correction": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Carnaval.",
+        "description": "Incorrect reference: 'Quaresma' occurs after 'Carnaval', not after 'Natal'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não um controla todas as emoções.",
+        "correction": "não é ele que controla todas as emoções.",
+        "description": "Awkward phrasing; the sentence lacks clarity and proper structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "prototipos",
+        "correction": "protótipos",
+        "description": "Missing accent mark: 'protótipos' requires an acute accent on the first 'o'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "seguir regras que promovem respeito e clareza nos mensagens mantém as conversas positivas e evita mal-entendidos.",
+        "correction": "seguir regras que promovem respeito e clareza nas mensagens mantém as conversas positivas e evita mal-entendidos.",
+        "description": "Preposition error: 'nos mensagens' should be 'nas mensagens' for correct gender and number agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "proporcionando uma representação mais 2D do objeto.",
+        "correction": "proporcionando uma representação mais bidimensional do objeto.",
+        "description": "Use of '2D' is informal; 'bidimensional' is the correct term in formal Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "sinaças",
+        "correction": "sinais",
+        "description": "Spelling error: 'sinaças' is incorrect; the correct word is 'sinais'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "apesar de poder desenhar inspiração de eventos ou pessoas reais",
+        "correction": "apesar de poder buscar inspiração em eventos ou pessoas reais",
+        "description": "Uso inadequado do verbo 'desenhar' no sentido de 'buscar'; 'desenhar' não é apropriado neste contexto.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "o não ficção também pode incluir informações que são atualizadas ou relevantes no presente.",
+        "correction": "a não ficção também pode incluir informações que são atualizadas ou relevantes no presente.",
+        "description": "Erro de artigo: 'ficção' é feminino, portanto o artigo correto é 'a'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "o não ficção também pode incluir informações que são atualizadas ou relevantes no presente.",
+        "correction": "a não ficção também pode incluir informações atualizadas ou relevantes no presente.",
+        "description": "Uso desnecessário de 'que são' antes de 'atualizadas'; pode ser omitido para melhorar a fluidez.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Este é um mal-entendido comum.",
+        "correction": "Este é um equívoco comum.",
+        "description": "A expressão 'mal-entendido' refere-se a uma falha de comunicação, enquanto 'equívoco' é mais apropriado para erro conceitual.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "supervisão inadequada dos alimentos no fogão",
+        "correction": "falta de supervisão dos alimentos no fogão",
+        "description": "Awkward phrasing: 'supervisão inadequada' is less natural than 'falta de supervisão' in this context",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "verificação da resistência dos cabos das peças de mobília",
+        "correction": "verificação da resistência dos cabos ou das peças de mobília",
+        "description": "Ambiguous phrasing: 'cabos das peças de mobília' is unclear; should clarify if referring to cables or furniture parts",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "manter as instalações de resgate em caso de incêndio",
+        "correction": "saber onde estão as saídas de emergência em caso de incêndio",
+        "description": "Incorrect word usage: 'instalações de resgate' is not commonly used in this context; 'saídas de emergência' is more appropriate",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não é garantado que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+        "correction": "não é garantido que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+        "description": "Incorrect word usage: 'garantado' should be 'garantido'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "A dificuldade para respirar, acompanhada por posição das mãos no pescoço, é um sinal comum de engasgo.",
+        "correction": "A dificuldade para respirar, acompanhada pela posição das mãos no pescoço, é um sinal comum de engasgo.",
+        "description": "Missing article and preposition: 'por posição' should be 'pela posição'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "o que não é possível.",
+        "correction": "o que não seria possível.",
+        "description": "Awkward phrasing; 'não seria possível' is more natural in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "o denominador sempre será um inteiro positivo.",
+        "correction": "o denominador deve sempre ser um inteiro positivo.",
+        "description": "Incorrect word usage; 'deve sempre ser' is more appropriate for expressing a rule.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "o que significa que não se consideram partes",
+        "correction": "o que significa que nenhuma parte está sendo considerada",
+        "description": "Awkward phrasing; 'nenhuma parte está sendo considerada' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "usando 'Eu' frases",
+        "correction": "usando frases com 'Eu'",
+        "description": "Incorrect word order; the phrase should follow standard Portuguese syntax.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "de todos envolvidos",
+        "correction": "de todos os envolvidos",
+        "description": "Missing article for proper agreement with the noun.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "segmento de linha",
+        "correction": "segmento de reta",
+        "description": "Incorrect word choice: 'segmento de reta' is the standard term in Portuguese geometry.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não por si mesmo",
+        "correction": "sozinho",
+        "description": "The phrase 'não por si mesmo' is awkward and uncommon in Portuguese; 'sozinho' is more idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ramo",
+        "correction": "poder",
+        "description": "The word 'ramo' is less appropriate than 'poder' when referring to branches of government in Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o eventual sucesso de sua série Harry Potter.",
+        "correction": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o eventual sucesso da sua série Harry Potter.",
+        "description": "Missing definite article 'da' before 'sua série Harry Potter' for correct gender and number agreement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "lanches de açúcar",
+        "correction": "lanches açucarados",
+        "description": "Improper word choice: 'lanches açucarados' is the standard term for snacks high in sugar.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "não apenas para energia que é principalmente fornecida por carboidratos.",
+        "correction": "não apenas para energia, que é principalmente fornecida por carboidratos.",
+        "description": "Missing comma creates a run-on sentence; comma needed for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "todos os seres humanos devem ser livres para apreciar e exercer.",
+        "correction": "todos os seres humanos devem ser livres para usufruir e exercer.",
+        "description": "The verb 'apreciar' is awkward and not idiomatic in this context; 'usufruir' is the appropriate word for enjoying rights.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ações consideradas bondade podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um sentido de comunidade.",
+        "correction": "Ações consideradas bondosas podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um sentido de comunidade.",
+        "description": "Incorrect word usage: 'bondade' should be 'bondosas' to correctly modify 'ações'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ela utiliza uma frase com as iniciais de cada planeta, criando uma estrutura memorável para relembrar a ordem dos planetas do sistema solar.",
+        "correction": "Ela utiliza uma frase com os nomes de cada planeta, criando uma estrutura memorável para relembrar a ordem dos planetas do sistema solar.",
+        "description": "Uso inadequado de 'iniciais', pois a mnemônica apresentada utiliza os nomes completos dos planetas, não apenas as iniciais.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "temas de rebelde",
+        "correction": "temas de rebeldia",
+        "description": "Incorrect word form: 'rebelde' is an adjective; 'rebeldia' is the correct noun for 'rebellion'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "identidade personal",
+        "correction": "identidade pessoal",
+        "description": "Spelling error: 'personal' should be 'pessoal' in Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ela é continuamente reabastecida pelo ciclo do processo de combinação-ionização da energia solar, diferente de combustíveis fósseis que são finitos.",
+        "correction": "Ela é continuamente reabastecida pelo ciclo natural da energia solar, diferente dos combustíveis fósseis, que são finitos.",
+        "description": "The phrase 'ciclo do processo de combinação-ionização da energia solar' is awkward and unclear; 'ciclo natural da energia solar' is more precise and idiomatic.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "sites faladores",
+        "correction": "sites falsos",
+        "description": "Incorrect word choice: 'faladores' is not appropriate; 'falsos' (fake) is the correct term for malicious websites.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "A diversidade de vias de entrada exige atenção e cautela em todas as interações digitais.",
+        "correction": "A diversidade de formas de entrada exige atenção e cautela em todas as interações digitais.",
+        "description": "Awkward phrasing: 'vias de entrada' is less natural than 'formas de entrada' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Portanto, é recomendável compartilhar apenas informações essenciais e sempre com cautela.",
+        "correction": "Portanto, recomenda-se compartilhar apenas informações essenciais e sempre com cautela.",
+        "description": "More formal and natural phrasing: 'recomenda-se' is preferred in educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "considerar as possíveis implicações de compartilhar tal dados pessoal.",
+        "correction": "considerar as possíveis implicações de compartilhar tais dados pessoais.",
+        "description": "Agreement error: 'tal' should be 'tais' (plural), and 'dados pessoal' should be 'dados pessoais' (plural adjective).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "utilizam o internet para fins educacionais.",
+        "correction": "utilizam a internet para fins educacionais.",
+        "description": "Incorrect article: 'internet' is feminine in Portuguese and requires 'a'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não ter mais de elétrons de valência.",
+        "correction": "não ter mais elétrons de valência.",
+        "description": "Awkward phrasing: 'mais de elétrons' is incorrect; 'mais elétrons' is the correct form.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "à medida que você se move para cima em um grupo, mais camadas eletrônicas são adicionadas, o que aumenta o tamanho atômico.",
+        "correction": "à medida que você se move para cima em um grupo, menos camadas eletrônicas estão presentes, o que diminui o tamanho atômico.",
+        "description": "Logical contradiction: 'mais camadas eletrônicas são adicionadas' should be 'menos camadas eletrônicas estão presentes' to match the intended meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Outros elementos como kairos (oportunidade) e ao (apelo à autoridade) também desempenham papéis significativos na construção de argumentos persuasivos.",
+        "correction": "Outros elementos como kairos (oportunidade) e apelo à autoridade também desempenham papéis significativos na construção de argumentos persuasivos.",
+        "description": "Incorrect word usage: 'ao' should be replaced with 'apelo à autoridade' for clarity and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "O Haikai é, na verdade, uma forma poética japonesa conhecida por suas breves e centrais, muitas vezes focando em natureza ou emoções, e segue um padrão de sílabas de 5-7-5.",
+        "correction": "O Haikai é, na verdade, uma forma poética japonesa conhecida por seus versos breves e concisos, muitas vezes focando na natureza ou em emoções, e segue um padrão de sílabas de 5-7-5.",
+        "description": "Uso inadequado de 'centrais'; o termo correto é 'concisos' para descrever versos breves.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "muitas vezes focando em natureza ou emoções",
+        "correction": "muitas vezes focando na natureza ou em emoções",
+        "description": "Falta de artigo definido antes de 'natureza' e preposição antes de 'emoções'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "No Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+        "correction": "Nos Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+        "description": "Incorrect article: 'No' should be 'Nos' to agree with the plural noun 'Jogos'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Entender as probabilidades de diferentes resultados permite que os jogadores tirem decisões informadas, assim como ajustar estratégias com base no que ocorreu durante o jogo.",
+        "correction": "Entender as probabilidades de diferentes resultados permite que os jogadores tomem decisões informadas, assim como ajustem estratégias com base no que ocorreu durante o jogo.",
+        "description": "Incorrect verb choice and mood: 'tirem' should be 'tomem' (collocation with 'decisões') and 'ajustar' should be 'ajustem' (subjunctive to match 'permite que').",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "não para evitar a ativação deles.",
+        "correction": "não para evitar o uso deles.",
+        "description": "Awkward phrasing: 'ativação' is not commonly used in this context; 'uso' is clearer and more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "a aprendizagem e a compreensão do método científico ficariam incompleta.",
+        "correction": "a aprendizagem e a compreensão do método científico ficariam incompletas.",
+        "description": "Number agreement error: plural subjects require plural adjective.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Alavancas utilizam o princípio de multiplicação de força ao distribuir a carga por uma distância maior, enquanto polias reduzem o esforço ao aumentar a área sobre a qual a força é aplicada.",
+        "correction": "Alavancas utilizam o princípio de multiplicação de força ao distribuir a carga por uma distância maior, enquanto polias reduzem o esforço ao aumentar a distância sobre a qual a força é aplicada.",
+        "description": "Incorrect word choice: 'área' should be 'distância' to accurately describe the mechanical advantage of pulleys.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "devido à maior distância do centro de atração gravitacional (a Terra)",
+        "correction": "devido à menor distância do centro de atração gravitacional (a Terra)",
+        "description": "Incorrect word choice: 'maior distância' should be 'menor distância' to match the context of low Earth orbit requiring more centripetal force.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "comum em estrelas e no sol.",
+        "correction": "comum em estrelas e no Sol.",
+        "description": "The word 'Sol' should be capitalized as it is a proper noun.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Exemplos como água e leite demonstram essa propriedade ao assumir a forma do copo ou recipiente em que são colocados.",
+        "correction": "Exemplos como água e leite demonstram essa propriedade ao assumirem a forma do copo ou recipiente em que são colocados.",
+        "description": "The verb 'assumir' should agree in number with the plural subject 'água e leite'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Não todos os personagens em uma história são protagonistas.",
+        "correction": "Nem todos os personagens em uma história são protagonistas.",
+        "description": "Incorrect word order; 'Nem todos' is the correct structure for negation in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Personagens não se limitam à personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+        "correction": "Personagens não se limitam a personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+        "description": "Incorrect use of crase: 'à personagens principais' should be 'a personagens principais' because 'personagens' is masculine and plural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A técnica SQ3R incentiva a engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+        "correction": "A técnica SQ3R incentiva o engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+        "description": "Incorrect article usage: 'a engajamento' should be 'o engajamento' to match the masculine noun.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "A participação cívica é uma prática contínua e essencial na vida política de um país.",
+        "correction": "A participação cívica é uma prática contínua e essencial na vida política de um país.",
+        "description": "No error found; sentence is correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "processação de dados complexos",
+        "correction": "processamento de dados complexos",
+        "description": "Spelling error: 'processação' is incorrect; the correct term is 'processamento'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "adere a crença em apenas um Deus",
+        "correction": "adere à crença em apenas um Deus",
+        "description": "Missing crase: 'à' is required before 'crença' due to the feminine noun and the preposition 'a'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "princípulos",
+        "correction": "princípios",
+        "description": "Spelling error: incorrect word formation; should be 'princípios'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esses práticas são essenciais para o culto e a vida dos muçulmanos, cada um atendendo a diferentes aspectos da espiritualidade e comunidade.",
+        "correction": "Essas práticas são essenciais para o culto e a vida dos muçulmanos, cada uma atendendo a diferentes aspectos da espiritualidade e comunidade.",
+        "description": "Gender agreement error: 'práticas' is feminine plural, so 'essas' and 'cada uma' should be used.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "localization": []
+  }
+}

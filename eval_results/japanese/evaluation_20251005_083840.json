@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情は私たちの経験、たとえそれが短期間であっても長期間もあります。",
+      "correction": "感情は私たちの経験、たとえそれが短期間であっても、長期間にも影響を与えます。",
+      "description": "Sentence structure is awkward and incomplete; missing verb and unclear connection between clauses.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "感情は私たちの経験に影響を与える。.",
+      "correction": "感情は私たちの経験に影響を与える。",
+      "description": "Redundant period at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "人間関係において重要な役割を果たします。.",
+      "correction": "人間関係において重要な役割を果たします。",
+      "description": "Redundant period at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。.",
+      "correction": "これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。",
+      "description": "Redundant period at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "他人が理解しやすくなります。.",
+      "correction": "他人が理解しやすくなります。",
+      "description": "Redundant period at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。.",
+      "correction": "これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。",
+      "description": "Redundant period at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "必ずしも良いまたは悪いとは限りません。.",
+      "correction": "必ずしも良いまたは悪いとは限りません。",
+      "description": "Redundant period at the end of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:38:40.128284",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

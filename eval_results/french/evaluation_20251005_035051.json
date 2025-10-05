@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "En connaissant leur utilisation, vous pouvez améliorer votre compréhension et vos compétences analytiques.",
+      "correction": "En connaissant comment les utiliser, vous pouvez améliorer votre compréhension et vos compétences analytiques.",
+      "description": "Awkward phrasing: 'leur utilisation' is less idiomatic than 'comment les utiliser' in this context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "French",
+    "timestamp": "2025-10-05T03:50:51.413222",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

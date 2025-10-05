@@ -1,0 +1,1809 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "russian",
+    "generated_at": "2025-10-05T08:21:13.451721",
+    "source_files": [
+      "evaluation_20251005_081834.json",
+      "evaluation_20251005_081837.json",
+      "evaluation_20251005_081839.json",
+      "evaluation_20251005_081847.json",
+      "evaluation_20251005_081851.json",
+      "evaluation_20251005_081855.json",
+      "evaluation_20251005_081900.json",
+      "evaluation_20251005_081902.json",
+      "evaluation_20251005_081903.json",
+      "evaluation_20251005_081905.json",
+      "evaluation_20251005_081906.json",
+      "evaluation_20251005_081913.json",
+      "evaluation_20251005_081915.json",
+      "evaluation_20251005_081917.json",
+      "evaluation_20251005_081918.json",
+      "evaluation_20251005_081921.json",
+      "evaluation_20251005_081923.json",
+      "evaluation_20251005_081924.json",
+      "evaluation_20251005_081928.json",
+      "evaluation_20251005_081931.json",
+      "evaluation_20251005_081935.json",
+      "evaluation_20251005_081945.json",
+      "evaluation_20251005_081951.json",
+      "evaluation_20251005_081955.json",
+      "evaluation_20251005_081959.json",
+      "evaluation_20251005_082002.json",
+      "evaluation_20251005_082004.json",
+      "evaluation_20251005_082007.json",
+      "evaluation_20251005_082014.json",
+      "evaluation_20251005_082018.json",
+      "evaluation_20251005_082020.json",
+      "evaluation_20251005_082023.json",
+      "evaluation_20251005_082026.json",
+      "evaluation_20251005_082029.json",
+      "evaluation_20251005_082034.json",
+      "evaluation_20251005_082039.json",
+      "evaluation_20251005_082043.json",
+      "evaluation_20251005_082049.json",
+      "evaluation_20251005_082053.json",
+      "evaluation_20251005_082055.json",
+      "evaluation_20251005_082059.json",
+      "evaluation_20251005_082101.json",
+      "evaluation_20251005_082104.json",
+      "evaluation_20251005_082106.json",
+      "evaluation_20251005_082108.json",
+      "evaluation_20251005_082109.json",
+      "evaluation_20251005_082113.json"
+    ],
+    "issue_counts": {
+      "linguistic": 218,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "обеспечивали продвижение торговых маршрутов",
+        "correction": "обеспечивали развитие торговых маршрутов",
+        "description": "The word 'продвижение' is awkward in this context; 'развитие' is more appropriate for describing the growth of trade routes.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "водоедло",
+        "correction": "водоснабжение",
+        "description": "Spelling and word choice error: 'водоедло' is not a correct Russian word; 'водоснабжение' is the proper term for water supply.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "разраболены",
+        "correction": "разработаны",
+        "description": "Spelling error: 'разраболены' should be 'разработаны'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "обеспечивал удобную транспортировку для древнеегипетских торговцев и сельскохозяйственных товарищей",
+        "correction": "обеспечивал удобную транспортировку для древнеегипетских торговцев и сельскохозяйственных работников",
+        "description": "Word choice and agreement: 'товарищей' is not appropriate; 'работников' is the correct term for agricultural workers.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Средневековые торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+        "correction": "Древнеегипетские торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+        "description": "Incorrect word choice: 'Средневековые' refers to the Middle Ages, not Ancient Egypt; 'Древнеегипетские' is correct.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Этот поток обеспечивал прочную связи между различными регионами",
+        "correction": "Этот поток обеспечивал прочные связи между различными регионами",
+        "description": "Agreement error: 'прочную связи' should be 'прочные связи' (plural adjective with plural noun).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "адаптироваться к своему округу",
+        "correction": "адаптироваться к своей среде",
+        "description": "Incorrect word usage: 'округу' is not appropriate; 'среде' is the correct term for environment.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "толпады",
+        "correction": "нора",
+        "description": "Spelling/word error: 'толпады' is not a Russian word; 'нора' (burrow) is correct in this context.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Крысы кенгуру, также известные как кенгуру",
+        "correction": "Крысы кенгуру, также известные как кенгуровые крысы",
+        "description": "Incorrect word usage: 'кенгуру' refers to a different animal; 'кенгуровые крысы' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ищут влажные места, чтобы пить",
+        "correction": "ищут влажные места, чтобы получить воду",
+        "description": "Awkward phrasing: 'пить' is not idiomatic here; 'получить воду' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "пантепона",
+        "correction": "пантера",
+        "description": "Spelling error: 'пантепона' is not a Russian word; likely intended 'пантера' (panther).",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "для большего сила и устойчивости",
+        "correction": "для большей силы и устойчивости",
+        "description": "Case and gender agreement error: 'большего сила' should be 'большей силы'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Правильность этого утверждения подтверждается тем, что алгебраические выражения представляют собой математические уравнения, которые можно решить, подставляя значения переменным и выполняя соответствующие вычисления.",
+        "correction": "Правильность этого утверждения подтверждается тем, что алгебраические выражения представляют собой математические выражения, которые можно вычислить, подставляя значения переменным и выполняя соответствующие вычисления.",
+        "description": "Неправильный выбор слова: 'выражения' не являются 'уравнениями', а являются 'математическими выражениями'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Это заключается в принципе обратности операций: если на одной стороне добавление, то на другой стороне вычитание.",
+        "correction": "Это заключается в принципе обратности операций: если на одной стороне происходит добавление, то на другой стороне также должно происходить добавление.",
+        "description": "Неправильное объяснение принципа: операции должны быть одинаковыми на обеих сторонах, а не противоположными.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "органел",
+        "correction": "органелла",
+        "description": "Spelling error: incorrect form of the word 'органелла'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "дележкам",
+        "correction": "делениям",
+        "description": "Incorrect word usage: 'дележка' is not appropriate, 'деление' fits the context",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "organelлы",
+        "correction": "органеллы",
+        "description": "Spelling error: use Russian word 'органеллы' instead of transliteration",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "organel",
+        "correction": "органелла",
+        "description": "Spelling error: use Russian word 'органелла' instead of transliteration",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "подобно того, как каждый дележка в мастерской играет свою роль",
+        "correction": "подобно тому, как каждое деление в мастерской играет свою роль",
+        "description": "Incorrect case and word choice: 'того' should be 'тому', 'дележка' should be 'деление', and agreement with 'каждое'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Эта утверждение верна",
+        "correction": "Это утверждение верно",
+        "description": "Spelling and agreement error: 'эта' should be 'это', 'верна' should be 'верно' to match neuter noun",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Этот ДНК управляет всей жизненной деятельностью клетки",
+        "correction": "Эта ДНК управляет всей жизнедеятельностью клетки",
+        "description": "Incorrect gender and word choice: 'ДНК' is feminine, and 'жизнедеятельностью' is more appropriate",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "управляющей центральной бизоном в компании",
+        "correction": "управляющим центральным звеном в компании",
+        "description": "Incorrect word usage: 'бизон' is not appropriate, 'звеном' fits the context",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "где все решения, которые влияют на работу, делаются.",
+        "correction": "где принимаются все решения, влияющие на работу.",
+        "description": "Awkward phrasing and passive construction; improved sentence structure",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "цитоскелемент",
+        "correction": "цитоскелет",
+        "description": "Spelling error: correct form is 'цитоскелет'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "плазматические мембраны",
+        "correction": "плазматическая мембрана",
+        "description": "Incorrect number: should be singular to match context",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "обрабатывают свет",
+        "correction": "поглощают свет",
+        "description": "Incorrect verb: 'поглощают' is more appropriate for chloroplasts",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "общая функция мембраны как защитная и транспортирующая поверхность",
+        "correction": "общая функция мембраны как защитной и транспортной поверхности",
+        "description": "Incorrect adjective forms: should be 'защитной' and 'транспортной' to match 'поверхности'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "и как пластинку для структуры",
+        "correction": "и как основа для структуры",
+        "description": "Incorrect word usage: 'пластинка' is not appropriate, 'основа' fits the context",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "органелл",
+        "correction": "органелла",
+        "description": "Spelling error: incorrect form of the word 'органелла'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "необходимую для её здоровья и функционирования",
+        "correction": "необходимую для её жизнедеятельности и функционирования",
+        "description": "Word choice: 'жизнедеятельности' is more appropriate in scientific context",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "монструм",
+        "correction": "кристы",
+        "description": "Incorrect word usage: 'монструм' is not a Russian biological term; the correct term is 'кристы'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Правдословность заблуждена.",
+        "correction": "Это утверждение ошибочно.",
+        "description": "Awkward and incorrect word formation; 'правдословность заблуждена' is not standard Russian.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "кристали",
+        "correction": "кристы",
+        "description": "Spelling error: 'кристали' is incorrect, the correct term is 'кристы'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "разложение белков",
+        "correction": "расщепление белков",
+        "description": "Incorrect word usage: 'разложение' is less precise than 'расщепление' in this biological context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующими фотосинтезу.",
+        "correction": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующим фотосинтезу.",
+        "description": "Agreement error: participle 'способствующими' should agree with 'компонентом' (singular, instrumental case).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "митохондры",
+        "correction": "митохондрии",
+        "description": "Incorrect word usage: 'митохондры' is not a standard form; the correct term is 'митохондрии'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "яйцеклетки",
+        "correction": "вакуоли",
+        "description": "Incorrect word usage: 'яйцеклетки' is not an organelle; 'вакуоли' is a correct example.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "присоеднен",
+        "correction": "присоединён",
+        "description": "Spelling error: missing letters and incorrect formation of the past participle",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "сотлала",
+        "correction": "составила",
+        "description": "Spelling error: incorrect word, should be 'составила' (amounted to)",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "непрерымный",
+        "correction": "непрерывный",
+        "description": "Spelling error: missing letter 'и' in 'непрерывный' (continuous)",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Роза Паркс уступила место белому пассажиру",
+        "correction": "Роза Паркс отказалась уступить место белому пассажиру",
+        "description": "Incorrect word usage: Rosa Parks refused to give up her seat, not gave up",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Роза Паркс, которые были одной из лидеров",
+        "correction": "Роза Паркс, которая была одной из лидеров",
+        "description": "Agreement error: 'которые' (plural) should be 'которая' (singular, feminine) to match 'Роза Паркс'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "другим ненасильственным сопротивлением",
+        "correction": "другими формами ненасильственного сопротивления",
+        "description": "Awkward phrasing: 'другим ненасильственным сопротивлением' should be 'другими формами ненасильственного сопротивления'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "закона о гражданских прав",
+        "correction": "закона о гражданских правах",
+        "description": "Incorrect case ending: 'правах' is the correct genitive plural form",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "охлаждаются на протяжении всей года",
+        "correction": "охлаждаются на протяжении всего года",
+        "description": "Incorrect case: 'всей года' should be 'всего года' (Genitive case for 'год')",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "постоянной охладной температуры",
+        "correction": "постоянно низкой температуры",
+        "description": "Incorrect word: 'охладной' is not standard; 'низкой' is the correct adjective for temperature",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "зимние холодания",
+        "correction": "зимние холода",
+        "description": "Incorrect word: 'холодания' is not used in Russian; 'холода' is correct",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "осадком",
+        "correction": "осадков",
+        "description": "Incorrect case: 'осадком' should be 'осадков' (Genitive plural for 'осадки')",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "создает более мягкое климат",
+        "correction": "создает более мягкий климат",
+        "description": "Incorrect adjective-noun agreement: 'мягкое' should be 'мягкий' to match masculine noun 'климат'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Вездовые течения",
+        "correction": "Водные течения",
+        "description": "Incorrect word: 'Вездовые' is not a standard term; 'Водные' is correct for water currents",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "теплоидные течения и холодоносные течения",
+        "correction": "теплые течения и холодные течения",
+        "description": "Incorrect word: 'теплоидные' and 'холодоносные' are not standard; 'теплые' and 'холодные' are correct",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "теплоидные течения способствуют более теплым погодам на юге",
+        "correction": "теплые течения способствуют более теплой погоде на юге",
+        "description": "Incorrect word and form: 'погодам' should be 'погоде'; 'теплоидные' should be 'теплые'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "холодоносные течения приводят к более холодным условиям на севере",
+        "correction": "холодные течения приводят к более холодным условиям на севере",
+        "description": "Incorrect word: 'холодоносные' should be 'холодные'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "обрабаatesть",
+        "correction": "обрабатывать",
+        "description": "Spelling error: incorrect word form, likely due to a typo",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "которые могут быть храниты в переменной",
+        "correction": "которые могут храниться в переменной",
+        "description": "Incorrect word form: 'храниты' should be 'храниться' for proper verb usage",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "обрабаatesть",
+        "correction": "обрабатывать",
+        "description": "Spelling error: incorrect word formation, should be 'обрабатывать'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "Как переменные влияют работу цикла?.",
+        "correction": "Как переменные влияют работу цикла?",
+        "description": "Punctuation error: unnecessary period after question mark",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Как переменные влияют работу цикла?.",
+        "correction": "Как переменные влияют на работу цикла?",
+        "description": "Syntax error: missing preposition 'на' in the phrase",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "совмещение целей в команде может значительно снизить возможность конфликтов",
+        "correction": "совмещение целей в команде может значительно снизить вероятность конфликтов",
+        "description": "Incorrect word choice: 'возможность' should be 'вероятность' in this context",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "более продуктивным и более креативным рабочим условиям",
+        "correction": "более продуктивным и более креативным условиям работы",
+        "description": "Awkward phrasing: 'рабочим условиям' is less natural than 'условиям работы'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "объективное взгляды",
+        "correction": "объективные взгляды",
+        "description": "Adjective-noun agreement error: plural noun requires plural adjective",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "В Дивали принятие и украшение домов масляными лампами, известными как дия, является центральной частью праздника.",
+        "correction": "В Дивали принятие и украшение домов масляными лампами, известными как дия, являются центральной частью праздника.",
+        "description": "Subject-predicate agreement error: plural subject requires plural verb.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Эти лампати играют важную роль в символизации победы света над тьмой.",
+        "correction": "Эти лампы играют важную роль в символизации победы света над тьмой.",
+        "description": "Spelling error: 'лампати' is incorrect, should be 'лампы'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Карнавал, в отличие от некоторых праздников, отмечается в конце года, перед началом Христовых постных месяцев.",
+        "correction": "Карнавал, в отличие от некоторых праздников, отмечается в начале года, перед началом Великого поста.",
+        "description": "Incorrect word usage: 'в конце года' and 'Христовых постных месяцев' are not appropriate; should be 'в начале года' and 'Великого поста'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Это время, полно насыщено яркими цветами и радостью, когда население и туристы собираются, чтобы насладиться культурной и музыкальной идентичности, которую этот праздник представляет.",
+        "correction": "Это время, насыщенное яркими цветами и радостью, когда местные жители и туристы собираются, чтобы насладиться культурной и музыкальной идентичностью, которую представляет этот праздник.",
+        "description": "Awkward phrasing and incorrect word forms: 'полно насыщено', 'население', 'идентичности' should be corrected for clarity and proper usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Лунный Новый год включает в себя подыскавание дома.",
+        "correction": "Лунный Новый год включает в себя уборку дома.",
+        "description": "Incorrect word usage: 'подыскавание' is not appropriate, should be 'уборку'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Этот процесс включает уборство всех предметов, чтобы облегчить удачу и избежать неудачи на новом горизонте.",
+        "correction": "Этот процесс включает уборку всех предметов, чтобы привлечь удачу и избежать неудачи в новом году.",
+        "description": "Incorrect word usage: 'уборство', 'облегчить удачу', 'на новом горизонте' are awkward and unclear; should be 'уборку', 'привлечь удачу', 'в новом году'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "На День мертвых, мексиканская культура празднует жизнь умерших с яркими цветами и лакомствами, такими как пан де муэрто, известные своим сочным вкусом.",
+        "correction": "В День мертвых мексиканская культура празднует жизнь умерших с яркими цветами и лакомствами, такими как пан де муэрто, известным своим особым вкусом.",
+        "description": "Incorrect preposition and word choice: 'На День мертвых' should be 'В День мертвых'; 'сочным вкусом' is not appropriate for bread, 'особым вкусом' is better.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Октаберфст — немецкий фестиваль, который празднует немецкую культуру, особенно пивоварище.",
+        "correction": "Октоберфест — немецкий фестиваль, который посвящён немецкой культуре, особенно пивоварению.",
+        "description": "Spelling and word choice error: 'Октаберфст' should be 'Октоберфест'; 'пивоварище' is incorrect, should be 'пивоварению'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В России могут быть другие праздники с различными традициями, но октаберфст не является одним из них.",
+        "correction": "В России могут быть другие праздники с различными традициями, но Октоберфест не является одним из них.",
+        "description": "Spelling error: 'октаберфст' should be 'Октоберфест'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Эти мероприятия предоставляют возможность для всех членов семьи, включая детей, участвовать и участвовать в праздничных мероприятиях, что способствует чувству общности и культурного наследия.",
+        "correction": "Эти мероприятия предоставляют возможность всем членам семьи, включая детей, принимать участие в праздничных событиях, что способствует чувству общности и культурному наследию.",
+        "description": "Repetition and awkward phrasing: 'участвовать и участвовать' is redundant; 'праздничных мероприятиях' and 'культурного наследия' should be corrected for proper case and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Дивали, как культурный праздник в Индии, известный своим огненным фестивалем и семейными празднованиями, не включает в себя изменение внешности участникам.",
+        "correction": "Дивали, как культурный праздник в Индии, известный своим огненным фестивалем и семейными празднованиями, не включает в себя изменение внешности участников.",
+        "description": "Ошибка в падеже: требуется родительный падеж 'участников', а не дательный 'участникам'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "что является деньгам в исламском календаре.",
+        "correction": "что является днем в исламском календаре.",
+        "description": "Слово 'деньгам' ошибочно; должно быть 'днем' (именительный падеж слова 'день').",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "ознаки",
+        "correction": "знаки",
+        "description": "Слово 'ознаки' не существует в русском языке; вероятно, имелось в виду 'знаки'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "похожущую на звезд",
+        "correction": "похожую на звезду",
+        "description": "Spelling and case error: incorrect word form and case for 'звезда' and 'похожую'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Каждая основание внутри ДНК связывается с противоположной основанией",
+        "correction": "Каждое основание внутри ДНК связывается с противоположным основанием",
+        "description": "Incorrect gender and case agreement for 'основание'; should be neuter and instrumental case",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "такие как регенерация и мутации могут происходить.",
+        "correction": "такие как регенерация и мутации, могут происходить.",
+        "description": "Missing comma after introductory phrase 'такие как регенерация и мутации'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Индустриальные решения относится к профессиональным или карьерным выборам, которые могут быть сложными и иметь этические последствия.",
+        "correction": "Индустриальные решения относятся к профессиональным или карьерным выборам, которые могут быть сложными и иметь этические последствия.",
+        "description": "Subject-verb agreement error: plural subject requires plural verb ('решения относятся').",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "образаний",
+        "correction": "образов",
+        "description": "Spelling error: incorrect word formation, should be 'образов' (forms) instead of 'образаний'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "водных изображения",
+        "correction": "водных изображений",
+        "description": "Word choice and case error: 'изображения' should be in genitive plural 'изображений' to agree with 'водных'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "произворе",
+        "correction": "произведении",
+        "description": "Spelling and word choice error: 'произворе' is incorrect, should be 'произведении' (work of art)",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "что являются частью социальных навыков",
+        "correction": "что является частью социальных навыков",
+        "description": "Agreement error: 'умение' is singular and requires singular verb 'является'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "основные эмоции, как указано, — это сильные погоня, которые человек может испытывать.",
+        "correction": "основные эмоции, как указано, — это сильные переживания, которые человек может испытывать.",
+        "description": "Неправильный выбор слова: 'погоня' не подходит по смыслу, требуется 'переживания'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Счасть всегда приводит к положительным действиям и поступкам.",
+        "correction": "Счастье всегда приводит к положительным действиям и поступкам.",
+        "description": "Слово 'счасть' неверно, должно быть 'счастье'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Хотя счасть может вдохновлять нас на благоприятные действия, это не всегда так.",
+        "correction": "Хотя счастье может вдохновлять нас на благоприятные действия, это не всегда так.",
+        "description": "Слово 'счасть' неверно, должно быть 'счастье'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Счасть — это сила мотивации, но он не является единственной фактором в принятии решений.",
+        "correction": "Счастье — это сила мотивации, но оно не является единственным фактором в принятии решений.",
+        "description": "Нарушено согласование рода и падежа: 'он' и 'единственной фактором' должны быть 'оно' и 'единственным фактором'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Управление эмоциями включает в себя подальше всего от стрессовой ситуации.",
+        "correction": "Управление эмоциями включает в себя удаление себя от стрессовой ситуации.",
+        "description": "Фраза 'подальше всего' некорректна, требуется 'удаление себя' или 'отдаление от'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Вместо этого, постановка акцента на ситуации, в которой можно влиять, и поиск позитивных аспектов также являются эффективными методами.",
+        "correction": "Вместо этого, акцент на ситуации, на которую можно влиять, и поиск позитивных аспектов также являются эффективными методами.",
+        "description": "Фраза 'постановка акцента на ситуации, в которой можно влиять' некорректна, требуется 'акцент на ситуации, на которую можно влиять'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "фантатических миров",
+        "correction": "фантастических миров",
+        "description": "Spelling error: incorrect word formation, should be 'фантастических'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "фатиках и реальной жизни",
+        "correction": "фактах и реальной жизни",
+        "description": "Word choice error: 'фатиках' is incorrect, should be 'фактах'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "через призму персонажев и литературного стиля",
+        "correction": "через призму персонажей и литературного стиля",
+        "description": "Grammar error: incorrect genitive plural form, should be 'персонажей'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "продуманная литература",
+        "correction": "документальная литература",
+        "description": "Word choice error: 'продуманная литература' is not a standard term, should be 'документальная литература'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "глубокий взаимодействие с читателем",
+        "correction": "глубокое взаимодействие с читателем",
+        "description": "Grammar error: neuter noun 'взаимодействие' requires neuter adjective 'глубокое'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Оставление огня после быстрого устрашения горя может быть случайной причиной пожаров.",
+        "correction": "Оставление огня после быстрого затушивания может быть случайной причиной пожаров.",
+        "description": "Incorrect word choice: 'устрашения горя' is semantically and lexically incorrect; 'затушивания' is the correct term for extinguishing fire.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Так как оставление горя, даже если оно кажется быстро устрашимым, может привести к непредвиденным последствиям, включая пожар, это тот случайный фактор, который необходимо помнить и избегать.",
+        "correction": "Так как оставление огня, даже если он кажется быстро затушимым, может привести к непредвиденным последствиям, включая пожар, это тот случайный фактор, который необходимо помнить и избегать.",
+        "description": "Incorrect word choice: 'горя' should be 'огня' (fire), and 'устрашимым' should be 'затушимым' (extinguishable).",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "даже если оно кажется быстро устрашимым",
+        "correction": "даже если он кажется быстро затушимым",
+        "description": "Gender agreement error: 'огонь' is masculine, so pronoun and adjective must match.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Первая помощь может оказать не только медицинским специалистам, но и любым человеком, который осведомлен о основах помощи.",
+        "correction": "Первую помощь могут оказать не только медицинские специалисты, но и любой человек, который осведомлён об основах помощи.",
+        "description": "Incorrect case and verb agreement: 'Первая помощь может оказать' should be 'Первую помощь могут оказать'; 'медицинским специалистам' should be 'медицинские специалисты'; 'любым человеком' should be 'любой человек'; 'о основах' should be 'об основах'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Их роль не ограничивается только медицинским специалистом, а включает широкое сообщество, способное предоставить первую помощь.",
+        "correction": "Их роль не ограничивается только медицинскими специалистами, а включает широкое сообщество, способное предоставить первую помощь.",
+        "description": "Incorrect case: 'медицинским специалистом' should be 'медицинскими специалистами' to match plural context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Нанесите масло на рану для защита от инфекции.",
+        "correction": "Нанесите масло на рану для защиты от инфекции.",
+        "description": "Incorrect case: 'для защита' should be 'для защиты'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Наносить масло на рану не рекомендуется, так как это может затруднить очистку раны и увеличить риск инфекции.",
+        "correction": "Наносить масло на рану не рекомендуется, так как это может затруднить очищение раны и увеличить риск инфекции.",
+        "description": "Word choice: 'очистку' is less appropriate than 'очищение' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Удушье может быть признано следующими симптомами: затрудненное дыхание, синюшность губ, и синяк на руках.",
+        "correction": "Удушье может быть распознано по следующим симптомам: затруднённое дыхание, синюшность губ и синяки на руках.",
+        "description": "Incorrect verb and case usage: 'признано следующими симптомами' should be 'распознано по следующим симптомам'; 'синяк на руках' should be 'синяки на руках'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ваши сигналы удушья точно описаны, и их распознавание важно для быстрого вмешательства.",
+        "correction": "Симптомы удушья точно описаны, и их распознавание важно для быстрого вмешательства.",
+        "description": "Word choice: 'сигналы удушья' is less appropriate than 'симптомы удушья'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Симптомы удушья требуют немедленной обратной поддержки и профессиональной помощи.",
+        "correction": "Симптомы удушья требуют немедленной поддержки и профессиональной помощи.",
+        "description": "Word choice: 'обратной поддержки' is awkward and unclear; 'поддержки' is sufficient.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Умные устройства могут предоставлять помощи в раннем обнаружении сердечных прикалываний.",
+        "correction": "Умные устройства могут предоставлять помощь в раннем обнаружении сердечных приступов.",
+        "description": "Incorrect case and word choice: 'предоставлять помощи' should be 'предоставлять помощь'; 'сердечных прикалываний' is incorrect, should be 'сердечных приступов'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Системы мониторинга здоровья, такие как фитнес-трекеры, способны выявлять изменения в частоте сердечного ритма, которые могут указывать на сердечные прикалывания.",
+        "correction": "Системы мониторинга здоровья, такие как фитнес-трекеры, способны выявлять изменения в частоте сердечного ритма, которые могут указывать на сердечные приступы.",
+        "description": "Incorrect word: 'сердечные прикалывания' should be 'сердечные приступы'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Это позволяет быстро реагировать на критические ситуации, предоставляя помощи до прибытия медицинской помощи.",
+        "correction": "Это позволяет быстро реагировать на критические ситуации, предоставляя помощь до прибытия медицинской помощи.",
+        "description": "Incorrect case: 'предоставляя помощи' should be 'предоставляя помощь'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Плоскоть может иметь толщину, как у плоских контейнеров, таких как бутылки.",
+        "correction": "Плоскость может иметь толщину, как у плоских контейнеров, таких как бутылки.",
+        "description": "Spelling error: incorrect word 'Плоскоть' instead of 'Плоскость'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В геометрии мы представляем плоскости как бесконечные, неутоresolveные поверхности, а не как толстой или заполняемые.",
+        "correction": "В геометрии мы представляем плоскости как бесконечные, неутолщённые поверхности, а не как толстые или заполняемые.",
+        "description": "Word choice and spelling errors: 'неутоresolveные' is not a Russian word; 'толстой' should be 'толстые'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "а не как толстой или заполняемые.",
+        "correction": "а не как толстые или заполняемые.",
+        "description": "Grammar error: incorrect adjective form 'толстой' instead of plural 'толстые'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Угол может быть измерен в терминах градусов и радиан.",
+        "correction": "Угол может быть измерен в градусах и радианах.",
+        "description": "Word choice error: 'в терминах' is awkward and unnecessary; correct case for 'градусах и радианах'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Фрагмент содержит неверные сведения, так как он предполагает, что угол может быть измерен только в одном измерении, что неверно.",
+        "correction": "Фрагмент содержит неверные сведения, так как он предполагает, что угол может быть измерен только в одной единице измерения, что неверно.",
+        "description": "Grammar/word choice error: 'в одном измерении' should be 'в одной единице измерения'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "так как это противорежит принцип измерения углов.",
+        "correction": "так как это противоречит принципу измерения углов.",
+        "description": "Word choice error: 'противорежит' should be 'противоречит'; 'принцип' should be in dative case 'принципу'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "повсеместные пути были основным мостом для торговли в средние века.",
+        "correction": "торговые пути были основным мостом для торговли в средние века.",
+        "description": "Неправильный выбор слова: 'повсеместные пути' не является устойчивым выражением в русском языке для обозначения торговых маршрутов.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "упомянутые исторические торговые маршруты, такие как Шелковый путь, Транссахарская торговля и Индийская океанская торговля, являются более точными примерами древних торговых путем, которые значительно влияли на экономическую и культурную взаимодействие в их конкретных регионах.",
+        "correction": "упомянутые исторические торговые маршруты, такие как Шелковый путь, Транссахарская торговля и Индийская океанская торговля, являются более точными примерами древних торговых путей, которые значительно влияли на экономическое и культурное взаимодействие в их конкретных регионах.",
+        "description": "Ошибки в падеже ('путем' → 'путей') и согласовании ('экономическую и культурную взаимодействие' → 'экономическое и культурное взаимодействие').",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Это может привести к уменьшению потребления местных продуктов и потенциальной утрате рабочих мест в отраслях, которые могут быть затрошены.",
+        "correction": "Это может привести к уменьшению потребления местных продуктов и потенциальной утрате рабочих мест в отраслях, которые могут быть затронуты.",
+        "description": "Слово 'затрошены' написано с ошибкой, должно быть 'затронуты' для правильного согласования и смысла.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Таким образом, не универсально верно, что все продукция, которую Россия покупает, импортируется.",
+        "correction": "Таким образом, не универсально верно, что вся продукция, которую Россия покупает, импортируется.",
+        "description": "Неправильная форма местоимения: 'все продукция' → 'вся продукция'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "В него входят как физические товары, так и нефизические услуги, что способствует разнообразным культурным взаимодействиям и экономическими отношениям.",
+        "correction": "В него входят как физические товары, так и нефизические услуги, что способствует разнообразным культурным взаимодействиям и экономическим отношениям.",
+        "description": "Ошибка в согласовании: 'экономическими отношениям' должно быть 'экономическим отношениям'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В России президент elected by a direct national vote, a process known as a presidential election, which is a part of the democratic system designed to ensure that the highest office in the land is chosen by the people.",
+        "correction": "В России президент избирается путем прямого национального голосования, процесс, известный как президентские выборы, который является частью демократической системы, призванной обеспечить, чтобы высший пост в стране выбирался народом.",
+        "description": "English phrase 'president elected by a direct national vote' used in Russian text; should be fully in Russian.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Верховный суд имеет широкие pouvoir для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между ютизим и государством.",
+        "correction": "Верховный суд имеет широкие полномочия для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между юридическим лицом и государством.",
+        "description": "Misspelled word 'ютизим'; should be 'юридическим лицом'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Верховный суд имеет широкие pouvoir для рассмотрения различных вопросов",
+        "correction": "Верховный суд имеет широкие полномочия для рассмотрения различных вопросов",
+        "description": "Agreement error: 'широкие' (plural) does not agree with 'власть' (should be 'полномочия' or 'власть' in singular).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "удовлеSAЛность",
+        "correction": "удовлетворённость",
+        "description": "Spelling error: incorrect word, likely a typo or encoding issue",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "в личной и профессиональной развитию",
+        "correction": "в личном и профессиональном развитии",
+        "description": "Case and gender agreement error: adjectives and noun must be in prepositional case and agree in gender and number",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "учитывают ошибки, как указаны в примере",
+        "correction": "учитывают ошибки, как указано в примере",
+        "description": "Agreement error: participle 'указано' should agree in gender and number with 'ошибки' or refer to 'как', here neuter singular is correct",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Овся является наилучшим источником белка среди всех групп продуктов питания.",
+        "correction": "Овёс является наилучшим источником белка среди всех групп продуктов питания.",
+        "description": "Spelling error: 'Овся' should be 'Овёс' (correct nominative singular form).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Овся содержит белок, но не является самой богатой в этом питательном веществе среди всех групп.",
+        "correction": "Овёс содержит белок, но не является самым богатым этим питательным веществом среди всех групп.",
+        "description": "Word choice and agreement error: 'самой богатой' should agree with 'овёс' (masculine), and 'в этом питательном веществе' is awkward; better phrasing is 'самым богатым этим питательным веществом'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Продукты богатые белком, такие как курица и бобы, обычно предлагают больше белка в одной порции, чем зерновые.",
+        "correction": "Продукты, богатые белком, такие как курица и бобы, обычно содержат больше белка в одной порции, чем зерновые.",
+        "description": "Missing comma after 'продукты'; 'предлагают' is awkward, 'содержат' is more appropriate for food context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Сбалансированный прием пищи признается включением продуктов из разных групп питания, таких как белки, зерновые, овощи, фрукты и молочные продукты.",
+        "correction": "Сбалансированный прием пищи подразумевает включение продуктов из разных групп питания, таких как белки, зерновые, овощи, фрукты и молочные продукты.",
+        "description": "Word choice error: 'признается' is awkward; 'подразумевает' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Весна ДПЧ была подготовлена в период потрясений Холокоста.",
+        "correction": "ВДПЧ была подготовлена в период потрясений Холокоста.",
+        "description": "Incorrect word choice: 'Весна' should be replaced with 'ВДПЧ' (Всеобщая декларация прав человека).",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Эта заявка верна исторической ситуацией, когда ВДПЧ была разработана.",
+        "correction": "Это утверждение верно с точки зрения исторической ситуации, когда ВДПЧ была разработана.",
+        "description": "Incorrect word choice: 'заявка' should be 'утверждение' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Все декларации права человека содержат в себе право на голос угнетающегося общества.",
+        "correction": "Все декларации прав человека содержат в себе право голоса угнетённого общества.",
+        "description": "Incorrect word usage: 'права человека' should be in genitive plural; 'голос угнетающегося общества' is awkward, 'голос угнетённого общества' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Это утверждение не соответствует содержанию деклараций прав человека, которые подчеркивают равенство людей и защиту их основных прав.",
+        "correction": "Это утверждение не соответствует содержанию деклараций прав человека, подчеркивающих равенство людей и защиту их основных прав.",
+        "description": "Participial phrase should be in the genitive case to agree with 'деклараций'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "а не на усиление силы другого.",
+        "correction": "а не на усиление власти других.",
+        "description": "Awkward phrasing: 'усиление силы другого' should be 'усиление власти других'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Всеобщая декларация прав человека не была подписана всеми наций РСФСР в 1970-х годах.",
+        "correction": "Всеобщая декларация прав человека не была подписана всеми нациями РСФСР в 1970-х годах.",
+        "description": "Agreement error: 'всеми наций' should be 'всеми нациями' (instrumental plural).",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Всеобщая декларация прав человека была подписана всеми нациями РСФСР в 1977 году.",
+        "correction": "Всеобщая декларация прав человека была принята всеми нациями РСФСР в 1977 году.",
+        "description": "Verb usage error: 'подписана' is incorrect, 'принята' is the correct verb for adoption of a declaration.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В 1990-х годах в Бразилии были значительные улучшения в отношении прав женщин на рынке трудоопределения, особенно в области развлекательной индустрии.",
+        "correction": "В 1990-х годах в Бразилии были значительные улучшения в отношении прав женщин на рынке труда, особенно в области развлекательной индустрии.",
+        "description": "Incorrect word: 'трудоопределения' is not standard, 'рынке труда' is correct.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Такие законы, как Политика обеспечения рабочих мест для женщин, были приняты для борьбы с этим неравенством.",
+        "correction": "Такие законы, как политика обеспечения рабочих мест для женщин, были приняты для борьбы с этим неравенством.",
+        "description": "Unnecessary capitalization: 'Политика' should not be capitalized unless it is an official title.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Великая декларация прав человека действительно послужила основой для международных усилий по защите прав человека.",
+        "correction": "Всеобщая декларация прав человека действительно послужила основой для международных усилий по защите прав человека.",
+        "description": "Incorrect word choice: 'Великая декларация' should be 'Всеобщая декларация'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Она подчеркивает важность прав человека и пообещала глобальную поддержку для их защиты и продвижения.",
+        "correction": "Она подчеркивает важность прав человека и обещает глобальную поддержку для их защиты и продвижения.",
+        "description": "Tense inconsistency: 'подчеркивает' (present) and 'пообещала' (past) should match; use present tense for both.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Представление доброты, как помощь однокласснику или внимательное слушание, приносит пользу и способствует пониманию и уважению в социальных контекстах.",
+        "correction": "Проявления доброты, такие как помощь однокласснику или внимательное слушание, приносят пользу и способствуют пониманию и уважению в социальных контекстах.",
+        "description": "Неправильный выбор слова: 'представление доброты' заменено на 'проявления доброты' для точности выражения.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Участие в действиях доброты на самом деле способствует развитию эмпатии, так как оно заставляет нас активно сознаемо задуматься о чувствах других, что, в свою очередь, способствует более глубокому пониманию их состояния.",
+        "correction": "Участие в действиях доброты на самом деле способствует развитию эмпатии, так как оно заставляет нас активно и осознанно задуматься о чувствах других, что, в свою очередь, способствует более глубокому пониманию их состояния.",
+        "description": "Слово 'сознаемо' некорректно; правильная форма — 'осознанно'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "так как они показывают социальную ответственность и приверяют к позитивным отношениям в сообществе.",
+        "correction": "так как они показывают социальную ответственность и приводят к позитивным отношениям в сообществе.",
+        "description": "Слово 'приверяют' некорректно; правильная форма — 'приводят'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Согласование также важное качество, но в контексте этой темы доброта обычно считается более значимой для создания положительных взаимодействий.",
+        "correction": "Согласование также является важным качеством, но в контексте этой темы доброта обычно считается более значимой для создания положительных взаимодействий.",
+        "description": "Отсутствует глагол-связка 'является' для правильной структуры предложения.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Доброта и ее практика могут иметь значительное влияние, как и подчеркивается в заключительной мысли.",
+        "correction": "Доброта и её практика могут иметь значительное влияние, как подчеркивается в заключительной мысли.",
+        "description": "Лишний союз 'и' перед 'подчеркивается' нарушает логику предложения.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "висцепта и префронтальная кора",
+        "correction": "височная и префронтальная кора",
+        "description": "Incorrect word: 'висцепта' is not a Russian anatomical term; should be 'височная кора'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Классическая музыка развилась в период, который превосходил поп-музыку 20-го века.",
+        "correction": "Классическая музыка развивалась в период, который предшествовал поп-музыке 20-го века.",
+        "description": "Incorrect word choice: 'превосходил' should be 'предшествовал' to indicate chronological order, and 'развилась' should be 'развивалась' for process.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "и его культурное влияние заложено в следующих эпохах, а не в поп-музыке.",
+        "correction": "и его культурное влияние проявилось в последующих эпохах, а не в поп-музыке.",
+        "description": "Awkward phrasing: 'заложено в следующих эпохах' is unclear; 'проявилось в последующих эпохах' is more precise.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Она не имеет корректного происхождения в сфере народной музыки России.",
+        "correction": "Она не имеет происхождения в сфере народной музыки России.",
+        "description": "Incorrect word usage: 'корректного происхождения' is awkward; 'происхождения' is sufficient.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "и пошла на мировой карли с помощью культовых производителей, таких как Kraftwerk, и по мере развития технологий.",
+        "correction": "и вышла на мировой уровень с помощью культовых исполнителей, таких как Kraftwerk, и по мере развития технологий.",
+        "description": "Incorrect word usage: 'пошла на мировой карли' is incorrect and unclear; 'вышла на мировой уровень' is correct. 'производителей' should be 'исполнителей' for musicians.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "имеют ограниченный количество и не могут быть восстановлены.",
+        "correction": "имеют ограниченное количество и не могут быть восстановлены.",
+        "description": "Adjective 'ограниченный' should agree in gender with noun 'количество' (neuter), so 'ограниченное' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "отрасль лесов и ремесленную торговлю.",
+        "correction": "лесное хозяйство и ремесленную торговлю.",
+        "description": "Phrase 'отрасль лесов' is awkward and nonstandard; 'лесное хозяйство' is the correct term.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "а не на ее удвоение.",
+        "correction": "а не на ее уничтожение.",
+        "description": "Word 'удвоение' (doubling) is incorrect in context; 'уничтожение' (destruction) is the intended meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Это подразумевает, что ресурсы могут быть полезно, если они используются с осторожностью и с учетом будущих потребностей.",
+        "correction": "Это подразумевает, что ресурсы могут быть полезны, если они используются с осторожностью и с учетом будущих потребностей.",
+        "description": "Adjective 'полезно' should agree in number with 'ресурсы' (plural), so 'полезны' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Киберугрозы обычно не способны нанести значительный вреда.",
+        "correction": "Киберугрозы обычно не способны нанести значительный вред.",
+        "description": "Incorrect case: 'вреда' should be in nominative case 'вред' as the direct object.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Обновления включают в себя новую защиту от вредоносного программного обеспечения и уязвимостей, которые могут быть использованы злоумышленниками.",
+        "correction": "Обновления включают в себя новые средства защиты от вредоносного программного обеспечения и уязвимостей, которые могут быть использованы злоумышленниками.",
+        "description": "Word choice: 'новую защиту' is awkward; 'новые средства защиты' is more natural.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "используя последние версии браузера, пользователи могут избежать многих из проблем с доступом и безопасностью данных.",
+        "correction": "Используя последние версии браузера, пользователи могут избежать многих проблем с доступом и безопасностью данных.",
+        "description": "Unnecessary preposition: 'многих из проблем' should be 'многих проблем'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "иногда сказывая неприятные последствия, такие как замедление производительности или утечка личных данных.",
+        "correction": "иногда вызывая неприятные последствия, такие как замедление производительности или утечка личных данных.",
+        "description": "Incorrect verb: 'сказывая' should be 'вызывая' to indicate causing consequences.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Приложения Android, как и любой другой операционный системный дистрибутив, могут иметь возможность получать обновления безопасности через Google Play Store.",
+        "correction": "Приложения Android, как и любой другой операционный системный дистрибутив, могут получать обновления безопасности через Google Play Store.",
+        "description": "Redundant phrase: 'могут иметь возможность получать' should be 'могут получать'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В микросвязи с химии, элементы определяются благодаря уникальной структуре атомов, состоящие из одного типа протонов.",
+        "correction": "С точки зрения химии, элементы определяются благодаря уникальной структуре атомов, состоящих из одного типа протонов.",
+        "description": "Неправильное выражение 'в микросвязи с химии'; требуется более естественный оборот. Также неверное согласование причастия 'состоящие' с 'атомов'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Это основная характеристика, которая отличает элементы от составных веществ.",
+        "correction": "Это основная характеристика, которая отличает элементы от сложных веществ.",
+        "description": "Слово 'составные вещества' не является общепринятым термином; корректнее использовать 'сложные вещества'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Хеотические металлы, такие как натрий и калий, известны своей реактивностью с кислотами, но утверждение, что они всегда легко реагируют, не совсем верно.",
+        "correction": "Щелочные металлы, такие как натрий и калий, известны своей реактивностью с кислотами, но утверждение, что они всегда легко реагируют, не совсем верно.",
+        "description": "Слово 'Хеотические' — орфографическая ошибка, должно быть 'Щелочные'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "например, натрий реагирует с водой при экстреличном тепле, образуя водород и хлорид натрия.",
+        "correction": "например, натрий реагирует с водой при высокой температуре, образуя водород и гидроксид натрия.",
+        "description": "Слово 'экстреличном' не существует; корректнее 'высокой температуре'. Также реакция натрия с водой образует гидроксид натрия, а не хлорид натрия.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Элементы в группе 18, известных как переходные галогены, имеют химические свойства, близкие как к группе 17 (щелочные галогены) и группе 18 (благородные газы), что делает это правило немного исключительным.",
+        "correction": "Элементы группы 18, известных как благородные газы, имеют химические свойства, отличные от элементов группы 17 (галогены), что делает это правило исключением.",
+        "description": "Группа 18 — это благородные газы, а не переходные галогены; также неверно называть группу 17 'щелочные галогены'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "понимание их значимого в контексте эффективной коммуникации и аргументации.",
+        "correction": "понимание их значимости в контексте эффективной коммуникации и аргументации.",
+        "description": "Incorrect word form: 'значимого' should be 'значимости' (noun, genitive case).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "устанавливает авторитета и усиливает доверие к аргументу.",
+        "correction": "устанавливает авторитет и усиливает доверие к аргументу.",
+        "description": "Incorrect word form: 'авторитета' should be 'авторитет' (accusative case).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "сочетания всестона, логоса и пафоса.",
+        "correction": "сочетания этоса, логоса и пафоса.",
+        "description": "Spelling error: 'всестона' is a typo, should be 'этоса'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Экологический ученый, рассмарив свой опыт в своей статье о климатических изменениях, избегает упоминания своих профессиональных заслуг и ссылается только на нереценсируемые исследования.",
+        "correction": "Экологический ученый, рассматривая свой опыт в своей статье о климатических изменениях, избегает упоминания своих профессиональных заслуг и ссылается только на нерецензируемые исследования.",
+        "description": "Spelling errors: 'рассмарив' should be 'рассматривая'; 'нереценсируемые' should be 'нерецензируемые'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В примере, ученый, рассмарив, на самом деле подчеркивает свои профессиональные заслуги, что противорежит утверждению.",
+        "correction": "В примере ученый, рассматривая, на самом деле подчеркивает свои профессиональные заслуги, что противоречит утверждению.",
+        "description": "Spelling and word choice errors: 'рассмарив' should be 'рассматривая'; 'противорежит' should be 'противоречит'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Эффективность элемента этиса заключается в подкреплении авторитета и надежд автора, что вовлекает читателя в поведение и усиливает убедительность аргумента.",
+        "correction": "Эффективность элемента этоса заключается в подкреплении авторитета и надежности автора, что вовлекает читателя и усиливает убедительность аргумента.",
+        "description": "Incorrect word forms: 'этиса' should be 'этоса'; 'надежд автора' should be 'надежности автора'; 'вовлекает читателя в поведение' is awkward, better as 'вовлекает читателя'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Письтемос обладает силой влиять на аудиторию благодаря использованию эмоциональных, логических и убедительных аргументов.",
+        "correction": "Письмо обладает силой влиять на аудиторию благодаря использованию эмоциональных, логических и убедительных аргументов.",
+        "description": "Spelling error: 'Письтемос' should be 'Письмо'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Правильность этой заявки подтверждена структурой лимерика, где четвёртые и пятые строки рифмуются, а первые два и последние три строки имеют более короткую длину.",
+        "correction": "Правильность этого утверждения подтверждена структурой лимерика, где четвертая и пятая строки рифмуются, а первые две и последние три строки имеют более короткую длину.",
+        "description": "Слово 'заявка' некорректно в данном контексте, следует использовать 'утверждение'. Также 'четвёртые' и 'первые два' требуют согласования в числе.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Хайка и сонет используют одинаковое количество строк для передачи своих тематических значений.",
+        "correction": "Хайку и сонет используют одинаковое количество строк для передачи своих тематических значений.",
+        "description": "Слово 'Хайка' некорректно, правильная форма — 'Хайку'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Хайка и сонет имеют разные структуры и количество строк. Хайка – это краткое поэтическое произведение, обычно со строем из 5-7-5 слогов, в то время как сонет – это более сложная форма, состоящая из 14 строк, различных типов рифмованных строк.",
+        "correction": "Хайку и сонет имеют разные структуры и количество строк. Хайку – это краткое поэтическое произведение, обычно со строем из 5-7-5 слогов, в то время как сонет – это более сложная форма, состоящая из 14 строк различных типов рифмовки.",
+        "description": "Слово 'Хайка' некорректно, правильная форма — 'Хайку'. Также 'различных типов рифмованных строк' лучше заменить на 'различных типов рифмовки' для ясности.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "При сравнении формы и тематическое выражение, учитывайте количество строк и структуру рифмованных стоп.",
+        "correction": "При сравнении формы и тематического выражения учитывайте количество строк и структуру рифмовки.",
+        "description": "Фраза 'тематическое выражение' требует согласования, а 'структуру рифмованных стоп' лучше заменить на 'структуру рифмовки' для точности.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Выпадание 3 на стандартном шестигранном кубике имеет одну из пяти возможных исходов.",
+        "correction": "Выпадение 3 на стандартном шестигранном кубике является одним из пяти возможных исходов.",
+        "description": "Incorrect word choice: 'Выпадание' should be 'Выпадение'; 'имеет одну из пяти возможных исходов' is awkward and ungrammatical.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "одну из пяти возможных исходов",
+        "correction": "один из пяти возможных исходов",
+        "description": "Number agreement error: 'одну' should agree with 'исходов' (masculine, singular), not 'одну' (feminine).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "В играх с кубиками, каждое стороно с большей вероятностью покажет значение больше 4.",
+        "correction": "В играх с кубиками каждая сторона с большей вероятностью покажет значение больше 4.",
+        "description": "Grammar error: 'каждое стороно' should be 'каждая сторона'; also, unnecessary comma after 'кубиками'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "стороно",
+        "correction": "сторона",
+        "description": "Spelling error: 'стороно' is a misspelling of 'сторона'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "шестеренковым кубиком",
+        "correction": "шестигранным кубиком",
+        "description": "Incorrect word choice: 'шестеренковым' is not appropriate; should be 'шестигранным' (six-sided).",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "вероятность выпасть значение больше 4 составляет 2/6",
+        "correction": "вероятность выпадения значения больше 4 составляет 2/6",
+        "description": "Grammar error: 'выпасть значение' is incorrect; should be 'выпадения значения'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Так как на кубике шесть граней, вероятность выпасть любому из этих чисел равна 3 из 6",
+        "correction": "Так как на кубике шесть граней, вероятность выпадения любого из этих чисел равна 3 из 6",
+        "description": "Incorrect word choice: 'выпасть любому' should be 'выпадения любого'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "вероятность выпасть число большее чем 3 равна 0,5, а не 0,25.",
+        "correction": "вероятность выпадения числа, большего чем 3, равна 0,5, а не 0,25.",
+        "description": "Grammar error: missing comma and incorrect case for 'большее чем 3'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Вероятность выпасть «орлу» и «решка» при подбрасывании монеты одинакова и составляет 50% для каждого исхода",
+        "correction": "Вероятность выпадения «орла» и «решки» при подбрасывании монеты одинакова и составляет 50% для каждого исхода",
+        "description": "Incorrect word choice and case: 'выпасть «орлу» и «решка»' should be 'выпадения «орла» и «решки»'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Выделение главной мысли важна, так как она представляет центральное сообщение в тексте.",
+        "correction": "Выделение главной мысли важно, так как она представляет центральное сообщение в тексте.",
+        "description": "Agreement error: 'выделение' is neuter, so 'важно' should be used instead of 'важна'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Это помогает читателям лучше понять предмет и суть, который автор хочет передать.",
+        "correction": "Это помогает читателям лучше понять предмет и суть, которые автор хочет передать.",
+        "description": "Agreement error: 'предмет и суть' is plural, so 'которые' should be used instead of 'который'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "неотъемчивыми",
+        "correction": "неотъемлемыми",
+        "description": "Spelling error: incorrect word formation, should be 'неотъемлемыми'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "уловита по общему контексту и ключевым предложениям",
+        "correction": "уловима по общему контексту и ключевым предложениям",
+        "description": "Incorrect word form: 'уловита' should be 'уловима'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "общной темы",
+        "correction": "общей темы",
+        "description": "Spelling error: 'общной' should be 'общей'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Основной утверждение, или тема, изложены различными подсказками, которые усиливают или дополняют основную идею.",
+        "correction": "Основное утверждение, или тема, изложены различными подсказками, которые усиливают или дополняют основную идею.",
+        "description": "Agreement error: 'утверждение' is neuter, so 'основное' should be used instead of 'основной'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Главная мысль текста — это основная идея, которая представляет собой суть, но для полного понимания и усилить её часто требуется анализ поддерживающих деталей.",
+        "correction": "Главная мысль текста — это основная идея, которая представляет собой суть, но для полного понимания и усиления её часто требуется анализ поддерживающих деталей.",
+        "description": "Syntax error: 'усилить её' should be 'усиления её' for correct sentence structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "устанаввается",
+        "correction": "устанавливается",
+        "description": "Spelling error: extra 'в' in the verb, correct form is 'устанавливается'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "научную сплочёнку",
+        "correction": "научное сообщество",
+        "description": "Incorrect word usage: 'сплочёнка' is not a standard term for scientific community; 'научное сообщество' is correct",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "используя усилие, которое мы прикладываем вниз на склон, а не запуская тягачем.",
+        "correction": "используя усилие, которое мы прикладываем вниз по склону, а не используя тягач.",
+        "description": "Неправильное слово 'запуская тягачем'; корректнее 'используя тягач'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "В контексте урока не упоминаются силовыми тренайми или конструкционные инструменты, поэтому утверждение не соответствует предоставленной информации.",
+        "correction": "В контексте урока не упоминаются силовые тренажёры или строительные инструменты, поэтому утверждение не соответствует предоставленной информации.",
+        "description": "Слова 'тренайми' и 'конструкционные инструменты' некорректны; правильнее 'тренажёры' и 'строительные инструменты'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "транспортировывания тяжести на ось",
+        "correction": "транспортирования тяжести на оси",
+        "description": "Слово 'транспортировывания' написано с ошибкой; правильная форма — 'транспортирования'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Наклонная поверхность уменьшает усилие, необходимое для вытаскивания объекта, поскольку вы можете использовать силу, работающую на большую дистанцию, что делает задачу легче, чем подъема вверх.",
+        "correction": "Наклонная поверхность уменьшает усилие, необходимое для подъёма объекта, поскольку вы можете использовать силу, работающую на большем расстоянии, что делает задачу легче, чем подъём вверх.",
+        "description": "Слово 'вытаскивания' не соответствует контексту; правильнее 'подъёма'. Также 'дистанция' лучше заменить на 'расстояние'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "таких как ношение ножи, гвозди или лопаты, а не для усиления силы.",
+        "correction": "таких как ножи, гвозди или лопаты, а не для увеличения силы.",
+        "description": "Фраза 'ношение ножи' некорректна; правильнее просто 'ножи'. Также 'усиления силы' лучше заменить на 'увеличения силы'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "малые усилия, прикладываемые на один конце, в большие силы на другой.",
+        "correction": "малые усилия, прикладываемые к одному концу, в большие силы на другом.",
+        "description": "Неправильное управление: 'на один конце' должно быть 'к одному концу'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "преодожают",
+        "correction": "преодолевают",
+        "description": "Spelling error: incorrect form of the verb 'преодолевать'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "преодогнуть",
+        "correction": "преодолеть",
+        "description": "Spelling error: incorrect infinitive form of the verb 'преодолеть'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "преодожения",
+        "correction": "преодоления",
+        "description": "Spelling error: incorrect noun form 'преодоления'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "содержимое, которое называется 'тратируемым топливом'",
+        "correction": "вещество, которое называется 'реактивным топливом'",
+        "description": "Incorrect word usage: 'тратируемое топливо' is not standard, 'реактивное топливо' is correct",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "работать на космос",
+        "correction": "работать в космосе",
+        "description": "Incorrect preposition: 'в космосе' is correct for location",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "неразделяемых частиц, которые сильно расположены и не могут свободно двигаться",
+        "correction": "неразделимых частиц, которые плотно расположены и не могут свободно двигаться",
+        "description": "Incorrect word choice: 'неразделяемых' should be 'неразделимых'; 'сильно расположены' should be 'плотно расположены'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "пока не будет влияние, например, натяжения или проникания",
+        "correction": "пока не будет воздействия, например, натяжения или проникновения",
+        "description": "Incorrect word choice: 'влияние' should be 'воздействие'; 'проникания' should be 'проникновения'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "не соответствует научным законом о телах",
+        "correction": "не соответствует научным законам о телах",
+        "description": "Case agreement error: 'законом' should be in plural dative 'законам'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "температура уменьшение способствует образованию твердого состояния",
+        "correction": "уменьшение температуры способствует образованию твердого состояния",
+        "description": "Word order and grammatical error: 'температура уменьшение' should be 'уменьшение температуры'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "а скорее противоречием, играющего второстепенную роль",
+        "correction": "а скорее антагонистом, играющим второстепенную роль",
+        "description": "Incorrect word choice: 'противоречие' is not appropriate for a character; 'антагонист' is the correct term",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "место действия может быть деревнейю с её особенностями и атмосферой",
+        "correction": "место действия может быть деревней с её особенностями и атмосферой",
+        "description": "Spelling and case error: 'деревнейю' should be 'деревней' in instrumental case",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Пlaces of action are crucial in setting the mood and influencing events in a story.",
+        "correction": "Места действия играют важную роль в создании настроения и влиянии на события в истории.",
+        "description": "Text is in English instead of Russian; should be translated for linguistic consistency",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "верию",
+        "correction": "веру",
+        "description": "Spelling error: incorrect ending, should be 'веру' (accusative case)",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "верию в единственное божественное существо",
+        "correction": "веру в единственное божественное существо",
+        "description": "Incorrect word form: 'верию' should be 'веру' (accusative case)",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "взимает монотеизм",
+        "correction": "признаёт монотеизм",
+        "description": "Incorrect word usage: 'взимает' is not appropriate, should be 'признаёт'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "сосредоточенные в единообразии божественного порядка",
+        "correction": "сосредоточенные на единстве божественного порядка",
+        "description": "Incorrect word usage: 'единообразие' is not appropriate, should be 'единство'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "сансатрана",
+        "correction": "сансара",
+        "description": "Spelling error: incorrect term, should be 'сансара'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "карама",
+        "correction": "карма",
+        "description": "Spelling error: incorrect term, should be 'карма'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Это противоречит идею неизменной судьбы.",
+        "correction": "Это противоречит идее неизменной судьбы.",
+        "description": "Incorrect case: 'идею' should be 'идее' (dative case after 'противоречит')",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "уменedянию",
+        "correction": "умиротворению",
+        "description": "Spelling error: 'уменedянию' is not a Russian word, likely intended 'умиротворению'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Буддизм пообещал своими практиками, что привело к уменedянию и пониманию жизни.",
+        "correction": "Буддизм с помощью своих практик приводит к умиротворению и пониманию жизни.",
+        "description": "Awkward sentence structure and incorrect verb tense; rephrased for clarity and correctness",
+        "severity": "HIGH"
+      }
+    ],
+    "localization": []
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "spanish",
+    "generated_at": "2025-10-05T08:10:05.690942"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect Lexical Choice for Key Terms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misuse of key terms or phrases leads to confusion and misrepresentation of important concepts, especially when referencing well-known speeches or ideas.",
+      "examples": [
+        {
+          "wrong": "como su famosa 'Son de Reverde'",
+          "correct": "como su famoso 'Sueño de Rev. King'",
+          "context": "Reference to Martin Luther King Jr.'s 'I Have a Dream' speech; incorrect phrase used."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Severe Spelling Errors in Core Vocabulary",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Major spelling mistakes in basic words reduce clarity and professionalism, making content harder to understand and less credible.",
+      "examples": [
+        {
+          "wrong": "individuicios",
+          "correct": "individuos",
+          "context": "Misspelling of a common noun in quiz content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Word Choice and False Friends",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 13,
+      "description": "Frequent use of literal translations, anglicisms, or non-standard terms that do not fit Spanish context, leading to confusion or lack of clarity.",
+      "examples": [
+        {
+          "wrong": "el Sphinx",
+          "correct": "la Esfinge",
+          "context": "Use of English term instead of Spanish equivalent."
+        },
+        {
+          "wrong": "cheques y balances",
+          "correct": "pesos y contrapesos",
+          "context": "Literal translation of English phrase; Spanish uses a different idiomatic expression."
+        },
+        {
+          "wrong": "substractar",
+          "correct": "restar",
+          "context": "Non-existent verb in Spanish; false friend from English."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Systematic mismatches between noun and article/adjective gender, affecting clarity and grammatical correctness.",
+      "examples": [
+        {
+          "wrong": "el clorofila",
+          "correct": "la clorofila",
+          "context": "Feminine noun with masculine article."
+        },
+        {
+          "wrong": "las sentimientos",
+          "correct": "los sentimientos",
+          "context": "Masculine noun with feminine article."
+        },
+        {
+          "wrong": "cuestiones éticos",
+          "correct": "cuestiones éticas",
+          "context": "Adjective does not agree in gender with noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling Errors and Non-Standard Forms",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Frequent misspellings, incorrect accentuation, and use of non-existent words, reducing professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "riesgons",
+          "correct": "riesgos",
+          "context": "Misspelled plural noun."
+        },
+        {
+          "wrong": "mnemonics",
+          "correct": "mnemónicos",
+          "context": "English spelling used instead of Spanish."
+        },
+        {
+          "wrong": "compromitérsela",
+          "correct": "comprometerla",
+          "context": "Incorrect accent mark and verb form."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect word choice for idiomatic or precise Spanish",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Use of words that are technically correct but less idiomatic or precise in Spanish, affecting naturalness and clarity.",
+      "examples": [
+        {
+          "wrong": "gran variedad de tipos de alimentos",
+          "correct": "amplia variedad de tipos de alimentos",
+          "context": "Describing food variety"
+        },
+        {
+          "wrong": "productos lácteos",
+          "correct": "lácteos",
+          "context": "Referring to dairy products"
+        },
+        {
+          "wrong": "mezcla rica en nutrientes esenciales",
+          "correct": "combinación rica en nutrientes esenciales",
+          "context": "Describing food composition"
+        },
+        {
+          "wrong": "reabastecer naturalmente",
+          "correct": "renovar naturalmente",
+          "context": "Describing renewable resources"
+        },
+        {
+          "wrong": "entornos seguros y confiados",
+          "correct": "entornos seguros y de confianza",
+          "context": "Describing trustworthy environments"
+        },
+        {
+          "wrong": "mediante sus conocimientos, experiencias y ética",
+          "correct": "a través de sus conocimientos, experiencia y ética",
+          "context": "Describing how trust is established"
+        },
+        {
+          "wrong": "no únicamente en la presentación de datos",
+          "correct": "no solo en la presentación de datos",
+          "context": "Describing persuasive writing"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or incorrect use of definite/indefinite articles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Omission or misuse of articles ('la', 'una', 'los', 'las') leads to unnatural or grammatically incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "No ficción está destinada a informar...",
+          "correct": "La no ficción está destinada a informar...",
+          "context": "Describing literary genres"
+        },
+        {
+          "wrong": "nutrición equilibrada incluye una variedad...",
+          "correct": "una nutrición equilibrada incluye una variedad...",
+          "context": "General statements about nutrition"
+        },
+        {
+          "wrong": "Acrónimos ayudan a simplificar...",
+          "correct": "Los acrónimos ayudan a simplificar...",
+          "context": "Describing the function of acronyms"
+        },
+        {
+          "wrong": "A diferencia de los carbohidratos, proteínas o grasas...",
+          "correct": "A diferencia de los carbohidratos, las proteínas o las grasas...",
+          "context": "Listing food groups"
+        },
+        {
+          "wrong": "aunque esto puede ser una parte de la asistencia avanzada",
+          "correct": "aunque esto puede ser parte de la asistencia avanzada",
+          "context": "Describing medical assistance"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Numerical fractions not written out in words",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Numerical fractions (e.g., 1/4, 2/4) are presented as digits instead of being written out in words, which is preferred for clarity in educational Spanish.",
+      "examples": [
+        {
+          "wrong": "específicamente 1/4",
+          "correct": "específicamente un cuarto",
+          "context": "Explaining fractions in math or food examples"
+        },
+        {
+          "wrong": "4/8, que se simplifica a 1/2",
+          "correct": "cuatro octavos, que se simplifica a un medio",
+          "context": "Describing pizza slices as fractions"
+        },
+        {
+          "wrong": "La fracción que representa la parte comida es **7/12**",
+          "correct": "La fracción que representa la parte comida es siete doceavos",
+          "context": "Math fraction explanation"
+        },
+        {
+          "wrong": "la fracción 2/4",
+          "correct": "la fracción dos cuartos",
+          "context": "Fractional parts in food context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-Verb Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Mismatch between subject and verb number, leading to grammatical errors and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "La función la realiza principalmente las mitocondrias",
+          "correct": "La función la realizan principalmente las mitocondrias",
+          "context": "Plural subject with singular verb."
+        },
+        {
+          "wrong": "se establecen conexiones... y las recuerdos",
+          "correct": "se establecen conexiones... y los recuerdos",
+          "context": "Plural noun with incorrect article."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Use of Articles and Prepositions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Omission or misuse of articles and prepositions, resulting in awkward or unclear phrasing.",
+      "examples": [
+        {
+          "wrong": "lo cual es esencial para la camuflaje",
+          "correct": "lo cual es esencial para el camuflaje",
+          "context": "Incorrect article with noun."
+        },
+        {
+          "wrong": "a la siguiente lanzamiento",
+          "correct": "al siguiente lanzamiento",
+          "context": "Incorrect preposition and noun gender."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or awkward phrasing",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Sentences contain unnecessary repetition or awkward constructions that reduce conciseness and clarity.",
+      "examples": [
+        {
+          "wrong": "las constantes representan valores que permanecen invariables y no varían",
+          "correct": "las constantes representan valores que permanecen invariables y no cambian",
+          "context": "Defining mathematical terms"
+        },
+        {
+          "wrong": "una parte esencial de una dieta equilibrada",
+          "correct": "esenciales en una dieta equilibrada",
+          "context": "Describing the role of vegetables"
+        },
+        {
+          "wrong": "El uso de hielo directo",
+          "correct": "El uso de hielo directamente",
+          "context": "Describing first aid procedures"
+        },
+        {
+          "wrong": "El agua es, de hecho, esencial para la vida",
+          "correct": "El agua es esencial para la vida",
+          "context": "Describing water's importance"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and punctuation errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Misspellings and incorrect punctuation, such as missing accents or improper use of periods with abbreviations and question marks.",
+      "examples": [
+        {
+          "wrong": "La bondad solo beneficia a la persona que la práctica.",
+          "correct": "La bondad solo beneficia a la persona que la practica.",
+          "context": "Verb spelling error"
+        },
+        {
+          "wrong": "mnemonicos",
+          "correct": "mnemónicos",
+          "context": "Missing accent in technical term"
+        },
+        {
+          "wrong": "EE.UU, independientemente de su edad...",
+          "correct": "EE.UU., independientemente de su edad...",
+          "context": "Abbreviation punctuation"
+        }
+      ]
+    }
+  ]
+}

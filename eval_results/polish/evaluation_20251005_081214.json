@@ -1,0 +1,139 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Kiedy ktoś utraci krwotok, należy natychmiastowo ustąpić tightenerze.",
+      "correction": "Kiedy ktoś ma krwotok, należy natychmiast zastosować opaskę uciskową.",
+      "description": "Incorrect word usage: 'utraci krwotok' and 'tightenerze' are not proper Polish terms; 'krwotok' is not something one 'loses', and 'tightenerze' is an incorrect loanword.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W przypadku utraty krwotoku kluczowe jest utrzymanie przy życiu, na przykład, utrzymanie oddechu, nie ustanieć tightenerze.",
+      "correction": "W przypadku krwotoku kluczowe jest utrzymanie osoby przy życiu, na przykład utrzymanie oddechu, nie zdejmowanie opaski uciskowej.",
+      "description": "Incorrect noun case and verb form: 'utrata krwotoku' is incorrect, and 'nie ustanieć tightenerze' is ungrammatical.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Taniec z tightenerzem może pować ostateczne szkody.",
+      "correction": "Manipulowanie opaską uciskową może spowodować poważne szkody.",
+      "description": "Incorrect word usage: 'Taniec z tightenerzem' is nonsensical in Polish; 'pować' is not a Polish verb.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Przy skaleczeniach można wykorzystać gumę do zapakowania wrany.",
+      "correction": "Przy skaleczeniach można wykorzystać gumę do zapakowania rany.",
+      "description": "Spelling error: 'wrany' should be 'rany'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Użycie gumy do zapakowania w ranie może nie tylko utrudnić czyszczenie, ale także zwiększyć ryzyko kontaminacji.",
+      "correction": "Użycie gumy do zabezpieczenia rany może nie tylko utrudnić czyszczenie, ale także zwiększyć ryzyko zakażenia.",
+      "description": "Incorrect word usage: 'zapakowania w ranie' is awkward and 'kontaminacji' is a technical term; 'zakażenia' is more appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Podczas podania pierwszej pomocy w przypadku oparzenia, używanie lodu na szczurkę pretentacyjnego jest racjonalną praktyką.",
+      "correction": "Podczas udzielania pierwszej pomocy w przypadku oparzenia, używanie lodu na miejsce oparzenia nie jest racjonalną praktyką.",
+      "description": "Incorrect verb form and word usage: 'podania pierwszej pomocy' and 'szczurkę pretentacyjnego' are incorrect; 'udzielania pierwszej pomocy' and 'miejsce oparzenia' are correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Używanie lodu na szczurka pretentacyjnego nie jest zalecana, ponieważ może prowadzić do uszkodzeń skóry.",
+      "correction": "Używanie lodu na miejsce oparzenia nie jest zalecane, ponieważ może prowadzić do uszkodzeń skóry.",
+      "description": "Incorrect word usage and gender agreement: 'szczurka pretentacyjnego' is not a Polish term; 'zalecana' should agree with 'używanie' (neutral).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "aby złagodzić ból i zapalić obszar bez przywierania.",
+      "correction": "aby złagodzić ból i ochłodzić obszar bez przywierania.",
+      "description": "Incorrect word usage: 'zapalić obszar' means 'set the area on fire', which is incorrect; 'ochłodzić' is the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Jeśli osoba kaszli, powinieneś obejmować ją w talii, aby pomóc.",
+      "correction": "Jeśli osoba kaszle, nie powinieneś obejmować jej w talii, aby pomóc.",
+      "description": "Incorrect verb form: 'kaszli' should be 'kaszle'; 'obejmować ją w talii' is not correct in this context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "następowoż wykonaj manewr Heimlicha poprzez pozycjonowanie się przed osobą i stosowanie odpowiednich ruchów, aby pomóc w usunięciu przeszkody.",
+      "correction": "następnie wykonaj manewr Heimlicha, ustawiając się za osobą i stosując odpowiednie ruchy, aby pomóc w usunięciu przeszkody.",
+      "description": "Spelling and word choice error: 'następowoż' is not a Polish word; 'pozycjonowanie się przed osobą' is incorrect for Heimlich maneuver.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Pierwsza pomoc przy omdleniu obejmuje uzyskanie bezpiecznej pozycji dla osoby.",
+      "correction": "Pierwsza pomoc przy omdleniu polega na zapewnieniu osobie bezpiecznej pozycji.",
+      "description": "Awkward phrasing: 'obejmuje uzyskanie bezpiecznej pozycji dla osoby' is unnatural; 'polega na zapewnieniu osobie bezpiecznej pozycji' is correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "To zapobiega dodatkowemu uszkodzeniom i umożliwia lepszy przepływ krwi do mózgu.",
+      "correction": "To zapobiega dodatkowym uszkodzeniom i umożliwia lepszy przepływ krwi do mózgu.",
+      "description": "Incorrect adjective agreement: 'dodatkowemu uszkodzeniom' should be 'dodatkowym uszkodzeniom'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Zapewniając, że osoba jest na podłodze, co może poprawić przepływ krwi, i upewniając się, że nie znajduje się na sztywnym powierzchni, można zmniejszyć ryzyko potencjalnych win, które mogą zwiększyć problem.",
+      "correction": "Zapewniając, że osoba leży na podłodze, co może poprawić przepływ krwi, i upewniając się, że nie znajduje się na twardej powierzchni, można zmniejszyć ryzyko potencjalnych urazów, które mogą pogłębić problem.",
+      "description": "Incorrect word usage: 'sztywnym powierzchni' should be 'twardej powierzchni'; 'win' is not correct, 'urazów' is appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W sytuacjach awaryjnych wymaga szybkiego działania, ale oczyszczanie ran może być wykonywane przez osoby, które są blisko z wdowie, zgodnie z ogólnie zalecanych zasad bezpieczeństwa.",
+      "correction": "Sytuacje awaryjne wymagają szybkiego działania, ale oczyszczanie ran może być wykonywane przez osoby znajdujące się w pobliżu, zgodnie z ogólnie zalecanymi zasadami bezpieczeństwa.",
+      "description": "Incorrect sentence structure and word usage: 'wymaga szybkiego działania' should refer to 'sytuacje awaryjne'; 'blisko z wdowie' is incorrect, 'w pobliżu' is correct.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:12:14.122068",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 14,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 14,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

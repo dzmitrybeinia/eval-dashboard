@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "охлаждаются на протяжении всей года",
+      "correction": "охлаждаются на протяжении всего года",
+      "description": "Incorrect case: 'всей года' should be 'всего года' (Genitive case for 'год')",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "постоянной охладной температуры",
+      "correction": "постоянно низкой температуры",
+      "description": "Incorrect word: 'охладной' is not standard; 'низкой' is the correct adjective for temperature",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "зимние холодания",
+      "correction": "зимние холода",
+      "description": "Incorrect word: 'холодания' is not used in Russian; 'холода' is correct",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "осадком",
+      "correction": "осадков",
+      "description": "Incorrect case: 'осадком' should be 'осадков' (Genitive plural for 'осадки')",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "создает более мягкое климат",
+      "correction": "создает более мягкий климат",
+      "description": "Incorrect adjective-noun agreement: 'мягкое' should be 'мягкий' to match masculine noun 'климат'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Вездовые течения",
+      "correction": "Водные течения",
+      "description": "Incorrect word: 'Вездовые' is not a standard term; 'Водные' is correct for water currents",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "теплоидные течения и холодоносные течения",
+      "correction": "теплые течения и холодные течения",
+      "description": "Incorrect word: 'теплоидные' and 'холодоносные' are not standard; 'теплые' and 'холодные' are correct",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "теплоидные течения способствуют более теплым погодам на юге",
+      "correction": "теплые течения способствуют более теплой погоде на юге",
+      "description": "Incorrect word and form: 'погодам' should be 'погоде'; 'теплоидные' should be 'теплые'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "холодоносные течения приводят к более холодным условиям на севере",
+      "correction": "холодные течения приводят к более холодным условиям на севере",
+      "description": "Incorrect word: 'холодоносные' should be 'холодные'",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:19:00.645988",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "le Gulf Stream chauffe les côtes est-américaines et européennes",
+      "correction": "le Gulf Stream réchauffe les côtes est-américaines et européennes",
+      "description": "Word choice: 'réchauffe' is more appropriate than 'chauffe' when referring to the warming effect of ocean currents.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "French",
+    "timestamp": "2025-10-05T08:16:38.092765",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

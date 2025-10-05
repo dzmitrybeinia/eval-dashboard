@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "自然資源とは、環境に自然に存在し、生物、特に人間が生活を支えたり日々のニーズを満たしたりするために使用する物質や材料のことです。",
+      "correction": "自然資源とは、環境に自然に存在し、生物、特に人間が生活を支えたり、日々のニーズを満たしたりするために使用する物質や材料のことです。",
+      "description": "Missing comma after '支えたり' for parallel structure clarity",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "種類は以下の通りです：",
+      "correction": "種類は以下の通りです。",
+      "description": "Colon is not standard Japanese punctuation; use a period instead",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "例: 太陽光は電力を生成するために利用される。石炭は採掘されてエネルギーを生産するために燃焼される。",
+      "correction": "例：太陽光は電力を生成するために利用される。石炭は採掘されてエネルギーを生産するために燃焼される。",
+      "description": "Colon should be full-width '：' in Japanese",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "例: 水は農業の灌漑や家庭での飲料水として使用される。",
+      "correction": "例：水は農業の灌漑や家庭での飲料水として使用される。",
+      "description": "Colon should be full-width '：' in Japanese",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "例: 自転車や公共交通機関の利用はガソリンへの依存を減らす。",
+      "correction": "例：自転車や公共交通機関の利用はガソリンへの依存を減らす。",
+      "description": "Colon should be full-width '：' in Japanese",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "例: 大量の石油資源を持つ国は、石油を輸出し、エネルギー生産に関連する産業を発展させる。",
+      "correction": "例：大量の石油資源を持つ国は、石油を輸出し、エネルギー生産に関連する産業を発展させる。",
+      "description": "Colon should be full-width '：' in Japanese",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "例: 肥沃な土壌と豊富な水源を持つ国は、強力な農業経済を持つことが多い。",
+      "correction": "例：肥沃な土壌と豊富な水源を持つ国は、強力な農業経済を持つことが多い。",
+      "description": "Colon should be full-width '：' in Japanese",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T03:59:29.664563",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

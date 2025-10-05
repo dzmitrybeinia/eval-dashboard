@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "再生可能資源は地球の生態系に不可欠です。.",
+      "correction": "再生可能資源は地球の生態系に不可欠です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "太陽光や風などのエネルギー源は、人間の生活を支えるだけでなく、環境にも優しい形で利用されます。.",
+      "correction": "太陽光や風などのエネルギー源は、人間の生活を支えるだけでなく、環境にも優しい形で利用されます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "再生可能エネルギーは化石燃料に比べて環境への影響が少ない。.",
+      "correction": "再生可能エネルギーは化石燃料に比べて環境への影響が少ない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "これらは化石燃料とは異なり、燃焼時に減少させる汚染物質を排出しないため、環境への負荷が少ないとされています。.",
+      "correction": "これらは化石燃料とは異なり、燃焼時に減少させる汚染物質を排出しないため、環境への負荷が少ないとされています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "再利用は資源の消耗を減らす重要な方法です。.",
+      "correction": "再利用は資源の消耗を減らす重要な方法です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "これは、環境への影響を軽減し、資源を長く持続可能に保つために重要です。.",
+      "correction": "これは、環境への影響を軽減し、資源を長く持続可能に保つために重要です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "資源が豊富な地域は経済が繁荣することが一般的です。.",
+      "correction": "資源が豊富な地域は経済が繁栄することが一般的です。",
+      "description": "Redundant period and spelling error: '繁荣' should be '繁栄' for correct Japanese spelling; only one full-width period (。) should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "それらを輸出して経済を支えることによって確立される経済モデルに反映されています。.",
+      "correction": "それらを輸出して経済を支えることによって確立される経済モデルに反映されています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "自然資源は永遠に存在しているため、人間の利用には限度がありません。.",
+      "correction": "自然資源は永遠に存在しているため、人間の利用には限度がありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "自然資源は確かに限られていますが、その存在は絶えないわけではありません。.",
+      "correction": "自然資源は確かに限られていますが、その存在は絶えないわけではありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:40:12.400719",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

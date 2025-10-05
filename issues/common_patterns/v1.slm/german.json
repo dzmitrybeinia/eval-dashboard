@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "german",
+    "generated_at": "2025-10-05T08:23:50.662987"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect spelling of 'hauptsächlich'",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Frequent misspellings and malformed variants of the word 'hauptsächlich' disrupt comprehension and professional tone.",
+      "examples": [
+        {
+          "wrong": "hauptseteig",
+          "correct": "hauptsächlich",
+          "context": "Quiz answer options and explanations"
+        },
+        {
+          "wrong": "hauptseteilt",
+          "correct": "hauptsächlich",
+          "context": "Quiz answer options and explanations"
+        },
+        {
+          "wrong": "hauptseteilig",
+          "correct": "hauptsächlich",
+          "context": "Quiz answer options and explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect word choice in scientific and factual contexts",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Wrong or non-idiomatic word choices lead to factual errors and misrepresentation of scientific concepts.",
+      "examples": [
+        {
+          "wrong": "Maßeinheit von 90 Grad",
+          "correct": "Maßeinheit von weniger als 90 Grad",
+          "context": "Definition of geometric terms"
+        },
+        {
+          "wrong": "Dividierend Informationen in kleinere Abschnitte verbessert das Erinnern.",
+          "correct": "Das Teilen von Informationen in kleinere Abschnitte verbessert das Erinnern.",
+          "context": "Explanation of memory techniques"
+        },
+        {
+          "wrong": "Wenn Wasser gefriert, gewinnen die Wassermoleküle tatsächlich Energie.",
+          "correct": "Wenn Wasser gefriert, verlieren die Wassermoleküle tatsächlich Energie.",
+          "context": "Scientific explanation of freezing"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-verb agreement and case/gender errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Mistakes in subject-verb agreement and incorrect use of case/gender reduce clarity and correctness.",
+      "examples": [
+        {
+          "wrong": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+          "correct": "Mitochondrien sind die Zellbestandteile, die für die Energieproduktion verantwortlich sind.",
+          "context": "Biology explanations"
+        },
+        {
+          "wrong": "In der Vereinigten Staaten ist es der Judikative, insbesondere dem Obersten Gerichtshof, die Befugnis hat, Gesetze zu interpretieren und gegebenenfalls als verfassungswidrig zu erklären.",
+          "correct": "In den Vereinigten Staaten ist es die Judikative, insbesondere der Oberste Gerichtshof, die die Befugnis hat, Gesetze zu interpretieren und gegebenenfalls als verfassungswidrig zu erklären.",
+          "context": "Civics and law explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Factual errors due to incorrect lexical choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Incorrect lexical choices result in factual inaccuracies, especially in scientific and mathematical contexts.",
+      "examples": [
+        {
+          "wrong": "Elemente in der zweiten Periode haben tatsächlich drei Valenzelektronen.",
+          "correct": "Elemente in der zweiten Periode haben tatsächlich zwei Valenzelektronen.",
+          "context": "Chemistry explanations"
+        },
+        {
+          "wrong": "Zum Beispiel hat Magnesium (Mg) drei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+          "correct": "Zum Beispiel hat Magnesium (Mg) zwei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+          "context": "Chemistry explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unidiomatic or Awkward Word Choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 28,
+      "description": "Frequent use of words or phrases that are technically correct but not idiomatic or natural in German, affecting clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "Das Gegenteil der Wahrheit, schlechte digitale Etikette trägt oft zu negativen Ergebnissen bei.",
+          "correct": "Im Gegenteil, schlechte digitale Etikette trägt oft zu negativen Ergebnissen bei.",
+          "context": "Awkward introductory phrase; idiomatic alternative improves clarity."
+        },
+        {
+          "wrong": "eine Funktion von Algorithmen",
+          "correct": "Aufgabe von Algorithmen",
+          "context": "Non-idiomatic phrase for algorithmic responsibility."
+        },
+        {
+          "wrong": "manipulieren",
+          "correct": "verarbeiten",
+          "context": "Verb choice for data handling in programming context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Word Choice and Unidiomatic Expressions",
+      "category": "linguistic",
+      "subcategory": "Lexical | Word Choice | Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Use of inappropriate, misleading, or awkward words and phrases that do not fit the context or standard German usage.",
+      "examples": [
+        {
+          "wrong": "Variablen ermöglichen, die Unbekannten zu erfinden.",
+          "correct": "Variablen ermöglichen, die Unbekannten zu finden.",
+          "context": "Incorrect verb for context"
+        },
+        {
+          "wrong": "Freundlichkeit gewährt sich durch Selbstbehauptung.",
+          "correct": "Freundlichkeit zeigt sich durch Selbstbehauptung.",
+          "context": "Unidiomatic verb usage"
+        },
+        {
+          "wrong": "beispielhaft den Einkaufslisten",
+          "correct": "beispielsweise Einkaufslisten",
+          "context": "Awkward phrasing"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender and Number Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar | Agreement",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 14,
+      "description": "Frequent mismatches between articles, adjectives, and nouns in gender or number, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "der Kaktuszaunkönigin hat Verhaltensweisen",
+          "correct": "die Kaktuszaunkönigin hat Verhaltensweisen",
+          "context": "Incorrect article for feminine noun"
+        },
+        {
+          "wrong": "Ihr dicker Fell",
+          "correct": "Ihr dickes Fell",
+          "context": "Adjective ending does not match neuter noun"
+        },
+        {
+          "wrong": "das Risiko für die eigenen Leben",
+          "correct": "das Risiko für das eigene Leben",
+          "context": "Number agreement error"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and Morphological Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography | Spelling | Morphology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Misspelled words, incorrect verb forms, and improper adjective endings that reduce professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "Genetisches Fallacy",
+          "correct": "genetischer Fehlschluss",
+          "context": "Incorrect use of English term"
+        },
+        {
+          "wrong": "Behaucht Entscheidungen",
+          "correct": "Behauchte Entscheidungen",
+          "context": "Adjective form error"
+        },
+        {
+          "wrong": "bestimmige",
+          "correct": "bestimmte",
+          "context": "Spelling error"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Missing Case/Preposition",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Errors in case assignment or preposition usage, especially with genitive constructions and parallel structures, leading to grammatical inaccuracies.",
+      "examples": [
+        {
+          "wrong": "durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
+          "correct": "aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
+          "context": "Parallel structure and genitive case after 'aufgrund'."
+        },
+        {
+          "wrong": "in ein Gas umgewandelt wird",
+          "correct": "zu einem Gas umgewandelt wird",
+          "context": "Preposition error after 'umgewandelt wird'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Preposition and Case Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar | Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Incorrect use of prepositions and case endings, resulting in unnatural or confusing sentences.",
+      "examples": [
+        {
+          "wrong": "DNA-Synthese findet in der Zellkern statt.",
+          "correct": "DNA-Synthese findet im Zellkern statt.",
+          "context": "Incorrect preposition and article"
+        },
+        {
+          "wrong": "jeden Zeitpunkt über jede neue Fähigkeit",
+          "correct": "zu jedem Zeitpunkt bei jeder neuen Fähigkeit",
+          "context": "Preposition and case error"
+        },
+        {
+          "wrong": "in ihrem eigenen Online-Nachrichten antworten",
+          "correct": "auf ihre eigenen Online-Nachrichten antworten",
+          "context": "Incorrect preposition"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-Verb Agreement and Sentence Structure Issues",
+      "category": "linguistic",
+      "subcategory": "Grammar | Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 6,
+      "description": "Errors in matching subjects and verbs or constructing sentences, leading to awkward or unclear statements.",
+      "examples": [
+        {
+          "wrong": "In Wirklichkeit bewegen sich die Achse",
+          "correct": "In Wirklichkeit bewegt sich die Achse",
+          "context": "Subject-verb agreement error"
+        },
+        {
+          "wrong": "die grundlegenden Emotionen selbst sind in allen Gesellschaften erlebt.",
+          "correct": "die grundlegenden Emotionen selbst werden in allen Gesellschaften erlebt.",
+          "context": "Incorrect verb form for passive voice"
+        },
+        {
+          "wrong": "Wahlberechtigten bieten die Möglichkeit",
+          "correct": "Wahlberechtigten wird die Möglichkeit geboten",
+          "context": "Incorrect sentence structure"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Capitalization Errors (Nouns and Adjectives)",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Incorrect capitalization of nouns and adjectives, including missing capitalization for nouns and unnecessary capitalization for adjectives.",
+      "examples": [
+        {
+          "wrong": "moment",
+          "correct": "Moment",
+          "context": "Noun capitalization error."
+        },
+        {
+          "wrong": "Gleichseitig, Gleichschenklig oder Ungleichseitig",
+          "correct": "gleichseitig, gleichschenklig oder ungleichseitig",
+          "context": "Adjectives incorrectly capitalized."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary or Incorrect Use of Articles",
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Use of definite or indefinite articles where not required, especially before general nouns or titles.",
+      "examples": [
+        {
+          "wrong": "Die Götter wie Ra und Osiris waren in der Religion zentraler.",
+          "correct": "Götter wie Ra und Osiris waren in der Religion zentraler.",
+          "context": "Unnecessary definite article before general reference."
+        },
+        {
+          "wrong": "Ein 'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+          "correct": "'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+          "context": "Unnecessary indefinite article before a definite title."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Compound Noun and Hyphenation Issues",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Incorrect formation or hyphenation of compound nouns, affecting readability and clarity.",
+      "examples": [
+        {
+          "wrong": "Feuerlöschergebrauch",
+          "correct": "Feuerlöscher-Gebrauch",
+          "context": "Missing hyphen in compound noun for lesson title."
+        },
+        {
+          "wrong": "das Sich-Hin-Wenden-an-Andere",
+          "correct": "das Sich-Hinwenden an Andere",
+          "context": "Incorrect compound noun formation with unnecessary hyphens."
+        }
+      ]
+    }
+  ]
+}

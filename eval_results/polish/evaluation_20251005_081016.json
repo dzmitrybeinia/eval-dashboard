@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "procesami wewnętrzne",
+      "correction": "procesami wewnętrznymi",
+      "description": "Incorrect case ending: 'wewnętrzne' should be 'wewnętrznymi' (instrumental plural).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "nie są zobrazowane na zewnątrz organizmu",
+      "correction": "nie są widoczne na zewnątrz organizmu",
+      "description": "Awkward phrasing: 'zobrazowane' is not idiomatic here; 'widoczne' is the correct word.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "na swojej przenośnej",
+      "correction": "na swojej ofierze",
+      "description": "Incorrect word usage: 'przenośnej' is not appropriate; 'ofierze' is the correct term for prey.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "dogrywanie drapieżników",
+      "correction": "przytrzymywanie ofiary",
+      "description": "Incorrect word usage: 'dogrywanie drapieżników' is unclear; 'przytrzymywanie ofiary' is correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zyskały na użyteczności",
+      "correction": "zyskały na znaczeniu",
+      "description": "Word choice error: 'użyteczności' is awkward; 'znaczeniu' is idiomatic in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "trwały dłużej na drzewach",
+      "correction": "utrzymywały się dłużej na drzewach",
+      "description": "Word choice error: 'trwały' is not idiomatic; 'utrzymywały się' is correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczniąją się w populacjach",
+      "correction": "zazwyczaj utrzymują się w populacjach",
+      "description": "Spelling and word choice error: 'zazwyczniąją' is a misspelling; 'zazwyczaj utrzymują się' is correct.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:10:16.194075",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

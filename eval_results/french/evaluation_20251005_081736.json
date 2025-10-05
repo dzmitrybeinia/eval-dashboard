@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Le rock music est caractérisé par l'utilisation de guitares électriques et de voix puissantes.",
+      "correction": "Le rock est caractérisé par l'utilisation de guitares électriques et de voix puissantes.",
+      "description": "Incorrect word usage: 'rock music' should be 'rock' in French.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "French",
+    "timestamp": "2025-10-05T08:17:36.605098",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "人工知能は機械が完全に人間のような思考を持つことができます。.",
+      "correction": "人工知能は機械が完全に人間のような思考を持つことができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "人工知能（AI）は、人間の知能を模倣するプロセスを実現するために設計されていますが、完全に人間のような思考を持つことはできません。現在の技術では、AIは特定のタスクを効率良く実行する能力を持ち、複雑な問題解決や感情認識のような人間の思考の微妙な側面を完全に理解することはまだできません。.",
+      "correction": "人工知能（AI）は、人間の知能を模倣するプロセスを実現するために設計されていますが、完全に人間のような思考を持つことはできません。現在の技術では、AIは特定のタスクを効率良く実行する能力を持ち、複雑な問題解決や感情認識のような人間の思考の微妙な側面を完全に理解することはまだできません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "狭いAIは自動車のナビゲーションシステムを含む、ほとんどの日常生活に必要なタスクを実行できます。.",
+      "correction": "狭いAIは自動車のナビゲーションシステムを含む、ほとんどの日常生活に必要なタスクを実行できます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "狭いAIは、特定のタスクに焦点を当てて設計されていますが、自動車のナビゲーションシステムよりも一般的なタスクには限られていません。狭いAIは通常、スマートホームデバイスや音声アシスタントなどの特定の用途に使用されています。.",
+      "correction": "狭いAIは、特定のタスクに焦点を当てて設計されていますが、自動車のナビゲーションシステムよりも一般的なタスクには限られていません。狭いAIは通常、スマートホームデバイスや音声アシスタントなどの特定の用途に使用されています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "自動運転車は人工知能を使って道路をナビゲートする。.",
+      "correction": "自動運転車は人工知能を使って道路をナビゲートする。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "この声明は正しいです。自動運転車はAIを活用して運転のさまざまな側面を支援しています。その中でも、道路をナビゲートする能力はAIの重要な役割の一つです。.",
+      "correction": "この声明は正しいです。自動運転車はAIを活用して運転のさまざまな側面を支援しています。その中でも、道路をナビゲートする能力はAIの重要な役割の一つです。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "人工知能は機械が人間の知能を完全に取り入れることができる。.",
+      "correction": "人工知能は機械が人間の知能を完全に取り入れることができる。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "人工知能は人間の知能を模倣することに焦点を当てていますが、完全に取り入れるという誤解を招く誤解があります。現在のAIは特定のタスクをより効率良く処理することに焦点を当てています。.",
+      "correction": "人工知能は人間の知能を模倣することに焦点を当てていますが、完全に取り入れるという誤解を招く誤解があります。現在のAIは特定のタスクをより効率良く処理することに焦点を当てています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:41:44.163740",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

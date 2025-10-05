@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "In solids, particles vibrate but maintain a fixed volume.",
+      "correction": "In solids, particles vibrate but maintain a fixed shape and volume.",
+      "description": "The statement omits 'shape,' which is necessary for accurate and clear description of solids.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter_1.md",
+    "language": "English",
+    "timestamp": "2025-10-05T08:07:49.658732",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

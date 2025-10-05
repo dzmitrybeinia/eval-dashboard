@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "円は角や辺のない丸い形です。",
+      "correction": "円は角や辺がない丸い形です。",
+      "description": "Awkward phrasing: 'のない' should be attached directly to '角や辺がない' for natural Japanese expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "円の端のすべての点は中心から同じ距離にあります。",
+      "correction": "円周上のすべての点は中心から同じ距離にあります。",
+      "description": "Word choice: '円の端' is unnatural; '円周上' is the correct term for points on a circle.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ピザや時計は円の形をしています！",
+      "correction": "ピザや時計は円形をしています！",
+      "description": "Word choice: '円形' is more natural than '円の形' for describing objects shaped like a circle.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "家の屋根はしばしば三角形の形をしています。",
+      "correction": "家の屋根はしばしば三角形をしています。",
+      "description": "Word choice: '三角形をしています' is more natural than '三角形の形をしています'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "チェスボードや窓枠はしばしば正方形の形をしています。",
+      "correction": "チェスボードや窓枠はしばしば正方形をしています。",
+      "description": "Word choice: '正方形をしています' is more natural than '正方形の形をしています'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "滑り台の屋根（三角形）",
+      "correction": "滑り台の屋根（三角形）",
+      "description": "No correction needed; included for deduplication check.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T03:59:04.912485",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

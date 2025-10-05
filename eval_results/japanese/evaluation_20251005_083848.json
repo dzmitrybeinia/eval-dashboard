@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "フィクションは必ず真実の出来事である。.",
+      "correction": "フィクションは必ず真実の出来事である。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ノンフィクション書は、歴史上の人物の生活についての創作物です。.",
+      "correction": "ノンフィクション書は、歴史上の人物の生活についての創作物です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ノンフィクションは完全に架空の世界ではない。.",
+      "correction": "ノンフィクションは完全に架空の世界ではない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "それにもかかわらず、現実世界の経験を元に物語が作られることもあります。.",
+      "correction": "それにもかかわらず、現実世界の経験を元に物語が作られることもあります。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ノンフィクション書は、実際の出来事や人物に基づいているため、歴史上の人物の生活を創作するのではありません。.",
+      "correction": "ノンフィクション書は、実際の出来事や人物に基づいているため、歴史上の人物の生活を創作するのではありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ノンフィクションは実際の出来事や歴史的な人物、地理的な場所を含むことが多く、フィクションは完全に創造的な内容を扱うのに対しています。.",
+      "correction": "ノンフィクションは実際の出来事や歴史的な人物、地理的な場所を含むことが多く、フィクションは完全に創造的な内容を扱うのに対しています。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:38:48.614491",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

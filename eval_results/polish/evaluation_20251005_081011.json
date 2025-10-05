@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "żarowiami",
+      "correction": "żarówkami",
+      "description": "Spelling error: incorrect word form; 'żarowiami' is not a valid Polish word.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Egipsku",
+      "correction": "Egipcie",
+      "description": "Incorrect case and word form; 'Egipsku' should be 'Egipcie' (locative case).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "żarowce",
+      "correction": "żarówki",
+      "description": "Spelling error: 'żarowce' is not a valid word in this context; should be 'żarówki'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "poniewaćż",
+      "correction": "ponieważ",
+      "description": "Spelling error: 'poniewaćż' is a misspelling of 'ponieważ'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "było ono skomplikowane i szybkie do nauczania",
+      "correction": "było ono skomplikowane i trudne do nauczenia",
+      "description": "Incorrect word choice; 'szybkie do nauczania' should be 'trudne do nauczenia'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "hieroglify, znany również jako hieroglify",
+      "correction": "hieroglify, znane również jako hieroglify",
+      "description": "Gender and number agreement error; 'znany' should be 'znane' to agree with plural 'hieroglify'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "przekazywania wierzeń i przeznaczeń",
+      "correction": "przekazywania wierzeń i tradycji",
+      "description": "Incorrect word choice; 'przeznaczeń' is awkward and unclear in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "rzemion",
+      "correction": "narzędzi",
+      "description": "Incorrect word usage; 'rzemion' is not appropriate, should be 'narzędzi'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "jego wyraźną wygląd",
+      "correction": "jego wyraźny wygląd",
+      "description": "Incorrect adjective-noun agreement; 'wyraźną wygląd' should be 'wyraźny wygląd'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "w dziedzinie artystycznym",
+      "correction": "w dziedzinie artystycznej",
+      "description": "Incorrect adjective-noun agreement; 'artystycznym' should be 'artystycznej' to match 'dziedzinie'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:10:11.971293",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.6,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.4,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

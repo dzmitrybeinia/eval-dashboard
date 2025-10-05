@@ -1,0 +1,163 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "Spelling error: incorrect word form, should be 'zazwyczaj'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "świętów",
+      "correction": "świąt",
+      "description": "Grammar error: incorrect genitive plural form, should be 'świąt'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "odwraceniem",
+      "correction": "pominięciem",
+      "description": "Word choice error: 'odwraceniem' is awkward and incorrect in this context; 'pominięciem' fits the intended meaning",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Boże Narodzenie obchodzony jest jedynie w Meksyku.",
+      "correction": "Boże Narodzenie obchodzone jest jedynie w Meksyku.",
+      "description": "Grammar error: participle 'obchodzony' should agree in gender and number with 'Boże Narodzenie' (neuter), so 'obchodzone'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "rzymowsko-katolickiej",
+      "correction": "rzymsko-katolickiej",
+      "description": "Spelling/word choice error: correct form is 'rzymsko-katolickiej'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "tradycji religijną",
+      "correction": "tradycją religijną",
+      "description": "Grammar error: incorrect case, should be instrumental 'tradycją religijną'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "świątynię",
+      "correction": "święto",
+      "description": "Word choice error: 'świątynię' (temple) is incorrect, should be 'święto' (holiday)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "nie jest ona z nich",
+      "correction": "nie jest jednym z nich",
+      "description": "Grammar error: incorrect phrase, should be 'nie jest jednym z nich'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "świąt kulturowe",
+      "correction": "święta kulturowe",
+      "description": "Grammar error: incorrect case and number agreement, should be 'święta kulturowe'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "odzwierczają",
+      "correction": "odzwierciedlają",
+      "description": "Word choice error: 'odzwierczają' is incorrect, should be 'odzwierciedlają'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "w wzmacnianiu",
+      "correction": "we wzmacnianiu",
+      "description": "Grammar error: missing euphonic 'we' before 'wzmacnianiu'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "do poczucie wspólnoty",
+      "correction": "do poczucia wspólnoty",
+      "description": "Grammar error: incorrect case, should be genitive 'do poczucia wspólnoty'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "zbliżenia się",
+      "correction": "zbliżenia się do siebie",
+      "description": "Grammar error: incomplete phrase, should be 'zbliżenia się do siebie'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Chrzęstnica w Wielkiej Brytanii",
+      "correction": "Christmas pudding w Wielkiej Brytanii",
+      "description": "Word choice error: 'Chrzęstnica' is not a correct term; 'Christmas pudding' is the proper name",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "tradycje śląskie",
+      "correction": "tradycje brytyjskie",
+      "description": "Word choice error: 'tradycje śląskie' (Silesian traditions) is incorrect in context of British Christmas pudding; should be 'tradycje brytyjskie'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ochichin",
+      "correction": "Osechi",
+      "description": "Word choice error: 'Ochichin' is incorrect, the correct term for Japanese New Year food is 'Osechi'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "świąteczne zakupy świąteczne",
+      "correction": "świąteczne potrawy",
+      "description": "Word choice error: 'świąteczne zakupy świąteczne' is redundant and incorrect, should be 'świąteczne potrawy'",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:11:11.732676",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 5.5,
+    "classification": "POOR",
+    "total_issues": 17,
+    "total_penalty": 4.5,
+    "issue_breakdown": {
+      "linguistic": 17,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 4.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

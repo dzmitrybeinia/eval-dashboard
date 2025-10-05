@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "portuguese",
+    "generated_at": "2025-10-05T03:58:21.222637"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect or awkward word choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Frequent use of non-idiomatic, incorrect, or non-standard words and expressions that reduce clarity and naturalness in Portuguese.",
+      "examples": [
+        {
+          "wrong": "Representação aumentada de afro-americanos em governo, educação e mídia.",
+          "correct": "Aumento da representação de afro-americanos no governo, na educação e na mídia.",
+          "context": "Awkward phrasing and incorrect preposition usage."
+        },
+        {
+          "wrong": "Como ele é expressado?",
+          "correct": "Como ele é expresso?",
+          "context": "Incorrect verb form for 'expressar'."
+        },
+        {
+          "wrong": "Encargado de criar e aprovar leis.",
+          "correct": "Responsável por criar e aprovar leis.",
+          "context": "Non-standard term 'encargado' instead of 'responsável'."
+        },
+        {
+          "wrong": "Construindo Argumentos Convincente com Ethos, Pathos e Logos",
+          "correct": "Construindo Argumentos Convincentes com Ethos, Pathos e Logos",
+          "context": "Adjective agreement error."
+        },
+        {
+          "wrong": "Comprando cartas com objetivos específicos.",
+          "correct": "Comprando cartas com objetivos específicos.",
+          "context": "Incorrect verb for card games; should be 'comprando' (drawing) not 'comprando' (buying)."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing Definite Articles",
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Omission of definite articles ('a', 'o', 'as', 'os', 'das') before nouns and noun phrases, leading to unnatural or incomplete phrasing in Portuguese.",
+      "examples": [
+        {
+          "wrong": "importância das habilidades de estudo",
+          "correct": "A importância das habilidades de estudo",
+          "context": "Phrase opening missing the definite article"
+        },
+        {
+          "wrong": "resumo habilidades de estudo",
+          "correct": "resumo das habilidades de estudo",
+          "context": "Noun phrase missing article for clarity"
+        },
+        {
+          "wrong": "oferecem perspectivas diversificadas sobre vida, espiritualidade e ética.",
+          "correct": "oferecem perspectivas diversificadas sobre a vida, a espiritualidade e a ética.",
+          "context": "List of abstract nouns missing articles"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or Non-Idiomatic Word Choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of unnatural or awkward expressions that do not align with idiomatic Portuguese, affecting fluency and clarity.",
+      "examples": [
+        {
+          "wrong": "A localização do Egito conectava-o a outras regiões",
+          "correct": "A localização do Egito o conectava a outras regiões",
+          "context": "Pronoun placement is less natural"
+        },
+        {
+          "wrong": "Testes avaliam o quão bem o protótipo resolve o problema.",
+          "correct": "Testes avaliam o quanto o protótipo resolve o problema.",
+          "context": "Expression 'o quão bem' is awkward"
+        },
+        {
+          "wrong": "Evite compartilhar excessivamente",
+          "correct": "Evite compartilhar em excesso",
+          "context": "Verb phrase is less idiomatic"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntax interference from English",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Direct translation of English syntax or pronouns, leading to unnatural or incorrect Portuguese sentence structure.",
+      "examples": [
+        {
+          "wrong": "Os alimentos são mais do que algo que consumimos—they são o combustível para todos os processos do nosso corpo.",
+          "correct": "Os alimentos são mais do que algo que consumimos — eles são o combustível para todos os processos do nosso corpo.",
+          "context": "Use of English 'they' and missing space before dash."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and Hyphenation Errors",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Incorrect spelling or missing hyphenation in compound adjectives and proper nouns, which can affect professionalism and correctness.",
+      "examples": [
+        {
+          "wrong": "feedbacks",
+          "correct": "retornos",
+          "context": "Use of English word instead of Portuguese equivalent"
+        },
+        {
+          "wrong": "Eventos Chave Relacionados aos Direitos Humanos",
+          "correct": "Eventos-chave Relacionados aos Direitos Humanos",
+          "context": "Missing hyphen in compound adjective"
+        },
+        {
+          "wrong": "O tema de *O Sol é para Todos*",
+          "correct": "O tema de *O Sol é Para Todos*",
+          "context": "Improper capitalization in book title"
+        }
+      ]
+    }
+  ]
+}

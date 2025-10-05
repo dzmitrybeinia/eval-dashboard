@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Współpraca międzypolityczna przyczyniła się do opracowania PDPC.",
+      "correction": "Współpraca międzynarodowa przyczyniła się do opracowania PDPC.",
+      "description": "Incorrect word choice: 'międzypolityczna' is not standard; 'międzynarodowa' is the correct term for international cooperation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Wraz z przyczynieniem się do złożonego dokumentu PDPC, uczestniczył wiele krajów i kultur.",
+      "correction": "W opracowaniu złożonego dokumentu PDPC uczestniczyło wiele krajów i kultur.",
+      "description": "Incorrect sentence structure and word order; the original sentence is awkward and unclear.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Każda osoba prawnie ma prawo do edukacji i zadowolonego życia.",
+      "correction": "Każda osoba ma prawo do edukacji i godnego życia.",
+      "description": "Incorrect adjective: 'zadowolonego życia' is awkward; 'godnego życia' is the standard phrase in Polish legal context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta stwierdzenie odzwierciedza jedną z kluczowych zasad Powszechnej Deklaracji Praw Człowieka, która podkreśla znaczenie edukacji i dobrobytu jako podstawowych praw człowieka.",
+      "correction": "To stwierdzenie odzwierciedla jedną z kluczowych zasad Powszechnej Deklaracji Praw Człowieka, która podkreśla znaczenie edukacji i dobrobytu jako podstawowych praw człowieka.",
+      "description": "Gender agreement error: 'ta stwierdzenie' should be 'to stwierdzenie'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "To zasada jest podstawą wielu międzynarodowych polityk i porządku, a jej uznanie jest kluczowe dla rozumienia praw człowieka.",
+      "correction": "Ta zasada jest podstawą wielu międzynarodowych polityk i porządków, a jej uznanie jest kluczowe dla rozumienia praw człowieka.",
+      "description": "Incorrect noun and adjective agreement; 'to zasada' should be 'ta zasada', and 'porządku' should be plural 'porządków'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Obywatele zazwyczni powinni cierpieć, aby zachować prawa człowieka.",
+      "correction": "Obywatele zwyczajni powinni cierpieć, aby zachować prawa człowieka.",
+      "description": "Spelling error: 'zazwyczni' should be 'zwyczajni'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Wszystkie prawa człowieka są zakazane przeszkodzeniem jakimkolwiek formą cierpienia.",
+      "correction": "Wszystkie prawa człowieka zakazują jakiejkolwiek formy cierpienia.",
+      "description": "Incorrect sentence structure and word order; the original sentence is unclear and awkward.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Obywatele są niezbędni w promowaniu i ochronie tych praw, nie cierpieniem.",
+      "correction": "Obywatele są niezbędni w promowaniu i ochronie tych praw, a nie w cierpieniu.",
+      "description": "Incorrect sentence structure; 'nie cierpieniem' is not correct in this context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights_1.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:13:04.747745",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

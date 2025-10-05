@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Każdy rzut ma równą szansę na wylądowanie na orła lub reszki, co czyni go zdarzeniem losowym.",
+      "correction": "Każdy rzut ma równą szansę na wylądowanie na orle lub reszce, co czyni go zdarzeniem losowym.",
+      "description": "Incorrect case usage: 'na orła lub reszki' should be 'na orle lub reszce' (locative case after 'na' with static meaning).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Standardowa talia kart ma 52 karty, podzielone na 4 kolory (kier, karo, pik, trefl) i 13 rang (As do Króla).",
+      "correction": "Standardowa talia kart ma 52 karty, podzielone na 4 kolory (kier, karo, pik, trefl) i 13 rang (od Asa do Króla).",
+      "description": "Missing preposition: 'od Asa do Króla' is the correct phrase to indicate the range.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T03:48:27.979580",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

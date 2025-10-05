@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "princípulos",
+      "correction": "princípios",
+      "description": "Spelling error: incorrect word formation; correct is 'princípios'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Esses práticas são essenciais para o culto e a vida dos muçulmanos, cada um atendendo a diferentes aspectos da espiritualidade e comunidade.",
+      "correction": "Essas práticas são essenciais para o culto e a vida dos muçulmanos, cada uma atendendo a diferentes aspectos da espiritualidade e comunidade.",
+      "description": "Gender agreement error: 'práticas' is feminine and plural, so 'essas' and 'cada uma' should be used.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "desconsiderar uma parte importante da doutrina hinduísta.",
+      "correction": "desconsiderar uma parte importante da doutrina hindu.",
+      "description": "Word choice: 'hinduísta' refers to a follower, 'hindu' refers to the religion/doctrine.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "desenvolvimento das qualidades éticas conhecidas como 'sangha'",
+      "correction": "desenvolvimento das qualidades éticas conhecidas como 'sīla'",
+      "description": "Word choice: 'sangha' refers to the Buddhist community, 'sīla' refers to ethical conduct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions_1.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:25:38.022155",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

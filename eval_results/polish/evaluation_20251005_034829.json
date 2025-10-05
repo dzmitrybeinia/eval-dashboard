@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "To pomoże Ci nie tylko lepiej zrozumieć informacje, ale także rozwijać umiejętności krytycznego myślenia!",
+      "correction": "To pomoże Ci nie tylko lepiej zrozumieć informacje, ale także rozwinąć umiejętności krytycznego myślenia!",
+      "description": "Incorrect verb aspect: 'rozwijać' should be 'rozwinąć' to match the completed action implied by 'pomoże'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T03:48:29.285757",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

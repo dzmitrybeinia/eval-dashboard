@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "prelecency",
+      "correction": "prelekcje",
+      "description": "Spelling error: incorrect word form and missing diacritic",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "wierzyć w różne stwierdzenia",
+      "correction": "przyjmować różne stwierdzenia",
+      "description": "Word choice error: 'wierzyć' is awkward in this context; 'przyjmować' fits better",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "wykonywać decyzje",
+      "correction": "podejmować decyzje",
+      "description": "Word choice error: 'wykonywać decyzje' is incorrect; 'podejmować decyzje' is the proper collocation",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "umiejętności rozumieć i stawiać wartość na argumenty",
+      "correction": "umiejętności rozumienia i oceniania argumentów",
+      "description": "Grammar error: incorrect noun case and verb form; should use gerunds and proper case",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ponowny rozwód z powodu uprzedzenia selekcyjnego w relacji",
+      "correction": "Powtórny rozwód z powodu uprzedzenia selekcyjnego w związku",
+      "description": "Word choice error: 'relacja' is less idiomatic than 'związek' in this context",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "wpłynąć na zdanej się o relacji",
+      "correction": "wpłynąć na zdanie o związku",
+      "description": "Grammar error: incorrect noun form and case; 'zdanej się' should be 'zdanie', 'relacji' should be 'związku'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+      "correction": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat'.",
+      "description": "Punctuation error: missing closing quotation mark",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Silne dowody powinny być opierane na badaniach naukowych i empirycznych danych",
+      "correction": "Silne dowody powinny opierać się na badaniach naukowych i danych empirycznych",
+      "description": "Grammar error: incorrect verb construction; should use 'opierać się na'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Krytyczne myślenie polega wyłącznie na odrzucaniu wszystkich wiadomości.",
+      "correction": "Krytyczne myślenie polega wyłącznie na odrzucaniu wszystkich informacji.",
+      "description": "Word choice error: 'wiadomości' is less appropriate than 'informacji' in this context",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obejmuje proces rozpoznawania potencjalnych uprzedzeń, oceniania dowodów i ich porównywania w celu określenia, czy informacje są rzeczywiste i wiarygodne.",
+      "correction": "Obejmuje proces rozpoznawania potencjalnych uprzedzeń, oceniania dowodów i ich porównywania w celu określenia, czy informacje są prawdziwe i wiarygodne.",
+      "description": "Word choice error: 'rzeczywiste' should be 'prawdziwe' when referring to information",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:11:02.630220",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

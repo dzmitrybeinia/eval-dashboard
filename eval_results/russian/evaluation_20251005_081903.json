@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "обрабаatesть",
+      "correction": "обрабатывать",
+      "description": "Spelling error: incorrect word formation, should be 'обрабатывать'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "Как переменные влияют работу цикла?.",
+      "correction": "Как переменные влияют работу цикла?",
+      "description": "Punctuation error: unnecessary period after question mark",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Как переменные влияют работу цикла?.",
+      "correction": "Как переменные влияют на работу цикла?",
+      "description": "Syntax error: missing preposition 'на' in the phrase",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:19:03.765073",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

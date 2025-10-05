@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "イオン推進システムは化学ロケットよりも速い速度で宇宙に到達できます。.",
+      "correction": "イオン推進システムは化学ロケットよりも速い速度で宇宙に到達できます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "イオン推進システムは燃料を燃焼させることなく加速するため、化学ロケットに比べてエネルギー効率が高いですが、速度に関しては一般的には速さを提供するわけではありません。.",
+      "correction": "イオン推進システムは燃料を燃焼させることなく加速するため、化学ロケットに比べてエネルギー効率が高いですが、速度に関しては一般的には速さを提供するわけではありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ニュートンの万有引力の法則によると、宇宙船が地球から離れるために必要な速度は一定です。.",
+      "correction": "ニュートンの万有引力の法則によると、宇宙船が地球から離れるために必要な速度は一定です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ニュートンの万有引力の法則は、物体間の距離が変わると引力が変動することを考慮しています。地球から離れるために必要な速度は、距離が着実に減少するにつれて確実に減少します。.",
+      "correction": "ニュートンの万有引力の法則は、物体間の距離が変わると引力が変動することを考慮しています。地球から離れるために必要な速度は、距離が着実に減少するにつれて確実に減少します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "宇宙飛行士は短期間のミッションにも重力が大きな影響を与える。.",
+      "correction": "宇宙飛行士は短期間のミッションにも重力が大きな影響を与える。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "宇宙では微小重力が長期間のミッションに特に影響を及ぼし、身体機能に変化をもたらします。短期間のミッションでは地球上の重力と大きく異なる影響を持ちません。.",
+      "correction": "宇宙では微小重力が長期間のミッションに特に影響を及ぼし、身体機能に変化をもたらします。短期間のミッションでは地球上の重力と大きく異なる影響を持ちません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "イオン推進システムは、宇宙船のより効率的な運動を可能にします。.",
+      "correction": "イオン推進システムは、宇宙船のより効率的な運動を可能にします。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "イオン推進システムは、従来の化学燃料に比べて資源を節約し、より長い宇宙ミッションに適しているため、宇宙旅行において効率が向上します。.",
+      "correction": "イオン推進システムは、従来の化学燃料に比べて資源を節約し、より長い宇宙ミッションに適しているため、宇宙旅行において効率が向上します。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with an additional half-width period (.)",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:41:14.269377",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

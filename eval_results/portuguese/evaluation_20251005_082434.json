@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "supervisão inadequada dos alimentos no fogão",
+      "correction": "supervisão inadequada dos alimentos no fogão",
+      "description": "Ambiguous phrasing: 'supervisão inadequada dos alimentos no fogão' could be clearer as 'falta de supervisão dos alimentos no fogão' to avoid awkwardness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "verificação da resistência dos cabos das peças de mobília",
+      "correction": "verificação da resistência dos cabos ou das peças de mobília",
+      "description": "Awkward phrasing: 'cabos das peças de mobília' is unclear; should clarify if referring to electrical cables or furniture parts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "manter as instalações de resgate em caso de incêndio",
+      "correction": "manter disponíveis os equipamentos de resgate em caso de incêndio",
+      "description": "Incorrect word usage: 'instalações de resgate' is not idiomatic; 'equipamentos de resgate' is more appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:24:34.424278",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

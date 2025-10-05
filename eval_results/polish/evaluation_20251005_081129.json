@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "krzywe linie zazwyczniwują dystans",
+      "correction": "krzywe linie zazwyczaj sugerują dystans",
+      "description": "Spelling and word choice error: 'zazwyczniwują' is not a correct Polish word; 'zazwyczaj sugerują' is appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "dodaje teksturze i dynamiki",
+      "correction": "dodaje teksturę i dynamikę",
+      "description": "Incorrect case and word form: should be accusative singular, not dative/genitive.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "co jest kluczową funkcją tego rodzaju linii w technikach rysunkowych.",
+      "correction": "co jest kluczową funkcją tego rodzaju linii w technikach rysunkowych",
+      "description": "Unnecessary period at the end of a subordinate clause.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Kształty w sztuce zawsodowują wpływy kulturowe z krajów poza Europą.",
+      "correction": "Kształty w sztuce zawsze odzwierciedlają wpływy kulturowe z krajów poza Europą.",
+      "description": "Spelling error: 'zawsodowują' is not a correct Polish word; 'zawsze odzwierciedlają' is appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten stwierdzenie nie odnosi się bezpośrednio do podstawowych pojęć",
+      "correction": "To stwierdzenie nie odnosi się bezpośrednio do podstawowych pojęć",
+      "description": "Incorrect pronoun gender: 'Ten' should be 'To' for neuter noun 'stwierdzenie'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Cienieowanie może być używane do przedstawienia różnych tekstur na twoim rysunku.",
+      "correction": "Cieniowanie może być używane do przedstawienia różnych tekstur na twoim rysunku.",
+      "description": "Spelling error: 'Cienieowanie' should be 'Cieniowanie'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:11:29.820127",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

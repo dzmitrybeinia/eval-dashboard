@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "spanish",
+    "generated_at": "2025-10-05T03:47:09.630831"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Awkward or unnatural word choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Phrases use literal or awkward translations instead of natural Spanish expressions, reducing fluency.",
+      "examples": [
+        {
+          "wrong": "Necesitas 1.5 huevos.",
+          "correct": "Necesitas 1 huevo y medio.",
+          "context": "Quantities in instructions"
+        },
+        {
+          "wrong": "Platos indulgentes como la feijoada en Brasil y pasteles de rey en Europa.",
+          "correct": "Platos indulgentes como la feijoada en Brasil y el roscón de reyes en Europa.",
+          "context": "Cultural food references"
+        },
+        {
+          "wrong": "En caso de quemaduras graves, busca atención médica inmediata.",
+          "correct": "En caso de quemaduras graves, busca atención médica de inmediato.",
+          "context": "Advice for emergencies"
+        },
+        {
+          "wrong": "\"Me siento triste cuando no siento que me escuchan.\"",
+          "correct": "\"Me siento triste cuando siento que no me escuchan.\"",
+          "context": "Emotional statements"
+        },
+        {
+          "wrong": "En ciencias e ingeniería...",
+          "correct": "En ciencia e ingeniería...",
+          "context": "Parallel structure in academic subjects"
+        },
+        {
+          "wrong": "Marcar elecciones en la boleta...",
+          "correct": "Marcar las opciones en la boleta...",
+          "context": "Instructions for ballots"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect capitalization of poetic form names",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Poetic form names are incorrectly capitalized in Spanish; they should be lowercase unless at the start of a sentence.",
+      "examples": [
+        {
+          "wrong": "El Haiku es una forma de poesía...",
+          "correct": "El haiku es una forma de poesía...",
+          "context": "Names of poetic forms in explanations"
+        },
+        {
+          "wrong": "El Soneto",
+          "correct": "El soneto",
+          "context": "List of poetic forms"
+        },
+        {
+          "wrong": "El Verso Libre",
+          "correct": "El verso libre",
+          "context": "List of poetic forms"
+        },
+        {
+          "wrong": "La Villanelle",
+          "correct": "La villanela",
+          "context": "List of poetic forms"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling errors in specialized terminology",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Specialized terms and borrowed words are misspelled, affecting clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "grafiti",
+          "correct": "graffiti",
+          "context": "Art form terminology"
+        },
+        {
+          "wrong": "Shakespeareano",
+          "correct": "Shakespeariano",
+          "context": "Adjectives derived from names"
+        },
+        {
+          "wrong": "Petrarchano",
+          "correct": "Petrarquiano",
+          "context": "Adjectives derived from names"
+        },
+        {
+          "wrong": "Splash",
+          "correct": "¡Splash!",
+          "context": "Interjections missing Spanish punctuation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect word usage: 'mnemonics' vs. 'mnemotécnicos'",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "The English term 'mnemonics' is used instead of the correct Spanish equivalent 'mnemotécnicos', affecting clarity and localization fit.",
+      "examples": [
+        {
+          "wrong": "Los mnemonics son herramientas que nos ayudan a recordar información...",
+          "correct": "Los mnemotécnicos son herramientas que nos ayudan a recordar información...",
+          "context": "Definition and description of memory aids"
+        },
+        {
+          "wrong": "Los mnemonics simplifican información compleja...",
+          "correct": "Los mnemotécnicos simplifican información compleja...",
+          "context": "Explanation of how memory aids work"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Agreement errors in pronouns and adjectives",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Mistakes in singular/plural agreement for pronouns and adjectives, leading to grammatical inaccuracies and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Su grueso pelaje y capa de grasa los mantienen calientes en el Ártico.",
+          "correct": "Su grueso pelaje y capa de grasa lo mantienen caliente en el Ártico.",
+          "context": "Describing how features keep an animal warm"
+        },
+        {
+          "wrong": "Visualización: Hacerlo Memorables",
+          "correct": "Visualización: Hacerlo Memorable",
+          "context": "Adjective agreement in instructional headings"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of English terms instead of Spanish equivalents",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Use of English spelling for specialized terms instead of the Spanish equivalent, which can hinder comprehension and localization.",
+      "examples": [
+        {
+          "wrong": "Villanelle",
+          "correct": "Villanela",
+          "context": "Naming poetic forms in quiz content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect grammatical construction with participles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Use of a past participle ('basada') instead of the correct reflexive gerund ('basándote'), affecting clarity of instructions.",
+      "examples": [
+        {
+          "wrong": "Decide si tu hipótesis fue correcta basada en la evidencia.",
+          "correct": "Decide si tu hipótesis fue correcta basándote en la evidencia.",
+          "context": "Instructional phrasing in quiz questions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or incorrect punctuation in lists and interjections",
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Lists lack necessary commas and interjections miss Spanish-specific punctuation, slightly affecting clarity.",
+      "examples": [
+        {
+          "wrong": "relaciones entre puntos líneas y ángulos",
+          "correct": "relaciones entre puntos, líneas y ángulos",
+          "context": "List items in explanations"
+        },
+        {
+          "wrong": "Población limitada; estaciones de investigación y pesca pequeña escala.",
+          "correct": "Población limitada; estaciones de investigación y pesca a pequeña escala.",
+          "context": "Prepositional phrase in lists"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing articles for gender and number agreement",
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Items in a list lack definite articles, leading to minor agreement errors.",
+      "examples": [
+        {
+          "wrong": "Los seis tipos son la palanca, rueda y eje, polea, plano inclinado, cuña y tornillo...",
+          "correct": "Los seis tipos son la palanca, la rueda y el eje, la polea, el plano inclinado, la cuña y el tornillo...",
+          "context": "List of mechanical types"
+        }
+      ]
+    }
+  ]
+}

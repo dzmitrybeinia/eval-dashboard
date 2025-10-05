@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "o que não é possível.",
+      "correction": "o que não seria possível.",
+      "description": "Awkward phrasing; 'não seria possível' is more natural in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "o denominador sempre será um inteiro positivo.",
+      "correction": "o denominador deve sempre ser um inteiro positivo.",
+      "description": "Incorrect word usage; 'deve sempre ser' is more appropriate for expressing a rule.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "o que significa que não se consideram partes",
+      "correction": "o que significa que nenhuma parte está sendo considerada",
+      "description": "Awkward phrasing; 'nenhuma parte está sendo considerada' is clearer.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:08.514473",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

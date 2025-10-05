@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "— это мощный инструмент, который помогает убедить аудиторию в определенной точке зрения или действиях.",
+      "correction": "— это мощный инструмент, который помогает убедить аудиторию в определённой точке зрения или действиях.",
+      "description": "Spelling error: 'определенной' should use 'ё' in 'определённой' according to Russian orthographic rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "Этос, пафос и логос — это основные инструменты для создания убедительных аргументов.",
+      "correction": "Этос, пафос и логос — основные инструменты для создания убедительных аргументов.",
+      "description": "Unnecessary use of 'это' after dash; in Russian, dash replaces 'это' in such constructions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T03:52:54.777710",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

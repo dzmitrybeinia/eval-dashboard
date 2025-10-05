@@ -1,0 +1,139 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Ciałami stałymi są jak ziemia i drewno.",
+      "correction": "Ciałami stałymi są ziemia i drewno.",
+      "description": "Incorrect word order and unnecessary 'jak'; sentence structure error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Ciezy stałe, takie jak ziemia i drewno, mają określony kształt i objętość, a ich cząsteczki są ciasno upakowane, co oznacza, że nie zmieniają się w miejscu, jak w przypadku cieczy, gazów lub plazm.",
+      "correction": "Ciała stałe, takie jak ziemia i drewno, mają określony kształt i objętość, a ich cząsteczki są ciasno upakowane, co oznacza, że nie zmieniają się w miejscu, jak w przypadku cieczy, gazów lub plazmy.",
+      "description": "Spelling error: 'Ciezy' should be 'Ciała'; 'plazm' should be 'plazmy'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ciała stałe zazwyczni nie zmienia swojego kształtu pod wpływem siły obrotnej.",
+      "correction": "Ciała stałe zazwyczaj nie zmieniają swojego kształtu pod wpływem siły obrotowej.",
+      "description": "Grammar errors: 'zazwyczni' should be 'zazwyczaj'; verb should agree with plural subject.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ciała stałe, czyli stałe, zachowuje swój kształt pod różnymi obciążeniami, chyba że jest wystarczająca siła do zmiany jego struktury.",
+      "correction": "Ciała stałe, czyli stałe, zachowują swój kształt pod różnymi obciążeniami, chyba że jest wystarczająca siła do zmiany ich struktury.",
+      "description": "Subject-verb agreement error: plural subject requires plural verb and pronoun.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Jest to dlatego, że atomy lub cząsteczki w stałym są blisko siebie, co znaczniczą w zakresie ich interakcji.",
+      "correction": "Jest tak dlatego, że atomy lub cząsteczki w ciele stałym są blisko siebie, co ma znaczenie dla ich wzajemnych interakcji.",
+      "description": "Awkward phrasing and incorrect word usage; 'w stałym' should be 'w ciele stałym', 'co znaczniczą' is incorrect.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "To właściwość, która odróżnia stany skupienia od płymienia, cieczów lub gazów.",
+      "correction": "To właściwość, która odróżnia ciała stałe od cieczy, gazów lub plazmy.",
+      "description": "Incorrect word usage: 'płymienia' and 'cieczów' are not correct forms.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Sublimacja odbywa się zazwyczni w temperaturach powyżej 100 stopni Celsjusza.",
+      "correction": "Sublimacja odbywa się zazwyczaj w temperaturach powyżej 100 stopni Celsjusza.",
+      "description": "Spelling error: 'zazwyczni' should be 'zazwyczaj'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Sublimacja, czyli przejście z ciała stałego w gęstnące gaz, może występować w różnych temperaturach, ale nie wyłącznie w powyżej 100 stopni Celsjusza.",
+      "correction": "Sublimacja, czyli przejście z ciała stałego w gaz, może występować w różnych temperaturach, ale nie wyłącznie powyżej 100 stopni Celsjusza.",
+      "description": "Incorrect word usage: 'gęstnące gaz' is incorrect; 'w powyżej' is incorrect phrasing.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Na przykład, suchy lód (solid) może przejść bezpośrednio do dwutlenku węgla (gaz) bez przechodzenia przez stan ciekły, nawet w temperaturach znacznie niższych niż ten punkt.",
+      "correction": "Na przykład, suchy lód może przejść bezpośrednio w dwutlenek węgla (gaz) bez przechodzenia przez stan ciekły, nawet w temperaturach znacznie niższych niż ten punkt.",
+      "description": "Unnecessary English word 'solid'; 'do dwutlenku węgla' should be 'w dwutlenek węgla'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Lod jest w stanie ciała stałego, gdy jest w lodówce.",
+      "correction": "Lód jest w stanie ciała stałego, gdy jest w lodówce.",
+      "description": "Spelling error: 'Lod' should be 'Lód' with correct diacritic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Prawda, ponieważ lod jest w stanie ciała stałego, ponieważ pozostaje w jednym rozmiarze i formie, nie zmieniający się na ciecz, gdy jest odpowiednio utrzymywany w temperaturze ustawioną.",
+      "correction": "Prawda, ponieważ lód jest w stanie ciała stałego, ponieważ pozostaje w jednym rozmiarze i formie, nie zmieniając się w ciecz, gdy jest odpowiednio utrzymywany w ustawionej temperaturze.",
+      "description": "Incorrect word usage and participle form; 'nie zmieniający się na ciecz' should be 'nie zmieniając się w ciecz'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Gazy nie mogą przekroczyć temperaturową granicę bez uzyskania energii.",
+      "correction": "Gazy nie mogą przekroczyć granicy temperatury bez uzyskania energii.",
+      "description": "Incorrect word usage: 'temperaturową granicę' should be 'granicy temperatury'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Gazy naturalnie się rozprzestrzeniają, ale nie muszą zawsze przekraczać określonych temperatur.",
+      "correction": "Gazy naturalnie się rozprzestrzeniają, ale nie muszą zawsze przekraczać określonej temperatury.",
+      "description": "Incorrect word usage: 'określonych temperatur' should be 'określonej temperatury'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "To zależy od charakterystycznych warunków, takich jak ciśnienie, i ich zależności od ciepła.",
+      "correction": "To zależy od charakterystycznych warunków, takich jak ciśnienie, oraz od ich zależności od ciepła.",
+      "description": "Incorrect conjunction usage; 'i' should be 'oraz od' for clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:14:54.335923",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 14,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 14,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

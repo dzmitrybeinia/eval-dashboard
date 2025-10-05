@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Haiku zawsoduje się z trzech wersów, z których każdy ma dokładnie pięć sylab.",
+      "correction": "Haiku składa się z trzech wersów, z których każdy ma dokładnie pięć sylab.",
+      "description": "Spelling error: 'zawsoduje się' is not a correct Polish word; should be 'składa się'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Sonety zazwyczniują wyrażanie emocji w pośpiechowej, ale skomplikowanej strukturze.",
+      "correction": "Sonety zazwyczaj wyrażają emocje w pośpiechowej, ale skomplikowanej strukturze.",
+      "description": "Spelling error: 'zazwyczniują' is not a correct Polish word; should be 'zazwyczaj wyrażają'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "w pośpiechowej, ale skomplikowanej strukturze.",
+      "correction": "w poetyckiej, ale skomplikowanej strukturze.",
+      "description": "Word choice error: 'pośpiechowej' (related to haste) is awkward and unclear; 'poetyckiej' (poetic) is appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Złożona forma poetyckiej formy dostarcza językowi szczegółowości i głębi, czego nie można osiągnąć w prostszym poezji.",
+      "correction": "Złożona forma poetycka dostarcza językowi szczegółowości i głębi, czego nie można osiągnąć w prostszej poezji.",
+      "description": "Syntax and word form error: 'forma poetyckiej formy' is redundant; 'prostszej poezji' is correct case and form.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta stwierdzenie odzwierciedla kluczową cechę wolnego wiersza, czyli jego swobodne, nieograniczone wyrażanie twórców.",
+      "correction": "To stwierdzenie odzwierciedla kluczową cechę wolnego wiersza, czyli jego swobodne, nieograniczone wyrażanie twórcy.",
+      "description": "Grammar error: 'Ta stwierdzenie' should be 'To stwierdzenie' (neuter noun); 'twórców' (creators) should be singular 'twórcy' for agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Poety mogą wykorzystać wolne dystychy, rytm i strukturę, aby przekazać emocje w sposób, który odzwierciedla ich subiekcję.",
+      "correction": "Poeci mogą wykorzystać wolne dystychy, rytm i strukturę, aby przekazać emocje w sposób, który odzwierciedla ich subiektywność.",
+      "description": "Word choice error: 'Poety' is incorrect plural; should be 'Poeci'. 'Subiekcję' is not standard; 'subiektywność' is correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "To pozwala na głębsze, bardziej naturalne przekazywanie doświadczeń, co czyni go wyborem znacznego wyrazu dla wielu poetów.",
+      "correction": "To pozwala na głębsze, bardziej naturalne przekazywanie doświadczeń, co czyni go wyborem wyrazistego środka dla wielu poetów.",
+      "description": "Word choice error: 'wyborem znacznego wyrazu' is awkward; 'wyborem wyrazistego środka' is clearer.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Twierzenie, że mają trzy długie wersy, jest niepoprawne.",
+      "correction": "Twierdzenie, że mają trzy długie wersy, jest niepoprawne.",
+      "description": "Spelling error: 'Twierzenie' should be 'Twierdzenie'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W formie sonetu poeta zazwyczni używa rymu zwrotnego na końcu każdego wersetu.",
+      "correction": "W formie sonetu poeta zazwyczaj używa rymu zwrotnego na końcu każdego wersu.",
+      "description": "Grammar and spelling error: 'zazwyczni' is incorrect; should be 'zazwyczaj'. 'wersetu' should be 'wersu' (correct noun for poetry).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Sonet tradycyjnie ma strukturę z rymami zwrotnymi, ale wymaga również zgodności metrum, które często składa się na dwuwolce.",
+      "correction": "Sonet tradycyjnie ma strukturę z rymami zwrotnymi, ale wymaga również zgodności metrum, które często składa się z dwuwierszy.",
+      "description": "Word choice error: 'dwuwolce' is not a standard term; 'dwuwierszy' is correct for two-line stanzas.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Ta zrównoważona struktura tworzy efekt melodijny i rytmiczny, który może zmieniać w ramach czterowolce, czy to przed ostatnim zakończeniem, czy w dwuwolce.",
+      "correction": "Ta zrównoważona struktura tworzy efekt melodijny i rytmiczny, który może się zmieniać w ramach czterowersów, czy to przed ostatnim zakończeniem, czy w dwuwierszach.",
+      "description": "Word choice error: 'czterowolce' and 'dwuwolce' are incorrect; should be 'czterowersów' and 'dwuwierszach'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:14:05.928045",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

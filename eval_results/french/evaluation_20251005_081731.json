@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "différents vitamines et minéraux essentiels à votre santé.",
+      "correction": "différentes vitamines et minéraux essentiels à votre santé.",
+      "description": "Gender agreement error: 'vitamines' is feminine plural, so 'différentes' is required.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "French",
+    "timestamp": "2025-10-05T08:17:31.321388",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

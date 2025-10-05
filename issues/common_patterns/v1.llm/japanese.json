@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "label": "v1.llm",
+    "language": "japanese",
+    "generated_at": "2025-10-05T04:00:08.173527"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect Colon Usage",
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Half-width colon ':' is used instead of the standard full-width '：' in Japanese, especially after '例'.",
+      "examples": [
+        {
+          "wrong": "例: 太陽光は電力を生成するために利用される。",
+          "correct": "例：太陽光は電力を生成するために利用される。",
+          "context": "After '例' introducing examples"
+        },
+        {
+          "wrong": "例: 水は農業の灌漑や家庭での飲料水として使用される。",
+          "correct": "例：水は農業の灌漑や家庭での飲料水として使用される。",
+          "context": "After '例' introducing examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Government Branch Terminology",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Repeated misuse of '門' instead of the correct '部' or omission of '部' when referring to government branches, leading to unnatural or incorrect expressions.",
+      "examples": [
+        {
+          "wrong": "行政府門の役割",
+          "correct": "行政府の役割",
+          "context": "Government context; quiz item describing executive branch roles."
+        },
+        {
+          "wrong": "行政府門",
+          "correct": "行政府",
+          "context": "Government context; label for executive branch."
+        },
+        {
+          "wrong": "行政府門: 法律に拒否権を行使し、裁判官を任命する権限を持つ。",
+          "correct": "行政府: 法律に拒否権を行使し、裁判官を任命する権限を持つ。",
+          "context": "Government context; description of executive branch powers."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Incorrect Word Choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of unnatural or incorrect terms that reduce clarity and naturalness in Japanese, especially in scientific and mathematical contexts.",
+      "examples": [
+        {
+          "wrong": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）で構成される言語で遺伝情報を記録します。",
+          "correct": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）によって遺伝情報が記録されています。",
+          "context": "Science context; explanation of DNA structure and function."
+        },
+        {
+          "wrong": "円の端のすべての点は中心から同じ距離にあります。",
+          "correct": "円周上のすべての点は中心から同じ距離にあります。",
+          "context": "Math context; description of points on a circle."
+        },
+        {
+          "wrong": "音節パターンは5-7-5。",
+          "correct": "音数パターンは5-7-5。",
+          "context": "Literature context; explanation of haiku structure."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural Object Shape Expressions",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Phrases like '円の形をしています' and '三角形の形をしています' are used instead of the more natural '円形をしています' or '三角形をしています'.",
+      "examples": [
+        {
+          "wrong": "ピザや時計は円の形をしています！",
+          "correct": "ピザや時計は円形をしています！",
+          "context": "Describing objects with circular shapes"
+        },
+        {
+          "wrong": "家の屋根はしばしば三角形の形をしています。",
+          "correct": "家の屋根はしばしば三角形をしています。",
+          "context": "Describing roof shapes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Loanword Spelling Error",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrect spelling of loanwords, leading to confusion or lack of recognition by native speakers.",
+      "examples": [
+        {
+          "wrong": "サイバーブリング",
+          "correct": "サイバーブリーイング",
+          "context": "Social studies context; reference to cyberbullying."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Ambiguous Word Choice",
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of awkward or ambiguous terms instead of standard Japanese expressions.",
+      "examples": [
+        {
+          "wrong": "無火のロウソク",
+          "correct": "電池式のロウソク",
+          "context": "Describing flameless candles"
+        },
+        {
+          "wrong": "煙探知機全体は10年ごとに交換する。",
+          "correct": "煙探知機は10年ごとに本体を交換する。",
+          "context": "Describing device replacement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward Verb Coordination",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Verbs are connected unnaturally, e.g., '理解して実行できる' instead of '理解し実行できる'.",
+      "examples": [
+        {
+          "wrong": "プログラミングは、コンピューターが理解して実行できる指示を作成することです。",
+          "correct": "プログラミングは、コンピューターが理解し実行できる指示を作成することです。",
+          "context": "Explaining programming concepts"
+        },
+        {
+          "wrong": "円は角や辺のない丸い形です。",
+          "correct": "円は角や辺がない丸い形です。",
+          "context": "Describing geometric shapes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Nonstandard Japanese Comma Usage",
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "English-style comma ',' is used instead of full-width Japanese '、' in lists.",
+      "examples": [
+        {
+          "wrong": "第1,2,5行は長く韻を踏み、第3,4行は短く韻を踏みます。",
+          "correct": "第1、2、5行は長く韻を踏み、第3、4行は短く韻を踏みます。",
+          "context": "Listing line numbers in poetry explanation"
+        }
+      ]
+    }
+  ]
+}

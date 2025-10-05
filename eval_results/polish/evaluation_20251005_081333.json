@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "musimy stosować rozważane prace, aby zapobiec wyczerpaniu i zachować równowagę ekosystemu.",
+      "correction": "musimy stosować rozważne działania, aby zapobiec wyczerpaniu i zachować równowagę ekosystemu.",
+      "description": "Awkward phrasing: 'rozważane prace' is incorrect; 'rozważne działania' is the proper collocation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Zasoby odnawialne mogą być naturalnie zrewzględowane w czasie.",
+      "correction": "Zasoby odnawialne mogą być naturalnie odnowione w czasie.",
+      "description": "Spelling/word choice error: 'zrewzględowane' is not a correct Polish word; 'odnowione' fits the context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "mogą się odnawiać ponownie naturalnym procesom.",
+      "correction": "mogą się odnawiać ponownie dzięki naturalnym procesom.",
+      "description": "Syntax error: missing preposition 'dzięki' to indicate the means by which renewal occurs.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Zasoby naturalne są wyłącznie używane do rozrywki i rozrywki.",
+      "correction": "Zasoby naturalne są wyłącznie używane do rozrywki.",
+      "description": "Redundant wording: 'do rozrywki i rozrywki' repeats the same word unnecessarily.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Koncepcja zrównoważonego zarządzania obejmuje czyny takie jak ochrona, odnawialne źródła energii, recykling oraz zalesianie, które wszystkie wspierają równowagę między potrzebami ludzi a zdrowiem środowiska.",
+      "correction": "Koncepcja zrównoważonego zarządzania obejmuje działania takie jak ochrona, odnawialne źródła energii, recykling oraz zalesianie, które wszystkie wspierają równowagę między potrzebami ludzi a zdrowiem środowiska.",
+      "description": "Word choice error: 'czyny' is not appropriate here; 'działania' is the correct term for actions in this context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:13:33.355857",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

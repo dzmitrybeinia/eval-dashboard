@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "Los seis tipos son la palanca, rueda y eje, polea, plano inclinado, cuña y tornillo, cada uno con funciones y aplicaciones únicas.",
+      "correction": "Los seis tipos son la palanca, la rueda y el eje, la polea, el plano inclinado, la cuña y el tornillo, cada uno con funciones y aplicaciones únicas.",
+      "description": "Missing articles before each item for gender and number agreement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T03:46:22.475222",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "die trockenen oder ariden",
+      "correction": "die trockenen oder ariden Klimazonen",
+      "description": "Missing noun after adjectives; 'ariden' requires a noun for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
+      "correction": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
+      "description": "Incorrect preposition: 'durch' should be 'aufgrund' for parallel structure.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "geographische Merkmale",
+      "correction": "geographischer Merkmale",
+      "description": "Genitive case required after 'aufgrund'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell, ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+      "correction": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell – ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+      "description": "Comma splice; dash or semicolon needed to separate clauses.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Großbritannien ein gemäßigtes Klima erleben.",
+      "correction": "Großbritannien ein gemäßigtes Klima erfährt.",
+      "description": "Verb 'erleben' is awkward; 'erfährt' is more idiomatic for climate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Zusatzversorgung von Feuchtigkeit",
+      "correction": "zusätzliche Versorgung mit Feuchtigkeit",
+      "description": "Awkward compound; 'zusätzliche Versorgung mit Feuchtigkeit' is more natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "die Tropische Klimazone",
+      "correction": "die tropische Klimazone",
+      "description": "Adjective should not be capitalized.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:21:47.935490",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

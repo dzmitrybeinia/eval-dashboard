@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "seguir regras que promovem respeito e clareza nos mensagens mantém as conversas positivas e evita mal-entendidos.",
+      "correction": "seguir regras que promovem respeito e clareza nas mensagens mantém as conversas positivas e evita mal-entendidos.",
+      "description": "Preposition error: 'nos mensagens' should be 'nas mensagens' for correct gender and number agreement.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:34:57.701282",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

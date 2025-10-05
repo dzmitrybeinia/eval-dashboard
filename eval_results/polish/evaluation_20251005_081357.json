@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W przeciwieństwie do tego stwierdzenia sugeruje brak celu, co jest niecharakterystyczne dla pisania perswazyjnego.",
+      "correction": "W przeciwieństwie do tego, stwierdzenie sugeruje brak celu, co jest niecharakterystyczne dla pisania perswazyjnego.",
+      "description": "Missing comma after 'tego' to separate the introductory phrase.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Dostosowanie Twojego argumentu do lokalizacji twojego publika nie wpłynie na jego skuteczność.",
+      "correction": "Dostosowanie Twojego argumentu do lokalizacji Twojej publiczności nie wpłynie na jego skuteczność.",
+      "description": "Incorrect word 'publika'; should be 'publiczności'. Also, inconsistent capitalization of 'Twojego' and 'twojego'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wygenerowanie skutecznej argumentacji perswazyjnej wymaga zrozumienia lokalizacji publiczności i dostosowania treści do ich zainteresowań.",
+      "correction": "Stworzenie skutecznej argumentacji perswazyjnej wymaga zrozumienia lokalizacji publiczności i dostosowania treści do jej zainteresowań.",
+      "description": "Word 'Wygenerowanie' is awkward; 'Stworzenie' is more natural. Also, 'ich zainteresowań' should agree with 'publiczności' (singular: 'jej zainteresowań').",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Teza jest główną opinją, a dowody mają tylko dostawa, aby wspierać tę opinję.",
+      "correction": "Teza jest główną opinią, a dowody mają tylko dostarczać, aby wspierać tę opinię.",
+      "description": "Spelling errors: 'opinją' should be 'opinią'; 'dostawa' should be 'dostarczać'; 'opinię' instead of 'opinią' for correct case.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Podsumowanie w tekście perswazyjnym zazwyczniwa się zakończenie aktualizującym wezwaniem do działania.",
+      "correction": "Podsumowanie w tekście perswazyjnym zazwyczaj kończy się aktualizującym wezwaniem do działania.",
+      "description": "Incorrect verb form and word choice: 'zazwyczniwa się zakończenie' should be 'zazwyczaj kończy się'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Jeśli go poznać, to może sugerować, że nie jest to część standardowej struktury tekstu perswazyjnego, a raczej element strategiczny umieszczony w ostatnim akapicie, aby zwiększyć wpływ.",
+      "correction": "Jeśli go pominąć, to może sugerować, że nie jest to część standardowej struktury tekstu perswazyjnego, a raczej element strategiczny umieszczony w ostatnim akapicie, aby zwiększyć wpływ.",
+      "description": "Incorrect word 'poznać'; should be 'pominąć' to convey the intended meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W pisaniu perswazyjnym używać zróżnicowanego tonu, aby dopasować się do odbiorcy.",
+      "correction": "W pisaniu perswazyjnym należy używać zróżnicowanego tonu, aby dopasować się do odbiorcy.",
+      "description": "Missing verb 'należy' for correct imperative construction.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Wybierając odpowiednią ton, pisarz może wywołać różne emocje i reakcje u czytelnika, co czyni treść bardziej przekonującą i angażującą.",
+      "correction": "Wybierając odpowiedni ton, pisarz może wywołać różne emocje i reakcje u czytelnika, co czyni treść bardziej przekonującą i angażującą.",
+      "description": "Incorrect gender agreement: 'odpowiednią ton' should be 'odpowiedni ton'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:13:57.938828",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

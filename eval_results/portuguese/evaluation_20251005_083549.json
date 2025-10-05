@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "sites faladores",
+      "correction": "sites falsos",
+      "description": "Incorrect word choice: 'faladores' is not appropriate; 'falsos' (fake) is the correct term for malicious websites.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "A diversidade de vias de entrada exige atenção e cautela em todas as interações digitais.",
+      "correction": "A diversidade de formas de entrada exige atenção e cautela em todas as interações digitais.",
+      "description": "Awkward phrasing: 'vias de entrada' is less natural than 'formas de entrada' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Portanto, é recomendável compartilhar apenas informações essenciais e sempre com cautela.",
+      "correction": "Portanto, recomenda-se compartilhar apenas informações essenciais e sempre com cautela.",
+      "description": "More formal and natural phrasing: 'recomenda-se' is preferred in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "considerar as possíveis implicações de compartilhar tal dados pessoal.",
+      "correction": "considerar as possíveis implicações de compartilhar tais dados pessoais.",
+      "description": "Agreement error: 'tal' should be 'tais' (plural), and 'dados pessoal' should be 'dados pessoais' (plural adjective).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Articles",
+      "original": "utilizam o internet para fins educacionais.",
+      "correction": "utilizam a internet para fins educacionais.",
+      "description": "Incorrect article: 'internet' is feminine in Portuguese and requires 'a'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:49.200241",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

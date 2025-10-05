@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Variablen können nur mit Zahlenwerten gefüllt werden.",
+      "correction": "Variablen können nur mit Zahlenwerten belegt werden.",
+      "description": "The verb 'gefüllt werden' is awkward in this context; 'belegt werden' is the standard term for assigning values to variables.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Variablen können Werte verschiedener Datentypen, wie ganze Zahlen, Zahlen mit Dezimalstellen oder sogar Zeichenfolgen, halten.",
+      "correction": "Variablen können Werte verschiedener Datentypen, wie ganze Zahlen, Zahlen mit Dezimalstellen oder sogar Zeichenfolgen, speichern.",
+      "description": "The verb 'halten' is awkward for variables; 'speichern' is the correct term for storing values.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "solange sie zu dem zugewiesenen Wert passen.",
+      "correction": "solange sie zum zugewiesenen Wert passen.",
+      "description": "Incorrect preposition: 'zu' should be 'zum' to match the dative case with 'Wert'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "damit sie korrekt interpretiert werden kann.",
+      "correction": "damit sie korrekt interpretiert werden können.",
+      "description": "Number agreement error: 'sie' refers to 'Variablen' (plural), so verb should be plural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ob die Variable eine Zahl, einen Text oder einen booleschen Wert darstellt.",
+      "correction": "ob die Variable eine Zahl, einen Text oder einen Booleschen Wert darstellt.",
+      "description": "Noun capitalization: 'Booleschen' should be capitalized as it is a noun.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Syntax definiert die Regeln für den Code, aber die Ausführung von Programmen auf verschiedenen Plattformen wird durch die Kompatibilität der Programmiersprache und das Betriebssystem beeinflusst.",
+      "correction": "Syntax definiert die Regeln für den Code, aber die Ausführung von Programmen auf verschiedenen Plattformen wird durch die Kompatibilität der Programmiersprache und des Betriebssystems beeinflusst.",
+      "description": "Genitive case error: 'des Betriebssystems' is required to match 'Kompatibilität'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Variablen sind entscheidend für die Speicherung von Daten innerhalb eines Programms.",
+      "correction": "Variablen sind entscheidend für das Speichern von Daten innerhalb eines Programms.",
+      "description": "Awkward phrasing: 'das Speichern' is more idiomatic than 'die Speicherung' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Variablen sind flexibel und können mehr als einen Wert speichern.",
+      "correction": "Variablen sind flexibel und können nacheinander verschiedene Werte speichern.",
+      "description": "Ambiguity: The original suggests variables can hold multiple values simultaneously, which is misleading. Clarified to mean variables can store different values over time.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:21:54.638803",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Variáveis podem armazenar vários tipos de informações simultaneamente.",
+      "correction": "Variáveis podem armazenar diferentes tipos de informações.",
+      "description": "The word 'simultaneamente' is awkward and misleading in this context; 'diferentes tipos' is more precise.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+      "correction": "Os nomes devem começar com uma letra ou um underscore.",
+      "description": "The restriction to 'letra minúscula' is incorrect; variable names can start with any letter (uppercase or lowercase) or underscore.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:34:49.563767",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

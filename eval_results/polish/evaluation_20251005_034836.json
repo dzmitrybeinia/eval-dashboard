@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "łazik Marsa",
+      "correction": "łazik marsjański",
+      "description": "Incorrect word usage: 'łazik Marsa' is awkward; 'łazik marsjański' is the standard term for a Mars rover.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T03:48:36.106637",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

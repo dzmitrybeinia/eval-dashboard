@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "L'idée d'un personnage maléfique ne s'applique pas universellement aux protagonistes.",
+      "correction": "L'idée qu'un protagoniste soit un personnage maléfique ne s'applique pas universellement.",
+      "description": "Awkward phrasing: the sentence is clearer when directly referencing the protagonist.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "le cadre peut être aussi précis que la période historique ou aussi vague que le fantastique.",
+      "correction": "le cadre peut être aussi précis qu'une période historique ou aussi vague qu'un univers fantastique.",
+      "description": "Word choice: 'le fantastique' is ambiguous; 'un univers fantastique' is clearer.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Cela illustre comment les conflits externes peuvent façonner l'histoire et l'intrigue.",
+      "correction": "Cela illustre comment les conflits externes peuvent façonner l'histoire et son intrigue.",
+      "description": "Word choice: 'l'histoire et l'intrigue' is redundant; 'l'histoire et son intrigue' is more precise.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Les thèmes, ou 'message ou idée centrale', d'une histoire peuvent être révélés de manière subtile ou explicite.",
+      "correction": "Les thèmes, ou le 'message ou l'idée centrale' d'une histoire, peuvent être révélés de manière subtile ou explicite.",
+      "description": "Word choice: definite article needed for clarity in parenthetical phrase.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.md",
+    "language": "French",
+    "timestamp": "2025-10-05T08:17:55.765496",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauptseteled",
+      "correction": "hauptsächlich",
+      "description": "Spelling error: incorrect word, should be 'hauptsächlich'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "DNA-Synthese findet in der Zellkern statt.",
+      "correction": "DNA-Synthese findet im Zellkern statt.",
+      "description": "Preposition and article error: 'im' (in dem) Zellkern is correct; 'in der Zellkern' is incorrect.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Sie dient nicht primär dem Transport von Molekülen innerhalb der Zelle, sondern reguliert den Austausch mit der Umgebung.",
+      "correction": "Sie dient nicht primär dem Transport von Molekülen innerhalb der Zelle, sondern reguliert den Austausch mit der Umgebung.",
+      "description": "No linguistic error found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
+      "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern; der Zellkern ist als Steuerzentrale bekannt.",
+      "description": "Awkward phrasing and unclear sentence structure; correction clarifies meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+      "correction": "Mitochondrien sind die Zellbestandteile, die für die Energieproduktion verantwortlich sind.",
+      "description": "Subject-verb agreement and word choice: 'Mitochondrien' is plural and refers to cell components, not 'die Zelle'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:21:42.829843",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

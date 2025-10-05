@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Acrónimos ayudan a simplificar y recordar información ordenada, como en la lista de planetas del sistema solar.",
+      "correction": "Los acrónimos ayudan a simplificar y recordar información ordenada, como en la lista de planetas del sistema solar.",
+      "description": "Missing article: 'Los' is needed before 'acró­nimos' for correct sentence structure.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T08:09:46.448738",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

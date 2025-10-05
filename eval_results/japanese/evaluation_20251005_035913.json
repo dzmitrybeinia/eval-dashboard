@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "行政府門の役割",
+      "correction": "行政府の役割",
+      "description": "Incorrect word usage: '門' should be '部' to correctly refer to 'branch' in government context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "行政府門",
+      "correction": "行政府",
+      "description": "Incorrect word usage: '門' should be '部' to correctly refer to 'branch' in government context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "行政府門: 法律に拒否権を行使し、裁判官を任命する権限を持つ。",
+      "correction": "行政府: 法律に拒否権を行使し、裁判官を任命する権限を持つ。",
+      "description": "Incorrect word usage: '門' should be '部' to correctly refer to 'branch' in government context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T03:59:13.651712",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

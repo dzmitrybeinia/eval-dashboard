@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "todos os seres humanos devem ser livres para apreciar e exercer.",
+      "correction": "todos os seres humanos devem ser livres para usufruir e exercer.",
+      "description": "The verb 'apreciar' is awkward and not idiomatic in this context; 'usufruir' is the appropriate word for enjoying rights.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-05T08:35:16.780478",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

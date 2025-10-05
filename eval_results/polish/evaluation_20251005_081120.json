@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "Spelling error: incorrect ending, should be 'zazwyczaj'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "krodem",
+      "correction": "krokiem",
+      "description": "Spelling error: incorrect word form, should be 'krokiem'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "etap",
+      "correction": "etapem",
+      "description": "Incorrect case: should be instrumental 'etapem' to match 'jest to podstawowa etap'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "refinementem",
+      "correction": "udoskonaleniem",
+      "description": "Awkward anglicism: 'refinementem' is not a standard Polish word, use 'udoskonaleniem'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "kontempację",
+      "correction": "kontemplację",
+      "description": "Spelling error: incorrect vowel, should be 'kontemplację'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "celegości",
+      "correction": "celowości",
+      "description": "Spelling error: incorrect word, should be 'celowości'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "końcowę",
+      "correction": "końcowe",
+      "description": "Incorrect adjective ending: should be 'końcowe' (accusative, feminine singular)",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:11:20.194190",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

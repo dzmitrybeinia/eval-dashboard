@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Los mnemonics son herramientas que nos ayudan a recordar información mediante asociaciones con patrones, frases o acrónimos.",
+      "correction": "Los mnemotécnicos son herramientas que nos ayudan a recordar información mediante asociaciones con patrones, frases o acrónimos.",
+      "description": "Incorrect word usage: 'mnemonics' should be 'mnemotécnicos' in Spanish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Los mnemonics simplifican información compleja mediante patrones y asociaciones.",
+      "correction": "Los mnemotécnicos simplifican información compleja mediante patrones y asociaciones.",
+      "description": "Incorrect word usage: 'mnemonics' should be 'mnemotécnicos' in Spanish.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques_1.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-05T03:46:09.129267",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

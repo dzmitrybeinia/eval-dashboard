@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "エトスは、単に強力な言葉だけで成り立っている。.",
+      "correction": "エトスは、単に強力な言葉だけで成り立っている。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "単に強力な言葉を使うことはあまり含まれていません。.",
+      "correction": "単に強力な言葉を使うことはあまり含まれていません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "パトスは、聴衆の共通の価値観に訴えることで行動を促す技法です。.",
+      "correction": "パトスは、聴衆の共通の価値観に訴えることで行動を促す技法です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "パトスは、聴衆に共鳴するような説得に使われる方法であり、聴衆の共通の信念や感情を引きつけます。この説得は、より広範な聴衆を動機付けるために使われます。.",
+      "correction": "パトスは、聴衆に共鳴するような説得に使われる方法であり、聴衆の共通の信念や感情を引きつけます。この説得は、より広範な聴衆を動機付けるために使われます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ロゴスは、感情やストーリーを通じて説得する方法です。.",
+      "correction": "ロゴスは、感情やストーリーを通じて説得する方法です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "ロゴスは論理に基づいた説得法であり、感情やストーリーを使用しない。.",
+      "correction": "ロゴスは論理に基づいた説得法であり、感情やストーリーを使用しない。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "エトス、パトス、ロゴスを組み合わせて議論を構築することができます。.",
+      "correction": "エトス、パトス、ロゴスを組み合わせて議論を構築することができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "この文章は、異なる議論技法の統合が効果的な著作において重要であることを示しています。エトスは専門的な証拠を提示し、パトスは感情的な共鳴を呼び起こし、ロゴスは論理的な述べを提供します。これらの技法を組み合わせることで、より広範な聴衆に対しても強力なメッセージを伝えることができます。.",
+      "correction": "この文章は、異なる議論技法の統合が効果的な著作において重要であることを示しています。エトスは専門的な証拠を提示し、パトスは感情的な共鳴を呼び起こし、ロゴスは論理的な述べを提供します。これらの技法を組み合わせることで、より広範な聴衆に対しても強力なメッセージを伝えることができます。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "エトスは聴衆を笑いさせることが主な目的です。.",
+      "correction": "エトスは聴衆を笑いさせることが主な目的です。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "エトスは、説得力のある文章をより信頼性のあるものにするために使用されます。それは専門性を示し、聴衆の信頼を得ることに焦点を当てています。笑いを引くことは、エトスの目的ではありません。.",
+      "correction": "エトスは、説得力のある文章をより信頼性のあるものにするために使用されます。それは専門性を示し、聴衆の信頼を得ることに焦点を当てています。笑いを引くことは、エトスの目的ではありません。",
+      "description": "Redundant period: Japanese sentences should end with a single full-width period (。), not with both 。 and .",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-05T08:40:29.295017",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

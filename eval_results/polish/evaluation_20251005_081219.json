@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ułamki kwadratowe",
+      "correction": "ułamki zwykłe",
+      "description": "Incorrect term: 'ułamki kwadratowe' is not a standard Polish mathematical term; 'ułamki zwykłe' is correct for basic fractions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ułamki sześcienne",
+      "correction": "ułamki zwykłe",
+      "description": "Incorrect term: 'ułamki sześcienne' is not a standard Polish mathematical term; 'ułamki zwykłe' is correct for basic fractions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Po prostu prowadząc tę samą operację, jak mnożenie lub dzielenie obu części przez tę samą liczbę, uzyskujemy ułamek, który reprezentuje tę samą wartość.",
+      "correction": "Wykonując tę samą operację, jak mnożenie lub dzielenie obu części przez tę samą liczbę, uzyskujemy ułamek, który reprezentuje tę samą wartość.",
+      "description": "Awkward phrasing: 'Po prostu prowadząc' is not idiomatic; 'Wykonując' is clearer and more natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Prawdziwą wartością ułamka z licznika 3 i mianownika 4 to 3/4, co równa się 0,75.",
+      "correction": "Prawdziwa wartość ułamka z licznikiem 3 i mianownikiem 4 to 3/4, co równa się 0,75.",
+      "description": "Incorrect case: 'z licznika' and 'z mianownika' should be 'z licznikiem' and 'z mianownikiem' (instrumental case).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ułamka z licznika 2 i mianownika 4 ma wartość 2/4 lub 0,5.",
+      "correction": "Ułamek z licznikiem 2 i mianownikiem 4 ma wartość 2/4 lub 0,5.",
+      "description": "Incorrect case: 'Ułamka' should be 'Ułamek' (nominative case), and 'z licznika'/'z mianownika' should be 'z licznikiem'/'z mianownikiem' (instrumental case).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "wartość ułamka z licznika 3 i mianownika 4 jest rzeczywiście większa niż ułamka z licznika 2 i mianownika 4.",
+      "correction": "wartość ułamka z licznikiem 3 i mianownikiem 4 jest rzeczywiście większa niż wartość ułamka z licznikiem 2 i mianownikiem 4.",
+      "description": "Incorrect case and parallel structure: 'z licznika'/'z mianownika' should be 'z licznikiem'/'z mianownikiem', and parallelism requires repeating 'wartość ułamka'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:12:19.403708",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

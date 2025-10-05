@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "L'étape identifiant la décision est en réalité la première étape du processus de décision.",
+      "correction": "L'étape d'identification de la décision est en réalité la première étape du processus de décision.",
+      "description": "Incorrect noun phrase structure; 'identifiant' should be replaced by 'd'identification' for proper syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Dans la décision d'engagement dans une activité extrascolaire, il est important de prendre en compte plusieurs facteurs tels que l'intérêt personnel, l'alignement avec les objectifs et le temps disponible.",
+      "correction": "Lors de la décision de s'engager dans une activité extrascolaire, il est important de prendre en compte plusieurs facteurs tels que l'intérêt personnel, l'alignement avec les objectifs et le temps disponible.",
+      "description": "Awkward phrasing; 'Dans la décision d'engagement' should be replaced by 'Lors de la décision de s'engager' for clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "French",
+    "timestamp": "2025-10-05T08:16:48.851903",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

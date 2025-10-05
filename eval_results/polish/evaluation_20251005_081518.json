@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sztuczna inteligencja może uczenia się na podstawie nowych informacji.",
+      "correction": "Sztuczna inteligencja może uczyć się na podstawie nowych informacji.",
+      "description": "Incorrect verb form; 'uczenia się' should be 'uczyć się' to match modal verb 'może'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zaciemniona przez eksperymenty w starożytnych rzymskich arzenałach.",
+      "correction": "zaciemniona przez eksperymenty w starożytnych rzymskich arsenałach.",
+      "description": "Spelling error: 'arzenałach' should be 'arsenałach'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zgonych przekładni",
+      "correction": "zgodnych przekładni",
+      "description": "Spelling error: 'zgonych' should be 'zgodnych'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "rzymcy",
+      "correction": "Rzymianie",
+      "description": "Spelling and word choice error: 'rzymcy' is incorrect, should be 'Rzymianie' (Romans).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "jakim zrozumiamy dzisiej",
+      "correction": "jakim rozumiemy dzisiaj",
+      "description": "Incorrect verb form and spelling: 'zrozumiamy dzisiej' should be 'rozumiemy dzisiaj'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "koncepcja AI wiele lat później była naśladowana przez różne innowacje technologiczne, które poprawiały ludzkie zdolności, a nie zastępowały je.",
+      "correction": "Koncepcja AI pojawiła się wiele lat później i była rozwijana przez różne innowacje technologiczne, które poprawiały ludzkie zdolności, a nie je zastępowały.",
+      "description": "Awkward phrasing and word order; sentence restructured for clarity and correct meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "poprawia ich efektywność w rozwiązywaniu problemów.",
+      "correction": "poprawia ich efektywność w rozwiązywaniu problemów.",
+      "description": "No error found; sentence is correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "poprawać",
+      "correction": "poprawiać",
+      "description": "Spelling error: 'poprawać' should be 'poprawiać'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:15:18.354075",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

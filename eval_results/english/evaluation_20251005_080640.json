@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "The celebration you're referring to involves families preparing special altars and offering food, flowers, and mementos to their loved ones who have passed away.",
+      "correction": "During Día de los Muertos, families prepare special altars and offer food, flowers, and mementos to their loved ones who have passed away.",
+      "description": "Ambiguous reference: 'The celebration you're referring to' is unclear and less direct than specifying 'Día de los Muertos.'",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "English",
+    "timestamp": "2025-10-05T08:06:40.668042",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

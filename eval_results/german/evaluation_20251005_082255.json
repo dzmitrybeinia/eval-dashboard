@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zuzufügen.",
+      "correction": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zugänglich zu machen.",
+      "description": "Incorrect word choice: 'zufügen' is not appropriate in this context; 'zugänglich zu machen' fits the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Obwohl die Teilung von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenzielle Gefahren zu verstehen.",
+      "correction": "Obwohl das Teilen von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenziellen Gefahren zu verstehen.",
+      "description": "Incorrect noun: 'Teilung' should be 'das Teilen' in this context. Also, 'potenzielle Gefahren' should be 'potenziellen Gefahren' for correct adjective ending.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Phishing-E-Mails können oft als autoritativ erscheinen.",
+      "correction": "Phishing-E-Mails können oft besonders vertrauenswürdig erscheinen.",
+      "description": "Awkward word choice: 'autoritativ' is uncommon in German for this context; 'besonders vertrauenswürdig' is more idiomatic.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:55.070081",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

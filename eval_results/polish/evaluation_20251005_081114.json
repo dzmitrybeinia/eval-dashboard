@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "zasady wodorowe",
+      "correction": "wiązania wodorowe",
+      "description": "Incorrect word usage: 'zasady wodorowe' should be 'wiązania wodorowe' to refer to hydrogen bonds.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "zasady cukrowo-fosforanowe",
+      "correction": "szkielet cukrowo-fosforanowy",
+      "description": "Incorrect word usage: 'zasady cukrowo-fosforanowe' should be 'szkielet cukrowo-fosforanowy' to refer to the sugar-phosphate backbone.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "wiązki fosforanu",
+      "correction": "wiązania fosforanowe",
+      "description": "Incorrect word usage: 'wiązki fosforanu' should be 'wiązania fosforanowe' to refer to phosphate bonds.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Tego procesu nie zaniedbywane.",
+      "correction": "Ten proces nie jest zaniedbywany.",
+      "description": "Grammar error: incorrect verb form and subject; should be passive construction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zwane genami",
+      "correction": "zwane genami",
+      "description": "Spelling error: missing space between 'zwane' and 'genami'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Polish",
+    "timestamp": "2025-10-05T08:11:14.640741",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

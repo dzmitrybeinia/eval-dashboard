@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Kulturelle Feierlichkeiten sind entscheidend für die Ausdruck von Identität, Werten und Gemeinschaft.",
+      "correction": "Kulturelle Feierlichkeiten sind entscheidend für den Ausdruck von Identität, Werten und Gemeinschaft.",
+      "description": "Incorrect case: 'die Ausdruck' should be 'den Ausdruck' (Accusative case required after 'für').",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "German",
+    "timestamp": "2025-10-05T03:54:01.433523",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

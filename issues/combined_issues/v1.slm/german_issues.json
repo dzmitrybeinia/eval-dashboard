@@ -1,0 +1,1226 @@
+{
+  "metadata": {
+    "label": "v1.slm",
+    "language": "german",
+    "generated_at": "2025-10-05T08:23:32.925534",
+    "source_files": [
+      "evaluation_20251005_082136.json",
+      "evaluation_20251005_082138.json",
+      "evaluation_20251005_082139.json",
+      "evaluation_20251005_082142.json",
+      "evaluation_20251005_082143.json",
+      "evaluation_20251005_082147.json",
+      "evaluation_20251005_082154.json",
+      "evaluation_20251005_082200.json",
+      "evaluation_20251005_082201.json",
+      "evaluation_20251005_082203.json",
+      "evaluation_20251005_082207.json",
+      "evaluation_20251005_082208.json",
+      "evaluation_20251005_082210.json",
+      "evaluation_20251005_082213.json",
+      "evaluation_20251005_082214.json",
+      "evaluation_20251005_082217.json",
+      "evaluation_20251005_082220.json",
+      "evaluation_20251005_082222.json",
+      "evaluation_20251005_082223.json",
+      "evaluation_20251005_082225.json",
+      "evaluation_20251005_082228.json",
+      "evaluation_20251005_082230.json",
+      "evaluation_20251005_082232.json",
+      "evaluation_20251005_082235.json",
+      "evaluation_20251005_082236.json",
+      "evaluation_20251005_082241.json",
+      "evaluation_20251005_082242.json",
+      "evaluation_20251005_082243.json",
+      "evaluation_20251005_082244.json",
+      "evaluation_20251005_082245.json",
+      "evaluation_20251005_082246.json",
+      "evaluation_20251005_082248.json",
+      "evaluation_20251005_082251.json",
+      "evaluation_20251005_082252.json",
+      "evaluation_20251005_082255.json",
+      "evaluation_20251005_082257.json",
+      "evaluation_20251005_082301.json",
+      "evaluation_20251005_082305.json",
+      "evaluation_20251005_082306.json",
+      "evaluation_20251005_082309.json",
+      "evaluation_20251005_082313.json",
+      "evaluation_20251005_082315.json",
+      "evaluation_20251005_082321.json",
+      "evaluation_20251005_082323.json",
+      "evaluation_20251005_082327.json",
+      "evaluation_20251005_082328.json",
+      "evaluation_20251005_082330.json",
+      "evaluation_20251005_082332.json"
+    ],
+    "issue_counts": {
+      "linguistic": 145,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteig",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: incorrect word formation, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauesteig",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: incorrect word formation, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Die Wüste spielte jedoch eine entscheidende Rolle bei der Entwicklung von landwirtschaftlichen Techniken und der Organisation von Ressourcen.",
+        "correction": "Die Wüste spielte jedoch eine entscheidende Rolle bei der Entwicklung landwirtschaftlicher Techniken und der Organisation von Ressourcen.",
+        "description": "Incorrect use of 'von' with 'landwirtschaftlichen Techniken'; should be 'Entwicklung landwirtschaftlicher Techniken' (Genitive construction)",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Die Götter wie Ra und Osiris waren in der Religion zentraler.",
+        "correction": "Götter wie Ra und Osiris waren in der Religion zentraler.",
+        "description": "Unnecessary definite article 'Die' before 'Götter'; general reference does not require article",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Stellvertreter des Göttervaters, Akumu-Osiris, betrachtet.",
+        "correction": "Stellvertreter des Göttervaters Osiris betrachtet.",
+        "description": "Incorrect or nonstandard name 'Akumu-Osiris'; standard is 'Osiris' as Göttervater",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "der Kaktuszaunkönigin hat Verhaltensweisen, die Schutz und Nahrungssuche ermöglichen.",
+        "correction": "die Kaktuszaunkönigin hat Verhaltensweisen, die Schutz und Nahrungssuche ermöglichen.",
+        "description": "Gender agreement error: 'Kaktuszaunkönigin' is feminine and requires 'die' as the article.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "dicker Fellmantel",
+        "correction": "dickes Fell",
+        "description": "Word choice error: 'Fellmantel' is not commonly used for animals; 'dickes Fell' is the correct term.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ihr dicker Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+        "correction": "Ihr dickes Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+        "description": "Gender agreement error: 'Fell' is neuter and requires 'dickes' as the adjective ending.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu erfinden.",
+        "correction": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu finden.",
+        "description": "Incorrect word choice: 'erfinden' (to invent) should be 'finden' (to find) in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteled",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: incorrect word, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "DNA-Synthese findet in der Zellkern statt.",
+        "correction": "DNA-Synthese findet im Zellkern statt.",
+        "description": "Preposition and article error: 'im' (in dem) Zellkern is correct; 'in der Zellkern' is incorrect.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Sie dient nicht primär dem Transport von Molekülen innerhalb der Zelle, sondern reguliert den Austausch mit der Umgebung.",
+        "correction": "Sie dient nicht primär dem Transport von Molekülen innerhalb der Zelle, sondern reguliert den Austausch mit der Umgebung.",
+        "description": "No linguistic error found.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
+        "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern; der Zellkern ist als Steuerzentrale bekannt.",
+        "description": "Awkward phrasing and unclear sentence structure; correction clarifies meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+        "correction": "Mitochondrien sind die Zellbestandteile, die für die Energieproduktion verantwortlich sind.",
+        "description": "Subject-verb agreement and word choice: 'Mitochondrien' is plural and refers to cell components, not 'die Zelle'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Sein Führung während des Marsches auf Washington ist in der Geschichte der Bewegung festgehalten.",
+        "correction": "Seine Führung während des Marsches auf Washington ist in der Geschichte der Bewegung festgehalten.",
+        "description": "Incorrect possessive pronoun: 'Sein' should be 'Seine' to agree with the feminine noun 'Führung'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "die trockenen oder ariden",
+        "correction": "die trockenen oder ariden Klimazonen",
+        "description": "Missing noun after adjectives; 'ariden' requires a noun for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
+        "correction": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
+        "description": "Incorrect preposition: 'durch' should be 'aufgrund' for parallel structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "geographische Merkmale",
+        "correction": "geographischer Merkmale",
+        "description": "Genitive case required after 'aufgrund'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell, ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+        "correction": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell – ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+        "description": "Comma splice; dash or semicolon needed to separate clauses.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Großbritannien ein gemäßigtes Klima erleben.",
+        "correction": "Großbritannien ein gemäßigtes Klima erfährt.",
+        "description": "Verb 'erleben' is awkward; 'erfährt' is more idiomatic for climate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Zusatzversorgung von Feuchtigkeit",
+        "correction": "zusätzliche Versorgung mit Feuchtigkeit",
+        "description": "Awkward compound; 'zusätzliche Versorgung mit Feuchtigkeit' is more natural.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "die Tropische Klimazone",
+        "correction": "die tropische Klimazone",
+        "description": "Adjective should not be capitalized.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen können nur mit Zahlenwerten gefüllt werden.",
+        "correction": "Variablen können nur mit Zahlenwerten belegt werden.",
+        "description": "The verb 'gefüllt werden' is awkward in this context; 'belegt werden' is the standard term for assigning values to variables.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen können Werte verschiedener Datentypen, wie ganze Zahlen, Zahlen mit Dezimalstellen oder sogar Zeichenfolgen, halten.",
+        "correction": "Variablen können Werte verschiedener Datentypen, wie ganze Zahlen, Zahlen mit Dezimalstellen oder sogar Zeichenfolgen, speichern.",
+        "description": "The verb 'halten' is awkward for variables; 'speichern' is the correct term for storing values.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "solange sie zu dem zugewiesenen Wert passen.",
+        "correction": "solange sie zum zugewiesenen Wert passen.",
+        "description": "Incorrect preposition: 'zu' should be 'zum' to match the dative case with 'Wert'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "damit sie korrekt interpretiert werden kann.",
+        "correction": "damit sie korrekt interpretiert werden können.",
+        "description": "Number agreement error: 'sie' refers to 'Variablen' (plural), so verb should be plural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ob die Variable eine Zahl, einen Text oder einen booleschen Wert darstellt.",
+        "correction": "ob die Variable eine Zahl, einen Text oder einen Booleschen Wert darstellt.",
+        "description": "Noun capitalization: 'Booleschen' should be capitalized as it is a noun.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Syntax definiert die Regeln für den Code, aber die Ausführung von Programmen auf verschiedenen Plattformen wird durch die Kompatibilität der Programmiersprache und das Betriebssystem beeinflusst.",
+        "correction": "Syntax definiert die Regeln für den Code, aber die Ausführung von Programmen auf verschiedenen Plattformen wird durch die Kompatibilität der Programmiersprache und des Betriebssystems beeinflusst.",
+        "description": "Genitive case error: 'des Betriebssystems' is required to match 'Kompatibilität'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen sind entscheidend für die Speicherung von Daten innerhalb eines Programms.",
+        "correction": "Variablen sind entscheidend für das Speichern von Daten innerhalb eines Programms.",
+        "description": "Awkward phrasing: 'das Speichern' is more idiomatic than 'die Speicherung' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen sind flexibel und können mehr als einen Wert speichern.",
+        "correction": "Variablen sind flexibel und können nacheinander verschiedene Werte speichern.",
+        "description": "Ambiguity: The original suggests variables can hold multiple values simultaneously, which is misleading. Clarified to mean variables can store different values over time.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen können mehr als einen Wert haben.",
+        "correction": "Variablen können im Laufe der Zeit verschiedene Werte annehmen.",
+        "description": "The original sentence is ambiguous; it could be misinterpreted as variables holding multiple values simultaneously. The correction clarifies that variables can change their value over time.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "was bedeutet, dass sie Werte zu verschiedenen Zeiten speichern können.",
+        "correction": "was bedeutet, dass sie zu verschiedenen Zeitpunkten unterschiedliche Werte speichern können.",
+        "description": "The phrase 'Werte zu verschiedenen Zeiten speichern' is awkward; the correction improves clarity and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "was zeigt, dass Variablen dynamisch sind und nicht statisch auf einen Wert beschränkt sind.",
+        "correction": "was zeigt, dass Variablen dynamisch sind und nicht statisch auf einen Wert festgelegt sind.",
+        "description": "The phrase 'auf einen Wert beschränkt' is less idiomatic; 'festgelegt' is more appropriate in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, der zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt wird.",
+        "correction": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, die zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt werden.",
+        "description": "The relative pronoun 'der' does not agree with the plural noun 'Datenbanken'; it should be 'die'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ihre Nutzung unterstützt die effiziente Verwaltung und Abfrage von Informationen in vielen Anwendungen, nicht nur in der Programmierung.",
+        "correction": "Ihre Nutzung unterstützt die effiziente Verwaltung und Abfrage von Informationen in vielen Anwendungen.",
+        "description": "The phrase 'nicht nur in der Programmierung' is redundant and confusing, as the context is already programming.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich eine Funktion von Algorithmen, nicht von Variablen.",
+        "correction": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich Aufgabe von Algorithmen, nicht von Variablen.",
+        "description": "The phrase 'eine Funktion von Algorithmen' is awkward; 'Aufgabe von Algorithmen' is more idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Variablen werden verwendet, um Daten zu speichern, wie z.B. die aktuelle Position und Zielort, während die Algorithmen die Logik nutzen, um die beste Route zu bestimmen.",
+        "correction": "Variablen werden verwendet, um Daten wie die aktuelle Position und den Zielort zu speichern, während Algorithmen die Logik nutzen, um die beste Route zu bestimmen.",
+        "description": "The phrase 'wie z.B. die aktuelle Position und Zielort' is missing the article and case agreement for 'den Zielort'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu manipulieren.",
+        "correction": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu verarbeiten.",
+        "description": "The word 'manipulieren' is less appropriate in this context; 'verarbeiten' is more suitable for programming.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "was als 'Listen' oder 'Dictionaries' bezeichnet wird",
+        "correction": "was als „Listen“ oder „Dictionaries“ bezeichnet wird",
+        "description": "Quotation marks should be German-style („ “) instead of English-style (' ')",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln",
+        "correction": "sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten speichern",
+        "description": "The verb 'sammeln' (to collect) is awkward here; 'speichern' (to store) is more appropriate for variables",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "das gemeinte Gesagte anderer",
+        "correction": "das Gemeinte anderer",
+        "description": "Awkward phrasing: 'das gemeinte Gesagte' is redundant; 'das Gemeinte' is clearer and idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Gefühle der anderen Person",
+        "correction": "Gefühle der anderen Personen",
+        "description": "Number agreement: 'Geschwistern' is plural, so 'Personen' should be used instead of 'Person'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Genetisches Fallacy",
+        "correction": "genetischer Fehlschluss",
+        "description": "Incorrect use of English term; should use the correct German term for 'genetic fallacy'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Punctuation",
+        "original": "Durch das Zerlegen von Behauptungen auf ihre grundlegenden Teile, können wir die Struktur und die Unterstützungskontexte besser verstehen.",
+        "correction": "Durch das Zerlegen von Behauptungen auf ihre grundlegenden Teile können wir die Struktur und die Unterstützungskontexte besser verstehen.",
+        "description": "Unnecessary comma after the introductory phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Unterstützungskontexte",
+        "correction": "Kontexte der Unterstützung",
+        "description": "Awkward compound noun; 'Kontexte der Unterstützung' is clearer and more idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "als 'Genetisches Fallacy' bekannt ist",
+        "correction": "als 'genetischer Fehlschluss' bekannt ist",
+        "description": "Incorrect word usage; should use the German term for 'genetic fallacy'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "als ungültig abgetan wird",
+        "correction": "als unbegründet abgetan wird",
+        "description": "Word choice error; 'ungültig' is not idiomatic in this context, 'unbegründet' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ist entscheidend, die Unterscheidung zwischen objektiven Informationen, die als Fakten bekannt sind, und subjektiven Perspektiven, die als Meinungen gelten.",
+        "correction": "ist es entscheidend, zwischen objektiven Informationen, die als Fakten bekannt sind, und subjektiven Perspektiven, die als Meinungen gelten, zu unterscheiden.",
+        "description": "Awkward phrasing; sentence structure improved for clarity and idiomatic expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "ist sie nicht in der gleichen Weise überprüfbar und objektiv wie ein Fakt.",
+        "correction": "ist sie nicht in gleicher Weise überprüfbar und objektiv wie ein Fakt.",
+        "description": "Unidiomatic use of 'in der gleichen Weise'; 'in gleicher Weise' is the correct phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "um ihre Gültigkeit als Beweis anzugeben.",
+        "correction": "um ihre Gültigkeit als Beweis zu beurteilen.",
+        "description": "Word choice error; 'zu beurteilen' is more appropriate than 'anzugeben' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteilig",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: 'hauptseteilig' is incorrect, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptsetein",
+        "correction": "hauptsächlichen",
+        "description": "Spelling error: 'hauptsetein' is incorrect, should be 'hauptsächlichen'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Desoxyribose-Zucker",
+        "correction": "Desoxyribose",
+        "description": "Redundant word: 'Desoxyribose' already refers to the sugar; 'Zucker' is unnecessary.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "eukaryotischen DNA-Replikationsmechanik",
+        "correction": "eukaryotischen DNA-Replikationsmechanismus",
+        "description": "Incorrect word form: 'Mechanik' should be 'Mechanismus' in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Entscheidungsfindungsprozess",
+        "correction": "Entscheidungsfindungsprozess",
+        "description": "No error; correct compound noun formation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "die Auswahl der beste Option",
+        "correction": "die Auswahl der besten Option",
+        "description": "Adjective ending error: 'beste' must be 'besten' to agree with feminine singular noun in genitive case.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "das Reflexieren über das Ergebnis",
+        "correction": "das Reflektieren über das Ergebnis",
+        "description": "Incorrect verb form: 'Reflexieren' should be 'Reflektieren'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "der jedoch nicht als letzter Schritt endet",
+        "correction": "der jedoch nicht als letzter Schritt erfolgt",
+        "description": "Awkward phrasing: 'endet' is not idiomatic here; 'erfolgt' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "jeden Zeitpunkt über jede neue Fähigkeit oder Lernleistung",
+        "correction": "zu jedem Zeitpunkt bei jeder neuen Fähigkeit oder Lernleistung",
+        "description": "Preposition and case error: 'über' should be 'bei', and 'jeden Zeitpunkt' should be 'zu jedem Zeitpunkt'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Behaucht Entscheidungen erfordern oft Zeit zum Überlegen.",
+        "correction": "Behauchte Entscheidungen erfordern oft Zeit zum Überlegen.",
+        "description": "Spelling error: 'Behaucht' should be 'Behauchte' (adjective form).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ohne das Testen zu veranstalten, bleibt die Wirksamkeit der Lösung unbewertet.",
+        "correction": "Ohne das Testen bleibt die Wirksamkeit der Lösung unbewertet.",
+        "description": "Unnatural verb usage: 'veranstalten' is incorrect in this context; 'Testen' alone is sufficient.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Obwohl man möglicherweise sicher in den Umgang mit persönlichen Informationen fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.",
+        "correction": "Obwohl man sich möglicherweise im Umgang mit persönlichen Informationen sicher fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.",
+        "description": "Incorrect verb construction: 'sicher in den Umgang fühlt' should be 'sich im Umgang ... sicher fühlt'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Eine Person sollte immer in ihrem eigenen Online-Nachrichten antworten.",
+        "correction": "Eine Person sollte immer auf ihre eigenen Online-Nachrichten antworten.",
+        "description": "Incorrect preposition and case: 'in ihrem eigenen Online-Nachrichten' should be 'auf ihre eigenen Online-Nachrichten'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Das Gegenteil der Wahrheit, schlechte digitale Etikette trägt oft zu negativen Ergebnissen bei.",
+        "correction": "Im Gegenteil, schlechte digitale Etikette trägt oft zu negativen Ergebnissen bei.",
+        "description": "Awkward phrasing: 'Das Gegenteil der Wahrheit' is not idiomatic; 'Im Gegenteil' is the correct expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Technik des Erstellen von Schattierungen",
+        "correction": "Technik des Erstellens von Schattierungen",
+        "description": "Gerund error: 'Erstellen' should be in the genitive form 'Erstellens' after 'des'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Schattierung ist ein grundlegender Aspekt der Zeichentechniken, der nicht nur der natürlichen Schatten im Outdoor-Szenario zugeordnet wird.",
+        "correction": "Schattierung ist ein grundlegender Aspekt der Zeichentechniken, der nicht nur den natürlichen Schatten im Außenbereich zugeordnet wird.",
+        "description": "Incorrect case and awkward phrasing: 'der natürlichen Schatten' should be 'den natürlichen Schatten'; 'Outdoor-Szenario' is awkward, 'Außenbereich' is more idiomatic.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Einfühlen von Empathie kann die Qualität von zwischenmenschlichen Beziehungen verbessern.",
+        "correction": "Empathie kann die Qualität von zwischenmenschlichen Beziehungen verbessern.",
+        "description": "Awkward phrasing: 'Einfühlen von Empathie' is not idiomatic; 'Empathie' alone is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Dies führt zu einem Gefühl der Vertrautheit und der stärksten Beziehungen.",
+        "correction": "Dies führt zu einem Gefühl der Vertrautheit und zu stärkeren Beziehungen.",
+        "description": "Incorrect word choice: 'der stärksten Beziehungen' is misleading; 'zu stärkeren Beziehungen' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "die grundlegenden Emotionen selbst sind in allen Gesellschaften erlebt.",
+        "correction": "die grundlegenden Emotionen selbst werden in allen Gesellschaften erlebt.",
+        "description": "Incorrect verb form: 'werden erlebt' is required for passive voice in present tense.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Worte sprechen",
+        "correction": "mit Worten ausdrücken",
+        "description": "Awkward phrasing: 'Worte sprechen' is not idiomatic; 'mit Worten ausdrücken' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Articles",
+        "original": "Ein 'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+        "correction": "'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+        "description": "Unnecessary article 'Ein' before a definite title; definite articles are sufficient for titles.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In einem Brandnotfall ist es äußerst riskant, versuchen, das Feuer selbst zu löschen.",
+        "correction": "In einem Brandnotfall ist es äußerst riskant, zu versuchen, das Feuer selbst zu löschen.",
+        "description": "Infinitive construction error: 'zu' is required before 'versuchen' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "das Risiko für die eigenen Leben erhöhen.",
+        "correction": "das Risiko für das eigene Leben erhöhen.",
+        "description": "Number agreement error: 'Leben' should be singular with 'das eigene'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Jedoch sollten Brände in der Küche mit einem Klasse A Feuerlöscher begonnen werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+        "correction": "Jedoch sollten Brände in der Küche mit einem Klasse-A-Feuerlöscher gelöscht werden, wenn sie durch brennbares Material wie Papier oder Holz entstehen.",
+        "description": "Incorrect verb and preposition usage: 'begonnen werden' is awkward and incorrect; 'gelöscht werden' is the correct verb. 'mit' should be replaced by 'durch' for cause.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Feuerlöschergebrauch",
+        "correction": "Feuerlöscher-Gebrauch",
+        "description": "Compound noun should be hyphenated for clarity in lesson title.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Haltet die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften.",
+        "correction": "Halten Sie die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um die Atemwege zu öffnen.",
+        "description": "Inconsistent use of informal 'Haltet' and formal 'helfen Sie'; 'Atemweg zu lüften' is awkward, 'Atemwege zu öffnen' is clearer.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Wissenslage über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+        "correction": "Das Wissen über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+        "description": "'Die Wissenslage' is incorrect; 'Das Wissen' is the proper term in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "priorieren",
+        "correction": "priorisieren",
+        "description": "Spelling error: 'priorieren' is incorrect, the correct verb is 'priorisieren'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Spitzer Winkel",
+        "correction": "Spitzer Winkel",
+        "description": "No error: 'Spitzer Winkel' is correctly spelled and capitalized.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Stumpfer Winkel",
+        "correction": "Stumpfer Winkel",
+        "description": "No error: 'Stumpfer Winkel' is correctly spelled and capitalized.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Gleichseitig, Gleichschenklig oder Ungleichseitig",
+        "correction": "gleichseitig, gleichschenklig oder ungleichseitig",
+        "description": "Adjectives should not be capitalized unless at the beginning of a sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Maßeinheit von 90 Grad",
+        "correction": "Maßeinheit von weniger als 90 Grad",
+        "description": "Incorrect word usage: A 'spitzer Winkel' is less than 90 degrees, not exactly 90 degrees.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "wo man ihn an einer Seite des Buches lokalisieren kann, aber nicht messen kann.",
+        "correction": "wo man ihn an einer Seite des Buches lokalisieren, aber nicht messen kann.",
+        "description": "Verb repetition: 'kann' should only be used once at the end of the clause.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Es ist ungenau zu sagen, dass er nur nationalen Handel umfasst.",
+        "correction": "Es ist ungenau zu sagen, dass er nur nationalen Produkte umfasst.",
+        "description": "The word 'Handel' should be replaced with 'Produkte' to match the context of the statement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "veto eines Bundesgesetzes",
+        "correction": "Veto eines Bundesgesetzes",
+        "description": "Noun capitalization error: 'Veto' should be capitalized as a noun in German.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "durch ein Zweidrittelmehrheit",
+        "correction": "durch eine Zweidrittelmehrheit",
+        "description": "Article-noun gender agreement error: 'Mehrheit' is feminine and requires 'eine'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "abwechslungsartig und nicht fester",
+        "correction": "abwechslungsreich und nicht festgelegt",
+        "description": "Incorrect word choice and adjective form: 'abwechslungsreich' is the correct adjective, and 'festgelegt' is the proper participle.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "durch eine Amtszeit von 18 Jahren für Richter, die von Präsidenten ernannt werden, und eine Amtszeit von 10 Jahren für Amtsinhaber des Obersten Gerichtshofs angegeben.",
+        "correction": "durch eine Amtszeit von 18 Jahren für Richter, die vom Präsidenten ernannt werden, und eine Amtszeit von 10 Jahren für Amtsinhaber des Obersten Gerichtshofs angegeben.",
+        "description": "Preposition-noun agreement error: 'vom Präsidenten' is correct for singular reference.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "der Präsident das Veto kann",
+        "correction": "der Präsident ein Veto einlegen kann",
+        "description": "Verb phrase error: 'das Veto kann' is incorrect; 'ein Veto einlegen kann' is the correct expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "dass der Kongress eine Zweidrittelmehrheit benötigt, um das Veto zu überstimmen.",
+        "correction": "dass der Kongress eine Zweidrittelmehrheit benötigt, um das Veto zu überstimmen.",
+        "description": "No error; sentence is correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In der Vereinigten Staaten ist es der Judikative, insbesondere dem Obersten Gerichtshof, die Befugnis hat, Gesetze zu interpretieren und gegebenenfalls als verfassungswidrig zu erklären.",
+        "correction": "In den Vereinigten Staaten ist es die Judikative, insbesondere der Oberste Gerichtshof, die die Befugnis hat, Gesetze zu interpretieren und gegebenenfalls als verfassungswidrig zu erklären.",
+        "description": "Case and gender errors: 'In den Vereinigten Staaten', 'die Judikative', 'der Oberste Gerichtshof' are correct forms.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteiglich",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: incorrect word formation, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "einen Veto einlegt",
+        "correction": "ein Veto einlegt",
+        "description": "Incorrect article usage: 'Veto' is neuter and requires 'ein', not 'einen'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ein Misserfolg kann in einem Wachstumsmentalitätsansatz als ein Lernchance gesehen werden.",
+        "correction": "Ein Misserfolg kann in einem Wachstumsmentalitätsansatz als eine Lernchance gesehen werden.",
+        "description": "Gender agreement error: 'Chance' is feminine and requires 'eine' instead of 'ein'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteilt",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: 'hauptseteilt' is incorrect, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Energiespanne",
+        "correction": "Energieniveau",
+        "description": "Word choice error: 'Energiespanne' is awkward and uncommon, 'Energieniveau' is the correct term",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Freundlichkeit gewährt sich durch Selbstbehauptung.",
+        "correction": "Freundlichkeit zeigt sich durch Selbstbehauptung.",
+        "description": "Incorrect verb usage: 'gewährt sich' is not idiomatic; 'zeigt sich' is the correct expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "das Sich-Hin-Wenden-an-Andere",
+        "correction": "das Sich-Hinwenden an Andere",
+        "description": "Incorrect compound noun formation: 'Sich-Hinwenden' should be written together without hyphens.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Dividierend Informationen in kleinere Abschnitte verbessert das Erinnern.",
+        "correction": "Das Teilen von Informationen in kleinere Abschnitte verbessert das Erinnern.",
+        "description": "Incorrect word choice: 'Dividierend' is not idiomatic or correct in German; 'Das Teilen von' is the proper phrasing.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Indem man sich beispielhaft den Einkaufslisten oder historischen Ereignissen vorstellt, wird das Verständnis und die Erinnerung verbessert.",
+        "correction": "Indem man sich beispielsweise Einkaufslisten oder historische Ereignisse vorstellt, wird das Verständnis und die Erinnerung verbessert.",
+        "description": "Incorrect word choice: 'beispielhaft den Einkaufslisten' is awkward; 'beispielsweise Einkaufslisten' is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Beatst",
+        "correction": "Beats",
+        "description": "Spelling error: 'Beatst' is incorrect, should be 'Beats'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "hauptsanto",
+        "correction": "hauptsächlich",
+        "description": "Incorrect word usage: 'hauptsanto' is not a German word, should be 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+        "correction": "Das Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+        "description": "Gender agreement error: 'Musikgenre' is neuter ('das'), not feminine ('die')",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "einer Stadt in New York",
+        "correction": "einem Stadtteil von New York",
+        "description": "Incorrect word usage: 'Bronx' is a borough/district, not a city",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Erneuerbare Ressourcen wie Solarenergie und Windenergie aus natürlichen Prozessen stammen, die sich im Laufe der Zeit wieder auffüllen können.",
+        "correction": "Erneuerbare Ressourcen wie Solarenergie und Windenergie stammen aus natürlichen Prozessen, die sich im Laufe der Zeit wieder auffüllen können.",
+        "description": "Word order error: verb should precede 'aus natürlichen Prozessen' for correct sentence structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zuzufügen.",
+        "correction": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zugänglich zu machen.",
+        "description": "Incorrect word choice: 'zufügen' is not appropriate in this context; 'zugänglich zu machen' fits the intended meaning.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Obwohl die Teilung von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenzielle Gefahren zu verstehen.",
+        "correction": "Obwohl das Teilen von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenziellen Gefahren zu verstehen.",
+        "description": "Incorrect noun: 'Teilung' should be 'das Teilen' in this context. Also, 'potenzielle Gefahren' should be 'potenziellen Gefahren' for correct adjective ending.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Phishing-E-Mails können oft als autoritativ erscheinen.",
+        "correction": "Phishing-E-Mails können oft besonders vertrauenswürdig erscheinen.",
+        "description": "Awkward word choice: 'autoritativ' is uncommon in German for this context; 'besonders vertrauenswürdig' is more idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Elemente in der zweiten Periode haben tatsächlich drei Valenzelektronen.",
+        "correction": "Elemente in der zweiten Periode haben tatsächlich zwei Valenzelektronen.",
+        "description": "Grammatical error: The statement contradicts the scientific fact and the original question; 'drei' should be 'zwei' to match the context.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Zum Beispiel hat Magnesium (Mg) drei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+        "correction": "Zum Beispiel hat Magnesium (Mg) zwei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+        "description": "Incorrect word choice: Magnesium has two valence electrons, not three.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "da die Elektronen in äußere Schalen hinzukommen",
+        "correction": "da die Elektronen in äußere Schalen gelangen",
+        "description": "Awkward phrasing: 'hinzukommen' is not idiomatic in this context; 'gelangen' is more appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "In der Überzeugungsschreibweise ist es entscheidend, dass ein starkes Argument mit einer klaren Behauptung beginnt.",
+        "correction": "Im überzeugenden Schreiben ist es entscheidend, dass ein starkes Argument mit einer klaren Behauptung beginnt.",
+        "description": "Unnatural word choice: 'Überzeugungsschreibweise' is awkward; 'im überzeugenden Schreiben' is the standard phrasing.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Die Struktur wird durch die kürzere zweite Zeile von neun Silben gekennzeichnet, nicht fünf.",
+        "correction": "Die Struktur wird durch die mittlere Zeile mit sieben Silben gekennzeichnet, nicht fünf.",
+        "description": "Incorrect word choice: 'zweite Zeile von neun Silben' is factually and linguistically incorrect; the Haiku's second line has seven syllables.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Freie Verse sind dafür bekannt, dass sie keinen festen Reimschema, Metrum oder Struktur haben, was sie sehr flexibel macht.",
+        "correction": "Freie Verse sind dafür bekannt, dass sie kein festes Reimschema, Metrum oder Struktur haben, was sie sehr flexibel macht.",
+        "description": "Agreement error: 'keinen festen Reimschema' should be 'kein festes Reimschema' (neuter noun, correct adjective ending).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Die Struktur besteht aus drei längeren Zeilen, gefolgt von zwei kürzeren Zeilen, wobei die Silbenzahl variiert.",
+        "correction": "Die Struktur besteht aus drei langen Zeilen, gefolgt von zwei kurzen Zeilen, wobei die Silbenzahl variiert.",
+        "description": "Adjective agreement: 'längeren' and 'kürzeren' are comparative forms, but 'lang' and 'kurz' are more appropriate for describing line length in poetry.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "bestimmige",
+        "correction": "bestimmte",
+        "description": "Spelling error: 'bestimmige' is incorrect, should be 'bestimmte'",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "moment",
+        "correction": "Moment",
+        "description": "Noun capitalization error: 'Moment' should be capitalized as a noun in German.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Der Schubkraft erzeugt ein Drehmoment, das die Bewegung des Hebels antreibt.",
+        "correction": "Die Schubkraft erzeugt ein Drehmoment, das die Bewegung des Hebels antreibt.",
+        "description": "Gender agreement error: 'Kraft' is feminine, so the article should be 'die'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In Wirklichkeit bewegen sich die Achse, wenn das Rad rotiert.",
+        "correction": "In Wirklichkeit bewegt sich die Achse, wenn das Rad rotiert.",
+        "description": "Subject-verb agreement error: 'Achse' is singular, so verb should be 'bewegt'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Drehmomentumübertragung erfolgt durch die Rotation des Rades.",
+        "correction": "Die Drehmomentübertragung erfolgt durch die Rotation des Rades.",
+        "description": "Word choice error: 'Drehmomentumübertragung' is incorrect; correct term is 'Drehmomentübertragung'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Wandkraft",
+        "correction": "Kraft",
+        "description": "Word choice error: 'Wandkraft' is incorrect in this context; 'Kraft' is the appropriate term.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Schub von Raketen kann durch die Verwendung von Elektrizität anstelle von Treibstoff erhöht werden.",
+        "correction": "Der Schub von Raketen kann durch die Verwendung von Elektrizität anstelle von Treibstoff erhöht werden.",
+        "description": "Incorrect article: 'Schub' is masculine and requires 'der' instead of 'die'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Das erste Newtons Gesetz, auch als Trägheitsgesetz, besagt, dass ein sich bewegender Gegenstand in Bewegung bleibt, es sei denn, er wird durch äußere Kräfte beeinflusst.",
+        "correction": "Das erste Newtonsche Gesetz, auch als Trägheitsgesetz, besagt, dass ein sich bewegender Gegenstand in Bewegung bleibt, es sei denn, er wird durch äußere Kräfte beeinflusst.",
+        "description": "Incorrect genitive construction: 'Newtons Gesetz' should be 'Newtonsche Gesetz' for proper adjective formation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "wie die NASA-Space Shuttle",
+        "correction": "wie das NASA-Space Shuttle",
+        "description": "Missing article: 'das' is required before 'NASA-Space Shuttle'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Feste Stoffe beherbergen ihre Form und Größe sowohl bei Raumtemperatur als auch unter extremen Bedingungen.",
+        "correction": "Feste Stoffe behalten ihre Form und Größe sowohl bei Raumtemperatur als auch unter extremen Bedingungen.",
+        "description": "Incorrect word choice: 'beherbergen' should be 'behalten' to express 'retain' rather than 'harbor'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Flüssigkeiten haben das Eigenschaft, dass sie eindeutig definierte Volumina besitzen, aber nicht die Form.",
+        "correction": "Flüssigkeiten haben die Eigenschaft, dass sie eindeutig definierte Volumina besitzen, aber nicht die Form.",
+        "description": "Incorrect article: 'das Eigenschaft' should be 'die Eigenschaft' to match the feminine noun.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Sie können sich ausbreiten, um die Form ihres Behälters zu erfüllen.",
+        "correction": "Sie können sich ausbreiten, um die Form ihres Behälters anzunehmen.",
+        "description": "Awkward phrasing: 'erfüllen' should be 'anzunehmen' to correctly express 'take on the shape'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "die geringe stöchiometrische Spannung zwischen ihnen",
+        "correction": "die geringe zwischenmolekulare Spannung zwischen ihnen",
+        "description": "Incorrect word usage: 'stöchiometrische' is not appropriate here; 'zwischenmolekulare' is correct for molecular forces.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "Gase zeichnen sich durch ein frei bewegendes Teilchen aus und nehmen den gesamten Raum des Behälters ein.",
+        "correction": "Gase zeichnen sich durch frei bewegliche Teilchen aus und nehmen den gesamten Raum des Behälters ein.",
+        "description": "Number agreement error: 'ein frei bewegendes Teilchen' (singular) should be 'frei bewegliche Teilchen' (plural) to match 'Gase'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Diese Aussage stimmt mit den Eigenschaften von Plasma überein, die durch die Bewegung von geladenen Teilchen gekennzeichnet ist.",
+        "correction": "Diese Aussage stimmt mit den Eigenschaften von Plasma überein, das durch die Bewegung von geladenen Teilchen gekennzeichnet ist.",
+        "description": "Relative clause error: 'die' should be 'das' to refer to 'Plasma' (neuter noun).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sublimation ist ein einzigartiger Übergang, bei dem ein Feststoff direkt in ein Gas umgewandelt wird.",
+        "correction": "Sublimation ist ein einzigartiger Übergang, bei dem ein Feststoff direkt zu einem Gas umgewandelt wird.",
+        "description": "Preposition error: 'in ein Gas' should be 'zu einem Gas' for correct case usage after 'umgewandelt wird'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Wenn Wasser gefriert, gewinnen die Wassermoleküle tatsächlich Energie.",
+        "correction": "Wenn Wasser gefriert, verlieren die Wassermoleküle tatsächlich Energie.",
+        "description": "Incorrect word usage: 'gewinnen' should be 'verlieren' to correctly express that molecules lose energy when freezing.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Wenn die Energie hingegen gewonnen wird, werden die Moleküle schneller und können sich zu einer Flüssigkeit oder einem Gas verdünnen.",
+        "correction": "Wenn hingegen Energie aufgenommen wird, werden die Moleküle schneller und können sich zu einer Flüssigkeit oder einem Gas bewegen.",
+        "description": "Incorrect word usage: 'verdünnen' is not appropriate; 'bewegen' is correct for describing molecular motion.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteilt",
+        "correction": "hauptsächlich",
+        "description": "Spelling error: incorrect word 'hauptseteilt' instead of 'hauptsächlich'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Fallenden Handlung",
+        "correction": "fallenden Handlung",
+        "description": "Incorrect capitalization: 'fallenden' is not a noun and should not be capitalized",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Zügen",
+        "correction": "Zügen",
+        "description": "Ambiguous word: 'Zügen' (trains) is likely a mistranslation or typo for 'Zügen' (traits), but the correct word should be 'Zügen' (traits) or 'inneren Konflikten' (inner conflicts)",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Das bloße Lesen ohne das Erarbeiten von Anmerkungen oder das Fragen nach Kontexten kann das Verständnis nicht erheblich verbessern.",
+        "correction": "Das bloße Lesen ohne das Erstellen von Anmerkungen oder das Nachfragen nach Kontexten kann das Verständnis nicht erheblich verbessern.",
+        "description": "Unidiomatic word choice: 'Erarbeiten von Anmerkungen' and 'Fragen nach Kontexten' are awkward; 'Erstellen von Anmerkungen' and 'Nachfragen nach Kontexten' are more natural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Die Zusammenfassung spielt eine entscheidende Rolle, da sie die Hauptpunkte unter die Lupe nimmt und die eigentlichen Lektionen zusammenfasst.",
+        "correction": "Die Zusammenfassung spielt eine entscheidende Rolle, da sie die Hauptpunkte zusammenfasst und die wichtigsten Lektionen hervorhebt.",
+        "description": "Unidiomatic phrase: 'unter die Lupe nimmt' is informal and not suitable in this context; 'zusammenfasst und die wichtigsten Lektionen hervorhebt' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "was die Kernidee der Cornell-Methode zu verfehlen vermuten könnte.",
+        "correction": "was darauf hindeutet, dass die Kernidee der Cornell-Methode verfehlt wird.",
+        "description": "Awkward phrasing: 'zu verfehlen vermuten könnte' is convoluted; 'darauf hindeutet, dass ... verfehlt wird' is clearer.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "den wichtigsten Aufgabenbereich ermöglicht, mehr Zeit für die Aufgaben zu verwenden, die wirklich Priorität haben.",
+        "correction": "ermöglicht, sich auf die wichtigsten Aufgaben zu konzentrieren und mehr Zeit für die Aufgaben zu verwenden, die wirklich Priorität haben.",
+        "description": "Unclear reference: 'den wichtigsten Aufgabenbereich ermöglicht' is ambiguous; rephrased for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In vielen Ländern bieten Wahlberechtigten die Möglichkeit, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+        "correction": "In vielen Ländern wird Wahlberechtigten die Möglichkeit geboten, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+        "description": "Subject-verb agreement error: 'Wahlberechtigten' is dative plural, so passive construction is required.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "routine-basierten Aufgaben",
+        "correction": "routinemäßigen Aufgaben",
+        "description": "Incorrect word formation: 'routinemäßigen' is the standard adjective for tasks based on routine.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Word Choice",
+        "original": "Wegrechnen",
+        "correction": "Rechnen",
+        "description": "'Wegrechnen' is not idiomatic in this context; 'Rechnen' is the correct term for calculation tasks.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Agreement",
+        "original": "nur menschlichen Intelligenz",
+        "correction": "nur menschliche Intelligenz",
+        "description": "Adjective-noun agreement error: 'menschliche' must agree in case and gender with 'Intelligenz'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Christentum entstand vor etwa 2000 Jahren im Nahen Osten, nicht im antiken Rom.",
+        "correction": "Das Christentum entstand vor etwa 2000 Jahren im Nahen Osten, nicht im antiken Rom.",
+        "description": "Missing definite article 'Das' at the beginning of the sentence.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": []
+  }
+}

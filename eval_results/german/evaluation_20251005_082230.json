@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Haltet die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften.",
+      "correction": "Halten Sie die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um die Atemwege zu öffnen.",
+      "description": "Inconsistent use of informal 'Haltet' and formal 'helfen Sie'; 'Atemweg zu lüften' is awkward, 'Atemwege zu öffnen' is clearer.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Wissenslage über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+      "correction": "Das Wissen über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+      "description": "'Die Wissenslage' is incorrect; 'Das Wissen' is the proper term in this context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "German",
+    "timestamp": "2025-10-05T08:22:30.782577",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

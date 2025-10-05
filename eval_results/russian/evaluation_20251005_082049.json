@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Выпадание 3 на стандартном шестигранном кубике имеет одну из пяти возможных исходов.",
+      "correction": "Выпадение 3 на стандартном шестигранном кубике является одним из пяти возможных исходов.",
+      "description": "Incorrect word choice: 'Выпадание' should be 'Выпадение'; 'имеет одну из пяти возможных исходов' is awkward and ungrammatical.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Agreement",
+      "original": "одну из пяти возможных исходов",
+      "correction": "один из пяти возможных исходов",
+      "description": "Number agreement error: 'одну' should agree with 'исходов' (masculine, singular), not 'одну' (feminine).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В играх с кубиками, каждое стороно с большей вероятностью покажет значение больше 4.",
+      "correction": "В играх с кубиками каждая сторона с большей вероятностью покажет значение больше 4.",
+      "description": "Grammar error: 'каждое стороно' should be 'каждая сторона'; also, unnecessary comma after 'кубиками'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "стороно",
+      "correction": "сторона",
+      "description": "Spelling error: 'стороно' is a misspelling of 'сторона'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "шестеренковым кубиком",
+      "correction": "шестигранным кубиком",
+      "description": "Incorrect word choice: 'шестеренковым' is not appropriate; should be 'шестигранным' (six-sided).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "вероятность выпасть значение больше 4 составляет 2/6",
+      "correction": "вероятность выпадения значения больше 4 составляет 2/6",
+      "description": "Grammar error: 'выпасть значение' is incorrect; should be 'выпадения значения'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Так как на кубике шесть граней, вероятность выпасть любому из этих чисел равна 3 из 6",
+      "correction": "Так как на кубике шесть граней, вероятность выпадения любого из этих чисел равна 3 из 6",
+      "description": "Incorrect word choice: 'выпасть любому' should be 'выпадения любого'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "вероятность выпасть число большее чем 3 равна 0,5, а не 0,25.",
+      "correction": "вероятность выпадения числа, большего чем 3, равна 0,5, а не 0,25.",
+      "description": "Grammar error: missing comma and incorrect case for 'большее чем 3'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "Вероятность выпасть «орлу» и «решка» при подбрасывании монеты одинакова и составляет 50% для каждого исхода",
+      "correction": "Вероятность выпадения «орла» и «решки» при подбрасывании монеты одинакова и составляет 50% для каждого исхода",
+      "description": "Incorrect word choice and case: 'выпасть «орлу» и «решка»' should be 'выпадения «орла» и «решки»'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T08:20:49.622523",
+    "model": "gpt-4.1",
+    "label": "v1.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.9,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.1,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

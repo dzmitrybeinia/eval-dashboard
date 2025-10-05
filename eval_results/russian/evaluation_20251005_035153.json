@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ледерхозен и дирндли",
+      "correction": "ледерхозены и дирндли",
+      "description": "Incorrect plural form: 'ледерхозен' should be 'ледерхозены' in Russian plural usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "пан де муэрто",
+      "correction": "пан де муэртo",
+      "description": "Spelling error in Spanish term: 'муэрто' should be 'муэртo' to match the original Spanish 'muerto'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Russian",
+    "timestamp": "2025-10-05T03:51:53.878026",
+    "model": "gpt-4.1",
+    "label": "v1.llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

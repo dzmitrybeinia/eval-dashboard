@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אינם רלוונים לתזונה מאוזנת וחשובים לבריאותנו.",
+      "correction": "אינם רלוונטיים לתזונה מאוזנת וחשובים לבריאותנו.",
+      "description": "The word 'רלוונים' is a misspelling of 'רלוונטיים', which is the correct Hebrew term for 'relevant'. This spelling error affects clarity and professionalism. The rest of the sentence is grammatically correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "לתזוןה מאוזנת",
+      "correction": "לתזונה מאוזנת",
+      "description": "The word 'לתזוןה' is a misspelling of 'לתזונה' ('nutrition'). This error may confuse learners and should be corrected for proper understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "כמות מתוחכת של מגוון מזונות",
+      "correction": "כמות מתאימה של מגוון מזונות",
+      "description": "The word 'מתוחכת' is not a valid Hebrew word in this context. The intended meaning is 'appropriate amount', which should be 'מתאימה'. This lexical error impairs comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "זה מבטא את הרעיון שכל ארוך מהתזונה הכולל מגוון רבגנים ושלמים",
+      "correction": "זה מבטא את הרעיון שכל ארוחה מהתזונה כוללת מגוון דגנים מלאים",
+      "description": "The word 'ארוך' is a misspelling of 'ארוחה' ('meal'), and 'רבגנים ושלמים' is an incorrect phrase. The correct expression is 'דגנים מלאים' ('whole grains'). These lexical errors make the sentence unclear and should be corrected for accurate meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "יוגונות",
+      "correction": "יוגורטים",
+      "description": "The word 'יוגונות' is not a valid Hebrew word. The correct term for 'yogurts' is 'יוגורטים'. This lexical error affects clarity and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מאכיבים טבעיים",
+      "correction": "מאכלים טבעיים",
+      "description": "The word 'מאכיבים' is a misspelling and incorrect form; the correct word is 'מאכלים' ('foods'). This lexical error impairs understanding and should be corrected.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:25:19.969978",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

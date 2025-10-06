@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Schauplatte",
+      "correction": "Schauplatz",
+      "description": "The word 'Schauplatte' is a spelling error and does not exist in standard German. The correct term for the setting of a story is 'Schauplatz'. This error affects comprehension and should be corrected to ensure accurate terminology and understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "lebt glücklich bis ans Ende ihrer Tage",
+      "correction": "lebt glücklich bis ans Lebensende",
+      "description": "The phrase 'lebt glücklich bis ans Ende ihrer Tage' is a common fairy tale ending, but it may sound slightly archaic or overly formal for modern educational content. 'lebt glücklich bis ans Lebensende' is a more neutral and contemporary alternative, improving naturalness and accessibility for young learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "In der Geschichte *Die drei kleinen Schweinchen* sind die Schweinchen die Hauptcharaktere, und der Wolf ist der Gegenspieler.",
+      "correction": "In der Geschichte *Die drei kleinen Schweinchen* sind die Schweinchen die Hauptcharaktere, und der Wolf ist der Gegenspieler.",
+      "description": "While the example is culturally familiar in many Western contexts, 'Die drei kleinen Schweinchen' may not be universally recognized by all German-speaking learners, especially those from diverse backgrounds. Consider supplementing with a more locally relevant or widely known German story to enhance cultural inclusivity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Hauptcharaktere",
+      "correction": "Hauptfiguren",
+      "description": "The term 'Hauptcharaktere' is understandable but less commonly used in German educational contexts than 'Hauptfiguren'. 'Hauptfiguren' is the standard term for main characters in stories and literature, ensuring consistency and professional language usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:57:45.903462",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3
+    }
+  }
+}

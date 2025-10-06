@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "זה אידיאוזיס מכיוון שסכנות אש יכולות להגדיל את הסיכוי לשריפה שעלולה לגרום נזקים חמורים ופגיעויות בריאתיות, כולל שיעורי חום רבים, חריפות וחשיפה לאנימוטים.",
+      "correction": "זה לא נכון, מכיוון שסכנות אש יכולות להגדיל את הסיכוי לשריפה שעלולה לגרום נזקים חמורים ופגיעות בריאותיות, כולל כוויות, פציעות וחשיפה לעשן רעיל.",
+      "description": "The feedback contains multiple lexical errors: 'אידיאוזיס' is a non-Hebrew word and not appropriate in this context; 'פגיעויות בריאתיות' is a misspelling and should be 'פגיעות בריאותיות'; 'שיעורי חום רבים' is unclear and unnatural, and 'אנימוטים' is not a Hebrew word and likely a mistaken transliteration. The corrected version uses clear, standard Hebrew vocabulary for educational content and improves overall clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "שיטות המניעת שריפות מתמקדות בהפחתת סיכונים כמו אימות חשמלי וניהונותים בבית. כיסוי חלונות בנייר מפריע לתקורת אוויר, מה שיכול לגרום לבעיות בריאותיות או להגביר את סיכוני השריפה. חשוב לשמור על נקיון והיבטי ניהונות בבית באופן בטונלי.",
+      "correction": "שיטות מניעת שריפות מתמקדות בהפחתת סיכונים כמו בטיחות חשמלית וניקיון בבית. כיסוי חלונות בנייר מפריע לזרימת האוויר, מה שיכול לגרום לבעיות בריאותיות או להגביר את סיכוני השריפה. חשוב לשמור על ניקיון והיבטי בטיחות בבית באופן קבוע.",
+      "description": "The feedback contains several lexical and spelling errors: 'אימות חשמלי' is incorrect and should be 'בטיחות חשמלית'; 'ניהונותים' and 'ניהונות' are not Hebrew words and should be replaced with 'ניקיון'; 'תקורת אוויר' is not a standard phrase and should be 'זרימת האוויר'; 'בטונלי' is a misused word and should be 'קבוע'. The corrected version uses proper terminology and standard Hebrew expressions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הצעדים המוזכרים בתוכנית חירום לשריפה מתמקדים בפעולות בטיחות והיכרות עם מקרה שריפה. הריצה במעליות אינה מומלצת כי היא יכולה להגביר את הסיכון ולהפריע לתהליך החירום. תנועה בטיחותית באוויר או בשטח פני הקרקע היא המקום המועדף עליו להגעה במקרה שריפה.",
+      "correction": "הצעדים המוזכרים בתוכנית חירום לשריפה מתמקדים בפעולות בטיחות והיכרות עם מקרה שריפה. השימוש במעליות אינו מומלץ כי הוא יכול להגביר את הסיכון ולהפריע לתהליך החירום. תנועה בטוחה בשטח פני הקרקע היא הדרך המועדפת להגעה למקום בטוח במקרה שריפה.",
+      "description": "The feedback contains lexical and semantic errors: 'הריצה במעליות' is unnatural; 'תנועה בטיחותית באוויר' is unclear and not idiomatic, and 'המקום המועדף עליו להגעה' is awkward and confusing. The corrected version uses standard Hebrew phrasing for emergency procedures and clarifies the recommended actions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בדיקת גלאי עשן חשובה מאוד, אך התדירות שלה חייבת להתאים להנחיות מקצובים מבטיחות אש. התקנים של מחיקת הסוללות באופן קבוע מבטיחים ביעילות למרות שהם נעשים לעתים קרובות יותר לעיתית.",
+      "correction": "בדיקת גלאי עשן חשובה מאוד, אך התדירות שלה חייבת להתאים להנחיות בטיחות אש. החלפת הסוללות באופן קבוע מבטיחה יעילות, ויש לבצע זאת בהתאם להמלצות.",
+      "description": "The feedback contains lexical and spelling errors: 'מקצובים מבטיחות אש' is incorrect and should be 'הנחיות בטיחות אש'; 'התקנים של מחיקת הסוללות' is a mistranslation and should be 'החלפת הסוללות'; 'לעיתית' is not a standard word and should be omitted. The corrected version uses clear, standard Hebrew and improves clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:24:10.215759",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

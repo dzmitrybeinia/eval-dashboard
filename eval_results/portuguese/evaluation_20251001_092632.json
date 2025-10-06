@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Usar elevadores durante um incêndio não é recomendado devido ao risco de tração e falha de energia. É melhor usar as escadas, que são projetadas para situações de emergência.",
+      "correction": "Usar elevadores durante um incêndio não é recomendado devido ao risco de travamento e falha de energia. É melhor usar as escadas, que são projetadas para situações de emergência.",
+      "description": "The word 'tração' is a lexical error in this context. The intended meaning is 'travamento' (jamming or getting stuck), not 'traction.' 'Tração' refers to pulling or traction, which is not relevant to elevator risks during a fire. The correct term is 'travamento,' which accurately describes the risk of elevators getting stuck.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ensine crianças pequenas a saírem sozinhas em caso de necessidade.",
+      "correction": "Ensine crianças pequenas a procurar um adulto responsável ou seguir o plano de fuga em caso de necessidade.",
+      "description": "The original phrase suggests that young children should leave alone in an emergency, which may not align with best safety practices in Brazilian culture and fire safety guidelines. It is more appropriate and culturally sensitive to instruct children to seek a responsible adult or follow the escape plan, ensuring their safety and supervision.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:26:32.328250",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

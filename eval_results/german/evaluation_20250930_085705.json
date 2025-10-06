@@ -1,0 +1,121 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Poetry ist eine der ältesten und ausdrucksstärksten Formen der Literatur.",
+      "correction": "Poesie ist eine der ältesten und ausdrucksstärksten Formen der Literatur.",
+      "description": "The word 'Poetry' is an anglicism and should be replaced with the standard German term 'Poesie' for linguistic accuracy and naturalness. Using 'Poetry' in a German educational context is incorrect and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Freie Verse",
+      "correction": "Freier Vers",
+      "description": "The term 'Freie Verse' is plural, but in German poetry terminology, the singular 'Freier Vers' is standard when referring to the form itself. The plural is only used when discussing multiple instances. This affects both linguistic precision and terminology consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Jambischem Pentameter",
+      "correction": "Jambischer Pentameter",
+      "description": "The phrase 'Jambischem Pentameter' uses the dative case incorrectly. In this context, the nominative 'Jambischer Pentameter' is required to describe the meter as a feature of the sonnet. This is a grammatical error affecting clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Kondenzationsvers",
+      "correction": "Schlussvers",
+      "description": "The term 'Kondenzationsvers' is not standard in German poetry terminology and may confuse learners. The correct term for the final line or couplet in a sonnet is 'Schlussvers' or 'Couplet'. This is a lexical and terminology error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Mitten in der Nacht",
+      "correction": "Mitten in der Nacht.",
+      "description": "The example limerick lacks proper punctuation at the end of the line 'Mitten in der Nacht'. In German poetry, even in limericks, punctuation should be used for clarity and correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Obwohl ein Limerick oft mit fünf Zeilen assoziiert wird, kann es auch in verschiedenen Formen und mit unterschiedlichen Anzahlen von Zeilen geschrieben werden.",
+      "correction": "Ein Limerick besteht immer aus fünf Zeilen. Andere Formen mit abweichender Zeilenzahl sind keine Limericks.",
+      "description": "The feedback incorrectly suggests that a limerick can have a different number of lines, which is misleading and culturally inaccurate. In both English and German literary tradition, a limerick is strictly defined as a five-line poem. This affects educational accuracy and cultural appropriateness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Der bereitgestellte Satz ist ein Beispiel für die in einem Sonett häufig verwendete Silbenzahl.",
+      "correction": "Der bereitgestellte Satz ist ein Beispiel für die im Sonett häufig verwendete Silbenzahl.",
+      "description": "The phrase 'die in einem Sonett häufig verwendete Silbenzahl' should use 'im Sonett' instead of 'in einem Sonett' for idiomatic and grammatically correct expression. This improves clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Das Hauptmerkmal eines Limericks liegt jedoch in seinem einzigartigen Reimschema und nicht in der genaue Anzahl der Zeilen.",
+      "correction": "Das Hauptmerkmal eines Limericks liegt jedoch in seinem einzigartigen Reimschema und nicht in der genauen Anzahl der Zeilen.",
+      "description": "The phrase 'in der genaue Anzahl' is grammatically incorrect; the adjective should be in the dative case: 'in der genauen Anzahl'. This is a grammar and morphology error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Er würde seinen Schuh essen.",
+      "correction": "Er würde seinen Schuh essen wollen.",
+      "description": "The phrase 'Er würde seinen Schuh essen.' in the limerick example is semantically unclear. In the context of a dream, the verb 'essen wollen' (want to eat) is more appropriate than 'essen' (eat), which implies he actually eats the shoe. This improves semantic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Und fand, dass sein Traum wahr geworden war.",
+      "correction": "Und fand, dass sein Traum wahr geworden ist.",
+      "description": "The phrase 'wahr geworden war' uses the plusquamperfekt tense unnecessarily. The present perfect 'wahr geworden ist' is more idiomatic and natural in German for this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Sonett besteht aus zwölf Zeilen und folgt einer spezifischen Reimstruktur.",
+      "correction": "Ein Sonett besteht aus vierzehn Zeilen und folgt einer spezifischen Reimstruktur.",
+      "description": "The statement incorrectly claims that a sonnet consists of twelve lines. The correct number is fourteen. This is a factual and lexical error that affects educational accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Richtig, ein Sonett ist bekannt für seine strenge Form, bestehend aus 14 Zeilen, die typischerweise in zwei Quartetten (vierzeilige Strophen) und einem abschließenden Kondenzationsvers oder Couplet strukturiert sind.",
+      "correction": "Richtig, ein Sonett ist bekannt für seine strenge Form, bestehend aus 14 Zeilen, die typischerweise in zwei Quartetten (vierzeilige Strophen) und einem abschließenden Schlussvers oder Couplet strukturiert sind.",
+      "description": "The term 'Kondenzationsvers' is not standard in German poetry terminology. 'Schlussvers' or 'Couplet' should be used for clarity and accuracy. This is a terminology and lexical error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:57:05.514161",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 7.3,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.7,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.3
+    }
+  }
+}

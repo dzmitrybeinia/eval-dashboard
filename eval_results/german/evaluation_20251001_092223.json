@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Wenn du nach einem Streit wütend bist, könnte das Ausrufen lauter sorgen.",
+      "correction": "Wenn du nach einem Streit wütend bist, könnte das laute Ausrufen für mehr Ärger sorgen.",
+      "description": "The phrase 'das Ausrufen lauter sorgen' is incorrect in German. The word order is unnatural, and 'sorgen' is used without an object or preposition, making the sentence unclear. The intended meaning is that shouting loudly after an argument could cause more trouble. The corrected version uses 'das laute Ausrufen' as the subject and clarifies the consequence with 'für mehr Ärger sorgen.' This correction addresses both the lexical inaccuracy and the syntactic awkwardness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Einleitung in Emotionen",
+      "correction": "Einführung in Emotionen",
+      "description": "The phrase 'Einleitung in Emotionen' is not the standard term in German for an introduction to a topic. 'Einleitung' refers to a preface or introductory section of a text, while 'Einführung' is the correct term for an introduction to a subject or concept. This correction ensures lexical precision and aligns with standard educational terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Emotionen sind ein wesentlicher Bestandteil des menschlichen Lebens.",
+      "correction": "Emotionen sind ein wesentlicher Bestandteil des menschlichen Lebens.",
+      "description": "No correction needed. The sentence is grammatically correct, with proper case usage, gender agreement, and noun capitalization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn du spät zur Klasse kommst, könntest du gestresst oder ängstlich sein.",
+      "correction": "Wenn du zu spät zum Unterricht kommst, könntest du gestresst oder ängstlich sein.",
+      "description": "The phrase 'spät zur Klasse' is a direct translation from English and is not idiomatic in German. The more natural and culturally appropriate expression is 'zu spät zum Unterricht kommen.' This correction improves the naturalness and localization quality of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Glück wird typischerweise mit positiven Erfahrungen in Verbindung gebracht und ist nicht mit negativen Erlebnissen verbunden.",
+      "correction": "Glück wird typischerweise mit positiven Erfahrungen in Verbindung gebracht und ist nicht mit negativen Erlebnissen verbunden.",
+      "description": "No correction needed. The sentence is grammatically and semantically correct, with proper passive construction and noun capitalization.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:22:23.667650",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2
+    }
+  }
+}

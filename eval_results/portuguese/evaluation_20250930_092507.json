@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A Terra possui várias zonas climáticas principais, cada uma com características distintas: Tropical (quente e úmido), Temperado (moderado), Polar (frio e seco) e Árido (quente e seco).",
+      "correction": "A Terra possui várias zonas climáticas principais, cada uma com características distintas: tropical (quente e úmido), temperado (moderado), polar (frio e seco) e árido (quente e seco).",
+      "description": "In Brazilian Portuguese, climate zone names such as 'tropical', 'temperado', 'polar', and 'árido' should not be capitalized unless they are part of a proper noun or at the beginning of a sentence. The original text incorrectly capitalizes these adjectives, which is a minor orthographic error but important for educational content consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A definição de zonas climáticas não é baseada apenas na latitude. Embora a latitude desempenhe um papel na determinação do clima, outros fatores como a altitude, a proximidade dos oceanos e a presença de corpos de água também influenciam o clima de uma região. Portanto, as zonas climáticas são caracterizadas por uma combinação de fatores, não apenas pela latitude.",
+      "correction": "A definição de zonas climáticas não é baseada apenas na latitude. Embora a latitude desempenhe um papel na determinação do clima, outros fatores como a altitude, a proximidade dos oceanos e a presença de corpos d'água também influenciam o clima de uma região. Portanto, as zonas climáticas são caracterizadas por uma combinação de fatores, não apenas pela latitude.",
+      "description": "The phrase 'corpos de água' should use the contraction 'corpos d'água' in Brazilian Portuguese. This is a grammatical and orthographic requirement for contractions with the preposition 'de' before a word starting with a vowel. The correction ensures proper usage and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepare-se para aprender sobre fatores como latitude, altitude e proximidade de corpos d'água que moldam o clima do nosso planeta! 🌍",
+      "correction": "Prepare-se para aprender sobre fatores como latitude, altitude e proximidade de corpos d'água que moldam o clima do nosso planeta!",
+      "description": "The use of the globe emoji (🌍) at the end of the sentence may be considered informal and less appropriate for educational content aimed at older students or formal contexts. While emojis can enhance engagement for younger audiences, their use should be carefully considered based on the target age group and educational setting. Removing the emoji increases the professionalism and neutrality of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:25:07.168805",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1
+    }
+  }
+}

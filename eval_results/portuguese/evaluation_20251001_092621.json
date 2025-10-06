@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "As emoções são uma parte natural e essencial de ser humano.",
+      "correction": "As emoções são uma parte natural e essencial do ser humano.",
+      "description": "The phrase 'de ser humano' is incorrect because the preposition 'de' does not properly connect with 'ser humano' in this context. The correct form is 'do ser humano', using the contraction of 'de' + 'o' to indicate 'of the human being'. This is a common grammatical structure in Portuguese when referring to characteristics belonging to humans in general.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "quando felizes",
+      "correction": "quando estamos felizes",
+      "description": "The phrase 'quando felizes' is missing the verb 'estamos', which is necessary for clarity and grammatical correctness in this context. In Portuguese, when describing a state that people experience, the verb 'estar' should be used to indicate the temporary condition, resulting in 'quando estamos felizes'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:26:21.436963",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0
+    }
+  }
+}

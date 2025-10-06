@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "الموارد الطبيعية هي أكثر من الأشياء اليستخدام من قبل البشر؛ إنها تشمل المواد والمواقع الطبيعية التي تعمل كموارد، مثل الماء والهواء والطبيعية التي تدعم الحياة البيئية. ليس الأشياء التي يمكن استخدامها فقط، ولكن العناصر التي تحتارف الأرض وتخدم أغراضًا مختلفة.",
+      "correction": "الموارد الطبيعية هي أكثر من الأشياء التي يستخدمها البشر؛ فهي تشمل المواد والمواقع الطبيعية التي تعمل كموارد، مثل الماء والهواء والعناصر الطبيعية التي تدعم الحياة البيئية. ليست فقط الأشياء التي يمكن استخدامها، بل العناصر التي تحتفظ بها الأرض وتخدم أغراضًا مختلفة.",
+      "description": "This feedback contains several linguistic errors: 'اليستخدام' is a misspelling and should be 'يستخدمها'; 'الطبيعية التي تدعم الحياة البيئية' is awkward and should be clarified as 'العناصر الطبيعية التي تدعم الحياة البيئية'; 'تحتارف الأرض' is a lexical error and should be 'تحتفظ بها الأرض'. These errors affect clarity and comprehension, and correcting them improves both grammatical accuracy and semantic precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "الموارد المتجددة تصنع بسرعة من الطاقة النخارية.",
+      "correction": "الموارد المتجددة لا تُصنع بسرعة من الطاقة النخارية.",
+      "description": "The term 'النخارية' is incorrect and does not exist in standard Arabic; it appears to be a misspelling or a false friend. The sentence also lacks proper negation to match the intended meaning. The correction clarifies the concept and uses accurate terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "الموارد المتجددة هي الموارد التي يمكن أن تتجدد بطريقة طبيعية مثل الطاقة الشمسية والرياح. تشير العبارة الخاطئة إلى أن الموارد النخارية، والتي تعني المواد غير العضوية، تتشكل بسرعة، مما يناقض طبيعة الموارد المتجددة التي يمكن أن تتجدد بطريقة طبيعية بمرور الزمن.",
+      "correction": "الموارد المتجددة هي الموارد التي يمكن أن تتجدد بطريقة طبيعية مثل الطاقة الشمسية والرياح. تشير العبارة الخاطئة إلى أن الموارد غير العضوية تتشكل بسرعة، وهذا يناقض طبيعة الموارد المتجددة التي تتجدد تدريجيًا بمرور الزمن.",
+      "description": "The feedback misuses 'النخارية' to mean 'غير العضوية', which is not a recognized term in Arabic. The sentence also contains redundancy and awkward phrasing. The correction replaces the incorrect term and streamlines the explanation for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "تُعدُّ الموارد الطبيعية مثل الماء والغابات أساسية للحياة البشرية والاقتصاد العالمي. الماء ضروري للبقاء على قيد الحياة، والغابات توفر الأكسجين والموائل للحياة البرية، حيث يؤثر على مختلف الصناعات والنمو الاقتصادي.",
+      "correction": "تُعدُّ الموارد الطبيعية مثل الماء والغابات أساسية للحياة البشرية والاقتصاد العالمي. الماء ضروري للبقاء على قيد الحياة، والغابات توفر الأكسجين والموائل للحياة البرية، وتؤثر على مختلف الصناعات والنمو الاقتصادي.",
+      "description": "The phrase 'حيث يؤثر على مختلف الصناعات والنمو الاقتصادي' contains a pronoun reference error; 'حيث' is used incorrectly, and the verb 'يؤثر' should agree with the plural subject. The correction replaces 'حيث' with 'وتؤثر' to maintain proper subject-verb agreement and sentence cohesion.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "هذه العبارة صحيحة لأنها تصور واقعًا وفعيلاً من استراتيجيات الحفاظ. إعادة التدوير هي استراتيجية مهمة لتقليل النفايات وتحسين استخدام الموارد الطبيعية. عن طريق إعادة الاستخدام للمواد التي كانت قد استخدمت مرة واحدة، يمكننا تقليل التأثير البيئي وإنتاج مزيد من الطاقة من خلال تقليل الفوائد البيئية المتعددة التي يتسبب فيها إزالة المواد القابلة للاستهلاك.",
+      "correction": "هذه العبارة صحيحة لأنها تعكس فعليًا إحدى استراتيجيات الحفاظ. إعادة التدوير هي استراتيجية مهمة لتقليل النفايات وتحسين استخدام الموارد الطبيعية. من خلال إعادة استخدام المواد التي استُخدمت مرة واحدة، يمكننا تقليل التأثير البيئي وتوفير الطاقة، بالإضافة إلى تحقيق فوائد بيئية متعددة.",
+      "description": "The feedback contains several lexical and grammatical errors: 'تصور واقعًا وفعيلاً' is awkward and should be 'تعكس فعليًا'; 'إنتاج مزيد من الطاقة من خلال تقليل الفوائد البيئية المتعددة التي يتسبب فيها إزالة المواد القابلة للاستهلاك' is semantically unclear and grammatically incorrect. The correction streamlines the explanation, improves clarity, and uses accurate terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:59:58.684263",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

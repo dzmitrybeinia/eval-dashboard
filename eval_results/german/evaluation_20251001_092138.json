@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Optionen identifizieren",
+      "correction": "Optionen identifizieren",
+      "description": "In the list of steps under 'Schritte der effektiven Entscheidungsfindung', the step 'Optionen identifizieren' is missing the definite article 'die' to match the parallel structure of the other steps (e.g., 'Die Entscheidung identifizieren', 'Die Informationen sammeln'). For consistency and grammatical correctness, it should be 'Die Optionen identifizieren'. This ensures parallelism and clarity in instructional lists.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das Treffen informierter Entscheidungen kann die Risiken minimieren und den Erfolg fördern.",
+      "correction": "Das Treffen informierter Entscheidungen kann Risiken minimieren und den Erfolg fördern.",
+      "description": "The use of the definite article 'die' before 'Risiken' is unnecessary in this general context. In German, when speaking about risks in general, the plural noun 'Risiken' should not be preceded by the definite article. Removing 'die' makes the sentence more idiomatic and grammatically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ein positiver Aspekt ist immer mehr wichtig als ein negativer Aspekt beim Entscheidungsprozess.",
+      "correction": "Ein positiver Aspekt ist immer wichtiger als ein negativer Aspekt beim Entscheidungsprozess.",
+      "description": "The phrase 'mehr wichtig' is incorrect in German; the correct comparative form is 'wichtiger'. This is a grammatical error in adjective comparison. The corrected sentence uses 'wichtiger', which is the proper comparative form of 'wichtig'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Konsequenzen sind die Ergebnisse oder Folgen einer Entscheidung, die entweder sofort oder langfristig, positiv oder negativ sein können.",
+      "correction": "Konsequenzen sind die Ergebnisse oder Folgen einer Entscheidung, die entweder sofort oder langfristig, positiv oder negativ sein können.",
+      "description": "The sentence is correct in terms of grammar and spelling, but the comma after 'langfristig' is not required according to German punctuation rules. In lists with 'oder', a comma is only needed if the items are complex or contain their own commas. Here, the comma after 'langfristig' can be omitted for better orthographic accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making_1__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:38.730033",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0
+    }
+  }
+}

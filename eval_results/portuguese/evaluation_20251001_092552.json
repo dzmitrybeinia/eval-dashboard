@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Quais vieses podem influenciar o autor?",
+      "correction": "Que vieses podem influenciar o autor?",
+      "description": "The use of 'Quais' is incorrect in this context because 'vieses' is not being selected from a previously mentioned set; the correct interrogative pronoun is 'Que'. This is a common mistake in Portuguese question formation, and correcting it improves grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Procure dados de suporte: Existem fatos, estatísticas ou exemplos?",
+      "correction": "Procure dados de apoio: Existem fatos, estatísticas ou exemplos?",
+      "description": "The phrase 'dados de suporte' is a calque from English ('supporting data') and is not idiomatic in Brazilian Portuguese. The correct and natural term is 'dados de apoio'. This is a lexical and collocational issue that affects the naturalness and clarity of the text.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ao pesquisar benefícios de uma nova dieta, evidências de revistas médicas revisadas por pares são mais confiáveis do que postagens em redes sociais.",
+      "correction": "Ao pesquisar benefícios de uma nova dieta, evidências de revistas científicas revisadas por pares são mais confiáveis do que postagens em redes sociais.",
+      "description": "The term 'revistas médicas' is too narrow for the context, as scientific evidence about diets can come from various fields, not just medicine. 'Revistas científicas' is the standard and more inclusive term in Brazilian academic discourse. This correction improves the accuracy and appropriateness of terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "reconhecer possíveis viés",
+      "correction": "reconhecer possíveis vieses",
+      "description": "The noun 'viés' should be in the plural form 'vieses' to agree with 'possíveis'. This is a gender and number agreement error that affects grammatical correctness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:25:52.008256",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "um mit der Umgebung eines Tieres übereinzustimmen",
+      "correction": "um sich an die Umgebung eines Tieres anzupassen",
+      "description": "The phrase uses 'übereinzustimmen', which is not idiomatic or correct in this context. The standard German expression for 'to match with the environment' in the context of adaptation is 'sich an die Umgebung anpassen'. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "in der Schnee",
+      "correction": "im Schnee",
+      "description": "The preposition 'in' with the dative case should contract with the masculine noun 'Schnee' to 'im Schnee'. The original uses the incorrect article 'der', which is not appropriate for this noun and context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Tiere passen sich nicht durch Ändern ihrer Körperfarbe an",
+      "correction": "Tiere passen sich nicht an, indem sie ihre Körperfarbe ändern",
+      "description": "The original sentence structure is ungrammatical and awkward. The correct construction is 'anpassen, indem ...', which clearly expresses the means by which adaptation occurs. The correction also clarifies the meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Beispiele für Verhaltensanpassungen",
+      "correction": "Beispiele für verhaltensbezogene Anpassungen",
+      "description": "The term 'Verhaltensanpassungen' is not standard and is inconsistent with the terminology used elsewhere in the lesson ('verhaltensbezogene Anpassungen'). For clarity and consistency, the full term should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Kamelen verändern ihre Fettlager, um besser an kalte, arktische Umgebungen anzupassen.",
+      "correction": "Kamele verändern ihre Fettlager nicht, um sich besser an kalte, arktische Umgebungen anzupassen.",
+      "description": "The original sentence is missing the reflexive pronoun 'sich' with 'anpassen' and incorrectly uses 'Kamelen' (dative plural) instead of 'Kamele' (nominative plural). Additionally, the statement is factually incorrect; the correction clarifies the subject and verb agreement and corrects the adaptation context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ihren Körper fettreichem Speichern anpassen",
+      "correction": "ihren Körper an fettreiche Speicher anpassen",
+      "description": "The phrase 'fettreichem Speichern' is grammatically incorrect and awkward. The correct form is 'an fettreiche Speicher anpassen', which uses the accusative plural and proper prepositional structure.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:20:57.109902",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

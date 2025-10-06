@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מודעות עצמי מתרוממת רק מהרגשות החיוביים שלנו.",
+      "correction": "מודעות עצמית מתפתחת לא רק מהרגשות החיוביים שלנו.",
+      "description": "The phrase 'מודעות עצמי' uses the incorrect form for 'self-awareness'; the correct term is 'מודעות עצמית' (feminine). Additionally, 'מתרוממת' is an unnatural verb choice in this context; 'מתפתחת' or 'נבנית' are more appropriate for describing the development of self-awareness. The sentence should also clarify that self-awareness is not limited to positive emotions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מודעות עצמי, אחד מרכיבי האינטליגנציה הרגשית, מתייחסת להבנת וזיהוי רגשות שונים. זה כולל אינטורסיטיות של רגשות גרועים וחיוביים, ולא מוגבלת רק לרגשות חיוביים. הערכה מדויקת מאוד על היכולת של האדם להבין את עומק הרגשות שלו ואת ההשפעה שלהם על ההתנהגות, ללא תלות בטביית הרגש.",
+      "correction": "מודעות עצמית, אחד ממרכיבי האינטליגנציה הרגשית, מתייחסת להבנה וזיהוי רגשות שונים. זה כולל רגשות שליליים וחיוביים, ולא מוגבל רק לרגשות חיוביים. הערכה מדויקת מאפשרת לאדם להבין את עומק הרגשות שלו ואת השפעתם על ההתנהגות, ללא תלות בסוג הרגש.",
+      "description": "Multiple lexical errors: 'מודעות עצמי' should be 'מודעות עצמית' (feminine). 'אינטורסיטיות' is a non-Hebrew word and unclear; the correct phrase is 'רגשות שליליים וחיוביים'. 'רגשות גרועים' is not idiomatic; 'רגשות שליליים' is standard. 'טביית הרגש' is incorrect; 'סוג הרגש' is the proper term. The sentence also contains awkward phrasing and should be restructured for clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "חוכמת האינטליגנציה הרגשית משתמשת רק באינסטים פיזיים.",
+      "correction": "אינטליגנציה רגשית אינה מסתמכת רק על תחושות פיזיות.",
+      "description": "The phrase 'חוכמת האינטליגנציה הרגשית' is not standard; 'אינטליגנציה רגשית' is sufficient. 'אינסטים פיזיים' is a mistranslation and not a recognized Hebrew term; 'תחושות פיזיות' is the correct phrase. The sentence should be reworded to clearly state that emotional intelligence is not limited to physical sensations.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "האינטליגנציה הרגשית כוללת את היכולת להבין ולהרגיש את הרגשות של עצמו ושל אחרים. בעוד שהיא משפרת את הבנת הרגשות והמצבים של מישהו, זו לא מגבירה רק את הלב והריאות, אלא גם משפרת את הכישורים המנהיגיים והחברתיים באדם.",
+      "correction": "אינטליגנציה רגשית כוללת את היכולת להבין ולהרגיש את הרגשות של עצמך ושל אחרים. היא אינה משפיעה רק על תחושות פיזיות, אלא גם משפרת כישורים חברתיים ומנהיגותיים.",
+      "description": "The phrase 'מגבירה רק את הלב והריאות' is unnatural and misleading in Hebrew; emotional intelligence is not described as affecting the heart and lungs. The sentence should focus on the improvement of social and leadership skills. 'הכישורים המנהיגיים והחברתיים באדם' is awkward; 'כישורים חברתיים ומנהיגותיים' is more natural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ידוע כי נשימות עמוקות משפרות רקטולוגיה מהירה.",
+      "correction": "ידוע כי נשימות עמוקות משפרות רוגע ובריאות נפשית.",
+      "description": "'רקטולוגיה מהירה' is a non-Hebrew and meaningless term in this context. The correct concept is that deep breathing improves calmness and mental health, not 'rectology'. The sentence should be reworded to reflect the actual benefits of deep breathing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "נשימות עמוקות מתורגמנים לשיפור ביישוב וטימוס בריאות, ולא ברקטולוגיה מהירה. ריצה מדרגת אינסטנציאלית יכולה להשפיע באופן חיובי על רקטולוגיה מהירה.",
+      "correction": "נשימות עמוקות מסייעות לשיפור הרוגע והבריאות הנפשית, ולא משפיעות על תהליכים פיזיולוגיים כמו רקטום. פעילות גופנית יכולה להשפיע באופן חיובי על הבריאות הכללית.",
+      "description": "Multiple lexical errors: 'מתורגמנים' is incorrect; 'מסייעות' is the proper verb. 'ביישוב וטימוס בריאות' are not standard Hebrew phrases; 'רוגע ובריאות נפשית' is correct. 'רקטולוגיה מהירה' is not a recognized term. 'ריצה מדרגת אינסטנציאלית' is unclear and unnatural; 'פעילות גופנית' is the standard term. The sentence should be reworded for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "מיינדפולנס, שהוא תהליך של הרהור על רגשותינו והתגברות על הרגשות שלנו, הוכח כמאפיין יעיל לשיפור אינטליגנציה רגשית. דרך מיינדפולנס, אנו יכולים לקבל תובנות על הרגשות שלנו, להבין טוב יותר את הרגשות של אחרים ולשפר את האוטינומיה שלנו. לכן, הטענה שמיינדפולנס לא יכול לעזור בשיפור אינטליגנציה רגשית אינ נכונית.",
+      "correction": "מיינדפולנס, שהוא תהליך של התבוננות ברגשותינו ושליטה בהם, הוכח ככלי יעיל לשיפור אינטליגנציה רגשית. באמצעות מיינדפולנס ניתן לקבל תובנות על הרגשות שלנו, להבין טוב יותר את רגשותיהם של אחרים ולשפר את האוטונומיה שלנו. לכן, הטענה שמיינדפולנס לא יכול לעזור בשיפור אינטליגנציה רגשית אינה נכונה.",
+      "description": "Several orthographic and lexical errors: 'התגברות על הרגשות שלנו' is awkward; 'שליטה בהם' is more accurate. 'מאפיין יעיל' should be 'כלי יעיל'. 'האוטינומיה' is a misspelling; the correct term is 'האוטונומיה'. 'אינ נכונית' is a typographical error; 'אינה נכונה' is correct. The sentence should be reworded for clarity and proper spelling.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:23:45.745025",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

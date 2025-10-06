@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Freundlichkeit, Empathie und Respekt sind Schlüssel zu einer besseren Welt.",
+      "correction": "Freundlichkeit, Empathie und Respekt sind Schlüssel für eine bessere Welt.",
+      "description": "The preposition 'zu' is incorrect in this context; 'für' is the standard collocation in German when expressing that something is a key for achieving a better world. This improves grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Tür für jemanden offenhalten.",
+      "correction": "Die Tür für jemanden offen halten.",
+      "description": "The verb 'offenhalten' should be written as two words 'offen halten' in this context, as per standard German orthography for separable verbs in infinitive constructions. This correction ensures proper lexical and orthographic usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Empathie bedeutet, die Gefühle anderer zu verstehen und teilen, aber es bedeutet nicht, dass wir uns nur in ihre Erfahrungen versetzen.",
+      "correction": "Empathie bedeutet, die Gefühle anderer zu verstehen und zu teilen, aber es bedeutet nicht, dass wir uns nur in ihre Erfahrungen versetzen.",
+      "description": "The verb 'teilen' requires the auxiliary 'zu' in this infinitive construction ('zu verstehen und zu teilen'). Omitting 'zu' is a grammatical error in German coordination of infinitives.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Menschen spenden Materialien oder bieten Unterkunft für Betroffene.",
+      "correction": "Menschen spenden Materialien oder bieten Betroffenen Unterkunft.",
+      "description": "The phrase 'bieten Unterkunft für Betroffene' is less idiomatic in German. The more natural and grammatically correct construction is 'bieten Betroffenen Unterkunft', which places the dative object before the noun, following standard German word order for double objects.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:27.455614",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0
+    }
+  }
+}

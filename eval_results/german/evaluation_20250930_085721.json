@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "die Entwicklung eines Teslas Autos",
+      "correction": "die Entwicklung eines Tesla-Autos",
+      "description": "The phrase uses 'Teslas Autos', which is incorrect in German. The correct form is 'Tesla-Auto' as a compound noun, with a hyphen to connect the brand name and the noun. This also avoids the incorrect genitive construction and matches standard German compound formation rules.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "wie das Findens der besten Lernmethode für eine Prüfung",
+      "correction": "wie das Finden der besten Lernmethode für eine Prüfung",
+      "description": "The word 'Findens' is incorrect; the correct nominalized form is 'das Finden'. In German, the infinitive is used for nominalization, not the genitive form. This error affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational German content may be considered informal and less appropriate for academic or instructional materials. It can be omitted to maintain a professional and neutral tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:57:21.765863",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.1
+    }
+  }
+}

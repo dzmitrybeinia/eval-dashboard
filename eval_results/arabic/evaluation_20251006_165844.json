@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "في هذه الدرس، سنتعرف على المفاهيم الأساسية للتجارة العالمية، فوائدها وتحدياتها، بالإضافة إلى دور المنظمات الدولية في تنظيمها وضمان سيرها بسلاسة.",
+      "correction": "في هذا الدرس، سنتعرف على المفاهيم الأساسية للتجارة العالمية، فوائدها وتحدياتها، بالإضافة إلى دور المنظمات الدولية في تنظيمها وضمان سيرها بسلاسة.",
+      "description": "The word \"الدرس\" is masculine in Arabic, so the demonstrative pronoun should be \"هذا\" instead of \"هذه\". This is a grammatical gender agreement error that affects the accuracy and professionalism of the text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "🌍",
+      "correction": "",
+      "description": "The globe emoji is not standard in formal Arabic educational content and may be perceived as informal or distracting in professional or academic contexts. It is recommended to remove it for consistency with formal register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "تصدر الولايات المتحدة منتجات زراعية مثل فول الصويا وتستورد إلكترونيات مثل الهواتف الذكية.",
+      "correction": "تصدر الولايات المتحدة منتجات زراعية مثل فول الصويا وتستورد إلكترونيات مثل الهواتف الذكية. مثال آخر: تصدر مصر القطن وتستورد السيارات.",
+      "description": "The example only references the United States, which may not be relatable for Arabic-speaking learners. Adding a regionally relevant example, such as Egypt exporting cotton, would improve cultural appropriateness and engagement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "إذا استوبت من قبل دولارات، فإنها تُعتبر واردات.",
+      "correction": "إذا استوردت من قبل دول أخرى، فإنها تُعتبر واردات.",
+      "description": "The word \"استوبت\" is a misspelling and not a valid Arabic verb. The correct verb is \"استوردت\" (imported). This error affects comprehension and the educational value of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "يُشتري ويستوب إلى البلد",
+      "correction": "يُشترى ويُستورد إلى البلد",
+      "description": "The verb \"يستوب\" is incorrect and should be \"يستورد\" (is imported). Additionally, \"يُشترى\" should be in the passive form to match the context. These errors impact clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "إذا تصدر مكسيك سيارات، فإنها تُعتبر صادرات",
+      "correction": "إذا صدرت المكسيك سيارات، فإنها تُعتبر صادرات",
+      "description": "The country name \"مكسيك\" is incorrect; the standard Arabic name is \"المكسيك\". The verb \"تصدر\" should be \"صدرت\" to match the past tense context. These errors affect both terminology and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "صناعة الإلكين المعقدة المتداخلة في العقد المعقد للسيواستيك حيث يستفيد العمال من فرص العمل الجديدة.",
+      "correction": "صناعة الإلكترونيات المعقدة والمتداخلة حيث يستفيد العمال من فرص العمل الجديدة.",
+      "description": "The terms \"الإلكين\" and \"السيواستيك\" are incorrect transliterations and do not correspond to any recognized Arabic words. The intended meaning is likely \"الإلكترونيات\" (electronics). This lexical error severely affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "خلق أوقية العمل",
+      "correction": "خلق فرص العمل",
+      "description": "The word \"أوقية\" is a misspelling and should be \"فرص\" (opportunities). This error distorts the meaning and impacts the educational clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "التبادل العالمي يوفر فرصاً للنمو والتطوير التجاري، إلا أنه قد يخلق أيضاً تفاوتات وتحديات عميقة.",
+      "correction": "التبادل العالمي يوفر فرصاً للنمو والتطور التجاري، إلا أنه قد يخلق أيضاً تفاوتات وتحديات عميقة.",
+      "description": "The word \"التطوير التجاري\" is less natural in this context; \"التطور التجاري\" (commercial development) is more idiomatic and widely used in Modern Standard Arabic for describing economic progress.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "تحاول منظمة التجارة العالمية فقاعة التجارة العالمية عن طريق حل النزاعات التجارية وتحديد القواعد التجارية العامة التي تساعد الدول على التعاون والنمو الاقتصادي.",
+      "correction": "تحاول منظمة التجارة العالمية تنظيم التجارة العالمية عن طريق حل النزاعات التجارية وتحديد القواعد التجارية العامة التي تساعد الدول على التعاون والنمو الاقتصادي.",
+      "description": "The verb \"فقاعة\" is incorrect and does not convey the intended meaning. The correct verb is \"تنظيم\" (to organize/regulate). This error significantly affects the accuracy and clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "يحصل الأمم على وصول مجموعة أوسع من المنتجات، مما يحسن جودة الحياة والعيش.",
+      "correction": "تحصل الأمم على وصول إلى مجموعة أوسع من المنتجات، مما يحسن جودة الحياة.",
+      "description": "The verb \"يحصل\" should agree with the plural subject \"الأمم\" and be \"تحصل\". The phrase \"على وصول مجموعة أوسع\" is missing the preposition \"إلى\". The ending \"جودة الحياة والعيش\" is redundant; \"جودة الحياة\" suffices.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:58:44.130734",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.3,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.7,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

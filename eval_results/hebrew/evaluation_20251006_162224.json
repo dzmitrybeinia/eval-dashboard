@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "זה איבור.",
+      "correction": "זה אינו נכון.",
+      "description": "The word 'איבור' is a misspelling and does not exist in Hebrew. The intended meaning is 'this is incorrect' or 'this is not true.' The correct phrase is 'זה אינו נכון.' This is a high-severity error as it impedes comprehension and is misleading for learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "להיושמע",
+      "correction": "להישמע",
+      "description": "The word 'להיושמע' is a misspelling of the verb 'להישמע' (to be heard). The incorrect use of the letter 'ו' disrupts the root and pattern system and is not a valid Hebrew verb form. This is a medium-severity error as it affects clarity and correct verb formation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "פלטפונים",
+      "correction": "פלטפורמות",
+      "description": "The word 'פלטפונים' is a non-existent term in Hebrew and appears to be a misspelling or mis-transliteration of 'platforms' (פלטפורמות). This lexical error can confuse learners and should be corrected to the standard term. Severity is medium due to potential misunderstanding.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "סגיליה",
+      "correction": "סביבה",
+      "description": "The word 'סגיליה' is not a valid Hebrew word and seems to be a misspelling or mis-transliteration. The context suggests the intended word is 'סביבה' (environment). This lexical error affects clarity and should be corrected. Severity is medium.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "תכנון יורה לשני מרוצים שונים עם גובה נוף וסגיליה מאוד דומים.",
+      "correction": "תכנון פתרון לשני מרוצים שונים עם גובה נוף וסביבה מאוד דומים.",
+      "description": "The phrase 'תכנון יורה' is grammatically incorrect; 'יורה' does not fit the context and should be replaced with 'פתרון' (solution). Additionally, 'סגיליה' should be 'סביבה.' This sentence contains both lexical and grammatical errors, which together impede understanding. Severity is high.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "אלגוריתמים מתואמים לבעיות מסוימות ללא קשר לקלט הפרטי, מה שמאפשר יישום רחב יותר.",
+      "correction": "אלגוריתמים מותאמים לבעיות מסוימות ללא קשר לקלט הפרטי, מה שמאפשר יישום רחב יותר.",
+      "description": "The verb 'מתואמים' (coordinated) is incorrect in this context; the correct verb is 'מותאמים' (adapted/suited). This is a grammar error affecting the meaning of the sentence. Severity is medium.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "היבריאציה",
+      "correction": "הווריאציה",
+      "description": "The word 'היבריאציה' is a mis-transliteration of 'variation.' The correct Hebrew term is 'ווריאציה.' This lexical error may confuse learners and should be corrected. Severity is minor.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "החלטה והזרימה של פעולות והחלטות באלגוריתמים.",
+      "correction": "החלטות והזרימה של פעולות באלגוריתמים.",
+      "description": "The phrase 'החלטה והזרימה של פעולות והחלטות' is redundant and awkward. It should be 'החלטות והזרימה של פעולות,' which is grammatically correct and clearer. This is a minor grammar and style issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "חוצים",
+      "correction": "חצים",
+      "description": "The word 'חוצים' (crossers) is a misspelling of 'חצים' (arrows), which is the correct term in the context of flowchart symbols. This lexical error affects technical terminology. Severity is medium.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "סינקטקס",
+      "correction": "תחביר",
+      "description": "The word 'סינקטקס' is a transliteration of 'syntax' and is not standard in Hebrew educational contexts. The correct term is 'תחביר.' This lexical error affects terminology consistency. Severity is minor.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הוא מתאר את הלוגיקה של האלגוריתם ללא צורך בסינקטקס של תכנות.",
+      "correction": "הוא מתאר את הלוגיקה של האלגוריתם ללא צורך בתחביר של תכנות.",
+      "description": "The sentence uses the incorrect term 'סינקטקס' instead of 'תחביר.' This affects both grammar and terminology. Severity is minor.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הוא משמש להעברת המחשבה מאחד לשני, לא לביצוע פעולות מלאות.",
+      "correction": "הוא משמש להעברת הרעיון מאדם לאדם, לא לביצוע פעולות מלאות.",
+      "description": "The phrase 'העברת המחשבה מאחד לשני' is awkward and not idiomatic in Hebrew. The correct phrase is 'העברת הרעיון מאדם לאדם.' This is a minor grammar and style issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בדיוק לא לארגן מידע שאינו קונטקטורלי.",
+      "correction": "ולא לארגון מידע שאינו קונטקסטואלי.",
+      "description": "The phrase 'בדיוק לא לארגן מידע שאינו קונטקטורלי' is grammatically incorrect and uses a non-standard transliteration for 'contextual' ('קונטקטורלי' instead of 'קונטקסטואלי'). The corrected phrase is 'ולא לארגון מידע שאינו קונטקסטואלי.' Severity is medium.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:22:24.503615",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 13,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

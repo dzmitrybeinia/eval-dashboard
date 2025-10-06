@@ -1,0 +1,121 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Definition überzeugendes Schreiben",
+      "correction": "Definition überzeugenden Schreibens",
+      "description": "The phrase 'Definition überzeugendes Schreiben' is incorrect because it does not use the proper genitive construction required in German for definitions. The correct form is 'Definition überzeugenden Schreibens', which uses the genitive case to indicate 'definition of persuasive writing'. This error affects grammatical accuracy and should be corrected for proper noun phrase formation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Zweck überzeugendes Schreiben",
+      "correction": "Zweck überzeugenden Schreibens",
+      "description": "Similar to the previous issue, 'Zweck überzeugendes Schreiben' fails to use the genitive case, which is required for expressing 'purpose of persuasive writing' in German. The correct form is 'Zweck überzeugenden Schreibens'. This is a grammatical error that impacts the clarity and correctness of the phrase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Elemente überzeugendes Schreiben",
+      "correction": "Elemente überzeugenden Schreibens",
+      "description": "The phrase 'Elemente überzeugendes Schreiben' is incorrect because it does not use the genitive case, which is necessary for expressing 'elements of persuasive writing'. The correct form is 'Elemente überzeugenden Schreibens'. This error affects grammatical accuracy and should be corrected for proper noun phrase formation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Emotionale Ansprache",
+      "correction": "Emotionale Ansprache",
+      "description": "No linguistic or localization issues found. The phrase is correctly capitalized and uses appropriate terminology for German educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Zielgruppe analysieren",
+      "correction": "Zielgruppenanalyse",
+      "description": "The phrase 'Zielgruppe analysieren' is a verb phrase ('to analyze the target audience'), but in the context of a theme or heading, a noun form is more appropriate. 'Zielgruppenanalyse' ('target audience analysis') is the standard term used in German educational and professional contexts. This correction improves both linguistic accuracy and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Effektive Argumente",
+      "correction": "Effektive Argumente",
+      "description": "No linguistic or localization issues found. The phrase is correctly capitalized and uses appropriate terminology for German educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Starke Argumente entwickeln",
+      "correction": "Starke Argumente entwickeln",
+      "description": "No linguistic or localization issues found. The phrase is correctly capitalized and uses appropriate terminology for German educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Gegenargumente einbeziehen",
+      "correction": "Gegenargumente einbeziehen",
+      "description": "No linguistic or localization issues found. The phrase is correctly capitalized and uses appropriate terminology for German educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Rhetorische Mittel",
+      "correction": "Rhetorische Mittel",
+      "description": "No linguistic or localization issues found. The phrase is correctly capitalized and uses appropriate terminology for German educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Beispiele rhetorische Mittel",
+      "correction": "Beispiele rhetorischer Mittel",
+      "description": "The phrase 'Beispiele rhetorische Mittel' is incorrect because it does not use the genitive case, which is necessary for expressing 'examples of rhetorical devices'. The correct form is 'Beispiele rhetorischer Mittel'. This is a grammatical error that impacts the clarity and correctness of the phrase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Zusammenfassung überzeugendes Schreiben",
+      "correction": "Zusammenfassung überzeugenden Schreibens",
+      "description": "The phrase 'Zusammenfassung überzeugendes Schreiben' is incorrect because it does not use the genitive case, which is necessary for expressing 'summary of persuasive writing'. The correct form is 'Zusammenfassung überzeugenden Schreibens'. This is a grammatical error that impacts the clarity and correctness of the phrase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Techniken überzeugendes Schreiben",
+      "correction": "Techniken überzeugenden Schreibens",
+      "description": "The phrase 'Techniken überzeugendes Schreiben' is incorrect because it does not use the genitive case, which is necessary for expressing 'techniques of persuasive writing'. The correct form is 'Techniken überzeugenden Schreibens'. This is a grammatical error that impacts the clarity and correctness of the phrase.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:55.069326",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.5,
+      "localization_penalty": 0.0
+    }
+  }
+}

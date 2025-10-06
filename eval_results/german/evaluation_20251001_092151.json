@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "das Einschüchternen in Online-Gruppen",
+      "correction": "das Einschüchtern in Online-Gruppen",
+      "description": "The word 'Einschüchternen' is incorrect; the correct noun form is 'das Einschüchtern'. The original uses an incorrect nominalization, which is not standard in German. This affects the clarity and grammatical correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "um Risiko von Identitätsdiebstahl oder Missbrauch zu vermeiden.",
+      "correction": "um das Risiko von Identitätsdiebstahl oder Missbrauch zu vermeiden.",
+      "description": "The definite article 'das' is missing before 'Risiko'. In German, when referring to a specific or general risk, the article is required for grammatical correctness. The omission affects the sentence's grammatical structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "um Risiken von Identitätsdiebstahl oder Betrug zu verringern.",
+      "correction": "um das Risiko von Identitätsdiebstahl oder Betrug zu verringern.",
+      "description": "The plural 'Risiken' is less idiomatic in this context; the singular 'das Risiko' is standard when referring to the general risk of identity theft or fraud. Using the singular with the definite article improves grammatical and stylistic accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:51.208857",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0
+    }
+  }
+}

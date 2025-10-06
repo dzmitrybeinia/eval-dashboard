@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מתעקבית",
+      "correction": "מתבצעת",
+      "description": "The word 'מתעקבית' is not a valid Hebrew word and appears to be a misspelling or incorrect lexical choice. The intended meaning is likely 'מתבצעת' (is performed), which fits the context of describing the scientific method. This error affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מעבן",
+      "correction": "מבוססת",
+      "description": "The word 'מעבן' is not a valid Hebrew word and does not make sense in context. The correct term should be 'מבוססת' (based), which accurately conveys the intended meaning that the scientific method is based directly on certain situations. This lexical error impedes understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "השיטה המדעית מתעקבית במעבן ישירות על מצבים מסוימים.",
+      "correction": "השיטה המדעית מתבצעת באופן שיטתי ואינה מבוססת ישירות על מצבים מסוימים.",
+      "description": "This sentence contains multiple linguistic errors: 'מתעקבית' and 'מעבן' are incorrect word choices, and the phrase 'ישירות על מצבים מסוימים' is syntactically awkward. The corrected sentence uses proper verb conjugation and more natural phrasing, improving clarity and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מתרומם",
+      "correction": "מתבצע",
+      "description": "The verb 'מתרומם' (rises) is semantically incorrect in the context of 'חישוב האסטרטגיות הניסויים מתרומם באופן יעיל על ידי ניתוח נתונים.' The intended meaning is that strategies are 'executed' or 'performed' efficiently, not 'rise.' The correct verb is 'מתבצע.'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "חישוב האסטרטגיות הניסויים מתרומם באופן יעיל על ידי ניתוח נתונים.",
+      "correction": "ניתוח נתונים מתבצע לאחר ביצוע הניסוי ולא קשור ישירות לחישוב אסטרטגיות הניסוי.",
+      "description": "This sentence is grammatically incorrect and semantically unclear. The subject-verb agreement is off, and the phrase does not accurately describe the scientific process. The correction clarifies the sequence of steps and uses proper grammar.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "התהום של השיטה המדעית הוא בעיבוד תופאות באופן מחושב ומבוקר, לא בתהליכים שלא קבועים או משתנים.",
+      "correction": "העיקרון של השיטה המדעית הוא בעיבוד תופעות באופן מחושב ומבוקר, לא בתהליכים שאינם קבועים או משתנים.",
+      "description": "The word 'התהום' (the abyss) is a severe lexical error and does not fit the context; the intended word is 'העיקרון' (the principle). Additionally, 'תופאות' should be 'תופעות,' and 'שלא קבועים' should be 'שאינם קבועים.' These errors affect both meaning and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "תופאות",
+      "correction": "תופעות",
+      "description": "The word 'תופאות' is misspelled; the correct spelling is 'תופעות' (phenomena). This spelling error may cause confusion, especially in educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "שלא קבועים",
+      "correction": "שאינם קבועים",
+      "description": "The phrase 'שלא קבועים' is grammatically incorrect. The correct form is 'שאינם קבועים,' which properly negates the noun in a formal register suitable for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בבילוגיה",
+      "correction": "בביולוגיה",
+      "description": "The word 'בבילוגיה' is a misspelling of 'בביולוגיה' (in biology). This lexical error affects the professionalism and clarity of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "השערה בשיטת המדע כבר מבוקרת לפני ישירות ניסוי.",
+      "correction": "השערה בשיטה המדעית נוצרת לאחר חקר הרקע ולפני ביצוע הניסוי, ולא מבוקרת לפני הניסוי.",
+      "description": "This sentence contains grammatical errors: 'כבר מבוקרת לפני ישירות ניסוי' is not a valid Hebrew construction. The corrected sentence clarifies the sequence and uses proper grammar and terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "תחיון",
+      "correction": "תכנון",
+      "description": "The word 'תחיון' is a misspelling of 'תכנון' (planning). This lexical error affects the clarity and professionalism of the educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ויתוראליים",
+      "correction": "ואמינים",
+      "description": "The word 'ויתוראליים' is not a valid Hebrew word. The intended meaning is likely 'ואמינים' (and reliable), which fits the context of describing data reliability. This lexical error impedes comprehension.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:27:19.957718",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.8,
+    "classification": "SUBSTANDARD",
+    "total_issues": 12,
+    "total_penalty": 3.2,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

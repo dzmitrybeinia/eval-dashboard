@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Misskommunikation",
+      "correction": "Misskommunikation",
+      "description": "The term 'Misskommunikation' is not standard in German; the correct term is 'Missverständnis' for 'misunderstanding' or 'Kommunikationsproblem' for 'communication problem'. 'Misskommunikation' is a direct calque from English and is not widely accepted in formal or educational German. This affects lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Konflikte gehören zum Leben dazu!",
+      "correction": "Konflikte sind ein Teil des Lebens!",
+      "description": "The phrase 'Konflikte gehören zum Leben dazu!' is understandable but slightly informal and redundant in educational contexts. 'Konflikte sind ein Teil des Lebens!' is more concise and natural for German educational materials, improving tone and style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sie umfasst Kommunikation, Verständnis und Kompromiss.",
+      "correction": "Sie umfasst Kommunikation, Verständnis und Kompromisse.",
+      "description": "The noun 'Kompromiss' should be in the plural form 'Kompromisse' to match the context of multiple possible compromises, aligning with the other plural nouns in the list. This improves grammatical agreement and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ein sanfterer Ansatz, der aktives Zuhören, Empathie und Verständnis beinhaltet, kann oft zu besseren Ergebnissen führen.",
+      "correction": "Ein einfühlsamer Ansatz, der aktives Zuhören, Empathie und Verständnis umfasst, kann oft zu besseren Ergebnissen führen.",
+      "description": "The word 'sanfterer Ansatz' is less idiomatic in German for conflict resolution. 'Einfühlsamer Ansatz' is more natural and commonly used in educational and psychological contexts. Additionally, 'beinhaltet' is less formal than 'umfasst' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Verhindert, dass kleine Meinungsverschiedenheiten zu großen Problemen werden.",
+      "correction": "Verhindert, dass aus kleinen Meinungsverschiedenheiten große Probleme werden.",
+      "description": "The original sentence is grammatically correct but stylistically awkward. The improved version uses a more natural German construction for expressing causality and transformation, enhancing clarity and flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Tief durchatmen und vermeiden, mit Wut oder Frustration zu reagieren.",
+      "correction": "Tief durchatmen und vermeiden, auf Wut oder Frustration zu reagieren.",
+      "description": "The phrase 'mit Wut oder Frustration zu reagieren' is less idiomatic in German. 'Auf Wut oder Frustration zu reagieren' is more natural and commonly used in educational contexts, improving style and tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Vertrauen durch Ehrlichkeit und Zuverlässigkeit aufbauen.",
+      "correction": "Vertrauen durch Ehrlichkeit und Zuverlässigkeit schaffen.",
+      "description": "While 'aufbauen' is not incorrect, 'schaffen' is more idiomatic when referring to the creation of trust in German, especially in educational materials. This improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Statt das Problem zu ignorieren, wendet er sich an seinen Freund, hört ihm zu und arbeitet gemeinsam an einer Lösung.",
+      "correction": "Statt das Problem zu ignorieren, spricht er mit seinem Freund, hört ihm zu und sucht gemeinsam nach einer Lösung.",
+      "description": "The phrase 'wendet er sich an seinen Freund' is correct but slightly formal and less natural in everyday German. 'Spricht er mit seinem Freund' is more commonly used in educational and youth contexts. Additionally, 'arbeitet gemeinsam an einer Lösung' can be improved to 'sucht gemeinsam nach einer Lösung' for clarity and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:54:19.954848",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 4
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.4
+    }
+  }
+}

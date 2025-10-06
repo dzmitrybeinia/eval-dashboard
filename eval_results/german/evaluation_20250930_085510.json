@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Empathie ermöglicht es dir, zuzuhören, ihre Gefühle anzuerkennen und Unterstützung anzubieten, auch wenn du nicht vollständig ihrer Meinung bist.",
+      "correction": "Empathie ermöglicht es dir, zuzuhören, ihre Gefühle anzuerkennen und Unterstützung anzubieten, auch wenn du nicht vollständig seiner/ihrer Meinung bist.",
+      "description": "The pronoun 'ihrer' in 'auch wenn du nicht vollständig ihrer Meinung bist' is ambiguous and may not match the gender of 'Freund' in the example. In German, pronoun reference should agree with the gender of the antecedent. If the friend is male ('Freund'), it should be 'seiner Meinung', if female ('Freundin'), 'ihrer Meinung'. To avoid confusion, use 'seiner/ihrer Meinung' for inclusivity. This is a grammatical issue affecting clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Soziale Fähigkeiten sind Werkzeuge, die wir nutzen, um effektiv mit anderen zu kommunizieren und zu interagieren.",
+      "correction": "Soziale Fähigkeiten sind Kompetenzen, die wir nutzen, um effektiv mit anderen zu kommunizieren und zu interagieren.",
+      "description": "The term 'Werkzeuge' is a literal translation of 'tools' and is less natural in German educational contexts when referring to social skills. 'Kompetenzen' is the more appropriate and professional term in German for describing abilities or skills in a social context. This improves the naturalness and professionalism of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Aktives Zuhören: Aufmerksamkeit schenken und zeigen, dass man versteht.",
+      "correction": "Aktives Zuhören: Aufmerksamkeit schenken und zeigen, dass man verstanden hat.",
+      "description": "The phrase 'zeigen, dass man versteht' uses the present tense, which is less idiomatic in German for describing the result of active listening. The perfect tense 'verstanden hat' is more natural and grammatically appropriate in this context, as it refers to the completed action of understanding.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Effektive Kommunikation: Gedanken klar und respektvoll ausdrücken.",
+      "correction": "Effektive Kommunikation: Gedanken klar und respektvoll mitteilen.",
+      "description": "The verb 'ausdrücken' is acceptable, but 'mitteilen' is more commonly used in German when referring to sharing or communicating thoughts in a social skills context. This change enhances the naturalness and aligns with standard German educational phrasing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Konfliktlösung: Lösungen finden, die für alle Beteiligten funktionieren.",
+      "correction": "Konfliktlösung: Lösungen finden, die für alle Beteiligten geeignet sind.",
+      "description": "The verb 'funktionieren' is grammatically correct but less idiomatic in this context. 'Geeignet sind' is more precise and natural in German when referring to solutions that are appropriate for all parties involved. This improves clarity and linguistic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn du vor einem wichtigen Test gestresst bist, kannst du durch Selbstwahrnehmung die Ursache (Nervosität) erkennen und Maßnahmen zur Bewältigung ergreifen, wie z. B. tiefes Atmen oder rechtzeitiges Vorbereiten.",
+      "correction": "Wenn du vor einer wichtigen Prüfung gestresst bist, kannst du durch Selbstwahrnehmung die Ursache (Nervosität) erkennen und Maßnahmen zur Bewältigung ergreifen, wie z. B. tiefes Atmen oder rechtzeitiges Vorbereiten.",
+      "description": "The word 'Test' is an anglicism and less commonly used in German educational contexts compared to 'Prüfung', which is the standard term for an academic exam. Using 'Prüfung' improves cultural appropriateness and aligns with German educational terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:55:10.083549",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3
+    }
+  }
+}

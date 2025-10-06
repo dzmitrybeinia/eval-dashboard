@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ej.: arroz, pan, frutas.",
+      "correction": "Ej.: arroz, pan, frutas.",
+      "description": "The abbreviation 'Ej.' for 'ejemplo' should be followed by a space before the colon for correct Spanish punctuation: 'Ej.: arroz, pan, frutas.' should be 'Ejemplo: arroz, pan, frutas.' or 'Ej.: arroz, pan, frutas.' with a space after 'Ej.'. However, this is a minor orthographic convention and does not impede comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Brócoli al vapor (vitaminas).",
+      "correction": "Brócoli al vapor (vitaminas).",
+      "description": "The word 'brócoli' is correctly accented in Spanish. However, in some regions, 'brócoli' may appear without the accent, but the RAE recommends the accent. No correction needed, but consistency in accent usage should be maintained throughout the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Quinoa (carbohidrato).",
+      "correction": "Quinua (carbohidrato).",
+      "description": "The term 'quinoa' is widely used in Spain and internationally, but in many Latin American countries, 'quinua' is the preferred term. For pan-Hispanic audiences, consider using 'quinoa (quinua)' to ensure cultural inclusivity and recognition.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Una dieta equilibrada implica no solo el manejo adecuado de los macronutrientes y las vitaminas, sino también la hidratación, que es esencial para el funcionamiento óptimo del cuerpo.",
+      "correction": "Una dieta equilibrada implica no solo el manejo adecuado de los macronutrientes y las vitaminas, sino también la hidratación, que es esencial para el funcionamiento óptimo del cuerpo.",
+      "description": "The sentence is grammatically correct, but the phrase 'el manejo adecuado de los macronutrientes y las vitaminas' could be improved for parallelism by including 'micronutrientes' instead of just 'vitaminas', as micronutrients include both vitamins and minerals. Suggested: 'el manejo adecuado de los macronutrientes y micronutrientes'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Frijoles",
+      "correction": "Frijoles (porotos/habichuelas)",
+      "description": "The term 'frijoles' is standard in Mexico and Central America, but in other Spanish-speaking regions, 'porotos' (Southern Cone) or 'habichuelas' (Caribbean) are used. For broader localization, consider including regional variants: 'frijoles (porotos/habichuelas)'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:15:50.664788",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

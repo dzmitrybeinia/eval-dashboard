@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Aforestación",
+      "correction": "Reforestación",
+      "description": "The term 'Aforestación' is less commonly used in Spanish educational contexts compared to 'Reforestación', which is the standard term for planting trees to restore forests. 'Aforestación' refers specifically to planting trees in areas that were not previously forested, while 'Reforestación' is broader and more appropriate for general conservation lessons. Using 'Reforestación' ensures consistency with local terminology and improves clarity for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La contaminación generalmente conduce a la degradación ambiental, lo que puede agotar los recursos naturales en lugar de conservarlos.",
+      "correction": "La contaminación generalmente conduce a la degradación ambiental, lo que puede agotar los recursos naturales en vez de conservarlos.",
+      "description": "The phrase 'en lugar de' is grammatically correct, but 'en vez de' is more idiomatic and natural in this context in Spanish. While both are acceptable, 'en vez de' is preferred in educational materials for expressing contrast between two actions. This change enhances the naturalness and readability of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy aprenderemos sobre los recursos naturales, esos elementos esenciales que encontramos en la naturaleza y que son clave para nuestra vida diaria. 🌱✨",
+      "correction": "¡Bienvenidos! Hoy aprenderemos sobre los recursos naturales, esos elementos esenciales que encontramos en la naturaleza y que son clave para nuestra vida diaria.",
+      "description": "The use of emojis (🌱✨) in educational content may not be appropriate for all Spanish-speaking regions or formal learning environments. Removing emojis ensures a more professional and universally accepted style, especially in formal or academic contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:43:44.284013",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3
+    }
+  }
+}

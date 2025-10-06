@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ה-DNA מורכב באופן מורכב משני גדילים שנקראים נוקלאוטידים. כל נוקלאוטיד מורכב משלושה חלקים שונים, ולא מרגיש רגיל או שונים באופן לא מתואם. מדובר במבנה מורכב ומאפשר ביטוי גנים שונים בתוך הגנים האישיים בבני אדם.",
+      "correction": "ה-DNA מורכב משני גדילים ארוכים, שכל אחד מהם בנוי מנוקלאוטידים. כל נוקלאוטיד מורכב משלושה חלקים שונים: סוכר, פוספט ובסיס חנקני. מדובר במבנה מורכב שמאפשר ביטוי גנים שונים בגוף האדם.",
+      "description": "The original text contains several grammatical and lexical errors. The phrase 'מורכב באופן מורכב' is redundant and unnatural. 'שנקראים נוקלאוטידים' is incorrect, as the strands are made of nucleotides, not called nucleotides. The sentence 'ולא מרגיש רגיל או שונים באופן לא מתואם' is semantically unclear and grammatically incorrect. The final sentence is awkward and uses 'בתוך הגנים האישיים בבני אדם', which is not standard or clear. The correction provides accurate grammar, clear structure, and natural Hebrew suitable for educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "במבנה הפנימי של החיים, ה-DNA מתחשב בתפקידו הקריטי כתוכנית החיים, דומה למסורת מסורת שמספקת הנחיות לייצור הצמח הגנטי שלו. אותה דרישה מאידיאוקרטיקה לבניית ותחזוקת היצור החי, מדגישה את החשיבות של ה-DNA. כמו שהרמוניה מספרת לבני אדם מידע על עבדות ותפקיד, ה-DNA מספר לתאי את הדרישות שלהם להתפתחות ולתפקד.",
+      "correction": "ה-DNA משמש כתוכנית החיים, ומכיל את ההנחיות לבניית ותחזוקת היצור החי. הוא קובע תכונות כמו צבע עיניים, גובה ורגישות למחלות, ומדגיש את חשיבותו בתורשה גנטית.",
+      "description": "The original feedback is grammatically incorrect and semantically confusing. Phrases like 'מתחשב בתפקידו הקריטי' are not idiomatic, and 'דומה למסורת מסורת שמספקת הנחיות לייצור הצמח הגנטי שלו' is both repetitive and unclear. 'דרישה מאידיאוקרטיקה' is a misused term and not relevant in this context. The sentence 'כמו שהרמוניה מספרת לבני אדם מידע על עבדות ותפקיד' is incoherent and does not relate to DNA. The correction provides clear, accurate, and educationally appropriate Hebrew.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "המבנה השל של ה-DNA מאפשר לתאים להתחדש בקלות.",
+      "correction": "המבנה הסליל הכפול של ה-DNA מאפשר לתאים לשכפל את המידע הגנטי בצורה מדויקת.",
+      "description": "The original sentence contains a spelling error: 'השל' should be 'הסליל'. Additionally, the statement is factually inaccurate, as the structure of DNA enables accurate replication of genetic information, not easy cell renewal. The correction fixes the spelling and provides a scientifically accurate statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "המבנה המורכב של ה-DNA מאפשר אחסון מפורש של מידע גנטי, אך התהום של התחדשות מתבצעת באופן מורכב יותר, על ידי תהליכי תאיקוטוזה ורבייה. עקרון זה מדגיש את הרכיבים המורכבים של ה-DNA ואת הגוף המרכזי של אחסון מידע גנטי של ה-DNA.",
+      "correction": "המבנה המורכב של ה-DNA מאפשר אחסון מדויק של מידע גנטי, אך התחדשות התאים מתבצעת בתהליכים ביולוגיים מורכבים כמו מיטוזה ורבייה. עקרון זה מדגיש את חשיבות ה-DNA באחסון מידע גנטי.",
+      "description": "The original feedback contains grammatical errors and incorrect terminology. 'אחסון מפורש' is not idiomatic; 'תהום של התחדשות' is a misused phrase, and 'תאיקוטוזה' is a misspelling of 'מיטוזה'. The sentence structure is convoluted and unclear. The correction provides accurate grammar, correct scientific terminology, and clear educational language.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בדיקות DNA ברפואה משמשות לאבחון מגוון רחב של מחלות, לא רק אלו שאין להן מדיקה טיפולית. הן מסייעות באישור מחלות גנטיות, נבואות למחלות ואפילו בהקלת תהליך הטיפול על ידי הבנת הגורמים הגנטיים.",
+      "correction": "בדיקות DNA ברפואה משמשות לאבחון מגוון רחב של מחלות, לא רק כאלה שאין להן טיפול. הן מסייעות באבחון מחלות גנטיות, חיזוי סיכון למחלות, ואף בהתאמת טיפול על פי הגורמים הגנטיים.",
+      "description": "The original text uses the word 'מדיקה טיפולית', which is a non-standard and incorrect term in Hebrew. 'נבואות למחלות' is not idiomatic; the correct term is 'חיזוי סיכון למחלות'. The correction replaces these with accurate, natural Hebrew terminology suitable for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ה-DNA מגדיר את התכונות של היצורים על ידי התיירשות של מידע גנטי, אך זה נעשה באופן מורכב יותר מאשר אקראטי ודורש מערכות ביטוי ומספקים גנטיים נוספים. ה-DNA לא משנה את התכונות באופן אינסוטי או מתרגל, מכיוון שזה מאתגר את הידע המונע מהחלה של גנום ומהתהום של הגנים.",
+      "correction": "ה-DNA מגדיר את התכונות של היצורים באמצעות העברת מידע גנטי, אך השינויים בתכונות אינם מתבצעים באופן אקראי אלא תלויים במערכות ביטוי גנטיות ובגורמים סביבתיים. ה-DNA אינו משנה את התכונות באופן מיידי או אקראי.",
+      "description": "The original feedback contains multiple grammatical and lexical errors. 'התיירשות' is not a Hebrew word; the correct term is 'העברת'. 'אינסוטי' and 'מאתגר את הידע המונע מהחלה של גנום ומהתהום של הגנים' are incoherent and do not make sense in Hebrew. The correction provides clear, accurate, and educationally appropriate language.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:23:21.278317",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

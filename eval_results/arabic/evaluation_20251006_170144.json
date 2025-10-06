@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "في هذه الدرس، سنتعرف على أساسيات الانتخابات، ونفهم عملية التصويت، ونناقش كيف يعزز الانخراط المدني الديمقراطية.",
+      "correction": "في هذا الدرس، سنتعرف على أساسيات الانتخابات، ونفهم عملية التصويت، ونناقش كيف يعزز الانخراط المدني الديمقراطية.",
+      "description": "The phrase uses 'هذه الدرس' which is incorrect because 'درس' is a masculine noun and should be preceded by 'هذا' not 'هذه'. This is a grammatical gender agreement error. The rest of the sentence is linguistically correct and culturally appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "الرئيس وأعضاء الكونغرس",
+      "correction": "الرئيس وأعضاء البرلمان",
+      "description": "The term 'الكونغرس' is a direct reference to the US Congress, which may not be familiar or relevant to all Arabic-speaking learners, especially in a general civics context. Using 'البرلمان' is more regionally neutral and widely understood across the Arab world. This improves cultural appropriateness and educational alignment.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الانتخابات الولائية والمحلية أنواعاً مختلفة تحدث على المستوى الولاية والمحلي.",
+      "correction": "الانتخابات الولائية والمحلية هي أنواع مختلفة تحدث على مستوى الولاية والمستوى المحلي.",
+      "description": "The phrase 'أنواعاً مختلفة' should be 'هي أنواع مختلفة' for proper sentence structure. Also, 'على المستوى الولاية والمحلي' is incorrect; it should be 'على مستوى الولاية والمستوى المحلي' to maintain parallelism and clarity. These errors affect sentence cohesion and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "هذه البيان غير صحيح لأن التصويت في الديمقسيات يتطلب عدة خطوات إضافية.",
+      "correction": "هذا البيان غير صحيح لأن التصويت في الديمقراطيات يتطلب عدة خطوات إضافية.",
+      "description": "The phrase 'هذه البيان' is incorrect; 'بيان' is masculine and should be 'هذا البيان'. Additionally, 'الديمقسيات' is a misspelling and should be 'الديمقراطيات'. These errors affect grammatical agreement and spelling accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "العملية أكثر تعقيمًا من الفهم البسيط للقانون الواجب السماح للتصويت.",
+      "correction": "العملية أكثر تعقيدًا من الفهم البسيط للقانون الذي يسمح بالتصويت.",
+      "description": "The word 'تعقيمًا' is a false friend and should be 'تعقيدًا' (complexity, not sterilization). The phrase 'القانون الواجب السماح للتصويت' is awkward and should be 'القانون الذي يسمح بالتصويت' for clarity and naturalness. These errors affect lexical precision and sentence clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "التصويت يجب على الجميع الحصول عليه ليكون الديمقراطية الناجحة.",
+      "correction": "يجب على الجميع التصويت لكي تكون الديمقراطية ناجحة.",
+      "description": "The original sentence is grammatically incorrect and awkward. The correct structure is 'يجب على الجميع التصويت لكي تكون الديمقراطية ناجحة.' This fixes the verb placement and clarifies the meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "في الديمقراطيات التي تُعتبر دسائسة الشعب، ليس التصويت متطلبًا لكل الأفراد.",
+      "correction": "في الديمقراطيات التي تُعتبر حكم الشعب، ليس التصويت متطلبًا لكل الأفراد.",
+      "description": "The word 'دسائسة' is a mistranslation and inappropriate in this context. The correct term is 'حكم الشعب' (rule of the people). This correction improves semantic accuracy and educational clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "إن التصويت على الرئيسيات هو الوحي الرئيسي الذي يعكس الرأي العام في المجتمع الديمقراطي.",
+      "correction": "إن التصويت على الانتخابات الرئاسية هو الوسيلة الرئيسية التي تعكس الرأي العام في المجتمع الديمقراطي.",
+      "description": "The word 'الرئيسيات' is incorrect; it should be 'الانتخابات الرئاسية'. Also, 'الوحي الرئيسي' is a mistranslation and should be 'الوسيلة الرئيسية'. These errors affect lexical accuracy and orthography.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "يعمل المشاركة الشخصية في المجتمع كأداة رئيousة لإعطاء النظام القائم على القرارات المستشييفي، مما يضمن أن تكون قرارات المجتمع منسوبة إلى قاعدة المجتمع وتعكس احتياجاتهم الأوسع.",
+      "correction": "تعمل المشاركة الشخصية في المجتمع كأداة رئيسية لإعطاء النظام القائم على القرارات المجتمعية، مما يضمن أن تكون قرارات المجتمع منسوبة إلى قاعدة المجتمع وتعكس احتياجاتهم الأوسع.",
+      "description": "The word 'رئيousة' is a typographical error and should be 'رئيسية'. 'المستشييفي' is also a typographical error and should be 'المجتمعية'. These errors affect spelling and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "في الديمقراطيات، يشمل التصويت عملية تصويت أكثر من اختيار رئيان.",
+      "correction": "في الديمقراطيات، يشمل التصويت عملية تصويت أكثر من اختيار رئيس.",
+      "description": "The word 'رئيان' is a misspelling and should be 'رئيس'. This error affects lexical accuracy and comprehension.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T17:01:44.488467",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.1,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.9,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

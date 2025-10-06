@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "wie viel Teppich für einen Raum benötigt wird.",
+      "correction": "wie viel Teppich für einen Raum benötigt wird.",
+      "description": "The phrase 'wie viel Teppich für einen Raum benötigt wird.' is correct in terms of spelling and grammar. However, in German, 'wie viel' is correctly written as two words when referring to an amount, which is done properly here. No correction is needed, but this is a common area for mistakes, so it is important to verify.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Eine Müslischachtel ist ein rechteckiges Prisma.",
+      "correction": "Eine Müslischachtel ist ein Quader.",
+      "description": "The term 'rechteckiges Prisma' is technically correct, but in German educational contexts, 'Quader' is the standard and more natural term for a rectangular box shape. Using 'Quader' aligns with local terminology and is more familiar to learners in German-speaking regions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:22:58.675918",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2
+    }
+  }
+}

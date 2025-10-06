@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O enredo de uma história é estático e não muda ao longo do tempo.",
+      "correction": "O enredo de uma história é estático e não muda ao longo do tempo.",
+      "description": "Although the sentence is grammatically correct, the use of 'estático' in this context may cause confusion for younger learners, as it is a more advanced term. For educational clarity, consider using 'não muda' or 'permanece igual' to ensure accessibility. No grammatical errors are present, but lexical simplification is recommended for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O Pequeno Príncipe é na verdade o protagonista da história, pois é o personagem central com o qual a história gira.",
+      "correction": "O Pequeno Príncipe é o protagonista da história, pois é o personagem central em torno do qual a narrativa se desenvolve.",
+      "description": "The phrase 'com o qual a história gira' is a literal translation of the English 'the story revolves around,' which is less natural in Brazilian Portuguese. The recommended correction uses 'em torno do qual a narrativa se desenvolve,' which is a more idiomatic and culturally appropriate expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O País das Maravilhas é descrito como um lugar mágico e fantástico, não uma cidade mundana.",
+      "correction": "O País das Maravilhas é descrito como um lugar mágico e fantástico, não como uma cidade comum.",
+      "description": "The term 'cidade mundana' is not commonly used in Brazilian Portuguese to mean 'ordinary city.' 'Cidade comum' is a more natural and culturally appropriate expression for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O enredo de uma história é na verdade dinâmico e evolui à medida que os personagens enfrentam novos desafios e enfrentam mudanças.",
+      "correction": "O enredo de uma história é dinâmico e evolui à medida que os personagens enfrentam novos desafios e mudanças.",
+      "description": "The repetition of 'enfrentam' in 'enfrentam novos desafios e enfrentam mudanças' is redundant and affects sentence flow. Removing the second 'enfrentam' improves clarity and conciseness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O tema é uma interpretação mais profunda da mensagem da história, que frequentemente vai além do enredo.",
+      "correction": "O tema é uma interpretação mais profunda da mensagem da história, que muitas vezes vai além do enredo.",
+      "description": "The adverb 'frequentemente' is grammatically correct but 'muitas vezes' is more commonly used in educational Brazilian Portuguese for this context, improving naturalness and accessibility.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O tema de O Patinho Feio é sobre aceitação pessoal e descobrir seu verdadeiro valor.",
+      "correction": "O tema de O Patinho Feio é a aceitação pessoal e a descoberta do verdadeiro valor.",
+      "description": "The phrase 'é sobre aceitação pessoal e descobrir seu verdadeiro valor' is a calque from English ('is about...'). In Brazilian Portuguese, it is more natural to use 'é a aceitação pessoal e a descoberta do verdadeiro valor,' which avoids the anglicism and improves idiomatic expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:27:51.196314",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 4
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.6
+    }
+  }
+}

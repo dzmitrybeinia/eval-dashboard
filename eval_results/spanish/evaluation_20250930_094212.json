@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo del ADN! 🧬 En esta lección, exploraremos cómo esta increíble molécula, conocida como el 'plano de la vida', guarda las instrucciones necesarias para construir y mantener la vida. Prepárate para descubrir su estructura, función y papel esencial en la genética.",
+      "correction": "¡Bienvenidos al fascinante mundo del ADN! En esta lección, exploraremos cómo esta increíble molécula, conocida como el 'plano de la vida', guarda las instrucciones necesarias para construir y mantener la vida. Prepárate para descubrir su estructura, función y papel esencial en la genética.",
+      "description": "The use of the DNA emoji (🧬) in educational Spanish content may be considered informal and less appropriate for formal learning materials, especially in scientific contexts. Removing the emoji ensures a more professional and neutral tone, which is standard in Spanish educational resources.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "El ADN, o ácido desoxirribonucleico, es una molécula larga formada por unidades repetidas llamadas nucleótidos. Cada nucleótido consta de tres partes: un grupo fosfato, una molécula de azúcar (desoxirribosa) y una base nitrogenada (adenina, timina, citosina o guanina). El ADN adopta una forma de doble hélice, similar a una escalera retorcida: los azúcares y fosfatos forman el 'esqueleto' de la escalera, mientras que las bases nitrogenadas forman los 'escalones', unidos por enlaces de hidrógeno. Las reglas de emparejamiento de bases son esenciales: adenina (A) siempre se empareja con timina (T) y citosina (C) con guanina (G).",
+      "correction": "El ADN, o ácido desoxirribonucleico, es una molécula larga formada por unidades repetidas llamadas nucleótidos. Cada nucleótido consta de tres partes: un grupo fosfato, una molécula de azúcar (desoxirribosa) y una base nitrogenada (adenina, timina, citosina o guanina). El ADN adopta una forma de doble hélice, similar a una escalera retorcida: los azúcares y fosfatos forman el 'esqueleto' de la escalera, mientras que las bases nitrogenadas forman los 'escalones', unidos por enlaces de hidrógeno. Las reglas de emparejamiento de bases son esenciales: la adenina (A) siempre se empareja con la timina (T) y la citosina (C) con la guanina (G).",
+      "description": "The original text omits the definite article 'la' before the names of the bases in the final sentence ('adenina', 'timina', 'citosina', 'guanina'). In Spanish scientific writing, it is standard to use the definite article when referring to chemical compounds in this context. Adding 'la' before each base name improves grammatical accuracy and aligns with formal scientific style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El ADN contiene genes, que son secuencias específicas de bases nucleotídicas que proporcionan instrucciones para fabricar proteínas. Las proteínas son fundamentales para funciones biológicas como catalizar reacciones químicas (enzimas), formar estructuras celulares y tejidos, y regular procesos corporales (hormonas). Además, el ADN asegura que la información genética se transmita de manera precisa de una generación a la siguiente.",
+      "correction": "El ADN contiene genes, que son secuencias específicas de bases nitrogenadas que proporcionan instrucciones para fabricar proteínas. Las proteínas son fundamentales para funciones biológicas como catalizar reacciones químicas (enzimas), formar estructuras celulares y tejidos, y regular procesos corporales (hormonas). Además, el ADN asegura que la información genética se transmita de manera precisa de una generación a la siguiente.",
+      "description": "The term 'bases nucleotídicas' is not standard in Spanish scientific terminology; the correct term is 'bases nitrogenadas'. Using 'bases nitrogenadas' ensures consistency with established scientific vocabulary and improves clarity for Spanish-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Este conocimiento básico del ADN es esencial para entender temas más amplios en genética como la herencia y la biotecnología.",
+      "correction": "Este conocimiento básico del ADN es esencial para entender temas más amplios en genética, como la herencia y la biotecnología.",
+      "description": "A comma is required after 'genética' to separate the introductory phrase from the list that follows. This improves sentence clarity and adheres to Spanish punctuation rules.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:42:12.949359",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3
+    }
+  }
+}

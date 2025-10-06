@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La música clásica se caracteriza por su estructura rítmica compleja y la inclusión de solos instrumentales.",
+      "correction": "La música clásica se caracteriza por su estructura formal compleja y, en ocasiones, la inclusión de solos instrumentales.",
+      "description": "The phrase 'estructura rítmica compleja' is not the most accurate way to describe classical music, as its complexity is more often associated with formal structure (such as sonata form, symphonic development) rather than rhythm, which is typically more complex in genres like jazz. The correction uses 'estructura formal compleja' to better reflect the defining features of classical music. The rest of the sentence is acceptable, but the correction clarifies the main characteristic.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El jazz nació a principios del siglo XX en Nueva Orleans, influenciado por tradiciones musicales afroamericanas.",
+      "correction": "El jazz nació a principios del siglo XX en Nueva Orleans, influenciado por tradiciones musicales afroestadounidenses.",
+      "description": "The term 'afroamericanas' is commonly used in Spanish, but 'afroestadounidenses' is more precise and culturally appropriate when referring specifically to the United States context, as 'afroamericano' can refer to people from all of the Americas. Using 'afroestadounidenses' avoids ambiguity and aligns with current best practices in cultural terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El hip-hop comenzó en los años 70 en el Bronx, Nueva York, como parte de un movimiento cultural que incluye rap, DJing, graffiti y breakdance.",
+      "correction": "El hip-hop comenzó en los años 70 en el Bronx, Nueva York, como parte de un movimiento cultural que incluye rap, DJ, grafiti y breakdance.",
+      "description": "The word 'DJing' is an anglicism that is not standard in Spanish. The correct term is 'DJ' or 'pinchar discos' depending on context, but 'DJ' is widely accepted. Additionally, 'graffiti' should be spelled 'grafiti' according to the recommendations of the Real Academia Española. The rest of the sentence is correct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:16:07.181416",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "claridade mental",
+      "correction": "clareza mental",
+      "description": "The phrase 'claridade mental' is a lexical error. The correct collocation in Brazilian Portuguese is 'clareza mental' to refer to mental clarity. 'Claridade' refers to physical brightness or light, not mental state.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "baseada nos critérios definidos",
+      "correction": "baseada nos critérios definidos",
+      "description": "In the context 'Escolha a melhor opção baseada nos critérios definidos', the participle 'baseada' should agree in gender and number with 'opção', which is feminine singular. The original is correct, but if the noun were plural or masculine, agreement would be necessary. No correction needed, but this is a common area for errors.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos explorar como avaliar escolhas e entender os fatores racionais e emocionais que influenciam nossas decisões! 🌟",
+      "correction": "Vamos explorar como avaliar escolhas e entender os fatores racionais e emocionais que influenciam nossas decisões!",
+      "description": "The use of the emoji '🌟' may not be appropriate in all educational or professional contexts in Brazilian Portuguese, especially in formal learning materials. Removing the emoji ensures a more neutral and universally accepted tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Recolher informações",
+      "correction": "Coletar informações",
+      "description": "The verb 'recolher' means 'to gather' or 'to pick up', but in the context of gathering information, 'coletar informações' is the standard and more precise term in Brazilian Portuguese educational materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ficar descansado pode ajudar a melhorar a claridade mental",
+      "correction": "Estar descansado pode ajudar a melhorar a clareza mental",
+      "description": "The verb 'ficar' is less appropriate than 'estar' when referring to a state of being rested. Additionally, 'claridade mental' should be 'clareza mental'. Both verb choice and lexical collocation are corrected here.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Planejar o transporte para uma viagem escolar envolve considerar custo, segurança e conforto, seguindo esses passos.",
+      "correction": "Planejar o transporte para uma viagem escolar envolve considerar o custo, a segurança e o conforto, seguindo esses passos.",
+      "description": "The sentence omits definite articles before 'custo', 'segurança', and 'conforto'. In Brazilian Portuguese, when listing specific criteria, the use of definite articles ('o', 'a') is preferred for clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Escolher uma carreira pode envolver salário e estabilidade (racional) e paixão pela área (emocional).",
+      "correction": "Escolher uma carreira pode envolver o salário e a estabilidade (racional) e a paixão pela área (emocional).",
+      "description": "The omission of definite articles before 'salário', 'estabilidade', and 'paixão' is not standard in formal Brazilian Portuguese. Including the articles improves grammatical correctness and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "onde se prioriza um critério sobre outro para alcançar um objetivo mais significativo.",
+      "correction": "em que se prioriza um critério em relação a outro para alcançar um objetivo mais significativo.",
+      "description": "The use of 'onde' is incorrect because it refers to physical places. The correct relative pronoun is 'em que' for abstract situations. Also, 'sobre outro' should be 'em relação a outro' for proper idiomatic expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:26:06.291669",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Überfliehen beinhaltet nicht das Lesen jedes einzelnen Wortes; vielmehr ist es ein schneller Überblick über den Text, um sein Gesamtgehalt zu erfassen.",
+      "correction": "Überfliegen beinhaltet nicht das Lesen jedes einzelnen Wortes; vielmehr ist es ein schneller Überblick über den Text, um sein Gesamtgehalt zu erfassen.",
+      "description": "The word 'Überfliehen' is a misspelling and incorrect lexical choice; the correct term is 'Überfliegen' for the reading strategy. This error affects clarity and accuracy, as 'Überfliehen' is not a recognized German word in this context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Überfliegen erfordert das Lesen jedes Wortes eines Textes, um eine detaillierte Verständnis des Materials zu gewährleisten.",
+      "correction": "Überfliegen erfordert das Lesen jedes Wortes eines Textes, um ein detailliertes Verständnis des Materials zu gewährleisten.",
+      "description": "The phrase 'eine detaillierte Verständnis' is grammatically incorrect due to gender agreement. 'Verständnis' is a neuter noun and requires 'ein detailliertes Verständnis' instead of 'eine detaillierte'. This error impacts grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Scannen ist eine Lesestrategie, die darauf abzielt, schnell wichtige Informationen zu extrahieren, ohne jeden Wort sorgfältig zu lesen.",
+      "correction": "Scannen ist eine Lesestrategie, die darauf abzielt, schnell wichtige Informationen zu extrahieren, ohne jedes Wort sorgfältig zu lesen.",
+      "description": "The phrase 'ohne jeden Wort sorgfältig zu lesen' contains a grammatical error: 'Wort' is neuter and should be preceded by 'jedes' instead of 'jeden'. The correct phrase is 'ohne jedes Wort sorgfältig zu lesen'. This error affects grammatical accuracy and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Kritisches Lesen geht über das bloße Lesen hinaus und erfordert eine tiefere Analyse der Texteinträge, um deren Bedeutung und die Glaubwürdigkeit ihrer Argumente zu bewerten.",
+      "correction": "Kritisches Lesen geht über das bloße Lesen hinaus und erfordert eine tiefere Analyse des Textes, um dessen Bedeutung und die Glaubwürdigkeit seiner Argumente zu bewerten.",
+      "description": "The word 'Texteinträge' is a lexical error; the correct term in this context is 'Text' or 'des Textes'. Additionally, 'deren Bedeutung' and 'ihrer Argumente' should be 'dessen Bedeutung' and 'seiner Argumente' to match the singular 'Text'. These errors affect clarity and grammatical agreement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:57:18.916124",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0
+    }
+  }
+}

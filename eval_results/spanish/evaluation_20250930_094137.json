@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "área = longitud * ancho",
+      "correction": "área = longitud * ancho",
+      "description": "The word 'área' is correctly accented, but in the code context, variable names in Python should not use accented characters to avoid compatibility issues and follow standard programming conventions. While this is not a Spanish linguistic error, it is a technical orthographic issue relevant to localization in programming education. The recommended correction is to use 'area' without the accent for the variable name.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a un emocionante viaje al mundo de la programación en Python! 🌟 Hoy exploraremos cómo usar variables, tipos de datos y operaciones básicas de entrada y salida para construir programas sencillos y útiles. ¡Prepárate para descubrir el poder de Python!",
+      "correction": "¡Bienvenidos a un emocionante viaje al mundo de la programación en Python! Hoy exploraremos cómo usar variables, tipos de datos y operaciones básicas de entrada y salida para construir programas sencillos y útiles. ¡Prepárate para descubrir el poder de Python!",
+      "description": "The use of the star emoji (🌟) in educational content may not be appropriate for all classroom or professional settings, as it can be perceived as informal or distracting. Removing the emoji ensures a more neutral and professional tone, which is preferable for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleano (`bool`): Valores Verdadero o Falso.",
+      "correction": "Booleano (`bool`): Valores verdadero o falso.",
+      "description": "In Spanish, boolean values are typically written in lowercase ('verdadero' and 'falso') to match Python's syntax and standard terminology. Capitalizing these terms may confuse learners about the correct usage in code.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "altura = 1.65",
+      "correction": "altura = 1.65",
+      "description": "The decimal separator used is a period ('.'), which is standard in Python code but differs from the Spanish convention of using a comma (',') for decimals. However, since this is code, the use of the period is correct and appropriate for the programming context. No correction needed, but it's important to clarify this distinction for learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:41:37.759835",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3
+    }
+  }
+}

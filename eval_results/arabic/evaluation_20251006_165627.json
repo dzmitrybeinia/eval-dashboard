@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "في هذه الدرس، سنستكشف أساسيات البرمجة، بما في ذلك اللغات البرمجية، الصياغة، والخوارزميات.",
+      "correction": "في هذا الدرس، سنستكشف أساسيات البرمجة، بما في ذلك اللغات البرمجية، الصياغة، والخوارزميات.",
+      "description": "The phrase uses the incorrect demonstrative pronoun 'هذه' with the masculine noun 'درس'. In Modern Standard Arabic, 'درس' is masculine and should be preceded by 'هذا'. This is a grammatical gender agreement error that affects clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "تخيل اللغات البرمجية كأدوات للتواصل مع الحواسيب، مثل الألغات البشرية المختلفة.",
+      "correction": "تخيل اللغات البرمجية كأدوات للتواصل مع الحواسيب، مثل اللغات البشرية المختلفة.",
+      "description": "The word 'الألغات' contains an unnecessary 'ألف' at the beginning, resulting in a spelling error. The correct word is 'اللغات'. This mistake can confuse learners and should be corrected for proper comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "وتوفر التفاعل المبادر على الويب، والمساعدة في مجموعة واسعة من المهام التقنية.",
+      "correction": "وتوفر التفاعل على الويب، والمساعدة في مجموعة واسعة من المهام التقنية.",
+      "description": "The phrase 'التفاعل المبادر' is not a standard or natural collocation in Arabic when describing web interactivity. The word 'مبادر' (initiated/proactive) is unnecessary and may confuse learners. Removing it improves clarity and aligns with common terminology in educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "إنها مشابهة لقواعد اللغة التي تحدد نحديق اللغة الطبيعية.",
+      "correction": "إنها مشابهة لقواعد اللغة التي تحدد نحويّة اللغة الطبيعية.",
+      "description": "The word 'نحديق' is a typographical error and does not exist in Arabic. The intended word is 'نحويّة' (grammatical), which fits the context of discussing syntax and grammar. This spelling error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "إن عدم الاهتمام بالصياغة يمكن أن يؤدي إلى أخطاء أو سلوك غير مقصود في الكود الذي يُكتب.",
+      "correction": "عدم الاهتمام بالصياغة يمكن أن يؤدي إلى أخطاء أو سلوك غير مقصود في الكود الذي يُكتب.",
+      "description": "The use of 'إن' at the beginning of the sentence is unnecessary and results in awkward phrasing. In Modern Standard Arabic, the sentence is clearer and more natural without 'إن'. This improves readability and flow.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:56:27.010717",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "hebrew",
+    "generated_at": "2025-10-06T16:44:06.678306"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lexical errors and invented words",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 142,
+      "description": "Frequent use of non-existent, mistranslated, or contextually inappropriate words, including failed transliterations, false friends, and invented terms. These errors severely disrupt comprehension, professional tone, and educational accuracy.",
+      "examples": [
+        {
+          "wrong": "האמונה בכוח רוחני עליון, הידועה כברהמן, היא מרכיב אסיסטטי בהינדואיזם.",
+          "correct": "האמונה בכוח רוחני עליון, הידועה כברהמן, היא מרכיב מרכזי בהינדואיזם.",
+          "context": "Religious studies; 'אסיסטטי' is not a Hebrew word."
+        },
+        {
+          "wrong": "הסיכונים באינטרנט מגיעים רק לתוך מיקרוסופטיקה.",
+          "correct": "הסיכונים באינטרנט אינם מוגבלים רק למיקרוסופטיקה.",
+          "context": "Digital citizenship; 'מיקרוסופטיקה' is a misused technical term."
+        },
+        {
+          "wrong": "הגלגל הוא בעצם חלק מניידת שמאפשר הנעה דרך קשיטור או שטח ללא מאבק.",
+          "correct": "הגלגל הוא חלק ממערכת שמאפשרת הנעה של חפצים על פני שטח.",
+          "context": "Science/technology; 'קשיטור' is not a valid word."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement and construct errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 68,
+      "description": "Systematic mistakes in gender, number, verb conjugation, and construct state, leading to ungrammatical sentences. These errors confuse learners and undermine the professional tone of educational content.",
+      "examples": [
+        {
+          "wrong": "הספרות הבדיוניות מתבטאים באופן רק בעברית",
+          "correct": "הספרות הבדיונית מתבטאת רק בעברית",
+          "context": "Literature; plural verb with singular noun."
+        },
+        {
+          "wrong": "ה-DNA מורכב באופן מורכב משני גדילים שנקראים נוקלאוטידים.",
+          "correct": "ה-DNA מורכב משני גדילים ארוכים, שכל אחד מהם בנוי מנוקלאוטידים.",
+          "context": "Science; incorrect verb agreement and construct."
+        },
+        {
+          "wrong": "הצבעה היא מרכיב בסיסי בדמוקרטיה שמאפשר לאזרחים לקבלת החלטות.",
+          "correct": "הצבעה היא מרכיב בסיסי בדמוקרטיה שמאפשר לאזרחים לקבל החלטות.",
+          "context": "Civics; incorrect infinitive form."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and orthographic errors",
+      "category": "linguistic",
+      "subcategory": "Orthography|Spelling",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 32,
+      "description": "Frequent misspellings, typographical errors, and incorrect use of Hebrew letters or diacritics. These mistakes impede readability and comprehension, and reduce the professionalism of the content.",
+      "examples": [
+        {
+          "wrong": "הבעיקור של זכויות אדם בדרום אפריקה היה מאמץ שלילי במשך כל המאה.",
+          "correct": "הביטול של זכויות אדם בדרום אפריקה היה מאמץ שלילי במשך כל המאה.",
+          "context": "Civics/history; 'הבעיקור' is a misspelling."
+        },
+        {
+          "wrong": "אינם רלוונים לתזונה מאוזנת וחשובים לבריאותנו.",
+          "correct": "אינם רלוונטיים לתזונה מאוזנת וחשובים לבריאותנו.",
+          "context": "Nutrition; 'רלוונים' is a misspelling."
+        },
+        {
+          "wrong": "דמויות בסיפור רק משרתות לציגורת העלילה.",
+          "correct": "דמויות בסיפור רק משרתות לקידום העלילה.",
+          "context": "Literature; 'לציגורת' is a misspelling."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntax and sentence structure errors",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 18,
+      "description": "Awkward, convoluted, or fragmented sentence structures, including incorrect word order and redundancy. These errors make explanations unclear and hinder comprehension, especially in educational contexts.",
+      "examples": [
+        {
+          "wrong": "בקשת משוב היא כלי חשוב לגילוי נקודות חזקות ומיושמים.",
+          "correct": "בקשת משוב היא כלי חשוב לגילוי נקודות חוזק וחולשה.",
+          "context": "Learning strategies; incorrect collocation and structure."
+        },
+        {
+          "wrong": "בעולם המצבים הצבירה, התכונות של נוזלים מאפיינות את התנהגות הנעה שלהם.",
+          "correct": "בעולם מצבי הצבירה, התכונות של נוזלים מאפיינות את התנהגות התנועה שלהם.",
+          "context": "Science; awkward phrasing and repetition."
+        },
+        {
+          "wrong": "כאשר מחברים שברים עם אותו מכנה, כמו 1/3 ו-2/3, אתה פשוט משלב את המונים בערך המשותף שלהם, מבטיחים שהמכנה נשאר זהה.",
+          "correct": "כאשר מחברים שברים עם אותו מכנה, כמו 1/3 ו-2/3, פשוט מחברים את המונים ומשאירים את המכנה זהה.",
+          "context": "Math; unclear and verbose structure."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or misleading terminology",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 10,
+      "description": "Use of non-standard, misleading, or inaccurate technical terms, especially in scientific, mathematical, or cultural contexts. This undermines educational value and can lead to conceptual misunderstandings.",
+      "examples": [
+        {
+          "wrong": "שבירת דם",
+          "correct": "דימום",
+          "context": "First aid; incorrect medical term."
+        },
+        {
+          "wrong": "הטבלה המחזורית מארגנת לא רק את היסודות האלקטריים",
+          "correct": "הטבלה המחזורית מארגנת לא רק את היסודות האלקטרוניים",
+          "context": "Chemistry; 'אלקטריים' is incorrect for 'elements'."
+        },
+        {
+          "wrong": "הבינה המלאכותית היא סוג של טכנולוגיה שמאפשרת למחשבים לבצע משימות דומות לאלגוריות אנושית.",
+          "correct": "הבינה המלאכותית היא סוג של טכנולוגיה שמאפשרת למחשבים לבצע משימות דומות לאינטליגנציה אנושית.",
+          "context": "Technology; 'אלגוריות' is not the correct term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical mistranslation and nonstandard terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 38,
+      "description": "Frequent use of incorrect, nonstandard, or awkward Hebrew terms, often due to literal translation or mis-transliteration from English. This affects clarity, technical accuracy, and naturalness in educational content.",
+      "examples": [
+        {
+          "wrong": "קרקעיות עשירים",
+          "correct": "קרקעות עשירות",
+          "context": "Science/Geography terminology"
+        },
+        {
+          "wrong": "צורת סקריפטית",
+          "correct": "צורה סימבולית",
+          "context": "Mathematics terminology"
+        },
+        {
+          "wrong": "פלטפונים",
+          "correct": "פלטפורמות",
+          "context": "Technology/General vocabulary"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement and sentence structure errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Recurring mistakes in gender, number, and verb agreement, as well as awkward or incorrect sentence structures. These errors reduce professionalism and can hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "האזור האקלים הממוזג",
+          "correct": "אזור האקלים הממוזג",
+          "context": "Geography/Science"
+        },
+        {
+          "wrong": "מהוות יסוד לחוקים",
+          "correct": "מהווה יסוד לחוקים",
+          "context": "Civics/Legal language"
+        },
+        {
+          "wrong": "שלא קבועים",
+          "correct": "שאינם קבועים",
+          "context": "General negation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical unnaturalness and awkward phrasing",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 15,
+      "description": "Frequent use of unnatural, awkward, or overly formal lexical choices that reduce clarity and naturalness in Hebrew educational content.",
+      "examples": [
+        {
+          "wrong": "השיקול הזה מאפשר לנו להעריך את מורכבות היופי של החיים.",
+          "correct": "ההבנה הזו מאפשרת לנו להעריך את המורכבות והיופי של החיים.",
+          "context": "Misuse of 'השיקול' instead of 'ההבנה' in scientific explanation."
+        },
+        {
+          "wrong": "משוואה אינה רק משמשת ללוגיקה אלא גם לפתרון בעיות מערכתיות בתחום האלגברה.",
+          "correct": "משוואה אינה משמשת רק ללוגיקה אלא גם לפתרון בעיות באלגברה.",
+          "context": "Unnecessarily complex phrasing in math context."
+        },
+        {
+          "wrong": "הן משמשות כדרך לחזק את הקהילה.",
+          "correct": "הן משמשות דרך לחיזוק הקהילה.",
+          "context": "Less natural use of 'כדרך' instead of 'דרך'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical redundancy and repetition",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Unnecessary repetition of words or phrases within a sentence, leading to lack of precision and reduced readability.",
+      "examples": [
+        {
+          "wrong": "חומרים או חומרים",
+          "correct": "חומרים או עצמים",
+          "context": "Science definitions"
+        },
+        {
+          "wrong": "חברתיות, חברתיות ותרבותיות",
+          "correct": "חברתיות ותרבותיות",
+          "context": "Social studies"
+        },
+        {
+          "wrong": "רגעים של רגעים בטבע",
+          "correct": "רגעים בטבע",
+          "context": "Literature/Poetry"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic and spelling errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Misspellings, incorrect use of Hebrew prefixes, and punctuation errors that disrupt reading flow and may confuse learners.",
+      "examples": [
+        {
+          "wrong": "להיושמע",
+          "correct": "להישמע",
+          "context": "Verb spelling"
+        },
+        {
+          "wrong": "כש מישהו",
+          "correct": "כשמישהו",
+          "context": "Prefix attachment"
+        },
+        {
+          "wrong": "תופאות",
+          "correct": "תופעות",
+          "context": "General spelling"
+        },
+        {
+          "wrong": "הסתברות לקבל זנב-זנב בטילת שני מטבעות היא 1/4.",
+          "correct": "הסתברות לקבל זנב-זנב בהטלת שני מטבעות היא 1/4.",
+          "context": "Spelling error in mathematical context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Mismatch in Examples and References",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Quiz items frequently use examples, terms, or references that are not relevant to Israeli or Hebrew-speaking learners, reducing cultural resonance and clarity.",
+      "examples": [
+        {
+          "wrong": "לדוגמה, בארצות הברית, אזרחים מצביעים לבחירת נשיא אחת לארבע שנים.",
+          "correct": "לדוגמה, בישראל, אזרחים מצביעים לבחירת הכנסת אחת לארבע שנים.",
+          "context": "References US elections instead of Israeli elections."
+        },
+        {
+          "wrong": "במדינות רבות ניתן להירשם אונליין או במשרדי הממשלה.",
+          "correct": "בישראל ניתן להירשם במשרד הפנים או באתר האינטרנט של משרד הפנים.",
+          "context": "Uses generic registration process instead of Israeli-specific details."
+        },
+        {
+          "wrong": "בבחירות מקומיות מצביעים יכולים לבחור חברי מועצת עיר או נציגי בית ספר.",
+          "correct": "בבחירות מקומיות מצביעים יכולים לבחור חברי מועצת עיר או נציגי ועד הורים.",
+          "context": "Uses non-standard terms for local elections in Israel."
+        },
+        {
+          "wrong": "תוצאות הבחירות לנשיאות מתפרסמות לאחר ספירת כל הקולות ברחבי המדינה.",
+          "correct": "תוצאות הבחירות לכנסת מתפרסמות לאחר ספירת כל הקולות ברחבי המדינה.",
+          "context": "References presidential elections, which are not relevant in Israel."
+        },
+        {
+          "wrong": "בבחירות ממשלתיות מקומיות, אזרחים יכולים לבחור מנהיגים המחליטים על נושאים כמו בתי ספר, פארקים ובטיחות ציבורית.",
+          "correct": "בבחירות מקומיות, אזרחים יכולים לבחור מנהיגים המחליטים על נושאים כמו חינוך, פארקים ובטיחות ציבורית.",
+          "context": "Uses non-standard phrasing and less accurate terms for local government decisions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or unnatural phrasing",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of phrases that are technically correct but sound unnatural or are not idiomatic in Hebrew, affecting the professional tone and clarity of the content.",
+      "examples": [
+        {
+          "wrong": "מעודד בדרך כלל ביצירת קשרים חזקים יותר, שאינם סיכונים",
+          "correct": "תורם ליצירת קשרים חזקים יותר, שאינם מהווים סיכון",
+          "context": "Social/Emotional learning"
+        },
+        {
+          "wrong": "להבטיח חופשיות בביטוי",
+          "correct": "חופש ביטוי",
+          "context": "Literature/Poetry"
+        },
+        {
+          "wrong": "באופן אמיתי וארגוני",
+          "correct": "באופן מסודר ומאורגן",
+          "context": "Civics/Process description"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or inconsistent terminology (transliteration vs. standard Hebrew)",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of non-standard transliterations or incorrect technical terms instead of accepted Hebrew terminology, which may confuse learners.",
+      "examples": [
+        {
+          "wrong": "סינקטקס",
+          "correct": "תחביר",
+          "context": "Transliteration of 'syntax' instead of standard Hebrew term."
+        },
+        {
+          "wrong": "היבריאציה",
+          "correct": "הווריאציה",
+          "context": "Mis-transliteration of 'variation' in scientific context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent or Awkward Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of direct loanwords or awkward terminology that does not align with standard Hebrew educational language, reducing clarity and localization quality.",
+      "examples": [
+        {
+          "wrong": "מיינדסט צמיחה",
+          "correct": "גישה של צמיחה",
+          "context": "Uses English loanword instead of recommended Hebrew term."
+        },
+        {
+          "wrong": "נקודה היא מקום אחד במרחב, לא אובייקון שלו כמו קטע.",
+          "correct": "נקודה היא מקום אחד במרחב, בניגוד לקטע שהוא אובייקט גיאומטרי בעל ממדים.",
+          "context": "Uses awkward and unclear terminology for geometric concepts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Non-Idiomatic Hebrew Expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Some items use phrasing that is not idiomatic or natural in Hebrew educational contexts, affecting clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "בעוד שנקודה יכולה להימצא בתוך קטע, האמירה הזו מטעה את הטבע של נקודה.",
+          "correct": "בעוד שנקודה יכולה להימצא בתוך קטע, האמירה הזו אינה משקפת את מהות הנקודה.",
+          "context": "Uses unnatural phrasing for describing mathematical concepts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect grammatical agreement (gender, number, definite article)",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 5,
+      "description": "Mistakes in gender, number, or definite article agreement that slightly reduce professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "הטכניקות המדוברות ... ומאפשרות גישה מעשירת ומסבירה לאומנות.",
+          "correct": "הטכניקות המדוברות ... ומאפשרות גישה מעשירה ומסבירה לאומנות.",
+          "context": "Gender agreement error in adjective."
+        },
+        {
+          "wrong": "אזרחים ממלאים תפקיד חשוב בהפעלת דמוקרטיה.",
+          "correct": "אזרחים ממלאים תפקיד חשוב בהפעלת הדמוקרטיה.",
+          "context": "Missing definite article before 'דמוקרטיה'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundancy and repetition in sentence structure",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Sentences contain redundant words or repeated ideas, making them less concise and clear.",
+      "examples": [
+        {
+          "wrong": "החלטה והזרימה של פעולות והחלטות באלגוריתמים.",
+          "correct": "החלטות והזרימה של פעולות באלגוריתמים.",
+          "context": "Redundant repetition of 'החלטה' and 'החלטות'."
+        },
+        {
+          "wrong": "ריבוזומים הם חלק קריטי בתהליך סינתזת חלבונים, גורם חשוב לתפקיד הקריטי של הרשת האנדופלסמטית המחוספסת.",
+          "correct": "ריבוזומים הם חלק קריטי בתהליך סינתזת החלבונים, ומעניקים לרשת האנדופלסמטית המחוספסת את תפקידה המרכזי.",
+          "context": "Redundant and awkward phrasing in scientific explanation."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard currency symbol usage",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of 'ש\"ח' instead of the standard '₪' symbol for Israeli shekel, which can reduce clarity and professionalism in educational contexts.",
+      "examples": [
+        {
+          "wrong": "ניהול תקציב חודשי של 50 ש\"ח.",
+          "correct": "ניהול תקציב חודשי של 50 ₪.",
+          "context": "Currency formatting in financial examples."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic phrasing for performance improvement",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of literal or awkward phrases that do not match Hebrew idiomatic usage, reducing cultural resonance and clarity.",
+      "examples": [
+        {
+          "wrong": "רואה בזריקות שהוחמצו הזדמנויות לשפר את הכיוון.",
+          "correct": "רואה בזריקות שהוחמצו הזדמנות לשפר את הביצועים שלו.",
+          "context": "Describing improvement in sports performance."
+        }
+      ]
+    }
+  ]
+}

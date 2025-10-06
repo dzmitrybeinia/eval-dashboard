@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Ägypter beteten Rätselhafte Götter an, wie Ra und Osiris, in Tempeln.",
+      "correction": "Die Ägypter beteten Götter wie Ra und Osiris in Tempeln an.",
+      "description": "The use of 'Rätselhafte Götter' (mysterious gods) is a lexical error, as it inaccurately describes Ra and Osiris, who were well-known deities in Egyptian mythology. The sentence also has awkward word order; in German, the verb 'anbeten' is a separable verb and should be placed at the end of the clause. The corrected sentence removes the misleading adjective and places 'an' at the end for proper verb placement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Papyrusrollen wie der Ebers Papyrus dokumentierten ihr Wissen.",
+      "correction": "Papyrusrollen wie der Ebers-Papyrus dokumentierten ihr Wissen.",
+      "description": "The compound noun 'Ebers Papyrus' should be hyphenated as 'Ebers-Papyrus' according to German orthographic rules for proper names and compound nouns. This improves clarity and adheres to standard spelling conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:20:51.067870",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0
+    }
+  }
+}

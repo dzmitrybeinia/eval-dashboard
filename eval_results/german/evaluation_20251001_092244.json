@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "erste Hilfe Maßnahme",
+      "correction": "Erste-Hilfe-Maßnahme",
+      "description": "The compound noun 'Erste Hilfe Maßnahme' should be written as 'Erste-Hilfe-Maßnahme' in German, with all nouns capitalized and the compound correctly hyphenated. This ensures proper orthography and follows the standard rules for German compound nouns, especially when combining multi-word terms.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "um Schmerz zu lindern und das Gewebe zu schützen",
+      "correction": "um Schmerzen zu lindern und das Gewebe zu schützen",
+      "description": "The word 'Schmerz' should be in the plural form 'Schmerzen' in this context, as the idiomatic expression in German is 'Schmerzen lindern' when referring to pain relief in general. This improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Erste Hilfe ist ein umfassender Begriff, der die sofortige Unterstützung bei verschiedenen Arten von Verletzungen oder Krankheiten umfasst, nicht nur Verbrennungen.",
+      "correction": "Erste Hilfe ist ein umfassender Begriff, der die sofortige Unterstützung bei verschiedenen Arten von Verletzungen oder Krankheiten umfasst – nicht nur Verbrennungen.",
+      "description": "A dash (Gedankenstrich) is preferred over a comma before 'nicht nur Verbrennungen' to improve sentence flow and clarity in German. This is a stylistic orthographic improvement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vermeiden Sie es, die Wunde zu bewegen, da dies weitere Verletzungen verursachen kann.",
+      "correction": "Vermeide es, die Wunde zu bewegen, da dies weitere Verletzungen verursachen kann.",
+      "description": "The feedback switches from informal 'du' to formal 'Sie', which is inconsistent with the rest of the lesson that uses informal address. Consistent use of the informal register is important for clarity and tone in educational materials aimed at a general audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "eine wesentliche erste Hilfe Maßnahme",
+      "correction": "eine wesentliche Erste-Hilfe-Maßnahme",
+      "description": "The phrase should capitalize all nouns and use hyphens to form the compound noun 'Erste-Hilfe-Maßnahme', following German orthographic rules.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:22:44.563286",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

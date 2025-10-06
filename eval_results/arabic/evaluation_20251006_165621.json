@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "العيش عند الساحل يكون دافئة أكثر من الأماكن الداخلية في نفس المنطقة.",
+      "correction": "العيش عند الساحل يكون أكثر دفئًا من الأماكن الداخلية في نفس المنطقة.",
+      "description": "The adjective 'دافئة' is incorrectly used in the feminine form, while it should agree with the implied subject 'العيش' (living), which is a verbal noun and treated as masculine or neutral. The correct comparative structure is 'أكثر دفئًا'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "تحدث الغابات الاستوائية المطيرة، والموجودة في المنطقة الاستوائية، بدرجات حرارة دافئة بسبب استمرار الشمس دون التقاعر. على عكس الصحاري، العادية للجبال أو المناطق شبه الاستوائية، التي تحتوي على أكثر جفافًا بسبب الهواء الجاف الهابط. لذلك، تحتوي الغابات الاستوائية المطيرة على أكثر من أي مناطق المناخ الأخرى من حيث الأمطار.",
+      "correction": "توجد الغابات الاستوائية المطيرة في المنطقة الاستوائية، وتتميز بدرجات حرارة دافئة بسبب استمرار تعرضها لأشعة الشمس. على عكس الصحاري، التي تقع غالبًا خلف الجبال أو في المناطق شبه الاستوائية، وتتميز بجفاف أكبر بسبب الهواء الجاف الهابط. لذلك، تتلقى الغابات الاستوائية المطيرة أمطارًا أكثر من أي منطقة مناخية أخرى.",
+      "description": "Multiple lexical and semantic errors: 'تحدث' is an unnatural verb for describing the existence of forests; 'استمرار الشمس دون التقاعر' is unclear and 'التقاعر' is not standard in this context; 'العادية للجبال' is a mistranslation and should be 'التي تقع خلف الجبال'; 'تحتوي على أكثر جفافًا' is incorrect, should be 'تتميز بجفاف أكبر'; 'تحتوي على أكثر من أي مناطق المناخ الأخرى من حيث الأمطار' is awkward, should be 'تتلقى أمطارًا أكثر من أي منطقة مناخية أخرى'. These errors affect clarity, naturalness, and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "تأثير الشمس على التسخين العالمي معزز منه بوجه خاتم الأرض، ما يدفع التدفق الحراري إلى الأسفل، مما يؤدي إلى تسخين أكثر في الجزء الأسفلي. بالإضافة إلى ذلك، تلعب الغلاف الجوي، الماء، والتلال المحيطية دورًا حاسمًا في توزيع الحرارة، مما يؤثر على التسخين العالمي.",
+      "correction": "تأثير الشمس على التسخين العالمي يعززه شكل الأرض الكروي، مما يدفع التدفق الحراري إلى الأسفل ويؤدي إلى تسخين أكبر في المناطق القريبة من خط الاستواء. بالإضافة إلى ذلك، يلعب الغلاف الجوي والماء والتيارات المحيطية دورًا حاسمًا في توزيع الحرارة، مما يؤثر على التسخين العالمي.",
+      "description": "Several grammatical and lexical errors: 'معزز منه بوجه خاتم الأرض' is incorrect and unclear; the phrase should be 'يعززه شكل الأرض الكروي'. 'التلال المحيطية' is a mistranslation and should be 'التيارات المحيطية'. The sentence structure is convoluted and does not clearly convey the scientific explanation. These errors hinder comprehension and scientific accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:56:21.673276",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

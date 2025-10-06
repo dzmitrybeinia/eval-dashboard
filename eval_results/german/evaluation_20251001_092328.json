@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "zu tiefere Verbindungen",
+      "correction": "zu tieferen Verbindungen",
+      "description": "The phrase 'zu tiefere Verbindungen' contains an incorrect case usage. After 'zu', the dative case is required, so the correct form is 'zu tieferen Verbindungen'. This is a grammatical error affecting adjective declension and noun case agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "eine kleine Geschenke",
+      "correction": "kleine Geschenke",
+      "description": "The phrase 'eine kleine Geschenke' is incorrect because 'Geschenke' is plural and does not require the singular article 'eine'. The correct form is simply 'kleine Geschenke'. This is an orthographic and grammatical error involving article usage and number agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "In Deutschland ist der Austausch von Geschenken beim ersten Treffen oft nicht üblich.",
+      "correction": "In Deutschland ist der Austausch von Geschenken beim ersten Treffen nicht üblich.",
+      "description": "The use of 'oft nicht üblich' is awkward and could be misleading, as it suggests that exchanging gifts is sometimes common, which is not the case in German culture. The more accurate and culturally appropriate phrasing is 'nicht üblich', which clearly states that this is not a common practice.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:23:28.259327",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1
+    }
+  }
+}

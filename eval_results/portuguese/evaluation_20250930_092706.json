@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O Silício (Si) é um elemento conhecido como um metalide, pois possui propriedades intermediárias entre metais e não-metais. Não é classificado como um metal.",
+      "correction": "O Silício (Si) é um elemento conhecido como um metaloide, pois possui propriedades intermediárias entre metais e não-metais. Não é classificado como um metal.",
+      "description": "The term 'metalide' is incorrect in Portuguese; the correct term is 'metaloide' for elements with properties intermediate between metals and non-metals. This lexical error could confuse learners and should be corrected for scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Na tabela periódica, as linhas verticais são conhecidas como períodos.",
+      "correction": "Na tabela periódica, as linhas horizontais são conhecidas como períodos.",
+      "description": "This sentence incorrectly states that 'vertical lines' are called 'períodos' (periods), when in fact periods are the horizontal rows in the periodic table. This is a factual and syntactic error that could mislead students about the structure of the periodic table.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Os gases nobres, encontrados no grupo 18, são conhecidos por sua falta de reatividade.",
+      "correction": "Os gases nobres, encontrados no grupo 18, são conhecidos por sua baixa reatividade.",
+      "description": "The phrase 'falta de reatividade' is less precise than 'baixa reatividade' in scientific contexts. While noble gases are generally considered inert, 'baixa reatividade' is the standard term in chemistry, as some noble gases can react under specific conditions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:27:06.909666",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0
+    }
+  }
+}

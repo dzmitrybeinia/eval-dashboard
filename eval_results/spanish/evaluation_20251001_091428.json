@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "una perspectiva u resultado específico",
+      "correction": "una perspectiva o resultado específico",
+      "description": "The use of 'u' before 'resultado' is incorrect. In Spanish, 'u' is used instead of 'o' only before words beginning with 'o' or 'ho' to avoid the repetition of the 'o' sound. Since 'resultado' does not start with 'o' or 'ho', the correct conjunction is 'o'. This is a lexical error that affects the grammatical correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Influye cómo se presenta e interpreta la información.",
+      "correction": "Influye en cómo se presenta e interpreta la información.",
+      "description": "The verb 'influir' in Spanish requires the preposition 'en' when followed by a clause or noun indicating what is being influenced. Omitting 'en' is a syntactic error that affects the naturalness and correctness of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Este patrón cognitivo puede influir en cómo interpretan y recuerda la información, lo que puede afectar la toma de decisiones y la evaluación de hechos.",
+      "correction": "Este patrón cognitivo puede influir en cómo interpretan y recuerdan la información, lo que puede afectar la toma de decisiones y la evaluación de hechos.",
+      "description": "There is a subject-verb agreement error: 'interpretan' (third person plural) and 'recuerda' (third person singular) should match. Since the subject is 'las personas', both verbs should be in the plural form: 'interpretan y recuerdan'. This is a grammatical error that affects clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:14:28.268059",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0
+    }
+  }
+}

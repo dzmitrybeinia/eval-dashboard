@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "يحدث هذا الشيء عن وجود مشاعر قوية لدنا عند مواجهة ظروف معينة. عندما نعرف أين تأتي هذه المشاعر، يمكننا تخطيط طرق للحواجم والتواصل بشكل أفضل.",
+      "correction": "يحدث ذلك بسبب وجود مشاعر قوية لدينا عند مواجهة ظروف معينة. عندما نعرف مصدر هذه المشاعر، يمكننا تخطيط طرق للتعامل معها والتواصل بشكل أفضل.",
+      "description": "The original text contains several lexical and grammatical errors: 'يحدث هذا الشيء عن وجود مشاعر قوية لدنا' uses 'عن' incorrectly and 'لدنا' is a misspelling of 'لدينا'. 'للحواجم' is a lexical error; the intended meaning is 'للتعامل معها'. The sentence structure is also awkward and unnatural. The correction improves clarity, fixes the preposition, corrects the possessive pronoun, and replaces the incorrect word with the appropriate term for 'dealing with'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "الاستماع الفعّال يتضمن مقاطعة الأكاتار لإظهار الفهم.",
+      "correction": "الاستماع الفعّال لا يتضمن مقاطعة الآخرين لإظهار الفهم.",
+      "description": "The word 'الأكاتار' is a misspelling and should be 'الآخرين' (others). Additionally, the statement is misleading as it suggests that active listening involves interruption, which is incorrect. The correction addresses the spelling error and clarifies the meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الاستماع الفعّال يتعلق بالتركيز على كلمات المتحدث والاندمار، وليس بالمقاطعة أو إلزام الإجابة بالكلمات. وضمان الفهم يتم بإظهار الفهم والتأكيد على المعلومات التي تمت استيلاء عليها.",
+      "correction": "الاستماع الفعّال يتعلق بالتركيز على كلمات المتحدث والانتباه، وليس بالمقاطعة أو إلزام الإجابة. وضمان الفهم يتم بإظهار الفهم والتأكيد على المعلومات التي تم استيعابها.",
+      "description": "The word 'الاندمار' is incorrect and should be 'الانتباه' (attention). 'إلزام الإجابة بالكلمات' is awkward and unnecessary; 'إلزام الإجابة' suffices. 'تمت استيلاء عليها' is a semantic error; the correct phrase is 'تم استيعابها' (understood/absorbed). The correction improves lexical precision and overall clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "من الضمن التعاطف يزيد بشكل كبير من فهم النزاعات وتقليل التوتر بين الأفراد المشاركين.",
+      "correction": "من ضمن ذلك، التعاطف يزيد بشكل كبير من فهم النزاعات وتقليل التوتر بين الأفراد المشاركين.",
+      "description": "The phrase 'من الضمن' is a grammatical error; the correct expression is 'من ضمن ذلك'. This correction ensures proper prepositional usage and improves sentence clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "هذا النهج يساعد على تشكيل بيئة أكثر احترامًا واستقبالًا، مما يجعل من الأسهل للجميع الانتقاد والتواصل بفعالية.",
+      "correction": "هذا النهج يساعد على تشكيل بيئة أكثر احترامًا وتقبلًا، مما يجعل من الأسهل للجميع التعبير عن آرائهم والتواصل بفعالية.",
+      "description": "The word 'استقبالًا' is not appropriate in this context; 'تقبلًا' (acceptance) is the correct term. 'الانتقاد' (criticism) is not the intended meaning; 'التعبير عن آرائهم' (expressing opinions) fits better in the context of conflict resolution. The correction improves lexical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "التسوية تتضمن الحكمة بدلاً من القوة لحل النزاعات.",
+      "correction": "التسوية تعتمد على الحكمة بدلاً من القوة لحل النزاعات.",
+      "description": "The verb 'تتضمن' (includes) is not the most accurate choice here; 'تعتمد على' (relies on) better conveys the intended meaning that compromise is based on wisdom rather than force. This correction enhances lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "على الرغم من أن القوة قد تكون موجودة، إلا أنها ليست الطريقة المقبولة أو الأكثر فعالية لحل النزاعات في العديم الاجتماعي.",
+      "correction": "على الرغم من أن القوة قد تكون موجودة، إلا أنها ليست الطريقة المقبولة أو الأكثر فعالية لحل النزاعات في المجتمع.",
+      "description": "The phrase 'في العديم الاجتماعي' is a lexical error; the correct term is 'في المجتمع' (in society). The correction ensures the sentence is semantically accurate and contextually appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الحكمة تعتبر أهمية الانتباء والفهم العميق لأفكار ومشاعر الآخرين، مما يساهم في حلول أكثر استدامة وتوافقًا.",
+      "correction": "الحكمة تتطلب الانتباه والفهم العميق لأفكار ومشاعر الآخرين، مما يساهم في حلول أكثر استدامة وتوافقًا.",
+      "description": "The verb 'تعتبر' (considers) is not appropriate in this context; 'تتطلب' (requires) is the correct verb to express that wisdom requires attention and deep understanding. This correction improves lexical accuracy and sentence clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:56:54.403686",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

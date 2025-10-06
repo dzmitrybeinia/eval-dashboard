@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אובייקון",
+      "correction": "אובייקט",
+      "description": "The word 'אובייקון' is a misspelling and incorrect lexical choice for the intended meaning. The correct term in Hebrew for 'object' in a mathematical or geometric context is 'אובייקט'. This error affects clarity and professionalism in educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "קרן נמצאת על קו ומתחיל בנקודה בלתי מגבלית.",
+      "correction": "קרן נמצאת על קו ומתחילה בנקודה בלתי מוגבלת.",
+      "description": "There are two grammatical errors: 1) The verb should agree in gender and number with the subject 'קרן', so 'מתחיל' should be 'מתחילה'. 2) The adjective 'בלתי מגבלית' is incorrect; the standard term is 'בלתי מוגבלת' to mean 'unlimited' or 'infinite'. These errors hinder comprehension and accuracy in the geometric definition.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "בעוד שנקודה יכולה להימצא בתוך קטע, האמירה הזו מטעה את הטבע של נקודה.",
+      "correction": "בעוד שנקודה יכולה להימצא בתוך קטע, האמירה הזו אינה משקפת את מהות הנקודה.",
+      "description": "The phrase 'מטעה את הטבע של נקודה' is unnatural and not idiomatic in Hebrew educational style. A more natural and professional expression is 'אינה משקפת את מהות הנקודה', which better conveys the intended meaning in a way that resonates with Hebrew-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "נקודה היא מקום אחד במרחב, לא אובייקון שלו כמו קטע.",
+      "correction": "נקודה היא מקום אחד במרחב, לא אובייקט שלו כמו קטע.",
+      "description": "Beyond the lexical error, the phrase 'לא אובייקט שלו כמו קטע' is awkward and unclear in Hebrew. For educational clarity, it should be rephrased to 'נקודה היא מקום אחד במרחב, בניגוד לקטע שהוא אובייקט גיאומטרי בעל ממדים'. This would improve both terminology consistency and naturalness for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "קרן מתחיל בנקודה וממשיך לאורך קו.",
+      "correction": "קרן מתחילה בנקודה וממשיכה לאורך קו.",
+      "description": "The verb 'מתחיל' should agree with the feminine noun 'קרן', so it must be 'מתחילה'. Similarly, 'ממשיך' should be 'ממשיכה'. These errors affect grammatical agreement and clarity in the definition.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:24:46.766588",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

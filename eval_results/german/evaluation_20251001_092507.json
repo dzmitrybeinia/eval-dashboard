@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "KI Anwendungen",
+      "correction": "KI-Anwendungen",
+      "description": "The compound noun 'KI Anwendungen' should be written as a single word with a hyphen for clarity and correctness in German ('KI-Anwendungen'). Compound nouns in German are typically joined, and the hyphen is used here to connect the abbreviation 'KI' with 'Anwendungen'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "KI Design Prinzipien",
+      "correction": "KI-Design-Prinzipien",
+      "description": "The phrase 'KI Design Prinzipien' should be written as a compound noun with hyphens: 'KI-Design-Prinzipien'. In German, multi-part compound nouns are joined with hyphens, especially when abbreviations are involved, to ensure correct orthography and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "NGSS Verbindung",
+      "correction": "NGSS-Verbindung",
+      "description": "The term 'NGSS Verbindung' should be written as 'NGSS-Verbindung' with a hyphen. In German, when combining an abbreviation with a noun, a hyphen is required for correct orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Maschinelles Lernen",
+      "correction": "maschinelles Lernen",
+      "description": "In the context of a bullet point or list, 'maschinelles Lernen' should not capitalize the adjective unless it is at the beginning of a sentence or used as a heading. Only nouns are capitalized in German, so 'maschinelles' should be lowercase here.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Virtuelle Assistenten wie Siri oder Alexa.",
+      "correction": "Virtuelle Assistenten wie Siri, Alexa oder Google Assistant.",
+      "description": "While the original is linguistically correct, for localization and inclusivity, it is more culturally appropriate to include 'Google Assistant' as a widely used example in German-speaking regions, ensuring the content is relatable to a broader audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Empfehlungsdienste wie Netflix oder Spotify.",
+      "correction": "Empfehlungsdienste wie Netflix und Spotify.",
+      "description": "In German, when listing two items, 'und' (and) is preferred over 'oder' (or) unless offering a choice. Here, both services are examples, so 'und' is more appropriate for clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "KI-gestützte Bildgebung erkennt Krebs im Frühstadium.",
+      "correction": "KI-gestützte Bildgebung erkennt Krebs im Frühstadium.",
+      "description": "No correction needed; this sentence is orthographically and grammatically correct. No issues found.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:25:07.686884",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.1
+    }
+  }
+}

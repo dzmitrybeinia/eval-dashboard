@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Rockmusik wurde hauptseteichlich von deutschen Bands im 20. Jahrhundert beeinflusst.",
+      "correction": "Rockmusik wurde hauptsächlich von deutschen Bands im 20. Jahrhundert beeinflusst.",
+      "description": "The word 'hauptseteichlich' is a misspelling; the correct spelling is 'hauptsächlich'. This is a critical spelling error that affects comprehension and credibility. No other linguistic or localization issues are present in this text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Popmusik wird typischerweise für ihre eingängigen Melodien und einfachen Themen als Liebe und Beziehungen geschätzt, nicht für komplexe Harmonien oder politische Aktionen.",
+      "correction": "Popmusik wird typischerweise für ihre eingängigen Melodien und einfachen Themen wie Liebe und Beziehungen geschätzt, nicht für komplexe Harmonien oder politische Aktionen.",
+      "description": "The phrase 'Themen als Liebe und Beziehungen' is incorrect; the preposition 'als' is not appropriate in this context. The correct preposition is 'wie', resulting in 'Themen wie Liebe und Beziehungen'. This improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Hip-Hop ist bekannt für seine rhythmische Sprachvortrag-Technik, bekannt als Rap, gepaart mit elektronischen Beats und Sampling.",
+      "correction": "Hip-Hop ist bekannt für seine rhythmische Sprachvortragstechnik, bekannt als Rap, gepaart mit elektronischen Beats und Sampling.",
+      "description": "The compound noun 'Sprachvortrag-Technik' should be written as a single word 'Sprachvortragstechnik' according to German compound noun rules. This correction ensures proper orthography and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:33.842808",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "كيف نستمع بانتباهم",
+      "correction": "كيف نستمع بانتباههم",
+      "description": "The word 'بانتباهم' is a misspelling and incorrect morphologically. The intended meaning is 'with their attention,' but the correct form in this context should be 'بانتباه' (with attention) or 'بانتباههم' (with their attention) if referring to the attention of others. However, in the context of learning how to listen attentively, 'بانتباه' is the standard and correct term. This error affects clarity and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "هل التعاطف يتعلق فقط بالعواطف السلبية؟.",
+      "correction": "هل التعاطف يتعلق فقط بالعواطف السلبية؟",
+      "description": "There is an unnecessary period after the question mark (؟.), which is incorrect in Arabic punctuation. In Arabic, the question mark should be used alone at the end of a question, and the period should not follow it. This affects the orthographic correctness and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "أسمع أنك تشعر بالتوتر بشأن الأداء. ذلك شعور طبيعي تمامًا، وأنا هنا لدعمك!",
+      "correction": "أسمع أنك تشعر بالتوتر بشأن الأداء. هذا شعور طبيعي تمامًا، وأنا هنا لدعمك!",
+      "description": "The phrase 'ذلك شعور طبيعي تمامًا' uses 'ذلك' (that) which is less natural in spoken or educational Modern Standard Arabic for immediate emotional reassurance. 'هذا' (this) is more commonly used to refer to a feeling just mentioned, making the sentence sound warmer and more natural. This adjustment improves the naturalness and cultural appropriateness of the expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "يمكن أن يمنع سوء الفهم ويقوي الصداقات.",
+      "correction": "يمكن أن يمنع سوء الفهم ويقوي الصداقة.",
+      "description": "The use of the plural 'الصداقات' (friendships) is less precise in this context, as the previous sentences refer to the concept of friendship in general. The singular 'الصداقة' is more appropriate and aligns with the educational focus on the concept rather than multiple instances. This improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "قم بالتواصل البصري وأومئ برأسك لتظهر أنك تستمع.",
+      "correction": "حافظ على التواصل البصري وأومئ برأسك لتظهر أنك تستمع.",
+      "description": "The verb 'قم' (do) is a literal translation from English ('do eye contact'), which is unnatural in Arabic. 'حافظ على التواصل البصري' (maintain eye contact) is the standard and natural way to express this advice in Arabic educational contexts. This correction enhances the naturalness and professionalism of the language.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "كرر أو أعِد صياغة ما قاله للتأكد من أنك فهمته.",
+      "correction": "كرّر أو أعِد صياغة ما قاله للتأكد من أنك فهمته.",
+      "description": "The verb 'كرر' should have a shadda (ّ) to indicate the doubled consonant, which is necessary for correct pronunciation and meaning. Without the shadda, the word may be misread or misunderstood. This is a minor orthographic issue but important for educational clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "التواصل الفعّال يعني أن تعبر عن أفكارك ومشاعرك بصراحة وفهم الآخرين بدقة. هذا النهج ضروري لحل النزاعات لأنه يسمح لكليكما بفهم الأمور بشكل أوضح ويمكن أن يؤدي إلى حلول مناسبة للأسفل.",
+      "correction": "التواصل الفعّال يعني أن تعبر عن أفكارك ومشاعرك بصراحة وأن تفهم الآخرين بدقة. هذا النهج ضروري لحل النزاعات لأنه يسمح لكليكما بفهم الأمور بشكل أوضح ويمكن أن يؤدي إلى حلول مناسبة للطرفين.",
+      "description": "The phrase 'حلول مناسبة للأسفل' is a mistranslation or typographical error; 'للأسفل' (for the bottom) is not appropriate in this context. The correct phrase should be 'حلول مناسبة للطرفين' (solutions suitable for both parties), which is the standard expression in Arabic for conflict resolution. Additionally, the sentence structure is improved for clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "بتطبيق هذه المهارات، يمكننا بناء صداقات قوية ودائمة تجعلنا نشعر بالتقدير والدعم.",
+      "correction": "بتطبيق هذه المهارات يمكننا بناء صداقات قوية ودائمة تجعلنا نشعر بالتقدير والدعم.",
+      "description": "There is an unnecessary comma after 'بتطبيق هذه المهارات' which breaks the flow of the sentence. In Arabic, commas are used less frequently than in English, and in this context, the sentence should flow without interruption. This correction improves orthographic accuracy and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "التعاطف يتضمن فهمًا واحتضانًا لشعور الآخرين، وليس التأكيد على نقائصهم. إنه مهم أن نكتب على العمل بعناية ونكرر وجهات نظر الآخرين، وليس فقط التأكيد على الأخطاء.",
+      "correction": "التعاطف يتضمن فهمًا واحتضانًا لشعور الآخرين، وليس التأكيد على نقائصهم. من المهم أن نستمع بعناية ونكرر وجهات نظر الآخرين، وليس فقط التأكيد على الأخطاء.",
+      "description": "The phrase 'إنه مهم أن نكتب على العمل بعناية' is a mistranslation or typographical error. The intended meaning is about listening carefully, not writing. The correct phrase should be 'من المهم أن نستمع بعناية' (it is important to listen carefully). This correction addresses both lexical and semantic accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:58:22.689990",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

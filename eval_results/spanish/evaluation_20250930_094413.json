@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En realidad, las palancas realzan el esfuerzo necesario para levantar objetos pesados, no lo incrementan.",
+      "correction": "En realidad, las palancas reducen el esfuerzo necesario para levantar objetos pesados, no lo incrementan.",
+      "description": "The verb 'realzan' is a lexical error in this context. 'Realzar' means 'to enhance' or 'to highlight', which is incorrect when describing the function of a lever. The correct verb is 'reducen', as levers reduce the effort needed to lift heavy objects. This error could confuse learners about the basic principle of levers.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "ejereir",
+      "correction": "ejercer",
+      "description": "The word 'ejereir' in the feedback for 'Las máquinas simples requieren más esfuerzo para realizar tareas.' is a spelling error. The correct form is 'ejercer', which means 'to exert'. This mistake affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "bombilla",
+      "correction": "foco",
+      "description": "The term 'bombilla' is used as an example of a screw in the context of machines. While 'bombilla' is understood in Spain as 'light bulb', in many Latin American countries 'foco' is the more common term. For broader localization and to ensure all Spanish-speaking learners understand, 'foco' is recommended.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Paradores de puerta",
+      "correction": "topes de puerta",
+      "description": "The phrase 'paradores de puerta' is not standard in most Spanish-speaking regions for 'doorstops'. The more widely accepted term is 'topes de puerta'. Using regionally neutral terminology improves clarity and localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:13.410581",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

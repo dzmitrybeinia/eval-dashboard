@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "السيءة",
+      "correction": "السيئة",
+      "description": "The word 'السيءة' contains an orthographic error: the feminine ending should be 'ة' (تاء مربوطة) instead of 'ءة'. This mistake affects spelling accuracy and may confuse learners about correct feminine word formation in Arabic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "المصدار",
+      "correction": "المصدر",
+      "description": "The word 'المصدار' is a misspelling of 'المصدر'. The incorrect use of 'د' instead of 'ر' changes the meaning and disrupts comprehension. Accurate spelling is essential for understanding key terminology in educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "يترياس",
+      "correction": "يتطلب",
+      "description": "The word 'يترياس' is a non-standard and incorrect form in Arabic. The intended meaning is 'يتطلب' (requires). Using a non-existent word impairs clarity and comprehension, especially in educational contexts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "المعقمة",
+      "correction": "المقدمة",
+      "description": "The word 'المعقمة' (meaning 'sterilized') is contextually incorrect in the phrase 'الروابط المعقمة'. The intended meaning is 'المقدمة' (provided). This lexical error confuses the meaning and disrupts the logical flow of the explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "لنبدأ رحلتنا لفهم كيف يمكن لهذه المهارات أن تجعلنا مفكرين أفضل! 🌟",
+      "correction": "لنبدأ رحلتنا لفهم كيف يمكن لهذه المهارات أن تجعلنا مفكرين أفضل!",
+      "description": "The use of the emoji '🌟' at the end of a formal educational introduction is not culturally appropriate for Arabic academic contexts. Removing the emoji maintains a professional and neutral tone suitable for learners across the Arab world.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:56:58.773467",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

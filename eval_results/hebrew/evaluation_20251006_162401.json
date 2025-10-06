@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הספרות הבדיוניות מתבטאים באופן רק בעברית ולעיתים משתמשים רק בסגנון מסורתי.",
+      "correction": "הספרות הבדיונית מתבטאת רק בעברית ולעיתים משתמשים רק בסגנון מסורתי.",
+      "description": "The original sentence contains a gender and number agreement error: 'הספרות הבדיוניות מתבטאים' uses the plural verb 'מתבטאים' with the singular noun 'הספרות הבדיוניות'. The correct form is 'הספרות הבדיונית מתבטאת'. Additionally, 'באופן רק בעברית' is an unnatural word order; 'רק בעברית' is preferred. The sentence also lacks clarity and naturalness in Hebrew.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ספרות בדיונית יכולה להיכתבת בכל שפה, לא רק בעברית, ומתמקדת בסגנון מגוון ומרובע של תקופת הימים, לא רק בסגנון מסורתי. היא מאפשרת חקירה רחבת יותר של דמיון ודמיון.",
+      "correction": "ספרות בדיונית יכולה להיכתב בכל שפה, לא רק בעברית, ומתמקדת בסגנון מגוון של תקופות שונות, לא רק בסגנון מסורתי. היא מאפשרת חקירה רחבה יותר של הדמיון.",
+      "description": "There are several linguistic errors: 'להיכתבת' should be 'להיכתב' (correct infinitive passive form). 'מרובע של תקופת הימים' is a mistranslation and is semantically unclear; 'מגוון של תקופות שונות' is more accurate. The phrase 'חקירה רחבת יותר של דמיון ודמיון' repeats 'דמיון' unnecessarily; 'חקירה רחבה יותר של הדמיון' is correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ספרות לא בדיון תמקדים בעיקר בחידושים ופנטזיות מספרניים.",
+      "correction": "ספרות לא בדיונית מתמקדת בעיקר בחידושים ופנטזיות ספרותיות.",
+      "description": "The verb 'תמקדים' is incorrect; the correct form is 'מתמקדת' to match the feminine singular noun 'ספרות'. 'לא בדיון' should be 'לא בדיונית' for proper adjective agreement. 'מספרניים' is not a standard Hebrew word; 'ספרותיות' is the correct term for literary fantasies.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ספרות לא בדיון באמת מתמקדים בחידושים ופנטזיות מספרניים. במקום זאת, הם מתמקדים בעובדות אמיתיות, אנשים, ואירועים אמיתיים. המטרה של ספרות לא בדיון היא להסביר, להוסיף ידע ולהעמיק בהבנה של נושאים שונים, כמו היסטוריה, מדע, והיסטוריה באמיתית.",
+      "correction": "ספרות לא בדיונית אינה מתמקדת בחידושים ופנטזיות ספרותיות. במקום זאת, היא מתמקדת בעובדות אמיתיות, אנשים ואירועים אמיתיים. מטרת ספרות לא בדיונית היא להסביר, להוסיף ידע ולהעמיק בהבנה של נושאים שונים, כמו היסטוריה ומדע.",
+      "description": "Multiple linguistic errors: 'ספרות לא בדיון באמת מתמקדים' is incorrect; 'ספרות לא בדיונית אינה מתמקדת' is correct. 'מתמקדים' should be 'מתמקדת' for agreement. 'מספרניים' is not standard; 'ספרותיות' is correct. 'היסטוריה באמיתית' is a redundancy and should be omitted. The pronoun 'הם' is incorrect for 'ספרות'; use 'היא'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בדיון ולא בדיון משמשים רק לפילוסוגרפיה וללימונגריה.",
+      "correction": "בדיון ולא בדיון אינם משמשים רק לפילוסופיה ולמדעי הרוח.",
+      "description": "The original contains spelling errors: 'פילוסוגרפיה' should be 'פילוסופיה', and 'לימונגריה' is not a recognized Hebrew word; 'מדעי הרוח' is the appropriate term. The verb 'משמשים' is correct for the plural subject, but the negative form 'אינם משמשים' is needed to match the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בדיון היא סוג של ספרות שמשתמשת לדרבור, להעריך, לשעשוע או להעיר את דמיון. לעומת זאת, לא בדיון כוללת סוגים שונים של ספרות כמו דרמטיקה, לימונגריה ומדענות, שמטרתם להסביר, להסביר או לשכנע. לכן, הצהירה שלא מכסה רק פילוסוגרפיה ולימונגריה אינה נכונה.",
+      "correction": "בדיון היא סוג של ספרות המשמשת לבידור, להערכה, לשעשוע או לעורר את הדמיון. לעומת זאת, לא בדיון כוללת סוגים שונים של ספרות כמו דרמטיקה, מדעי הרוח ומדעים, שמטרתם להסביר או לשכנע. לכן, הטענה שהיא מכסה רק פילוסופיה ומדעי הרוח אינה נכונה.",
+      "description": "Several linguistic errors: 'לדרבור' is a misspelling; 'לבידור' is correct. 'להעריך' is semantically unclear; 'להערכה' is more appropriate. 'להעיר את דמיון' should be 'לעורר את הדמיון'. 'לימונגריה' is not a standard term; 'מדעי הרוח' is correct. 'מדענות' is not standard; 'מדעים' is preferred. The sentence repeats 'להסביר' unnecessarily. 'הצהירה' should be 'הטענה'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:24:01.914805",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

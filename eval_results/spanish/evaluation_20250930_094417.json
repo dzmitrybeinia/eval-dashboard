@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Las sustancias también pueden existir en estados menos comunes, como plasma y estado Beta, donde los electrones se desprenden de los átomos.",
+      "correction": "Las sustancias también pueden existir en estados menos comunes, como el plasma y el estado de plasma, donde los electrones se desprenden de los átomos.",
+      "description": "The term 'estado Beta' is not a recognized state of matter in Spanish scientific terminology. The correct term is 'plasma.' The phrase should use 'el plasma' and avoid introducing 'estado Beta,' which may confuse learners and is not standard in educational contexts. This correction ensures lexical precision and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Las partículas de los líquidos están dispuestas de manera compacta pero tienen una forma fija que es la del recipiente en el que están contenidas, lo que permite que fluyan y cambien de volumen mientras mantienen su forma.",
+      "correction": "Las partículas de los líquidos están dispuestas de manera compacta pero no tienen una forma fija; adoptan la forma del recipiente en el que están contenidas, lo que permite que fluyan y mantengan su volumen.",
+      "description": "The original feedback incorrectly states that liquids 'tienen una forma fija que es la del recipiente,' which is misleading. Liquids do not have a fixed shape; they take the shape of their container. Additionally, the phrase 'cambien de volumen mientras mantienen su forma' is inaccurate, as liquids maintain a constant volume but change shape. The correction clarifies the properties of liquids and improves syntactic clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:17.873612",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0
+    }
+  }
+}

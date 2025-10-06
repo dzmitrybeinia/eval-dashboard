@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A escrita persuasiva é uma ferramenta poderosa para convencer outras pessoas a pensar, sentir ou agir de determinada maneira.",
+      "correction": "A escrita persuasiva é uma ferramenta poderosa para convencer outras pessoas a pensar, sentir ou agir de determinada forma.",
+      "description": "The phrase 'de determinada maneira' is grammatically correct, but in Brazilian Portuguese, 'de determinada forma' is more idiomatic and natural in this context. This improves lexical precision and naturalness, making the sentence flow better for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ethos é construído através de:",
+      "correction": "Ethos é construído por meio de:",
+      "description": "The expression 'através de' is often misused in Brazilian Portuguese when referring to means or methods. The correct and more natural term is 'por meio de' when describing how something is achieved. This change aligns with standard usage and improves professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Um orador com renome, ou um especialista reconhecido, pode ganhar mais credibilidade, tornando seu argumento mais persuasivo.",
+      "correction": "Um orador renomado, ou um especialista reconhecido, pode ganhar mais credibilidade, tornando seu argumento mais persuasivo.",
+      "description": "The phrase 'com renome' is less idiomatic and can be considered a calque from English. The correct adjective in Portuguese is 'renomado'. This correction improves grammatical accuracy and lexical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O humor pode ser uma ferramenta persuasiva, mas não é uma estratégia central para construir ethos.",
+      "correction": "O humor pode ser uma ferramenta persuasiva, mas não é uma estratégia principal para construir ethos.",
+      "description": "While 'central' is understandable, 'principal' is the more natural and commonly used term in Brazilian Portuguese for describing a main strategy. This adjustment enhances the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A declaração é verdadeira porque a frase de exemplo alude a uma situação sensível e comovente que pode provocar empatia e um desejo de agir, o que é uma característica do Pathos.",
+      "correction": "A declaração é verdadeira porque a frase de exemplo alude a uma situação sensível e comovente que pode provocar empatia e um desejo de agir, o que é uma característica do pathos.",
+      "description": "In Portuguese, foreign terms such as 'pathos' are typically written in lowercase unless they begin a sentence. This correction ensures orthographic consistency and aligns with academic writing standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A declaração dada é um exemplo clássico de 'logos', que significa lógica ou raciocínio em persuasão.",
+      "correction": "A declaração dada é um exemplo clássico de 'logos', que significa lógica ou raciocínio na persuasão.",
+      "description": "The preposition 'em' is less precise in this context. The correct preposition is 'na', which better conveys the idea of reasoning within the field of persuasion. This correction improves grammatical accuracy and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Precisamos agir agora para proteger nosso planeta para as futuras gerações.",
+      "correction": "Precisamos agir agora para proteger nosso planeta para as próximas gerações.",
+      "description": "The phrase 'futuras gerações' is correct, but 'próximas gerações' is more commonly used in Brazilian Portuguese when referring to those who will come after us. This change enhances the naturalness and emotional impact of the message.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:27:13.059790",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3
+    }
+  }
+}

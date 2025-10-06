@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "التصور يساعد في تسليل معلومات مكانية مثل العلوم والفن.",
+      "correction": "التصور يساعد في تسهيل معلومات مكانية مثل العلوم والفن.",
+      "description": "The word 'تسليل' is a misspelling and incorrect in this context; the intended word is 'تسهيل' (to make easier). This lexical error affects comprehension and clarity, as 'تسليل' is not a recognized word in Modern Standard Arabic and does not convey the intended meaning of facilitating spatial information.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "تساعد هذه الأدوات المعرفة بسرعة عن طريق إنشاء ارتباكات أو علامات تذكيرية.",
+      "correction": "تساعد هذه الأدوات على تذكر المعلومات بسرعة عن طريق إنشاء روابط أو علامات تذكيرية.",
+      "description": "The phrase 'المعرفة بسرعة' is grammatically incorrect and semantically unclear; it should be 'تذكر المعلومات بسرعة' to accurately convey the intended meaning. Additionally, 'ارتباكات' (confusions) is a lexical error, as it is inappropriate in this context. The correct term is 'روابط' (links) or 'علامات تذكيرية' (mnemonic cues). These errors hinder comprehension and misrepresent the function of mnemonic devices.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "في عام 1492، أبحر كولومبوس المحيط الأزرق",
+      "correction": "في عام 1492، أبحر كولومبوس عبر المحيط الأطلسي",
+      "description": "The phrase 'المحيط الأزرق' is a literal translation of the English mnemonic and is not culturally or geographically accurate in Arabic. The correct term is 'المحيط الأطلسي' (Atlantic Ocean), which is the standard reference in Arabic educational contexts. Using the literal color reference may confuse learners and does not align with local curriculum standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "مثل ربط توقيع إعلان الاستقلال عام 1776 بالاحتفالات في الرابع من يوليو.",
+      "correction": "مثل ربط توقيع إعلان الاستقلال الأمريكي عام 1776 بالاحتفالات في الرابع من يوليو.",
+      "description": "The reference to 'إعلان الاستقلال عام 1776' lacks specificity for Arabic-speaking learners, as it does not clarify that this is the American Declaration of Independence. Adding 'الأمريكي' ensures cultural clarity and avoids ambiguity, making the example more accessible and relevant to the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "قسم الرقم إلى أجزاء مثل (123) 456-7890.",
+      "correction": "قسم الرقم إلى أجزاء مثل ١٢٣-٤٥٦-٧٨٩٠.",
+      "description": "The phone number format uses Western numerals and parentheses, which are not standard in Arabic educational materials. Arabic-Indic digits and hyphens should be used for consistency and readability in right-to-left script. This improves localization and aligns with regional formatting conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "تقسيم الكتاب إلى عناصر رسمية أو تقسيم مهمة إلى خطوات أصغر للتعامل بها بشكل أكثر فعالية.",
+      "correction": "تقسيم الكتاب إلى عناصر رئيسية أو تقسيم المهمة إلى خطوات أصغر للتعامل معها بشكل أكثر فعالية.",
+      "description": "The phrase 'عناصر رسمية' is a lexical error; the correct term is 'عناصر رئيسية' (main elements). Additionally, 'التعامل بها' is grammatically incorrect; it should be 'التعامل معها' to match the feminine noun 'المهمة'. These errors affect clarity and grammatical accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:59:42.070159",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "la disfrute inmediato",
+      "correction": "el disfrute inmediato",
+      "description": "The noun 'disfrute' is masculine in Spanish, so the correct article is 'el' instead of 'la'. This error affects gender agreement and should be corrected for proper grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:41:52.457013",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

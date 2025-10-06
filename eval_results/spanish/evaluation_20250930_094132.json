@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos al mundo de la programación! En esta lección, exploraremos los conceptos básicos que forman la base de la codificación: variables, tipos de datos y algoritmos simples. 🌟",
+      "correction": "¡Bienvenidos al mundo de la programación! En esta lección, exploraremos los conceptos básicos que forman la base de la programación: variables, tipos de datos y algoritmos simples. 🌟",
+      "description": "The word 'codificación' is not the most precise term in this context; 'programación' is the standard and more accurate term in Spanish for the field being introduced. Using 'codificación' may cause confusion, as it typically refers to encoding rather than programming. This correction improves lexical precision and ensures the terminology is consistent with educational standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Los enteros pueden representar números positivos o negativos, lo cual es útil para situaciones del mundo real como contar ganados o deudas.",
+      "correction": "Los enteros pueden representar números positivos o negativos, lo cual es útil para situaciones del mundo real como contar ganancias o deudas.",
+      "description": "The word 'ganados' is a spelling error and a false friend; it means 'livestock' in Spanish, while the intended meaning is 'gains' or 'profits'. The correct term is 'ganancias'. This correction addresses both spelling and lexical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El código de Python se ejecuta una condición basada en el valor de la variable 'tiempo'. Si 'tiempo' es 'lluvioso', se imprimirá 'Usa un impermeable'. Por lo tanto, es incorrecto afirmar que siempre imprimirá 'Usa gafas de sol'.",
+      "correction": "El código de Python ejecuta una condición basada en el valor de la variable 'tiempo'. Si 'tiempo' es 'lluvioso', se imprimirá 'Usa un impermeable'. Por lo tanto, es incorrecto afirmar que siempre imprimirá 'Usa gafas de sol'.",
+      "description": "The phrase 'se ejecuta una condición' is grammatically incorrect; the correct form is 'ejecuta una condición'. The verb 'ejecutar' should be conjugated in the third person singular to match the subject 'el código de Python'. This correction improves grammatical accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:41:32.547913",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0
+    }
+  }
+}

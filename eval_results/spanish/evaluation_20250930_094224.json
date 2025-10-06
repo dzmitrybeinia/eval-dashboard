@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introducción a inteligencia emocional",
+      "correction": "introducción a la inteligencia emocional",
+      "description": "The phrase is missing the definite article 'la' before 'inteligencia emocional', which is required in Spanish to refer to a specific concept. This omission affects grammatical correctness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟 ¿Listos para descubrir cómo nuestras emociones pueden influir en nuestras relaciones y decisiones?",
+      "correction": "¿Están listos para descubrir cómo nuestras emociones pueden influir en nuestras relaciones y decisiones?",
+      "description": "The use of the emoji '🌟' may not be appropriate for all educational contexts, especially in formal or professional settings. Additionally, '¿Listos?' is informal and may not be suitable for all audiences; '¿Están listos?' is more standard and inclusive in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La autoconciencia es la habilidad de reconocer tus emociones, pensamientos y comportamientos, y entender cómo afectan a los demás.",
+      "correction": "La autoconciencia es la habilidad de reconocer tus emociones, pensamientos y comportamientos, y de entender cómo afectan a los demás.",
+      "description": "The sentence lacks parallel structure in the verb phrase. The preposition 'de' should be repeated before 'entender' to maintain grammatical parallelism, which is standard in Spanish for clarity and correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Esto fomenta el crecimiento personal y mejora la regulación emocional.",
+      "correction": "Esto fomenta el desarrollo personal y mejora la autorregulación emocional.",
+      "description": "The term 'crecimiento personal' is less commonly used in Spanish educational psychology than 'desarrollo personal'. Similarly, 'autorregulación emocional' is the standard term for emotional regulation in this context. Using these terms improves professional consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La empatía es la capacidad de entender y compartir los sentimientos de los demás.",
+      "correction": "La empatía es la capacidad de entender y compartir los sentimientos de otras personas.",
+      "description": "While 'los demás' is not incorrect, 'otras personas' is more precise and avoids ambiguity, especially in educational contexts where clarity is important. This is a minor lexical improvement for precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Las habilidades sociales son las capacidades que nos permiten interactuar eficazmente con los demás.",
+      "correction": "Las habilidades sociales son las capacidades que nos permiten interactuar de manera eficaz con otras personas.",
+      "description": "The phrase 'eficazmente con los demás' is less natural than 'de manera eficaz con otras personas' in formal educational Spanish. This change enhances the naturalness and professionalism of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Incluyen la comunicación, el trabajo en equipo y la resolución de conflictos, esenciales para un entorno positivo.",
+      "correction": "Incluyen la comunicación, el trabajo en equipo y la resolución de conflictos, que son esenciales para un entorno positivo.",
+      "description": "The original sentence lacks a relative pronoun ('que son') to properly connect the list of skills to their importance, which is necessary for grammatical completeness in Spanish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Fortalecer la inteligencia emocional requiere practicar la atención plena, la escucha activa, buscar retroalimentación y reflexionar regularmente sobre nuestras interacciones.",
+      "correction": "Fortalecer la inteligencia emocional requiere practicar la atención consciente, la escucha activa, buscar retroalimentación y reflexionar regularmente sobre nuestras interacciones.",
+      "description": "The term 'atención plena' is a direct translation of 'mindfulness', but 'atención consciente' is more commonly used in Spanish educational contexts. This adjustment improves terminology consistency and cultural appropriateness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:42:24.867784",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 4
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.4
+    }
+  }
+}

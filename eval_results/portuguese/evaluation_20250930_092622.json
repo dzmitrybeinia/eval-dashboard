@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "frequentemente representadas por um círculo com um ponto no centro",
+      "correction": "frequentemente representados por um ponto",
+      "description": "The phrase 'frequentemente representadas por um círculo com um ponto no centro' is misleading in the context of geometry. In mathematical convention, a point is represented simply by a dot, not by a circle with a dot in the center. This lexical inaccuracy could confuse learners about the standard representation of a point in geometry. The corrected version uses the precise terminology and avoids unnecessary visual description.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Segmentos de Linha: Têm dois extremos finitos.",
+      "correction": "Segmentos de Linha: Têm dois extremos.",
+      "description": "The use of 'extremos finitos' is redundant because, by definition, a segment has two endpoints and does not extend infinitely. The word 'finito' is unnecessary and could be omitted for clarity and conciseness. The corrected version maintains grammatical accuracy and improves clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos começar explorando os elementos básicos que formam a base de toda a geometria! ✨",
+      "correction": "Vamos começar explorando os elementos básicos que formam a base de toda a geometria!",
+      "description": "The use of the sparkle emoji (✨) may not be appropriate for all educational contexts, especially in formal or academic materials. Removing the emoji ensures a more neutral and professional tone, which is culturally expected in educational content for Brazilian Portuguese.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:26:22.940299",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

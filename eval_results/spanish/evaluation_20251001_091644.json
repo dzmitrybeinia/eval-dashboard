@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En un mazo estándar de 52 cartas, hay cuatro ases y cuatro reyes. Por lo tanto, la probabilidad de sacar un as es 4/52, que se simplifica a 1/13. Aunque ambas son cartas de valor, el número de ases es diferente al número de reyes.",
+      "correction": "En un mazo estándar de 52 cartas, hay cuatro ases y cuatro reyes. Por lo tanto, la probabilidad de sacar un as es 4/52, que se simplifica a 1/13. Aunque ambas son cartas de valor, el número de ases es igual al número de reyes.",
+      "description": "The sentence incorrectly states that the number of aces is different from the number of kings, when in fact both are four in a standard deck. This is a factual inaccuracy that could confuse learners about the composition of a deck of cards. The correction clarifies that the number of aces and kings is the same, maintaining accuracy and supporting comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Probabilidad de sacar una figura (Rey, Reina, Jota) = 12/52 = 3/13.",
+      "correction": "Probabilidad de sacar una figura (Rey, Reina o Jota) = 12/52 = 3/13.",
+      "description": "The use of parentheses with commas in 'Rey, Reina, Jota' is ambiguous in Spanish and could be misread as a list rather than a set of alternatives. Using 'o' clarifies that any of the three face cards is considered a 'figura.' This improves clarity and aligns with standard Spanish usage for listing alternatives.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "la probabilidad de sacar un as es 4/52, que se simplifica a 1/13.",
+      "correction": "la probabilidad de sacar un as es 4/52, que se simplifica a 1/13.",
+      "description": "While the mathematical explanation is correct, the use of the word 'simplifica' is appropriate in Spanish, but in some regions, 'reduce' ('se reduce a 1/13') is more commonly used in mathematical contexts. However, 'simplifica' is still widely understood and acceptable, so this is a stylistic note rather than an error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sacar cartas de una baraja no afecta la probabilidad de sacar una carta de picas en la próxima tirada porque las cartas se reemplazan después de cada tirada.",
+      "correction": "Sacar cartas de una baraja no afecta la probabilidad de sacar una carta de picas en la próxima tirada porque las cartas se reemplazan después de cada extracción.",
+      "description": "The word 'tirada' is not the most precise term for drawing cards in Spanish; 'extracción' or 'robo' are more accurate in the context of card games. 'Tirada' is more commonly used for dice or roulette. Using 'extracción' improves lexical precision and avoids confusion.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:16:44.123363",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "quantidade_macas",
+      "correction": "quantidade_maçãs",
+      "description": "The word 'macas' is missing the correct accent mark. In Brazilian Portuguese, 'maçã' (apple) requires a cedilla and an accent on the 'a'. The correct plural form is 'maçãs'. This is a spelling error that affects lexical precision and could confuse learners about the correct word for 'apple'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Programar é como aprender uma nova língua que permite que você se comunique com os computadores.",
+      "correction": "Programar é como aprender um novo idioma que permite que você se comunique com os computadores.",
+      "description": "The use of 'língua' is less natural in Brazilian Portuguese when referring to programming languages; 'idioma' is preferred for abstract or technical contexts. This improves the naturalness and professionalism of the text for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ponto flutuante (float)",
+      "correction": "Decimal (float)",
+      "description": "While 'ponto flutuante' is technically correct, 'decimal' is more commonly used in introductory programming materials in Brazil and is more accessible for beginners. This change enhances terminology consistency and local relevance.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "texto como \"Olá\", \"Programação\".",
+      "correction": "texto como \"Olá\", \"programação\".",
+      "description": "In Brazilian Portuguese, capitalization in examples should follow standard rules. 'Programação' should not be capitalized unless it is a proper noun or at the beginning of a sentence. This correction improves orthographic consistency and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:25:10.671278",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "التور المذكور هو خطأ بشأن عدد الأسطر أو النمط الصوتي.",
+      "correction": "الذكر المذكور خطأ بشأن عدد الأسطر أو النمط الصوتي.",
+      "description": "The word 'التور' is a lexical error, likely a typographical mistake for 'الذكر' or 'الوصف'. 'تور' is not appropriate in this context and does not convey the intended meaning of 'mention' or 'description'. This affects clarity and accuracy for learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "تتمیز بنظام القافية المتغير التقويمي في الإيقاع الخماسي، مما يجعل كل سطر يحتوي على عشر مقاطع.",
+      "correction": "تتميز بنظام قافية محدد في الإيقاع الخماسي، حيث يحتوي كل سطر على عشرة مقاطع.",
+      "description": "The phrase 'المتغير التقويمي' is grammatically and semantically incorrect. 'تقويمي' is not a standard term in Arabic poetry and does not fit the context. The sentence also lacks clarity due to awkward structure. Correction improves both grammatical accuracy and semantic precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "الشعر الحر، كما يوفر في السياق التاريخي والهيكل، يتميز بانحراطه عن القواعد القديمة مثل القافية المنظمة.",
+      "correction": "الشعر الحر، كما يظهر في السياق التاريخي والهيكل، يتميز بانحرافه عن القواعد القديمة مثل القافية المنظمة.",
+      "description": "The verb 'يوفر' is incorrectly used; the intended meaning is 'يظهر' (appears/shows). The noun 'انحراطه' is a misspelling and should be 'انحرافه' (its deviation). These errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "يستخدم الإيقاع والنغمة بدون قيود قافية لتعزيز التأثير العاطفي، وهو ما يعكس اهتمام الشعراء الحداثيين في الابتعاد عن الأنماء القديمة.",
+      "correction": "يستخدم الإيقاع والنغمة بدون قيود قافية لتعزيز التأثير العاطفي، وهو ما يعكس اهتمام الشعراء الحداثيين بالابتعاد عن الأنماط القديمة.",
+      "description": "The word 'الأنماء' is a grammatical and lexical error; the correct term is 'الأنماط' (patterns/forms). 'في الابتعاد' should be 'بالابتعاد' for proper prepositional usage. These errors impact both grammatical accuracy and semantic clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "هذا الهيكل المميز يخلق الإيقاع والإيقاع الموسيقي الفريد الذي يميز الليمريك.",
+      "correction": "هذا الهيكل المميز يخلق الإيقاع الموسيقي الفريد الذي يميز الليمريك.",
+      "description": "The phrase 'الإيقاع والإيقاع الموسيقي' is redundant and ungrammatical. Only 'الإيقاع الموسيقي' is needed to convey the intended meaning. Correction improves sentence structure and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "كل شكل يعكس أصله التاريخي وهدفه الفريد، مما يوفر لنا طرقًا متنوعة للتعبير عن المشاعر والأفكار والإبداع.",
+      "correction": "كل شكل يعكس أصله التاريخي وهدفه الفريد، مما يمنحنا طرقًا متنوعة للتعبير عن المشاعر والأفكار والإبداع.",
+      "description": "The verb 'يوفر' is not the most appropriate choice in this context; 'يمنحنا' (gives us) is more natural and accurate for expressing the idea of providing opportunities or ways. This correction enhances the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "تعتبر قصيدة مكونة من ستة أو عشرة أسطر بنظام قافي معقد يسمح بالعبارات المتنوعة والتباينات الإيقاعية.",
+      "correction": "هي قصيدة مكونة من أربعة عشر سطرًا بنظام قافية معقد يسمح بالعبارات المتنوعة والتباينات الإيقاعية.",
+      "description": "The sentence incorrectly states that a sonnet consists of six or ten lines, which is a factual and grammatical error. The correct structure is fourteen lines. Correction ensures factual accuracy and grammatical correctness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T17:00:31.958796",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

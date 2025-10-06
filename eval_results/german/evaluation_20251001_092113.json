@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Klimaphen",
+      "correction": "Klimaphänomene",
+      "description": "The word 'Klimaphen' is an incomplete and incorrect form. The correct term is 'Klimaphänomene', which means 'climate phenomena'. This error affects the clarity and accuracy of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wälder in Europa",
+      "correction": "Wälder Europas",
+      "description": "The phrase 'Wälder in Europa' is grammatically correct, but in the context of listing examples for climate zones, the genitive form 'Wälder Europas' is more precise and idiomatic in German, indicating that these forests are characteristic of Europe. This is a minor improvement for naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "lange, dunkle Winters",
+      "correction": "lange, dunkle Winter",
+      "description": "The word 'Winters' is incorrect in this context. The correct plural form is 'Winter'. The use of 'Winters' is a grammatical error that affects the sentence's correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Forschung und Rohstoffgewinnung",
+      "correction": "Forschung und Rohstoffabbau",
+      "description": "While 'Rohstoffgewinnung' is understandable, 'Rohstoffabbau' is the more commonly used and natural term in German for resource extraction, especially in the context of polar regions. This change improves the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:13.460713",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1
+    }
+  }
+}

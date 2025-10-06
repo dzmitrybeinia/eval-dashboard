@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "uma vela queima-se a cada noite durante o festival",
+      "correction": "uma vela é acesa a cada noite durante o festival",
+      "description": "The phrase uses an incorrect reflexive construction 'queima-se', which is not idiomatic in Portuguese for this context. The correct and natural expression is 'é acesa', meaning 'is lit'. Additionally, the original could cause confusion about the ritual, as the act is to light a candle each night, not that a candle burns itself.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "óleo sagrado de oliveira",
+      "correction": "óleo sagrado de oliva",
+      "description": "The term 'óleo sagrado de oliveira' is a literal translation and not the standard term in Portuguese. The correct and commonly used term is 'óleo sagrado de oliva', which refers to olive oil. 'Oliveira' is the tree, while 'oliva' is the fruit and the oil.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "sua luz é mantida viva por um minuto cada noite",
+      "correction": "sua luz é mantida acesa a cada noite",
+      "description": "The phrase 'sua luz é mantida viva por um minuto cada noite' is inaccurate and misleading. The tradition is to keep the candle lit, not specifically for one minute. The correct expression is 'sua luz é mantida acesa a cada noite', which accurately reflects the ritual of lighting and keeping the candle burning each night.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:25:58.425973",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0
+    }
+  }
+}

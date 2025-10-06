@@ -1,0 +1,163 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "مفهوريات",
+      "correction": "مفاهيم",
+      "description": "The word 'مفهوريات' is a misspelling and does not exist in Arabic. The intended word is 'مفاهيم', which means 'concepts'. This lexical error affects comprehension and should be corrected to ensure clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "الأوصفة",
+      "correction": "الوصفة",
+      "description": "The word 'الأوصفة' contains an unnecessary initial hamza. The correct spelling is 'الوصفة' (the description or prescription). This orthographic error can confuse readers and should be corrected.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "فوارموميتا",
+      "correction": "معلومات",
+      "description": "The word 'فوارموميتا' is a non-existent term in Arabic and appears to be a typographical or transliteration error. The correct word in this context is 'معلومات' (information). This lexical mistake impedes understanding and must be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "العابرة",
+      "correction": "السطحية",
+      "description": "The word 'العابرة' (transient) is not the most precise choice in this context, where 'السطحية' (superficial) better conveys the intended meaning of shallow or cursory reading. This lexical choice affects clarity and should be improved.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "المعقد",
+      "correction": "العميق",
+      "description": "The word 'المعقد' (complex) is not the most appropriate in the context of understanding. 'العميق' (deep) is a better fit to describe profound understanding. This lexical inaccuracy should be corrected for precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "قبلة للتجربة",
+      "correction": "قابلة للتجربة",
+      "description": "The phrase 'قبلة للتجربة' is a result of a typographical error. The correct phrase is 'قابلة للتجربة' (testable). This lexical error changes the meaning and must be corrected for accurate scientific terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الأنوار",
+      "correction": "الأضواء",
+      "description": "The word 'الأنوار' (lights) is less precise than 'الأضواء' (lights) in scientific contexts, especially when referring to light sources in experiments. 'الأضواء' is the standard term in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الطمان",
+      "correction": "النبات",
+      "description": "The word 'الطمان' is a misspelling and does not exist in Arabic. The intended word is 'النبات' (plant). This lexical error significantly affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "عداد دقة القياس",
+      "correction": "مدى دقة القياس",
+      "description": "The phrase 'عداد دقة القياس' is incorrect; 'مدى دقة القياس' (the degree of measurement accuracy) is the proper expression. This lexical error affects clarity and should be corrected.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الإرثاءات",
+      "correction": "الاستنتاجات",
+      "description": "The word 'الإرثاءات' is not a valid Arabic term and appears to be a typographical error. The correct word is 'الاستنتاجات' (conclusions). This lexical mistake impedes understanding and must be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "إيحالليز",
+      "correction": "تحليل",
+      "description": "The word 'إيحالليز' is a transliteration error and not an Arabic word. The correct term is 'تحليل' (analysis). This orthographic error should be corrected for proper scientific terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "المعاكيدة",
+      "correction": "المعاكسة",
+      "description": "The word 'المعاكيدة' is a misspelling; the correct word is 'المعاكسة' (opposite). This lexical error affects the meaning and should be corrected.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "بالإدقاق",
+      "correction": "بدقة",
+      "description": "The word 'بالإدقاق' is a misspelling and does not exist in Arabic. The correct word is 'بدقة' (accurately). This lexical error affects clarity and should be corrected.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "تسيطر على النتيجة",
+      "correction": "تؤدي إلى نتيجة",
+      "description": "The phrase 'تسيطر على النتيجة' (controls the result) is not appropriate in this context. 'تؤدي إلى نتيجة' (leads to a result) is the correct expression when discussing experimental outcomes.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "استقبالي",
+      "correction": "استعراضي",
+      "description": "The word 'استقبالي' (receptive) is not suitable for describing reports. 'استعراضي' (presentational) is the correct term for reports that present information.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "العلويات",
+      "correction": "المشكلات",
+      "description": "The word 'العلويات' is a misspelling and does not exist in Arabic. The intended word is 'المشكلات' (problems). This lexical error affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "التفسيرات العملية",
+      "correction": "التفسيرات العلمية",
+      "description": "The phrase 'التفسيرات العملية' (practical interpretations) is less precise than 'التفسيرات العلمية' (scientific interpretations) in the context of the scientific method. This lexical choice should be improved for accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T17:01:01.915456",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 17,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 17,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

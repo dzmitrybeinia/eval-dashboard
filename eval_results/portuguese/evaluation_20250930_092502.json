@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Montagem de Montgomery",
+      "correction": "Boicote aos Ônibus de Montgomery",
+      "description": "The phrase 'Montagem de Montgomery' is a lexical error resulting from a mistranslation or incorrect word choice. The correct term for the historical event is 'Boicote aos Ônibus de Montgomery', which refers to the bus boycott led by Rosa Parks. 'Montagem' does not convey the intended meaning and may confuse learners about the event's significance. This error also affects the clarity and accuracy of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lei dos Direitos de Voto de 1964",
+      "correction": "Lei dos Direitos de Voto de 1965",
+      "description": "The reference to 'Lei dos Direitos de Voto de 1964' is a terminology error. The correct year for the Voting Rights Act is 1965, not 1964. This mistake can mislead learners about the chronology of civil rights legislation and undermines the educational accuracy of the content. Ensuring the correct year is crucial for historical and cultural appropriateness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:25:02.802390",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3
+    }
+  }
+}

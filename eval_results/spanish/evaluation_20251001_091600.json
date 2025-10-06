@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ofrece ayuda cuando veas que alguien lucha con algo.",
+      "correction": "Ofrece ayuda cuando veas que alguien está luchando con algo.",
+      "description": "The verb 'lucha' in this context is ambiguous and can be interpreted as a general statement rather than an ongoing action. Using 'está luchando' clarifies that the person is currently struggling, which is more appropriate for the intended meaning. This correction improves grammatical precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usa un lenguaje educado, incluso si tienes desacuerdos.",
+      "correction": "Utiliza un lenguaje respetuoso, incluso si tienes desacuerdos.",
+      "description": "The phrase 'lenguaje educado' is understandable but less natural in standard Spanish for this context. 'Lenguaje respetuoso' is a more culturally appropriate and commonly used expression when referring to polite or considerate speech, especially in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "El respeto es una percepción de valor que todos merecen, no solo a aquellos con rasgos similares.",
+      "correction": "El respeto es una percepción de valor que todos merecen, no solo aquellos con rasgos similares.",
+      "description": "The preposition 'a' before 'aquellos' is unnecessary and incorrect in this context. The correct structure is 'no solo aquellos con rasgos similares.' Removing the preposition improves grammatical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:16:00.205799",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

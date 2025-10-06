@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אירועי פסיכיאטליס",
+      "correction": "אירועים פסיכיאטריים",
+      "description": "The term 'פסיכיאטליס' is a misspelling and incorrect lexical choice for the intended meaning. The correct term in Hebrew for psychiatric events is 'פסיכיאטריים'. This error affects clarity and professionalism in medical terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "עזרה ראשונה ניתנת רק לאחר שהאדם קיבע את צורך הטיפול הרפואי.",
+      "correction": "עזרה ראשונה ניתנת רק לאחר שהאדם קבע את הצורך בטיפול רפואי.",
+      "description": "The verb 'קיבע' is incorrect in this context; it means 'immobilized' rather than 'determined'. The correct verb is 'קבע' (determined). Additionally, 'את צורך הטיפול הרפואי' should be 'את הצורך בטיפול רפואי' for proper construct state and preposition usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "שבירת דם",
+      "correction": "דימום",
+      "description": "'שבירת דם' is not a standard Hebrew medical term and is unclear. The correct term for bleeding is 'דימום'. Using non-standard terminology can confuse learners and reduce the educational value.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אנטיביידוקיסטי",
+      "correction": "אנטיספטי",
+      "description": "The word 'אנטיביידוקיסטי' is a non-existent and incorrect transliteration. The correct Hebrew term for antiseptic is 'אנטיספטי'. This error affects both clarity and professional terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "פציץ שלפוחיות",
+      "correction": "לפוצץ שלפוחיות",
+      "description": "The verb 'פציץ' is not standard Hebrew and is likely a misspelling or incorrect formation. The correct infinitive is 'לפוצץ'. This impacts clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הרקיע",
+      "correction": "העור",
+      "description": "'הרקיע' means 'the sky' and is a semantic error in the context of burn treatment. The correct word is 'העור' (the skin). This error can mislead learners and should be corrected for accurate medical instruction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בעיכונ חירום",
+      "correction": "במקרה חירום",
+      "description": "'בעיכונ' is a misspelling and not a valid Hebrew word. The correct phrase is 'במקרה חירום' (in an emergency situation). This error affects comprehension and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מדוקטיבית",
+      "correction": "מדויקת",
+      "description": "'מדוקטיבית' is not a standard Hebrew word and is likely a misspelling of 'מדויקת' (accurate). This impacts the clarity and professionalism of the medical advice.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "חשורדת את גבי האדם למטה בזרימת הדם.",
+      "correction": "להרים את רגלי האדם כדי לשפר את זרימת הדם.",
+      "description": "The phrase 'חשורדת את גבי האדם למטה' is unclear and not standard Hebrew. The correct instruction is to 'להרים את רגלי האדם' (raise the person's legs) to improve blood flow. This error affects the accuracy of first aid instructions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "חשורדת את גבי האדם למעלה, לא למטה, כדי לשפר את זרימת הדם למוח.",
+      "correction": "יש להרים את רגלי האדם כדי לשפר את זרימת הדם למוח.",
+      "description": "The phrase 'חשורדת את גבי האדם למעלה' is not standard Hebrew and is confusing. The correct instruction is 'יש להרים את רגלי האדם' (raise the person's legs). This correction improves clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הצעדים המוזכרים הם דרישות בסדר סדרתי, אך הפרדה חשובה ביותר מהצעדים.",
+      "correction": "הצעדים המוזכרים הם פעולות שיש לבצע במצבי חירום, אך חשוב להפריד ביניהם לפי סוג המקרה.",
+      "description": "The phrase 'דרישות בסדר סדרתי' is awkward and unclear. The correct phrasing is 'פעולות שיש לבצע במצבי חירום'. This correction improves clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "חתכים מדורגים כאמצעי ראשונים להגיר את הנזק המקורי, אך נמצאים לאחר מסירת סיכון להמשך נזק.",
+      "correction": "חתכים דורשים טיפול ראשוני לעצירת הנזק, אך יש להעריך את הסיכון להמשך נזק.",
+      "description": "The phrase 'להגיר את הנזק המקורי' is incorrect; 'להגיר' is not used in this context. The correct verb is 'לעצור' (to stop). The sentence structure is also improved for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הנה הסדר הנכון: 1) התעלפות (לשמר את האדם) 2) חתכים (לעצור כל דימום) 3) כוויות (לקרר את הפצע) 4) חנק (לעודד שיעול).",
+      "correction": "הנה הסדר הנכון: 1) התעלפות (לשמור על האדם) 2) חתכים (לעצור דימום) 3) כוויות (לקרר את האזור) 4) חנק (לעודד שיעול או לבצע תמרון היימליך).",
+      "description": "The verb 'לשמר' is too formal and not commonly used in this context; 'לשמור' is more appropriate. 'לעצור כל דימום' should be 'לעצור דימום', and 'לקרר את הפצע' should be 'לקרר את האזור' for accuracy. The last step should mention the Heimlich maneuver for completeness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:24:22.810098",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 13,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

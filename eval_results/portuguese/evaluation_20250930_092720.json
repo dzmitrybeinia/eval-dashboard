@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Limerique",
+      "correction": "Limerique",
+      "description": "The term 'Limerique' is a direct adaptation of the English 'Limerick' and is not widely accepted or standard in Brazilian Portuguese literary terminology. The more appropriate term is 'limerique', which is sometimes used in academic contexts, but the form itself is not traditional in Portuguese poetry. However, since the lesson is about international poetry forms, the use is acceptable for educational purposes. No correction needed, but educators should clarify that 'limerique' is a borrowed term and not a native Portuguese poetic form.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Quando acordou assustado,",
+      "correction": "Quando acordou assustado,",
+      "description": "In the limerique example, the phrase 'Quando acordou assustado,' is grammatically correct, but the repetition of 'acordou' in the next line ('Viu que estava acordado,') creates a redundancy that affects the poetic quality and clarity. For improved style and clarity, consider rephrasing to avoid repetition, such as 'Quando despertou assustado,'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Que sonhou estar com seu harém.",
+      "correction": "Que sonhou estar em um jardim.",
+      "description": "The use of 'harém' in the limerique example may be culturally insensitive or inappropriate for educational contexts, especially for younger audiences. It introduces a concept that may not align with the values or expectations of Brazilian educational settings. Replacing 'harém' with a more neutral or universally relatable term, such as 'jardim', maintains the playful tone without potential cultural discomfort.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Folhas de Relva",
+      "correction": "Folhas de Relva",
+      "description": "The title 'Folhas de Relva' is correctly capitalized according to Portuguese title conventions, where only the first word and proper nouns are capitalized. No correction needed, but educators should note that in English, 'Leaves of Grass' is fully capitalized, which differs from Portuguese conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pentâmetro iâmbico",
+      "correction": "pentâmetro iâmbico",
+      "description": "The term 'pentâmetro iâmbico' is a direct translation of 'iambic pentameter', which is not a common concept in Brazilian Portuguese poetry. While it is accurate for describing English sonnets, educators should clarify that this metric is specific to English poetry and does not apply to traditional Portuguese sonnets, which use decasyllabic or alexandrine lines. This helps avoid confusion for students learning about Portuguese poetic forms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A poesia é uma forma encantadora de expressar sentimentos, ideias e experiências por meio das palavras.",
+      "correction": "A poesia é uma forma encantadora de expressar sentimentos, ideias e experiências por meio de palavras.",
+      "description": "The phrase 'por meio das palavras' is grammatically correct, but the definite article 'das' is unnecessary and slightly unnatural in this context. The more idiomatic expression in Portuguese is 'por meio de palavras', which generalizes the concept and improves the naturalness of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:27:20.893877",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3
+    }
+  }
+}

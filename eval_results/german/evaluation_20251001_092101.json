@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dieser Aussage ist richtig, weil algebraische Ausdrücke aus Zahlen (Koeffizienten), Variablen und Operatoren bestehen.",
+      "correction": "Diese Aussage ist richtig, weil algebraische Ausdrücke aus Zahlen (Koeffizienten), Variablen und Operatoren bestehen.",
+      "description": "The demonstrative pronoun 'Dieser' is incorrect here; it should be 'Diese' to agree in gender and case with 'Aussage' (feminine, nominative). This is a grammatical gender agreement error that could confuse learners about correct pronoun usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wenn wir eine Variable hinzufügen, bleibt die Gleichheit derselben.",
+      "correction": "Wenn wir eine Variable hinzufügen, bleibt die Gleichheit erhalten.",
+      "description": "The phrase 'bleibt die Gleichheit derselben' is unidiomatic and grammatically awkward in German. The correct and natural phrasing is 'bleibt die Gleichheit erhalten.' The original construction is not standard and may confuse learners about proper German sentence structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Variablen sind in der Mathematik flexible Symbole, die verschiedene Zahlen repräsentieren, genau wie Buchstaben in einem Wörterbuch unterschiedliche Bedeutungen haben können.",
+      "correction": "Variablen sind in der Mathematik flexible Symbole, die verschiedene Zahlen repräsentieren, ähnlich wie Buchstaben in verschiedenen Wörtern unterschiedliche Bedeutungen haben können.",
+      "description": "The analogy 'wie Buchstaben in einem Wörterbuch' is not culturally or contextually clear in German. A more natural comparison would be 'wie Buchstaben in verschiedenen Wörtern,' which better conveys the intended meaning and is more idiomatic for German learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:01.328615",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "In jeder Erzählung gibt es immer mehr als ein Element, um zu funktionieren. Wenn wir eine Geschichte ohne Charaktere erwägen, würde sie nichts überzugehen.",
+      "correction": "In jeder Erzählung gibt es immer mindestens einen Charakter. Ohne Charaktere gäbe es keine Geschichte.",
+      "description": "The original feedback contains awkward and semantically incorrect phrasing: 'mehr als ein Element, um zu funktionieren' is imprecise and misleading, as the statement is about characters, not elements in general. The second sentence, 'würde sie nichts überzugehen,' is grammatically incorrect and does not make sense in German. The correction clarifies that every story has at least one character and that a story without characters would not exist, which is both linguistically accurate and contextually appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "In *Wilbur und Charlotte* ist das Thema Freundschaft und anderen zu helfen.",
+      "correction": "In *Wilbur und Charlotte* ist das Thema Freundschaft und anderen zu helfen.",
+      "description": "The phrase 'Freundschaft und anderen zu helfen' is not parallel; it mixes a noun and a verb phrase. For clarity and parallelism, it should be 'Freundschaft und Hilfsbereitschaft' or 'Freundschaft und Hilfe für andere.' This ensures both elements are nouns, improving the sentence's flow and accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:24:47.623588",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ערפל מקטין את צלילותיו כדי להישאר ללא מזיקה על ידי בעלי חיים אחרים.",
+      "correction": "ערפל מקטין את נראותו כדי להישאר בלתי מזוהה על ידי בעלי חיים אחרים.",
+      "description": "The word 'צלילותיו' is a lexical error; it is not appropriate in this context and does not convey the intended meaning of 'visibility' or 'appearance.' The phrase 'ללא מזיקה' is also incorrect and unnatural; the intended meaning is 'unharmed' or 'unnoticed,' which should be expressed as 'בלתי מזוהה.' The sentence as a whole is confusing and does not clearly communicate the concept of adaptation. Correction improves clarity and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ההצהרה אינה תקשורת נאמנה על התאמה. התאמות מתייחסות לתכונות שמאפשרות לבעלי חיים להתמודד עם סביבה שלהם, ולא להגנה מפני צלקת.",
+      "correction": "ההצהרה אינה תיאור נאמן של התאמה. התאמות מתייחסות לתכונות שמאפשרות לבעלי חיים להתמודד עם סביבתם, ולא להגנה מפני פגיעה.",
+      "description": "The phrase 'תקשורת נאמנה' is grammatically incorrect and semantically imprecise; 'תיאור נאמן' is the correct term for 'accurate description.' 'סביבה שלהם' should be 'סביבתם' for proper construct state and agreement. 'הגנה מפני צלקת' is a lexical error; 'צלקת' means 'scar,' which is not relevant here. The correct term is 'פגיעה' (harm/injury). Correction addresses grammar, construct state, and lexical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "פסים של טיגריס שמתמזגים עם עשב גבוה בסביבתו.",
+      "correction": "פסים של טיגריס שמתמזגים עם עשב גבוה בסביבתו הטבעית.",
+      "description": "The phrase 'בסביבתו' is ambiguous and could be improved for clarity. Adding 'הטבעית' clarifies that the stripes blend with the natural environment, which is important for educational accuracy. This is a minor grammar and clarity improvement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הסוואה אומרת שבעל חיים משנה את מראהו לציד חזק כדי להגן עליו.",
+      "correction": "הסוואה היא כאשר בעל חיים משנה את מראהו כדי להסתתר מטורפים או להתקרב לטרף.",
+      "description": "The sentence structure is incorrect; 'הסוואה אומרת' is not idiomatic or grammatically correct. The phrase 'לציד חזק כדי להגן עליו' is unclear and does not accurately describe camouflage. Correction provides a clear, grammatically correct definition of camouflage and its purpose.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בעוד שכמה בעלי חיים עשויים לנודד בקרי קיץ, הנדידה בדרך כלל נעשית כדי למצוא מזון או מקרן חורף חם יותר, ולא במעלות גבוהות. לדוגמא, ציפורים עשויות לנודד לאזורים יותר נמוך או לאופק כדי להגיע לאזורי חורף שלהן.",
+      "correction": "בעוד שכמה בעלי חיים עשויים לנדוד בקיץ קר, הנדידה בדרך כלל נעשית כדי למצוא מזון או אזור חורף חם יותר, ולא למקומות בגובה רב. לדוגמה, ציפורים עשויות לנדוד לאזורים נמוכים יותר כדי להגיע לאזורי החורף שלהן.",
+      "description": "Multiple grammar errors: 'עשויים לנודד' should be 'עשויים לנדוד' (correct infinitive form). 'בקרי קיץ' is not idiomatic; 'בקיץ קר' is correct. 'מקרן חורף חם יותר' is a lexical error; 'אזור חורף חם יותר' is correct. 'אזורים יותר נמוך' should be 'אזורים נמוכים יותר.' 'לאופק' is unnecessary and confusing. Correction addresses grammar, word choice, and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "תרדמת מאפשרת לבעלי חיים להפחית את גודלם כדי לחסוך באנרגיה.",
+      "correction": "תרדמת מאפשרת לבעלי חיים להפחית את פעילותם כדי לחסוך באנרגיה.",
+      "description": "The phrase 'להפחית את גודלם' is a grammatical and semantic error; hibernation does not reduce the animal's size, but rather its activity level. Correction provides the accurate meaning and proper grammar.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "כך שהם יוכלו לחסוך באנרגיה כשמזון נמיש פחות.",
+      "correction": "כך שהם יוכלו לחסוך באנרגיה כאשר המזון זמין פחות.",
+      "description": "The word 'נמיש' is a lexical error and not a valid Hebrew word in this context. The correct term is 'זמין' (available). Correction improves lexical precision and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הצלחת של מין יכולה להשתנות בהדרגת היכולת שלו להסתגל לשינויים בסביבתו.",
+      "correction": "הצלחתו של מין יכולה להשתנות בהתאם ליכולתו להסתגל לשינויים בסביבתו.",
+      "description": "The phrase 'הצלחת של מין' is incorrect; the proper construct state is 'הצלחתו של מין.' 'בהדרגת היכולת שלו' is not idiomatic; 'בהתאם ליכולתו' is the correct phrase. Correction addresses grammar and idiomatic usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "מה שעלול להוביל לצלילתו.",
+      "correction": "מה שעלול להוביל להכחדתו.",
+      "description": "The word 'צלילתו' is a grammatical and lexical error; it is not a valid word in this context. The correct term is 'הכחדתו' (extinction). Correction improves grammar and semantic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בעלי חיים שמיישנים את התנאים שלהם לשיפור יכולותיהם לחיות.",
+      "correction": "בעלי חיים שמתאימים את עצמם לתנאים כדי לשפר את יכולותיהם לשרוד.",
+      "description": "The verb 'שמיישנים' is incorrect and not standard Hebrew; the correct verb is 'מתאימים.' 'לשיפור יכולותיהם לחיות' is awkward; 'לשרוד' is the precise term for survival. Correction addresses grammar, verb choice, and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "התאמות הן מיוצרות בגלל הדרישה של הסביבה, ומאפשרות לבעלי החיים להתמודד עם מתחים חיים ומזינים טוב יותר. כמו שלאחר הגלידה היטב מורכבת להלוות מכיסים מסובים, כך גם בעלי חיים יכולים לשנות את הרגליים שלהם או דפיקת המולקולות שלהם כדי לתפקד טוב יותר בתנאי הסביבה החדשה.",
+      "correction": "התאמות נוצרות בעקבות דרישות הסביבה, ומאפשרות לבעלי החיים להתמודד עם אתגרים ולנצל משאבים טוב יותר. לדוגמה, בעלי חיים יכולים לשנות את התנהגותם או את מבנה גופם כדי לתפקד טוב יותר בתנאי הסביבה החדשה.",
+      "description": "Multiple lexical and semantic errors: 'מיוצרות בגלל הדרישה של הסביבה' should be 'נוצרות בעקבות דרישות הסביבה.' 'מתחים חיים ומזינים' is unclear; 'אתגרים ולנצל משאבים' is more accurate. The analogy 'כמו שלאחר הגלידה היטב מורכבת להלוות מכיסים מסובים' is nonsensical and should be removed. 'לשנות את הרגליים שלהם או דפיקת המולקולות שלהם' is not scientifically accurate or clear; 'לשנות את התנהגותם או את מבנה גופם' is correct. Correction improves lexical precision, clarity, and educational value.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:21:04.106903",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.9,
+    "classification": "SUBSTANDARD",
+    "total_issues": 11,
+    "total_penalty": 3.1,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

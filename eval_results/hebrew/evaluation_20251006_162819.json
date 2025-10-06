@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אסטרטגיות לניהול זמן מתמקדות באישור הכוח של יוזמה פנימית, כגון תעדוף על משימות עצמים, הגדרת מטרות ברורות והגברת הקשר האישי למטרים האישיים. לעומת זה, מוטיבים חיצוניים, כמו עידוף או הפרעות, בדרך כלל מצוינים כבעייתיים שיכולים להפריע לתכנון ולגיבורת המאמץ של זמן.",
+      "correction": "אסטרטגיות לניהול זמן מתמקדות בחיזוק היוזמה הפנימית, כגון תעדוף משימות, הגדרת מטרות ברורות והגברת הקשר האישי למטרות האישיות. לעומת זאת, מוטיבים חיצוניים, כמו עידוד או הפרעות, בדרך כלל נחשבים לבעייתיים ויכולים להפריע לתכנון ולניהול הזמן.",
+      "description": "The original text contains several lexical errors and awkward phrasing. 'אישור הכוח' is an incorrect collocation; the intended meaning is 'חיזוק היוזמה הפנימית'. 'תעדוף על משימות עצמים' is unclear and should be 'תעדוף משימות'. 'הגברת הקשר האישי למטרים האישיים' uses 'מטרים' instead of the correct 'מטרות', and 'לעומת זה' should be 'לעומת זאת' for proper contrast. 'עידוף' is a misspelling of 'עידוד', and 'לגיבורת המאמץ של זמן' is a semantic error; the correct phrase is 'לניהול הזמן'. These errors affect clarity and accuracy, requiring correction for proper comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "שיטת קורנל מפנקת את זיכרון הלקוח.",
+      "correction": "שיטת קורנל מחזקת את הזיכרון.",
+      "description": "The phrase 'מפנקת את זיכרון הלקוח' is a lexical error. 'מפנקת' (pamper) is not appropriate in this context; the intended meaning is 'מחזקת' (strengthens). Additionally, 'הלקוח' (the client) is incorrect and should be omitted, as the statement refers to memory in general, not a client. This error affects the accuracy and professionalism of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "שיטת קורנל מחלקת את הדף לשלושה חלקים, מה שמאפשר לקרא את המסמך בקצב טוב יותר ומסייע לזכור את המידע בצורה טוהרת. החלק הראשון מכיל מידע חשוב, השני מכיל פרטים רישומים והשלישי מסכם את הנקודות המרכזיות. זה מאפשר לעבד את המידע במסגרת ולהתחבר יותר בזיכרון.",
+      "correction": "שיטת קורנל מחלקת את הדף לשלושה חלקים, מה שמאפשר לקרוא את המסמך בצורה יעילה ומסייע לזכור את המידע בצורה טובה יותר. החלק הראשון מכיל מידע חשוב, השני מכיל פרטים רשומים והשלישי מסכם את הנקודות המרכזיות. זה מאפשר לעבד את המידע ולהתחבר אליו בזיכרון.",
+      "description": "There are several lexical and spelling errors: 'לקרא' should be 'לקרוא' (to read), 'טוהרת' is a misspelling and should be 'טובה יותר' (better), 'רישומים' should be 'רשומים' (written), and 'לעבד את המידע במסגרת' is awkward and should be 'לעבד את המידע'. The phrase 'להתחבר יותר בזיכרון' is better expressed as 'להתחבר אליו בזיכרון'. These corrections improve clarity, accuracy, and naturalness of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "זה נכון משום שקריאה פעילה מעודדת את זיכרון באופן יעיל על ידי המשך הקשר וחיבור מידע חדש עם הקשר הקיים.",
+      "correction": "זה נכון משום שקריאה פעילה מעודדת את הזיכרון באופן יעיל על ידי יצירת קשר וחיבור מידע חדש עם מידע קיים.",
+      "description": "The phrase 'מעודדת את זיכרון' is missing the definite article and should be 'מעודדת את הזיכרון'. 'המשך הקשר' is unclear and should be 'יצירת קשר'. 'הקשר הקיים' is ambiguous; 'מידע קיים' is more precise in this context. These corrections enhance clarity and linguistic accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills_1.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:28:19.723895",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

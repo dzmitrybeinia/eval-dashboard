@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "entsegregierte",
+      "correction": "abschaffte die Segregation",
+      "description": "The word 'entsegregierte' is not standard German and is not commonly used. The correct and natural way to express the idea is 'abschaffte die Segregation' or 'hob die Segregation auf'. This correction improves lexical precision and ensures the sentence is both accurate and natural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Student Nonviolent Coordinating Committee (SNCC, Studentisches gewaltfreies Koordinierungskomitee)",
+      "description": "The English name 'Student Nonviolent Coordinating Committee (SNCC)' is used without a German explanation. For educational content in German, it is best practice to provide a parenthetical translation or explanation for clarity and accessibility, especially for learners unfamiliar with the English term.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die führenden Persönlichkeiten und Ereignisse der Bewegung bleiben Symbole für Mut und Entschlossenheit.",
+      "correction": "Die führenden Persönlichkeiten und die Ereignisse der Bewegung bleiben Symbole für Mut und Entschlossenheit.",
+      "description": "In German, when combining two nouns with different genders ('Persönlichkeiten' is feminine plural, 'Ereignisse' is neuter plural), it is more precise and stylistically correct to repeat the article for each noun. This avoids ambiguity and improves grammatical clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:09.532485",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

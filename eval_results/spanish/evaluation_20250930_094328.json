@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "no pueden ser retirados, salvo en circunstancias legales específicas",
+      "correction": "no pueden ser retirados, salvo en circunstancias legales específicas",
+      "description": "Although the phrase is grammatically correct, the use of 'salvo en circunstancias legales específicas' could be misleading in the context of human rights, as it may imply that rights can be withdrawn more easily than intended. For educational clarity, it is important to specify that any restriction must strictly adhere to international human rights standards and only occur to protect other rights, not simply under any legal circumstance. Consider rephrasing for precision if used in a legal or educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a la exploración de los derechos humanos! 🌍 Hoy descubriremos qué son los derechos humanos, la importancia de la Declaración Universal de Derechos Humanos y cómo han influido en el mundo. ¡Prepárense para un viaje fascinante por la historia y los valores universales!",
+      "correction": "¡Bienvenidos a la exploración de los derechos humanos! Hoy descubriremos qué son los derechos humanos, la importancia de la Declaración Universal de Derechos Humanos y cómo han influido en el mundo. ¡Prepárense para un viaje fascinante por la historia y los valores universales!",
+      "description": "The use of the globe emoji (🌍) in educational content may not be appropriate for all audiences or formal contexts, especially in Spanish-language educational materials where emojis are less commonly used in formal introductions. Removing the emoji improves the professional tone and aligns with standard educational style conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Pacto Internacional de Derechos Civiles y Políticos (PIDCP)",
+      "correction": "Pacto Internacional de Derechos Civiles y Políticos (PIDCP)",
+      "description": "While the acronym PIDCP is correct in Spanish, it is important to ensure consistency in the use of acronyms throughout the content. If other treaties or organizations are mentioned, their acronyms should also be provided in Spanish to maintain clarity and consistency for learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:43:28.177976",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Frustration oder Feindseligkeit, kann durch ungerechte Behandlung oder unerfüllte Erwartungen entstehen.",
+      "correction": "Frustration oder Feindseligkeit, kann durch ungerechte Behandlung oder unerfüllte Erwartungen ausgelöst werden.",
+      "description": "The verb 'entstehen' is semantically imprecise in this context. 'Wut' is better described as being 'ausgelöst' (triggered) by certain causes, rather than 'entstehen' (arising) from them. This correction improves lexical precision and aligns with standard German usage for describing the origins of emotions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sie kann durch ungerecht behandeltes Verhalten oder unerfüllte Erwartungen entstehen.",
+      "correction": "Sie kann durch ungerechtes Verhalten oder unerfüllte Erwartungen entstehen.",
+      "description": "The phrase 'ungerecht behandeltes Verhalten' is grammatically incorrect and semantically unclear. The correct form is 'ungerechtes Verhalten', which clearly refers to 'unfair behavior'. This correction addresses both grammatical and lexical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Reizbarkeit bei Müdigkeit oder Ruhe nach dem Sport.",
+      "correction": "Reizbarkeit bei Müdigkeit oder Entspannung nach dem Sport.",
+      "description": "The word 'Ruhe' in this context is ambiguous and less precise. 'Entspannung' is a more accurate term to describe the physical state after exercise. This correction improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn du spät zur Klasse kommst, könntest du gestresst oder ängstlich sein.",
+      "correction": "Wenn du zu spät zum Unterricht kommst, könntest du gestresst oder ängstlich sein.",
+      "description": "The phrase 'zur Klasse' is an anglicism and not idiomatic in German educational contexts. 'Zum Unterricht' is the culturally appropriate and natural expression for referring to a lesson or class session in German schools.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:55:14.437797",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

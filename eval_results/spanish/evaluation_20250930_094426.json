@@ -1,0 +1,97 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En 'Robinson Crusoe', el personaje principal enfrenta un conflicto interno al adaptarse a su nuevo entorno y enfrentar desafíos personales, lo cual se clasifica como 'Personaje vs. Naturaleza'. La afirmación es falsa porque no describe correctamente la naturaleza del conflicto en la novela.",
+      "correction": "En 'Robinson Crusoe', el personaje principal enfrenta un conflicto externo al luchar por sobrevivir en una isla desierta, lo cual se clasifica como 'Personaje vs. Naturaleza'. La afirmación es falsa porque el conflicto principal es externo, no interno.",
+      "description": "The feedback incorrectly describes the main conflict in 'Robinson Crusoe' as internal, when it is actually external ('Personaje vs. Naturaleza'). This misrepresentation may confuse learners about literary conflict types and the novel's plot. Correction clarifies the nature of the conflict for accurate cultural and educational context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En *El Principito*, los personajes principales son el Principito y el Aviador, mientras que personajes secundarios incluyen la Rosa y el Zorro.",
+      "correction": "En *El Principito*, los personajes principales son el Principito y el Aviador, mientras que los personajes secundarios incluyen a la Rosa y al Zorro.",
+      "description": "The original sentence omits the definite article 'los' before 'personajes secundarios' and the preposition 'a' before 'la Rosa' and 'el Zorro', which is required in Spanish when referring to specific people or animals. Adding these elements improves the naturalness and clarity of the sentence, aligning with standard Spanish style and register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¿Dónde ocurre la historia? (ejemplo: un bosque, una ciudad, una escuela).",
+      "correction": "¿Dónde ocurre la historia? (Ejemplo: un bosque, una ciudad, una escuela).",
+      "description": "The word 'ejemplo' should be capitalized at the beginning of the parenthetical, as it starts a new sentence fragment. This correction aligns with Spanish orthographic conventions for capitalization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¿Cuándo ocurre? (ejemplo: en la mañana, en invierno, en el pasado).",
+      "correction": "¿Cuándo ocurre? (Ejemplo: en la mañana, en invierno, en el pasado).",
+      "description": "The word 'ejemplo' should be capitalized at the beginning of the parenthetical, as it starts a new sentence fragment. This correction aligns with Spanish orthographic conventions for capitalization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La resolución ofrece un cierre al lector y muestra cómo los personajes han aprendido o crecido.",
+      "correction": "La resolución ofrece un cierre al lector y muestra cómo los personajes han aprendido y crecido.",
+      "description": "The use of 'o' (or) in 'han aprendido o crecido' suggests that characters either learn or grow, but in narrative context, it is more natural to use 'y' (and) to indicate that both learning and growth can occur. This change improves the naturalness and clarity of the sentence for Spanish-speaking audiences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "En la novela 'Robinson Crusoe', el personaje principal se encuentra con un conflicto externo.",
+      "correction": "En la novela 'Robinson Crusoe', el personaje principal enfrenta un conflicto externo.",
+      "description": "The phrase 'se encuentra con un conflicto externo' is less precise than 'enfrenta un conflicto externo' in educational Spanish. 'Enfrenta' better conveys the active struggle of the character, aligning with standard literary terminology and improving clarity for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La resolución es donde se resuelven los conflictos existentes, no se introducen nuevos. Es el punto final de la historia donde los personajes vean el resultado de sus acciones.",
+      "correction": "La resolución es donde se resuelven los conflictos existentes, no se introducen nuevos. Es el punto final de la historia donde los personajes ven el resultado de sus acciones.",
+      "description": "The verb 'vean' is incorrectly used in the indicative context; it should be 'ven' to match the present indicative tense. This correction improves grammatical accuracy and maintains a clear, natural style for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Entender estos elementos te ayudará a disfrutar más de las historias y a crear tus propias narrativas emocionantes.",
+      "correction": "Entender estos elementos te ayudará a disfrutar más de las historias y a crear tus propias historias emocionantes.",
+      "description": "The use of 'narrativas' is less common and may sound overly formal or technical for the intended audience. Replacing it with 'historias' maintains consistency with the lesson's terminology and improves accessibility for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En *La Cenicienta*, la resolución ocurre cuando Cenicienta se casa con el príncipe, dejando atrás su vida difícil.",
+      "correction": "En *La Cenicienta*, la resolución ocurre cuando Cenicienta se casa con el príncipe y deja atrás su vida difícil.",
+      "description": "The original sentence uses a comma to separate two related actions, which is less natural in Spanish. Using 'y' (and) to connect the actions improves sentence flow and clarity, making the expression more natural for Spanish readers.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:26.688215",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 7
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 1.0
+    }
+  }
+}

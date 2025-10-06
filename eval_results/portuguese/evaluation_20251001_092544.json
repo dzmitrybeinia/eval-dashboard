@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Em Python, os inteiros são números que podem ser divididos em partes menores, pois Python não diferencia entre inteiros e números de ponto flutuante. Tanto inteiros quanto números de ponto flutuante podem ser divididos em partes menores, embora os inteiros tenham uma precisão limitada.",
+      "correction": "Em Python, inteiros são números sem parte decimal, enquanto números de ponto flutuante possuem casas decimais. Inteiros podem ser divididos, mas o resultado de uma divisão pode ser um número de ponto flutuante.",
+      "description": "The feedback incorrectly states that Python does not differentiate between integers and floating-point numbers, which is inaccurate. Python distinguishes between 'int' and 'float' types. The explanation should clarify that integers are whole numbers and that division can result in a float, but the types are distinct. This is a lexical/semantic inaccuracy that could mislead learners about Python's type system.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introduction may be considered informal or unnecessary in some educational contexts, especially in formal or academic materials. While emojis can increase engagement, their appropriateness depends on the target audience and institutional style guidelines. If the material is intended for a formal educational setting, it is advisable to remove the emoji to maintain a professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:25:44.507712",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

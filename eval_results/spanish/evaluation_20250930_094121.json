@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "no hizo todo lo posible para prohibir la discriminación en sus formas más complejas",
+      "correction": "no logró prohibir la discriminación en todas sus formas",
+      "description": "The original phrase is grammatically correct but semantically imprecise. 'No hizo todo lo posible para prohibir la discriminación en sus formas más complejas' suggests effort rather than outcome, which is misleading in this context. The correction clarifies that the movement did not succeed in prohibiting all forms of discrimination, which is the intended meaning. This improves both lexical precision and clarity for educational purposes.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Madre del Movimiento por los Derechos Civiles",
+      "correction": "Madre del movimiento por los derechos civiles",
+      "description": "The original uses unnecessary capitalization for 'Movimiento por los Derechos Civiles' in Spanish. In Spanish, only proper nouns and the first word of a sentence are capitalized, so movement names should be in lowercase unless part of an official title. This correction ensures the style aligns with Spanish conventions and improves naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Brown v. Board of Education",
+      "correction": "Brown contra la Junta de Educación",
+      "description": "The original uses the English case name 'Brown v. Board of Education'. For Spanish-speaking audiences, it is more appropriate to use the localized version 'Brown contra la Junta de Educación' to ensure comprehension and cultural relevance. This correction improves accessibility and aligns with educational standards in Spanish-language materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ley de Derechos de Votación de 1965",
+      "correction": "Ley de Derecho al Voto de 1965",
+      "description": "The term 'Ley de Derechos de Votación de 1965' is a literal translation and not the standard Spanish name for the Voting Rights Act. The correct and widely accepted term is 'Ley de Derecho al Voto de 1965'. This correction ensures consistency and use of industry-standard terminology in educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:41:21.686067",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5
+    }
+  }
+}

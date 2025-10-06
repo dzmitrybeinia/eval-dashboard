@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "משתרכים, מספרים, או שברים יכולים להיות משתנים.",
+      "correction": "מספרים, שברים, או אחוזים יכולים להיות משתנים.",
+      "description": "The word 'משתרכים' is a lexical error; it is not a valid mathematical term in Hebrew and appears to be a misspelling or confusion with another word. The correct terms for types of numbers that variables can represent in basic algebra are 'מספרים' (numbers), 'שברים' (fractions), and optionally 'אחוזים' (percentages). This error affects clarity and accuracy for learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "כאשר נבנה ביטוי אלגברי, חשוב לזהות כל חלק שמתקבל מידי משתנה, חיבור, חיסור, כפל או חלק והקביעה את ערכי המקדמים והקבועים.",
+      "correction": "כאשר נבנה ביטוי אלגברי, חשוב לזהות כל חלק שמורכב ממשתנה, חיבור, חיסור, כפל או חילוק ולקבוע את ערכי המקדמים והקבועים.",
+      "description": "The phrase 'מתקבל מידי משתנה, חיבור, חיסור, כפל או חלק והקביעה את ערכי המקדמים והקבועים' contains lexical and syntactic errors. 'מתקבל מידי' is unnatural and unclear in this context; 'חלק' should be 'חילוק' for division. The sentence structure is awkward and the verb 'הקביעה' is incorrectly used. The correction provides a clear, natural, and accurate explanation suitable for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "זה מדגיש את אופן הבדידת המשתנה לבידיים של המשוואה.",
+      "correction": "זה מדגיש את אופן בידוד המשתנה בצד של המשוואה.",
+      "description": "The phrase 'אופן הבדידת המשתנה לבידיים של המשוואה' is a lexical and morphological error. 'הבדידת' is not a valid Hebrew word; the correct term is 'בידוד' (isolation). 'לבידיים' is also incorrect and should be 'בצד'. The corrected sentence uses proper terminology and structure for explaining algebraic isolation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אם יש לך 10 מטבוליות, ואתה קונה אחת בשבוע, כמה שבועות ייקחו לקנות 5 מטבוליות?.",
+      "correction": "אם יש לך 10 מטבעות, ואתה קונה אחת בשבוע, כמה שבועות ייקח לקנות 5 מטבעות?",
+      "description": "The word 'מטבוליות' is a lexical error; it is not relevant in the context of saving or buying items and is likely a mistaken use instead of 'מטבעות' (coins). This error confuses the learner and disrupts comprehension. The correction uses the appropriate term for the context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "כמה שבועות ייקחו לקנות 5 מטבוליות?.",
+      "correction": "כמה שבועות ייקח לקנות 5 מטבעות?",
+      "description": "There is an orthographic error with the placement of the period and question mark together ('.?'). In Hebrew, only the question mark should be used at the end of an interrogative sentence. Additionally, 'ייקחו' should be 'ייקח' to agree with the singular subject 'מספר השבועות'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בעיות כמו קביעת מספר המתרחבים של רכבים בכביש או ימיניות של פרחים שנראו יכולים להיומן באמצעות האלגברה, מה שמאפשר לנו להתקדם בתחום המתמטיקה.",
+      "correction": "בעיות כמו קביעת מספר המכוניות בכביש או חישוב מספר הפרחים שנראו יכולות להיפתר באמצעות האלגברה, מה שמאפשר לנו להתקדם בתחום המתמטיקה.",
+      "description": "The phrase 'מספר המתרחבים של רכבים בכביש או ימיניות של פרחים שנראו יכולים להיומן' contains multiple lexical errors. 'המתרחבים' is not a standard term for counting cars; 'ימיניות' is not a valid word in this context and 'להיומן' is not a correct verb. The correction uses clear, standard terms for counting cars and flowers, making the sentence comprehensible and appropriate for educational use.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:21:12.246840",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "vermuteten Bruch",
+      "correction": "unechten Bruch",
+      "description": "The term 'vermuteten Bruch' is incorrect in mathematical German. The correct term for a fraction where the numerator is greater than the denominator is 'unechter Bruch' (improper fraction). This lexical error could confuse learners and should be corrected for accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Schokoladenriegel",
+      "correction": "Schokoriegel",
+      "description": "While 'Schokoladenriegel' is not incorrect, 'Schokoriegel' is the more commonly used term in everyday German and is more natural for the context of relatable, everyday examples. This improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stellen Sie sich eine Pizza vor, die in 8 Stücke geschnitten ist.",
+      "correction": "Stellen wir uns eine Pizza vor, die in 8 Stücke geschnitten ist.",
+      "description": "The use of 'Sie' is formal, but the rest of the lesson uses a more informal, inclusive tone ('wir lernen', 'wir betrachten'). For consistency and to match the educational context, the sentence should use 'wir' to maintain a friendly and engaging style.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Zähler zeigt an, wie viele Teile wir betrachten, während der Nenner die Gesamtzahl der gleichen Teile angibt.",
+      "correction": "Der Zähler zeigt an, wie viele Teile wir betrachten, während der Nenner die Gesamtzahl der gleich großen Teile angibt.",
+      "description": "The phrase 'gleichen Teile' is grammatically ambiguous. 'Gleichen' is an adjective that should agree with 'Teile' in case and meaning. 'Gleich großen Teile' is the correct form, clarifying that the denominator refers to the total number of equally sized parts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Wenn Sie 3 Stücke essen, repräsentiert der Bruch den Anteil der Pizza, den Sie gegessen haben: 3/8.",
+      "correction": "Wenn du 3 Stücke isst, repräsentiert der Bruch den Anteil der Pizza, den du gegessen hast: 3/8.",
+      "description": "The use of 'Sie' is formal and inconsistent with the rest of the lesson, which uses 'wir' and a more informal tone. In German educational materials for children or general audiences, 'du' is preferred for a friendly, relatable approach.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das Multiplizieren des Zählers und Nenners mit derselben Zahl stellt äquivalente Brüche sicher, aber das Multiplizieren mit 5 würde zu einem anderen Bruch führen, der nicht äquivalent zu 1/2 ist.",
+      "correction": "Das Multiplizieren von Zähler und Nenner mit derselben Zahl ergibt äquivalente Brüche, aber das Multiplizieren nur des Zählers mit 5 würde zu einem anderen Bruch führen, der nicht äquivalent zu 1/2 ist.",
+      "description": "The original sentence incorrectly suggests that multiplying both numerator and denominator by 5 does not result in an equivalent fraction. The error is in the logical structure, not the grammar. The correct explanation is that multiplying only the numerator or only the denominator changes the value, while multiplying both by the same number preserves equivalence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn Ihr Freund 3 Stücke isst, ist der Bruch 3/6.",
+      "correction": "Wenn dein Freund 3 Stücke isst, ist der Bruch 3/6.",
+      "description": "The use of 'Ihr Freund' is formal and inconsistent with the informal, inclusive tone used elsewhere in the lesson. 'Dein Freund' is more appropriate for a friendly, educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Zähler zeigt die betrachteten Teile, der Nenner die Gesamtteile des Ganzen.",
+      "correction": "Der Zähler zeigt die betrachteten Teile, der Nenner die Gesamtzahl der Teile des Ganzen.",
+      "description": "The phrase 'Gesamtteile des Ganzen' is grammatically incomplete. The correct form is 'Gesamtzahl der Teile des Ganzen', which clarifies that the denominator refers to the total number of parts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:55:42.423119",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.5
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Trockeneis",
+      "correction": "Trockeneis",
+      "description": "The term 'Trockeneis' is correctly capitalized as a noun, but in the feedback sentence 'Sublimation ist in der Tat ein Phasenübergang, bei dem ein Feststoff ohne Durchgang durch die flüssige Phase zu einem Gas wird. Dieses Phänomen kann anhand von Eis zu Kohlendioxidgas (Trockeneis) beobachtet werden, wie es bei bestimmten kälterechenden Substanzen auftritt.', the word 'kälterechenden' is a misspelling. The correct term should be 'kältereagierenden' or 'kälteempfindlichen', depending on the intended meaning. This is a linguistic error affecting spelling and lexical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "kälterechenden",
+      "correction": "kälteempfindlichen",
+      "description": "The word 'kälterechenden' in the feedback about sublimation is not a valid German word. The intended meaning is likely 'substances that react to cold' or 'cold-sensitive substances'. The correct term is 'kälteempfindlichen'. This error affects lexical precision and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Die Sonne ist ein großes Beispiel für Plasma, eine der vier grundlegenden Zustände der Materie. Sie besteht aus ionisierten Gasen, die ein starkes elektrisches Feld aufweisen. Im Gegensatz zu festen oder flüssigen Materien haben Plasmen keine feste Form und fließen frei.",
+      "correction": "Die Sonne ist ein hervorragendes Beispiel für Plasma, einen der vier grundlegenden Zustände der Materie. Sie besteht aus ionisierten Gasen, die ein starkes elektrisches Feld aufweisen. Im Gegensatz zu festen oder flüssigen Stoffen haben Plasmen keine feste Form und fließen frei.",
+      "description": "The phrase 'ein großes Beispiel' is unnatural in German; 'ein hervorragendes Beispiel' is more idiomatic. Additionally, 'Materien' is rarely used in this context; 'Stoffe' is the standard term in educational and scientific German. These changes improve the naturalness and professional tone of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Eisen wird bei einer Temperatur von über 1538 Grad Celsius in seinem festen Zustand schmelzen und flüssig werden. Da es unter dieser Temperatur liegt, ist Eisen in seinem festen Zustand und kann nicht flüssig sein.",
+      "correction": "Eisen schmilzt bei einer Temperatur von über 1538 Grad Celsius und wird flüssig. Liegt die Temperatur darunter, bleibt Eisen fest und kann nicht flüssig sein.",
+      "description": "The original feedback uses an awkward construction: 'Eisen wird ... in seinem festen Zustand schmelzen und flüssig werden.' The verb 'schmelzen' should be used directly: 'Eisen schmilzt ... und wird flüssig.' The second sentence is also unnecessarily complex; simplifying it improves clarity and grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Resublimation",
+      "correction": "Resublimation",
+      "description": "The term 'Resublimation' is used in the content slide for phase transitions. While technically correct, in German educational contexts, 'Deposition' is more commonly used for the process where a gas becomes a solid. Consider using 'Deposition' for consistency with standard terminology in German science education.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:57:41.614153",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.3
+    }
+  }
+}

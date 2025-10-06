@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "في هذه الدرس، سنتعرف على أنواع العواطف المختلفة، أسبابها، وكيف تؤثر على تفكيرنا وسلوكنا.",
+      "correction": "في هذا الدرس، سنتعرف على أنواع العواطف المختلفة، أسبابها، وكيف تؤثر على تفكيرنا وسلوكنا.",
+      "description": "The word \"الدرس\" is masculine, so the demonstrative should be \"هذا\" not \"هذه\". This is a grammatical gender agreement error. The rest of the sentence is correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "العواطف هي الردود الفعلية في الدماغ والجسم التي تحدث بسرعة وبطريقة غير مصممة.",
+      "correction": "العواطف هي ردود فعل في الدماغ والجسم تحدث بسرعة وبطريقة غير إرادية.",
+      "description": "The phrase \"الردود الفعلية\" is an awkward literal translation and not idiomatic in Arabic; the correct term is \"ردود فعل\". The phrase \"غير مصممة\" is a mistranslation of 'not designed' and is not appropriate in this context; 'غير إرادية' (involuntary) is the correct term to describe emotional reactions. These lexical errors affect clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "العواطف السلبية، مثل الخوف والغضب، تلعب أيضاً دوراً حيوياً في كيفية معالجة العقباعات المعقدة وتشجيع النمو الشخصي.",
+      "correction": "العواطف السلبية، مثل الخوف والغضب، تلعب أيضاً دوراً حيوياً في كيفية معالجة العقبات المعقدة وتشجيع النمو الشخصي.",
+      "description": "The word \"العقباعات\" is a misspelling and should be \"العقبات\" (obstacles). This is a lexical and spelling error that affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "الجوع أو التعب أو المرض يمكن أن يؤثر أيضًا على شعورنا.",
+      "correction": "الجوع أو التعب أو المرض يمكن أن تؤثر أيضًا على شعورنا.",
+      "description": "The subject is a compound of three nouns, so the verb should agree in gender and number. Since the subject is plural, the verb should be \"تؤثر\" (feminine plural) instead of \"يؤثر\" (masculine singular).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "العواطف لا تبقى فقط في رؤوسنا - إنها تؤثر على ما نفعله.",
+      "correction": "العواطف لا تبقى فقط في عقولنا، بل تؤثر أيضًا على ما نفعله.",
+      "description": "The use of \"رؤوسنا\" (our heads) is less natural in Arabic when referring to thoughts and emotions; \"عقولنا\" (our minds) is more idiomatic and culturally appropriate. Also, the dash is a Western punctuation mark; in Arabic, a comma or \"بل\" is preferred for contrast.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الانتبازة العاطفية بالفعل تمكن الأفراد من اتخاذ قرارات إيجابية أو سلبية، مما يؤثر على كيفية التفاعل مع المواقف أو الأشخاص الآخرين.",
+      "correction": "الاستجابة العاطفية بالفعل تمكن الأفراد من اتخاذ قرارات إيجابية أو سلبية، مما يؤثر على كيفية التفاعل مع المواقف أو الأشخاص الآخرين.",
+      "description": "The word \"الانتبازة\" is incorrect and not an established term in Arabic. The correct term is \"الاستجابة العاطفية\" (emotional response). This lexical error affects clarity and professionalism.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:57:43.704141",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

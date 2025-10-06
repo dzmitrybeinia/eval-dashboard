@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Brilhosos, condutores e maleáveis (ex.: Ferro, Fe).",
+      "correction": "Brilhantes, condutores e maleáveis (ex.: Ferro, Fe).",
+      "description": "The word 'Brilhosos' is not standard in Brazilian Portuguese; the correct adjective for 'shiny' in this context is 'brilhantes.' This correction ensures lexical precision and naturalness in scientific descriptions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Geralmente opacos, quebradiços e maus condutores (ex.: Oxigênio, O).",
+      "correction": "Geralmente opacos, quebradiços e maus condutores (ex.: Oxigênio, O).",
+      "description": "Although the sentence is grammatically correct, the use of 'maus condutores' is less common than 'pouco condutores' or 'maus condutores de eletricidade.' However, 'maus condutores' is acceptable in educational contexts. No correction needed, but consider using 'maus condutores de eletricidade' for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A tabela periódica é um quadro que organiza os elementos químicos com base no número atômico, configuração eletrônica e propriedades químicas recorrentes.",
+      "correction": "A tabela periódica é uma tabela que organiza os elementos químicos com base no número atômico, configuração eletrônica e propriedades químicas recorrentes.",
+      "description": "The term 'quadro' is less natural than 'tabela' in Brazilian Portuguese when referring to the periodic table. 'Tabela' is the standard and expected term in scientific and educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A tabela periódica organiza os elementos pelo número atômico e padrões em suas propriedades.",
+      "correction": "A tabela periódica organiza os elementos pelo número atômico e por padrões em suas propriedades.",
+      "description": "The preposition 'por' is needed before 'padrões' to maintain parallel structure and correct prepositional usage in the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Padrões como reatividade e energia de ionização podem ser previstos.",
+      "correction": "Padrões como reatividade e energia de ionização podem ser previstos.",
+      "description": "The sentence is grammatically correct. No correction needed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:27:27.340021",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2
+    }
+  }
+}

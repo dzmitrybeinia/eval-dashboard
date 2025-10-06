@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Rückgrat der DNA besteht aus abwechselnden Zucker- (Desoxyribose) und Phosphatgruppen.",
+      "correction": "Das Rückgrat der DNA besteht aus abwechselnden Zucker- (Desoxyribose) und Phosphatgruppen.",
+      "description": "The noun 'Rückgrat' is neuter in German, so the correct definite article is 'das' instead of 'die'. This is a grammatical gender agreement error that affects the accuracy of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Rückgrat der DNA besteht aus einer kontinuierlichen Reihe von Kohlenhydratmolekülen.",
+      "correction": "Das Rückgrat der DNA besteht aus einer kontinuierlichen Reihe von Kohlenhydratmolekülen.",
+      "description": "The noun 'Rückgrat' is neuter, so the article should be 'das' instead of 'die'. This is a grammatical gender error that can confuse learners about correct noun usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Rückgrat der DNA besteht tatsächlich aus Zucker- und Phosphatgruppen, aber nicht aus Kohlenhydratmolekülen.",
+      "correction": "Das Rückgrat der DNA besteht tatsächlich aus Zucker- und Phosphatgruppen, aber nicht aus Kohlenhydratmolekülen.",
+      "description": "The article 'Die' should be 'Das' to match the neuter gender of 'Rückgrat'. Additionally, the use of 'Kohlenhydratmolekülen' is technically imprecise, as 'Zucker' is a type of carbohydrate, but in the context of DNA, the term 'Zucker' (specifically Desoxyribose) is standard. The main issue is grammatical.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "DNA-Topase",
+      "correction": "Topoisomerase",
+      "description": "The term 'DNA-Topase' is not a correct or standard term in German scientific language. The correct enzyme name is 'Topoisomerase'. Using the incorrect term can mislead learners and reduce scientific credibility.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "DNA-Stränge selbst werden nicht abgeschnitten, sondern durch Enzyme wie Helicase und DNA-Topase getrennt und verstärkt.",
+      "correction": "DNA-Stränge selbst werden nicht abgeschnitten, sondern durch Enzyme wie Helicase und Topoisomerase getrennt.",
+      "description": "The term 'verstärkt' (reinforced) is not appropriate in this context, as the enzymes separate the strands but do not reinforce them. Also, 'DNA-Topase' should be 'Topoisomerase'. This sentence contains both a lexical error and a terminology error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "um Messenger-RNA (mRNA) zu erstellen.",
+      "correction": "um Messenger-RNA (mRNA) herzustellen.",
+      "description": "In scientific German, 'herstellen' is the standard verb for synthesizing or producing molecules like mRNA, while 'erstellen' is more commonly used for creating documents or plans. This is a lexical precision issue affecting scientific accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "um Aminosäuren zu Proteinen zusammenzusetzen.",
+      "correction": "um Aminosäuren zu Proteinen zusammenzusetzen.",
+      "description": "The phrase is correct, but 'zusammenzusetzen' is less common than 'zu Proteinen zu verbinden' or 'zu Proteinen zu synthetisieren' in scientific German. While not incorrect, using a more standard term would improve clarity and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "um die charakteristische 'spirale' Form zu bilden.",
+      "correction": "um die charakteristische 'spiralförmige' Form zu bilden.",
+      "description": "The word 'spirale' is a noun and should be capitalized as 'Spirale', but the correct adjective in this context is 'spiralförmige'. This improves both grammatical correctness and scientific accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:59.390899",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0
+    }
+  }
+}

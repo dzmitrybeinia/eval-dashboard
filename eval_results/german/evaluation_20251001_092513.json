@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "verschiedenen Texte wie den Veden, Upanishaden und Bhagavad Gita",
+      "correction": "verschiedenen Texten wie den Veden, Upanishaden und der Bhagavad Gita",
+      "description": "The word 'Texte' should be in the dative plural form 'Texten' after 'in', which requires the dative case. Additionally, for parallel structure and clarity, 'der' should be added before 'Bhagavad Gita' to match the article usage with the other texts. This correction ensures proper case usage and article consistency.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "feiert Feste wie Eid",
+      "correction": "feiert Feste wie Eid al-Fitr und Eid al-Adha",
+      "description": "The term 'Eid' alone is ambiguous and not specific enough for a German-speaking audience, as there are two major Islamic festivals: Eid al-Fitr and Eid al-Adha. Specifying both festivals provides cultural clarity and avoids confusion, ensuring the content is accurate and culturally appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "die Vier Edlen Wahrheiten: Das Leben ist Leiden, Leiden wird durch Verlangen verursacht, Leiden kann überwunden werden, und der Achtfache Pfad führt zur Erleuchtung.",
+      "correction": "die Vier Edlen Wahrheiten: Das Leben ist Leiden, Leiden wird durch Verlangen verursacht, Leiden kann überwunden werden und der Achtfache Pfad führt zur Erleuchtung.",
+      "description": "In German, a comma is not used before 'und' when connecting two main clauses unless the clauses are long or complex. In this case, the sentence is clear and concise, so the comma before 'und' should be omitted to follow standard punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Shahada (Glaubensbekenntnis), Salat (Gebet), Zakat (Almosen), Sawm (Fasten im Ramadan) und Hajj (Pilgerfahrt nach Mekka)",
+      "correction": "Schahada (Glaubensbekenntnis), Salat (Gebet), Zakat (Almosen), Saum (Fasten im Ramadan) und Haddsch (Pilgerfahrt nach Mekka)",
+      "description": "The German transliterations for the Five Pillars of Islam are 'Schahada', 'Salat', 'Zakat', 'Saum', and 'Haddsch'. Using these forms aligns with standard German religious terminology and ensures consistency and naturalness for the target audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:25:13.543736",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4
+    }
+  }
+}

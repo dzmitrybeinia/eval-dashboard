@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "שבר מייצג חלק מהמשהו שונה מהמקור.",
+      "correction": "שבר מייצג חלק מהשלם.",
+      "description": "The phrase uses 'חלק מהמשהו שונה מהמקור', which is semantically incorrect and unnatural in Hebrew. The correct expression is 'חלק מהשלם', which accurately conveys the mathematical meaning of a fraction as a part of a whole. The original wording may confuse learners and does not align with standard mathematical terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "שבר באמיתות מייצג חלק מאוד מהמשהו הכולל, לא שונה ממנו. זה חשוב כשאנחנו מחלקים את הכל לחלקים שווים.",
+      "correction": "שבר למעשה מייצג חלק מהשלם, ולא משהו שונה ממנו. זה חשוב כשאנחנו מחלקים את השלם לחלקים שווים.",
+      "description": "The phrase 'שבר באמיתות' is an incorrect and unnatural collocation; 'למעשה' is the standard term for 'in fact' in educational Hebrew. 'חלק מאוד מהמשהו הכולל' is a syntactic and semantic error; the correct phrase is 'חלק מהשלם'. Additionally, 'מחלקים את הכל' should be 'מחלקים את השלם' for mathematical precision. These errors affect clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אם עיגול מחולק ל-8 חלקים ו-5 חלקים מעוטרים, מה השבר שמייצג את חלקים העיטרון?.",
+      "correction": "אם עיגול מחולק ל-8 חלקים ו-5 חלקים מעוטרים, מה השבר שמייצג את החלקים המעוטרים?",
+      "description": "The term 'חלקים העיטרון' is a lexical and morphological error; the correct form is 'החלקים המעוטרים'. The original uses an incorrect noun formation and lacks proper agreement, which can confuse learners and is not standard Hebrew.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בדוגמה זו, החלק העיטרון מייצג חלק מתוך 8 חלקים שונים. לכן, השבר שמייצג את 5 חלקים העיטרון הוא 5/8. כאשר משתמשים בצורת חזותית, זה עוזר לראות בקלות איזה חלק מהעיגול מייצג את השבר המדובר.",
+      "correction": "בדוגמה זו, החלקים המעוטרים מייצגים חלק מתוך 8 חלקים שווים. לכן, השבר שמייצג את 5 החלקים המעוטרים הוא 5/8. כאשר משתמשים בייצוג חזותי, זה עוזר לראות בקלות איזה חלק מהעיגול מייצג את השבר.",
+      "description": "Multiple lexical and grammatical errors: 'החלק העיטרון' should be 'החלקים המעוטרים' for correct plural and agreement. 'חלקים שונים' should be 'חלקים שווים' to accurately describe equal parts in fractions. '5 חלקים העיטרון' is incorrect; the correct phrase is '5 החלקים המעוטרים'. 'משתמשים בצורת חזותית' is less precise than 'משתמשים בייצוג חזותי'. These errors impact clarity and mathematical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "כאשר שני שברים יש אותו מכנה, כמו 8, אתה מתחיל להשוות בין המונים כדי לקבוע איזה שבר גדול יותר. בדוגמה של 3/8 ו-5/8, מכיוון ש-5 גדול מ-3, 3/8 נחשב כשבר קטן מ-5/8.",
+      "correction": "כאשר לשני שברים יש אותו מכנה, כמו 8, משווים בין המונים כדי לקבוע איזה שבר גדול יותר. בדוגמה של 3/8 ו-5/8, מכיוון ש-5 גדול מ-3, 3/8 הוא שבר קטן יותר מ-5/8.",
+      "description": "The phrase 'כאשר שני שברים יש אותו מכנה' is syntactically incorrect; the correct form is 'כאשר לשני שברים יש אותו מכנה'. The use of 'אתה מתחיל להשוות' is informal and less appropriate for educational content; 'משווים' is more suitable. 'נחשב כשבר קטן מ-5/8' is awkward; 'הוא שבר קטן יותר מ-5/8' is clearer and more natural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "כאשר מחברים שברים עם אותו מכנה, כמו 1/3 ו-2/3, אתה פשוט משלב את המונים בערך המשותף שלהם, מבטיחים שהמכנה נשאר זהה. במקרה זה, 1 + 2 כוללת 3, ולכן תצטרך לפקוד 3/3. אז 1/3 + 2/3 שווה ל-3/3, שניתן לפשט ל-1.",
+      "correction": "כאשר מחברים שברים עם אותו מכנה, כמו 1/3 ו-2/3, פשוט מחברים את המונים ומשאירים את המכנה זהה. במקרה זה, 1 + 2 שווה ל-3, ולכן 1/3 + 2/3 שווה ל-3/3, שניתן לפשט ל-1.",
+      "description": "Several syntactic and lexical errors: 'אתה פשוט משלב את המונים בערך המשותף שלהם' is awkward and unclear; 'פשוט מחברים את המונים ומשאירים את המכנה זהה' is standard. '1 + 2 כוללת 3' is incorrect; '1 + 2 שווה ל-3' is correct. 'תצטרך לפקוד 3/3' is a mistranslation and unclear; it should be omitted. These corrections improve clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "שברים יכולים להיות גדולים, קטנים או שווים לשלמים. המונה של שבר יכול להיות 0, מה שמוביל לשלם אם המכנה אינו 0. לדוגמה, 0/1 שווה לשלם.",
+      "correction": "שברים יכולים להיות גדולים, קטנים או שווים לשלמים. המונה של שבר יכול להיות 0, מה שמוביל לאפס אם המכנה אינו 0. לדוגמה, 0/1 שווה לאפס.",
+      "description": "The explanation incorrectly states that a fraction with numerator 0 equals 'whole' ('שווה לשלם'), which is mathematically incorrect. The correct statement is that such a fraction equals zero ('שווה לאפס'). This is a critical conceptual error for learners.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:24:34.576499",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

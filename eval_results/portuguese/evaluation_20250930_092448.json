@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Os egípcios acreditavam em muitos deuses, incluindo Rá, o deus da terra.",
+      "correction": "Os egípcios acreditavam em muitos deuses, incluindo Rá, o deus do sol.",
+      "description": "The statement incorrectly identifies Rá as the god of the earth, when in Egyptian mythology Rá is the sun god. This is a lexical error that could lead to misunderstanding of the content. The correction provides the accurate attribution.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:24:48.385052",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

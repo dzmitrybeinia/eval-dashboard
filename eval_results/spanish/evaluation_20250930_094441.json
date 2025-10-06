@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una aventura hacia el éxito académico! Hoy exploraremos habilidades prácticas que te ayudarán a organizar tu tiempo, establecer metas claras y aprender de manera activa. 🌟",
+      "correction": "¡Bienvenidos a una aventura hacia el éxito académico! Hoy exploraremos habilidades prácticas que te ayudarán a organizar tu tiempo, establecer metas claras y aprender de manera activa.",
+      "description": "The use of the star emoji (🌟) in educational content may be considered informal and less appropriate for academic contexts in Spanish-speaking cultures, especially in formal learning materials. Removing the emoji ensures a more professional and culturally neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Usa metas SMART: Específicas, Medibles, Alcanzables, Relevantes y con Tiempo límite.",
+      "correction": "Usa metas SMART: Específicas, Medibles, Alcanzables, Relevantes y con Tiempo límite (específicas, medibles, alcanzables, relevantes y temporales).",
+      "description": "The acronym 'SMART' is widely used in English, but in Spanish educational contexts, it is best practice to clarify the meaning of each letter in Spanish and, if possible, provide the Spanish equivalent acronym (e.g., 'SMART' does not directly translate, but the concept should be fully explained for clarity). Adding a parenthetical explanation of each term in Spanish increases accessibility and comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Las metas son resultados específicos y medibles que deseas alcanzar en un tiempo determinado.",
+      "correction": "Las metas son resultados específicos y medibles que deseas alcanzar en un periodo determinado.",
+      "description": "The phrase 'tiempo determinado' is understandable but 'periodo determinado' is more natural and commonly used in Spanish educational contexts when referring to a set timeframe for goals.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Divide grandes proyectos: Hazlos en partes manejables.",
+      "correction": "Divide los grandes proyectos: Hazlos en partes manejables.",
+      "description": "The omission of the definite article 'los' before 'grandes proyectos' is grammatically acceptable but less natural in formal Spanish. Including the article improves the flow and aligns with standard Spanish usage in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Resume información: Usa tus propias palabras.",
+      "correction": "Resume la información: Usa tus propias palabras.",
+      "description": "Adding the definite article 'la' before 'información' makes the instruction more natural and clear in Spanish, especially in educational contexts where specificity is valued.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usa mnemónicos: Acrónimos o rimas para recordar.",
+      "correction": "Utiliza mnemotécnicos: Acrónimos o rimas para recordar.",
+      "description": "The term 'mnemónicos' is less commonly used in Spanish than 'mnemotécnicos', which is the standard term for memory aids in educational contexts. Using 'utiliza' instead of 'usa' also elevates the register slightly, making it more appropriate for formal instruction.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:41.505923",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.8
+    }
+  }
+}

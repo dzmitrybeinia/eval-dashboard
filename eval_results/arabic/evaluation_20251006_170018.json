@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "تكون كل عنصر في الجدول الدوري يُمثِّل برمز متغير بناءً على عدد العنصور الموجودة داخله.",
+      "correction": "كل عنصر في الجدول الدوري يُمثَّل برمز ثابت لا يتغير بناءً على عدد الجسيمات الموجودة داخله.",
+      "description": "The original sentence contains a grammatical error in verb agreement and word choice. 'تكون كل عنصر' is incorrect; it should be 'كل عنصر يُمثَّل'. The phrase 'برمز متغير بناءً على عدد العنصور الموجودة داخله' is also inaccurate, as the symbol for each element is fixed and does not change based on the number of particles inside. Additionally, 'العنصور' is a misspelling and should be 'الجسيمات' or 'البروتونات/الإلكترونات' depending on context. The correction provides a grammatically accurate and semantically precise statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "البروتونات تُظهر على الجانب الأيسر، والإلكترونات على الجانب اليمنى، وليس عن طريق تغيير الأحرف.",
+      "correction": "يُعرض عدد البروتونات على شكل العدد الذري، بينما يُعرض عدد الإلكترونات في التوزيع الإلكتروني، وليس عن طريق تغيير الأحرف.",
+      "description": "The original sentence uses incorrect terminology and misleading phrasing. 'تُظهر على الجانب الأيسر' and 'على الجانب اليمنى' are not standard ways to describe the placement of protons and electrons in the periodic table. The statement also incorrectly suggests that element symbols change based on these numbers. The correction uses accurate scientific terminology and clarifies the concept for educational purposes.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الطاقة الكيمية للذرات تزداد عبر المجموعة الكيمية.",
+      "correction": "الطاقة الكيميائية للذرات لا تزداد عبر المجموعة الكيميائية.",
+      "description": "The original statement contains a lexical error: 'الطاقة الكيمية' should be 'الطاقة الكيميائية'. Additionally, the scientific concept is incorrect; chemical energy does not increase across a chemical group. The correction addresses both the terminology and the scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "في المجموعات الكيمية، تزيد الطاقة الكيمية عبر الفترة بسبب زيادة الشحنة النووية التي تجذب الإلكترونات نحو النواة. عندما يكون الإلكترونات أبعد عن النواة، كما هو الحال في الأجزاء الخارجية من المجموعة الكيمية، تزداد الطاقة الكيمية بسبب زيادة المسافة بين الإلكترونات والنواة. وهذا الاتجاه للزيادة يعكس أن الإلكترونات أكثر استحمارا وأكثر تصعد نحو النواة.",
+      "correction": "في المجموعات الكيميائية، تزداد طاقة التأين عبر الفترة بسبب زيادة الشحنة النووية التي تجذب الإلكترونات نحو النواة. عندما تكون الإلكترونات أبعد عن النواة، كما هو الحال في الأجزاء الخارجية من المجموعة الكيميائية، تقل طاقة التأين بسبب زيادة المسافة بين الإلكترونات والنواة. هذا الاتجاه يعكس أن الإلكترونات تصبح أسهل في الإزالة من الذرة.",
+      "description": "This feedback contains multiple linguistic errors: 'الكيمية' should be 'الكيميائية', and 'استحمارا' and 'تصعد' are incorrect and do not fit the scientific context. The sentence structure is also confusing and does not accurately describe periodic trends. The correction provides clear, accurate scientific information and corrects all grammatical and lexical errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "هذا الافتراز يعتمد على خصائص الإلكترونات المشتقة من الغلاف الخارجي المشترك. على سبيل المثال، العنصر الكربون في المجموعة 14 يتفاعل مع أنواع مختلفة من الأعداد الذرية للمجموعة 13 (السيزيون) والمجموعة 15 (الفولارد)، مما يظهر سلوك تفاعلي متفائد.",
+      "correction": "هذا الافتراض يعتمد على تشابه تكوين الإلكترونات في الغلاف الخارجي للعناصر في نفس المجموعة. على سبيل المثال، عناصر المجموعة 17 (الهالوجينات) تتفاعل بطرق متشابهة بسبب امتلاكها نفس عدد الإلكترونات في المستوى الخارجي.",
+      "description": "The original feedback contains lexical errors: 'الافتراز' should be 'الافتراض', and 'المشتقة' is not appropriate in this context. The examples given are incorrect: 'السيزيون' is not in group 13, and 'الفولارد' is not a recognized element. The phrase 'سلوك تفاعلي متفائد' is also unnatural and unclear. The correction provides a scientifically accurate and natural explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ينخفض نصف القطر الذري عبر المجموعة ويزيد عبر الفترة في الجدول الدوري.",
+      "correction": "ينخفض نصف القطر الذري عبر الفترة ويزيد عبر المجموعة في الجدول الدوري.",
+      "description": "The original statement reverses the scientific trend: atomic radius decreases across a period and increases down a group. The correction fixes the word order to accurately reflect the periodic trend.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "هذا الملاحظة صحيحة لأنها تصف ما يشاهد عليه بشكل عام في هيكل الجدول الدوري، حيث يقع العناصر الأكثر إلكترونية والأقل المشغنة بالي المرتفى أسفل الفترة، والعناصر الأقل الإلكترونية والأكثر المشغنة بالي الأعلى.",
+      "correction": "هذه الملاحظة صحيحة لأنها تصف الاتجاهات العامة في الجدول الدوري، حيث تزداد الكهرسلبية وتقل نصف القطر الذري عبر الفترة، وتقل الكهرسلبية ويزداد نصف القطر الذري عبر المجموعة.",
+      "description": "The original feedback contains lexical and grammatical errors: 'هذا الملاحظة' should be 'هذه الملاحظة', and phrases like 'الأكثر إلكترونية' and 'الأقل المشغنة بالي المرتفى' are unclear and not standard scientific terminology. The correction provides a clear and accurate description of periodic trends.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T17:00:18.252756",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

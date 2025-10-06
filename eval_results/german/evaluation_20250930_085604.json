@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "auszusetika",
+      "correction": "auszusetzen",
+      "description": "The word 'auszusetika' is a misspelling and does not exist in German. The correct verb form is 'auszusetzen', which means 'to suspend' or 'to set aside'. This error significantly affects comprehension and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In Deutschland liegt die legislative Macht bei den Bundesrat und Bundestag, nicht beim Präsidenten.",
+      "correction": "In Deutschland liegt die legislative Macht beim Bundesrat und Bundestag, nicht beim Präsidenten.",
+      "description": "The preposition 'bei' requires the dative case, and 'Bundesrat' should be in the dative singular ('beim Bundesrat') rather than the accusative plural ('bei den Bundesrat'). This is a grammatical error affecting case agreement and should be corrected for proper German usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Die legislative Macht bei den Bundesrat und Bundestag",
+      "correction": "Die gesetzgebende Gewalt liegt beim Bundestag und Bundesrat",
+      "description": "The term 'legislative Macht' is a direct translation from English and is not the standard German term. The correct terminology is 'gesetzgebende Gewalt'. Additionally, the order should reflect common usage: 'Bundestag und Bundesrat'. This improves naturalness and aligns with German institutional terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Präsident kann ein vom Kongress verabschiedetes Gesetz ablehnen, wie es Präsident Franklin D. Roosevelt 1935 mit dem Revenue Act tat.",
+      "correction": "Der Präsident kann ein vom Kongress verabschiedetes Gesetz ablehnen, wie es Präsident Franklin D. Roosevelt 1935 beim Revenue Act tat.",
+      "description": "The preposition 'mit' is not idiomatic in this context. The correct preposition is 'beim', which is used when referring to an event or occasion. This correction improves grammatical accuracy and idiomatic usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Civil Rights Act",
+      "correction": "Civil Rights Act (Bürgerrechtsgesetz)",
+      "description": "The term 'Civil Rights Act' is left untranslated, which may hinder understanding for learners unfamiliar with US legal terminology. Adding the German equivalent in parentheses ('Bürgerrechtsgesetz') improves clarity and localization for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Exekutive setzt Gesetze um und verwaltet sie.",
+      "correction": "Die Exekutive setzt Gesetze um und verwaltet diese.",
+      "description": "The pronoun 'sie' is ambiguous and could refer to multiple antecedents. Using 'diese' clarifies that the subject is 'Gesetze', improving precision and reducing potential confusion.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Der Präsident kann ein vom Kongress verabschiedetes Gesetz ablehnen, wie es Präsident Franklin D. Roosevelt 1935 mit dem Revenue Act tat.",
+      "correction": "Der Präsident kann ein vom Kongress verabschiedetes Gesetz ablehnen, wie es Präsident Franklin D. Roosevelt 1935 beim Revenue Act tat.",
+      "description": "The sentence structure is somewhat formal and may be difficult for younger learners. Rephrasing for simplicity and clarity would improve accessibility, but the main issue is already addressed in the linguistic category above.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:04.103986",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.4
+    }
+  }
+}

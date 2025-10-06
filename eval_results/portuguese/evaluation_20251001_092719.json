@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Recursos naturais são divididos em duas categorias: renováveis e não renováveis. Recursos renováveis, como certos tipos de madeira, madeira, minerais e água, podem ser reabastecidos naturalmente ao longo do tempo. Por outro lado, recursos não renováveis, como petróleo e gás natural, são finitos e existem em quantidades limitadas da Terra.",
+      "correction": "Recursos naturais são divididos em duas categorias: renováveis e não renováveis. Recursos renováveis, como certos tipos de madeira e água, podem ser reabastecidos naturalmente ao longo do tempo. Por outro lado, recursos não renováveis, como petróleo, gás natural e minerais, são finitos e existem em quantidades limitadas na Terra.",
+      "description": "The original text contains a lexical inaccuracy and redundancy: 'certos tipos de madeira, madeira, minerais e água' lists 'madeira' twice and incorrectly includes 'minerais' as renewable. The corrected version removes the repetition, excludes 'minerais' from the renewable examples, and clarifies that minerals are non-renewable. Additionally, 'da Terra' is changed to 'na Terra' for correct prepositional usage.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:27:19.257589",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

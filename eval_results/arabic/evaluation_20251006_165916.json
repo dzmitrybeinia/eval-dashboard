@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "حقوق الإنسان هي فرضيات مجرورة تم التصديق عليها فقط في مجالات علم الأحياء والطبيبة الميدانوفية.",
+      "correction": "حقوق الإنسان هي حقوق أساسية يتمتع بها كل إنسان، وليست فرضيات تم التصديق عليها فقط في مجالات علم الأحياء أو الطب.",
+      "description": "The original statement contains a major lexical error: 'فرضيات مجرورة' is an incorrect and nonsensical phrase in this context, as 'فرضيات' means 'hypotheses' and 'مجرورة' is a grammatical term for 'genitive', which is not appropriate here. Additionally, 'الطبيبة الميدانوفية' is a mistranslation or misspelling and does not correspond to any recognized field; it should be 'الطب' (medicine) if referring to medical sciences. The sentence also misrepresents the concept of human rights, which are not scientific hypotheses but fundamental rights. Correction provides accurate terminology and clarifies the concept.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "حقوق الإنسان مفهورات أو حقوق أساسية تحدد ما يجوز لكل إنسان دون أن يتم تصديقها أو تجانسها في مجالات معينة. إنها مفهورات عالمية ترفعها الحكومة العالمية وتعترف بها العالمية.",
+      "correction": "حقوق الإنسان مفاهيم أو حقوق أساسية تحدد ما يجوز لكل إنسان دون أن يتم تصديقها أو حصرها في مجالات معينة. إنها مفاهيم عالمية تعترف بها الحكومات حول العالم.",
+      "description": "The word 'مفهورات' is a spelling error; the correct word is 'مفاهيم' (concepts). The phrase 'ترفعها الحكومة العالمية' is unnatural and misleading, as there is no 'global government'; the correct expression is 'تعترف بها الحكومات حول العالم'. The repetition of 'العالمية' at the end is redundant and stylistically awkward. Correction addresses spelling, lexical choice, and improves clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "قانون حمورابي، الذي يعود إلى عام 1754 قبل الميلاد، هو من أول قوانين مكتوبة، ولكن الأسطوانة قورش، التي تم الإعلان عليها في 539 قبل الميلاد، هي معروفة على أنها أول إعلان لحقوق الإنسان. كان لهذا الإعلان الأهمية في تعزيز الفهم الشامي لأن كل الإنسانين يحملون حقوقًا مشابهة.",
+      "correction": "قانون حمورابي، الذي يعود إلى عام 1754 قبل الميلاد، هو من أول القوانين المكتوبة، أما أسطوانة قورش التي أُعلنت في 539 قبل الميلاد، فهي تُعتبر أول إعلان لحقوق الإنسان. كان لهذا الإعلان أهمية في تعزيز الفهم بأن جميع البشر يحملون حقوقًا متشابهة.",
+      "description": "The phrase 'تم الإعلان عليها' is incorrect; the correct preposition is 'أُعلنت' or 'تم الإعلان عنها'. 'الفهم الشامي' is a mistranslation; it should be 'الفهم بأن جميع البشر يحملون حقوقًا متشابهة' to convey the intended meaning. 'كل الإنسانين' is grammatically incorrect; the correct phrase is 'جميع البشر'. Correction improves lexical accuracy, grammar, and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "هذا الإعلان يُعتبر راكماً للقواعد الأخلاقية التي تركز على احترام كل فرد وتوفير أساس للحفاظ على العدالة والمساواة بين البشر.",
+      "correction": "هذا الإعلان يُعتبر مرسخًا للقواعد الأخلاقية التي تركز على احترام كل فرد وتوفير أساس للحفاظ على العدالة والمساواة بين البشر.",
+      "description": "The word 'راكماً' is a grammatical and lexical error; it does not fit the context. The correct term is 'مرسخًا' (establishing or consolidating). Correction provides the appropriate verb form and meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "الإعلان العالمي لحقوق الإنسان قد قدم قيمة كبيرة لتطوير العهد الدولي للحقوق المدنية والسياسية، وهو أمر مهم في القانون الدولي.",
+      "correction": "الإعلان العالمي لحقوق الإنسان قدم قيمة كبيرة لتطوير العهد الدولي للحقوق المدنية والسياسية، وهو أمر مهم في القانون الدولي.",
+      "description": "The use of 'قد' with the past tense verb 'قدم' is unnecessary and stylistically awkward in this context. Removing 'قد' improves the sentence's flow and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "الإعلان العالمي لحقوق الإنسان يغطي مجموعة واسعة من الحقوق الأساسية، وليس محصورًا فقط على الحقوق العسكرية. يشمل هذا الإعلان حقوقًا متعددة تتعلق بالعمل، والتعليم، والهوية، والحياة والحرية.",
+      "correction": "الإعلان العالمي لحقوق الإنسان يغطي مجموعة واسعة من الحقوق الأساسية، وليس محصورًا فقط بالحقوق العسكرية. يشمل هذا الإعلان حقوقًا متعددة تتعلق بالعمل، والتعليم، والهوية، والحياة والحرية.",
+      "description": "The preposition 'على' in 'محصورًا فقط على الحقوق العسكرية' is incorrect; the correct preposition is 'بـ' (محصورًا فقط بالحقوق العسكرية). Correction ensures proper grammatical usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:59:16.000846",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

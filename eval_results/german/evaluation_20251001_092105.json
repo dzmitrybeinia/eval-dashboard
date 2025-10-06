@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Strukturen namens Cristae",
+      "correction": "Strukturen namens Kristae",
+      "description": "The term 'Cristae' is a Latin-derived scientific term, but in German biology education, the spelling 'Kristae' is more commonly used and recommended for clarity and consistency with German orthography. Using 'Cristae' may confuse learners or appear inconsistent with standard German terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wie ein Computer wichtige Dateien speichert, speichert der Zellkern genetische Informationen, die alles über einen Organismus bestimmen, von seiner Augenfarbe bis zu seiner Fähigkeit, Nahrung zu verdauen.",
+      "correction": "Wie ein Computer wichtige Dateien speichert, speichert der Zellkern genetische Informationen, die alles über einen Organismus bestimmen, von seiner Augenfarbe bis zu seiner Fähigkeit, Nahrung zu verdauen.",
+      "description": "The analogy comparing the cell nucleus to a computer storing files is understandable, but it may not be the most relatable or culturally resonant example for all German-speaking learners, especially younger students. Consider using a more universally familiar analogy, such as a 'Schulranzen, in dem alle wichtigen Unterlagen aufbewahrt werden', to enhance cultural relevance and accessibility.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Chloroplasten sind wie Solarmodule für Pflanzen. Genau wie Solarmodule Sonnenlicht in Strom umwandeln, verwandeln Chloroplasten Sonnenlicht in Nahrung.",
+      "correction": "Chloroplasten sind wie Solaranlagen für Pflanzen. Genau wie Solaranlagen Sonnenlicht in Energie umwandeln, verwandeln Chloroplasten Sonnenlicht in Nahrung.",
+      "description": "The term 'Solarmodule' is technically correct, but 'Solaranlagen' is more commonly used in German to refer to solar energy systems in general. Additionally, 'Strom' (electricity) could be replaced with 'Energie' (energy) for a broader and more accurate analogy, making the comparison more natural and relatable for German learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:21:05.912795",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2
+    }
+  }
+}

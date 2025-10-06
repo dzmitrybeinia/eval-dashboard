@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "כש מישהו מרגיש עצב, חברים מבינים את מצבו ועשויים לתת עזרה, מה שמדגיש את חשיבות האמפתיה בקשרים חברתיים.",
+      "correction": "כשמישהו מרגיש עצב, חברים מבינים את מצבו ועשויים לתת עזרה, מה שמדגיש את חשיבות האמפתיה בקשרים חברתיים.",
+      "description": "There is an unnecessary space after the prefix 'כש' (when), which should be attached directly to the following word 'מישהו' without a space. This is a common orthographic error in Hebrew and can disrupt reading flow, especially for learners. The rest of the sentence is correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "באמצעות בחירת מילים שמעודדות אחרים, אנשים מראים כבוגרים ויותר נגישים, מה שיכול להפוך את התקשורת לנעימה ולנקודת התחלה חיובית לדיאלוגים על בניית קשרים חברתיים.",
+      "correction": "באמצעות בחירת מילים שמעודדות אחרים, אנשים נראים כבוגרים ויותר נגישים, מה שיכול להפוך את התקשורת לנעימה ולנקודת התחלה חיובית לדיאלוגים על בניית קשרים חברתיים.",
+      "description": "The verb 'מראים' (show) is less precise in this context; 'נראים' (appear) is more appropriate when describing how people are perceived by others. This improves the semantic accuracy and naturalness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "האמירה לא אישהרה, מכיוון שחלק מהתהליך של פתרון סכסוכים כולל שמירה על רוגע, שזה נובע מהחשיבות של רגישות לרגש של כל הצדדים.",
+      "correction": "האמירה אינה נכונה, מכיוון שחלק מהתהליך של פתרון סכסוכים כולל שמירה על רוגע, שנובעת מהחשיבות של רגישות לרגש של כל הצדדים.",
+      "description": "The word 'אישהרה' is a misspelling and does not exist in Hebrew. The correct phrase is 'אינה נכונה' (is not correct). Additionally, 'שזה נובע' should be 'שנובעת' to agree with the feminine noun 'שמירה'. These errors affect comprehension and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "תקשורת טובה באמת מאפשרת בן קרן ברור של רגשות ורעיונות, מאפשרת לאדם להביע את צרכיו ולהקשיב לאחרים, מה שמביא להבנה ולקביעה ברורה, לא רוויה רגשית רצופה.",
+      "correction": "תקשורת טובה באמת מאפשרת ביטוי ברור של רגשות ורעיונות, מאפשרת לאדם להביע את צרכיו ולהקשיב לאחרים, מה שמביא להבנה וקשר ברור, לא רוויה רגשית רצופה.",
+      "description": "The phrase 'בן קרן ברור' is a lexical error and does not make sense in Hebrew; the correct term is 'ביטוי ברור' (clear expression). Also, 'קביעה ברורה' (clear determination) is less appropriate than 'קשר ברור' (clear connection) in this context. These corrections improve clarity and semantic accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:24:40.440244",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "נוזלים יכולים לשמר צורתם כל הזמן ולא יכולים להרוויחת נפח.",
+      "correction": "נוזלים יכולים לשמור על נפחם אך משנים את צורתם בהתאם לכלי בו הם נמצאים.",
+      "description": "The original statement contains a lexical error with the word 'להרוויחת', which is not a valid Hebrew word and likely a misspelling or incorrect formation. Additionally, the sentence structure is confusing and does not accurately describe the properties of liquids. The corrected version uses proper terminology and clarifies that liquids retain their volume but change shape according to their container.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "בעולם המצבים הצבירה, התכונות של נוזלים מאפיינות את התנהגות הנעה שלהם. בעוד מוצקים, חלקיקים נרטטים באופן משונה ואינם ניתן לניווט באופן חלקיקים חלקיקים, נוזלים יכולים להתפזר בתוך מעקלים שלהם. זה נובע מהמרכיבים של החלקיקים שמקלים על הנעה ומהכוחות שנמצאים ביניהם, שהם שונים מאוד מאלו שמורכבים ממוצקים.",
+      "correction": "בעולם מצבי הצבירה, התכונות של נוזלים מאפיינות את התנהגות התנועה שלהם. בעוד שבמוצקים החלקיקים רוטטים במקום ואינם נעים בחופשיות, בנוזלים החלקיקים יכולים לזרום ולהתפזר בתוך הכלי. הדבר נובע מהמרחקים והכוחות השונים בין החלקיקים בנוזלים לעומת מוצקים.",
+      "description": "The feedback contains multiple syntactic errors, including awkward phrasing ('חלקיקים נרטטים באופן משונה ואינם ניתן לניווט באופן חלקיקים חלקיקים'), repetition, and unclear sentence structure. The corrected version improves clarity, removes redundancy, and uses standard scientific terminology appropriate for educational Hebrew.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "התכה מקרח למים יכולה לקרר בזמן רגלי.",
+      "correction": "התכה מקרח למים אינה מקררת בזמן ריצה.",
+      "description": "The original statement uses the phrase 'בזמן רגלי', which is not idiomatic or meaningful in Hebrew. It appears to be a mistranslation or misused word. The corrected version uses the proper term 'בזמן ריצה' to clarify the intended meaning and corrects the scientific inaccuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "התכה מקרח למים מקטינה טמפרטורה, אך זה לא מקרר רגלי. הריצה על רגלית מזהירה ולא מקשרת לתהליך המעבר בין מצבי צבירה.",
+      "correction": "התכה מקרח למים מורידה את הטמפרטורה, אך אינה קשורה לקירור בזמן ריצה. ריצה אינה קשורה לתהליך המעבר בין מצבי צבירה.",
+      "description": "The feedback contains lexical errors with the use of 'רגלי' and 'רגלית', which are not appropriate in this context and create confusion. The corrected version removes these terms and clarifies the scientific explanation, making the feedback accurate and comprehensible.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "כאשר חרקים מתחממים, הם אכן נעים, אך בסביבה של מים לא יכולים להתמסות. חרקים מתחממים ומתפזרים, אך הם לא מתפשרים כמו חלקיקים קטנים יותר. התהום שנוצר הוא של מעבר מצבי צבירה, שבו החומר נשאר אותו חומר, כמו חרקים ומים.",
+      "correction": "כאשר חרקים מתחממים, הם נעים יותר, אך במים הם אינם מתמוססים. חרקים יכולים להתפזר, אך אינם מתנהגים כמו חלקיקים קטנים במעבר בין מצבי צבירה. מעבר מצבי צבירה מתייחס לשינוי מצב של חומר, אך החומר עצמו נשאר זהה.",
+      "description": "The feedback contains syntactic errors and unclear phrasing, such as 'התהום שנוצר' (which is not relevant here) and 'מתפשרים' (should be 'מתמוססים' or 'מתפזרים'). The corrected version clarifies the scientific concept and uses proper Hebrew syntax and terminology.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:27:52.748123",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

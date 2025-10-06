@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "factos",
+      "correction": "fatos",
+      "description": "The word 'factos' is the European Portuguese spelling, while 'fatos' is the correct and standard form in Brazilian Portuguese, which is the required variant for this content. Using the European form may cause confusion or seem unnatural to Brazilian learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A Não Ficção",
+      "correction": "A não ficção",
+      "description": "The capitalization of 'Não Ficção' is inconsistent with Brazilian Portuguese conventions, where only the first word of a genre name is capitalized unless it is a proper noun. The correct form is 'não ficção'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A ficção é um conjunto de factos que ocorrem no mundo real.",
+      "correction": "A ficção é um conjunto de fatos que ocorrem no mundo real.",
+      "description": "The sentence uses 'factos', which is the European Portuguese spelling. In Brazilian Portuguese, the correct spelling is 'fatos'. This orthographic inconsistency should be corrected for standardization.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A ficção envolve cenários, personagens e eventos que não existem no mundo real. Ela é criada para entreter, inspirar ou estimular a imaginação.",
+      "correction": "A ficção envolve cenários, personagens e eventos que não existem no mundo real. É criada para entreter, inspirar ou estimular a imaginação.",
+      "description": "The use of 'Ela' as a subject pronoun for 'ficção' is grammatically correct, but in Brazilian Portuguese educational style, it is more natural and concise to omit the pronoun in the second sentence, as the subject is clear from context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A narrativa de 'Danny e o Dinossauro' é uma obra de ficção, pois gira em torno de um evento imaginário e não é apresentada como um relato factual.",
+      "correction": "A narrativa de 'Danny e o Dinossauro' é uma obra de ficção, pois gira em torno de um evento imaginário e não é apresentada como um relato de fatos.",
+      "description": "The term 'relato factual' is a literal translation from English and is less natural in Brazilian Portuguese. The more idiomatic expression is 'relato de fatos'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:26:29.215201",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3
+    }
+  }
+}

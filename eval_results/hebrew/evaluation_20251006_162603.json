@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מוזיקה היא שפה אוניברסלית שמחברת בין אנשים ברחבי זמן, תרבויות וחוויות.",
+      "correction": "מוזיקה היא שפה אוניברסלית שמחברת בין אנשים ברחבי זמנים, תרבויות וחוויות.",
+      "description": "The word 'זמן' (time) in this context should be in the plural form 'זמנים' to match the parallel structure with 'תרבויות' and 'חוויות'. This improves grammatical agreement and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "הקול בדרך כלל מתוגדר ומקודר כדי להגביר את האווירה והרמוניה.",
+      "correction": "הקול בדרך כלל מתוגבר ומוקדר כדי להגביר את האווירה והרמוניה.",
+      "description": "The words 'מתוגדר' and 'מקודר' are incorrect and do not exist in standard Hebrew. The intended meaning is likely 'מתוגבר' (amplified) and 'מוקדר' (modulated). This correction ensures proper word choice and semantic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "בג'אז, האלתור, כלי חרקה שמשיך הצליל של הקצב, משחק תפקיד מרכזי באיכות המוזיקה.",
+      "correction": "בג'אז, האלתור משחק תפקיד מרכזי באיכות המוזיקה.",
+      "description": "The phrase 'כלי חרקה שמשיך הצליל של הקצב' is nonsensical and does not convey a clear meaning in Hebrew. It should be omitted for clarity and accuracy. The sentence is improved by focusing on the central role of improvisation in jazz.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הוא מעצב את ההשראה הריתמית של השיר ומשלב באופן ייחודי את הקצב והקנייה.",
+      "correction": "הוא מעצב את ההשראה הריתמית של השיר ומשלב באופן ייחודי את הקצב והמלודיה.",
+      "description": "The word 'הקנייה' is a lexical error and does not fit the musical context. The correct term is 'המלודיה' (melody), which accurately describes the musical elements being combined.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "למוזיקת רוק יש תכונות רבות, אך אין לה דריסמיס שכל סוג של גיטרה אלקטרית היא חייבת להשתמש בה.",
+      "correction": "למוזיקת רוק יש תכונות רבות, אך אין הכרח שכל סוג של גיטרה אלקטרית חייבת להיכלל בה.",
+      "description": "The word 'דריסמיס' is not a Hebrew word and appears to be a typographical or lexical error. The sentence is corrected to use 'הכרח' (necessity), which is the appropriate term for expressing obligation or requirement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אך גיטרות אלקטריות אינן דריבריות.",
+      "correction": "אך גיטרות אלקטריות אינן הכרחיות.",
+      "description": "The word 'דריבריות' is not a standard Hebrew word and does not convey the intended meaning. The correct term is 'הכרחיות' (necessary), which accurately expresses that electric guitars are not mandatory in rock music.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מוזיקת פופ ידועה בקליטות שלה ובשימוש במילים פשוטות שקל לזהות, בניגון קל ובמבחן קצבי שמעניק לקהל את הרגש של השיר.",
+      "correction": "מוזיקת פופ ידועה בקליטות שלה ובשימוש במילים פשוטות שקל לזהות, בניגון קל ובקצב שמעניק לקהל את הרגש של השיר.",
+      "description": "The phrase 'במבחן קצבי' is a lexical error and does not make sense in this context. The correct term is 'בקצב' (with rhythm), which accurately describes the musical quality being referenced.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "שימוש רב בדגימות ובטורנייטייבלים.",
+      "correction": "שימוש רב בדגימות ובטורנייטייבלס.",
+      "description": "The word 'טורנייטייבלים' is a non-standard pluralization of the English word 'turntables'. The accepted Hebrew transliteration is 'טורנייטייבלס'. This correction ensures consistency with common usage in Israeli music terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "היפ-הופ היא ז'אנר מוזיקה שמספרת או מדברת שירים, לעיתים בקצבים שונים כדי להעניק לי קצב מוזיקלי ייחודי.",
+      "correction": "היפ-הופ הוא ז'אנר מוזיקלי שבו שרים או מדברים שירים, לעיתים בקצבים שונים כדי להעניק קצב מוזיקלי ייחודי.",
+      "description": "The phrase 'להעניק לי קצב מוזיקלי ייחודי' contains a pronoun error ('לי' = to me) that is not appropriate in this context. The sentence is also improved by using 'הוא ז'אנר מוזיקלי' for correct gender agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "לכן לא כל ז'אנר מתואר באותה דרך באותה עדינות.",
+      "correction": "לכן לא כל ז'אנר מתואר באותה דרך או באותה עדינות.",
+      "description": "The sentence lacks a coordinating conjunction between 'באותה דרך' and 'באותה עדינות'. Adding 'או' (or) improves the sentence structure and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:26:03.986987",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

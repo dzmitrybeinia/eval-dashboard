@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הטבלה המחזורית מארגנת לא רק את היסודות האלקטריים, אלא גם את הרכיבים הרגילים והכימיים הרגילים. היסודות ממוינים לפי האטום שלהם, שהוא מספר היחידות של הפרוטונים בגרעין האטום. תקופות מארגנות את היסודות על פי מספר האטומי, בעוד קבוצות מארגנות אותם לפי תכונות כימיות דומות.",
+      "correction": "הטבלה המחזורית מארגנת לא רק את היסודות האלקטרוניים, אלא את כל היסודות הכימיים. היסודות ממוינים לפי מספרם האטומי, שהוא מספר הפרוטונים בגרעין האטום. תקופות מארגנות את היסודות לפי מספר האטומי, בעוד קבוצות מארגנות אותם לפי תכונות כימיות דומות.",
+      "description": "The original text contains lexical errors: 'היסודות האלקטריים' is incorrect and should be 'היסודות האלקטרוניים' (referring to elements, not electricity). 'הרכיבים הרגילים והכימיים הרגילים' is redundant and unclear; it should simply refer to 'כל היסודות הכימיים'. Additionally, 'היסודות ממוינים לפי האטום שלהם' is inaccurate; the correct phrasing is 'היסודות ממוינים לפי מספרם האטומי'. These errors affect clarity and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בטבלה המחזורית לכל תקופה יש מספר ייחודי של אלקטרונים, מה שמסיקר את הסדרה של הרכיבים והתכונות שלהם. לדוגמא, כשאנחים (1) יש רק אלקטרון ראשון, וכשפלונים (2) יש שני אלקטרונים, אז המספר האטומי עולה. זה גם משמש כתאר לכך שהרכיבים פורקים לאורך התקופה, מה שמתפתח ממתיקים למתיקים ולא מתכתיים.",
+      "correction": "בטבלה המחזורית לכל תקופה יש מספר ייחודי של שכבות אלקטרונים, מה שמסביר את הסדרה של היסודות והתכונות שלהם. לדוגמה, בתקופה 1 יש רק שכבת אלקטרונים אחת, ובתקופה 2 יש שתי שכבות אלקטרונים, ולכן המספר האטומי עולה. זה גם מסביר כיצד היסודות משתנים לאורך התקופה, ממתכתיים לפחות מתכתיים ולא מתכתיים.",
+      "description": "The original feedback contains multiple grammatical and lexical errors: 'מסיקר' is a misspelling of 'מסביר'; 'הרכיבים' should be 'היסודות' for scientific accuracy; 'כשאנחים' and 'כשפלונים' are not valid Hebrew words and seem to be corrupted forms, likely intended to refer to periods 1 and 2. The sentence 'הרכיבים פורקים לאורך התקופה' is ungrammatical and unclear; the correct phrasing is 'היסודות משתנים לאורך התקופה'. The description also incorrectly uses 'ממתיקים למתיקים ולא מתכתיים' instead of 'ממתכתיים לפחות מתכתיים ולא מתכתיים'. These errors significantly impact comprehension and scientific correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "זוהרת זאת כיוון שהיסודות שנמצאים באותה קבוצה בטבלה המחזורית מתאפישים את תכונותיהם התכלוניות מבלי להתארךת את אותו מספר אלקטרונים בשכבת החיצונית. לדוגמה, ליתיום (Na), נתרן (Mg), ואשלגן (K) נמצאים בקבוצה 1 מכיוון שכולם בעלי אלקטרון אחד. זה מסייע לקבל תובנות על הדפוסים המרכיבים לתכונות האלקטרופיליות של היסודות.",
+      "correction": "זה נכון כי היסודות שנמצאים באותה קבוצה בטבלה המחזורית מתאפיינים באותן תכונות כימיות בזכות אותו מספר אלקטרונים בשכבה החיצונית. לדוגמה, ליתיום (Li), נתרן (Na) ואשלגן (K) נמצאים בקבוצה 1 כי לכולם אלקטרון אחד בשכבה החיצונית. זה מסייע להבין את הדפוסים הקשורים לתכונות הכימיות של היסודות.",
+      "description": "The original text contains lexical and factual errors: 'זוהרת זאת' is an incorrect phrase and should be 'זה נכון כי'. 'מתאפישים' is a misspelling of 'מתאפיינים'. 'התכלוניות' is not a standard term in this context; 'תכונות כימיות' is correct. The chemical symbols are incorrect: ליתיום (Na) should be ליתיום (Li), נתרן (Mg) should be נתרן (Na), and אשלגן (K) is correct. The phrase 'תכונות האלקטרופיליות' is misleading; the correct term is 'תכונות כימיות'. These errors affect both scientific accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ליקוי בהקשר של התכונות היסודות של הטבלה המחזורית אינו מוצא נכון. המטרה של הטבלה היא להסביר את הדפוסים החלשלניים בתכונות היסודות של האטומים, כמו גודל אטומי, תגובתיות, ואלקטרושליליות.",
+      "correction": "ליקוי בהקשר של תכונות היסודות בטבלה המחזורית אינו נכון. מטרת הטבלה היא להסביר את הדפוסים השונים בתכונות היסודות, כמו גודל אטומי, תגובתיות ואלקטרושליליות.",
+      "description": "The original feedback contains lexical errors: 'מוצא נכון' is an incorrect phrase and should be 'נכון'. 'הדפוסים החלשלניים' is a mistranslation and should be 'הדפוסים השונים'. 'התכונות היסודות' should be 'תכונות היסודות'. These errors reduce clarity and scientific accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:26:29.777568",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Legislative hat die Befugnis, den Präsidenten zu verklagen und die Exekutive zu kontrollieren, aber nicht, den Präsidenten zu entlassen. Die Amtsenthebung und Absetzung erfolgt durch ein Amtsenthebungsverfahren, das beide Kammern des Kongresses erfordert.",
+      "correction": "Die Legislative hat die Befugnis, den Präsidenten anzuklagen und die Exekutive zu kontrollieren, aber nicht, den Präsidenten zu entlassen. Die Amtsenthebung und Absetzung erfolgt durch ein Amtsenthebungsverfahren, das beide Kammern des Kongresses erfordert.",
+      "description": "The verb 'verklagen' means 'to sue' in German, which is not the correct term in the context of impeachment. The correct verb is 'anzuklagen' (to impeach/accuse). This is a lexical error that could lead to misunderstanding of the impeachment process.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Präsident hat die Macht, Bundesgesetze ohne Zustimmung des Kongresses zu vetoen.",
+      "correction": "Der Präsident hat die Macht, Bundesgesetze ohne Zustimmung des Kongresses mit einem Veto zu belegen.",
+      "description": "The verb 'vetoen' is an incorrect Germanization of the English verb 'to veto.' The correct German expression is 'mit einem Veto belegen.' Using 'vetoen' is not standard and is considered an anglicism that should be avoided in formal educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dieses Recht ist Teil der Kontrolle und Gleichgewicht der Macht, die zwischen den drei Gewalten verortet wird.",
+      "correction": "Dieses Recht ist Teil der Kontrolle und des Gleichgewichts der Macht, das zwischen den drei Gewalten besteht.",
+      "description": "The phrase 'Kontrolle und Gleichgewicht der Macht' is missing the article 'des' before 'Gleichgewichts' to indicate the genitive case. Also, 'verortet wird' is awkward and not idiomatic; 'besteht' is more natural. This improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Oberste Gerichtshof hat die Befugnis, Gesetze auf verfassungsrechtliche Gründe zu überprüfen und zu widerlegen.",
+      "correction": "Der Oberste Gerichtshof hat die Befugnis, Gesetze auf ihre Verfassungsmäßigkeit zu überprüfen und aufzuheben.",
+      "description": "The phrase 'auf verfassungsrechtliche Gründe zu überprüfen' is awkward and unclear; the standard legal term is 'auf ihre Verfassungsmäßigkeit zu überprüfen.' Additionally, 'zu widerlegen' (to refute) is not the correct legal term; 'aufzuheben' (to overturn/annul) is appropriate in this context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In dem System der gegenseitigen Kontrolle und Machtgleichgewichte in der US-Regierung, dient die Möglichkeit der Exekutivprivilegien nicht als absolute Macht, um Gesetze ohne Einschränkungen durchzusetzen.",
+      "correction": "Im System der gegenseitigen Kontrolle und Machtgleichgewichte in der US-Regierung dient das Exekutivprivileg nicht als absolute Macht, um Gesetze ohne Einschränkungen durchzusetzen.",
+      "description": "The phrase 'In dem System' should be 'Im System' for correct contraction. 'Die Möglichkeit der Exekutivprivilegien' is awkward and imprecise; 'das Exekutivprivileg' is the standard term. This correction improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Zusammenfassung der drei Gewalten",
+      "correction": "Zusammenfassung der drei Staatsgewalten",
+      "description": "The term 'Staatsgewalten' is the standard and more precise term in German legal and political discourse for the three branches of government. Using 'drei Gewalten' is understandable but less formal and may reduce the perceived professionalism of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Bedeutung der Checks Balances",
+      "correction": "Bedeutung der Gewaltenteilung und gegenseitigen Kontrolle",
+      "description": "The phrase 'Checks Balances' is an untranslated English term. In German, the standard terms are 'Gewaltenteilung' (separation of powers) and 'gegenseitige Kontrolle' (checks and balances). Using the English phrase is inappropriate in formal educational content and may confuse learners.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:23:12.915080",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.4
+    }
+  }
+}

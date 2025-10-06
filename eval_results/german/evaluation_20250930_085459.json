@@ -1,0 +1,105 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Rückgrat der DNA besteht aus abwechselnden Zucker- (Desoxyribose) und Phosphatgruppen.",
+      "correction": "Das Rückgrat der DNA besteht aus abwechselnden Zucker- (Desoxyribose) und Phosphatgruppen.",
+      "description": "The noun 'Rückgrat' is neuter in German and requires the article 'das' instead of 'der'. This is a grammatical gender agreement error that affects the correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die gegebene Aussage ist falsch, da sie die Falsche Base zum Adenin vorschlägt.",
+      "correction": "Die gegebene Aussage ist falsch, da sie die falsche Base zum Adenin vorschlägt.",
+      "description": "The word 'Falsche' is incorrectly capitalized. In this context, 'falsche' is an adjective and should not be capitalized. This is a lexical and orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sie dient als Kopie der DNA-DNA-Sequenz und trägt die genetischen Informationen von dem Chromosom zum Ribosom, wo Proteine synthetisiert werden.",
+      "correction": "Sie dient als Kopie der DNA-Sequenz und trägt die genetischen Informationen vom Chromosom zum Ribosom, wo Proteine synthetisiert werden.",
+      "description": "There is a redundant repetition in 'DNA-DNA-Sequenz', which should be 'DNA-Sequenz'. Additionally, 'von dem Chromosom' should be contracted to 'vom Chromosom' for naturalness and correctness. These are lexical and grammatical errors.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die DNA-Basensequenz ist grundlegend für die Bestimmung der Aminosäuresequenz in Proteinen, die wiederum entscheidend für das Phänotyp des Organismus, einschließlich Eigenschaften wie Augenfarbe und Blutgruppe, sind.",
+      "correction": "Die DNA-Basensequenz ist grundlegend für die Bestimmung der Aminosäuresequenz in Proteinen, die wiederum entscheidend für den Phänotyp des Organismus, einschließlich Eigenschaften wie Augenfarbe und Blutgruppe, sind.",
+      "description": "The noun 'Phänotyp' is masculine and requires the article 'den' in the accusative case, not 'das'. This is a grammatical case error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Dieser Prozess, bekannt als 'Kopplung' oder 'Bondung', ist entscheidend für die Struktur der DNA.",
+      "correction": "Dieser Prozess, bekannt als 'Bindung', ist entscheidend für die Struktur der DNA.",
+      "description": "The term 'Bondung' is an anglicism and not standard in German scientific terminology. The correct term is 'Bindung'. 'Kopplung' is also less commonly used in this context. This affects the professional and natural use of terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Prozess beginnt mit dem Aufwickeln der Doppelhelix und der Trennung der beiden Stränge.",
+      "correction": "Der Prozess beginnt mit dem Entwinden der Doppelhelix und der Trennung der beiden Stränge.",
+      "description": "The verb 'Aufwickeln' means 'to wind up', which is incorrect in the context of DNA replication. The correct term is 'Entwinden' (unwinding), which accurately describes the separation of the DNA strands. This is a lexical and conceptual error affecting scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Variation in der DNA-Sequenz ist es, die Merkmale wie Haarfarbe oder Augenbrauen bestimmt.",
+      "correction": "Die Variation in der DNA-Sequenz bestimmt Merkmale wie Haarfarbe oder Augenbrauen.",
+      "description": "The sentence structure is unnecessarily convoluted and uses a cleft construction that is not natural in German. A more direct sentence improves clarity and naturalness. This is a syntactic and stylistic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obwohl die DNA-Sequenz durch Mutationen verändert werden kann, was zu genetischen Erkrankungen führt, ist es möglich, dass die Genomtechnik, wie CRISPR-Cas9, eingesetzt wird, um diese Mutationen zu korrigieren.",
+      "correction": "Obwohl die DNA-Sequenz durch Mutationen verändert werden kann, was zu genetischen Erkrankungen führt, ist es möglich, dass Genomtechniken wie CRISPR-Cas9 eingesetzt werden, um diese Mutationen zu korrigieren.",
+      "description": "The phrase 'die Genomtechnik, wie CRISPR-Cas9' is incorrect because 'Genomtechnik' should be plural ('Genomtechniken') to match the context, and the comma before 'wie' is unnecessary. This is a grammatical and stylistic error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "DNA besteht aus 23 Paaren von Basen, was falsch ist.",
+      "correction": "DNA besteht nicht aus 23 Paaren von Basen, was falsch ist.",
+      "description": "The original sentence could be misinterpreted as stating a fact. Adding 'nicht' clarifies that DNA does not consist of 23 base pairs, which is essential for scientific accuracy. This is a lexical and semantic error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das menschliche Genom umfasst insgesamt etwa 20.000 bis 25.000 Chromosomen.",
+      "correction": "Das menschliche Genom umfasst insgesamt etwa 20.000 bis 25.000 Gene.",
+      "description": "The sentence incorrectly states that the human genome contains 20,000 to 25,000 chromosomes, when it should be 'Gene'. Humans have 46 chromosomes, but about 20,000 to 25,000 genes. This is a critical scientific and lexical error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:54:59.051283",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.2
+    }
+  }
+}

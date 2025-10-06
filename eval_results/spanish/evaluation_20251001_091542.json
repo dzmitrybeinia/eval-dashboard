@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "la rama Ejecutiva",
+      "correction": "la Rama Ejecutiva",
+      "description": "In Spanish, when referring to the official names of government branches, capitalization should be used for each word as they are proper nouns. 'Ejecutiva' should be capitalized to maintain consistency and correctness with the other branches mentioned in the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "la rama Legislativa",
+      "correction": "la Rama Legislativa",
+      "description": "The term 'Rama Legislativa' refers to a specific branch of government and should be capitalized as a proper noun. This ensures consistency and adheres to Spanish orthographic conventions for official titles.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "la rama Judicial",
+      "correction": "la Rama Judicial",
+      "description": "The phrase 'Rama Judicial' is an official designation and should be capitalized to reflect its status as a proper noun, aligning with standard Spanish orthographic rules for government entities.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "la Corte Suprema",
+      "correction": "la Corte Suprema",
+      "description": "No correction needed. 'Corte Suprema' is correctly capitalized as a proper noun in Spanish when referring to the Supreme Court.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Pesos y Contrapesos en Acción",
+      "correction": "Pesos y Contrapesos en acción",
+      "description": "In Spanish, only the first word and proper nouns in titles are capitalized. The word 'acción' should not be capitalized unless it is a proper noun or the first word of the title. This correction aligns with Spanish title capitalization conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:15:42.844311",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Es unterscheidet sich von einem Fixed Mindset, bei dem Menschen glauben, dass ihre Fähigkeiten statisch sind und sich nicht ändern können.",
+      "correction": "Es unterscheidet sich von einem Fixed Mindset, bei dem Menschen glauben, dass ihre Fähigkeiten statisch sind und sich nicht verändern können.",
+      "description": "The verb 'ändern' is less idiomatic in this context; 'verändern' is the standard collocation in German when referring to abilities or characteristics changing over time. This correction improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Fixed Mindset",
+      "correction": "statisches Mindset",
+      "description": "The term 'Fixed Mindset' is used in English within a German sentence. While the concept is internationally recognized, for educational clarity and consistency, it is preferable to use the German equivalent 'statisches Mindset' or 'festgelegtes Mindset'. This ensures better comprehension for learners unfamiliar with English terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Growth Mindset",
+      "correction": "Growth Mindset",
+      "description": "The English term 'Growth Mindset' is widely used in German educational contexts and is generally accepted. However, for younger learners or those with limited English proficiency, it may be beneficial to briefly explain or supplement with a German equivalent such as 'Wachstumsdenken'. No correction is strictly necessary, but a note on accessibility is warranted.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Statt zu sagen: „Ich bin einfach schlecht in Mathe“, würde ein Growth Mindset ihn ermutigen zu sagen: „Ich kann besser in Mathe werden, wenn ich hart arbeite und übe.“",
+      "correction": "Statt zu sagen: „Ich bin einfach schlecht in Mathe“, würde ein Growth Mindset ihn dazu ermutigen zu sagen: „Ich kann besser in Mathe werden, wenn ich hart arbeite und übe.“",
+      "description": "The phrase 'ermutigen zu sagen' is missing the preposition 'dazu', which is required for correct German syntax ('jemanden dazu ermutigen, etwas zu tun'). This correction ensures proper sentence structure and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Begrüßung von Herausforderungen als Lernmöglichkeiten.",
+      "correction": "Herausforderungen als Lernmöglichkeiten begrüßen.",
+      "description": "The original phrase uses a nominalization ('Begrüßung von Herausforderungen'), which is less natural and stylistically awkward in German educational content. Using the verb form ('Herausforderungen als Lernmöglichkeiten begrüßen') is more idiomatic and improves readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Betrachten von Fehlern als Schritte zum Erfolg.",
+      "correction": "Fehler als Schritte zum Erfolg betrachten.",
+      "description": "Similar to the previous issue, the nominalization ('Betrachten von Fehlern') is less natural in German. The verb form ('Fehler als Schritte zum Erfolg betrachten') is clearer and more appropriate for educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:12.351126",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3
+    }
+  }
+}

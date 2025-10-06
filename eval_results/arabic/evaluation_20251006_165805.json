@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الإسعافات الأولية هي تدابير عامة لإعامة المرضى عند وجود حالة طبية، وليس فقط في حالات الوفاة. يُعد ذلك للحفاظ على الحياة، ومنع تفاقم الحالة، وتعزيز التعافي.",
+      "correction": "الإسعافات الأولية هي تدابير عامة لإعادة المرضى عند وجود حالة طبية، وليس فقط في حالات الوفاة. يُعد ذلك للحفاظ على الحياة، ومنع تفاقم الحالة، وتعزيز التعافي.",
+      "description": "The word 'إعامة' is a lexical error; the correct term is 'إعادة' (meaning 'restoration' or 'recovery'). 'إعامة' is not a standard Arabic word and may confuse learners. The rest of the sentence is linguistically correct and culturally appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "من الغير صحيح تطبيق مطهر على الجرح قبل الإزالة الإضافية والطبيعية التي تختلطها.",
+      "correction": "من غير الصحيح تطبيق مطهر على الجرح قبل الإزالة الإضافية والطبيعية التي تختلط به.",
+      "description": "The phrase 'من الغير صحيح' is a syntactic error; the correct form is 'من غير الصحيح'. Additionally, 'تختلطها' is incorrect; the pronoun should agree with 'الجرح', so 'تختلط به' is appropriate. The sentence structure is otherwise clear.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "في إتقان الإسعافات الأولية للجروح، من الضروري أن يتم الحفاظ على الجرح نظيفًا ومحوى العوامل الممرضة.",
+      "correction": "في إتقان الإسعافات الأولية للجروح، من الضروري أن يتم الحفاظ على الجرح نظيفًا وخاليًا من العوامل الممرضة.",
+      "description": "The word 'محوى' is a lexical error; the correct term is 'خاليًا من' (free from). 'محوى' is not a standard word in this context and may confuse learners. The rest of the sentence is linguistically correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "يجب تطبيق المطهر فقط بعد التأكيد على أن الإزالة الإضافية الطبيعية ليست ضارةً وأن التليين يساعد في إزالة المواد المخلوقة دون تفادي الإصابة أو تعطيل النزيف.",
+      "correction": "يجب تطبيق المطهر فقط بعد التأكد من أن الإزالة الإضافية الطبيعية ليست ضارة وأن التليين يساعد في إزالة المواد العالقة دون التسبب في الإصابة أو تعطيل وقف النزيف.",
+      "description": "The phrase 'بعد التأكيد على أن' is less idiomatic than 'بعد التأكد من أن'. 'المواد المخلوقة' is a lexical error; 'المواد العالقة' (foreign or stuck materials) is more accurate. 'دون تفادي الإصابة أو تعطيل النزيف' is semantically unclear; 'دون التسبب في الإصابة أو تعطيل وقف النزيف' clarifies the intended meaning. Multiple linguistic issues affect clarity and accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:58:05.974780",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O Fado português é de fato uma forma de música que surgiu no século XIX, particularmente em Lisboa. É caracterizado pela sua forte expressão de emoções e frequentemente incorpora flautas, o que acrescenta à sua identidade única.",
+      "correction": "O Fado português é de fato uma forma de música que surgiu no século XIX, particularmente em Lisboa. É caracterizado pela sua forte expressão de emoções e frequentemente incorpora a guitarra portuguesa, o que acrescenta à sua identidade única.",
+      "description": "The feedback incorrectly states that Fado frequently incorporates flutes ('flautas'), which is not accurate. The defining instrument of Fado is the 'guitarra portuguesa' (Portuguese guitar), not the flute. This is a lexical inaccuracy that could mislead learners about the essential characteristics of Fado.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "O jazz é realmente uma mistura de diferentes estilos musicais, mas a afirmação está incorreta, pois sugere uma influência europeia. A origem do jazz é mais precisamente atribuída às comunidades afro-americanas de Nova Orleans, que incorporaram elementos do blues e ragtime.",
+      "correction": "O jazz é uma mistura de diferentes estilos musicais, originado principalmente nas comunidades afro-americanas de Nova Orleans, com influências do blues, ragtime e também de tradições musicais europeias.",
+      "description": "The feedback overcorrects by denying any European influence on jazz, which is not fully accurate. While jazz is rooted in African American communities and heavily influenced by blues and ragtime, it also incorporates elements from European musical traditions, such as harmony and instrumentation. For educational accuracy and cultural appropriateness, the explanation should acknowledge both influences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A música clássica destaca-se por composições complexas e orquestração, utilizando instrumentos como cordas, sopros, metais e percussão.",
+      "correction": "A música clássica destaca-se por composições complexas e orquestrações, utilizando instrumentos como cordas, sopros, metais e percussão.",
+      "description": "The word 'orquestração' should be in the plural form 'orquestrações' to agree with 'composições complexas', as both refer to multiple aspects that characterize classical music. This is a minor grammatical agreement issue.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:27:16.809123",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2
+    }
+  }
+}

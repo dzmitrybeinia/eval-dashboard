@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "نتائم",
+      "correction": "نتائج",
+      "description": "The word 'نتائم' is a misspelling and incorrect lexical choice for 'results' in the context of probability. The correct term in Modern Standard Arabic is 'نتائج'. This error appears in multiple places and affects clarity and accuracy of the educational content. Additionally, the plural form should be 'نتائج' to match the context of multiple possible outcomes.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "العدين الصفراء، العدين الأبيض، العدين الصفراء ثم الأبيض، والعدين الأبيض ثم الصفراء",
+      "correction": "وجه وجه، وجه ظهر، ظهر وجه، ظهر ظهر",
+      "description": "The phrase 'العدين الصفراء، العدين الأبيض، العدين الصفراء ثم الأبيض، والعدين الأبيض ثم الصفراء' is an incorrect and confusing lexical choice for describing the possible outcomes of flipping two coins. The standard terms in Arabic for coin faces are 'وجه' (heads) and 'ظهر' (tails). The use of 'العدين الصفراء' and 'العدين الأبيض' is not appropriate in this context and may confuse learners. The correct enumeration should be 'وجه وجه، وجه ظهر، ظهر وجه، ظهر ظهر'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🎲🪙",
+      "correction": "",
+      "description": "The use of emoji '🎲🪙' in educational Arabic content may not align with formal register and standard practices in Arabic-speaking educational contexts, especially in formal lessons. While emojis can enhance engagement in informal settings, their inclusion here may reduce perceived professionalism and distract from the academic tone expected in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الطراف المشمس",
+      "correction": "الطقس المشمس",
+      "description": "The phrase 'الطراف المشمس' is a lexical error. The intended meaning is 'sunny weather', which in Arabic should be 'الطقس المشمس'. 'الطراف' is not a recognized word in this context and may confuse learners. This error affects the clarity and accuracy of the feedback provided.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "جوهرة النرد",
+      "correction": "النرد",
+      "description": "The term 'جوهرة النرد' is an incorrect lexical choice. The standard term for 'die' (singular of dice) in Arabic is simply 'النرد'. 'جوهرة' means 'gem' or 'jewel', which is not appropriate in this context and may confuse learners. The correct phrase should be 'النرد يحتوي على 6 جوانب'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "التوازي الكامل للنتائم المتاحين",
+      "correction": "التكافؤ الكامل للنتائج المتاحة",
+      "description": "The phrase 'التوازي الكامل للنتائم المتاحين' contains both a lexical error ('نتائم' instead of 'نتائج') and a grammatical error in the use of 'المتاحين', which should agree in gender and number with 'نتائج' and be 'المتاحة'. Additionally, 'التوازي الكامل' is not the standard term for 'equal probability'; 'التكافؤ الكامل' is more appropriate. The corrected phrase is 'التكافؤ الكامل للنتائج المتاحة'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "قلوب، ألماس، أوراق، زهور",
+      "correction": "قلوب، ألماس، بستوني، سباتي",
+      "description": "The terms 'أوراق' and 'زهور' for card suits are not standard in Arabic. The correct terminology for the four suits in a standard deck of cards in Arabic is: 'قلوب' (hearts), 'ألماس' (diamonds), 'بستوني' (spades), and 'سباتي' (clubs). Using non-standard terms may confuse learners and does not align with educational norms in Arabic-speaking countries.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T17:00:40.334441",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

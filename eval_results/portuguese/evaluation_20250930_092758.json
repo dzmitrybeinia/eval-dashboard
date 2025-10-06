@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O voto é fundamental em sociedades democráticas, pois permite aos cidadãos exercerem seu poder de voto e influenciar a direção do governo e políticas.",
+      "correction": "O voto é fundamental em sociedades democráticas, pois permite aos cidadãos exercerem seu poder e influenciar a direção do governo e das políticas.",
+      "description": "The phrase 'exercerem seu poder de voto' is redundant because 'voto' is already the subject of the sentence. Additionally, 'políticas' should be preceded by the definite article 'das' to maintain proper grammatical structure and clarity. The corrected version removes redundancy and ensures article usage is consistent.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Embora seja crucial para os eleitores participarem, o registro é um requisito prévio ao voto, não uma etapa que ocorre simultaneamente com o voto.",
+      "correction": "Embora seja crucial para os eleitores participarem, o registro é um requisito prévio ao voto, não uma etapa que ocorre simultaneamente ao voto.",
+      "description": "The preposition 'com' in 'simultaneamente com o voto' is less idiomatic in Brazilian Portuguese for this context. The more natural and grammatically correct preposition is 'ao', as in 'simultaneamente ao voto'. This change improves the sentence's fluency and correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "O Ato dos Direitos de Voto de 1965 nos EUA foi um marco, garantindo o direito ao voto para muitos cidadãos anteriormente excluídos.",
+      "correction": "O Ato dos Direitos de Voto de 1965 nos Estados Unidos foi um marco, garantindo o direito ao voto para muitos cidadãos anteriormente excluídos.",
+      "description": "The abbreviation 'EUA' is correct, but in educational contexts for Brazilian audiences, spelling out 'Estados Unidos' is preferred for clarity and formality. This adjustment ensures the reference is culturally appropriate and easily understood by all learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:27:58.680302",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

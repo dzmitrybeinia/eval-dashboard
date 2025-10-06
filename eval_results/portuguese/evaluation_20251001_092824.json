@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Você sabia que máquinas podem aprender, resolver problemas e até conversar como humanos?",
+      "correction": "Você sabia que as máquinas podem aprender, resolver problemas e até conversar como os humanos?",
+      "description": "The original sentence lacks the definite article 'as' before 'máquinas', which is required for proper grammatical agreement in Portuguese. Additionally, 'como humanos' should be 'como os humanos' to specify the comparison group. Both corrections improve grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Assistentes virtuais como Siri ou Alexa.",
+      "correction": "Assistentes virtuais como a Siri ou a Alexa.",
+      "description": "In Brazilian Portuguese, it is standard and more natural to use the definite article 'a' before the names of female virtual assistants. Omitting the article sounds unnatural and less idiomatic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Diagnósticos, previsão de resultados de pacientes, e assistência em cirurgias.",
+      "correction": "Diagnósticos, previsão de resultados de pacientes e assistência em cirurgias.",
+      "description": "The use of a comma before 'e' in a simple list is incorrect in Portuguese. The serial (Oxford) comma is not standard in Portuguese list structures.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Projetar um sistema de reciclagem com IA exige equilibrar precisão (como classificar materiais corretamente), eficiência (processar itens rapidamente) e impacto ambiental (consumo de energia).",
+      "correction": "Projetar um sistema de reciclagem com IA exige equilibrar precisão (como classificar materiais corretamente), eficiência (processar itens rapidamente) e impacto ambiental (como o consumo de energia).",
+      "description": "The phrase 'impacto ambiental (consumo de energia)' is inconsistent with the explanatory style used for 'precisão' and 'eficiência'. Adding 'como o consumo de energia' clarifies the example and maintains parallel structure.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:28:24.201432",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1
+    }
+  }
+}

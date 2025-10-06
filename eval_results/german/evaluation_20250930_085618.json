@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Eine Tasse Milchprodukte entspricht der Größe einer Kaffeebohne.",
+      "correction": "Eine Tasse Milchprodukte entspricht der Größe einer Kaffeetasse.",
+      "description": "The comparison of a serving size of dairy products to a 'Kaffeebohne' (coffee bean) is culturally and factually inappropriate. In German dietary guidelines, portion sizes are often compared to everyday objects such as a 'Kaffeetasse' (coffee cup) or 'Scheibe Käse' (slice of cheese), not a coffee bean, which is much too small and not a standard reference. This could confuse learners and does not reflect local conventions for portion size estimation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Milchprodukte sind in der Tat wichtig für die Kalzium- und Vitamin-D-Zufuhr, aber sie sind nicht die Gruppe mit dem höchsten Ballaststoffgehalt.",
+      "correction": "Milchprodukte sind in der Tat wichtig für die Kalzium- und Vitamin-D-Zufuhr, aber sie sind nicht die Gruppe mit dem höchsten Ballaststoffgehalt.",
+      "description": "The term 'Ballaststoffgehalt' is correct, but the phrase 'die Gruppe mit dem höchsten Ballaststoffgehalt' could be improved for clarity and naturalness. A more precise and natural phrasing in German would be 'Ballaststoffreichste Gruppe'. However, the original is not incorrect, so this is a minor lexical improvement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Messbecher oder visuelle Hinweise (z. B. eine Portion Protein entspricht etwa der Größe deiner Handfläche) können helfen, die richtigen Portionsgrößen einzuhalten.",
+      "correction": "Messbecher oder visuelle Hinweise (z. B. eine Portion Protein entspricht etwa der Größe Ihrer Handfläche) können helfen, die richtigen Portionsgrößen einzuhalten.",
+      "description": "The use of 'deiner' (informal 'your') is inconsistent with the otherwise formal register of the lesson. For educational content, especially in German, the formal 'Ihrer' should be used to maintain consistency and politeness throughout the material.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:18.871591",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3
+    }
+  }
+}

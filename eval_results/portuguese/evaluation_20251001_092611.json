@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Seja Intencional:",
+      "correction": "Seja intencional:",
+      "description": "The word 'Intencional' is incorrectly capitalized after a bullet point or bolded phrase. In Brazilian Portuguese, only the first word of a sentence or proper nouns should be capitalized. Here, 'intencional' should be in lowercase to follow standard orthographic rules for list items or emphasized points.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Monitore sua Presença Online:",
+      "correction": "Monitore sua presença online:",
+      "description": "The phrase 'Presença Online' is incorrectly capitalized. In Brazilian Portuguese, only the first word of a sentence or proper nouns are capitalized. Here, 'presença online' should be in lowercase to conform to standard orthographic conventions for list items or emphasized points.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Remova Conteúdo Prejudicial:",
+      "correction": "Remova conteúdo prejudicial:",
+      "description": "The phrase 'Conteúdo Prejudicial' is incorrectly capitalized. In Brazilian Portuguese, only the first word of a sentence or proper nouns are capitalized. Here, 'conteúdo prejudicial' should be in lowercase to follow standard orthographic rules for list items or emphasized points.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:26:11.770064",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

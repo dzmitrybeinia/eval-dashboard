@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La microgravedad en el espacio, como la gravedad que experimentamos en la Tierra, se reduce significativamente, lo que lleva a cambios físicos en los cuerpos humanos, incluyendo la pérdida de masa muscular y densidad ósea.",
+      "correction": "La microgravedad en el espacio, a diferencia de la gravedad que experimentamos en la Tierra, se reduce significativamente, lo que lleva a cambios físicos en los cuerpos humanos, incluyendo la pérdida de masa muscular y densidad ósea.",
+      "description": "The phrase 'como la gravedad que experimentamos en la Tierra' incorrectly suggests that microgravity in space is similar to Earth's gravity, which is misleading. The correct comparison should highlight the difference, not similarity, to avoid conceptual confusion. This lexical inaccuracy affects scientific clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:14.878291",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bei Wahlen stimmen die Bürger nur auf ein Kandidat ab.",
+      "correction": "Bei Wahlen stimmen die Bürger nur auf einen Kandidaten ab.",
+      "description": "The phrase 'auf ein Kandidat' is incorrect due to case and gender agreement. 'Kandidat' is masculine and requires the accusative case after 'auf', so the correct form is 'einen Kandidaten'. This error affects grammatical accuracy and should be corrected for proper German sentence structure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Diese Aussage ist falsch, weil bei Wahlen wie dem Bundestagswahlszenario in Deutschland die Bürger nicht nur auf ein Kandidat, sondern auch auf Parteien und deren Wahlvorschläge abstimmen.",
+      "correction": "Diese Aussage ist falsch, weil bei Wahlen wie dem Bundestagswahlszenario in Deutschland die Bürger nicht nur auf einen Kandidaten, sondern auch auf Parteien und deren Wahlvorschläge abstimmen.",
+      "description": "The phrase 'auf ein Kandidat' is incorrect due to case and gender agreement. 'Kandidat' is masculine and requires the accusative case after 'auf', so the correct form is 'einen Kandidaten'. This error affects grammatical accuracy and should be corrected for proper German sentence structure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "In Deutschland ist das Wahlrecht mit dem 18. Lebensjahr eingeführt worden. Vor diesem Zeitpunkt sind die Bürger zwar nicht wahlberechtigt, aber sie müssen sich dennoch registrieren, um am Wahltag teilzunehmen.",
+      "correction": "In Deutschland ist das Wahlrecht mit dem 18. Lebensjahr eingeführt worden. Vor diesem Zeitpunkt sind die Bürger nicht wahlberechtigt und müssen sich auch nicht registrieren.",
+      "description": "The statement implies that citizens under 18 must register to participate in elections, which is culturally and factually incorrect in the German context. Only eligible voters (18 and older) need to be registered, and minors do not participate in the registration process. This correction ensures cultural and procedural accuracy for the German electoral system.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:57:54.271292",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

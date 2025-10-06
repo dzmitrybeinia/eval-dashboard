@@ -1,0 +1,97 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "um Schnittwunden, Verbrennungen und Knochenbrüche zu behandeln",
+      "correction": "um Schnittwunden, Verbrennungen und Knochenbrüche zu behandeln",
+      "description": "The phrase 'um Schnittwunden, Verbrennungen und Knochenbrüche zu behandeln' is grammatically correct in terms of infinitive construction and case usage. However, 'Knochenbrüche' should be singular or plural depending on the context. In this educational context, plural is appropriate, so no correction is needed. No linguistic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kein Eis verwenden.",
+      "correction": "Kein Eis verwenden.",
+      "description": "The instruction 'Kein Eis verwenden.' is clear and direct, but the style is somewhat abrupt for educational content. A more natural and polite phrasing would be 'Verwenden Sie kein Eis.' or 'Bitte kein Eis verwenden.' to match the formal register used elsewhere in the lesson. This improves tone consistency and politeness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Bestimmte Mittel vermeiden:",
+      "correction": "Bestimmte Mittel vermeiden:",
+      "description": "The phrase 'Bestimmte Mittel vermeiden:' is correct in terms of spelling and capitalization. However, the colon at the end is appropriate for a list, which follows, so no correction is needed. No orthographic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "medizinisch qualifizierten Fachmanns",
+      "correction": "medizinisch qualifizierten Fachperson",
+      "description": "The term 'medizinisch qualifizierten Fachmanns' uses a gendered noun ('Fachmann'). For modern, inclusive German, 'Fachperson' is preferred to avoid gender bias and align with current professional terminology standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wenn jede Verletzung, egal wie klein, Hilfe in Anspruch genommen werden sollte.",
+      "correction": "Ob bei jeder Verletzung, egal wie klein, Hilfe in Anspruch genommen werden sollte.",
+      "description": "The statement 'Wenn jede Verletzung, egal wie klein, Hilfe in Anspruch genommen werden sollte.' is grammatically incorrect. The use of 'Wenn' at the beginning creates an incomplete conditional clause. It should be rephrased as 'Ob bei jeder Verletzung, egal wie klein, Hilfe in Anspruch genommen werden sollte.' to form a proper indirect question.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "10-15 Minuten",
+      "correction": "10 bis 15 Minuten",
+      "description": "The time range '10-15 Minuten' uses a hyphen, which is common in English but less standard in German educational texts. The more natural German format is '10 bis 15 Minuten'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Das Wissen, wann man Hilfe rufen sollte, ist ein entscheidender Teil der Ersten Hilfe.",
+      "correction": "Das Wissen, wann man Hilfe rufen sollte, ist ein entscheidender Teil der Ersten Hilfe.",
+      "description": "The sentence is correct in terms of spelling, capitalization, and punctuation. No orthographic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Gib den Rettungskräften klare Informationen darüber, was passiert ist und wie der Zustand der verletzten Person ist.",
+      "correction": "Geben Sie den Rettungskräften klare Informationen darüber, was passiert ist und wie der Zustand der verletzten Person ist.",
+      "description": "The instruction uses the informal 'Gib', while the rest of the lesson uses formal or neutral register. For consistency and appropriateness in educational content, 'Geben Sie' should be used.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Halte die verletzte Person ruhig und bequem.",
+      "correction": "Halte die verletzte Person ruhig und sorge für Komfort.",
+      "description": "The phrase 'Halte die verletzte Person ruhig und bequem.' is grammatically incorrect because 'bequem' describes comfort, not a person's state. The correct phrasing is 'Halte die verletzte Person ruhig und sorge für Komfort.'",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:55:33.612331",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 4
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.6
+    }
+  }
+}

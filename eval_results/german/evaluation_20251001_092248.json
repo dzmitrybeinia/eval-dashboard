@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Bruch wie 1/2 bedeutet, dass zwei Teile eines Ganzen genommen werden.",
+      "correction": "Ein Bruch wie 1/2 bedeutet, dass ein Teil von zwei gleichen Teilen eines Ganzen genommen wird.",
+      "description": "The original sentence incorrectly states that '1/2' means two parts of a whole are taken, which is a semantic error. In fact, '1/2' means one out of two equal parts is taken. This is a lexical and conceptual inaccuracy that could mislead learners about the meaning of fractions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Bruch kann nur positive ganze Zahlen sein.",
+      "correction": "Ein Bruch kann nur aus positiven ganzen Zahlen bestehen.",
+      "description": "The original statement is linguistically awkward and imprecise. The phrase 'kann nur positive ganze Zahlen sein' is incorrect because a fraction itself is not a whole number, but is composed of whole numbers as numerator and denominator. The correction clarifies that a fraction can only consist of positive whole numbers, which is the intended meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Diese Aussage ist irrig.",
+      "correction": "Diese Aussage ist falsch.",
+      "description": "The word 'irrig' is an uncommon and somewhat archaic term in modern German for 'incorrect' or 'wrong.' 'Falsch' is the standard and more widely understood term in educational contexts, ensuring clarity and accessibility for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Mit alltäglichen Beispielen werden wir die Welt der Brüche besser verstehen! 🍕🍫",
+      "correction": "Mit alltäglichen Beispielen werden wir die Welt der Brüche besser verstehen!",
+      "description": "The use of food emojis (pizza and chocolate) may not be considered professional or appropriate in all German educational contexts, especially in formal learning materials. Removing the emojis ensures a more neutral and universally acceptable tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:22:48.863491",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.1
+    }
+  }
+}

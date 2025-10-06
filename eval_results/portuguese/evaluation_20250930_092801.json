@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Diagnósticos, previsão de resultados de pacientes, e assistência em cirurgias.",
+      "correction": "Diagnósticos, previsão de resultados de pacientes e assistência em cirurgias.",
+      "description": "The use of a comma before the conjunction 'e' in a list is incorrect in Brazilian Portuguese unless it is used for emphasis or to avoid ambiguity. In this case, the comma before 'e assistência em cirurgias' should be removed to follow standard orthographic rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Assistentes virtuais como Siri ou Alexa.",
+      "correction": "Assistentes virtuais como a Siri ou a Alexa.",
+      "description": "In Brazilian Portuguese, it is customary to use the feminine article 'a' before the names of female-voiced virtual assistants such as Siri and Alexa, reflecting natural usage and local conventions. Omitting the article can sound unnatural and less idiomatic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Software de reconhecimento de imagens usado em aplicativos de mídia social.",
+      "correction": "Software de reconhecimento de imagens utilizado em aplicativos de redes sociais.",
+      "description": "The term 'mídia social' is less commonly used in Brazilian Portuguese than 'redes sociais' when referring to platforms like Facebook or Instagram. Additionally, 'utilizado' is more formal and appropriate in educational contexts than 'usado'. This correction improves naturalness and aligns with local style preferences.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:28:01.789170",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2
+    }
+  }
+}

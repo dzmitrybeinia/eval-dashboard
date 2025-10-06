@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "no la ignora de ellos",
+      "correction": "no la ignora, sino que los estudia",
+      "description": "The phrase contains a grammatical and orthographic error. The correct construction should clarify that analysis does not ignore the data, but rather studies them. The original phrase is ambiguous and ungrammatical in Spanish. The correction provides a clearer and grammatically correct alternative.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Una hipótesis es una suposición educada o predicción que explica las observaciones.",
+      "correction": "Una hipótesis es una suposición fundamentada o predicción que explica las observaciones.",
+      "description": "The use of 'educada' as a translation of 'educated' in this context is a false friend. In Spanish, 'educada' means 'polite' or 'well-mannered', not 'based on knowledge'. The correct term is 'fundamentada', which conveys the intended meaning of an 'educated guess'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Una hipótesis es en realidad una suposición educada que puede ser probada a través de experimentación, no una pregunta sin respuesta.",
+      "correction": "Una hipótesis es en realidad una suposición fundamentada que puede ser probada a través de la experimentación, no una pregunta sin respuesta.",
+      "description": "The phrase 'suposición educada' repeats the false friend error. Additionally, the article 'la' is missing before 'experimentación'. The correction addresses both the lexical inaccuracy and the missing article for grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Futuros experimentos podrían probar diferentes tipos de plantas o niveles de luz solar.",
+      "correction": "Futuros experimentos podrían ensayar diferentes tipos de plantas o niveles de luz solar.",
+      "description": "The verb 'probar' is commonly used for 'to try' or 'to taste', but in scientific contexts, 'ensayar' or 'experimentar con' is more precise when referring to testing variables in experiments. This correction improves lexical precision and appropriateness for scientific discourse.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El método científico requiere un enfoque sistemático y lógico que se basa en la recolección y análisis de datos empíricos, no en la intuición personal.",
+      "correction": "El método científico requiere un enfoque sistemático y lógico que se basa en la recolección y el análisis de datos empíricos, no en la intuición personal.",
+      "description": "The conjunction 'y' is used before 'análisis', but the definite article 'el' is required for parallel structure and grammatical correctness: 'la recolección y el análisis'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:16:51.607119",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0
+    }
+  }
+}

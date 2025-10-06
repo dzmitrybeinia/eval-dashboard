@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "מנוף משמש להרים משקלות בדרך שבה הכוח נדרש בכמה.",
+      "correction": "מנוף משמש להרים משקלות בדרך שבה נדרש פחות כוח.",
+      "description": "The original sentence contains a grammatical error in the phrase 'הכוח נדרש בכמה', which is unclear and ungrammatical. The intended meaning is that a lever allows lifting weights with less force. The corrected version clarifies the sentence and uses proper grammar.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מנוף מאפשר לניהול משקלות בקלות על ידי מתחילת ריבוי מרחקים קטנים. דמיין כמה פעמים שאביך עזר לך להגזים על ידי קטיפת קצובת של חלקיקים.",
+      "correction": "מנוף מאפשר להרים משקלות בקלות על ידי הגדלת המרחק מהמוקד. דמיין כמה פעמים שאביך עזר לך להרים דברים כבדים באמצעות מנוף פשוט.",
+      "description": "Multiple lexical errors: 'לניהול משקלות' is an incorrect collocation; 'מתחילת ריבוי מרחקים קטנים' is semantically unclear and unnatural; 'להגזים על ידי קטיפת קצובת של חלקיקים' is nonsensical and does not fit the context. The correction provides clear, accurate, and natural Hebrew phrasing suitable for educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "גלגלת משמשת למעבר משאות כבדות אך לא רק למשימות ציבוריות. היא נמצאת גם במקרים אישיים, כמו הנפת או הרים סוגי רכיבי הבית שונים.",
+      "correction": "גלגלת משמשת להרמת משאות כבדים, ולא רק למשימות ציבוריות. היא נמצאת גם בשימושים אישיים, כמו הנפת דגלים או הרמת חפצים בבית.",
+      "description": "Lexical errors: 'מעבר משאות כבדות' is not the standard collocation; 'הנפת או הרים סוגי רכיבי הבית שונים' is awkward and unclear. The correction uses precise terminology and natural phrasing for Hebrew educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "נכון למישורים משופעים, יותר מאמץ נדרש כדי להעביר חפץ למעלה. זאת משום שהכוח הנדרש להפליג מעל הכבידה הנגרפת גבוה מהכוח הנדרש להפליג למטה.",
+      "correction": "במישורים משופעים, נדרש יותר מאמץ כדי להעלות חפץ למעלה מאשר להוריד אותו למטה, משום שהכוח הנדרש להתגבר על כוח הכבידה גבוה יותר בעלייה.",
+      "description": "Grammatical and lexical errors: 'נכון למישורים משופעים' is not a correct phrase; 'להפליג מעל הכבידה הנגרפת' is an incorrect and confusing expression. The correction provides a clear, grammatically correct, and semantically accurate explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ברגים, או 'בורג' בשפת העברית, ידועים בעיקר בשימושם במבנים מרובעים ולא בתיקון ציורים. הם משמשים לחיבור חפצים או להעלות משקפורדים ומוצרים שונים למקומות קבועים, לעיתים באזורי עבודה כמו מכונת טקורייה או מרמקינה.",
+      "correction": "ברגים משמשים בעיקר לחיבור חפצים או להרכבת מוצרים שונים, ולא לתיקון ציורים. לדוגמה, הם משמשים במקדחות או בהרכבת רהיטים.",
+      "description": "Multiple lexical errors: 'מבנים מרובעים' is irrelevant and unclear; 'משקפורדים' and 'מכונת טקורייה או מרמקינה' are not standard Hebrew terms and do not fit the context. The correction uses accurate terminology and examples relevant to Hebrew-speaking learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "למרות שיתדים כמו סכינים משמשים לחיתוך מזון, יש להם שימושים רבים נוספים. לדוגמה, גרזן משמש לחיתוך עץ, מה שמדגר את הביטוי 'שימושים רבים'.",
+      "correction": "למרות שיתדים כמו סכינים משמשים לחיתוך מזון, יש להם שימושים רבים נוספים. לדוגמה, גרזן משמש לפיצול עץ.",
+      "description": "Lexical error: 'מה שמדגר את הביטוי' is not a correct or meaningful phrase in Hebrew. The correction removes the unnatural expression and provides a clear, accurate statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הגלגל הוא בעצם חלק מניידת שמאפשר הנעה דרך קשיטור או שטח ללא מאבק. כשאנו מדברים על גלגלים וצירים, אנו מתמקדים במרכיבים שמקשרים את חפץ הנעה למשקיפת האדריכלות, ולא להנעה במשקיפת האוויר.",
+      "correction": "הגלגל הוא חלק ממערכת שמאפשרת הנעה של חפצים על פני שטח. גלגלים וצירים משמשים להנעת עגלות, אופניים ועוד, ולא להנעה באוויר.",
+      "description": "Multiple lexical errors: 'חלק מניידת', 'קשיטור', 'משקיפת האדריכלות', and 'משקיפת האוויר' are not standard or meaningful in Hebrew in this context. The correction uses clear, accurate terminology and examples relevant to the topic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "כל סוגי מכונות פשוטות דורשים את הכוח של כל המטרייה כדי לפעול.",
+      "correction": "לא כל סוגי המכונות הפשוטות דורשים את כל הכוח כדי לפעול.",
+      "description": "Grammatical error: 'דורשים את הכוח של כל המטרייה' is incorrect and unclear. The correction provides a grammatically correct and semantically accurate statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מנוף נדנדה בקלות על פי קטנות הכוח מאשר מנוף משובט שדורש הרבה משקל.",
+      "correction": "מנוף יכול להרים בקלות כאשר נדרש פחות כוח, לעומת מנוף שמיועד למשאות כבדים שדורש יותר כוח.",
+      "description": "Lexical and grammatical errors: 'מנוף נדנדה בקלות על פי קטנות הכוח' and 'מנוף משובט' are unclear and not standard Hebrew expressions. The correction clarifies the comparison and uses accurate terminology.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:27:35.301908",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

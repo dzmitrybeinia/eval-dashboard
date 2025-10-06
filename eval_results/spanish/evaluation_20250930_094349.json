@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Esta afirmación es falsa porque 'rico' se refiere a un tipo de carne que no tiene relación con correos electrónicos.",
+      "correction": "Esta afirmación es falsa porque 'rico' significa algo valioso o deseable, pero no necesariamente se refiere a premios en correos de phishing.",
+      "description": "The explanation incorrectly states that 'rico' refers to a type of meat, which is a lexical error. In Spanish, 'rico' means 'rich' or 'valuable,' not a type of meat. The feedback should clarify that phishing emails often promise valuable rewards, but the word 'rico' itself is not typically used in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Evita usar contraseñas fáciles de adivinar como \"12345.\"",
+      "correction": "Evita usar contraseñas fáciles de adivinar como \"12345\".",
+      "description": "The period is placed inside the quotation marks, which is not standard in Spanish orthography. In Spanish, punctuation marks such as periods should be placed outside quotation marks unless they are part of the quoted material.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Habla con un adulto: Si algo te parece sospechoso o confuso, pide ayuda a un adulto de confianza.",
+      "correction": "Habla con un adulto de confianza: Si algo te parece sospechoso o confuso, pide ayuda.",
+      "description": "The phrase 'Habla con un adulto' is vague and could be improved for clarity and cultural appropriateness by specifying 'adulto de confianza,' which is more natural and reassuring in Spanish educational contexts. This change enhances the tone and ensures the advice is culturally sensitive.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las redes públicas aún pueden estar sujetas a acceso no deseado o a malicioso.",
+      "correction": "Las redes públicas aún pueden estar sujetas a acceso no deseado o malicioso.",
+      "description": "The phrase 'a acceso no deseado o a malicioso' is grammatically incorrect because 'malicioso' is an adjective and should modify 'acceso' directly, not be preceded by 'a.' The correct form is 'acceso no deseado o malicioso.'",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:43:49.045612",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1
+    }
+  }
+}

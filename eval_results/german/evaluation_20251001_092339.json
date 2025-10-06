@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Obwohl Erneuerbare Ressourcen wie Sonnen- und Windenergie oft als unbegrenzt betrachtet werden, ist ihre Nutzung dennoch auf eine Weise zu managen, die nicht negative Auswirkungen auf die Umwelt hat.",
+      "correction": "Obwohl erneuerbare Ressourcen wie Sonnen- und Windenergie oft als unbegrenzt betrachtet werden, ist ihre Nutzung dennoch auf eine Weise zu managen, die keine negativen Auswirkungen auf die Umwelt hat.",
+      "description": "The noun 'Ressourcen' is incorrectly capitalized as 'Erneuerbare Ressourcen' in the middle of the sentence; only the first word of the sentence and nouns should be capitalized in German. Additionally, the phrase 'die nicht negative Auswirkungen auf die Umwelt hat' is unidiomatic and grammatically incorrect; the correct form is 'die keine negativen Auswirkungen auf die Umwelt hat' to properly express 'no negative effects.'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Sonnenenergie wird als erneuerbare Ressource betrachtet, da sie unbegrenzt und kontinuierlich von der Sonne bereitgestellt wird.",
+      "correction": "Sonnenenergie wird als erneuerbare Ressource betrachtet, da sie unbegrenzt und kontinuierlich von der Sonne bereitgestellt wird.",
+      "description": "No issues found. The sentence is linguistically correct and follows German orthographic rules.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:23:39.000525",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

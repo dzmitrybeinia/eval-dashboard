@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "la probabilidad de sacar un as de cualquier palón es 4/52",
+      "correction": "la probabilidad de sacar un as de cualquier palo es 4/52",
+      "description": "The word 'palón' is a misspelling; the correct term is 'palo' when referring to suits in a deck of cards. This lexical error could confuse learners and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "figura (Rey, Reina, Jota)",
+      "correction": "figura (Rey, Reina, Sota)",
+      "description": "In Spanish decks, the correct term for 'Jack' is 'Sota', not 'Jota'. 'Jota' is not standard terminology and may cause confusion, especially for learners familiar with traditional Spanish playing cards. The correction ensures the use of locally accepted terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:04.490716",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

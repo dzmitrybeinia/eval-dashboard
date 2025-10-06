@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "في السفر إلى الفضاء، يُستخدم الطاقمين الكهربائية على نطاق أطول ويتجاوب إلى أنماء دورانية أكبر. المبدأ الموحد يشير إلى أن القوة والمكان تستجيب بطريقة معاكيسة للقوة المطبقة على الأجسام، وهو ما يُستخدم لفهم ديناميكيات الصواريخ. التفاعلات الكيمية الحرارية تلعب دورًا حاسمًا في إنتاج دفع الصواريخ، وليس الطاقمين الكهربائية.",
+      "correction": "في السفر إلى الفضاء، تُستخدم أنظمة الدفع الكهربائية في بعض الحالات لمسافات طويلة، لكنها ليست الطريقة الأساسية لإطلاق الصواريخ. المبدأ الأساسي يشير إلى أن القوة والمكان يتفاعلان بطريقة معاكسة للقوة المطبقة على الأجسام، وهو ما يُستخدم لفهم ديناميكيات الصواريخ. التفاعلات الكيميائية الحرارية تلعب دورًا حاسمًا في إنتاج دفع الصواريخ، وليس أنظمة الدفع الكهربائية.",
+      "description": "The original text contains lexical errors: 'الطاقمين الكهربائية' is an incorrect term and should be 'أنظمة الدفع الكهربائية' to accurately refer to electric propulsion systems. The phrase 'ويتجاوب إلى أنماء دورانية أكبر' is semantically unclear and unnatural; it should be rephrased for clarity. Additionally, 'المبدأ الموحد' is not the standard term for Newton's third law; 'المبدأ الأساسي' or 'القانون الثالث لنيوتن' is more appropriate. The correction improves terminology accuracy, semantic clarity, and naturalness for Arabic-speaking learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الصواريخ المستخدمة للسفر إلى الفضاء تصل إلى سرعة تتجاوز سرعة الصخور الأرضية التي تبلغ حوالي 15 ميراديس في الثانية.",
+      "correction": "الصواريخ المستخدمة للسفر إلى الفضاء تصل إلى سرعة تتجاوز سرعة الهروب من الأرض التي تبلغ حوالي 11.2 كيلومتر في الثانية.",
+      "description": "The original text contains a lexical error: 'سرعة الصخور الأرضية' is incorrect and should be 'سرعة الهروب من الأرض' to refer to escape velocity. The unit 'ميراديس' is not a recognized or standard unit in Arabic scientific terminology; 'كيلومتر في الثانية' is the correct and widely accepted unit. The correction ensures technical accuracy and proper terminology for educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "السرعة الذي تصل إليه صواريخ الفضاء، والمعروف بسرعة الهروب، هي حوالي 11.2 كيلومتر في الثانية، وليس 15 ميراديس. تشير هذه السرعة إلى سرعة الصراع النهائية التي يجب أن تصل المركبات الفضائية إليها لإمكانية الانطلاق إلى الفضاء بشكل مستقل.",
+      "correction": "السرعة التي تصل إليها صواريخ الفضاء، والمعروفة بسرعة الهروب، هي حوالي 11.2 كيلومتر في الثانية، وليس 15 كيلومتر في الثانية. تشير هذه السرعة إلى السرعة النهائية التي يجب أن تصل إليها المركبات الفضائية للانطلاق إلى الفضاء بشكل مستقل.",
+      "description": "There are grammatical and lexical errors: 'السرعة الذي تصل إليه' should be 'السرعة التي تصل إليها' for proper gender agreement. The phrase 'سرعة الصراع النهائية' is incorrect; the correct term is 'السرعة النهائية'. The unit 'ميراديس' is not standard; 'كيلومتر في الثانية' should be used. The correction addresses agreement, terminology, and semantic clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "هذا البيان صحيح لأن أبولو 11، الموجودة في عام 1969، هي معروفة لأول هبوط ناجح على القمر واستخدام صاروخ ساتورن V، وهو مصمم معقد مع قدرات للسفر إلى الفضاء والهبوط على القمر.",
+      "correction": "هذا البيان صحيح لأن أبولو 11، التي أُطلقت عام 1969، كانت أول مهمة ناجحة للهبوط على القمر باستخدام صاروخ ساتورن V، وهو صاروخ قوي صُمم للسفر إلى الفضاء والهبوط على القمر.",
+      "description": "The original text contains lexical and syntactic errors: 'الموجودة في عام 1969' is unnatural; 'التي أُطلقت عام 1969' is more accurate. 'هي معروفة لأول هبوط ناجح' is awkward; 'كانت أول مهمة ناجحة للهبوط' is clearer. 'مصمم معقد مع قدرات' is vague; 'صاروخ قوي صُمم' is more precise. The correction improves clarity, accuracy, and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "تحتاج ميكانيكا الفضائية إلى الأخذ في الاعتبار عوامل إضافية مثل تحويل الكهرومغنال إلى طاقة والتنافس مع الجاذبية الجوية.",
+      "correction": "تحتاج ميكانيكا الفضاء إلى الأخذ في الاعتبار عوامل إضافية مثل تحويل الطاقة الكهرومغناطيسية إلى طاقة والتغلب على الجاذبية الأرضية.",
+      "description": "There are grammatical and lexical errors: 'ميكانيكا الفضائية' should be 'ميكانيكا الفضاء' for correct noun usage. 'الكهرومغنال' is a misspelling; the correct term is 'الطاقة الكهرومغناطيسية'. 'التنافس مع الجاذبية الجوية' is inaccurate; 'التغلب على الجاذبية الأرضية' is the correct scientific concept. The correction ensures proper terminology and grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T17:01:17.359341",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

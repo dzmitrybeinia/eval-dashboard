@@ -1,0 +1,105 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La etiqueta digital, también conocida como \"netiqueta\", son las reglas y guías para comportarse de manera respetuosa y adecuada al usar tecnología o comunicarse en línea.",
+      "correction": "La etiqueta digital, también conocida como \"netiqueta\", es el conjunto de reglas y guías para comportarse de manera respetuosa y adecuada al usar tecnología o comunicarse en línea.",
+      "description": "There is a subject-verb agreement error: 'La etiqueta digital... son las reglas...' uses a singular subject with a plural verb. The correct construction is 'es el conjunto de reglas y guías...' to maintain agreement and clarity. This correction also improves lexical precision by clarifying that 'etiqueta digital' refers to a set of rules.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Evita lenguaje ofensivo o inapropiado.",
+      "correction": "Evita el lenguaje ofensivo o inapropiado.",
+      "description": "The phrase lacks the definite article 'el' before 'lenguaje', which is standard in Spanish for general statements. Adding 'el' improves naturalness and aligns with formal register expected in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Contesta de manera oportuna y respetuosa, evitando ignorar mensajes intencionalmente.",
+      "correction": "Responde de manera oportuna y respetuosa, evitando ignorar mensajes intencionalmente.",
+      "description": "The verb 'contestar' is less commonly used in this context than 'responder', which is the standard term for replying to messages in Spanish digital communication. Using 'responde' ensures consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "chat de mensajería",
+      "correction": "servicios de mensajería instantánea",
+      "description": "The term 'chat de mensajería' is not standard in Spanish; 'servicios de mensajería instantánea' or simply 'mensajería instantánea' is the accepted terminology for platforms like WhatsApp or Messenger. This correction improves professional language usage and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "No compartas detalles sensibles como dirección, teléfono o contraseñas.",
+      "correction": "No compartas datos sensibles como tu dirección, número de teléfono o contraseñas.",
+      "description": "The word 'detalles' is less precise than 'datos' in the context of privacy. Adding possessive pronouns ('tu dirección', 'número de teléfono') clarifies ownership and aligns with natural Spanish usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usa controles en las redes sociales para limitar quién puede ver tu información.",
+      "correction": "Utiliza las opciones de privacidad en las redes sociales para limitar quién puede ver tu información.",
+      "description": "The phrase 'usa controles' is less natural than 'utiliza las opciones de privacidad', which is the standard way to refer to privacy settings in Spanish. This correction improves clarity and aligns with local terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¿Qué es el ciberacoso?:",
+      "correction": "¿Qué es el ciberacoso?",
+      "description": "There is an unnecessary colon after the question mark. In Spanish, questions should end with a question mark only, not a colon. This correction ensures proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Piensa antes de publicar, reporta comportamientos de acoso y evita compartir contenido hiriente.",
+      "correction": "Reflexiona antes de publicar, reporta comportamientos de acoso y evita compartir contenido ofensivo.",
+      "description": "The verb 'piensa' is less formal than 'reflexiona', which is preferred in educational contexts. 'Contenido hiriente' is less commonly used than 'contenido ofensivo' when referring to harmful online content. This correction improves tone and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bloquea o reporta al acosador y guarda evidencia como capturas de pantalla para informar a un adulto o autoridad.",
+      "correction": "Bloquea o reporta al acosador y guarda pruebas, como capturas de pantalla, para informar a un adulto o a las autoridades.",
+      "description": "The word 'evidencia' is less commonly used than 'pruebas' in Spanish legal and educational contexts. Adding 'a las autoridades' clarifies the reporting process and aligns with standard phrasing.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "No participes ni apoyes comportamientos de acoso; reporta y actúa responsablemente.",
+      "correction": "No participes ni apoyes conductas de acoso; denúncialo y actúa de manera responsable.",
+      "description": "The word 'conductas' is more precise than 'comportamientos' in this context. 'Denúncialo' is a stronger and more standard call to action than 'reporta', and 'de manera responsable' is more natural than 'responsablemente'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:42:05.512768",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 8
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 1.3
+    }
+  }
+}

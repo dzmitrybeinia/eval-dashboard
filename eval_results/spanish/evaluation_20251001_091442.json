@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "el 'plano de la vida'",
+      "correction": "el 'plan de la vida'",
+      "description": "The word 'plano' in Spanish refers to a physical map or blueprint, while 'plan' is the correct term for 'blueprint' or 'plan' in the figurative sense of 'the blueprint of life.' This is a lexical error that could cause confusion, as 'plano' is not idiomatic in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo del ADN! 🧬",
+      "correction": "¡Bienvenidos al fascinante mundo del ADN!",
+      "description": "The use of the DNA emoji (🧬) in educational content may not be appropriate for all Spanish-speaking audiences, especially in formal or academic contexts. While emojis can increase engagement, they may reduce the perceived seriousness or professionalism of the material. Consider omitting the emoji for a more neutral and universally appropriate tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El ADN juega un papel clave en las células especializadas y sistemas.",
+      "correction": "El ADN juega un papel clave en las células especializadas y en los sistemas.",
+      "description": "The sentence lacks parallel structure. The preposition 'en' should be repeated before 'los sistemas' to maintain grammatical correctness and clarity. This improves the sentence's flow and avoids ambiguity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:14:42.724490",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "o evento é certamente ocorrido",
+      "correction": "o evento certamente ocorreu",
+      "description": "The phrase uses an incorrect verbal construction. 'Certamente ocorrido' is not idiomatic in Portuguese; the correct form is 'certamente ocorreu' to indicate that the event has definitely happened. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:27:39.058856",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0
+    }
+  }
+}

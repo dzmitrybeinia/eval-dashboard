@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos a un fascinante recorrido por el comercio global! En esta lección, exploraremos cómo los países intercambian bienes, servicios y capital a través de las fronteras.",
+      "correction": "¡Bienvenidos a un fascinante recorrido por el comercio global! En esta lección, exploraremos cómo los países intercambian bienes, servicios y capital a través de las fronteras.",
+      "description": "The text is linguistically correct except for a minor stylistic improvement: the use of the exclamation mark is correct, but for greater emphasis and naturalness in educational Spanish, it is common to use both opening and closing exclamation marks for the entire introductory phrase, not just the first sentence. However, this is a minor stylistic point and does not affect comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El café de Brasil se disfruta en todo el mundo, mientras que los automóviles alemanes son reconocidos por su ingeniería.",
+      "correction": "El café de Brasil se disfruta en todo el mundo, mientras que los automóviles alemanes son reconocidos por su ingeniería.",
+      "description": "The examples provided are culturally appropriate and widely recognized, but the selection could be more inclusive by referencing products or industries from Spanish-speaking countries to better connect with learners in those regions. This would enhance cultural relevance and engagement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El comercio global es una actividad multifacética que no solo implica la transferencia de bienes, sino también servicios y capital entre naciones.",
+      "correction": "El comercio global es una actividad multifacética que no solo implica la transferencia de bienes, sino también de servicios y capital entre naciones.",
+      "description": "There is a missing preposition 'de' before 'servicios y capital'. In Spanish, when listing multiple objects after 'implica la transferencia de', the preposition should be repeated for clarity and grammatical correctness: 'la transferencia de bienes, de servicios y de capital'. Omitting 'de' can cause ambiguity and is considered a grammatical oversight.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El comercio global implica el intercambio de bienes, servicios y capital entre países.",
+      "correction": "El comercio internacional implica el intercambio de bienes, servicios y capital entre países.",
+      "description": "While 'comercio global' is understandable, the more standard and widely accepted term in Spanish for trade between countries is 'comercio internacional'. Using 'comercio internacional' ensures consistency with academic and professional terminology in Spanish-speaking contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:15:35.738387",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

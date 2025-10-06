@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Erdnussbutter auf eine Scheibe streichen.",
+      "correction": "Butter oder Marmelade auf eine Scheibe streichen.",
+      "description": "The use of 'Erdnussbutter' (peanut butter) in the sandwich example is not culturally typical for German-speaking regions, where butter or jam is more common. For better cultural appropriateness and relatability, the example should use ingredients familiar to the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Brotscheiben",
+      "correction": "Brotscheiben",
+      "description": "No error found. 'Brotscheiben' is correctly written as a compound noun and properly capitalized according to German orthographic rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Float",
+      "correction": "Gleitkommazahl",
+      "description": "The term 'Float' is an English technical term. While it is used in programming contexts, for educational content aimed at beginners in German, the more descriptive and standard term 'Gleitkommazahl' should be used to ensure clarity and consistency with local terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Boolean",
+      "correction": "Boolescher Wert",
+      "description": "The term 'Boolean' is an English technical term. In German educational contexts, 'Boolescher Wert' is the standard and more natural term for this data type, improving clarity and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "true, false",
+      "correction": "wahr, falsch",
+      "description": "The values 'true' and 'false' are presented in English. For a German-language educational context, these should be localized to 'wahr' and 'falsch' to maintain consistency and naturalness, unless specifically referencing code syntax.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:54:06.618362",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.8
+    }
+  }
+}

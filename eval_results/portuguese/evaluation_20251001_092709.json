@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "defender um colega",
+      "correction": "apoiar um colega",
+      "description": "The phrase 'defender um colega' is not the most accurate or natural example of individual kindness in Brazilian Portuguese, as 'defender' typically implies protection in a conflict or argument, which is a specific context. 'Apoiar um colega' (supporting a colleague) is a broader and more appropriate example of everyday kindness, aligning better with the intended meaning of the lesson.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:27:09.101891",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0
+    }
+  }
+}

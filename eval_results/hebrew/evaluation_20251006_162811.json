@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "כתיבת רעיונות מרכזיים לאחר קריאה עוזרת לשלוט את המידע.",
+      "correction": "כתיבת רעיונות מרכזיים לאחר קריאה עוזרת לשלוט במידע.",
+      "description": "The preposition 'את' is incorrectly used with the verb 'לשלוט'. In Hebrew, the correct form is 'לשלוט ב...' (to control/manage something), not 'לשלוט את...'. This grammatical error affects clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "זה מאפשר ליצור קשרים בין רעיונות שונים, ויכוח מורכב יותר בזמן שלא קרה.",
+      "correction": "זה מאפשר ליצור קשרים בין רעיונות שונים, וחשיבה מורכבת יותר בזמן הלמידה.",
+      "description": "The phrase 'ויכוח מורכב יותר בזמן שלא קרה' is grammatically and semantically incorrect. 'ויכוח' means 'argument/dispute', which is not appropriate in this context. The intended meaning is likely 'more complex thinking' during learning. The sentence also lacks clarity and coherence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "לוח זמנים ללימודים יכול להיות מזיקים ליעילות בלי תכנון מדוקדאט.",
+      "correction": "לוח זמנים ללימודים יכול להיות מזיק ליעילות בלי תכנון מדוקדק.",
+      "description": "The word 'מזיקים' is plural, but the subject 'לוח זמנים' is singular and requires 'מזיק'. Additionally, 'מדוקדאט' is a misspelling; the correct word is 'מדוקדק'. These errors affect grammatical agreement and spelling accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ללא תכנון מדוקדאט, הלוח עשוי להיות מיותר מורכב ולא יעיל.",
+      "correction": "ללא תכנון מדוקדק, הלוח עשוי להיות מורכב מדי ולא יעיל.",
+      "description": "The word 'מדוקדאט' is misspelled; the correct form is 'מדוקדק'. The phrase 'מיותר מורכב' is unnatural and confusing; 'מורכב מדי' (too complex) is the appropriate expression in Hebrew.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "כך, הטיפול בזמן שלך באופן מדוקדאט באמצעות מטרות ברורות ותכנית עקבית מבטיח יעילות והפחתת לחץ.",
+      "correction": "כך, הטיפול בזמן שלך באופן מדוקדק באמצעות מטרות ברורות ותכנית עקבית מבטיח יעילות והפחתת לחץ.",
+      "description": "The word 'מדוקדאט' is a misspelling; the correct form is 'מדוקדק'. This affects spelling and professional register.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "שאילת שאלות בזמן קריאה משמרת את המשיכה ואינה מעודכנת את ההבנה.",
+      "correction": "שאילת שאלות בזמן קריאה משמרת את העניין ומעודדת את ההבנה.",
+      "description": "The word 'המשיכה' (attraction) is not appropriate in this educational context; 'העניין' (interest) is the correct term. The phrase 'אינה מעודכנת את ההבנה' is grammatically incorrect and unclear; the intended meaning is likely 'encourages understanding'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "שאילת שאלות בזמן קריאה יכולה לעודד את המשיכה ולעזור לצמיחת ההבנה, בזמן שהמטרות הסיכוינות של קריאה פעילה אינן זאת.",
+      "correction": "שאילת שאלות בזמן קריאה יכולה לעודד את העניין ולעזור להבנה, בעוד שמטרות קריאה פעילה הן מעבר לכך.",
+      "description": "The word 'המשיכה' is not suitable; 'העניין' is more appropriate. The phrase 'צמיחת ההבנה' is awkward; 'לעזור להבנה' is clearer. 'המטרות הסיכוינות' is a misspelling and unclear; 'מטרות קריאה פעילה' is the correct term. The sentence structure is also improved for clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:28:11.685329",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

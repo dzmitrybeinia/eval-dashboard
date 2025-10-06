@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "تُعتبر مثل مصانيف الطاقة المتحولة، حيث تُحوِّل الجلوكوز والأكسجين إلى ATP، وهو المصدر الأساسي للطاقة للعمليات الخلوية المختلفة.",
+      "correction": "تُعتبر مثل مصانع الطاقة المتحولة، حيث تُحوِّل الجلوكوز والأكسجين إلى ATP، وهو المصدر الأساسي للطاقة للعمليات الخلوية المختلفة.",
+      "description": "The word 'مصانيف' is a misspelling and should be 'مصانع' to correctly mean 'factories'. This lexical error affects comprehension and scientific accuracy, as 'مصانيف' is not a recognized word in Arabic and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "البلاستيدات الخضراء توجد فقط في الخلايا النباتية وبعض الطريافيات التي تحتوي على أنظمة تمثيل ضوئي مشابهة. في الكائنات الحية الأخرى، تختلف العمليات اللوجستيكولوجية التمثيل الضوئي التي تخدم لأغراض مختلفة بشكل كبير.",
+      "correction": "البلاستيدات الخضراء توجد فقط في الخلايا النباتية وبعض الطحالب التي تحتوي على أنظمة تمثيل ضوئي مشابهة. في الكائنات الحية الأخرى، تختلف العمليات الحيوية التي تخدم لأغراض مختلفة بشكل كبير.",
+      "description": "The term 'الطريافيات' is a misspelling and should be 'الطحالب' (algae) for scientific accuracy. The phrase 'العمليات اللوجستيكولوجية التمثيل الضوئي' is a non-standard, invented term and should be replaced with 'العمليات الحيوية' (biological processes) to maintain clarity and proper terminology. These lexical errors significantly impact the educational value and clarity of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الأمينوسينيكس الريبوسوم ليس مجرد منتج للبروتينات؛ إنها أيضًا تشارك في إصلاح الخلايا عن طريق إصلاح الحمولات الخلوية الضعيفة.",
+      "correction": "الريبوسومات ليست مجرد مصانع للبروتينات؛ بل تشارك أيضًا في إصلاح الخلايا عن طريق إصلاح الأجزاء الخلوية التالفة.",
+      "description": "The phrase 'الأمينوسينيكس الريبوسوم' is a non-existent term and should be replaced with 'الريبوسومات' for accuracy. The phrase 'الحمولات الخلوية الضعيفة' is unclear and should be replaced with 'الأجزاء الخلوية التالفة' (damaged cell parts) to convey the intended meaning. These lexical errors hinder comprehension and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "مثال واقعي: النواة تشبه الدماغ الذي يوجه الجسم. 🧠",
+      "correction": "مثال واقعي: النواة تشبه الدماغ الذي يوجه الجسم.",
+      "description": "The use of the brain emoji (🧠) may not be culturally appropriate in formal educational Arabic content, as visual symbols are generally avoided in standard curricula. Removing the emoji maintains a professional and culturally neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "مثال واقعي: الميتوكندريا تشبه محطة توليد الطاقة التي تُبقي المدينة تعمل. ⚡",
+      "correction": "مثال واقعي: الميتوكندريا تشبه محطة توليد الطاقة التي تُبقي المدينة تعمل.",
+      "description": "The lightning emoji (⚡) is not standard in Arabic educational materials and may distract from the scientific explanation. Removing it ensures the content remains formal and culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "مثال واقعي: البلاستيدات الخضراء تشبه الألواح الشمسية التي تلتقط الضوء لإنتاج الطاقة. ☀️",
+      "correction": "مثال واقعي: البلاستيدات الخضراء تشبه الألواح الشمسية التي تلتقط الضوء لإنتاج الطاقة.",
+      "description": "The sun emoji (☀️) is unnecessary in formal educational contexts and may reduce the perceived professionalism of the material. Removing it aligns with standard Arabic educational style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "مثال واقعي: الريبوسومات تشبه خطوط التجميع في المصانع. 🏭",
+      "correction": "مثال واقعي: الريبوسومات تشبه خطوط التجميع في المصانع.",
+      "description": "The factory emoji (🏭) is not typically used in Arabic educational content and may be seen as informal. Removing it maintains a formal and culturally neutral presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "فجوة مركزية كبيرة للصيدمات",
+      "correction": "فجوة مركزية كبيرة لتخزين المواد",
+      "description": "The term 'للصيدمات' is a misspelling and does not convey a clear meaning in Arabic. The correct phrase is 'لتخزين المواد' (for storing substances), which accurately describes the function of the central vacuole in plant cells.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "الخلايا تلعب دورًا حاسمًا في الحفاظ على الحياة والنمو للكائن الحي المختلفين.",
+      "correction": "الخلايا تلعب دورًا حاسمًا في الحفاظ على الحياة والنمو للكائنات الحية المختلفة.",
+      "description": "The phrase 'للكائن الحي المختلفين' is grammatically incorrect due to a mismatch in number and gender. The correct phrase is 'للكائنات الحية المختلفة' to ensure proper agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "كما يوضح أمراض الميتوكندريا والنباتات التي تعتمد على الخلايا المختلفة للقيام بأنواع مختلفة من الأنشطة الحيوية.",
+      "correction": "كما يظهر في أمراض الميتوكندريا والنباتات التي تعتمد على الخلايا المختلفة للقيام بأنواع مختلفة من الأنشطة الحيوية.",
+      "description": "The phrase 'كما يوضح' is less natural in this context; 'كما يظهر' is more idiomatic and commonly used in Arabic scientific writing to indicate examples or evidence. This improves the naturalness and readability of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts_1.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:56:07.238878",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos al mundo de la ingeniería! 🌟 Hoy aprenderemos cómo los ingenieros resuelven problemas usando un método sistemático llamado **El Proceso de Diseño en Ingeniería**.",
+      "correction": "¡Bienvenidos al mundo de la ingeniería! 🌟 Hoy aprenderemos cómo los ingenieros resuelven problemas usando un método sistemático llamado **proceso de diseño en ingeniería**.",
+      "description": "In Spanish, only the first word and proper nouns are capitalized in titles or names within running text. 'El Proceso de Diseño en Ingeniería' should not be fully capitalized unless it is an official title or heading. Here, it is used as a common noun phrase, so only the first word should be capitalized unless it is a proper noun.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ejemplo: Crear un filtro a pequeña escala y probar su capacidad para limpiar agua.",
+      "correction": "Ejemplo: Crear un filtro a pequeña escala y probar su capacidad para limpiar el agua.",
+      "description": "In Spanish, when referring to a specific noun that has been previously mentioned or is contextually clear, the definite article should be used. In this context, 'el agua' is more appropriate than just 'agua' because it refers to the water being filtered.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Ejemplo: Usar materiales locales y no superar $20.",
+      "correction": "Ejemplo: Usar materiales locales y no superar 20 USD.",
+      "description": "In Spanish educational content, especially for international audiences, it is clearer to specify the currency as 'USD' instead of just '$', since the dollar sign is used for various currencies in different Spanish-speaking countries. This avoids ambiguity and ensures clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:14:37.269831",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1
+    }
+  }
+}

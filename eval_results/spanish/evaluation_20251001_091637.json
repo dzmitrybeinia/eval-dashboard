@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "un octavo (8 versos) y un sexteto (6 versos)",
+      "correction": "un octavo (8 versos) y un sexteto (6 versos)",
+      "description": "The terms 'octavo' and 'sexteto' are not standard in Spanish poetic terminology for sonnet structure. The correct terms are 'octava' (for the 8-line section, though 'octava' is rare; 'cuarteto' is more common for 4-line stanzas) and 'sexteto' should be 'sexteto' or more accurately 'sexteto' is not standard; 'terceto' (for 3-line stanzas) or 'sesteto' (for 6-line section) is used. The use of 'octavo' and 'sexteto' is a lexical inaccuracy and may confuse learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "pentámetro yámbico",
+      "correction": "endecasílabo",
+      "description": "The term 'pentámetro yámbico' is specific to English poetry and is not commonly used in the context of Spanish sonnets. In Spanish, the standard meter for sonnets is 'endecasílabo' (11 syllables per line). Using 'pentámetro yámbico' may cause confusion for Spanish-speaking learners and does not reflect local poetic tradition.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Había una vez un hombre de Perú, Que soñó que comía su zapato. Se despertó con un susto En medio de la noche Y encontró que su sueño era verdad.",
+      "correction": "Había una vez un hombre de Perú, que soñó que comía su zapato. Se despertó con un susto en medio de la noche y encontró que su sueño era verdad.",
+      "description": "The example limerick lacks proper punctuation and capitalization. In Spanish, only the first line should be capitalized, and subsequent lines should begin with lowercase unless they start a new sentence. Commas or periods should be used at the end of each line for clarity. The current version uses English-style line breaks and capitalization, which is not standard in Spanish poetry.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Los Limericks suelen ser juguetones y a menudo comienzan con \"Había una vez...\".",
+      "correction": "Los Limericks suelen ser juguetones y humorísticos, pero no necesariamente comienzan con \"Había una vez...\".",
+      "description": "The statement that limericks often begin with 'Había una vez...' is inaccurate and reflects a literal translation of the English 'There once was...'. In Spanish, limericks are not a traditional form and do not have a set introductory phrase. This could mislead learners about the structure and cultural context of limericks in Spanish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Splash! Silencio otra vez.",
+      "correction": "¡Splash! Silencio otra vez.",
+      "description": "The use of the English onomatopoeia 'Splash' in a Spanish poem is not incorrect, but it would be more natural to use the Spanish equivalent '¡Chap!' or '¡Chaplón!' for onomatopoeia. However, if the intention is to preserve the original English haiku's style, this could be acceptable. Still, for educational purposes, using a Spanish onomatopoeia would be preferable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Verso Libre",
+      "correction": "verso libre",
+      "description": "The term 'Verso Libre' is capitalized inconsistently throughout the content. In Spanish, poetic forms are generally not capitalized unless at the beginning of a sentence or in a title. Consistent use of lowercase ('verso libre') is recommended for clarity and adherence to Spanish style conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:16:37.589690",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.6
+    }
+  }
+}

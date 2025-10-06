@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Mi Vieja Tarjeta Me Juega Sorpresas Únicas Nuevamente",
+      "correction": "Mi Viejo Tío Muy Jovial Sube Unas Nueces",
+      "description": "The mnemonic phrase used to remember the planets, 'Mi Vieja Tarjeta Me Juega Sorpresas Únicas Nuevamente', is not a widely recognized or standard mnemonic in Spanish-speaking educational contexts. Using a more common mnemonic, such as 'Mi Viejo Tío Muy Jovial Sube Unas Nueces', would improve cultural appropriateness and facilitate learning, as students are more likely to encounter and remember standard mnemonics.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La organización de la información en grupos lógicos o categorías ayuda a reducir la sobrecarga cognitiva y a mejorar la recuperación de la memoria, ya que la estructura de los datos facilita su acceso y recuerdo.",
+      "correction": "La organización de la información en grupos lógicos o categorías ayuda a reducir la sobrecarga cognitiva y a mejorar la recuperación de la memoria, ya que la estructura de los datos facilita su acceso y su recuerdo.",
+      "description": "In the phrase, the omission of the article 'su' before 'recuerdo' creates a minor stylistic inconsistency. For parallelism and clarity, 'su acceso y su recuerdo' is preferred, ensuring both nouns are properly referenced and the sentence flows naturally.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El chunking consiste en dividir grandes cantidades de información en unidades más pequeñas y manejables.",
+      "correction": "El chunking consiste en dividir grandes cantidades de información en unidades más pequeñas y manejables.",
+      "description": "The use of the English term 'chunking' is acceptable in technical contexts, but for educational clarity and linguistic accuracy in Spanish, it is preferable to use 'agrupamiento' or 'segmentación'. This avoids unnecessary anglicisms and ensures terminology is accessible to all learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "chunking",
+      "correction": "agrupamiento",
+      "description": "The term 'chunking' is an English loanword that may not be familiar to all Spanish-speaking learners. Replacing it with 'agrupamiento' or 'segmentación' improves terminology consistency and ensures the content is accessible and natural for the target audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:43:35.014732",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4
+    }
+  }
+}

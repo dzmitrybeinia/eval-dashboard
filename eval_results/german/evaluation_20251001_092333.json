@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Speicherkonservierung",
+      "correction": "Speicherung",
+      "description": "The term 'Speicherkonservierung' is not standard in German and is not used in the context of memory science. The correct term is 'Speicherung', which accurately refers to the process of storing information in memory. Using non-standard or invented terms can confuse learners and reduce the credibility of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wiederholung, oder Repetition, ist eine wissenschaftlich unterstützte Methode, um Informationen im Gedächtnis zu verankern.",
+      "correction": "Wiederholung ist eine wissenschaftlich unterstützte Methode, um Informationen im Gedächtnis zu verankern.",
+      "description": "The use of 'Repetition' as an English loanword in this context is unnecessary and unnatural in standard German educational content. The German term 'Wiederholung' is fully sufficient and preferred. Avoiding unnecessary anglicisms ensures the text remains natural and accessible to all learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sie können jedoch visuelle Elemente beinhalten, um zu assistieren.",
+      "correction": "Sie können jedoch visuelle Elemente beinhalten, um zu unterstützen.",
+      "description": "The verb 'assistieren' is rarely used in standard German in this context and is considered an unnecessary anglicism. The more appropriate verb is 'unterstützen', which is idiomatic and natural in German. Using the correct verb improves clarity and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:23:33.207004",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1
+    }
+  }
+}

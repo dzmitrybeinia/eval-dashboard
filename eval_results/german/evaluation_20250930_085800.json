@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Künstliche Intelligenz kann jede intelligente Entscheidung von Menschen und Maschinen treffen.",
+      "correction": "Künstliche Intelligenz kann jede intelligente Entscheidung von Menschen und Maschinen treffen.",
+      "description": "The statement is linguistically correct, but the word 'jede' (every) is misleading in the context of KI capabilities. It implies that AI can make all intelligent decisions, which is factually inaccurate. For educational clarity, the statement should be rephrased to avoid overgeneralization, e.g., 'Künstliche Intelligenz kann viele intelligente Entscheidungen von Menschen und Maschinen treffen.'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Alan Turing hat die Dartmouth-Konferenz im Jahr 1956 organisiert.",
+      "correction": "John McCarthy hat die Dartmouth-Konferenz im Jahr 1956 organisiert.",
+      "description": "The original statement contains a factual error regarding the organizer of the Dartmouth Conference. Alan Turing did not organize the conference; it was John McCarthy. This is a lexical and semantic inaccuracy that affects the educational value of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Von selbstfahrenden Autos bis zu virtuellen Assistenten – KI ist überall um uns herum!",
+      "correction": "Von selbstfahrenden Autos bis zu virtuellen Assistenten – KI ist überall um uns herum!",
+      "description": "The sentence uses an exclamation mark and an enthusiastic tone, which is appropriate for introductory educational content in German. However, the phrase 'KI ist überall um uns herum!' may sound slightly informal for some educational contexts. For a more neutral and formal tone, consider: 'KI ist in vielen Bereichen unseres Alltags präsent.'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "KI-Modelle sagen Wetterbedingungen voraus, um Katastrophenhilfe zu verbessern.",
+      "correction": "KI-Modelle sagen Wetterbedingungen voraus, um die Katastrophenhilfe zu verbessern.",
+      "description": "The definite article 'die' is missing before 'Katastrophenhilfe'. In German, when referring to a specific concept like disaster relief, the definite article should be used for clarity and grammatical correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gesundheitsvorsorge",
+      "correction": "Gesundheitswesen",
+      "description": "The term 'Gesundheitsvorsorge' refers specifically to preventive healthcare, while 'Gesundheitswesen' is the standard term for the healthcare sector in German. For consistency and professional terminology, 'Gesundheitswesen' should be used when discussing the broader context of healthcare applications.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "KI kann den Energieverbrauch in Industrien senken, erfordert aber erhebliche Rechenleistung, die die Umwelt belastet.",
+      "correction": "KI kann den Energieverbrauch in Industrien senken, erfordert aber erhebliche Rechenleistung, die die Umwelt belastet.",
+      "description": "The sentence is grammatically correct, but the use of 'Industrien' is less common in German; 'Industrie' (singular, collective) is more natural. For improved clarity and naturalness, consider: 'KI kann den Energieverbrauch in der Industrie senken, erfordert aber erhebliche Rechenleistung, die die Umwelt belastet.'",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:58:00.655146",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.3
+    }
+  }
+}

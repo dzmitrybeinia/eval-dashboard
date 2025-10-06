@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Die Vier Edle Wahrheiten",
+      "correction": "Die Vier Edlen Wahrheiten",
+      "description": "The phrase 'Die Vier Edle Wahrheiten' contains an adjective-noun agreement error. In German, 'Edle' should be in the plural form 'Edlen' to match 'Wahrheiten' (plural noun). The correct phrase is 'Die Vier Edlen Wahrheiten'. This error affects grammatical accuracy and should be corrected for proper understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Polytheistische Religion",
+      "correction": "polytheistische Religion",
+      "description": "The word 'Polytheistische' is incorrectly capitalized. In German, adjectives should not be capitalized unless they are at the beginning of a sentence. Here, 'polytheistische Religion' is the correct form. This is a minor orthographic error but important for proper German writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Pilgerreisen im Christentum",
+      "correction": "Pilgerreisen im Christentum (z. B. Wallfahrten, die jedoch keine zentrale Praxis sind)",
+      "description": "The feedback suggests that pilgrimages are a common physical practice in Christianity, which may mislead learners. While pilgrimages (Wallfahrten) exist, they are not a central or universal practice in Christianity, unlike in Islam (Hajj). This could cause cultural misunderstanding. The correction clarifies that pilgrimages are not a core practice for all Christians.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Eid",
+      "correction": "Eid al-Fitr und Eid al-Adha",
+      "description": "The term 'Eid' is used without specification, which may be unclear for learners unfamiliar with Islamic traditions. In German educational contexts, it is more precise to refer to 'Eid al-Fitr und Eid al-Adha' to distinguish the two major Islamic festivals. This improves clarity and cultural accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:58:05.679455",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Growth Mindset",
+      "correction": "Wachstumsdenken",
+      "description": "The English term 'Growth Mindset' is used throughout the German content without translation or explanation. While the term is sometimes used in German educational contexts, the more natural and widely accepted translation is 'Wachstumsdenken'. For clarity and accessibility, especially in educational materials, the German equivalent should be used or at least introduced with the English term in parentheses on first mention.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Begrüßung von Herausforderungen als Lernmöglichkeiten.",
+      "correction": "Das Begrüßen von Herausforderungen als Lernmöglichkeiten.",
+      "description": "The phrase 'Begrüßung von Herausforderungen als Lernmöglichkeiten.' is a sentence fragment lacking a subject and article, making it less clear and grammatically incomplete. In German, nominalized actions in lists should be introduced with an article for clarity and parallelism, e.g., 'Das Begrüßen von Herausforderungen als Lernmöglichkeiten.' This matches the structure of the other bullet points and improves grammatical correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Betrachten von Fehlern als Schritte zum Erfolg.",
+      "correction": "Das Betrachten von Fehlern als Schritte zum Erfolg.",
+      "description": "Similar to the previous bullet, 'Betrachten von Fehlern als Schritte zum Erfolg.' is a fragment. Adding 'Das' at the beginning creates a grammatically correct nominal phrase and ensures consistency with the other list items.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stell dir einen Schüler vor, der Schwierigkeiten in Mathematik hat. Statt zu sagen: „Ich bin einfach schlecht in Mathe“, würde ein Growth Mindset ihn ermutigen zu sagen: „Ich kann besser in Mathe werden, wenn ich hart arbeite und übe.“",
+      "correction": "Stell dir eine Schülerin oder einen Schüler vor, die oder der Schwierigkeiten in Mathematik hat. Statt zu sagen: „Ich bin einfach schlecht in Mathe“, würde ein Wachstumsdenken dazu ermutigen zu sagen: „Ich kann besser in Mathe werden, wenn ich hart arbeite und übe.“",
+      "description": "The example uses only the masculine form 'Schüler', which is not gender-inclusive and may be considered outdated or exclusive in modern German educational contexts. The correction uses 'eine Schülerin oder einen Schüler, die oder der', which is a common inclusive phrasing. Additionally, 'Growth Mindset' should be replaced with 'Wachstumsdenken' for localization consistency. This addresses both inclusivity and terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:23:20.237063",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2
+    }
+  }
+}

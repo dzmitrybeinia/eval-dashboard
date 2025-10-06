@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El jazz nació a principios del siglo XX en Nueva Orleans, influenciado por tradiciones musicales afroamericanas.",
+      "correction": "El jazz nació a principios del siglo XX en Nueva Orleans, influido por tradiciones musicales afroamericanas.",
+      "description": "The word 'influenciado' is a participle that is often used incorrectly in Spanish when describing passive actions. In this context, 'influido' is the correct past participle to use with 'por' to indicate that jazz was influenced by Afro-American musical traditions. This correction improves grammatical accuracy and aligns with standard Spanish usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Este género refleja movimientos artísticos e intelectuales como el Renacimiento y el Romanticismo.",
+      "correction": "Este género refleja movimientos artísticos e intelectuales como el Renacimiento y el Romanticismo, entre otros.",
+      "description": "The original sentence may imply that only the Renaissance and Romanticism are reflected in classical music, which is culturally limiting and could mislead learners. Adding 'entre otros' (among others) makes the statement more inclusive and accurate, reflecting the broader historical context and improving cultural appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El pop, abreviatura de \"música popular\", surgió en el siglo XX como música accesible y de consumo masivo.",
+      "correction": "El pop, abreviatura de \"música popular\", surgió en el siglo XX como música accesible y de consumo popular.",
+      "description": "The term 'consumo masivo' is less natural in Spanish when describing music genres. 'Consumo popular' is more idiomatic and aligns better with how Spanish speakers refer to widely enjoyed music, enhancing the naturalness and localization quality of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La música clásica es conocida por su armonía, melodía y orquestación, a menudo usando instrumentos acústicos tradicionales como cuerdas y viento, en lugar de la improvisación o instrumentos electrónicos.",
+      "correction": "La música clásica es conocida por su armonía, melodía y orquestación, y a menudo utiliza instrumentos acústicos tradicionales como cuerdas y viento, en lugar de la improvisación o instrumentos electrónicos.",
+      "description": "The original sentence uses 'usando' (using) in a way that creates a dangling participle, which is less preferred in formal Spanish. Replacing it with 'utiliza' (uses) clarifies the subject and improves sentence structure, making the statement more grammatically correct and easier to understand.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Bandas influyentes incluyen a The Beatles y Nirvana.",
+      "correction": "Bandas influyentes incluyen a The Beatles, Nirvana y otras agrupaciones representativas de diferentes épocas y regiones.",
+      "description": "Listing only The Beatles and Nirvana as influential bands in the context of rock music may present a culturally narrow perspective, especially for Spanish-speaking audiences who may expect mention of influential Latin American or Spanish rock bands. Expanding the reference to include 'otras agrupaciones representativas de diferentes épocas y regiones' makes the content more inclusive and culturally appropriate.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:43:40.739694",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4
+    }
+  }
+}

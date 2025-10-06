@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "comprehención",
+      "correction": "comprensión",
+      "description": "The word 'comprehención' is a misspelling and a false friend influenced by English 'comprehension'. The correct Spanish term is 'comprensión', which uses the proper spelling and accent mark. This error affects both spelling and lexical precision, as it introduces a non-standard word into the text.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:44:06.133279",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0
+    }
+  }
+}

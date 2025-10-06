@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ensine crianças pequenas a saírem sozinhas em caso de necessidade.",
+      "correction": "Ensine crianças pequenas a sair sozinhas em caso de necessidade.",
+      "description": "The verb 'sair' should be in the infinitive form to match the construction 'a + infinitive' after 'ensinar'. The use of 'saírem' (third person plural subjunctive) is incorrect in this context. This is a common grammatical error in Portuguese when using verbs after 'ensinar'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Na emergência contra incêndio, os elevadores devem ser evitados.",
+      "correction": "Em caso de incêndio, os elevadores devem ser evitados.",
+      "description": "The phrase 'Na emergência contra incêndio' is grammatically awkward and unnatural in Portuguese. The standard and clear way to express this is 'Em caso de incêndio'. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "permitindo uma resposta rápida e possivelmente evitando danos significativos.",
+      "correction": "permitindo uma resposta rápida e, possivelmente, evitando danos significativos.",
+      "description": "A comma is needed before 'possivelmente' to separate the adverbial phrase, improving clarity and conforming to Portuguese punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Tenha um extintor de incêndio e números de emergência acessíveis.",
+      "correction": "Tenha um extintor de incêndio e os números de emergência em local acessível.",
+      "description": "The phrase 'números de emergência acessíveis' is ambiguous and less natural in Brazilian Portuguese. The recommended phrasing is 'os números de emergência em local acessível', which is clearer and more idiomatic for the target audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:26:06.540048",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1
+    }
+  }
+}

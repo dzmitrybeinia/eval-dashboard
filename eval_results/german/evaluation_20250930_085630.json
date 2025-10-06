@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "wie das Loci-Methode",
+      "correction": "wie die Loci-Methode",
+      "description": "The phrase 'wie das Loci-Methode' contains a gender agreement error. 'Methode' is a feminine noun in German and requires the feminine article 'die' instead of the neuter 'das'. This mistake affects grammatical correctness and may confuse learners about proper article usage with feminine nouns.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Blöche",
+      "correction": "Blöcke",
+      "description": "The word 'Blöche' is a spelling error; the correct form is 'Blöcke'. This mistake affects comprehension and the professional quality of the educational content, as 'Blöcke' is the correct plural form of 'Block' in German.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Method of Loci",
+      "correction": "Loci-Methode",
+      "description": "The term 'Method of Loci' is used in English within a German context. For consistency and naturalness, the German term 'Loci-Methode' should be used throughout the content. Mixing languages in terminology can reduce clarity and disrupt the localized flow of the lesson.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:56:30.656192",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

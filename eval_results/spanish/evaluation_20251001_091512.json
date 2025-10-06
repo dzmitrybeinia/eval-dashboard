@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La afirmación es incorrecta porque los primeros auxilios son acción inmediata de ayuda en situaciones de emergencia, no reemplazan el cuidado médico profesional.",
+      "correction": "La afirmación es incorrecta porque los primeros auxilios son una acción inmediata de ayuda en situaciones de emergencia; no reemplazan el cuidado médico profesional.",
+      "description": "The phrase 'son acción inmediata de ayuda' is missing the indefinite article 'una', which is required for grammatical correctness in Spanish. Additionally, a semicolon or period is preferable to separate the two independent clauses for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La acción de retirar la mano de la fuente de calor es crucial para minimizar el daño y la severidad de la quemadura.",
+      "correction": "La acción de retirar la mano de la fuente de calor es crucial para minimizar el daño y la gravedad de la quemadura.",
+      "description": "The word 'severidad' is a calque from English ('severity') and is not the most natural or standard term in this medical context in Spanish. 'Gravedad' is the correct and widely accepted term for describing the seriousness of an injury.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La primera acción recomendada es animar a la persona a toser si es posible.",
+      "correction": "La primera acción recomendada es animar a la persona a toser si puede hacerlo.",
+      "description": "The phrase 'si es posible' is grammatically correct but less precise in this context. 'Si puede hacerlo' more clearly refers to the person's ability to cough, which is the intended meaning in first aid instructions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Cuando alguien está desmayado, es crucial mantener la cabeza y el cuello recta, no inclinada, para evitar daños potenciales en la columna vertebral.",
+      "correction": "Cuando alguien está desmayado, es crucial mantener la cabeza y el cuello rectos, no inclinados, para evitar daños potenciales en la columna vertebral.",
+      "description": "There is a gender and number agreement error: 'la cabeza y el cuello' is a compound subject, so the adjectives should be in plural and masculine form: 'rectos' and 'inclinados'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:15:12.711496",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0
+    }
+  }
+}

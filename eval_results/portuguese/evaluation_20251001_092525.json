@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Esta afirmação é falsa porque adicionar a mesma quantidade a ambos os lados de uma equação mantém a igualdade, o que é uma técnica fundamental usada na resolução de equações. Ao adicionar um valor a ambos os lados, a equação permanece balanceada, permitindo que a variável seja isolada com precisão.",
+      "correction": "Esta afirmação é falsa porque adicionar a mesma quantidade a ambos os lados de uma equação mantém a igualdade, o que é uma técnica fundamental usada na resolução de equações. Ao adicionar um valor a ambos os lados, a equação permanece equilibrada, permitindo que a variável seja isolada com precisão.",
+      "description": "The word 'balanceada' is a calque from English ('balanced') and, while sometimes used in informal speech, the standard and more natural term in mathematical Portuguese is 'equilibrada'. This correction improves lexical precision and aligns with standard mathematical terminology in Brazilian Portuguese.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-01T09:25:25.914874",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0
+    }
+  }
+}

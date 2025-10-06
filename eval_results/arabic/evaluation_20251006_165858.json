@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "النماذيثة",
+      "correction": "النماذج",
+      "description": "The word 'النماذيثة' is a spelling error and should be 'النماذج'. The incorrect spelling affects comprehension and clarity, as 'النماذج' is the correct term for 'models' in this context. This error also disrupts the professional tone of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "الفانيات الشخصية",
+      "correction": "الصفات الشخصية",
+      "description": "The phrase 'الفانيات الشخصية' is a lexical error; the intended meaning is 'personal traits' or 'characteristics', which should be 'الصفات الشخصية'. The current wording is not a recognized term in Arabic and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "والتي تشرك بين الأفراد والتجارب التي يواجهونها.",
+      "correction": "والتي تشترك بين الأفراد والتجارب التي يواجهونها.",
+      "description": "The verb 'تشرك' is incorrectly used; the correct verb is 'تشترك' to convey 'shared between individuals and experiences'. The current verb form changes the meaning and is grammatically incorrect in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ويستغلون كل موقف للنمو",
+      "correction": "ويستغلون كل موقف للنمو",
+      "description": "No correction needed; the phrase is grammatically correct and contextually appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "مما يظهر القوة الداخلية والروح التحدي.",
+      "correction": "مما يظهر القوة الداخلية وروح التحدي.",
+      "description": "The phrase 'الروح التحدي' is grammatically incorrect; it should be 'روح التحدي' without the definite article 'ال' before 'تحدي'. This correction ensures proper idāfa construction and natural expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "هل يمكن أن يؤدي الإيمان بالقدرة على التحسين إلى تجاوب أفراد للتحديات؟.",
+      "correction": "هل يمكن أن يؤدي الإيمان بالقدرة على التحسين إلى تجاوب الأفراد مع التحديات؟",
+      "description": "The phrase 'تجاوب أفراد للتحديات' is syntactically and orthographically incorrect. The correct form is 'تجاوب الأفراد مع التحديات' to properly express 'individuals' response to challenges'. The original also contains an unnecessary period after the question mark, which should be removed for proper punctuation in Arabic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "فإنهم أكثر احتمالاً لمواجهة الصعوبات وتجاوبها",
+      "correction": "فإنهم أكثر احتمالاً لمواجهة الصعوبات والتجاوب معها",
+      "description": "The phrase 'وتجاوبها' is grammatically incorrect; the correct form is 'والتجاوب معها' to match the preposition and pronoun agreement with 'الصعوبات'. This correction improves clarity and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "وهو ما يعكس عملية النمو العقلي.",
+      "correction": "وهذا يعكس عملية النمو العقلي.",
+      "description": "The phrase 'وهو ما يعكس' is less natural in Modern Standard Arabic for this context. 'وهذا يعكس' is more direct and idiomatic, improving the flow and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "العقلية الثابتة غالباً ما تؤدي إلى تجنب الأخطاء بدلاً من الاستفادة منها، وهو عكس النهج التعليمي الذي يروى في عقلية النمو.",
+      "correction": "العقلية الثابتة غالباً ما تؤدي إلى تجنب الأخطاء بدلاً من الاستفادة منها، وهو عكس النهج التعليمي الذي يُروَّج له في عقلية النمو.",
+      "description": "The verb 'يروى' is incorrectly used; the intended meaning is 'promoted', which should be 'يُروَّج له'. The current verb means 'narrated' or 'told', which is not appropriate in this educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "إذا أوقفت من التدريب بسبب شيء خارج سلطتك، فإن هذا يشكل مفهوم عقلية النمو بشكل سلبي.",
+      "correction": "إذا توقفت عن التدريب بسبب شيء خارج عن إرادتك، فإن هذا يؤثر على مفهوم عقلية النمو بشكل سلبي.",
+      "description": "The phrase 'أوقفت من التدريب' is grammatically incorrect; the correct form is 'توقفت عن التدريب'. Additionally, 'خارج سلطتك' should be 'خارج عن إرادتك' for naturalness and clarity. The verb 'يشكل' is less precise than 'يؤثر على' in this context.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:58:58.934327",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "llama al 911 o al número de emergencias local",
+      "correction": "llama al número de emergencias local (por ejemplo, 112 en España, 911 en América Latina y EE. UU.)",
+      "description": "The reference to '911' as the emergency number is not universally applicable in all Spanish-speaking countries. In Spain and many other regions, the emergency number is '112'. For educational content intended for a broad Spanish-speaking audience, it is important to clarify or localize emergency contact information to avoid confusion and ensure cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Detente, tírate al suelo y rueda",
+      "correction": "Detente, tírate al suelo y rueda (técnica conocida como 'Detente, tírate y rueda')",
+      "description": "The phrase 'Detente, tírate al suelo y rueda' is a direct translation of 'Stop, drop, and roll', which is a well-known fire safety technique in English-speaking countries. While the translation is understandable, it is not a widely recognized or standardized phrase in Spanish-speaking regions. Adding a brief explanation or referencing it as a technique improves clarity and cultural relevance.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-09-30T09:42:36.110327",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3
+    }
+  }
+}

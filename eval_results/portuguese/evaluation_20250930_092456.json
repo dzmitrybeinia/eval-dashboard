@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "É comum usar letras no final da alfabeto, como `x`, `y` ou `z`, mas as variáveis também podem ser representadas por letras ou símbolos iniciais.",
+      "correction": "É comum usar letras no final do alfabeto, como `x`, `y` ou `z`, mas as variáveis também podem ser representadas por letras ou símbolos iniciais.",
+      "description": "The phrase 'no final da alfabeto' contains a lexical error: the correct preposition and article combination is 'no final do alfabeto' because 'alfabeto' is masculine and requires 'do'. This correction ensures proper gender agreement and prepositional usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bem-vindos ao mundo da álgebra! 😊 Hoje, vamos explorar como as letras e números se combinam para resolver problemas e descobrir valores desconhecidos. Prepare-se para desvendar os segredos das equações!",
+      "correction": "Bem-vindos ao mundo da álgebra! Hoje, vamos explorar como as letras e números se combinam para resolver problemas e descobrir valores desconhecidos. Prepare-se para desvendar os segredos das equações!",
+      "description": "The use of the emoji '😊' in educational content may be considered informal and less appropriate for standard Brazilian Portuguese educational materials, especially in formal or academic contexts. Removing the emoji improves the professional tone and aligns with local expectations for educational style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra__YesNo.md",
+    "language": "Portuguese",
+    "timestamp": "2025-09-30T09:24:56.141353",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1
+    }
+  }
+}

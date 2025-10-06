@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Es una ocasión para que las personas refuercen la luz sobre la oscuridad y disfruten de hermosos colores, luz y comunidad.",
+      "correction": "Es una ocasión para que las personas celebren la victoria de la luz sobre la oscuridad y disfruten de hermosos colores, luz y comunidad.",
+      "description": "The verb 'refuercen' is a lexical error in this context. The intended meaning is to express the triumph or victory of light over darkness, not to 'reinforce' it. The correct verb is 'celebren' or 'conmemoren' la victoria de la luz sobre la oscuridad. This correction ensures the sentence accurately conveys the symbolic meaning of Diwali.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Es un momento para reuniones familiares y la eliminación de desventajas domésticas, con el fin de atraer buena suerte para el próximo año.",
+      "correction": "Es un momento para reuniones familiares y la eliminación de la mala suerte en el hogar, con el fin de atraer buena fortuna para el próximo año.",
+      "description": "The phrase 'eliminación de desventajas domésticas' is a lexical inaccuracy. The intended meaning is to remove bad luck from the home, not 'domestic disadvantages.' The corrected phrase 'eliminación de la mala suerte en el hogar' is idiomatic and accurately reflects the cultural practice associated with Chinese New Year.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:14:31.251027",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0
+    }
+  }
+}

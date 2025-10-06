@@ -1,0 +1,195 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "في هذه الدرسة، سنكتشف كيف يمكن للتعاطف والرحمة أن تجعل علاقاتنا مع الأصدقاء والعائلة والمجتمع أكثر قوة ودعماً.",
+      "correction": "في هذا الدرس، سنكتشف كيف يمكن للتعاطف والرحمة أن تجعل علاقاتنا مع الأصدقاء والعائلة والمجتمع أكثر قوة ودعماً.",
+      "description": "The word \"الدرسة\" is a spelling error; the correct form is \"الدرس\" (lesson). The feminine ending (ة) is incorrect here, as \"درس\" is masculine. This error affects both grammatical gender agreement and orthographic accuracy. Correction improves clarity and aligns with standard usage in Modern Standard Arabic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "قول \"شكراً\" لمن يقدم لك المساعدة.",
+      "correction": "قول \"شكراً\" لمن يقدم لك المساعدة.",
+      "description": "The use of Western quotation marks (\") is inconsistent with Arabic typographic conventions. Arabic text should use Arabic quotation marks (« ») or appropriate RTL-friendly marks to maintain script direction and readability. Correction would be: قول «شكراً» لمن يقدم لك المساعدة.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "حتى الأفعال الصغيرة يمكنها أن تحدث فرقاً كبيراً في يوم شخص ما.",
+      "correction": "حتى الأفعال الصغيرة يمكن أن تحدث فرقاً كبيراً في يوم شخص ما.",
+      "description": "The phrase \"يمكنها أن تحدث\" is grammatically correct but stylistically less natural in Modern Standard Arabic for inanimate subjects like \"الأفعال\". The more idiomatic form is \"يمكن أن تحدث\". This improves naturalness and aligns with standard register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "إذا كان صديقك حزيناً لأنه خسر في لعبة، يمكنك فهم شعوره لأنك شعرت بالإحباط من قبل.",
+      "correction": "إذا كان صديقك حزيناً لأنه خسر في لعبة، يمكنك فهم شعوره لأنك شعرت بالإحباط سابقاً.",
+      "description": "The phrase \"من قبل\" is understandable but \"سابقاً\" is more precise and formal in educational contexts. This correction enhances lexical precision and register appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "إذا كان شخص ما منزعجاً، يمكنك تقديم كلمة طيبة أو عناق.",
+      "correction": "إذا كان شخص ما منزعجاً، يمكنك تقديم كلمة طيبة أو عناقاً.",
+      "description": "The phrase \"أو عناق\" should be \"أو عناقاً\" to maintain parallelism in the accusative case with \"كلمة طيبة\". This is a minor grammatical issue affecting case agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "التعاطف يساعدنا على التواصل مع الآخرين، والرحمة تحول ذلك الاتصال إلى أفعال.",
+      "correction": "التعاطف يساعدنا على التواصل مع الآخرين، والرحمة تحول ذلك التواصل إلى أفعال.",
+      "description": "The word \"الاتصال\" is less appropriate than \"التواصل\" in this context, as \"التواصل\" better conveys interpersonal connection. This correction improves lexical precision and semantic clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "فإن العبارة تقترح أنها تحدد العلاقات العائلية فقط، مما يقلل من شمولية المفهوم. التعاطف والرحمة يمكن أن تنطبق على أي نوع من العلاقات، وليس حتى محدودة للأعائل.",
+      "correction": "فإن العبارة تقترح أنها تحدد العلاقات العائلية فقط، مما يقلل من شمولية المفهوم. التعاطف والرحمة يمكن أن تنطبق على أي نوع من العلاقات، وليست حتى محدودة للعائلة.",
+      "description": "The word \"للأعائل\" is a spelling error; the correct word is \"للعائلة\". This affects comprehension and accuracy. Correction ensures proper spelling and meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "التعاطف والرحمة ليست مجرد سلوك إيجابي؟.",
+      "correction": "التعاطف والرحمة ليست مجرد سلوك إيجابي.",
+      "description": "The use of the question mark (؟) is incorrect here, as the sentence is a statement, not a question. Removing the question mark improves punctuation accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "إن بالفعل، إيجابية، وهي أساسية في تعزيز العلاقات الصحية والراحة.",
+      "correction": "إنها بالفعل إيجابية، وهي أساسية في تعزيز العلاقات الصحية والراحة.",
+      "description": "The phrase \"إن بالفعل، إيجابية\" is syntactically incorrect. The correct form is \"إنها بالفعل إيجابية\" to provide a clear subject and verb agreement. This correction improves sentence structure and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "عندما يُظهر الناس التعاطف والرحمة، يُرى عادة تقليص العلاقات الاجتماعية وتحسين البيئة المشتركة، مما يؤدي إلى تأثير إيجابي على المجتمع.",
+      "correction": "عندما يُظهر الناس التعاطف والرحمة، يُلاحظ عادة تقوية العلاقات الاجتماعية وتحسين البيئة المشتركة، مما يؤدي إلى تأثير إيجابي على المجتمع.",
+      "description": "The phrase \"يُرى عادة تقليص العلاقات الاجتماعية\" is semantically and syntactically incorrect. The intended meaning is to strengthen, not reduce, social relationships. The correct verb is \"يُلاحظ عادة تقوية العلاقات الاجتماعية\". This correction addresses both word choice and sentence structure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "كيف يمكن أن يشعر؟ وماذا يمكنك أن تفعل لإظهار الرحمة؟",
+      "correction": "كيف يمكن أن يشعر؟ وما الذي يمكنك أن تفعله لإظهار الرحمة؟",
+      "description": "The phrase \"وماذا يمكنك أن تفعل\" is understandable but \"وما الذي يمكنك أن تفعله\" is more formal and idiomatic in educational Modern Standard Arabic. This correction enhances register and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "أمثلة حقيقية على اللطف:",
+      "correction": "أمثلة واقعية على اللطف:",
+      "description": "The word \"حقيقية\" is acceptable, but \"واقعية\" is more idiomatic and commonly used in educational contexts to mean 'real-life' examples. This correction improves lexical precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "مجموعة من الطلاب تبدأ نادي اللطف في المدرسة، حيث يكتبون ملاحظات إيجابية لزملائهم والمعلمين.",
+      "correction": "مجموعة من الطلاب يؤسسون نادي اللطف في المدرسة، حيث يكتبون ملاحظات إيجابية لزملائهم والمعلمين.",
+      "description": "The verb \"تبدأ\" is less precise than \"يؤسسون\" in this context, as \"يؤسسون\" (establish) better conveys the act of founding a club. This correction improves lexical precision and semantic clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "عائلة تقضي وقتاً في التطوع في بنك الطعام المحلي.",
+      "correction": "عائلة تقضي وقتاً في التطوع في بنك الطعام المحلي.",
+      "description": "The phrase is correct, but \"بنك الطعام المحلي\" is a direct translation of 'local food bank', which may not be a familiar concept in all Arabic-speaking regions. For broader localization, consider \"جمعية خيرية محلية لتوزيع الطعام\". This improves cultural appropriateness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "مجتمع ينظم حملة لجمع التبرعات لدعم أسرة تضرر منزلها بسبب عاصفة.",
+      "correction": "مجتمع ينظم حملة لجمع التبرعات لدعم أسرة تضرر منزلها بسبب عاصفة.",
+      "description": "The word \"عاصفة\" is correct, but in some regions, specifying the type of disaster (e.g., \"عاصفة شديدة\" or \"كارثة طبيعية\") may improve clarity. This is a minor localization suggestion for broader understanding.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "الأفعال الحقيقية اللطيفة يمكنها أن تلهمنا لإحداث فرق في حياتنا ومجتمعاتنا.",
+      "correction": "الأفعال اللطيفة الواقعية يمكن أن تلهمنا لإحداث فرق في حياتنا ومجتمعاتنا.",
+      "description": "The phrase \"الأفعال الحقيقية اللطيفة\" is less idiomatic than \"الأفعال اللطيفة الواقعية\". This correction improves naturalness and register in Modern Standard Arabic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "هل أنشئت نادي التعاطف في المدرسة؟.",
+      "correction": "هل أنشأت نادي التعاطف في المدرسة؟",
+      "description": "The verb \"أنشئت\" is incorrect for the second person singular; the correct form is \"أنشأت\". This is a grammatical error affecting verb conjugation and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "يُظهر أن أفراد يأخذون المبادرة لإنشاء بيئة تعزز الاحترام والدعم الإيجابي داخل مجتمع المدرسة، مما يعزز فضول التواصل والتعامل الإيجابي مع الأصدقاء والزملاء.",
+      "correction": "يُظهر أن أفراد يأخذون المبادرة لإنشاء بيئة تعزز الاحترام والدعم الإيجابي داخل مجتمع المدرسة، مما يعزز روح التواصل والتعامل الإيجابي مع الأصدقاء والزملاء.",
+      "description": "The word \"فضول التواصل\" is a mistranslation; \"فضول\" means 'curiosity', but the intended meaning is 'spirit' or 'culture' of communication. The correct word is \"روح التواصل\". This correction improves semantic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "اللطف يعني أن تكون مراعيًا ومحبًا للآخرين.",
+      "correction": "اللطف يعني أن تكون مراعيًا ومحبًا للآخرين.",
+      "description": "The use of the tanwīn (ً) in \"مراعيًا\" and \"محبًا\" is correct, but in some educational contexts, it is preferable to vocalize consistently or omit tanwīn for simplicity unless teaching case endings. Ensure consistency throughout the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "حتى الأفعال الصغيرة، مثل الابتسامة أو الكلمة الطيبة، يمكن أن تحدث فرقًا كبيرًا.",
+      "correction": "حتى الأفعال الصغيرة، مثل الابتسامة أو الكلمة الطيبة، يمكن أن تحدث فرقاً كبيراً.",
+      "description": "The use of the Arabic letter \"ًا\" (tanwīn fatḥ) in \"فرقًا\" and \"كبيرًا\" is correct, but the text inconsistently uses the Western diacritic (ًا) and Arabic diacritic (اً). Standardize to Arabic diacritics for consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "من خلال اعتراف بحاجة الآخرين ومنح الراحة، ينمو العلاقات بين الأفراد ويتطور المجتمع.",
+      "correction": "من خلال الاعتراف بحاجة الآخرين ومنح الراحة، تنمو العلاقات بين الأفراد ويتطور المجتمع.",
+      "description": "The phrase \"ينمو العلاقات\" is grammatically incorrect; the correct verb is \"تنمو\" to agree with the feminine plural \"العلاقات\". This correction improves subject-verb agreement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.md",
+    "language": "Arabic",
+    "timestamp": "2025-10-06T16:59:35.440989",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 21,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 21,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

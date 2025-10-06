@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Diese Techniken sind essenziell für den Aufbau starker Zeichenfähigkeiten und bilden die Grundlage für fortgeschrittene Kunstpraktiken.",
+      "correction": "Diese Techniken sind essenziell für den Aufbau starker Zeichenfertigkeiten und bilden die Grundlage für fortgeschrittene Kunstpraktiken.",
+      "description": "The word 'Zeichenfähigkeiten' is not the most precise or standard term in German for drawing skills; 'Zeichenfertigkeiten' is the more accurate and commonly used term in educational and artistic contexts. This correction improves lexical precision and aligns with standard German usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Füge kleinere Formen für Fenster und Türen hinzu.",
+      "correction": "Füge kleinere Formen für Fenster und Türen hinzu.",
+      "description": "No correction needed. The sentence is orthographically correct, with proper noun capitalization and punctuation. This entry is included to confirm that no orthographic errors are present in this potentially complex compound noun context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🎨",
+      "correction": "",
+      "description": "The use of the paint palette emoji at the end of the introduction may be considered informal or unprofessional in some German educational contexts, especially in formal learning materials. While emojis can enhance engagement in digital or youth-oriented content, their appropriateness should be evaluated based on the target audience and institutional standards. Consider removing the emoji for a more neutral and professional tone if the material is intended for formal education.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Schattierung verleiht Zeichnungen Dimensionen und lässt sie dreidimensional erscheinen.",
+      "correction": "Schattierung verleiht Zeichnungen Tiefe und lässt sie dreidimensional erscheinen.",
+      "description": "The use of 'Dimensionen' in this context is not idiomatic in German when referring to the effect of shading in drawing. 'Tiefe' is the more natural and precise term to describe the added sense of depth. This correction improves the naturalness and clarity of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Verwende unterschiedliche Druckstärken auf deinem Bleistift, um helle und dunkle Bereiche zu erzeugen.",
+      "correction": "Verwende unterschiedliche Druckstärken mit deinem Bleistift, um helle und dunkle Bereiche zu erzeugen.",
+      "description": "The preposition 'auf' is not the most idiomatic choice in this context. 'Mit deinem Bleistift' is the standard way to express using different pressure with a pencil in German. This correction improves grammatical accuracy and idiomatic usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Schattiere eine Kugel, indem du den Bereich, der der Lichtquelle am nächsten ist, am hellsten machst und die gegenüberliegende Seite allmählich verdunkelst.",
+      "correction": "Schattiere eine Kugel, indem du den Bereich, der der Lichtquelle am nächsten liegt, am hellsten machst und die gegenüberliegende Seite allmählich verdunkelst.",
+      "description": "The verb 'ist' should be replaced with 'liegt' in this context, as 'liegt' is the standard verb used to describe the position of an area relative to a light source in German. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "In dieser Lektion haben wir drei grundlegende Zeichentechniken erforscht: Skizzieren von Formen, Schattieren und Perspektive.",
+      "correction": "In dieser Lektion haben wir drei grundlegende Zeichentechniken kennengelernt: Skizzieren von Formen, Schattieren und Perspektive.",
+      "description": "The verb 'erforscht' is not the most appropriate choice in this educational context. 'Kennenlernen' is more suitable for describing the process of being introduced to or learning about techniques. This correction improves lexical accuracy and aligns with standard educational phrasing.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:22:14.088777",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.1
+    }
+  }
+}

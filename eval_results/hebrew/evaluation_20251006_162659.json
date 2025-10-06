@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הסתברות להטלת 7 עם שתי קוביות היא 100%.",
+      "correction": "הסתברות לקבל סכום 7 בשתי קוביות היא 100%.",
+      "description": "The original statement uses 'הטלת 7' which is ambiguous and not standard terminology in probability. The correct phrasing is 'קבל סכום 7', which clearly refers to the sum of two dice. This improves clarity and aligns with accepted mathematical terminology in Hebrew educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הסתברות להגיע למספר גבוה מ-6 עם שתי קוביות אחת או שתיים, כי המספר הגבוה ביותר שניתן לקבל הוא 6. לכן, זה אפשרי אך לא בטוח להגיע ל-7.",
+      "correction": "הסתברות להגיע למספר גבוה מ-6 עם שתי קוביות אינה אפשרית, כי המספר הגבוה ביותר שניתן לקבל הוא 6 בכל קובייה, וסכום מקסימלי הוא 12. לכן, לא ניתן לקבל 7 בהטלת קובייה אחת, אך אפשרי בשתי קוביות.",
+      "description": "The feedback contains grammatical errors and logical inaccuracies. The phrase 'שתי קוביות אחת או שתיים' is ungrammatical and unclear. The explanation incorrectly states the highest number possible is 6, without clarifying that the sum of two dice can be up to 12. The correction provides a clear, grammatically correct explanation and accurately describes the probability scenario.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "הסתברות להטלה של מספר זרוע היא 1/6 לכל זרוע על קובייה של שישה צדדים.",
+      "correction": "הסתברות להטלה של מספר מסוים היא 1/6 לכל מספר על קובייה של שישה צדדים.",
+      "description": "The term 'מספר זרוע' is not standard in Hebrew and may confuse learners. The correct term is 'מספר מסוים', which is the accepted way to refer to a specific number on a die. This correction ensures lexical precision and clarity for educational purposes.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "כל הקובייות של שישה צדדים יש שישה תוצאות שונות שוות הסתדרות, כלומר כל תוצאה מושלמת מהיכון 1 עד 6 מושלמת באופן שווה. מכיוון שיש שישה תוצאות שוות הסתדרות, ההסתברות להטלה של כל מספר זרוע היא אחוז אחד מכל המספרים האפשריים. לכן, ההסתברות להטלה של מספר זרוע היא 1/6.",
+      "correction": "בכל קובייה בעלת שישה צדדים יש שש תוצאות אפשריות, וכל אחת מהן בעלת הסתברות שווה. לכן, ההסתברות להטלת כל מספר היא 1/6.",
+      "description": "The feedback contains multiple grammatical errors: 'הקובייות' should be 'קוביות', 'שוות הסתדרות' is incorrect and should be 'בעלת הסתברות שווה', and 'מושלמת מהיכון' is a nonsensical phrase. The explanation is verbose and unclear. The correction provides a concise, grammatically correct, and clear explanation suitable for educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "הסתברות לקבל זנב-זנב בטילת שני מטבעות היא 1/4.",
+      "correction": "הסתברות לקבל זנב-זנב בהטלת שני מטבעות היא 1/4.",
+      "description": "The word 'בטילת' is a spelling error; the correct form is 'בהטלת'. This correction ensures orthographic accuracy and maintains the professional standard expected in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "לאחד מארבעת תוצאות האפשריות (ראש-ראש, ראש-זנב, זנב-ראש, זנב-זנב), יש רק תוצאה רצויה אחת של זנב-זנב. לכן, ההסתברות לקבל זנב-זנב, כפי שנחשב, היא 2/4, שפישטה ל-1/2.",
+      "correction": "מתוך ארבע תוצאות אפשריות (ראש-ראש, ראש-זנב, זנב-ראש, זנב-זנב), יש תוצאה רצויה אחת של זנב-זנב. לכן, ההסתברות לקבל זנב-זנב היא 1/4.",
+      "description": "The feedback contains grammatical errors ('לאחד מארבעת תוצאות האפשריות' should be 'מתוך ארבע תוצאות אפשריות') and a logical error in the probability calculation (incorrectly stating 2/4 instead of 1/4). The correction provides a grammatically correct and accurate explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "אם אתה מבצע טיפוס מחדש של הטלת קוביות על הממורה, הסתברות לקבל פיס לא יורד תמיד 1/6.",
+      "correction": "אם אתה מבצע הטלה חוזרת של קוביות, ההסתברות לקבל מספר מסוים נשארת תמיד 1/6.",
+      "description": "The phrase 'טיפוס מחדש' is a mistranslation and not appropriate in this context; the correct term is 'הטלה חוזרת'. 'פיס' is not a standard term for dice faces; 'מספר מסוים' is the accepted terminology. 'על הממורה' is unclear and should be omitted. The correction uses precise, standard terminology and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הסתברות לקבל פיס לא יורד על קובית שווה באופן אקראטי ל-1/6 בכל טיפוס, למרות שהסטנדרטית היא שיש 6 פיסים וריבועים בסך הכל.",
+      "correction": "ההסתברות לקבל מספר מסוים בקובייה שווה היא 1/6 בכל הטלה, משום שבקובייה סטנדרטית יש שישה מספרים.",
+      "description": "The feedback contains grammatical errors and unclear phrasing: 'פיס לא יורד' and 'באופן אקראטי' are incorrect, and 'ריבועים בסך הכל' is irrelevant. The correction provides a clear, grammatically correct explanation using standard terminology.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:26:59.317870",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

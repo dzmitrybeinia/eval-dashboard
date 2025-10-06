@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "מיינדסט צמיחה מרמז על רוח חיובית וגמיש להתמודד עם אתגרים, מה שמאפשר לאנשים להראות שיפוט חיובי לעבר דברים חדשים או מאתגרים ולקבל מוטיב לצמיחה ולשיפור.",
+      "correction": "מיינדסט צמיחה מרמז על רוח חיובית וגמישות בהתמודדות עם אתגרים, מה שמאפשר לאנשים להראות גישה חיובית כלפי דברים חדשים או מאתגרים ולקבל מוטיבציה לצמיחה ולשיפור.",
+      "description": "The word 'גמיש' is incorrectly used as an adjective for 'רוח', but the correct form is 'גמישות' to match the noun phrase. 'שיפוט חיובי' is a mistranslation of 'positive attitude' and should be 'גישה חיובית'. 'מוטיב' is an incorrect loanword; the correct term is 'מוטיבציה'. These lexical errors affect clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "על פי מחקרים, תרגול מוביל לדגמים מוחיים חדשים, מה שמדגר את רעיון הפלסטיות המוחית.",
+      "correction": "על פי מחקרים, תרגול מוביל לדפוסים מוחיים חדשים, מה שמדגיש את רעיון הפלסטיות המוחית.",
+      "description": "The word 'מדגר' is a misspelling and incorrect word choice; the intended meaning is 'מדגיש' (emphasizes). 'דגמים מוחיים' should be 'דפוסים מוחיים' for correct scientific terminology. These lexical errors hinder comprehension and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "בקשת משוב היא כלי חשוב לגילוי נקודות חזקות ומיושמים. יחסוך לך להתקדם באופן הרבה יותר במה שאינך מבין, מה שיכול לעזור בפיתוח מיינדסט.",
+      "correction": "בקשת משוב היא כלי חשוב לגילוי נקודות חוזק וחולשה. היא מאפשרת לך להתקדם בצורה טובה יותר בתחומים שאינך מבין, מה שיכול לעזור בפיתוח מיינדסט.",
+      "description": "The phrase 'נקודות חזקות ומיושמים' is syntactically incorrect; 'מיושמים' does not fit the context and should be replaced with 'חולשה' to match the standard collocation 'נקודות חוזק וחולשה'. The sentence 'יחסוך לך להתקדם באופן הרבה יותר במה שאינך מבין' is ungrammatical and unclear; it should be rephrased to 'מאפשרת לך להתקדם בצורה טובה יותר בתחומים שאינך מבין'. These syntax and lexical errors impede understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "תלמידים עם מיינדסט צמיחה נוטים להיפתר ממקצועות חסרי משיכת עניין.",
+      "correction": "תלמידים עם מיינדסט צמיחה נוטים להתמודד עם מקצועות שאינם מעניינים אותם.",
+      "description": "The verb 'להיפתר' is incorrect in this context; the intended meaning is 'להתמודד'. The phrase 'חסרי משיכת עניין' is unnatural; 'שאינם מעניינים אותם' is the standard way to express this idea. These lexical errors affect clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "מיינדסט צמיחה",
+      "correction": "גישה של צמיחה",
+      "description": "The term 'מיינדסט' is a direct loanword from English. While it is sometimes used in Israeli educational contexts, the Academy of the Hebrew Language recommends 'גישה' or 'תפיסה' as more natural and culturally appropriate equivalents. Consistent use of Hebrew terminology enhances localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "שחקן כדורסל שמחמיץ כמה זריקות באימון לא מוותר. במקום זאת, הוא ממשיך להתאמן ורואה בזריקות שהוחמצו הזדמנויות לשפר את הכיוון.",
+      "correction": "שחקן כדורסל שמחמיץ כמה זריקות באימון לא מוותר. במקום זאת, הוא ממשיך להתאמן ורואה בזריקות שהוחמצו הזדמנות לשפר את הביצועים שלו.",
+      "description": "The phrase 'לשפר את הכיוון' is not idiomatic in Hebrew for describing improvement in basketball performance. 'לשפר את הביצועים שלו' is more natural and culturally appropriate. This adjustment improves the example's resonance with Hebrew-speaking learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T16:25:15.615350",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

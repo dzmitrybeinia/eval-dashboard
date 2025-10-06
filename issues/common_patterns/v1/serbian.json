@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "serbian",
+    "generated_at": "2025-10-06T17:49:13.179675"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Non-localized currency usage",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of the dollar sign ($) instead of the local currency (dinara) in math and real-world examples, making content less relatable and potentially confusing for Serbian learners.",
+      "examples": [
+        {
+          "wrong": "kupovina 3 košulje po $x rezultuje sa `3x`",
+          "correct": "kupovina 3 košulje po x dinara rezultuje sa `3x`",
+          "context": "Currency in variable price examples"
+        },
+        {
+          "wrong": "ako imate $50 i potrošite $y, preostalo je `50 - y`",
+          "correct": "ako imate 50 dinara i potrošite y dinara, preostalo je `50 - y`",
+          "context": "Currency in subtraction/money scenarios"
+        },
+        {
+          "wrong": "Ako kupite 3 knjige i svaka košta $20, ukupan trošak je predstavljen izrazom 3 * 20.",
+          "correct": "Ako kupite 3 knjige i svaka košta 20 dinara, ukupan trošak je predstavljen izrazom 3 * 20.",
+          "context": "Currency in multiplication/total cost examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Finite Verb in Subordinate Clauses",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Subordinate clauses, especially those following purpose expressions like 'Da biste...', lack a finite verb, resulting in incomplete and unnatural sentence structures that hinder clarity.",
+      "examples": [
+        {
+          "wrong": "Da biste rešili jednačine, izolovati promenljivu koristeći inverzne operacije.",
+          "correct": "Da biste rešili jednačine, potrebno je da izolujete promenljivu koristeći inverzne operacije.",
+          "context": "After a purpose clause, the main clause should contain a finite verb for grammatical correctness."
+        }
+      ]
+    }
+  ]
+}

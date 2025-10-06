@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "widerzunehmen",
+      "correction": "widerzuspiegeln",
+      "description": "The word 'widerzunehmen' is not a correct German verb and does not exist in standard usage. The intended meaning is likely 'to reflect' or 'to incorporate,' for which 'widerzuspiegeln' is the appropriate term in this context. This lexical error affects comprehension and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Anti-Apartheid-Bewegung",
+      "correction": "Anti-Apartheid-Bewegung (Anti-Apartheid Movement)",
+      "description": "While 'Anti-Apartheid-Bewegung' is a correct translation, it is helpful for educational clarity and international context to provide the original English term in parentheses. This ensures learners recognize the global significance and standard terminology, especially in educational materials discussing international movements.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-10-01T09:23:25.077328",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

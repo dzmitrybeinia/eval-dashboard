@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Obwohl Vertrauen wichtig ist, ist es ratsam, persönliche Informationen zu teilen, auch auf vertrauenden Plattformen, vorsichtig zu sein.",
+      "correction": "Obwohl Vertrauen wichtig ist, ist es ratsam, beim Teilen persönlicher Informationen, auch auf vertrauenswürdigen Plattformen, vorsichtig zu sein.",
+      "description": "The sentence contains a word order issue and an incorrect adjective. The phrase 'persönliche Informationen zu teilen, auch auf vertrauenden Plattformen, vorsichtig zu sein' is syntactically awkward and unclear. The correct structure should be 'beim Teilen persönlicher Informationen, auch auf vertrauenswürdigen Plattformen, vorsichtig zu sein.' Additionally, 'vertrauenden Plattformen' is incorrect; the standard term is 'vertrauenswürdigen Plattformen.' This correction improves clarity and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Teilen positiver Meinungen kann als positives Verhalten oder 'Digital Praise' betrachtet werden, das dazu dient, die Online-Community zu stärken und Cybermobbing zu bekämpfen.",
+      "correction": "Das Teilen positiver Meinungen kann als positives Verhalten oder 'digitales Lob' betrachtet werden, das dazu dient, die Online-Community zu stärken und Cybermobbing zu bekämpfen.",
+      "description": "The use of the English term 'Digital Praise' is unnatural in German educational content. A more culturally appropriate and natural term is 'digitales Lob.' This change ensures the terminology is locally accepted and avoids unnecessary anglicisms.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette__YesNo.md",
+    "language": "German",
+    "timestamp": "2025-09-30T08:54:47.632614",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

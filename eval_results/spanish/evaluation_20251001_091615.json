@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "El malware puede tener múltiples propósitos, incluyendo la robo de información personal, no solo dañar el dispositivo.",
+      "correction": "El malware puede tener múltiples propósitos, incluyendo el robo de información personal, no solo dañar el dispositivo.",
+      "description": "There is a gender agreement error in the phrase 'la robo de información personal.' The correct form is 'el robo' because 'robo' is a masculine noun. This error affects the grammatical accuracy and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A menudo, estos correos tienen errores de escritura porque provienen de personas que no están habilitadas para usar la computadora y el correo electrónico correctamente.",
+      "correction": "A menudo, estos correos tienen errores de escritura porque provienen de personas que no dominan el uso de la computadora y el correo electrónico correctamente.",
+      "description": "The phrase 'personas que no están habilitadas para usar la computadora' is unnatural in Spanish and may confuse learners. The more natural and culturally appropriate expression is 'personas que no dominan el uso de la computadora.' This improves the clarity and aligns with standard Spanish usage.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety__YesNo.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-01T09:16:15.458264",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

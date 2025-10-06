@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les éléments du même groupe ont des configurations électroniques identiques.",
+      "correction": "Les éléments du même groupe ont des configurations électroniques similaires.",
+      "description": "The use of 'identiques' is incorrect here because elements in the same group have similar, but not identical, electron configurations. The word 'similaires' is more accurate and avoids misleading learners about the subtle differences in electron configurations across periods within the same group.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ligne en escalier",
+      "correction": "ligne en « escalier »",
+      "description": "Quotation marks should be French guillemets (« »), not straight quotes, to conform to French typographic standards. This improves orthographic accuracy and aligns with formal written French conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the beginning of an educational lesson may be considered informal or unprofessional in some French educational contexts, especially in formal or secondary/higher education materials. Consider removing the emoji or replacing it with a more neutral visual if the target audience is older students or if the context requires a formal tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:19:48.258041",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1
+    }
+  }
+}

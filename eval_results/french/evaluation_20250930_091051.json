@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "cœurs, carreaux, trèfles et piques",
+      "correction": "cœurs, carreaux, trèfles et piques",
+      "description": "The word 'cœurs' is correctly spelled with the ligature 'œ', which is standard in French orthography. However, in some digital contexts, the ligature may be replaced with 'oe' due to font or encoding limitations. For educational content, it is important to use the correct ligature to model proper spelling for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans une aventure où nous allons découvrir comment les probabilités influencent nos décisions et nos jeux ! Avec des dés, des pièces de monnaie et des cartes, nous explorerons à quel point il est fascinant de prédire l'avenir grâce aux mathématiques. 🎲✨",
+      "correction": "Bienvenue dans une aventure où nous allons découvrir comment les probabilités influencent nos décisions et nos jeux ! Avec des dés, des pièces de monnaie et des cartes, nous explorerons à quel point il est fascinant de prédire l'avenir grâce aux mathématiques.",
+      "description": "The use of emojis (🎲✨) in educational French content may be considered informal and less appropriate for certain academic or professional contexts. Removing emojis ensures a more neutral and universally accepted style, especially for older students or formal settings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Il est plus probable de lancer un 7 avec un dé standard.",
+      "correction": "Il est impossible de lancer un 7 avec un dé standard.",
+      "description": "The original statement is grammatically correct but semantically inaccurate, as a standard die only has faces numbered 1 to 6. The correction clarifies the impossibility, which is more precise and avoids misleading learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Si vous lancez une pièce trois fois, la probabilité d'obtenir face chaque fois est de 3/8.",
+      "correction": "Si vous lancez une pièce trois fois, la probabilité d'obtenir face chaque fois est de 1/8.",
+      "description": "The original sentence contains a mathematical error in probability calculation. The probability of getting 'face' three times in a row is 1/2 × 1/2 × 1/2 = 1/8, not 3/8. This is a critical error in the context of teaching probability.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "face ou pile",
+      "correction": "pile ou face",
+      "description": "The standard French expression for coin sides is 'pile ou face', not 'face ou pile'. Using the conventional order improves naturalness and aligns with local usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:10:51.393749",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2
+    }
+  }
+}

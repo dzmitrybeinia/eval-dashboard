@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "segment de ligne",
+      "correction": "segment",
+      "description": "The term 'segment de ligne' is not standard in French geometry terminology. The correct term is simply 'segment'. Using 'segment de ligne' may cause confusion and is not consistent with educational or mathematical standards in French. This affects both lexical precision and terminology consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prêts à découvrir ces concepts captivants ? 🎉",
+      "correction": "Prêts à découvrir ces concepts captivants ?",
+      "description": "The use of the party popper emoji (🎉) is informal and may not be appropriate for educational content aimed at a general or formal audience. Removing the emoji ensures a more neutral and professional tone, which is preferred in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "le bord d'une règle est un segment de ligne",
+      "correction": "le bord d'une règle est un segment",
+      "description": "The phrase 'segment de ligne' should be replaced with 'segment' for consistency with standard French mathematical terminology. This correction ensures the use of industry-standard terms and improves clarity for learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:09:39.868125",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2
+    }
+  }
+}

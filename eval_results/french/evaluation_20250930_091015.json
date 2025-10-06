@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ressources renouvelables, bien que elles puissent être épuisées si mal gérées, ont la capacité de se régénérer naturellement sur des périodes plus longues.",
+      "correction": "Les ressources renouvelables, bien qu'elles puissent être épuisées si mal gérées, ont la capacité de se régénérer naturellement sur des périodes plus longues.",
+      "description": "There is a grammatical error in the use of 'bien que elles'. In French, when 'que' is followed by a vowel or mute h, an elision is required, resulting in 'qu'elles'. This correction ensures proper grammar and natural flow.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Le recycling transforme les matériaux usagés en nouveaux produits, réduisant ainsi la demande pour l'extraction de ressources vierges.",
+      "correction": "Le recyclage transforme les matériaux usagés en nouveaux produits, réduisant ainsi la demande pour l'extraction de ressources vierges.",
+      "description": "The word 'recycling' is an anglicism and incorrect in French. The proper term is 'recyclage'. Using the correct French term improves lexical precision and maintains linguistic standards.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:10:15.287086",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0
+    }
+  }
+}

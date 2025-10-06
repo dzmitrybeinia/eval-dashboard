@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En programmation, les variables peuvent stocker des valeurs de différents types, comme des nombres, des chaînes de caractères ou des booléens. La restriction à des types similaires est une idée fausse.",
+      "correction": "En programmation, les variables peuvent stocker des valeurs de différents types, comme des nombres, des chaînes de caractères ou des booléens. La restriction aux types similaires est une idée fausse.",
+      "description": "The phrase 'la restriction à des types similaires' uses the preposition 'à', which is less idiomatic in French for this context. The correct preposition is 'aux', as it refers to the restriction applying to the types themselves. This improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "en_etudiant = True   # Booléen",
+      "correction": "est_etudiant = True   # Booléen",
+      "description": "The variable name 'en_etudiant' is not idiomatic in French and may cause confusion. The prefix 'en_' is not standard for boolean variables indicating a state. 'est_etudiant' is a more natural and semantically accurate choice for a boolean variable indicating whether someone is a student.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "âge = 15\nif âge >= 13:\n    print(\"Vous êtes adolescent !\")",
+      "correction": "âge = 15\nif âge >= 13:\n    print(\"Vous êtes un adolescent !\")",
+      "description": "The phrase 'Vous êtes adolescent !' is missing the indefinite article 'un', which is required in French when referring to someone's status or role. The correct form is 'Vous êtes un adolescent !'. This is a grammatical error affecting the naturalness and correctness of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Le code vérifie si l'âge est supérieur ou égal à 13. Si l'âge est 12, la condition `âge >= 13` est fausse, donc le programme imprimera 'Vous êtes adolescent !' au lieu de rien.",
+      "correction": "Le code vérifie si l'âge est supérieur ou égal à 13. Si l'âge est 12, la condition `âge >= 13` est fausse, donc le programme n'affichera rien.",
+      "description": "The feedback incorrectly states that the program will print 'Vous êtes adolescent !' when the condition is false. In reality, the program will not print anything. This is a semantic error that could mislead learners about how conditional statements work.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:08:14.238538",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0
+    }
+  }
+}

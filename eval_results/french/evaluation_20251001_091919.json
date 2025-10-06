@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les glucides ne sont pas seulement importants pour l'énergie, mais jouent aussi un rôle dans la réparation des tissus.",
+      "correction": "Les glucides ne sont pas seulement importants pour l'énergie, mais jouent aussi un rôle dans la récupération après l'effort.",
+      "description": "The statement incorrectly attributes a direct role to carbohydrates in tissue repair. In French, as in scientific usage, 'réparation des tissus' is primarily associated with proteins, not carbohydrates. The correct phrasing should reflect that carbohydrates aid in recovery after exercise, not in direct tissue repair. This is a lexical inaccuracy that could mislead learners about nutritional science.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Préparez-vous à découvrir comment les nutriments, les repas équilibrés et les choix alimentaires quotidiens soutiennent notre croissance et notre bien-être ! 🥗🍎",
+      "correction": "Préparez-vous à découvrir comment les nutriments, les repas équilibrés et les choix alimentaires quotidiens soutiennent notre croissance et notre bien-être !",
+      "description": "The use of emojis in formal educational French content is generally discouraged, as it can undermine the professional tone expected in instructional materials. While not a grammatical error, this affects the appropriateness of the register and should be removed for consistency with formal style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Planifier vos repas en avance vous permet de vous assurer que vous incluiez une variété de nutriments provenant de chaque groupe alimentaire, ce qui contribue à une alimentation globalement équilibrée.",
+      "correction": "Planifier vos repas à l'avance vous permet de vous assurer que vous incluez une variété de nutriments provenant de chaque groupe alimentaire, ce qui contribue à une alimentation globalement équilibrée.",
+      "description": "The verb 'incluiez' is in the subjunctive, but the context requires the indicative 'incluez' because it is a factual result, not a hypothetical or desired outcome. Additionally, the correct prepositional phrase is 'à l'avance' rather than 'en avance' when referring to planning ahead.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Préférez les options complètes pour les céréales.",
+      "correction": "Préférez les céréales complètes.",
+      "description": "The phrase 'options complètes pour les céréales' is an anglicism influenced by 'whole grain options.' The natural and standard French expression is 'céréales complètes.' Using the correct terminology ensures clarity and aligns with local dietary guidelines.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:19:19.422539",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "en_etudiant = True",
+      "correction": "est_etudiant = True",
+      "description": "The variable name 'en_etudiant' is not idiomatic in French. The prefix 'en_' is not standard for boolean variables in French programming contexts. 'est_etudiant' (is_student) is more natural and aligns with common naming conventions, improving both clarity and linguistic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les boucles `while` sont conçues pour continuer jusqu'à ce qu'une condition soit remplie, et non pour itérer sur des listes. Pour parcourir une liste, on utilise généralement la boucle `for`.",
+      "correction": "Les boucles `while` sont conçues pour continuer jusqu'à ce qu'une condition soit remplie. Pour parcourir une liste, on utilise généralement la boucle `for`.",
+      "description": "The phrase 'et non pour itérer sur des listes' is misleading, as 'while' loops can technically be used to iterate over lists, even if it is not the most common approach. The correction removes the misleading implication, making the explanation more accurate and culturally appropriate for French-speaking learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:17:58.120982",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2
+    }
+  }
+}

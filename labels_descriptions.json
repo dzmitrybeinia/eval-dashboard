@@ -1,5 +1,7 @@
 {
   "v1": "Baseline evaluation - Prompt in English, localization instructions in English",
   "v1.llm": "LLM evaluation - Content-only(intro+slides) linguistic accuracy",
-  "v1.slm": "SLM evaluation - YesNo Questions-only linguistic accuracy"
+  "v1.slm": "SLM evaluation - YesNo Questions-only linguistic accuracy",
+  "mixed instructions": "Content(intro + slides + questions) evaluation - prompts in English, localization instructions in local languages",
+  "translated prompt": "Content(intro + slides + questions) evaluation - prompts in in local languages, localization instructions in local languages"
 }

@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "14ème et 15ème amendements",
+      "correction": "14e et 15e amendements",
+      "description": "In French, ordinal numbers used as adjectives (such as in '14e et 15e amendements') should be written with 'e' in superscript or lowercase, not with 'ème'. The use of 'ème' is incorrect in formal and educational contexts. This is a common orthographic error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Découvrez comment des événements historiques, des leaders courageux et une détermination sans faille ont transformé la société américaine et continuent d'inspirer la quête de justice et d'égalité aujourd'hui. 🌟",
+      "correction": "Découvrez comment des événements historiques, des leaders courageux et une détermination sans faille ont transformé la société américaine et continuent d'inspirer la quête de justice et d'égalité aujourd'hui.",
+      "description": "The use of the star emoji (🌟) at the end of a formal educational introduction is not standard in French academic or educational writing. While emojis are increasingly used in informal digital communication, their presence in formal educational content can undermine the seriousness and professionalism expected in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le Mouvement des Droits Civiques s'inscrit dans un contexte marqué par des siècles d'oppression systémique.",
+      "correction": "Le Mouvement des droits civiques s'inscrit dans un contexte marqué par des siècles d'oppression systémique.",
+      "description": "In French, only the first word of a common noun phrase such as 'droits civiques' should be capitalized unless it is a proper noun or at the beginning of a sentence. The phrase 'Mouvement des Droits Civiques' incorrectly capitalizes all words, which is not standard in French grammar for such expressions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La participation des Afro-Américains à la guerre a mis en lumière les contradictions de la lutte pour la liberté à l'étranger et l'injustice chez eux.",
+      "correction": "La participation des Afro-Américains à la guerre a mis en lumière les contradictions entre la lutte pour la liberté à l'étranger et l'injustice chez eux.",
+      "description": "The sentence is missing the preposition 'entre' to properly express the contrast between two elements ('la lutte pour la liberté à l'étranger' and 'l'injustice chez eux'). Without 'entre', the sentence is ambiguous and less precise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "SNCC",
+      "correction": "Comité de coordination des étudiants non-violents (SNCC)",
+      "description": "The acronym 'SNCC' is used without explanation. In French educational content, it is best practice to provide the full name in French on first mention, followed by the acronym, to ensure clarity for learners who may not be familiar with English-language civil rights organizations.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:17:51.632892",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2
+    }
+  }
+}

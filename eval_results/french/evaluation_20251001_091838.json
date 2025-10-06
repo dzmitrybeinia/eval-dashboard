@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Imaginez ombrer une sphère en passant graduellement de l’obscurité à la lumière avec un crayon et en adoucissant les bords avec un outil de fondu.",
+      "correction": "Imaginez ombrer une sphère en passant graduellement de l’obscurité à la lumière à l’aide d’un crayon et en adoucissant les bords avec un outil de fondu.",
+      "description": "The phrase 'avec un crayon' is grammatically correct but less idiomatic in French when describing the means by which an action is performed. The more natural and precise expression is 'à l’aide d’un crayon', which better conveys the instrumental use of the pencil. This correction improves the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "L'utilisation de mouchoirs peut altérer la qualité de l'ombrage dans les dessins.",
+      "correction": "L'utilisation de mouchoirs en papier peut altérer la qualité de l'ombrage dans les dessins.",
+      "description": "The term 'mouchoirs' is ambiguous in French and could refer to cloth handkerchiefs, which are not typically used in drawing. Specifying 'mouchoirs en papier' (tissues) aligns with common artistic practice and avoids confusion, ensuring the terminology is clear and culturally appropriate for a French-speaking art audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:18:38.542233",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1
+    }
+  }
+}

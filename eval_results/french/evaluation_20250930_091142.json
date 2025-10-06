@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le vote est une manière essentielle pour les citoyens de participer à une démocratie.",
+      "correction": "Le vote est un moyen essentiel pour les citoyens de participer à une démocratie.",
+      "description": "The word 'manière' is not the most appropriate choice in this context; 'moyen' is the correct term to express 'means' in French when referring to a way of participating. This improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "étatique",
+      "correction": "au niveau de l'État",
+      "description": "The term 'étatique' is rarely used in French to refer to state-level elections in the US context. 'Au niveau de l'État' is the standard and natural way to refer to state-level government or elections in French, ensuring clarity and cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Enregistrez-vous auprès des fonctionnaires électoraux avec identification si nécessaire.",
+      "correction": "Enregistrez-vous auprès des fonctionnaires électoraux en présentant une pièce d'identité si nécessaire.",
+      "description": "The phrase 'avec identification' is awkward and not idiomatic in French. The correct expression is 'en présentant une pièce d'identité', which is both grammatically correct and natural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le vote garantit que le gouvernement reflète les besoins et préférences des citoyens.",
+      "correction": "Le vote garantit que le gouvernement reflète les besoins et les préférences des citoyens.",
+      "description": "The conjunction 'et' should be repeated before 'les préférences' for proper coordination in French ('les besoins et les préférences'). This is a common stylistic and grammatical requirement for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "bulletin de vote (papier ou électronique)",
+      "correction": "bulletin de vote (papier ou sur machine électronique)",
+      "description": "In the US context, 'bulletin de vote électronique' may be misleading, as voting machines are used rather than electronic ballots. 'Sur machine électronique' is more accurate and culturally appropriate for describing US voting methods.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:11:42.082769",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3
+    }
+  }
+}

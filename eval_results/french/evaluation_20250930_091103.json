@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cette approche systématique nous aide à répondre à des questions et à résoudre des problèmes dans la vie quotidienne et en science.",
+      "correction": "Cette approche systématique nous aide à répondre à des questions et à résoudre des problèmes dans la vie quotidienne et en sciences.",
+      "description": "The word 'science' should be pluralized to 'sciences' in French when referring to the general field, as is standard in educational and scientific contexts. This ensures lexical precision and aligns with French usage norms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La méthode scientifique comprend à la fois l'observation et l'interprétation des données, mais l'interprétation seule n'est pas une partie de la méthode.",
+      "correction": "La méthode scientifique comprend à la fois l'observation et l'interprétation des données, mais l'interprétation seule n'en fait pas partie.",
+      "description": "The phrase 'n'est pas une partie de la méthode' is grammatically awkward in French. The more natural and correct construction is 'n'en fait pas partie', which uses the pronoun 'en' to refer back to 'la méthode'. This improves grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Faire une prédiction basée sur vos recherches.",
+      "correction": "Faire une prédiction fondée sur vos recherches.",
+      "description": "The use of 'basée sur' is a calque from English ('based on') and is less idiomatic in French. 'Fondée sur' is the preferred and more natural expression in this context, improving both grammatical and lexical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Décider si l'hypothèse est correcte ou non.",
+      "correction": "Déterminer si l'hypothèse est confirmée ou non.",
+      "description": "In scientific contexts, 'confirmer' is more precise than 'correcte' when referring to hypotheses. 'Correcte' is vague, while 'confirmée' aligns with standard scientific terminology, enhancing lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Résoudre des problèmes pratiques comme conserver la fraîcheur des aliments.",
+      "correction": "Résoudre des problèmes pratiques tels que la conservation de la fraîcheur des aliments.",
+      "description": "The phrase 'comme conserver la fraîcheur des aliments' is slightly informal and direct. Using 'tels que la conservation de la fraîcheur des aliments' is more formal and aligns with educational register, improving style and tone for a French academic audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "L'application de la méthode scientifique dans des situations quotidiennes comme la conservation des aliments implique l'observation, la formulation d'hypothèses, des expérimentations et des conclusions, ce qui est une étape fondamentale de la méthode.",
+      "correction": "L'application de la méthode scientifique dans des situations quotidiennes comme la conservation des aliments implique l'observation, la formulation d'hypothèses, des expérimentations et des conclusions, ce qui constitue une étape fondamentale de la méthode.",
+      "description": "The phrase 'ce qui est une étape fondamentale' is grammatically less precise. 'Ce qui constitue une étape fondamentale' is the correct construction, as 'constituer' is the appropriate verb to indicate that something forms a fundamental step.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La méthode scientifique est conçue pour améliorer la précision et la fiabilité des découvertes, et non pour accélérer les décisions sans considérations de précision.",
+      "correction": "La méthode scientifique est conçue pour améliorer la précision et la fiabilité des découvertes, et non pour accélérer les décisions sans tenir compte de la précision.",
+      "description": "The phrase 'sans considérations de précision' is awkward and not idiomatic in French. 'Sans tenir compte de la précision' is the standard way to express this idea, improving grammatical and lexical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En comprenant ses étapes et applications, nous développons des compétences pour analyser et résoudre des défis du monde réel.",
+      "correction": "En comprenant ses étapes et ses applications, nous développons des compétences pour analyser et résoudre les défis du monde réel.",
+      "description": "The phrase should include 'ses' before 'applications' for parallel structure, and 'les défis du monde réel' is more precise than 'des défis', as it refers to specific challenges. This correction improves grammatical agreement and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:11:03.979414",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.1
+    }
+  }
+}

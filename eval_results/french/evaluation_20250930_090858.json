@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "L'ADN est composé de quatre types de sucres différents.",
+      "correction": "L'ADN est composé de quatre types de bases azotées différentes.",
+      "description": "The original statement incorrectly claims that DNA is composed of four types of sugars, which is a lexical error. In reality, DNA contains one type of sugar (désoxyribose) and four types of nitrogenous bases. This error could mislead learners about the chemical composition of DNA and should be corrected for scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Les enfants sont des mosaïques de leurs deux parents.",
+      "correction": "Les enfants héritent de caractéristiques de leurs deux parents.",
+      "description": "The metaphor 'mosaïques' is not a standard or natural expression in French scientific or educational contexts when describing genetic inheritance. While understandable, it may sound informal or imprecise to French learners. A more neutral and widely accepted phrasing improves clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "L'ADN est composé de sucres, d'acides nucléiques et d'un squelette phosphate, pas seulement d'acides aminés qui sont des éléments constitutifs des protéines.",
+      "correction": "L'ADN est composé de désoxyribose, de bases azotées et d'un squelette phosphate, et non d'acides aminés qui sont les éléments constitutifs des protéines.",
+      "description": "The phrase 'd'acides nucléiques' is inaccurate in this context, as DNA itself is a nucleic acid, not a component of DNA. The correct components are désoxyribose (sugar), bases azotées (nitrogenous bases), and phosphate backbone. This lexical error could confuse learners about the molecular structure of DNA.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:08:58.573299",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2
+    }
+  }
+}

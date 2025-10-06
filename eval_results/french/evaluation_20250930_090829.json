@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pouvons-nous trouver un moyen de partager équitablement ?",
+      "correction": "Pouvons-nous trouver un moyen de partager l’ordinateur équitablement ?",
+      "description": "The original sentence is grammatically correct, but the referent 'partager' is ambiguous in context. For clarity and precision, it is better to specify what is being shared ('l’ordinateur'), especially in educational content. This improves comprehension and avoids possible confusion for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Utiliser des déclarations en « Je » pour exprimer ses pensées, comme « Je ressens... » ou « Je pense... ».",
+      "correction": "Utiliser des phrases commençant par « Je » pour exprimer ses pensées, comme « Je ressens... » ou « Je pense... ».",
+      "description": "The term 'déclarations en « Je »' is a direct calque from English ('I-statements') and is not the most natural or idiomatic way to express this concept in French educational contexts. 'Phrases commençant par « Je »' is more commonly used and better understood by French speakers, improving the naturalness and accessibility of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Deux frères se disputent le choix du film. Par compromis, l'un choisit cette semaine, l'autre la semaine suivante.",
+      "correction": "Deux frères se disputent le choix du film. Pour parvenir à un compromis, l'un choisit cette semaine, l'autre la semaine suivante.",
+      "description": "The phrase 'Par compromis' is not the most idiomatic way to introduce the idea of compromise in French. 'Pour parvenir à un compromis' is more natural and culturally appropriate, reflecting how compromise is typically described in French educational and family contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Cela favorise le respect mutuel.",
+      "correction": "Cela favorise le respect mutuel entre les membres du groupe.",
+      "description": "While the original sentence is grammatically correct, it lacks clarity regarding who is involved. Adding 'entre les membres du groupe' provides necessary context, making the sentence more precise and educationally effective.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:08:29.081475",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3
+    }
+  }
+}

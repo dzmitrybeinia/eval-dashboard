@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Découvrons ensemble ce qu'est l'IA et comment elle influence notre vie ! 🤖",
+      "correction": "Découvrons ensemble ce qu'est l'IA et comment elle influence notre vie !",
+      "description": "The use of the robot emoji (🤖) at the end of the sentence is not standard in formal or educational French content. While emojis can be engaging, their use in educational materials should be carefully considered for appropriateness and consistency. In this context, it may undermine the professional tone expected in educational resources.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "L'affirmation est incorrecte car Deep Blue a fait ses armes contre Garry Kasparov en 1997, une décennie plus tard que mentionné.",
+      "correction": "L'affirmation est incorrecte, car Deep Blue a fait ses armes contre Garry Kasparov en 1997, une décennie plus tard que mentionné.",
+      "description": "A comma is required after 'incorrecte' to separate the main clause from the explanatory clause starting with 'car'. This improves readability and aligns with standard French punctuation rules.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:20:41.563625",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1
+    }
+  }
+}

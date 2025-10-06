@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "C'est exact car une des principes fondamentales des machines simples est de rendre les tâches plus faciles en utilisant moins d'effort de la part de l'utilisateur.",
+      "correction": "C'est exact car un des principes fondamentaux des machines simples est de rendre les tâches plus faciles en utilisant moins d'effort de la part de l'utilisateur.",
+      "description": "There are two grammatical errors in this sentence: (1) 'une des principes fondamentales' should be 'un des principes fondamentaux' because 'principe' is masculine singular and the adjective 'fondamental' must agree in gender and number; (2) 'une des' should be 'un des' for the same reason. The correction addresses both agreement errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "fulcrum",
+      "correction": "point d'appui",
+      "description": "The English term 'fulcrum' is used in the French text instead of the standard French term 'point d'appui'. For educational content, it is important to use the correct French terminology to ensure clarity and appropriateness for the target audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:20:10.644724",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

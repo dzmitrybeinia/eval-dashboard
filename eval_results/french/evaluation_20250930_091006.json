@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Un citoyen français aide un étranger à se tromper dans la rue.",
+      "correction": "Un citoyen français aide un étranger qui s'est trompé dans la rue.",
+      "description": "The original sentence contains a syntactic error: 'aide un étranger à se tromper' means 'helps a foreigner to make a mistake', which is not the intended meaning. The correct structure should indicate that the citizen helps a foreigner who is lost or has made a mistake, not that he helps him to make one. The corrected version uses 'qui s'est trompé' to clarify the meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Fred Rogers : A promu la gentillesse et l'empathie à travers son émission télévisée.",
+      "correction": "Fred Rogers : Il a promu la gentillesse et l'empathie à travers son émission télévisée.",
+      "description": "While the linguistic structure is mostly correct, the use of 'A promu' without a subject pronoun is less natural in French, especially in educational content. Adding 'Il a promu' aligns with standard French narrative style. Additionally, Fred Rogers is a cultural reference that may not be widely recognized in French-speaking contexts; consider providing a brief explanation or choosing a more locally relevant example for better cultural resonance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Planter des arbres ou des fleurs pour un environnement accueillant.",
+      "correction": "Planter des arbres ou des fleurs pour créer un environnement accueillant.",
+      "description": "The original phrase is grammatically correct but lacks clarity in its purpose. Adding 'créer' clarifies the intended meaning, making the sentence more precise and natural in French. This improves the overall readability and educational value.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:10:06.761648",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2
+    }
+  }
+}

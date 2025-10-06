@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "la résumé",
+      "correction": "le résumé",
+      "description": "The word 'résumé' is masculine in French, so the correct article is 'le' instead of 'la'. This is a gender agreement error that could confuse learners about the correct gender of the noun.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "la résumé",
+      "correction": "le résumé",
+      "description": "In addition to the gender agreement issue, the word 'résumé' requires the acute accent on both 'é' letters. If the accent is missing, it is a spelling error that affects the word's meaning and pronunciation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Carte mentale",
+      "correction": "Carte heuristique",
+      "description": "While 'carte mentale' is commonly used in France, 'carte heuristique' is the more formal and widely accepted term in educational contexts. For a standardized educational resource, using 'carte heuristique' ensures consistency and aligns with official terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "notes, indices et résumé",
+      "correction": "notes, indices et résumé",
+      "description": "In the phrase 'notes, indices et résumé', if used as a list of sections for the Cornell method, the pluralization is inconsistent. 'Résumé' should be pluralized to 'résumés' to match 'notes' and 'indices', unless it refers to a single summary section. If the intention is to refer to the three sections generically, consider 'notes, indices et résumé' (singular) for clarity, as the Cornell method uses one summary section per page.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "30 minutes par jour",
+      "correction": "30 minutes par jour",
+      "description": "While '30 minutes par jour' is correct, in some French educational contexts, specifying the time of day (e.g., 'chaque soir') or using a 24-hour clock format for schedules is more common. Consider adapting the example to local study habits for greater cultural resonance.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:20:30.707257",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2
+    }
+  }
+}

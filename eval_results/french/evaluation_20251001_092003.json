@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "face ou pile",
+      "correction": "pile ou face",
+      "description": "The standard and natural order in French is 'pile ou face', not 'face ou pile'. While both are understandable, 'pile ou face' is the widely accepted and idiomatic expression. Using the reverse order is unnatural and may confuse learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Il est plus probable de tirer un cœur que tout autre type de carte dans un jeu de cartes standard.",
+      "correction": "Il est plus probable de tirer un cœur que n'importe quelle autre couleur dans un jeu de cartes standard.",
+      "description": "The phrase 'tout autre type de carte' is ambiguous and could be misinterpreted as referring to individual cards rather than suits. In French, 'couleur' is the standard term for 'suit' in card games. The correction clarifies the comparison and uses culturally appropriate terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Alors que la probabilité de tirer un cœur est de 1/4, cela ne rend pas l'événement plus probable que de tirer n'importe quelle autre carte individuelle comme l'As de Pique, qui a une probabilité de 1/52.",
+      "correction": "Alors que la probabilité de tirer un cœur est de 1/4, cela ne rend pas l'événement plus probable que de tirer n'importe quelle autre couleur, chacune ayant également une probabilité de 1/4.",
+      "description": "The original sentence incorrectly compares the probability of drawing a heart (a suit) to that of drawing a specific card (the Ace of Spades), which is not a valid comparison. The correction aligns the comparison to the same category (suit vs. suit), which is both logically and linguistically correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Un jeu de cartes standard contient 52 cartes divisées en quatre couleurs : cœurs, carreaux, trèfles et piques.",
+      "correction": "Un jeu de 52 cartes standard contient quatre couleurs : cœur, carreau, trèfle et pique.",
+      "description": "In French, the singular form is typically used when listing suits: 'cœur, carreau, trèfle, pique'. Also, 'jeu de 52 cartes' is the standard phrase. The correction improves naturalness and aligns with French card game terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dans chaque lancer d'un dé à six faces, il y a un résultat favorable (tomber sur cinq) sur six résultats possibles (tomber sur un, deux, trois, quatre, cinq ou six).",
+      "correction": "À chaque lancer d'un dé à six faces, il y a un résultat favorable (obtenir cinq) sur six résultats possibles (obtenir un, deux, trois, quatre, cinq ou six).",
+      "description": "The use of 'tomber sur' is colloquial and less precise in this mathematical context. 'Obtenir' is the standard verb for expressing outcomes in probability. The correction improves clarity and aligns with formal mathematical language.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:20:03.160582",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3
+    }
+  }
+}

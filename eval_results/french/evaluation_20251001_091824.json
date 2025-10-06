@@ -1,0 +1,73 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "choix quotidiien",
+      "correction": "choix quotidiens",
+      "description": "There is a spelling error in the word 'quotidiien', which should be 'quotidiens' to match the plural masculine noun 'choix'. This also ensures correct gender and number agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Réduire la congestion routière peut nécessiter une évaluation des options comme améliorer les transports publics ou optimiser les itinéraires.",
+      "correction": "Réduire la congestion routière peut nécessiter une évaluation des options, comme améliorer les transports publics ou optimiser les itinéraires.",
+      "description": "A comma is needed after 'options' to properly separate the clause and improve sentence clarity according to French punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Exemple : Réduire la congestion routière peut nécessiter une évaluation des options comme améliorer les transports publics ou optimiser les itinéraires.",
+      "correction": "Exemple : Réduire la congestion routière peut nécessiter une évaluation des options, comme l'amélioration des transports publics ou l'optimisation des itinéraires.",
+      "description": "The infinitive verbs 'améliorer' and 'optimiser' should be nominalized to 'l'amélioration' and 'l'optimisation' to maintain parallel structure and clarity after 'comme'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Recueillir des informations est une étape fondamentale dans la prise de décision, car elle permet de comprendre le contexte et les détails du problème.",
+      "correction": "Recueillir des informations est une étape fondamentale dans la prise de décision, car cela permet de comprendre le contexte et les détails du problème.",
+      "description": "The subject of the second clause is the act of 'recueillir des informations', which is an abstract action. Using 'cela' instead of 'elle' is more appropriate to refer to the entire process, improving grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les diviser en composants les rend plus gérables.",
+      "correction": "Les diviser en composantes les rend plus gérables.",
+      "description": "The word 'composants' is more commonly used for physical or technical components, while 'composantes' is the appropriate term for abstract parts of a problem in French educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Implémenter : Lancer une campagne.",
+      "correction": "Mettre en œuvre : Lancer une campagne.",
+      "description": "The term 'implémenter' is a calque from English ('to implement') and is less natural in standard French, especially in educational contexts. 'Mettre en œuvre' is the preferred and more idiomatic expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:18:24.603726",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.2
+    }
+  }
+}

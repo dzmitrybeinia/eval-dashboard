@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pente Glissante",
+      "correction": "Pente glissante",
+      "description": "In French, only the first word of a compound noun or phrase should be capitalized unless it is a proper noun. 'Pente Glissante' incorrectly capitalizes 'Glissante'. The correct form is 'Pente glissante'. This improves orthographic accuracy and maintains standard French capitalization rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Un politicien disant : \"Si vous ne votez pas pour moi, l'économie s'effondrera.\" C'est un appel à la peur qui simplifie à l'extrême des problèmes complexes.",
+      "correction": "Un politicien qui dit : \"Si vous ne votez pas pour moi, l'économie s'effondrera.\" C'est un appel à la peur qui simplifie à l'extrême des problèmes complexes.",
+      "description": "The phrase 'Un politicien disant' is not idiomatic in French for introducing direct speech. The more natural and culturally appropriate expression is 'Un politicien qui dit'. This correction improves the naturalness and flow of the sentence, making it sound more authentic to French speakers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Plutôt que de dire : \"Mon ami est d'accord, donc c'est vrai,\" fournissez des preuves pour soutenir votre affirmation.",
+      "correction": "Plutôt que de dire : \"Mon ami est d'accord, donc c'est vrai\", fournissez des preuves pour soutenir votre affirmation.",
+      "description": "In French, the comma should be placed outside the closing quotation mark, not inside. The original sentence incorrectly places the comma inside the quotation marks. This correction aligns with French punctuation conventions and improves grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Appel à l'Autorité",
+      "correction": "Appel à l'autorité",
+      "description": "The word 'Autorité' should not be capitalized in this context, as it is not a proper noun. The correct terminology is 'Appel à l'autorité'. This change ensures consistency with French typographical standards and improves the professional presentation of the term.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:08:33.316448",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3
+    }
+  }
+}

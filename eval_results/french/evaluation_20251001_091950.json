@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "L'écriture persuasive ne nécessite pas comprendre le public cible.",
+      "correction": "L'écriture persuasive ne nécessite pas de comprendre le public cible.",
+      "description": "The original sentence omits the required preposition 'de' before the infinitive 'comprendre' after 'nécessite'. In French, 'nécessiter de + infinitive' is the correct construction. This is a grammatical error that affects the clarity and correctness of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "dispositifs rhétoriques",
+      "correction": "procédés rhétoriques",
+      "description": "The term 'dispositifs rhétoriques' is not the standard or most natural term in French educational or rhetorical contexts. The correct and widely accepted term is 'procédés rhétoriques'. Using the standard terminology improves clarity and aligns with local academic conventions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:19:50.443068",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2
+    }
+  }
+}

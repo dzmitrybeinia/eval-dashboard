@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Étiquette Numérique : Comprendre le Comportement en Ligne",
+      "correction": "Étiquette numérique : comprendre le comportement en ligne",
+      "description": "In French titles and headings, only the first word and proper nouns should be capitalized. Here, 'Numérique', 'Comprendre', 'Comportement', and 'Ligne' are incorrectly capitalized. The corrected version uses sentence case, which is the standard for French educational and informational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans le monde de l'étiquette numérique ! ✨ Aujourd'hui, nous allons explorer comment interagir respectueusement en ligne, protéger la vie privée de chacun et éviter les comportements nuisibles comme le cyberharcèlement.",
+      "correction": "Bienvenue dans le monde de l'étiquette numérique ! Aujourd'hui, nous allons explorer comment interagir respectueusement en ligne, protéger la vie privée de chacun et éviter les comportements nuisibles comme le cyberharcèlement.",
+      "description": "The use of the sparkle emoji (✨) is not standard in formal or educational French content and may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and appropriate for an educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Attribuer le crédit pour les idées, images ou contenus des autres.",
+      "correction": "Attribuer le crédit des idées, des images ou des contenus des autres.",
+      "description": "The preposition 'pour' is not idiomatic in this context. In French, 'attribuer le crédit de' is the correct construction when referring to giving credit for ideas, images, or content. Additionally, articles should be repeated for clarity and parallelism: 'des idées, des images ou des contenus'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Évitez de partager des informations sensibles comme des noms complets, adresses ou mots de passe.",
+      "correction": "Évitez de partager des informations sensibles comme des noms complets, des adresses ou des mots de passe.",
+      "description": "The definite article 'des' should be repeated before each item in the list for grammatical parallelism and clarity in French enumeration.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obtenez le consentement avant de partager des photos, vidéos ou informations sur d'autres.",
+      "correction": "Obtenez le consentement avant de partager des photos, des vidéos ou des informations sur d'autres.",
+      "description": "The article 'des' should be repeated before each noun in the enumeration for correct grammatical structure and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Utilisez des outils pour bloquer et signaler les contenus ou utilisateurs nuisibles.",
+      "correction": "Utilisez des outils pour bloquer et signaler des contenus ou des utilisateurs nuisibles.",
+      "description": "The article 'des' should be used before both 'contenus' and 'utilisateurs' to maintain parallel structure and grammatical correctness in French.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En pratiquant une bonne étiquette numérique, en respectant la vie privée et en agissant contre le cyberharcèlement, nous pouvons contribuer à un environnement en ligne plus sûr et positif.",
+      "correction": "En pratiquant une bonne étiquette numérique, en respectant la vie privée et en agissant contre le cyberharcèlement, nous pouvons contribuer à un environnement en ligne plus sûr et plus positif.",
+      "description": "When using multiple adjectives in French, the conjunction 'et' is not used to link them unless they are of equal value. Here, 'plus sûr et positif' should be 'plus sûr et plus positif' to maintain parallelism and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:08:55.290760",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1
+    }
+  }
+}

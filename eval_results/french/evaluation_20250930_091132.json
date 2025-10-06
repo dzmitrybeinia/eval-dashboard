@@ -1,0 +1,201 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les histoires sont composées d'éléments essentiels qui les rendent captivantes et significatives.",
+      "correction": "Les histoires sont composées d'éléments essentiels qui les rendent captivantes et significatives.",
+      "description": "No linguistic errors detected. The sentence demonstrates correct agreement and verb usage. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Découvrons comment ils fonctionnent ensemble pour créer des récits mémorables ! 📖",
+      "correction": "Découvrons comment ils fonctionnent ensemble pour créer des récits mémorables !",
+      "description": "The use of the book emoji (📖) may not be appropriate in formal educational content for French-speaking audiences, as it can be perceived as informal or distracting. Removing the emoji ensures a more professional and culturally neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ils peuvent être des personnages principaux (protagonistes ou antagonistes) ou secondaires.",
+      "correction": "Ils peuvent être des personnages principaux (protagonistes ou antagonistes) ou secondaires.",
+      "description": "No linguistic errors detected. The sentence is grammatically correct and uses proper terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Dans *Le Petit Prince*, le Petit Prince est le protagoniste, tandis que les personnages comme la rose et le renard jouent des rôles secondaires importants.",
+      "correction": "Dans *Le Petit Prince*, le Petit Prince est le protagoniste, tandis que des personnages comme la rose et le renard jouent des rôles secondaires importants.",
+      "description": "The phrase 'les personnages comme la rose et le renard' could be improved for naturalness by using 'des personnages comme la rose et le renard', which is more idiomatic in French when referring to examples among a group.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le **cadre** désigne où et quand l'histoire se déroule.",
+      "correction": "Le **cadre** désigne le lieu et le moment où l'histoire se déroule.",
+      "description": "The original sentence uses 'où et quand' which is understandable but less precise. In French, 'le lieu et le moment' is a more accurate and idiomatic way to express 'where and when' in the context of a story's setting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le cadre peut influencer l'ambiance de l'histoire et les choix des personnages.",
+      "correction": "Le cadre peut influencer l'atmosphère de l'histoire et les choix des personnages.",
+      "description": "The term 'ambiance' is acceptable, but 'atmosphère' is more commonly used in literary analysis in French when referring to the mood or feeling of a story.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "L'**intrigue** correspond à la suite des événements qui composent l'histoire.",
+      "correction": "L'**intrigue** correspond à la suite d'événements qui composent l'histoire.",
+      "description": "The phrase 'la suite des événements' is grammatically correct, but 'la suite d'événements' is more idiomatic in French when describing a sequence of events in a narrative.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Elle suit souvent une structure : début (exposition), milieu (action montante, climax) et fin (action descendante, résolution).",
+      "correction": "Elle suit souvent une structure : début (exposition), milieu (action montante, point culminant) et fin (action descendante, résolution).",
+      "description": "The use of 'climax' is an anglicism. The French literary term 'point culminant' is preferred for describing the peak of the narrative.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "L'intrigue relie les personnages, le cadre et le conflit pour former une narration cohérente.",
+      "correction": "L'intrigue relie les personnages, le cadre et le conflit pour former un récit cohérent.",
+      "description": "The word 'narration' is less commonly used in French to describe the story itself; 'récit' is the standard term for a coherent story.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le **conflit** est le défi ou le problème qui fait avancer l'histoire.",
+      "correction": "Le **conflit** est le défi ou le problème qui fait avancer l'histoire.",
+      "description": "No linguistic errors detected. The sentence is clear and grammatically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Il peut être interne (au sein d'un personnage) ou externe (entre des personnages ou avec l'environnement).",
+      "correction": "Il peut être interne (au sein d'un personnage) ou externe (entre des personnages ou avec leur environnement).",
+      "description": "Adding 'leur' before 'environnement' clarifies that the environment is related to the characters, which is more precise and natural in French.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La résolution du conflit est souvent centrale à la conclusion de l'histoire.",
+      "correction": "La résolution du conflit est souvent centrale dans la conclusion de l'histoire.",
+      "description": "The preposition 'à' is less idiomatic in this context; 'dans la conclusion' is the standard way to express that the resolution is central within the conclusion.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le **thème** est le message central ou la leçon de l'histoire.",
+      "correction": "Le **thème** est le message central ou la leçon de l'histoire.",
+      "description": "No linguistic errors detected. The sentence is clear and correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ils peuvent être explicites (clairement exprimés) ou implicites (sous-entendus dans le récit).",
+      "correction": "Ils peuvent être explicites (clairement exprimés) ou implicites (suggérés dans le récit).",
+      "description": "The term 'suggérés' is more idiomatic than 'sous-entendus' when referring to implicit themes in French literary analysis.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dans *Les Fables de La Fontaine*, chaque histoire illustre un thème moral comme la prudence ou la générosité.",
+      "correction": "Dans *Les Fables de La Fontaine*, chaque fable illustre un thème moral comme la prudence ou la générosité.",
+      "description": "The word 'histoire' is less precise than 'fable' in this context, as 'fable' refers specifically to the literary genre of La Fontaine's works.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pour résumer :",
+      "correction": "Pour résumer :",
+      "description": "No linguistic errors detected. The phrase is correct and appropriate for summarizing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "**Personnages :** Ce sont les acteurs principaux et secondaires qui font avancer l'histoire.",
+      "correction": "**Personnages :** Ce sont les personnages principaux et secondaires qui font avancer l'histoire.",
+      "description": "The use of 'acteurs' is less precise than 'personnages' in literary analysis. 'Personnages' is the standard term for story characters.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "**Cadre :** Lieu et époque où l'histoire se déroule.",
+      "correction": "**Cadre :** Le lieu et l'époque où l'histoire se déroule.",
+      "description": "Adding definite articles 'le' and 'l'' before 'lieu' and 'époque' improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "**Intrigue :** Suite des événements qui constituent l'histoire.",
+      "correction": "**Intrigue :** Suite d'événements qui constituent l'histoire.",
+      "description": "The phrase 'suite des événements' is grammatically correct, but 'suite d'événements' is more idiomatic in French.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "**Conflit :** Problème ou défi central de l'histoire.",
+      "correction": "**Conflit :** Problème ou défi central de l'histoire.",
+      "description": "No linguistic errors detected. The sentence is clear and correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "**Thème :** Message ou leçon centrale du récit.",
+      "correction": "**Thème :** Message ou leçon centrale du récit.",
+      "description": "No linguistic errors detected. The sentence is clear and correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Comprendre ces éléments vous aide à analyser comment une intrigue se développe et comment les personnages évoluent au fil de l'histoire.",
+      "correction": "Comprendre ces éléments vous aide à analyser comment l'intrigue se développe et comment les personnages évoluent au fil de l'histoire.",
+      "description": "The definite article 'l'' should be used before 'intrigue' to refer to the specific story being analyzed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:11:32.738786",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 22,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 16,
+      "localization": 6
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.7
+    }
+  }
+}

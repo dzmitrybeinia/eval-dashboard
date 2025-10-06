@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un mémoire peut mettre l'accent sur des expériences personnelles, tandis qu'une biographie offre une perspective plus large et factuelle.",
+      "correction": "Un mémoire peut mettre l'accent sur des expériences personnelles, tandis qu’une biographie offre une perspective plus large et factuelle.",
+      "description": "There is an inconsistency in the use of apostrophes: the first instance uses a straight apostrophe ('), while the second uses a typographic apostrophe (’). In French, typographic apostrophes (’) are preferred for professional and educational content. This inconsistency affects orthographic quality and should be standardized for a polished appearance.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à découvrir comment ces deux genres captivent et informent grâce à leurs approches uniques. 📚✨",
+      "correction": "Préparez-vous à découvrir comment ces deux genres captivent et informent grâce à leurs approches uniques.",
+      "description": "The use of emoji (📚✨) in educational French content is not standard and may be considered informal or unprofessional in many francophone educational contexts, especially in formal lessons. Removing the emoji ensures the tone remains appropriate for a wide range of learners and maintains professional standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:18:49.733696",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1
+    }
+  }
+}

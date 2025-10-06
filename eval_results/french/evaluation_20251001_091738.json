@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Préparez-vous à explorer une nouvelle façon de résoudre des problèmes !",
+      "correction": "Préparez-vous à explorer une nouvelle façon de résoudre des problèmes !",
+      "description": "In French, a non-breaking space (espace insécable) is required before exclamation marks. The current sentence uses a regular space, which is a minor orthographic error. This correction ensures proper French punctuation standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Les expressions n'ont pas de signe égal ; elles montrent des relations, pas des valeurs spécifiques.",
+      "correction": "Les expressions n'ont pas de signe égal ; elles montrent des relations, pas des valeurs spécifiques.",
+      "description": "A non-breaking space is required before the semicolon in French typography. The current sentence uses a regular space, which is a minor orthographic issue. This correction aligns with standard French punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pour trouver la valeur de y, vous devez isoler y en effectuant des opérations inverses. Commencez par ajouter 4 des deux côtés de l'équation pour obtenir '3y = 15', puis divisez les deux côtés par 3 pour trouver que y équivaut à 5.",
+      "correction": "Pour trouver la valeur de y, vous devez isoler y en effectuant des opérations inverses. Commencez par ajouter 4 des deux côtés de l'équation pour obtenir « 3y = 15 », puis divisez les deux côtés par 3 pour trouver que y équivaut à 5.",
+      "description": "In French, quotation marks should be guillemets (« ») with non-breaking spaces inside. The current sentence uses single quotes, which is not standard in French. This correction improves orthographic accuracy and typographical consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Exemple : Résolvons 2x + 5 = 15",
+      "correction": "Exemple : Résolvons 2x + 5 = 15",
+      "description": "A non-breaking space is required before the colon in French typography. The current sentence uses a regular space, which is a minor orthographic issue. This correction ensures proper French punctuation standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:17:38.593085",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0
+    }
+  }
+}

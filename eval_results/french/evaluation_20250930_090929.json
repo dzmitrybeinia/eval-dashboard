@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "papier essui",
+      "correction": "papier essuie-tout",
+      "description": "The term 'papier essui' is a misspelling and incorrect lexical choice in French. The correct term for absorbent paper used in kitchens is 'papier essuie-tout'. This error affects both spelling and lexical precision, as 'essui' is not a valid word in French and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les premiers secours sont des actions de premiers intervention qui peuvent être effectuées par n'importe qui pour aider les personnes en détresse.",
+      "correction": "Les premiers secours sont des actions de première intervention qui peuvent être effectuées par n'importe qui pour aider les personnes en détresse.",
+      "description": "The phrase 'de premiers intervention' contains a gender and number agreement error. 'Intervention' is a feminine singular noun, so the correct form is 'de première intervention'. This error impacts grammatical accuracy and may hinder comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "pansement stérile",
+      "correction": "pansement stérile",
+      "description": "While 'pansement stérile' is correct, ensure consistent use of accents and spelling throughout the content. No correction needed here, but vigilance is required for similar terms elsewhere.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "la manœuvre de Heimlich",
+      "correction": "la manœuvre de Heimlich",
+      "description": "The term 'manœuvre de Heimlich' is widely used in French medical contexts, but in some regions, it may be referred to as 'compression abdominale'. For educational content, 'manœuvre de Heimlich' is acceptable and standard, but consider adding a note about alternative terminology for broader regional understanding.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:09:29.440257",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1
+    }
+  }
+}

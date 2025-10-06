@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "segment de ligne",
+      "correction": "segment",
+      "description": "In French geometry terminology, the standard term is 'segment' rather than 'segment de ligne'. The use of 'segment de ligne' is a literal translation from English ('line segment') and is not idiomatic in French mathematical language. This affects both lexical precision and terminology consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prêts à découvrir ces concepts captivants ? 🎉",
+      "correction": "Prêts à découvrir ces concepts captivants ?",
+      "description": "The use of the party popper emoji (🎉) is not standard in French educational materials, especially in formal or academic contexts. While it may be engaging for younger audiences, it can be perceived as informal or unprofessional in a lesson introduction. Removing the emoji aligns the tone with typical French educational style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "le bord d'une règle est un segment de ligne car il commence et finit à des points précis.",
+      "correction": "le bord d'une règle est un segment car il commence et finit à des points précis.",
+      "description": "This sentence uses 'segment de ligne', which is not the standard term in French geometry. The correct term is simply 'segment'. This correction also ensures consistency with standard French mathematical vocabulary.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:19:09.004092",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1
+    }
+  }
+}

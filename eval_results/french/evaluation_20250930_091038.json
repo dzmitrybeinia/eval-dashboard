@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le tableau périodique commence par le métal alcalin de la période 1 et se termine par le gaz noble de la période 8, non seulement par un gaz noble.",
+      "correction": "Le tableau périodique commence par un métal alcalin dans chaque période et se termine par un gaz noble, mais toutes les périodes ne commencent pas nécessairement par un élément du groupe 1 ni ne se terminent par un gaz noble.",
+      "description": "The original sentence contains a grammatical ambiguity and a factual inaccuracy regarding the structure of the periodic table. The phrase 'le gaz noble de la période 8' is misleading, as not all periods end with a noble gas, and the structure varies across periods. The correction clarifies the organization and corrects the misleading implication, improving both linguistic clarity and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bien que les métaux soient connus pour leur conductivité, les non-métaux sont généralement isolants, ce qui signifie qu'ils ne conduisent pas l'électricité ou le son.",
+      "correction": "Bien que les métaux soient connus pour leur conductivité, les non-métaux sont généralement des isolants, ce qui signifie qu'ils ne conduisent ni l'électricité ni la chaleur.",
+      "description": "The original uses 'le son' (sound) as an example of conductivity, which is not standard in scientific French when discussing electrical properties. The correction replaces 'le son' with 'la chaleur', which is the conventional comparison in French science education. This improves cultural appropriateness and aligns with local educational standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Les halogènes (Groupe 17) sont très réactifs car ils ont besoin d'un électron pour compléter leur couche.",
+      "correction": "Les halogènes (groupe 17) sont très réactifs car ils ont besoin d'un électron pour compléter leur couche.",
+      "description": "The word 'Groupe' should not be capitalized in this context, as it is a common noun and not a proper noun. Lowercasing 'groupe' follows standard French orthographic conventions for scientific writing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:10:38.116360",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2
+    }
+  }
+}

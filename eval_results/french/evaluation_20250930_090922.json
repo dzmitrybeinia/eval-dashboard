@@ -1,0 +1,177 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Préparez-vous à découvrir comment ces deux genres captivent et informent grâce à leurs approches uniques.",
+      "correction": "Préparez-vous à découvrir comment ces deux genres captivent et informent grâce à leurs approches uniques.",
+      "description": "Although the sentence is grammatically correct, the verb 'informer' is used intransitively here, which is acceptable but slightly awkward in French. A more natural phrasing would be 'captivent et nous informent' or 'captivent et transmettent des informations'. However, this is a minor stylistic issue and does not constitute a grammatical error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "📚✨",
+      "correction": "",
+      "description": "The use of emojis in educational French content may not align with formal or academic style conventions, especially for older students or in professional contexts. Consider removing or replacing emojis with more formal visual elements if targeting a formal audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les histoires sont créées à partir de l'imagination de l'auteur.",
+      "correction": "Les histoires sont créées à partir de l’imagination de l’auteur.",
+      "description": "The apostrophe used in 'l'imagination' and 'l'auteur' should be a typographically correct French apostrophe (’), not the straight ASCII apostrophe ('). This is a minor orthographic issue but improves professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Romans, nouvelles, contes, fables, pièces de théâtre.",
+      "correction": "Romans, nouvelles, contes, fables, pièces de théâtre.",
+      "description": "The list of fiction genres is accurate and uses standard French terminology. However, for educational clarity, consider adding 'récits' or 'histoires' to encompass a broader range of fictional works, especially for younger learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Une histoire poétique et philosophique racontant les aventures d'un petit prince dans l'univers.",
+      "correction": "Une histoire poétique et philosophique racontant les aventures d’un petit prince dans l’univers.",
+      "description": "The apostrophe in 'd'un' and 'l'univers' should be typographically correct (’). This is a minor orthographic issue but improves the professional appearance of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "*Le Petit Prince* de Saint-Exupéry : Une histoire poétique et philosophique racontant les aventures d'un petit prince dans l'univers.",
+      "correction": "*Le Petit Prince* d’Antoine de Saint-Exupéry : Une histoire poétique et philosophique racontant les aventures d’un petit prince dans l’univers.",
+      "description": "The author's full name 'Antoine de Saint-Exupéry' should be used for cultural and educational accuracy, as it is standard in French educational contexts to specify the full name when referencing classic works.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La non-fiction est un type d'écriture basé sur des événements réels, des faits et des données vérifiables.",
+      "correction": "La non-fiction est un type d’écriture basé sur des événements réels, des faits et des données vérifiables.",
+      "description": "The apostrophe in 'd'écriture' should be typographically correct (’). This is a minor orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "non-fiction",
+      "correction": "documentaire",
+      "description": "The term 'non-fiction' is a direct anglicism. In French, 'documentaire', 'texte informatif', or 'texte factuel' are more commonly used in educational contexts. Consider replacing 'non-fiction' with a more natural French equivalent for better localization.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Une autobiographie relatant les événements marquants de sa vie.",
+      "correction": "Une autobiographie relatant les événements marquants de sa vie.",
+      "description": "The sentence is grammatically correct. No linguistic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "*Une vie* de Simone Veil : Une autobiographie relatant les événements marquants de sa vie.",
+      "correction": "*Une vie* de Simone Veil : Une autobiographie relatant les événements marquants de sa vie.",
+      "description": "The reference to Simone Veil is culturally appropriate and relevant for French learners. No localization issues found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Comparer la fiction et la non-fiction",
+      "correction": "Comparer la fiction et la non-fiction",
+      "description": "The phrase is grammatically correct. No linguistic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La fiction repose sur l'imaginaire, tandis que la non-fiction est ancrée dans la réalité.",
+      "correction": "La fiction repose sur l’imaginaire, tandis que le documentaire est ancré dans la réalité.",
+      "description": "Replace 'la non-fiction' with 'le documentaire' or 'le texte informatif' for more natural French terminology. Also, use typographically correct apostrophe in 'l’imaginaire'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La fiction divertit, inspire ou transmet des thèmes, alors que la non-fiction informe ou explique.",
+      "correction": "La fiction divertit, inspire ou transmet des thèmes, alors que le documentaire informe ou explique.",
+      "description": "Replace 'la non-fiction' with 'le documentaire' for more natural French terminology. No grammatical errors otherwise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La fiction peut être émotive ou fantastique, tandis que la non-fiction est souvent objective.",
+      "correction": "La fiction peut être émotive ou fantastique, tandis que le documentaire est souvent objectif.",
+      "description": "Replace 'la non-fiction' with 'le documentaire' for more natural French terminology. No grammatical errors otherwise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La fiction suit une intrigue narrative, tandis que la non-fiction organise les informations de manière logique.",
+      "correction": "La fiction suit une intrigue narrative, tandis que le documentaire organise les informations de manière logique.",
+      "description": "Replace 'la non-fiction' with 'le documentaire' for more natural French terminology. No grammatical errors otherwise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Comprendre ces différences aide les lecteurs à aborder les textes avec des attentes appropriées et à mieux apprécier les intentions des auteurs.",
+      "correction": "Comprendre ces différences aide les lecteurs à aborder les textes avec des attentes appropriées et à mieux apprécier les intentions des auteurs.",
+      "description": "The sentence is grammatically correct. No linguistic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un roman sur la Seconde Guerre mondiale pourrait inclure des personnages fictifs et des événements imaginaires pour transmettre des thèmes tels que le courage ou la résilience.",
+      "correction": "Un roman sur la Seconde Guerre mondiale pourrait inclure des personnages fictifs et des événements imaginaires pour transmettre des thèmes tels que le courage ou la résilience.",
+      "description": "The sentence is grammatically correct. No linguistic errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Une biographie d'un héros de la Seconde Guerre mondiale présenterait des faits réels sur sa vie, basés sur des recherches et des preuves.",
+      "correction": "Une biographie d’un héros de la Seconde Guerre mondiale présenterait des faits réels sur sa vie, basés sur des recherches et des preuves.",
+      "description": "The apostrophe in 'd’un' should be typographically correct (’). This is a minor orthographic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un mémoire peut mettre l'accent sur des expériences personnelles, tandis qu'une biographie offre une perspective plus large et factuelle.",
+      "correction": "Un mémoire peut mettre l’accent sur des expériences personnelles, tandis qu’une biographie offre une perspective plus large et factuelle.",
+      "description": "The apostrophes in 'l’accent' and 'une' should be typographically correct (’). This is a minor orthographic issue.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:09:22.991779",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 7.6,
+    "classification": "ACCEPTABLE",
+    "total_issues": 19,
+    "total_penalty": 2.4,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 6
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.8
+    }
+  }
+}

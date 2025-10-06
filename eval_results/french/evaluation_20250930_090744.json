@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "hieroglyphique",
+      "correction": "hiéroglyphique",
+      "description": "The word 'hieroglyphique' is missing the accent aigu on the 'e'. In French, the correct spelling is 'hiéroglyphique'. This orthographic error affects the accuracy and professionalism of the educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à découvrir une culture riche, des monuments emblématiques, et les contributions durables de l'Égypte antique à la société moderne. 🌟",
+      "correction": "Préparez-vous à découvrir une culture riche, des monuments emblématiques et les contributions durables de l'Égypte antique à la société moderne.",
+      "description": "The use of the star emoji (🌟) at the end of a formal educational introduction is not standard in French academic or educational writing. Removing the emoji improves the professional tone and aligns with local expectations for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "les esclaves",
+      "correction": "les personnes réduites en esclavage",
+      "description": "The term 'les esclaves' is increasingly considered insensitive in modern French educational contexts. Using 'les personnes réduites en esclavage' is more culturally appropriate and aligns with current standards for respectful language in historical education.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:07:44.662249",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2
+    }
+  }
+}

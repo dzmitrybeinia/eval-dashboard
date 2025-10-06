@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Faire des recherches et proposer des idées.",
+      "correction": "Faire des recherches et proposer des idées",
+      "description": "In French, when listing steps or items in a process, it is standard to omit the period at the end of each item unless they are full sentences. Here, the list items are not full sentences, so the period should be removed for consistency and correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Mettre en œuvre et évaluer.",
+      "correction": "Mettre en œuvre et évaluer",
+      "description": "As with other items in the list, this is not a full sentence and should not end with a period. Removing the period ensures consistency and aligns with standard French list formatting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "passage piéton",
+      "correction": "passage pour piétons",
+      "description": "While 'passage piéton' is commonly used in France, 'passage pour piétons' is the more formal and universally accepted term in educational contexts and is less regionally marked. Using the formal term ensures clarity and appropriateness for a broad Francophone audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:18:27.604760",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1
+    }
+  }
+}

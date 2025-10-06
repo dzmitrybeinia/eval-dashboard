@@ -18,21 +18,11 @@ A pluggable, orchestrator-based system for evaluating localization quality using
 
 3. **Evaluator** - Runs AI-powered quality evaluation using Azure OpenAI (gpt-4.1)
 
-## Available Orchestrators
-
-| CLI Name | Orchestrator Class | Converter | Prompt | Use Case |
-|----------|-------------------|-----------|--------|----------|
-| `lessoncontentyesno` | LessonContentYesNoOrchestrator | LessonYesNoConverter | `combined_expert.md` | Full lesson evaluation (linguistic + localization) |
-| `lessoncontent` | LessonContentOrchestrator | LessonContentConverter | `linguistic_only.md` | Content-only evaluation (linguistic focus) |
-| `yesno` | YesNoOrchestrator | YesNoConverter | `linguistic_only.md` | Questions-only evaluation (linguistic focus) |
-| `minimal` | MinimalOrchestrator | LessonYesNoConverter | `combined_expert.md` | Example/minimal setup |
 
 ### Prompt Files & Examples
 
-All prompts are located in `prompts/evaluation/`:
-
 #### `combined_expert.md` - Dual-expertise evaluation (linguistic + localization)
-- **Used by:** `lessoncontentyesno`, `minimal`
+- **Used by:** `lessoncontentyesno`
 - **Evaluates:** Both language correctness AND cultural appropriateness
 - **Categories:** `linguistic` and `localization`
 - **Example prompt combination for Polish full evaluation:**
@@ -100,7 +90,7 @@ Runs complete pipeline: convert → evaluate → aggregate → analyze
 
 ```bash
 # Full evaluation (content + questions)
-python3 app.py eval \
+python app.py eval \
   --orchestrator lessoncontentyesno \
   --from raw_json_files/polish \
   --to markdown_files/polish_full \
@@ -108,7 +98,7 @@ python3 app.py eval \
   --label v1
 
 # Content-only evaluation (linguistic focus)
-python3 app.py eval \
+python app.py eval \
   --orchestrator lessoncontent \
   --from raw_json_files/russian \
   --to markdown_files/russian_content \
@@ -116,7 +106,7 @@ python3 app.py eval \
   --label content_v2
 
 # Questions-only evaluation (with pattern analysis)
-python3 app.py eval \
+python app.py eval \
   --orchestrator yesno \
   --from raw_json_files/polish \
   --to markdown_files/polish_questions \
@@ -129,7 +119,7 @@ python3 app.py eval \
 Convert JSON to markdown without evaluation
 
 ```bash
-python3 app.py convert \
+python app.py convert \
   --orchestrator lessoncontentyesno \
   --from raw_json_files/spanish \
   --to markdown_files/spanish_full \
@@ -142,7 +132,7 @@ Evaluate existing markdown files
 
 ```bash
 # Evaluate from existing markdown
-python3 app.py evaluate \
+python app.py evaluate \
   --orchestrator yesno \
   --from markdown_files/polish_questions \
   --language polish \
@@ -157,7 +147,7 @@ python3 app.py evaluate \
 Combine individual evaluation results into common issues
 
 ```bash
-python3 app.py aggregate-issues \
+python app.py aggregate-issues \
   --language polish \
   --label v1
 ```
@@ -167,7 +157,7 @@ python3 app.py aggregate-issues \
 Run pattern analysis on aggregated issues
 
 ```bash
-python3 app.py analyze-patterns \
+python app.py analyze-patterns \
   --orchestrator yesno \
   --language polish \
   --label v1
@@ -178,8 +168,8 @@ python3 app.py analyze-patterns \
 Serve web dashboard for viewing results locally
 
 ```bash
-python3 app.py dashboard
-# Opens at http://localhost:8083
+python app.py dashboard
+# Opens at http://localhost:8084
 ```
 
 ### 7. Export Static (`export-static`)
@@ -188,10 +178,10 @@ Export dashboard as static HTML site for GitHub Pages hosting
 
 ```bash
 # Export to default 'docs' directory
-python3 app.py export-static
+python app.py export-static
 
 # Export to custom directory
-python3 app.py export-static --output my-site
+python app.py export-static --output my-site
 
 # The exported site includes:
 # - dashboard.html (interactive dashboard)
@@ -199,22 +189,12 @@ python3 app.py export-static --output my-site
 # - eval_results/ (all evaluation JSON files)
 # - issues/ (aggregated issues and patterns)
 # - file_index.json (file metadata)
-# - .nojekyll (prevents GitHub Pages Jekyll processing)
 ```
-
-**Deploy to GitHub Pages:**
-
-1. Create a new GitHub repository (or use existing)
-2. Copy contents of `docs/` directory to repository root
-3. Push to GitHub
-4. Go to repository Settings → Pages
-5. Select "Deploy from branch" → "main" → "/ (root)"
-6. Your dashboard will be available at `https://{username}.github.io/{repo}/`
 
 **Test locally before deploying:**
 ```bash
 cd docs
-python3 -m http.server 8000
+python -m http.server 8000
 # Open http://localhost:8000/
 ```
 
@@ -224,18 +204,18 @@ Clean generated files and directories
 
 ```bash
 # Clean specific language
-python3 app.py clean eval_results --language polish
-python3 app.py clean markdown_files --language russian
-python3 app.py clean raw_json_files --language spanish
+python app.py clean eval_results --language polish
+python app.py clean markdown_files --language russian
+python app.py clean raw_json_files --language spanish
 
 # Clean all languages
-python3 app.py clean eval_results --all
-python3 app.py clean markdown_files --all
+python app.py clean eval_results --all
+python app.py clean markdown_files --all
 
 # Clean by label (eval_results only)
 # Removes: eval files, combined_issues, common_patterns, and updates all_common_issues.json
-python3 app.py clean eval_results --label v1
-python3 app.py clean eval_results --label questions_v2
+python app.py clean eval_results --label v1
+python app.py clean eval_results --label questions_v2
 ```
 
 ## Complete Workflow Examples
@@ -244,7 +224,7 @@ python3 app.py clean eval_results --label questions_v2
 
 ```bash
 # 1. Convert and evaluate Polish lessons (full content + questions)
-python3 app.py eval \
+python app.py eval \
   --orchestrator lessoncontentyesno \
   --from raw_json_files/polish \
   --to markdown_files/polish_v1 \
@@ -252,50 +232,46 @@ python3 app.py eval \
   --label v1
 
 # 2. View results in dashboard
-python3 app.py dashboard
+python app.py dashboard
 
 # 3. Clean up when done
-python3 app.py clean eval_results --label v1
+python app.py clean eval_results --label v1
 ```
 
 ### Example 2: Content-Only Evaluation (Linguistic Focus)
 
 ```bash
 # 1. Convert only lesson content (no questions)
-python3 app.py convert \
+python app.py convert \
   --orchestrator lessoncontent \
   --from raw_json_files/russian \
   --to markdown_files/russian_content \
   --language russian
 
 # 2. Evaluate content for linguistic issues
-python3 app.py evaluate \
+python app.py evaluate \
   --orchestrator lessoncontent \
   --from markdown_files/russian_content \
   --language russian \
   --label content_v1
 
 # 3. Aggregate issues
-python3 app.py aggregate-issues \
+python app.py aggregate-issues \
   --language russian \
   --label content_v1
 
-# Note: No pattern analysis (disabled for lessoncontent orchestrator)
 ```
 
 ### Example 3: Questions-Only Evaluation with Pattern Analysis
 
 ```bash
 # 1. Full pipeline: convert questions, evaluate, aggregate, analyze patterns
-python3 app.py eval \
+python app.py eval \
   --orchestrator yesno \
   --from raw_json_files/polish \
   --to markdown_files/polish_questions \
   --language polish \
   --label questions_v1
-
-# Pattern analysis runs automatically with yesno orchestrator
-# Check results: issues/common_patterns/questions_v1/polish.json
 ```
 
 ### Example 4: Multi-Language Evaluation
@@ -303,7 +279,7 @@ python3 app.py eval \
 ```bash
 # Evaluate multiple languages with same label
 for lang in polish russian spanish; do
-  python3 app.py eval \
+  python app.py eval \
     --orchestrator lessoncontentyesno \
     --from raw_json_files/$lang \
     --to markdown_files/${lang}_v2 \
@@ -312,62 +288,26 @@ for lang in polish russian spanish; do
 done
 
 # View all results in dashboard
-python3 app.py dashboard
+python app.py dashboard
 
 # Clean all when done
-python3 app.py clean eval_results --label v2
+python app.py clean eval_results --label v2
 ```
 
 ### Example 5: Re-evaluate Existing Markdown
 
 ```bash
 # If you already have markdown files and want to re-run evaluation
-python3 app.py evaluate \
+python app.py evaluate \
   --orchestrator lessoncontentyesno \
   --from markdown_files/polish_v1 \
   --language polish \
   --label v1_reeval
 
 # Then aggregate and analyze
-python3 app.py aggregate-issues --language polish --label v1_reeval
-python3 app.py analyze-patterns --orchestrator lessoncontentyesno \
+python app.py aggregate-issues --language polish --label v1_reeval
+python app.py analyze-patterns --orchestrator lessoncontentyesno \
   --language polish --label v1_reeval
-```
-
-### Example 6: Deploy Dashboard to GitHub Pages
-
-```bash
-# 1. Run full evaluation pipeline
-python3 app.py eval \
-  --orchestrator lessoncontentyesno \
-  --from raw_json_files/polish \
-  --to markdown_files/polish_v1 \
-  --language polish \
-  --label v1
-
-# 2. Export to static site
-python3 app.py export-static --output docs
-
-# 3. Test locally (optional but recommended)
-cd docs
-python3 -m http.server 8000
-# Open http://localhost:8000/ in browser
-cd ..
-
-# 4. Create GitHub repository and deploy
-git init
-git add docs/
-git commit -m "Add evaluation dashboard"
-git branch -M main
-git remote add origin https://github.com/{username}/{repo}.git
-git push -u origin main
-
-# 5. Enable GitHub Pages in repository settings
-# Settings → Pages → Source: "Deploy from branch"
-# Branch: main → Folder: /docs → Save
-
-# 6. Access your dashboard at:
-# https://{username}.github.io/{repo}/
 ```
 
 ## Directory Structure
@@ -457,7 +397,7 @@ The evaluator appends language to the path. Ensure your markdown files are in:
 `<from_path>/<language>/*.md`
 
 ### "Unknown orchestrator"
-Check available orchestrators: `python3 -c "from app import discover_orchestrators; print(list(discover_orchestrators().keys()))"`
+Check available orchestrators: `python -c "from app import discover_orchestrators; print(list(discover_orchestrators().keys()))"`
 
 ### Label not cleaning properly
 Ensure the label in evaluation files matches exactly (check `metadata.label` in JSON)

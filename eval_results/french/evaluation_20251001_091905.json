@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "concorde sur les points de vue",
+      "correction": "être d'accord sur les points de vue",
+      "description": "The word 'concorde' is not used as a verb or expression in this context in French. The correct and natural phrasing is 'être d'accord sur les points de vue.' The original phrase is a lexical error that affects clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "engagement non verbale",
+      "correction": "engagement non verbal",
+      "description": "The adjective 'verbale' should agree in gender and number with 'engagement,' which is masculine singular. The correct form is 'engagement non verbal.' This is a gender agreement error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "soutenantes",
+      "correction": "soutenantes",
+      "description": "While 'soutenantes' is grammatically correct, it is not the most natural or commonly used adjective to describe friendships in French. A more idiomatic choice would be 'solidaires' or 'bienveillantes.' However, since 'soutenantes' is not incorrect, this is a minor stylistic note.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:19:05.787473",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Construire sur les idées des autres en reconnaissant leurs points et en ajoutant son propre point de vue.",
+      "correction": "S'appuyer sur les idées des autres en reconnaissant leurs points et en ajoutant son propre point de vue.",
+      "description": "The phrase 'Construire sur les idées des autres' is a calque from English ('build on others' ideas') and is not idiomatic in French. The correct and natural expression is 'S'appuyer sur les idées des autres.' This correction improves both lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Utiliser des déclarations en « Je » pour exprimer ses pensées, comme « Je ressens... » ou « Je pense... ».",
+      "correction": "Utiliser des formulations en « je » pour exprimer ses pensées, comme « Je ressens... » ou « Je pense... ».",
+      "description": "The use of 'déclarations en « Je »' is a literal translation of 'I-statements' and is not the most natural phrasing in French educational contexts. 'Formulations en « je »' is more idiomatic and aligns with standard French communication strategies.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:18:06.417491",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1
+    }
+  }
+}

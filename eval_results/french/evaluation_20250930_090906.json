@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans cette exploration de l'intelligence émotionnelle ! 🌟 Aujourd'hui, nous allons découvrir comment comprendre nos émotions, mieux nous connecter avec les autres, et gérer nos réactions pour construire des relations plus fortes et plus positives.",
+      "correction": "Bienvenue dans cette exploration de l'intelligence émotionnelle ! Aujourd'hui, nous allons découvrir comment comprendre nos émotions, mieux nous connecter avec les autres et gérer nos réactions pour construire des relations plus fortes et plus positives.",
+      "description": "The use of the emoji '🌟' in educational French content is generally considered informal and may not align with professional or academic tone expectations. Removing the emoji ensures a more neutral and appropriate style for a wide audience, including formal educational settings. Additionally, the comma before 'et gérer nos réactions' is unnecessary in French and should be omitted for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Des activités comme le journal intime, l'auto-réflexion et le mindfulness peuvent aider à améliorer la conscience de soi en mettant l'accent sur la reconnaissance et l'analyse des émotions personnelles.",
+      "correction": "Des activités comme le journal intime, l'auto-réflexion et la pleine conscience peuvent aider à améliorer la conscience de soi en mettant l'accent sur la reconnaissance et l'analyse des émotions personnelles.",
+      "description": "The term 'mindfulness' is an anglicism and should be replaced with the standard French equivalent 'pleine conscience' to ensure naturalness and consistency in terminology. Using the French term makes the content more accessible and culturally appropriate for French-speaking learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:09:06.942729",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3
+    }
+  }
+}

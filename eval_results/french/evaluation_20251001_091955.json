@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Aucun règle fixe pour la longueur des vers, la rime ou le rythme.",
+      "correction": "Aucune règle fixe pour la longueur des vers, la rime ou le rythme.",
+      "description": "The noun 'règle' is feminine in French, so the correct indefinite article is 'aucune' instead of 'aucun'. This is a grammatical gender agreement error that affects the accuracy and professionalism of the text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Il était une fois un homme de Paris,\nQui rêvait qu'il mangeait son tapis.\nIl se réveilla en sursaut,\nAu milieu de la nuit,\nPour découvrir que c'était bien vrai.",
+      "correction": "Il était une fois un homme de Paris,\nQui rêvait qu'il mangeait son tapis.\nIl se réveilla en sursaut,\nAu milieu de la nuit,\nPour découvrir qu'il avait mangé son tapis.",
+      "description": "The punchline of the limerick is not as humorous or absurd as is typical for the genre, and the final line lacks the playful twist expected in a limerick. For better cultural adaptation and to match the limerick tradition, the last line should clarify the absurdity (e.g., discovering he had actually eaten his carpet), making the humor more explicit and natural for French-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pentamètre iambique",
+      "correction": "pentamètre iambique (mètre à cinq pieds, rarement utilisé en français)",
+      "description": "The term 'pentamètre iambique' is a direct translation from English and is not commonly used in French poetry, where the alexandrin (twelve-syllable line) is standard. Adding a parenthetical explanation clarifies the concept for French learners and avoids confusion, ensuring the terminology is accessible and culturally relevant.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:19:55.104923",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3
+    }
+  }
+}

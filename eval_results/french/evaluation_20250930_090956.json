@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Carottes en bâtonnets",
+      "correction": "Carottes en bâtonnet",
+      "description": "The plural 'bâtonnets' is used, but in French food context, the singular 'bâtonnet' is more idiomatic when referring to the form or cut of vegetables, especially in menu or recipe descriptions. This improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Préparez-vous à découvrir comment les nutriments, les repas équilibrés et les choix alimentaires quotidiens soutiennent notre croissance et notre bien-être ! 🥗🍎",
+      "correction": "Préparez-vous à découvrir comment les nutriments, les repas équilibrés et les choix alimentaires quotidiens soutiennent notre croissance et notre bien-être !",
+      "description": "The use of emoji (🥗🍎) in educational French content may not align with formal classroom or textbook conventions, especially for older students or in print materials. Removing emojis ensures the tone remains professional and culturally appropriate for a wide educational audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "options complètes pour les céréales",
+      "correction": "céréales complètes",
+      "description": "The phrase 'options complètes pour les céréales' is unnatural in French. The standard term is 'céréales complètes' to refer to whole grains. Using the correct terminology ensures clarity and aligns with local dietary guidelines.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:09:56.493290",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3
+    }
+  }
+}

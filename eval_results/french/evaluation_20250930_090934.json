@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La partie est le numérateur, et le tout est divisé en le dénominateur, ce qui est un concept fondamental pour comprendre les fractions.",
+      "correction": "La partie est le numérateur, et le tout est divisé par le dénominateur, ce qui est un concept fondamental pour comprendre les fractions.",
+      "description": "The phrase 'divisé en le dénominateur' is grammatically incorrect in French. The correct preposition is 'par' (divisé par le dénominateur) to indicate division by the denominator. This error affects clarity and accuracy in explaining the concept.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imagine partager une pizza avec tes amis ou diviser une barre de chocolat en parts égales.",
+      "correction": "Imagine partager une pizza avec tes amis ou diviser une tablette de chocolat en parts égales.",
+      "description": "The term 'barre de chocolat' is less commonly used in French for the context of sharing; 'tablette de chocolat' is the standard term for a chocolate bar meant to be divided. This change improves naturalness and cultural appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "1/2 tasse de sucre",
+      "correction": "1/2 tasse de sucre",
+      "description": "While the fraction format '1/2' is acceptable, French educational materials often use the horizontal fraction bar (½) for clarity and typographical convention. Consider using '½ tasse de sucre' for improved readability and adherence to local formatting standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Une demi-heure s'écrit 1/2 heure.",
+      "correction": "Une demi-heure s'écrit ½ heure.",
+      "description": "In French, '½ heure' is the standard way to write 'half an hour' rather than '1/2 heure'. Using the typographical fraction (½) aligns with local conventions and improves naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:09:34.566325",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3
+    }
+  }
+}

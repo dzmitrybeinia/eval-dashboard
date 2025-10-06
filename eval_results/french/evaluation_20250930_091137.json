@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Carte mentale : Utilisez des diagrammes pour relier visuellement les idées, concepts et exemples.",
+      "correction": "Carte mentale : Utilisez des schémas pour relier visuellement les idées, concepts et exemples.",
+      "description": "The term 'diagrammes' is less commonly used in French educational contexts for mind mapping. 'Schémas' is the standard and more natural term for visual representations in note-taking and study skills, ensuring better localization and clarity for French learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Utilisez des abréviations et des symboles pour gagner du temps.",
+      "correction": "Utilisez des abréviations et des symboles pour gagner du temps.",
+      "description": "No linguistic errors found. The sentence demonstrates correct grammar, agreement, and word choice.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Commencez toutes les tâches à la dernière minute pour maximiser la créativité.",
+      "correction": "Commencez toutes les tâches à la dernière minute pour maximiser la créativité.",
+      "description": "While linguistically correct, the statement may not align with French educational values, which emphasize planning and organization. However, as it is used as a false statement in a quiz context, it does not require correction but should be noted for cultural appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Méthode par plan : Structurez vos notes de manière hiérarchique avec des titres et des puces pour organiser les idées principales et les détails.",
+      "correction": "Méthode du plan : Structurez vos notes de manière hiérarchique avec des titres et des puces pour organiser les idées principales et les détails.",
+      "description": "The phrase 'Méthode par plan' is not standard in French educational terminology. 'Méthode du plan' is the correct and commonly used term for outlining notes in a hierarchical structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Élaborez un emploi du temps : Utilisez des agendas ou des outils numériques pour allouer du temps aux études, aux devoirs et aux loisirs.",
+      "correction": "Élaborez un emploi du temps : Utilisez un agenda ou des outils numériques pour allouer du temps aux études, aux devoirs et aux loisirs.",
+      "description": "In French, 'agenda' is typically used in the singular when referring to a personal planner. The plural 'agendas' is less natural in this context. Using 'un agenda' improves the naturalness and localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:11:37.866070",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.6
+    }
+  }
+}

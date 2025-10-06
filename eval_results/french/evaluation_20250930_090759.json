@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "la taille",
+      "correction": "le sexe",
+      "description": "The word 'la taille' in the feedback for the Civil Rights Act is a lexical error. In this context, 'la taille' (meaning 'height' or 'size') is incorrect; the intended meaning is 'le sexe' (gender/sex), which is the correct term used in the Civil Rights Act. This error could lead to misunderstanding of the law's scope and should be corrected for accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Préparation du terrain pour les mouvements de justice sociale actuels comme ceux pour l'égalité des genres ou les droits LGBTQ+.",
+      "correction": "Préparation du terrain pour les mouvements de justice sociale actuels, tels que ceux pour l'égalité des genres ou les droits des personnes LGBTQ+.",
+      "description": "The phrase 'droits LGBTQ+' is understandable but lacks the more culturally accepted French phrasing, which is 'droits des personnes LGBTQ+'. This adjustment improves naturalness and inclusivity in French educational contexts. Additionally, 'comme ceux pour' is less formal than 'tels que ceux pour', which is preferred in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Dr. Martin Luther King Jr.",
+      "correction": "Martin Luther King Jr.",
+      "description": "In French, the use of 'Dr.' as an abbreviation for 'Doctor' is not standard in educational or historical texts. The correct and more natural usage is to refer to him as 'Martin Luther King Jr.' without the English abbreviation, which avoids unnecessary anglicism and maintains orthographic consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "son acte de défi dans un bus de Montgomery",
+      "correction": "son acte de résistance dans un bus de Montgomery",
+      "description": "The phrase 'acte de défi' is a literal translation of 'act of defiance' but is less natural in French educational discourse. 'Acte de résistance' is more idiomatic and culturally appropriate when describing Rosa Parks' actions in the context of civil rights.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Civil Rights Act de 1964",
+      "correction": "Loi sur les droits civiques de 1964",
+      "description": "The use of 'Civil Rights Act de 1964' mixes English and French, which is not standard in French educational content. The correct localized term is 'Loi sur les droits civiques de 1964', ensuring consistency and clarity for French-speaking learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement_1__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:07:59.723389",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4
+    }
+  }
+}

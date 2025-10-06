@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Pour un engin spatial de rester en orbite, il doit se déplacer à une vitesse spécifique qui équilibre la force de gravité tirant vers la Terre.",
+      "correction": "Pour qu'un engin spatial reste en orbite, il doit se déplacer à une vitesse spécifique qui équilibre la force de gravité tirant vers la Terre.",
+      "description": "The original sentence uses an incorrect infinitive construction ('Pour un engin spatial de rester en orbite') instead of the correct subjunctive clause ('Pour qu'un engin spatial reste en orbite'). This is a common French syntactic structure when expressing purpose or condition. The error affects the grammaticality and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Pour mieux comprendre, imaginez que vous poussez un sac de sable : le sac se déplace vers l'avant, ce qui illustre la réaction opposée à la force que vous appliquez.",
+      "correction": "Pour mieux comprendre, imaginez que vous poussez un chariot ou une boîte : l'objet se déplace vers l'avant, ce qui illustre la réaction opposée à la force que vous appliquez.",
+      "description": "The example of pushing a 'sac de sable' (sandbag) is not the most relatable or common in French educational contexts. Using 'chariot' or 'boîte' provides a more universally understood and culturally neutral example, improving the naturalness and accessibility of the explanation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:20:13.577525",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "L'hindouisme est historiquement reconnue pour avoir émergé dans la vallée de l'Indus, qui est située en Asie du Sud, et non en Europe.",
+      "correction": "L'hindouisme est historiquement reconnu pour avoir émergé dans la vallée de l'Indus, qui est située en Asie du Sud, et non en Europe.",
+      "description": "The adjective 'reconnue' is incorrectly gendered; it should agree with the masculine noun 'hindouisme' and be 'reconnu'. This is a grammatical gender agreement error that affects the accuracy of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La Bible, comprenant l'Ancien et le Nouveau Testament, est le texte sacré.",
+      "correction": "La Bible, composée de l'Ancien et du Nouveau Testament, est le texte sacré.",
+      "description": "The use of 'comprenant' is less idiomatic in French when referring to the composition of the Bible. 'Composée de' is the standard and more natural term in this context, improving the localization and naturalness of the expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le judaïsme est une religion qui commence plus de 3000 ans auparavant avec un accord divin.",
+      "correction": "Le judaïsme est une religion qui a commencé il y a plus de 3000 ans avec une alliance divine.",
+      "description": "The verb tense 'commence' is incorrect for describing a historical event; the past tense 'a commencé' should be used. Additionally, 'auparavant' is awkward in this context; 'il y a plus de 3000 ans' is the correct temporal expression. 'Accord divin' is less precise than 'alliance divine', which is the standard term in religious context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les Cinq Piliers de l'islam : foi, prière, charité, jeûne et pèlerinage.",
+      "correction": "Les cinq piliers de l'islam : profession de foi, prière, aumône, jeûne et pèlerinage.",
+      "description": "The standard terminology for the Five Pillars of Islam in French is 'profession de foi' (shahada) and 'aumône' (zakat) rather than the generic 'foi' and 'charité'. Using the correct religious terms ensures accuracy and cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Le Noble Chemin Octuple, guide pour une conduite éthique, la discipline mentale et la sagesse.",
+      "correction": "Le noble chemin octuple, guide pour une conduite éthique, la discipline mentale et la sagesse.",
+      "description": "Capitalization is incorrect; in French, only the first word of a title or concept is capitalized unless it is a proper noun. 'Noble Chemin Octuple' should be 'noble chemin octuple'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-10-01T09:20:48.330046",
+    "model": "Azure OpenAI o3-mini",
+    "label": "mixed instructions"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3
+    }
+  }
+}

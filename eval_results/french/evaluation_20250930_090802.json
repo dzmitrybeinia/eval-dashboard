@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "14ème et 15ème amendements",
+      "correction": "14e et 15e amendements",
+      "description": "In French, ordinal numbers used as adjectives should be written with 'e' (not 'ème') after the number, without superscript or accent. The use of 'ème' is incorrect in this context and should be replaced with 'e' for proper orthography.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "tests de connaissance des lois",
+      "correction": "tests de connaissance civique",
+      "description": "The phrase 'tests de connaissance des lois' is not the standard or natural way to refer to the literacy or civics tests historically used to restrict voting rights. 'Tests de connaissance civique' is more accurate and idiomatic in French, reflecting the terminology typically used in educational and historical contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "I Have a Dream",
+      "correction": "« I Have a Dream »",
+      "description": "French typographical conventions require the use of guillemets (« ») for quoting speech or titles, especially in educational content. The English phrase should be enclosed in guillemets to conform to French formatting standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement__YesNo.md",
+    "language": "French",
+    "timestamp": "2025-09-30T09:08:02.503412",
+    "model": "Azure OpenAI o3-mini",
+    "label": "translated prompt"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2
+    }
+  }
+}

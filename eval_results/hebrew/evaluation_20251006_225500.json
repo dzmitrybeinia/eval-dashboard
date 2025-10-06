@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "רוטב מרינגגרייה",
+      "correction": "רוטב מרינרה",
+      "description": "Spelling error: incorrect transliteration of 'marinara' sauce",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ישראל מייבאת רוטב מרינגגרייה לאירופה.",
+      "correction": "ישראל מייצאת רוטב מרינרה לאירופה.",
+      "description": "Word choice error: 'מייבאת' (imports) should be 'מייצאת' (exports) to match the context",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "בעיירי יער",
+      "correction": "ביערות",
+      "description": "Spelling error: 'בעיירי יער' is incorrect, should be 'ביערות' (in forests)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "דוגמה מרמיה",
+      "correction": "דוגמה מרמיה",
+      "description": "Spelling error: 'מרמיה' is not a correct word; possibly intended 'מרשימה' (impressive) or 'מפורסמת' (famous)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "צמצוגים",
+      "correction": "צמצומים",
+      "description": "Spelling error: 'צמצוגים' is not a valid word; should be 'צמצומים' (reductions)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "קרובוות",
+      "correction": "קרובות",
+      "description": "Spelling error: 'קרובוות' should be 'קרובות' (close)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "היכון",
+      "correction": "היקף",
+      "description": "Spelling error: 'היכון' is incorrect; likely intended 'היקף' (scope/extent)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "תרופות ובטקסטיל",
+      "correction": "תרופות וטקסטיל",
+      "description": "Spelling error: unnecessary 'ב' prefix in 'בטקסטיל'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "המיקרוס של הייצוא",
+      "correction": "המגוון של הייצוא",
+      "description": "Spelling/word choice error: 'המיקרוס' is not a valid word; should be 'המגוון' (the variety)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "רפורמטיביים",
+      "correction": "פורמטיביים",
+      "description": "Spelling error: 'רפורמטיביים' is not standard; likely intended 'פורמטיביים' (formative)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "ההצהרה אינה מגוונת את ההשפעות הרב־דמוקרטיות של המסחר העולמי.",
+      "correction": "ההצהרה אינה משקפת את ההשפעות הרב־תחומיות של המסחר העולמי.",
+      "description": "Word choice error: 'רב־דמוקרטיות' is incorrect; should be 'רב־תחומיות' (multidisciplinary/multifaceted)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "על מנת שתבייש את ההקשר, זכרי שהמסחר משפיע לא רק כלכלית אלא גם בתרבות ובשיקולים פוליטיים, כמו שמצוי בדוגמאות.",
+      "correction": "על מנת להבהיר את ההקשר, זכור שהמסחר משפיע לא רק כלכלית אלא גם תרבותית ובשיקולים פוליטיים, כפי שמצוי בדוגמאות.",
+      "description": "Grammar and word choice errors: 'שתבייש' is incorrect verb; 'זכרי' is feminine imperative, should be masculine or neutral; 'בתרבות' should be 'תרבותית'; 'כמו שמצוי' should be 'כפי שמצוי'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מאזים חוקים לאומנים",
+      "correction": "מאזין חוקים לאומיים",
+      "description": "Spelling and word choice error: 'מאזים' should be 'מאזין' (sets/establishes); 'לאומנים' should be 'לאומיים' (national)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "סכסקים",
+      "correction": "סכסוכים",
+      "description": "Spelling error: 'סכסקים' is not a valid word; should be 'סכסוכים' (conflicts/disputes)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "בדיקולט",
+      "correction": "בדיוק",
+      "description": "Spelling error: 'בדיקולט' is not a valid word; should be 'בדיוק' (exactly)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:55:00.219524",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.1,
+    "classification": "ACCEPTABLE",
+    "total_issues": 15,
+    "total_penalty": 2.9,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

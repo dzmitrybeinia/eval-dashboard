@@ -1,30 +1,16 @@
 """JSON parsing utilities for LLM responses."""
 
-from __future__ import annotations
-
 import json
 import re
 from typing import Callable, Dict, Optional
 
-
 def parse_llm_json_response(text: str) -> Optional[Dict]:
-    """
-    Parse JSON from LLM response with multiple fallback strategies.
-
-    Args:
-        text: Raw LLM response text
-
-    Returns:
-        Parsed JSON dict or None if all strategies fail
-    """
-    # First try: clean and parse
+    """Parse JSON from LLM response with multiple fallback strategies."""
     cleaned = clean_json_wrapper(text)
     try:
         return json.loads(cleaned)
     except json.JSONDecodeError:
         pass
-
-    # Fallback strategies
     strategies: tuple[Callable[[str], Optional[Dict]], ...] = (
         _extract_json_by_braces,
         _aggressive_clean_and_parse,
@@ -43,21 +29,11 @@ def parse_llm_json_response(text: str) -> Optional[Dict]:
 
 
 def clean_json_wrapper(text: str) -> str:
-    """
-    Remove common markdown wrappers from LLM JSON responses.
-
-    Args:
-        text: Raw response text possibly wrapped in markdown
-
-    Returns:
-        Cleaned text with markdown wrappers removed
-    """
+    """Remove common markdown wrappers from LLM JSON responses."""
     if not text:
         return ""
 
     cleaned = text.strip()
-
-    # Common markdown patterns to remove
     patterns = (
         ("```json\n", "```"),
         ("```json", "```"),
@@ -67,7 +43,6 @@ def clean_json_wrapper(text: str) -> str:
 
     for start, end in patterns:
         if cleaned.startswith(start) and cleaned.endswith(end):
-            # Remove prefix and suffix
             start_len = len(start)
             end_len = len(end)
             cleaned = cleaned[start_len:-end_len].strip()

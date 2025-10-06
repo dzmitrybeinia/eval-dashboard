@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ה-DNA מורכב ממספר רגיל של נוקלאוטידים שאינם מורכבים מדי חלקים שונים.",
+      "correction": "ה-DNA מורכב ממספר מסוים של נוקלאוטידים, שכל אחד מהם מורכב ממספר חלקים שונים.",
+      "description": "Awkward phrasing and incorrect use of 'רגיל' and 'שאינם מורכבים מדי חלקים שונים'; sentence is unclear.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ה-DNA מורכב באופן מורכב משני גדילים שנקראים נוקלאוטידים.",
+      "correction": "ה-DNA מורכב משני גדילים, שכל אחד מהם בנוי מנוקלאוטידים.",
+      "description": "Repetitive use of 'מורכב' and incorrect statement that strands are called nucleotides.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ולא מרגיש רגיל או שונים באופן לא מתואם.",
+      "correction": "ואינם רגילים או שונים באופן לא מתואם.",
+      "description": "Incorrect use of 'מרגיש' and awkward phrasing; 'מרגיש' should not be used in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מדובר במבנה מורכב ומאפשר ביטוי גנים שונים בתוך הגנים האישיים בבני אדם.",
+      "correction": "מדובר במבנה מורכב שמאפשר ביטוי של גנים שונים בבני אדם.",
+      "description": "Redundant and unclear phrasing; 'בתוך הגנים האישיים בבני אדם' is confusing.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "במבנה הפנימי של החיים, ה-DNA מתחשב בתפקידו הקריטי כתוכנית החיים, דומה למסורת מסורת שמספקת הנחיות לייצור הצמח הגנטי שלו.",
+      "correction": "במבנה הפנימי של החיים, ה-DNA ממלא תפקיד קריטי כתוכנית החיים, בדומה למערכת שמספקת הנחיות לייצור המרכיבים הגנטיים.",
+      "description": "Incorrect use of 'מתחשב' and repetition of 'מסורת מסורת'; 'צמח הגנטי' is unclear.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "אותה דרישה מאידיאוקרטיקה לבניית ותחזוקת היצור החי, מדגישה את החשיבות של ה-DNA.",
+      "correction": "הדרישה לבניית ותחזוקת היצור החי מדגישה את חשיבות ה-DNA.",
+      "description": "Use of 'מאידיאוקרטיקה' is incorrect and unclear; sentence is awkward.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "כמו שהרמוניה מספרת לבני אדם מידע על עבדות ותפקיד, ה-DNA מספר לתאי את הדרישות שלהם להתפתחות ולתפקד.",
+      "correction": "כמו שהרמוניה מספקת לבני אדם מידע על תפקידים, כך ה-DNA מספק לתאים את ההנחיות הדרושות להתפתחות ולתפקוד.",
+      "description": "Incorrect use of 'עבדות' and 'מספר לתאי'; unclear and awkward phrasing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "המבנה השל של ה-DNA מאפשר לתאים להתחדש בקלות.",
+      "correction": "המבנה השלדי של ה-DNA מאפשר לתאים להתחדש בקלות.",
+      "description": "Spelling error: 'השל' should be 'השלדי'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "אך התהום של התחדשות מתבצעת באופן מורכב יותר, על ידי תהליכי תאיקוטוזה ורבייה.",
+      "correction": "אך תהליך ההתחדשות מתבצע באופן מורכב יותר, באמצעות תהליכי מיטוזה ורבייה.",
+      "description": "Incorrect use of 'תהום' and misspelling of 'מיטוזה'; awkward phrasing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "עקרון זה מדגיש את הרכיבים המורכבים של ה-DNA ואת הגוף המרכזי של אחסון מידע גנטי של ה-DNA.",
+      "correction": "עקרון זה מדגיש את המורכבות של ה-DNA ואת תפקידו המרכזי באחסון מידע גנטי.",
+      "description": "Awkward phrasing; 'הגוף המרכזי' is not appropriate in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בדיקות DNA ברפואה משמשות רק לאבחון מחלות שאין להן מדיקה טיפולית.",
+      "correction": "בדיקות DNA ברפואה משמשות רק לאבחון מחלות שאין להן טיפול רפואי.",
+      "description": "Incorrect use of 'מדיקה טיפולית'; should be 'טיפול רפואי'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הן מסייעות באישור מחלות גנטיות, נבואות למחלות ואפילו בהקלת תהליך הטיפול על ידי הבנת הגורמים הגנטיים.",
+      "correction": "הן מסייעות באבחון מחלות גנטיות, חיזוי מחלות ואפילו בהקלת תהליך הטיפול על ידי הבנת הגורמים הגנטיים.",
+      "description": "Incorrect use of 'אישור' and 'נבואות'; should be 'אבחון' and 'חיזוי'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ה-DNA מגיב באופן אקראטי לסביבתו ומשנה את התכונות של היצורים.",
+      "correction": "ה-DNA מגיב באופן אקראי לסביבתו ומשנה את התכונות של היצורים.",
+      "description": "Incorrect use of 'אקראטי'; should be 'אקראי'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ה-DNA מגדיר את התכונות של היצורים על ידי התיירשות של מידע גנטי, אך זה נעשה באופן מורכב יותר מאשר אקראטי ודורש מערכות ביטוי ומספקים גנטיים נוספים.",
+      "correction": "ה-DNA מגדיר את התכונות של היצורים על ידי הורשה של מידע גנטי, אך זה נעשה באופן מורכב יותר מאשר אקראי ודורש מערכות ביטוי וגורמים גנטיים נוספים.",
+      "description": "Incorrect use of 'התיירשות' and 'מספקים'; should be 'הורשה' and 'גורמים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ה-DNA לא משנה את התכונות באופן אינסוטי או מתרגל, מכיוון שזה מאתגר את הידע המונע מהחלה של גנום ומהתהום של הגנים.",
+      "correction": "ה-DNA לא משנה את התכונות באופן אינטואיטיבי או אקראי, מכיוון שזה נוגד את הידע המדעי על הגנום ועל תפקוד הגנים.",
+      "description": "Incorrect use of 'אינסוטי', 'מתרגל', 'מאתגר', and 'מהתהום'; unclear and awkward phrasing.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:53:40.601002",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.4,
+    "classification": "SUBSTANDARD",
+    "total_issues": 15,
+    "total_penalty": 3.6,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

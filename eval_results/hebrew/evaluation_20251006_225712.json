@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "לא יכולים להרוויחת נפח.",
+      "correction": "לא יכולים להרוויח נפח.",
+      "description": "Spelling error: unnecessary 'ת' at the end of 'להרוויחת'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "נוזלים ניעים יותר בחופשיות ממוצקים.",
+      "correction": "נוזלים נעים יותר בחופשיות ממוצקים.",
+      "description": "Incorrect word usage: 'ניעים' should be 'נעים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "בעוד מוצקים, חלקיקים נרטטים באופן משונה ואינם ניתן לניווט באופן חלקיקים חלקיקים, נוזלים יכולים להתפזר בתוך מעקלים שלהם.",
+      "correction": "בעוד שבמוצקים, החלקיקים נרטטים ואינם ניתנים לניווט, נוזלים יכולים להתפזר בתוך הכלים שלהם.",
+      "description": "Sentence structure is unclear and contains repetition; rephrased for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה נובע מהמרכיבים של החלקיקים שמקלים על הנעה ומהכוחות שנמצאים ביניהם, שהם שונים מאוד מאלו שמורכבים ממוצקים.",
+      "correction": "זה נובע מהמרחקים בין החלקיקים שמקלים על הנעה ומהכוחות ביניהם, השונים מאוד מאלו שבמוצקים.",
+      "description": "Incorrect word usage: 'מרכיבים' should be 'מרחקים'; 'שממורכבים ממוצקים' is awkward.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "התכה מקרח למים יכולה לקרר בזמן רגלי.",
+      "correction": "התכה מקרח למים יכולה לקרר בזמן ריצה.",
+      "description": "Incorrect word usage: 'רגלי' should be 'ריצה'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הריצה על רגלית מזהירה ולא מקשרת לתהליך המעבר בין מצבי צבירה.",
+      "correction": "הריצה על רגליים אינה קשורה לתהליך המעבר בין מצבי צבירה.",
+      "description": "Incorrect word usage: 'רגלית' should be 'רגליים'; 'מזהירה' is unclear.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "חרקים ניסו להתפזר במים כשהם נשלטו מהקר, אך הם לא נמסו.",
+      "correction": "חרקים ניסו להתפזר במים כשהם נחשפו לקור, אך הם לא נמסו.",
+      "description": "Incorrect word usage: 'נשלטו מהקר' should be 'נחשפו לקור'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "חרקים מתחממים ומתפזרים, אך הם לא מתפשרים כמו חלקיקים קטנים יותר.",
+      "correction": "חרקים מתחממים ומתפזרים, אך הם לא מתמוססים כמו חלקיקים קטנים יותר.",
+      "description": "Incorrect word usage: 'מתפשרים' should be 'מתמוססים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "התהום שנוצר הוא של מעבר מצבי צבירה, שבו החומר נשאר אותו חומר, כמו חרקים ומים.",
+      "correction": "התהליך שנוצר הוא של מעבר מצבי צבירה, שבו החומר נשאר אותו חומר, כמו חרקים ומים.",
+      "description": "Incorrect word usage: 'תהום' should be 'תהליך'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:57:12.488427",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "באמצעות משפטים שמדברים על הרגשות ורגשותיך, אתה מעביר את התחושות שלך בלי להטעות את האחר, מה שיכול לפתור את הדיאלוג בצורה חיובית.",
+      "correction": "באמצעות משפטים שמדברים על רגשותיך, אתה מעביר את התחושות שלך בלי להאשים את האחר, מה שיכול לקדם דיאלוג בצורה חיובית.",
+      "description": "Awkward phrasing and incorrect word choice: 'להטעות' (to mislead) should be 'להאשים' (to blame); 'לפתור את הדיאלוג' is not idiomatic, 'לקדם דיאלוג' is more appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זיהוי הבעיה הוא שלב חיוני בפתרון בעיות, אך זה לא מבטיח פתרון מהיר או אותנטי בכל הקריאות.",
+      "correction": "זיהוי הבעיה הוא שלב חיוני בפתרון בעיות, אך זה לא מבטיח פתרון מהיר או אותנטי בכל המקרים.",
+      "description": "Incorrect word choice: 'בכל הקריאות' (in all readings) should be 'בכל המקרים' (in all cases).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "פתרון קונפליקטים מעודד בדרך כלל ביצירת קשרים חזקים יותר, שאינם סיכונים.",
+      "correction": "פתרון קונפליקטים מעודד בדרך כלל יצירת קשרים חזקים יותר, שאינם מהווים סיכון.",
+      "description": "Awkward phrasing: 'מעודד ביצירת' should be 'מעודד יצירת'; 'שאינם סיכונים' is unclear, 'שאינם מהווים סיכון' is clearer.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:53:22.903458",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

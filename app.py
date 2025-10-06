@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""Command-line orchestrator for the quiz localization workflow - refactored."""
-
-from __future__ import annotations
+"""Command-line orchestrator for the quiz localization workflow."""
 
 import argparse
 import importlib
@@ -12,10 +10,12 @@ from typing import Optional
 from dotenv import load_dotenv
 
 from config import SUPPORTED_LANGUAGES
+from core import Evaluator, IssueAggregator, ErrorPatternAnalyzer
 from orchestrators.base import AbstractOrchestrator
+from orchestrators.full_evaluation_orchestrator import FullEvaluationOrchestrator
+from orchestrators.content_only_orchestrator import ContentOnlyOrchestrator
+from orchestrators.yes_no_evaluation_orchestrator import YesNoEvaluationOrchestrator
 from utils.cleaner import DirectoryCleaner
-from utils.evaluator import QuizEvaluator
-from utils.issues import IssueAggregator
 from utils.labels import ensure_label
 from utils.servers import serve_dashboard
 from utils.static_export import StaticExporter
@@ -24,56 +24,20 @@ load_dotenv()
 
 
 def discover_orchestrators() -> dict[str, type[AbstractOrchestrator]]:
-    """
-    Discover available orchestrators from the orchestrators directory.
-    Returns a dict mapping orchestrator names to their classes.
-    """
     orchestrators = {}
     orchestrators_dir = Path("orchestrators")
 
-    # Discover orchestrators from main orchestrators directory
     if orchestrators_dir.exists():
         for file_path in orchestrators_dir.glob("*.py"):
-            # Skip __init__.py and base.py
             if file_path.stem.startswith("_") or file_path.stem == "base":
                 continue
 
             module_name = f"orchestrators.{file_path.stem}"
             try:
                 module = importlib.import_module(module_name)
-                # Find classes that inherit from AbstractOrchestrator
                 for attr_name in dir(module):
                     attr = getattr(module, attr_name)
-                    if (
-                        isinstance(attr, type)
-                        and issubclass(attr, AbstractOrchestrator)
-                        and attr is not AbstractOrchestrator
-                    ):
-                        # Convert class name to lowercase key (e.g., StandardOrchestrator -> standard)
-                        key = attr_name.replace("Orchestrator", "").lower()
-                        orchestrators[key] = attr
-            except Exception as exc:
-                print(f"⚠️  Could not load orchestrator from {file_path.name}: {exc}")
-
-    # Discover orchestrators from examples directory
-    examples_dir = orchestrators_dir / "examples"
-    if examples_dir.exists():
-        for file_path in examples_dir.glob("*.py"):
-            if file_path.stem.startswith("_"):
-                continue
-
-            module_name = f"orchestrators.examples.{file_path.stem}"
-            try:
-                module = importlib.import_module(module_name)
-                # Find classes that inherit from AbstractOrchestrator
-                for attr_name in dir(module):
-                    attr = getattr(module, attr_name)
-                    if (
-                        isinstance(attr, type)
-                        and issubclass(attr, AbstractOrchestrator)
-                        and attr is not AbstractOrchestrator
-                    ):
-                        # Convert class name to lowercase key (e.g., MinimalOrchestrator -> minimal)
+                    if isinstance(attr, type) and issubclass(attr, AbstractOrchestrator) and attr is not AbstractOrchestrator:
                         key = attr_name.replace("Orchestrator", "").lower()
                         orchestrators[key] = attr
             except Exception as exc:
@@ -83,7 +47,6 @@ def discover_orchestrators() -> dict[str, type[AbstractOrchestrator]]:
 
 
 def load_orchestrator(name: str) -> AbstractOrchestrator:
-    """Load and instantiate an orchestrator by name."""
     available = discover_orchestrators()
 
     if name not in available:
@@ -96,29 +59,28 @@ def load_orchestrator(name: str) -> AbstractOrchestrator:
 
 
 def main(argv: Optional[list[str]] = None) -> int:
-    """Main CLI entry point."""
     parser = argparse.ArgumentParser(
         description="Localization Quality Evaluation Tool - AI-powered evaluation of localized content",
         epilog="""
 Examples:
   # Full pipeline: convert, evaluate, aggregate, analyze
-  %(prog)s eval --orchestrator lessoncontentyesno --from raw_json_files/polish --to markdown_files/polish_v1 --language polish --label v1
+  %(prog)s eval --orchestrator fullevaluation --from raw_json_files/polish --to markdown_files/polish_v1 --language polish --label v1
 
   # Content-only evaluation (linguistic focus)
-  %(prog)s eval --orchestrator lessoncontent --from raw_json_files/russian --to markdown_files/russian_content --language russian --label content_v1
+  %(prog)s eval --orchestrator contentonly --from raw_json_files/russian --to markdown_files/russian_content --language russian --label content_v1
 
   # Questions-only evaluation with pattern analysis
-  %(prog)s eval --orchestrator yesno --from raw_json_files/spanish --to markdown_files/spanish_questions --language spanish --label questions_v2
+  %(prog)s eval --orchestrator yesnoevaluation --from raw_json_files/spanish --to markdown_files/spanish_questions --language spanish --label questions_v2
 
   # Convert only (no evaluation)
-  %(prog)s convert --orchestrator lessoncontent --from raw_json_files/french --to markdown_files/french_content --language french
+  %(prog)s convert --orchestrator contentonly --from raw_json_files/french --to markdown_files/french_content --language french
 
   # Evaluate existing markdown files
-  %(prog)s evaluate --orchestrator yesno --from markdown_files/polish_questions --language polish --label test_v3
+  %(prog)s evaluate --orchestrator yesnoevaluation --from markdown_files/polish_questions --language polish --label test_v3
 
   # Aggregate and analyze separately
   %(prog)s aggregate-issues --language polish --label v1
-  %(prog)s analyze-patterns --orchestrator yesno --language polish --label v1
+  %(prog)s analyze-patterns --orchestrator yesnoevaluation --language polish --label v1
 
   # View results in browser
   %(prog)s dashboard
@@ -132,10 +94,9 @@ Examples:
   %(prog)s clean markdown_files --all
 
 Available orchestrators:
-  lessoncontentyesno - Full evaluation (content + questions)
-  lessoncontent      - Content-only evaluation (linguistic focus)
-  yesno              - Questions-only evaluation (with pattern analysis)
-  minimal            - Example/minimal setup
+  fullevaluation   - Full evaluation (content + questions)
+  contentonly      - Content-only evaluation (linguistic focus)
+  yesnoevaluation  - Questions-only evaluation (with pattern analysis)
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -151,11 +112,11 @@ Available orchestrators:
         "eval",
         help="Run full evaluation pipeline (convert + evaluate + aggregate + analyze)",
         description="Convert JSON to markdown, run AI evaluation, aggregate issues, and analyze patterns",
-        epilog="Example: %(prog)s --orchestrator lessoncontentyesno --from raw_json_files/polish --to markdown_files/polish_v1 --language polish --label v1",
+        epilog="Example: %(prog)s --orchestrator fullevaluation --from raw_json_files/polish --to markdown_files/polish_v1 --language polish --label v1",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     eval_parser.add_argument(
-        "--orchestrator", required=True, help="Orchestrator name (lessoncontentyesno, lessoncontent, yesno, minimal)"
+        "--orchestrator", required=True, help="Orchestrator name (fullevaluation, contentonly, yesnoevaluation)"
     )
     eval_parser.add_argument("--from", dest="from_path", required=True, help="Input directory with JSON files")
     eval_parser.add_argument("--to", dest="to_path", required=True, help="Output directory for markdown files")
@@ -171,13 +132,13 @@ Available orchestrators:
         description="Transform JSON lesson files into markdown format using specified converter",
         epilog="""Examples:
   # Full content + questions
-  %(prog)s --orchestrator lessoncontentyesno --from raw_json_files/polish --to markdown_files/polish_full --language polish
+  %(prog)s --orchestrator fullevaluation --from raw_json_files/polish --to markdown_files/polish_full --language polish
 
   # Content only (no questions)
-  %(prog)s --orchestrator lessoncontent --from raw_json_files/russian --to markdown_files/russian_content --language russian
+  %(prog)s --orchestrator contentonly --from raw_json_files/russian --to markdown_files/russian_content --language russian
 
   # Questions only (no content)
-  %(prog)s --orchestrator yesno --from raw_json_files/spanish --to markdown_files/spanish_questions --language spanish""",
+  %(prog)s --orchestrator yesnoevaluation --from raw_json_files/spanish --to markdown_files/spanish_questions --language spanish""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     convert_parser.add_argument(
@@ -196,13 +157,13 @@ Available orchestrators:
         description="Run AI-powered quality evaluation on existing markdown files",
         epilog="""Examples:
   # Evaluate full content
-  %(prog)s --orchestrator lessoncontentyesno --from markdown_files/polish_v1 --language polish --label v1
+  %(prog)s --orchestrator fullevaluation --from markdown_files/polish_v1 --language polish --label v1
 
   # Re-evaluate with different label
-  %(prog)s --orchestrator lessoncontent --from markdown_files/russian_content --language russian --label retest_v2
+  %(prog)s --orchestrator contentonly --from markdown_files/russian_content --language russian --label retest_v2
 
   # Evaluate questions only
-  %(prog)s --orchestrator yesno --from markdown_files/spanish_questions --language spanish --label qa_v3""",
+  %(prog)s --orchestrator yesnoevaluation --from markdown_files/spanish_questions --language spanish --label qa_v3""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     evaluate_parser.add_argument(
@@ -232,7 +193,7 @@ Available orchestrators:
         "analyze-patterns",
         help="Analyze error patterns from aggregated issues",
         description="Use AI to identify recurring error patterns and generate recommendations",
-        epilog="Example: %(prog)s --orchestrator yesno --language polish --label v1",
+        epilog="Example: %(prog)s --orchestrator yesnoevaluation --language polish --label v1",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     analyze_parser.add_argument(
@@ -309,7 +270,6 @@ Available orchestrators:
         parser.print_help()
         return 1
 
-    # Execute command
     if args.command == "eval":
         return run_eval(
             args.orchestrator, args.from_path, args.to_path, args.language, args.label
@@ -332,10 +292,7 @@ Available orchestrators:
     return 1
 
 
-def run_eval(
-    orchestrator_name: str, from_path: str, to_path: str, language: str, label: str
-) -> int:
-    """Run full evaluation pipeline."""
+def run_eval(orchestrator_name: str, from_path: str, to_path: str, language: str, label: str) -> int:
     print(f"Starting full evaluation pipeline for {language.title()}")
     print(f"   Orchestrator: {orchestrator_name}")
     print(f"   Source: {from_path}")
@@ -343,10 +300,8 @@ def run_eval(
     print(f"   Label: {label}")
     print("=" * 60)
 
-    # Load orchestrator
     orchestrator = load_orchestrator(orchestrator_name)
 
-    # Step 1: Convert
     print("\nStep 1: Converting JSON to markdown...")
     converter_class = orchestrator.get_converter_class()
     converter = converter_class()
@@ -358,19 +313,8 @@ def run_eval(
         print("❌ Conversion failed")
         return 1
 
-    # Step 2: Evaluate
     print("\n🤖 Step 2: Running AI evaluation...")
-    # The converter creates files in output_dir (e.g., markdown_files/russian_linguistic/v1)
-    # The evaluator expects markdown_dir/language to exist
-    # Create a language subdirectory link so evaluator can find the files
-    import os
-    temp_lang_dir = output_dir.parent / language
-    if temp_lang_dir.exists() and temp_lang_dir.is_symlink():
-        temp_lang_dir.unlink()
-    if not temp_lang_dir.exists():
-        os.symlink(output_dir.name, temp_lang_dir, target_is_directory=True)
-
-    evaluator = QuizEvaluator(
+    evaluator = Evaluator(
         orchestrator=orchestrator,
         markdown_dir=output_dir.parent,
         eval_results_dir=Path("eval_results"),
@@ -378,22 +322,13 @@ def run_eval(
 
     if not evaluator.evaluate_language(language, label):
         print("❌ Evaluation failed")
-        # Clean up symlink
-        if temp_lang_dir.is_symlink():
-            temp_lang_dir.unlink()
         return 1
 
-    # Clean up symlink after successful evaluation
-    if temp_lang_dir.is_symlink():
-        temp_lang_dir.unlink()
-
-    # Step 3: Aggregate (if orchestrator wants it)
     if orchestrator.should_run_issues_aggregation():
         print("\nStep 3: Aggregating issues...")
         if not evaluator.run_aggregation([language], label):
             print("⚠️  Issue aggregation failed")
 
-    # Step 4: Analyze patterns (if orchestrator wants it)
     if orchestrator.should_run_pattern_analysis():
         print("\nStep 4: Analyzing error patterns...")
         if not evaluator.run_pattern_analysis([language], label):
@@ -404,7 +339,6 @@ def run_eval(
 
 
 def run_convert(orchestrator_name: str, from_path: str, to_path: str, language: str) -> int:
-    """Run conversion only."""
     print(f"Converting {language.title()} quizzes...")
     orchestrator = load_orchestrator(orchestrator_name)
 
@@ -419,22 +353,12 @@ def run_convert(orchestrator_name: str, from_path: str, to_path: str, language: 
 
 
 def run_evaluate(orchestrator_name: str, from_path: str, language: str, label: str) -> int:
-    """Run evaluation only."""
     print(f"🤖 Evaluating {language.title()} content...")
     orchestrator = load_orchestrator(orchestrator_name)
 
-    # Create symlink so evaluator can find files
-    # Evaluator expects markdown_dir/language to exist
-    import os
     markdown_path = Path(from_path)
-    temp_lang_dir = markdown_path.parent / language
 
-    if temp_lang_dir.exists() and temp_lang_dir.is_symlink():
-        temp_lang_dir.unlink()
-    if not temp_lang_dir.exists():
-        os.symlink(markdown_path.name, temp_lang_dir, target_is_directory=True)
-
-    evaluator = QuizEvaluator(
+    evaluator = Evaluator(
         orchestrator=orchestrator,
         markdown_dir=markdown_path.parent,
         eval_results_dir=Path("eval_results"),
@@ -442,15 +366,9 @@ def run_evaluate(orchestrator_name: str, from_path: str, language: str, label: s
 
     success = evaluator.evaluate_language(language, label)
 
-    # Clean up symlink
-    if temp_lang_dir.is_symlink():
-        temp_lang_dir.unlink()
-
     return 0 if success else 1
 
-
 def run_aggregate_issues(language: str, label: str) -> int:
-    """Run issue aggregation only."""
     print(f"Aggregating issues for {language.title()}...")
     label_info = ensure_label(label)
 
@@ -461,12 +379,7 @@ def run_aggregate_issues(language: str, label: str) -> int:
 
 
 def run_analyze_patterns(orchestrator_name: str, language: str, label: str) -> int:
-    """Run pattern analysis only."""
     print(f"Analyzing error patterns for {language.title()}...")
-
-    # We need orchestrator for prompt building, but it's used by ErrorPatternAnalyzer
-    # which builds its own prompts. For now, just run the analysis.
-    from utils.error_patterns import ErrorPatternAnalyzer
 
     label_info = ensure_label(label)
     analyzer = ErrorPatternAnalyzer()
@@ -476,7 +389,6 @@ def run_analyze_patterns(orchestrator_name: str, language: str, label: str) -> i
 
 
 def run_dashboard() -> int:
-    """Serve the dashboard."""
     try:
         serve_dashboard()
     except FileNotFoundError as exc:
@@ -486,14 +398,12 @@ def run_dashboard() -> int:
 
 
 def run_export_static(output_dir: str) -> int:
-    """Export dashboard as static site."""
     exporter = StaticExporter()
     success = exporter.export(output_dir)
     return 0 if success else 1
 
 
 def run_clean_by_label(label: str) -> int:
-    """Clean all evaluation results and issues for a specific label."""
     import json
     import shutil
     from utils.labels import ensure_label
@@ -506,7 +416,6 @@ def run_clean_by_label(label: str) -> int:
     eval_results_dir = Path("eval_results")
     issues_dir = Path("issues")
 
-    # Step 1: Clean evaluation results with this label
     print("\n📁 Step 1: Cleaning evaluation results...")
     deleted_count = 0
     languages_affected = set()
@@ -533,7 +442,6 @@ def run_clean_by_label(label: str) -> int:
     if languages_affected:
         print(f"   Languages affected: {', '.join(sorted(languages_affected))}")
 
-    # Step 2: Remove combined_issues folder for this label
     print("\n📁 Step 2: Cleaning combined issues...")
     combined_issues_dir = issues_dir / "combined_issues" / label_key
     if combined_issues_dir.exists():
@@ -542,7 +450,6 @@ def run_clean_by_label(label: str) -> int:
     else:
         print(f"⏭️  No combined issues found for {label_key}")
 
-    # Step 3: Remove common_patterns folder for this label
     print("\n📁 Step 3: Cleaning common patterns...")
     patterns_dir = issues_dir / "common_patterns" / label_key
     if patterns_dir.exists():
@@ -551,7 +458,6 @@ def run_clean_by_label(label: str) -> int:
     else:
         print(f"⏭️  No common patterns found for {label_key}")
 
-    # Step 4: Remove label from all_common_issues.json
     print("\n📁 Step 4: Cleaning all common issues...")
     all_issues_file = issues_dir / "all" / "all_common_issues.json"
     if all_issues_file.exists():
@@ -565,18 +471,15 @@ def run_clean_by_label(label: str) -> int:
                     del labels[label_key]
                     print(f"✓ Removed label '{label_key}' from all_common_issues.json")
 
-                    # Update latest_label if needed
                     if data.get("latest_label") == label_key:
                         if labels:
                             data["latest_label"] = next(iter(labels.keys()))
                             print(f"   Updated latest_label to: {data['latest_label']}")
                         else:
-                            # No labels left, remove the file
                             all_issues_file.unlink()
                             print("   No labels remaining, removed all_common_issues.json")
                             return 0
 
-                    # Save updated file
                     with open(all_issues_file, "w", encoding="utf-8") as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
                 else:
@@ -592,10 +495,8 @@ def run_clean_by_label(label: str) -> int:
 
 
 def run_clean(path: str, clean_all: bool, language: str | None, label: str | None) -> int:
-    """Clean specified directory."""
     cleaner = DirectoryCleaner()
 
-    # Validate inputs
     if clean_all and language:
         print("❌ Cannot use --all and --language together")
         return 1
@@ -608,14 +509,12 @@ def run_clean(path: str, clean_all: bool, language: str | None, label: str | Non
         print("❌ Cannot use --language and --label together")
         return 1
 
-    # Label-based cleaning (only for eval_results)
     if label:
         if path != "eval_results":
             print("❌ --label option is only supported for eval_results")
             return 1
         return run_clean_by_label(label)
 
-    # Map path names to cleaner methods
     path_cleaners = {
         "eval_results": cleaner.clean_eval_results,
         "markdown_files": cleaner.clean_markdown_quizzes,
@@ -624,12 +523,9 @@ def run_clean(path: str, clean_all: bool, language: str | None, label: str | Non
 
     clean_func = path_cleaners[path]
 
-    # Clean based on options
     if clean_all:
-        # Clean all subdirectories
         success = clean_func(language=None)
     elif language:
-        # Clean specific language
         success = clean_func(language=language)
     else:
         print("❌ Must specify either --all, --language, or --label")

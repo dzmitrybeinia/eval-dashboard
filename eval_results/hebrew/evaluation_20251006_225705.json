@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "אדם הראשון בחלל ירד לכוכבים בשנת 1961.",
+      "correction": "האדם הראשון בחלל יצא לחלל בשנת 1961.",
+      "description": "Incorrect verb usage: 'ירד לכוכבים' is not idiomatic; 'יצא לחלל' is the correct phrase.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "יורי גגרין, שהיה גרעין של הרוס, הלך לחלל והפך את האדם להיות האדם הראשון שלקח קפיצה לחלל, מהפכה את ההיסטוריה של החלל.",
+      "correction": "יורי גגרין, שהיה אזרח רוסי, טס לחלל והפך לאדם הראשון שיצא לחלל, מהפכה את ההיסטוריה של חקר החלל.",
+      "description": "Multiple awkward and incorrect word choices: 'גרעין של הרוס' and 'הלך לחלל' are incorrect; 'אזרח רוסי' and 'טס לחלל' are correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הפך את האדם להיות האדם הראשון שלקח קפיצה לחלל",
+      "correction": "הפך לאדם הראשון שיצא לחלל",
+      "description": "Redundant and ungrammatical phrasing; correct form is concise and clear.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "טכנולוגיות מסע בחלל מגבירות על ידי הידרדס של מחשבות מדעיות וחקר",
+      "correction": "טכנולוגיות מסע בחלל מתקדמות באמצעות מחקר ומחשבה מדעית",
+      "description": "Incorrect and unclear word: 'הידרדס' is not a Hebrew word; correct phrasing is needed.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מטוסי תעופה רגילים שמתחדרים בשיא האטמוספירי.",
+      "correction": "מטוסי תעופה רגילים שפועלים בגבולות האטמוספירה.",
+      "description": "Incorrect verb: 'מתחדרים' is not appropriate; 'שפועלים' is correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הכוח הכבידתי של כדור הארץ אכן מחלק את האוויר של החללית",
+      "correction": "הכוח הכבידתי של כדור הארץ אכן משפיע על תנועת החללית",
+      "description": "Incorrect verb: 'מחלק את האוויר' is not meaningful in this context; 'משפיע על תנועת החללית' is correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "היא נאלצת לכוון את מסלולה על מניעת הכבידה כדי להגיע למקום מיועד.",
+      "correction": "היא נאלצת לכוון את מסלולה כדי להתגבר על הכבידה ולהגיע ליעד.",
+      "description": "Awkward phrasing and incorrect preposition; 'להתגבר על הכבידה' is correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "פלגים מהלבנים הם אתגר מסובך למסע בחלל.",
+      "correction": "פלגים מהלבנים אינם אתגר למסע בחלל.",
+      "description": "Incorrect and unclear phrase: 'פלגים מהלבנים' is not meaningful.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "האמיתה של התשובה אינה נתמכת על ידי התרבות והמדע הניונסיסטיים.",
+      "correction": "נכונות התשובה אינה נתמכת על ידי התרבות והמדע המודרניים.",
+      "description": "Incorrect word: 'האמיתה' and 'הניונסיסטיים' are not standard Hebrew; 'נכונות' and 'המדע המודרני' are correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "פלגים אינם קיימים בחלל, שכן הם תוצאה של תהליכים פיזיקלוגיים ואווירוסטנטיים מעבר להבנתנו הנוכריסטית.",
+      "correction": "פלגים אינם קיימים בחלל, שכן הם תוצאה של תהליכים פיזיקליים ואווירודינמיים מעבר להבנתנו הנוכחית.",
+      "description": "Misspelled and incorrect words: 'פיזיקלוגיים', 'אווירוסטנטיים', 'הנוכריסטית' should be 'פיזיקליים', 'אווירודינמיים', 'הנוכחית'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "המסע בחלל עבד על ידי מערכות ניווט מתקדמות.",
+      "correction": "המסע בחלל התבצע באמצעות מערכות ניווט מתקדמות.",
+      "description": "Incorrect verb: 'עבד' is not appropriate; 'התבצע' is correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הצהירות המתקדמת מראות כי המבנים הטכנולוגיים היו חיוניים להבטיח תיאום וביצוע משימות בחלל, אך הם לא השלמו את כל האתגרים.",
+      "correction": "ההצהרות המתקדמות מראות כי המערכות הטכנולוגיות היו חיוניות להבטחת תיאום וביצוע משימות בחלל, אך הן לא פתרו את כל האתגרים.",
+      "description": "Incorrect word choices: 'הצהירות', 'המבנים', 'השלמו' are not appropriate; 'הצהרות', 'המערכות', 'פתרו' are correct.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:57:05.960475",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.0,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 3.0,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

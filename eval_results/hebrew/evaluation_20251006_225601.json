@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אינ'ה",
+      "correction": "אינה",
+      "description": "Spelling error: incorrect use of apostrophe and letter; should be 'אינה' (is not)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מעורב בחובל",
+      "correction": "מעורב בסיכון",
+      "description": "Incorrect word usage: 'חובל' means 'damage' or 'injury', should use 'סיכון' (risk)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מיסודים ותגמולות לא נכונות",
+      "correction": "מיסודות ותגמולים לא נכונים",
+      "description": "Incorrect word forms: 'מיסודים' and 'תגמולות' are not standard; should be 'מיסודות' (foundations) and 'תגמולים' (rewards)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "לנהל את הפעילויות הדיגיטליות שלך באופן בטוח.",
+      "correction": "לנהל את הפעילות הדיגיטלית שלך באופן בטוח.",
+      "description": "Number agreement: 'הפעילויות' (plural) should match context, but singular 'הפעילות' is more appropriate here",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "בריתמים כורשים",
+      "correction": "בריתות כוזבות",
+      "description": "Spelling and word choice error: 'בריתמים כורשים' is not meaningful; likely intended 'בריתות כוזבות' (false alliances)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "האמירה הנתבאגה",
+      "correction": "האמירה הניתנה",
+      "description": "Spelling and word choice error: 'הנתבאגה' is not a Hebrew word; should be 'האמירה הניתנה' (the given statement)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "שאינה תורמת להבנת הערכים הדרושים באזרחות הדיגיטלית.",
+      "correction": "שאינה תורמת להבנה של הערכים הדרושים באזרחות הדיגיטלית.",
+      "description": "Missing preposition: 'להבנת' should be 'להבנה של' for correct grammatical structure",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מיקרוסופטיקה",
+      "correction": "מיקרוספיקה",
+      "description": "Spelling error: 'מיקרוסופטיקה' is not a standard word; likely intended 'מיקרוספיקה' (microsphere/microscopy)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "אתגרים רחבי הרביה",
+      "correction": "אתגרים רחבי היקף",
+      "description": "Incorrect word usage: 'הרביה' means 'reproduction'; should be 'היקף' (scope)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "כוללים גם את האינטרנט הפנימי וכיסוי דיגיטלי",
+      "correction": "כוללים גם את הרשת הפנימית וכיסוי דיגיטלי",
+      "description": "Incorrect word usage: 'האינטרנט הפנימי' should be 'הרשת הפנימית' (internal network)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "התחומים המקביעים",
+      "correction": "התחומים הקובעים",
+      "description": "Spelling and word choice error: 'מקביעים' is not a standard word; should be 'קובעים' (determining)",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:56:01.763222",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

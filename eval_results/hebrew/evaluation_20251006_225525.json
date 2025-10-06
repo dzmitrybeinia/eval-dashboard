@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "כל האנשים יש זכויות עקביות ומצוינות.",
+      "correction": "לכל האנשים יש זכויות עקביות ומצוינות.",
+      "description": "Missing preposition 'ל' before 'כל האנשים' to indicate possession.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זכויות אדם הן נתן לכל אדם באופן שווה, ללא קשר למיקום, גזע, מין, דת, מין או אישור אחר.",
+      "correction": "זכויות אדם ניתנות לכל אדם באופן שווה, ללא קשר למיקום, גזע, מין, דת, או כל מאפיין אחר.",
+      "description": "Incorrect verb form 'הן נתן'; should be 'ניתנות'. Repetition of 'מין' and awkward 'אישור אחר' replaced with 'או כל מאפיין אחר'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הן מאפשרות קבלת הכרה והגנת מזו אחרת.",
+      "correction": "הן מאפשרות קבלת הכרה והגנה מאחרים.",
+      "description": "Awkward and unclear phrase 'הגנת מזו אחרת'; corrected to 'הגנה מאחרים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הכרזה האוניברסלית על זכויות האדם מגדירת את החלקים הפיזיים של הארץ שבהם נמצאים.",
+      "correction": "הכרזה האוניברסלית על זכויות האדם מגדירה את החלקים הפיזיים של הארץ שבהם נמצאים.",
+      "description": "Verb conjugation error: 'מגדירת' should be 'מגדירה' (feminine singular).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "עקרונות משמעותיים ומהוות יסוד לחוקים רוחניים שמטרתם היא להגן על זכויות האדם במרחבים שונים, לא בהגדרת הארץ פיזית.",
+      "correction": "עקרונות משמעותיים ומהווים יסוד לחוקים עקרוניים שמטרתם להגן על זכויות האדם במרחבים שונים, לא בהגדרת הארץ הפיזית.",
+      "description": "Incorrect gender agreement: 'מהוות' should be 'מהווים'. 'חוקים רוחניים' is awkward; replaced with 'חוקים עקרוניים'. Added 'הפיזית' for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "האומות המאוחדות מאמצת את תפקידיהן בהגנה על זכויות האדם ברחבי העולם.",
+      "correction": "האומות המאוחדות מאמצות את תפקידיהן בהגנה על זכויות האדם ברחבי העולם.",
+      "description": "Subject-verb agreement error: 'מאמצת' should be 'מאמצות' (plural).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הצהירה נכונה כי האומות המאוחדות, כמו מועצת זכויות האדם והמשרד הנציב העליון לזכויות האדם, משחקות תפקיד חשוב במאמציהן להגן על זכויות האדם באמצעות שיתוף פעולה עם ממשלות וקבוצות מקומיות.",
+      "correction": "ההצהרה נכונה כי האומות המאוחדות, כמו מועצת זכויות האדם והמשרד לנציב העליון לזכויות האדם, משחקות תפקיד חשוב במאמציהן להגן על זכויות האדם באמצעות שיתוף פעולה עם ממשלות וקבוצות מקומיות.",
+      "description": "Incorrect noun form: 'הצהירה' should be 'ההצהרה'. 'המשרד הנציב העליון' should be 'המשרד לנציב העליון'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הבעיקור של זכויות אדם בדרום אפריקה היה מאמץ שלילי במשך כל המאה.",
+      "correction": "הפגיעה בזכויות האדם בדרום אפריקה הייתה מאמץ שלילי במשך כל המאה.",
+      "description": "Incorrect word 'הבעיקור'; should be 'הפגיעה'. Verb agreement: 'הייתה' instead of 'היה' for feminine noun.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מוקד הדגשת העברה האפרטהייד והתמודדות עם בעיות זכויות אדם באמצעות אפקטיבי ומעודכנת היום, לעומת תקופות קודמות.",
+      "correction": "מוקד הדגשה הוא העברת האפרטהייד והתמודדות עם בעיות זכויות אדם באמצעים אפקטיביים ומעודכנים כיום, לעומת תקופות קודמות.",
+      "description": "Awkward phrasing and agreement errors; corrected for clarity and proper gender/number agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הכרזת האוניברסלית על זכויות האדם מאפשרת למדינות לחרוט אתגרים עצמיאיים לחלוטין.",
+      "correction": "הכרזה האוניברסלית על זכויות האדם מאפשרת למדינות לחרוט אתגרים עצמאיים לחלוטין.",
+      "description": "Incorrect noun form: 'הכרזת' should be 'הכרזה'. Spelling error: 'עצמיאיים' should be 'עצמאיים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הכרזת האוניברסלית על זכויות האדם מציגה עקרונות ומסד ערכים להגנה על זכויות האדם בינלאומית, לא לאפשר חרוטת אתגרים למדינות.",
+      "correction": "הכרזה האוניברסלית על זכויות האדם מציגה עקרונות ומסד ערכים להגנה על זכויות האדם ברמה בינלאומית, ולא מאפשרת למדינות לחרוט אתגרים בעצמן.",
+      "description": "Incorrect noun form: 'הכרזת' should be 'הכרזה'. Awkward phrasing corrected for clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:55:25.811242",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

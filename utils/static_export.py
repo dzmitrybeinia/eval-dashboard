@@ -1,7 +1,5 @@
 """Export evaluation results as a static site for GitHub Pages."""
 
-from __future__ import annotations
-
 import json
 import shutil
 from pathlib import Path
@@ -18,46 +16,22 @@ class StaticExporter:
         self.dashboard_file = self.base_dir / "dashboard.html"
 
     def export(self, output_dir: Path | str) -> bool:
-        """
-        Export static site to output directory.
-
-        Args:
-            output_dir: Target directory for static export
-
-        Returns:
-            True if export succeeded
-        """
         output_path = Path(output_dir)
         print(f"📦 Exporting static dashboard to: {output_path}")
         print("=" * 60)
 
         try:
-            # Create output directory
             output_path.mkdir(parents=True, exist_ok=True)
-
-            # Step 1: Copy dashboard HTML
             if not self._copy_dashboard(output_path):
                 return False
-
-            # Step 2: Copy evaluation results
             if not self._copy_eval_results(output_path):
                 return False
-
-            # Step 3: Copy issues data
             if not self._copy_issues(output_path):
                 return False
-
-            # Step 4: Copy file index
             if not self._copy_file_index(output_path):
                 return False
-
-            # Step 5: Copy label descriptions
             self._copy_label_descriptions(output_path)
-
-            # Step 6: Create .nojekyll for GitHub Pages
             self._create_nojekyll(output_path)
-
-            # Step 7: Create README for GitHub Pages
             self._create_pages_readme(output_path)
 
             print("\n" + "=" * 60)
@@ -81,7 +55,6 @@ class StaticExporter:
             return False
 
     def _copy_dashboard(self, output_dir: Path) -> bool:
-        """Copy dashboard HTML file."""
         print("\n📄 Step 1: Copying dashboard HTML...")
 
         if not self.dashboard_file.exists():
@@ -91,7 +64,6 @@ class StaticExporter:
         target = output_dir / "dashboard.html"
         shutil.copy2(self.dashboard_file, target)
 
-        # Also create index.html that redirects to dashboard
         index_html = output_dir / "index.html"
         index_html.write_text(
             '<!DOCTYPE html>\n'
@@ -112,7 +84,6 @@ class StaticExporter:
         return True
 
     def _copy_eval_results(self, output_dir: Path) -> bool:
-        """Copy evaluation results directory."""
         print("\nStep 2: Copying evaluation results...")
 
         if not self.eval_results_dir.exists():
@@ -127,7 +98,6 @@ class StaticExporter:
 
         shutil.copytree(self.eval_results_dir, target)
 
-        # Count files
         file_count = sum(1 for _ in target.rglob("*.json"))
         lang_count = len([d for d in target.iterdir() if d.is_dir()])
 
@@ -135,7 +105,6 @@ class StaticExporter:
         return True
 
     def _copy_issues(self, output_dir: Path) -> bool:
-        """Copy issues directory."""
         print("\n📋 Step 3: Copying issues data...")
 
         if not self.issues_dir.exists():
@@ -150,7 +119,6 @@ class StaticExporter:
 
         shutil.copytree(self.issues_dir, target)
 
-        # Count files
         combined_count = len(list((target / "combined_issues").rglob("*.json"))) if (target / "combined_issues").exists() else 0
         patterns_count = len(list((target / "common_patterns").rglob("*.json"))) if (target / "common_patterns").exists() else 0
 
@@ -159,7 +127,6 @@ class StaticExporter:
         return True
 
     def _copy_file_index(self, output_dir: Path) -> bool:
-        """Copy file index if it exists."""
         print("\nStep 4: Copying file index...")
 
         file_index = self.base_dir / "file_index.json"
@@ -175,7 +142,6 @@ class StaticExporter:
         return True
 
     def _copy_label_descriptions(self, output_dir: Path) -> None:
-        """Copy label descriptions file if it exists."""
         print("\nStep 5: Copying label descriptions...")
 
         labels_file = self.base_dir / "labels_descriptions.json"
@@ -190,14 +156,12 @@ class StaticExporter:
         print("   ✓ Copied labels_descriptions.json")
 
     def _create_nojekyll(self, output_dir: Path) -> None:
-        """Create .nojekyll file to prevent Jekyll processing on GitHub Pages."""
         print("\n🔧 Step 6: Creating .nojekyll for GitHub Pages...")
         nojekyll = output_dir / ".nojekyll"
         nojekyll.touch()
         print("   ✓ Created .nojekyll")
 
     def _create_pages_readme(self, output_dir: Path) -> None:
-        """Create README for GitHub Pages repository."""
         print("\nStep 7: Creating README...")
 
         readme_content = """# Localization Quality Dashboard
@@ -236,6 +200,3 @@ Generated with [Localization Quality Evaluation Tool](https://github.com/youruse
         readme = output_dir / "README.md"
         readme.write_text(readme_content, encoding="utf-8")
         print("   ✓ Created README.md")
-
-
-__all__ = ["StaticExporter"]

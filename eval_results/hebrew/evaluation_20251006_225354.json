@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הפלגים החדשים",
+      "correction": "המשתמשים החדשים",
+      "description": "Incorrect word usage: 'הפלגים' (factions) is not appropriate; 'המשתמשים' (users) fits the context of digital etiquette.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "האלמנים הקיימים",
+      "correction": "האלמנטים הקיימים",
+      "description": "Spelling error: 'אלמנים' (widowers) should be 'אלמנטים' (elements).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "אינטראקטיבי, ולא בין גידולים או קבוצות פרדוקטיביים",
+      "correction": "אינטראקטיבי, ולא בין קבוצות או יחידים פרודוקטיביים",
+      "description": "Incorrect word usage: 'גידולים' (crops) and 'פרדוקטיביים' (misspelled, should be 'פרודוקטיביים' - productive) are not appropriate in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "דגשתו",
+      "correction": "הדגשתו",
+      "description": "Missing definite article: should be 'הדגשתו' (its emphasis).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "הפרטיות של אדם חשובה לשמור באינטרנט.",
+      "correction": "חשוב לשמור על פרטיותו של אדם באינטרנט.",
+      "description": "Awkward sentence structure: rephrased for clarity and correct syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "פיקחו בחשיבה על החשיבה לפני פרסום מידע רגיש כדי לשמור על הרגישות והבטיחות של האדם",
+      "correction": "חשוב לחשוב לפני פרסום מידע רגיש כדי לשמור על פרטיות ובטיחותו של האדם",
+      "description": "Awkward and repetitive phrasing: 'פיקחו בחשיבה על החשיבה' is unclear; rephrased for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "פתואורגני",
+      "correction": "פתאורגנִי",
+      "description": "Spelling error: 'פתואורגני' is not a valid Hebrew word; possibly intended 'פתאורגנִי' (spontaneously), but context unclear.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "האותיות הגדולות אינן חוקיות בעייתיות בדרך כלל; עם זאת, הן יכולות להיראות כאייקון כאשר משתמשים בהן במקביש.",
+      "correction": "האותיות הגדולות אינן בעייתיות בדרך כלל; עם זאת, הן יכולות להיראות כצעקה כאשר משתמשים בהן בהקשר מסוים.",
+      "description": "Incorrect word usage and awkward phrasing: 'חוקיות' (legal) and 'אייקון' (icon) are not appropriate; 'צעקה' (shouting) fits the context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "במקביש",
+      "correction": "בהקשר מסוים",
+      "description": "Spelling error: 'במקביש' is not a valid Hebrew word; 'בהקשר מסוים' (in a certain context) is appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה לא מסיים בקידום הגידול בביטחון או בניהול היתרונות המקצועיים של האינטרנט.",
+      "correction": "זה לא תורם לקידום הביטחון או לניהול היתרונות המקצועיים של האינטרנט.",
+      "description": "Incorrect word usage: 'מסיים' (ends) and 'גידול' (growth) are not appropriate; 'תורם לקידום הביטחון' (contributes to security) is correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "ביטחת האדם",
+      "correction": "בטיחותו של האדם",
+      "description": "Spelling error: 'ביטחת' is incorrect; should be 'בטיחותו' (his safety/security).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מפנייה או שימוש לרעה",
+      "correction": "מהטרדה או שימוש לרעה",
+      "description": "Word choice: 'מפנייה' (from approach) is unclear; 'מהטרדה' (from harassment) is more appropriate in this context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:53:54.257741",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

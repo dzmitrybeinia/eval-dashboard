@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הסתברות להגיע למספר גבוה מ-6 עם שתי קוביות אחת או שתיים, כי המספר הגבוה ביותר שניתן לקבל הוא 6. לכן, זה אפשרי אך לא בטוח להגיע ל-7.",
+      "correction": "הסתברות להגיע למספר גבוה מ-6 עם שתי קוביות אינה אפשרית, כי המספר הגבוה ביותר שניתן לקבל הוא 12. לכן, אי אפשר לקבל 7 עם קוביה אחת, אך אפשר לקבל 7 עם שתי קוביות.",
+      "description": "המשפטים אינם ברורים, יש שימוש לא נכון במילים ובניסוח שמוביל לאי-בהירות.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "הסתברות להטלה של מספר זרוע היא 1/6 לכל זרוע על קובייה של שישה צדדים.",
+      "correction": "הסתברות להטלה של מספר מסוים היא 1/6 לכל מספר על קובייה של שישה צדדים.",
+      "description": "המילה 'זרוע' אינה נכונה בהקשר זה; יש להשתמש ב'מספר'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "כל הקובייות של שישה צדדים יש שישה תוצאות שונות שוות הסתדרות, כלומר כל תוצאה מושלמת מהיכון 1 עד 6 מושלמת באופן שווה.",
+      "correction": "כל הקוביות של שישה צדדים נותנות שש תוצאות שונות בעלות הסתברות שווה, כלומר כל תוצאה אפשרית מ-1 עד 6 מתקבלת באותה הסתברות.",
+      "description": "שגיאות כתיב במילים 'קובייות', 'הסתדרות', 'מהיכון', 'מושלמת'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ההסתברות להטלה של כל מספר זרוע היא אחוז אחד מכל המספרים האפשריים.",
+      "correction": "ההסתברות להטלה של כל מספר היא אחד מתוך שישה מהמספרים האפשריים.",
+      "description": "שימוש לא נכון במילה 'אחוז' במקום 'אחד מתוך שישה'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ההסתברות להטלה של מספר זרוע היא 1/6.",
+      "correction": "ההסתברות להטלת מספר מסוים היא 1/6.",
+      "description": "שימוש לא נכון בצורת הפועל 'להטלה' במקום 'להטלת'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "הסתברות לקבל זנב-זנב בטילת שני מטבעות היא 1/4.",
+      "correction": "הסתברות לקבל זנב-זנב בהטלת שני מטבעות היא 1/4.",
+      "description": "שגיאת כתיב במילה 'בטילת' במקום 'בהטלת'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "לאחד מארבעת תוצאות האפשריות (ראש-ראש, ראש-זנב, זנב-ראש, זנב-זנב), יש רק תוצאה רצויה אחת של זנב-זנב.",
+      "correction": "מתוך ארבעת התוצאות האפשריות (ראש-ראש, ראש-זנב, זנב-ראש, זנב-זנב), יש רק תוצאה רצויה אחת של זנב-זנב.",
+      "description": "שגיאת תחביר: 'לאחד מארבעת תוצאות האפשריות' אינו תקין.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הסתברות לקבל פיס לא יורד תמיד 1/6.",
+      "correction": "ההסתברות לקבל מספר מסוים אינה תמיד 1/6.",
+      "description": "המשפט אינו תקין תחבירית, 'פיס לא יורד' אינו ברור.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "הסתברות לקבל פיס לא יורד על קובית שווה באופן אקראטי ל-1/6 בכל טיפוס, למרות שהסטנדרטית היא שיש 6 פיסים וריבועים בסך הכל.",
+      "correction": "ההסתברות לקבל מספר מסוים על קוביה שווה היא 1/6 בכל הטלה, כי יש שישה מספרים בסך הכל.",
+      "description": "שגיאות כתיב במילים 'קובית', 'אקראטי', 'טיפוס', 'פיסים', 'ריבועים'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:56:29.969752",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

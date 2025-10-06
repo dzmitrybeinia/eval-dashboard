@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "משתרכים, מספרים, או שברים יכולים להיות משתנים.",
+      "correction": "משתנים יכולים להיות מספרים שלמים, מספרים עשרוניים או שברים.",
+      "description": "The word 'משתרכים' is incorrect and unclear; should specify types of numbers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "כאשר נבנה ביטוי אלגברי, חשוב לזהות כל חלק שמתקבל מידי משתנה, חיבור, חיסור, כפל או חלק והקביעה את ערכי המקדמים והקבועים.",
+      "correction": "כאשר בונים ביטוי אלגברי, חשוב לזהות כל חלק שמתקבל ממשתנה, חיבור, חיסור, כפל או חילוק, ולקבוע את ערכי המקדמים והקבועים.",
+      "description": "Awkward phrasing and incorrect word 'חלק' (should be 'חילוק'); 'הקביעה' should be 'לקבוע'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה מדגיש את אופן הבדידת המשתנה לבידיים של המשוואה.",
+      "correction": "זה מדגיש את אופן בידוד המשתנה בצד אחד של המשוואה.",
+      "description": "Incorrect and unclear word 'הבדידת' and 'לבידיים'; should be 'בידוד המשתנה בצד אחד'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מטבוליות",
+      "correction": "מטבעות",
+      "description": "Spelling error: 'מטבוליות' is incorrect, should be 'מטבעות' (coins).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "נדרשו 5 שבועות לקניית 5 מטבוליות, אם כי אתה קונה רק 1 בכל פעם.",
+      "correction": "נדרשים 5 שבועות לקניית 5 מטבעות, כאשר אתה קונה רק אחת בכל פעם.",
+      "description": "Incorrect verb form 'נדרשו' (should be 'נדרשים'); 'מטבוליות' should be 'מטבעות'; '1' should be 'אחת'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "היא משמשת כמרכיב חיוני לפתרון משוואות אלגבריות.",
+      "correction": "היא משמשת מרכיב חיוני לפתרון משוואות אלגבריות.",
+      "description": "Unnecessary use of 'כ'; should be 'משמשת מרכיב חיוני'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בעיות כמו קביעת מספר המתרחבים של רכבים בכביש או ימיניות של פרחים שנראו יכולים להיומן באמצעות האלגברה",
+      "correction": "בעיות כמו קביעת מספר הרכבים בכביש או כמות הפרחים שנראו יכולות להיפתר באמצעות האלגברה",
+      "description": "Incorrect and unclear words 'המתרחבים', 'ימיניות', and 'להיומן'; should be 'מספר הרכבים', 'כמות הפרחים', 'להיפתר'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:52:35.905152",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

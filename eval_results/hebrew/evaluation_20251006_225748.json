@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "משימות דומות לאלגוריות אנושית",
+      "correction": "משימות דומות לאינטליגנציה אנושית",
+      "description": "Incorrect word usage: 'אלגוריות' should be 'אינטליגנציה' to convey 'intelligence' rather than 'allegories'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מורכבויות דיגיטיוס",
+      "correction": "מורכבויות דיגיטליות",
+      "description": "Spelling error: 'דיגיטיוס' is a misspelling of 'דיגיטליות' (digital)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "משימות דומים לאינטליגנציה אנושית",
+      "correction": "משימות דומות לאינטליגנציה אנושית",
+      "description": "Gender agreement error: 'משימות' is feminine, so 'דומות' is required",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "בינה מלאכותית מיושמת רק בתחומי האבטיליונים.",
+      "correction": "בינה מלאכותית מיושמת רק בתחומי האבטחה.",
+      "description": "Incorrect word: 'אבטיליונים' is not a valid Hebrew word; should be 'אבטחה' (security)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מושמשת במגוון רחב של תחומים",
+      "correction": "משמשת במגוון רחב של תחומים",
+      "description": "Spelling error: 'מושמשת' should be 'משמשת' (is used)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "עזרים וירטואליים",
+      "correction": "עוזרים וירטואליים",
+      "description": "Incorrect word usage: 'עוזרים' (assistants) is the correct term for virtual assistants, not 'עזרים' (aids)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מה שמראה את הרחבות של היישום של טכנולוגיית הבינה המלאכותית",
+      "correction": "מה שמראה את ההיקף הרחב של יישום טכנולוגיית הבינה המלאכותית",
+      "description": "Awkward phrasing: 'הרחבות' should be replaced with 'ההיקף הרחב' for clarity",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:57:48.529098",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

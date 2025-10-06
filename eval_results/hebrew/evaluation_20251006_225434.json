@@ -1,0 +1,155 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "קיבע את צורך הטיפול הרפואי",
+      "correction": "קבע את צורך הטיפול הרפואי",
+      "description": "Incorrect verb usage; 'קיבע' means 'immobilized', should be 'קבע' meaning 'determined'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "שבירת דם",
+      "correction": "דימום",
+      "description": "Incorrect term; 'שבירת דם' is not idiomatic, 'דימום' is the correct term for bleeding",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "פסיכיאטליס",
+      "correction": "פסיכיאטרי",
+      "description": "Spelling error; 'פסיכיאטליס' is not a valid word, should be 'פסיכיאטרי' (psychiatric)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בצורה נקייה",
+      "correction": "בצורה נכונה",
+      "description": "Incorrect word; 'נקייה' means 'clean', should be 'נכונה' meaning 'correct'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אנטיביידוקיסטי",
+      "correction": "אנטיבקטריאלי",
+      "description": "Spelling error; 'אנטיביידוקיסטי' is not a valid word, should be 'אנטיבקטריאלי' (antibacterial)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "לקירור ולהגנה",
+      "correction": "לחיטוי ולהגנה",
+      "description": "Incorrect word; 'לקירור' means 'for cooling', should be 'לחיטוי' meaning 'for disinfection'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "פציץ שלפוחיות",
+      "correction": "פיצוץ שלפוחיות",
+      "description": "Spelling error; 'פציץ' is not a valid word, should be 'פיצוץ' (bursting)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "לפרק את הרקיע",
+      "correction": "לפרק את השלפוחית",
+      "description": "Incorrect word; 'הרקיע' means 'the sky', should be 'השלפוחית' (the blister)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "במצבי חירום בעיכונ חירום",
+      "correction": "במצבי חירום של עיכוב נשימה",
+      "description": "Spelling and word choice error; 'בעיכונ' is not a word, should be 'של עיכוב נשימה' (of respiratory distress)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "להתערבב בצורה מדוקטיבית",
+      "correction": "להתערב בצורה מדויקת",
+      "description": "Incorrect word; 'מדוקטיבית' is not a valid word, should be 'מדויקת' (accurate)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "חשורדת את גבי האדם למטה",
+      "correction": "יש להרים את רגלי האדם למעלה",
+      "description": "Spelling and word choice error; 'חשורדת' is not a word, and 'גבי האדם' is incorrect, should be 'יש להרים את רגלי האדם למעלה' (raise the person's legs up)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בצורה זקיפה",
+      "correction": "בצורה נכונה",
+      "description": "Incorrect word; 'זקיפה' means 'upright', should be 'נכונה' (correct)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "להגיר נזק נוסף",
+      "correction": "למנוע נזק נוסף",
+      "description": "Incorrect word; 'להגיר' means 'to pour', should be 'למנוע' (to prevent)",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הצעדים המוזכרים הם דרישות בסדר סדרתי",
+      "correction": "הצעדים המוזכרים הם פעולות בסדר מסוים",
+      "description": "Incorrect word; 'דרישות' and 'סדר סדרתי' are awkward, should be 'פעולות בסדר מסוים' (actions in a certain order)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "חתכים מדורגים כאמצעי ראשונים להגיר את הנזק המקורי",
+      "correction": "חתכים נחשבים לאחד מהמצבים הראשונים שיש לטפל בהם כדי למנוע נזק נוסף",
+      "description": "Awkward phrasing and incorrect word; 'מדורגים' and 'להגיר' are not appropriate here",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "לאחר מסירת סיכון להמשך נזק",
+      "correction": "לאחר הערכת הסיכון להמשך נזק",
+      "description": "Incorrect word; 'מסירת' should be 'הערכת' (assessment)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:54:34.528451",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.0,
+    "classification": "SUBSTANDARD",
+    "total_issues": 16,
+    "total_penalty": 4.0,
+    "issue_breakdown": {
+      "linguistic": 16,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 4.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

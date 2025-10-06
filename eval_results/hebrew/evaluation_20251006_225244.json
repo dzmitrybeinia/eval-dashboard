@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "משתנים אומים רק ערכים מספריים חיוביים בביטויים מתמטיים.",
+      "correction": "משתנים אומרים רק ערכים מספריים חיוביים בביטויים מתמטיים.",
+      "description": "Spelling error: 'אומים' should be 'אומרים'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הם משמשים לתארות ערכים שאינם ידועים בתרגילים ובבעיות מתמטיות.",
+      "correction": "הם משמשים לתיאור ערכים שאינם ידועים בתרגילים ובבעיות מתמטיות.",
+      "description": "Incorrect word form: 'לתארות' should be 'לתיאור'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בזמן שביטויים יכולים להיות מופשטים לצורת סקריפטית, הם אינם כוללים תמונות.",
+      "correction": "אמנם ביטויים יכולים להיות מופשטים לצורה סמלית, הם אינם כוללים תמונות.",
+      "description": "Awkward phrasing: 'בזמן ש' and 'סקריפטית' are not standard; 'אמנם' and 'סמלית' are more appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "פישוט ביטויים מכיל קביעת איברים דומים והיכרוז שלהם.",
+      "correction": "פישוט ביטויים כולל זיהוי איברים דומים וחיבורם.",
+      "description": "Incorrect word usage: 'מכיל' and 'היכרוז' are not appropriate; 'כולל' and 'חיבורם' are correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ולא ניתן להוציא או להפשיר אותו לפי תכונות הפעולות.",
+      "correction": "ולא ניתן לצמצם או לפשט אותו לפי תכונות הפעולות.",
+      "description": "Incorrect word usage: 'להוציא' and 'להפשיר' are not appropriate; 'לצמצם' and 'לפשט' are correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הביטוי שניתן אינו מדורג למצב פשוט.",
+      "correction": "הביטוי שניתן כבר נמצא בצורה הפשוטה ביותר.",
+      "description": "Awkward phrasing: 'מדורג למצב פשוט' is unclear; 'נמצא בצורה הפשוטה ביותר' is clearer.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "משוואה אכן משמשת למרכיבים מתמטיים, אך המשמעות המדויקת שלה היא להציג קשר בין ביטויים שניתן לפתור עבור התנאים שלה.",
+      "correction": "משוואה אכן משמשת לתיאור מרכיבים מתמטיים, אך המשמעות המדויקת שלה היא להציג קשר בין ביטויים שניתן לפתור עבור המשתנה.",
+      "description": "Incorrect word usage: 'למרכיבים' should be 'לתיאור מרכיבים'; 'התנאים שלה' should be 'המשתנה'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "משוואה אינה רק משמשת ללוגיקה אלא גם לפתרון בעיות מערכתיות בתחום האלגברה.",
+      "correction": "משוואה אינה משמשת רק ללוגיקה אלא גם לפתרון בעיות בתחום האלגברה.",
+      "description": "Awkward phrasing: 'בעיות מערכתיות' is unclear; 'בעיות בתחום האלגברה' is clearer.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הסדר של איברים בסיס הפעולה משנה את הערך הכולל.",
+      "correction": "הסדר של איברים בבסיס הפעולה משנה את הערך הכולל.",
+      "description": "Missing preposition: 'בבסיס' instead of 'בסיס'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "תכונת החילוף מאשר שהסדר של איברים בסיס הפעולה אינו משנה את התוצאה;",
+      "correction": "תכונת החילוף מאשרת שהסדר של איברים בבסיס הפעולה אינו משנה את התוצאה;",
+      "description": "Incorrect verb form: 'מאשר' should be 'מאשרת'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "היא תורמת לקביעת הבינום של ביטויים ומשוואות, מה שמאפשר בקביעות פשטות ופתרון משוואות.",
+      "correction": "היא תורמת לקביעת מבנה הביטויים והמשוואות, מה שמאפשר פישוט ופתרון משוואות.",
+      "description": "Incorrect word usage: 'הבינום' and 'בקביעות פשטות' are unclear; 'מבנה הביטויים' and 'פישוט' are correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "באלגברה, אותות יכולים להיות בעלי ערך ידועים בלבד.",
+      "correction": "באלגברה, משתנים יכולים להיות בעלי ערך ידוע בלבד.",
+      "description": "Incorrect word usage: 'אותות' should be 'משתנים'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "באוזן האלגברה, האמירות משמשות לתיאור חללים שלא מוגדרים בדיוק.",
+      "correction": "באלגברה, משתנים משמשים לתיאור ערכים שאינם מוגדרים בדיוק.",
+      "description": "Incorrect word usage: 'באוזן האלגברה' and 'האמירות' are incorrect; 'באלגברה' and 'משתנים' are correct.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "תרומתם נעשית באמצעות משתנים, שמייצגים ערכים שעדיין אינם ידועים.",
+      "correction": "משתנים מייצגים ערכים שעדיין אינם ידועים.",
+      "description": "Awkward phrasing: 'תרומתם נעשית באמצעות משתנים' is unnecessary; simplify to 'משתנים מייצגים ערכים'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "אותות לא משמשים באותה תפקיד.",
+      "correction": "אותיות לא משמשות באותו תפקיד.",
+      "description": "Incorrect word usage and agreement: 'אותות' should be 'אותיות'; 'באותה תפקיד' should be 'באותו תפקיד'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra_1.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:52:44.941230",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.2,
+    "classification": "ACCEPTABLE",
+    "total_issues": 15,
+    "total_penalty": 2.8,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "משתנים מאחסנים ומשנים ערכים בזמן שלא קרה מהקוד.",
+      "correction": "משתנים מאחסנים ומשנים ערכים בזמן שהקוד רץ.",
+      "description": "Incorrect use of 'שלא קרה מהקוד'; should be 'שהקוד רץ' to indicate when code is running.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הערכים שלהם משתנים רק כאשר משנה הקוד או כאשר מופעלים תנאים ופונקים או פונקים אותם.",
+      "correction": "הערכים שלהם משתנים רק כאשר הקוד משנה אותם או כאשר מופעלים תנאים ופונקציות שפועלות עליהם.",
+      "description": "Awkward phrasing and incorrect word 'פונקים'; should be 'פונקציות שפועלות עליהם'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "לכן, אף עיקול הכנסת מספר שלם בתוך מחרוזת ייחשב כטעות בגביה.",
+      "correction": "לכן, הכנסת מספר שלם בתוך מחרוזת תיחשב כטעות.",
+      "description": "Unclear and incorrect use of 'עיקול' and 'בגביה'; should be omitted for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "זו נכונים, כי בתכנון הקוד, תנאי משמש כקריטריון שמקבבל איזום שמבצע פעולה מסוימת.",
+      "correction": "זה נכון, כי בתכנון הקוד, תנאי משמש כקריטריון שמקבל ערך שמבצע פעולה מסוימת.",
+      "description": "Agreement error: 'זו נכונים' should be 'זה נכון'; 'מקבבל איזום' is incorrect, should be 'מקבל ערך'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה דומה לקביעת אם יש להגיש את המנור הסודי או להסתר אותו, תלוי ברמזון.",
+      "correction": "זה דומה לקביעה אם יש להגיש את המסמך הסודי או להסתיר אותו, תלוי ברמז.",
+      "description": "Incorrect words 'המנור הסודי' and 'רמזון'; should be 'המסמך הסודי' and 'רמז'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "זו נכונים",
+      "correction": "זה נכון",
+      "description": "Agreement error: feminine plural used instead of masculine singular.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בהכללה של כל שפת תכנות מסורתית.",
+      "correction": "בכל שפת תכנות מסורתית.",
+      "description": "Incorrect use of 'בהכללה'; should be 'בכל'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הפסאודות מאפשרות לתכנאים לפרק את בעיות לשלבים רקורדיים לפני כתיבת קוד.",
+      "correction": "הפסאודו-קוד מאפשר למתכנתים לפרק בעיות לשלבים עיקריים לפני כתיבת קוד.",
+      "description": "Incorrect use of 'הפסאודות' and 'רקורדיים'; should be 'הפסאודו-קוד' and 'עיקריים'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הנכון שימוש של פסאודוים הוא לעיצוד אלגוריתמים ולא לפרק את בעיות לשלבים.",
+      "correction": "השימוש הנכון בפסאודו-קוד הוא לתכנון אלגוריתמים ולא לפירוק בעיות לשלבים.",
+      "description": "Incorrect word order and use of 'לעיצוד'; should be 'לתכנון'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:53:12.601417",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

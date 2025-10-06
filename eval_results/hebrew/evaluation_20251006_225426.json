@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אירועים חצוצים",
+      "correction": "אירועים חיצוניים",
+      "description": "Spelling error: 'חצוצים' is a misspelling; the correct word is 'חיצוניים' (external events)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "פגיעויות בריאתיות",
+      "correction": "פגיעות בריאותיות",
+      "description": "Incorrect word choice: 'בריאתיות' should be 'בריאותיות' (health-related injuries)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "שיעורי חום רבים",
+      "correction": "כוויות חום רבות",
+      "description": "Spelling/word choice error: 'שיעורי חום' is incorrect; 'כוויות חום' (heat burns) is the correct term",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אנימוטים",
+      "correction": "עשן ומזהמים",
+      "description": "Spelling/word choice error: 'אנימוטים' is not a Hebrew word; 'עשן ומזהמים' (smoke and pollutants) is appropriate",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אימות חשמלי",
+      "correction": "בטיחות חשמלית",
+      "description": "Word choice error: 'אימות חשמלי' is incorrect; 'בטיחות חשמלית' (electrical safety) is correct",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "ניהונותים",
+      "correction": "נהלים",
+      "description": "Spelling error: 'ניהונותים' is a misspelling; 'נהלים' (procedures) is correct",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "בטונלי",
+      "correction": "בטיחותי",
+      "description": "Spelling/word choice error: 'בטונלי' is not a Hebrew word; 'בטיחותי' (safely) is correct",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "הלול בגללים",
+      "correction": "היציאה בגללים",
+      "description": "Spelling/word choice error: 'הלול בגללים' is unclear and incorrect; 'היציאה בגללים' (exit routes) is correct",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "תקורת אוויר",
+      "correction": "תנועת אוויר",
+      "description": "Spelling/word choice error: 'תקורת אוויר' is incorrect; 'תנועת אוויר' (airflow) is correct",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מקום בטוח במהירות",
+      "correction": "הגעה למקום בטוח במהירות",
+      "description": "Missing verb: 'מקום בטוח במהירות' lacks a verb; 'הגעה למקום בטוח במהירות' (reaching a safe place quickly) is correct",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "הצעדים המוזכרים בתוכנית חירום לשריפה מתמקדים בפעולות בטיחות והיכרות עם מקרה שריפה.",
+      "correction": "הצעדים המוזכרים בתוכנית חירום לשריפה מתמקדים בפעולות בטיחות והיכרות עם מצב שריפה.",
+      "description": "Word choice error: 'מקרה שריפה' should be 'מצב שריפה' (fire situation)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "תנועה בטיחותית באוויר או בשטח פני הקרקע היא המקום המועדף עליו להגעה במקרה שריפה.",
+      "correction": "תנועה בטיחותית באוויר או בשטח פני הקרקע היא הדרך המועדפת להגעה במקרה שריפה.",
+      "description": "Word choice error: 'המקום המועדף עליו' should be 'הדרך המועדפת' (preferred way)",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "מעבדת אוכלוסיית הבית",
+      "correction": "חברי משפחת הבית",
+      "description": "Word choice error: 'מעבדת אוכלוסיית הבית' is incorrect; 'חברי משפחת הבית' (household members) is correct",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "הנחיות מקצובים מבטיחות אש",
+      "correction": "הנחיות מקצועיות לבטיחות אש",
+      "description": "Spelling/word choice error: 'מקצובים' is incorrect; 'מקצועיות' (professional) is correct",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "התקנים של מחיקת הסוללות באופן קבוע מבטיחים ביעילות למרות שהם נעשים לעתים קרובות יותר לעיתית.",
+      "correction": "החלפת הסוללות באופן קבוע מבטיחה יעילות, ויש לבצע זאת לעיתים קרובות לפי ההנחיות.",
+      "description": "Grammar and word choice errors: 'התקנים של מחיקת הסוללות' and 'לעיתית' are incorrect; sentence rephrased for clarity and correctness",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:54:26.314651",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 15,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "זה אידאו לא נכון.",
+      "correction": "זה אינו נכון.",
+      "description": "Spelling error: 'אידאו' is a misspelling; should be 'אינו'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "עובדה מוכרה",
+      "correction": "עובדה מוכרת",
+      "description": "Spelling error: 'מוכרה' should be 'מוכרת' for correct feminine adjective form.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הדעת שמענק המחבר",
+      "correction": "הדעה שמעניק המחבר",
+      "description": "Word choice error: 'הדעת' and 'מענק' are incorrect; should be 'הדעה' and 'מעניק'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "לדמיין את הנקודה הזו מחדרת או מאתגרת את הנקודה שלהם.",
+      "correction": "להבין את הנקודה הזו שמחדדת או מאתגרת את הנקודה שלהם.",
+      "description": "Word choice error: 'לדמיין' and 'מחדרת' are awkward; 'להבין' and 'מחדדת' are more appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "דריבנים אונליים חיוניים",
+      "correction": "מרכיבים עיקריים חיוניים",
+      "description": "Spelling/word choice error: 'דריבנים אונליים' is not a correct Hebrew phrase; should be 'מרכיבים עיקריים'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "נתחונים אישיים",
+      "correction": "נימוקים אישיים",
+      "description": "Spelling error: 'נתחונים' is incorrect; should be 'נימוקים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "היא מנקה טענות מנוגדות באופן מכבד.",
+      "correction": "היא מציגה טענות מנוגדות באופן מכבד.",
+      "description": "Grammar/word choice error: 'מנקה' is incorrect verb; should be 'מציגה'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "טיעני הטיעון",
+      "correction": "טועני הטיעון",
+      "description": "Spelling error: 'טיעני' should be 'טועני'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "עמדת החשבון שלך",
+      "correction": "עמדתך",
+      "description": "Word choice error: 'עמדת החשבון שלך' is awkward; 'עמדתך' is more concise and correct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:56:16.246570",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

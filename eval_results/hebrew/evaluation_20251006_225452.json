@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "אובייקון",
+      "correction": "אובייקט",
+      "description": "Spelling error: 'אובייקון' is a misspelling of 'אובייקט' (object)",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "מטעה את הטבע של נקודה",
+      "correction": "מעוות את מהות הנקודה",
+      "description": "Awkward phrasing: 'מטעה את הטבע של נקודה' is not idiomatic; 'מעוות את מהות הנקודה' is clearer",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "קרן נמצאת על קו ומתחיל בנקודה בלתי מגבלית.",
+      "correction": "קרן נמצאת על קו ומתחילה בנקודה בלתי מוגבלת.",
+      "description": "Verb agreement and word form: 'מתחיל' should agree with 'קרן' (feminine), and 'בלתי מגבלית' should be 'בלתי מוגבלת'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "קרן מתחיל בנקודה וממשיך לאורך קו.",
+      "correction": "קרן מתחילה בנקודה וממשיכה לאורך קו.",
+      "description": "Verb agreement: 'קרן' is feminine, so verbs should be in feminine form",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "היא לא מגבילה את מסעה או את הרחבה שלה.",
+      "correction": "היא אינה מגבילה את מסלולה או את התפשטותה.",
+      "description": "Word choice: 'מסעה' and 'הרחבה שלה' are awkward; 'מסלולה' and 'התפשטותה' are more precise",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:54:52.222098",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

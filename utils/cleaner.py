@@ -1,7 +1,5 @@
 """Directory maintenance utilities."""
 
-from __future__ import annotations
-
 import json
 import shutil
 from pathlib import Path
@@ -15,7 +13,6 @@ class DirectoryCleaner:
 
     def __init__(self, base_dir: Path | str = ".") -> None:
         base_path = Path(base_dir)
-        # Updated directory names
         self.generated_quizzes_dir = base_path / "raw_json_files"
         self.markdown_quizzes_dir = base_path / "markdown_files"
         self.eval_results_dir = base_path / "eval_results"
@@ -97,9 +94,6 @@ class DirectoryCleaner:
     @staticmethod
     def _is_empty(entries: Iterable[Path]) -> bool:
         return not any(True for _ in entries)
-
-    # ------------------------------------------------------------------
-    # Issues cleanup helpers
 
     def _clean_related_issues(self, language: str | None) -> None:
         if not self.issues_dir.exists():

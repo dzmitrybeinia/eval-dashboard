@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "רגשות רק מתרגלים מסביב לבגרות.",
+      "correction": "רגשות מתפתחים רק סביב גיל הבגרות.",
+      "description": "Awkward phrasing and incorrect word choice; 'מתרגלים מסביב' is unclear and should be 'מתפתחים רק סביב'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "הם חלו על כל החיים ומתפתחים ככל שאנו גדלים.",
+      "correction": "הם חלים על כל החיים ומתפתחים ככל שאנו גדלים.",
+      "description": "Verb tense error: 'חלו' (past) should be 'חלים' (present) to match the context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "דאגה לגבי האמן או כעס מאחר האיזון בין הלימוד לזמינות.",
+      "correction": "דאגה לגבי העתיד או כעס בשל חוסר איזון בין הלימודים לזמן הפנוי.",
+      "description": "'האמן' is likely a typo for 'העתיד'; 'מאחר האיזון' is awkward, should be 'בשל חוסר איזון'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה ניתן לראות באמצאים שמשתף את החוכמה שלהם או מגיבה לצדקה של חברים, מה שמחזק את הקשרים החברתיים שלהם.",
+      "correction": "ניתן לראות זאת כאשר אדם משתף את חוכמתו או מגיב בנדיבות לחבריו, מה שמחזק את הקשרים החברתיים שלו.",
+      "description": "Awkward phrasing and incorrect word choice; 'באמצאים שמשתף את החוכמה שלהם' is unclear and should be rephrased for clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:54:09.552840",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

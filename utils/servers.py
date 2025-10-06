@@ -1,7 +1,5 @@
 """HTTP server helpers for dashboard hosting."""
 
-from __future__ import annotations
-
 import http.server
 import signal
 import socket
@@ -38,17 +36,9 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             print(f"{message}")
 
 def serve_dashboard(port: int = 8084, *, auto_open: bool = True) -> None:
-    """Serve the primary dashboard."""
     _serve_file("dashboard.html", port, auto_open=auto_open)
 
-
-def _serve_file(
-    html_filename: str,
-    start_port: int,
-    *,
-    auto_open: bool = True,
-) -> None:
-    """Serve a static dashboard file with automatic CORS headers."""
+def _serve_file(html_filename: str, start_port: int, *, auto_open: bool = True) -> None:
     script_dir = Path.cwd()
     html_path = script_dir / html_filename
     if not html_path.exists():
@@ -105,6 +95,3 @@ def _graceful_shutdown() -> Iterator[None]:
         yield
     finally:
         signal.signal(signal.SIGINT, previous_handler)
-
-
-__all__ = ["serve_dashboard", "CORSRequestHandler"]

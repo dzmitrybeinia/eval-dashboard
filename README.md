@@ -7,14 +7,14 @@ A pluggable, orchestrator-based system for evaluating localization quality using
 ### Core Components
 
 1. **Converters** - Transform JSON lessons into markdown format
-   - `LessonYesNoConverter` - Converts full lesson (content + questions)
-   - `LessonContentConverter` - Converts only lesson content (intro + slides)
+   - `FullContentConverter` - Converts full lesson (content + questions)
+   - `ContentOnlyConverter` - Converts only lesson content (intro + slides)
    - `YesNoConverter` - Converts only questions and feedback
 
 2. **Orchestrators** - Configure evaluation pipeline behavior
-   - `LessonContentYesNoOrchestrator` - Full evaluation (content + questions)
-   - `LessonContentOrchestrator` - Content-only evaluation (linguistic focus)
-   - `YesNoOrchestrator` - Questions-only evaluation (with pattern analysis)
+   - `FullEvaluationOrchestrator` - Full evaluation (content + questions)
+   - `ContentOnlyOrchestrator` - Content-only evaluation (linguistic focus)
+   - `YesNoEvaluationOrchestrator` - Questions-only evaluation (with pattern analysis)
 
 3. **Evaluator** - Runs AI-powered quality evaluation using Azure OpenAI (gpt-4.1)
 
@@ -22,7 +22,7 @@ A pluggable, orchestrator-based system for evaluating localization quality using
 ### Prompt Files & Examples
 
 #### `combined_expert.md` - Dual-expertise evaluation (linguistic + localization)
-- **Used by:** `lessoncontentyesno`
+- **Used by:** `fullevaluation`
 - **Evaluates:** Both language correctness AND cultural appropriateness
 - **Categories:** `linguistic` and `localization`
 - **Example prompt combination for Polish full evaluation:**
@@ -42,10 +42,10 @@ A pluggable, orchestrator-based system for evaluating localization quality using
   ```
 
 #### `linguistic_only.md` - Linguistic accuracy evaluation only
-- **Used by:** `lessoncontent`, `yesno`
+- **Used by:** `contentonly`, `yesnoevaluation`
 - **Focuses on:** Grammar, spelling, syntax, word choice ONLY
 - **Category:** `linguistic` only (no localization)
-- **Example prompt combination for Russian content-only (LLM):**
+- **Example prompt combination for Russian content-only:**
   ```
   [linguistic_only.md content]
 
@@ -61,7 +61,7 @@ A pluggable, orchestrator-based system for evaluating localization quality using
   [Lesson content only - intro and slides, no questions]
   ```
 
-- **Example prompt combination for Polish questions-only (SLM):**
+- **Example prompt combination for Polish questions-only:**
   ```
   [linguistic_only.md content]
 
@@ -91,7 +91,7 @@ Runs complete pipeline: convert → evaluate → aggregate → analyze
 ```bash
 # Full evaluation (content + questions)
 python app.py eval \
-  --orchestrator lessoncontentyesno \
+  --orchestrator fullevaluation \
   --from raw_json_files/polish \
   --to markdown_files/polish_full \
   --language polish \
@@ -99,7 +99,7 @@ python app.py eval \
 
 # Content-only evaluation (linguistic focus)
 python app.py eval \
-  --orchestrator lessoncontent \
+  --orchestrator contentonly \
   --from raw_json_files/russian \
   --to markdown_files/russian_content \
   --language russian \
@@ -107,7 +107,7 @@ python app.py eval \
 
 # Questions-only evaluation (with pattern analysis)
 python app.py eval \
-  --orchestrator yesno \
+  --orchestrator yesnoevaluation \
   --from raw_json_files/polish \
   --to markdown_files/polish_questions \
   --language polish \
@@ -120,7 +120,7 @@ Convert JSON to markdown without evaluation
 
 ```bash
 python app.py convert \
-  --orchestrator lessoncontentyesno \
+  --orchestrator fullevaluation \
   --from raw_json_files/spanish \
   --to markdown_files/spanish_full \
   --language spanish
@@ -133,7 +133,7 @@ Evaluate existing markdown files
 ```bash
 # Evaluate from existing markdown
 python app.py evaluate \
-  --orchestrator yesno \
+  --orchestrator yesnoevaluation \
   --from markdown_files/polish_questions \
   --language polish \
   --label questions_v2
@@ -158,7 +158,7 @@ Run pattern analysis on aggregated issues
 
 ```bash
 python app.py analyze-patterns \
-  --orchestrator yesno \
+  --orchestrator yesnoevaluation \
   --language polish \
   --label v1
 ```
@@ -225,7 +225,7 @@ python app.py clean eval_results --label questions_v2
 ```bash
 # 1. Convert and evaluate Polish lessons (full content + questions)
 python app.py eval \
-  --orchestrator lessoncontentyesno \
+  --orchestrator fullevaluation \
   --from raw_json_files/polish \
   --to markdown_files/polish_v1 \
   --language polish \
@@ -243,14 +243,14 @@ python app.py clean eval_results --label v1
 ```bash
 # 1. Convert only lesson content (no questions)
 python app.py convert \
-  --orchestrator lessoncontent \
+  --orchestrator contentonly \
   --from raw_json_files/russian \
   --to markdown_files/russian_content \
   --language russian
 
 # 2. Evaluate content for linguistic issues
 python app.py evaluate \
-  --orchestrator lessoncontent \
+  --orchestrator contentonly \
   --from markdown_files/russian_content \
   --language russian \
   --label content_v1
@@ -267,7 +267,7 @@ python app.py aggregate-issues \
 ```bash
 # 1. Full pipeline: convert questions, evaluate, aggregate, analyze patterns
 python app.py eval \
-  --orchestrator yesno \
+  --orchestrator yesnoevaluation \
   --from raw_json_files/polish \
   --to markdown_files/polish_questions \
   --language polish \
@@ -280,7 +280,7 @@ python app.py eval \
 # Evaluate multiple languages with same label
 for lang in polish russian spanish; do
   python app.py eval \
-    --orchestrator lessoncontentyesno \
+    --orchestrator fullevaluation \
     --from raw_json_files/$lang \
     --to markdown_files/${lang}_v2 \
     --language $lang \
@@ -299,14 +299,14 @@ python app.py clean eval_results --label v2
 ```bash
 # If you already have markdown files and want to re-run evaluation
 python app.py evaluate \
-  --orchestrator lessoncontentyesno \
+  --orchestrator fullevaluation \
   --from markdown_files/polish_v1 \
   --language polish \
   --label v1_reeval
 
 # Then aggregate and analyze
 python app.py aggregate-issues --language polish --label v1_reeval
-python app.py analyze-patterns --orchestrator lessoncontentyesno \
+python app.py analyze-patterns --orchestrator fullevaluation \
   --language polish --label v1_reeval
 ```
 
@@ -335,10 +335,16 @@ python app.py analyze-patterns --orchestrator lessoncontentyesno \
 │   │   └── questions_v1/
 │   └── all/                 # Cross-label aggregation
 │       └── all_common_issues.json
+├── core/                    # Core evaluation package
+│   ├── evaluator.py         # Main evaluation logic
+│   ├── aggregator.py        # Issue aggregation
+│   ├── analyzer.py          # Pattern analysis
+│   ├── scoring.py           # Quality scoring
+│   └── models.py            # Data models
 ├── converters/              # Converter implementations
 ├── orchestrators/           # Orchestrator implementations
 ├── prompts/                 # AI prompts
-└── utils/                   # Core evaluation utilities
+└── utils/                   # Utility functions
 ```
 
 ## Configuration
@@ -384,11 +390,11 @@ Cross-label aggregation with label tracking
 1. **Use descriptive labels** - They help organize and track different evaluation runs
 2. **Clean regularly** - Use `clean --label` to remove old evaluation data
 3. **Separate concerns** - Use different orchestrators for different evaluation goals:
-   - `lessoncontent` for linguistic quality
-   - `yesno` for question/feedback quality
-   - `lessoncontentyesno` for complete evaluation
+   - `contentonly` for linguistic quality
+   - `yesnoevaluation` for question/feedback quality
+   - `fullevaluation` for complete evaluation
 4. **Check dashboard** - Visual overview of all evaluation results
-5. **Pattern analysis** - Only runs with `yesno` and `lessoncontentyesno` orchestrators
+5. **Pattern analysis** - Only runs with `yesnoevaluation` and `fullevaluation` orchestrators
 
 ## Troubleshooting
 

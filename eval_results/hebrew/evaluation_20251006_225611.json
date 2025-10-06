@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "הטבלה המחזורית מארגנת לא רק את היסודות האלקטריים, אלא גם את הרכיבים הרגילים והכימיים הרגילים.",
+      "correction": "הטבלה המחזורית מארגנת לא רק את היסודות האלקטרוניים, אלא גם את היסודות הכימיים.",
+      "description": "Incorrect word choice: 'היסודות האלקטריים' and 'הרכיבים הרגילים והכימיים הרגילים' are not standard terms; should be 'היסודות האלקטרוניים' and 'היסודות הכימיים'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "היסודות ממוינים לפי האטום שלהם, שהוא מספר היחידות של הפרוטונים בגרעין האטום.",
+      "correction": "היסודות ממוינים לפי המספר האטומי שלהם, שהוא מספר הפרוטונים בגרעין האטום.",
+      "description": "Grammar and word choice error: 'לפי האטום שלהם' is incorrect; should be 'לפי המספר האטומי שלהם'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "תקופות מארגנות את היסודות על פי מספר האטומי, בעוד קבוצות מארגנות אותם לפי תכונות כימיות דומות.",
+      "correction": "תקופות מארגנות את היסודות לפי המספר האטומי, בעוד קבוצות מארגנות אותם לפי תכונות כימיות דומות.",
+      "description": "Incorrect word order: 'על פי מספר האטומי' should be 'לפי המספר האטומי'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "בטבלה המחזורית לכל תקופה יש מספר ייחודי של אלקטרונים, מה שמסיקר את הסדרה של הרכיבים והתכונות שלהם.",
+      "correction": "בטבלה המחזורית לכל תקופה יש מספר ייחודי של אלקטרונים, מה שמסביר את הסדרה של היסודות והתכונות שלהם.",
+      "description": "Spelling and word choice error: 'מסיקר' should be 'מסביר'; 'הרכיבים' should be 'היסודות'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "כשאנחים (1) יש רק אלקטרון ראשון, וכשפלונים (2) יש שני אלקטרונים, אז המספר האטומי עולה.",
+      "correction": "כשמימן (1) יש רק אלקטרון אחד, וכשהליום (2) יש שני אלקטרונים, אז המספר האטומי עולה.",
+      "description": "Spelling error: 'אנחים' and 'פלונים' are incorrect; should be 'מימן' and 'הליום'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה גם משמש כתאר לכך שהרכיבים פורקים לאורך התקופה, מה שמתפתח ממתיקים למתיקים ולא מתכתיים.",
+      "correction": "זה גם משמש כתיאור לכך שהיסודות משתנים לאורך התקופה, מה שמתפתח ממתכתיים ללא מתכתיים.",
+      "description": "Word choice and spelling errors: 'כתאר' should be 'כתיאור'; 'הרכיבים פורקים' should be 'היסודות משתנים'; 'ממתיקים למתיקים' should be 'ממתכתיים ללא מתכתיים'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "יסודות באותה קבוצה נוטרים באותה דרך מספר האלקטרונים בשכבת החיצונית.",
+      "correction": "יסודות באותה קבוצה נוטים להיות בעלי אותו מספר אלקטרונים בשכבה החיצונית.",
+      "description": "Spelling and word choice error: 'נוטרים' should be 'נוטים להיות בעלי'; 'בשכבת החיצונית' should be 'בשכבה החיצונית'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "זוהרת זאת כיוון שהיסודות שנמצאים באותה קבוצה בטבלה המחזורית מתאפישים את תכונותיהם התכלוניות מבלי להתארךת את אותו מספר אלקטרונים בשכבת החיצונית.",
+      "correction": "זה נכון כיוון שהיסודות שנמצאים באותה קבוצה בטבלה המחזורית מתאפיינים בתכונות דומות בגלל שיש להם אותו מספר אלקטרונים בשכבה החיצונית.",
+      "description": "Spelling and grammar errors: 'זוהרת זאת' should be 'זה נכון'; 'מתאפישים' should be 'מתאפיינים'; 'התכלוניות' should be 'דומות'; 'מבלי להתארךת' is incorrect and should be omitted.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ליתיום (Na), נתרן (Mg), ואשלגן (K) נמצאים בקבוצה 1 מכיוון שכולם בעלי אלקטרון אחד.",
+      "correction": "ליתיום (Li), נתרן (Na), ואשלגן (K) נמצאים בקבוצה 1 מכיוון שכולם בעלי אלקטרון אחד.",
+      "description": "Incorrect chemical symbols: 'Na' is sodium, not lithium; 'Mg' is magnesium, not sodium. Should be 'ליתיום (Li), נתרן (Na), ואשלגן (K)'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "זה מסייע לקבל תובנות על הדפוסים המרכיבים לתכונות האלקטרופיליות של היסודות.",
+      "correction": "זה מסייע לקבל תובנות על הדפוסים המרכיבים את התכונות הכימיות של היסודות.",
+      "description": "Incorrect word choice: 'האלקטרופיליות' is not the intended term; should be 'התכונות הכימיות'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "ליקוי בהקשר של התכונות היסודות של הטבלה המחזורית אינו מוצא נכון.",
+      "correction": "ליקוי בהקשר של תכונות היסודות בטבלה המחזורית אינו נכון.",
+      "description": "Word order and choice error: 'התכונות היסודות של הטבלה המחזורית' should be 'תכונות היסודות בטבלה המחזורית'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Word Choice",
+      "original": "המטרה של הטבלה היא להסביר את הדפוסים החלשלניים בתכונות היסודות של האטומים, כמו גודל אטומי, תגובתיות, ואלקטרושליליות.",
+      "correction": "המטרה של הטבלה היא להסביר את הדפוסים בתכונות היסודות של האטומים, כמו גודל אטומי, תגובתיות ואלקטרושליליות.",
+      "description": "Incorrect word choice: 'הדפוסים החלשלניים' should be 'הדפוסים'; 'ו' before 'אלקטרושליליות' should not be preceded by a comma.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Hebrew",
+    "timestamp": "2025-10-06T22:56:11.527403",
+    "model": "gpt-4.1",
+    "label": "hebrew.slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

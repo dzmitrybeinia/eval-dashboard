@@ -1,6 +1,5 @@
 """Supported languages configuration."""
 
-# Languages supported across conversion, evaluation, and cleanup tasks.
 SUPPORTED_LANGUAGES = [
     "english",
     "spanish",

@@ -2,102 +2,45 @@
 """Command-line orchestrator for the quiz localization workflow."""
 
 import argparse
-import importlib
 import sys
 from pathlib import Path
 from typing import Optional
 
 from dotenv import load_dotenv
 
-from config import SUPPORTED_LANGUAGES
-from core import Evaluator, IssueAggregator, ErrorPatternAnalyzer
-from orchestrators.base import AbstractOrchestrator
+from config import LANGUAGES
+from core import Evaluator, aggregate_issues, analyze_patterns
 from orchestrators.full_evaluation_orchestrator import FullEvaluationOrchestrator
 from orchestrators.content_only_orchestrator import ContentOnlyOrchestrator
 from orchestrators.yes_no_evaluation_orchestrator import YesNoEvaluationOrchestrator
-from utils.cleaner import DirectoryCleaner
-from utils.labels import ensure_label
+from utils.cleaner import clean_eval_results, clean_markdown_files, clean_raw_json_files
+from utils.labels import sanitize_label
 from utils.servers import serve_dashboard
-from utils.static_export import StaticExporter
+from utils.static_export import export_static_dashboard
 
 load_dotenv()
 
 
-def discover_orchestrators() -> dict[str, type[AbstractOrchestrator]]:
-    orchestrators = {}
-    orchestrators_dir = Path("orchestrators")
-
-    if orchestrators_dir.exists():
-        for file_path in orchestrators_dir.glob("*.py"):
-            if file_path.stem.startswith("_") or file_path.stem == "base":
-                continue
-
-            module_name = f"orchestrators.{file_path.stem}"
-            try:
-                module = importlib.import_module(module_name)
-                for attr_name in dir(module):
-                    attr = getattr(module, attr_name)
-                    if isinstance(attr, type) and issubclass(attr, AbstractOrchestrator) and attr is not AbstractOrchestrator:
-                        key = attr_name.replace("Orchestrator", "").lower()
-                        orchestrators[key] = attr
-            except Exception as exc:
-                print(f"⚠️  Could not load orchestrator from {file_path.name}: {exc}")
-
-    return orchestrators
+ORCHESTRATORS = {
+    "fullevaluation": FullEvaluationOrchestrator,
+    "contentonly": ContentOnlyOrchestrator,
+    "yesnoevaluation": YesNoEvaluationOrchestrator,
+}
 
 
-def load_orchestrator(name: str) -> AbstractOrchestrator:
-    available = discover_orchestrators()
-
-    if name not in available:
+def load_orchestrator(name: str):
+    if name not in ORCHESTRATORS:
         print(f"❌ Unknown orchestrator: {name}")
-        print(f"Available orchestrators: {', '.join(sorted(available.keys()))}")
+        print(f"Available orchestrators: {', '.join(sorted(ORCHESTRATORS.keys()))}")
         sys.exit(1)
 
-    orchestrator_class = available[name]
+    orchestrator_class = ORCHESTRATORS[name]
     return orchestrator_class()
 
 
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         description="Localization Quality Evaluation Tool - AI-powered evaluation of localized content",
-        epilog="""
-Examples:
-  # Full pipeline: convert, evaluate, aggregate, analyze
-  %(prog)s eval --orchestrator fullevaluation --from raw_json_files/polish --to markdown_files/polish_v1 --language polish --label v1
-
-  # Content-only evaluation (linguistic focus)
-  %(prog)s eval --orchestrator contentonly --from raw_json_files/russian --to markdown_files/russian_content --language russian --label content_v1
-
-  # Questions-only evaluation with pattern analysis
-  %(prog)s eval --orchestrator yesnoevaluation --from raw_json_files/spanish --to markdown_files/spanish_questions --language spanish --label questions_v2
-
-  # Convert only (no evaluation)
-  %(prog)s convert --orchestrator contentonly --from raw_json_files/french --to markdown_files/french_content --language french
-
-  # Evaluate existing markdown files
-  %(prog)s evaluate --orchestrator yesnoevaluation --from markdown_files/polish_questions --language polish --label test_v3
-
-  # Aggregate and analyze separately
-  %(prog)s aggregate-issues --language polish --label v1
-  %(prog)s analyze-patterns --orchestrator yesnoevaluation --language polish --label v1
-
-  # View results in browser
-  %(prog)s dashboard
-
-  # Export dashboard for GitHub Pages
-  %(prog)s export-static --output docs
-
-  # Clean by language or label
-  %(prog)s clean eval_results --language polish
-  %(prog)s clean eval_results --label old_v1
-  %(prog)s clean markdown_files --all
-
-Available orchestrators:
-  fullevaluation   - Full evaluation (content + questions)
-  contentonly      - Content-only evaluation (linguistic focus)
-  yesnoevaluation  - Questions-only evaluation (with pattern analysis)
-        """,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
 
@@ -112,8 +55,6 @@ Available orchestrators:
         "eval",
         help="Run full evaluation pipeline (convert + evaluate + aggregate + analyze)",
         description="Convert JSON to markdown, run AI evaluation, aggregate issues, and analyze patterns",
-        epilog="Example: %(prog)s --orchestrator fullevaluation --from raw_json_files/polish --to markdown_files/polish_v1 --language polish --label v1",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     eval_parser.add_argument(
         "--orchestrator", required=True, help="Orchestrator name (fullevaluation, contentonly, yesnoevaluation)"
@@ -121,7 +62,7 @@ Available orchestrators:
     eval_parser.add_argument("--from", dest="from_path", required=True, help="Input directory with JSON files")
     eval_parser.add_argument("--to", dest="to_path", required=True, help="Output directory for markdown files")
     eval_parser.add_argument(
-        "--language", required=True, choices=SUPPORTED_LANGUAGES, help="Target language to evaluate"
+        "--language", required=True, choices=LANGUAGES, help="Target language to evaluate"
     )
     eval_parser.add_argument("--label", required=True, help="Version label for tracking (e.g., v1, prod, test)")
 
@@ -130,16 +71,6 @@ Available orchestrators:
         "convert",
         help="Convert JSON files to markdown",
         description="Transform JSON lesson files into markdown format using specified converter",
-        epilog="""Examples:
-  # Full content + questions
-  %(prog)s --orchestrator fullevaluation --from raw_json_files/polish --to markdown_files/polish_full --language polish
-
-  # Content only (no questions)
-  %(prog)s --orchestrator contentonly --from raw_json_files/russian --to markdown_files/russian_content --language russian
-
-  # Questions only (no content)
-  %(prog)s --orchestrator yesnoevaluation --from raw_json_files/spanish --to markdown_files/spanish_questions --language spanish""",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     convert_parser.add_argument(
         "--orchestrator", required=True, help="Orchestrator name (determines which converter to use)"
@@ -147,7 +78,7 @@ Available orchestrators:
     convert_parser.add_argument("--from", dest="from_path", required=True, help="Input directory with JSON files")
     convert_parser.add_argument("--to", dest="to_path", required=True, help="Output directory for markdown files")
     convert_parser.add_argument(
-        "--language", required=True, choices=SUPPORTED_LANGUAGES, help="Target language"
+        "--language", required=True, choices=LANGUAGES, help="Target language"
     )
 
     # evaluate command
@@ -155,23 +86,13 @@ Available orchestrators:
         "evaluate",
         help="Evaluate markdown files for quality",
         description="Run AI-powered quality evaluation on existing markdown files",
-        epilog="""Examples:
-  # Evaluate full content
-  %(prog)s --orchestrator fullevaluation --from markdown_files/polish_v1 --language polish --label v1
-
-  # Re-evaluate with different label
-  %(prog)s --orchestrator contentonly --from markdown_files/russian_content --language russian --label retest_v2
-
-  # Evaluate questions only
-  %(prog)s --orchestrator yesnoevaluation --from markdown_files/spanish_questions --language spanish --label qa_v3""",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     evaluate_parser.add_argument(
         "--orchestrator", required=True, help="Orchestrator name"
     )
     evaluate_parser.add_argument("--from", dest="from_path", required=True, help="Directory with markdown files")
     evaluate_parser.add_argument(
-        "--language", required=True, choices=SUPPORTED_LANGUAGES, help="Target language"
+        "--language", required=True, choices=LANGUAGES, help="Target language"
     )
     evaluate_parser.add_argument("--label", required=True, help="Version label for tracking")
 
@@ -180,11 +101,9 @@ Available orchestrators:
         "aggregate-issues",
         help="Aggregate issues from evaluation results",
         description="Combine individual evaluation results into common issues by category and severity",
-        epilog="Example: %(prog)s --language polish --label v1",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     aggregate_parser.add_argument(
-        "--language", required=True, choices=SUPPORTED_LANGUAGES, help="Target language"
+        "--language", required=True, choices=LANGUAGES, help="Target language"
     )
     aggregate_parser.add_argument("--label", required=True, help="Version label")
 
@@ -193,14 +112,12 @@ Available orchestrators:
         "analyze-patterns",
         help="Analyze error patterns from aggregated issues",
         description="Use AI to identify recurring error patterns and generate recommendations",
-        epilog="Example: %(prog)s --orchestrator yesnoevaluation --language polish --label v1",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     analyze_parser.add_argument(
         "--orchestrator", required=True, help="Orchestrator name (used for prompt building)"
     )
     analyze_parser.add_argument(
-        "--language", required=True, choices=SUPPORTED_LANGUAGES, help="Target language"
+        "--language", required=True, choices=LANGUAGES, help="Target language"
     )
     analyze_parser.add_argument("--label", required=True, help="Version label")
 
@@ -216,17 +133,6 @@ Available orchestrators:
         "export-static",
         help="Export dashboard as static site for GitHub Pages",
         description="Create a self-contained static site with all evaluation data for GitHub Pages hosting",
-        epilog="""Examples:
-  # Export to default 'docs' directory
-  %(prog)s
-
-  # Export to custom directory
-  %(prog)s --output my-dashboard
-
-  # Export and deploy to GitHub Pages
-  %(prog)s --output docs
-  git add docs/ && git commit -m "Update dashboard" && git push""",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     export_parser.add_argument(
         "--output", default="docs", help="Output directory (default: docs)"
@@ -237,11 +143,6 @@ Available orchestrators:
         "clean",
         help="Clean directories",
         description="Remove generated files and directories",
-        epilog="""Examples:
-  %(prog)s eval_results --language polish    # Clean specific language
-  %(prog)s markdown_files --all              # Clean all languages
-  %(prog)s eval_results --label v1           # Clean all data for label v1""",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     clean_parser.add_argument(
         "path",
@@ -252,7 +153,7 @@ Available orchestrators:
         "--all", action="store_true", help="Delete all language subdirectories"
     )
     clean_parser.add_argument(
-        "--language", choices=SUPPORTED_LANGUAGES, help="Specific language to clean"
+        "--language", choices=LANGUAGES, help="Specific language to clean"
     )
     clean_parser.add_argument(
         "--label", help="Clean by label (eval_results only): removes eval files, issues, and patterns"
@@ -370,10 +271,8 @@ def run_evaluate(orchestrator_name: str, from_path: str, language: str, label: s
 
 def run_aggregate_issues(language: str, label: str) -> int:
     print(f"Aggregating issues for {language.title()}...")
-    label_info = ensure_label(label)
 
-    aggregator = IssueAggregator()
-    processed = aggregator.aggregate([language], label=label_info)
+    processed = aggregate_issues([language], label=label)
 
     return 0 if processed else 1
 
@@ -381,9 +280,7 @@ def run_aggregate_issues(language: str, label: str) -> int:
 def run_analyze_patterns(orchestrator_name: str, language: str, label: str) -> int:
     print(f"Analyzing error patterns for {language.title()}...")
 
-    label_info = ensure_label(label)
-    analyzer = ErrorPatternAnalyzer()
-    processed = analyzer.analyze([language], label=label_info)
+    processed = analyze_patterns([language], label=label)
 
     return 0 if processed else 1
 
@@ -398,18 +295,15 @@ def run_dashboard() -> int:
 
 
 def run_export_static(output_dir: str) -> int:
-    exporter = StaticExporter()
-    success = exporter.export(output_dir)
+    success = export_static_dashboard(output_dir)
     return 0 if success else 1
 
 
 def run_clean_by_label(label: str) -> int:
     import json
     import shutil
-    from utils.labels import ensure_label
 
-    label_info = ensure_label(label)
-    label_key = label_info.key  # Get the normalized key
+    label_key = sanitize_label(label)
     print(f"🧹 Cleaning all data for label: {label_key}")
     print("=" * 60)
 
@@ -495,8 +389,6 @@ def run_clean_by_label(label: str) -> int:
 
 
 def run_clean(path: str, clean_all: bool, language: str | None, label: str | None) -> int:
-    cleaner = DirectoryCleaner()
-
     if clean_all and language:
         print("❌ Cannot use --all and --language together")
         return 1
@@ -516,9 +408,9 @@ def run_clean(path: str, clean_all: bool, language: str | None, label: str | Non
         return run_clean_by_label(label)
 
     path_cleaners = {
-        "eval_results": cleaner.clean_eval_results,
-        "markdown_files": cleaner.clean_markdown_quizzes,
-        "raw_json_files": cleaner.clean_generated_quizzes,
+        "eval_results": clean_eval_results,
+        "markdown_files": clean_markdown_files,
+        "raw_json_files": clean_raw_json_files,
     }
 
     clean_func = path_cleaners[path]

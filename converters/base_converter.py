@@ -1,13 +1,11 @@
-"""Base converter with common file I/O logic."""
 import json
 from pathlib import Path
 from typing import Dict
 
-from converters.base import AbstractConverter
 
-
-class BaseConverter(AbstractConverter):
-    """Base converter with common file I/O and conversion logic."""
+class BaseConverter:
+    def get_file_extension(self) -> str:
+        return ".jsonl"
 
     def convert_file(self, input_path: Path, output_path: Path) -> bool:
         try:

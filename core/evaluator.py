@@ -9,19 +9,17 @@ from typing import Dict, List, Optional
 from openai import AzureOpenAI
 
 from config import API_KEY, API_VERSION, DEPLOYMENT_NAME, ENDPOINT_URL
-from orchestrators.base import AbstractOrchestrator
-from utils.json_parser import parse_llm_json_response
-from utils.labels import LabelInfo, ensure_label
+from utils.json_parser import parse_json_response
+from utils.labels import sanitize_label
 
-from .aggregator import IssueAggregator
-from .analyzer import ErrorPatternAnalyzer
+from .aggregator import aggregate_issues
+from .analyzer import analyze_patterns
+from .models import EvaluationMetadata, EvaluationResult, Issue
 from .scoring import calculate_quality_score
 
 
 class Evaluator:
-    """Run localization quality evaluation over markdown quizzes."""
-
-    def __init__(self, orchestrator: AbstractOrchestrator, markdown_dir: Path, eval_results_dir: Path, base_dir: Path | str = ".") -> None:
+    def __init__(self, orchestrator, markdown_dir: Path, eval_results_dir: Path, base_dir: Path | str = ".") -> None:
         if not ENDPOINT_URL or not API_KEY:
             raise ValueError("ENDPOINT_URL and AZURE_OPENAI_API_KEY environment variables are required. Please check your .env file.")
 
@@ -31,11 +29,8 @@ class Evaluator:
         self.eval_results_dir = Path(eval_results_dir)
         self.base_path = Path(base_dir)
         self.orchestrator = orchestrator
-        self.issue_aggregator = IssueAggregator(self.base_path)
-        self.pattern_analyzer = ErrorPatternAnalyzer(base_dir=self.base_path)
 
-    def evaluate_language(self, language: str, label: LabelInfo | str) -> bool:
-        label_info = ensure_label(label)
+    def evaluate_language(self, language: str, label: str) -> bool:
         source_dir = self.markdown_dir / language
         if not source_dir.exists():
             print(f"❌ Markdown directory not found: {source_dir}")
@@ -50,12 +45,12 @@ class Evaluator:
             return False
 
         print(f"📁 Found {len(md_files)} markdown file(s) in {source_dir}")
-        print(f"Using label: {label_info.original}")
+        print(f"Using label: {label}")
         evaluated = 0
 
         for md_file in md_files:
             print(f"Evaluating {md_file.name}...")
-            if self.evaluate_file(md_file, language, label_info):
+            if self.evaluate_file(md_file, language, label):
                 evaluated += 1
                 print(f"✓ Evaluated {md_file.name}")
             else:
@@ -70,7 +65,7 @@ class Evaluator:
             self._refresh_file_index()
         return success
 
-    def evaluate_file(self, md_file: Path, language: str, label: LabelInfo) -> bool:
+    def evaluate_file(self, md_file: Path, language: str, label: str) -> bool:
         try:
             with open(md_file, "r", encoding="utf-8") as handle:
                 content = handle.read()
@@ -78,7 +73,7 @@ class Evaluator:
             print(f"Error reading {md_file}: {exc}")
             return False
 
-        prompt = self.orchestrator.build_evaluation_prompt(content, language)
+        prompt = self.orchestrator.get_prompt(content, language)
 
         if language.lower() == "english":
             system_content = "You are an expert educational content evaluator specializing in quiz quality assessment and localization review. You must return only valid JSON without any additional text."
@@ -105,28 +100,26 @@ class Evaluator:
         self._persist_evaluation(evaluation_json, language)
         return True
 
-    def run_aggregation(self, languages: List[str], label: LabelInfo | str) -> bool:
-        label_info = ensure_label(label)
+    def run_aggregation(self, languages: List[str], label: str) -> bool:
         if not languages:
             return False
 
         try:
-            aggregated = self.issue_aggregator.aggregate(languages, label=label_info)
+            aggregated = aggregate_issues(languages, label=label, base_dir=self.base_path)
         except Exception as exc:
-            print(f"⚠️  Issue aggregation failed for label '{label_info.original}': {exc}")
+            print(f"⚠️  Issue aggregation failed for label '{label}': {exc}")
             return False
 
         return bool(aggregated)
 
-    def run_pattern_analysis(self, languages: List[str], label: LabelInfo | str) -> bool:
-        label_info = ensure_label(label)
+    def run_pattern_analysis(self, languages: List[str], label: str) -> bool:
         if not languages:
             return False
 
         try:
-            processed = self.pattern_analyzer.analyze(languages, label=label_info)
+            processed = analyze_patterns(languages, label=label, base_dir=self.base_path)
         except Exception as exc:
-            print(f"⚠️  Issue pattern analysis failed for label '{label_info.original}': {exc}")
+            print(f"⚠️  Issue pattern analysis failed for label '{label}': {exc}")
             return False
 
         return bool(processed)
@@ -143,8 +136,8 @@ class Evaluator:
         self._save_file_index(index_data, index_path)
         print(f"📄 Updated file index: {index_path.name}")
 
-    def _parse_response(self, response_text: str, md_file: Path, language: str, label: LabelInfo) -> Optional[Dict]:
-        evaluation_json = parse_llm_json_response(response_text)
+    def _parse_response(self, response_text: str, md_file: Path, language: str, label: str) -> Optional[Dict]:
+        evaluation_json = parse_json_response(response_text)
 
         if evaluation_json is None:
             print("❌ Failed to parse JSON from LLM response")
@@ -156,20 +149,21 @@ class Evaluator:
             print("⚠️  Invalid format: 'issues' must be an array")
             return None
 
-        evaluation_json.setdefault("metadata", {})
-        metadata = evaluation_json["metadata"]
-        metadata.update({
-            "file": md_file.name,
-            "language": language.title(),
-            "timestamp": datetime.now().isoformat(),
-            "model": "gpt-4.1",
-        })
-        metadata["label"] = label.original
+        metadata = EvaluationMetadata(
+            file=md_file.name,
+            language=language.title(),
+            timestamp=datetime.now().isoformat(),
+            model="gpt-4.1",
+            label=label,
+        )
 
-        scores = calculate_quality_score(evaluation_json.get("issues", []))
-        evaluation_json["scores"] = scores
-        print(f"Calculated scores - Overall: {scores['overall_quality_score']}/10 ({scores['classification']})")
-        return evaluation_json
+        issues = [Issue.from_dict(issue) if isinstance(issue, dict) else issue
+                  for issue in evaluation_json.get("issues", [])]
+        scores = calculate_quality_score(issues)
+
+        result = EvaluationResult(issues=issues, metadata=metadata, scores=scores)
+        print(f"Calculated scores - Overall: {scores.overall_quality_score}/10 ({scores.classification})")
+        return result.to_dict()
 
     def _persist_evaluation(self, evaluation_json: Dict, language: str) -> None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

@@ -1,7 +1,7 @@
 """Core business logic for evaluation system."""
 
-from .aggregator import IssueAggregator
-from .analyzer import ErrorPatternAnalyzer
+from .aggregator import aggregate_issues
+from .analyzer import analyze_patterns
 from .evaluator import Evaluator
 from .models import (
     ErrorPattern,
@@ -13,4 +13,4 @@ from .models import (
     PenaltyBreakdown,
     Scores,
 )
-from .scoring import SEVERITY_MULTIPLIERS, calculate_quality_score, classify_score
+from .scoring import SEVERITY_MULTIPLIERS, calculate_quality_score

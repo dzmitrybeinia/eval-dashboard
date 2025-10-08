@@ -1,409 +1,184 @@
 # Localization Quality Evaluation Tool
 
-A pluggable, orchestrator-based system for evaluating localization quality using AI. Supports multiple evaluation flows with different converters and orchestrators.
+AI-powered tool for evaluating localization quality using GPT-4. Supports 11 languages with automated analysis, issue aggregation, and pattern detection.
 
-## Architecture
-
-### Core Components
-
-1. **Converters** - Transform JSON lessons into markdown format
-   - `FullContentConverter` - Converts full lesson (content + questions)
-   - `ContentOnlyConverter` - Converts only lesson content (intro + slides)
-   - `YesNoConverter` - Converts only questions and feedback
-
-2. **Orchestrators** - Configure evaluation pipeline behavior
-   - `FullEvaluationOrchestrator` - Full evaluation (content + questions)
-   - `ContentOnlyOrchestrator` - Content-only evaluation (linguistic focus)
-   - `YesNoEvaluationOrchestrator` - Questions-only evaluation (with pattern analysis)
-
-3. **Evaluator** - Runs AI-powered quality evaluation using Azure OpenAI (gpt-4.1)
-
-
-### Prompt Files & Examples
-
-#### `combined_expert.md` - Dual-expertise evaluation (linguistic + localization)
-- **Used by:** `fullevaluation`
-- **Evaluates:** Both language correctness AND cultural appropriateness
-- **Categories:** `linguistic` and `localization`
-- **Example prompt combination for Polish full evaluation:**
-  ```
-  [combined_expert.md content]
-
-  ---
-
-  [LANGUAGE-SPECIFIC RULES: Polish]
-  [prompts/evaluation/languages/polish.md content]
-
-  ---
-
-  ## CONTENT FOR EVALUATION
-
-  [Full lesson content with questions and feedback]
-  ```
-
-#### `linguistic_only.md` - Linguistic accuracy evaluation only
-- **Used by:** `contentonly`, `yesnoevaluation`
-- **Focuses on:** Grammar, spelling, syntax, word choice ONLY
-- **Category:** `linguistic` only (no localization)
-- **Example prompt combination for Russian content-only:**
-  ```
-  [linguistic_only.md content]
-
-  ---
-
-  [LANGUAGE-SPECIFIC RULES: Russian]
-  [prompts/evaluation/languages/russian.md content]
-
-  ---
-
-  ## CONTENT FOR EVALUATION
-
-  [Lesson content only - intro and slides, no questions]
-  ```
-
-- **Example prompt combination for Polish questions-only:**
-  ```
-  [linguistic_only.md content]
-
-  ---
-
-  [LANGUAGE-SPECIFIC RULES: Polish]
-  [prompts/evaluation/languages/polish.md content]
-
-  ---
-
-  ## CONTENT FOR EVALUATION
-
-  [Questions, statements, answers, and feedback only - no lesson content]
-  ```
-
-#### Language-specific rules (`prompts/evaluation/languages/*.md`)
-- **Available for:** polish, russian, spanish, french, german, portuguese, japanese, serbian, arabic, hebrew, english
-- **Contains:** Language-specific grammar rules, common patterns, morphology, syntax considerations
-- **Automatically included** when evaluating respective language
-
-## CLI Commands
-
-### 1. Full Pipeline (`eval`)
-
-Runs complete pipeline: convert → evaluate → aggregate → analyze
+## Setup
 
 ```bash
-# Full evaluation (content + questions)
-python app.py eval \
-  --orchestrator fullevaluation \
-  --from raw_json_files/polish \
-  --to markdown_files/polish_full \
-  --language polish \
-  --label v1
+# Install dependencies
+pip install -r requirements.txt
 
-# Content-only evaluation (linguistic focus)
-python app.py eval \
-  --orchestrator contentonly \
-  --from raw_json_files/russian \
-  --to markdown_files/russian_content \
-  --language russian \
-  --label content_v2
-
-# Questions-only evaluation (with pattern analysis)
-python app.py eval \
-  --orchestrator yesnoevaluation \
-  --from raw_json_files/polish \
-  --to markdown_files/polish_questions \
-  --language polish \
-  --label questions_v1
+# Configure Azure OpenAI
+cp .env.example .env
+# Edit .env with your credentials:
+# ENDPOINT_URL=https://your-resource.openai.azure.com/
+# AZURE_OPENAI_API_KEY=your-api-key
 ```
 
-### 2. Convert Only (`convert`)
-
-Convert JSON to markdown without evaluation
+## Quick Start
 
 ```bash
-python app.py convert \
-  --orchestrator fullevaluation \
-  --from raw_json_files/spanish \
-  --to markdown_files/spanish_full \
-  --language spanish
+# Full evaluation pipeline
+python app.py eval spanish --label v1
+
+# View results
+python app.py dashboard
 ```
 
-### 3. Evaluate Only (`evaluate`)
+## Commands
 
-Evaluate existing markdown files
+### `eval` - Full Evaluation Pipeline
+Auto-converts JSON → markdown, evaluates with AI, aggregates issues, analyzes patterns.
 
 ```bash
-# Evaluate from existing markdown
-python app.py evaluate \
-  --orchestrator yesnoevaluation \
-  --from markdown_files/polish_questions \
-  --language polish \
-  --label questions_v2
+# Default (full evaluation)
+python app.py eval spanish --label v1
 
-# Note: The evaluator appends language to path, so it looks for:
-# markdown_files/polish_questions/polish/*.md
+# Content only (skip exercises)
+python app.py eval spanish --label v1 --orchestrator contentonly
+
+# Yes/no exercises only
+python app.py eval spanish --label v1 --orchestrator yesnoevaluation
 ```
 
-### 4. Aggregate Issues (`aggregate-issues`)
+**Paths:** `raw_json_files/{language}/` → `markdown_files/{language}/` → `eval_results/{language}/`
 
-Combine individual evaluation results into common issues
+---
 
+### `convert` - Convert JSON to Markdown
 ```bash
-python app.py aggregate-issues \
-  --language polish \
-  --label v1
+python app.py convert spanish
+python app.py convert spanish --orchestrator contentonly
 ```
 
-### 5. Analyze Patterns (`analyze-patterns`)
+**Paths:** `raw_json_files/{language}/` → `markdown_files/{language}/`
 
-Run pattern analysis on aggregated issues
+---
 
+### `aggregate` - Aggregate Issues
 ```bash
-python app.py analyze-patterns \
-  --orchestrator yesnoevaluation \
-  --language polish \
-  --label v1
+python app.py aggregate spanish --label v1
 ```
 
-### 6. Dashboard (`dashboard`)
+**Paths:** `eval_results/{language}/` → `issues/combined_issues/{label}/{language}_issues.json`
 
-Serve web dashboard for viewing results locally
+---
 
+### `analyze` - Analyze Patterns
+```bash
+python app.py analyze spanish --label v1
+```
+
+**Paths:** `issues/combined_issues/{label}/` → `issues/common_patterns/{label}/{language}.json`
+
+---
+
+### `file-index` - Update File Index
+```bash
+python app.py file-index
+```
+
+Scans `eval_results/` and updates `file_index.json` for dashboard.
+
+---
+
+### `dashboard` - View Results
 ```bash
 python app.py dashboard
-# Opens at http://localhost:8084
 ```
 
-### 7. Export Static (`export-static`)
+Opens at http://localhost:8083
 
-Export dashboard as static HTML site for GitHub Pages hosting
+---
 
+### `export` - Export Static Site
 ```bash
-# Export to default 'docs' directory
-python app.py export-static
-
-# Export to custom directory
-python app.py export-static --output my-site
-
-# The exported site includes:
-# - dashboard.html (interactive dashboard)
-# - index.html (redirects to dashboard)
-# - eval_results/ (all evaluation JSON files)
-# - issues/ (aggregated issues and patterns)
-# - file_index.json (file metadata)
+python app.py export
+python app.py export --output my-site
 ```
 
-**Test locally before deploying:**
+Exports to `docs/` for GitHub Pages.
+
+---
+
+### `clean` - Clean Files
 ```bash
-cd docs
-python -m http.server 8000
-# Open http://localhost:8000/
-```
+# By language
+python app.py clean eval_results --language spanish
+python app.py clean markdown_files --language spanish
 
-### 8. Clean (`clean`)
-
-Clean generated files and directories
-
-```bash
-# Clean specific language
-python app.py clean eval_results --language polish
-python app.py clean markdown_files --language russian
-python app.py clean raw_json_files --language spanish
-
-# Clean all languages
+# All languages
 python app.py clean eval_results --all
-python app.py clean markdown_files --all
 
-# Clean by label (eval_results only)
-# Removes: eval files, combined_issues, common_patterns, and updates all_common_issues.json
+# By label (removes all data for that label)
 python app.py clean eval_results --label v1
-python app.py clean eval_results --label questions_v2
 ```
 
-## Complete Workflow Examples
+## Orchestrators
 
-### Example 1: Full Lesson Evaluation
+| Type | Evaluates | Use Case |
+|------|-----------|----------|
+| `fullevaluation` *(default)* | Lessons + all exercises | Full quality audit |
+| `contentonly` | Lesson content only | Quick linguistic check |
+| `yesnoevaluation` | Lessons + yes/no exercises | Binary question validation |
 
+## Workflows
+
+### Basic Evaluation
 ```bash
-# 1. Convert and evaluate Polish lessons (full content + questions)
-python app.py eval \
-  --orchestrator fullevaluation \
-  --from raw_json_files/polish \
-  --to markdown_files/polish_v1 \
-  --language polish \
-  --label v1
-
-# 2. View results in dashboard
+python app.py eval spanish --label v1
 python app.py dashboard
-
-# 3. Clean up when done
-python app.py clean eval_results --label v1
 ```
 
-### Example 2: Content-Only Evaluation (Linguistic Focus)
-
+### Multi-Language
 ```bash
-# 1. Convert only lesson content (no questions)
-python app.py convert \
-  --orchestrator contentonly \
-  --from raw_json_files/russian \
-  --to markdown_files/russian_content \
-  --language russian
-
-# 2. Evaluate content for linguistic issues
-python app.py evaluate \
-  --orchestrator contentonly \
-  --from markdown_files/russian_content \
-  --language russian \
-  --label content_v1
-
-# 3. Aggregate issues
-python app.py aggregate-issues \
-  --language russian \
-  --label content_v1
-
-```
-
-### Example 3: Questions-Only Evaluation with Pattern Analysis
-
-```bash
-# 1. Full pipeline: convert questions, evaluate, aggregate, analyze patterns
-python app.py eval \
-  --orchestrator yesnoevaluation \
-  --from raw_json_files/polish \
-  --to markdown_files/polish_questions \
-  --language polish \
-  --label questions_v1
-```
-
-### Example 4: Multi-Language Evaluation
-
-```bash
-# Evaluate multiple languages with same label
-for lang in polish russian spanish; do
-  python app.py eval \
-    --orchestrator fullevaluation \
-    --from raw_json_files/$lang \
-    --to markdown_files/${lang}_v2 \
-    --language $lang \
-    --label v2
+for lang in spanish hebrew french; do
+  python app.py eval $lang --label v2
 done
-
-# View all results in dashboard
+python app.py file-index
 python app.py dashboard
-
-# Clean all when done
-python app.py clean eval_results --label v2
 ```
 
-### Example 5: Re-evaluate Existing Markdown
-
+### Step-by-Step
 ```bash
-# If you already have markdown files and want to re-run evaluation
-python app.py evaluate \
-  --orchestrator fullevaluation \
-  --from markdown_files/polish_v1 \
-  --language polish \
-  --label v1_reeval
-
-# Then aggregate and analyze
-python app.py aggregate-issues --language polish --label v1_reeval
-python app.py analyze-patterns --orchestrator fullevaluation \
-  --language polish --label v1_reeval
+python app.py convert spanish
+python app.py eval spanish --label v1
+python app.py aggregate spanish --label v1
+python app.py analyze spanish --label v1
+python app.py file-index
+python app.py dashboard
 ```
 
 ## Directory Structure
 
 ```
-.
-├── raw_json_files/          # Input: JSON lesson files
-│   ├── polish/
-│   ├── russian/
-│   └── spanish/
-├── markdown_files/          # Generated: Markdown conversions
-│   ├── polish_v1/
-│   ├── russian_content/
-│   └── polish_questions/
-├── eval_results/            # Generated: Evaluation results
-│   ├── polish/
-│   ├── russian/
-│   └── spanish/
-├── issues/                  # Generated: Aggregated issues
-│   ├── combined_issues/     # Per-label combined issues
-│   │   ├── v1/
-│   │   └── questions_v1/
-│   ├── common_patterns/     # Per-label pattern analysis
-│   │   ├── v1/
-│   │   └── questions_v1/
-│   └── all/                 # Cross-label aggregation
-│       └── all_common_issues.json
-├── core/                    # Core evaluation package
-│   ├── evaluator.py         # Main evaluation logic
-│   ├── aggregator.py        # Issue aggregation
-│   ├── analyzer.py          # Pattern analysis
-│   ├── scoring.py           # Quality scoring
-│   └── models.py            # Data models
-├── converters/              # Converter implementations
-├── orchestrators/           # Orchestrator implementations
-├── prompts/                 # AI prompts
-└── utils/                   # Utility functions
+raw_json_files/{language}/           # Input JSON files
+markdown_files/{language}/           # Converted markdown
+eval_results/{language}/             # Evaluation results
+issues/
+  ├── combined_issues/{label}/       # Aggregated issues
+  ├── common_patterns/{label}/       # Pattern analysis
+  └── all/all_common_issues.json     # Cross-label data
+file_index.json                      # File metadata
 ```
 
-## Configuration
-
-### Azure OpenAI
-
-Configure in `config/azure.py`:
-- Model: `gpt-4.1`
-- Endpoint and API key via environment variables
-
-### Supported Languages
+## Supported Languages
 
 english, spanish, polish, french, russian, german, portuguese, japanese, serbian, arabic, hebrew
 
-## Output Files
+## Help
 
-### Evaluation Results (`eval_results/<language>/`)
-```json
-{
-  "issues": [...],
-  "metadata": {
-    "file": "World_Religions.md",
-    "language": "Polish",
-    "timestamp": "2025-10-04T22:45:45.289742",
-    "model": "gpt-4.1",
-    "label": "v1"
-  },
-  "scores": {...}
-}
+```bash
+python app.py -h                # All commands
+python app.py <command> -h      # Command help
 ```
-
-### Combined Issues (`issues/combined_issues/<label>/<language>_issues.json`)
-All issues from evaluation aggregated by category and severity
-
-### Common Patterns (`issues/common_patterns/<label>/<language>.json`)
-AI-analyzed error patterns and recommendations
-
-### All Common Issues (`issues/all/all_common_issues.json`)
-Cross-label aggregation with label tracking
-
-## Tips
-
-1. **Use descriptive labels** - They help organize and track different evaluation runs
-2. **Clean regularly** - Use `clean --label` to remove old evaluation data
-3. **Separate concerns** - Use different orchestrators for different evaluation goals:
-   - `contentonly` for linguistic quality
-   - `yesnoevaluation` for question/feedback quality
-   - `fullevaluation` for complete evaluation
-4. **Check dashboard** - Visual overview of all evaluation results
-5. **Pattern analysis** - Only runs with `yesnoevaluation` and `fullevaluation` orchestrators
 
 ## Troubleshooting
 
-### "No markdown files found"
-The evaluator appends language to the path. Ensure your markdown files are in:
-`<from_path>/<language>/*.md`
+**"No markdown files found"** → `eval` auto-converts, or run `python app.py convert {language}`
 
-### "Unknown orchestrator"
-Check available orchestrators: `python -c "from app import discover_orchestrators; print(list(discover_orchestrators().keys()))"`
+**Azure OpenAI errors** → Check `.env` has `ENDPOINT_URL` and `AZURE_OPENAI_API_KEY`
 
-### Label not cleaning properly
-Ensure the label in evaluation files matches exactly (check `metadata.label` in JSON)
+**Dashboard shows old data** → Run `python app.py file-index`
+
+**Clean not working** → Ensure label matches exactly: check `file_index.json`

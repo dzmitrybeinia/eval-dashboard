@@ -1,59 +1,0 @@
-{
-  "issues": [
-    {
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "original": "في هذه الدرس، سنتعرف على خصائص كل حالة وكيفية انتقال المادة بين هذه الحالات المختلفة.",
-      "correction": "في هذا الدرس، سنتعرف على خصائص كل حالة وكيفية انتقال المادة بين هذه الحالات المختلفة.",
-      "description": "The word \"هذه\" is feminine, while \"درس\" is masculine; the correct demonstrative pronoun should be \"هذا\". This is a grammatical gender agreement error that affects the clarity and correctness of the sentence.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "تظهر الصلابة بسبب قوة الارتباك بين الجزيئات التي تحافظ على الهيكل المادي.",
-      "correction": "تظهر الصلابة بسبب قوة الترابط بين الجزيئات التي تحافظ على الهيكل المادي.",
-      "description": "The word \"الارتباك\" means 'confusion', which is a false friend and semantically incorrect in this context. The intended meaning is 'bonding' or 'cohesion', which should be \"الترابط\". This lexical error could mislead learners about the scientific concept.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "localization",
-      "subcategory": "Style",
-      "original": "في هذه الدرس، سنتعرف على خصائص كل حالة وكيفية انتقال المادة بين هذه الحالات المختلفة. 🌟",
-      "correction": "في هذا الدرس، سنتعرف على خصائص كل حالة وكيفية انتقال المادة بين هذه الحالات المختلفة.",
-      "description": "The use of the star emoji (🌟) in educational Arabic content is generally considered informal and may not align with standard academic style in Arabic-speaking regions. Removing it ensures a more professional and culturally appropriate tone.",
-      "severity": "MINOR"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "original": "إضافة الطاقة إلى المادة الصلبة يمكن أن تؤدي إلى حالات مختلفة. على سبيل المثال، التسخين قد يؤدي إلى الانصهار، والتبريد يمكن أن يؤدي إلى التجميد، ولكن في بعض الحالات، يمكن أن تتحول المادة إلى حالة غازية بدلاً من البقاء في حالة سائلة.",
-      "correction": "إضافة الطاقة إلى المادة الصلبة يمكن أن تؤدي إلى حالات مختلفة. على سبيل المثال، التسخين قد يؤدي إلى الانصهار، ولكن في بعض الحالات، يمكن أن تتحول المادة مباشرة إلى حالة غازية دون المرور بالحالة السائلة.",
-      "description": "The sentence incorrectly states that cooling (التبريد) can lead to freezing (التجميد) in the context of adding energy, which is contradictory. The main idea is about adding energy, so mentioning cooling is misleading. The correction removes the reference to cooling and clarifies that sometimes solids can sublimate directly to gas.",
-      "severity": "MEDIUM"
-    }
-  ],
-  "metadata": {
-    "file": "States_of_Matter.md",
-    "language": "Arabic",
-    "timestamp": "2025-10-06T17:01:21.850396",
-    "model": "gpt-4.1",
-    "label": "v1"
-  },
-  "scores": {
-    "overall_quality_score": 9.1,
-    "classification": "NATIVE",
-    "total_issues": 4,
-    "total_penalty": 0.9,
-    "issue_breakdown": {
-      "linguistic": 3,
-      "localization": 1,
-      "distractor_quality": 0
-    },
-    "penalty_breakdown": {
-      "linguistic_penalty": 0.8,
-      "localization_penalty": 0.1,
-      "distractor_quality_penalty": 0.0
-    }
-  }
-}

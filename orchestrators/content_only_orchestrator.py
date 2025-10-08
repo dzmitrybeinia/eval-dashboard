@@ -14,7 +14,7 @@ class ContentOnlyOrchestrator:
         return ContentOnlyConverter
 
     def get_prompt(self, content: str, language: str) -> str:
-        linguistic_prompt = self._load_prompt("linguistic_only.md")
+        linguistic_prompt = self._load_prompt("combined_expert.md")
         language_name = self._get_language_display_name(language)
         lang_path = self.prompts_dir / "evaluation" / "languages" / f"{language.lower()}.md"
         if lang_path.exists():

@@ -1,91 +1,0 @@
-{
-  "issues": [
-    {
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "original": "في هذه الدرس، سنستكشف العناصر الغذائية الأساسية التي يحتاجها جسمنا، ومجموعات الطعام المختلفة، وكيفية تحقيق توازن غذائي صحي للبقاء نشيطين وقويين! 🌟",
-      "correction": "في هذا الدرس، سنستكشف العناصر الغذائية الأساسية التي يحتاجها جسمنا، ومجموعات الطعام المختلفة، وكيفية تحقيق توازن غذائي صحي للبقاء نشيطين وقويين! 🌟",
-      "description": "The word \"الدرس\" is masculine, so the demonstrative should be \"هذا\" not \"هذه\". This is a grammatical gender agreement error that affects the clarity and correctness of the sentence.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "كل فقرة وجبة يجب أن تشمل جميع العناصر الغذائية الستة للحصول على تغذية متوازنة.",
-      "correction": "كل وجبة يجب أن تشمل جميع العناصر الغذائية الستة للحصول على تغذية متوازنة.",
-      "description": "The phrase \"كل فقرة وجبة\" is incorrect; \"فقرة\" means 'paragraph' and is not appropriate in this context. The correct term is \"وجبة\" meaning 'meal'. This lexical error could confuse learners about the intended meaning.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "يضمن هذا النهج أن تحصل الجسم على مجموعة كافية من الطاقة والبروتينات والدهون والفيتامينات والمعادن والماء، وهو الأمر الأساسي للحفاظ على الصحة العامة والنمو الجيد والبيولوجيات العصرية.",
-      "correction": "يضمن هذا النهج أن يحصل الجسم على كمية كافية من الطاقة والبروتينات والدهون والفيتامينات والمعادن والماء، وهو الأمر الأساسي للحفاظ على الصحة العامة والنمو الجيد.",
-      "description": "The verb should be \"يحصل الجسم\" not \"تحصل الجسم\" for correct subject-verb agreement. The phrase \"البيولوجيات العصرية\" is unnatural and not standard in Arabic educational contexts; it should be omitted for clarity and naturalness.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "الأطعمة البروتينية ضرورية لنمو الأعصامية والعضلات، ولكنها تلعب أيضًا دورًا أكبر في جسمنا.",
-      "correction": "الأطعمة البروتينية ضرورية لنمو الأعصاب والعضلات، ولكنها تلعب أيضًا دورًا أكبر في جسمنا.",
-      "description": "The word \"الأعصامية\" is incorrect and not a valid Arabic term. The correct term is \"الأعصاب\" meaning 'nerves'. This lexical error affects comprehension and scientific accuracy.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "تعمل كمواد أساسية لبناء الأنسجة، ولكنها أيضًا تعمل كمواد طاقوية حيث تعطي الطاقة للعضويات الأخرى في الجسم، مثل الدهونيات، وتعمل كمعاينين للعمليات الخلوية المختلفة.",
-      "correction": "تعمل كمواد أساسية لبناء الأنسجة، كما توفر الطاقة للجسم، وتساهم في العمليات الخلوية المختلفة.",
-      "description": "The terms \"مواد طاقوية\" and \"العضويات\" are not standard in Arabic nutrition context. \"مواد طاقوية\" is an awkward calque; \"العضويات\" means 'organisms' and is not appropriate here. \"الدهنيات\" is also not needed in this context. \"معاينين\" is not a valid word; the intended meaning is likely 'contributors' or 'participants'. The sentence should be rephrased for clarity and naturalness.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "توفر الأطعمة الغنية بالكربوهيدرات والبروتينات ليس الطاقة السريعة فقط. إنها تزيد من تخزين الطاقة الكاملة التي تستخدم الجسم لأنواب الطاقة الطويلة، كما هو الحال أثناء الأنشطة المتكمية أو في أوقات الاستراحة.",
-      "correction": "توفر الأطعمة الغنية بالكربوهيدرات والبروتينات ليس الطاقة السريعة فقط، بل تساعد أيضًا في تخزين الطاقة التي يستخدمها الجسم للأنشطة الطويلة، كما هو الحال أثناء الأنشطة المستمرة أو في أوقات الاستراحة.",
-      "description": "The phrase \"أنواب الطاقة الطويلة\" is not a valid Arabic term; the intended meaning is 'long-term energy'. \"المتكمية\" is not a standard word; 'المستمرة' (continuous) is more appropriate. The sentence structure should be improved for clarity and naturalness.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "يساهم البروتينات أيضًا في النمو الجسدي والصيانثة، وهو أمر حاسم للأطفال والمراهقين النشاقين في مجال التعلم والتطوير النفسي.",
-      "correction": "يساهم البروتين أيضًا في النمو الجسدي والصيانة، وهو أمر حاسم للأطفال والمراهقين النشطين في مجال التعلم والتطوير النفسي.",
-      "description": "The word \"الصيانثة\" is a misspelling; the correct term is \"الصيانة\". \"البروتينات\" should be singular \"البروتين\" for agreement with the verb. \"النشاقين\" is incorrect; the correct word is \"النشطين\" meaning 'active'. These errors affect clarity and scientific accuracy.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "original": "النظر في العناصر الغذائية الأساسية مثل البروتينات، الدهون، الفيتامينات، والماء، وتذكر أن الكمال الغذائي الكامل يتضمن أكثر من عنصر واحد.",
-      "correction": "تذكر أن العناصر الغذائية الأساسية مثل البروتينات، الدهون، الفيتامينات، والماء ضرورية، وأن التغذية المتكاملة تتضمن أكثر من عنصر واحد.",
-      "description": "The sentence structure is awkward and lacks a clear subject-verb relationship. \"الكمال الغذائي الكامل\" is redundant and unnatural; 'التغذية المتكاملة' is the standard term. The sentence should be rephrased for clarity and naturalness.",
-      "severity": "MEDIUM"
-    }
-  ],
-  "metadata": {
-    "file": "Healthy_Eating.md",
-    "language": "Arabic",
-    "timestamp": "2025-10-06T16:59:08.235687",
-    "model": "gpt-4.1",
-    "label": "v1"
-  },
-  "scores": {
-    "overall_quality_score": 7.7,
-    "classification": "ACCEPTABLE",
-    "total_issues": 8,
-    "total_penalty": 2.3,
-    "issue_breakdown": {
-      "linguistic": 8,
-      "localization": 0,
-      "distractor_quality": 0
-    },
-    "penalty_breakdown": {
-      "linguistic_penalty": 2.3,
-      "localization_penalty": 0.0,
-      "distractor_quality_penalty": 0.0
-    }
-  }
-}

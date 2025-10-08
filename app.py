@@ -8,7 +8,7 @@ from typing import Optional
 
 from dotenv import load_dotenv
 
-from config import LANGUAGES
+from config import LANGUAGES, RAW_JSON_DIR, MARKDOWN_DIR, EVAL_RESULTS_DIR
 from core import Evaluator, aggregate_issues, analyze_patterns
 from orchestrators.full_evaluation_orchestrator import FullEvaluationOrchestrator
 from orchestrators.content_only_orchestrator import ContentOnlyOrchestrator
@@ -27,6 +27,8 @@ ORCHESTRATORS = {
     "yesnoevaluation": YesNoEvaluationOrchestrator,
 }
 
+DEFAULT_ORCHESTRATOR = "fullevaluation"
+
 
 def load_orchestrator(name: str):
     if name not in ORCHESTRATORS:
@@ -38,88 +40,179 @@ def load_orchestrator(name: str):
     return orchestrator_class()
 
 
+def get_standard_paths(language: str):
+    """Get standard paths for a given language."""
+    return {
+        "raw_json": RAW_JSON_DIR / language,
+        "markdown": MARKDOWN_DIR / language,
+        "eval_results": EVAL_RESULTS_DIR / language,
+    }
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Localization Quality Evaluation Tool - AI-powered evaluation of localized content",
+        description="""Localization Quality Evaluation Tool - AI-powered evaluation of localized content
+
+Orchestrators (optional, default: fullevaluation):
+  fullevaluation   - Evaluate full content: lessons + all exercises
+  contentonly      - Evaluate only lesson content (skip exercises)
+  yesnoevaluation  - Evaluate lessons + yes/no exercises only
+
+Examples:
+  # Full evaluation pipeline (auto-converts if needed)
+  python app.py eval spanish --label v1
+  python app.py eval hebrew --label prod --orchestrator contentonly
+
+  # Convert JSON to markdown
+  python app.py convert spanish
+  python app.py convert polish --orchestrator yesnoevaluation
+
+  # Aggregate and analyze results
+  python app.py aggregate spanish --label v1
+  python app.py analyze spanish --label v1
+
+  # Clean up files
+  python app.py clean eval_results --language spanish
+  python app.py clean markdown_files --all
+  python app.py clean eval_results --label old-test
+
+  # Update file index
+  python app.py file-index
+
+  # View results
+  python app.py dashboard
+  python app.py export --output docs
+
+For detailed help on any command: python app.py <command> -h""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
 
     subparsers = parser.add_subparsers(
         dest="command",
         help="Command to run",
-        metavar="{eval,convert,evaluate,aggregate-issues,analyze-patterns,dashboard,export-static,clean}",
+        metavar="{eval,convert,aggregate,analyze,file-index,dashboard,export,clean}",
     )
 
     # eval command - full pipeline
     eval_parser = subparsers.add_parser(
         "eval",
         help="Run full evaluation pipeline (convert + evaluate + aggregate + analyze)",
-        description="Convert JSON to markdown, run AI evaluation, aggregate issues, and analyze patterns",
+        description="""Convert JSON to markdown, run AI evaluation, aggregate issues, and analyze patterns.
+Auto-converts from raw_json_files/{language}/ to markdown_files/{language}/ if needed.
+
+Examples:
+  python app.py eval spanish --label v1
+  python app.py eval hebrew --label prod --orchestrator contentonly
+  python app.py eval french --label 2024-01-15 --orchestrator yesnoevaluation""",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     eval_parser.add_argument(
-        "--orchestrator", required=True, help="Orchestrator name (fullevaluation, contentonly, yesnoevaluation)"
+        "language",
+        choices=LANGUAGES,
+        help="Target language to evaluate"
     )
-    eval_parser.add_argument("--from", dest="from_path", required=True, help="Input directory with JSON files")
-    eval_parser.add_argument("--to", dest="to_path", required=True, help="Output directory for markdown files")
     eval_parser.add_argument(
-        "--language", required=True, choices=LANGUAGES, help="Target language to evaluate"
+        "--label",
+        required=True,
+        help="Version label for tracking (e.g., v1, prod, test)"
     )
-    eval_parser.add_argument("--label", required=True, help="Version label for tracking (e.g., v1, prod, test)")
+    eval_parser.add_argument(
+        "--orchestrator",
+        default=DEFAULT_ORCHESTRATOR,
+        choices=list(ORCHESTRATORS.keys()),
+        help=f"Orchestrator type (default: {DEFAULT_ORCHESTRATOR})"
+    )
 
     # convert command
     convert_parser = subparsers.add_parser(
         "convert",
         help="Convert JSON files to markdown",
-        description="Transform JSON lesson files into markdown format using specified converter",
+        description="""Transform JSON lesson files into markdown format.
+Converts from raw_json_files/{language}/ to markdown_files/{language}/
+
+Examples:
+  python app.py convert spanish
+  python app.py convert hebrew --orchestrator contentonly
+  python app.py convert polish --orchestrator yesnoevaluation""",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     convert_parser.add_argument(
-        "--orchestrator", required=True, help="Orchestrator name (determines which converter to use)"
+        "language",
+        choices=LANGUAGES,
+        help="Target language"
     )
-    convert_parser.add_argument("--from", dest="from_path", required=True, help="Input directory with JSON files")
-    convert_parser.add_argument("--to", dest="to_path", required=True, help="Output directory for markdown files")
     convert_parser.add_argument(
-        "--language", required=True, choices=LANGUAGES, help="Target language"
+        "--orchestrator",
+        default=DEFAULT_ORCHESTRATOR,
+        choices=list(ORCHESTRATORS.keys()),
+        help=f"Orchestrator type (default: {DEFAULT_ORCHESTRATOR})"
     )
 
-    # evaluate command
-    evaluate_parser = subparsers.add_parser(
-        "evaluate",
-        help="Evaluate markdown files for quality",
-        description="Run AI-powered quality evaluation on existing markdown files",
-    )
-    evaluate_parser.add_argument(
-        "--orchestrator", required=True, help="Orchestrator name"
-    )
-    evaluate_parser.add_argument("--from", dest="from_path", required=True, help="Directory with markdown files")
-    evaluate_parser.add_argument(
-        "--language", required=True, choices=LANGUAGES, help="Target language"
-    )
-    evaluate_parser.add_argument("--label", required=True, help="Version label for tracking")
-
-    # aggregate-issues command
+    # aggregate command
     aggregate_parser = subparsers.add_parser(
-        "aggregate-issues",
+        "aggregate",
         help="Aggregate issues from evaluation results",
-        description="Combine individual evaluation results into common issues by category and severity",
+        description="""Combine individual evaluation results into common issues by category and severity.
+Groups issues from eval_results/{language}/ into issues/combined_issues/{label}/
+
+Examples:
+  python app.py aggregate spanish --label v1
+  python app.py aggregate hebrew --label prod
+  python app.py aggregate french --label 2024-01-15""",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     aggregate_parser.add_argument(
-        "--language", required=True, choices=LANGUAGES, help="Target language"
+        "language",
+        choices=LANGUAGES,
+        help="Target language"
     )
-    aggregate_parser.add_argument("--label", required=True, help="Version label")
+    aggregate_parser.add_argument(
+        "--label",
+        required=True,
+        help="Version label"
+    )
 
-    # analyze-patterns command
+    # analyze command
     analyze_parser = subparsers.add_parser(
-        "analyze-patterns",
+        "analyze",
         help="Analyze error patterns from aggregated issues",
-        description="Use AI to identify recurring error patterns and generate recommendations",
+        description="""Use AI to identify recurring error patterns and generate recommendations.
+Analyzes issues/combined_issues/{label}/ and outputs to issues/common_patterns/{label}/
+
+Examples:
+  python app.py analyze spanish --label v1
+  python app.py analyze hebrew --label prod
+  python app.py analyze french --label 2024-01-15""",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     analyze_parser.add_argument(
-        "--orchestrator", required=True, help="Orchestrator name (used for prompt building)"
+        "language",
+        choices=LANGUAGES,
+        help="Target language"
     )
     analyze_parser.add_argument(
-        "--language", required=True, choices=LANGUAGES, help="Target language"
+        "--label",
+        required=True,
+        help="Version label"
     )
-    analyze_parser.add_argument("--label", required=True, help="Version label")
+
+    # file-index command
+    subparsers.add_parser(
+        "file-index",
+        help="Update file index",
+        description="""Scan eval_results directory and update file_index.json.
+This index is used by the dashboard to quickly list all evaluation files.
+
+Example:
+  python app.py file-index
+
+The file index contains:
+  - List of all languages with evaluations
+  - Total number of evaluation files
+  - All evaluation files per language (sorted by newest first)
+  - Timestamp of when the index was generated""",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
 
     # dashboard command
     subparsers.add_parser(
@@ -128,21 +221,39 @@ def main(argv: Optional[list[str]] = None) -> int:
         description="Start local web server to view evaluation results in browser (opens at http://localhost:8083)",
     )
 
-    # export-static command
+    # export command
     export_parser = subparsers.add_parser(
-        "export-static",
+        "export",
         help="Export dashboard as static site for GitHub Pages",
         description="Create a self-contained static site with all evaluation data for GitHub Pages hosting",
     )
     export_parser.add_argument(
-        "--output", default="docs", help="Output directory (default: docs)"
+        "--output",
+        default="docs",
+        help="Output directory (default: docs)"
     )
 
     # clean command
     clean_parser = subparsers.add_parser(
         "clean",
         help="Clean directories",
-        description="Remove generated files and directories",
+        description="""Remove generated files and directories.
+
+Examples:
+  # Clean specific language
+  python app.py clean eval_results --language spanish
+  python app.py clean markdown_files --language hebrew
+
+  # Clean all languages
+  python app.py clean eval_results --all
+  python app.py clean markdown_files --all
+
+  # Clean by label (eval_results only)
+  python app.py clean eval_results --label v1
+  python app.py clean eval_results --label old-test
+
+Note: Use --label to remove all data (evaluations, issues, patterns) for a specific version.""",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     clean_parser.add_argument(
         "path",
@@ -150,13 +261,18 @@ def main(argv: Optional[list[str]] = None) -> int:
         help="Directory to clean",
     )
     clean_parser.add_argument(
-        "--all", action="store_true", help="Delete all language subdirectories"
+        "--all",
+        action="store_true",
+        help="Delete all language subdirectories"
     )
     clean_parser.add_argument(
-        "--language", choices=LANGUAGES, help="Specific language to clean"
+        "--language",
+        choices=LANGUAGES,
+        help="Specific language to clean"
     )
     clean_parser.add_argument(
-        "--label", help="Clean by label (eval_results only): removes eval files, issues, and patterns"
+        "--label",
+        help="Clean by label (eval_results only): removes eval files, issues, and patterns"
     )
 
     # Parse arguments
@@ -172,53 +288,55 @@ def main(argv: Optional[list[str]] = None) -> int:
         return 1
 
     if args.command == "eval":
-        return run_eval(
-            args.orchestrator, args.from_path, args.to_path, args.language, args.label
-        )
+        return run_eval(args.language, args.label, args.orchestrator)
     elif args.command == "convert":
-        return run_convert(args.orchestrator, args.from_path, args.to_path, args.language)
-    elif args.command == "evaluate":
-        return run_evaluate(args.orchestrator, args.from_path, args.language, args.label)
-    elif args.command == "aggregate-issues":
-        return run_aggregate_issues(args.language, args.label)
-    elif args.command == "analyze-patterns":
-        return run_analyze_patterns(args.orchestrator, args.language, args.label)
+        return run_convert(args.language, args.orchestrator)
+    elif args.command == "aggregate":
+        return run_aggregate(args.language, args.label)
+    elif args.command == "analyze":
+        return run_analyze(args.language, args.label)
+    elif args.command == "file-index":
+        return run_file_index()
     elif args.command == "dashboard":
         return run_dashboard()
-    elif args.command == "export-static":
-        return run_export_static(args.output)
+    elif args.command == "export":
+        return run_export(args.output)
     elif args.command == "clean":
         return run_clean(args.path, args.all, args.language, args.label)
 
     return 1
 
 
-def run_eval(orchestrator_name: str, from_path: str, to_path: str, language: str, label: str) -> int:
+def run_eval(language: str, label: str, orchestrator_name: str) -> int:
+    """Run full evaluation pipeline with auto-conversion if needed."""
     print(f"Starting full evaluation pipeline for {language.title()}")
     print(f"   Orchestrator: {orchestrator_name}")
-    print(f"   Source: {from_path}")
-    print(f"   Target: {to_path}")
     print(f"   Label: {label}")
     print("=" * 60)
 
     orchestrator = load_orchestrator(orchestrator_name)
+    paths = get_standard_paths(language)
 
-    print("\nStep 1: Converting JSON to markdown...")
-    converter_class = orchestrator.get_converter_class()
-    converter = converter_class()
+    # Auto-convert if markdown files don't exist
+    markdown_dir = paths["markdown"]
+    if not markdown_dir.exists() or not list(markdown_dir.glob("*.md")):
+        print("\n📝 Markdown files not found. Running conversion first...")
+        print(f"   Source: {paths['raw_json']}")
+        print(f"   Target: {markdown_dir}")
 
-    input_dir = Path(from_path)
-    output_dir = Path(to_path)
+        converter_class = orchestrator.get_converter_class()
+        converter = converter_class()
 
-    if not converter.convert_language(input_dir, output_dir, language):
-        print("❌ Conversion failed")
-        return 1
+        if not converter.convert_language(paths["raw_json"], markdown_dir, language):
+            print("❌ Conversion failed")
+            return 1
+        print("✓ Conversion completed\n")
 
-    print("\n🤖 Step 2: Running AI evaluation...")
+    print("\n🤖 Step 1: Running AI evaluation...")
     evaluator = Evaluator(
         orchestrator=orchestrator,
-        markdown_dir=output_dir.parent,
-        eval_results_dir=Path("eval_results"),
+        markdown_dir=MARKDOWN_DIR,
+        eval_results_dir=EVAL_RESULTS_DIR,
     )
 
     if not evaluator.evaluate_language(language, label):
@@ -226,12 +344,12 @@ def run_eval(orchestrator_name: str, from_path: str, to_path: str, language: str
         return 1
 
     if orchestrator.should_run_issues_aggregation():
-        print("\nStep 3: Aggregating issues...")
+        print("\n📊 Step 2: Aggregating issues...")
         if not evaluator.run_aggregation([language], label):
             print("⚠️  Issue aggregation failed")
 
     if orchestrator.should_run_pattern_analysis():
-        print("\nStep 4: Analyzing error patterns...")
+        print("\n🔍 Step 3: Analyzing error patterns...")
         if not evaluator.run_pattern_analysis([language], label):
             print("⚠️  Pattern analysis failed")
 
@@ -239,53 +357,93 @@ def run_eval(orchestrator_name: str, from_path: str, to_path: str, language: str
     return 0
 
 
-def run_convert(orchestrator_name: str, from_path: str, to_path: str, language: str) -> int:
+def run_convert(language: str, orchestrator_name: str) -> int:
+    """Convert JSON files to markdown using standard paths."""
     print(f"Converting {language.title()} quizzes...")
+    print(f"   Orchestrator: {orchestrator_name}")
+
     orchestrator = load_orchestrator(orchestrator_name)
+    paths = get_standard_paths(language)
+
+    print(f"   Source: {paths['raw_json']}")
+    print(f"   Target: {paths['markdown']}")
 
     converter_class = orchestrator.get_converter_class()
     converter = converter_class()
 
-    input_dir = Path(from_path)
-    output_dir = Path(to_path)
-
-    success = converter.convert_language(input_dir, output_dir, language)
+    success = converter.convert_language(paths["raw_json"], paths["markdown"], language)
     return 0 if success else 1
 
 
-def run_evaluate(orchestrator_name: str, from_path: str, language: str, label: str) -> int:
-    print(f"🤖 Evaluating {language.title()} content...")
-    orchestrator = load_orchestrator(orchestrator_name)
-
-    markdown_path = Path(from_path)
-
-    evaluator = Evaluator(
-        orchestrator=orchestrator,
-        markdown_dir=markdown_path.parent,
-        eval_results_dir=Path("eval_results"),
-    )
-
-    success = evaluator.evaluate_language(language, label)
-
-    return 0 if success else 1
-
-def run_aggregate_issues(language: str, label: str) -> int:
+def run_aggregate(language: str, label: str) -> int:
+    """Aggregate issues for a language and label."""
     print(f"Aggregating issues for {language.title()}...")
+    print(f"   Label: {label}")
 
     processed = aggregate_issues([language], label=label)
-
     return 0 if processed else 1
 
 
-def run_analyze_patterns(orchestrator_name: str, language: str, label: str) -> int:
+def run_analyze(language: str, label: str) -> int:
+    """Analyze error patterns for a language and label."""
     print(f"Analyzing error patterns for {language.title()}...")
+    print(f"   Label: {label}")
 
     processed = analyze_patterns([language], label=label)
-
     return 0 if processed else 1
+
+
+def run_file_index() -> int:
+    """Update the file index by scanning eval_results directory."""
+    import json
+    from datetime import datetime
+
+    print("📁 Scanning eval_results directory...")
+
+    if not EVAL_RESULTS_DIR.exists():
+        print(f"❌ Directory not found: {EVAL_RESULTS_DIR}")
+        return 1
+
+    # Build file index
+    files_by_language = {}
+    languages = []
+
+    for lang_dir in sorted(EVAL_RESULTS_DIR.iterdir()):
+        if not lang_dir.is_dir():
+            continue
+
+        language = lang_dir.name
+        languages.append(language)
+
+        eval_files = sorted(
+            [f.name for f in lang_dir.glob("evaluation_*.json")],
+            reverse=True  # Most recent first
+        )
+        files_by_language[language] = eval_files
+        print(f"   {language}: {len(eval_files)} file(s)")
+
+    total_files = sum(len(files) for files in files_by_language.values())
+
+    index_data = {
+        "generated_at": datetime.now().isoformat(),
+        "total_files": total_files,
+        "languages": languages,
+        "files": files_by_language,
+    }
+
+    # Save file index
+    index_path = Path("file_index.json")
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(index_data, f, indent=2, ensure_ascii=False)
+
+    print(f"\n✓ File index updated: {index_path}")
+    print(f"   Total files: {total_files}")
+    print(f"   Languages: {len(languages)}")
+    return 0
 
 
 def run_dashboard() -> int:
+    """Start the evaluation dashboard server."""
     try:
         serve_dashboard()
     except FileNotFoundError as exc:
@@ -294,12 +452,14 @@ def run_dashboard() -> int:
     return 0
 
 
-def run_export_static(output_dir: str) -> int:
+def run_export(output_dir: str) -> int:
+    """Export dashboard as static site."""
     success = export_static_dashboard(output_dir)
     return 0 if success else 1
 
 
 def run_clean_by_label(label: str) -> int:
+    """Clean all data associated with a specific label."""
     import json
     import shutil
 
@@ -307,15 +467,14 @@ def run_clean_by_label(label: str) -> int:
     print(f"🧹 Cleaning all data for label: {label_key}")
     print("=" * 60)
 
-    eval_results_dir = Path("eval_results")
     issues_dir = Path("issues")
 
     print("\n📁 Step 1: Cleaning evaluation results...")
     deleted_count = 0
     languages_affected = set()
 
-    if eval_results_dir.exists():
-        for lang_dir in eval_results_dir.iterdir():
+    if EVAL_RESULTS_DIR.exists():
+        for lang_dir in EVAL_RESULTS_DIR.iterdir():
             if not lang_dir.is_dir():
                 continue
 
@@ -389,6 +548,7 @@ def run_clean_by_label(label: str) -> int:
 
 
 def run_clean(path: str, clean_all: bool, language: str | None, label: str | None) -> int:
+    """Clean directories based on the specified path and options."""
     if clean_all and language:
         print("❌ Cannot use --all and --language together")
         return 1

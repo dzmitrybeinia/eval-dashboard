@@ -1,83 +1,0 @@
-{
-  "issues": [
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "الموسيقى الروك المزيدة عن الموسيقى البوبية عبر الألحان الأكثر إقصاءً والإيقاعات السريعة.",
-      "correction": "تتميز موسيقى الروك عن موسيقى البوب بالألحان الأكثر قوة والإيقاعات السريعة.",
-      "description": "The phrase contains lexical errors: 'الموسيقى الروك المزيدة عن الموسيقى البوبية' is an unnatural and incorrect comparison, and 'الألحان الأكثر إقصاءً' is a mistranslation of 'catchy' or 'driving' melodies, as 'إقصاءً' means 'exclusion' and is not appropriate in this context. The corrected version uses 'تتميز' for 'is characterized by' and 'الألحان الأكثر قوة' for 'stronger melodies', which is more accurate and natural in Arabic.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "الأنماء الأكواترية والأوتار اللينة والإيقاع البطيء",
-      "correction": "الأوتار العادية والأوتار اللينة والإيقاع البطيء",
-      "description": "The phrase 'الأنماء الأكواترية' is a lexical error and does not correspond to any meaningful musical term in Arabic. It appears to be a mistranslation or a misused loanword. The correction removes the unclear term and focuses on the intended meaning: 'الأوتار العادية' (regular strings), 'الأوتار اللينة' (soft strings), and 'الإيقاع البطيء' (slow rhythm).",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Orthography",
-      "original": "الموسيقى الكلاسيكية تترجع بشكل رئيسي إلى الأواخر القرن التاسع عشر والأوائل القرن العشران وتركز بشكل كبير على الأداء الفيكتوري والمسرحيات الموسيقية الحديثة.",
-      "correction": "الموسيقى الكلاسيكية ترجع بشكل رئيسي إلى أواخر القرن التاسع عشر وأوائل القرن العشرين وتركز بشكل كبير على الأداء الفيكتوري والمسرحيات الموسيقية الحديثة.",
-      "description": "There is an orthographic error in 'العشران', which should be 'العشرين' to correctly refer to the twentieth century. Additionally, 'تترجع' is a morphological error and should be 'ترجع'. The corrected sentence uses proper century names and verb form.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "original": "تعكر السرعة والتركيب الموسيقي تجريد العاطفة والتعبير الإيقاعي للجاز.",
-      "correction": "تغير السرعة والتركيب الموسيقي يعكس العاطفة والتعبير الإيقاعي للجاز.",
-      "description": "The verb 'تعكر' (to disturb) is grammatically and semantically incorrect in this context. The intended meaning is that changes in speed and musical structure reflect the emotional and rhythmic expression of jazz. The correction uses 'تغير' (change) and 'يعكس' (reflects) for proper grammatical and semantic accuracy.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "original": "الموسيقى الأدية",
-      "correction": "الموسيقى الأدبية",
-      "description": "The term 'الموسيقى الأدية' is a lexical error and does not exist in Arabic. The intended term is likely 'الموسيقى الأدبية' (art music or classical music). The correction uses the proper term.",
-      "severity": "HIGH"
-    },
-    {
-      "category": "localization",
-      "subcategory": "Cultural",
-      "original": "البوب، اختصار لكلمة \"موسيقى شعبية\"",
-      "correction": "البوب، نوع من الموسيقى يتميز بالألحان الجذابة والتقدمات البسيطة للأوتار والتركيز على الغناء.",
-      "description": "The explanation 'اختصار لكلمة \"موسيقى شعبية\"' is misleading in Arabic, as 'موسيقى شعبية' refers to folk music, not pop music. This can cause confusion for Arabic-speaking learners, as 'البوب' is not a direct abbreviation of 'موسيقى شعبية'. The correction provides a culturally appropriate and accurate description of pop music.",
-      "severity": "MEDIUM"
-    },
-    {
-      "category": "localization",
-      "subcategory": "Format",
-      "original": "🎶",
-      "correction": "",
-      "description": "The use of the musical note emoji '🎶' in educational Arabic content may not align with formal educational standards in many Arabic-speaking countries, where such symbols are often omitted in formal lessons. It is recommended to remove the emoji for a more professional and culturally appropriate presentation.",
-      "severity": "MINOR"
-    }
-  ],
-  "metadata": {
-    "file": "Music_Genres.md",
-    "language": "Arabic",
-    "timestamp": "2025-10-06T16:59:50.914906",
-    "model": "gpt-4.1",
-    "label": "v1"
-  },
-  "scores": {
-    "overall_quality_score": 8.2,
-    "classification": "PROFESSIONAL",
-    "total_issues": 7,
-    "total_penalty": 1.8,
-    "issue_breakdown": {
-      "linguistic": 5,
-      "localization": 2,
-      "distractor_quality": 0
-    },
-    "penalty_breakdown": {
-      "linguistic_penalty": 1.5,
-      "localization_penalty": 0.3,
-      "distractor_quality_penalty": 0.0
-    }
-  }
-}

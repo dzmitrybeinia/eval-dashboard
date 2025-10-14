@@ -1,4 +1,5 @@
 from .base_converter import BaseConverter
 from .content_only_converter import ContentOnlyConverter
 from .full_content_converter import FullContentConverter
+from .lesson_content_llm_converter import LessonContentLLMConverter
 from .yes_no_converter import YesNoConverter

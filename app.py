@@ -482,14 +482,31 @@ def run_clean_by_label(label: str) -> int:
                 try:
                     with open(eval_file, "r", encoding="utf-8") as f:
                         data = json.load(f)
-                        file_label = data.get("metadata", {}).get("label", "")
-
-                        if file_label == label_key:
-                            eval_file.unlink()
-                            deleted_count += 1
-                            languages_affected.add(lang_dir.name)
-                except (json.JSONDecodeError, KeyError, OSError):
+                except (json.JSONDecodeError, OSError):
                     continue
+
+                metadata = data.get("metadata", {})
+                file_label_raw = metadata.get("label") or metadata.get("label_key")
+
+                if not file_label_raw:
+                    continue
+
+                try:
+                    file_label_key = sanitize_label(str(file_label_raw))
+                except ValueError:
+                    continue
+
+                if file_label_key != label_key:
+                    continue
+
+                try:
+                    eval_file.unlink()
+                except OSError as exc:
+                    print(f"  Could not remove {eval_file}: {exc}")
+                    continue
+
+                deleted_count += 1
+                languages_affected.add(lang_dir.name)
 
     print(f"✓ Deleted {deleted_count} evaluation files")
     if languages_affected:

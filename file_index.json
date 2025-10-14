@@ -1,35 +1,6 @@
 {
-  "generated_at": "2025-10-08T08:53:59.993805",
-  "total_files": 24,
-  "languages": [
-    "polish"
-  ],
-  "files": {
-    "polish": [
-      "evaluation_20251008_085359.json",
-      "evaluation_20251008_085357.json",
-      "evaluation_20251008_085351.json",
-      "evaluation_20251008_085340.json",
-      "evaluation_20251008_085339.json",
-      "evaluation_20251008_085334.json",
-      "evaluation_20251008_085330.json",
-      "evaluation_20251008_085326.json",
-      "evaluation_20251008_085323.json",
-      "evaluation_20251008_085212.json",
-      "evaluation_20251008_085211.json",
-      "evaluation_20251008_085210.json",
-      "evaluation_20251008_085204.json",
-      "evaluation_20251008_085203.json",
-      "evaluation_20251008_085202.json",
-      "evaluation_20251008_085200.json",
-      "evaluation_20251008_085159.json",
-      "evaluation_20251008_085118.json",
-      "evaluation_20251008_085117.json",
-      "evaluation_20251008_085115.json",
-      "evaluation_20251008_085114.json",
-      "evaluation_20251008_085113.json",
-      "evaluation_20251008_085112.json",
-      "evaluation_20251008_085111.json"
-    ]
-  }
+  "generated_at": "2025-10-14T11:15:04.518327",
+  "total_files": 0,
+  "languages": [],
+  "files": {}
 }

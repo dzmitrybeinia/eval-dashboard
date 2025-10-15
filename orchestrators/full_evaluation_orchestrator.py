@@ -2,6 +2,7 @@ from pathlib import Path
 from typing import Type
 
 from config import SUPPORTED_LANGUAGES
+from converters import LessonContentLLMConverter
 from converters.base_converter import BaseConverter
 from converters.full_content_converter import FullContentConverter
 
@@ -11,7 +12,7 @@ class FullEvaluationOrchestrator:
         self.prompts_dir = Path(prompts_dir)
 
     def get_converter_class(self) -> Type[BaseConverter]:
-        return FullContentConverter
+        return LessonContentLLMConverter
 
     def get_prompt(self, content: str, language: str) -> str:
         base_prompt = self._load_prompt("combined_expert.md")

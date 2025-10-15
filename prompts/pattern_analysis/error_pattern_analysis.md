@@ -22,7 +22,6 @@ Return **only** this JSON schema (no Markdown or commentary):
       "category": "linguistic | localization",
       "subcategory": "Grammar | Orthography | Lexical | Syntax | Style | Terminology | Cultural | Format",
       "impact_level": "HIGH | MEDIUM | LOW",
-      "frequency": "very_common | common | occasional | rare",
       "frequency_count": 0,
       "description": "short explanation of how the pattern manifests",
       "examples": [

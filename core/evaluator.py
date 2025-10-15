@@ -11,6 +11,7 @@ from openai import AzureOpenAI
 from config import API_KEY, API_VERSION, DEPLOYMENT_NAME, ENDPOINT_URL
 from utils.json_parser import parse_json_response
 from utils.labels import sanitize_label
+from utils.false_positive_filter import filter_evaluation_result
 
 from .aggregator import aggregate_issues
 from .analyzer import analyze_patterns
@@ -162,8 +163,21 @@ class Evaluator:
         scores = calculate_quality_score(issues)
 
         result = EvaluationResult(issues=issues, metadata=metadata, scores=scores)
-        print(f"Calculated scores - Overall: {scores.overall_quality_score}/10 ({scores.classification})")
-        return result.to_dict()
+        result_dict = result.to_dict()
+
+        # Filter out false positives before returning
+        print(f"Initial scores - Overall: {scores.overall_quality_score}/10 ({scores.classification}), Issues: {len(issues)}")
+        result_dict = filter_evaluation_result(result_dict, verbose=True)
+
+        # Print final scores after filtering
+        final_scores = result_dict.get("scores", {})
+        final_issue_count = len(result_dict.get("issues", []))
+        filtered_count = result_dict.get("metadata", {}).get("false_positives_filtered", 0)
+
+        if filtered_count > 0:
+            print(f"Final scores - Overall: {final_scores.get('overall_quality_score', 0)}/10 ({final_scores.get('classification', 'N/A')}), Issues: {final_issue_count}")
+
+        return result_dict
 
     def _persist_evaluation(self, evaluation_json: Dict, language: str) -> None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

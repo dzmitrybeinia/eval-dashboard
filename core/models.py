@@ -190,7 +190,6 @@ class ErrorPattern:
     category: str
     subcategory: str = ""
     impact_level: str = "MEDIUM"
-    frequency: str = "common"
     frequency_count: int = 1
     description: str = ""
     examples: List[str] = field(default_factory=list)
@@ -203,7 +202,6 @@ class ErrorPattern:
             category=data.get("category", ""),
             subcategory=data.get("subcategory", ""),
             impact_level=data.get("impact_level", "MEDIUM"),
-            frequency=data.get("frequency", "common"),
             frequency_count=data.get("frequency_count", 1),
             description=data.get("description", ""),
             examples=data.get("examples", []) or [],
@@ -216,7 +214,6 @@ class ErrorPattern:
             "category": self.category,
             "subcategory": self.subcategory,
             "impact_level": self.impact_level,
-            "frequency": self.frequency,
             "frequency_count": self.frequency_count,
             "description": self.description,
             "examples": self.examples,

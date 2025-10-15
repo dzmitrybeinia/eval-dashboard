@@ -1,8 +1,10 @@
 # Spanish Language-Specific Instructions
 
-## LANGUAGE FOCUS: Spanish (Linguistic Accuracy)
+## LANGUAGE FOCUS: Spanish (Linguistic Accuracy) - Spain Only
 
-Focus on objective Spanish linguistic rules.
+Focus on objective Spanish linguistic rules for Peninsular Spanish (España).
+
+**IMPORTANT**: Check content against Spanish standards used in SPAIN. Do NOT flag vocabulary or terminology differences from Latin American Spanish as errors (e.g., "ordenador" vs "computadora", "patatas" vs "papas" are both correct - use Spain variants).
 
 ## SPECIFIC LINGUISTIC CHECKPOINTS
 

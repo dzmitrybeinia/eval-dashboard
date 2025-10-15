@@ -153,7 +153,6 @@ def _merge_patterns(reports: List[Dict]) -> List[Dict]:
     """Merge and deduplicate patterns from multiple reports."""
     deduped: Dict[tuple[str, str], Dict] = {}
     severity_priority = {"HIGH": 3, "MEDIUM": 2, "LOW": 1}
-    frequency_priority = {"very_common": 4, "common": 3, "occasional": 2, "rare": 1}
 
     for report in reports:
         for pattern in report.get("top_error_patterns", []):
@@ -176,7 +175,6 @@ def _merge_patterns(reports: List[Dict]) -> List[Dict]:
                     "category": category,
                     "subcategory": pattern.get("subcategory", ""),
                     "impact_level": pattern.get("impact_level", "MEDIUM"),
-                    "frequency": pattern.get("frequency", "common"),
                     "frequency_count": frequency_count,
                     "description": pattern.get("description", ""),
                     "examples": pattern.get("examples", []) or [],
@@ -190,11 +188,6 @@ def _merge_patterns(reports: List[Dict]) -> List[Dict]:
             new_severity = pattern.get("impact_level", "MEDIUM")
             if severity_priority.get(new_severity, 2) > severity_priority.get(current_severity, 2):
                 entry["impact_level"] = new_severity
-
-            current_freq = entry.get("frequency", "common")
-            new_freq = pattern.get("frequency", current_freq)
-            if frequency_priority.get(new_freq, 0) > frequency_priority.get(current_freq, 0):
-                entry["frequency"] = new_freq
 
             if not entry.get("description") and pattern.get("description"):
                 entry["description"] = pattern.get("description", "")

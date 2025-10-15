@@ -455,11 +455,6 @@
             color: #1d4ed8;
         }
 
-        .badge-frequency {
-            background: #ecfdf5;
-            color: #047857;
-        }
-
         .badge-generic {
             background: #ede9fe;
             color: #5b21b6;
@@ -610,6 +605,24 @@
                             <option value="">Loading...</option>
                         </select>
                     </div>
+                    <div class="control-group">
+                        <label for="impactLevelFilter">Impact Level</label>
+                        <select id="impactLevelFilter">
+                            <option value="all">All Impact Levels</option>
+                            <option value="HIGH">High</option>
+                            <option value="MEDIUM">Medium</option>
+                            <option value="LOW">Low</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="sortByFilter">Sort By</label>
+                        <select id="sortByFilter">
+                            <option value="impact_frequency">Impact & Frequency</option>
+                            <option value="frequency_desc">Frequency (High to Low)</option>
+                            <option value="frequency_asc">Frequency (Low to High)</option>
+                            <option value="impact_desc">Impact (High to Low)</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div id="commonIssuesContent">
@@ -672,6 +685,8 @@
         let allCommonIssues = null;
         let selectedCommonLabel = '';
         let selectedCommonLanguage = '';
+        let selectedImpactLevel = 'all';
+        let selectedSortBy = 'impact_frequency';
 
         // Initialize dashboard
         document.addEventListener('DOMContentLoaded', function() {
@@ -876,6 +891,26 @@
                 renderCommonIssues();
             };
 
+            // Setup impact level and sort by filters
+            const impactLevelFilter = document.getElementById('impactLevelFilter');
+            const sortByFilter = document.getElementById('sortByFilter');
+
+            if (impactLevelFilter) {
+                impactLevelFilter.value = selectedImpactLevel;
+                impactLevelFilter.onchange = event => {
+                    selectedImpactLevel = event.target.value;
+                    renderCommonIssues();
+                };
+            }
+
+            if (sortByFilter) {
+                sortByFilter.value = selectedSortBy;
+                sortByFilter.onchange = event => {
+                    selectedSortBy = event.target.value;
+                    renderCommonIssues();
+                };
+            }
+
             renderCommonIssues();
         }
 
@@ -909,7 +944,15 @@
 
             // Single language case
             const analysis = labelData.analyses ? labelData.analyses[selectedCommonLanguage] : null;
-            const patterns = analysis && Array.isArray(analysis.top_error_patterns) ? analysis.top_error_patterns : [];
+            let patterns = analysis && Array.isArray(analysis.top_error_patterns) ? analysis.top_error_patterns : [];
+
+            // Apply impact level filter
+            if (selectedImpactLevel !== 'all') {
+                patterns = patterns.filter(p => p.impact_level === selectedImpactLevel);
+            }
+
+            // Apply sorting
+            patterns = sortPatterns(patterns, selectedSortBy);
 
             if (!patterns.length) {
                 content.innerHTML = `<div class="issues-empty">No recurring issues found for ${selectedCommonLanguage} (${labelData.label || selectedCommonLabel}).</div>`;
@@ -958,6 +1001,14 @@
                 }
             });
 
+            // Apply impact level filter
+            if (selectedImpactLevel !== 'all') {
+                allPatterns = allPatterns.filter(p => p.impact_level === selectedImpactLevel);
+            }
+
+            // Apply sorting
+            allPatterns = sortPatterns(allPatterns, selectedSortBy);
+
             if (allPatterns.length === 0) {
                 content.innerHTML = `<div class="issues-empty">No recurring issues found for any language (${labelData.label || selectedCommonLabel}).</div>`;
                 return;
@@ -982,6 +1033,40 @@
             content.innerHTML = metaHtml + `<div class="issues-grid collapsed" id="commonIssuesGrid">${cardsHtml}</div>${expandBtnHtml}`;
         }
 
+        function sortPatterns(patterns, sortBy) {
+            const severity_priority = {"HIGH": 3, "MEDIUM": 2, "LOW": 1};
+            const patternsCopy = [...patterns];
+
+            switch(sortBy) {
+                case 'frequency_desc':
+                    patternsCopy.sort((a, b) => (b.frequency_count || 0) - (a.frequency_count || 0));
+                    break;
+                case 'frequency_asc':
+                    patternsCopy.sort((a, b) => (a.frequency_count || 0) - (b.frequency_count || 0));
+                    break;
+                case 'impact_desc':
+                    patternsCopy.sort((a, b) => {
+                        const impactA = severity_priority[a.impact_level] || 0;
+                        const impactB = severity_priority[b.impact_level] || 0;
+                        return impactB - impactA;
+                    });
+                    break;
+                case 'impact_frequency':
+                default:
+                    patternsCopy.sort((a, b) => {
+                        const impactA = severity_priority[a.impact_level] || 0;
+                        const impactB = severity_priority[b.impact_level] || 0;
+                        if (impactB !== impactA) {
+                            return impactB - impactA;
+                        }
+                        return (b.frequency_count || 0) - (a.frequency_count || 0);
+                    });
+                    break;
+            }
+
+            return patternsCopy;
+        }
+
         function renderPatternCardWithLanguage(pattern) {
             const categoryLabel = formatCategoryLabel(pattern.category);
             let categoryClass = 'badge-generic';
@@ -991,7 +1076,6 @@
                 categoryClass = 'badge-linguistic';
             }
             const impactLabel = formatImpactLabel(pattern.impact_level);
-            const frequencyLabel = formatFrequencyLabel(pattern.frequency);
             const frequencyCount = normalizeFrequencyCount(pattern.frequency_count);
             const footerItems = [];
 
@@ -1014,7 +1098,6 @@
                         <div class="pattern-badges">
                             ${categoryLabel ? `<span class="badge ${categoryClass}">${categoryLabel}</span>` : ''}
                             ${impactLabel ? `<span class="badge badge-impact">${impactLabel}</span>` : ''}
-                            ${frequencyLabel ? `<span class="badge badge-frequency">${frequencyLabel}</span>` : ''}
                         </div>
                     </div>
                     <p class="pattern-description">${pattern.description || 'No description provided.'}</p>
@@ -1033,7 +1116,6 @@
                 categoryClass = 'badge-linguistic';
             }
             const impactLabel = formatImpactLabel(pattern.impact_level);
-            const frequencyLabel = formatFrequencyLabel(pattern.frequency);
             const frequencyCount = normalizeFrequencyCount(pattern.frequency_count);
             const footerItems = [];
 
@@ -1053,7 +1135,6 @@
                         <div class="pattern-badges">
                             ${categoryLabel ? `<span class="badge ${categoryClass}">${categoryLabel}</span>` : ''}
                             ${impactLabel ? `<span class="badge badge-impact">${impactLabel}</span>` : ''}
-                            ${frequencyLabel ? `<span class="badge badge-frequency">${frequencyLabel}</span>` : ''}
                         </div>
                     </div>
                     <p class="pattern-description">${pattern.description || 'No description provided.'}</p>
@@ -1113,16 +1194,6 @@
                 return '';
             }
             return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase();
-        }
-
-        function formatFrequencyLabel(value) {
-            if (!value) {
-                return '';
-            }
-            return value
-                .toString()
-                .replace(/_/g, ' ')
-                .replace(/\b\w/g, letter => letter.toUpperCase());
         }
 
         async function loadLanguageReports(language) {

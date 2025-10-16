@@ -1,0 +1,142 @@
+{
+  "request": {
+    "lesson_description": "Memory Techniques: Understanding and applying mnemonic devices, visualization, and chunking strategies to improve information retention.",
+    "exercises_ratio": 1.0,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "Include real-world examples such as using acronyms to remember lists, creating mental images for complex concepts, and breaking down information into smaller, manageable chunks. Focus on practical applications students can use in their daily studies.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "80df3d97",
+    "topicInEnglish": "Memory Techniques",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Técnicas de Memorização: Melhore sua Retenção de Informações",
+    "slides": [
+      {
+        "content": "Você sabia que existem estratégias simples e eficazes para melhorar sua memória e lembrar informações facilmente? Hoje, vamos explorar técnicas práticas que você pode usar no seu dia a dia para estudar e reter informações de maneira mais eficiente! 🧠💡",
+        "title": "Introdução às Técnicas de Memorização",
+        "themes": [
+          "introdução às técnicas de memória"
+        ],
+        "image_search_string": "students studying memory techniques",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "As mnemônicas são ferramentas que usamos para associar informações complexas a algo mais fácil de lembrar, como uma rima, frase ou acrônimo. Por exemplo, para lembrar as cores do arco-íris na ordem correta, usamos a frase 'Viva O Galo Amarelo, Verde e Azul' (vermelho, laranja, amarelo, verde, azul, anil, violeta).",
+        "title": "O que são mnemônicas?",
+        "themes": [
+          "definição de mnemônicas",
+          "uso de mnemônicas"
+        ],
+        "image_search_string": "mnemonic devices examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Criar imagens mentais é uma técnica poderosa para lembrar informações. Imagine que você está tentando memorizar os planetas do sistema solar. Você pode imaginar um grande sol seguido por planetas em ordem, cada um com uma característica marcante ou engraçada. Quanto mais vívida a imagem, melhor!",
+        "title": "Visualização para Memória",
+        "themes": [
+          "visualização como técnica de memória"
+        ],
+        "image_search_string": "memory visualization examples",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O 'chunking' é uma técnica que divide informações grandes em blocos menores e mais manejáveis. Por exemplo, ao memorizar um número de telefone, em vez de tentar lembrar 987654321, você pode dividi-lo em 987-654-321. Assim, sua memória trabalha com pedaços menores.",
+        "title": "Divisão de Informações com Chunking",
+        "themes": [
+          "chunking para memorização"
+        ],
+        "image_search_string": "chunking memory technique",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Os acrônimos são outra forma de mnemônica. Eles ajudam a lembrar listas ou conceitos. Por exemplo, em ciências, a sigla 'SOL' pode lembrar as etapas do método científico: S - Suposição, O - Observação, L - Levantamento de hipóteses.",
+        "title": "Acrônimos para Memorização",
+        "themes": [
+          "uso de acrônimos em memorização"
+        ],
+        "image_search_string": "mnemonics acronyms example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Praticar a repetição espaçada é uma forma de fortalecer a memória. Revise a informação em intervalos crescentes: por exemplo, reveja hoje, depois em dois dias, depois em uma semana. Isso ajuda a consolidar o aprendizado.",
+        "title": "Repetição Espaçada",
+        "themes": [
+          "técnica de repetição espaçada"
+        ],
+        "image_search_string": "spaced repetition example",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Associar informações a histórias é uma técnica eficaz. Por exemplo, para lembrar uma lista de compras, você pode criar uma história onde cada item aparece em uma sequência engraçada ou inusitada.",
+        "title": "Memorização com Histórias",
+        "themes": [
+          "uso de histórias para memorização"
+        ],
+        "image_search_string": "memory stories technique",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "A prática ativa envolve testar a si mesmo em vez de apenas reler notas. Por exemplo, use cartões de memória para se perguntar sobre conceitos ou fatos importantes.",
+        "title": "Prática Ativa",
+        "themes": [
+          "importância da prática ativa"
+        ],
+        "image_search_string": "active recall technique",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Combinar técnicas pode ser muito eficaz. Por exemplo, use visualização para criar imagens mentais, depois associe essas imagens a uma história e revise usando repetição espaçada.",
+        "title": "Combinando Técnicas",
+        "themes": [
+          "combinação de técnicas de memória"
+        ],
+        "image_search_string": "combining memory techniques",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Pratique essas técnicas em situações do dia a dia, como estudar para provas, aprender um novo idioma, ou lembrar de listas importantes. Quanto mais você pratica, mais eficiente se torna!",
+        "title": "Prática Diária",
+        "themes": [
+          "importância da prática diária"
+        ],
+        "image_search_string": "daily memory practice",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Memory Techniques",
+    "generationLanguage": "pt-PT"
+  }
+}

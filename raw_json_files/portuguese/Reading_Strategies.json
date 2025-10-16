@@ -1,0 +1,83 @@
+{
+  "request": {
+    "lesson_description": "Effective Reading Strategies: Skimming, scanning, and critical reading for comprehension.",
+    "exercises_ratio": 1.0,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.ELA-LITERACY.RI.8.1: Cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "843b7b38",
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Estratégias Eficazes de Leitura: Skimming, Scanning e Leitura Crítica",
+    "slides": [
+      {
+        "content": "A leitura é uma habilidade poderosa que nos ajuda a compreender o mundo ao nosso redor. Hoje, vamos explorar três estratégias eficazes de leitura: Skimming, Scanning e Leitura Crítica. 📚",
+        "title": "Introdução às Estratégias de Leitura",
+        "themes": [
+          "introdução à leitura"
+        ],
+        "image_search_string": "reading strategies",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Skimming é uma técnica de leitura rápida usada para captar a ideia geral de um texto. Em vez de ler cada palavra, você foca nos títulos, subtítulos, primeiras frases dos parágrafos e palavras-chave. Essa técnica é útil para entender o contexto geral de um texto sem se aprofundar nos detalhes.",
+        "title": "O que é Skimming?",
+        "themes": [
+          "definição de skimming"
+        ],
+        "image_search_string": "skimming reading",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Scanning é uma técnica de leitura que serve para localizar informações específicas em um texto. O leitor percorre o conteúdo rapidamente em busca de datas, números ou palavras específicas. É como procurar uma palavra no dicionário!",
+        "title": "O que é Scanning?",
+        "themes": [
+          "definição de scanning"
+        ],
+        "image_search_string": "scanning reading",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A leitura crítica vai além de entender o texto; ela envolve analisar e avaliar o conteúdo. Você questiona a intenção do autor, identifica vieses e reflete sobre as ideias apresentadas. Essa estratégia é essencial para formar opiniões fundamentadas.",
+        "title": "O que é Leitura Crítica?",
+        "themes": [
+          "definição de leitura crítica"
+        ],
+        "image_search_string": "critical reading",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Comparando as três estratégias: Skimming ajuda a obter uma visão geral, Scanning encontra informações específicas, e a Leitura Crítica aprofunda a compreensão e análise. Cada método é útil em diferentes contextos, dependendo do objetivo da leitura.",
+        "title": "Comparando as Estratégias",
+        "themes": [
+          "comparação de estratégias",
+          "contexto de uso"
+        ],
+        "image_search_string": "compare reading strategies",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "pt-PT"
+  }
+}

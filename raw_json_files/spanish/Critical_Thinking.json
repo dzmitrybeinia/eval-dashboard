@@ -1,0 +1,94 @@
+{
+  "request": {
+    "lesson_description": "Developing critical thinking skills: Understanding logical reasoning, identifying biases, and evaluating evidence.",
+    "exercises_ratio": 0.6,
+    "grade_level": "8th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "f118b23d",
+    "topicInEnglish": "Critical Thinking",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Desarrollo del pensamiento crítico: razonamiento lógico, identificación de sesgos y evaluación de evidencias.",
+    "slides": [
+      {
+        "content": "¡Bienvenidos! Hoy exploraremos cómo desarrollar habilidades de pensamiento crítico. Aprenderemos a razonar de manera lógica, identificar sesgos y evaluar evidencias para tomar decisiones informadas. 🌟",
+        "title": "Introducción al pensamiento crítico",
+        "themes": [
+          "introducción al pensamiento crítico"
+        ],
+        "image_search_string": "pensamiento crítico",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El razonamiento lógico es el proceso de pensar de manera estructurada para llegar a conclusiones válidas. Se basa en hechos y relaciones claras entre ideas, evitando suposiciones sin fundamento. Un ejemplo es usar premisas para deducir un resultado lógico.",
+        "title": "¿Qué es el razonamiento lógico?",
+        "themes": [
+          "concepto de razonamiento lógico"
+        ],
+        "image_search_string": "razonamiento lógico",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Los sesgos son errores en nuestro pensamiento que afectan la objetividad. Algunos comunes incluyen: \n- **Sesgo de confirmación**: buscar solo información que respalde nuestras creencias. \n- **Sesgo de anclaje**: depender demasiado de la primera información recibida. \n- **Sesgo de grupo**: preferir opiniones del grupo al que pertenecemos.",
+        "title": "Identificando sesgos comunes",
+        "themes": [
+          "tipos de sesgos cognitivos"
+        ],
+        "image_search_string": "tipos de sesgos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Para evaluar evidencia, considera:\n1. **Fuente confiable**: ¿Quién proporciona la información? ¿Es experto?\n2. **Relevancia**: ¿La información está relacionada con el tema?\n3. **Consistencia**: ¿Coincide con otras evidencias creíbles?\n4. **Pruebas claras**: ¿Hay datos o ejemplos concretos que la respalden?",
+        "title": "Evaluación de evidencias",
+        "themes": [
+          "criterios para evaluar evidencias"
+        ],
+        "image_search_string": "evaluación de evidencias",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Aplicar el pensamiento crítico significa:\n- Cuestionar la información antes de aceptarla.\n- Comparar diferentes perspectivas.\n- Formular preguntas como: ¿Es esto lógico? ¿Qué evidencia lo apoya?\n- Evitar conclusiones rápidas sin análisis.",
+        "title": "Aplicando el pensamiento crítico",
+        "themes": [
+          "aplicación del pensamiento crítico"
+        ],
+        "image_search_string": "aplicación del pensamiento crítico",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Recapitulemos: \n- El razonamiento lógico nos ayuda a pensar de manera estructurada.\n- Identificar sesgos mejora nuestra objetividad.\n- Evaluar evidencia asegura decisiones informadas.\n¡Practica estas habilidades para convertirte en un pensador crítico!",
+        "title": "Resumen y práctica",
+        "themes": [
+          "resumen del pensamiento crítico",
+          "importancia de practicar"
+        ],
+        "image_search_string": "resumen del pensamiento crítico",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Critical Thinking",
+    "generationLanguage": "es-ES"
+  }
+}

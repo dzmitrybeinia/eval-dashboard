@@ -1,0 +1,87 @@
+{
+  "request": {
+    "lesson_description": "Exploring Cultural Celebrations: Understanding traditions such as Diwali, Hanukkah, Lunar New Year, and Carnival, and their significance in different societies.",
+    "exercises_ratio": 0.7,
+    "grade_level": "6th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "3037729c",
+    "topicInEnglish": "Cultural Celebrations",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Explorando Celebraciones Culturales",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una aventura cultural! 🌍 Hoy vamos a descubrir tradiciones fascinantes de todo el mundo, explorando cómo las personas celebran ocasiones especiales en diferentes culturas.",
+        "title": "Introducción",
+        "themes": [
+          "exploración cultural"
+        ],
+        "image_search_string": "celebraciones culturales",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Diwali, conocido como el Festival de las Luces, es una celebración importante en la India y entre comunidades hindúes en todo el mundo. Se celebra con lámparas de aceite, fuegos artificiales y reuniones familiares. Simboliza la victoria del bien sobre el mal.",
+        "title": "Diwali: El Festival de las Luces",
+        "themes": [
+          "tradición de Diwali",
+          "significado de Diwali"
+        ],
+        "image_search_string": "festival de luces Diwali",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Hanukkah, o la Fiesta de las Luces, es una celebración judía que dura ocho días. Conmemora la re-dedicación del Templo Sagrado en Jerusalén. Durante Hanukkah, se encienden velas en una menorá y se disfrutan alimentos como los latkes.",
+        "title": "Hanukkah: La Fiesta de las Luces",
+        "themes": [
+          "significado de Hanukkah",
+          "tradiciones de Hanukkah"
+        ],
+        "image_search_string": "Hanukkah menorá velas",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El Año Nuevo Lunar es celebrado en muchos países asiáticos, como China, Corea y Vietnam. Marca el inicio del nuevo año según el calendario lunar. Las familias se reúnen, se realizan desfiles coloridos y se usan sobres rojos con dinero como símbolo de buena suerte.",
+        "title": "El Año Nuevo Lunar",
+        "themes": [
+          "tradiciones del Año Nuevo Lunar",
+          "calendario lunar"
+        ],
+        "image_search_string": "desfile Año Nuevo Lunar",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El Carnaval es una celebración conocida por sus desfiles vibrantes, disfraces coloridos y música animada, especialmente en países como Brasil y España. Es una festividad que mezcla tradiciones religiosas y culturales, representando alegría y unidad.",
+        "title": "Carnaval: Una Fiesta de Colores",
+        "themes": [
+          "tradiciones del Carnaval",
+          "significado cultural del Carnaval"
+        ],
+        "image_search_string": "desfile de Carnaval",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Cultural Celebrations",
+    "generationLanguage": "es-ES"
+  }
+}

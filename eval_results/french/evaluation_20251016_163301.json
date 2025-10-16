@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Viandes, poissons et alternatives",
+      "correction": "Viandes, poissons et substituts",
+      "description": "The term 'alternatives' is a direct translation from English and is less commonly used in French nutrition contexts. 'Substituts' is the standard term in French dietary guidelines to refer to non-meat protein sources. Using 'substituts' ensures consistency with local terminology and improves clarity for French-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Faites attention aux portions pour éviter de trop manger.",
+      "correction": "Surveillez la taille des portions pour éviter de trop manger.",
+      "description": "The phrase 'Faites attention aux portions' is understandable but less idiomatic in French nutrition advice. 'Surveillez la taille des portions' is more natural and commonly used in French dietary recommendations, improving the overall fluency and professionalism of the advice.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:01.562182",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue à cette leçon où nous allons explorer pourquoi et comment une alimentation saine est essentielle pour notre corps. Ensemble, nous découvrirons les nutriments, les groupes alimentaires et comment équilibrer nos repas pour rester en bonne santé 🌟.",
+      "correction": "Bienvenue dans cette leçon où nous allons explorer pourquoi et comment une alimentation saine est essentielle pour notre corps. Ensemble, nous découvrirons les nutriments, les groupes alimentaires et comment équilibrer nos repas pour rester en bonne santé.",
+      "description": "The phrase 'Bienvenue à cette leçon' is less natural in French educational contexts; 'Bienvenue dans cette leçon' is preferred for welcoming learners to a lesson. Additionally, the use of the star emoji 🌟 is not standard in formal French educational materials and may be perceived as informal or distracting. Removing the emoji improves the professional tone and aligns with cultural expectations for educational content.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

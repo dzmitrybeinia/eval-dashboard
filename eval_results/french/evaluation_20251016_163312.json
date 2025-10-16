@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Par exemple, pour mémoriser un numéro de téléphone comme 0612345678, vous pourriez le diviser en 06-12-34-56-78.",
+      "correction": "Par exemple, pour mémoriser un numéro de téléphone comme 06 12 34 56 78, vous pourriez le diviser en 06 12 34 56 78.",
+      "description": "French phone numbers are conventionally written with spaces rather than hyphens (e.g., 06 12 34 56 78). Using hyphens is not standard and may confuse learners or seem unnatural in a French context. The correction aligns with French formatting conventions for phone numbers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "imaginez chaque article dans un scénario amusant ou exagéré, comme une pomme géante roulant dans la rue.",
+      "correction": "imaginez chaque article dans une situation amusante ou exagérée, comme une pomme géante roulant dans la rue.",
+      "description": "The word 'scénario' is more commonly used for scripts or planned sequences, while 'situation' is more natural in everyday French when describing imagined contexts. This change improves the naturalness and clarity of the example.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "vous pouvez créer une phrase comme 'Mon Vieux Tonton Mange'.",
+      "correction": "vous pouvez créer une phrase comme 'Mon Vieux Tonton Mange Très Joyeusement Sur Une Nappe'.",
+      "description": "The mnemonic 'Mon Vieux Tonton Mange' is incomplete for the order of the planets in French (Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune). A standard mnemonic includes all planets, such as 'Mon Vieux Tonton Mange Très Joyeusement Sur Une Nappe'. This correction ensures the example is accurate and educationally useful.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:12.411301",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à transformer votre façon de retenir les informations ! ✨",
+      "correction": "Préparez-vous à transformer votre manière de retenir les informations !",
+      "description": "The use of 'façon' is acceptable but 'manière' is more formal and natural in educational French, especially in written instructional contexts. Additionally, the sparkle emoji (✨) is informal and may not be appropriate for all educational audiences, particularly in formal or adult learning settings. Removing the emoji and using 'manière' improves the tone and professionalism.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

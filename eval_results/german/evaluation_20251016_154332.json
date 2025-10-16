@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "typische Vegetation sind Regenwälder.",
+      "correction": "Typische Vegetation sind Regenwälder.",
+      "description": "The sentence begins with a lowercase 'typische', but as 'Vegetation' is a noun and the phrase starts a new bullet point, it should be capitalized: 'Typische Vegetation sind Regenwälder.' This is a minor orthographic error affecting noun capitalization, which is mandatory in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Die aride Zone zeichnet sich durch Trockenheit und seltenen Niederschlag aus. Typische Landschaften sind Wüsten wie die Sahara oder die Gobi.",
+      "correction": "Die Trockenzone zeichnet sich durch Trockenheit und seltenen Niederschlag aus. Typische Landschaften sind Wüsten wie die Sahara oder die Gobi.",
+      "description": "The term 'aride Zone' is technically correct but not commonly used in German educational contexts. 'Trockenzone' is the more natural and widely accepted term for this climate zone in German school materials. Using 'Trockenzone' improves clarity and accessibility for learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:43:32.697560",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die aride Zone zeichnet sich durch Trockenheit und seltenen Niederschlag aus.",
+      "correction": "Die aride Zone zeichnet sich durch Trockenheit und seltenen Niederschlag aus.",
+      "description": "The adjective 'aride' is not standard in German; the correct term is 'aride' as an adjective, but it is rarely used in everyday language. 'Trockene Zone' would be more natural, but 'aride Zone' is acceptable in scientific contexts. No grammatical error, but the terminology could be improved for general educational content.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Willkommen zu einer spannenden Entdeckungsreise durch die Klimazonen der Erde! 🌍",
+      "correction": "Willkommen zu einer spannenden Entdeckungsreise durch die Klimazonen der Erde!",
+      "description": "The use of the globe emoji (🌍) may not be appropriate in formal educational materials, especially in German school contexts where such symbols are generally avoided in instructional text. Removing the emoji maintains a professional and neutral tone.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

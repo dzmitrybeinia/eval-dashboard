@@ -1,0 +1,128 @@
+{
+  "request": {
+    "lesson_description": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick.",
+    "exercises_ratio": 0.4,
+    "grade_level": "8th grade",
+    "estimated_length": 15,
+    "learning_standard": "CCSS.ELA-LITERACY.RL.8.4: Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6427b090",
+    "topicInEnglish": "Poetry Forms",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick",
+    "slides": [
+      {
+        "content": "Bienvenue ! Aujourd'hui, nous allons découvrir différents types de poésie : le haïku, le sonnet, le vers libre et le limerick. Préparez-vous à plonger dans le monde des mots et à explorer comment les poètes jouent avec la langue pour exprimer des idées et des émotions. 📜✨",
+        "title": "Introduction à la poésie",
+        "themes": [
+          "introduction aux formes poétiques"
+        ],
+        "image_search_string": "poetry and writing",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Un haïku est une forme de poésie japonaise traditionnelle composée de trois vers. Le premier et le dernier vers comportent cinq syllabes, tandis que le deuxième en a sept. Les haïkus capturent souvent un moment ou une émotion liée à la nature ou aux saisons. Exemple :\n\n\"Dans l'étang ancien, Une grenouille plongeant, L'eau résonne.\"\n\nLes haïkus utilisent des images précises et évocatrices pour transmettre des idées profondes.",
+        "title": "Le Haïku",
+        "themes": [
+          "structure et caractéristiques du haïku"
+        ],
+        "image_search_string": "haiku poetry nature",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le sonnet est une forme poétique classique qui suit une structure stricte de 14 vers, souvent écrits en pentamètre iambique. Les sonnets peuvent être divisés en deux types principaux : le sonnet italien (ou pétrarquien) et le sonnet anglais (ou shakespearien). Chaque type a ses propres schémas de rimes et structures thématiques. Les sonnets explorent des thèmes variés comme l'amour, le passage du temps ou la beauté.",
+        "title": "Le Sonnet",
+        "themes": [
+          "structure et types de sonnets"
+        ],
+        "image_search_string": "sonnet poetry classic",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Le vers libre est une forme de poésie qui ne suit pas de schéma rythmique ou de rime fixe. Cela permet au poète une grande liberté d'expression. Les poèmes en vers libres se concentrent souvent sur le langage, les images et la signification plutôt que sur la forme. Exemple :\n\n\"Les feuilles tombent, emportées par le vent, Un murmure doux dans l'air du soir.\"",
+        "title": "Le Vers Libre",
+        "themes": [
+          "caractéristiques du vers libre"
+        ],
+        "image_search_string": "free verse poetry",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le limerick est une forme de poésie humoristique composée de cinq vers. Il suit un schéma de rime AABBA et a un rythme distinctif. Les limericks racontent souvent de petites histoires absurdes ou drôles. Exemple :\n\n\"Il était une dame de Nantes, Qui mangeait des tartes en abondance, Elle en mangea tant, Qu'elle devint géante, Et maintenant elle danse en transe.\"",
+        "title": "Le Limerick",
+        "themes": [
+          "structure et ton du limerick"
+        ],
+        "image_search_string": "limerick poetry humor",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les poètes choisissent des mots avec soin pour évoquer des émotions et des images. Par exemple, des mots comme \"fragile\" ou \"ombragé\" peuvent créer une atmosphère mélancolique, tandis que \"brillant\" ou \"vivant\" évoquent souvent une ambiance joyeuse. L'analyse des choix de mots dans un poème aide à comprendre son ton et son impact.",
+        "title": "Choix des mots et impact",
+        "themes": [
+          "analyse des choix lexicaux"
+        ],
+        "image_search_string": "word choice analysis",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Comparez les différentes formes poétiques :\n\n- Haïku : court, lié à la nature, structure stricte.\n- Sonnet : long, thématique, structure rigide.\n- Vers libre : libre, centré sur l'expression.\n- Limerick : humoristique, structure rythmée.\n\nChaque forme a des caractéristiques uniques qui influencent comment les idées et émotions sont exprimées.",
+        "title": "Comparer les formes poétiques",
+        "themes": [
+          "comparaison des formes poétiques"
+        ],
+        "image_search_string": "poetry comparison",
+        "question_types": [
+          "Match",
+          "Grouping",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Essayez de créer un poème dans une des formes étudiées. Vous pouvez écrire un haïku sur la nature, un limerick drôle ou un vers libre sur vos pensées. Concentrez-vous sur le choix des mots pour transmettre votre idée ou émotion.",
+        "title": "Créer votre propre poème",
+        "themes": [
+          "création poétique"
+        ],
+        "image_search_string": "writing poetry",
+        "question_types": []
+      },
+      {
+        "content": "Réfléchissez à ce que vous avez appris :\n\n- Quelles sont les caractéristiques d'un haïku ?\n- Comment les sonnets diffèrent-ils des limericks ?\n- Pourquoi le choix des mots est-il crucial en poésie ?\n\nPensez à la façon dont vous pourriez utiliser ces formes pour exprimer vos propres idées.",
+        "title": "Révision et réflexion",
+        "themes": [
+          "révision des concepts de poésie"
+        ],
+        "image_search_string": "poetry reflection",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Poetry Forms",
+    "generationLanguage": "fr-FR"
+  }
+}

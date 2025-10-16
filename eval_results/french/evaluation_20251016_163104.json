@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "les lions ont des griffes acérées pour chasser et déchiqueter leur proie.",
+      "correction": "les lions ont des griffes acérées pour chasser et déchiqueter leurs proies.",
+      "description": "The noun 'proie' should be in the plural form 'proies' to match the context, as lions typically hunt multiple prey over time. This improves grammatical agreement and semantic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ours dorment pendant les mois froids pour économiser de l'énergie.",
+      "correction": "Les ours hibernent pendant les mois froids pour économiser de l'énergie.",
+      "description": "The verb 'dorment' is not precise in this scientific context. 'Hibernent' is the correct term for the physiological process described, ensuring technical accuracy and proper terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "les grenouilles arboricoles ont des doigts collants pour grimper.",
+      "correction": "Les grenouilles arboricoles ont des doigts collants pour grimper.",
+      "description": "The sentence should begin with a capital letter 'Les' to follow standard French orthographic rules for sentence-initial capitalization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans cette exploration fascinante des adaptations animales ! 🐾 Nous allons découvrir comment les animaux développent des caractéristiques spéciales qui les aident à survivre dans leurs environnements. Préparez-vous à explorer des exemples étonnants de la nature !",
+      "correction": "Bienvenue dans cette exploration fascinante des adaptations animales ! 🐾 Nous allons découvrir comment les animaux développent des caractéristiques particulières qui les aident à survivre dans leur environnement. Préparez-vous à explorer des exemples étonnants de la nature !",
+      "description": "The phrase 'caractéristiques spéciales' is a calque from English ('special characteristics') and is less natural in French scientific writing. 'Caractéristiques particulières' is more idiomatic and appropriate for educational content. Also, 'leurs environnements' should be singular 'leur environnement' for generalization and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les adaptations sont des caractéristiques ou des comportements qui améliorent la capacité d'un organisme à survivre et à se reproduire dans son environnement.",
+      "correction": "Les adaptations sont des caractéristiques ou des comportements qui augmentent les chances de survie et de reproduction d'un organisme dans son environnement.",
+      "description": "The phrase 'améliorent la capacité' is less idiomatic in French scientific discourse. 'Augmentent les chances de survie et de reproduction' is more precise and natural for educational and scientific contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:31:04.707577",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

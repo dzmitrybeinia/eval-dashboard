@@ -1,0 +1,58 @@
+{
+  "request": {
+    "lesson_description": "The art of persuasive writing: Crafting compelling arguments with strong evidence and emotional appeals.",
+    "exercises_ratio": 0.8,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.ELA-LITERACY.W.8.1: Write arguments to support claims with clear reasons and relevant evidence.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "df3da702",
+    "topicInEnglish": "Persuasive Writing",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "The Art of Persuasive Writing",
+    "slides": [
+      {
+        "content": "Escrever de forma persuasiva é como conduzir uma conversa onde você deseja convencer alguém a ver as coisas pelo seu ponto de vista. Nessa lição, vamos explorar como criar argumentos sólidos, apoiados por evidências claras e apelos emocionais eficazes para capturar a atenção do leitor. ✍️",
+        "title": "Introdução à Escrita Persuasiva",
+        "themes": [
+          "introdução à escrita persuasiva"
+        ],
+        "image_search_string": "person writing argument",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Para criar um argumento persuasivo, é essencial começar com uma ideia clara ou posição sobre um tema. Essa posição será a sua tese, o ponto principal que você quer que o leitor aceite. \n\nExemplo: \"A escola deveria adotar uma política de almoço gratuito para todos os alunos para garantir igualdade e saúde.\"",
+        "title": "Definindo a Tese",
+        "themes": [
+          "definição de tese"
+        ],
+        "image_search_string": "writing thesis statement",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Evidências são os fundamentos dos seus argumentos. Elas podem ser:\n\n- **Fatos**: Informações verificáveis.\n- **Estatísticas**: Números que apoiam seu ponto de vista.\n- **Exemplos**: Situações reais ou hipotéticas que ilustram sua ideia.\n\nExemplo: \"Estudos mostram que alunos que têm acesso a refeições saudáveis na escola têm melhor desempenho acadêmico.\"",
+        "title": "O Papel das Evidências",
+        "themes": [
+          "uso de evidências em argumentos"
+        ],
+        "image_search_string": "evidence in writing",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Persuasive Writing",
+    "generationLanguage": "pt-PT"
+  }
+}

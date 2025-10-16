@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Decimal (Float): Números con decimales, como `3,14` o `0,7`.",
+      "correction": "Decimal (Float): Números con decimales, como `3.14` o `0.7`.",
+      "description": "The use of a comma as the decimal separator (`3,14` and `0,7`) is standard in Spanish-speaking countries, but in programming contexts (especially Python), the period (`.`) is the correct separator for decimal numbers. Using a comma may confuse learners and cause syntax errors in code. The terminology should reflect programming conventions rather than local numeric formatting.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:53:04.264216",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleano (Boolean): Valores verdaderos o falsos, como `True` o `False`.",
+      "correction": "Booleano (Boolean): Valores verdaderos o falsos, como `True` o `False`.",
+      "description": "While the terminology is correct, the explanation could be improved for clarity. In Spanish, the boolean values are often referred to as 'verdadero' and 'falso', but in Python code, 'True' and 'False' are used. The current text is acceptable, but adding a note that 'True' and 'False' are the actual keywords in Python would enhance understanding. No correction needed, but a minor improvement is suggested.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "print(\"¿Soy estudiante?\", es_estudiante)",
+      "correction": "print(\"¿Soy estudiante?\", es_estudiante)",
+      "description": "The use of the question '¿Soy estudiante?' is grammatically correct, but in a real-world context, it is uncommon for someone to ask themselves this question. A more natural phrasing would be '¿Eres estudiante?' if addressing the user, or 'Es estudiante: True' to display the variable's value. The current phrasing is understandable but slightly unnatural in Spanish educational content.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

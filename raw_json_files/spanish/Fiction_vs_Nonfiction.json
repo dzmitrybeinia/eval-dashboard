@@ -1,0 +1,94 @@
+{
+  "request": {
+    "lesson_description": "Fiction vs Nonfiction: Understanding the differences, examples, and characteristics of each genre.",
+    "exercises_ratio": 0.8,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "CCSS.ELA-LITERACY.RL.6.9: Compare and contrast texts in different forms or genres in terms of their approaches to similar themes and topics.",
+    "additional_guidance": "Include real-world examples of fiction and nonfiction texts, focusing on key distinguishing features such as purpose, structure, and language. Emphasize critical thinking by asking students to classify texts and justify their reasoning.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "c04558f2",
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Ficción vs. No Ficción: Entendiendo las diferencias",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una exploración fascinante de dos mundos literarios! Hoy aprenderemos sobre las principales diferencias entre la ficción y la no ficción. 🌟",
+        "title": "Introducción: Dos mundos literarios",
+        "themes": [
+          "Introducción a géneros literarios"
+        ],
+        "image_search_string": "ficción y no ficción libros",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La ficción es un género literario que incluye historias inventadas o imaginadas. Su propósito principal es entretener, inspirar o provocar emociones. Ejemplos incluyen novelas, cuentos, y obras de teatro.",
+        "title": "¿Qué es la ficción?",
+        "themes": [
+          "Definición de ficción"
+        ],
+        "image_search_string": "libros de ficción",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La no ficción incluye textos basados en hechos reales, como biografías, ensayos y reportajes. Su objetivo es informar, educar o persuadir al lector.",
+        "title": "¿Qué es la no ficción?",
+        "themes": [
+          "Definición de no ficción"
+        ],
+        "image_search_string": "libros de no ficción",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "| Característica         | Ficción                           | No Ficción                      |\n|-----------------------|----------------------------------|----------------------------------|\n| Propósito            | Entretener o inspirar            | Informar o persuadir             |\n| Contenido            | Imaginado o inventado            | Basado en hechos reales          |\n| Ejemplos             | Novelas, cuentos, poesía         | Biografías, ensayos, reportajes |\n| Lenguaje             | Creativo y descriptivo           | Preciso y claro                 |",
+        "title": "Comparación: Ficción vs No Ficción",
+        "themes": [
+          "Comparación entre géneros literarios"
+        ],
+        "image_search_string": "comparación ficción no ficción",
+        "question_types": [
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Ejemplo de ficción: \"El Principito\" de Antoine de Saint-Exupéry, una historia imaginativa sobre un pequeño príncipe y sus aventuras.\n\nEjemplo de no ficción: \"El diario de Ana Frank\", un relato real sobre la vida de una joven durante la Segunda Guerra Mundial.",
+        "title": "Ejemplos del mundo real",
+        "themes": [
+          "Ejemplos de ficción",
+          "Ejemplos de no ficción"
+        ],
+        "image_search_string": "ejemplo ficción y no ficción",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Cuando leas un texto, pregúntate: ¿Es una historia real o inventada? ¿El propósito es entretener o informar? Estas preguntas te ayudarán a clasificar textos correctamente.",
+        "title": "Cómo identificar el género",
+        "themes": [
+          "Clasificación de textos"
+        ],
+        "image_search_string": "clasificación de textos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "es-ES"
+  }
+}

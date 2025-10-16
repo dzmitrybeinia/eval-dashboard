@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El haiku es una forma de poesía japonesa tradicional. Se caracteriza por tener tres versos con un esquema de sílabas de 5-7-5.",
+      "correction": "El haiku es una forma de poesía japonesa tradicional. Se caracteriza por tener tres versos con un esquema silábico de 5-7-5.",
+      "description": "The phrase 'esquema de sílabas' is not the most precise or natural way to refer to the syllable pattern in Spanish. The correct and standard term in Spain is 'esquema silábico', which directly refers to the arrangement of syllables. This correction improves lexical precision and aligns with educational terminology used in Spain.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El soneto es una forma poética que tiene catorce versos, generalmente divididos en dos cuartetos y dos tercetos.",
+      "correction": "El soneto es una forma poética que tiene catorce versos, generalmente distribuidos en dos cuartetos y dos tercetos.",
+      "description": "The use of 'divididos' is acceptable, but 'distribuidos' is more natural and commonly used in Spanish educational contexts when describing the structure of a sonnet. This change enhances the naturalness and professional tone of the content for Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "El verso libre es una forma de poesía que no sigue esquemas regulares de rima o métrica. Aunque puede parecer más libre, requiere un uso creativo del lenguaje para transmitir ritmo, imágenes y emociones.",
+      "correction": "El verso libre es una forma de poesía que no sigue esquemas regulares de rima ni de métrica. Aunque puede parecer más libre, requiere un uso creativo del lenguaje para transmitir ritmo, imágenes y emociones.",
+      "description": "The phrase 'de rima o métrica' is understandable, but in Spain, the more natural and idiomatic way to express this is 'de rima ni de métrica', using 'ni' to reinforce the absence of both elements. This adjustment improves the style and naturalness of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El limerick es una forma de poesía humorística con cinco versos y un esquema de rima AABBA. Es conocido por su ritmo alegre y sus historias humorísticas o absurdas.",
+      "correction": "El limerick es una forma de poesía humorística con cinco versos y un esquema de rima AABBA. Es conocido por su ritmo animado y sus historias humorísticas o absurdas.",
+      "description": "The word 'alegre' is acceptable, but 'animado' is more commonly used in Spain to describe a lively or upbeat rhythm in poetry. This change makes the description more culturally appropriate and natural for Spanish audiences.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:38:47.281976",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

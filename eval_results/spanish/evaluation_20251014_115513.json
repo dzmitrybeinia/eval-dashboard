@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Un mazo estándar tiene 52 cartas.",
+      "correction": "Un mazo estándar de póker tiene 52 cartas.",
+      "description": "The phrase 'Un mazo estándar tiene 52 cartas' may be ambiguous in regions where the standard deck is not 52 cards (e.g., Spanish decks typically have 40 or 48 cards). Specifying 'de póker' clarifies the type of deck and avoids cultural confusion.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "50 %",
+      "correction": "50%",
+      "description": "In Spanish, the percent sign should be written without a space between the number and the symbol ('50%'). This error appears in several examples and should be corrected for proper orthographic convention.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "16,7 %",
+      "correction": "16,7%",
+      "description": "The percent sign should be written without a space ('16,7%'). This is a minor orthographic error affecting clarity and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "7,7 %",
+      "correction": "7,7%",
+      "description": "The percent sign should be written without a space ('7,7%'). This is a minor orthographic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Este principio se usa en decisiones justas, como elegir quién empieza un juego.",
+      "correction": "Este principio se usa en decisiones justas, como decidir quién comienza un juego.",
+      "description": "The phrase 'elegir quién empieza un juego' is understandable, but 'decidir quién comienza un juego' is more natural and neutral in Spanish, especially for educational contexts. This improves the localization and style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:55:13.364979",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 7
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "cara y cruz",
+      "correction": "cara y cruz",
+      "description": "Although 'cara y cruz' is correct in Spanish, in some regions 'águila y sol' is used for coin sides. However, since the lesson is intended for a general audience and 'cara y cruz' is standard in most Spanish-speaking countries, no correction is needed. This is a minor regional consideration, not a linguistic error.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "0,5",
+      "correction": "0,5",
+      "description": "The use of the comma as a decimal separator is correct for Spanish. No correction needed, but this confirms proper localization for number format.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

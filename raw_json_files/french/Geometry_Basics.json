@@ -1,0 +1,94 @@
+{
+  "request": {
+    "lesson_description": "Geometry Basics: Understanding points, lines, planes, and angles.",
+    "exercises_ratio": 0.4,
+    "grade_level": "7th grade",
+    "estimated_length": 10,
+    "learning_standard": "CCSS.MATH.CONTENT.7.G.A.1: Solve problems involving scale drawings of geometric figures, including computing actual lengths and areas from a scale drawing and reproducing a scale drawing at a different scale.",
+    "additional_guidance": "Include real-world examples such as architecture or engineering applications to demonstrate the relevance of these foundational concepts.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "14d5b833",
+    "topicInEnglish": "Geometry Basics",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Les Bases de la Géométrie : Points, Lignes, Plans et Angles",
+    "slides": [
+      {
+        "content": "Bienvenue dans le monde fascinant de la géométrie ! Aujourd'hui, nous allons explorer les concepts fondamentaux comme les points, les lignes, les plans et les angles. Ces notions sont essentielles non seulement en mathématiques, mais aussi dans des domaines comme l'architecture et l'ingénierie. Prêts à commencer ? ✨",
+        "title": "Introduction à la géométrie",
+        "themes": [
+          "introduction à la géométrie"
+        ],
+        "image_search_string": "geometry basics illustration",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Un **point** est une position unique dans l'espace. Il n'a ni longueur, ni largeur, ni hauteur. On le représente souvent par un petit cercle ou une croix et on le nomme avec une lettre majuscule, par exemple, A ou B.",
+        "title": "Qu'est-ce qu'un point ?",
+        "themes": [
+          "définition d'un point"
+        ],
+        "image_search_string": "geometric point diagram",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Une **ligne** est une suite infinie de points alignés dans une direction. Il existe plusieurs types de lignes : les lignes droites, les segments (une partie de ligne limitée par deux points), et les rayons (une ligne qui s'étend dans une seule direction à partir d'un point).",
+        "title": "Qu'est-ce qu'une ligne ?",
+        "themes": [
+          "définition d'une ligne",
+          "types de lignes"
+        ],
+        "image_search_string": "line types geometry",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Un **plan** est une surface plate qui s'étend à l'infini dans toutes les directions. Imaginez une feuille de papier infiniment grande. Les plans sont utilisés pour représenter des surfaces dans des dessins architecturaux.",
+        "title": "Qu'est-ce qu'un plan ?",
+        "themes": [
+          "définition d'un plan"
+        ],
+        "image_search_string": "geometry plane representation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un **angle** est formé lorsque deux lignes ou rayons se rencontrent à un point commun, appelé le sommet. Les angles sont mesurés en degrés (°). On les trouve partout dans les bâtiments et les structures.",
+        "title": "Qu'est-ce qu'un angle ?",
+        "themes": [
+          "définition d'un angle"
+        ],
+        "image_search_string": "angle geometry diagram",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Appliquons maintenant ces concepts dans le monde réel ! Par exemple, les architectes utilisent des points et des lignes pour concevoir des bâtiments, et les ingénieurs calculent des angles pour assurer la stabilité des structures. Imaginez un pont suspendu : chaque câble suit une ligne et les angles déterminent la répartition des forces.",
+        "title": "Applications pratiques des concepts géométriques",
+        "themes": [
+          "applications des concepts géométriques"
+        ],
+        "image_search_string": "bridge architecture geometry",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Geometry Basics",
+    "generationLanguage": "fr-FR"
+  }
+}

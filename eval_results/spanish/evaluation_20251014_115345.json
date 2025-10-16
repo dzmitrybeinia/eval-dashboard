@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "una mayor confianza en uno/a mismo/a",
+      "correction": "una mayor confianza en uno mismo o una misma",
+      "description": "The phrase 'uno/a mismo/a' uses a slash to indicate gender inclusivity, which is not standard in formal Spanish writing. The correct approach is to use 'uno mismo o una misma' to maintain grammatical correctness and clarity. This also avoids ambiguity and aligns with accepted Spanish language conventions for inclusive language.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "IE",
+      "correction": "inteligencia emocional",
+      "description": "The abbreviation 'IE' for 'inteligencia emocional' is not widely recognized in Spanish educational contexts and may cause confusion. It is preferable to use the full term 'inteligencia emocional' for clarity and consistency, especially in educational materials targeting a broad audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:53:45.261134",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Recuerda que la inteligencia emocional se desarrolla con la práctica diaria.",
+      "correction": "Recuerda que la inteligencia emocional se desarrolla con la práctica diaria.",
+      "description": "While the sentence is linguistically correct, the use of the informal imperative 'Recuerda' may not be appropriate for all educational contexts, especially if the lesson is intended for a formal or adult audience. Consider using a more neutral or formal register, such as 'Es importante recordar que la inteligencia emocional se desarrolla con la práctica diaria,' to ensure appropriateness across different learner groups.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

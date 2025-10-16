@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Manchmal kann das Lesen eines Textes schwierig erscheinen, besonders wenn man ihn schnell verstehen muss.",
+      "correction": "Manchmal kann das Lesen eines Textes schwierig sein, besonders wenn man ihn schnell verstehen muss.",
+      "description": "The phrase 'schwierig erscheinen' is less natural in German educational contexts; 'schwierig sein' is more direct and idiomatic. The original is understandable but stylistically awkward for native readers. This affects the naturalness and professional tone of the introduction.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Mindmaps oder Diagramme können helfen, Informationen zu strukturieren und Verbindungen aufzuzeigen.",
+      "correction": "Mindmaps oder Diagramme können helfen, Informationen zu strukturieren und Zusammenhänge aufzuzeigen.",
+      "description": "The word 'Verbindungen' is not incorrect, but 'Zusammenhänge' is the more precise and commonly used term in German educational contexts when referring to conceptual links in texts. This improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Beim Lesen von Sachtexten ist es wichtig, sich auf den Zweck des Textes, die Zielgruppe und die Struktur zu konzentrieren.",
+      "correction": "Beim Lesen von Sachtexten ist es wichtig, sich auf die Intention des Textes, die Zielgruppe und die Struktur zu konzentrieren.",
+      "description": "The term 'Zweck' is acceptable, but 'Intention' is more commonly used in German didactic materials when discussing the author's purpose. This change enhances the professional terminology and aligns with local educational standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:25.728697",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

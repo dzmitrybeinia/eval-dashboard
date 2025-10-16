@@ -1,0 +1,80 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Avec environ 2,3 milliards d'adeptes, c'est la plus grande religion au monde.",
+      "correction": "Avec environ 2,3 milliards d'adeptes, c'est la religion la plus répandue au monde.",
+      "description": "The phrase 'la plus grande religion au monde' can be ambiguous in French, as 'grande' may refer to importance rather than number of followers. 'La religion la plus répandue au monde' is more precise and culturally neutral, focusing on the number of adherents.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "fondée au 7ème siècle en Arabie par le prophète Mahomet.",
+      "correction": "fondée au VIIe siècle en Arabie par le prophète Mahomet.",
+      "description": "In French, centuries are conventionally written in Roman numerals with the superscript 'e' (e.g., 'VIIe siècle'), not with Arabic numerals and 'ème'. This correction aligns with standard French academic formatting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "fondé par Siddhartha Gautama (le Bouddha) au 6ème siècle avant J.-C.",
+      "correction": "fondé par Siddhartha Gautama (le Bouddha) au VIe siècle avant J.-C.",
+      "description": "The century should be written in Roman numerals with the superscript 'e' ('VIe siècle') according to French academic conventions, rather than '6ème siècle'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le judaïsme est une religion monothéiste ancienne, centrée sur l'alliance entre Dieu et le peuple juif.",
+      "correction": "Le judaïsme est une religion monothéiste ancienne, centrée sur l'alliance entre Dieu et le peuple d'Israël.",
+      "description": "In French educational and interfaith contexts, 'peuple d'Israël' is preferred over 'peuple juif' for neutrality and inclusivity, as it refers to the historical and religious context without potential cultural sensitivity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les pratiques incluent des fêtes comme le Sabbat et des rites comme la circoncision.",
+      "correction": "Les pratiques incluent des fêtes comme le Chabbat et des rites comme la circoncision.",
+      "description": "The term 'Sabbat' is less commonly used in French to refer to the Jewish day of rest; 'Chabbat' is the standard transliteration in French Jewish and academic contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:34:19.509736",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 6
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Préparez-vous à un voyage fascinant à travers les traditions spirituelles qui ont façonné l'histoire et les cultures humaines 🌍.",
+      "correction": "Préparez-vous à un voyage fascinant à travers les traditions spirituelles qui ont façonné l'histoire et les cultures humaines.",
+      "description": "The use of the globe emoji (🌍) in educational content may be perceived as informal or unprofessional in French academic contexts, especially for older students or formal lessons. Removing the emoji ensures the tone remains appropriate and maintains the seriousness of the subject matter.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

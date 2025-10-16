@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "IA estrecha (débil)",
+      "correction": "IA estrecha",
+      "description": "The term 'IA estrecha (débil)' uses 'débil' as a translation for 'narrow AI' (weak AI). In Spanish educational and technical contexts, 'IA estrecha' is the standard term, and 'débil' is rarely used or may sound unnatural. Using only 'IA estrecha' ensures consistency with industry terminology and avoids confusion. This also improves the naturalness and professionalism of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "IA general (fuerte)",
+      "correction": "IA general",
+      "description": "The phrase 'IA general (fuerte)' includes 'fuerte' as a translation for 'general AI' (strong AI). In Spanish, 'IA general' is the accepted term in both academic and professional circles. Adding 'fuerte' is unnecessary and may cause confusion or sound less natural. Using 'IA general' aligns with standard Spanish terminology and improves clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Un sistema de recomendación de películas en Netflix.",
+      "correction": "Un sistema de recomendación de películas.",
+      "description": "Mentioning 'Netflix' as an example may not be culturally neutral, as not all learners use or have access to this platform. For broader educational applicability, it is better to use a generic example such as 'un sistema de recomendación de películas.' This avoids brand-specific references and ensures the content is inclusive and universally understandable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Plataformas como Netflix o Spotify que recomiendan contenido según tus preferencias.",
+      "correction": "Plataformas que recomiendan contenido según tus preferencias.",
+      "description": "Referencing specific brands like 'Netflix' and 'Spotify' may limit the cultural relevance and inclusivity of the content. Using a generic description such as 'plataformas que recomiendan contenido según tus preferencias' makes the example more universally applicable and avoids unnecessary brand promotion.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:55:50.354825",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

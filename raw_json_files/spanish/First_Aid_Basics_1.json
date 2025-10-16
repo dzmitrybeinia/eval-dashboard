@@ -1,0 +1,95 @@
+{
+  "request": {
+    "lesson_description": "First Aid Basics: Understanding how to respond to common injuries such as cuts, burns, and sprains, and recognizing emergency situations.",
+    "exercises_ratio": 0.4,
+    "grade_level": "8th grade",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Science Standards (NGSS): MS-LS1-8 - Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "d1befc85",
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Primeros Auxilios Básicos: Respuesta a Lesiones Comunes",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una lección sobre cómo actuar ante lesiones comunes! Aprenderemos cómo manejar situaciones como cortes, quemaduras y esguinces, y también a reconocer cuándo una situación requiere atención de emergencia. 🌟",
+        "title": "Introducción a los Primeros Auxilios",
+        "themes": [
+          "introducción a primeros auxilios"
+        ],
+        "image_search_string": "primeros auxilios introducción",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Los primeros auxilios son la ayuda inmediata que se brinda a una persona lesionada o enferma antes de que llegue ayuda médica profesional. Su objetivo principal es salvar vidas, prevenir el empeoramiento de la lesión y promover la recuperación.",
+        "title": "¿Qué son los Primeros Auxilios?",
+        "themes": [
+          "definición de primeros auxilios"
+        ],
+        "image_search_string": "concepto primeros auxilios",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Cuando alguien se corta, es importante actuar rápidamente para evitar infecciones y controlar el sangrado. Pasos básicos:\n\n1. Lávate las manos antes de tocar la herida.\n2. Presiona con una gasa limpia para detener el sangrado.\n3. Limpia la herida con agua y jabón suave.\n4. Cubre con un vendaje estéril.\n5. Consulta a un médico si es necesario.",
+        "title": "Cómo Actuar Ante un Corte",
+        "themes": [
+          "procedimiento para cortes"
+        ],
+        "image_search_string": "primeros auxilios cortes",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Las quemaduras pueden ser superficiales o más graves. Para quemaduras leves:\n\n1. Enfría la quemadura con agua corriente por 10 minutos.\n2. No revientes ampollas si las hay.\n3. Cubre con un apósito limpio y no adherente.\n\nPara quemaduras graves:\n\n- Llama a emergencias inmediatamente.\n- No quites ropa adherida a la piel.\n- Mantén a la persona cómoda hasta que llegue ayuda.",
+        "title": "Cómo Actuar Ante Quemaduras",
+        "themes": [
+          "manejo de quemaduras"
+        ],
+        "image_search_string": "primeros auxilios quemaduras",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Un esguince ocurre cuando un ligamento se estira o se desgarra. Para tratar un esguince leve:\n\n1. Reposa la articulación afectada.\n2. Aplica hielo para reducir la hinchazón.\n3. Comprime con una venda elástica.\n4. Eleva la extremidad lesionada.\n\nConsulta a un médico si el dolor es severo o si no mejora.",
+        "title": "Cómo Actuar Ante un Esguince",
+        "themes": [
+          "procedimiento para esguinces"
+        ],
+        "image_search_string": "primeros auxilios esguinces",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Es importante reconocer las señales de una emergencia médica como:\n\n- Dificultad para respirar.\n- Pérdida de consciencia.\n- Sangrado abundante.\n- Dolor en el pecho.\n\nEn estas situaciones:\n\n1. Llama al 112 (o número de emergencias local).\n2. Proporciona información clara sobre la situación.\n3. Sigue las instrucciones del operador.",
+        "title": "Reconociendo Situaciones de Emergencia",
+        "themes": [
+          "señales de emergencia médica"
+        ],
+        "image_search_string": "señales emergencia médica",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "es-ES"
+  }
+}

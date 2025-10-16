@@ -1,0 +1,114 @@
+{
+  "request": {
+    "lesson_description": "Exploring Music Genres: Understanding the characteristics and cultural significance of genres such as classical, jazz, rock, hip-hop, and electronic music.",
+    "exercises_ratio": 0.3,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "National Core Arts Standards: MU:Re7.1.H.IIIa - Demonstrate and justify how a varied repertoire of music genres and styles conveys expression and meaning.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "f79d5ef5",
+    "topicInEnglish": "Music Genres",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Exploring Music Genres: Characteristics and Cultural Significance",
+    "slides": [
+      {
+        "content": "La musique est un langage universel qui traverse les frontières culturelles et temporelles. Chaque genre musical raconte une histoire unique, reflétant les valeurs, les émotions et les expériences des individus et des communautés. Dans cette leçon, nous allons explorer les caractéristiques et l'importance culturelle des genres musicaux tels que le classique, le jazz, le rock, le hip-hop et la musique électronique. 🎵",
+        "title": "Introduction à la diversité musicale",
+        "themes": [
+          "importance des genres musicaux"
+        ],
+        "image_search_string": "musical genres collage",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La musique classique est souvent associée à des compositeurs célèbres tels que Beethoven, Mozart et Bach. Elle se caractérise par des structures complexes, une instrumentation acoustique, et des formes comme la symphonie, le concerto et l'opéra. Ce genre a influencé de nombreuses traditions musicales modernes.",
+        "title": "Les bases de la musique classique",
+        "themes": [
+          "caractéristiques de la musique classique",
+          "compositeurs influents"
+        ],
+        "image_search_string": "classical music instruments",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Le jazz, né au début du XXe siècle aux États-Unis, est connu pour son improvisation et ses rythmes syncopés. Des artistes comme Louis Armstrong et Ella Fitzgerald ont marqué ce genre. Le jazz est un mélange de traditions africaines et européennes, et il a influencé de nombreux autres styles musicaux.",
+        "title": "L'improvisation du jazz",
+        "themes": [
+          "origine et caractéristiques du jazz",
+          "influence culturelle du jazz"
+        ],
+        "image_search_string": "jazz musicians performing",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le rock a émergé dans les années 1950 et 1960 avec des groupes emblématiques comme les Beatles et les Rolling Stones. Il est caractérisé par une forte utilisation de la guitare électrique, des paroles expressives et un rythme énergique. Ce genre a reflété les changements sociaux et culturels de son époque.",
+        "title": "L'énergie du rock",
+        "themes": [
+          "évolution du rock",
+          "impact social du rock"
+        ],
+        "image_search_string": "rock band performance",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le hip-hop est né dans les années 1970 dans les quartiers urbains des États-Unis. Il inclut le rap, le DJing, le breakdance et le graffiti. Ce genre exprime souvent des récits de lutte, de résistance et d'identité culturelle, avec des artistes comme Tupac et Lauryn Hill.",
+        "title": "L'expression dans le hip-hop",
+        "themes": [
+          "éléments du hip-hop",
+          "messages culturels"
+        ],
+        "image_search_string": "hip hop culture",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La musique électronique englobe une variété de styles créés à l'aide d'instruments électroniques et de logiciels. Ce genre, popularisé par des artistes comme Daft Punk et Avicii, est souvent associé à des festivals et à la danse. Ses rythmes et sons uniques ont redéfini la manière dont nous percevons la musique.",
+        "title": "L'innovation de la musique électronique",
+        "themes": [
+          "caractéristiques de la musique électronique",
+          "influence moderne"
+        ],
+        "image_search_string": "electronic music festival",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Chaque genre musical offre une perspective unique sur l'expérience humaine. En explorant ces genres, nous comprenons mieux comment la musique transmet des émotions, raconte des histoires et façonne des cultures.",
+        "title": "Conclusion : La musique comme expression universelle",
+        "themes": [
+          "signification universelle de la musique"
+        ],
+        "image_search_string": "world music diversity",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Music Genres",
+    "generationLanguage": "fr-FR"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ser persistente frente a las dificultades",
+      "correction": "ser persistentes frente a las dificultades",
+      "description": "There is a lack of number agreement between the subject and the adjective. The list uses plural forms ('aceptar los retos', 'ver los errores'), so 'ser persistente' should also be plural ('ser persistentes') to maintain grammatical consistency and correct agreement with the implied plural subject.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Practicar la gratitud por lo que aprendes.",
+      "correction": "Practicar la gratitud por lo que aprendes cada día.",
+      "description": "The original phrase is grammatically correct but slightly unnatural in Spanish educational contexts. Adding 'cada día' makes the expression more idiomatic and culturally appropriate, emphasizing the ongoing nature of gratitude and learning, which aligns better with Spanish pedagogical style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:54.846312",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El ADN, o ácido desoxirribonucleico, es una molécula compuesta por dos cadenas en espiral que forman una estructura llamada doble hélice.",
+      "correction": "El ADN, o ácido desoxirribonucleico, es una molécula compuesta por dos cadenas en espiral que forman una estructura denominada doble hélice.",
+      "description": "The use of 'llamada' is grammatically correct, but in scientific and educational contexts in Spain, 'denominada' is preferred for technical precision and formality. This improves lexical precision and aligns with standard Spanish scientific style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¿Sabías que es como el manual de instrucciones de la vida? ¡Vamos a explorar cómo está construido y por qué es tan importante!",
+      "correction": "¿Sabías que es como el manual de instrucciones de la vida? ¡Vamos a explorar cómo está formado y por qué es tan importante!",
+      "description": "The phrase 'cómo está construido' is understandable but less natural in Spain when referring to molecules; 'cómo está formado' is more idiomatic and commonly used in educational contexts. This change enhances naturalness and local style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cada cadena está hecha de nucleótidos, que consisten en un azúcar, un grupo fosfato y una base nitrogenada.",
+      "correction": "Cada cadena está formada por nucleótidos, que constan de un azúcar, un grupo fosfato y una base nitrogenada.",
+      "description": "The verb 'hecha de' is less precise than 'formada por' in scientific Spanish, and 'consisten en' should be replaced with 'constan de' for correct collocation and technical accuracy. This correction improves lexical precision and scientific register.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "El ADN puede sufrir cambios o \"mutaciones\" que alteran su secuencia.",
+      "correction": "El ADN puede sufrir cambios o mutaciones que alteran su secuencia.",
+      "description": "Quotation marks around 'mutaciones' are unnecessary in Spanish scientific writing and may imply the term is informal or questionable. Removing them aligns with standard Spanish style and improves professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los científicos usan técnicas como la PCR (reacción en cadena de la polimerasa) para estudiar el ADN.",
+      "correction": "Los científicos emplean técnicas como la PCR (reacción en cadena de la polimerasa) para estudiar el ADN.",
+      "description": "In Spain, 'emplear' is more formal and preferred in scientific contexts over 'usar'. This change enhances the professional tone and aligns with local terminology conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:22:52.701064",
+    "model": "gpt-4.1",
+    "label": "v9"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

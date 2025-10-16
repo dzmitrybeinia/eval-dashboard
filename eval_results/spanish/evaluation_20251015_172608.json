@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Hola, estudiantes! Hoy vamos a explorar cómo ser amigos increíbles aprendiendo sobre empatía, comunicación efectiva y cómo resolver conflictos de manera positiva. 🌟 ¡Prepárense para descubrir habilidades que les ayudarán a construir y mantener amistades fuertes y saludables!",
+      "correction": "¡Hola, estudiantes! Hoy vamos a explorar cómo ser buenos amigos aprendiendo sobre empatía, comunicación efectiva y cómo resolver conflictos de manera positiva. 🌟 ¡Prepárense para descubrir habilidades que les ayudarán a construir y mantener amistades fuertes y saludables!",
+      "description": "The phrase 'amigos increíbles' is somewhat informal and may sound exaggerated or unnatural in educational content for Spain. 'Buenos amigos' is a more culturally appropriate and natural expression in this context, maintaining a positive tone without overstatement. The rest of the text is linguistically correct and culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Por ejemplo, si un amigo está nervioso antes de un examen, puedes decirle: \"Sé que puedes hacerlo, confío en ti\".",
+      "correction": "Por ejemplo, si un amigo está nervioso antes de un examen, puedes decirle: \"Sé que puedes hacerlo; confío en ti\".",
+      "description": "A semicolon is more appropriate than a comma to separate two independent clauses in Spanish, especially in formal or educational writing. This improves clarity and aligns with standard punctuation rules in Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Practicar las habilidades de amistad puede ser divertido. Intenta juegos de roles donde simules conflictos y los resuelvas, o actividades donde trabajes en equipo para lograr un objetivo común.",
+      "correction": "Practicar las habilidades de amistad puede ser divertido. Prueba juegos de rol donde simules conflictos y los resuelvas, o actividades en equipo para lograr un objetivo común.",
+      "description": "The phrase 'juegos de roles' is a literal translation from English and is less natural in Peninsular Spanish. 'Juegos de rol' is the standard term in Spain. Additionally, 'prueba' is more idiomatic than 'intenta' in this context. The rest of the text is linguistically correct.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:26:08.281243",
+    "model": "gpt-4.1",
+    "label": "v12"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

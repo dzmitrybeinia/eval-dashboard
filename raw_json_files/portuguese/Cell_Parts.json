@@ -1,0 +1,211 @@
+{
+  "request": {
+    "lesson_description": "Introduction to cell parts: Exploring the structure and functions of organelles such as the nucleus, mitochondria, ribosomes, and more.",
+    "exercises_ratio": 1.0,
+    "grade_level": "7th grade",
+    "estimated_length": 25,
+    "learning_standard": "Next Generation Science Standards (NGSS): MS-LS1-2 - Develop and use a model to describe the function of a cell as a whole and ways parts of cells contribute to the function.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "50e66590",
+    "topicInEnglish": "Cell Parts",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Introdução às Partes da Célula: Estrutura e Função dos Organelos",
+    "slides": [
+      {
+        "content": "Bem-vindos ao fascinante mundo das células! Vamos descobrir como cada parte da célula desempenha um papel essencial para o funcionamento dela. 🌱",
+        "title": "Bem-vindo ao Mundo das Células",
+        "themes": [
+          "introdução às células"
+        ],
+        "image_search_string": "célula microscópica",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "As células são as unidades básicas da vida. Elas podem ser comparadas a pequenas fábricas que realizam diversas funções para manter os organismos vivos.",
+        "title": "O que são as células?",
+        "themes": [
+          "definição de célula"
+        ],
+        "image_search_string": "células ao microscópio",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Existem dois tipos principais de células: procariotas (sem núcleo definido, como bactérias) e eucariotas (com núcleo, como as células humanas).",
+        "title": "Tipos de Células",
+        "themes": [
+          "diferença entre procariotas e eucariotas"
+        ],
+        "image_search_string": "célula procariota e eucariota",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O núcleo é como o \"cérebro\" da célula. Ele contém o DNA, que guarda as instruções para todas as atividades e características da célula.",
+        "title": "O Núcleo",
+        "themes": [
+          "função do núcleo"
+        ],
+        "image_search_string": "diagrama de núcleo celular",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "As mitocôndrias são conhecidas como as \"usinas de energia\" da célula. Elas produzem energia para todas as atividades celulares através da respiração celular.",
+        "title": "Mitocôndrias",
+        "themes": [
+          "função das mitocôndrias"
+        ],
+        "image_search_string": "mitocôndrias",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Os ribossomos são responsáveis por produzir proteínas, essenciais para o funcionamento celular. Podem estar livres no citoplasma ou presos ao retículo endoplasmático.",
+        "title": "Ribossomos",
+        "themes": [
+          "função dos ribossomos"
+        ],
+        "image_search_string": "ribossomos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O retículo endoplasmático é uma rede de membranas que transporta substâncias pela célula. Ele pode ser liso (sem ribossomos) ou rugoso (com ribossomos).",
+        "title": "Retículo Endoplasmático",
+        "themes": [
+          "função do retículo endoplasmático"
+        ],
+        "image_search_string": "retículo endoplasmático",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O complexo de Golgi é o centro de distribuição da célula. Ele modifica, empacota e envia proteínas para seus destinos.",
+        "title": "Complexo de Golgi",
+        "themes": [
+          "função do complexo de Golgi"
+        ],
+        "image_search_string": "complexo de Golgi",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Os lisossomos são estruturas que contêm enzimas digestivas, ajudando a quebrar resíduos e proteger a célula contra invasores.",
+        "title": "Lisossomos",
+        "themes": [
+          "função dos lisossomos"
+        ],
+        "image_search_string": "lisossomos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O citoplasma é o fluido gelatinoso que preenche a célula, onde ocorrem muitas reações químicas importantes.",
+        "title": "Citoplasma",
+        "themes": [
+          "função do citoplasma"
+        ],
+        "image_search_string": "citoplasma",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "A membrana plasmática é como uma barreira protetora que controla o que entra e sai da célula.",
+        "title": "Membrana Plasmática",
+        "themes": [
+          "função da membrana plasmática"
+        ],
+        "image_search_string": "membrana celular",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "As células vegetais possuem cloroplastos, que realizam a fotossíntese, convertendo luz solar em energia. Essa é uma característica única das plantas.",
+        "title": "Cloroplastos",
+        "themes": [
+          "função dos cloroplastos"
+        ],
+        "image_search_string": "cloroplastos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A parede celular é uma estrutura rígida que dá suporte e proteção às células vegetais, além de manter sua forma.",
+        "title": "Parede Celular",
+        "themes": [
+          "função da parede celular"
+        ],
+        "image_search_string": "parede celular",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O vacúolo é uma bolsa que armazena água, nutrientes e resíduos. Nas plantas, ele é grande e ajuda a manter a forma da célula.",
+        "title": "Vacúolo",
+        "themes": [
+          "função do vacúolo"
+        ],
+        "image_search_string": "vacúolo celular",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A célula é como uma cidade, onde cada organelo tem um papel específico, como o núcleo sendo a prefeitura e as mitocôndrias as usinas de energia.",
+        "title": "A Célula como uma Cidade",
+        "themes": [
+          "analogia célula e cidade"
+        ],
+        "image_search_string": "analogia célula cidade",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "As organelas trabalham juntas para manter a célula viva. Por exemplo, o núcleo dá instruções, enquanto as mitocôndrias fornecem energia.",
+        "title": "Trabalho em Equipe das Organelas",
+        "themes": [
+          "colaboração entre organelas"
+        ],
+        "image_search_string": "organelas em conjunto",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Cell Parts",
+    "generationLanguage": "pt-PT"
+  }
+}

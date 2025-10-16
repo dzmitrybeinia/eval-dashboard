@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Popmusik ist ein Genre, das durch eingängige Melodien, einfache Texte und breite Massenansprache definiert wird.",
+      "correction": "Popmusik ist ein Genre, das durch eingängige Melodien, einfache Texte und breite Massenwirksamkeit definiert wird.",
+      "description": "The term 'Massenansprache' is not the most natural or standard way to describe the broad appeal of pop music in German. 'Massenwirksamkeit' is more idiomatic and commonly used in this context, improving the naturalness and professionalism of the terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:45:54.357282",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Heute tauchen wir in diese faszinierende Welt der Musikgenres ein! 🎵",
+      "correction": "Heute tauchen wir in diese faszinierende Welt der Musikgenres ein!",
+      "description": "The use of the musical note emoji (🎵) at the end of the sentence may be considered informal or unprofessional in educational content, especially for older students or formal learning environments. Removing the emoji ensures a more neutral and universally appropriate tone.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

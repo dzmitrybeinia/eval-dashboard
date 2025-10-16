@@ -1,0 +1,111 @@
+{
+  "request": {
+    "lesson_description": "Understanding the six types of simple machines: lever, wheel and axle, pulley, inclined plane, wedge, and screw, and how they reduce effort in work.",
+    "exercises_ratio": 0.3,
+    "grade_level": "5th grade",
+    "estimated_length": 10,
+    "learning_standard": "NGSS.5-PS2-1: Support an argument that the gravitational force exerted by Earth on objects is directed down.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "b275a25b",
+    "topicInEnglish": "Simple Machines",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Las seis máquinas simples y cómo facilitan el trabajo",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una aventura de aprendizaje sobre las máquinas simples! Hoy exploraremos cómo estas herramientas ingeniosas nos ayudan a hacer el trabajo más fácil y eficiente. 🌟",
+        "title": "Introducción a las máquinas simples",
+        "themes": [
+          "introducción a máquinas simples"
+        ],
+        "image_search_string": "máquinas simples",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Las máquinas simples son herramientas que nos ayudan a reducir el esfuerzo necesario para realizar un trabajo. Hay seis tipos principales: palanca, rueda y eje, polea, plano inclinado, cuña y tornillo. Cada una tiene un diseño único que nos permite aprovechar mejor las fuerzas.",
+        "title": "¿Qué son las máquinas simples?",
+        "themes": [
+          "definición de máquinas simples",
+          "tipos de máquinas simples"
+        ],
+        "image_search_string": "tipos de máquinas simples",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La palanca es una barra rígida que gira sobre un punto de apoyo llamado fulcro. Se utiliza para mover objetos aplicando menos fuerza. Ejemplos incluyen balancines y palancas de puerta.",
+        "title": "La palanca",
+        "themes": [
+          "función de la palanca",
+          "ejemplos de palanca"
+        ],
+        "image_search_string": "ejemplo de palanca",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La rueda y el eje consisten en una rueda grande conectada a un eje más pequeño. Este diseño reduce la fricción y facilita el movimiento de cargas pesadas. Ejemplos comunes son las ruedas de carretillas y los engranajes.",
+        "title": "La rueda y el eje",
+        "themes": [
+          "estructura de rueda y eje",
+          "usos de rueda y eje"
+        ],
+        "image_search_string": "rueda y eje",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La polea es una rueda con una cuerda o cadena que pasa por su ranura. Permite levantar objetos pesados con menor esfuerzo. Las poleas son comunes en grúas y banderas.",
+        "title": "La polea",
+        "themes": [
+          "uso de la polea",
+          "ejemplos de polea"
+        ],
+        "image_search_string": "sistema de poleas",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El plano inclinado es una superficie plana que está inclinada respecto al suelo. Se usa para mover objetos hacia arriba o abajo con menos fuerza. Las rampas son un ejemplo clásico.",
+        "title": "El plano inclinado",
+        "themes": [
+          "función del plano inclinado",
+          "ejemplo de plano inclinado"
+        ],
+        "image_search_string": "plano inclinado",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La cuña y el tornillo son variantes del plano inclinado. La cuña transforma una fuerza hacia abajo en fuerzas laterales, como en cuchillos y hachas. El tornillo es un plano inclinado enrollado alrededor de un eje, utilizado en herramientas y estructuras.",
+        "title": "La cuña y el tornillo",
+        "themes": [
+          "función de la cuña",
+          "función del tornillo"
+        ],
+        "image_search_string": "cuña y tornillo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Simple Machines",
+    "generationLanguage": "es-ES"
+  }
+}

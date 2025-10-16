@@ -1,0 +1,128 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Variablen sind wie Behälter, die Informationen speichern.",
+      "correction": "Variablen sind wie Speicherbehälter, die Informationen aufnehmen.",
+      "description": "The term 'Behälter' is somewhat vague in German when describing variables in programming. 'Speicherbehälter' or 'Container' is more precise and commonly used in German educational contexts to describe variables as entities that store information. This improves clarity and aligns with standard terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zum Beispiel kannst du eine Variable namens 'Alter' erstellen und ihr den Wert 13 zuweisen.",
+      "correction": "Zum Beispiel kannst du eine Variable mit dem Namen 'Alter' erstellen und ihr den Wert 13 zuweisen.",
+      "description": "The phrase 'Variable namens' is understandable but 'Variable mit dem Namen' is more natural and idiomatic in German educational materials, improving the flow and clarity of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Später kannst du diesen Wert verwenden oder ändern.",
+      "correction": "Später kannst du diesen Wert weiterverwenden oder ändern.",
+      "description": "The addition of 'weiterverwenden' makes the sentence more idiomatic and natural in German, as it emphasizes the ability to reuse the value, which is a common concept in programming education.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Schleifen helfen uns, Dinge wiederholt auszuführen, ohne den gleichen Code immer wieder zu schreiben.",
+      "correction": "Schleifen helfen uns, Aufgaben wiederholt auszuführen, ohne den gleichen Code immer wieder zu schreiben.",
+      "description": "Replacing 'Dinge' with 'Aufgaben' provides a more precise and professional term in the context of programming, as 'Aufgaben' better reflects the nature of operations performed in code.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zum Beispiel kannst du mit einer Schleife 10-mal 'Hallo' ausgeben lassen.",
+      "correction": "Zum Beispiel kannst du mit einer Schleife zehnmal 'Hallo' ausgeben lassen.",
+      "description": "Writing out 'zehnmal' instead of '10-mal' is more appropriate in educational German texts, especially for younger learners, as it follows standard style conventions for numbers up to twelve.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Algorithmen, Variablen und Schleifen arbeiten zusammen.",
+      "correction": "Algorithmen, Variablen und Schleifen arbeiten zusammen, um Programme effizient zu gestalten.",
+      "description": "The original sentence is correct but lacks context. Adding 'um Programme effizient zu gestalten' clarifies the purpose of these concepts working together, making the explanation more informative and natural for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ein Beispiel: Schreibe einen Algorithmus, der die Summe von Zahlen von 1 bis 10 berechnet.",
+      "correction": "Ein Beispiel: Schreibe einen Algorithmus, der die Summe der Zahlen von eins bis zehn berechnet.",
+      "description": "Writing out 'eins bis zehn' instead of '1 bis 10' is stylistically preferred in German educational texts for numbers up to twelve, improving readability and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Du verwendest eine Schleife, um jede Zahl hinzuzufügen, und eine Variable, um die Summe zu speichern.",
+      "correction": "Du verwendest eine Schleife, um jede Zahl zu addieren, und eine Variable, um die Summe zu speichern.",
+      "description": "Replacing 'hinzuzufügen' with 'zu addieren' is more precise in the context of summing numbers, as 'addieren' is the standard mathematical term in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Testen und Verbessern von Code ist wichtig.",
+      "correction": "Das Testen und Optimieren von Code ist wichtig.",
+      "description": "Using 'Optimieren' instead of 'Verbessern' is more idiomatic in German programming contexts, as 'optimieren' specifically refers to improving code efficiency and quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Dies nennt man Debugging.",
+      "correction": "Dies nennt man Fehlersuche (Debugging).",
+      "description": "Adding the German term 'Fehlersuche' alongside 'Debugging' improves localization by providing a clear explanation for learners who may not be familiar with the English term, while maintaining industry terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Übung: Schreibe einen Algorithmus für deinen Morgenablauf.",
+      "correction": "Übung: Schreibe einen Algorithmus für deinen Tagesablauf am Morgen.",
+      "description": "Replacing 'Morgenablauf' with 'Tagesablauf am Morgen' is more natural and commonly used in German educational contexts, clarifying that the exercise refers to the morning routine.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:43:42.385712",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 12
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 11,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 11,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Programmieren ist wie das Lösen eines Rätsels! Es ist eine Möglichkeit, Computern Anweisungen zu geben, damit sie Aufgaben für uns erledigen. Heute werden wir die Grundlagen kennenlernen: Algorithmen, Variablen und Schleifen. 🎮",
+      "correction": "Programmieren ist wie das Lösen eines Rätsels! Es ist eine Möglichkeit, Computern Anweisungen zu geben, damit sie Aufgaben für uns erledigen. Heute werden wir die Grundlagen kennenlernen: Algorithmen, Variablen und Schleifen.",
+      "description": "The use of the video game emoji 🎮 is not culturally appropriate for a general educational introduction to programming in German, as it may suggest a focus on gaming rather than the broader concept of programming. Removing the emoji ensures a more neutral and professional tone suitable for all audiences.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

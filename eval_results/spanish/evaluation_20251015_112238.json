@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En Corea, las familias se reúnen para realizar rituales ancestrales y comer tteokguk.",
+      "correction": "En Corea, las familias se reúnen para realizar rituales ancestrales y comer sopa de pastel de arroz (tteokguk).",
+      "description": "The term 'tteokguk' is used without explanation, which may be unfamiliar to Spanish-speaking learners in Spain. For better cultural localization and comprehension, it is recommended to briefly describe the dish in Spanish, such as 'sopa de pastel de arroz (tteokguk)'. This ensures clarity and maintains educational value.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En Vietnam, se decoran casas con flores de durazno y se celebra el Tet.",
+      "correction": "En Vietnam, se decoran casas con flores de melocotón y se celebra el Tet.",
+      "description": "The word 'durazno' is more commonly used in Latin America, while 'melocotón' is the standard term in Spain. For proper localization to Peninsular Spanish, 'melocotón' should be used to ensure naturalness and regional appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los sobres rojos (llamados 'hongbao' en China) son regalos comunes, y los fuegos artificiales se utilizan para ahuyentar a los espíritus malignos.",
+      "correction": "Los sobres rojos (llamados 'hongbao' en China) son regalos comunes, y los fuegos artificiales se utilizan para ahuyentar a los malos espíritus.",
+      "description": "The phrase 'espíritus malignos' is technically correct but less natural in Spanish from Spain, where 'malos espíritus' is more commonly used in this context. Adjusting the terminology improves naturalness and aligns with local usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:22:38.990340",
+    "model": "gpt-4.1",
+    "label": "v9"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "lesson_description": "Developing Friendship Skills: Understanding empathy, communication, and conflict resolution.",
+    "exercises_ratio": 0.7,
+    "grade_level": "5th grade",
+    "estimated_length": 15,
+    "learning_standard": "CASEL Core SEL Competencies: Relationship Skills - The ability to establish and maintain healthy and rewarding relationships with diverse individuals and groups.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "adc247b7",
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Développer des Compétences d'Amitié : Empathie, Communication et Résolution de Conflits",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon sur les compétences d'amitié ! Aujourd'hui, nous allons explorer comment développer des relations saines et enrichissantes avec les autres. Préparez-vous à découvrir l'empathie, la communication et la résolution de conflits. 🌟",
+        "title": "Introduction aux compétences d'amitié",
+        "themes": [
+          "introduction à l'empathie et communication"
+        ],
+        "image_search_string": "children friendship",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "L'empathie, c'est la capacité de comprendre et de partager les sentiments d'une autre personne. Voici quelques exemples :\n\n- Écouter attentivement un ami qui parle de ses problèmes.\n- Imaginer ce que ressent quelqu'un dans une situation difficile.\n- Offrir du soutien ou des mots encourageants quand quelqu'un en a besoin.",
+        "title": "Qu'est-ce que l'empathie ?",
+        "themes": [
+          "définition de l'empathie",
+          "exemples d'empathie"
+        ],
+        "image_search_string": "empathy concept",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Une bonne communication est essentielle dans toute relation. Voici quelques conseils pour mieux communiquer :\n\n- Écoutez avant de répondre.\n- Utilisez un ton respectueux et des mots clairs.\n- Posez des questions pour montrer que vous êtes intéressé.",
+        "title": "Les bases de la communication",
+        "themes": [
+          "importance de la bonne communication",
+          "conseils pour communiquer"
+        ],
+        "image_search_string": "communication skills",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les conflits peuvent survenir même entre amis proches. Voici comment les résoudre :\n\n1. Prenez un moment pour vous calmer si vous êtes en colère.\n2. Parlez calmement et expliquez vos sentiments.\n3. Écoutez l'autre personne et essayez de comprendre son point de vue.\n4. Trouvez ensemble une solution qui satisfait tout le monde.",
+        "title": "Résolution de conflits",
+        "themes": [
+          "étapes pour résoudre un conflit",
+          "importance de comprendre l'autre"
+        ],
+        "image_search_string": "conflict resolution",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "fr-FR"
+  }
+}

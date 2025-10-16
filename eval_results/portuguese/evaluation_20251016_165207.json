@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "IA fraca",
+      "correction": "IA estreita",
+      "description": "The term 'IA fraca' is a literal translation of 'weak AI' but is not the most natural or widely accepted terminology in Brazilian Portuguese. The preferred term in academic and professional contexts is 'IA estreita' for 'narrow AI.' Using 'IA estreita' improves clarity and aligns with local industry standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "IA forte",
+      "correction": "IA geral",
+      "description": "The term 'IA forte' is a direct translation of 'strong AI,' but in Brazilian Portuguese, 'IA geral' (general AI) is more commonly used to refer to artificial intelligence with human-level cognitive abilities. Adopting 'IA geral' ensures consistency with local terminology and enhances comprehension for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Siri, Alexa, Google Assistant",
+      "correction": "Google Assistente, Alexa, Siri",
+      "description": "The order of virtual assistants should prioritize those most commonly used in Brazil. 'Google Assistente' is more prevalent among Brazilian users than Siri, so listing it first reflects local usage patterns. Additionally, using the localized name 'Google Assistente' instead of 'Google Assistant' is important for cultural relevance.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Carros que dirigem sozinhos, como os da Tesla.",
+      "correction": "Carros que dirigem sozinhos, como os da Tesla e modelos de outras marcas presentes no Brasil.",
+      "description": "Referencing only Tesla may not be culturally appropriate, as Tesla vehicles are not widely available in Brazil. Including 'modelos de outras marcas presentes no Brasil' makes the example more relevant and relatable to the local audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:52:07.682103",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

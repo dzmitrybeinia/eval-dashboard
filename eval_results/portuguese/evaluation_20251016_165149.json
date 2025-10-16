@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "gás carbônico",
+      "correction": "dióxido de carbono",
+      "description": "The term 'gás carbônico' is commonly used in Brazilian Portuguese, but 'dióxido de carbono' is the scientifically accurate and internationally accepted term for CO₂. For educational content, especially in science, it is important to use precise terminology to avoid confusion and ensure consistency with global standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepare-se para descobrir como a matéria pode mudar de forma e comportamento!",
+      "correction": "Prepare-se para descobrir como a matéria pode mudar de forma e de comportamento!",
+      "description": "The phrase 'mudar de forma e comportamento' is understandable, but the omission of the preposition 'de' before 'comportamento' is stylistically awkward in Brazilian Portuguese. Adding 'de' improves the naturalness and flow of the sentence, making it sound more idiomatic and polished.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "relâmpagos",
+      "correction": "raios",
+      "description": "While 'relâmpagos' refers to the flash of lightning, the correct term for the plasma phenomenon is 'raios', which refers to the actual electrical discharge. In the context of plasma examples, 'raios' is more precise and scientifically accurate, avoiding potential confusion for students learning about states of matter.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:49.128423",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

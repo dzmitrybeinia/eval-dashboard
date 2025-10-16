@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introducción a la amistad",
+      "correction": "Introducción a la amistad",
+      "description": "The phrase should begin with a capital letter as it is a theme heading. In Spanish, headings and themes typically start with a capital letter for proper orthographic presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "definición de empatía",
+      "correction": "Definición de empatía",
+      "description": "Theme headings should start with a capital letter. This improves orthographic correctness and aligns with standard Spanish formatting for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "definición de escuchar activamente",
+      "correction": "Definición de escuchar activamente",
+      "description": "Theme headings require initial capitalization for orthographic accuracy and consistency in Spanish educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "habilidades para resolver conflictos",
+      "correction": "Habilidades para resolver conflictos",
+      "description": "Theme headings should begin with a capital letter to follow Spanish orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "conexión entre habilidades",
+      "correction": "Conexión entre habilidades",
+      "description": "Theme headings must start with a capital letter for proper orthographic presentation in Spanish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "prácticas para desarrollar empatía",
+      "correction": "Prácticas para desarrollar empatía",
+      "description": "Theme headings should be capitalized at the beginning to maintain orthographic standards in Spanish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "prácticas para mejorar la escucha",
+      "correction": "Prácticas para mejorar la escucha",
+      "description": "Theme headings require initial capitalization for orthographic correctness in Spanish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "prácticas para resolver conflictos",
+      "correction": "Prácticas para resolver conflictos",
+      "description": "Theme headings should start with a capital letter to follow Spanish orthographic conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:23:13.948230",
+    "model": "gpt-4.1",
+    "label": "v9"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

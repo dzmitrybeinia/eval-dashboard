@@ -1,0 +1,89 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El Haiku es una forma de poesía breve originaria de Japón.",
+      "correction": "El haiku es una forma de poesía breve originaria de Japón.",
+      "description": "The term 'Haiku' should be in lowercase ('haiku') according to Spanish orthographic conventions for foreign poetic forms. This ensures consistency and naturalness in educational content for Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los Haikus suelen centrarse en la naturaleza y los cambios de estación, transmitiendo emociones a través de imágenes sencillas y directas.",
+      "correction": "Los haikus suelen centrarse en la naturaleza y los cambios de estación, transmitiendo emociones a través de imágenes sencillas y directas.",
+      "description": "The plural form 'Haikus' should be in lowercase ('haikus') to align with Spanish usage for foreign poetic forms. This improves consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Existen diferentes tipos, como el soneto inglés (Shakespeareano) y el italiano (Petrarquista).",
+      "correction": "Existen diferentes tipos, como el soneto inglés (shakespeariano) y el italiano (petrarquista).",
+      "description": "The adjectives 'Shakespeareano' and 'Petrarquista' should be in lowercase ('shakespeariano', 'petrarquista') as per Spanish orthographic rules for adjectives derived from proper names. This ensures proper terminology and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El Limerick",
+      "correction": "El limerick",
+      "description": "The term 'Limerick' should be in lowercase ('limerick') according to Spanish conventions for foreign poetic forms. This improves consistency and naturalness in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ahora que hemos explorado las formas poéticas y sus características, ¿qué tal si intentamos escribir un poema propio? Usa tus ideas y emociones para crear algo único y especial.",
+      "correction": "Ahora que hemos explorado las formas poéticas y sus características, ¿qué te parece si intentamos escribir un poema propio? Usa tus ideas y emociones para crear algo único y especial.",
+      "description": "The phrase '¿qué tal si intentamos...' is slightly informal and more typical of spoken Spanish. For educational written content in Spain, '¿qué te parece si...' is more natural and appropriate, maintaining a friendly but slightly more formal tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:27:10.299528",
+    "model": "gpt-4.1",
+    "label": "v12",
+    "false_positives_filtered": 2,
+    "original_issue_count": 7
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Exploraremos diferentes formas poéticas, desde el Haiku hasta los Limericks, para descubrir cómo los poetas usan estructuras y estilos únicos para expresar emociones e ideas. 🌟",
+      "correction": "Exploraremos diferentes formas poéticas, desde el haiku hasta el limerick, para descubrir cómo los poetas usan estructuras y estilos únicos para expresar emociones e ideas.",
+      "description": "The use of 'Haiku' and 'Limericks' in capitalized English form is not culturally appropriate for Spanish from Spain. These terms should be in lowercase and singular ('haiku', 'limerick') as per Spanish conventions. Additionally, the star emoji 🌟 is not standard in educational Spanish content and may be considered informal or distracting in this context.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los limericks son poemas humorísticos de cinco versos con un esquema de rima AABBA.",
+      "correction": "Los limericks son poemas humorísticos de cinco versos con un esquema de rima AABBA.",
+      "description": "While 'limericks' is correctly pluralized and in lowercase, the rhyme scheme 'AABBA' is presented in uppercase English letters. In Spanish educational contexts, it is acceptable, but consider clarifying that these are designations for rhyme patterns to avoid confusion for students unfamiliar with the notation.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

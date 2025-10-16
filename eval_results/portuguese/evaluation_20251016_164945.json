@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Os animais marinhos, como peixes e baleias, têm corpos aerodinâmicos para nadar rapidamente, e brânquias ou pulmões adaptados para respirar debaixo d'água.",
+      "correction": "Os animais marinhos, como peixes e baleias, têm corpos hidrodinâmicos para nadar rapidamente, e brânquias ou pulmões adaptados para respirar debaixo d'água.",
+      "description": "The term 'aerodinâmicos' is incorrect in this context, as it refers to shapes optimized for movement through air. The correct term for aquatic animals is 'hidrodinâmicos', which describes bodies adapted for efficient movement in water. This lexical error could lead to confusion about the nature of aquatic adaptations.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pinguins têm penas impermeáveis, e camelos têm corcovas para armazenar gordura.",
+      "correction": "Pinguins têm penas impermeáveis e camelos têm corcovas para armazenar gordura.",
+      "description": "The use of a comma before 'e' in this sentence is incorrect according to standard Portuguese punctuation rules. In compound sentences where the clauses are closely related and short, the comma should be omitted. This improves grammatical accuracy and reading flow.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:49:45.984821",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Os animais têm incríveis adaptações que os ajudam a viver em diferentes ambientes. Vamos explorar como essas adaptações os tornam únicos e capazes de sobreviver no mundo natural! 🌍🦁",
+      "correction": "Os animais têm incríveis adaptações que os ajudam a viver em diferentes ambientes. Vamos explorar como essas adaptações os tornam únicos e capazes de sobreviver no mundo natural!",
+      "description": "The use of emoji (🌍🦁) in educational content for Brazilian Portuguese may not be appropriate for all age groups or formal learning environments. While emojis can engage younger audiences, their inclusion should be carefully considered based on the context and audience. Removing them ensures a more neutral and universally acceptable style.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

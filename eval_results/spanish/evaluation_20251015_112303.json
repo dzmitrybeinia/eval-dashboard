@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Aprender a estar seguros es muy importante! 🔥",
+      "correction": "¡Aprender a mantenernos seguros es muy importante! 🔥",
+      "description": "The phrase 'Aprender a estar seguros' is understandable but slightly unnatural in Peninsular Spanish. The more idiomatic and natural expression is 'mantenernos seguros', which better conveys the idea of actively ensuring safety. This adjustment improves the overall style and naturalness of the text for a Spanish audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:23:03.703333",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Nunca dejes velas encendidas sin supervisión.",
+      "correction": "Nunca dejes velas encendidas sin supervisión.",
+      "description": "While the sentence is linguistically correct, the use of 'sin supervisión' is slightly formal for educational content aimed at a general audience, especially children or families. A more natural alternative in Spain could be 'sin que nadie las vigile' or 'sin vigilancia', but the current version is acceptable and does not require mandatory correction.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bem-vindos ao fascinante mundo das células! Vamos descobrir como cada parte da célula desempenha um papel essencial para o funcionamento dela.",
+      "correction": "Bem-vindo ao fascinante mundo das células! Vamos descobrir como cada parte da célula desempenha um papel essencial para o funcionamento dela.",
+      "description": "The greeting 'Bem-vindos' is in the plural form, but the lesson is presented in a general, impersonal context, which is more appropriately addressed with the singular 'Bem-vindo' in educational materials. This ensures grammatical agreement and maintains a neutral, standard register for Brazilian Portuguese educational content. No other linguistic or localization issues are present in this span.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O núcleo é como o \"cérebro\" da célula.",
+      "correction": "O núcleo é como o centro de comando da célula.",
+      "description": "The analogy 'cérebro' (brain) for the nucleus is common but can be misleading in educational contexts, as it may imply that the nucleus controls all cell functions in the same way a brain controls a body, which is not entirely accurate. Using 'centro de comando' (command center) is a more culturally neutral and scientifically precise analogy for Brazilian students, avoiding anthropomorphic interpretations.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O complexo de Golgi é o centro de distribuição da célula. Ele modifica, empacota e envia proteínas para seus destinos.",
+      "correction": "O complexo de Golgi é como uma central de distribuição da célula. Ele modifica, empacota e envia proteínas para seus destinos.",
+      "description": "The phrase 'centro de distribuição' is understandable but 'central de distribuição' is more natural and commonly used in Brazilian Portuguese, especially in educational and scientific contexts. This adjustment improves the naturalness and clarity of the analogy for local learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A célula é como uma cidade, onde cada organelo tem um papel específico, como o núcleo sendo a prefeitura e as mitocôndrias as usinas de energia.",
+      "correction": "A célula é como uma cidade, onde cada organela tem um papel específico, como o núcleo sendo a prefeitura e as mitocôndrias as usinas de energia.",
+      "description": "The term 'organelo' is less commonly used in Brazilian Portuguese; 'organela' is the standard and widely accepted term in scientific and educational contexts. This change ensures consistency and professionalism in terminology, enhancing comprehension and alignment with local standards.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:49:53.780931",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

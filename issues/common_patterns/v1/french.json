@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "french",
+    "generated_at": "2025-10-16T16:34:57.644803"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect article usage with plural nouns",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Systematic misuse of singular articles with plural countable nouns, leading to confusion and grammatical errors.",
+      "examples": [
+        {
+          "wrong": "l'augmentation de discours haineux",
+          "correct": "l'augmentation des discours haineux",
+          "context": "Article agreement with plural noun in explanatory sentences"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incomplete or inaccurate lexical examples",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Use of incomplete or non-standard examples, especially for mnemonics or educational content, reducing clarity and instructional value.",
+      "examples": [
+        {
+          "wrong": "vous pouvez créer une phrase comme 'Mon Vieux Tonton Mange'.",
+          "correct": "vous pouvez créer une phrase comme 'Mon Vieux Tonton Mange Très Joyeusement Sur Une Nappe'.",
+          "context": "Mnemonic for planet order missing key elements"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect singular/plural noun usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Improper use of plural forms for nouns that are conventionally singular in French, causing confusion and reducing professionalism.",
+      "examples": [
+        {
+          "wrong": "Les cyberharcèlements incluent...",
+          "correct": "Le cyberharcèlement inclut...",
+          "context": "General reference to the phenomenon of cyberbullying"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect verb conjugation in imperative instructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Use of infinitive instead of imperative verb forms in instructional contexts, leading to unclear or ungrammatical directives.",
+      "examples": [
+        {
+          "wrong": "Résumé les idées principales après avoir lu.",
+          "correct": "Résumez les idées principales après avoir lu.",
+          "context": "Instructional sentence addressing the reader"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Pronoun Agreement with Feminine Plural Nouns",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Feminine plural nouns are incorrectly referred to with masculine plural pronouns, leading to confusion and reduced clarity in educational content.",
+      "examples": [
+        {
+          "wrong": "Les importations, en revanche, sont ceux qu'un pays achète à l'étranger.",
+          "correct": "Les importations, en revanche, sont celles qu'un pays achète à l'étranger.",
+          "context": "Explanation of economic terms; pronoun agreement is essential for clarity and correctness in French."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unadapted Terminology from Source Language",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Source language terms are directly translated without adapting to the target language's cultural or academic standards, causing confusion and misrepresentation of concepts.",
+      "examples": [
+        {
+          "wrong": "Le sonnet ... souvent écrits en pentamètre iambique.",
+          "correct": "Le sonnet ... souvent écrits en alexandrins.",
+          "context": "Description of poetic forms; terminology should reflect French literary conventions, not English ones."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or imprecise terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 18,
+      "description": "Use of terms or phrases that are understandable but not standard, precise, or idiomatic in French educational/scientific contexts. Corrections favor more natural, professional, or contextually accurate terminology.",
+      "examples": [
+        {
+          "wrong": "Les adaptations sont des caractéristiques ou des comportements qui améliorent la capacité d'un organisme à survivre et à se reproduire dans son environnement.",
+          "correct": "Les adaptations sont des caractéristiques ou des comportements qui augmentent les chances de survie et de reproduction d'un organisme dans son environnement.",
+          "context": "Scientific explanation of adaptation"
+        },
+        {
+          "wrong": "RE rugueux : couvert de ribosomes, il aide à la synthèse des protéines.",
+          "correct": "RE rugueux : couvert de ribosomes, il participe à la synthèse des protéines.",
+          "context": "Cell biology terminology"
+        },
+        {
+          "wrong": "tablette",
+          "correct": "tablette numérique",
+          "context": "Ambiguous device reference"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing Capitalization in Titles and Section Headings",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 11,
+      "description": "Section titles and thematic headings frequently lack initial capitalization, which is required by French orthographic conventions for clarity and consistency.",
+      "examples": [
+        {
+          "wrong": "introduction à l'Égypte ancienne",
+          "correct": "Introduction à l'Égypte ancienne",
+          "context": "Theme or section heading"
+        },
+        {
+          "wrong": "vie quotidienne des Égyptiens",
+          "correct": "Vie quotidienne des Égyptiens",
+          "context": "Section title"
+        },
+        {
+          "wrong": "les pyramides et leur rôle",
+          "correct": "Les pyramides et leur rôle",
+          "context": "Section heading"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of English loanwords or calques instead of standard French terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 10,
+      "description": "English terms or literal translations are used instead of established French equivalents, reducing clarity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "Le croisement de hachures, ou cross-hatching",
+          "correct": "Le croisement de hachures, ou hachures croisées",
+          "context": "Art technique terminology"
+        },
+        {
+          "wrong": "Le mélange, ou blending",
+          "correct": "Le mélange, ou estompage",
+          "context": "Art technique terminology"
+        },
+        {
+          "wrong": "Les cybermenaces incluent le phishing, les ransomwares",
+          "correct": "Les cybermenaces incluent l’hameçonnage, les rançongiciels",
+          "context": "Technology and security terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency_count": 6,
+      "description": "Recurring use of imprecise or non-standard vocabulary, especially in scientific, technical, or medical contexts, leading to reduced clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Appuyez doucement sur la coupure avec un tissu propre pour arrêter le saignement.",
+          "correct": "Appuyez doucement sur la coupure avec une compresse propre pour arrêter le saignement.",
+          "context": "First aid terminology; 'tissu' is not medically precise."
+        },
+        {
+          "wrong": "Les votes sont comptabilisés pour déclarer un vainqueur.",
+          "correct": "Les votes sont comptés pour déclarer un vainqueur.",
+          "context": "Electoral terminology; 'comptabilisés' is less natural than 'comptés'."
+        },
+        {
+          "wrong": "Elle doit être spécifique et formulée de manière à pouvoir être prouvée vraie ou fausse.",
+          "correct": "Elle doit être spécifique et formulée de manière à pouvoir être confirmée ou infirmée.",
+          "context": "Scientific writing; 'prouvée vraie ou fausse' is not idiomatic."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary Comma Before 'et' in Lists",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 6,
+      "description": "The Oxford comma is repeatedly used before 'et' in lists, which is not standard in French and affects the naturalness and correctness of the text.",
+      "examples": [
+        {
+          "wrong": "Les mots de passe doivent être complexes, uniques, et régulièrement mis à jour.",
+          "correct": "Les mots de passe doivent être complexes, uniques et régulièrement mis à jour.",
+          "context": "List of requirements"
+        },
+        {
+          "wrong": "Pour éviter les logiciels malveillants, installez un antivirus, mettez à jour vos logiciels, et ne téléchargez pas de fichiers suspects.",
+          "correct": "Pour éviter les logiciels malveillants, installez un antivirus, mettez à jour vos logiciels et ne téléchargez pas de fichiers suspects.",
+          "context": "List of actions"
+        },
+        {
+          "wrong": "Ces processus incluent la mémorisation, l'attention, et la logique, qui travaillent ensemble pour guider nos choix.",
+          "correct": "Ces processus incluent la mémorisation, l'attention et la logique, qui travaillent ensemble pour guider nos choix.",
+          "context": "List of cognitive processes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Overly literal or ambiguous translations reducing clarity",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 5,
+      "description": "Literal translations from English or vague terms are used instead of precise French terminology, leading to ambiguity or lack of clarity in educational contexts.",
+      "examples": [
+        {
+          "wrong": "Le noyau est comme le \"centre de commande\" de la cellule.",
+          "correct": "Le noyau est le centre de contrôle de la cellule.",
+          "context": "Biology/science terminology"
+        },
+        {
+          "wrong": "Le décor est le lieu et le moment où se déroule l'histoire.",
+          "correct": "Le décor est le lieu et l'époque où se déroule l'histoire.",
+          "context": "Literary analysis terminology"
+        },
+        {
+          "wrong": "des camions d'incendie",
+          "correct": "des camions de pompiers",
+          "context": "Common objects/vehicles"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or non-standard French formatting and conventions",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency_count": 3,
+      "description": "Formatting conventions such as numeric separators, phone number presentation, and quotation marks do not follow French standards, which can confuse learners.",
+      "examples": [
+        {
+          "wrong": "Float : pour les nombres à virgule (ex. : 3.14, -0.01)",
+          "correct": "Float : pour les nombres à virgule (ex. : 3,14, -0,01)",
+          "context": "Decimal separator in numeric examples"
+        },
+        {
+          "wrong": "Par exemple, pour mémoriser un numéro de téléphone comme 06-12-34-56-78",
+          "correct": "Par exemple, pour mémoriser un numéro de téléphone comme 06 12 34 56 78",
+          "context": "Phone number formatting"
+        },
+        {
+          "wrong": "L'étiquette numérique, ou \"netiquette\"",
+          "correct": "L'étiquette numérique, ou « nétiquette »",
+          "context": "Quotation marks and terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-inclusive or unnatural style in learner address",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency_count": 3,
+      "description": "Phrasing excludes certain groups or uses pronouns that are less natural in French educational contexts, affecting engagement and inclusivity.",
+      "examples": [
+        {
+          "wrong": "Prêt à découvrir les trésors de notre planète ?",
+          "correct": "Prêt(e) à découvrir les trésors de notre planète ?",
+          "context": "Gender inclusivity in learner address"
+        },
+        {
+          "wrong": "Soyez la personne qui répand la lumière et l’amour partout où elle passe.",
+          "correct": "Soyez la personne qui répand la lumière et l’amour partout où vous passez.",
+          "context": "Direct address for engagement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Mistakes in subject-verb or noun-adjective agreement, or incorrect verb choice, which can obscure meaning and reduce linguistic accuracy.",
+      "examples": [
+        {
+          "wrong": "les lions ont des griffes acérées pour chasser et déchiqueter leur proie.",
+          "correct": "les lions ont des griffes acérées pour chasser et déchiqueter leurs proies.",
+          "context": "Plural agreement; lions hunt multiple prey."
+        },
+        {
+          "wrong": "Les ours dorment pendant les mois froids pour économiser de l'énergie.",
+          "correct": "Les ours hibernent pendant les mois froids pour économiser de l'énergie.",
+          "context": "Scientific context; 'hibernent' is the precise verb."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Misspellings, missing accents, or incorrect proper names that undermine professionalism and can cause confusion, especially in educational or technical content.",
+      "examples": [
+        {
+          "wrong": "age = 12",
+          "correct": "âge = 12",
+          "context": "Missing accent in variable name; important for modeling correct spelling."
+        },
+        {
+          "wrong": "Dimitri Mendeleïev est le scientifique qui a créé le premier tableau périodique en 1869.",
+          "correct": "Dmitri Mendeleïev est le scientifique qui a créé le premier tableau périodique en 1869.",
+          "context": "Proper name spelling; historical accuracy."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural context or examples lacking localization breadth",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Examples or references are too narrow or not adapted to the target audience, limiting relatability and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Diwali, également appelée la Fête des Lumières, est une célébration majeure dans plusieurs cultures, notamment en Inde.",
+          "correct": "Diwali, également appelée la Fête des Lumières, est une célébration majeure dans plusieurs cultures, notamment en Inde et dans la communauté hindoue.",
+          "context": "Cultural specificity in festival description"
+        },
+        {
+          "wrong": "Par exemple, en Afrique du Sud, l'abolition de l'apartheid a été un exemple marquant...",
+          "correct": "Par exemple, en Afrique du Sud... D'autres exemples pertinents incluent la Déclaration des droits civiques aux États-Unis ou la lutte pour les droits des femmes en France.",
+          "context": "Broader cultural examples for inclusivity"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or awkward phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency_count": 7,
+      "description": "Use of redundant, awkward, or less idiomatic phrasing that can be streamlined for better clarity and naturalness in French.",
+      "examples": [
+        {
+          "wrong": "Les rangolis, des motifs colorés réalisés avec des poudres ou des fleurs, sont créés devant les maisons pour accueillir la déesse Lakshmi et pour apporter chance et prospérité.",
+          "correct": "Les rangolis, des motifs colorés réalisés avec des poudres ou des fleurs, sont créés devant les maisons pour accueillir la déesse Lakshmi et apporter chance et prospérité.",
+          "context": "Cultural festival description"
+        },
+        {
+          "wrong": "Pour prendre des décisions efficaces, il est utile d’utiliser des stratégies comme la décomposition du problème en étapes, la recherche d'avis extérieurs, ou encore l'évaluation des conséquences à court et long terme.",
+          "correct": "Pour prendre des décisions efficaces, il est utile d’utiliser des stratégies comme la décomposition du problème en étapes, la recherche d'avis extérieurs ou encore l'évaluation des conséquences à court et à long terme.",
+          "context": "Decision-making strategies"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Formatting and typographic conventions",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency_count": 5,
+      "description": "Non-adherence to French formatting rules, such as omission of non-breaking spaces before degree symbols, incorrect century notation, or use of the Oxford comma.",
+      "examples": [
+        {
+          "wrong": "L'eau gèle à 0°C (solidification).",
+          "correct": "L'eau gèle à 0 °C (solidification).",
+          "context": "Temperature notation"
+        },
+        {
+          "wrong": "fondée au 7ème siècle en Arabie par le prophète Mahomet.",
+          "correct": "fondée au VIIe siècle en Arabie par le prophète Mahomet.",
+          "context": "Historical century notation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical and Idiomatic Precision in Connectors and Phrasing",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency_count": 4,
+      "description": "Non-idiomatic connectors and phrasing are used, such as 'comme :' instead of 'telles que :' and 'dans une direction' instead of 'selon une direction', which reduces the naturalness and precision of French expressions.",
+      "examples": [
+        {
+          "wrong": "Les concepteurs posent des questions comme : Quel est le besoin ?",
+          "correct": "Les concepteurs posent des questions telles que : Quel est le besoin ?",
+          "context": "Introducing examples"
+        },
+        {
+          "wrong": "Une **ligne** est une suite infinie de points alignés dans une direction.",
+          "correct": "Une **ligne** est une suite infinie de points alignés selon une direction.",
+          "context": "Mathematical definition"
+        },
+        {
+          "wrong": "Aujourd'hui, nous allons explorer comment communiquer en ligne de manière respectueuse, protéger notre vie privée et éviter les comportements nuisibles comme le cyberharcèlement.",
+          "correct": "Aujourd'hui, nous allons explorer comment communiquer en ligne de manière respectueuse, protéger notre vie privée et éviter les comportements nuisibles tels que le cyberharcèlement.",
+          "context": "Listing examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Anglicisms and untranslated technical terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency_count": 4,
+      "description": "Use of English words or technical terms where a French equivalent exists and is preferred for clarity and localization quality.",
+      "examples": [
+        {
+          "wrong": "Évitez les espaces ; utilisez des underscores (_) si nécessaire.",
+          "correct": "Évitez les espaces ; utilisez des tirets bas (_) si nécessaire.",
+          "context": "Programming terminology"
+        },
+        {
+          "wrong": "Le pointillisme, ou stippling, utilise des points pour créer des ombres.",
+          "correct": "Le pointillisme, ou dessin par points, utilise des points pour créer des ombres.",
+          "context": "Art technique explanation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundancy and Pluralization Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency_count": 3,
+      "description": "Redundant phrasing and incorrect pluralization occur, such as unnecessary repetition of concepts and use of plural where singular is idiomatic.",
+      "examples": [
+        {
+          "wrong": "Par exemple, une étude scientifique peut fournir des preuves pour prouver qu'un médicament est efficace.",
+          "correct": "Par exemple, une étude scientifique peut fournir des preuves qu'un médicament est efficace.",
+          "context": "Redundant phrasing"
+        },
+        {
+          "wrong": "La conscience de soi : reconnaître ses propres émotions et leurs impacts.",
+          "correct": "La conscience de soi : reconnaître ses propres émotions et leur impact.",
+          "context": "Pluralization error"
+        },
+        {
+          "wrong": "Ce cycle de test et ajustement peut être répété plusieurs fois pour perfectionner la solution.",
+          "correct": "Ce cycle de tests et d'ajustements peut être répété plusieurs fois pour perfectionner la solution.",
+          "context": "Pluralization for parallel structure"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Capitalization after colon",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency_count": 3,
+      "description": "Incorrect capitalization of the first word after a colon, which should be lowercase unless a proper noun, per French typographic conventions.",
+      "examples": [
+        {
+          "wrong": "Zone tropicale : Chaude et humide toute l'année.",
+          "correct": "Zone tropicale : chaude et humide toute l'année.",
+          "context": "Geographical zone descriptions"
+        },
+        {
+          "wrong": "Zone tempérée : Saisonnière avec des étés chauds et des hivers froids.",
+          "correct": "Zone tempérée : saisonnière avec des étés chauds et des hivers froids.",
+          "context": "Geographical zone descriptions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Typographic and Punctuation Consistency",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency_count": 2,
+      "description": "Minor typographic and punctuation inconsistencies, such as use of straight apostrophe instead of French typographic apostrophe and missing commas for clause separation.",
+      "examples": [
+        {
+          "wrong": "Bienvenue dans cette exploration fascinante des voyages spatiaux ! 🚀 Nous allons découvrir les défis que les humains rencontrent en explorant l'espace, ainsi que les technologies innovantes qui rendent cela possible.",
+          "correct": "Bienvenue dans cette exploration fascinante des voyages spatiaux ! 🚀 Nous allons découvrir les défis que les humains rencontrent en explorant l’espace, ainsi que les technologies innovantes qui rendent cela possible.",
+          "context": "Typographic apostrophe"
+        },
+        {
+          "wrong": "La Déclaration universelle des droits de l'homme (DUDH) a été adoptée en 1948 en réponse aux atrocités de la Seconde Guerre mondiale.",
+          "correct": "La Déclaration universelle des droits de l'homme (DUDH) a été adoptée en 1948, en réponse aux atrocités de la Seconde Guerre mondiale.",
+          "context": "Missing comma for clause separation"
+        }
+      ]
+    }
+  ]
+}

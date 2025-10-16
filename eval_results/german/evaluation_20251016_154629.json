@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Hintergrundforschung",
+      "correction": "Recherche",
+      "description": "The term 'Hintergrundforschung' is not commonly used in German scientific or educational contexts. The standard term is 'Recherche', which is widely accepted and understood in both academic and everyday settings. Using 'Recherche' ensures consistency with German scientific terminology and improves the naturalness of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Datenanalyse",
+      "correction": "Daten auswerten",
+      "description": "While 'Datenanalyse' is technically correct, the phrase 'Daten auswerten' is more natural and commonly used in German educational contexts, especially for younger audiences. This change improves the accessibility and naturalness of the content for the intended learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Die wissenschaftliche Methode wird in vielen Bereichen angewendet, wie Medizin (Entwicklung neuer Medikamente), Technik (Optimierung von Designs) und Umweltwissenschaften (Untersuchung von Klimawandel).",
+      "correction": "Die wissenschaftliche Methode wird in vielen Bereichen angewendet, zum Beispiel in der Medizin (Entwicklung neuer Medikamente), der Technik (Optimierung von Designs) und den Umweltwissenschaften (Untersuchung des Klimawandels).",
+      "description": "The original sentence uses 'wie' to introduce examples, which is less formal and can be ambiguous in German. The phrase 'zum Beispiel' is preferred for listing examples in educational texts. Additionally, 'Untersuchung von Klimawandel' should be 'Untersuchung des Klimawandels' to use the correct genitive case, which is more precise and standard in German scientific writing. This correction improves both style and grammatical accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:29.971263",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph is not standard in German educational materials, especially in formal or scientific contexts. It may be perceived as informal or distracting for learners and does not add educational value. Removing the emoji would improve the professional tone and align with expectations for German-language science content.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

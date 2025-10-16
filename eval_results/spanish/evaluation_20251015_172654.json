@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Por ejemplo, la energía solar y eólica son fuentes de energía limpia y sostenible.",
+      "correction": "Por ejemplo, la energía solar y la eólica son fuentes de energía limpia y sostenible.",
+      "description": "In Spanish, when listing two nouns with a shared adjective, the definite article should be repeated for clarity and correctness. 'La energía solar y la eólica' is the correct form, ensuring proper grammatical structure and agreement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:26:54.095667",
+    "model": "gpt-4.1",
+    "label": "v12",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo de los recursos naturales! Hoy aprenderemos sobre los diferentes tipos de recursos que nos proporciona la naturaleza y cómo podemos cuidarlos para un futuro más sostenible. 🌱🌍",
+      "correction": "¡Bienvenidos al fascinante mundo de los recursos naturales! Hoy aprenderemos sobre los diferentes tipos de recursos que nos proporciona la naturaleza y cómo podemos cuidarlos para un futuro más sostenible.",
+      "description": "The use of emoji (🌱🌍) in educational content for Spain may be considered informal and less appropriate for formal or academic contexts, especially in introductory sections. Removing emojis ensures a more professional and neutral tone, which is preferred in Spanish educational materials.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

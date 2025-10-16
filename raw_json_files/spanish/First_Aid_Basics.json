@@ -1,0 +1,80 @@
+{
+  "request": {
+    "lesson_description": "First Aid Basics: Recognizing and Responding to Common Injuries and Emergencies.",
+    "exercises_ratio": 0.3,
+    "grade_level": "7th grade",
+    "estimated_length": 30,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ca93aa63",
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Primeros Auxilios: Reconociendo y Respondiendo a Lesiones y Emergencias Comunes",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una lección sobre primeros auxilios! Aquí aprenderemos a reconocer y responder de manera segura y efectiva a lesiones y emergencias comunes. 🚑",
+        "title": "Introducción a los Primeros Auxilios",
+        "themes": [
+          "introducción a primeros auxilios"
+        ],
+        "image_search_string": "primeros auxilios básicos",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Los primeros auxilios son acciones inmediatas que se toman para ayudar a alguien que ha sufrido una lesión o una emergencia médica antes de que llegue ayuda profesional. Son esenciales para reducir el daño y salvar vidas.",
+        "title": "¿Qué son los Primeros Auxilios?",
+        "themes": [
+          "definición de primeros auxilios"
+        ],
+        "image_search_string": "concepto de primeros auxilios",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Las emergencias comunes incluyen:\n\n- Cortes y raspaduras.\n- Quemaduras.\n- Asfixia.\n- Golpes o fracturas.\n- Desmayos.\n- Reacciones alérgicas graves.",
+        "title": "Tipos de Emergencias Comunes",
+        "themes": [
+          "tipos de emergencias comunes"
+        ],
+        "image_search_string": "tipos de emergencias",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Si te encuentras con una emergencia:\n\n1. Mantén la calma.\n2. Evalúa la seguridad del lugar.\n3. Llama al número de emergencias (por ejemplo, 112 en muchos países).\n4. Proporciona la ayuda necesaria mientras esperas a los servicios de emergencia.",
+        "title": "Pasos Generales en una Emergencia",
+        "themes": [
+          "pasos para actuar en emergencias",
+          "llamar a emergencias"
+        ],
+        "image_search_string": "pasos en emergencias",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "El contenido continuará con más detalles específicos sobre el tratamiento de cada tipo de emergencia, asegurando una cobertura completa y educativa del tema.",
+        "title": "Continuación del Contenido",
+        "themes": [
+          "avance de la lección"
+        ],
+        "image_search_string": "continuación del tema",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "es-ES"
+  }
+}

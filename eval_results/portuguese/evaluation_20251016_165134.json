@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Skimming, Scanning e Leitura Crítica",
+      "correction": "Skimming, Scanning e leitura crítica",
+      "description": "The capitalization of 'Leitura Crítica' is inconsistent with the rest of the phrase, as 'skimming' and 'scanning' are not capitalized. In Brazilian Portuguese, only the first word of a list or after a colon should be capitalized unless they are proper nouns. For consistency and naturalness, 'leitura crítica' should be in lowercase. This improves professional terminology usage and aligns with local conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Em vez de ler cada palavra, você foca nos títulos, subtítulos, primeiras frases dos parágrafos e palavras-chave.",
+      "correction": "Em vez de ler cada palavra, você foca nos títulos, subtítulos, primeiras frases dos parágrafos e nas palavras-chave.",
+      "description": "There is a grammatical issue with the omission of the preposition 'nas' before 'palavras-chave'. In lists, the preposition should be repeated for clarity and correct agreement. The corrected sentence includes 'nas palavras-chave' to ensure proper grammatical structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "É como procurar uma palavra no dicionário!",
+      "correction": "É como procurar uma palavra no dicionário.",
+      "description": "The use of an exclamation mark here adds unnecessary informality and enthusiasm, which may not be appropriate for educational content. Removing the exclamation mark creates a more neutral and professional tone, better suited for instructional material.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Comparando as três estratégias: Skimming ajuda a obter uma visão geral, Scanning encontra informações específicas, e a Leitura Crítica aprofunda a compreensão e análise.",
+      "correction": "Comparando as três estratégias: skimming ajuda a obter uma visão geral, scanning encontra informações específicas e a leitura crítica aprofunda a compreensão e análise.",
+      "description": "There is a minor grammatical issue with the unnecessary comma before 'e a Leitura Crítica', which is not required in Brazilian Portuguese when connecting the last item in a list. Additionally, the capitalization of 'Skimming', 'Scanning', and 'Leitura Crítica' should be in lowercase for consistency and naturalness. The correction addresses both the comma usage and capitalization.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:34.331867",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 6
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introdução à leitura",
+      "correction": "introdução à leitura",
+      "description": "No linguistic or localization issues found. The phrase is correctly written with proper use of the crase ('à') and accurate spelling. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Hoje, vamos explorar três estratégias eficazes de leitura: Skimming, Scanning e Leitura Crítica. 📚",
+      "correction": "Hoje, vamos explorar três estratégias eficazes de leitura: skimming, scanning e leitura crítica.",
+      "description": "The use of the book emoji (📚) may be considered informal and less appropriate for educational content aimed at older students or professional settings. Additionally, the capitalization of 'Skimming, Scanning e Leitura Crítica' is inconsistent with standard Brazilian Portuguese style, where these terms should be in lowercase unless at the beginning of a sentence. Removing the emoji and adjusting capitalization improves the tone and professionalism of the content.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lectura superficial (Skimming)",
+      "correction": "Lectura superficial",
+      "description": "The inclusion of the English term 'Skimming' in parentheses is unnecessary for a Spanish audience in Spain, especially in educational materials. The Spanish term 'lectura superficial' is sufficient and more natural. Removing the English term improves localization and maintains consistency with local terminology standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lectura selectiva (Scanning)",
+      "correction": "Lectura selectiva",
+      "description": "The use of the English term 'Scanning' in parentheses is not needed for Spanish learners in Spain. The Spanish term 'lectura selectiva' is clear and locally accepted. Omitting the English term enhances the naturalness and professionalism of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lectura profunda (Close Reading)",
+      "correction": "Lectura profunda",
+      "description": "Including 'Close Reading' in English within parentheses is unnecessary for a Spain-based Spanish audience. The Spanish term 'lectura profunda' is standard and widely understood. Removing the English term ensures the content is fully localized and avoids unnecessary anglicisms.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:24:19.937587",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy exploraremos habilidades importantes que te ayudarán a leer de manera más efectiva. Aprenderás cómo usar diferentes estrategias de lectura para comprender mejor los textos. 📚",
+      "correction": "¡Bienvenidos! Hoy exploraremos habilidades importantes que te ayudarán a leer de manera más efectiva. Aprenderás cómo usar diferentes estrategias de lectura para comprender mejor los textos.",
+      "description": "The use of the book emoji (📚) at the end of the introduction is not standard in formal educational content for Spain and may be perceived as informal or distracting in academic contexts. Removing the emoji ensures the tone remains professional and appropriate for the intended audience.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "request": {
+    "lesson_description": "Fiction vs Nonfiction: Understanding the differences, identifying key characteristics, and analyzing examples.",
+    "exercises_ratio": 0.6,
+    "grade_level": "5th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.ELA-LITERACY.RI.5.9: Integrate information from several texts on the same topic in order to write or speak about the subject knowledgeably.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "b6e6eb6f",
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Fiction vs Nonfiction: Understanding the Differences",
+    "slides": [
+      {
+        "content": "Hoje, vamos explorar dois tipos principais de textos: ficção e não ficção. Descobriremos as características que os tornam únicos e aprenderemos a identificá-los. 📚",
+        "title": "Introdução ao tema",
+        "themes": [
+          "Introdução à ficção e não ficção"
+        ],
+        "image_search_string": "fiction and nonfiction books",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "A ficção é composta por histórias criadas pela imaginação. Elas podem incluir personagens, cenários e eventos inventados. Exemplos de ficção incluem romances, contos e peças de teatro.",
+        "title": "O que é ficção?",
+        "themes": [
+          "Definição de ficção"
+        ],
+        "image_search_string": "fictional story elements",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A não ficção é baseada em fatos e informações reais. Ela pode incluir biografias, livros de história e textos informativos. Textos não fictícios têm como objetivo informar, ensinar ou documentar.",
+        "title": "O que é não ficção?",
+        "themes": [
+          "Definição de não ficção"
+        ],
+        "image_search_string": "nonfiction books",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Aqui estão as diferenças principais:\n\n- **Ficção**: Criada pela imaginação, pode conter elementos fictícios.\n- **Não ficção**: Baseada em fatos, apresenta informações reais.\n\nExemplo:\n- Um romance sobre piratas é ficção.\n- Um livro sobre a história da pirataria é não ficção.",
+        "title": "Diferenças entre ficção e não ficção",
+        "themes": [
+          "Comparação entre ficção e não ficção"
+        ],
+        "image_search_string": "fiction vs nonfiction",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Textos de ficção frequentemente incluem:\n\n- **Personagens**: Pessoas ou seres criados pelo autor.\n- **Cenários**: Lugares imaginários ou reais com detalhes fictícios.\n- **Trama**: Sequência de eventos inventados.\n\nEsses elementos ajudam a contar histórias envolventes.",
+        "title": "Elementos da ficção",
+        "themes": [
+          "Elementos característicos da ficção"
+        ],
+        "image_search_string": "fictional characters and settings",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Textos de não ficção geralmente apresentam:\n\n- **Fatos verificáveis**: Informações que podem ser comprovadas.\n- **Objetividade**: Foco em apresentar dados sem opiniões pessoais.\n- **Propósito informativo**: Ensinar ou documentar algo real.\n\nEsses textos são usados para aprender sobre o mundo.",
+        "title": "Elementos da não ficção",
+        "themes": [
+          "Elementos característicos da não ficção"
+        ],
+        "image_search_string": "nonfiction facts",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Vamos analisar dois exemplos:\n\n1. **Ficção**: Um conto sobre um dragão que guarda um tesouro.\n2. **Não ficção**: Um artigo explicando como os dragões são representados em diferentes culturas.\n\nQual é a diferença? A ficção é inventada, enquanto a não ficção é baseada em fatos.",
+        "title": "Analisando exemplos",
+        "themes": [
+          "Análise de exemplos de ficção e não ficção"
+        ],
+        "image_search_string": "fiction and nonfiction examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Agora que aprendemos sobre ficção e não ficção, podemos integrar essas informações para identificar e explicar os tipos de texto que encontramos. Analisar as características nos ajuda a compreender melhor o objetivo de cada texto.",
+        "title": "Aplicando o conhecimento",
+        "themes": [
+          "Integração de informações sobre ficção e não ficção"
+        ],
+        "image_search_string": "applying knowledge",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "pt-PT"
+  }
+}

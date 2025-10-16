@@ -1,0 +1,113 @@
+{
+  "request": {
+    "lesson_description": "Understanding Online Safety: Protecting personal information, recognizing phishing scams, and practicing safe browsing habits.",
+    "exercises_ratio": 0.0,
+    "grade_level": "7th grade",
+    "estimated_length": 30,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ee316c33",
+    "topicInEnglish": "Online Safety",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Online Safety: Protecting Yourself in the Digital World",
+    "slides": [
+      {
+        "content": "Herzlich willkommen zu unserem spannenden Thema: Online-Sicherheit! 🌐 Gemeinsam lernen wir, wie wir uns online schützen können, sicher surfen und klug mit unseren persönlichen Informationen umgehen.",
+        "title": "Einführung in die Online-Sicherheit",
+        "themes": [
+          "Einführung in Online-Sicherheit"
+        ],
+        "image_search_string": "online safety concept",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Das Internet bietet viele Möglichkeiten, aber wir müssen vorsichtig sein, wie wir unsere persönlichen Informationen teilen. Persönliche Informationen umfassen z. B. deinen vollständigen Namen, Adresse, Telefonnummer, Geburtsdatum und Passwörter. Teile diese Informationen niemals öffentlich oder mit Fremden.",
+        "title": "Was sind persönliche Informationen?",
+        "themes": [
+          "Definition persönlicher Informationen",
+          "Schutz persönlicher Daten"
+        ],
+        "image_search_string": "personal data security",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Phishing ist eine Betrugsmethode, bei der Cyberkriminelle versuchen, persönliche Informationen durch gefälschte Nachrichten oder Websites zu stehlen. Sie geben sich oft als vertrauenswürdige Organisationen aus, um dich zu täuschen.",
+        "title": "Was ist Phishing?",
+        "themes": [
+          "Phishing-Betrugsdefinition"
+        ],
+        "image_search_string": "phishing scam illustration",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Um Phishing zu erkennen, achte auf: \\n- Rechtschreibfehler oder seltsame Formulierungen \\n- Links, die dich zu unbekannten Websites führen \\n- E-Mails oder Nachrichten, die dringend persönliche Daten verlangen \\n- Absender, die dir unbekannt sind.",
+        "title": "Wie erkennt man Phishing?",
+        "themes": [
+          "Erkennung von Phishing-Betrug"
+        ],
+        "image_search_string": "detect phishing scams",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Beim sicheren Surfen solltest du: \\n- Nur vertrauenswürdige Websites besuchen \\n- Deinen Browser und deine Software aktualisieren \\n- Keine unbekannten Links anklicken \\n- Werbeblocker verwenden und auf verdächtige Anzeigen achten.",
+        "title": "Sicheres Surfen im Internet",
+        "themes": [
+          "Sicheres Surfen",
+          "Vermeidung von Risiken"
+        ],
+        "image_search_string": "safe internet browsing tips",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Passwörter sollten stark und einzigartig sein. Verwende eine Kombination aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen. Vermeide einfache Wörter oder persönliche Daten wie deinen Namen.",
+        "title": "Sichere Passwörter erstellen",
+        "themes": [
+          "Erstellung sicherer Passwörter"
+        ],
+        "image_search_string": "strong password tips",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Wenn du glaubst, Opfer eines Online-Betrugs geworden zu sein: \\n1. Ändere sofort deine Passwörter. \\n2. Melde den Vorfall der entsprechenden Plattform. \\n3. Informiere deine Eltern oder einen Erwachsenen. \\n4. Überprüfe deine Konten auf verdächtige Aktivitäten.",
+        "title": "Was tun bei Verdacht auf Online-Betrug?",
+        "themes": [
+          "Reaktion auf Online-Betrug",
+          "Sicherheitsmaßnahmen"
+        ],
+        "image_search_string": "online fraud response",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Online Safety",
+    "generationLanguage": "de-DE"
+  }
+}

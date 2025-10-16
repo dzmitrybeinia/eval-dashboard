@@ -1,0 +1,231 @@
+{
+  "request": {
+    "lesson_description": "Understanding the states of matter: solid, liquid, gas, and plasma, and the transitions between them such as melting, freezing, condensation, and evaporation.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "d0c78997",
+    "topicInEnglish": "States of Matter",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Understanding the States of Matter",
+    "slides": [
+      {
+        "content": "Bem-vindos ao mundo fascinante da matéria! 🌍 Hoje, vamos explorar os diferentes estados da matéria e como eles se transformam. Prepare-se para descobrir como a matéria pode mudar de forma e comportamento!",
+        "title": "Introdução aos Estados da Matéria",
+        "themes": [
+          "introdução aos estados da matéria"
+        ],
+        "image_search_string": "states of matter",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "A matéria pode existir em quatro estados principais: sólido, líquido, gasoso e plasma. Cada estado tem características únicas:\n\n- **Sólido**: Forma e volume fixos. As partículas estão bem organizadas e próximas umas das outras.\n- **Líquido**: Volume fixo, mas forma variável. As partículas estão mais afastadas e podem deslizar umas sobre as outras.\n- **Gasoso**: Nem forma nem volume fixos. As partículas estão muito afastadas e se movem livremente.\n- **Plasma**: Um estado altamente energético, comum nas estrelas. As partículas estão ionizadas.",
+        "title": "Os Quatro Estados da Matéria",
+        "themes": [
+          "características dos estados da matéria",
+          "sólido, líquido, gasoso e plasma"
+        ],
+        "image_search_string": "four states of matter",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Match"
+        ]
+      },
+      {
+        "content": "A transição entre os estados da matéria ocorre devido a mudanças na energia térmica. Aqui estão alguns exemplos:\n\n- **Fusão**: Sólido para líquido (ex.: gelo derretendo).\n- **Solidificação**: Líquido para sólido (ex.: água congelando).\n- **Evaporação**: Líquido para gás (ex.: água fervendo).\n- **Condensação**: Gás para líquido (ex.: vapor virando água).\n- **Sublimação**: Sólido para gás diretamente (ex.: gelo seco evaporando).\n- **Deposição**: Gás para sólido diretamente (ex.: formação de geada).",
+        "title": "Transições Entre Estados da Matéria",
+        "themes": [
+          "mudanças de estado da matéria",
+          "fusão, solidificação, evaporação, condensação"
+        ],
+        "image_search_string": "phase transitions diagram",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "No estado sólido, as partículas estão organizadas em uma estrutura fixa e vibram em posições específicas. Isso confere aos sólidos sua forma e volume definidos. Exemplos incluem gelo, madeira e ferro.",
+        "title": "Características do Estado Sólido",
+        "themes": [
+          "estrutura e propriedades do estado sólido"
+        ],
+        "image_search_string": "solid state properties",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Os líquidos têm partículas menos organizadas que os sólidos, permitindo que elas deslizem umas sobre as outras. Isso dá aos líquidos a capacidade de assumir a forma do recipiente em que estão, mas mantendo um volume fixo. Exemplos: água, óleo e leite.",
+        "title": "Características do Estado Líquido",
+        "themes": [
+          "estrutura e propriedades do estado líquido"
+        ],
+        "image_search_string": "liquid state properties",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "No estado gasoso, as partículas estão muito separadas e se movem rapidamente em todas as direções. Isso faz com que os gases não tenham forma nem volume fixos, espalhando-se facilmente. Exemplos: oxigênio, dióxido de carbono e vapor d'água.",
+        "title": "Características do Estado Gasoso",
+        "themes": [
+          "estrutura e propriedades do estado gasoso"
+        ],
+        "image_search_string": "gas state properties",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O plasma é um estado de alta energia onde os átomos perdem elétrons, criando partículas carregadas. É o estado mais comum no universo, encontrado em estrelas como o Sol. Exemplos na Terra incluem relâmpagos e lâmpadas fluorescentes.",
+        "title": "Características do Estado Plasma",
+        "themes": [
+          "estrutura e propriedades do estado plasma"
+        ],
+        "image_search_string": "plasma state properties",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A fusão ocorre quando um sólido absorve calor suficiente para que suas partículas superem as forças que as mantêm unidas. Um exemplo cotidiano é o gelo derretendo em água.",
+        "title": "O Processo de Fusão",
+        "themes": [
+          "mudança de sólido para líquido"
+        ],
+        "image_search_string": "melting ice example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A solidificação acontece quando um líquido perde calor, permitindo que suas partículas se organizem em uma estrutura fixa, formando um sólido. Um exemplo é a água congelando.",
+        "title": "O Processo de Solidificação",
+        "themes": [
+          "mudança de líquido para sólido"
+        ],
+        "image_search_string": "freezing water example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A evaporação é o processo pelo qual as partículas de um líquido ganham energia suficiente para escapar na forma de gás. Um exemplo é a água fervendo e transformando-se em vapor.",
+        "title": "O Processo de Evaporação",
+        "themes": [
+          "mudança de líquido para gás"
+        ],
+        "image_search_string": "boiling water example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Durante a condensação, o gás perde energia térmica, permitindo que suas partículas fiquem mais próximas e se transformem em líquido. Isso ocorre, por exemplo, quando o vapor d'água se transforma em gotas de água.",
+        "title": "O Processo de Condensação",
+        "themes": [
+          "mudança de gás para líquido"
+        ],
+        "image_search_string": "condensation example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A sublimação é a transição direta de sólido para gás, sem passar pelo estado líquido. Isso pode ser observado com o gelo seco, que se transforma em gás carbônico.",
+        "title": "O Processo de Sublimação",
+        "themes": [
+          "mudança de sólido para gás"
+        ],
+        "image_search_string": "sublimation dry ice",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "A deposição é o processo inverso da sublimação, onde o gás se transforma diretamente em sólido. Um exemplo é a formação de geada nas manhãs frias.",
+        "title": "O Processo de Deposição",
+        "themes": [
+          "mudança de gás para sólido"
+        ],
+        "image_search_string": "frost formation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O calor desempenha um papel crucial na transição entre os estados da matéria. A adição de calor aumenta a energia das partículas, enquanto a remoção de calor reduz sua energia, facilitando as mudanças de estado.",
+        "title": "O Papel do Calor nas Mudanças de Estado",
+        "themes": [
+          "influência do calor nas mudanças de estado"
+        ],
+        "image_search_string": "heat and matter states",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Algumas substâncias podem existir em mais de um estado da matéria dependendo das condições de temperatura e pressão. Por exemplo, a água pode ser gelo, líquido ou vapor.",
+        "title": "Substâncias em Múltiplos Estados",
+        "themes": [
+          "substâncias em diferentes estados"
+        ],
+        "image_search_string": "water in three states",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "As mudanças de estado da matéria têm aplicações práticas, como no uso de gelo seco para refrigeração ou no funcionamento de motores a vapor. Entender essas transições é fundamental em ciência e tecnologia.",
+        "title": "Aplicações das Mudanças de Estado",
+        "themes": [
+          "aplicações práticas das mudanças de estado"
+        ],
+        "image_search_string": "practical uses of phase changes",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Então, vamos recapitular: a matéria pode ser sólida, líquida, gasosa ou plasma, e mudanças de estado ocorrem devido a variações na energia térmica. Essas transições são fundamentais para entender o mundo ao nosso redor!",
+        "title": "Conclusão sobre os Estados da Matéria",
+        "themes": [
+          "recapitulação dos estados da matéria"
+        ],
+        "image_search_string": "states of matter summary",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "States of Matter",
+    "generationLanguage": "pt-PT"
+  }
+}

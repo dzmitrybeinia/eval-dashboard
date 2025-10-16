@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En muchos países, debes inscribirte antes de votar.",
+      "correction": "En España, debes inscribirte en el padrón municipal, pero el registro de votantes es automático para los ciudadanos.",
+      "description": "The original sentence generalizes the voter registration process, which may mislead Spanish audiences. In Spain, voter registration is automatic for citizens who are registered in the municipal census (padrón), unlike in other countries where manual registration is required. This is a cultural localization issue, as the content should reflect the local electoral process for Spanish learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Esto asegura que tu nombre esté en la lista de votantes y que puedas recibir la papeleta correcta.",
+      "correction": "Esto asegura que tu nombre esté en el censo electoral y que puedas recibir la papeleta correspondiente.",
+      "description": "The term 'lista de votantes' is not standard in Spain; 'censo electoral' is the correct term. Additionally, 'papeleta correcta' is better localized as 'papeleta correspondiente' to match Spanish electoral terminology. This improves both terminology consistency and naturalness for Spanish audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "En algunos lugares, también se puede votar por correo o de manera anticipada.",
+      "correction": "En España, también se puede votar por correo.",
+      "description": "The phrase 'de manera anticipada' (early voting) is not applicable in Spain, where early in-person voting is not permitted; only postal voting is available before election day. This is a localization issue regarding electoral procedures in Spain.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "colegios electorales",
+      "correction": "mesas electorales",
+      "description": "While 'colegios electorales' is commonly used, in Spain, 'mesa electoral' is the official term for the table or station where votes are cast. However, 'colegio electoral' is also accepted for the polling place. If the context refers to the physical location, 'colegio electoral' is correct; if referring to the specific voting station, 'mesa electoral' is more precise. Consider clarifying the context for accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "las papeletas son recolectadas y contadas",
+      "correction": "las papeletas son recogidas y escrutadas",
+      "description": "The verb 'recolectadas' is not standard in Spanish electoral context; 'recogidas' is more natural, and 'escrutadas' is the official term for counting votes in Spain. This correction aligns with local electoral terminology and improves cultural appropriateness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:39:24.167061",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

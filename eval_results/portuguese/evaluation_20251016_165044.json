@@ -1,0 +1,48 @@
+{
+  "issues": [],
+  "metadata": {
+    "file": "Friendship_Skills.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:44.205846",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 10.0,
+    "classification": "NATIVE",
+    "total_issues": 0,
+    "total_penalty": 0.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Hoje, vamos explorar como a empatia, a escuta ativa e a resolução de conflitos podem nos ajudar a construir relacionamentos fortes com nossos amigos. 🌟",
+      "correction": "Hoje, vamos explorar como a empatia, a escuta ativa e a resolução de conflitos podem nos ajudar a construir relacionamentos fortes com nossos amigos.",
+      "description": "The use of the star emoji (🌟) at the end of the sentence may be considered informal or distracting in educational content for older students or in more formal settings. Removing the emoji ensures a more neutral and professional tone, which is generally preferred in educational materials unless the target audience is very young children.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Olhar nos olhos da pessoa.",
+      "correction": "Olhar nos olhos da pessoa.",
+      "description": "While the phrase is linguistically correct, in some Brazilian cultural contexts, direct eye contact can be perceived as confrontational or uncomfortable, especially among children or in certain regions. Consider clarifying that eye contact should be natural and respectful, adapting the guidance to local social norms if the audience is young or from diverse backgrounds.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

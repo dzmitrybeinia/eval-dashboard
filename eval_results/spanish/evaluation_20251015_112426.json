@@ -1,0 +1,48 @@
+{
+  "issues": [],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:24:26.862555",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 2,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 10.0,
+    "classification": "NATIVE",
+    "total_issues": 0,
+    "total_penalty": 0.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos a un fascinante viaje por los secretos del espacio! Hoy exploraremos cómo los humanos viajan al espacio, las leyes que gobiernan el movimiento de las naves y los desafíos que enfrentan los astronautas para sobrevivir en un entorno tan extremo.",
+      "correction": "¡Bienvenidos a un fascinante viaje por los secretos del espacio! Hoy exploraremos cómo los humanos viajan al espacio, las leyes que gobiernan el movimiento de las naves y los desafíos que enfrentan los astronautas para sobrevivir en un entorno tan extremo.",
+      "description": "No linguistic errors found in this introductory text. The use of accent marks, punctuation, and grammar is correct. The register is appropriate for an educational context and the vocabulary is standard for Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Estación Espacial Internacional (EEI)",
+      "correction": "Estación Espacial Internacional (EEI)",
+      "description": "The abbreviation 'EEI' is correct and standard in Spain for 'Estación Espacial Internacional'. No localization issues are present; terminology is consistent with Spanish usage in Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

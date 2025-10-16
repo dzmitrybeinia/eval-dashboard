@@ -1,0 +1,81 @@
+{
+  "request": {
+    "lesson_description": "Introduction to coding basics: understanding variables, data types, and simple algorithms.",
+    "exercises_ratio": 0.0,
+    "grade_level": "7th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "de8ee545",
+    "topicInEnglish": "Coding Basics",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Introducción a los conceptos básicos de la programación",
+    "slides": [
+      {
+        "content": "¡Bienvenidos al mundo de la programación! Aquí aprenderemos sobre conceptos básicos como variables, tipos de datos y algoritmos simples. 🚀",
+        "title": "¡Bienvenidos a la programación!",
+        "themes": [
+          "introducción a la programación"
+        ],
+        "image_search_string": "programación básica",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Una **variable** es como una caja que guarda información. Por ejemplo, si tienes una caja con el nombre \"edad\" y dentro guardas el número 12, esa es una variable.",
+        "title": "¿Qué es una variable?",
+        "themes": [
+          "definición de variable"
+        ],
+        "image_search_string": "definición de variable",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Existen diferentes tipos de datos, como números, texto y valores de verdad (verdadero o falso). Estos se llaman **tipos de datos**.",
+        "title": "Tipos de datos",
+        "themes": [
+          "tipos de datos en programación"
+        ],
+        "image_search_string": "tipos de datos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Un **algoritmo** es una serie de pasos que seguimos para resolver un problema. Por ejemplo, una receta de cocina es un algoritmo.",
+        "title": "¿Qué es un algoritmo?",
+        "themes": [
+          "definición de algoritmo"
+        ],
+        "image_search_string": "definición de algoritmo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para crear un programa, primero necesitamos identificar el problema, luego escribir los pasos (algoritmo) y finalmente convertir esos pasos en código.",
+        "title": "Pasos para crear un programa",
+        "themes": [
+          "proceso de programación"
+        ],
+        "image_search_string": "proceso de programación",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Coding Basics",
+    "generationLanguage": "es-ES"
+  }
+}

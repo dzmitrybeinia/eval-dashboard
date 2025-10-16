@@ -1,0 +1,185 @@
+{
+  "request": {
+    "lesson_description": "Strategies for improving reading comprehension: Identifying main ideas, summarizing, and making inferences.",
+    "exercises_ratio": 0.3,
+    "grade_level": "7th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.ELA-LITERACY.RI.7.1: Cite several pieces of textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6201ce97",
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Stratégies pour améliorer la compréhension de lecture",
+    "slides": [
+      {
+        "content": "Bienvenue à notre leçon sur les stratégies de compréhension de lecture ! Aujourd'hui, nous allons explorer comment identifier les idées principales, résumer un texte et faire des inférences pour mieux comprendre ce que nous lisons. 📚",
+        "title": "Introduction à la compréhension de lecture",
+        "themes": [
+          "introduction à la compréhension de lecture"
+        ],
+        "image_search_string": "students reading books",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Une idée principale est le message le plus important ou central d'un texte. Elle peut être explicite (clairement exprimée) ou implicite (sous-entendue). Pour la trouver, posez-vous la question : \"Quel est le point principal que l'auteur veut transmettre ?\"",
+        "title": "Qu'est-ce qu'une idée principale ?",
+        "themes": [
+          "définition de l'idée principale"
+        ],
+        "image_search_string": "main idea concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour identifier une idée principale, cherchez :\n- Les phrases clés ou le premier/dernier paragraphe.\n- Les mots ou expressions répétés.\n- Les exemples ou détails qui soutiennent un même point.",
+        "title": "Comment identifier une idée principale ?",
+        "themes": [
+          "techniques pour trouver l'idée principale"
+        ],
+        "image_search_string": "identifying main idea",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Résumer un texte consiste à exprimer ses idées principales en quelques phrases. Cela aide à se concentrer sur l'essentiel et à vérifier sa compréhension.",
+        "title": "Qu'est-ce qu'un résumé ?",
+        "themes": [
+          "définition du résumé"
+        ],
+        "image_search_string": "summarizing text",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Pour résumer efficacement :\n1. Identifiez les idées principales.\n2. Excluez les détails secondaires ou redondants.\n3. Reformulez avec vos propres mots.\n4. Vérifiez que votre résumé reflète bien le texte original.",
+        "title": "Comment résumer un texte ?",
+        "themes": [
+          "étapes pour résumer un texte"
+        ],
+        "image_search_string": "steps to summarize",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Une inférence est une conclusion que vous tirez à partir d'indices dans le texte et de vos propres connaissances. Elle n'est pas explicitement écrite, mais elle est logique.",
+        "title": "Qu'est-ce qu'une inférence ?",
+        "themes": [
+          "définition de l'inférence"
+        ],
+        "image_search_string": "making inferences",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Pour faire une inférence :\n- Identifiez les indices dans le texte.\n- Utilisez vos connaissances personnelles.\n- Connectez ces éléments pour tirer une conclusion.",
+        "title": "Comment faire une inférence ?",
+        "themes": [
+          "techniques pour faire des inférences"
+        ],
+        "image_search_string": "how to infer",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Citer des preuves textuelles signifie utiliser des phrases ou passages spécifiques du texte pour soutenir une idée, une analyse ou une inférence.",
+        "title": "Qu'est-ce que citer des preuves textuelles ?",
+        "themes": [
+          "définition de citer des preuves textuelles"
+        ],
+        "image_search_string": "textual evidence",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Pour citer des preuves textuelles :\n1. Trouvez une phrase ou un passage qui soutient votre idée.\n2. Introduisez la citation avec vos propres mots.\n3. Expliquez comment cette citation soutient votre point.",
+        "title": "Comment citer des preuves textuelles ?",
+        "themes": [
+          "étapes pour citer des preuves textuelles"
+        ],
+        "image_search_string": "steps to cite evidence",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Un exemple :\nTexte : \"L'école est un lieu d'apprentissage et de croissance.\"\nIdée principale : L'école aide les élèves à apprendre et à grandir.\nRésumé : L'école favorise l'apprentissage et la croissance.",
+        "title": "Exemple d'idée principale et de résumé",
+        "themes": [
+          "exemple d'idée principale et résumé"
+        ],
+        "image_search_string": "example of summarizing",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un exemple d'inférence :\nTexte : \"Les feuilles jaunes jonchaient le sol. Le vent était frais et portait une odeur de bois brûlé.\"\nInférence : C'est probablement l'automne.",
+        "title": "Exemple d'inférence",
+        "themes": [
+          "exemple d'inférence"
+        ],
+        "image_search_string": "example of inference",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Une pratique clé est de poser des questions pendant la lecture :\n- Que veut dire cette phrase ?\n- Pourquoi l'auteur a-t-il mentionné cela ?\n- Que puis-je conclure de ce passage ?",
+        "title": "Poser des questions pour mieux comprendre",
+        "themes": [
+          "importance de poser des questions"
+        ],
+        "image_search_string": "asking questions during reading",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Les lectures répétées et les discussions en groupe peuvent aussi améliorer la compréhension. Lire plusieurs fois permet de trouver des détails manqués, et discuter aide à voir d'autres perspectives.",
+        "title": "Autres stratégies pour la compréhension",
+        "themes": [
+          "stratégies supplémentaires pour la compréhension"
+        ],
+        "image_search_string": "group reading discussion",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "En résumé, pour améliorer votre compréhension de lecture :\n- Identifiez les idées principales.\n- Résumez les textes.\n- Faites des inférences.\n- Citez des preuves textuelles.\n- Posez des questions et échangez avec les autres.",
+        "title": "Conclusion de la leçon",
+        "themes": [
+          "résumé des stratégies de compréhension"
+        ],
+        "image_search_string": "reading strategies",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "fr-FR"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "request": {
+    "lesson_description": "Understanding the Engineering Design Process: Steps, Applications, and Real-World Problem Solving",
+    "exercises_ratio": 0.4,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "NGSS.MS-ETS1-2: Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "488c981d",
+    "topicInEnglish": "Design Process",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Understanding the Engineering Design Process",
+    "slides": [
+      {
+        "content": "Die Ingenieurdesignprozess ist eine systematische Methode, um technische Probleme zu lösen. In dieser Lektion erforschen wir die verschiedenen Schritte des Prozesses und wie sie angewendet werden können, um reale Herausforderungen zu meistern. 🚀",
+        "title": "Einführung in den Ingenieurdesignprozess",
+        "themes": [
+          "Einführung in den Ingenieurdesignprozess"
+        ],
+        "image_search_string": "Engineering design process",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Der Ingenieurdesignprozess beginnt mit der Identifikation eines Problems. Dies bedeutet, dass wir ein Bedürfnis oder ein Problem erkennen, das gelöst werden muss. Zum Beispiel könnte ein Ingenieur bemerken, dass ein Fahrrad zu schwer ist, und daran arbeiten, es leichter zu machen.",
+        "title": "Problem definieren",
+        "themes": [
+          "Problemidentifikation im Ingenieurdesign"
+        ],
+        "image_search_string": "problem identification",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Nach der Identifikation des Problems sammeln Ingenieure Informationen und recherchieren, um das Problem besser zu verstehen. Sie befragen Experten, analysieren bestehende Lösungen und studieren die Anforderungen und Einschränkungen.",
+        "title": "Informationen sammeln und recherchieren",
+        "themes": [
+          "Recherche im Ingenieurdesignprozess"
+        ],
+        "image_search_string": "research and analysis",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Ingenieure entwickeln mehrere Ideen und Konzepte, um das Problem zu lösen. In dieser Phase wird Kreativität gefördert, und es gibt keine falschen Ideen!",
+        "title": "Ideen generieren",
+        "themes": [
+          "Kreativität und Ideengenerierung"
+        ],
+        "image_search_string": "brainstorming ideas",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Die erstellten Ideen werden bewertet, um zu entscheiden, welche die beste Lösung darstellt. Kriterien wie Effizienz, Kosten und Durchführbarkeit werden berücksichtigt.",
+        "title": "Lösungen bewerten",
+        "themes": [
+          "Bewertung von Designlösungen"
+        ],
+        "image_search_string": "evaluating solutions",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die gewählte Lösung wird entworfen und ein Prototyp wird erstellt. Dies ist ein Modell oder eine erste Version des Designs, das getestet werden kann.",
+        "title": "Prototyp erstellen",
+        "themes": [
+          "Prototyping im Ingenieurdesign"
+        ],
+        "image_search_string": "prototype creation",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Prototypen werden getestet, um zu sehen, wie gut sie funktionieren. Ingenieure analysieren die Ergebnisse der Tests und notieren, was verbessert werden muss.",
+        "title": "Testen und analysieren",
+        "themes": [
+          "Testen von Prototypen"
+        ],
+        "image_search_string": "prototype testing",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Basierend auf den Testergebnissen wird das Design überarbeitet, um es zu verbessern. Dieser Prozess kann mehrmals wiederholt werden, bis die Lösung optimal ist.",
+        "title": "Design überarbeiten",
+        "themes": [
+          "Überarbeitung des Designs"
+        ],
+        "image_search_string": "design iteration",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Die fertige Lösung wird implementiert und in der Praxis verwendet. Ingenieure überwachen weiterhin ihre Leistung und sammeln Feedback für zukünftige Verbesserungen.",
+        "title": "Lösung implementieren",
+        "themes": [
+          "Implementierung von Lösungen"
+        ],
+        "image_search_string": "solution implementation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ingenieurdesign wird in vielen Bereichen angewendet, wie z. B. in der Architektur, Elektronik und im Maschinenbau. Es hilft, innovative Lösungen für komplexe Probleme zu entwickeln.",
+        "title": "Anwendungen des Ingenieurdesignprozesses",
+        "themes": [
+          "Anwendungsbereiche des Ingenieurdesigns"
+        ],
+        "image_search_string": "engineering applications",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Ein Beispiel für den Ingenieurdesignprozess ist die Entwicklung eines umweltfreundlichen Autos. Ingenieure identifizieren das Problem der hohen Emissionen, sammeln Informationen über saubere Technologien, entwickeln Ideen, testen Prototypen und implementieren schließlich ein fertiges Fahrzeug.",
+        "title": "Beispiel: Entwicklung eines umweltfreundlichen Autos",
+        "themes": [
+          "Beispiel für den Ingenieurdesignprozess"
+        ],
+        "image_search_string": "eco-friendly car design",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Evaluation konkurrierender Designlösungen ist ein wesentlicher Bestandteil des Prozesses. Ingenieure vergleichen verschiedene Designs systematisch, um die beste Lösung zu bestimmen, die die Kriterien und Einschränkungen erfüllt.",
+        "title": "Vergleich von Designlösungen",
+        "themes": [
+          "Evaluation von Designlösungen"
+        ],
+        "image_search_string": "comparing designs",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Wichtige Kriterien bei der Bewertung von Designs umfassen Kosten, Nachhaltigkeit, Benutzerfreundlichkeit und Effizienz. Diese Kriterien helfen Ingenieuren, objektive Entscheidungen zu treffen.",
+        "title": "Bewertungskriterien",
+        "themes": [
+          "Kriterien zur Bewertung von Designs"
+        ],
+        "image_search_string": "design evaluation criteria",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Der Ingenieurdesignprozess ist iterativ und flexibel, was bedeutet, dass Ingenieure immer wieder zu vorherigen Schritten zurückkehren können, um ihre Lösungen zu verbessern.",
+        "title": "Iterativer Charakter des Prozesses",
+        "themes": [
+          "Iterativer Prozess im Ingenieurdesign"
+        ],
+        "image_search_string": "iterative process",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Der Ingenieurdesignprozess fördert systematisches Denken, Kreativität und Problemlösungsfähigkeiten. Er ist ein Schlüsselwerkzeug für Ingenieure und andere Fachleute, die innovative Lösungen entwickeln möchten.",
+        "title": "Bedeutung des Ingenieurdesignprozesses",
+        "themes": [
+          "Bedeutung des Ingenieurdesigns"
+        ],
+        "image_search_string": "importance of engineering",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Design Process",
+    "generationLanguage": "de-DE"
+  }
+}

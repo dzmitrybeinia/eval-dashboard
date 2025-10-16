@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Recursos renováveis, como a água e as florestas, podem ser regenerados ou reabastecidos naturalmente com o tempo.",
+      "correction": "Recursos renováveis, como a água e as florestas, podem ser regenerados ou reabastecidos naturalmente ao longo do tempo.",
+      "description": "The phrase 'com o tempo' is grammatically correct but less precise in this context. 'Ao longo do tempo' is a more natural and accurate expression in Brazilian Portuguese when referring to processes that occur gradually. This correction improves lexical precision and naturalness, enhancing clarity for educational purposes.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Eles fornecem alimentos, energia, materiais de construção e muito mais.",
+      "correction": "Eles fornecem alimentos, energia, materiais de construção, entre outros.",
+      "description": "The phrase 'e muito mais' is understandable but less formal and not typically used in educational or academic contexts in Brazilian Portuguese. 'Entre outros' is a more appropriate and natural expression for listing examples in formal or instructional materials, improving the style and tone for the target audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:11.699799",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

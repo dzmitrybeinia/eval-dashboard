@@ -1,0 +1,143 @@
+{
+  "request": {
+    "lesson_description": "Introduction to World Religions: Exploring the beliefs, practices, and cultural significance of Christianity, Islam, Judaism, Hinduism, and Buddhism.",
+    "exercises_ratio": 0.2,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "7c8db89c",
+    "topicInEnglish": "World Religions",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Introducción a las Religiones del Mundo",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a un fascinante viaje por las religiones del mundo! Juntas exploraremos las creencias, prácticas y significados culturales de cinco grandes religiones: Cristianismo, Islam, Judaísmo, Hinduismo y Budismo. 🌍✨",
+        "title": "¡Descubramos las Religiones del Mundo!",
+        "themes": [
+          "introducción a las religiones"
+        ],
+        "image_search_string": "religiones del mundo",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El Cristianismo es una de las religiones más practicadas en el mundo. Se basa en las enseñanzas de Jesús de Nazaret, considerado el Hijo de Dios por los cristianos. Los textos sagrados incluyen la Biblia, dividida en el Antiguo y Nuevo Testamento. La cruz es un símbolo importante del Cristianismo.",
+        "title": "Cristianismo: Creencias y Prácticas",
+        "themes": [
+          "fundamentos del cristianismo"
+        ],
+        "image_search_string": "símbolo del cristianismo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El Islam se centra en la fe en un único Dios, llamado Alá, y en las enseñanzas del profeta Mahoma. El libro sagrado del Islam es el Corán, y los musulmanes practican los Cinco Pilares del Islam: fe, oración, caridad, ayuno durante el Ramadán y peregrinación a La Meca.",
+        "title": "Islam: Los Cinco Pilares",
+        "themes": [
+          "prácticas del islam"
+        ],
+        "image_search_string": "símbolo del islam",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El Judaísmo es una de las religiones más antiguas del mundo. Los judíos creen en un único Dios y siguen las enseñanzas de la Torá, que es parte del Tanaj. Las festividades importantes incluyen el Shabat, el Rosh Hashaná y el Yom Kipur.",
+        "title": "Judaísmo: Una Fe Antigua",
+        "themes": [
+          "prácticas y textos del judaísmo"
+        ],
+        "image_search_string": "símbolo del judaísmo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El Hinduismo es una religión diversa con muchas deidades y tradiciones. Los textos sagrados incluyen los Vedas y el Bhagavad Gita. Conceptos clave son el karma, el dharma y la reencarnación. Los hindúes a menudo adoran en templos y celebran festivales como el Diwali.",
+        "title": "Hinduismo: Diversidad y Tradiciones",
+        "themes": [
+          "valores del hinduismo"
+        ],
+        "image_search_string": "símbolo del hinduismo",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El Budismo se basa en las enseñanzas de Siddhartha Gautama, conocido como Buda. Los budistas buscan alcanzar la iluminación siguiendo el Camino Óctuple. El concepto de Nirvana es clave, y las prácticas incluyen la meditación y el estudio de las enseñanzas del Buda.",
+        "title": "Budismo: El Camino a la Iluminación",
+        "themes": [
+          "enseñanzas del budismo"
+        ],
+        "image_search_string": "símbolo del budismo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El Cristianismo, el Islam y el Judaísmo comparten raíces en la región del Medio Oriente y veneran a un único Dios. A menudo se les llama religiones abrahámicas por su conexión con el patriarca Abraham.",
+        "title": "Religiones Abrahámicas",
+        "themes": [
+          "conexión entre religiones abrahámicas"
+        ],
+        "image_search_string": "religiones abrahámicas",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El Hinduismo y el Budismo, originarios de la India, comparten conceptos como el karma y la reencarnación, pero difieren en sus visiones sobre la divinidad y el camino hacia la iluminación.",
+        "title": "Comparación: Hinduismo y Budismo",
+        "themes": [
+          "contraste entre hinduismo y budismo"
+        ],
+        "image_search_string": "hinduismo y budismo",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las religiones influyen en la cultura a través del arte, la música, la literatura y las festividades. Por ejemplo, la música gospel en el Cristianismo o las pinturas tibetanas en el Budismo reflejan la espiritualidad y las creencias.",
+        "title": "Religión y Cultura",
+        "themes": [
+          "impacto cultural de las religiones"
+        ],
+        "image_search_string": "religión y cultura",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En todo el mundo, las religiones ofrecen respuestas a preguntas profundas sobre el propósito de la vida, la moralidad y el más allá. También son fundamentales para la formación de comunidades y la identidad cultural.",
+        "title": "El Propósito de las Religiones",
+        "themes": [
+          "función de las religiones"
+        ],
+        "image_search_string": "el propósito de las religiones",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "World Religions",
+    "generationLanguage": "es-ES"
+  }
+}

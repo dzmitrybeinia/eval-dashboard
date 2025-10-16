@@ -1,0 +1,133 @@
+{
+  "request": {
+    "lesson_description": "Coding Basics: Understanding variables, data types, and simple logic in programming.",
+    "exercises_ratio": 0.7,
+    "grade_level": "7th grade",
+    "estimated_length": 30,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "5ac3f220",
+    "topicInEnglish": "Coding Basics",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Les bases de la programmation : variables, types de données et logique",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon sur les bases de la programmation ! Aujourd'hui, nous allons explorer des concepts essentiels comme les variables, les types de données et la logique simple. 🖥️ Préparez-vous à découvrir comment les ordinateurs comprennent et exécutent les instructions !",
+        "title": "Introduction à la programmation",
+        "themes": [
+          "introduction à la programmation"
+        ],
+        "image_search_string": "computer programming basics",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Une variable est un espace de stockage dans la mémoire d'un ordinateur qui peut contenir une valeur. Imagine une boîte étiquetée où tu peux ranger un objet. Dans la programmation, les variables permettent de sauvegarder et de manipuler des données. Par exemple :\n\n```python\nnom = \"Alice\"\nage = 12\n```\nDans cet exemple, \"nom\" est une variable contenant la chaîne de caractères \"Alice\" et \"âge\" contient le nombre 12.",
+        "title": "Qu'est-ce qu'une variable ?",
+        "themes": [
+          "définition des variables"
+        ],
+        "image_search_string": "programming variable concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les types de données définissent le genre de valeurs qu'une variable peut contenir. Les principaux types de données sont :\n\n- **Entiers (int)** : pour les nombres entiers (ex. : 1, 42, -7).\n- **Flottants (float)** : pour les nombres décimaux (ex. : 3.14, -0.001).\n- **Chaînes de caractères (string)** : pour le texte (ex. : \"bonjour\").\n- **Booléens (bool)** : pour les valeurs vraies ou fausses (ex. : True, False).",
+        "title": "Les types de données",
+        "themes": [
+          "types de données en programmation"
+        ],
+        "image_search_string": "data types programming",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour déclarer une variable, il suffit de lui donner un nom et de lui attribuer une valeur. Par exemple :\n\n```python\ncouleur = \"rouge\"\nhauteur = 1.75\n```\nLes noms de variables doivent être clairs et explicites, et ne pas commencer par un chiffre. Évitez les espaces ; utilisez des underscores (_) si nécessaire.",
+        "title": "Comment déclarer une variable",
+        "themes": [
+          "déclaration de variables"
+        ],
+        "image_search_string": "declare variable programming",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les opérateurs logiques permettent aux programmes de prendre des décisions. Les principaux opérateurs logiques sont :\n\n- **ET (and)** : toutes les conditions doivent être vraies.\n- **OU (or)** : au moins une condition doit être vraie.\n- **NON (not)** : inverse la valeur d'une condition.\n\nExemple en Python :\n\n```python\nx = 5\ny = 10\nprint(x > 3 and y < 20)  # Cela renvoie True\n```",
+        "title": "Les opérateurs logiques",
+        "themes": [
+          "opérateurs logiques"
+        ],
+        "image_search_string": "logical operators programming",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les structures conditionnelles permettent d'exécuter différents blocs de code en fonction de conditions. Voici un exemple simple en Python :\n\n```python\nage = 15\nif age >= 18:\n    print(\"Adulte\")\nelse:\n    print(\"Mineur\")\n```\nDans cet exemple, si l'âge est supérieur ou égal à 18, le programme affichera \"Adulte\" ; sinon, il affichera \"Mineur\".",
+        "title": "Les structures conditionnelles",
+        "themes": [
+          "structures conditionnelles"
+        ],
+        "image_search_string": "conditional statements programming",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Un programme est souvent une suite d'instructions logiques. Voici une logique simple :\n\n1. Entrée de données.\n2. Traitement des données.\n3. Affichage des résultats.\n\nPar exemple :\n\n```python\nnom = input(\"Quel est votre nom ? \")\nprint(\"Bonjour, \" + nom)\n```",
+        "title": "Logique simple dans les programmes",
+        "themes": [
+          "logique dans les programmes"
+        ],
+        "image_search_string": "simple logic programming",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les erreurs sont normales en programmation. Les deux principales catégories sont :\n\n1. **Erreurs de syntaxe** : lorsque le code ne respecte pas les règles du langage (ex. : oubli d'une parenthèse).\n2. **Erreurs logiques** : lorsque le code fonctionne mais ne donne pas les résultats attendus.\n\nPour les corriger, il faut souvent relire attentivement le code et tester des solutions.",
+        "title": "Comprendre les erreurs",
+        "themes": [
+          "erreurs en programmation"
+        ],
+        "image_search_string": "debugging programming errors",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Pour réviser :\n\n1. Une **variable** est un conteneur pour une valeur.\n2. Les **types de données** définissent la nature des valeurs.\n3. Les **opérateurs logiques** aident à prendre des décisions.\n4. Les **structures conditionnelles** exécutent différents codes selon les conditions.\n5. La **logique simple** suit une séquence : entrée, traitement, sortie.",
+        "title": "Résumé de la leçon",
+        "themes": [
+          "résumé des concepts"
+        ],
+        "image_search_string": "programming basics overview",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Coding Basics",
+    "generationLanguage": "fr-FR"
+  }
+}

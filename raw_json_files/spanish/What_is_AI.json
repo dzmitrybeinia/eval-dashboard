@@ -1,0 +1,141 @@
+{
+  "request": {
+    "lesson_description": "What is Artificial Intelligence (AI)? Understanding its definition, applications, and ethical considerations.",
+    "exercises_ratio": 0.2,
+    "grade_level": "10th grade",
+    "estimated_length": 25,
+    "learning_standard": "Next Generation Science Standards (NGSS): HS-ETS1-4 - Use a computer simulation to model the impact of proposed solutions to a complex real-world problem with numerous criteria and constraints on interactions within and between systems.",
+    "additional_guidance": "Focus on real-world examples such as self-driving cars, virtual assistants, and healthcare applications. Include discussions on the benefits and challenges of AI, as well as ethical implications like bias and privacy.",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "293cfc06",
+    "topicInEnglish": "What is AI",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "¿Qué es la Inteligencia Artificial (IA)?",
+    "slides": [
+      {
+        "content": "¡Bienvenidos! Hoy vamos a explorar un tema fascinante: la Inteligencia Artificial (IA). Descubriremos qué significa, cómo se utiliza en nuestra vida diaria y las preguntas éticas que plantea. 🌟",
+        "title": "Introducción a la IA",
+        "themes": [
+          "introducción a la IA"
+        ],
+        "image_search_string": "inteligencia artificial concepto",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La inteligencia artificial, o IA, se refiere a sistemas o máquinas que pueden realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, la resolución de problemas, el reconocimiento de patrones y la toma de decisiones.",
+        "title": "Definición de IA",
+        "themes": [
+          "definición de inteligencia artificial"
+        ],
+        "image_search_string": "definición inteligencia artificial",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Algunos ejemplos comunes de IA incluyen:\n- Asistentes virtuales como Siri y Alexa.\n- Sistemas de recomendación en Netflix o Spotify.\n- Autos que se conducen solos.\n- Diagnósticos médicos asistidos por IA.",
+        "title": "Ejemplos de IA en la vida cotidiana",
+        "themes": [
+          "ejemplos de inteligencia artificial"
+        ],
+        "image_search_string": "ejemplos de inteligencia artificial",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La IA funciona utilizando algoritmos y grandes cantidades de datos. Los algoritmos son conjuntos de instrucciones que la máquina sigue para resolver problemas. Los datos ayudan a la IA a aprender patrones y mejorar con el tiempo.",
+        "title": "¿Cómo funciona la IA?",
+        "themes": [
+          "funcionamiento de la IA"
+        ],
+        "image_search_string": "funcionamiento inteligencia artificial",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En el campo de la salud, la IA se aplica para:\n- Diagnosticar enfermedades con imágenes médicas.\n- Proporcionar tratamientos personalizados.\n- Ayudar en investigaciones para desarrollar nuevos medicamentos.",
+        "title": "Aplicaciones de IA en la salud",
+        "themes": [
+          "IA en la salud"
+        ],
+        "image_search_string": "inteligencia artificial en salud",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los autos que se conducen solos utilizan IA para:\n- Reconocer señales de tráfico y peatones.\n- Navegar por calles usando mapas.\n- Prevenir accidentes con sistemas de frenado automático.",
+        "title": "IA en los autos autónomos",
+        "themes": [
+          "IA en autos autónomos"
+        ],
+        "image_search_string": "autos autónomos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La IA también tiene aplicaciones en la educación, como:\n- Personalizar el aprendizaje para cada estudiante.\n- Proporcionar retroalimentación instantánea.\n- Automatizar tareas administrativas para los maestros.",
+        "title": "IA en la educación",
+        "themes": [
+          "IA en la educación"
+        ],
+        "image_search_string": "educación con inteligencia artificial",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Aunque la IA trae grandes beneficios, también plantea desafíos éticos, como:\n- La posibilidad de sesgos en los algoritmos.\n- La pérdida de privacidad de los usuarios.\n- El impacto en el empleo debido a la automatización.",
+        "title": "Desafíos éticos de la IA",
+        "themes": [
+          "desafíos éticos de la IA"
+        ],
+        "image_search_string": "desafíos éticos IA",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El sesgo en la IA ocurre cuando los datos usados para entrenarla no son representativos o están influenciados por prejuicios. Esto puede llevar a decisiones injustas o discriminatorias.",
+        "title": "El sesgo en la IA",
+        "themes": [
+          "sesgo en la IA"
+        ],
+        "image_search_string": "sesgo en inteligencia artificial",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La privacidad es una preocupación clave en la IA, ya que recopila y analiza grandes cantidades de datos personales. Es importante establecer regulaciones para proteger la información de los usuarios.",
+        "title": "La privacidad en la IA",
+        "themes": [
+          "privacidad y IA"
+        ],
+        "image_search_string": "privacidad y tecnología",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "What is AI",
+    "generationLanguage": "es-ES"
+  }
+}

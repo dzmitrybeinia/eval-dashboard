@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Reihen werden Perioden genannt, und die Spalten werden Gruppen oder Familien genannt.",
+      "correction": "Die Reihen werden Perioden genannt und die Spalten Gruppen oder Familien.",
+      "description": "The original sentence contains unnecessary repetition of the verb 'genannt' and an extra comma before 'und', which is not required in German when connecting two main clauses with the same verb. The corrected version omits the second 'genannt' and the comma, resulting in a more natural and grammatically correct sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gruppen oder Familien",
+      "correction": "Gruppen",
+      "description": "While 'Familien' is sometimes used in older or non-German chemistry texts, the standard German terminology for columns in the periodic table is 'Gruppen'. Using 'Familien' may cause confusion for learners in German-speaking educational contexts. The correction ensures consistency with locally accepted scientific terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Mit zunehmender Periode nehmen die Atomgrößen und die Anzahl der Elektronen zu.",
+      "correction": "Mit zunehmender Periode nehmen die Atomgröße und die Anzahl der Elektronen zu.",
+      "description": "The plural 'Atomgrößen' is incorrect in this context, as the sentence refers to the general increase in atomic size per period, not multiple sizes. The singular 'Atomgröße' is the correct term to use here, ensuring grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:10.988425",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

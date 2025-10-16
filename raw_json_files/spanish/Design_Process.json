@@ -1,0 +1,117 @@
+{
+  "request": {
+    "lesson_description": "Understanding the design process: Steps from ideation to prototyping, focusing on problem-solving and innovation.",
+    "exercises_ratio": 0.2,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "48a95b7f",
+    "topicInEnglish": "Design Process",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "El proceso de diseño: de la idea al prototipo",
+    "slides": [
+      {
+        "content": "¡Bienvenidos! Hoy exploraremos cómo transformar una idea en algo tangible y funcional. 🌟 Acompáñanos a descubrir cómo resolver problemas de manera creativa utilizando el proceso de diseño.",
+        "title": "Introducción al proceso de diseño",
+        "themes": [
+          "introducción al diseño"
+        ],
+        "image_search_string": "proceso creativo diseño",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El proceso de diseño comienza identificando un problema o necesidad. Antes de diseñar, debemos entender qué queremos resolver. Esto incluye observar, investigar y definir claramente el desafío.",
+        "title": "Paso 1: Identificar el problema",
+        "themes": [
+          "identificación del problema"
+        ],
+        "image_search_string": "identificación problema diseño",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Después de definir el problema, generamos ideas. Este paso se llama ideación. Aquí usamos herramientas como lluvias de ideas para pensar en todas las posibles soluciones, sin juzgar ninguna.",
+        "title": "Paso 2: Generar ideas (ideación)",
+        "themes": [
+          "generación de ideas"
+        ],
+        "image_search_string": "ideación lluvia ideas",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Luego de tener varias ideas, seleccionamos las más prometedoras. Evaluamos cada idea según criterios como viabilidad, impacto y recursos necesarios.",
+        "title": "Paso 3: Seleccionar ideas",
+        "themes": [
+          "evaluación y selección"
+        ],
+        "image_search_string": "selección de ideas",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "En este paso, desarrollamos un modelo o versión inicial de nuestra idea: el prototipo. Puede ser un dibujo, una maqueta o una versión digital, dependiendo del proyecto.",
+        "title": "Paso 4: Crear un prototipo",
+        "themes": [
+          "creación de prototipos"
+        ],
+        "image_search_string": "prototipo diseño",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Probamos el prototipo para ver si resuelve el problema. Recogemos feedback de usuarios y observamos cómo funciona en la práctica. Esto nos ayuda a mejorar el diseño.",
+        "title": "Paso 5: Probar y mejorar",
+        "themes": [
+          "pruebas y mejoras"
+        ],
+        "image_search_string": "pruebas prototipo diseño",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El diseño es un ciclo. Después de probar el prototipo, refinamos el diseño basándonos en los resultados. Este proceso puede repetirse varias veces hasta alcanzar la solución óptima.",
+        "title": "Paso 6: Refinar y repetir",
+        "themes": [
+          "iteración en diseño"
+        ],
+        "image_search_string": "iteración diseño",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "El proceso de diseño no solo crea productos, sino que también fomenta la innovación y el pensamiento crítico. ¡Usa estos pasos para resolver problemas y crear cosas increíbles!",
+        "title": "Conclusión: Innovación a través del diseño",
+        "themes": [
+          "innovación y diseño"
+        ],
+        "image_search_string": "innovación diseño creativo",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Design Process",
+    "generationLanguage": "es-ES"
+  }
+}

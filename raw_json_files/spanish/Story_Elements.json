@@ -1,0 +1,94 @@
+{
+  "request": {
+    "lesson_description": "Understanding story elements: characters, setting, plot, conflict, and theme. Explore how these components interact to create a cohesive narrative.",
+    "exercises_ratio": 0.7,
+    "grade_level": "6th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "80f117ef",
+    "topicInEnglish": "Story Elements",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Entendiendo los elementos de una historia",
+    "slides": [
+      {
+        "content": "¡Bienvenidos al fascinante mundo de las historias! Hoy aprenderemos sobre los elementos clave que hacen que una narrativa sea interesante y emocionante. 🌟",
+        "title": "Introducción a los elementos de una historia",
+        "themes": [
+          "introducción al tema"
+        ],
+        "image_search_string": "niños leyendo un libro",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Los personajes son las personas, animales o seres que participan en la historia. Pueden ser protagonistas (los principales) o secundarios (los de apoyo). Cada personaje tiene características únicas que les dan vida.",
+        "title": "Los personajes",
+        "themes": [
+          "definición de personajes",
+          "tipos de personajes"
+        ],
+        "image_search_string": "personajes de cuentos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El escenario es el lugar y el tiempo donde se desarrolla la historia. Puede ser real o imaginario, y ayuda a los lectores a situarse en el mundo narrativo.",
+        "title": "El escenario",
+        "themes": [
+          "concepto de escenario"
+        ],
+        "image_search_string": "paisaje literario",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La trama es la secuencia de eventos que ocurren en la historia. Tiene un inicio, un desarrollo y un desenlace. Es lo que impulsa la narrativa hacia adelante.",
+        "title": "La trama",
+        "themes": [
+          "estructura de la trama"
+        ],
+        "image_search_string": "esquema de trama",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "El conflicto es el problema o desafío que enfrentan los personajes. Puede ser interno (dentro de un personaje) o externo (entre personajes o con el entorno).",
+        "title": "El conflicto",
+        "themes": [
+          "tipos de conflicto"
+        ],
+        "image_search_string": "conflicto en historias",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El tema es el mensaje o la idea principal que la historia quiere transmitir. Puede ser explícito o implícito, y está relacionado con las experiencias y emociones humanas.",
+        "title": "El tema",
+        "themes": [
+          "definición de tema en narrativa"
+        ],
+        "image_search_string": "tema de historia",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Story Elements",
+    "generationLanguage": "es-ES"
+  }
+}

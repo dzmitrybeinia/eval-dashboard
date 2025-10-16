@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Un levier est une barre rigide qui pivote autour d'un point fixe appelé le point d'appui. Il permet de soulever ou déplacer des objets avec moins d'effort. Par exemple, un pied-de-biche ou des ciseaux sont des leviers.",
+      "correction": "Un levier est une barre rigide qui pivote autour d'un point fixe appelé point d'appui. Il permet de soulever ou de déplacer des objets avec moins d'effort. Par exemple, un pied-de-biche ou des ciseaux sont des leviers.",
+      "description": "The phrase 'le point d'appui' is redundant because 'point d'appui' is a set technical term in French and does not require the definite article in this context. Additionally, 'soulever ou déplacer' should be 'soulever ou de déplacer' to maintain parallel structure with the infinitive verbs. These corrections improve lexical precision and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Une poulie est une roue avec une rainure dans laquelle passe une corde. Elle permet de soulever des objets en réduisant la force nécessaire. Les grues et les puits utilisent des poulies.",
+      "correction": "Une poulie est une roue munie d'une rainure dans laquelle passe une corde. Elle permet de soulever des objets en réduisant la force nécessaire. Les grues et les puits utilisent des poulies.",
+      "description": "The phrase 'une roue avec une rainure' is less precise than 'une roue munie d'une rainure', which is the standard technical phrasing in French for describing a pulley. This correction enhances lexical precision and technical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:53.523181",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Les machines simples sont omniprésentes dans la vie quotidienne. Par exemple :\n\n- Les ciseaux (levier)\n- Les grues (poulie)\n- Les voitures (roue et essieu)\n- Les rampes (plan incliné)\n- Les haches (coin)\n- Les vis (fixation)",
+      "correction": "Les machines simples sont omniprésentes dans la vie quotidienne. Par exemple :\n\n- Les ciseaux (levier)\n- Les grues (poulie)\n- Les voitures (roue et essieu)\n- Les rampes (plan incliné)\n- Les haches (coin)\n- Les vis (fixation)",
+      "description": "While the list is linguistically correct, the examples could be more culturally relevant for a French audience. For instance, 'grues' and 'voitures' are somewhat abstract for younger learners; including examples like 'ouvre-boîtes (levier)' or 'porte (charnière comme levier)' would make the content more relatable. No linguistic errors, but a minor localization improvement is possible.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

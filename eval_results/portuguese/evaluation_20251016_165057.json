@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "maior resiliência, melhora no desempenho acadêmico, e maior confiança.",
+      "correction": "maior resiliência, melhora no desempenho acadêmico e maior confiança.",
+      "description": "The use of a comma before 'e' in a list ('maior resiliência, melhora no desempenho acadêmico, e maior confiança') is not standard in Brazilian Portuguese. The serial (Oxford) comma is generally avoided in Portuguese, so the comma before 'e' should be removed for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Frases como \"Eu ainda não consigo, mas estou no caminho certo\" podem nos motivar a continuar tentando.",
+      "correction": "Expressões como \"Ainda não consigo, mas estou no caminho certo\" podem nos motivar a continuar tentando.",
+      "description": "The use of 'Frases como' is slightly unnatural in Brazilian Portuguese educational context; 'Expressões como' is more idiomatic when referring to motivational sayings. This change improves the naturalness and style of the text for local audiences.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:57.792734",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

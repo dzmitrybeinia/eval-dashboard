@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les essais scientifiques.",
+      "correction": "Les articles scientifiques.",
+      "description": "The term 'essais scientifiques' is not commonly used in French to refer to scientific texts; 'articles scientifiques' is the standard and widely accepted term in educational and academic contexts. Using the correct terminology ensures clarity and aligns with local expectations for genre classification.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Fiction : \"Harry Potter\", \"Les Misérables\", \"Le Seigneur des Anneaux\"\nNon-fiction : \"Une brève histoire du temps\" de Stephen Hawking, \"Le Journal d'Anne Frank\", \"Sapiens : Une brève histoire de l'humanité\" par Yuval Noah Harari.",
+      "correction": "Fiction : \"Harry Potter\", \"Les Misérables\", \"Le Seigneur des Anneaux\"\nNon-fiction : \"Une brève histoire du temps\" de Stephen Hawking, \"Le Journal d'Anne Frank\", \"Sapiens : Une brève histoire de l'humanité\" de Yuval Noah Harari.",
+      "description": "The phrase 'par Yuval Noah Harari' is less standard in French for book authorship; 'de Yuval Noah Harari' is the conventional form. This correction improves naturalness and aligns with French publishing norms. Additionally, the selection of examples is appropriate and culturally relevant for a French-speaking audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:21.032936",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

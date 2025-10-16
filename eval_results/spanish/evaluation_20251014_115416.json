@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El gobierno de los Estados Unidos está dividido en tres ramas principales: la legislativa, la ejecutiva y la judicial.",
+      "correction": "El gobierno de los Estados Unidos está dividido en tres poderes principales: el legislativo, el ejecutivo y el judicial.",
+      "description": "The use of 'ramas' is understandable in Spanish, but 'poderes' is the standard term in educational and legal contexts when referring to the branches of government in the United States. Using 'poderes' aligns with terminology used in civics education and official documents, making the content more culturally and professionally appropriate for Spanish-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La rama legislativa es responsable de crear las leyes.",
+      "correction": "El poder legislativo es responsable de crear las leyes.",
+      "description": "The term 'rama legislativa' is less common and less formal than 'poder legislativo' in Spanish-language civics education. Using 'poder legislativo' ensures consistency with standard terminology and improves the professional tone of the lesson.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La rama ejecutiva se encarga de implementar y hacer cumplir las leyes creadas por la legislatura.",
+      "correction": "El poder ejecutivo se encarga de implementar y hacer cumplir las leyes creadas por el poder legislativo.",
+      "description": "The phrase 'rama ejecutiva' should be replaced with 'poder ejecutivo' for terminological accuracy. Additionally, 'la legislatura' is not the standard term for the legislative branch in Spanish; 'el poder legislativo' is preferred. This correction ensures consistency and clarity for Spanish-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La rama judicial interpreta las leyes y asegura que sean coherentes con la Constitución.",
+      "correction": "El poder judicial interpreta las leyes y asegura que sean coherentes con la Constitución.",
+      "description": "The term 'rama judicial' should be replaced with 'poder judicial' to match standard Spanish terminology for government branches. This change improves the lesson's accuracy and aligns with educational norms.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Las tres ramas del gobierno colaboran a través de un sistema de controles y equilibrios para garantizar que ninguna tenga demasiado poder.",
+      "correction": "Los tres poderes del gobierno colaboran a través de un sistema de controles y contrapesos para garantizar que ninguno tenga demasiado poder.",
+      "description": "The phrase 'controles y equilibrios' is a literal translation of 'checks and balances' but the standard Spanish term is 'controles y contrapesos'. Also, 'ramas' should be replaced with 'poderes' for terminological consistency. These changes improve the naturalness and professionalism of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El sistema del gobierno de los Estados Unidos está diseñado para proteger la democracia y fomentar el bienestar de la sociedad.",
+      "correction": "El sistema de gobierno de los Estados Unidos está diseñado para proteger la democracia y fomentar el bienestar de la sociedad.",
+      "description": "The phrase 'el sistema del gobierno' is less natural than 'el sistema de gobierno', which is the standard expression in Spanish. This correction enhances the naturalness and clarity of the summary.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:54:16.426478",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

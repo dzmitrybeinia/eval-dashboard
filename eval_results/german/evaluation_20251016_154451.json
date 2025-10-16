@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zeichnen ist eine der ältesten und grundlegendsten Formen der künstlerischen Ausdrucksweise.",
+      "correction": "Zeichnen ist eine der ältesten und grundlegendsten Formen künstlerischen Ausdrucks.",
+      "description": "The phrase 'der künstlerischen Ausdrucksweise' is grammatically correct but less idiomatic in German. The more natural and precise expression is 'künstlerischen Ausdrucks.' This avoids redundancy and aligns with standard German usage for describing artistic expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Formen sind geschlossene Bereiche, die durch Linien, Farben oder Texturen definiert werden.",
+      "correction": "Formen sind geschlossene Bereiche, die durch Linien, Farben oder Texturen definiert sind.",
+      "description": "The use of 'werden' in the relative clause is grammatically correct but less idiomatic in German. The participle construction 'definiert sind' is more natural and commonly used in educational and descriptive contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Denke daran: Es gibt kein Richtig oder Falsch – deine Kreativität ist das Wichtigste!",
+      "correction": "Denke daran: Es gibt kein Richtig oder Falsch – deine Kreativität ist das Wichtigste.",
+      "description": "In formal German educational content, exclamation marks are used sparingly. Replacing the exclamation mark with a period creates a more neutral and professional tone, which is preferred in instructional materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:44:51.296357",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "In dieser Lektion werden wir die Grundlagen des Zeichnens erkunden, einschließlich der Verwendung von Linien, Formen und Texturen, um spannende Kunstwerke zu schaffen. 🎨",
+      "correction": "In dieser Lektion werden wir die Grundlagen des Zeichnens erkunden, einschließlich der Verwendung von Linien, Formen und Texturen, um spannende Kunstwerke zu schaffen.",
+      "description": "The use of the paint palette emoji (🎨) at the end of a formal educational sentence is not standard in German educational materials. Removing the emoji improves the professional tone and aligns with local expectations for formal content.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

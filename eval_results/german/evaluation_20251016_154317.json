@@ -1,0 +1,80 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Tarnfarben wie das grüne Fell eines Chamäleons helfen, sich in der Umgebung zu verstecken.",
+      "correction": "Tarnfarben wie die grüne Haut eines Chamäleons helfen, sich in der Umgebung zu verstecken.",
+      "description": "The phrase 'das grüne Fell eines Chamäleons' is incorrect because chamaleons do not have fur ('Fell'); they have skin ('Haut'). This is a lexical error that could mislead learners about animal biology. The correct term is 'grüne Haut'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Lass uns entdecken, wie Tiere sich an ihre Umgebung anpassen! 🐾",
+      "correction": "Lasst uns entdecken, wie Tiere sich an ihre Umgebung anpassen! 🐾",
+      "description": "The use of 'Lass uns' is singular informal, which may not be appropriate for educational content addressing a group of learners. 'Lasst uns' is the plural imperative and is more suitable for classroom or group settings, ensuring a more inclusive and professional tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Kamele speichern Wasser und können lange Zeit ohne trinken auskommen.",
+      "correction": "Kamele speichern Wasser und können lange Zeit ohne zu trinken auskommen.",
+      "description": "The phrase 'ohne trinken' is grammatically incorrect. After 'ohne', the infinitive construction requires 'zu', so it should be 'ohne zu trinken'. This is a grammar error affecting sentence structure and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Winterschlaf bei Bären, um Energie zu sparen, wenn Nahrung knapp ist.",
+      "correction": "Winterschlaf bei Bären, um Energie zu sparen, wenn die Nahrung knapp ist.",
+      "description": "The phrase 'wenn Nahrung knapp ist' is missing the definite article 'die' before 'Nahrung'. In German, the definite article is required for countable and specific nouns in this context. This is an orthographic and grammatical issue.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Insekten wie der wandelnde Ast sehen aus wie Pflanzen.",
+      "correction": "Insekten wie das Wandelnde Blatt sehen aus wie Pflanzen.",
+      "description": "The term 'wandelnder Ast' is not the standard German name for the insect. The correct term is 'Wandelndes Blatt' (Phylliidae), which is commonly used in educational and scientific contexts. Using the proper terminology improves clarity and professionalism.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:43:17.478865",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 6
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Schneehasen wechseln ihr Fell im Winter, um sich zu tarnen.",
+      "correction": "Schneehasen wechseln ihr Fell im Winter, um sich zu tarnen.",
+      "description": "No linguistic errors found. The sentence is grammatically correct and uses proper case, verb conjugation, and noun capitalization.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

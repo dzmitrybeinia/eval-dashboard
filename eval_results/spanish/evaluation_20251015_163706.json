@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "lluvias de ideas",
+      "correction": "lluvia de ideas",
+      "description": "The phrase 'lluvias de ideas' is incorrect in Spanish; the standard term is 'lluvia de ideas' (singular) to refer to the brainstorming technique. This is a lexical and orthographic error that could confuse learners about the correct terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:06.563281",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational content may be considered informal or unprofessional in Spanish-language materials for Spain, especially in formal or academic contexts. It is recommended to remove the emoji to maintain a consistent and appropriate tone.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

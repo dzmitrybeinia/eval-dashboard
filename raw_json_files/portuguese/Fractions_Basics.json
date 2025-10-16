@@ -1,0 +1,224 @@
+{
+  "request": {
+    "lesson_description": "Understanding Fractions Basics: Identifying, comparing, and representing fractions using visual models and number lines.",
+    "exercises_ratio": 0.3,
+    "grade_level": "4th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6e882c64",
+    "topicInEnglish": "Fractions Basics",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Introdução aos Conceitos de Frações",
+    "slides": [
+      {
+        "content": "Bem-vindos ao mundo das frações! Hoje vamos explorar como identificar, comparar e representar frações de formas divertidas e visuais. 🌟",
+        "title": "Bem-vindo às Frações!",
+        "themes": [
+          "introdução ao conceito de frações"
+        ],
+        "image_search_string": "fractions introduction",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Uma fração é uma forma de representar partes de um todo. Por exemplo, se dividirmos uma pizza em 4 partes iguais e comermos 1, podemos dizer que comemos 1/4 da pizza.",
+        "title": "O que é uma Fração?",
+        "themes": [
+          "definição de fração"
+        ],
+        "image_search_string": "fraction pizza example",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "As frações têm duas partes principais: o numerador (número de partes que estamos considerando) e o denominador (número total de partes iguais). Por exemplo, em 3/5, 3 é o numerador e 5 é o denominador.",
+        "title": "Partes de uma Fração",
+        "themes": [
+          "numerador e denominador"
+        ],
+        "image_search_string": "fraction parts",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Vamos comparar frações com o mesmo denominador. Por exemplo, 2/5 é menor que 4/5 porque 2 é menor que 4.",
+        "title": "Comparando Frações com o Mesmo Denominador",
+        "themes": [
+          "comparação de frações simples"
+        ],
+        "image_search_string": "compare fractions same denominator",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Para comparar frações com denominadores diferentes, podemos usar frações equivalentes ou um denominador comum. Por exemplo, para comparar 2/3 e 3/4, podemos usar 8/12 e 9/12.",
+        "title": "Comparando Frações com Diferentes Denominadores",
+        "themes": [
+          "frações equivalentes",
+          "denominador comum"
+        ],
+        "image_search_string": "compare fractions different denominators",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Frações equivalentes representam a mesma quantidade. Por exemplo, 1/2 é igual a 2/4 ou 4/8. Podemos multiplicar ou dividir o numerador e o denominador pelo mesmo número para encontrá-las.",
+        "title": "Frações Equivalentes",
+        "themes": [
+          "definição de frações equivalentes"
+        ],
+        "image_search_string": "equivalent fractions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Podemos representar frações em uma linha numérica. Por exemplo, 1/2 está exatamente no meio entre 0 e 1.",
+        "title": "Frações na Linha Numérica",
+        "themes": [
+          "frações em linhas numéricas"
+        ],
+        "image_search_string": "fractions number line",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Frações podem ser próprias (numerador menor que o denominador), impróprias (numerador maior ou igual ao denominador) ou mistas (número inteiro e uma fração).",
+        "title": "Tipos de Frações",
+        "themes": [
+          "frações próprias e impróprias",
+          "frações mistas"
+        ],
+        "image_search_string": "types of fractions",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Podemos usar desenhos, como círculos ou retângulos divididos, para representar frações. Por exemplo, 1/4 pode ser mostrado sombreadando uma das quatro partes de um círculo.",
+        "title": "Representando Frações com Modelos Visuais",
+        "themes": [
+          "modelos visuais de frações"
+        ],
+        "image_search_string": "visual fraction representation",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Para adicionar frações com o mesmo denominador, somamos os numeradores e mantemos o denominador. Por exemplo, 2/5 + 1/5 = 3/5.",
+        "title": "Adição de Frações com o Mesmo Denominador",
+        "themes": [
+          "adição de frações simples"
+        ],
+        "image_search_string": "adding fractions same denominator",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Para subtrair frações com o mesmo denominador, subtraímos os numeradores e mantemos o denominador. Por exemplo, 3/5 - 1/5 = 2/5.",
+        "title": "Subtração de Frações com o Mesmo Denominador",
+        "themes": [
+          "subtração de frações simples"
+        ],
+        "image_search_string": "subtracting fractions same denominator",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Multiplicamos frações multiplicando os numeradores e os denominadores. Por exemplo, 2/3 × 3/4 = 6/12, que pode ser simplificado para 1/2.",
+        "title": "Multiplicação de Frações",
+        "themes": [
+          "multiplicação de frações"
+        ],
+        "image_search_string": "multiplying fractions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para dividir frações, multiplicamos pela fração inversa. Por exemplo, 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12, que pode ser simplificado para 5/6.",
+        "title": "Divisão de Frações",
+        "themes": [
+          "divisão de frações"
+        ],
+        "image_search_string": "dividing fractions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Simplificar uma fração significa reduzir seus números ao menor valor mantendo o mesmo valor. Por exemplo, 4/8 pode ser simplificado para 1/2.",
+        "title": "Simplificação de Frações",
+        "themes": [
+          "simplificação de frações"
+        ],
+        "image_search_string": "simplifying fractions",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Um número misto pode ser convertido em uma fração imprópria e vice-versa. Por exemplo, 1 1/2 = 3/2.",
+        "title": "Conversão entre Números Mistos e Frações Impróprias",
+        "themes": [
+          "conversão de frações"
+        ],
+        "image_search_string": "mixed numbers improper fractions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Problemas do dia a dia podem ser resolvidos usando frações, como dividir uma pizza entre amigos ou medir ingredientes para uma receita.",
+        "title": "Frações no Cotidiano",
+        "themes": [
+          "uso de frações na vida real"
+        ],
+        "image_search_string": "fractions daily life",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Agora que exploramos os conceitos básicos, você está pronto para praticar frações! Lembre-se: as frações são uma maneira divertida de entender partes do todo. 🙌",
+        "title": "Pronto para Praticar!",
+        "themes": [
+          "resumo de conceitos de frações"
+        ],
+        "image_search_string": "fractions practice",
+        "question_types": [
+          "Intro"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fractions Basics",
+    "generationLanguage": "pt-PT"
+  }
+}

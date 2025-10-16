@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Elles peuvent être joyeuses, tristes, effrayantes ou encore énervées.",
+      "correction": "Elles peuvent être joyeuses, tristes, effrayées ou encore en colère.",
+      "description": "The adjectives 'effrayantes' and 'énervées' are not the most accurate or natural choices for describing emotions in French. 'Effrayantes' means 'frightening' (causing fear), but the intended meaning is 'feeling fear', so 'effrayées' (afraid) is correct. Similarly, 'énervées' means 'annoyed' or 'irritated', but 'en colère' (angry) is the standard way to express the emotion of anger. This correction improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Cela commence par observer nos sensations physiques (comme un cœur qui bat vite) et nos pensées.",
+      "correction": "Cela commence par observer nos sensations physiques (comme le cœur qui bat vite) et nos pensées.",
+      "description": "The use of 'un cœur qui bat vite' is understandable but less natural in French educational content, where 'le cœur qui bat vite' is preferred for general statements about physical sensations. This adjustment enhances the naturalness and standard style expected in French educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:18.354292",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

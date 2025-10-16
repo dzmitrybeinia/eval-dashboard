@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "freie Verse",
+      "correction": "Freier Vers",
+      "description": "The term 'freie Verse' is used as a heading and as a singular noun in the content, but the correct standard German term for the poetic form is 'Freier Vers' (singular) or 'Freie Verse' (plural). In this context, the heading should use the singular form 'Freier Vers' to match the convention for naming poetic forms. Additionally, the capitalization should be consistent with German noun rules. This issue affects both lexical precision and orthography.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Sie verwendet sorgfältig ausgewählte Wörter, um Gefühle, Bilder und Ideen zu vermitteln.",
+      "correction": "Sie verwendet sorgfältig ausgewählte Wörter, um Gefühle, Bilder und Gedanken zu vermitteln.",
+      "description": "The use of 'Ideen' in this context is understandable, but 'Gedanken' is more idiomatic and natural in German when describing the expressive qualities of poetry. This change improves the naturalness and style of the text for a German-speaking audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Das Shakespeare-Sonett, das aus drei Quartetten und einem abschließenden Couplet besteht.",
+      "correction": "Das Shakespeare-Sonett, das aus drei Vierzeilern und einem abschließenden Zweizeiler besteht.",
+      "description": "The terms 'Quartett' and 'Couplet' are direct borrowings from English and may not be immediately clear to all German learners. Using 'Vierzeiler' and 'Zweizeiler' is more culturally appropriate and accessible for educational content in German, ensuring clarity and better localization.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:17.326949",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

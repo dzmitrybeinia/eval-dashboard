@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les cyberharcèlements incluent les insultes, menaces, ou humiliations en ligne.",
+      "correction": "Le cyberharcèlement inclut les insultes, menaces ou humiliations en ligne.",
+      "description": "The original sentence incorrectly uses the plural 'Les cyberharcèlements' when the standard term is the singular 'Le cyberharcèlement' in French. This is a grammatical and lexical error, as 'cyberharcèlement' is typically used as a mass noun to refer to the phenomenon in general. Additionally, the comma before 'ou' is unnecessary in French listing conventions. Correction improves both grammatical accuracy and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Les mots de passe doivent être complexes, uniques, et régulièrement mis à jour.",
+      "correction": "Les mots de passe doivent être complexes, uniques et régulièrement mis à jour.",
+      "description": "In French, the comma before 'et' in a list (known as the Oxford comma in English) is generally not used. Removing the comma aligns with standard French orthographic conventions and improves the naturalness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les cybermenaces incluent les virus, le phishing, les logiciels espions, et les ransomwares.",
+      "correction": "Les cybermenaces incluent les virus, l’hameçonnage, les logiciels espions et les rançongiciels.",
+      "description": "The terms 'phishing' and 'ransomwares' are English loanwords. In French, the standard terms are 'hameçonnage' for phishing and 'rançongiciel' for ransomware. Using the correct French terminology ensures cultural appropriateness and professional language usage. The comma before 'et' should also be removed for orthographic consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pour éviter les logiciels malveillants, installez un antivirus, mettez à jour vos logiciels, et ne téléchargez pas de fichiers suspects.",
+      "correction": "Pour éviter les logiciels malveillants, installez un antivirus, mettez à jour vos logiciels et ne téléchargez pas de fichiers suspects.",
+      "description": "The comma before 'et' in a list is not standard in French orthography. Removing it improves adherence to French writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Protéger ses informations personnelles en ligne est essentiel pour éviter les vols d'identité, les fraudes, et les atteintes à la vie privée.",
+      "correction": "Protéger ses informations personnelles en ligne est essentiel pour éviter les vols d'identité, les fraudes et les atteintes à la vie privée.",
+      "description": "The comma before 'et' in a list is unnecessary in French. Removing it aligns with standard French orthographic rules.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:24.724650",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "request": {
+    "lesson_description": "Fundamentals of Fire Safety: Understanding fire behavior, prevention strategies, and emergency response.",
+    "exercises_ratio": 0.4,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ceca3558",
+    "topicInEnglish": "Fire Safety",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Fondamentaux de la sécurité incendie",
+    "slides": [
+      {
+        "content": "Les incendies sont des phénomènes naturels ou artificiels qui surviennent lorsqu'une source de chaleur entre en contact avec un combustible en présence d'oxygène. Pour comprendre les incendies, il est essentiel de connaître le \"triangle du feu\", qui inclut : le combustible (ce qui brûle), la chaleur (ce qui allume le feu) et l'oxygène (ce qui permet au feu de se développer).",
+        "title": "Qu'est-ce qu'un incendie ?",
+        "themes": [
+          "triangle du feu",
+          "composants du feu"
+        ],
+        "image_search_string": "fire triangle diagram",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le feu peut être causé par plusieurs facteurs, comme des équipements électriques défectueux, des bougies laissées sans surveillance, ou des feux allumés à l'extérieur par temps sec et venteux. Comprendre ces causes permet de mieux les prévenir.",
+        "title": "Les causes des incendies",
+        "themes": [
+          "causes courantes des incendies"
+        ],
+        "image_search_string": "fire causes examples",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Pour prévenir les incendies, il est important de : 1) Éteindre les appareils électriques inutilisés ; 2) Ne jamais laisser des bougies allumées sans surveillance ; 3) Ranger les matériaux inflammables loin des sources de chaleur ; et 4) Installer des détecteurs de fumée et les vérifier régulièrement.",
+        "title": "Stratégies de prévention des incendies",
+        "themes": [
+          "prévention des incendies",
+          "sécurité domestique"
+        ],
+        "image_search_string": "fire prevention tips",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les détecteurs de fumée sont des outils essentiels pour détecter la fumée rapidement et donner l'alerte. Ils doivent être installés dans chaque pièce principale d'une maison, testés chaque mois, et leurs piles doivent être remplacées régulièrement.",
+        "title": "L'importance des détecteurs de fumée",
+        "themes": [
+          "détecteurs de fumée",
+          "sécurité incendie"
+        ],
+        "image_search_string": "smoke detector usage",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En cas d'incendie, il est crucial de : 1) Garder son calme ; 2) Suivre le plan d'évacuation ; 3) Ne jamais utiliser un ascenseur ; 4) Ramper sous la fumée pour éviter l'inhalation ; et 5) Appeler les services d'urgence dès que possible.",
+        "title": "Que faire en cas d'incendie ?",
+        "themes": [
+          "réaction en cas d'incendie",
+          "plan d'évacuation"
+        ],
+        "image_search_string": "fire emergency response",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les pompiers jouent un rôle vital dans la lutte contre les incendies et le sauvetage. Ils utilisent des équipements spécialisés, comme des camions d'incendie, des échelles et des tuyaux, pour éteindre les feux et sauver des vies. Leur travail est dangereux mais essentiel.",
+        "title": "Le rôle des pompiers",
+        "themes": [
+          "rôle des pompiers",
+          "équipements de lutte contre le feu"
+        ],
+        "image_search_string": "firefighters at work",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fire Safety",
+    "generationLanguage": "fr-FR"
+  }
+}

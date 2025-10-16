@@ -1,0 +1,48 @@
+{
+  "issues": [],
+  "metadata": {
+    "file": "Healthy_Eating.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:58.042856",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 2,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 10.0,
+    "classification": "NATIVE",
+    "total_issues": 0,
+    "total_penalty": 0.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos a nuestra exploración sobre la alimentación saludable! Hoy aprenderemos cómo los alimentos nos proporcionan energía y nutrientes esenciales para mantenernos sanos y activos. 🍎",
+      "correction": "¡Bienvenidos a nuestra exploración sobre la alimentación saludable! Hoy aprenderemos cómo los alimentos nos proporcionan energía y nutrientes esenciales para mantenernos sanos y activos.",
+      "description": "The use of the apple emoji (🍎) at the end of the introductory sentence is not standard in formal educational content in Spain. While emojis can be engaging, they are generally avoided in formal written materials for clarity and professionalism. Removing the emoji improves the orthographic and stylistic appropriateness of the text.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "**Porcentaje del valor diario (%VD)**: Indica cuánto contribuye ese alimento a tus necesidades diarias de nutrientes.",
+      "correction": "**Porcentaje del valor diario (%VD)**: Indica cuánto contribuye ese alimento a tus necesidades diarias de nutrientes.",
+      "description": "The abbreviation '%VD' for 'valor diario' is not standard on Spanish food labels in Spain. The commonly used term is '%VRN' (Valor de Referencia de Nutrientes) or '%IR' (Ingesta de Referencia). Using '%VD' may cause confusion for Spanish learners and does not reflect local labeling conventions. It is recommended to replace '%VD' with '%VRN' or '%IR' for cultural and regulatory accuracy.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

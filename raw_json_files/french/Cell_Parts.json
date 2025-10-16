@@ -1,0 +1,111 @@
+{
+  "request": {
+    "lesson_description": "The structure and functions of cell organelles, including the nucleus, mitochondria, chloroplasts, and more.",
+    "exercises_ratio": 0.3,
+    "grade_level": "7th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "Focus on the role of each organelle in maintaining cell function and include examples from both plant and animal cells. Emphasize the differences between prokaryotic and eukaryotic cells.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "0bed37f9",
+    "topicInEnglish": "Cell Parts",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "La structure et les fonctions des organites cellulaires",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon fascinante sur les organites cellulaires ! Nous allons explorer les différentes parties d'une cellule et leur rôle dans le maintien de la vie. Préparez-vous à découvrir le monde microscopique qui rend la vie possible 🌱🧬.",
+        "title": "Introduction aux organites cellulaires",
+        "themes": [
+          "introduction aux cellules"
+        ],
+        "image_search_string": "microscope cell illustration",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Les cellules peuvent être classées en deux types principaux : les cellules procaryotes et les cellules eucaryotes. \n\n- Les cellules **procaryotes** n'ont pas de noyau défini. Leur ADN flotte librement dans la cellule. Exemples : bactéries.\n- Les cellules **eucaryotes** ont un noyau entouré d'une membrane. Elles forment les plantes, les animaux, et les champignons.",
+        "title": "Procaryotes vs Eucaryotes",
+        "themes": [
+          "différence procaryote eucaryote"
+        ],
+        "image_search_string": "prokaryotic vs eukaryotic cell",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le noyau est comme le \"centre de commande\" de la cellule. \n\n- Il contient l'ADN, qui porte les instructions pour toutes les activités cellulaires.\n- Le noyau est entouré d'une enveloppe nucléaire qui protège l'ADN.\n- On y trouve le nucléole, où les ribosomes sont fabriqués.",
+        "title": "Le noyau",
+        "themes": [
+          "structure et fonction du noyau"
+        ],
+        "image_search_string": "nucleus cell diagram",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les mitochondries sont les \"centrales énergétiques\" de la cellule.\n\n- Elles produisent de l'énergie sous forme d'ATP (adénosine triphosphate).\n- On les trouve dans presque toutes les cellules eucaryotes, animales et végétales.\n- Elles ont une double membrane et leur propre ADN.",
+        "title": "Les mitochondries",
+        "themes": [
+          "fonction des mitochondries"
+        ],
+        "image_search_string": "mitochondria illustration",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les chloroplastes, présents uniquement dans les cellules végétales et certains protistes, réalisent la photosynthèse :\n\n- Ils convertissent la lumière solaire en énergie chimique (glucose).\n- Ils contiennent de la chlorophylle, qui leur donne leur couleur verte.\n- Comme les mitochondries, ils possèdent une double membrane et leur propre ADN.",
+        "title": "Les chloroplastes",
+        "themes": [
+          "fonction des chloroplastes"
+        ],
+        "image_search_string": "chloroplast cell diagram",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le réticulum endoplasmique (RE) existe en deux formes :\n\n1. **RE rugueux** : couvert de ribosomes, il aide à la synthèse des protéines.\n2. **RE lisse** : sans ribosomes, il participe à la synthèse des lipides et à la détoxification des substances nocives.",
+        "title": "Le réticulum endoplasmique",
+        "themes": [
+          "types de réticulum endoplasmique"
+        ],
+        "image_search_string": "endoplasmic reticulum diagram",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les lysosomes, présents principalement dans les cellules animales :\n\n- Ils contiennent des enzymes qui décomposent les déchets cellulaires et les substances inutiles.\n- Ils jouent un rôle clé dans le recyclage des matériaux cellulaires.",
+        "title": "Les lysosomes",
+        "themes": [
+          "fonction des lysosomes"
+        ],
+        "image_search_string": "lysosome cell illustration",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Cell Parts",
+    "generationLanguage": "fr-FR"
+  }
+}

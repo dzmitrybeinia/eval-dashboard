@@ -1,0 +1,98 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Global Trade: Understanding imports, exports, trade barriers, and the impact of globalization.",
+    "exercises_ratio": 0.7,
+    "grade_level": "10th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "36833873",
+    "topicInEnglish": "Global Trade",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Introduction au Commerce Mondial",
+    "slides": [
+      {
+        "content": "Bienvenue dans notre exploration du commerce mondial ! Aujourd'hui, nous allons découvrir comment les pays échangent des biens et des services, et comment cela influence les économies et les cultures à travers le monde. 🌍",
+        "title": "Introduction au Commerce Mondial",
+        "themes": [
+          "introduction au commerce mondial"
+        ],
+        "image_search_string": "world trade concept",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Le commerce mondial consiste en l'échange de biens et de services entre les pays. Cela inclut les exportations, où un pays vend ses produits à d'autres, et les importations, où il en achète. Par exemple, la France exporte des vins et importe des équipements électroniques.",
+        "title": "Qu'est-ce que le Commerce Mondial ?",
+        "themes": [
+          "définition du commerce mondial"
+        ],
+        "image_search_string": "export and import",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les exportations sont les biens ou services qu'un pays vend à un autre pays. Les importations, en revanche, sont ceux qu'un pays achète à l'étranger. Ce système permet aux pays de bénéficier de produits qu'ils ne peuvent pas produire eux-mêmes.",
+        "title": "Importations et Exportations",
+        "themes": [
+          "importations",
+          "exportations"
+        ],
+        "image_search_string": "import export goods",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les barrières commerciales sont des obstacles qui limitent le commerce entre les pays. Elles peuvent inclure des tarifs douaniers, des quotas ou des restrictions réglementaires. Par exemple, un tarif douanier est une taxe sur les produits importés.",
+        "title": "Les Barrières Commerciales",
+        "themes": [
+          "types de barrières commerciales"
+        ],
+        "image_search_string": "trade barriers",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La mondialisation a élargi le commerce mondial, reliant les économies et cultures à une échelle sans précédent. Cela conduit à une disponibilité accrue de produits mais aussi à des défis comme la délocalisation de l'emploi ou les impacts environnementaux.",
+        "title": "Impact de la Mondialisation",
+        "themes": [
+          "effets de la mondialisation"
+        ],
+        "image_search_string": "globalization effects",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les échanges commerciaux ont des avantages comme une diversité accrue de produits et des prix compétitifs. Cependant, ils posent aussi des défis tels que les disparités économiques ou les pressions environnementales.",
+        "title": "Avantages et Défis du Commerce Mondial",
+        "themes": [
+          "avantages du commerce",
+          "défis du commerce"
+        ],
+        "image_search_string": "global trade benefits challenges",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Global Trade",
+    "generationLanguage": "fr-FR"
+  }
+}

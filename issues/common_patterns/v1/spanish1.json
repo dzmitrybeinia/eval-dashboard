@@ -1,0 +1,568 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "spanish",
+    "generated_at": "2025-10-14T11:56:34.179511"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Use of English-centric cultural references and mnemonics",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Multiple items use English-language mnemonics or cultural references (e.g., ROYGBIV, HOMES, English spelling rules) that are unfamiliar or irrelevant to Spanish-speaking learners, reducing comprehension and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Por ejemplo, para recordar los colores del arcoíris, se utiliza el acrónimo ROYGBIV (en inglés): Rojo, Naranja, Amarillo, Verde, Azul, Índigo, Violeta.",
+          "correct": "Por ejemplo, para recordar los colores del arcoíris en español, se puede usar el acrónimo RNAVAVIV: Rojo, Naranja, Amarillo, Verde, Azul, Índigo, Violeta.",
+          "context": "Mnemonic for rainbow colors uses English acronym instead of a Spanish one."
+        },
+        {
+          "wrong": "Ejemplo: \"I antes de E, excepto después de C\" (regla de ortografía en inglés).",
+          "correct": "Ejemplo: \"El burro sabe más que tú\" (regla mnemotécnica para recordar la ortografía de 'burro' con doble 'r').",
+          "context": "Mnemonic for spelling uses an English rule irrelevant to Spanish orthography."
+        },
+        {
+          "wrong": "Por ejemplo, para recordar los Grandes Lagos: Huron, Ontario, Michigan, Erie, Superior, se usa el acrónimo HOMES.",
+          "correct": "Por ejemplo, para recordar los países de Centroamérica: Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica y Panamá, se puede usar el acrónimo GHENCP.",
+          "context": "Mnemonic for North American lakes uses an English acronym not relevant for Spanish-speaking learners."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender Agreement Errors with Articles and Nouns",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Incorrect use of articles that do not match the grammatical gender of the noun, leading to confusion and reduced professionalism.",
+      "examples": [
+        {
+          "wrong": "Un palanca es una barra rígida...",
+          "correct": "Una palanca es una barra rígida...",
+          "context": "Feminine noun 'palanca' incorrectly preceded by masculine article 'un'."
+        },
+        {
+          "wrong": "El rueda y eje se compone de...",
+          "correct": "La rueda y eje se compone de...",
+          "context": "Compound noun treated as masculine instead of feminine, causing agreement error."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Misspelling Affecting Meaning",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misspelling of key adjectives or terms, especially omission of accent marks, which alters meaning and reduces clarity.",
+      "examples": [
+        {
+          "wrong": "descripciones vividas",
+          "correct": "descripciones vívidas",
+          "context": "Adjective 'vívidas' misspelled as 'vividas', losing the intended meaning of 'vivid'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect adaptation of technical terminology for programming context",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Decimal numbers are presented using the comma as a separator, which matches Spanish numeric formatting but conflicts with programming language conventions (e.g., Python), potentially causing confusion and errors for learners.",
+      "examples": [
+        {
+          "wrong": "Decimal (Float): Números con decimales, como `3,14` o `0,7`.",
+          "correct": "Decimal (Float): Números con decimales, como `3.14` o `0.7`.",
+          "context": "Decimal separator uses comma instead of period, which is incorrect in programming contexts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or non-idiomatic phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 28,
+      "description": "Frequent use of constructions or word choices that are grammatically correct but less natural or idiomatic in Spanish educational contexts. Corrections favor more standard, fluid, or culturally preferred expressions.",
+      "examples": [
+        {
+          "wrong": "La base estaba formada por agricultores, trabajadores y esclavos.",
+          "correct": "En la base se encontraban agricultores, trabajadores y esclavos.",
+          "context": "Describing social hierarchy; improved flow and idiomaticity."
+        },
+        {
+          "wrong": "Las aves migran a climas cálidos en invierno para encontrar alimento.",
+          "correct": "Las aves migran hacia regiones más cálidas en invierno para encontrar alimento.",
+          "context": "Animal migration; more natural scientific phrasing."
+        },
+        {
+          "wrong": "celebrando el trabajo duro",
+          "correct": "celebrando el esfuerzo",
+          "context": "Describing values; culturally preferred term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Nonstandard or Inaccurate Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 22,
+      "description": "Use of terms that are literal translations, regionally limited, or not standard in Spanish educational contexts, leading to confusion or reduced professionalism.",
+      "examples": [
+        {
+          "wrong": "Los peces tienen cuerpos aerodinámicos que les facilitan nadar.",
+          "correct": "Los peces tienen cuerpos hidrodinámicos que les facilitan nadar.",
+          "context": "Scientific terminology for animal adaptations."
+        },
+        {
+          "wrong": "Booleano (bool): Valores lógicos, True o False.",
+          "correct": "Booleano (bool): Valores lógicos, Verdadero o Falso.",
+          "context": "Programming concepts in educational materials."
+        },
+        {
+          "wrong": "IE",
+          "correct": "inteligencia emocional",
+          "context": "Abbreviations not widely recognized in Spanish."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology inconsistency or inaccuracy",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 22,
+      "description": "Use of terms that are correct but not standard, precise, or widely accepted in Spanish educational, scientific, or cultural contexts. Corrections align with professional or academic terminology.",
+      "examples": [
+        {
+          "wrong": "templos como Karnak",
+          "correct": "templos como el de Karnak",
+          "context": "Historical sites; specifying the temple complex."
+        },
+        {
+          "wrong": "RCP",
+          "correct": "RCP (reanimación cardiopulmonar)",
+          "context": "Abbreviation; spelling out for clarity."
+        },
+        {
+          "wrong": "festivales como el Pésaj",
+          "correct": "festividades como el Pésaj",
+          "context": "Religious observances; culturally accurate term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Regionalisms Affecting Comprehension",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Use of region-specific terms or references that may not be understood or may cause confusion for a broader Spanish-speaking audience.",
+      "examples": [
+        {
+          "wrong": "La programación es una forma de comunicarnos con los ordenadores...",
+          "correct": "La programación es una forma de comunicarnos con las computadoras...",
+          "context": "Technology terms differing between Spain and Latin America."
+        },
+        {
+          "wrong": "como coches importados de Japón a México",
+          "correct": "como automóviles importados de Japón a México",
+          "context": "Vehicle terminology in Latin American context."
+        },
+        {
+          "wrong": "Llama al 911 una vez fuera...",
+          "correct": "Llama al número de emergencias local una vez fuera...",
+          "context": "Emergency numbers vary by country."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal Translation of English Phrases",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Direct translation of English phrases or idioms that result in unnatural or unclear Spanish expressions.",
+      "examples": [
+        {
+          "wrong": "Ejemplos de actos amables:",
+          "correct": "Ejemplos de actos de amabilidad:",
+          "context": "Describing acts of kindness."
+        },
+        {
+          "wrong": "La tabla periódica es un gráfico...",
+          "correct": "La tabla periódica es una herramienta...",
+          "context": "Describing educational tools."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect adjective agreement and invariable adjectives",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Adjectives that should remain invariable (e.g., 'clave') are incorrectly pluralized, or there is inconsistent gender/number agreement in phrases, affecting grammatical accuracy and clarity.",
+      "examples": [
+        {
+          "wrong": "habilidades claves para analizar argumentos con claridad.",
+          "correct": "habilidades clave para analizar argumentos con claridad.",
+          "context": "Adjective 'clave' used incorrectly in plural form."
+        },
+        {
+          "wrong": "una mayor confianza en uno/a mismo/a",
+          "correct": "una mayor confianza en uno mismo o una misma",
+          "context": "Gender-inclusive phrasing with slashes instead of correct agreement."
+        },
+        {
+          "wrong": "Esto incluye identificar variables: independiente (lo que se cambia), dependiente (lo que se mide) y controladas (lo que se mantiene constante).",
+          "correct": "Esto incluye identificar variables: independiente (la que se cambia), dependiente (la que se mide) y controladas (las que se mantienen constantes).",
+          "context": "Incorrect use of 'lo que' instead of gender-agreeing pronouns."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of articles and missing definite articles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Omission or misuse of definite or indefinite articles ('el', 'la', 'una', etc.) results in grammatically incomplete or unclear sentences.",
+      "examples": [
+        {
+          "wrong": "Una dieta saludable incluye consumir variedad de alimentos de todos los grupos...",
+          "correct": "Una dieta saludable incluye consumir una variedad de alimentos de todos los grupos...",
+          "context": "Missing indefinite article before 'variedad'."
+        },
+        {
+          "wrong": "Por ejemplo, al investigar cómo las plantas crecen, entenderíamos factores como luz, agua y suelo...",
+          "correct": "Por ejemplo, al investigar cómo crecen las plantas, entenderíamos factores como la luz, el agua y el suelo...",
+          "context": "Missing definite articles before nouns."
+        },
+        {
+          "wrong": "Descripciones del ambiente y pistas sobre la época ayudan a establecer el escenario.",
+          "correct": "Las descripciones del ambiente y las pistas sobre la época ayudan a establecer el escenario.",
+          "context": "Missing definite articles before plural nouns."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical imprecision and false friends",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of broad, imprecise, or false friend terms that do not match standard Spanish usage in educational or technical contexts.",
+      "examples": [
+        {
+          "wrong": "El ADN, o ácido desoxirribonucleico, se considera el \"plano de la vida\".",
+          "correct": "El ADN, o ácido desoxirribonucleico, se considera el \"plan de la vida\".",
+          "context": "False friend 'plano' instead of 'plan' for 'blueprint'."
+        },
+        {
+          "wrong": "libros de fantasía",
+          "correct": "novelas de fantasía",
+          "context": "Overly broad term for fantasy fiction."
+        },
+        {
+          "wrong": "segmentos de línea",
+          "correct": "segmentos de recta",
+          "context": "Non-standard geometry terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic errors with adverbs and prepositions",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Incorrect formation or use of adverbs and prepositions, such as using adjectives instead of adverbs or omitting required prepositions, which affects clarity and grammatical correctness.",
+      "examples": [
+        {
+          "wrong": "Practica trazando estas formas ligeras para crear composiciones más complejas.",
+          "correct": "Practica trazando estas formas ligeramente para crear composiciones más complejas.",
+          "context": "Adjective used instead of adverb to modify a verb."
+        },
+        {
+          "wrong": "Por ejemplo, podemos usarlo para determinar la mejor ubicación para un jardín probando cómo la luz afecta las plantas...",
+          "correct": "Por ejemplo, podemos usarlo para determinar la mejor ubicación para un jardín probando cómo la luz afecta a las plantas...",
+          "context": "Missing preposition 'a' in verb-object construction."
+        },
+        {
+          "wrong": "Desecho inadecuado de cigarrillos o fósforos.",
+          "correct": "Deshecho inadecuado de cigarrillos o fósforos.",
+          "context": "Incorrect noun/verb form affecting meaning."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect spacing with percent sign",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "A space is incorrectly placed between the number and the percent sign. In Spanish, the percent sign should be written directly after the number without a space.",
+      "examples": [
+        {
+          "wrong": "50 %",
+          "correct": "50%",
+          "context": "Statistical data in quiz questions and answers"
+        },
+        {
+          "wrong": "16,7 %",
+          "correct": "16,7%",
+          "context": "Numerical answer options"
+        },
+        {
+          "wrong": "7,7 %",
+          "correct": "7,7%",
+          "context": "Numerical answer options"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or incorrect punctuation for clause separation",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Commas are missing or misused, leading to unclear sentence structure and reduced readability, especially when separating clauses or introducing examples.",
+      "examples": [
+        {
+          "wrong": "Para comportarse de manera responsable en línea, considera las siguientes prácticas: piensa antes de publicar, protege tu privacidad evitando compartir información sensible, respeta los derechos de autor y trata a los demás con amabilidad evitando el ciberacoso.",
+          "correct": "Para comportarse de manera responsable en línea, considera las siguientes prácticas: piensa antes de publicar, protege tu privacidad evitando compartir información sensible, respeta los derechos de autor y trata a los demás con amabilidad, evitando el ciberacoso.",
+          "context": "List of behavioral recommendations"
+        },
+        {
+          "wrong": "como mariposas en el estómago que indican nerviosismo",
+          "correct": "como mariposas en el estómago, que indican nerviosismo",
+          "context": "Explanatory relative clause in a sentence"
+        },
+        {
+          "wrong": "Mensajes urgentes: como \"¡Tu cuenta será bloqueada si no actúas ahora!\"",
+          "correct": "Mensajes urgentes, como \"¡Tu cuenta será bloqueada si no actúas ahora!\"",
+          "context": "Introducing examples in a list"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of articles and noun forms",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Definite or indefinite articles are omitted or misused, and noun forms (singular/plural) are inconsistent with standard Spanish usage, affecting grammatical accuracy and naturalness.",
+      "examples": [
+        {
+          "wrong": "El agua se utiliza para beber, en la agricultura, generación de electricidad y procesos industriales.",
+          "correct": "El agua se utiliza para beber, en la agricultura, la generación de electricidad y procesos industriales.",
+          "context": "List of uses in a sentence"
+        },
+        {
+          "wrong": "Aprender de los errores, considerándolos como parte natural del aprendizaje.",
+          "correct": "Aprender de los errores, considerándolos una parte natural del aprendizaje.",
+          "context": "General statement about learning"
+        },
+        {
+          "wrong": "La música clásica se caracteriza por el uso de instrumentos como violines, pianos y flautas.",
+          "correct": "La música clásica se caracteriza por el uso de instrumentos como violines, piano y flauta.",
+          "context": "Listing musical instruments"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender-Inclusive Slash Construction",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of slash constructions (e.g., preparado/a, excluido/a) for gender inclusivity, which is nonstandard and awkward in formal or educational Spanish.",
+      "examples": [
+        {
+          "wrong": "Con estas habilidades, estarás preparado/a para enfrentar problemas más complejos y aplicarlos en la vida real.",
+          "correct": "Con estas habilidades, estarás preparado para enfrentar problemas más complejos y aplicarlos en la vida real.",
+          "context": "General educational instructions."
+        },
+        {
+          "wrong": "Me siento excluido/a cuando no pasamos tiempo juntos.",
+          "correct": "Me siento excluido cuando no pasamos tiempo juntos.",
+          "context": "Emotional statements in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Word order and syntactic unnaturalness",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Unnatural or incorrect word order, especially in subordinate clauses or titles, leads to awkward phrasing and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Cómo procesa decisiones el cerebro",
+          "correct": "Cómo procesa el cerebro las decisiones",
+          "context": "Title with unnatural word order."
+        },
+        {
+          "wrong": "Por ejemplo, al investigar cómo las plantas crecen, entenderíamos factores como luz, agua y suelo que influyen en su desarrollo.",
+          "correct": "Por ejemplo, al investigar cómo crecen las plantas, entenderíamos factores como la luz, el agua y el suelo que influyen en su desarrollo.",
+          "context": "Subordinate clause with incorrect word order and missing articles."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or Misuse of Standard Spanish Abbreviations",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of English acronyms or abbreviations instead of standard Spanish forms, which may confuse learners.",
+      "examples": [
+        {
+          "wrong": "Estación Espacial Internacional (ISS)",
+          "correct": "Estación Espacial Internacional (EEI)",
+          "context": "Scientific and technical terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Word order and sentence structure",
+      "category": "localization",
+      "subcategory": "Syntax",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Minor issues with word order or sentence structure that, while not incorrect, are less natural in Spanish. Corrections improve readability and align with standard Spanish syntax.",
+      "examples": [
+        {
+          "wrong": "La tabla periódica clasifica los elementos en tres principales categorías:",
+          "correct": "La tabla periódica clasifica los elementos en tres categorías principales:",
+          "context": "Adjective placement; standard word order."
+        },
+        {
+          "wrong": "Recuerda siempre respaldar tu análisis...",
+          "correct": "Recuerda respaldar siempre tu análisis...",
+          "context": "Adverb placement; natural flow."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Format and punctuation inconsistencies",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Minor issues with number formatting, capitalization, or punctuation that do not impede comprehension but affect professionalism and consistency with Spanish conventions.",
+      "examples": [
+        {
+          "wrong": "250 000 personas",
+          "correct": "250,000 personas",
+          "context": "Numerical formatting; thousands separator."
+        },
+        {
+          "wrong": "El 70 % de los estudiantes",
+          "correct": "El 70% de los estudiantes",
+          "context": "Percentage formatting; space omission."
+        },
+        {
+          "wrong": "Comienza temprano: Revisa los materiales...",
+          "correct": "Comienza con anticipación: repasa los materiales...",
+          "context": "Colon usage; more idiomatic phrasing."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical imprecision and regionalisms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of less standard or regionally marked terms instead of preferred, formal Spanish vocabulary, reducing localization consistency and educational clarity.",
+      "examples": [
+        {
+          "wrong": "evaluar evidencias",
+          "correct": "evaluar evidencia",
+          "context": "Instructional text about analysis"
+        },
+        {
+          "wrong": "Esto puede hacerse mediante reportes, presentaciones o publicaciones.",
+          "correct": "Esto puede hacerse mediante informes, presentaciones o publicaciones.",
+          "context": "List of document types"
+        },
+        {
+          "wrong": "Las religiones cristianismo, islam, hinduismo, budismo y judaísmo tienen prácticas y creencias que han dado forma a sociedades y culturas en todo el mundo.",
+          "correct": "Las religiones cristianismo, islam, hinduismo, budismo y judaísmo poseen prácticas y creencias que han dado forma a sociedades y culturas en todo el mundo.",
+          "context": "General statement about religions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Brand-specific or culturally narrow references",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of examples or references that may not be universally relevant or inclusive for all Spanish-speaking learners. Corrections favor generic or neutral examples.",
+      "examples": [
+        {
+          "wrong": "Un sistema de recomendación de películas en Netflix.",
+          "correct": "Un sistema de recomendación de películas.",
+          "context": "Avoiding brand-specific references."
+        },
+        {
+          "wrong": "Plataformas como Netflix o Spotify que recomiendan contenido...",
+          "correct": "Plataformas que recomiendan contenido...",
+          "context": "Generic description for broader relevance."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Improper capitalization of sentence-initial words and proper nouns",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Sentences begin with lowercase letters or proper nouns are not capitalized, which is incorrect in Spanish and affects professionalism.",
+      "examples": [
+        {
+          "wrong": "recibir un correo que parece ser de tu banco solicitando que confirmes tus datos mediante un enlace es un ejemplo de phishing.",
+          "correct": "Recibir un correo que parece ser de tu banco solicitando que confirmes tus datos mediante un enlace es un ejemplo de phishing.",
+          "context": "Quiz question or explanatory sentence"
+        },
+        {
+          "wrong": "El internet forma parte esencial de nuestras vidas diarias, permitiéndonos comunicarnos, aprender y entretenernos.",
+          "correct": "Internet forma parte esencial de nuestras vidas diarias, permitiéndonos comunicarnos, aprender y entretenernos.",
+          "context": "General statement about technology"
+        }
+      ]
+    }
+  ]
+}

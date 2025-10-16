@@ -1,0 +1,104 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Eles fazem parte da vida e podem ocorrer em qualquer lugar: na escola, em casa ou com amigos.",
+      "correction": "Eles fazem parte da vida e podem ocorrer em qualquer lugar: na escola, em casa ou entre amigos.",
+      "description": "The phrase 'com amigos' is less precise than 'entre amigos' in this context. 'Entre amigos' is the standard collocation in Portuguese when referring to situations occurring among friends. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Necessidades ou interesses opostos.",
+      "correction": "Necessidades ou interesses conflitantes.",
+      "description": "The word 'opostos' is not the most accurate term in this context. 'Conflitantes' is the standard term used in Portuguese to describe needs or interests that are in conflict, aligning better with the theme and improving lexical precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ser respeitoso mesmo em desacordos.",
+      "correction": "Manter o respeito mesmo em situações de desacordo.",
+      "description": "The phrase 'Ser respeitoso mesmo em desacordos' is grammatically correct but slightly unnatural in Brazilian Portuguese. 'Manter o respeito mesmo em situações de desacordo' is a more idiomatic and culturally appropriate way to express the idea, improving the naturalness and tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Trabalhe juntos para encontrar uma solução que beneficie todos.",
+      "correction": "Trabalhem juntos para encontrar uma solução que beneficie a todos.",
+      "description": "The imperative form 'Trabalhe' is singular, but the context refers to a group. The correct form is 'Trabalhem juntos' (plural imperative). Additionally, 'beneficie todos' should be 'beneficie a todos' to comply with standard Portuguese syntax and prepositional usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Empatia é a habilidade de compreender e compartilhar os sentimentos de outra pessoa.",
+      "correction": "Empatia é a habilidade de compreender e compartilhar os sentimentos de outras pessoas.",
+      "description": "The phrase 'de outra pessoa' is singular, but empathy is generally described as the ability to understand and share the feelings of others in general. Using 'outras pessoas' (plural) is more accurate and aligns with standard definitions in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ficar calmo.",
+      "correction": "Mantenha a calma.",
+      "description": "The phrase 'Ficar calmo' is grammatically correct but less idiomatic in Brazilian Portuguese. 'Mantenha a calma' is the standard expression used in educational and professional contexts, improving the naturalness and tone of the advice.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Não levar as coisas para o lado pessoal.",
+      "correction": "Não leve as coisas para o lado pessoal.",
+      "description": "The phrase 'Não levar as coisas para o lado pessoal' uses the infinitive, which is less direct in instructional contexts. The imperative 'Não leve as coisas para o lado pessoal' is more appropriate for giving advice and aligns with the instructional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Após resolver um conflito, reflita sobre:",
+      "correction": "Após resolver um conflito, reflita:",
+      "description": "The phrase 'reflita sobre' is correct, but in this context, 'reflita:' is more concise and natural, especially when followed by a list. This improves the flow and clarity of the instructions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:15.873991",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 9
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Olá, estudante! Hoje vamos aprender sobre como resolver conflitos de maneira construtiva e como usar a comunicação eficaz para solucionar problemas. 🌟",
+      "correction": "Olá, estudante! Hoje vamos aprender como resolver conflitos de maneira construtiva e utilizar a comunicação eficaz para solucionar problemas.",
+      "description": "The use of the emoji '🌟' is not standard in formal educational content and may reduce the perceived professionalism of the material. Additionally, the phrase 'sobre como resolver' is slightly redundant; 'aprender como resolver' is more concise and natural in Brazilian Portuguese. Removing the emoji and streamlining the sentence improves the tone and clarity for an educational context.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La Declaración ha inspirado a muchas constituciones nacionales y tratados internacionales. Por ejemplo, la Carta Africana de Derechos Humanos y de los Pueblos y la Convención Europea de Derechos Humanos están basadas en sus principios.",
+      "correction": "La Declaración ha inspirado a muchas constituciones nacionales y tratados internacionales. Por ejemplo, la Carta Africana sobre los Derechos Humanos y de los Pueblos y la Convención Europea de Derechos Humanos están basadas en sus principios.",
+      "description": "The official name of the African Charter in Spanish is 'Carta Africana sobre los Derechos Humanos y de los Pueblos.' The use of 'de' instead of 'sobre' is a minor terminology inconsistency. Using the correct official title improves accuracy and aligns with standard references in Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Movimientos globales han utilizado su base para exigir igualdad de género y derechos reproductivos.",
+      "correction": "Movimientos globales han utilizado su fundamento para exigir igualdad de género y derechos reproductivos.",
+      "description": "The phrase 'utilizado su base' is grammatically correct but semantically imprecise in this context. In Spanish from Spain, 'fundamento' is a more accurate term when referring to the underlying principles of the Declaration. This correction improves lexical precision and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:38:01.683310",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy vamos a explorar la Declaración Universal de los Derechos Humanos, un documento esencial para garantizar las libertades fundamentales de todas las personas. Descubriremos su historia, su impacto en el mundo y cómo promueve la justicia y la igualdad. 🌍",
+      "correction": "¡Bienvenidos! Hoy vamos a explorar la Declaración Universal de los Derechos Humanos, un documento esencial para garantizar las libertades fundamentales de todas las personas. Descubriremos su historia, su impacto en el mundo y cómo promueve la justicia y la igualdad.",
+      "description": "The use of the globe emoji (🌍) at the end of the introduction is not standard in formal educational content in Spain. While emojis can be engaging, they may reduce the perceived seriousness and professionalism of the lesson, especially in academic contexts. Removing the emoji ensures the tone remains appropriate for a formal educational setting.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

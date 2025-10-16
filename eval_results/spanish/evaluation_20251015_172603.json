@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Recuerda practicar con ejemplos de la vida diaria como repartir comida o contar objetos.",
+      "correction": "Recuerda practicar con ejemplos de la vida diaria, como repartir comida o contar objetos.",
+      "description": "A comma is needed after 'diaria' to separate the introductory phrase from the examples, improving clarity and aligning with Spanish punctuation standards. This is a minor stylistic adjustment for naturalness and readability.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:26:03.739975",
+    "model": "gpt-4.1",
+    "label": "v12",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo de las fracciones! Hoy aprenderemos cómo las fracciones representan partes de un todo y cómo compararlas de forma sencilla. 🌟",
+      "correction": "¡Bienvenidos al fascinante mundo de las fracciones! Hoy aprenderemos cómo las fracciones representan partes de un todo y cómo compararlas de forma sencilla.",
+      "description": "The use of the star emoji (🌟) is not standard in formal educational content for Spain and may be considered informal or distracting in academic materials. Removing the emoji improves the professional tone and aligns with Spanish educational style conventions.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

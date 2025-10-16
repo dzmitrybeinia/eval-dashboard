@@ -1,0 +1,211 @@
+{
+  "request": {
+    "lesson_description": "Introduction to shading techniques in drawing, focusing on hatching, cross-hatching, stippling, and blending.",
+    "exercises_ratio": 0.2,
+    "grade_level": "7th grade",
+    "estimated_length": 20,
+    "learning_standard": "National Core Arts Standards (NCAS): Anchor Standard 2 - Organize and develop artistic ideas and work.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "44496ac0",
+    "topicInEnglish": "Drawing Techniques",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Techniques de l'ombrage en dessin",
+    "slides": [
+      {
+        "content": "Bienvenue dans le monde fascinant de l'ombrage en dessin ! Aujourd'hui, nous allons découvrir différentes techniques pour donner vie et profondeur à vos dessins. 🌟",
+        "title": "Introduction à l'ombrage",
+        "themes": [
+          "Introduction à l'ombrage"
+        ],
+        "image_search_string": "shading techniques drawing",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "L'ombrage est une technique qui permet de créer des nuances et une illusion de profondeur dans un dessin. Il est essentiel pour donner une dimension réaliste à vos œuvres.",
+        "title": "Qu'est-ce que l'ombrage ?",
+        "themes": [
+          "Définition de l'ombrage"
+        ],
+        "image_search_string": "shading in art",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Le hachurage consiste à tracer des lignes parallèles pour créer des ombres. Plus les lignes sont proches, plus l'ombre est foncée.",
+        "title": "Technique : Hachurage",
+        "themes": [
+          "Technique de hachurage"
+        ],
+        "image_search_string": "hatching drawing technique",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le croisement de hachures, ou cross-hatching, implique de superposer des lignes dans différentes directions pour intensifier les ombres.",
+        "title": "Technique : Croisement de hachures",
+        "themes": [
+          "Technique de croisement de hachures"
+        ],
+        "image_search_string": "cross hatching drawing",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le pointillisme, ou stippling, utilise des points pour créer des ombres. La densité des points détermine l'intensité de l'ombre.",
+        "title": "Technique : Pointillisme",
+        "themes": [
+          "Technique de pointillisme"
+        ],
+        "image_search_string": "stippling drawing technique",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le mélange, ou blending, consiste à lisser les traits ou les ombres pour obtenir une transition douce entre les nuances.",
+        "title": "Technique : Mélange",
+        "themes": [
+          "Technique de mélange"
+        ],
+        "image_search_string": "blending drawing technique",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour choisir une technique, réfléchissez à l'effet que vous souhaitez obtenir et au style de votre dessin.",
+        "title": "Choisir la bonne technique",
+        "themes": [
+          "Choix de la technique"
+        ],
+        "image_search_string": "choosing shading technique",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "En combinant plusieurs techniques d'ombrage, vous pouvez créer des effets plus complexes et impressionnants.",
+        "title": "Combiner les techniques",
+        "themes": [
+          "Combinaison des techniques"
+        ],
+        "image_search_string": "combining shading techniques",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "L'ombrage aide à indiquer la source de lumière et à rendre les objets plus réalistes.",
+        "title": "L'importance de l'ombrage",
+        "themes": [
+          "Importance de l'ombrage"
+        ],
+        "image_search_string": "importance of shading",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pratiquez chaque technique sur une feuille pour comprendre leur effet et comment les maîtriser.",
+        "title": "Pratique de l'ombrage",
+        "themes": [
+          "Pratique des techniques"
+        ],
+        "image_search_string": "shading practice drawing",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Observez des objets réels pour voir comment la lumière et l'ombre interagissent, et essayez de les dessiner.",
+        "title": "Observer pour dessiner",
+        "themes": [
+          "Observation et dessin"
+        ],
+        "image_search_string": "observing light shadows drawing",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les artistes célèbres utilisent souvent des techniques d'ombrage pour donner vie à leurs œuvres.",
+        "title": "Exemples d'artistes",
+        "themes": [
+          "Artistes et ombrage"
+        ],
+        "image_search_string": "famous shading art",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Assurez-vous d'utiliser des outils corrects comme des crayons variés et des estompes pour un meilleur effet.",
+        "title": "Outils pour l'ombrage",
+        "themes": [
+          "Outils pour l'ombrage"
+        ],
+        "image_search_string": "shading tools drawing",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "L'ombrage peut aussi exprimer des émotions ou des ambiances dans un dessin.",
+        "title": "Expression par l'ombrage",
+        "themes": [
+          "Expression artistique par l'ombrage"
+        ],
+        "image_search_string": "emotional shading drawing",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Explorez des styles différents et trouvez celui qui correspond à votre vision artistique.",
+        "title": "Explorer les styles",
+        "themes": [
+          "Exploration des styles"
+        ],
+        "image_search_string": "exploring shading styles",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Récapitulons : le hachurage, le croisement de hachures, le pointillisme et le mélange sont des techniques clés pour l'ombrage.",
+        "title": "Résumé des techniques",
+        "themes": [
+          "Résumé des techniques d'ombrage"
+        ],
+        "image_search_string": "shading techniques summary",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Drawing Techniques",
+    "generationLanguage": "fr-FR"
+  }
+}

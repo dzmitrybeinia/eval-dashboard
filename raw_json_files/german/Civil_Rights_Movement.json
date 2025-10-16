@@ -1,0 +1,113 @@
+{
+  "request": {
+    "lesson_description": "The Civil Rights Movement: Key Events, Leaders, and Impact on Modern Society.",
+    "exercises_ratio": 0.5,
+    "grade_level": "10th grade",
+    "estimated_length": 15,
+    "learning_standard": "CCSS.ELA-LITERACY.RH.9-10.2: Determine the central ideas or information of a primary or secondary source; provide an accurate summary of how key events or ideas develop over the course of the text.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "f380c12f",
+    "topicInEnglish": "Civil Rights Movement",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "The Civil Rights Movement: Key Events, Leaders, and Impact",
+    "slides": [
+      {
+        "content": "Die Bürgerrechtsbewegung in den Vereinigten Staaten war eine soziale und politische Bewegung, die in den 1950er und 1960er Jahren ihren Höhepunkt erreichte. Sie setzte sich für die Abschaffung der Rassentrennung und die Gleichberechtigung aller Bürger ein, unabhängig von Hautfarbe oder Herkunft. Diese Bewegung hatte tiefgreifende Auswirkungen auf die amerikanische Gesellschaft und inspirierte ähnliche Kämpfe für Gleichheit weltweit.",
+        "title": "Einführung in die Bürgerrechtsbewegung",
+        "themes": [
+          "Definition der Bürgerrechtsbewegung",
+          "Ziele der Bewegung"
+        ],
+        "image_search_string": "civil rights movement",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Nach dem Zweiten Weltkrieg begannen Afroamerikaner, verstärkt gegen die systematische Diskriminierung zu protestieren. Wichtige Ereignisse wie der Busboykott von Montgomery (1955) und die Proteste in Birmingham (1963) markierten Wendepunkte. Der Marsch auf Washington 1963, bei dem Martin Luther King Jr. seine berühmte Rede hielt, symbolisierte den Höhepunkt der Bewegung.",
+        "title": "Schlüsselereignisse der Bürgerrechtsbewegung",
+        "themes": [
+          "Wichtige Ereignisse der Bewegung",
+          "Marsch auf Washington"
+        ],
+        "image_search_string": "civil rights events",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Match"
+        ]
+      },
+      {
+        "content": "Martin Luther King Jr. und Rosa Parks sind zwei der bekanntesten Persönlichkeiten der Bürgerrechtsbewegung. King war bekannt für seinen Einsatz für gewaltfreien Widerstand und seine inspirierenden Reden. Rosa Parks löste mit ihrer Weigerung, ihren Platz im Bus aufzugeben, den Busboykott von Montgomery aus, der als Katalysator für die Bewegung diente.",
+        "title": "Führende Persönlichkeiten",
+        "themes": [
+          "Martin Luther King Jr.",
+          "Rosa Parks"
+        ],
+        "image_search_string": "civil rights leaders",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Bürgerrechtsbewegung führte zu bedeutenden gesetzlichen Veränderungen, darunter der Civil Rights Act von 1964 und der Voting Rights Act von 1965. Diese Gesetze beendeten die legale Rassentrennung und stellten sicher, dass Afroamerikaner das Wahlrecht ausüben konnten.",
+        "title": "Gesetzliche Errungenschaften",
+        "themes": [
+          "Civil Rights Act 1964",
+          "Voting Rights Act 1965"
+        ],
+        "image_search_string": "civil rights legislation",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Bürgerrechtsbewegung inspirierte viele andere soziale Bewegungen und führte zu einem stärkeren Bewusstsein für Menschenrechte weltweit. Sie beeinflusste die Frauenrechtsbewegung, die LGBTQ+-Bewegung und andere Kämpfe für Gleichheit und Gerechtigkeit.",
+        "title": "Langfristige Auswirkungen",
+        "themes": [
+          "Einfluss auf andere Bewegungen",
+          "Globale Menschenrechte"
+        ],
+        "image_search_string": "civil rights impact",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Bürgerrechtsbewegung war nicht nur in den Vereinigten Staaten von Bedeutung, sondern beeinflusste auch globale Kämpfe für Gerechtigkeit. In Ländern wie Südafrika, das mit der Apartheid kämpfte, dienten die Errungenschaften der Bewegung als Inspiration.",
+        "title": "Globale Perspektive",
+        "themes": [
+          "Einfluss auf Südafrika",
+          "Globale Gerechtigkeit"
+        ],
+        "image_search_string": "global civil rights",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Bürgerrechtsbewegung hat uns gelehrt, wie wichtig es ist, für Gerechtigkeit und Gleichheit zu kämpfen. Ihre Botschaften von gewaltfreiem Widerstand und Solidarität sind heute genauso relevant wie damals. Wir können aus ihrer Geschichte lernen, um für eine bessere Zukunft zu arbeiten.",
+        "title": "Lernen aus der Geschichte",
+        "themes": [
+          "Bedeutung für die Gegenwart",
+          "Botschaft der Bewegung"
+        ],
+        "image_search_string": "civil rights lessons",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Civil Rights Movement",
+    "generationLanguage": "de-DE"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "request": {
+    "lesson_description": "An introduction to the major world religions: Christianity, Islam, Judaism, Hinduism, and Buddhism. Exploring their core beliefs, practices, and cultural significance.",
+    "exercises_ratio": 0.8,
+    "grade_level": "8th grade",
+    "estimated_length": 10,
+    "learning_standard": "NCSS.D2.HIS.3.6-8: Use questions generated about individuals and groups to analyze why they, and the developments they shaped, are seen as historically significant.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "fe8c28da",
+    "topicInEnglish": "World Religions",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Introdução às Principais Religiões do Mundo",
+    "slides": [
+      {
+        "content": "As religiões desempenham um papel importante na história e na cultura de diversas sociedades. Neste estudo, exploraremos cinco das maiores tradições religiosas do mundo: Cristianismo, Islã, Judaísmo, Hinduísmo e Budismo. Aprenderemos sobre suas crenças principais, práticas e significados culturais para compreender sua influência histórica.",
+        "title": "O Papel das Religiões no Mundo",
+        "themes": [
+          "importância das religiões",
+          "papel cultural e histórico"
+        ],
+        "image_search_string": "world religions symbols",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "O Cristianismo é baseado nos ensinamentos de Jesus Cristo e é a maior religião do mundo. Seus seguidores acreditam em um Deus único, e sua mensagem central é a do amor e da salvação. O livro sagrado do Cristianismo é a Bíblia.",
+        "title": "Cristianismo",
+        "themes": [
+          "ensinamentos de Jesus",
+          "Bíblia como livro sagrado"
+        ],
+        "image_search_string": "Christianity symbols",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O Islã é baseado nos ensinamentos do profeta Maomé, que são registrados no Alcorão, o livro sagrado do Islã. Os muçulmanos acreditam em um Deus único, chamado Alá, e seguem os Cinco Pilares do Islã, que incluem a oração e o jejum.",
+        "title": "Islã",
+        "themes": [
+          "ensinamentos de Maomé",
+          "Cinco Pilares do Islã"
+        ],
+        "image_search_string": "Islamic symbols",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O Judaísmo é uma das religiões mais antigas do mundo, centrada na crença em um Deus único e nos ensinamentos da Torá. Os judeus celebram tradições como o Shabat e festivais como o Yom Kippur.",
+        "title": "Judaísmo",
+        "themes": [
+          "Torá como texto sagrado",
+          "tradições e festivais judeus"
+        ],
+        "image_search_string": "Jewish symbols",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O Hinduísmo é uma religião praticada principalmente na Índia e está centrada em conceitos como o karma, dharma e moksha. Os textos sagrados incluem os Vedas e os Upanishads, e os deuses mais conhecidos são Brahma, Vishnu e Shiva.",
+        "title": "Hinduísmo",
+        "themes": [
+          "conceitos de karma e moksha",
+          "textos sagrados do Hinduísmo"
+        ],
+        "image_search_string": "Hinduism symbols",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O Budismo foi fundado por Siddhartha Gautama, conhecido como Buda. Ele ensinou os Quatro Nobres Caminhos e o Nobre Caminho Óctuplo como forma de alcançar a iluminação e o nirvana.",
+        "title": "Budismo",
+        "themes": [
+          "ensinamentos de Buda",
+          "Quatro Nobres Caminhos"
+        ],
+        "image_search_string": "Buddhism symbols",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "As religiões estudadas têm diferenças em suas crenças e práticas, mas todas desempenham papéis significativos na formação de valores culturais e na história das sociedades. Elas influenciam desde tradições até decisões políticas e sociais.",
+        "title": "Comparação das Religiões",
+        "themes": [
+          "diversidade religiosa",
+          "impacto cultural e histórico"
+        ],
+        "image_search_string": "world religions comparison",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "World Religions",
+    "generationLanguage": "pt-PT"
+  }
+}

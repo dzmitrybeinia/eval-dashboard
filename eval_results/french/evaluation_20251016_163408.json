@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les votes sont comptabilisés pour déclarer un vainqueur.",
+      "correction": "Les votes sont comptés pour déclarer un vainqueur.",
+      "description": "The verb 'comptabiliser' is not the most appropriate choice in this context. In French electoral terminology, 'compter les votes' is the standard and natural expression for tallying votes. 'Comptabiliser' is more commonly used in accounting or statistical contexts and sounds less natural here. This affects both lexical precision and naturalness, but the primary issue is linguistic (word choice).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Pour voter, il faut remplir certains critères comme : être majeur, être citoyen du pays, et être inscrit sur les listes électorales.",
+      "correction": "Pour voter, il faut remplir certains critères tels que : être majeur, être citoyen du pays et être inscrit sur les listes électorales.",
+      "description": "The use of 'comme :' before listing criteria is less formal and not standard in educational French. 'Tels que :' is preferred for enumerating examples in formal or instructional contexts. Additionally, the comma before 'et' is unnecessary in French lists. These changes improve the style and register, making the sentence more appropriate for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:34:08.651642",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

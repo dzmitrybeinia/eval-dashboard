@@ -1,0 +1,131 @@
+{
+  "request": {
+    "lesson_description": "Understanding Fire Safety: Identifying hazards, fire prevention strategies, and proper emergency responses.",
+    "exercises_ratio": 0.4,
+    "grade_level": "5th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "0dd74178",
+    "topicInEnglish": "Fire Safety",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Comprendiendo la Seguridad contra Incendios",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una lección importante sobre cómo mantenernos seguros ante incendios! Aprenderemos sobre los peligros del fuego, cómo prevenirlo y qué hacer en una emergencia. 🌟",
+        "title": "Introducción a la Seguridad contra Incendios",
+        "themes": [
+          "introducción a la seguridad contra incendios"
+        ],
+        "image_search_string": "seguridad contra incendios",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Los incendios pueden comenzar por varias razones. Algunas causas comunes incluyen:\n\n- Equipos eléctricos defectuosos.\n- Vela o cigarrillos encendidos sin supervisión.\n- Cocinar sin cuidado.\n- Sobrecargar enchufes eléctricos.\n- Materiales inflamables cerca de fuentes de calor.\n\nEs importante identificar estos riesgos para prevenir incendios.",
+        "title": "Causas comunes de incendios",
+        "themes": [
+          "causas comunes de incendios"
+        ],
+        "image_search_string": "causas de incendios",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Para prevenir incendios en casa y en otros lugares, sigue estas recomendaciones:\n\n1. Nunca dejes velas o estufas encendidas sin supervisión.\n2. Mantén materiales inflamables lejos de fuentes de calor.\n3. Inspecciona regularmente los cables eléctricos y reemplaza los dañados.\n4. No sobrecargues los enchufes y usa regletas de calidad.\n5. Ten un extintor en casa y aprende a usarlo.",
+        "title": "Estrategias de prevención de incendios",
+        "themes": [
+          "estrategias de prevención de incendios"
+        ],
+        "image_search_string": "prevención de incendios",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Sort"
+        ]
+      },
+      {
+        "content": "En caso de incendio, sigue estos pasos para mantenerte seguro:\n\n1. Mantén la calma y actúa rápidamente.\n2. Si es posible, usa un extintor para apagar el fuego en su etapa inicial.\n3. Si el fuego es grande, abandona el lugar inmediatamente.\n4. Aléjate del humo; gatea si es necesario.\n5. Llama al 112 o al número de emergencias local.",
+        "title": "Qué hacer en caso de incendio",
+        "themes": [
+          "respuestas ante incendios"
+        ],
+        "image_search_string": "emergencia contra incendios",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Los detectores de humo son herramientas esenciales para la seguridad contra incendios. Estos dispositivos:\n\n- Detectan el humo rápidamente y emiten una alarma.\n- Pueden salvar vidas alertando a las personas antes de que el fuego se propague.\n- Deben ser probados regularmente para asegurarse de que funcionan correctamente.\n\nInstala detectores de humo en cada nivel de tu casa y cerca de las habitaciones.",
+        "title": "Importancia de los detectores de humo",
+        "themes": [
+          "detectores de humo"
+        ],
+        "image_search_string": "detectores de humo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "¿Sabías que existen diferentes tipos de extintores para distintos tipos de fuego? Por ejemplo:\n\n- Clase A: Para materiales comunes como madera y papel.\n- Clase B: Para líquidos inflamables como gasolina.\n- Clase C: Para incendios eléctricos.\n\nEs importante conocer qué tipo de extintor usar según la causa del incendio.",
+        "title": "Tipos de extintores de incendios",
+        "themes": [
+          "tipos de extintores"
+        ],
+        "image_search_string": "tipos de extintores",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Match"
+        ]
+      },
+      {
+        "content": "Las salidas de emergencia son rutas diseñadas para evacuar un lugar de forma rápida y segura. Para usarlas correctamente:\n\n- Familiarízate con las rutas de escape en tu casa, escuela y lugares públicos.\n- Mantén las salidas despejadas de obstáculos.\n- Practica simulacros de evacuación regularmente para saber qué hacer en una emergencia.",
+        "title": "Conociendo las salidas de emergencia",
+        "themes": [
+          "salidas de emergencia"
+        ],
+        "image_search_string": "salidas de emergencia",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Preparar un plan de evacuación es esencial. Un buen plan incluye:\n\n- Identificar dos salidas seguras de cada habitación.\n- Acordar un punto de encuentro fuera del edificio.\n- Practicar el plan con toda la familia o grupo regularmente.\n\nEsto asegura que todos sepan cómo actuar en caso de incendio.",
+        "title": "Creando un plan de evacuación",
+        "themes": [
+          "plan de evacuación"
+        ],
+        "image_search_string": "plan de evacuación",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "¡Recuerda! La seguridad contra incendios comienza con la prevención y preparación. Identifica riesgos, sigue las recomendaciones, y practica lo aprendido para mantenerte seguro. ¡Tú puedes hacer la diferencia!",
+        "title": "Resumen de seguridad contra incendios",
+        "themes": [
+          "resumen de seguridad contra incendios"
+        ],
+        "image_search_string": "seguridad contra incendios resumen",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fire Safety",
+    "generationLanguage": "es-ES"
+  }
+}

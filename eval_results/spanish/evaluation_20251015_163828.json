@@ -1,0 +1,204 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El hip-hop emergió en los años 70 en Nueva York, como una forma de expresión cultural urbana.",
+      "correction": "El hip-hop emergió en los años 70 en Nueva York como una forma de expresión cultural urbana.",
+      "description": "The comma after 'Nueva York' is unnecessary and creates a slight pause that disrupts the natural flow of the sentence. In Spanish, commas are not used before subordinate clauses introduced by 'como' unless for emphasis, which is not needed here. Removing the comma improves grammatical correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Incluye elementos como el rap, el DJing, el breakdance y el graffiti.",
+      "correction": "Incluye elementos como el rap, el DJ, el breakdance y el grafiti.",
+      "description": "The term 'DJing' is an anglicism and not standard in Spain; 'el DJ' is preferred. Similarly, 'graffiti' should be localized to 'grafiti' according to Spanish orthographic rules. 'Breakdance' is widely accepted, but 'baile break' or 'break dance' could be considered for further localization, though not strictly necessary.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "DJs como Daft Punk han popularizado este estilo.",
+      "correction": "DJ como Daft Punk ha popularizado este estilo.",
+      "description": "Daft Punk is a duo, but in Spanish, 'DJ' is typically singular and refers to an individual. If referring to multiple DJs, use 'DJs como...' but Daft Punk is a group, not a DJ. A more accurate phrasing would be 'artistas como Daft Punk han popularizado este estilo' or 'grupos y DJs como Daft Punk han popularizado este estilo.'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La música clásica refleja contextos históricos como la Revolución Francesa o la era del Romanticismo, influenciando su temática y estilo.",
+      "correction": "La música clásica refleja contextos históricos como la Revolución Francesa o la era del Romanticismo, lo que influye en su temática y estilo.",
+      "description": "The use of 'influenciando' as a gerund is not ideal in formal Spanish, as it can result in a 'gerundio de resultado' which is discouraged. Replacing it with 'lo que influye en su temática y estilo' improves grammatical correctness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Su influencia se extendió al cine, el baile y otros géneros musicales.",
+      "correction": "Su influencia se extendió al cine, al baile y a otros géneros musicales.",
+      "description": "For parallel structure, the preposition 'a' should be repeated before each noun: 'al cine, al baile y a otros géneros musicales.' This improves clarity and grammatical correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Sirvió como una voz para el cambio social y político en varias épocas.",
+      "correction": "Sirvió como voz para el cambio social y político en varias épocas.",
+      "description": "The phrase 'como una voz para' is acceptable, but 'como voz para' is more concise and natural in formal Spanish. This is a minor stylistic improvement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La música nos muestra cómo las culturas evolucionan y se influencian mutuamente.",
+      "correction": "La música nos muestra cómo las culturas evolucionan y se influyen mutuamente.",
+      "description": "The verb 'influenciar' is less common and considered less formal in Spain; 'influir' is preferred. The corrected sentence uses the more standard verb for formal educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:38:28.225008",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 13,
+    "original_issue_count": 20
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La música clásica tiene raíces antiguas, predominando en Europa desde el siglo IX.",
+      "correction": "La música clásica tiene raíces antiguas, predominando en Europa desde el siglo IX.",
+      "description": "There is a potential ambiguity in the phrase 'desde el siglo IX' regarding the actual historical origins of classical music. In Spain, 'música clásica' typically refers to the Western art music tradition, which is more accurately traced to later centuries (e.g., from the Renaissance onwards). However, this is not a strict linguistic error but a minor historical imprecision. Linguistically, the sentence is correct, with proper accentuation and punctuation.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El jazz nació a principios del siglo XX en Nueva Orleans, Estados Unidos.",
+      "correction": "El jazz nació a principios del siglo XX en Nueva Orleans, Estados Unidos.",
+      "description": "The reference to 'Nueva Orleans, Estados Unidos' is culturally appropriate for Spanish audiences in Spain. However, for educational clarity, it may be beneficial to specify 'Nueva Orleans, en el sur de Estados Unidos' to provide more geographical context, as not all students may be familiar with U.S. cities. No linguistic errors are present.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Incluye formas como la sinfonía, la ópera y el concierto.",
+      "correction": "Incluye formas como la sinfonía, la ópera y el concierto.",
+      "description": "The word 'ópera' is correctly accented, and the sentence structure is appropriate. No linguistic errors are present. The terminology is standard for Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La música nos conecta a través de emociones, historias y culturas. Hoy exploraremos varios géneros musicales, descubriendo sus características únicas y su impacto cultural. 🎵",
+      "correction": "La música nos conecta a través de emociones, historias y culturas. Hoy exploraremos varios géneros musicales, descubriendo sus características únicas y su impacto cultural.",
+      "description": "The use of the musical note emoji (🎵) at the end of the introduction may be considered informal or less appropriate in formal educational content for Spain, especially in secondary or higher education contexts. Removing the emoji would align better with standard academic style. The language itself is correct.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La música electrónica utiliza tecnología digital y analógica para crear sonidos únicos.",
+      "correction": "La música electrónica utiliza tecnología digital y analógica para crear sonidos únicos.",
+      "description": "The sentence is linguistically correct, with proper accentuation and terminology. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Por ejemplo, Beethoven expresó ideales de libertad en sus sinfonías.",
+      "correction": "Por ejemplo, Beethoven expresó ideales de libertad en sus sinfonías.",
+      "description": "The sentence is linguistically correct, with proper accentuation and punctuation. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El jazz se desarrolló durante la segregación racial en Estados Unidos, sirviendo como un medio de resistencia cultural.",
+      "correction": "El jazz se desarrolló durante la segregación racial en Estados Unidos, sirviendo como un medio de resistencia cultural.",
+      "description": "The reference to 'segregación racial en Estados Unidos' is culturally appropriate and provides important historical context. No localization issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El rock se vinculó con movimientos juveniles y contraculturales, como la revolución sexual de los años 60.",
+      "correction": "El rock se vinculó con movimientos juveniles y contraculturales, como la revolución sexual de los años 60.",
+      "description": "The reference to 'la revolución sexual de los años 60' is culturally appropriate and relevant for Spanish audiences. No localization issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El hip-hop ha sido una plataforma para denunciar la discriminación racial y económica.",
+      "correction": "El hip-hop ha sido una plataforma para denunciar la discriminación racial y económica.",
+      "description": "The sentence is linguistically correct, with proper accentuation and terminology. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Su alcance global ha permitido conectar culturas y enfrentar injusticias a través de la música.",
+      "correction": "Su alcance global ha permitido conectar culturas y enfrentar injusticias a través de la música.",
+      "description": "The sentence is linguistically correct, with proper accentuation and terminology. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La música electrónica impulsó la creación de nuevos espacios culturales, como festivales y clubes.",
+      "correction": "La música electrónica impulsó la creación de nuevos espacios culturales, como festivales y clubes.",
+      "description": "The use of 'clubes' is correct for Spain, as 'clubes' is the standard plural form. No localization issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Además, ha influido en la moda y el diseño gráfico, mostrando su impacto cultural más allá del sonido.",
+      "correction": "Además, ha influido en la moda y el diseño gráfico, mostrando su impacto cultural más allá del sonido.",
+      "description": "The sentence is linguistically correct, with proper accentuation and terminology. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Aunque son distintos, estos géneros comparten la capacidad de unir a las personas y reflejar sus contextos sociales e históricos.",
+      "correction": "Aunque son distintos, estos géneros comparten la capacidad de unir a las personas y reflejar sus contextos sociales e históricos.",
+      "description": "The sentence is linguistically correct, with proper accentuation and terminology. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

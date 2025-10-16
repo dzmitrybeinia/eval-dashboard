@@ -1,0 +1,166 @@
+{
+  "request": {
+    "lesson_description": "Introduction to space travel: Exploring the history, technology, and challenges of human journeys beyond Earth.",
+    "exercises_ratio": 0.5,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "dbbed7d2",
+    "topicInEnglish": "Space Travel",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Introducción a los viajes espaciales: Historia, tecnología y desafíos",
+    "slides": [
+      {
+        "content": "¡Bienvenidos al emocionante mundo de los viajes espaciales! Acompáñanos mientras exploramos cómo la humanidad ha desafiado los límites de nuestro planeta para aventurarse más allá de la Tierra. 🌌",
+        "title": "Bienvenidos al espacio",
+        "themes": [
+          "introducción a los viajes espaciales"
+        ],
+        "image_search_string": "exploración espacial",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Los viajes espaciales comenzaron como un sueño que se hizo realidad gracias a la dedicación de científicos y exploradores. El primer gran paso fue el lanzamiento del satélite Sputnik en 1957, seguido del primer hombre en el espacio, Yuri Gagarin, en 1961.",
+        "title": "Primeros pasos en el espacio",
+        "themes": [
+          "historia de los primeros viajes espaciales"
+        ],
+        "image_search_string": "primeros viajes espaciales",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Hoy en día, los cohetes son la tecnología principal que nos permite viajar al espacio. Estos vehículos utilizan propulsión de alta potencia para superar la gravedad terrestre y llevar astronautas y satélites más allá de nuestra atmósfera.",
+        "title": "La tecnología de los cohetes",
+        "themes": [
+          "tecnología de cohetes"
+        ],
+        "image_search_string": "cohetes espaciales",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los astronautas enfrentan numerosos desafíos en el espacio, incluyendo la falta de gravedad, la radiación cósmica y los largos períodos de aislamiento. Resolver estos problemas es clave para misiones exitosas.",
+        "title": "Desafíos de los astronautas",
+        "themes": [
+          "desafíos del espacio"
+        ],
+        "image_search_string": "astronautas en el espacio",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las misiones espaciales han permitido grandes avances científicos, como el estudio de otros planetas, la investigación sobre el origen del universo y el desarrollo de tecnología innovadora.",
+        "title": "Logros de las misiones espaciales",
+        "themes": [
+          "avances de las misiones espaciales"
+        ],
+        "image_search_string": "logros espaciales",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La Estación Espacial Internacional (ISS) es un ejemplo de cooperación global en la exploración espacial. Científicos de todo el mundo trabajan juntos en experimentos que benefician a la humanidad.",
+        "title": "Cooperación internacional en el espacio",
+        "themes": [
+          "cooperación espacial internacional"
+        ],
+        "image_search_string": "estación espacial internacional",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Las futuras misiones espaciales buscan llevar humanos a Marte, establecer bases lunares y explorar más allá de nuestro sistema solar. Estos proyectos requieren innovación y colaboración internacional.",
+        "title": "El futuro de la exploración espacial",
+        "themes": [
+          "futuro de los viajes espaciales"
+        ],
+        "image_search_string": "exploración espacial futura",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La exploración espacial no solo inspira a los científicos, sino también a artistas, escritores y cineastas. Este tema ha influido en muchas obras de arte y cultura popular.",
+        "title": "El impacto cultural de la exploración espacial",
+        "themes": [
+          "influencia cultural de los viajes espaciales"
+        ],
+        "image_search_string": "cultura exploración espacial",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La exploración espacial ofrece beneficios como nuevas tecnologías, mejor comprensión del universo y posibles soluciones a problemas terrestres, como el cambio climático y la escasez de recursos.",
+        "title": "Beneficios de la exploración espacial",
+        "themes": [
+          "impacto positivo de la exploración espacial"
+        ],
+        "image_search_string": "beneficios exploración espacial",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Además de los desafíos técnicos, la exploración espacial plantea preguntas éticas, como el impacto ambiental de los lanzamientos y la colonización de otros planetas.",
+        "title": "Consideraciones éticas en el espacio",
+        "themes": [
+          "aspectos éticos de la exploración espacial"
+        ],
+        "image_search_string": "ética exploración espacial",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Desde sus inicios hasta el presente, los viajes espaciales han sido un testimonio de la curiosidad y el ingenio humano. La historia de esta aventura sigue escribiéndose con cada nuevo lanzamiento.",
+        "title": "Resumen de los viajes espaciales",
+        "themes": [
+          "resumen de la historia espacial"
+        ],
+        "image_search_string": "historia de los viajes espaciales",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "¿Qué opinas sobre la exploración espacial? ¿Qué crees que nos depara el futuro en este campo? ¡Comparte tus ideas y reflexiones!",
+        "title": "Reflexión final",
+        "themes": [
+          "reflexión sobre los viajes espaciales"
+        ],
+        "image_search_string": "reflexión exploración espacial",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Space Travel",
+    "generationLanguage": "es-ES"
+  }
+}

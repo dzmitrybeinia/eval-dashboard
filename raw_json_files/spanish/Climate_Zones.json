@@ -1,0 +1,96 @@
+{
+  "request": {
+    "lesson_description": "Understanding Climate Zones: Exploring the major climate zones (tropical, temperate, polar) and their characteristics.",
+    "exercises_ratio": 0.0,
+    "grade_level": "6th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "df32ebf1",
+    "topicInEnglish": "Climate Zones",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Understanding Climate Zones",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una aventura para explorar los secretos del clima en nuestro planeta! 🌍 ¿Alguna vez te has preguntado por qué algunas regiones son cálidas y húmedas mientras que otras son frías y secas? Acompáñanos a descubrir las zonas climáticas y sus fascinantes características.",
+        "title": "Introducción a las zonas climáticas",
+        "themes": [
+          "introducción a las zonas climáticas"
+        ],
+        "image_search_string": "zonas climáticas del mundo",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El clima de un lugar es determinado por factores como la temperatura, la cantidad de lluvia y la humedad. Las zonas climáticas son grandes áreas del mundo que comparten patrones similares de clima.",
+        "title": "¿Qué es el clima y las zonas climáticas?",
+        "themes": [
+          "definición de clima",
+          "concepto de zonas climáticas"
+        ],
+        "image_search_string": "definición de clima",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La Tierra tiene tres principales zonas climáticas: tropical, templada y polar. Estas zonas se determinan por la posición del lugar en relación al ecuador y la inclinación del eje terrestre.",
+        "title": "Las tres zonas climáticas principales",
+        "themes": [
+          "zonas climáticas principales",
+          "ubicación de zonas climáticas"
+        ],
+        "image_search_string": "mapa de zonas climáticas",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las zonas tropicales están ubicadas cerca del ecuador. Estas áreas disfrutan de temperaturas cálidas durante todo el año y tienen temporadas de lluvia y sequía.",
+        "title": "Zona tropical",
+        "themes": [
+          "características de la zona tropical"
+        ],
+        "image_search_string": "zona tropical características",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las zonas templadas se encuentran entre las zonas tropicales y polares. Aquí las estaciones son más marcadas, con veranos cálidos e inviernos fríos.",
+        "title": "Zona templada",
+        "themes": [
+          "características de la zona templada"
+        ],
+        "image_search_string": "zona templada características",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las zonas polares están cerca de los polos norte y sur. Estas áreas son muy frías y la nieve cubre el suelo la mayor parte del año.",
+        "title": "Zona polar",
+        "themes": [
+          "características de la zona polar"
+        ],
+        "image_search_string": "zona polar características",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Climate Zones",
+    "generationLanguage": "es-ES"
+  }
+}

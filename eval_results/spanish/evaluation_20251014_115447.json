@@ -1,0 +1,104 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El internet forma parte esencial de nuestras vidas diarias, permitiéndonos comunicarnos, aprender y entretenernos.",
+      "correction": "Internet forma parte esencial de nuestras vidas diarias, permitiéndonos comunicarnos, aprender y entretenernos.",
+      "description": "The definite article 'El' before 'internet' is unnecessary and nonstandard in Spanish. In formal and educational contexts, 'Internet' is typically used without an article, following the standard orthographic convention. Removing the article improves linguistic accuracy and aligns with accepted usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El internet forma parte esencial de nuestras vidas diarias, permitiéndonos comunicarnos, aprender y entretenernos.",
+      "correction": "Internet forma parte esencial de nuestras vidas diarias, permitiéndonos comunicarnos, aprender y entretenernos.",
+      "description": "The word 'Internet' should be capitalized as it is a proper noun. In Spanish, 'Internet' is always written with an initial capital letter. This correction ensures proper orthography and respects the conventions for proper nouns.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Malware: software dañino que se instala en tu dispositivo sin tu conocimiento, usualmente a través de enlaces o descargas sospechosas.",
+      "correction": "Malware: programa malicioso que se instala en tu dispositivo sin tu conocimiento, generalmente a través de enlaces o descargas sospechosas.",
+      "description": "The term 'software dañino' is less precise and less commonly used in Spanish than 'programa malicioso', which is the standard term for 'malware' in educational and technical contexts. Additionally, 'usualmente' is less natural than 'generalmente' in this context. This correction improves terminology consistency and naturalness for Spanish-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "recibir un correo que parece ser de tu banco solicitando que confirmes tus datos mediante un enlace es un ejemplo de phishing.",
+      "correction": "Recibir un correo que parece ser de tu banco solicitando que confirmes tus datos mediante un enlace es un ejemplo de phishing.",
+      "description": "The sentence should begin with a capital letter. In Spanish, sentences always start with an uppercase letter, and this is important for proper orthography and professionalism in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Evita pérdidas financieras, como compras no autorizadas con tu tarjeta de crédito.",
+      "correction": "Evita pérdidas económicas, como compras no autorizadas con tu tarjeta de crédito.",
+      "description": "The term 'pérdidas financieras' is less commonly used in general Spanish educational contexts than 'pérdidas económicas', which is broader and more natural for describing loss of money or value. This correction improves terminology consistency and naturalness for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usa contraseñas fuertes: largas y con una mezcla de letras, números y símbolos.",
+      "correction": "Utiliza contraseñas seguras: que sean largas y contengan una combinación de letras, números y símbolos.",
+      "description": "The phrase 'contraseñas fuertes' is understandable but 'contraseñas seguras' is the standard and more natural term in Spanish cybersecurity education. Additionally, 'utiliza' is slightly more formal and appropriate for educational content than 'usa'. The revised sentence also clarifies the recommendation for better comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Piensa antes de publicar: recuerda que lo que compartes en línea puede ser permanente.",
+      "correction": "Piensa antes de publicar. Recuerda que lo que compartes en línea puede ser permanente.",
+      "description": "The use of a colon after 'Piensa antes de publicar' is less natural in Spanish for separating two related sentences. A period is preferred for clarity and stylistic consistency in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Mensajes urgentes: como \"¡Tu cuenta será bloqueada si no actúas ahora!\"",
+      "correction": "Mensajes urgentes, como \"¡Tu cuenta será bloqueada si no actúas ahora!\"",
+      "description": "A comma is more appropriate than a colon after 'Mensajes urgentes' in this context, as it introduces an example rather than a list or explanation. This correction improves punctuation accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:54:47.131793",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 9
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Evita enlaces y descargas sospechosas: no abras enlaces ni descargues archivos de fuentes desconocidas.",
+      "correction": "Evita enlaces y descargas sospechosas: no abras enlaces ni descargues archivos de fuentes desconocidas.",
+      "description": "The sentence is correct, but the use of the colon is stylistically inconsistent with the rest of the recommendations, which use periods. For consistency and proper orthographic style, a period should be used instead of a colon.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

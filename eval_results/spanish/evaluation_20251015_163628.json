@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La lucha por los derechos civiles en Estados Unidos marcó un momento crucial en la historia del siglo XX.",
+      "correction": "La lucha por los derechos civiles en Estados Unidos marcó un momento crucial en la historia del siglo XX, especialmente en el contexto estadounidense.",
+      "description": "The original sentence may be interpreted as suggesting the Civil Rights Movement was a crucial moment for the entire world in the 20th century, which could be misleading for Spanish audiences. Adding 'especialmente en el contexto estadounidense' clarifies the scope and improves cultural appropriateness for learners in Spain.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:36:28.360045",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "\"Tengo un sueño\"",
+      "correction": "\"Tengo un sueño\"",
+      "description": "The quotation marks used are correct for Spanish, but the phrase is a direct translation of 'I Have a Dream', which is a well-known speech title. In Spanish, it is commonly referred to as 'Tengo un sueño', so no correction is needed. However, ensure that the quotation marks are consistently used throughout the content and that the phrase is italicized or highlighted for clarity if used as a title.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ley de Derecho al Voto de 1965",
+      "correction": "Ley de Derecho al Voto de 1965",
+      "description": "The term 'Ley de Derecho al Voto de 1965' is a literal translation of 'Voting Rights Act of 1965'. While understandable, the more commonly accepted Spanish term in Spain is 'Ley de Derecho de Voto de 1965' or 'Ley de Derechos Electorales de 1965'. Consider using a more standard term to improve terminology consistency and localization quality.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

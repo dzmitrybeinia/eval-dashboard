@@ -1,0 +1,167 @@
+{
+  "request": {
+    "lesson_description": "Understanding the Growth Mindset: How embracing challenges and learning from failures can lead to personal and academic success.",
+    "exercises_ratio": 0.4,
+    "grade_level": "7th grade",
+    "estimated_length": 20,
+    "learning_standard": "CASEL SEL Competencies: Self-Awareness and Self-Management - Demonstrating the ability to recognize strengths and embrace challenges as opportunities for growth.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "f65fc8f5",
+    "topicInEnglish": "Growth Mindset",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Understanding the Growth Mindset",
+    "slides": [
+      {
+        "content": "Você sabia que a maneira como pensamos sobre os nossos talentos pode influenciar o nosso sucesso? Hoje vamos aprender sobre a mentalidade de crescimento, um jeito de pensar que nos ajuda a encarar desafios e aprender com nossos erros para alcançar nossos objetivos.",
+        "title": "Introdução ao Tema",
+        "themes": [
+          "Introdução à mentalidade de crescimento"
+        ],
+        "image_search_string": "growth mindset concept",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "A mentalidade de crescimento é a crença de que nossas habilidades e inteligência podem melhorar com esforço e prática. Diferente disso, a mentalidade fixa acredita que essas características são inatas e não mudam. Adotar uma mentalidade de crescimento nos ajuda a superar obstáculos e alcançar o sucesso.",
+        "title": "O Que é Mentalidade de Crescimento?",
+        "themes": [
+          "Definição de mentalidade de crescimento",
+          "Comparação com mentalidade fixa"
+        ],
+        "image_search_string": "growth versus fixed mindset",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pessoas com mentalidade de crescimento encaram desafios como oportunidades de aprender. Elas não têm medo de cometer erros, pois sabem que isso faz parte do processo de aprendizado. Já pessoas com mentalidade fixa evitam desafios, temendo o fracasso.",
+        "title": "Como Encaramos os Desafios?",
+        "themes": [
+          "Diferenças na abordagem de desafios"
+        ],
+        "image_search_string": "facing challenges growth mindset",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Match"
+        ]
+      },
+      {
+        "content": "Um exemplo de mentalidade de crescimento é quando um estudante tenta resolver um problema de matemática difícil. Mesmo errando várias vezes, ele continua tentando, aprendendo com cada erro. Isso o ajuda a melhorar suas habilidades.",
+        "title": "Exemplo de Mentalidade de Crescimento",
+        "themes": [
+          "Exemplo de aplicação prática"
+        ],
+        "image_search_string": "student solving problem",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Adotar a mentalidade de crescimento pode trazer benefícios como: maior resiliência, melhora no desempenho acadêmico, e maior confiança. Esses benefícios nos ajudam a lidar com os desafios da vida de forma mais positiva.",
+        "title": "Benefícios da Mentalidade de Crescimento",
+        "themes": [
+          "Vantagens de adotar mentalidade de crescimento"
+        ],
+        "image_search_string": "benefits of growth mindset",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Podemos desenvolver uma mentalidade de crescimento com práticas como: acreditar no esforço, aceitar erros como parte do aprendizado, buscar feedback, e valorizar o progresso ao invés da perfeição.",
+        "title": "Como Desenvolver a Mentalidade de Crescimento",
+        "themes": [
+          "Estratégias para desenvolver mentalidade de crescimento"
+        ],
+        "image_search_string": "developing growth mindset",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Fracassos são uma parte natural do aprendizado. Eles nos mostram o que precisamos melhorar e nos dão a chance de tentar novamente com mais sabedoria. Mudar a perspectiva sobre o fracasso é essencial para a mentalidade de crescimento.",
+        "title": "O Papel dos Fracassos",
+        "themes": [
+          "Importância do fracasso no aprendizado"
+        ],
+        "image_search_string": "learning from failure",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Quando enfrentamos dificuldades, é útil lembrar que o esforço é o caminho para o crescimento. Frases como \"Eu ainda não consigo, mas estou no caminho certo\" podem nos motivar a continuar tentando.",
+        "title": "O Poder do Esforço e da Persistência",
+        "themes": [
+          "Persistência e esforço em desafios"
+        ],
+        "image_search_string": "effort and persistence",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Ter autoconsciência nos ajuda a identificar nossas forças e fraquezas. Reconhecer o que já fazemos bem nos dá confiança, enquanto entender onde podemos melhorar nos direciona para o crescimento.",
+        "title": "A Importância da Autoconsciência",
+        "themes": [
+          "Reconhecer forças e fraquezas"
+        ],
+        "image_search_string": "self awareness growth",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Gerenciar nossas emoções é essencial para superar desafios. Quando ficamos frustrados, podemos parar, respirar fundo e tentar novamente com calma. Isso nos ajuda a manter o foco e não desistir.",
+        "title": "Gerenciamento das Emoções",
+        "themes": [
+          "Controle emocional em desafios"
+        ],
+        "image_search_string": "managing emotions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pessoas que nos inspiram, como atletas ou cientistas, muitas vezes demonstram uma forte mentalidade de crescimento. Elas enfrentam dificuldades, aprendem com os erros e alcançam grandes sucessos. Esses exemplos nos mostram que também podemos crescer.",
+        "title": "Exemplos Inspiradores de Mentalidade de Crescimento",
+        "themes": [
+          "Exemplos de mentalidade de crescimento na prática"
+        ],
+        "image_search_string": "inspiring growth mindset examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para concluir, a mentalidade de crescimento nos inspira a ver desafios como oportunidades, aprender com nossos erros e acreditar no poder do esforço e da persistência. Vamos nos lembrar de aplicar isso em nossas vidas diárias!",
+        "title": "Conclusão: O Poder da Mentalidade de Crescimento",
+        "themes": [
+          "Resumo da importância da mentalidade de crescimento"
+        ],
+        "image_search_string": "summary growth mindset",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Growth Mindset",
+    "generationLanguage": "pt-PT"
+  }
+}

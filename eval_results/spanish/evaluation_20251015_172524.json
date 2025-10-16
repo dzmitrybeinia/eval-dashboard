@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Diwali, conocido como el Festival de las Luces, es una celebración importante en la India y entre comunidades hindúes en todo el mundo. Se celebra con lámparas de aceite, fuegos artificiales y reuniones familiares. Simboliza la victoria del bien sobre el mal.",
+      "correction": "Diwali, conocido como el Festival de las Luces, es una celebración importante en la India y entre comunidades hindúes en todo el mundo. Se celebra con lámparas de aceite llamadas diyas, fuegos artificiales y reuniones familiares. Simboliza la victoria del bien sobre el mal.",
+      "description": "The original text omits the culturally specific term 'diyas' for the oil lamps used during Diwali, which is important for accurate cultural representation. Adding 'llamadas diyas' clarifies the tradition for Spanish-speaking learners and enhances cultural authenticity. No linguistic errors are present.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Durante Hanukkah, se encienden velas en una menorá y se disfrutan alimentos como los latkes.",
+      "correction": "Durante Hanukkah, se encienden velas en una menorá y se disfrutan alimentos tradicionales como los latkes y los sufganiot.",
+      "description": "The original text only mentions 'latkes' as traditional Hanukkah food, which may lead to an incomplete cultural understanding. Including 'sufganiot' (jelly doughnuts) provides a more comprehensive and culturally accurate description of Hanukkah traditions. No linguistic errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Las familias se reúnen, se realizan desfiles coloridos y se usan sobres rojos con dinero como símbolo de buena suerte.",
+      "correction": "Las familias se reúnen, se realizan desfiles coloridos y se entregan sobres rojos con dinero como símbolo de buena suerte.",
+      "description": "The verb 'se usan' (are used) for red envelopes is less culturally precise than 'se entregan' (are given), which better reflects the tradition of gifting red envelopes during Lunar New Year. This correction improves cultural accuracy and naturalness. No linguistic errors are present.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:25:24.358662",
+    "model": "gpt-4.1",
+    "label": "v12"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

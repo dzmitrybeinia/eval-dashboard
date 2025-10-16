@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Quando algo bom acontece, como ganhar um presente.",
+      "correction": "Quando algo bom acontece, como passar tempo com amigos ou receber um elogio.",
+      "description": "The example 'ganhar um presente' (receiving a gift) is culturally appropriate but may reinforce materialistic values in an educational context. Replacing it with examples like 'spending time with friends' or 'receiving a compliment' promotes emotional and social values, which are more universally accepted in educational settings and avoid potential cultural bias.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pratique expressar suas próprias emoções com clareza usando palavras, como \"Eu me sinto feliz porque...\".",
+      "correction": "Pratique expressar suas próprias emoções com clareza, usando palavras como: \"Eu me sinto feliz porque...\".",
+      "description": "The original sentence lacks a comma after 'clareza', which is required to separate the subordinate clause 'usando palavras'. Adding the comma improves sentence structure and clarity. Additionally, the colon after 'palavras' is more appropriate than a comma when introducing examples.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:37.365381",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

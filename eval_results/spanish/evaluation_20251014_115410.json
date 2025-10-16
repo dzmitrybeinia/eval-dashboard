@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "como coches importados de Japón a México",
+      "correction": "como automóviles importados de Japón a México",
+      "description": "The word 'coches' is regionally appropriate for Spain but less standard in Latin American Spanish, where 'automóviles' or 'carros' are more commonly used. Since the example references Mexico, 'automóviles' is the most neutral and widely accepted term for educational content targeting a broad Spanish-speaking audience. This correction improves cultural appropriateness and ensures clarity for learners from different regions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "como Arabia Saudí en petróleo",
+      "correction": "como Arabia Saudita en petróleo",
+      "description": "The country name 'Arabia Saudí' is commonly used in Spain, while 'Arabia Saudita' is the standard form in Latin America and international Spanish educational contexts. For global Spanish content, 'Arabia Saudita' is preferred for consistency and broader recognition.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "manufactura de electrónicos",
+      "correction": "fabricación de productos electrónicos",
+      "description": "The phrase 'manufactura de electrónicos' is a literal translation from English and is not idiomatic in Spanish. The correct and natural expression is 'fabricación de productos electrónicos', which aligns with standard industry terminology and improves clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "como la Ruta de la Seda o el Canal de Panamá",
+      "correction": "como la Ruta de la Seda o el canal de Panamá",
+      "description": "In Spanish, only proper names are capitalized. 'Canal de Panamá' is a proper noun, but in educational contexts, the lowercase 'canal' is often used unless referring to the official name. However, both forms are accepted. This is a minor format issue, and the correction aligns with standard Spanish capitalization rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "el de Suez o Panamá",
+      "correction": "el canal de Suez o el canal de Panamá",
+      "description": "The phrase 'el de Suez o Panamá' omits the word 'canal', which may cause confusion for learners unfamiliar with these terms. The full form 'el canal de Suez o el canal de Panamá' is clearer and more consistent with educational standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Retos globales",
+      "correction": "Desafíos globales",
+      "description": "The term 'retos' is correct but 'desafíos' is more commonly used in academic and professional contexts when discussing global challenges. This change improves consistency and aligns with standard terminology in educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:54:10.897680",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.9,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

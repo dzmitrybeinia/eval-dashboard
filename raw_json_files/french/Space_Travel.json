@@ -1,0 +1,82 @@
+{
+  "request": {
+    "lesson_description": "The science of space travel: Understanding the challenges and technology behind human exploration of space.",
+    "exercises_ratio": 0.0,
+    "grade_level": "9th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "c72f17ab",
+    "topicInEnglish": "Space Travel",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "La science des voyages spatiaux",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette exploration fascinante des voyages spatiaux ! 🚀 Nous allons découvrir les défis que les humains rencontrent en explorant l'espace, ainsi que les technologies innovantes qui rendent cela possible.",
+        "title": "Introduction aux voyages spatiaux",
+        "themes": [
+          "introduction aux voyages spatiaux"
+        ],
+        "image_search_string": "space exploration",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Les voyages spatiaux consistent à envoyer des humains ou des sondes au-delà de l'atmosphère terrestre pour explorer l'espace. Cela inclut les missions vers la Lune, Mars, et au-delà.",
+        "title": "Qu'est-ce que les voyages spatiaux ?",
+        "themes": [
+          "définition des voyages spatiaux"
+        ],
+        "image_search_string": "space mission concept",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Dans l'histoire, les premiers voyages spatiaux ont été marqués par des missions comme Spoutnik 1 (1957) et Apollo 11 (1969), où les humains ont marché sur la Lune.",
+        "title": "Les débuts des voyages spatiaux",
+        "themes": [
+          "histoire des voyages spatiaux"
+        ],
+        "image_search_string": "historical space mission",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les principaux défis des voyages spatiaux incluent :\n- L'apesanteur et ses effets sur le corps humain.\n- Les radiations cosmiques.\n- La nécessité de transporter des ressources (oxygène, nourriture, eau).\n- Les distances énormes et le temps de voyage.",
+        "title": "Défis des voyages spatiaux",
+        "themes": [
+          "défis des voyages spatiaux"
+        ],
+        "image_search_string": "space travel challenges",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les technologies utilisées dans les voyages spatiaux incluent :\n- Les fusées pour quitter l'atmosphère terrestre.\n- Les systèmes de support de vie pour maintenir les astronautes en vie.\n- Les combinaisons spatiales pour protéger contre les conditions extrêmes.",
+        "title": "Technologies des voyages spatiaux",
+        "themes": [
+          "technologies spatiales"
+        ],
+        "image_search_string": "space technology",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Space Travel",
+    "generationLanguage": "fr-FR"
+  }
+}

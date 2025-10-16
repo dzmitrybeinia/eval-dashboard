@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "\"Shall I compare thee to a summer's day?  Thou art more lovely and more temperate.\"",
+      "correction": "\"Devo comparar-te a um dia de verão? És mais belo e mais ameno.\"",
+      "description": "The example provided for the sonnet is in English, which may not be accessible to all learners in a Portuguese-language educational context. For better cultural appropriateness and comprehension, the example should be presented in Portuguese, either as a translation or using a well-known Portuguese sonnet. This ensures the content is fully localized and relevant to the target audience.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:24.802031",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "limerique",
+      "correction": "limerique",
+      "description": "The term 'limerique' is a direct adaptation of the English 'limerick' and is not widely accepted or standard in Brazilian Portuguese. The more common term is 'limerique' (with a 'q'), but even this is rare and may confuse learners. For educational clarity and lexical precision, it is better to explain the form as 'poema limerique' or 'poema limerick', and clarify its origin. This addresses both lexical precision and localization, but the primary issue is lexical.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "limerique",
+      "correction": "limerique",
+      "description": "The spelling 'limerique' is not standard in Brazilian Portuguese. While it is sometimes used in literary circles, it is not recognized by major dictionaries. Consider providing a brief explanation of the term's origin and usage to avoid confusion. This is primarily an orthographic and lexical issue.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

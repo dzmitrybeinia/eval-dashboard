@@ -1,0 +1,48 @@
+{
+  "issues": [],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:28.589847",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 10.0,
+    "classification": "NATIVE",
+    "total_issues": 0,
+    "total_penalty": 0.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "post-its",
+      "correction": "post-its",
+      "description": "The term 'post-its' is used in its English form, which is common in Brazilian Portuguese informal contexts. However, for educational content, it is preferable to use the adapted form 'post-its' (with hyphen and plural 's'), which is accepted, but consider the alternative 'notas adesivas' for greater localization and clarity. No orthographic error is present, but the use of the English term may be less clear for some audiences.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational content may be considered informal and less appropriate for certain academic or professional contexts in Brazilian Portuguese. While emojis can increase engagement, their use should be consistent with the tone and formality of the lesson. Consider removing the emoji or replacing it with a more formal expression if the target audience is older or the context is professional.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

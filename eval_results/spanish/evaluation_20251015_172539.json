@@ -1,0 +1,207 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introducción a etiqueta digital",
+      "correction": "introducción a la etiqueta digital",
+      "description": "The phrase is missing the definite article 'la' before 'etiqueta digital', which is required in Spanish for grammatical correctness. The corrected version ensures proper noun phrase structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "protección de privacidad",
+      "correction": "protección de la privacidad",
+      "description": "The phrase is missing the definite article 'la' before 'privacidad', which is required for grammatical correctness in Spanish. The corrected version uses the proper noun phrase structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "respeto a derechos de autor",
+      "correction": "respeto a los derechos de autor",
+      "description": "The phrase is missing the definite article 'los' before 'derechos de autor', which is required for grammatical correctness in Spanish. The corrected version uses the proper noun phrase structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "resumen de etiqueta digital",
+      "correction": "resumen de la etiqueta digital",
+      "description": "The phrase is missing the definite article 'la' before 'etiqueta digital', which is required for grammatical correctness in Spanish. The corrected version uses the proper noun phrase structure.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:25:39.605201",
+    "model": "gpt-4.1",
+    "label": "v12",
+    "false_positives_filtered": 16,
+    "original_issue_count": 20
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos a un fascinante viaje para descubrir cómo comunicarnos correctamente en el mundo digital! 🌐 Aprende cómo respetar a los demás, proteger tu privacidad y evitar el ciberacoso mientras navegamos juntos por las mejores prácticas de etiqueta digital.",
+      "correction": "¡Bienvenidos a un fascinante viaje para descubrir cómo comunicarnos correctamente en el mundo digital! 🌐 Aprende cómo respetar a los demás, proteger tu privacidad y evitar el ciberacoso mientras navegamos juntos por las mejores prácticas de etiqueta digital.",
+      "description": "No orthographic errors are present in this introductory text. The use of the opening exclamation mark is correct, and accent marks are properly placed. The emoji is acceptable in informal educational contexts for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La etiqueta digital se refiere a las normas y comportamientos adecuados que debemos seguir al interactuar en línea. Así como en la vida real tenemos normas de cortesía, en el mundo digital también debemos ser respetuosos y considerados.",
+      "correction": "La etiqueta digital se refiere a las normas y comportamientos adecuados que debemos seguir al interactuar en línea. Así como en la vida real tenemos normas de cortesía, en el mundo digital también debemos ser respetuosos y considerados.",
+      "description": "No linguistic errors are present. The sentence structure, accent marks, and punctuation are all correct. The content is clear and appropriate for Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "normas de etiqueta digital",
+      "correction": "normas de etiqueta digital",
+      "description": "No linguistic errors are present in this phrase. The terminology is standard for Spain and the phrase is grammatically correct.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "respeto a la privacidad",
+      "correction": "respeto a la privacidad",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology for Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "definición de ciberacoso",
+      "correction": "definición de ciberacoso",
+      "description": "No linguistic errors are present. The terminology is standard and appropriate for Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "prevención del ciberacoso",
+      "correction": "prevención del ciberacoso",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "consecuencias de publicar",
+      "correction": "consecuencias de publicar",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "comunicación efectiva en línea",
+      "correction": "comunicación efectiva en línea",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "responsabilidad en el anonimato",
+      "correction": "responsabilidad en el anonimato",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "buenas prácticas en redes sociales",
+      "correction": "buenas prácticas en redes sociales",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "riesgos del phishing",
+      "correction": "riesgos del phishing",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology. 'Phishing' is accepted in Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "respeto en línea",
+      "correction": "respeto en línea",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "no discriminación",
+      "correction": "no discriminación",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "contraseñas seguras",
+      "correction": "contraseñas seguras",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "riesgos del sexting",
+      "correction": "riesgos del sexting",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology. 'Sexting' is accepted in Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "empatía en línea",
+      "correction": "empatía en línea",
+      "description": "No linguistic errors are present. The phrase is grammatically correct and uses standard terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

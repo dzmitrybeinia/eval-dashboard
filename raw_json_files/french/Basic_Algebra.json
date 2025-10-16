@@ -1,0 +1,106 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Basic Algebra: Understanding Variables, Expressions, and Simple Equations",
+    "exercises_ratio": 0.5,
+    "grade_level": "7th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "ecccf5dc",
+    "topicInEnglish": "Basic Algebra",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Introduction to Basic Algebra",
+    "slides": [
+      {
+        "content": "Bienvenue dans le monde fascinant de l'algèbre ! Aujourd'hui, nous allons explorer les bases : les variables, les expressions et les équations simples. Préparez-vous à découvrir comment les mathématiques peuvent vous aider à résoudre des problèmes et à comprendre le monde qui vous entoure ! ✨",
+        "title": "Bienvenue à l'Algèbre",
+        "themes": [
+          "introduction to algebra"
+        ],
+        "image_search_string": "students learning algebra",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Une variable est un symbole, généralement une lettre, qui représente un nombre inconnu ou changeant. Par exemple, dans l'expression \"x + 3\", la lettre \"x\" est une variable. Les variables sont essentielles en algèbre car elles nous permettent de travailler avec des nombres inconnus ou de généraliser des problèmes.",
+        "title": "Qu'est-ce qu'une variable ?",
+        "themes": [
+          "definition of variables"
+        ],
+        "image_search_string": "algebra variable example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Une expression algébrique est une combinaison de nombres, de variables et d'opérations (comme l'addition, la soustraction, la multiplication et la division). Par exemple, \"2x + 5\" est une expression algébrique composée de la variable \"x\", du coefficient 2, et du nombre 5.",
+        "title": "Les expressions algébriques",
+        "themes": [
+          "algebraic expressions"
+        ],
+        "image_search_string": "algebraic expression example",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Une équation est une déclaration mathématique indiquant que deux expressions sont égales. Par exemple, \"2x + 3 = 7\" est une équation. Résoudre une équation signifie trouver la valeur de la variable qui rend l'égalité vraie.",
+        "title": "Qu'est-ce qu'une équation ?",
+        "themes": [
+          "definition of equations"
+        ],
+        "image_search_string": "solving algebra equation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour résoudre une équation simple comme \"x + 3 = 7\", vous devez isoler la variable. Dans cet exemple, on soustrait 3 des deux côtés de l'équation pour obtenir \"x = 4\". Cette méthode est appelée l'équilibrage, car on effectue la même opération des deux côtés.",
+        "title": "Comment résoudre une équation simple",
+        "themes": [
+          "solving simple equations"
+        ],
+        "image_search_string": "solving simple equations",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les variables et les équations peuvent être utilisées pour résoudre des problèmes quotidiens. Par exemple, si un billet de cinéma coûte 10 € et que vous avez 50 €, combien de billets pouvez-vous acheter ? On peut écrire une équation comme \"10x = 50\" pour trouver la réponse.",
+        "title": "Applications pratiques de l'algèbre",
+        "themes": [
+          "real-life algebra applications"
+        ],
+        "image_search_string": "real life algebra problems",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Récapitulons ce que nous avons appris : les variables sont des symboles représentant des nombres inconnus, les expressions sont des combinaisons de variables avec des opérations, et les équations montrent l'égalité entre deux expressions. Résoudre des équations nous aide à répondre à des questions pratiques.",
+        "title": "Résumé de la leçon",
+        "themes": [
+          "summary of basic algebra"
+        ],
+        "image_search_string": "basic algebra summary",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Basic Algebra",
+    "generationLanguage": "fr-FR"
+  }
+}

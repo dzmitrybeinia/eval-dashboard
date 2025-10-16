@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Elle doit être spécifique et formulée de manière à pouvoir être prouvée vraie ou fausse.",
+      "correction": "Elle doit être spécifique et formulée de manière à pouvoir être confirmée ou infirmée.",
+      "description": "The phrase 'prouvée vraie ou fausse' is not idiomatic in French scientific writing. The standard expression is 'confirmée ou infirmée' when referring to hypotheses. This correction improves lexical precision and aligns with scientific terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Cela peut inclure des calculs, des graphiques et des comparaisons.",
+      "correction": "Cela peut inclure des calculs, la réalisation de graphiques et des comparaisons.",
+      "description": "The phrase 'des graphiques' is vague and may be interpreted as simply having graphs rather than creating or analyzing them. Adding 'la réalisation de graphiques' clarifies the action and is more natural in educational French, improving the style and clarity for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La méthode scientifique est utilisée dans divers domaines, comme la biologie, la physique et la chimie, et sert également à résoudre des problèmes quotidiens.",
+      "correction": "La méthode scientifique est utilisée dans de nombreux domaines, tels que la biologie, la physique, la chimie, et même pour résoudre des problèmes de la vie courante.",
+      "description": "The phrase 'divers domaines' and 'problèmes quotidiens' are correct but can be improved for naturalness and cultural resonance. 'De nombreux domaines' and 'problèmes de la vie courante' are more idiomatic and commonly used in French educational contexts, making the sentence more relatable and culturally appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:48.895561",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

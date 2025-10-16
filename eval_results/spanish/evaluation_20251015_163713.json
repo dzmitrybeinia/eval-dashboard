@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Piensa antes de publicar: lo que compartes en línea puede ser permanente. 2. Sé respetuoso con los demás: trata a las personas como te gustaría ser tratado. 3. Protege tu información personal: no compartas datos sensibles.",
+      "correction": "Piensa antes de publicar: lo que compartes en línea puede ser permanente. Sé respetuoso con los demás: trata a las personas como te gustaría ser tratado. Protege tu información personal: no compartas datos sensibles.",
+      "description": "The list of rules is presented as a single paragraph with numbers but lacks proper separation between items. In Spanish, when listing items, each should be clearly separated, either with line breaks or semicolons, to avoid confusion. The current format may hinder comprehension and does not follow standard Spanish punctuation for lists. Correction involves removing the numbers and separating each rule into its own sentence for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "El lenguaje respetuoso en línea incluye evitar insultos, sarcasmo y comentarios hirientes. Usa un tono amable y profesional, incluso en desacuerdos.",
+      "correction": "El lenguaje respetuoso en línea incluye evitar insultos, sarcasmo y comentarios hirientes. Utiliza un tono amable y profesional, incluso en desacuerdos.",
+      "description": "The use of 'Usa' is informal and may not be appropriate for educational content aimed at a general audience in Spain, where a more formal register is preferred. 'Utiliza' is a more neutral and formal verb choice, better suited for instructional materials. This change improves the tone and aligns with standard educational style in Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "1. Identifica el comportamiento: reconoce cuándo algo es ciberacoso. 2. No respondas: evita interactuar con el acosador. 3. Informa: comunica el problema a un adulto o autoridad. 4. Guarda evidencia: captura mensajes o publicaciones ofensivas.",
+      "correction": "1. Identifica el comportamiento: reconoce cuándo algo es ciberacoso. 2. No respondas: evita interactuar con el acosador. 3. Informa: comunica el problema a un adulto o autoridad. 4. Guarda pruebas: captura mensajes o publicaciones ofensivas.",
+      "description": "The term 'evidencia' is a direct loan from English ('evidence') and, while understood, is less natural in Spain for this context. 'Pruebas' is the standard term used in Spain when referring to documentation or proof in cases of harassment or legal matters. This correction ensures the terminology is locally appropriate and natural for Spanish audiences.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:13.358373",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

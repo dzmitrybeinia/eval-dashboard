@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un **palanca** es una barra rígida que gira alrededor de un punto fijo llamado fulcro.",
+      "correction": "Una **palanca** es una barra rígida que gira alrededor de un punto fijo llamado fulcro.",
+      "description": "The noun 'palanca' is feminine in Spanish, so the correct article is 'una' instead of 'un'. This is a gender agreement error that affects grammatical correctness and should be corrected for proper understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El **rueda y eje** se compone de una rueda unida a un eje central.",
+      "correction": "La **rueda y eje** se compone de una rueda unida a un eje central.",
+      "description": "The phrase 'rueda y eje' refers to a compound machine and is treated as feminine ('la rueda y eje') in Spanish. The use of 'el' is a gender agreement error. Additionally, for clarity and naturalness, it is common to use 'la rueda y el eje' or 'el conjunto rueda y eje', but the main issue here is the article agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "palancas de cambio",
+      "correction": "palancas de cambios",
+      "description": "The term 'palancas de cambio' is used in Spain for gear levers, but in many Latin American countries, the more common term is 'palanca de cambios'. For broader localization and to ensure the terminology is widely understood, 'palanca de cambios' is recommended. This improves consistency and naturalness for a general Spanish-speaking audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "calzas para puertas",
+      "correction": "topes para puertas",
+      "description": "The term 'calzas para puertas' is not universally recognized in all Spanish-speaking regions. 'Tope para puertas' is a more standard and widely accepted term for doorstops. Using regionally neutral terminology enhances comprehension and localization quality.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:55:28.544555",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

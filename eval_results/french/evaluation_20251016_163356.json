@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Bienvenue dans cette exploration fascinante des voyages spatiaux ! 🚀 Nous allons découvrir les défis que les humains rencontrent en explorant l'espace, ainsi que les technologies innovantes qui rendent cela possible.",
+      "correction": "Bienvenue dans cette exploration fascinante des voyages spatiaux ! 🚀 Nous allons découvrir les défis que les humains rencontrent en explorant l’espace, ainsi que les technologies innovantes qui rendent cela possible.",
+      "description": "The apostrophe in 'l'espace' should use the French typographic apostrophe (’) instead of the straight apostrophe ('). This is a minor orthographic issue but improves typographic correctness and professionalism in French educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Dans l'histoire, les premiers voyages spatiaux ont été marqués par des missions comme Spoutnik 1 (1957) et Apollo 11 (1969), où les humains ont marché sur la Lune.",
+      "correction": "Dans l’histoire, les premiers voyages spatiaux ont été marqués par des missions comme Spoutnik 1 (1957) et Apollo 11 (1969), où des astronautes ont marché sur la Lune.",
+      "description": "The phrase 'les humains ont marché sur la Lune' is technically correct but less natural in French educational context, where 'astronautes' is the standard term. Using 'astronautes' is more precise and culturally appropriate for French learners. Also, the apostrophe in 'l'histoire' should be typographically correct (’).",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:56.373900",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "request": {
+    "lesson_description": "DNA Basics: Understanding the structure and function of DNA, including its role in heredity and protein synthesis.",
+    "exercises_ratio": 0.4,
+    "grade_level": "9th grade",
+    "estimated_length": 15,
+    "learning_standard": "Next Generation Science Standards: HS-LS1-1 - Construct an explanation based on evidence for how the structure of DNA determines the structure of proteins which carry out essential functions of life through systems of specialized cells.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "d7bcbb43",
+    "topicInEnglish": "DNA Basics",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Fundamentos del ADN: Estructura y Función",
+    "slides": [
+      {
+        "content": "El ADN, o ácido desoxirribonucleico, es una molécula que contiene las instrucciones genéticas esenciales para el desarrollo, funcionamiento, crecimiento y reproducción de todos los organismos vivos y algunos virus. Es como un manual de instrucciones que determina las características de un ser vivo.",
+        "title": "Introducción al ADN",
+        "themes": [
+          "Definición de ADN"
+        ],
+        "image_search_string": "molécula de ADN",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El ADN tiene una estructura única en forma de doble hélice, compuesta por dos cadenas enrolladas entre sí. Cada cadena está formada por nucleótidos, que son las unidades básicas del ADN. Un nucleótido está compuesto por un azúcar (desoxirribosa), un grupo fosfato y una base nitrogenada.",
+        "title": "Estructura básica del ADN",
+        "themes": [
+          "Estructura de la doble hélice del ADN"
+        ],
+        "image_search_string": "estructura de doble hélice del ADN",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Las bases nitrogenadas del ADN son adenina (A), timina (T), citosina (C) y guanina (G). Estas bases forman pares específicos: adenina siempre se une con timina, y citosina siempre se une con guanina. Esto se conoce como el apareamiento de bases complementarias.",
+        "title": "Bases nitrogenadas y apareamiento",
+        "themes": [
+          "Bases nitrogenadas",
+          "Complementariedad de bases"
+        ],
+        "image_search_string": "pares de bases ADN",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El ADN está organizado en estructuras llamadas cromosomas. En los organismos eucariotas, los cromosomas están ubicados dentro del núcleo celular. Cada cromosoma contiene miles de genes, que son segmentos de ADN que codifican proteínas específicas.",
+        "title": "Organización del ADN en cromosomas",
+        "themes": [
+          "Cromosomas y genes",
+          "Organización del ADN"
+        ],
+        "image_search_string": "cromosomas y núcleo celular",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El proceso de replicación del ADN asegura que cada célula hija reciba una copia exacta del ADN durante la división celular. Este proceso consiste en la separación de las dos cadenas de la doble hélice y la formación de nuevas cadenas complementarias.",
+        "title": "Replicación del ADN",
+        "themes": [
+          "Proceso de replicación del ADN"
+        ],
+        "image_search_string": "replicación de ADN",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Los genes en el ADN contienen las instrucciones para sintetizar proteínas. Este proceso ocurre en dos etapas principales: transcripción y traducción. La transcripción convierte el ADN en ARN mensajero, y la traducción utiliza este ARN para construir proteínas.",
+        "title": "Del ADN a las proteínas",
+        "themes": [
+          "Transcripción y traducción",
+          "Síntesis de proteínas"
+        ],
+        "image_search_string": "síntesis de proteínas",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Match"
+        ]
+      },
+      {
+        "content": "La transcripción ocurre en el núcleo de la célula, donde una enzima llamada ARN polimerasa lee la secuencia de ADN y produce una molécula de ARN mensajero. Este ARN mensajero luego se transporta al citoplasma para la traducción.",
+        "title": "La transcripción del ADN",
+        "themes": [
+          "Proceso de transcripción del ADN"
+        ],
+        "image_search_string": "transcripción del ADN",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Durante la traducción, el ARN mensajero se une a un ribosoma, donde se leen sus codones (tripletes de bases). Cada codón codifica un aminoácido específico, que se une para formar una proteína.",
+        "title": "La traducción del ARN mensajero",
+        "themes": [
+          "Proceso de traducción",
+          "Codones y aminoácidos"
+        ],
+        "image_search_string": "traducción de ARN",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "El ADN es fundamental para la herencia, ya que pasa de generación en generación en los organismos. Las mutaciones o cambios en el ADN pueden llevar a variaciones genéticas, que son la base de la diversidad biológica y pueden tener efectos positivos, negativos o neutros.",
+        "title": "ADN y herencia genética",
+        "themes": [
+          "Rol del ADN en la herencia",
+          "Mutaciones y variación genética"
+        ],
+        "image_search_string": "herencia genética",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "DNA Basics",
+    "generationLanguage": "es-ES"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O volume de um paralelepípedo é base × altura × largura.",
+      "correction": "O volume de um paralelepípedo é calculado como comprimento × largura × altura.",
+      "description": "The original sentence uses 'base × altura × largura' to describe the formula for the volume of a rectangular prism (paralelepípedo). In Brazilian Portuguese mathematics, the standard terminology is 'comprimento × largura × altura' to refer to the three dimensions. Using 'base' in this context is ambiguous and not the conventional term for volume calculation. This correction ensures proper technical terminology and clarity for students.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Os ângulos são medidos em graus e podem ser agudos, retos, obtusos ou completos, dependendo da sua abertura.",
+      "correction": "Os ângulos são medidos em graus e podem ser agudos, retos, obtusos ou de 360°, dependendo da sua abertura.",
+      "description": "The term 'ângulo completo' is not standard in Brazilian Portuguese geometry; the correct term is 'ângulo de 360°' or 'ângulo giro'. Using 'completo' may confuse students, as it is not a technical term. The correction uses the proper terminology for clarity and educational accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A unidade de medida padrão é o metro quadrado (m²).",
+      "correction": "A unidade de medida mais comum é o metro quadrado (m²).",
+      "description": "Describing the square meter as the 'standard' unit may be misleading, as other units (centímetro quadrado, quilômetro quadrado) are also used depending on context. 'Mais comum' is more accurate and culturally appropriate for Brazilian educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O conceito de volume mede o espaço que um objeto ocupa.",
+      "correction": "O volume mede o espaço que um objeto ocupa.",
+      "description": "The phrase 'O conceito de volume mede...' is grammatically awkward and less direct. In educational contexts, it is clearer and more standard to state 'O volume mede...', directly referring to the quantity rather than the concept.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:49.099727",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 5
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Preparem-se para explorar formas e conceitos que estão ao nosso redor! ✨",
+      "correction": "Preparem-se para explorar formas e conceitos presentes em nosso cotidiano!",
+      "description": "The use of the sparkle emoji (✨) is informal and may not be appropriate for all educational contexts, especially in formal or printed materials. Additionally, 'ao nosso redor' is less natural than 'em nosso cotidiano' for Brazilian Portuguese educational style, which favors direct references to daily life. The correction improves naturalness and appropriateness for the target audience.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

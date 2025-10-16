@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "palancas de cambio",
+      "correction": "palancas de cambio de marchas",
+      "description": "The term 'palancas de cambio' is ambiguous and may not be immediately clear to all learners in Spain. Specifying 'palancas de cambio de marchas' clarifies that the reference is to gear shift levers, which is a more precise and commonly understood term in Spain for educational purposes.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:39:05.067228",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos a descubrir seis tipos de máquinas simples y cómo las usamos en nuestra vida diaria. 😊",
+      "correction": "Vamos a descubrir seis tipos de máquinas simples y cómo las usamos en nuestra vida diaria.",
+      "description": "The use of the emoji '😊' is not appropriate for formal educational content in Spain. While emojis can be engaging in informal contexts, their inclusion in instructional material may undermine the professional tone expected in academic settings. Removing the emoji ensures the style remains suitable for the target audience.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "gatos hidráulicos",
+      "correction": "gatos hidráulicos",
+      "description": "While 'gatos hidráulicos' is correct and widely used in Spain, it is important to note that the term may be unfamiliar to younger learners. Consider providing a brief explanation or visual aid in the lesson to ensure comprehension, but the terminology itself is appropriate.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "request": {
+    "lesson_description": "Effective reading strategies for comprehension, including skimming, scanning, and active reading techniques.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "CCSS.ELA-LITERACY.RI.8.1: Cite textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "34b026b7",
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Effektive Lesestrategien für das Textverständnis",
+    "slides": [
+      {
+        "content": "Manchmal kann das Lesen eines Textes schwierig erscheinen, besonders wenn man ihn schnell verstehen muss. Heute werden wir verschiedene Lesestrategien kennenlernen, die dir helfen können, Texte effizienter zu lesen und besser zu verstehen. 📖",
+        "title": "Einführung: Warum Lesestrategien wichtig sind?",
+        "themes": [
+          "Einführung in Lesestrategien"
+        ],
+        "image_search_string": "students reading books",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Beim Überfliegen (Skimming) liest man einen Text schnell, um einen allgemeinen Überblick zu gewinnen. Ziel ist es, die Hauptideen zu erfassen, ohne jedes Detail zu lesen. Dies ist nützlich, um zu entscheiden, ob ein Text relevant ist.",
+        "title": "Was ist Skimming?",
+        "themes": [
+          "Überfliegen von Texten"
+        ],
+        "image_search_string": "skimming text",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. Lies die Überschriften.\n2. Beachte fettgedruckte oder hervorgehobene Wörter.\n3. Schau dir die ersten und letzten Sätze von Absätzen an.\n4. Achte auf Bilder, Diagramme oder Tabellen.",
+        "title": "Techniken des Skimmings",
+        "themes": [
+          "Skimming Techniken"
+        ],
+        "image_search_string": "skimming techniques",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Das Scannen (Scanning) ist eine Technik, um schnell spezifische Informationen in einem Text zu finden, wie Daten, Namen oder Begriffe. Dabei wird der Text nicht vollständig gelesen, sondern mit den Augen nach bestimmten Wörtern abgesucht.",
+        "title": "Was ist Scanning?",
+        "themes": [
+          "Schnelles Finden von Informationen"
+        ],
+        "image_search_string": "scanning text",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. Identifiziere die gesuchte Information.\n2. Überfliege den Text mit den Augen.\n3. Achte auf Schlüsselbegriffe oder Zahlen.\n4. Verwende visuelle Hilfsmittel wie Tabellen oder Aufzählungen.",
+        "title": "Techniken des Scannings",
+        "themes": [
+          "Scanning Techniken"
+        ],
+        "image_search_string": "scanning techniques",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Aktives Lesen bedeutet, sich intensiv mit einem Text auseinanderzusetzen, Fragen zu stellen und Notizen zu machen. Es hilft, den Text tiefer zu verstehen und wichtige Informationen zu behalten.",
+        "title": "Was ist aktives Lesen?",
+        "themes": [
+          "Aktives Lesen Definition"
+        ],
+        "image_search_string": "active reading",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. Stelle Fragen zum Textinhalt.\n2. Unterstreiche oder markiere wichtige Stellen.\n3. Mache Randnotizen.\n4. Fasse Abschnitte in eigenen Worten zusammen.",
+        "title": "Techniken des aktiven Lesens",
+        "themes": [
+          "Techniken für aktives Lesen"
+        ],
+        "image_search_string": "active reading techniques",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Skimming, Scanning und aktives Lesen haben unterschiedliche Ziele und Anwendungen:\n- Skimming: Überblick gewinnen.\n- Scanning: Spezifische Informationen finden.\n- Aktives Lesen: Tiefes Verständnis und Analyse.",
+        "title": "Vergleich der Lesestrategien",
+        "themes": [
+          "Vergleich von Lesestrategien"
+        ],
+        "image_search_string": "reading strategies comparison",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "1. Lies den Text einmal, um einen ersten Eindruck zu bekommen.\n2. Scanne nach spezifischen Informationen.\n3. Lies aktiv, um Details zu verstehen und zu analysieren.",
+        "title": "Kombination der Strategien",
+        "themes": [
+          "Strategien kombinieren"
+        ],
+        "image_search_string": "combining reading strategies",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Um Textstellen zu analysieren, suche nach Schlüsselsätzen und unterstützenden Details. Frage dich: Was sagt der Autor explizit? Welche Schlussfolgerungen kann ich ziehen?",
+        "title": "Texte analysieren und interpretieren",
+        "themes": [
+          "Textanalyse und Interpretation"
+        ],
+        "image_search_string": "text analysis",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. Notiere die Hauptidee jedes Absatzes.\n2. Identifiziere Beweise, die die Hauptidee unterstützen.\n3. Überlege, wie die Beweise die Argumentation des Autors stützen.",
+        "title": "Schlüsselinformationen finden",
+        "themes": [
+          "Hauptideen und Beweise"
+        ],
+        "image_search_string": "identifying key ideas",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Beim Lesen von Sachtexten ist es wichtig, sich auf den Zweck des Textes, die Zielgruppe und die Struktur zu konzentrieren. Diese Faktoren helfen, den Text besser zu verstehen und zu analysieren.",
+        "title": "Sachtexte effektiv lesen",
+        "themes": [
+          "Lesen von Sachtexten"
+        ],
+        "image_search_string": "reading nonfiction",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. Überfliege den Text, um den Aufbau zu erkennen.\n2. Lies aktiv, um Argumente und Beweise zu identifizieren.\n3. Stelle Verbindungen zwischen Textteilen her.",
+        "title": "Strategien für Sachtexte",
+        "themes": [
+          "Strategien für Sachtexte"
+        ],
+        "image_search_string": "strategies for nonfiction",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Um Lesestrategien zu üben, wähle einen Artikel oder Text aus. Versuche zuerst Skimming, dann Scanning und schließlich aktives Lesen. Analysiere, wie jede Methode dir geholfen hat.",
+        "title": "Üben der Lesestrategien",
+        "themes": [
+          "Übung in Lesestrategien"
+        ],
+        "image_search_string": "practicing reading strategies",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Manchmal ist es hilfreich, Notizen visuell zu organisieren. Mindmaps oder Diagramme können helfen, Informationen zu strukturieren und Verbindungen aufzuzeigen.",
+        "title": "Visuelle Hilfsmittel beim Lesen",
+        "themes": [
+          "Visuelle Organisation"
+        ],
+        "image_search_string": "reading visual aids",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Erkenne, welche Strategie in welcher Situation am nützlichsten ist. Zum Beispiel ist Skimming ideal für einen ersten Überblick, während aktives Lesen für detailliertes Verständnis geeignet ist.",
+        "title": "Strategien situationsgerecht anwenden",
+        "themes": [
+          "Strategien anwenden"
+        ],
+        "image_search_string": "applying reading strategies",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Heute hast du gelernt, wie du Skimming, Scanning und aktives Lesen verwenden kannst, um Texte effizient zu verstehen. Mit Übung wirst du diese Techniken immer besser einsetzen können.",
+        "title": "Zusammenfassung und Abschluss",
+        "themes": [
+          "Zusammenfassung von Lesestrategien"
+        ],
+        "image_search_string": "reading summary",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "de-DE"
+  }
+}

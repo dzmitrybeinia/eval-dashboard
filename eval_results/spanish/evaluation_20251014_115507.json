@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El haiku es una forma poética tradicional japonesa que consta de tres versos con un esquema de sílabas de 5-7-5.",
+      "correction": "El haiku es una forma poética tradicional japonesa que consta de tres versos con un esquema silábico de 5-7-5.",
+      "description": "The phrase 'esquema de sílabas' is not the most natural or standard way to refer to the syllabic structure in Spanish poetry. 'Esquema silábico' is the accepted term in Spanish literary discourse. This correction improves cultural appropriateness and professional terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Ejemplo: \"Había un hombre de Perú, / que soñó que comía su zapato...\".",
+      "correction": "Ejemplo: \"Había un hombre de Perú, / que soñó que comía su zapato...\"",
+      "description": "The use of ellipsis and quotation marks is correct, but the example is a direct translation of an English limerick and may not reflect the natural humor or rhythm of limericks in Spanish. For educational content, it is preferable to use a culturally adapted or original Spanish limerick to better connect with Spanish-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "El soneto es una forma poética originaria de Europa durante el Renacimiento.",
+      "correction": "El soneto es una forma poética originaria de Europa en el Renacimiento.",
+      "description": "The preposition 'durante' is less natural in this context. 'En el Renacimiento' is the standard phrasing in Spanish literary history, improving stylistic naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:55:07.790813",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El limerick es una forma poética breve y humorística que sigue un esquema de rima AABBA.",
+      "correction": "El limerick es una forma poética breve y humorística que sigue un esquema de rima AABBA.",
+      "description": "While the term 'limerick' is widely recognized, it is an anglicism. In Spanish literary contexts, it is sometimes italicized or explained as 'estrofa de cinco versos con rima AABBA'. Consider clarifying the term for learners unfamiliar with English poetic forms.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

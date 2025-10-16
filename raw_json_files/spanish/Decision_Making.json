@@ -1,0 +1,71 @@
+{
+  "request": {
+    "lesson_description": "Understanding decision making: Exploring factors that influence choices, analyzing outcomes, and applying decision-making models.",
+    "exercises_ratio": 0.8,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "Next Generation Science Standards (NGSS): MS-ETS1-1 - Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution.",
+    "additional_guidance": "Focus on aspects such as real-world scenarios, ethical considerations, and the role of critical thinking in decision making. Include examples from daily life to illustrate concepts.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "bf03781c",
+    "topicInEnglish": "Decision Making",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Entendiendo la toma de decisiones",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una fascinante exploración sobre cómo tomamos decisiones! En esta lección, descubriremos los factores que influyen en nuestras elecciones y cómo podemos usar modelos para tomar decisiones más informadas. 🌟",
+        "title": "Introducción a la toma de decisiones",
+        "themes": [
+          "Introducción a la toma de decisiones"
+        ],
+        "image_search_string": "tomar decisiones",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Las decisiones que tomamos están influenciadas por diversos factores. Algunos de ellos incluyen:\n\n- **Factores personales**: como nuestras emociones, valores y experiencias previas.\n- **Factores sociales**: como la opinión de amigos, familia o la sociedad.\n- **Factores contextuales**: como el tiempo disponible o los recursos con los que contamos.\n\nEntender estos elementos es clave para analizar nuestras elecciones.",
+        "title": "Factores que influyen en las decisiones",
+        "themes": [
+          "Factores personales en decisiones",
+          "Factores sociales en elecciones"
+        ],
+        "image_search_string": "factores de decisiones",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Para tomar decisiones más efectivas, podemos usar modelos de toma de decisiones. Uno de los más comunes es el modelo de los pasos básicos:\n\n1. Identificar el problema o situación.\n2. Explorar posibles opciones.\n3. Evaluar las ventajas y desventajas de cada opción.\n4. Tomar una decisión basada en la mejor opción.\n5. Reflexionar sobre los resultados para aprender para el futuro.",
+        "title": "Modelo básico de toma de decisiones",
+        "themes": [
+          "Pasos en la toma de decisiones"
+        ],
+        "image_search_string": "proceso de decisiones",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Tomemos un ejemplo cotidiano: decidir qué hacer con una tarde libre.\n\n1. **Identificar el problema**: Tienes una tarde libre.\n2. **Explorar opciones**: Salir con amigos, leer un libro o practicar deporte.\n3. **Evaluar opciones**: Salir con amigos puede ser divertido, leer puede ser relajante, y practicar deporte es bueno para la salud.\n4. **Tomar una decisión**: Optas por practicar deporte.\n5. **Reflexionar**: Te sientes bien por haber hecho una elección saludable y piensas en cómo equilibrar actividades en el futuro.",
+        "title": "Ejemplo de toma de decisiones",
+        "themes": [
+          "Ejemplo de decisión diaria"
+        ],
+        "image_search_string": "decisión diaria ejemplo",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Decision Making",
+    "generationLanguage": "es-ES"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "request": {
+    "lesson_description": "Understanding emotions and feelings: Identifying basic emotions, their causes, and how they influence behavior.",
+    "exercises_ratio": 0.6,
+    "grade_level": "5th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ffa2bd91",
+    "topicInEnglish": "Emotions and Feelings",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Comprendre les émotions et les sentiments",
+    "slides": [
+      {
+        "content": "Les émotions sont des réactions naturelles que nous ressentons face à différentes situations de la vie. Elles peuvent être joyeuses, tristes, effrayantes ou encore énervées. Les émotions nous aident à comprendre nos expériences et à réagir à ce qui se passe autour de nous.",
+        "title": "Qu'est-ce qu'une émotion ?",
+        "themes": [
+          "définition des émotions"
+        ],
+        "image_search_string": "children emotions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Il existe des émotions de base que la plupart des gens ressentent : la joie, la tristesse, la peur, la colère, le dégoût et la surprise. Ces émotions sont universelles et se retrouvent dans toutes les cultures.",
+        "title": "Les émotions de base",
+        "themes": [
+          "émotions universelles"
+        ],
+        "image_search_string": "basic emotions",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La joie peut être causée par des événements positifs comme recevoir un cadeau ou passer du temps avec des amis. La tristesse peut venir d'une perte ou d'une déception. La peur peut apparaître face à un danger ou une situation inconnue. La colère peut être déclenchée par une injustice ou un obstacle.",
+        "title": "Causes des émotions",
+        "themes": [
+          "causes des émotions"
+        ],
+        "image_search_string": "causes of emotions",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les émotions influencent notre comportement. Par exemple, la peur peut nous pousser à fuir un danger, tandis que la joie peut nous encourager à partager et à être sociables. Comprendre nos émotions nous aide à mieux gérer nos réactions.",
+        "title": "Comment les émotions influencent nos actions",
+        "themes": [
+          "impact des émotions sur les comportements"
+        ],
+        "image_search_string": "emotions and actions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Il est important d'apprendre à reconnaître nos émotions. Cela commence par observer nos sensations physiques (comme un cœur qui bat vite) et nos pensées. Ensuite, on peut nommer l'émotion que l'on ressent, comme \"je suis en colère\" ou \"je suis triste\".",
+        "title": "Reconnaître ses émotions",
+        "themes": [
+          "identifier ses émotions"
+        ],
+        "image_search_string": "recognizing emotions",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Il existe des techniques pour gérer ses émotions, comme prendre de grandes respirations, parler à quelqu'un en qui on a confiance, ou encore écrire dans un journal. Ces outils permettent de retrouver un équilibre émotionnel.",
+        "title": "Gérer ses émotions",
+        "themes": [
+          "techniques de gestion des émotions"
+        ],
+        "image_search_string": "emotions management",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les émotions jouent un rôle dans nos relations. Par exemple, exprimer sa joie peut renforcer une amitié, tandis que mal gérer sa colère peut créer des conflits. Apprendre à communiquer ses émotions de manière respectueuse est essentiel pour des relations saines.",
+        "title": "Émotions et relations",
+        "themes": [
+          "émotions et interactions sociales"
+        ],
+        "image_search_string": "emotions in relationships",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Comprendre et gérer ses émotions est une compétence précieuse que nous utilisons toute notre vie. Cela nous permet de mieux nous comprendre, de prendre soin de nous-mêmes et d'avoir des relations harmonieuses avec les autres.",
+        "title": "L'importance de comprendre ses émotions",
+        "themes": [
+          "importance de la gestion émotionnelle"
+        ],
+        "image_search_string": "importance of emotions",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Emotions and Feelings",
+    "generationLanguage": "fr-FR"
+  }
+}

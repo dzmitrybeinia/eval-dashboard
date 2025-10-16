@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "segmentos de línea",
+      "correction": "segmentos de recta",
+      "description": "The term 'segmentos de línea' is not standard in Spanish geometry terminology. The correct term is 'segmentos de recta', which refers to a portion of a straight line between two points. Using the proper terminology ensures clarity and aligns with educational standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "llanos",
+      "correction": "ángulos llanos",
+      "description": "The term 'llanos' alone may be ambiguous for learners. The standard term in Spanish geometry is 'ángulo llano' or 'ángulos llanos' to specify the type of angle. Using the full term improves clarity and aligns with educational conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "cuadriláteros (cuatro lados, como cuadrados y rectángulos)",
+      "correction": "cuadriláteros (figuras de cuatro lados, como cuadrados y rectángulos)",
+      "description": "The phrase 'cuadriláteros (cuatro lados, como cuadrados y rectángulos)' could be improved for clarity by specifying that cuadriláteros are 'figuras de cuatro lados'. This helps reinforce the concept for learners and matches standard educational phrasing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:54:05.381354",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "semirrectas",
+      "correction": "semirrectas",
+      "description": "While 'semirrectas' is correct, it is important to note that the definition provided ('con un extremo y que se extienden infinitamente en una dirección') is accurate and uses the standard term. No correction needed, but educators should ensure consistency in terminology throughout the lesson.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

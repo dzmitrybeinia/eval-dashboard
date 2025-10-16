@@ -1,0 +1,198 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Geometry Basics: Points, Lines, and Angles. Understanding foundational concepts and their real-world applications.",
+    "exercises_ratio": 0.2,
+    "grade_level": "6th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.Math.Content.6.G.A.1: Solve real-world and mathematical problems involving area, surface area, and volume.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "92ef089f",
+    "topicInEnglish": "Geometry Basics",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Introducción a los conceptos básicos de la geometría",
+    "slides": [
+      {
+        "content": "¡Bienvenidos al fascinante mundo de la geometría! Hoy exploraremos conceptos básicos como puntos, líneas y ángulos, y descubriremos cómo estos forman la base para resolver problemas matemáticos y situaciones en el mundo real. 🌟",
+        "title": "Introducción a la Geometría Básica",
+        "themes": [
+          "introducción a la geometría"
+        ],
+        "image_search_string": "geometría básica",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Un punto es una ubicación exacta en el espacio. Es tan pequeño que no tiene dimensiones, como tamaño o forma. Los puntos se representan con letras mayúsculas como A, B o C.",
+        "title": "¿Qué es un punto?",
+        "themes": [
+          "definición de punto"
+        ],
+        "image_search_string": "punto en geometría",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Una línea es una serie de puntos que se extiende infinitamente en ambas direcciones. Las líneas no tienen principio ni fin y suelen nombrarse con dos puntos que se encuentran sobre ellas, como AB.",
+        "title": "¿Qué es una línea?",
+        "themes": [
+          "definición de línea"
+        ],
+        "image_search_string": "línea infinita",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un segmento de línea es una parte de una línea que tiene un principio y un fin definidos. Por ejemplo, un segmento de línea entre los puntos A y B se denota como AB.",
+        "title": "Segmento de línea",
+        "themes": [
+          "segmento de línea"
+        ],
+        "image_search_string": "segmento de línea",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un rayo es una parte de una línea que comienza en un punto y se extiende infinitamente en una dirección. Se nombra con su punto de inicio y otro punto en la dirección del rayo, como AB.",
+        "title": "¿Qué es un rayo?",
+        "themes": [
+          "definición de rayo"
+        ],
+        "image_search_string": "rayo en geometría",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Los ángulos se forman cuando dos rayos comparten un punto de inicio común, llamado vértice. Los ángulos se miden en grados y pueden clasificarse según su medida.",
+        "title": "Formación de ángulos",
+        "themes": [
+          "formación de ángulos"
+        ],
+        "image_search_string": "ángulos básicos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los ángulos agudos miden menos de 90 grados, los ángulos rectos miden exactamente 90 grados, y los ángulos obtusos miden más de 90 grados pero menos de 180.",
+        "title": "Clasificación de ángulos",
+        "themes": [
+          "tipos de ángulos"
+        ],
+        "image_search_string": "tipos de ángulos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "En la vida real, podemos encontrar puntos, líneas y ángulos en todas partes: en el diseño de edificios, en la construcción de carreteras, y hasta en los patrones de las baldosas.",
+        "title": "Geometría en la vida real",
+        "themes": [
+          "aplicaciones reales de geometría"
+        ],
+        "image_search_string": "geometría en la vida real",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "El área es la cantidad de espacio dentro de una figura bidimensional. Por ejemplo, el área de un cuadrado se calcula multiplicando la longitud de un lado por sí misma.",
+        "title": "¿Qué es el área?",
+        "themes": [
+          "definición de área"
+        ],
+        "image_search_string": "cálculo de área",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El área de un triángulo se calcula utilizando la fórmula: Área = (base × altura) ÷ 2. Esta fórmula es fundamental para resolver problemas geométricos.",
+        "title": "Fórmula del área del triángulo",
+        "themes": [
+          "fórmula del área del triángulo"
+        ],
+        "image_search_string": "área del triángulo",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "El área de un círculo se encuentra usando la fórmula: Área = π × radio². Este cálculo es esencial en muchas aplicaciones prácticas.",
+        "title": "Fórmula del área del círculo",
+        "themes": [
+          "fórmula del área del círculo"
+        ],
+        "image_search_string": "área del círculo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El área de figuras compuestas puede calcularse dividiendo la figura en partes más simples y sumando sus áreas individuales.",
+        "title": "Área de figuras compuestas",
+        "themes": [
+          "cálculo de áreas compuestas"
+        ],
+        "image_search_string": "figuras compuestas área",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "El área superficial se refiere a la suma de todas las áreas de las superficies de un objeto tridimensional. Por ejemplo, para un cubo, sumaríamos el área de sus seis caras.",
+        "title": "Área superficial",
+        "themes": [
+          "definición de área superficial"
+        ],
+        "image_search_string": "área superficial",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El volumen es la cantidad de espacio dentro de un objeto tridimensional. Por ejemplo, el volumen de un cubo se calcula como lado × lado × lado.",
+        "title": "¿Qué es el volumen?",
+        "themes": [
+          "definición de volumen"
+        ],
+        "image_search_string": "cálculo de volumen",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Resolver problemas de área, superficie y volumen ayuda a comprender cómo las formas geométricas se aplican en la ingeniería, la arquitectura y muchas otras disciplinas.",
+        "title": "Aplicaciones prácticas de la geometría",
+        "themes": [
+          "aplicaciones prácticas de geometría"
+        ],
+        "image_search_string": "aplicaciones de geometría",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Geometry Basics",
+    "generationLanguage": "es-ES"
+  }
+}

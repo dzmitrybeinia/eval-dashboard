@@ -1,0 +1,97 @@
+{
+  "request": {
+    "lesson_description": "Understanding Emotional Intelligence: Exploring self-awareness, self-regulation, empathy, and social skills.",
+    "exercises_ratio": 0.4,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ba910dbd",
+    "topicInEnglish": "Emotional Intelligence",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Comprendiendo la Inteligencia Emocional",
+    "slides": [
+      {
+        "content": "¡Bienvenidos! Hoy exploraremos el fascinante mundo de la inteligencia emocional. Descubriremos cómo comprender nuestras emociones y las de los demás puede ayudarnos a tener relaciones más saludables y exitosas. 🌟",
+        "title": "Introducción a la Inteligencia Emocional",
+        "themes": [
+          "introducción a la inteligencia emocional"
+        ],
+        "image_search_string": "inteligencia emocional",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La inteligencia emocional (IE) es la capacidad de entender y manejar nuestras propias emociones, así como de reconocer e influir en las emociones de los demás. Es una habilidad clave para el éxito personal y social.",
+        "title": "¿Qué es la inteligencia emocional?",
+        "themes": [
+          "definición de inteligencia emocional"
+        ],
+        "image_search_string": "concepto de inteligencia emocional",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "La autoconciencia es la capacidad de reconocer y comprender nuestras propias emociones. Esto incluye entender cómo nuestras emociones afectan nuestras acciones y cómo somos percibidos por los demás. Practicar la reflexión personal es clave para desarrollar esta habilidad.",
+        "title": "La importancia de la autoconciencia",
+        "themes": [
+          "importancia de la autoconciencia"
+        ],
+        "image_search_string": "reflexión personal emociones",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La autorregulación implica controlar nuestras emociones para responder de manera apropiada a las situaciones. Esto incluye habilidades como la paciencia, el manejo del estrés y la adaptabilidad. Una persona con buena autorregulación puede mantener la calma y tomar decisiones racionales, incluso en situaciones difíciles.",
+        "title": "La habilidad de la autorregulación",
+        "themes": [
+          "control emocional",
+          "manejo del estrés"
+        ],
+        "image_search_string": "control emocional",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La empatía es la capacidad de entender y sentir lo que otros están experimentando. Nos ayuda a conectar con los demás, mostrando comprensión y apoyo. Practicar la escucha activa y ponerse en el lugar de los demás son formas de desarrollar la empatía.",
+        "title": "Desarrollando empatía",
+        "themes": [
+          "desarrollo de la empatía"
+        ],
+        "image_search_string": "empatía y comprensión",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las habilidades sociales son esenciales para construir y mantener relaciones saludables. Estas incluyen la comunicación efectiva, la colaboración y la resolución de conflictos. Desarrollar estas habilidades contribuye a un entorno positivo y colaborativo.",
+        "title": "Fomentando habilidades sociales",
+        "themes": [
+          "habilidades sociales",
+          "relaciones saludables"
+        ],
+        "image_search_string": "habilidades sociales comunicación",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Emotional Intelligence",
+    "generationLanguage": "es-ES"
+  }
+}

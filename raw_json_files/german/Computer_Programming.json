@@ -1,0 +1,162 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Python programming: Understanding variables, data types, and basic input/output operations.",
+    "exercises_ratio": 0.6,
+    "grade_level": "8th grade",
+    "estimated_length": 30,
+    "learning_standard": "CSTA K-12 Computer Science Standards: 2-AP-10 - Create programs that use variables to store and modify data.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "a9319636",
+    "topicInEnglish": "Computer Programming",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Einführung in die Python-Programmierung",
+    "slides": [
+      {
+        "content": "Willkommen zur Einführung in die Python-Programmierung! Heute lernen wir, wie wir Variablen verwenden, verschiedene Datentypen erkennen und grundlegende Ein-/Ausgabe-Operationen durchführen können. 🚀",
+        "title": "Willkommen zur Python-Programmierung!",
+        "themes": [
+          "Einführung in Python"
+        ],
+        "image_search_string": "Python programming introduction",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Python ist eine der beliebtesten Programmiersprachen der Welt. Sie wird oft für Webentwicklung, Datenanalyse, künstliche Intelligenz und vieles mehr verwendet. Python ist bekannt für seine einfache Syntax, die es besonders für Anfänger geeignet macht.",
+        "title": "Was ist Python?",
+        "themes": [
+          "Definition von Python"
+        ],
+        "image_search_string": "Python programming logo",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Eine Variable ist ein benannter Speicherplatz in einem Computerprogramm, der Daten speichert. In Python können wir mit dem Gleichheitszeichen (`=`) einer Variablen einen Wert zuweisen. Beispiel:\n```python\nx = 5\ny = \"Hallo\"\nprint(x)\nprint(y)\n```",
+        "title": "Was ist eine Variable?",
+        "themes": [
+          "Definition von Variablen"
+        ],
+        "image_search_string": "Python variable example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Python unterstützt verschiedene Datentypen, darunter:\n- **Integer**: Ganze Zahlen (z. B. 5, -3)\n- **Float**: Dezimalzahlen (z. B. 3.14, -0.01)\n- **String**: Zeichenketten (z. B. \"Hallo Welt\")\n- **Boolean**: Wahrheitswerte (True, False)",
+        "title": "Datentypen in Python",
+        "themes": [
+          "Datentypen in Python"
+        ],
+        "image_search_string": "Python data types",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Funktion `input()` ermöglicht es uns, Benutzereingaben in Python zu erhalten. Beispiel:\n```python\nname = input(\"Wie heißt du?\")\nprint(\"Hallo, \" + name + \"!\")\n```",
+        "title": "Einführung in die Eingabefunktion",
+        "themes": [
+          "Benutzereingabe in Python"
+        ],
+        "image_search_string": "Python input function",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Wir können mit der Funktion `print()` Ausgaben auf dem Bildschirm anzeigen. Zum Beispiel:\n```python\nprint(\"Willkommen in Python!\")\n```",
+        "title": "Grundlegende Ausgabe mit `print()`",
+        "themes": [
+          "Ausgabe in Python"
+        ],
+        "image_search_string": "Python print function",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Wir können Variablen miteinander kombinieren, um komplexere Ausgaben zu erzeugen. Beispiel:\n```python\nname = \"Anna\"\nalter = 14\nprint(name + \" ist \" + str(alter) + \" Jahre alt.\")\n```",
+        "title": "Kombinieren von Variablen",
+        "themes": [
+          "Variablen kombinieren"
+        ],
+        "image_search_string": "Python combine variables",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Python unterstützt mathematische Operationen wie Addition (`+`), Subtraktion (`-`), Multiplikation (`*`) und Division (`/`). Beispiel:\n```python\na = 10\nb = 2\nprint(a + b)\nprint(a * b)\n```",
+        "title": "Mathematische Operationen in Python",
+        "themes": [
+          "Mathematische Operatoren in Python"
+        ],
+        "image_search_string": "Python math operations",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "In Python können wir Werte von einem Datentyp in einen anderen umwandeln. Beispiel:\n```python\nx = 5\nx_string = str(x)\nx_float = float(x)\n```",
+        "title": "Datentypumwandlung in Python",
+        "themes": [
+          "Datentypumwandlung"
+        ],
+        "image_search_string": "Python type conversion",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Python verwendet Einrückungen, um den Code zu strukturieren. Zum Beispiel:\n```python\nif True:\n    print(\"Das ist wahr\")\n```",
+        "title": "Einrückungen in Python",
+        "themes": [
+          "Einrückung in Python"
+        ],
+        "image_search_string": "Python indentation example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Fehler sind ein normaler Teil der Programmierung. Ein häufiger Fehler ist z. B. ein Syntaxfehler, der auftritt, wenn der Code nicht korrekt geschrieben ist.",
+        "title": "Fehler in Python",
+        "themes": [
+          "Fehlerbehandlung"
+        ],
+        "image_search_string": "Python error example",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Jetzt bist du bereit, deine eigenen Programme zu schreiben! Probiere aus, was du gelernt hast, und experimentiere mit Python.",
+        "title": "Los geht's mit Python!",
+        "themes": [
+          "Python programmieren"
+        ],
+        "image_search_string": "Python coding beginner",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Computer Programming",
+    "generationLanguage": "de-DE"
+  }
+}

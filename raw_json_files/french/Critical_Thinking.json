@@ -1,0 +1,119 @@
+{
+  "request": {
+    "lesson_description": "Developing critical thinking skills: Identifying assumptions, evaluating evidence, and forming logical conclusions.",
+    "exercises_ratio": 0.6,
+    "grade_level": "9th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6d3a7c21",
+    "topicInEnglish": "Critical Thinking",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Développer les compétences de pensée critique",
+    "slides": [
+      {
+        "content": "Nous allons explorer comment identifier des suppositions, évaluer des preuves et tirer des conclusions logiques. Ces compétences sont essentielles pour analyser des informations de manière réfléchie et prendre des décisions éclairées. 🌟",
+        "title": "Introduction à la pensée critique",
+        "themes": [
+          "Introduction à la pensée critique"
+        ],
+        "image_search_string": "critical thinking concept",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Une supposition est une croyance ou une idée que nous tenons pour acquise, souvent sans preuve. Par exemple, si quelqu'un dit que tous les chiens aiment les os, il fait une supposition.",
+        "title": "Qu'est-ce qu'une supposition ?",
+        "themes": [
+          "Définition de suppositions"
+        ],
+        "image_search_string": "assumptions concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour identifier des suppositions :\n- Posez-vous des questions comme : \"Sur quoi cette affirmation est-elle basée ?\"\n- Recherchez des mots ou des phrases qui impliquent une généralisation ou une croyance implicite.\n- Remettez en question les idées qui semblent évidentes.",
+        "title": "Identifier les suppositions",
+        "themes": [
+          "Identifier des suppositions"
+        ],
+        "image_search_string": "identifying assumptions",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les preuves peuvent être des faits, des statistiques, des témoignages ou des exemples. Elles sont utilisées pour appuyer ou réfuter une affirmation. Par exemple, une étude scientifique peut fournir des preuves pour prouver qu'un médicament est efficace.",
+        "title": "Qu'est-ce que des preuves ?",
+        "themes": [
+          "Définition de preuves"
+        ],
+        "image_search_string": "evidence examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour évaluer des preuves :\n- Vérifiez leur source : Est-elle fiable et impartiale ?\n- Analysez leur pertinence : Les preuves sont-elles en lien direct avec l'affirmation ?\n- Examinez leur suffisance : Y a-t-il assez de preuves pour soutenir l'affirmation ?",
+        "title": "Évaluer des preuves",
+        "themes": [
+          "Évaluer des preuves"
+        ],
+        "image_search_string": "evaluating evidence",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Une conclusion logique est un jugement basé sur des preuves et des raisonnements solides. Par exemple, si toutes les pommes dans un sac sont rouges et que l'on tire une pomme au hasard, il est logique de conclure qu'elle sera rouge.",
+        "title": "Tirer des conclusions logiques",
+        "themes": [
+          "Conclusions logiques"
+        ],
+        "image_search_string": "logical conclusions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Pour former une conclusion logique :\n1. Identifiez les preuves disponibles.\n2. Analysez ces preuves pour détecter des schémas ou des relations.\n3. Évitez les biais émotionnels ou les hypothèses non prouvées.\n4. Formulez une conclusion basée uniquement sur les faits.",
+        "title": "Comment tirer une conclusion logique",
+        "themes": [
+          "Processus de conclusion logique"
+        ],
+        "image_search_string": "drawing logical conclusions",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La pensée critique est une compétence que l'on peut développer avec de la pratique. Identifiez les suppositions, évaluez les preuves avec soin et formez des conclusions logiques pour devenir un penseur critique efficace.",
+        "title": "Résumé et pratique",
+        "themes": [
+          "Résumé de la pensée critique"
+        ],
+        "image_search_string": "critical thinking skills",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Critical Thinking",
+    "generationLanguage": "fr-FR"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "request": {
+    "lesson_description": "Understanding the difference between fiction and nonfiction, exploring key characteristics and examples of each.",
+    "exercises_ratio": 0.4,
+    "grade_level": "4th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "Include real-world examples of fiction (e.g., novels, short stories) and nonfiction (e.g., biographies, news articles), and emphasize the purpose and audience of each type.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "4c6f508b",
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Unterschied zwischen Fiktion und Sachtexten",
+    "slides": [
+      {
+        "content": "Willkommen zu unserer spannenden Reise in die Welt der Fiktion und Sachtexte! Heute werden wir die Unterschiede zwischen diesen beiden Textarten erkunden und herausfinden, was sie besonders macht. 📚",
+        "title": "Willkommen zur Entdeckung von Fiktion und Sachtexten!",
+        "themes": [
+          "Einführung in Fiktion und Sachtexte"
+        ],
+        "image_search_string": "fiction and nonfiction books",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Fiktionale Texte sind erfundene Geschichten, die oft aus der Fantasie des Autors stammen. Sie können Romane, Kurzgeschichten, Märchen oder Theaterstücke sein. Ziel ist es, den Leser zu unterhalten oder ihn in eine andere Welt zu entführen.",
+        "title": "Was ist Fiktion?",
+        "themes": [
+          "Definition von Fiktion"
+        ],
+        "image_search_string": "fictional stories",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Sachtexte sind Texte, die auf Fakten basieren und dazu dienen, den Leser zu informieren oder Wissen zu vermitteln. Beispiele sind Biografien, Zeitungsartikel, Lehrbücher und wissenschaftliche Berichte.",
+        "title": "Was ist ein Sachtext?",
+        "themes": [
+          "Definition von Sachtexten"
+        ],
+        "image_search_string": "nonfiction books",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ein Hauptunterschied ist der Zweck: Fiktion zielt auf Unterhaltung und Fantasie ab, während Sachtexte auf Information und Fakten setzen. Zudem sind fiktionale Texte oft kreativ geschrieben, während Sachtexte klar und direkt formuliert sind.",
+        "title": "Der Zweck von Fiktion und Sachtexten",
+        "themes": [
+          "Zweck von Texttypen"
+        ],
+        "image_search_string": "fiction vs nonfiction purpose",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Fiktionale Texte haben oft eine Handlung, Charaktere und eine spezifische Erzählperspektive. Sachtexte hingegen folgen einer logischen Struktur und enthalten oft Überschriften, Diagramme oder Tabellen, um Informationen klar zu präsentieren.",
+        "title": "Struktur von Fiktion und Sachtexten",
+        "themes": [
+          "Struktur von Texttypen"
+        ],
+        "image_search_string": "text structure comparison",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Beispiele für Fiktion sind: • Der kleine Prinz • Harry Potter • Grimms Märchen Beispiele für Sachtexte sind: • Ein Artikel über die Tierwelt • Ein Biografie über Albert Einstein • Ein wissenschaftlicher Bericht über Pflanzen",
+        "title": "Beispiele für Fiktion und Sachtexte",
+        "themes": [
+          "Beispiele für Texttypen"
+        ],
+        "image_search_string": "fiction and nonfiction examples",
+        "question_types": [
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Fiktion richtet sich oft an ein breites Publikum, das nach Unterhaltung sucht. Sachtexte hingegen sprechen oft spezifische Leser an, die Informationen zu einem bestimmten Thema suchen.",
+        "title": "Zielgruppen von Fiktion und Sachtexten",
+        "themes": [
+          "Zielgruppen von Texttypen"
+        ],
+        "image_search_string": "fiction and nonfiction audience",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Ein Roman wie „Harry Potter“ ist ein Beispiel für Fiktion, da er eine erfundene Geschichte erzählt. Ein Buch über die Geschichte Europas ist ein Sachtext, da es reale Ereignisse und Fakten beschreibt.",
+        "title": "Vergleich von Fiktion und Sachtext durch Beispiele",
+        "themes": [
+          "Beispiele zur Unterscheidung"
+        ],
+        "image_search_string": "fiction versus nonfiction examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Manchmal ist es schwierig, Fiktion und Sachtext zu unterscheiden, besonders wenn ein Sachtext Geschichten enthält oder ein fiktionales Werk reale Ereignisse integriert. Es hilft, auf den Zweck und die Struktur zu achten.",
+        "title": "Herausforderungen bei der Unterscheidung",
+        "themes": [
+          "Unterscheidung zwischen Texttypen"
+        ],
+        "image_search_string": "fiction nonfiction confusion",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Man kann Fiktion und Sachtexte in vielen Bereichen finden: • Fiktion: Romane, Filme, Theaterstücke • Sachtexte: Nachrichten, Dokumentationen, Lexika",
+        "title": "Wo findet man Fiktion und Sachtexte?",
+        "themes": [
+          "Anwendungsbereiche von Texttypen"
+        ],
+        "image_search_string": "locations of fiction nonfiction",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Wahl zwischen Fiktion und Sachtext hängt davon ab, was man sucht: Unterhaltung oder Information. Beides kann jedoch inspirieren und unser Wissen erweitern.",
+        "title": "Warum beide wichtig sind",
+        "themes": [
+          "Bedeutung beider Texttypen"
+        ],
+        "image_search_string": "importance of fiction nonfiction",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Nun weißt du, wie sich Fiktion und Sachtexte unterscheiden und was sie ausmacht. Schau dir doch einmal Bücher oder Artikel an und überlege, ob sie Fiktion oder Sachtexte sind!",
+        "title": "Abschluss: Deine nächste Entdeckung",
+        "themes": [
+          "Abschluss und Reflexion"
+        ],
+        "image_search_string": "fiction nonfiction books",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "de-DE"
+  }
+}

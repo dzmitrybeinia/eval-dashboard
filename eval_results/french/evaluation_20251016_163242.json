@@ -1,0 +1,80 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Une **ligne** est une suite infinie de points alignés dans une direction.",
+      "correction": "Une **ligne** est une suite infinie de points alignés selon une direction.",
+      "description": "The phrase 'dans une direction' is less idiomatic in French when describing alignment. 'Selon une direction' is the standard collocation for expressing that points are aligned along a direction, improving grammatical and lexical precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "les segments (une partie de ligne limitée par deux points), et les rayons (une ligne qui s'étend dans une seule direction à partir d'un point)",
+      "correction": "les segments (une portion de ligne délimitée par deux points), et les rayons (une demi-droite qui s'étend dans une seule direction à partir d'un point)",
+      "description": "The term 'une partie de ligne limitée par deux points' is less precise than 'une portion de ligne délimitée par deux points', which is the standard terminology in French geometry. Additionally, 'une ligne qui s'étend dans une seule direction à partir d'un point' should be 'une demi-droite', the accepted mathematical term in French. These corrections ensure the use of accurate and locally accepted terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imaginez une feuille de papier infiniment grande.",
+      "correction": "Imaginez une feuille de papier d'une taille infinie.",
+      "description": "The phrase 'infiniment grande' is somewhat informal and less precise in educational French. 'D'une taille infinie' is more natural and appropriate for academic contexts, improving the clarity and professionalism of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les angles sont mesurés en degrés (°).",
+      "correction": "Les angles se mesurent en degrés (°).",
+      "description": "In French mathematical language, 'se mesurent' is preferred over 'sont mesurés' for describing how angles are measured. This correction aligns with standard terminology and natural usage in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Appliquons maintenant ces concepts dans le monde réel !",
+      "correction": "Voyons maintenant comment ces concepts s'appliquent dans le monde réel.",
+      "description": "The imperative 'Appliquons maintenant' is less common in French educational texts, which typically use a more neutral or inclusive style. 'Voyons maintenant comment ces concepts s'appliquent' is more natural and appropriate for instructional content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:42.891194",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 6
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prêts à commencer ? ✨",
+      "correction": "Prêts à commencer ?",
+      "description": "The use of the sparkle emoji (✨) is not standard in formal French educational content and may be perceived as informal or distracting in academic contexts. Removing the emoji ensures the tone remains professional and appropriate for an educational setting.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

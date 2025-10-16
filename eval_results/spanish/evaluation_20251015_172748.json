@@ -1,0 +1,121 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Divide grandes proyectos en pequeñas tareas y asigna tiempo específico para cada una.",
+      "correction": "Divide los grandes proyectos en tareas pequeñas y asigna un tiempo específico para cada una.",
+      "description": "The phrase 'grandes proyectos en pequeñas tareas' lacks the definite article, which is required for clarity and naturalness in Spanish. Also, 'tiempo específico' should be preceded by 'un' to indicate a specific amount of time for each task. These changes improve grammatical accuracy and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Usa abreviaturas, resalta puntos importantes y organiza tus notas de manera clara.",
+      "correction": "Utiliza abreviaturas, resalta los puntos importantes y organiza tus notas de manera clara.",
+      "description": "The verb 'usa' is correct but 'utiliza' is more formal and preferred in educational contexts in Spain. Additionally, 'resalta puntos importantes' should include the definite article 'los' for grammatical completeness. These changes enhance both linguistic accuracy and register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Divide tu página en tres secciones: notas principales, palabras clave y un resumen.",
+      "correction": "Divide la hoja en tres secciones: notas principales, palabras clave y un resumen.",
+      "description": "The term 'página' is less precise than 'hoja' when referring to note-taking in Spain, as 'hoja' is the standard term for a sheet of paper in educational contexts. This change improves terminology consistency and aligns with local usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Prioriza tus tareas según su importancia y urgencia.",
+      "correction": "Prioriza tus tareas según la importancia y la urgencia.",
+      "description": "The phrase 'según su importancia y urgencia' should use definite articles 'la' and 'la' to specify the qualities being considered. This correction improves grammatical accuracy and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "El ambiente de estudio también es importante.",
+      "correction": "El entorno de estudio también es importante.",
+      "description": "In Spain, 'entorno de estudio' is more commonly used than 'ambiente de estudio' when referring to the study environment. This change improves naturalness and aligns with local educational terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Establecer metas claras te ayuda a mantenerte enfocado.",
+      "correction": "Establecer metas claras te ayuda a mantenerte enfocado/a.",
+      "description": "The phrase 'mantenerte enfocado' is masculine and may not be inclusive for all students. In educational materials in Spain, it is common to use 'enfocado/a' to address both genders, ensuring inclusivity and grammatical correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dedica tiempo después de cada clase para repasar lo aprendido y aclarar dudas.",
+      "correction": "Dedica tiempo después de cada clase a repasar lo aprendido y aclarar dudas.",
+      "description": "The preposition 'para' should be replaced with 'a' after 'dedicar tiempo' when indicating the activity to which time is devoted. This correction improves grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Trabajar en equipo puede ser beneficioso.",
+      "correction": "El trabajo en equipo puede ser beneficioso.",
+      "description": "In Spanish educational contexts, 'el trabajo en equipo' is preferred over 'trabajar en equipo' when introducing the concept. This change improves style and aligns with local conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Recuerda que las habilidades de estudio efectivas requieren práctica.",
+      "correction": "Recuerda que para que las habilidades de estudio sean efectivas requieren práctica.",
+      "description": "The original sentence is grammatically correct, but adding 'para que las habilidades de estudio sean efectivas' clarifies the conditional relationship and improves the logical flow. This is a stylistic improvement for clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:27:48.512951",
+    "model": "gpt-4.1",
+    "label": "v12",
+    "false_positives_filtered": 2,
+    "original_issue_count": 11
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 9,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy aprenderemos sobre cómo mejorar nuestras habilidades de estudio para ser más organizados, manejar mejor nuestro tiempo y tomar apuntes efectivos. Estas habilidades no solo nos ayudarán en el aula, sino también en nuestra vida diaria. 🌟",
+      "correction": "¡Bienvenidos! Hoy aprenderemos cómo mejorar nuestras habilidades de estudio para ser más organizados, gestionar mejor nuestro tiempo y tomar apuntes efectivos. Estas habilidades no solo nos ayudarán en el aula, sino también en nuestra vida diaria.",
+      "description": "The use of 'manejar mejor nuestro tiempo' is less natural in Peninsular Spanish; 'gestionar mejor nuestro tiempo' is preferred for educational contexts in Spain. Additionally, the emoji 🌟, while not incorrect, may be considered informal for some educational materials in Spain. Removing it increases professionalism and aligns with standard Spanish educational style.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Evita las distracciones mientras estudias.",
+      "correction": "Evita las distracciones mientras estudias.",
+      "description": "No linguistic or localization issues found. The sentence is correct and natural for Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

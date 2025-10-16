@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le noyau est comme le \"centre de commande\" de la cellule.",
+      "correction": "Le noyau est le centre de contrôle de la cellule.",
+      "description": "The phrase \"centre de commande\" is a literal translation of 'command center' and is not the most natural or standard term in French scientific context. 'Centre de contrôle' is more commonly used to describe the nucleus's function in French biology education.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Le réticulum endoplasmique (RE) existe en deux formes :",
+      "correction": "Le réticulum endoplasmique (RE) existe sous deux formes :",
+      "description": "The preposition 'en' is less precise in this context. 'Sous deux formes' is the standard expression in French scientific writing when describing the forms in which something exists.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "RE rugueux : couvert de ribosomes, il aide à la synthèse des protéines.",
+      "correction": "RE rugueux : couvert de ribosomes, il participe à la synthèse des protéines.",
+      "description": "The verb 'aide à' is less formal and less precise in scientific French. 'Participe à la synthèse des protéines' is the preferred terminology in educational and scientific contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "RE lisse : sans ribosomes, il participe à la synthèse des lipides et à la détoxification des substances nocives.",
+      "correction": "RE lisse : dépourvu de ribosomes, il participe à la synthèse des lipides et à la détoxification des substances nocives.",
+      "description": "The term 'sans ribosomes' is understandable but 'dépourvu de ribosomes' is more formal and commonly used in French scientific literature.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:31:15.515495",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 6
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans cette leçon fascinante sur les organites cellulaires ! Nous allons explorer les différentes parties d'une cellule et leur rôle dans le maintien de la vie. Préparez-vous à découvrir le monde microscopique qui rend la vie possible 🌱🧬.",
+      "correction": "Bienvenue dans cette leçon fascinante sur les organites cellulaires ! Nous allons explorer les différentes parties d'une cellule et leur rôle dans le maintien de la vie. Préparez-vous à découvrir le monde microscopique qui rend la vie possible.",
+      "description": "The use of emoji characters (🌱🧬) in educational French content is generally considered informal and may not be appropriate for all audiences, especially in formal or academic contexts. Removing emojis ensures a more professional and culturally neutral tone. Additionally, the non-breaking space before the exclamation mark is unnecessary in French; a regular space should be used for proper punctuation.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Les cellules peuvent être classées en deux types principaux : les cellules procaryotes et les cellules eucaryotes.",
+      "correction": "Les cellules peuvent être classées en deux types principaux : les cellules procaryotes et les cellules eucaryotes.",
+      "description": "No linguistic errors found. The sentence is grammatically correct and uses proper punctuation and terminology.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

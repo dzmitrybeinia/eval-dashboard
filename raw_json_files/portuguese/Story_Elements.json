@@ -1,0 +1,115 @@
+{
+  "request": {
+    "lesson_description": "Understanding story elements: Plot, characters, setting, theme, and conflict.",
+    "exercises_ratio": 0.3,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "Include real-world examples of popular stories to illustrate each element and focus on how these elements interact to create compelling narratives.",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "229d6a0f",
+    "topicInEnglish": "Story Elements",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Understanding Story Elements: Plot, Characters, Setting, Theme, and Conflict",
+    "slides": [
+      {
+        "content": "Bem-vindos! Hoje vamos explorar os elementos que tornam uma história cativante e memorável. Prepare-se para mergulhar no mundo do enredo, personagens, cenário, tema e conflito! 📚✨",
+        "title": "Introdução aos Elementos da História",
+        "themes": [
+          "introdução aos elementos da história"
+        ],
+        "image_search_string": "book and storytelling",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "O enredo é a sequência de eventos que ocorrem em uma história. Ele geralmente segue uma estrutura com início, meio e fim. Pense na história de 'Chapeuzinho Vermelho': o início apresenta a menina e sua missão, o meio mostra os desafios com o lobo, e o fim resolve o conflito.",
+        "title": "O Que é o Enredo?",
+        "themes": [
+          "definição de enredo",
+          "estrutura de histórias"
+        ],
+        "image_search_string": "story plot diagram",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Os personagens são os indivíduos que vivenciam os eventos da história. Eles podem ser principais ou secundários. Por exemplo, em 'O Pequeno Príncipe', o príncipe é o protagonista, e os outros personagens enriquecem sua jornada.",
+        "title": "Quem São os Personagens?",
+        "themes": [
+          "papel dos personagens",
+          "protagonistas e coadjuvantes"
+        ],
+        "image_search_string": "story characters",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O cenário é onde e quando a história acontece. Ele pode ser real ou fictício. Por exemplo, a história de 'Harry Potter' se passa na escola mágica de Hogwarts, um cenário fictício que é essencial para a narrativa.",
+        "title": "A Importância do Cenário",
+        "themes": [
+          "papel do cenário",
+          "localização e temporalidade"
+        ],
+        "image_search_string": "story setting",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "O tema é a mensagem central ou a ideia principal que o autor deseja transmitir. Em 'O Rei Leão', o tema gira em torno de responsabilidade e autodescoberta.",
+        "title": "Desvendando o Tema",
+        "themes": [
+          "identificação do tema",
+          "mensagem central"
+        ],
+        "image_search_string": "story theme",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "O conflito é o desafio ou problema que os personagens enfrentam. Ele pode ser interno, como em 'Hamlet', onde o personagem principal luta com suas dúvidas, ou externo, como em 'Os Três Porquinhos', onde os porcos enfrentam o lobo.",
+        "title": "O Papel do Conflito",
+        "themes": [
+          "tipos de conflitos",
+          "desafios na narrativa"
+        ],
+        "image_search_string": "story conflict",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Todos esses elementos interagem para formar uma narrativa envolvente. Por exemplo, em 'A Bela e a Fera', o cenário do castelo, os personagens encantados, o conflito entre a fera e seu passado, e o tema do amor verdadeiro se unem para criar uma história inesquecível.",
+        "title": "Como os Elementos se Conectam?",
+        "themes": [
+          "interação dos elementos",
+          "exemplos de histórias"
+        ],
+        "image_search_string": "story elements connection",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Story Elements",
+    "generationLanguage": "pt-PT"
+  }
+}

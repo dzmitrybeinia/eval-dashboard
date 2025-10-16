@@ -1,0 +1,100 @@
+{
+  "request": {
+    "lesson_description": "Exploring different music genres: Understanding characteristics, cultural roots, and evolution of genres such as classical, jazz, rock, pop, and hip-hop.",
+    "exercises_ratio": 0.7,
+    "grade_level": "8th grade",
+    "estimated_length": 10,
+    "learning_standard": "National Core Arts Standards - MU:Re7.1.8: Analyze how the elements of music are used in diverse genres and styles.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "670adf6e",
+    "topicInEnglish": "Music Genres",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Musikgenres: Merkmale, kulturelle Wurzeln und Entwicklung",
+    "slides": [
+      {
+        "content": "Musik begleitet uns überall und hat viele verschiedene Formen und Stile. Von der klassischen Musik über Jazz bis hin zu Rock, Pop und Hip-Hop – jede Musikrichtung hat ihre eigenen Merkmale und erzählt ihre eigene Geschichte. Heute tauchen wir in diese faszinierende Welt der Musikgenres ein! 🎵",
+        "title": "Einführung in die Welt der Musikgenres",
+        "themes": [
+          "Einführung in Musikgenres"
+        ],
+        "image_search_string": "diverse music genres",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Die Klassik ist bekannt für ihre komplexen Kompositionen und die Verwendung von Orchesterinstrumenten wie Geige, Klavier und Flöte. Sie entwickelte sich zwischen dem 17. und 19. Jahrhundert in Europa und ist eng mit Komponisten wie Mozart, Beethoven und Bach verbunden. Klassische Musik legt großen Wert auf Melodie, Harmonie und Struktur.",
+        "title": "Die klassische Musik",
+        "themes": [
+          "Merkmale der klassischen Musik",
+          "Geschichte der Klassik"
+        ],
+        "image_search_string": "classical music instruments",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Jazz entstand Anfang des 20. Jahrhunderts in den USA und ist geprägt von Improvisation und Rhythmik. Typische Instrumente sind Saxophon, Trompete und Klavier. Jazz hat seine Wurzeln in der afroamerikanischen Kultur und verbindet Elemente aus Blues, Ragtime und Spirituals.",
+        "title": "Jazz: Die Kunst der Improvisation",
+        "themes": [
+          "Merkmale des Jazz",
+          "Ursprung des Jazz"
+        ],
+        "image_search_string": "jazz band instruments",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Rockmusik entwickelte sich in den 1950er Jahren aus dem Rock 'n' Roll und ist bekannt für ihre elektrischen Gitarren und starken Beats. Sie ist eng mit Jugendkultur und Rebellion verbunden. Bands wie die Beatles und die Rolling Stones prägten den Rock und machten ihn weltweit populär.",
+        "title": "Die Entstehung des Rock",
+        "themes": [
+          "Entwicklung der Rockmusik",
+          "Einfluss der Rockbands"
+        ],
+        "image_search_string": "rock music band",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Popmusik ist ein Genre, das durch eingängige Melodien, einfache Texte und breite Massenansprache definiert wird. Sie entwickelte sich aus verschiedenen Musikstilen und hat sich seit den 1950er Jahren stark verändert. Künstler wie Michael Jackson und Madonna sind Ikonen der Popmusik.",
+        "title": "Popmusik: Musik für die Massen",
+        "themes": [
+          "Merkmale der Popmusik",
+          "Entwicklung der Popmusik"
+        ],
+        "image_search_string": "pop music concert",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Hip-Hop ist ein kulturelles Phänomen, das in den 1970er Jahren in den USA entstand und Musik, Tanz und Kunst umfasst. Es ist bekannt für Raptexte, Beats und DJ-Techniken. Hip-Hop spiegelt oft soziale Themen und das Leben in urbanen Gemeinschaften wider.",
+        "title": "Hip-Hop: Mehr als nur Musik",
+        "themes": [
+          "Elemente des Hip-Hop",
+          "Kulturelle Bedeutung von Hip-Hop"
+        ],
+        "image_search_string": "hip hop culture",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Music Genres",
+    "generationLanguage": "de-DE"
+  }
+}

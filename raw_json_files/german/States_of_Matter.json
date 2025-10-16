@@ -1,0 +1,137 @@
+{
+  "request": {
+    "lesson_description": "Understanding the states of matter: Solids, liquids, gases, and plasma. Exploring their properties and transitions through phase changes.",
+    "exercises_ratio": 0.4,
+    "grade_level": "8th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ebef20b7",
+    "topicInEnglish": "States of Matter",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "States of Matter and Phase Changes",
+    "slides": [
+      {
+        "content": "Willkommen in der faszinierenden Welt der Materie! Heute werden wir die verschiedenen Zustände der Materie kennenlernen: Feststoffe, Flüssigkeiten, Gase und Plasma. 🌟",
+        "title": "Einführung in die Zustände der Materie",
+        "themes": [
+          "Einführung in Materiezustände"
+        ],
+        "image_search_string": "states of matter",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Materie existiert in vier Hauptzuständen: fest, flüssig, gasförmig und als Plasma. \n\n1. **Feststoffe**: Haben eine feste Form und ein festes Volumen. Die Moleküle sind dicht gepackt und bewegen sich kaum.\n2. **Flüssigkeiten**: Haben ein festes Volumen, aber keine feste Form. Sie nehmen die Form ihres Behälters an.\n3. **Gase**: Haben weder feste Form noch festes Volumen. Sie füllen den gesamten Raum aus, in dem sie sich befinden.\n4. **Plasma**: Ein ionisierter Zustand der Materie, oft bei hohen Temperaturen, wie in Sternen.",
+        "title": "Die vier Zustände der Materie",
+        "themes": [
+          "Hauptzustände der Materie",
+          "Eigenschaften von Materiezuständen"
+        ],
+        "image_search_string": "four states of matter",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Ein festes Material wie ein Eiswürfel behält seine Form, da die Moleküle fest angeordnet sind. Flüssigkeiten wie Wasser passen sich der Form ihres Behälters an, da ihre Moleküle beweglicher sind. Gase wie Luft verteilen sich gleichmäßig in einem Raum, da ihre Moleküle sehr weit voneinander entfernt sind und sich schnell bewegen.",
+        "title": "Eigenschaften von Feststoffen, Flüssigkeiten und Gasen",
+        "themes": [
+          "Eigenschaften der Materiezustände"
+        ],
+        "image_search_string": "solids liquids gases",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Plasma ist ein besonderer Zustand der Materie, der bei extrem hohen Temperaturen entsteht. Es besteht aus freien Elektronen und Ionen. Beispiele für Plasma sind Blitze, das Leuchten von Neonröhren und die Sonne.",
+        "title": "Was ist Plasma?",
+        "themes": [
+          "Definition von Plasma",
+          "Beispiele für Plasma"
+        ],
+        "image_search_string": "plasma state of matter",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Phasenänderungen sind Übergänge zwischen den Zuständen der Materie. Beispiele dafür sind:\n\n- **Schmelzen**: Fest zu Flüssig (z. B. Eis schmilzt zu Wasser).\n- **Gefrieren**: Flüssig zu Fest (z. B. Wasser gefriert zu Eis).\n- **Verdampfen**: Flüssig zu Gas (z. B. Wasser wird zu Dampf).\n- **Kondensieren**: Gas zu Flüssig (z. B. Dampf wird zu Wasser).\n- **Sublimieren**: Fest zu Gas (z. B. Trockeneis wird zu CO2-Gas).\n- **Deposition**: Gas zu Fest (z. B. Frostbildung).",
+        "title": "Phasenänderungen der Materie",
+        "themes": [
+          "Phasenänderungen",
+          "Übergänge zwischen Materiezuständen"
+        ],
+        "image_search_string": "phase changes",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Temperatur spielt eine entscheidende Rolle bei Phasenänderungen. Zum Beispiel schmilzt Wasser bei 0°C und verdampft bei 100°C. Die Energie, die während dieser Prozesse hinzugefügt oder entfernt wird, nennt man latente Wärme.",
+        "title": "Temperatur und Phasenänderungen",
+        "themes": [
+          "Temperatur und Phasenübergänge",
+          "Latente Wärme"
+        ],
+        "image_search_string": "temperature phase change",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Phasenänderungen wie Schmelzen und Verdampfen erfordern Energiezufuhr, um die Bindungen zwischen Molekülen aufzubrechen. Gefrieren und Kondensieren geben Energie ab, da sich die Moleküle enger binden.",
+        "title": "Energie bei Phasenänderungen",
+        "themes": [
+          "Energie bei Phasenübergängen"
+        ],
+        "image_search_string": "energy in phase change",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Zustände der Materie können durch Druckveränderungen beeinflusst werden. Zum Beispiel kann Wasser bei höherem Druck bei einer Temperatur über 100°C flüssig bleiben. Umgekehrt kann Wasser bei niedrigem Druck bei einer Temperatur unter 0°C sieden.",
+        "title": "Einfluss von Druck auf Materiezustände",
+        "themes": [
+          "Druck und Materiezustände"
+        ],
+        "image_search_string": "pressure matter states",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Zusammenfassend: Materie existiert in vier Zuständen, die durch Temperatur und Druck verändert werden können. Phasenänderungen wie Schmelzen, Gefrieren und Verdampfen sind alltägliche Beispiele für diese Übergänge.",
+        "title": "Zusammenfassung der Zustände und Phasenänderungen",
+        "themes": [
+          "Zusammenfassung der Materiezustände",
+          "Zusammenfassung der Phasenübergänge"
+        ],
+        "image_search_string": "matter states summary",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "States of Matter",
+    "generationLanguage": "de-DE"
+  }
+}

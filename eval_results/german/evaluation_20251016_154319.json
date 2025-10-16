@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Denke daran, dass Übung den Meister macht!",
+      "correction": "Denke daran, dass Übung dich zum Meister macht!",
+      "description": "The original phrase uses the idiom 'Übung den Meister macht', which is a literal translation of the English 'practice makes perfect'. While this idiom exists in German, it is more natural and motivational in educational contexts to personalize the statement, e.g., 'Übung dich zum Meister macht', to directly address the learner. This improves engagement and aligns with contemporary German educational style, making the tone more encouraging and learner-focused.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:43:19.257936",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

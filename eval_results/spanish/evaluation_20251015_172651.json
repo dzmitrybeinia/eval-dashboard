@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "'Novena Sinfonía' de Beethoven",
+      "correction": "«Novena Sinfonía» de Beethoven",
+      "description": "In Spanish, the standard typographical convention for titles of works such as musical compositions is to use angle quotation marks (« ») instead of single quotation marks (' '). This improves orthographic correctness and aligns with Spanish publishing standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "'What a Wonderful World' de Armstrong",
+      "correction": "«What a Wonderful World» de Armstrong",
+      "description": "The use of single quotation marks for song titles is not standard in Spain. Angle quotation marks (« ») are preferred for titles of works, including songs, in formal and educational Spanish content. This change enhances localization quality and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "'Hey Jude' de The Beatles",
+      "correction": "«Hey Jude» de The Beatles",
+      "description": "Song titles should be enclosed in angle quotation marks (« ») according to Spanish typographical conventions. This adjustment ensures the content adheres to Spain's formatting standards for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "'California Love' de Tupac",
+      "correction": "«California Love» de Tupac",
+      "description": "Angle quotation marks (« ») are the correct format for song titles in Spanish from Spain. Replacing single quotation marks with angle quotation marks improves cultural appropriateness and professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "'Imagine' de John Lennon",
+      "correction": "«Imagine» de John Lennon",
+      "description": "Spanish typographical standards require angle quotation marks (« ») for titles of works, including songs. This correction ensures the content is properly localized for Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "'Rapper's Delight' de Sugarhill Gang",
+      "correction": "«Rapper's Delight» de Sugarhill Gang",
+      "description": "Song titles should use angle quotation marks (« ») in Spanish from Spain. This change aligns the content with local formatting conventions and enhances its professional quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:26:51.599816",
+    "model": "gpt-4.1",
+    "label": "v12"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

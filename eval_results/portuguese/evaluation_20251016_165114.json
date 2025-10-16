@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Evite compartilhar localização em tempo real.",
+      "correction": "Evite compartilhar a localização em tempo real.",
+      "description": "The definite article 'a' is required before 'localização' to ensure proper grammatical structure and clarity in Brazilian Portuguese. Omitting the article makes the sentence less natural and can affect comprehension. No localization issues are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Use senhas fortes com combinações de letras, números e símbolos.",
+      "correction": "Use senhas fortes, combinando letras maiúsculas, minúsculas, números e símbolos.",
+      "description": "The original advice is correct but lacks specificity commonly found in Brazilian cybersecurity recommendations. Specifying the use of uppercase and lowercase letters aligns better with local best practices and increases clarity for learners. No linguistic errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Não clique em anúncios pop-up.",
+      "correction": "Evite clicar em anúncios pop-up.",
+      "description": "The imperative 'Não clique' is direct but may be perceived as abrupt in educational contexts. Using 'Evite clicar' provides a softer, more instructive tone, which is culturally preferred in Brazilian educational materials. No linguistic errors are present.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:14.648014",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "request": {
+    "lesson_description": "Effective study skills: time management, note-taking techniques, and active reading strategies.",
+    "exercises_ratio": 0.6,
+    "grade_level": "9th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ffea6fcd",
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Habilidades de Estudo Eficazes",
+    "slides": [
+      {
+        "content": "Estudar pode ser desafiador, mas com as habilidades certas, você pode aprender de forma mais eficiente e alcançar melhores resultados 📚. Vamos explorar como gerenciar seu tempo, tomar notas de maneira eficaz e ler ativamente para maximizar seu aprendizado!",
+        "title": "Introdução às Habilidades de Estudo",
+        "themes": [
+          "introdução às habilidades de estudo"
+        ],
+        "image_search_string": "students studying effectively",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "O gerenciamento do tempo é essencial para equilibrar estudos, lazer e outras atividades. Algumas dicas importantes incluem:\n- **Planejar com antecedência:** Use uma agenda ou aplicativo para organizar suas tarefas.\n- **Estabelecer prioridades:** Foco no que é mais importante.\n- **Evitar a procrastinação:** Divida grandes tarefas em partes menores e estabeleça prazos.",
+        "title": "Gerenciamento do Tempo",
+        "themes": [
+          "dicas de gerenciamento do tempo"
+        ],
+        "image_search_string": "time management tips",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Tomar notas eficazes ajuda a organizar e reter informações. Métodos comuns incluem:\n- **Método Cornell:** Divida a página em seções para anotações, perguntas e resumo.\n- **Mapas mentais:** Visualize conexões entre ideias.\n- **Listas e tópicos:** Anote pontos-chave de forma concisa.",
+        "title": "Técnicas de Tomar Notas",
+        "themes": [
+          "métodos de tomar notas",
+          "organização de informações"
+        ],
+        "image_search_string": "note-taking methods",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "A leitura ativa envolve engajamento total com o texto. Estratégias incluem:\n- **Fazer perguntas:** Antes, durante e após a leitura.\n- **Destacar e sublinhar:** Identifique ideias principais.\n- **Resumir:** Reescreva com suas próprias palavras para reforçar a compreensão.",
+        "title": "Leitura Ativa",
+        "themes": [
+          "estratégias de leitura ativa"
+        ],
+        "image_search_string": "active reading strategies",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Combine suas habilidades de gerenciamento do tempo, tomada de notas e leitura ativa para criar um plano de estudo eficaz:\n1. Planeje um horário de estudo claro.\n2. Use técnicas de notas adequadas ao conteúdo.\n3. Leia ativamente e revise regularmente.\nEssas práticas podem melhorar significativamente seu aprendizado!",
+        "title": "Integrando Habilidades de Estudo",
+        "themes": [
+          "integração de técnicas de estudo"
+        ],
+        "image_search_string": "study skills integration",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Agora que você conhece essas técnicas, pratique-as para ver o que funciona melhor para você. Lembre-se, cada pessoa aprende de forma diferente, então adapte as estratégias ao seu estilo pessoal. Boa sorte nos estudos!",
+        "title": "Conclusão e Dicas Finais",
+        "themes": [
+          "personalização de estratégias de estudo"
+        ],
+        "image_search_string": "students practicing study skills",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "pt-PT"
+  }
+}

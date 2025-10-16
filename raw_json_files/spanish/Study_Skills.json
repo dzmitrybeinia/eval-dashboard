@@ -1,0 +1,162 @@
+{
+  "request": {
+    "lesson_description": "Effective Study Skills: Developing Organization, Time Management, and Note-Taking Strategies.",
+    "exercises_ratio": 0.5,
+    "grade_level": "9th grade",
+    "estimated_length": 25,
+    "learning_standard": "CCSS.ELA-LITERACY.CCRA.L.1: Demonstrate command of the conventions of standard English grammar and usage when writing or speaking, with emphasis on organization and communication skills.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6d671b86",
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Habilidades de estudio efectivas: organización, gestión del tiempo y estrategias de toma de apuntes",
+    "slides": [
+      {
+        "content": "¡Bienvenidos! Hoy aprenderemos sobre cómo mejorar nuestras habilidades de estudio para ser más organizados, manejar mejor nuestro tiempo y tomar apuntes efectivos. Estas habilidades no solo nos ayudarán en el aula, sino también en nuestra vida diaria. 🌟",
+        "title": "Introducción a habilidades de estudio",
+        "themes": [
+          "introducción a habilidades de estudio"
+        ],
+        "image_search_string": "estudiantes organizados",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La organización es clave para el éxito académico. Mantén tus materiales ordenados, utiliza carpetas o cuadernos para asignaturas específicas y revisa tu horario diariamente. Esto te ayudará a encontrar lo que necesitas rápidamente y a mantenerte al día con tus tareas.",
+        "title": "Importancia de la organización",
+        "themes": [
+          "importancia de la organización"
+        ],
+        "image_search_string": "materiales escolares organizados",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para gestionar tu tiempo de manera efectiva, planifica tus actividades. Usa una agenda o aplicación para programar tus tareas, clases y tiempo libre. Divide grandes proyectos en pequeñas tareas y asigna tiempo específico para cada una.",
+        "title": "Gestión del tiempo",
+        "themes": [
+          "gestión del tiempo"
+        ],
+        "image_search_string": "planificación del tiempo",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Tomar apuntes efectivos implica escuchar atentamente y escribir las ideas clave. Usa abreviaturas, resalta puntos importantes y organiza tus notas de manera clara. De esta forma, será más fácil estudiar después.",
+        "title": "Cómo tomar apuntes efectivos",
+        "themes": [
+          "estrategias para tomar apuntes"
+        ],
+        "image_search_string": "persona tomando apuntes",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Una técnica útil para la toma de apuntes es el método Cornell. Divide tu página en tres secciones: notas principales, palabras clave y un resumen. Esto te ayuda a organizar mejor la información y a revisarla fácilmente.",
+        "title": "Método Cornell para apuntes",
+        "themes": [
+          "método Cornell"
+        ],
+        "image_search_string": "notas método Cornell",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Prioriza tus tareas según su importancia y urgencia. Usa la matriz de Eisenhower para clasificar tus actividades en cuatro categorías: urgentes e importantes, importantes pero no urgentes, urgentes pero no importantes, y ni urgentes ni importantes.",
+        "title": "Priorización de tareas",
+        "themes": [
+          "matriz de Eisenhower"
+        ],
+        "image_search_string": "matriz de Eisenhower",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El ambiente de estudio también es importante. Encuentra un lugar tranquilo, bien iluminado y sin distracciones. Tener un espacio dedicado para estudiar puede mejorar tu capacidad de concentración y productividad.",
+        "title": "Creando un ambiente de estudio ideal",
+        "themes": [
+          "ambiente de estudio"
+        ],
+        "image_search_string": "espacio de estudio ordenado",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Establecer metas claras te ayuda a mantenerte enfocado. Usa la técnica SMART para definir tus metas: específicas, medibles, alcanzables, relevantes y con tiempo definido.",
+        "title": "Establecimiento de metas",
+        "themes": [
+          "técnica SMART para metas"
+        ],
+        "image_search_string": "definir metas SMART",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Evita las distracciones mientras estudias. Apaga notificaciones, usa aplicaciones que bloqueen redes sociales y establece períodos de tiempo específicos para concentrarte completamente.",
+        "title": "Cómo evitar distracciones",
+        "themes": [
+          "evitar distracciones"
+        ],
+        "image_search_string": "persona estudiando sin distracciones",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Revisar tus apuntes regularmente es esencial para retener información. Dedica tiempo después de cada clase para repasar lo aprendido y aclarar dudas.",
+        "title": "Importancia de la revisión",
+        "themes": [
+          "revisión de apuntes"
+        ],
+        "image_search_string": "persona revisando notas",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Trabajar en equipo puede ser beneficioso. Comparte apuntes, discute temas y resuelve dudas con compañeros. Asegúrate de que todos estén enfocados en el tema.",
+        "title": "Estudio en equipo",
+        "themes": [
+          "trabajo en equipo para estudiar"
+        ],
+        "image_search_string": "grupo estudiando juntos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Recuerda que las habilidades de estudio efectivas requieren práctica. Implementa estas estrategias poco a poco y ajusta lo que funcione mejor para ti. ¡Buena suerte!",
+        "title": "Conclusión y práctica",
+        "themes": [
+          "práctica de habilidades de estudio"
+        ],
+        "image_search_string": "práctica de estudio",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "es-ES"
+  }
+}

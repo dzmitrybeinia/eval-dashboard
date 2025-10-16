@@ -1,0 +1,174 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Las adaptaciones físicas incluyen cosas como:",
+      "correction": "Las adaptaciones físicas incluyen aspectos como:",
+      "description": "The word 'cosas' is vague and less precise in educational contexts. Replacing 'cosas' with 'aspectos' provides greater lexical precision and professionalism, which is preferred in Spanish educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las garras de un águila para capturar presas.",
+      "correction": "Las garras de un águila sirven para capturar presas.",
+      "description": "The original phrase lacks a verb, making it a sentence fragment. Adding 'sirven' creates a complete sentence and clarifies the function of the eagle's claws, improving grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Los osos duermen durante el invierno para conservar energía.",
+      "correction": "Los osos hibernan durante el invierno para conservar energía.",
+      "description": "While 'duermen' is understandable, 'hibernan' is the precise biological term for the process described. Using 'hibernan' improves lexical precision and scientific accuracy in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un entorno es el lugar donde vive un animal, y diferentes entornos tienen diferentes desafíos.",
+      "correction": "Un entorno es el lugar donde vive un animal, y distintos entornos presentan distintos desafíos.",
+      "description": "The repetition of 'diferentes' is stylistically awkward. Replacing with 'distintos' and 'presentan' improves sentence variety and readability, enhancing the naturalness of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En el ártico, los animales necesitan calor.",
+      "correction": "En el Ártico, los animales necesitan calor.",
+      "description": "The word 'Ártico' should be capitalized as it is a proper noun referring to a geographic region. This correction aligns with Spanish orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En las selvas, los animales deben esconderse de los depredadores.",
+      "correction": "En la selva, los animales deben esconderse de los depredadores.",
+      "description": "The singular 'la selva' is more natural and commonly used when referring to the general environment in Spanish educational contexts. Using the plural 'las selvas' is not incorrect but less idiomatic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Almacena agua en su joroba para sobrevivir en el desierto.",
+      "correction": "El camello almacena agua en su joroba para sobrevivir en el desierto.",
+      "description": "The original phrase lacks a subject, making it a fragment. Adding 'El camello' clarifies the subject and completes the sentence, improving grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Produce luz para atraer presas en el océano profundo.",
+      "correction": "El pez linterna produce luz para atraer presas en el océano profundo.",
+      "description": "The original phrase lacks a subject, making it a fragment. Adding 'El pez linterna' clarifies the subject and completes the sentence, improving grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Tiene plumas impermeables para mantenerse seco y cálido.",
+      "correction": "El pingüino tiene plumas impermeables para mantenerse seco y cálido.",
+      "description": "The original phrase lacks a subject, making it a fragment. Adding 'El pingüino' clarifies the subject and completes the sentence, improving grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sin ellas, los animales no podrían enfrentar los desafíos de su entorno.",
+      "correction": "Sin ellas, los animales no podrían enfrentarse a los desafíos de su entorno.",
+      "description": "The verb 'enfrentar' should be used reflexively ('enfrentarse a') in this context to match standard Spanish usage. This correction improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:36:20.256228",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 7,
+    "original_issue_count": 17
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¿Sabías que los animales tienen formas especiales de adaptarse para sobrevivir en su entorno?",
+      "correction": "¿Sabías que los animales tienen formas especiales de adaptarse para sobrevivir en su entorno?",
+      "description": "No orthographic errors detected. The sentence correctly uses the opening question mark and accent marks. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Hoy aprenderemos cómo las características físicas y los comportamientos ayudan a los animales a prosperar en diversos lugares. 🌍",
+      "correction": "Hoy aprenderemos cómo las características físicas y los comportamientos ayudan a los animales a prosperar en diversos lugares.",
+      "description": "The use of the globe emoji (🌍) may be considered informal or distracting in educational content for Spain, especially in formal lesson introductions. Removing the emoji improves the professional tone and aligns with standard educational style conventions.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las adaptaciones son cambios en las características físicas o en el comportamiento de un animal que le ayudan a sobrevivir en su entorno.",
+      "correction": "Las adaptaciones son cambios en las características físicas o en el comportamiento de un animal que le ayudan a sobrevivir en su entorno.",
+      "description": "No grammatical errors detected. The sentence structure and agreement are correct. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Estas adaptaciones pueden ser físicas, como el pelaje grueso de un oso polar, o de comportamiento, como la migración de las aves.",
+      "correction": "Estas adaptaciones pueden ser físicas, como el pelaje grueso de un oso polar, o de comportamiento, como la migración de las aves.",
+      "description": "No syntactic errors detected. The sentence is well-structured and clear. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las adaptaciones de comportamiento son acciones que los animales realizan para sobrevivir.",
+      "correction": "Las adaptaciones de comportamiento son acciones que los animales realizan para sobrevivir.",
+      "description": "No grammatical errors detected. The sentence is clear and correct. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las adaptaciones son esenciales para la supervivencia.",
+      "correction": "Las adaptaciones son esenciales para la supervivencia.",
+      "description": "No grammatical errors detected. The sentence is clear and correct. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Además, las adaptaciones también les ayudan a reproducirse, asegurando que su especie continúe existiendo.",
+      "correction": "Además, las adaptaciones también les ayudan a reproducirse, asegurando que su especie continúe existiendo.",
+      "description": "No grammatical errors detected. The sentence is clear and correct. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

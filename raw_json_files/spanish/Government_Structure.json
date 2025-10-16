@@ -1,0 +1,146 @@
+{
+  "request": {
+    "lesson_description": "Understanding the structure of the U.S. government: The three branches and their functions.",
+    "exercises_ratio": 1.0,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "970c50a8",
+    "topicInEnglish": "Government Structure",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Comprendiendo la estructura del gobierno de los Estados Unidos: Las tres ramas y sus funciones",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una exploración fascinante sobre cómo funciona el gobierno de los Estados Unidos! Hoy aprenderemos sobre las tres ramas principales que lo conforman y las funciones importantes que desempeñan. 🌟",
+        "title": "Introducción al gobierno de los EE.UU.",
+        "themes": [
+          "introducción al gobierno de EE.UU."
+        ],
+        "image_search_string": "gobierno de Estados Unidos",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El gobierno de los Estados Unidos está dividido en tres ramas principales: la rama legislativa, la ejecutiva y la judicial. Esta división asegura un equilibrio de poder y evita que una sola rama tenga demasiado control.",
+        "title": "Las tres ramas del gobierno",
+        "themes": [
+          "tres ramas del gobierno"
+        ],
+        "image_search_string": "tres ramas gobierno",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La rama legislativa está compuesta por el Congreso, que a su vez se divide en dos cámaras: la Cámara de Representantes y el Senado. Su función principal es crear y aprobar leyes.",
+        "title": "La rama legislativa",
+        "themes": [
+          "estructura del Congreso",
+          "función legislativa"
+        ],
+        "image_search_string": "Congreso Estados Unidos",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La rama ejecutiva está encabezada por el Presidente, que actúa como jefe de estado y comandante en jefe de las fuerzas armadas. Esta rama se encarga de implementar y hacer cumplir las leyes.",
+        "title": "La rama ejecutiva",
+        "themes": [
+          "función de la rama ejecutiva"
+        ],
+        "image_search_string": "Presidente Estados Unidos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La rama judicial está formada por los tribunales, incluyendo la Corte Suprema. Su función principal es interpretar las leyes y asegurarse de que sean aplicadas correctamente.",
+        "title": "La rama judicial",
+        "themes": [
+          "función de la rama judicial"
+        ],
+        "image_search_string": "Corte Suprema Estados Unidos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El principio de separación de poderes asegura que ninguna rama del gobierno tenga demasiado poder. Este sistema está diseñado para que las tres ramas trabajen juntas y se controlen mutuamente.",
+        "title": "Separación de poderes",
+        "themes": [
+          "separación de poderes"
+        ],
+        "image_search_string": "separación de poderes",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El Congreso tiene el poder de aprobar leyes, declarar guerras, y controlar el presupuesto nacional. La Cámara de Representantes y el Senado tienen funciones específicas dentro de este proceso.",
+        "title": "Poderes del Congreso",
+        "themes": [
+          "poderes del Congreso"
+        ],
+        "image_search_string": "poderes del Congreso",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El Presidente tiene poderes como vetar leyes, dirigir las relaciones exteriores, y nombrar jueces federales, entre otras responsabilidades.",
+        "title": "Poderes del Presidente",
+        "themes": [
+          "poderes del Presidente"
+        ],
+        "image_search_string": "poderes del Presidente",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La Corte Suprema tiene el poder de revisar leyes y decisiones para asegurarse de que cumplan con la Constitución. Esto se llama revisión judicial.",
+        "title": "Poderes de la Corte Suprema",
+        "themes": [
+          "poderes de la Corte Suprema"
+        ],
+        "image_search_string": "revisión judicial",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El sistema de frenos y contrapesos permite que cada rama del gobierno limite los poderes de las otras, asegurando un balance y evitando abusos de poder.",
+        "title": "Frenos y contrapesos",
+        "themes": [
+          "sistema de frenos y contrapesos"
+        ],
+        "image_search_string": "frenos y contrapesos",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Government Structure",
+    "generationLanguage": "es-ES"
+  }
+}

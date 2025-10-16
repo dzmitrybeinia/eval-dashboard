@@ -1,0 +1,165 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Los errores en programación se llaman bugs. Para solucionarlos, usamos la depuración, que consiste en revisar el código y corregir problemas. Es una parte esencial de aprender a programar.",
+      "correction": "Los errores en programación se llaman errores o bugs. Para solucionarlos, usamos la depuración, que consiste en revisar el código y corregir problemas. Es una parte esencial de aprender a programar.",
+      "description": "The use of 'bugs' is common in programming, but for educational content in Spain, it is preferable to introduce the Spanish term 'errores' alongside 'bugs' for clarity and localization. This helps learners understand both the local and international terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:36:50.374029",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 14,
+    "original_issue_count": 15
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos al emocionante mundo de la programación! En esta lección, exploraremos cómo los ordenadores entienden y ejecutan instrucciones para resolver problemas. ¡Prepárate para descubrir conceptos clave como variables, bucles y sentencias condicionales!",
+      "correction": "¡Bienvenidos al emocionante mundo de la programación! En esta lección, exploraremos cómo los ordenadores entienden y ejecutan instrucciones para resolver problemas. ¡Prepárate para descubrir conceptos clave como variables, bucles y sentencias condicionales!",
+      "description": "No orthographic errors detected. The use of exclamation marks is correct, and accent marks are properly placed. The text is linguistically accurate and natural for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Las variables son elementos en programación que almacenan datos. Piensa en ellas como cajas con etiquetas, donde cada etiqueta tiene un nombre y su contenido puede cambiar. Por ejemplo, una variable llamada `edad` podría almacenar el número 13.",
+      "correction": "Las variables son elementos en programación que almacenan datos. Piensa en ellas como cajas con etiquetas, donde cada etiqueta tiene un nombre y su contenido puede cambiar. Por ejemplo, una variable llamada `edad` podría almacenar el número 13.",
+      "description": "The terminology and analogies used are appropriate for Spanish speakers in Spain. The explanation is clear and culturally neutral. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En programación, los datos pueden ser de diferentes tipos. Algunos de los más comunes son:\n\n- **Números enteros**: como 10 o -3.\n- **Texto**: también llamado cadena, como \"Hola\".\n- **Valores booleanos**: `verdadero` o `falso`.\n\nLas variables se usan para guardar estos datos.",
+      "correction": "En programación, los datos pueden ser de diferentes tipos. Algunos de los más comunes son:\n\n- **Números enteros**: como 10 o -3.\n- **Texto**: también llamado cadena, como \"Hola\".\n- **Valores booleanos**: `verdadero` o `falso`.\n\nLas variables se usan para guardar estos datos.",
+      "description": "No orthographic or grammatical errors detected. The use of accent marks and punctuation is correct. The terminology is standard for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Los bucles permiten a los programas repetir un conjunto de instrucciones varias veces. Existen diferentes tipos de bucles, como:\n\n1. **Bucle `for`**: se usa cuando sabemos cuántas veces queremos repetir algo.\n2. **Bucle `while`**: se usa cuando queremos repetir algo mientras cierta condición sea verdadera.",
+      "correction": "Los bucles permiten a los programas repetir un conjunto de instrucciones varias veces. Existen diferentes tipos de bucles, como:\n\n1. **Bucle `for`**: se usa cuando sabemos cuántas veces queremos repetir algo.\n2. **Bucle `while`**: se usa cuando queremos repetir algo mientras cierta condición sea verdadera.",
+      "description": "No linguistic errors found. The explanation is clear and the terminology is appropriate for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Las sentencias condicionales permiten que un programa tome decisiones. Utilizan estructuras como `si`, `si no` y `entonces`. Por ejemplo:\n\n- Si hace frío, ponte un abrigo.\n- Si no hace frío, no te pongas abrigo.",
+      "correction": "Las sentencias condicionales permiten que un programa tome decisiones. Utilizan estructuras como `si`, `si no` y `entonces`. Por ejemplo:\n\n- Si hace frío, ponte un abrigo.\n- Si no hace frío, no te pongas abrigo.",
+      "description": "No linguistic errors detected. The use of accent marks and punctuation is correct. The examples are culturally neutral and appropriate for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Para crear una variable, necesitamos darle un nombre y un valor. Por ejemplo:\n\n```python\nedad = 13\nnombre = \"Ana\"\n```\n\nAquí hemos creado dos variables: `edad` que almacena un número y `nombre` que almacena un texto.",
+      "correction": "Para crear una variable, necesitamos darle un nombre y un valor. Por ejemplo:\n\n```python\nedad = 13\nnombre = \"Ana\"\n```\n\nAquí hemos creado dos variables: `edad` que almacena un número y `nombre` que almacena un texto.",
+      "description": "No linguistic or localization errors detected. The explanation and code example are clear and appropriate for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Los bucles se usan para automatizar tareas repetitivas. Por ejemplo, para imprimir los números del 1 al 5 podemos usar un bucle `for`:\n\n```python\nfor i in range(1, 6):\n    print(i)\n```",
+      "correction": "Los bucles se usan para automatizar tareas repetitivas. Por ejemplo, para imprimir los números del 1 al 5 podemos usar un bucle `for`:\n\n```python\nfor i in range(1, 6):\n    print(i)\n```",
+      "description": "No linguistic errors detected. The code example and explanation are clear and appropriate for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Las sentencias condicionales se usan para ejecutar diferentes acciones según una condición. Por ejemplo:\n\n```python\nif temperatura < 20:\n    print(\"Hace frío\")\nelse:\n    print(\"Hace calor\")\n```",
+      "correction": "Las sentencias condicionales se usan para ejecutar diferentes acciones según una condición. Por ejemplo:\n\n```python\nif temperatura < 20:\n    print(\"Hace frío\")\nelse:\n    print(\"Hace calor\")\n```",
+      "description": "No linguistic errors detected. The code and explanation are clear and appropriate for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Un programa combina variables, bucles y sentencias condicionales para resolver problemas. Por ejemplo, podríamos escribir un programa que pida la edad de alguien y diga si es mayor de edad.",
+      "correction": "Un programa combina variables, bucles y sentencias condicionales para resolver problemas. Por ejemplo, podríamos escribir un programa que pida la edad de alguien y diga si es mayor de edad.",
+      "description": "The style and tone are appropriate for educational content in Spain. The explanation is clear and culturally neutral. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Las buenas prácticas en programación incluyen:\n\n- Usar nombres claros para las variables.\n- Escribir comentarios para explicar el código.\n- Mantener el código organizado y legible.",
+      "correction": "Las buenas prácticas en programación incluyen:\n\n- Usar nombres claros para las variables.\n- Escribir comentarios para explicar el código.\n- Mantener el código organizado y legible.",
+      "description": "No linguistic or localization errors detected. The list is clear and appropriate for Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los programas que escribimos se ejecutan en un entorno. Por ejemplo, Python tiene su propio entorno donde podemos escribir y ejecutar código.",
+      "correction": "Los programas que escribimos se ejecutan en un entorno. Por ejemplo, Python tiene su propio entorno donde podemos escribir y ejecutar código.",
+      "description": "The terminology 'entorno' is standard in Spain for programming environments. The explanation is clear and culturally appropriate. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los lenguajes de programación son herramientas que usamos para escribir código. Algunos populares son Python, Java y C++. Cada lenguaje tiene su sintaxis y usos específicos.",
+      "correction": "Los lenguajes de programación son herramientas que usamos para escribir código. Algunos populares son Python, Java y C++. Cada lenguaje tiene su sintaxis y usos específicos.",
+      "description": "The terminology and examples are appropriate for Spain. The explanation is clear and culturally neutral. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La práctica es clave para aprender a programar. Empieza con ejercicios simples como crear tus propias variables, usar bucles y escribir sentencias condicionales.",
+      "correction": "La práctica es clave para aprender a programar. Empieza con ejercicios simples como crear tus propias variables, usar bucles y escribir sentencias condicionales.",
+      "description": "The style and tone are motivational and appropriate for educational content in Spain. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Has aprendido los conceptos básicos de programación! Ahora puedes explorar más y crear tus propios programas. ¡Sigue practicando y diviértete programando!",
+      "correction": "¡Has aprendido los conceptos básicos de programación! Ahora puedes explorar más y crear tus propios programas. ¡Sigue practicando y diviértete programando!",
+      "description": "The style and tone are encouraging and appropriate for Spain. The use of exclamation marks is correct. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

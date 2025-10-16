@@ -1,0 +1,58 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Natural Resources: Types, Uses, and Importance.",
+    "exercises_ratio": 0.7,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "275c9081",
+    "topicInEnglish": "Natural Resources",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Introdução aos Recursos Naturais: Tipos, Usos e Importância",
+    "slides": [
+      {
+        "content": "Os recursos naturais são elementos encontrados na natureza que as pessoas utilizam para satisfazer suas necessidades. Eles podem incluir coisas como água, ar, solo, minerais, plantas e animais. Esses recursos são essenciais para a sobrevivência e para o desenvolvimento das sociedades humanas.",
+        "title": "O que são recursos naturais?",
+        "themes": [
+          "Definição de recursos naturais"
+        ],
+        "image_search_string": "natural resources examples",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Os recursos naturais podem ser classificados em dois tipos principais: renováveis e não renováveis. Recursos renováveis, como a água e as florestas, podem ser regenerados ou reabastecidos naturalmente com o tempo. Já os recursos não renováveis, como petróleo e minerais, existem em quantidade limitada e não podem ser substituídos facilmente.",
+        "title": "Tipos de recursos naturais",
+        "themes": [
+          "Classificação de recursos naturais",
+          "Recursos renováveis e não renováveis"
+        ],
+        "image_search_string": "renewable and nonrenewable resources",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Os recursos naturais têm grande importância para as pessoas e o meio ambiente. Eles fornecem alimentos, energia, materiais de construção e muito mais. Além disso, ajudam a manter o equilíbrio dos ecossistemas e a qualidade de vida.",
+        "title": "A importância dos recursos naturais",
+        "themes": [
+          "Benefícios dos recursos naturais"
+        ],
+        "image_search_string": "importance of natural resources",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Natural Resources",
+    "generationLanguage": "pt-PT"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "request": {
+    "lesson_description": "Developing Friendship Skills: Understanding empathy, active listening, and conflict resolution to build strong peer relationships.",
+    "exercises_ratio": 0.4,
+    "grade_level": "6th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6a6478f8",
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "Desenvolvendo Habilidades de Amizade",
+    "slides": [
+      {
+        "content": "Amizade é uma parte essencial das nossas vidas. Hoje, vamos explorar como a empatia, a escuta ativa e a resolução de conflitos podem nos ajudar a construir relacionamentos fortes com nossos amigos. 🌟",
+        "title": "Introdução à Amizade",
+        "themes": [
+          "introdução à amizade"
+        ],
+        "image_search_string": "children friendship",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Empatia é a habilidade de entender e compartilhar os sentimentos de outra pessoa. Quando somos empáticos, conseguimos imaginar como é estar no lugar do outro e compreendemos melhor suas emoções.",
+        "title": "O Que é Empatia?",
+        "themes": [
+          "conceito de empatia"
+        ],
+        "image_search_string": "empathy concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Praticar empatia envolve:\n\n- Tentar entender os sentimentos dos outros.\n- Perguntar e ouvir atentamente o que a pessoa sente.\n- Demonstrar apoio e compreensão.",
+        "title": "Como Praticar a Empatia",
+        "themes": [
+          "prática de empatia"
+        ],
+        "image_search_string": "empathy practice",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "A escuta ativa é quando damos atenção total a quem está falando. Isso significa:\n\n1. Olhar nos olhos da pessoa.\n2. Não interromper enquanto ela fala.\n3. Fazer perguntas para mostrar interesse.",
+        "title": "O Que é Escuta Ativa?",
+        "themes": [
+          "conceito de escuta ativa"
+        ],
+        "image_search_string": "active listening",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Para praticar a escuta ativa, podemos:\n\n- Repetir partes importantes do que ouvimos para confirmar que entendemos.\n- Mostrar interesse com gestos, como acenar com a cabeça.\n- Evitar distrações, como olhar para o celular.",
+        "title": "Praticando a Escuta Ativa",
+        "themes": [
+          "prática de escuta ativa"
+        ],
+        "image_search_string": "listening skills",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Conflitos podem surgir em qualquer amizade. Resolver conflitos de forma saudável é importante para manter o relacionamento forte.",
+        "title": "Conflitos nas Amizades",
+        "themes": [
+          "conflitos em amizade"
+        ],
+        "image_search_string": "friendship conflict",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Para resolver um conflito, você pode:\n\n1. Respirar fundo e se acalmar antes de responder.\n2. Ouvir o ponto de vista da outra pessoa.\n3. Falar como você se sente, sem culpar o outro.\n4. Buscar uma solução juntos.",
+        "title": "Como Resolver Conflitos",
+        "themes": [
+          "resolução de conflitos"
+        ],
+        "image_search_string": "conflict resolution steps",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Amizades fortes são construídas com base em:\n\n- Respeito mútuo.\n- Confiança.\n- Apoio emocional.\n- Comunicação aberta.",
+        "title": "Elementos de uma Amizade Forte",
+        "themes": [
+          "elementos de amizades fortes"
+        ],
+        "image_search_string": "strong friendship",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Quando praticamos empatia, escuta ativa e resolvemos conflitos de forma saudável, criamos amizades mais significativas e duradouras. Vamos colocar essas habilidades em prática!",
+        "title": "Conclusão e Aplicação",
+        "themes": [
+          "importância da prática"
+        ],
+        "image_search_string": "friendship teamwork",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "pt-PT"
+  }
+}

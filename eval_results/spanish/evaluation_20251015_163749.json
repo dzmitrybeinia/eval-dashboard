@@ -1,0 +1,57 @@
+{
+  "issues": [],
+  "metadata": {
+    "file": "Geometry_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:49.315849",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 3,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 10.0,
+    "classification": "NATIVE",
+    "total_issues": 0,
+    "total_penalty": 0.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al mundo de la geometría! Hoy vamos a explorar conceptos fascinantes como puntos, líneas, segmentos de línea, rayos y ángulos. 🌟",
+      "correction": "¡Bienvenidos al mundo de la geometría! Hoy vamos a explorar conceptos fascinantes como puntos, líneas, segmentos de línea, rayos y ángulos.",
+      "description": "The use of the emoji '🌟' is not standard in formal educational content for Spain and may be considered informal or distracting in academic contexts. Removing the emoji ensures the tone remains professional and appropriate for the intended audience.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Un rayo de luz que sale de una linterna es un buen ejemplo.",
+      "correction": "Un rayo de luz que sale de una linterna es un buen ejemplo.",
+      "description": "While the terminology is correct, the example of a 'linterna' (flashlight) is less common in Spanish educational contexts, where 'rayo de luz' is typically illustrated with natural sources like the sun or a lamp. However, this does not significantly impact comprehension or appropriateness, so no correction is strictly necessary.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Los ángulos pueden clasificarse en agudos (menos de 90°), rectos (exactamente 90°) y obtusos (más de 90° pero menos de 180°).",
+      "correction": "Los ángulos pueden clasificarse en agudos (menos de 90°), rectos (exactamente 90°) y obtusos (más de 90° pero menos de 180°).",
+      "description": "The use of the degree symbol (°) is correct and standard in Spain. However, for enhanced clarity in educational materials, it is common to include a space between the number and the symbol (e.g., '90 °'). This is a minor formatting improvement and does not affect comprehension.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

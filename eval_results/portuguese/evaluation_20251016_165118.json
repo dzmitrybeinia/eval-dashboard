@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Cada elemento possui um símbolo único, como H para Hidrogênio e O para Oxigênio.",
+      "correction": "Cada elemento possui um símbolo único, como H para hidrogênio e O para oxigênio.",
+      "description": "In Brazilian Portuguese, the names of chemical elements such as 'hidrogênio' and 'oxigênio' should not be capitalized unless they begin a sentence. Here, both are incorrectly capitalized after their symbols, which is a spelling/orthography error. The correction is to use lowercase for element names.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Não-metais, como o oxigênio (O) e o carbono (C), possuem propriedades opostas.",
+      "correction": "Não-metais, como o oxigênio (O) e o carbono (C), possuem propriedades diferentes das dos metais.",
+      "description": "The phrase 'propriedades opostas' is unnatural and potentially misleading in Brazilian Portuguese scientific discourse. It is more accurate and culturally appropriate to say that non-metals have 'propriedades diferentes das dos metais' (different properties from metals), as 'opostas' implies a strict binary opposition that does not reflect the nuanced differences in chemical properties.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:18.682163",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Os elementos de um mesmo grupo possuem propriedades químicas semelhantes devido ao mesmo número de elétrons na camada de valência.",
+      "correction": "Os elementos de um mesmo grupo possuem propriedades químicas semelhantes devido ao mesmo número de elétrons na camada de valência.",
+      "description": "The word 'elétrons' is correctly accented, but this sentence is a good example to highlight the importance of accent marks in Portuguese. No correction is needed, but educators should reinforce the rule that 'elétrons' requires an acute accent to distinguish it from the incorrect 'eletrons'.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

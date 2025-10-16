@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "L'intelligence émotionnelle (IE) est la capacité de reconnaître, comprendre et gérer ses propres émotions, ainsi que de percevoir et influencer les émotions des autres. Ces compétences sont essentielles pour établir des relations saines et pour réussir dans de nombreux aspects de la vie.",
+      "correction": "L'intelligence émotionnelle (IE) est la capacité de reconnaître, comprendre et gérer ses propres émotions, ainsi que de percevoir et d'influencer les émotions des autres. Ces compétences sont essentielles pour établir des relations saines et pour réussir dans de nombreux aspects de la vie.",
+      "description": "The phrase 'percevoir et influencer' should use 'd'influencer' to maintain parallelism and correct elision in French ('de percevoir et d'influencer'). This improves the naturalness and consistency of terminology in the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La conscience de soi : reconnaître ses propres émotions et leurs impacts.",
+      "correction": "La conscience de soi : reconnaître ses propres émotions et leur impact.",
+      "description": "The plural 'leurs impacts' is not idiomatic in French in this context. The singular 'leur impact' is preferred when referring to the general effect of emotions, improving grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La motivation : utiliser ses émotions pour atteindre ses objectifs.",
+      "correction": "La motivation : mobiliser ses émotions pour atteindre ses objectifs.",
+      "description": "The verb 'utiliser' is less natural in French when referring to emotions in this context. 'Mobiliser ses émotions' is a more idiomatic and professional term in French educational psychology, enhancing localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Cela inclut la persévérance face aux obstacles et une passion pour ce que l'on fait.",
+      "correction": "Cela inclut la persévérance face aux obstacles et la passion pour ce que l'on fait.",
+      "description": "The use of 'une passion' is less natural than 'la passion' in this context, as it refers to a general quality rather than a specific instance. Using the definite article improves the naturalness and style of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:15.275958",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 5
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans cette leçon captivante sur l'intelligence émotionnelle ! Aujourd'hui, nous découvrirons comment mieux comprendre nos émotions, reconnaître celles des autres et améliorer nos relations grâce à des compétences émotionnelles essentielles. 😊",
+      "correction": "Bienvenue dans cette leçon captivante sur l'intelligence émotionnelle ! Aujourd'hui, nous découvrirons comment mieux comprendre nos émotions, reconnaître celles des autres et améliorer nos relations grâce à des compétences émotionnelles essentielles.",
+      "description": "The use of the emoji '😊' at the end of the introduction is not standard in formal French educational content and may be perceived as informal or unprofessional. Removing the emoji ensures the tone remains appropriate for an educational context.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

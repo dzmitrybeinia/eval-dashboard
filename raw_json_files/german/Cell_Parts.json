@@ -1,0 +1,106 @@
+{
+  "request": {
+    "lesson_description": "Cell Parts and Their Functions: Understanding the structure and role of organelles such as the nucleus, mitochondria, ribosomes, and more.",
+    "exercises_ratio": 0.3,
+    "grade_level": "7th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "3a880886",
+    "topicInEnglish": "Cell Parts",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Bausteine der Zelle: Funktionen der Zellorganellen",
+    "slides": [
+      {
+        "content": "Zellen sind die Bausteine aller Lebewesen. Sie enthalten verschiedene Organellen, die jeweils spezifische Aufgaben haben, um das Leben zu ermöglichen. Heute lernen wir die wichtigsten Organellen und ihre Funktionen kennen!",
+        "title": "Einführung in die Welt der Zellen",
+        "themes": [
+          "Grundlagen der Zellen"
+        ],
+        "image_search_string": "microscopic cell structure",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Der Zellkern ist das Kontrollzentrum der Zelle. Hier befinden sich die Chromosomen, die die genetische Information (DNA) enthalten. Der Zellkern steuert alle Aktivitäten der Zelle, wie Wachstum und Zellteilung.",
+        "title": "Der Zellkern: Das Kontrollzentrum",
+        "themes": [
+          "Zellkern Funktionen"
+        ],
+        "image_search_string": "cell nucleus structure",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Mitochondrien sind die Kraftwerke der Zelle. Sie produzieren Energie in Form von ATP durch den Prozess der Zellatmung. Diese Energie wird von der Zelle für verschiedene Aktivitäten benötigt.",
+        "title": "Mitochondrien: Die Kraftwerke",
+        "themes": [
+          "Mitochondrien Funktionen"
+        ],
+        "image_search_string": "mitochondria energy production",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ribosomen sind winzige Strukturen in der Zelle, die für die Proteinsynthese verantwortlich sind. Sie setzen Aminosäuren zu Proteinen zusammen, die für die Zellfunktion notwendig sind.",
+        "title": "Ribosomen: Die Proteinfabrik",
+        "themes": [
+          "Ribosomen Funktionen"
+        ],
+        "image_search_string": "ribosome protein synthesis",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Das endoplasmatische Retikulum (ER) ist ein Netzwerk von Membranen, das in der Zelle vorkommt. Es gibt zwei Typen: das raue ER (mit Ribosomen) und das glatte ER. Das raue ER ist an der Proteinsynthese beteiligt, während das glatte ER Lipide herstellt und Stoffwechselprozesse unterstützt.",
+        "title": "Endoplasmatisches Retikulum: Produktionsnetzwerk",
+        "themes": [
+          "Endoplasmatisches Retikulum Funktionen"
+        ],
+        "image_search_string": "endoplasmic reticulum diagram",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Der Golgi-Apparat verpackt und verteilt Moleküle, die von der Zelle hergestellt werden. Er ist besonders wichtig für die Modifikation von Proteinen und den Transport von Lipiden.",
+        "title": "Golgi-Apparat: Die Verpackungsstation",
+        "themes": [
+          "Golgi-Apparat Funktionen"
+        ],
+        "image_search_string": "golgi apparatus function",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Lysosomen sind Organellen, die Enzyme enthalten, welche Abfallstoffe und beschädigte Zellteile abbauen. Sie spielen eine Schlüsselrolle bei der Reinigung und Erneuerung der Zelle.",
+        "title": "Lysosomen: Die Reinigungszentrale",
+        "themes": [
+          "Lysosomen Funktionen"
+        ],
+        "image_search_string": "lysosome function",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Cell Parts",
+    "generationLanguage": "de-DE"
+  }
+}

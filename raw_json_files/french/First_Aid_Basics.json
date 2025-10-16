@@ -1,0 +1,81 @@
+{
+  "request": {
+    "lesson_description": "First Aid Basics: Recognizing and responding to common injuries such as cuts, burns, and sprains.",
+    "exercises_ratio": 0.0,
+    "grade_level": "7th grade",
+    "estimated_length": 25,
+    "learning_standard": "Next Generation Science Standards (NGSS) MS-LS1-8: Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "784df854",
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Premiers secours : Reconnaître et réagir face aux blessures courantes",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon sur les premiers secours ! Aujourd'hui, nous allons explorer comment reconnaître et réagir efficacement face à des blessures courantes telles que les coupures, les brûlures et les entorses. Préparez-vous à découvrir des gestes simples mais essentiels qui pourraient un jour faire une grande différence ! 😊",
+        "title": "Introduction aux premiers secours",
+        "themes": [
+          "importance des premiers secours"
+        ],
+        "image_search_string": "first aid basics",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Les premiers secours sont un ensemble de techniques utilisées pour fournir une aide immédiate à une personne blessée ou malade en attendant l'arrivée de professionnels de la santé. Ces gestes peuvent sauver des vies, prévenir l'aggravation d'une blessure et offrir un soulagement temporaire.",
+        "title": "Qu'est-ce que les premiers secours ?",
+        "themes": [
+          "définition des premiers secours"
+        ],
+        "image_search_string": "definition first aid",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Lorsqu'une coupure se produit, voici les étapes à suivre :\n\n1. Nettoyez vos mains pour éviter une infection.\n2. Appuyez doucement sur la coupure avec un tissu propre pour arrêter le saignement.\n3. Nettoyez la plaie avec de l'eau claire.\n4. Appliquez un bandage propre pour protéger la plaie.\n5. Si le saignement persiste ou si la coupure semble grave, contactez un professionnel de santé.",
+        "title": "Comment réagir face à une coupure",
+        "themes": [
+          "soins pour les coupures"
+        ],
+        "image_search_string": "first aid cut",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les brûlures peuvent être classées en trois types :\n\n- Premier degré : La peau est rouge et douloureuse.\n- Deuxième degré : La peau est rouge, douloureuse et présente des cloques.\n- Troisième degré : La peau est gravement endommagée, souvent noire ou blanche et insensible.\n\nLes gestes à adopter :\n- Refroidissez immédiatement la brûlure avec de l'eau tiède (pas froide) pendant 10-15 minutes.\n- Ne percez pas les cloques.\n- Couvrez avec un tissu propre et non adhérent.\n- Consultez un médecin pour les brûlures graves.",
+        "title": "Comment gérer une brûlure",
+        "themes": [
+          "soins pour les brûlures"
+        ],
+        "image_search_string": "first aid burn",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les entorses se produisent souvent lors d'activités physiques. Elles surviennent lorsqu'un ligament est étiré ou déchiré. Les symptômes incluent douleur, gonflement et difficulté à bouger l'articulation.\n\nPour traiter une entorse :\n\n1. Reposez l'articulation blessée.\n2. Appliquez de la glace pour réduire le gonflement.\n3. Compressez avec un bandage élastique.\n4. Surélevez la zone blessée pour limiter l'inflammation.\n5. Consultez un médecin si la douleur persiste ou si l'articulation ne peut pas bouger.",
+        "title": "Soins pour une entorse",
+        "themes": [
+          "traitement des entorses"
+        ],
+        "image_search_string": "first aid sprain",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "fr-FR"
+  }
+}

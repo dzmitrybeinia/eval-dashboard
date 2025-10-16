@@ -1,0 +1,76 @@
+{
+  "request": {
+    "lesson_description": "Understanding Human Rights: Exploring the Universal Declaration of Human Rights and its impact on global societies.",
+    "exercises_ratio": 0.6,
+    "grade_level": "10th grade",
+    "estimated_length": 10,
+    "learning_standard": "C3 Framework for Social Studies State Standards: D2.Civ.13.9-12 - Evaluate public policies in terms of intended and unintended outcomes, and related consequences.",
+    "additional_guidance": "Focus on real-world examples of how human rights are upheld or violated in different countries. Include discussions on the importance of human rights in fostering equality and justice.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "441238dc",
+    "topicInEnglish": "Human Rights",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Understanding Human Rights and the Universal Declaration",
+    "slides": [
+      {
+        "content": "Les droits humains sont des droits fondamentaux qui appartiennent à chaque individu, peu importe son origine, sa religion, son sexe ou sa nationalité. Ces droits incluent des libertés essentielles telles que la liberté d'expression, le droit à un procès équitable, et le droit à l'éducation. La Déclaration universelle des droits de l'homme (DUDH), adoptée par l'Assemblée générale des Nations Unies en 1948, est un document clé qui énonce ces droits universels.",
+        "title": "Introduction aux droits humains",
+        "themes": [
+          "droits fondamentaux",
+          "Déclaration universelle des droits de l'homme"
+        ],
+        "image_search_string": "Universal Declaration of Human Rights",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La Déclaration universelle des droits de l'homme (DUDH) a été adoptée en 1948 en réponse aux atrocités de la Seconde Guerre mondiale. Elle contient 30 articles qui définissent les droits et libertés fondamentaux de chaque individu, tels que le droit à la vie, la liberté, et la sécurité. Ce document est devenu une base pour de nombreuses constitutions et lois nationales dans le monde entier.",
+        "title": "La Déclaration universelle des droits de l'homme",
+        "themes": [
+          "histoire de la DUDH",
+          "articles fondamentaux"
+        ],
+        "image_search_string": "history of UDHR",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les droits humains jouent un rôle essentiel dans la promotion de l'égalité et de la justice dans les sociétés. Par exemple, en Afrique du Sud, l'abolition de l'apartheid a été un exemple marquant de la lutte pour les droits humains et l'égalité raciale. Cependant, dans certains pays, des violations des droits humains persistent, comme la censure ou la discrimination systémique.",
+        "title": "L'importance des droits humains",
+        "themes": [
+          "égalité et justice",
+          "exemples réels de droits humains"
+        ],
+        "image_search_string": "human rights equality",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les politiques publiques influencent directement la mise en œuvre des droits humains. Par exemple, des lois protégeant la liberté de la presse favorisent la transparence et la démocratie, mais peuvent aussi avoir des conséquences inattendues, comme l'augmentation de discours haineux. Il est crucial d'évaluer ces politiques pour comprendre leurs impacts, tant positifs que négatifs, sur la société.",
+        "title": "Les politiques publiques et les droits humains",
+        "themes": [
+          "impact des politiques publiques",
+          "conséquences des lois"
+        ],
+        "image_search_string": "public policy impact",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Human Rights",
+    "generationLanguage": "fr-FR"
+  }
+}

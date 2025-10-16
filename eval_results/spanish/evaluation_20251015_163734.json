@@ -1,0 +1,138 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "La ficción incluye historias creadas por la imaginación del autor. Estas pueden ser novelas, cuentos, y obras de teatro. Ejemplos incluyen historias de fantasía, ciencia ficción y aventuras.",
+      "correction": "La ficción incluye historias creadas por la imaginación del autor. Estas pueden ser novelas, cuentos y obras de teatro. Ejemplos incluyen historias de fantasía, ciencia ficción y aventuras.",
+      "description": "The use of the comma before 'y' in 'novelas, cuentos, y obras de teatro' is not standard in Spanish. In Peninsular Spanish, the serial comma is generally omitted before 'y' in lists. The rest of the sentence is grammatically correct and uses appropriate terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:34.339451",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 11,
+    "original_issue_count": 12
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos! Hoy exploraremos dos mundos fascinantes: la ficción y la no ficción. Aprenderemos qué las hace únicas y cómo identificarlas. 🌟",
+      "correction": "¡Bienvenidos! Hoy exploraremos dos mundos fascinantes: la ficción y la no ficción. Aprenderemos qué las hace únicas y cómo identificarlas. 🌟",
+      "description": "The introductory sentence is linguistically correct, with proper use of accent marks, punctuation, and sentence structure. The exclamation mark is correctly used at the beginning, and the vocabulary is appropriate for Peninsular Spanish. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "La no ficción se basa en hechos reales y busca informar, explicar o narrar eventos verdaderos. Ejemplos comunes son biografías, libros de historia y ensayos.",
+      "correction": "La no ficción se basa en hechos reales y busca informar, explicar o narrar eventos verdaderos. Ejemplos comunes son biografías, libros de historia y ensayos.",
+      "description": "This text is linguistically correct, with proper sentence structure and punctuation. The vocabulary is accurate for Spain. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Comparando la ficción y la no ficción:\n- La ficción se crea a partir de la imaginación.\n- La no ficción se basa en hechos reales.\n- La ficción puede tener personajes y eventos ficticios, mientras que la no ficción incluye información verificable.",
+      "correction": "Comparando la ficción y la no ficción:\n- La ficción se crea a partir de la imaginación.\n- La no ficción se basa en hechos reales.\n- La ficción puede tener personajes y eventos ficticios, mientras que la no ficción incluye información verificable.",
+      "description": "The comparison uses correct syntax and punctuation. The use of the colon after 'Comparando la ficción y la no ficción' is appropriate for introducing a list. No linguistic or localization errors detected.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Características principales de la ficción:\n1. Personajes ficticios.\n2. Tramas imaginativas.\n3. Ambientaciones inventadas.\n4. Uso frecuente de elementos literarios como metáforas y simbolismos.",
+      "correction": "Características principales de la ficción:\n1. Personajes ficticios.\n2. Tramas imaginativas.\n3. Ambientaciones inventadas.\n4. Uso frecuente de elementos literarios como metáforas y simbolismos.",
+      "description": "The list is well-structured and uses correct punctuation and terminology. The colon is correctly used to introduce the list. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Características principales de la no ficción:\n1. Información basada en hechos.\n2. Estructura organizada por temas o cronología.\n3. Lenguaje claro y directo.\n4. Uso de fuentes verificables.",
+      "correction": "Características principales de la no ficción:\n1. Información basada en hechos.\n2. Estructura organizada por temas o cronología.\n3. Lenguaje claro y directo.\n4. Uso de fuentes verificables.",
+      "description": "The list is syntactically correct and uses appropriate terminology for Spain. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Ejemplos de ficción:\n- \"Harry Potter\" de J.K. Rowling (fantasía).\n- \"El viejo y el mar\" de Ernest Hemingway (narrativa).\n- \"1984\" de George Orwell (distopía).",
+      "correction": "Ejemplos de ficción:\n- \"Harry Potter\" de J.K. Rowling (fantasía).\n- \"El viejo y el mar\" de Ernest Hemingway (narrativa).\n- \"1984\" de George Orwell (distopía).",
+      "description": "The examples provided are internationally recognized works, which are appropriate for educational content in Spain. However, including at least one example of Spanish fiction (e.g., 'Don Quijote de la Mancha' de Miguel de Cervantes) would enhance cultural relevance and localization for Spanish learners.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Ejemplos de no ficción:\n- \"El origen de las especies\" de Charles Darwin (ciencia).\n- \"Diario de Ana Frank\" (biografía).\n- \"Sapiens\" de Yuval Noah Harari (historia).",
+      "correction": "Ejemplos de no ficción:\n- \"El origen de las especies\" de Charles Darwin (ciencia).\n- \"Diario de Ana Frank\" (biografía).\n- \"Sapiens\" de Yuval Noah Harari (historia).",
+      "description": "The examples are globally relevant and suitable for Spanish educational content. For improved localization, consider including a Spanish non-fiction work (e.g., 'Historia de España' or a biography of a Spanish figure) to better connect with the local context.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "¿Por qué leer ficción?\n- Estimula la creatividad.\n- Desarrolla la empatía al conocer personajes diversos.\n- Proporciona entretenimiento y escapismo.",
+      "correction": "¿Por qué leer ficción?\n- Estimula la creatividad.\n- Desarrolla la empatía al conocer personajes diversos.\n- Proporciona entretenimiento y escapismo.",
+      "description": "The question is correctly formed with opening and closing question marks. The list is clear and uses correct syntax. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "¿Por qué leer no ficción?\n- Aumenta el conocimiento sobre el mundo.\n- Mejora la comprensión de temas complejos.\n- Ayuda a desarrollar habilidades críticas de pensamiento.",
+      "correction": "¿Por qué leer no ficción?\n- Aumenta el conocimiento sobre el mundo.\n- Mejora la comprensión de temas complejos.\n- Ayuda a desarrollar habilidades críticas de pensamiento.",
+      "description": "The question and list are syntactically correct and use appropriate vocabulary. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Consejos para identificar ficción y no ficción:\n1. Examina si los eventos y personajes son reales o inventados.\n2. Busca las fuentes citadas en los textos.\n3. Analiza el propósito del autor: ¿entretener o informar?",
+      "correction": "Consejos para identificar ficción y no ficción:\n1. Examina si los eventos y personajes son reales o inventados.\n2. Busca las fuentes citadas en los textos.\n3. Analiza el propósito del autor: ¿entretener o informar?",
+      "description": "The list is well-structured and uses correct syntax and punctuation. The embedded question is properly punctuated. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Ahora te toca a ti! Encuentra un libro de tu interés y decide si es ficción o no ficción. Usa lo que has aprendido para justificar tu respuesta.",
+      "correction": "¡Ahora te toca a ti! Encuentra un libro de tu interés y decide si es ficción o no ficción. Usa lo que has aprendido para justificar tu respuesta.",
+      "description": "The activity prompt uses an informal and engaging tone, which is appropriate for educational content aimed at students. The style is natural for Spain and encourages participation. No errors found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

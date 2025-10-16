@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O DNA está organizado em cromossomos, que são estruturas compactadas dentro do núcleo da célula.",
+      "correction": "O DNA está organizado em cromossomos, que são estruturas compactas dentro do núcleo da célula.",
+      "description": "The adjective 'compactadas' is incorrectly used here. The correct form is 'compactas', which agrees in gender and number with 'estruturas'. 'Compactadas' implies that the structures have been compacted by an external agent, while 'compactas' simply describes their state. This is a grammar and lexical agreement issue.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:34.648206",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "dupla hélice",
+      "correction": "dupla hélice",
+      "description": "The term 'dupla hélice' is correctly spelled and accented in Brazilian Portuguese. No orthographic errors are present. However, ensure that the accent on 'hélice' is maintained, as omitting it would result in a spelling error and change the pronunciation.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌱",
+      "correction": "",
+      "description": "The use of the plant emoji '🌱' in educational content about DNA may be perceived as informal or distracting in Brazilian Portuguese academic contexts. It is recommended to remove the emoji to maintain a formal and professional tone appropriate for educational materials.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

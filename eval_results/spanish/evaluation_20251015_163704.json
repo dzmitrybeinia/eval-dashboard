@@ -1,0 +1,104 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introducción a decisiones",
+      "correction": "introducción a la toma de decisiones",
+      "description": "The theme 'introducción a decisiones' lacks the definite article and the full phrase 'toma de decisiones', which is the standard and precise term in Spanish for 'decision making'. The corrected version uses the proper terminology and article for clarity and linguistic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "definición de toma de decisiones",
+      "correction": "definición de la toma de decisiones",
+      "description": "The theme 'definición de toma de decisiones' is missing the definite article 'la', which is required for grammatical correctness in Spanish when referring to a specific process. The corrected version improves linguistic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "factores en decisiones",
+      "correction": "factores en la toma de decisiones",
+      "description": "The theme 'factores en decisiones' is incomplete and lacks the definite article and the full phrase 'toma de decisiones', which is necessary for clarity and standard usage in Spanish. The corrected version uses the proper terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "criterios y restricciones",
+      "correction": "criterios y restricciones en la toma de decisiones",
+      "description": "The theme 'criterios y restricciones' is vague and does not specify the context. Adding 'en la toma de decisiones' clarifies the subject and aligns with standard Spanish usage for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "pasos del proceso de decisión",
+      "correction": "pasos del proceso de toma de decisiones",
+      "description": "The phrase 'proceso de decisión' is not standard in Spanish; the correct term is 'proceso de toma de decisiones'. The correction ensures the use of precise and accepted terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "evaluar opciones",
+      "correction": "evaluar opciones en la toma de decisiones",
+      "description": "The theme 'evaluar opciones' is too general and lacks context. Specifying 'en la toma de decisiones' clarifies the subject and improves linguistic precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "métodos de comparación",
+      "correction": "métodos de comparación de opciones",
+      "description": "The theme 'métodos de comparación' is vague. Adding 'de opciones' specifies what is being compared, improving clarity and linguistic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "importancia de decisiones informadas",
+      "correction": "importancia de tomar decisiones informadas",
+      "description": "The theme 'importancia de decisiones informadas' is missing the verb and does not reflect the standard phrase in Spanish. The corrected version uses the proper verbal construction for clarity and accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:04.669204",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 1,
+    "original_issue_count": 9
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy exploraremos cómo tomar decisiones informadas. Aprenderemos a identificar factores importantes, evaluar opciones y elegir la mejor solución. 🌟",
+      "correction": "¡Bienvenidos! Hoy exploraremos cómo tomar decisiones informadas. Aprenderemos a identificar factores importantes, evaluar opciones y elegir la mejor solución.",
+      "description": "The use of the star emoji (🌟) at the end of the introduction is not standard in formal educational content for Spain and may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and appropriate for an educational context.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

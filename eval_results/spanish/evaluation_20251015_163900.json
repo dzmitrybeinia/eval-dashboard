@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Una hipótesis es una suposición educada que responde a la pregunta formulada.",
+      "correction": "Una hipótesis es una suposición fundamentada que responde a la pregunta formulada.",
+      "description": "The phrase 'suposición educada' is a literal translation of 'educated guess' from English, which is not idiomatic in Spanish from Spain. The correct and natural term is 'suposición fundamentada', which conveys the intended meaning in a culturally and linguistically appropriate way. This issue affects lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Esto implica usar los sentidos para identificar algo interesante, inusual o problemático.",
+      "correction": "Esto implica utilizar los sentidos para identificar algo interesante, inusual o problemático.",
+      "description": "The verb 'usar' is acceptable, but 'utilizar' is more formal and preferred in educational content in Spain, especially in scientific contexts. This change improves the register and aligns with the expected style for academic materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Por ejemplo, un agricultor puede usarlo para determinar qué fertilizante es más efectivo o un chef para perfeccionar una receta.",
+      "correction": "Por ejemplo, un agricultor puede emplearlo para determinar qué abono es más eficaz o un chef para perfeccionar una receta.",
+      "description": "The term 'fertilizante' is technically correct, but 'abono' is more commonly used in Spain for agricultural contexts. Similarly, 'efectivo' is better replaced by 'eficaz' when referring to scientific effectiveness. These changes enhance cultural appropriateness and naturalness for a Spanish audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¿Listo para explorar y resolver problemas usando este poderoso proceso? 🚀",
+      "correction": "¿Estás listo para explorar y resolver problemas utilizando este poderoso proceso? 🚀",
+      "description": "The phrase '¿Listo para...' is informal and may be ambiguous in terms of register. In educational content for Spain, it is preferable to use '¿Estás listo para...' for clarity and to maintain a consistent tone. Additionally, 'utilizando' is more formal than 'usando' in this context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:39:00.818292",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

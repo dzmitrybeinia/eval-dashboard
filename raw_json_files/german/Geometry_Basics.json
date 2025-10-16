@@ -1,0 +1,122 @@
+{
+  "request": {
+    "lesson_description": "Understanding the basics of geometry: points, lines, line segments, rays, and angles.",
+    "exercises_ratio": 0.0,
+    "grade_level": "4th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "f74a1ab0",
+    "topicInEnglish": "Geometry Basics",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Grundlagen der Geometrie: Punkte, Linien und Winkel",
+    "slides": [
+      {
+        "content": "Geometrie ist ein spannender Bereich der Mathematik, der sich mit Formen, Größen und räumlichen Beziehungen beschäftigt. Heute beginnen wir mit den Grundlagen: Punkte, Linien, Strecken, Strahlen und Winkeln. 🧮",
+        "title": "Willkommen zur Welt der Geometrie!",
+        "themes": [
+          "Einführung in Geometrie"
+        ],
+        "image_search_string": "geometry basics",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Ein Punkt ist das grundlegendste Element der Geometrie. Er hat keine Größe, Länge, Breite oder Höhe, sondern markiert nur eine Position im Raum. Punkte werden oft mit einem Großbuchstaben bezeichnet, z. B. Punkt A.",
+        "title": "Was ist ein Punkt?",
+        "themes": [
+          "Definition eines Punkts"
+        ],
+        "image_search_string": "geometry point",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Eine Linie ist eine gerade, unendliche Strecke ohne Anfang oder Ende. Sie wird durch zwei Punkte benannt, z. B. Linie AB. Linien sind in der Geometrie wichtig, da sie die Grundlage vieler Formen bilden.",
+        "title": "Die Linie verstehen",
+        "themes": [
+          "Definition einer Linie"
+        ],
+        "image_search_string": "geometry line",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Eine Strecke ist ein Teil einer Linie, der zwei Endpunkte hat. Sie ist begrenzt und hat eine bestimmte Länge. Zum Beispiel ist AB eine Strecke zwischen den Punkten A und B.",
+        "title": "Was ist eine Strecke?",
+        "themes": [
+          "Definition einer Strecke"
+        ],
+        "image_search_string": "line segment",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Ein Strahl ist ein Teil einer Linie, der einen Anfangspunkt hat und in eine Richtung unendlich weitergeht. Der Anfangspunkt wird benannt, z. B. Strahl AB beginnt bei A und geht durch B weiter.",
+        "title": "Was ist ein Strahl?",
+        "themes": [
+          "Definition eines Strahls"
+        ],
+        "image_search_string": "geometry ray",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Ein Winkel entsteht, wenn zwei Strahlen denselben Anfangspunkt haben. Dieser Punkt wird Scheitelpunkt genannt. Die Strahlen bilden die Schenkel des Winkels.",
+        "title": "Was ist ein Winkel?",
+        "themes": [
+          "Definition eines Winkels"
+        ],
+        "image_search_string": "geometry angle",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Winkel werden in Grad gemessen. Ein vollständiger Kreis hat 360 Grad. Ein rechter Winkel misst 90 Grad, ein spitzer Winkel weniger als 90 Grad, und ein stumpfer Winkel mehr als 90 Grad.",
+        "title": "Arten von Winkeln",
+        "themes": [
+          "Winkelarten und Gradmessung"
+        ],
+        "image_search_string": "types of angles",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Grundelemente – Punkt, Linie, Strecke, Strahl und Winkel – bilden die Basis für komplexere geometrische Formen und Konzepte. Ihre Eigenschaften helfen uns, die Welt um uns herum zu verstehen.",
+        "title": "Zusammenfassung der Grundlagen",
+        "themes": [
+          "Zusammenfassung der geometrischen Grundlagen"
+        ],
+        "image_search_string": "geometry basics summary",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Geometry Basics",
+    "generationLanguage": "de-DE"
+  }
+}

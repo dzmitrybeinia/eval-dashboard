@@ -1,0 +1,140 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Python programming: Understanding variables, data types, and basic input/output.",
+    "exercises_ratio": 1.0,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "b5664abe",
+    "topicInEnglish": "Computer Programming",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Introducción a la programación en Python",
+    "slides": [
+      {
+        "content": "¡Bienvenidos al fascinante mundo de la programación con Python! Aprenderemos cómo manejar variables, tipos de datos y cómo interactuar con nuestro programa usando entradas y salidas. 🌟",
+        "title": "¡Comencemos con Python!",
+        "themes": [
+          "introducción a Python"
+        ],
+        "image_search_string": "programming Python basics",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Python es un lenguaje de programación de alto nivel, conocido por su simplicidad y legibilidad. Es ampliamente utilizado en áreas como desarrollo web, ciencia de datos, inteligencia artificial y más.",
+        "title": "¿Qué es Python?",
+        "themes": [
+          "definición de Python"
+        ],
+        "image_search_string": "Python programming",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Las variables son contenedores que almacenan valores. En Python, no necesitas declarar el tipo de variable antes de usarla, lo que lo hace dinámico. Ejemplo:\n\n```python\nmi_variable = 42\nmi_texto = \"Hola, mundo!\"\n```",
+        "title": "Variables en Python",
+        "themes": [
+          "concepto de variables"
+        ],
+        "image_search_string": "Python variables example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En Python, los tipos de datos más comunes incluyen:\n- **int**: números enteros (e.g., 5, -10)\n- **float**: números decimales (e.g., 3.14, -0.001)\n- **str**: cadenas de texto (e.g., \"Hola\")\n- **bool**: valores booleanos (e.g., True, False)",
+        "title": "Tipos de datos básicos",
+        "themes": [
+          "tipos de datos en Python"
+        ],
+        "image_search_string": "Python data types",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Puedes usar la función `print()` para mostrar información en la pantalla. Ejemplo:\n\n```python\nprint(\"¡Hola, mundo!\")\n```\nEsto mostrará: `¡Hola, mundo!`",
+        "title": "Salida de datos con print()",
+        "themes": [
+          "función print en Python"
+        ],
+        "image_search_string": "Python print function",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Para recibir entrada del usuario, usamos la función `input()`. Ejemplo:\n\n```python\nnombre = input(\"¿Cómo te llamas?\")\nprint(\"Hola, \" + nombre)\n```\nEsto pedirá al usuario su nombre y luego saludará.",
+        "title": "Entrada de datos con input()",
+        "themes": [
+          "función input en Python"
+        ],
+        "image_search_string": "Python input function",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En Python, puedes convertir entre tipos de datos usando funciones como `int()`, `float()`, y `str()`. Ejemplo:\n\n```python\nedad = input(\"¿Cuántos años tienes?\")\nedad = int(edad)\n```",
+        "title": "Conversión de tipos de datos",
+        "themes": [
+          "conversión de datos"
+        ],
+        "image_search_string": "Python type conversion",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Las cadenas de texto se pueden manipular fácilmente en Python. Ejemplo de concatenación:\n\n```python\nsaludo = \"Hola\" + \" \" + \"Mundo\"\nprint(saludo)\n```",
+        "title": "Manipulación de cadenas",
+        "themes": [
+          "cadenas en Python"
+        ],
+        "image_search_string": "Python string manipulation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Es importante comentar tu código para hacerlo más comprensible. En Python, usamos el símbolo `#` para comentarios de una línea. Ejemplo:\n\n```python\n# Esto es un comentario\na = 5  # Asignamos 5 a la variable a\n```",
+        "title": "Comentarios en Python",
+        "themes": [
+          "comentarios en Python"
+        ],
+        "image_search_string": "Python comments example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "¡Felicidades! Ahora tienes una base sólida sobre variables, tipos de datos y entrada/salida en Python. ¡Es hora de practicar y crear tus propios programas!",
+        "title": "Resumen y motivación",
+        "themes": [
+          "resumen de conceptos"
+        ],
+        "image_search_string": "Python programming basics",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Computer Programming",
+    "generationLanguage": "es-ES"
+  }
+}

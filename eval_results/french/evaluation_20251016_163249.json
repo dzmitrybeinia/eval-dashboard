@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La Cour suprême est composée de neuf juges, appelés juges de la Cour suprême, qui sont nommés par le président et confirmés par le Sénat.",
+      "correction": "La Cour suprême est composée de neuf juges, appelés « juges de la Cour suprême » ou « juges associés », qui sont nommés par le président et confirmés par le Sénat.",
+      "description": "The term 'juges de la Cour suprême' is repeated and lacks precision. In French, it is more natural and accurate to specify 'juges associés' or use quotation marks to clarify the official title. This improves terminology consistency and aligns with standard French usage for judicial titles.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:49.114350",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Aujourd'hui, nous allons découvrir comment ce gouvernement est organisé et quelles sont les responsabilités des trois branches principales qui le composent. 🇺🇸",
+      "correction": "Aujourd'hui, nous allons découvrir comment ce gouvernement est organisé et quelles sont les responsabilités des trois branches principales qui le composent.",
+      "description": "The use of the American flag emoji 🇺🇸 in educational French content may be perceived as informal or unnecessary, especially in formal or academic contexts. Removing the emoji ensures a more neutral and professional tone, which is culturally appropriate for educational materials.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

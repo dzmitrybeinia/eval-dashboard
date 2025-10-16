@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "german",
+    "generated_at": "2025-10-16T15:47:35.267416"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect grammatical gender in articles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency_count": 3,
+      "description": "Frequent misuse of definite and indefinite articles due to incorrect grammatical gender assignment, leading to confusion and reduced linguistic accuracy.",
+      "examples": [
+        {
+          "wrong": "Die Ingenieurdesignprozess ist eine systematische Methode...",
+          "correct": "Der Ingenieurdesignprozess ist eine systematische Methode...",
+          "context": "Masculine noun 'Prozess' incorrectly paired with feminine article."
+        },
+        {
+          "wrong": "Die CASEL Framework besteht aus fünf Kernkompetenzen...",
+          "correct": "Das CASEL Framework besteht aus fünf Kernkompetenzen...",
+          "context": "Neuter noun 'Framework' incorrectly paired with feminine article."
+        },
+        {
+          "wrong": "Ein Biografie über Albert Einstein",
+          "correct": "Eine Biografie über Albert Einstein",
+          "context": "Feminine noun 'Biografie' incorrectly paired with masculine article."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical inaccuracies in scientific and biological terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency_count": 2,
+      "description": "Use of incorrect or non-standard terms for scientific and biological concepts, which can mislead learners and undermine subject accuracy.",
+      "examples": [
+        {
+          "wrong": "Tarnfarben wie das grüne Fell eines Chamäleons...",
+          "correct": "Tarnfarben wie die grüne Haut eines Chamäleons...",
+          "context": "Incorrect use of 'Fell' (fur) for an animal that has 'Haut' (skin)."
+        },
+        {
+          "wrong": "Deposition",
+          "correct": "Resublimation",
+          "context": "Non-standard scientific term used for phase change from gas to solid."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect infinitive construction after 'ohne'",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Omission of 'zu' in infinitive constructions after 'ohne', resulting in grammatically incorrect sentences and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Kamele speichern Wasser und können lange Zeit ohne trinken auskommen.",
+          "correct": "Kamele speichern Wasser und können lange Zeit ohne zu trinken auskommen.",
+          "context": "Infinitive after 'ohne' requires 'zu' for correct grammar."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or unnatural phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency_count": 32,
+      "description": "Frequent use of literal translations, marked word order, or constructions that are grammatically correct but less idiomatic in German educational contexts. Corrections favor more natural, learner-friendly, and culturally appropriate phrasing.",
+      "examples": [
+        {
+          "wrong": "Heute werden wir lernen, wie wir auf häufige Verletzungen wie Schnitte, Verbrennungen und Verstauchungen reagieren können.",
+          "correct": "Heute lernen wir, wie wir auf häufige Verletzungen wie Schnitte, Verbrennungen und Verstauchungen reagieren können.",
+          "context": "Lesson introductions; direct phrasing preferred"
+        },
+        {
+          "wrong": "Was soll ich heute anziehen?",
+          "correct": "Was ziehe ich heute an?",
+          "context": "Everyday questions; idiomatic speech"
+        },
+        {
+          "wrong": "Aktives Zuhören kannst du üben, indem du dich darauf konzentrierst, was dein Gesprächspartner sagt, und nicht gleichzeitig an etwas anderes denkst.",
+          "correct": "Du kannst aktives Zuhören üben, indem du dich darauf konzentrierst, was dein Gesprächspartner sagt, und nicht gleichzeitig an etwas anderes denkst.",
+          "context": "Instructional sentences; standard word order"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology inconsistency or lack of localization",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 21,
+      "description": "Use of English technical terms or less precise German equivalents without introducing standard German terminology, or outdated/ambiguous terms. Corrections provide both German and English terms or update terminology to current standards.",
+      "examples": [
+        {
+          "wrong": "Integer: Ganze Zahlen (z. B. 5, -3)",
+          "correct": "Ganzzahl (Integer): Ganze Zahlen (z. B. 5, -3)",
+          "context": "Programming concepts; dual terminology preferred"
+        },
+        {
+          "wrong": "Gruppen oder Familien",
+          "correct": "Gruppen",
+          "context": "Chemistry; standard term for periodic table columns"
+        },
+        {
+          "wrong": "To-do-Listen",
+          "correct": "Aufgabenlisten",
+          "context": "General educational vocabulary; avoid anglicisms"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard or Unidiomatic Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 10,
+      "description": "Use of terms that are technically correct but not standard or idiomatic in German educational contexts, reducing clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "aride Zone",
+          "correct": "Trockenzone",
+          "context": "Climate zones in geography lessons"
+        },
+        {
+          "wrong": "Linie AB",
+          "correct": "Gerade AB",
+          "context": "Mathematical terminology for lines"
+        },
+        {
+          "wrong": "Hintergrundforschung",
+          "correct": "Recherche",
+          "context": "Scientific research terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Use of Formal and Informal Register",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency_count": 9,
+      "description": "Frequent switching between informal ('du', 'deine', singular imperative) and formal ('Sie', 'Ihre', plural imperative) address forms, leading to inconsistent tone and reduced professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "Lass uns entdecken, wie Tiere sich an ihre Umgebung anpassen!",
+          "correct": "Lasst uns entdecken, wie Tiere sich an ihre Umgebung anpassen!",
+          "context": "Group address in classroom settings"
+        },
+        {
+          "wrong": "Zeige, dass du die andere Person verstehst, indem du ihre Worte wiederholst und nachfragst.",
+          "correct": "Zeigen Sie, dass Sie die andere Person verstehen, indem Sie ihre Worte wiederholen und nachfragen.",
+          "context": "Instructional content for general audience"
+        },
+        {
+          "wrong": "Atme tief ein und bleibe ruhig.",
+          "correct": "Atmen Sie tief ein und bleiben Sie ruhig.",
+          "context": "General advice in educational materials"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Insufficient Cultural Localization",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency_count": 6,
+      "description": "Examples, references, or explanations lack cultural adaptation, making content less relatable or accurate for German-speaking learners.",
+      "examples": [
+        {
+          "wrong": "Bekannte Persönlichkeiten wie Albert Einstein oder Michael Jordan zeigen, wie wichtig eine Wachstumsmentalität ist.",
+          "correct": "Bekannte Persönlichkeiten wie Albert Einstein oder Steffi Graf zeigen, wie wichtig eine Wachstumsmentalität ist.",
+          "context": "Role models in educational psychology"
+        },
+        {
+          "wrong": "Diwali: Ein indisches Lichterfest, das die Rückkehr von Lord Rama feiert.",
+          "correct": "Diwali: Ein indisches Lichterfest, das den Sieg des Guten über das Böse und die Rückkehr von Lord Rama feiert.",
+          "context": "Cultural festival explanations"
+        },
+        {
+          "wrong": "Das Shakespeare-Sonett, das aus drei Quartetten und einem abschließenden Couplet besteht.",
+          "correct": "Das Shakespeare-Sonett, das aus drei Vierzeilern und einem abschließenden Zweizeiler besteht.",
+          "context": "Literary terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or inconsistent compound noun formation",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 5,
+      "description": "Compound nouns are frequently written without required hyphens or as separate words, which violates German orthographic conventions and reduces clarity, especially in technical or educational contexts.",
+      "examples": [
+        {
+          "wrong": "DNA Doppelhelix",
+          "correct": "DNA-Doppelhelix",
+          "context": "Compound noun with abbreviation in scientific context"
+        },
+        {
+          "wrong": "Hebel Funktionsweise",
+          "correct": "Hebel-Funktionsweise",
+          "context": "Technical heading in physics/mechanics"
+        },
+        {
+          "wrong": "Rollen Funktionsweise",
+          "correct": "Rollen-Funktionsweise",
+          "context": "Technical heading in physics/mechanics"
+        },
+        {
+          "wrong": "Schiefe Ebene Beispiele",
+          "correct": "Schiefe-Ebene-Beispiele",
+          "context": "Educational heading for examples"
+        },
+        {
+          "wrong": "Bar-Mizwa",
+          "correct": "Bar Mizwa",
+          "context": "Cultural/religious term"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical and terminological inconsistency",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency_count": 4,
+      "description": "Non-standard, colloquial, or incorrect terms are used instead of accepted scientific, technical, or educational terminology.",
+      "examples": [
+        {
+          "wrong": "Kalzium",
+          "correct": "Calcium",
+          "context": "Colloquial variant used instead of scientific term."
+        },
+        {
+          "wrong": "freie Verse",
+          "correct": "Freier Vers",
+          "context": "Plural and capitalization error in poetic terminology."
+        },
+        {
+          "wrong": "Diese Abgase erzeugen einen Schub, der die Rakete nach oben treibt.",
+          "correct": "Diese Abgase erzeugen einen Schub, der die Rakete antreibt.",
+          "context": "Imprecise verb used in technical context."
+        },
+        {
+          "wrong": "Pilgerfahrt (Haddsch)",
+          "correct": "Pilgerfahrt (Hadsch)",
+          "context": "Non-standard spelling of religious term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or awkward grammatical constructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency_count": 3,
+      "description": "Sentences contain unnecessary repetition, awkward phrasing, or incorrect verb forms, reducing clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "Die Reihen werden Perioden genannt, und die Spalten werden Gruppen oder Familien genannt.",
+          "correct": "Die Reihen werden Perioden genannt und die Spalten Gruppen oder Familien.",
+          "context": "Redundant verb and unnecessary comma in scientific explanation."
+        },
+        {
+          "wrong": "Zeichnen ist eine der ältesten und grundlegendsten Formen der künstlerischen Ausdrucksweise.",
+          "correct": "Zeichnen ist eine der ältesten und grundlegendsten Formen künstlerischen Ausdrucks.",
+          "context": "Redundant noun phrase in artistic context."
+        },
+        {
+          "wrong": "Es ist wichtig, Zeuge zu sein und zu helfen.",
+          "correct": "Es ist wichtig, Zeuge zu werden und zu helfen.",
+          "context": "Incorrect infinitive construction in advice context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or missing definite articles",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Definite articles are omitted or incorrectly used before nouns, affecting grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "Winterschlaf bei Bären, um Energie zu sparen, wenn Nahrung knapp ist.",
+          "correct": "Winterschlaf bei Bären, um Energie zu sparen, wenn die Nahrung knapp ist.",
+          "context": "Definite article missing before 'Nahrung' in a scientific explanation."
+        },
+        {
+          "wrong": "Zusammenfassung der Geschichtelemente",
+          "correct": "Zusammenfassung der Geschichtselemente",
+          "context": "Incorrect compound noun formation due to missing connecting element."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender and pronoun agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Pronouns or verbs do not match the grammatical gender of the referenced noun, leading to confusion and reduced professionalism.",
+      "examples": [
+        {
+          "wrong": "Python ist bekannt für seine einfache Syntax, die es besonders für Anfänger geeignet macht.",
+          "correct": "Python ist bekannt für seine einfache Syntax, die sie besonders für Anfänger geeignet macht.",
+          "context": "Incorrect pronoun 'es' used for feminine noun 'Syntax'."
+        },
+        {
+          "wrong": "Freundlichkeit können wir üben, indem wir:",
+          "correct": "Freundlichkeit kann man üben, indem man:",
+          "context": "Verb and pronoun do not match impersonal construction."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Preposition and collocation errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Incorrect prepositions or collocations are used, resulting in unnatural or imprecise expressions.",
+      "examples": [
+        {
+          "wrong": "Willkommen zu unserer Reise, Emotionen und Gefühle besser zu verstehen!",
+          "correct": "Willkommen auf unserer Reise, Emotionen und Gefühle besser zu verstehen!",
+          "context": "Incorrect preposition 'zu' used in a welcome phrase."
+        },
+        {
+          "wrong": "Wenn du dich nervös fühlst, könnte das ein Zeichen von Angst sein.",
+          "correct": "Wenn du dich nervös fühlst, könnte das ein Zeichen für Angst sein.",
+          "context": "Incorrect preposition 'von' used in a psychological context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Formatting Not Aligned with German Conventions",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Presentation of lists, numbers, or examples does not follow standard German formatting, reducing readability and professionalism.",
+      "examples": [
+        {
+          "wrong": "Beispiele für Fiktion sind: • Der kleine Prinz • Harry Potter • Grimms Märchen Beispiele für Sachtexte sind: • Ein Artikel über die Tierwelt • Ein Biografie über Albert Einstein • Ein wissenschaftlicher Bericht über Pflanzen",
+          "correct": "Beispiele für Fiktion sind:\n• Der kleine Prinz\n• Harry Potter\n• Grimms Märchen\nBeispiele für Sachtexte sind:\n• Ein Artikel über die Tierwelt\n• Eine Biografie über Albert Einstein\n• Ein wissenschaftlicher Bericht über Pflanzen",
+          "context": "List formatting in educational texts"
+        },
+        {
+          "wrong": "123-456-789",
+          "correct": "123 456 789",
+          "context": "Number formatting in German"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Imprecise or Conflated Definitions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Definitions of concepts are merged or phrased in a way that may cause confusion, lacking the precision expected in German educational materials.",
+      "examples": [
+        {
+          "wrong": "Wenn der Zähler gleich oder größer als der Nenner ist, spricht man von einem unechten Bruch oder einer gemischten Zahl.",
+          "correct": "Wenn der Zähler gleich oder größer als der Nenner ist, spricht man von einem unechten Bruch. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem Bruch.",
+          "context": "Mathematical definitions"
+        },
+        {
+          "wrong": "Eine Linie ist eine gerade, unendliche Strecke ohne Anfang oder Ende.",
+          "correct": "Eine Linie ist eine gerade, unbegrenzte Ausdehnung ohne Anfang und ohne Ende.",
+          "context": "Geometry terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Overuse or misuse of exclamation marks",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency_count": 7,
+      "description": "Exclamation marks are used in contexts where a neutral or professional tone is expected, especially in instructions or educational statements. Corrections replace exclamation marks with periods for a more appropriate tone.",
+      "examples": [
+        {
+          "wrong": "Denke daran: Es gibt kein Richtig oder Falsch – deine Kreativität ist das Wichtigste!",
+          "correct": "Denke daran: Es gibt kein Richtig oder Falsch – deine Kreativität ist das Wichtigste.",
+          "context": "Instructional statements; tone adjustment"
+        },
+        {
+          "wrong": "Diskutiert eure Ideen mit anderen und teilt eure Erfahrungen!",
+          "correct": "Diskutiert eure Ideen mit anderen und teilt eure Erfahrungen.",
+          "context": "Group instructions; professional tone"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard abbreviation and number formatting",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency_count": 6,
+      "description": "Use of abbreviations (e.g., 'z. B.') or numerals (e.g., '10-mal') where full words or standard formatting is preferred in educational German, especially for younger learners. Corrections write out numbers up to twelve and use full forms for clarity.",
+      "examples": [
+        {
+          "wrong": "Zum Beispiel kannst du mit einer Schleife 10-mal 'Hallo' ausgeben lassen.",
+          "correct": "Zum Beispiel kannst du mit einer Schleife zehnmal 'Hallo' ausgeben lassen.",
+          "context": "Programming examples; number formatting"
+        },
+        {
+          "wrong": "Plasma ist ein Zustand, in dem die Materie so viel Energie hat, dass die Elektronen von den Atomen getrennt sind. Es ist der häufigste Materiezustand im Universum, z. B. in Sternen.",
+          "correct": "Plasma ist ein Zustand, in dem die Materie so viel Energie hat, dass die Elektronen von den Atomen getrennt sind. Es ist der häufigste Materiezustand im Universum, zum Beispiel in Sternen.",
+          "context": "Science explanations; abbreviation usage"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural and gender inclusivity adjustments",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency_count": 5,
+      "description": "Corrections address cultural fit and inclusivity, such as gender-neutral language or context-specific possessive pronouns, to align with contemporary German educational standards.",
+      "examples": [
+        {
+          "wrong": "Afroamerikaner",
+          "correct": "Afroamerikaner:innen",
+          "context": "Historical/social context; gender-inclusive language"
+        },
+        {
+          "wrong": "Sprich mit Eltern oder Lehrern.",
+          "correct": "Sprich mit deinen Eltern oder Lehrern.",
+          "context": "Advice; possessive pronoun for cultural fit"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard lexical choices in educational contexts",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency_count": 3,
+      "description": "Terms are used that are correct but less precise or less standard for the educational context, reducing clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "sauberem Wasser",
+          "correct": "Leitungswasser",
+          "context": "First aid instructions"
+        },
+        {
+          "wrong": "Verbindungen aufzuzeigen",
+          "correct": "Zusammenhänge aufzuzeigen",
+          "context": "Educational text about structuring information"
+        },
+        {
+          "wrong": "die weltweit größte Religion, die auf den Lehren von Jesus Christus basiert.",
+          "correct": "die weltweit größte Religion und basiert auf den Lehren von Jesus Christus.",
+          "context": "Descriptive sentence about religion"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or missing articles in coordinated noun phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency_count": 2,
+      "description": "Articles are either unnecessarily repeated or omitted in coordinated noun phrases, which affects fluency and idiomaticity in German.",
+      "examples": [
+        {
+          "wrong": "die Präzision und die Planung",
+          "correct": "die Präzision und Planung",
+          "context": "Coordinated noun phrase in descriptive sentence"
+        },
+        {
+          "wrong": "Proteste, Bildung und Unterstützung von Organisationen",
+          "correct": "Proteste, Bildung und die Unterstützung von Organisationen",
+          "context": "Enumeration in instructional context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic verb constructions in coordinated clauses",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency_count": 2,
+      "description": "Auxiliary verbs are unnecessarily repeated or participle constructions are omitted, resulting in less idiomatic or stylistically awkward sentences.",
+      "examples": [
+        {
+          "wrong": "Die gewählte Lösung wird entworfen und ein Prototyp wird erstellt.",
+          "correct": "Die gewählte Lösung wird entworfen und ein Prototyp erstellt.",
+          "context": "Process description with shared subject"
+        },
+        {
+          "wrong": "Formen sind geschlossene Bereiche, die durch Linien, Farben oder Texturen definiert werden.",
+          "correct": "Formen sind geschlossene Bereiche, die durch Linien, Farben oder Texturen definiert sind.",
+          "context": "Descriptive relative clause"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Minor stylistic awkwardness in instructional phrasing",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency_count": 2,
+      "description": "Phrasing is grammatically correct but less idiomatic or stylistically awkward for German instructions, affecting naturalness and clarity.",
+      "examples": [
+        {
+          "wrong": "falls nötig",
+          "correct": "bei Bedarf",
+          "context": "First aid instructions"
+        },
+        {
+          "wrong": "um diese Hürde zu meistern",
+          "correct": "diese Hürde zu meistern",
+          "context": "Technical/educational explanation"
+        }
+      ]
+    }
+  ]
+}

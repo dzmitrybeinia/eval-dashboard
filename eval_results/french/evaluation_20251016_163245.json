@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les exportations sont les biens ou services qu'un pays vend à un autre pays. Les importations, en revanche, sont ceux qu'un pays achète à l'étranger. Ce système permet aux pays de bénéficier de produits qu'ils ne peuvent pas produire eux-mêmes.",
+      "correction": "Les exportations sont les biens ou services qu'un pays vend à un autre pays. Les importations, en revanche, sont celles qu'un pays achète à l'étranger. Ce système permet aux pays de bénéficier de produits qu'ils ne peuvent pas produire eux-mêmes.",
+      "description": "The pronoun 'ceux' in 'Les importations, en revanche, sont ceux qu'un pays achète à l'étranger' is incorrect because 'importations' is feminine plural, so the correct pronoun is 'celles'. This is a linguistic issue, but also affects the naturalness and clarity of the explanation, as correct pronoun agreement is expected in educational French.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:45.928093",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans notre exploration du commerce mondial ! Aujourd'hui, nous allons découvrir comment les pays échangent des biens et des services, et comment cela influence les économies et les cultures à travers le monde. 🌍",
+      "correction": "Bienvenue dans notre exploration du commerce mondial ! Aujourd'hui, nous allons découvrir comment les pays échangent des biens et des services, et comment cela influence les économies et les cultures à travers le monde.",
+      "description": "The use of the globe emoji (🌍) at the end of the introductory sentence is not standard in formal French educational content. While emojis can be engaging, they are generally avoided in academic or professional contexts as they may reduce the perceived seriousness of the material. Removing the emoji ensures the tone remains appropriate for an educational setting.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

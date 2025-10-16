@@ -1,0 +1,140 @@
+{
+  "request": {
+    "lesson_description": "Friendship Skills: Understanding empathy, effective communication, and conflict resolution.",
+    "exercises_ratio": 0.6,
+    "grade_level": "5th grade",
+    "estimated_length": 25,
+    "learning_standard": "CASEL's SEL Framework: Social Awareness and Relationship Skills, aligned with Common Core State Standards for Speaking and Listening (CCSS.ELA-LITERACY.SL.5.1).",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "9c3c4ded",
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Habilidades de Amistad: Empatía, Comunicación y Resolución de Conflictos",
+    "slides": [
+      {
+        "content": "¡Hola, estudiantes! Hoy vamos a explorar cómo ser amigos increíbles aprendiendo sobre empatía, comunicación efectiva y cómo resolver conflictos de manera positiva. 🌟 ¡Prepárense para descubrir habilidades que les ayudarán a construir y mantener amistades fuertes y saludables!",
+        "title": "Introducción a las habilidades de amistad",
+        "themes": [
+          "introducción a la amistad"
+        ],
+        "image_search_string": "niños siendo amigos",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La empatía es la habilidad de entender y compartir los sentimientos de los demás. Significa ponerse en el lugar del otro para comprender cómo se siente. Por ejemplo, si un amigo está triste porque perdió su juguete favorito, sentir empatía es intentar comprender su tristeza y apoyarlo.",
+        "title": "¿Qué es la empatía?",
+        "themes": [
+          "definición de empatía"
+        ],
+        "image_search_string": "empatía entre niños",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La empatía se puede mostrar escuchando con atención, ofreciendo palabras de apoyo, o simplemente estando ahí para alguien. Por ejemplo, si un amigo está nervioso antes de un examen, puedes decirle: \"Sé que puedes hacerlo, confío en ti\".",
+        "title": "Cómo mostrar empatía",
+        "themes": [
+          "formas de mostrar empatía"
+        ],
+        "image_search_string": "niño consolando a amigo",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La comunicación efectiva es clave para una buena amistad. Esto incluye hablar con claridad, escuchar activamente, y expresar tus sentimientos y pensamientos de manera respetuosa. Un buen comunicador también se asegura de entender antes de responder.",
+        "title": "¿Qué es la comunicación efectiva?",
+        "themes": [
+          "definición de comunicación efectiva"
+        ],
+        "image_search_string": "niños hablando y escuchando",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para mejorar la comunicación, intenta hacer contacto visual, usar un tono de voz amable y preguntar si no entiendes algo. Por ejemplo, si un amigo parece molesto, podrías preguntarle: \"¿Estás bien? ¿Quieres hablar de ello?\"",
+        "title": "Consejos para mejorar la comunicación",
+        "themes": [
+          "mejorar la comunicación"
+        ],
+        "image_search_string": "niños comunicándose",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los conflictos son normales en las amistades, pero resolverlos de manera positiva es importante. Esto significa hablar sobre el problema, escuchar el punto de vista del otro, y buscar una solución que funcione para ambos.",
+        "title": "¿Qué es la resolución de conflictos?",
+        "themes": [
+          "definición de resolución de conflictos"
+        ],
+        "image_search_string": "niños resolviendo un conflicto",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para resolver un conflicto, sigue estos pasos: 1. Mantén la calma. 2. Expresa cómo te sientes. 3. Escucha al otro sin interrumpir. 4. Trabajen juntos para encontrar una solución. Por ejemplo, si ambos quieren el mismo juguete, podrían turnarse para usarlo.",
+        "title": "Pasos para resolver un conflicto",
+        "themes": [
+          "pasos para resolución de conflictos"
+        ],
+        "image_search_string": "niños compartiendo juguete",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La empatía y la comunicación son esenciales para resolver conflictos. Al escuchar con empatía y hablar con respeto, es más fácil llegar a un acuerdo y mantener la amistad fuerte.",
+        "title": "Empatía y comunicación en los conflictos",
+        "themes": [
+          "empatía y comunicación en conflictos"
+        ],
+        "image_search_string": "niños reconciliándose",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Practicar las habilidades de amistad puede ser divertido. Intenta juegos de roles donde simules conflictos y los resuelvas, o actividades donde trabajes en equipo para lograr un objetivo común.",
+        "title": "Practicando habilidades de amistad",
+        "themes": [
+          "práctica de habilidades de amistad"
+        ],
+        "image_search_string": "niños jugando juntos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las habilidades de amistad como la empatía, la comunicación efectiva y la resolución de conflictos son esenciales para relaciones saludables. Sigamos practicando estas habilidades cada día para ser mejores amigos.",
+        "title": "Conclusión: La importancia de las habilidades de amistad",
+        "themes": [
+          "importancia de habilidades de amistad"
+        ],
+        "image_search_string": "niños felices juntos",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "es-ES"
+  }
+}

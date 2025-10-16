@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Noble Camino Óctuple",
+      "correction": "Noble Sendero Óctuple",
+      "description": "The phrase 'Noble Camino Óctuple' is a lexical error; the standard term in Spain for the Buddhist Eightfold Path is 'Noble Sendero Óctuple'. Using the correct terminology improves both linguistic accuracy and educational clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:39:29.428924",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Hoy exploraremos las principales religiones que han influido en la historia y en la vida de millones de personas. 🌍✝️☪️🕉️☸️✡️",
+      "correction": "Hoy exploraremos las principales religiones que han influido en la historia y en la vida de millones de personas.",
+      "description": "The use of religious symbols as emojis (🌍✝️☪️🕉️☸️✡️) may be perceived as informal or disrespectful in educational content about world religions, especially in Spain where a more neutral and respectful tone is expected for sensitive topics. Removing the emojis ensures the content maintains an appropriate and professional register.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

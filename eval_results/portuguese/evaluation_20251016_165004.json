@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bem-vindos ao mundo da programação! Hoje vamos explorar conceitos básicos que são a base para criar códigos incríveis e resolver problemas de forma criativa.",
+      "correction": "Bem-vindo ao mundo da programação! Hoje vamos explorar conceitos básicos que são a base para criar códigos incríveis e resolver problemas de forma criativa.",
+      "description": "The greeting 'Bem-vindos' is in the plural form, but the lesson is titled 'Bem-vindo à Programação!' and the context is an introductory slide likely addressing the individual learner. In Brazilian Portuguese educational content, the singular 'Bem-vindo' is preferred for direct address to the student. This ensures grammatical agreement and a more personalized tone. No other linguistic or localization issues are present in this text.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Flutuantes: Números com decimais (ex.: 3.14, -0.5).",
+      "correction": "Ponto flutuante: Números com decimais (ex.: 3.14, -0.5).",
+      "description": "The term 'Flutuantes' is not the standard terminology in Brazilian Portuguese for floating-point numbers. The correct and widely accepted term is 'ponto flutuante'. Using the standard term improves clarity and aligns with local programming education conventions. No linguistic errors are present, but terminology should be updated for professional and educational accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Textos ou Strings: Sequências de caracteres (ex.: 'Olá', 'Python').",
+      "correction": "Strings ou textos: Sequências de caracteres (ex.: 'Olá', 'Python').",
+      "description": "In Brazilian Portuguese programming contexts, 'string' is the standard technical term, often used before 'texto' for clarity. The phrase should be 'Strings ou textos' to reflect local usage and terminology order. No linguistic errors, but updating the order improves naturalness and consistency with local conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleanos: Verdadeiro (True) ou Falso (False).",
+      "correction": "Booleanos: verdadeiro (True) ou falso (False).",
+      "description": "In Brazilian Portuguese, the terms 'verdadeiro' and 'falso' are not capitalized unless at the beginning of a sentence. Lowercase improves naturalness and matches standard technical writing. No linguistic errors, but capitalization should be adjusted for consistency with local style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:04.123142",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 5
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introdução à programação",
+      "correction": "introdução à programação",
+      "description": "No issues found. The use of 'à' correctly applies the crase, and spelling is accurate. No correction needed.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

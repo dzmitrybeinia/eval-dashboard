@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "To-do-Listen",
+      "correction": "Aufgabenlisten",
+      "description": "The term 'To-do-Listen' is an anglicism. While it is increasingly used in German, 'Aufgabenlisten' is the more traditional and widely accepted term in educational contexts. Using 'Aufgabenlisten' improves clarity and aligns with standard German terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Mindmaps",
+      "correction": "Gedankenlandkarten",
+      "description": "The term 'Mindmaps' is an English loanword. Although commonly used, 'Gedankenlandkarten' is a more descriptive and native German term, which may be preferable in educational materials for clarity and cultural appropriateness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:47.133100",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Lerne, wie du dein Lernen optimieren kannst! ✨",
+      "correction": "Lerne, wie du dein Lernen optimieren kannst!",
+      "description": "The use of the sparkle emoji (✨) is not standard in formal or educational German content and may be perceived as informal or unprofessional. Removing the emoji ensures the tone remains appropriate for an educational context.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

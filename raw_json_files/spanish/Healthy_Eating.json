@@ -1,0 +1,143 @@
+{
+  "request": {
+    "lesson_description": "Healthy Eating: Understanding food groups, balanced diets, and the importance of nutrition.",
+    "exercises_ratio": 0.3,
+    "grade_level": "6th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "40afb2c4",
+    "topicInEnglish": "Healthy Eating",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Comiendo Saludablemente: Entendiendo Grupos de Alimentos y Nutrición",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una aventura hacia una vida más saludable! Hoy exploraremos cómo los alimentos que consumimos afectan nuestro cuerpo y nuestra energía. 🌱🍎",
+        "title": "Introducción a la Alimentación Saludable",
+        "themes": [
+          "importancia de la alimentación saludable"
+        ],
+        "image_search_string": "niños comiendo saludablemente",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Los grupos alimenticios nos ayudan a organizar los diferentes tipos de alimentos que necesitamos para mantenernos saludables. Los principales grupos son:\n\n- **Vegetales y frutas**: Ricos en vitaminas, minerales y fibra.\n- **Cereales y granos**: Proveen energía a través de carbohidratos.\n- **Proteínas**: Ayudan a construir y reparar tejidos, incluyen carnes, huevos y legumbres.\n- **Lácteos**: Fuente de calcio para huesos fuertes.\n- **Grasas saludables**: Importantes para el cerebro, como las que se encuentran en nueces y aguacates.",
+        "title": "Los Grupos Alimenticios",
+        "themes": [
+          "grupos alimenticios principales",
+          "necesidades nutricionales"
+        ],
+        "image_search_string": "pirámide alimenticia",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Una dieta balanceada incluye alimentos de todos los grupos en las proporciones correctas. Esto asegura que obtengamos la energía y los nutrientes que necesitamos para nuestras actividades diarias y para crecer saludablemente.",
+        "title": "¿Qué es una Dieta Balanceada?",
+        "themes": [
+          "concepto de dieta balanceada"
+        ],
+        "image_search_string": "plato balanceado",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los nutrientes son sustancias que nuestro cuerpo necesita para funcionar correctamente. Hay seis tipos principales:\n\n1. **Carbohidratos**: Principal fuente de energía.\n2. **Proteínas**: Para crecimiento y reparación.\n3. **Grasas**: Proveen energía y son esenciales para el cerebro.\n4. **Vitaminas**: Ayudan en procesos corporales como la visión y el sistema inmunológico.\n5. **Minerales**: Como el calcio y hierro, importantes para huesos y sangre.\n6. **Agua**: Indispensable para la vida, transporta nutrientes y regula la temperatura.",
+        "title": "Los Nutrientes Esenciales",
+        "themes": [
+          "tipos de nutrientes esenciales"
+        ],
+        "image_search_string": "nutrientes esenciales",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los alimentos procesados son aquellos que han sido modificados de su estado natural. A menudo contienen altos niveles de azúcar, grasas no saludables y sodio. Consumirlos con moderación es clave para una dieta saludable.",
+        "title": "Alimentos Procesados",
+        "themes": [
+          "impacto de alimentos procesados"
+        ],
+        "image_search_string": "alimentos procesados",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La hidratación es fundamental para nuestra salud. El agua ayuda a mantener la temperatura corporal, transportar nutrientes y eliminar toxinas. Se recomienda beber al menos 8 vasos al día.",
+        "title": "La Importancia del Agua",
+        "themes": [
+          "beneficios de la hidratación"
+        ],
+        "image_search_string": "niño bebiendo agua",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un buen desayuno debe incluir alimentos de varios grupos, como cereales integrales, frutas y proteínas, para comenzar el día con energía.",
+        "title": "La Importancia del Desayuno",
+        "themes": [
+          "beneficios de un desayuno equilibrado"
+        ],
+        "image_search_string": "desayuno saludable",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La actividad física y una buena alimentación trabajan juntas para mantenernos sanos. Ejercitarse regularmente ayuda a utilizar la energía de los alimentos y fortalece el cuerpo.",
+        "title": "Ejercicio y Alimentación",
+        "themes": [
+          "relación entre ejercicio y alimentación"
+        ],
+        "image_search_string": "niños haciendo ejercicio",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Planificar tus comidas puede ayudarte a mantener una dieta balanceada. Incluye variedad y evita comer lo mismo todos los días. ¡Experimenta con recetas saludables!",
+        "title": "Planificación de Comidas",
+        "themes": [
+          "planificación de dietas saludables"
+        ],
+        "image_search_string": "planificación de comidas saludables",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Recuerda, comer saludablemente no significa dejar de disfrutar los alimentos. Se trata de equilibrio, variedad y moderación. ¡Tu cuerpo te lo agradecerá!",
+        "title": "Conclusión: Comer Saludablemente",
+        "themes": [
+          "importancia de hábitos alimenticios equilibrados"
+        ],
+        "image_search_string": "alimentación saludable",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Healthy Eating",
+    "generationLanguage": "es-ES"
+  }
+}

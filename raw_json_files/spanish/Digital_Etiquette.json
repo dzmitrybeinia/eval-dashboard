@@ -1,0 +1,226 @@
+{
+  "request": {
+    "lesson_description": "Understanding digital etiquette: Best practices for online communication, respecting privacy, and avoiding cyberbullying.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "fe939877",
+    "topicInEnglish": "Digital Etiquette",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Entendiendo la etiqueta digital: Mejores prácticas para la comunicación en línea",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a un fascinante viaje para descubrir cómo comunicarnos correctamente en el mundo digital! 🌐 Aprende cómo respetar a los demás, proteger tu privacidad y evitar el ciberacoso mientras navegamos juntos por las mejores prácticas de etiqueta digital.",
+        "title": "Introducción a la Etiqueta Digital",
+        "themes": [
+          "introducción a etiqueta digital"
+        ],
+        "image_search_string": "etiqueta digital ilustración",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La etiqueta digital se refiere a las normas y comportamientos adecuados que debemos seguir al interactuar en línea. Así como en la vida real tenemos normas de cortesía, en el mundo digital también debemos ser respetuosos y considerados.",
+        "title": "¿Qué es la etiqueta digital?",
+        "themes": [
+          "definición de etiqueta digital"
+        ],
+        "image_search_string": "etiqueta digital normas",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. Sé respetuoso: Trata a los demás como te gustaría que te traten. \n2. Piensa antes de publicar: Reflexiona si lo que compartes podría ofender o lastimar a alguien. \n3. Usa un lenguaje apropiado: Evita palabras ofensivas o groseras.",
+        "title": "Normas básicas de etiqueta digital",
+        "themes": [
+          "normas de etiqueta digital"
+        ],
+        "image_search_string": "comunicación respetuosa en línea",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La privacidad en línea implica proteger nuestra información personal y respetar la de los demás. Nunca compartas datos personales como tu dirección, número de teléfono o contraseñas en público.",
+        "title": "La importancia de la privacidad en línea",
+        "themes": [
+          "protección de privacidad",
+          "respeto a la privacidad"
+        ],
+        "image_search_string": "privacidad en internet",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El ciberacoso es el uso de tecnología para acosar, amenazar o avergonzar a alguien. Puede incluir mensajes ofensivos, rumores, o compartir contenido dañino sobre una persona sin su consentimiento.",
+        "title": "¿Qué es el ciberacoso?",
+        "themes": [
+          "definición de ciberacoso"
+        ],
+        "image_search_string": "ciberacoso definición",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para evitar el ciberacoso: \n- No participes en conversaciones dañinas. \n- Reporta conductas negativas a las plataformas. \n- Ofrece apoyo a quienes puedan ser víctimas.",
+        "title": "Cómo evitar el ciberacoso",
+        "themes": [
+          "prevención del ciberacoso"
+        ],
+        "image_search_string": "prevención del ciberacoso",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "En el mundo digital, lo que publicas puede ser difícil de borrar. Piensa en las consecuencias futuras de tus publicaciones antes de compartir algo.",
+        "title": "Piensa antes de publicar",
+        "themes": [
+          "consecuencias de publicar"
+        ],
+        "image_search_string": "reflexión antes de publicar",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un mensaje claro y respetuoso es esencial en la comunicación en línea. Evita malentendidos usando un tono adecuado y siendo específico en tus palabras.",
+        "title": "Comunicación efectiva en línea",
+        "themes": [
+          "comunicación efectiva en línea"
+        ],
+        "image_search_string": "mensajes claros en internet",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El anonimato en línea puede llevar a comportamientos irresponsables. Recuerda que detrás de cada pantalla hay una persona real con sentimientos.",
+        "title": "El impacto del anonimato en línea",
+        "themes": [
+          "responsabilidad en el anonimato"
+        ],
+        "image_search_string": "anonimato en internet",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Al interactuar en redes sociales, sigue estas prácticas: \n- No publiques información sensible. \n- Sé respetuoso en tus comentarios. \n- Verifica la información antes de compartir.",
+        "title": "Buenas prácticas en redes sociales",
+        "themes": [
+          "buenas prácticas en redes sociales"
+        ],
+        "image_search_string": "normas en redes sociales",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El phishing es una técnica para engañar a las personas y obtener sus datos personales. Aprende a reconocer correos o mensajes sospechosos que pidan información confidencial.",
+        "title": "Cuidado con el phishing",
+        "themes": [
+          "riesgos del phishing"
+        ],
+        "image_search_string": "phishing ejemplo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El respeto en línea incluye no juzgar ni discriminar a los demás. Cualquier forma de discriminación o discurso de odio está prohibida.",
+        "title": "El respeto y la no discriminación en línea",
+        "themes": [
+          "respeto en línea",
+          "no discriminación"
+        ],
+        "image_search_string": "respeto en internet",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los derechos de autor protegen el trabajo creativo de las personas. No copies ni uses material sin permiso, como imágenes, música o textos.",
+        "title": "Respeto a los derechos de autor",
+        "themes": [
+          "respeto a derechos de autor"
+        ],
+        "image_search_string": "derechos de autor internet",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Asegúrate de usar contraseñas fuertes y únicas para cada cuenta. Cambia tus contraseñas regularmente y no las compartas con nadie.",
+        "title": "Seguridad de las contraseñas",
+        "themes": [
+          "contraseñas seguras"
+        ],
+        "image_search_string": "seguridad contraseñas",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El sexting puede ser peligroso ya que puede poner en riesgo tu privacidad. Evita enviar imágenes sensibles y busca apoyo si te encuentras en una situación comprometida.",
+        "title": "Riesgos del sexting",
+        "themes": [
+          "riesgos del sexting"
+        ],
+        "image_search_string": "riesgos sexting",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Recuerda que la empatía es clave. Antes de interactuar en línea, piensa en cómo tus palabras o acciones pueden afectar a los demás.",
+        "title": "La empatía en el mundo digital",
+        "themes": [
+          "empatía en línea"
+        ],
+        "image_search_string": "empatía en internet",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "¡Felicidades! Ahora sabes cómo comportarte en línea de manera segura y respetuosa. Usa tus conocimientos para fomentar un entorno digital positivo para todos.",
+        "title": "Conclusión y reflexión final",
+        "themes": [
+          "resumen de etiqueta digital"
+        ],
+        "image_search_string": "entorno digital positivo",
+        "question_types": [
+          "Intro"
+        ]
+      }
+    ],
+    "topicInEnglish": "Digital Etiquette",
+    "generationLanguage": "es-ES"
+  }
+}

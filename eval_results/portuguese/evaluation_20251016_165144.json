@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Os foguetes funcionam baseados no princípio da ação e reação, descrito pela Terceira Lei de Newton. Quando o combustível do foguete queima, ele expulsa gases quentes para trás, gerando uma força que empurra o foguete para frente.",
+      "correction": "Os foguetes funcionam com base no princípio da ação e reação, descrito pela Terceira Lei de Newton. Quando o combustível do foguete queima, ele expulsa gases quentes para trás, gerando uma força que empurra o foguete para frente.",
+      "description": "The phrase 'funcionam baseados no princípio' is incorrect in Portuguese; the correct construction is 'funcionam com base no princípio'. This correction ensures proper verb-preposition usage and improves the linguistic accuracy of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A mecânica orbital descreve como os objetos se movem no espaço devido à gravidade. Um satélite em órbita está em queda livre contínua ao redor da Terra, mas sua velocidade horizontal o mantém em órbita em vez de cair.",
+      "correction": "A mecânica orbital descreve como os objetos se movem no espaço devido à gravidade. Um satélite em órbita está em queda livre contínua ao redor da Terra, mas sua velocidade horizontal o mantém em órbita, em vez de cair.",
+      "description": "A comma is needed before 'em vez de cair' to separate the contrasting clause, improving sentence clarity and punctuation accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Para alcançar o espaço, os foguetes precisam atingir a velocidade de escape da Terra, que é de cerca de 11,2 km/s. Isso requer um planejamento cuidadoso de combustível e trajetória.",
+      "correction": "Para alcançar o espaço, os foguetes precisam atingir a velocidade de escape da Terra, que é de cerca de 11,2 km/s. Isso requer um planejamento cuidadoso do combustível e da trajetória.",
+      "description": "The phrase 'planejamento cuidadoso de combustível e trajetória' lacks the necessary definite articles and prepositions for proper agreement. The corrected version 'planejamento cuidadoso do combustível e da trajetória' ensures grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:51:44.903454",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Viajar pelo espaço é uma das maiores conquistas da humanidade! Nesta aula, vamos explorar como os foguetes funcionam e como as leis da física nos ajudam a alcançar as estrelas 🌌.",
+      "correction": "Viajar pelo espaço é uma das maiores conquistas da humanidade! Nesta aula, vamos explorar como os foguetes funcionam e como as leis da física nos ajudam a alcançar as estrelas.",
+      "description": "The sentence is grammatically correct, but the use of the rocket emoji (🌌) at the end is not standard in formal educational content in Brazilian Portuguese. Removing the emoji improves the professional tone and aligns with academic style conventions.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

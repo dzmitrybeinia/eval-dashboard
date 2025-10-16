@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Quais evidências suportam essa decisão?",
+      "correction": "Quais evidências sustentam essa decisão?",
+      "description": "The verb 'suportar' in Portuguese means 'to endure' or 'to tolerate', which is a false friend of the English 'support'. The correct verb in this context is 'sustentar', which means 'to substantiate' or 'to provide evidence for'. This lexical error affects the precision of the sentence and may cause confusion for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Confie no seu julgamento.",
+      "correction": "Confie em seu julgamento.",
+      "description": "The phrase 'Confie no seu julgamento' is understandable but less formal and less natural in Brazilian Portuguese educational contexts. The preposition 'em' is preferred in standard usage for this construction, making 'Confie em seu julgamento' more appropriate and professional for instructional material.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:25.930647",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

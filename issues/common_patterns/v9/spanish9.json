@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "label": "v9",
+    "language": "spanish",
+    "generated_at": "2025-10-15T11:25:19.159185"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect verb conjugation and agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency_count": 2,
+      "description": "Verbs are incorrectly conjugated, failing to agree in number or person with their subjects, especially in relative clauses and subjunctive constructions. This disrupts clarity and grammatical correctness.",
+      "examples": [
+        {
+          "wrong": "que permite levantar objetos pesados",
+          "correct": "que permiten levantar objetos pesados",
+          "context": "Relative clause with plural subject 'poleas'"
+        },
+        {
+          "wrong": "que capturen la atención",
+          "correct": "que capten la atención",
+          "context": "Subjunctive verb agreement with plural antecedent 'argumentos convincentes'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect adaptation of electoral terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency_count": 2,
+      "description": "Use of terms like 'registro de votantes' and 'lugar de votación' that do not match Spanish electoral procedures, leading to confusion and lack of cultural fit.",
+      "examples": [
+        {
+          "wrong": "El registro de votantes es el primer paso para participar en las elecciones.",
+          "correct": "La inscripción en el censo electoral es el primer paso para participar en las elecciones.",
+          "context": "Electoral process terminology"
+        },
+        {
+          "wrong": "Esto puede hacerse en persona en un lugar de votación, por correo o incluso en línea en algunos lugares.",
+          "correct": "Esto puede hacerse en persona en un colegio electoral o por correo en algunos lugares.",
+          "context": "Voting location and method terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect comparative construction",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Comparative phrases are formed incorrectly, using 'cuando' instead of the correct 'cuanto/cuanta' construction, which affects clarity and idiomatic correctness.",
+      "examples": [
+        {
+          "wrong": "Cuando más personas votan, las elecciones son más representativas y justas.",
+          "correct": "Cuantas más personas votan, las elecciones son más representativas y justas.",
+          "context": "Comparative construction expressing 'the more... the more...'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misuse of administrative division terms",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Reference to 'estado' instead of 'comunidad autónoma' when describing Spanish administrative divisions, which misrepresents the country's structure.",
+      "examples": [
+        {
+          "wrong": "El proceso puede variar según el estado o país, pero generalmente incluye proporcionar una identificación y prueba de residencia.",
+          "correct": "El proceso puede variar según la comunidad autónoma o país, pero generalmente incluye proporcionar una identificación y prueba de residencia.",
+          "context": "Administrative division terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inaccurate literary terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency_count": 1,
+      "description": "Use of English poetic meter terminology ('pentámetro yámbico') instead of the culturally and literarily accurate Spanish term ('verso endecasílabo').",
+      "examples": [
+        {
+          "wrong": "pentámetro yámbico",
+          "correct": "verso endecasílabo",
+          "context": "Poetic meter in Spanish literature"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or unnatural phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency_count": 13,
+      "description": "Use of expressions or sentence structures that are understandable but less natural or idiomatic in Peninsular Spanish, affecting the flow and local style of educational content.",
+      "examples": [
+        {
+          "wrong": "Las pirámides han inspirado a generaciones y son un símbolo del ingenio humano. Su legado se encuentra en la arquitectura moderna...",
+          "correct": "Su legado está presente en la arquitectura moderna...",
+          "context": "Describing influence or legacy in historical/educational contexts."
+        },
+        {
+          "wrong": "Ejemplo real: El Amazonas, un bosque tropical lluvioso, es hogar de una increíble biodiversidad...",
+          "correct": "Ejemplo real: El Amazonas, una selva tropical, alberga una increíble biodiversidad...",
+          "context": "Describing natural habitats and biodiversity."
+        },
+        {
+          "wrong": "¡Es un momento para ser creativo!",
+          "correct": "¡Es el momento de ser creativo!",
+          "context": "Motivational or instructional statements."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology mismatches (Latin American vs. Spain usage)",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 10,
+      "description": "Use of terms or phrases that are standard in Latin America but not preferred or precise in Spain, leading to minor confusion or lack of regional fit.",
+      "examples": [
+        {
+          "wrong": "En Vietnam, se decoran casas con flores de durazno...",
+          "correct": "En Vietnam, se decoran casas con flores de melocotón...",
+          "context": "Cultural references and vocabulary."
+        },
+        {
+          "wrong": "Corte Suprema",
+          "correct": "Tribunal Supremo de los Estados Unidos",
+          "context": "Legal and institutional terminology."
+        },
+        {
+          "wrong": "Comentarios",
+          "correct": "Retroalimentación",
+          "context": "Educational and professional feedback terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing Initial Capitalization in Headings and Sentences",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 8,
+      "description": "Theme headings and sentences often lack initial capitalization, which is required by Spanish orthographic standards for clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "definición de empatía",
+          "correct": "Definición de empatía",
+          "context": "Theme heading in educational content"
+        },
+        {
+          "wrong": "¿la luz natural afecta más el crecimiento que la artificial?",
+          "correct": "¿La luz natural afecta más el crecimiento que la artificial?",
+          "context": "Question missing initial capitalization"
+        },
+        {
+          "wrong": "¡todo estará perdido!",
+          "correct": "¡Todo estará perdido!",
+          "context": "Exclamatory sentence missing initial capitalization"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or regionally inappropriate terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency_count": 6,
+      "description": "Use of terms or acronyms that are not standard in Spain, often reflecting Latin American, English, or outdated usage. Corrections involve adopting terminology that aligns with Spanish conventions and educational standards.",
+      "examples": [
+        {
+          "wrong": "movimiento LGBTQ+",
+          "correct": "movimiento LGTBI+",
+          "context": "Acronym for LGBTQ+ is anglicized; LGTBI+ is standard in Spain."
+        },
+        {
+          "wrong": "plato del buen comer",
+          "correct": "plato saludable",
+          "context": "Mexican educational reference; 'plato saludable' is culturally relevant in Spain."
+        },
+        {
+          "wrong": "Los recursos renovables, como el sol y el viento, pueden ser reutilizados...",
+          "correct": "Los recursos renovables, como el sol y el viento, pueden ser aprovechados varias veces...",
+          "context": "Terminology for resource use is more precise in Spain."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural references lacking localization or context",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency_count": 5,
+      "description": "References to concepts, mnemonics, or practices from other cultures are presented without adaptation or explanation, reducing clarity and relevance for Spanish learners. Corrections provide context or adapt examples to Spanish culture.",
+      "examples": [
+        {
+          "wrong": "Por ejemplo, para recordar los colores del arcoíris en inglés ... \"Richard Of York Gave Battle In Vain\".",
+          "correct": "... se puede utilizar una frase mnemotécnica adaptada al español, como \"Ricardo Oyarzun Y Gutiérrez Bailaron Intensamente Vals\".",
+          "context": "Mnemonic is adapted for Spanish learners."
+        },
+        {
+          "wrong": "En Corea, las familias se reúnen para realizar rituales ancestrales y comer tteokguk.",
+          "correct": "En Corea, las familias se reúnen para realizar rituales ancestrales y comer sopa de pastel de arroz (tteokguk).",
+          "context": "Foreign dish is explained for Spanish audience."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent or unnatural style and register",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency_count": 5,
+      "description": "Text exhibits inconsistent use of singular/plural forms, unnatural grammatical constructions, or register mismatches that do not align with Spanish educational norms. Corrections ensure consistency, naturalness, and appropriate tone for Spain.",
+      "examples": [
+        {
+          "wrong": "La sintaxis de un lenguaje de programación son las reglas...",
+          "correct": "La sintaxis de un lenguaje de programación es el conjunto de reglas...",
+          "context": "Subject-verb agreement and style improved."
+        },
+        {
+          "wrong": "¡Bienvenidos ... Prepárense para explorar ...",
+          "correct": "¡Bienvenidos ... Prepárate para explorar ...",
+          "context": "Consistent use of singular imperative for direct address."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard lexical choices for Spain Spanish",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency_count": 4,
+      "description": "Use of terms or collocations that are either Latin American variants or not standard in Spain's educational, scientific, or technical contexts. This affects clarity and alignment with local norms.",
+      "examples": [
+        {
+          "wrong": "organelos",
+          "correct": "orgánulos",
+          "context": "Scientific terminology in biology"
+        },
+        {
+          "wrong": "segmentos de línea",
+          "correct": "segmentos de recta",
+          "context": "Mathematical terminology in geometry"
+        },
+        {
+          "wrong": "hecha de nucleótidos, que consisten en",
+          "correct": "formada por nucleótidos, que constan de",
+          "context": "Scientific register in molecular biology"
+        },
+        {
+          "wrong": "maniobras de compresión abdominal",
+          "correct": "compresiones abdominales",
+          "context": "Medical/first aid terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical inaccuracies in sentence structure",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency_count": 4,
+      "description": "Recurring issues with verb forms, sentence connectors, and agreement that reduce clarity and naturalness. These errors often result in awkward or incorrect constructions.",
+      "examples": [
+        {
+          "wrong": "jugaron un papel importante en conectar civilizaciones",
+          "correct": "jugaron un papel importante al conectar civilizaciones",
+          "context": "Incorrect connector for expressing manner"
+        },
+        {
+          "wrong": "donde haya escasez",
+          "correct": "donde hay escasez",
+          "context": "Incorrect use of subjunctive instead of indicative"
+        },
+        {
+          "wrong": "pero aún lo suficiente como para no encontrarse puros",
+          "correct": "pero aún lo son lo suficiente como para no encontrarse puros",
+          "context": "Omission of verb for grammatical clarity"
+        },
+        {
+          "wrong": "los humanos",
+          "correct": "los seres humanos",
+          "context": "Preferred formal expression in academic register"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Inconsistent Use of Scientific and Regional Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency_count": 3,
+      "description": "Non-standard or regionally inappropriate terms are used instead of the preferred terminology in Spain, affecting precision and localization fit.",
+      "examples": [
+        {
+          "wrong": "frijoles",
+          "correct": "judías",
+          "context": "Food vocabulary; 'frijoles' is Latin American, 'judías' is standard in Spain"
+        },
+        {
+          "wrong": "fabricar proteínas",
+          "correct": "sintetizar proteínas",
+          "context": "Scientific context; 'sintetizar' is the precise term in Spain"
+        },
+        {
+          "wrong": "llamada doble hélice",
+          "correct": "denominada doble hélice",
+          "context": "Scientific context; 'denominada' is preferred for technical precision"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or unnatural adjective usage for climate and emotion",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency_count": 2,
+      "description": "Use of adjectives that do not fit the context or standard collocation in Spain Spanish, leading to confusion or lack of precision.",
+      "examples": [
+        {
+          "wrong": "desiertos calientes",
+          "correct": "desiertos cálidos",
+          "context": "Climate description; 'calientes' refers to physical heat, not climate"
+        },
+        {
+          "wrong": "nos sentimos tranquilos cuando estamos tristes",
+          "correct": "nos sentimos apagados cuando estamos tristes",
+          "context": "Emotional state description; 'tranquilos' does not fit sadness"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Pronoun and possessive agreement mismatch with plural audience",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency_count": 1,
+      "description": "Inconsistent use of singular possessives and pronouns when addressing a plural audience, which affects clarity and proper audience targeting.",
+      "examples": [
+        {
+          "wrong": "tus dibujos / tus obras de arte",
+          "correct": "vuestros dibujos / vuestras obras de arte",
+          "context": "Plural greeting requires plural possessives in Spain Spanish"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or ambiguity in format and units",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency_count": 1,
+      "description": "Units of measurement or time are omitted, leading to possible confusion or ambiguity for learners unfamiliar with the context. Corrections specify units to ensure clarity.",
+      "examples": [
+        {
+          "wrong": "Usa la técnica Pomodoro: estudia durante 25 minutos y descansa 5.",
+          "correct": "Usa la técnica Pomodoro: estudia durante 25 minutos y descansa 5 minutos.",
+          "context": "Time unit clarified for both study and rest periods."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary or incorrect punctuation",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency_count": 5,
+      "description": "Use of commas, colons, or quotation marks that do not align with Spanish punctuation norms, slightly disrupting readability and professionalism.",
+      "examples": [
+        {
+          "wrong": "En esta lección, aprenderemos sobre variables...",
+          "correct": "En esta lección aprenderemos sobre variables...",
+          "context": "Introductory clauses in educational texts."
+        },
+        {
+          "wrong": "Algunos ejemplos de amabilidad incluyen: ayudar a un amigo...",
+          "correct": "Algunos ejemplos de amabilidad incluyen ayudar a un amigo...",
+          "context": "Listing examples or items."
+        },
+        {
+          "wrong": "El ADN puede sufrir cambios o \"mutaciones\"...",
+          "correct": "El ADN puede sufrir cambios o mutaciones...",
+          "context": "Scientific terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural adaptation omissions",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency_count": 4,
+      "description": "Examples or references lack local Spanish or European context, reducing cultural relevance and engagement for Spain-based learners.",
+      "examples": [
+        {
+          "wrong": "Como Siri o Alexa.",
+          "correct": "Como Siri, Alexa o Aura.",
+          "context": "Examples of virtual assistants."
+        },
+        {
+          "wrong": "Como los fabricados por Tesla.",
+          "correct": "Como los fabricados por Tesla, SEAT o Renault.",
+          "context": "Examples of autonomous vehicles."
+        },
+        {
+          "wrong": "\"Tengo un sueño\" de Martin Luther King Jr.",
+          "correct": "\"I Have a Dream\" de Martin Luther King Jr.",
+          "context": "Referencing famous international speeches."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Anglicisms and unnecessary English terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency_count": 3,
+      "description": "Inclusion of English terms in parentheses or as part of Spanish text where a fully localized Spanish term is standard and preferred.",
+      "examples": [
+        {
+          "wrong": "Lectura superficial (Skimming)",
+          "correct": "Lectura superficial",
+          "context": "Reading strategies in educational materials."
+        },
+        {
+          "wrong": "Lectura selectiva (Scanning)",
+          "correct": "Lectura selectiva",
+          "context": "Reading strategies in educational materials."
+        },
+        {
+          "wrong": "Lectura profunda (Close Reading)",
+          "correct": "Lectura profunda",
+          "context": "Reading strategies in educational materials."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Punctuation and Formatting in Lists and Abbreviations",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency_count": 2,
+      "description": "Lists lack necessary punctuation and conjunctions, and abbreviations are formatted incorrectly, which affects readability and adherence to Spanish typographic standards.",
+      "examples": [
+        {
+          "wrong": "inicio desarrollo desenlace",
+          "correct": "inicio, desarrollo y desenlace",
+          "context": "List of elements missing commas and conjunction"
+        },
+        {
+          "wrong": "siglo VI a.C.",
+          "correct": "siglo VI a. C.",
+          "context": "Abbreviation for 'antes de Cristo' missing required space"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Use of Quotation Marks",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency_count": 1,
+      "description": "English-style double quotation marks are used instead of Spanish angular quotation marks (« ») for citations and titles, which does not conform to Spanish typographic norms.",
+      "examples": [
+        {
+          "wrong": "\"Tengo un sueño\"",
+          "correct": "«Tengo un sueño»",
+          "context": "Citing a speech or title in educational material"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Use of Connectors in Relative Clauses",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency_count": 1,
+      "description": "The connector 'donde' is used for abstract concepts instead of 'en la que', which is the correct form in Peninsular Spanish for non-physical references.",
+      "examples": [
+        {
+          "wrong": "mentalidad fija, donde se piensa que las habilidades son innatas e inmutables.",
+          "correct": "mentalidad fija, en la que se piensa que las habilidades son innatas e inmutables.",
+          "context": "Relative clause referring to an abstract noun"
+        }
+      ]
+    }
+  ]
+}

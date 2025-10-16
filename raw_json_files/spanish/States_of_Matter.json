@@ -1,0 +1,100 @@
+{
+  "request": {
+    "lesson_description": "Understanding the states of matter: Solid, liquid, gas, and plasma. Explore their properties, transitions, and real-world examples.",
+    "exercises_ratio": 0.0,
+    "grade_level": "8th grade",
+    "estimated_length": 30,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "5efb90b8",
+    "topicInEnglish": "States of Matter",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Understanding the States of Matter",
+    "slides": [
+      {
+        "content": "¿Sabías que todo lo que te rodea está hecho de materia y que la materia puede presentarse en diferentes formas? En esta lección, exploraremos los estados de la materia y cómo cambian de un estado a otro. ¡Prepárate para descubrir ejemplos fascinantes y aprender sobre las transiciones de la materia! 🌟",
+        "title": "Introducción a los estados de la materia",
+        "themes": [
+          "introducción a la materia"
+        ],
+        "image_search_string": "estados de la materia",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La materia está formada por partículas, como átomos y moléculas. Los estados principales de la materia incluyen:\n\n- **Sólido**: Tiene forma y volumen definidos. Las partículas están muy juntas y vibran en su lugar.\n- **Líquido**: Tiene volumen definido pero forma indefinida. Las partículas están más separadas y pueden moverse unas sobre otras.\n- **Gas**: No tiene ni forma ni volumen definidos. Las partículas están muy separadas y se mueven libremente.\n- **Plasma**: Es un gas ionizado, compuesto de partículas cargadas, que se encuentran en condiciones de alta energía, como en las estrellas.",
+        "title": "Los estados principales de la materia",
+        "themes": [
+          "estados principales de la materia",
+          "características de sólidos, líquidos, gases y plasma"
+        ],
+        "image_search_string": "estados de la materia particulas",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los sólidos tienen:\n\n1. **Forma fija**: Mantienen su forma sin importar el recipiente.\n2. **Volumen constante**: No se comprimen fácilmente.\n3. **Partículas organizadas**: Están en una estructura fija, vibrando en su lugar.\n\nEjemplos comunes incluyen el hielo, la madera y los metales.",
+        "title": "Características de los sólidos",
+        "themes": [
+          "propiedades de los sólidos"
+        ],
+        "image_search_string": "estructura de sólidos",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los líquidos presentan:\n\n1. **Forma indefinida**: Se adaptan a la forma del recipiente.\n2. **Volumen constante**: No cambian de volumen fácilmente.\n3. **Partículas móviles**: Pueden deslizarse unas sobre otras, permitiendo fluidez.\n\nEjemplos incluyen el agua, el aceite y el jugo.",
+        "title": "Características de los líquidos",
+        "themes": [
+          "propiedades de los líquidos"
+        ],
+        "image_search_string": "líquidos en recipientes",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los gases tienen:\n\n1. **Forma y volumen indefinidos**: Ocupan todo el espacio disponible.\n2. **Alta compresibilidad**: Pueden comprimirse fácilmente.\n3. **Partículas dispersas**: Se mueven libremente y con alta energía.\n\nEjemplos son el aire, el dióxido de carbono y el vapor de agua.",
+        "title": "Características de los gases",
+        "themes": [
+          "propiedades de los gases"
+        ],
+        "image_search_string": "partículas de gas",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El plasma es un estado de alta energía que se encuentra en:\n\n1. **Condiciones extremas**: Como altas temperaturas o campos eléctricos intensos.\n2. **Partículas cargadas**: Contiene iones y electrones libres.\n3. **Aplicaciones tecnológicas**: Como en televisores de plasma y lámparas de neón.\n\nEjemplos naturales incluyen el sol y los rayos.",
+        "title": "Características del plasma",
+        "themes": [
+          "propiedades del plasma",
+          "ejemplos de plasma"
+        ],
+        "image_search_string": "plasma estado de la materia",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "States of Matter",
+    "generationLanguage": "es-ES"
+  }
+}

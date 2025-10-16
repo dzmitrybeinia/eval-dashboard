@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Foco no que é mais importante.",
+      "correction": "Concentre-se no que é mais importante.",
+      "description": "The original phrase uses 'Foco', which is a noun, making the sentence sound abrupt and less natural in Brazilian Portuguese. The imperative 'Concentre-se' is more appropriate for instructional content, providing a clear and direct recommendation. This change improves the naturalness and instructional tone of the text.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Use técnicas de notas adequadas ao conteúdo.",
+      "correction": "Use técnicas de anotação adequadas ao conteúdo.",
+      "description": "The phrase 'técnicas de notas' is grammatically incorrect in Portuguese. The correct term is 'técnicas de anotação', as 'anotação' refers to the act of taking notes, while 'notas' typically refers to grades or musical notes. This correction ensures lexical precision and proper communication of the intended meaning.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:52:00.124570",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

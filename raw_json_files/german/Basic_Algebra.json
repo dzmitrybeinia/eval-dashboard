@@ -1,0 +1,126 @@
+{
+  "request": {
+    "lesson_description": "Introduction to Basic Algebra: Understanding Variables, Expressions, and Equations.",
+    "exercises_ratio": 0.4,
+    "grade_level": "7th grade",
+    "estimated_length": 15,
+    "learning_standard": "CCSS.MATH.CONTENT.7.EE.B.4: Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations to solve problems.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "72e991b2",
+    "topicInEnglish": "Basic Algebra",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Einführung in die Grundlagen der Algebra: Variablen, Ausdrücke und Gleichungen",
+    "slides": [
+      {
+        "content": "Algebra ist ein wichtiger Bereich der Mathematik, der uns hilft, Beziehungen und Muster zu erkennen und Probleme zu lösen. Heute beginnen wir mit den Grundlagen: Variablen, Ausdrücken und Gleichungen. 🌟",
+        "title": "Willkommen in der Welt der Algebra!",
+        "themes": [
+          "Einführung in Algebra"
+        ],
+        "image_search_string": "basic algebra introduction",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Eine Variable ist ein Symbol, oft ein Buchstabe, das für eine unbekannte Zahl steht. Zum Beispiel: In der Gleichung x + 2 = 5 steht x für eine Zahl, die wir herausfinden möchten.",
+        "title": "Was ist eine Variable?",
+        "themes": [
+          "Definition einer Variable"
+        ],
+        "image_search_string": "variable in algebra",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ein mathematischer Ausdruck kombiniert Zahlen, Variablen und Operatoren (wie +, -, *, /), ohne eine Gleichung zu bilden. Beispiel: 3x + 4 ist ein Ausdruck.",
+        "title": "Was ist ein Ausdruck?",
+        "themes": [
+          "Definition eines mathematischen Ausdrucks"
+        ],
+        "image_search_string": "algebraic expression example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Eine Gleichung ist eine Aussage, die zeigt, dass zwei Ausdrücke gleich sind, oft mit einem Gleichheitszeichen (=). Beispiel: 2x + 3 = 7 ist eine Gleichung.",
+        "title": "Was ist eine Gleichung?",
+        "themes": [
+          "Definition einer Gleichung"
+        ],
+        "image_search_string": "algebraic equation example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "In der Algebra verwenden wir Variablen, um reale Probleme zu modellieren. Beispiel: Wenn du 3 Äpfel kaufen möchtest und der Preis pro Apfel x Euro beträgt, ist der Gesamtpreis 3x.",
+        "title": "Variablen in realen Situationen",
+        "themes": [
+          "Anwendung von Variablen"
+        ],
+        "image_search_string": "real life algebra example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Um eine Gleichung zu lösen, isolieren wir die Variable, indem wir die Gleichung Schritt für Schritt umformen. Beispiel: In x + 3 = 7 subtrahieren wir 3 von beiden Seiten, um x = 4 zu finden.",
+        "title": "Gleichungen lösen",
+        "themes": [
+          "Gleichungen lösen"
+        ],
+        "image_search_string": "solving simple algebra equations",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Ein wichtiger Schritt ist das Überprüfen der Lösung. Setze die gefundene Zahl wieder in die Gleichung ein und überprüfe, ob beide Seiten gleich sind.",
+        "title": "Lösungen überprüfen",
+        "themes": [
+          "Überprüfung von Lösungen"
+        ],
+        "image_search_string": "checking algebra solutions",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Einige häufige Fehler in der Algebra sind das Vergessen von Vorzeichen, das Nichtbeachten von Klammern oder das falsche Umformen von Gleichungen. Sei aufmerksam und prüfe deine Arbeit!",
+        "title": "Häufige Fehler vermeiden",
+        "themes": [
+          "Fehlervermeidung in Algebra"
+        ],
+        "image_search_string": "common algebra mistakes",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Heute haben wir gelernt, was Variablen, Ausdrücke und Gleichungen sind, und wie sie in realen Problemen genutzt werden können. Denke daran, dass Übung den Meister macht!",
+        "title": "Zusammenfassung und nächste Schritte",
+        "themes": [
+          "Zusammenfassung der Lektion"
+        ],
+        "image_search_string": "algebra summary",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Basic Algebra",
+    "generationLanguage": "de-DE"
+  }
+}

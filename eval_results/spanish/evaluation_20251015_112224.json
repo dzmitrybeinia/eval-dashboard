@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo real: El Amazonas, un bosque tropical lluvioso, es hogar de una increíble biodiversidad debido a su clima constante y húmedo.",
+      "correction": "Ejemplo real: El Amazonas, una selva tropical, alberga una increíble biodiversidad gracias a su clima constante y húmedo.",
+      "description": "The phrase 'es hogar de una increíble biodiversidad' is understandable, but 'alberga una increíble biodiversidad' is more idiomatic and natural in Spain. Additionally, 'gracias a su clima constante y húmedo' is a more fluid and native way to express the causal relationship than 'debido a su clima constante y húmedo'. The change from 'bosque tropical lluvioso' to 'selva tropical' also improves naturalness for Spain.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo real: La Antártida es un desierto helado donde casi no hay plantas, pero es hogar de animales como los pingüinos.",
+      "correction": "Ejemplo real: La Antártida es un desierto helado donde apenas hay plantas, pero alberga animales como los pingüinos.",
+      "description": "The phrase 'donde casi no hay plantas' is correct, but 'donde apenas hay plantas' is more idiomatic in Spain. Similarly, 'es hogar de animales' is understandable, but 'alberga animales' is more natural and concise in Peninsular Spanish.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:22:24.534516",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "bosque tropical lluvioso",
+      "correction": "bosque tropical lluvioso",
+      "description": "Although 'bosque tropical lluvioso' is correct, in Spain the more common term for 'rainforest' is 'selva tropical'. Using 'bosque tropical lluvioso' is not incorrect, but 'selva tropical' would be more natural and widely understood in Peninsular Spanish. This is a minor lexical preference, not a strict error.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

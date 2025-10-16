@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le décor est le lieu et le moment où se déroule l'histoire.",
+      "correction": "Le décor est le lieu et l'époque où se déroule l'histoire.",
+      "description": "The term 'moment' is less precise in French when describing the temporal setting of a story. 'Époque' is the standard term used in literary analysis to refer to the time period or era, making the definition more accurate and natural for French educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:34:02.498698",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à plonger dans le monde fascinant des récits ! 📚",
+      "correction": "Préparez-vous à plonger dans le monde fascinant des récits !",
+      "description": "The use of the book emoji (📚) at the end of the sentence may be considered informal or inappropriate in certain educational or formal French contexts, especially in printed or professional materials. Removing the emoji ensures a more neutral and universally appropriate tone for all audiences.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

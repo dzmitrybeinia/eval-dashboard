@@ -1,0 +1,86 @@
+{
+  "request": {
+    "lesson_description": "Understanding the importance of kindness and empathy: How small acts of kindness can create a positive impact on individuals and communities.",
+    "exercises_ratio": 0.3,
+    "grade_level": "6th grade",
+    "estimated_length": 30,
+    "learning_standard": "CASEL Core SEL Competencies: Develop social awareness by demonstrating empathy and understanding for others.",
+    "additional_guidance": "Include real-world examples of kindness in action, such as community service, and explore how empathy can strengthen social bonds. Focus on practical ways students can practice kindness in their daily lives.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "44a4b377",
+    "topicInEnglish": "Kindness Matters",
+    "generationLanguage": "pt-PT"
+  },
+  "response": {
+    "title": "A Importância da Bondade e da Empatia",
+    "slides": [
+      {
+        "content": "Bem-vindos a esta jornada incrível para entender como a bondade e a empatia podem transformar nossas vidas e o mundo ao nosso redor 🌟! Vamos descobrir como pequenos atos podem fazer uma grande diferença.",
+        "title": "Introdução à Bondade e Empatia",
+        "themes": [
+          "introdução à bondade",
+          "empatia e impacto"
+        ],
+        "image_search_string": "kindness and empathy",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Bondade é a prática de ser gentil, generoso e solidário com os outros. Empatia é a capacidade de compreender e compartilhar os sentimentos de outra pessoa. Ambas são fundamentais para construir relacionamentos fortes e comunidades unidas.",
+        "title": "O que são Bondade e Empatia?",
+        "themes": [
+          "definição de bondade",
+          "definição de empatia"
+        ],
+        "image_search_string": "kindness empathy explanation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "1. A bondade ajuda a criar confiança entre as pessoas.\n2. A empatia promove compreensão mútua e respeito.\n3. Juntas, elas fortalecem os laços sociais e tornam o mundo um lugar melhor.",
+        "title": "Por que a Bondade e a Empatia são Importantes?",
+        "themes": [
+          "importância da bondade",
+          "importância da empatia"
+        ],
+        "image_search_string": "importance of kindness",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "1. Cumprimentar alguém com um sorriso.\n2. Ajudar um colega de classe com uma tarefa.\n3. Participar de ações voluntárias na comunidade.\n4. Ser um bom ouvinte quando alguém precisa desabafar.",
+        "title": "Exemplos de Atos de Bondade",
+        "themes": [
+          "exemplos de bondade",
+          "bondade na prática"
+        ],
+        "image_search_string": "examples of kindness acts",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Empatia envolve:\n- Ouvir ativamente o que os outros dizem.\n- Colocar-se no lugar do outro para entender seus sentimentos.\n- Responder de forma solidária e respeitosa.",
+        "title": "Como Praticar a Empatia",
+        "themes": [
+          "práticas de empatia",
+          "como ser empático"
+        ],
+        "image_search_string": "how to practice empathy",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Kindness Matters",
+    "generationLanguage": "pt-PT"
+  }
+}

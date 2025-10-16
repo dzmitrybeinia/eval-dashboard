@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn der Zähler gleich oder größer als der Nenner ist, spricht man von einem unechten Bruch oder einer gemischten Zahl.",
+      "correction": "Wenn der Zähler gleich oder größer als der Nenner ist, spricht man von einem unechten Bruch. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem Bruch.",
+      "description": "The original sentence conflates 'unechter Bruch' (improper fraction) and 'gemischte Zahl' (mixed number), which are distinct concepts in German mathematics terminology. This may cause confusion for learners. The correction separates the definitions, clarifying that an improper fraction has a numerator equal to or greater than the denominator, while a mixed number is a combination of a whole number and a fraction. This improves both terminological accuracy and educational clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:45:19.130210",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

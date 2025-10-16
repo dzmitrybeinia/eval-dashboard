@@ -1,0 +1,193 @@
+{
+  "request": {
+    "lesson_description": "Understanding the structure of the U.S. government: The three branches and their roles.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "285dbb4e",
+    "topicInEnglish": "Government Structure",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Understanding the Structure of the U.S. Government",
+    "slides": [
+      {
+        "content": "Bienvenue dans notre exploration de la structure du gouvernement des États-Unis ! Aujourd'hui, nous allons découvrir comment ce gouvernement est organisé et quelles sont les responsabilités des trois branches principales qui le composent. 🇺🇸",
+        "title": "Introduction au gouvernement des États-Unis",
+        "themes": [
+          "introduction au gouvernement"
+        ],
+        "image_search_string": "US government structure",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Le gouvernement des États-Unis est divisé en trois branches principales : législative, exécutive et judiciaire. Cette séparation des pouvoirs permet d'assurer un équilibre et d'empêcher qu'une seule branche ne devienne trop puissante.",
+        "title": "Les trois branches du gouvernement",
+        "themes": [
+          "division des pouvoirs"
+        ],
+        "image_search_string": "three branches of government",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La branche législative est composée du Congrès, qui inclut le Sénat et la Chambre des représentants. Son rôle principal est de rédiger, débattre et adopter les lois.",
+        "title": "La branche législative",
+        "themes": [
+          "rôle de la branche législative"
+        ],
+        "image_search_string": "legislative branch",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le Sénat compte 100 membres, deux pour chaque État, tandis que la Chambre des représentants a un nombre de membres basé sur la population des États. Ensemble, ils travaillent pour représenter les citoyens et leurs intérêts.",
+        "title": "Composition de la branche législative",
+        "themes": [
+          "composition du Congrès"
+        ],
+        "image_search_string": "US Congress members",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La branche exécutive est dirigée par le président des États-Unis. Cette branche est responsable de l'application et de l'exécution des lois adoptées par le Congrès.",
+        "title": "La branche exécutive",
+        "themes": [
+          "rôle de la branche exécutive"
+        ],
+        "image_search_string": "executive branch US",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le président est assisté par le vice-président et un cabinet composé de responsables de différentes agences gouvernementales. Ces membres conseillent le président sur divers sujets.",
+        "title": "Composition de la branche exécutive",
+        "themes": [
+          "composition de la branche exécutive"
+        ],
+        "image_search_string": "US executive branch members",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La branche judiciaire interprète les lois et s'assure qu'elles respectent la Constitution. Elle est dirigée par la Cour suprême.",
+        "title": "La branche judiciaire",
+        "themes": [
+          "rôle de la branche judiciaire"
+        ],
+        "image_search_string": "judicial branch US",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La Cour suprême est composée de neuf juges, appelés juges de la Cour suprême, qui sont nommés par le président et confirmés par le Sénat.",
+        "title": "Composition de la branche judiciaire",
+        "themes": [
+          "composition de la Cour suprême"
+        ],
+        "image_search_string": "US Supreme Court",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Chaque branche du gouvernement dispose de pouvoirs spécifiques et peut limiter les actions des autres branches pour maintenir un équilibre. Ce système est connu sous le nom de freins et contrepoids.",
+        "title": "Le système des freins et contrepoids",
+        "themes": [
+          "système de freins et contrepoids"
+        ],
+        "image_search_string": "checks and balances",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Par exemple, le président peut opposer son veto à une loi adoptée par le Congrès, mais le Congrès peut passer outre ce veto avec une majorité des deux tiers. De même, la Cour suprême peut déclarer une loi inconstitutionnelle.",
+        "title": "Exemples de freins et contrepoids",
+        "themes": [
+          "exemples de freins et contrepoids"
+        ],
+        "image_search_string": "veto process US",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La Constitution des États-Unis est la base de tout le système gouvernemental. Elle définit les pouvoirs et les responsabilités de chaque branche et protège les droits des citoyens.",
+        "title": "La Constitution des États-Unis",
+        "themes": [
+          "rôle de la Constitution"
+        ],
+        "image_search_string": "US Constitution",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les amendements à la Constitution permettent de l'adapter aux changements de la société. Par exemple, le premier amendement garantit la liberté d'expression et de religion.",
+        "title": "Les amendements à la Constitution",
+        "themes": [
+          "amendements de la Constitution"
+        ],
+        "image_search_string": "US Constitution amendments",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Comprendre la structure du gouvernement des États-Unis est essentiel pour saisir comment les lois sont créées, appliquées et interprétées, et pour voir comment les citoyens peuvent participer activement à la démocratie.",
+        "title": "Importance de comprendre le gouvernement",
+        "themes": [
+          "importance de la compréhension du gouvernement"
+        ],
+        "image_search_string": "civic engagement",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Nous avons exploré les trois branches du gouvernement des États-Unis, leurs rôles et leurs responsabilités. Maintenant, réfléchissez à comment ces informations peuvent vous aider à comprendre votre rôle en tant que citoyen.",
+        "title": "Résumé et réflexion",
+        "themes": [
+          "résumé du gouvernement"
+        ],
+        "image_search_string": "three branches review",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Government Structure",
+    "generationLanguage": "fr-FR"
+  }
+}

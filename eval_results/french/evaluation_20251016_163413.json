@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Technologie de la consommation : Assistants vocaux, recommandations sur les plateformes de streaming.",
+      "correction": "Technologie grand public : Assistants vocaux, recommandations sur les plateformes de streaming.",
+      "description": "The term 'Technologie de la consommation' is a literal translation of 'consumer technology' but is not commonly used in French. The standard and natural term is 'Technologie grand public', which is widely accepted in French-speaking contexts to refer to technology intended for general consumers. This correction ensures the terminology is locally appropriate and easily understood.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:34:13.226005",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à explorer une des technologies les plus influentes de notre époque ! 🤖",
+      "correction": "Préparez-vous à explorer l'une des technologies les plus influentes de notre époque ! 🤖",
+      "description": "The phrase 'une des technologies' is grammatically acceptable but less formal and less precise than 'l'une des technologies', which is preferred in educational and formal contexts. Using 'l'une des' improves the register and aligns with standard French style for written educational materials. The emoji 🤖 is acceptable for informal or youth-oriented content, but may be considered too casual for some educational settings; however, since the overall tone is introductory and engaging, its use is not a critical issue.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

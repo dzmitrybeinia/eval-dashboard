@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplos de actos amables:",
+      "correction": "Ejemplos de actos de amabilidad:",
+      "description": "The phrase 'actos amables' is not the most natural or standard way to refer to 'acts of kindness' in Spanish educational contexts. 'Actos de amabilidad' is the preferred and more widely accepted term, ensuring consistency and professionalism in terminology. This change improves the naturalness and clarity of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Voluntariado, donar a quienes lo necesitan o simplemente sonreír a alguien.",
+      "correction": "Hacer voluntariado, donar a quienes lo necesitan o simplemente sonreír a alguien.",
+      "description": "The list item 'Voluntariado' lacks a verb, making it less natural and inconsistent with the other examples, which use infinitive verbs ('Ayudar', 'Incluir', 'Agradecer', etc.). 'Hacer voluntariado' is the standard and natural way to express this action in Spanish, ensuring parallel structure and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters_1.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:54:29.328890",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

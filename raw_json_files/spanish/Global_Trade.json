@@ -1,0 +1,98 @@
+{
+  "request": {
+    "lesson_description": "Understanding Global Trade: Exploring imports, exports, trade routes, and the impact of globalization.",
+    "exercises_ratio": 0.4,
+    "grade_level": "10th grade",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Social Studies Standards (NGSSS): Analyze the role of trade in shaping economic systems and global relations.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "0157b0bf",
+    "topicInEnglish": "Global Trade",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Entendiendo el Comercio Global",
+    "slides": [
+      {
+        "content": "El comercio global conecta a las naciones a través del intercambio de bienes, servicios y recursos. En este recorrido, exploraremos cómo los países participan en el comercio y cómo este moldea las economías y relaciones internacionales. 🌍",
+        "title": "Introducción al Comercio Global",
+        "themes": [
+          "concepto de comercio global"
+        ],
+        "image_search_string": "mapa comercio global",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El comercio global se basa en dos conceptos principales: las importaciones y las exportaciones. Las importaciones son bienes o servicios que un país compra de otros, mientras que las exportaciones son aquellos que vende a otros países. Este intercambio permite a las naciones obtener productos que no producen localmente y vender sus excedentes.",
+        "title": "¿Qué son las Importaciones y Exportaciones?",
+        "themes": [
+          "definición de importaciones",
+          "definición de exportaciones"
+        ],
+        "image_search_string": "importaciones exportaciones globales",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las rutas comerciales son caminos o vías usadas históricamente y en la actualidad para trasladar bienes entre países. Algunos ejemplos famosos incluyen la Ruta de la Seda, que conectaba Asia con Europa, y las actuales rutas marítimas que cruzan el Canal de Panamá.",
+        "title": "Rutas Comerciales a lo Largo de la Historia",
+        "themes": [
+          "importancia de rutas comerciales"
+        ],
+        "image_search_string": "mapa rutas comerciales",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La globalización ha transformado el comercio, permitiendo una conexión más rápida y eficiente entre mercados. Esto incluye el desarrollo de tecnologías de transporte y comunicación, que han facilitado el comercio internacional y la integración económica.",
+        "title": "El Impacto de la Globalización en el Comercio",
+        "themes": [
+          "efectos de la globalización en comercio"
+        ],
+        "image_search_string": "globalización comercio",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El comercio global no solo influye en la economía, sino también en las relaciones internacionales. Los acuerdos comerciales, como los tratados de libre comercio, y las organizaciones internacionales como la OMC juegan un rol clave en facilitar y regular estos intercambios.",
+        "title": "El Rol del Comercio en las Relaciones Internacionales",
+        "themes": [
+          "acuerdos comerciales",
+          "organizaciones internacionales"
+        ],
+        "image_search_string": "acuerdos comercio internacional",
+        "question_types": [
+          "ShortForm",
+          "Grouping",
+          "Match"
+        ]
+      },
+      {
+        "content": "El comercio global tiene tanto beneficios como desafíos. Entre los beneficios están el acceso a bienes diversos y el crecimiento económico. Sin embargo, también enfrenta problemas como desigualdades económicas y el impacto ambiental.",
+        "title": "Beneficios y Desafíos del Comercio Global",
+        "themes": [
+          "ventajas del comercio global",
+          "desafíos del comercio global"
+        ],
+        "image_search_string": "beneficios y desafíos comercio",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Global Trade",
+    "generationLanguage": "es-ES"
+  }
+}

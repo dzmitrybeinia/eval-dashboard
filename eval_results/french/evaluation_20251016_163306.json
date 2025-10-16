@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La Déclaration universelle des droits de l'homme (DUDH) a été adoptée en 1948 en réponse aux atrocités de la Seconde Guerre mondiale.",
+      "correction": "La Déclaration universelle des droits de l'homme (DUDH) a été adoptée en 1948, en réponse aux atrocités de la Seconde Guerre mondiale.",
+      "description": "A comma is required after '1948' to separate the introductory clause from the main clause, improving sentence clarity and conforming to French punctuation norms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Par exemple, en Afrique du Sud, l'abolition de l'apartheid a été un exemple marquant de la lutte pour les droits humains et l'égalité raciale.",
+      "correction": "Par exemple, en Afrique du Sud, l'abolition de l'apartheid a été un exemple marquant de la lutte pour les droits humains et l'égalité raciale. D'autres exemples pertinents incluent la Déclaration des droits civiques aux États-Unis ou la lutte pour les droits des femmes en France.",
+      "description": "While the reference to South Africa is accurate, relying solely on this example may limit cultural relevance for learners from other regions. Adding additional examples from different contexts (such as the US civil rights movement or women's rights in France) would enhance inclusivity and localization, making the content more relatable to a broader audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "des lois protégeant la liberté de la presse favorisent la transparence et la démocratie, mais peuvent aussi avoir des conséquences inattendues, comme l'augmentation de discours haineux.",
+      "correction": "des lois protégeant la liberté de la presse favorisent la transparence et la démocratie, mais peuvent aussi avoir des conséquences inattendues, comme l'augmentation des discours haineux.",
+      "description": "The phrase 'l'augmentation de discours haineux' is incorrect; 'discours' is a countable noun and requires the plural article 'des'. The correct form is 'l'augmentation des discours haineux'. This correction ensures proper article usage and noun agreement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:33:06.462481",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "request": {
+    "lesson_description": "Reading Strategies: Understanding main ideas, scanning for key details, and making inferences.",
+    "exercises_ratio": 0.0,
+    "grade_level": "8th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "5ce94358",
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Estrategias de Lectura: Comprensión de Ideas Principales y Más",
+    "slides": [
+      {
+        "content": "¡Bienvenidos a una aventura de lectura! Hoy aprenderemos formas especiales de entender mejor lo que leemos. ¡Prepárense para descubrir nuevas estrategias que harán de la lectura algo emocionante! 📚✨",
+        "title": "Introducción a las Estrategias de Lectura",
+        "themes": [
+          "Introducción a estrategias de lectura"
+        ],
+        "image_search_string": "niños leyendo libros",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Las ideas principales son el corazón de cualquier texto. Estas responden a la pregunta: ¿De qué trata principalmente este texto? Identificar la idea principal te ayuda a comprender el propósito general del autor y a organizar la información de manera más clara.",
+        "title": "¿Qué son las Ideas Principales?",
+        "themes": [
+          "Definición de ideas principales"
+        ],
+        "image_search_string": "idea principal texto",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para encontrar la idea principal, sigue estos pasos:\n\n1. Lee el título y subtítulos.\n2. Fíjate en las primeras y últimas oraciones de cada párrafo.\n3. Busca palabras o frases que se repitan.\n4. Pregúntate: ¿Qué mensaje está tratando de comunicar el autor?\n\nCon práctica, identificar la idea principal será más sencillo.",
+        "title": "Cómo Identificar la Idea Principal",
+        "themes": [
+          "Pasos para identificar ideas principales"
+        ],
+        "image_search_string": "pasos lectura idea principal",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Los detalles clave son piezas específicas de información que respaldan la idea principal. Estos pueden incluir datos, ejemplos, descripciones o explicaciones que refuercen el mensaje principal del texto.",
+        "title": "¿Qué son los Detalles Clave?",
+        "themes": [
+          "Definición de detalles clave"
+        ],
+        "image_search_string": "detalles clave texto",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para encontrar detalles clave:\n\n1. Lee detenidamente cada párrafo.\n2. Subraya o anota información que parezca importante.\n3. Relaciona estos detalles con la idea principal para asegurarte de que son relevantes.\n\n¡Recuerda! No todos los detalles son igualmente importantes, enfócate en los que más apoyan la idea principal.",
+        "title": "Cómo Identificar Detalles Clave",
+        "themes": [
+          "Pasos para identificar detalles clave"
+        ],
+        "image_search_string": "encontrar detalles clave",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Inferir significa leer entre líneas para encontrar significados ocultos o implícitos en el texto. Esto implica usar pistas del texto y tu propio conocimiento para entender lo que no está dicho directamente.",
+        "title": "¿Qué es Inferir?",
+        "themes": [
+          "Definición de inferencia"
+        ],
+        "image_search_string": "inferencias lectura",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para hacer inferencias:\n\n1. Lee el texto cuidadosamente.\n2. Busca pistas o información implícita.\n3. Usa tu conocimiento previo para conectar las pistas.\n4. Formula una conclusión lógica basada en la evidencia.\n\nEsta estrategia te ayudará a entender el texto de manera más profunda.",
+        "title": "Cómo Hacer Inferencias",
+        "themes": [
+          "Pasos para hacer inferencias"
+        ],
+        "image_search_string": "pasos hacer inferencias",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Comparar y contrastar es una estrategia útil para analizar información. Comparar significa buscar similitudes, mientras que contrastar busca diferencias. Esto te ayuda a entender mejor los conceptos o eventos en un texto.",
+        "title": "Comparar y Contrastar",
+        "themes": [
+          "Definición de comparar y contrastar"
+        ],
+        "image_search_string": "comparar contrastar texto",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Para comparar y contrastar:\n\n1. Identifica los elementos a analizar.\n2. Haz una lista de similitudes y diferencias.\n3. Usa organizadores gráficos como diagramas de Venn para visualizar la información.\n\nEsto te ayudará a organizar mejor tus ideas y comprender relaciones entre conceptos.",
+        "title": "Cómo Comparar y Contrastar",
+        "themes": [
+          "Pasos para comparar y contrastar"
+        ],
+        "image_search_string": "diagrama de venn lectura",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "El escaneo es una técnica para encontrar información específica rápidamente. Esta estrategia es especialmente útil cuando buscas fechas, nombres, o palabras clave en un texto.",
+        "title": "¿Qué es el Escaneo?",
+        "themes": [
+          "Definición de escaneo en lectura"
+        ],
+        "image_search_string": "escaneo texto lectura",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para escanear un texto:\n\n1. Ten claro lo que estás buscando.\n2. Deja que tus ojos se muevan rápidamente por el texto.\n3. Fíjate en palabras clave, números o títulos.\n4. Detente cuando encuentres lo que buscas.\n\n¡El escaneo te ahorra tiempo y esfuerzo!",
+        "title": "Cómo Escanear un Texto",
+        "themes": [
+          "Pasos para escanear un texto"
+        ],
+        "image_search_string": "técnica escaneo lectura",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "El resumen consiste en condensar la información principal de un texto en unas pocas oraciones. Es una habilidad importante para retener y transmitir información de manera clara y concisa.",
+        "title": "¿Qué es Resumir?",
+        "themes": [
+          "Definición de resumen en lectura"
+        ],
+        "image_search_string": "resumen lectura texto",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para hacer un buen resumen:\n\n1. Identifica la idea principal y los detalles clave.\n2. Escribe las ideas en tus propias palabras.\n3. Omite información innecesaria o repetitiva.\n\nUn resumen efectivo te ayuda a entender y recordar lo que has leído.",
+        "title": "Cómo Hacer un Resumen",
+        "themes": [
+          "Pasos para resumir"
+        ],
+        "image_search_string": "escribir resumen claro",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Practicar regularmente estas estrategias te hará un lector más eficiente. Intenta aplicarlas en diferentes tipos de textos como cuentos, artículos, y ensayos. Con el tiempo, te sentirás más seguro y disfrutarás más de la lectura.",
+        "title": "La Importancia de Practicar",
+        "themes": [
+          "Importancia de practicar estrategias"
+        ],
+        "image_search_string": "practicar lectura estrategias",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "¡Ahora estás listo para aplicar lo aprendido! Recuerda: identificar ideas principales, buscar detalles clave, hacer inferencias y usar estrategias como el escaneo y el resumen te convertirán en un experto lector. ¡Sigue practicando y explorando el mundo de la lectura! 📖",
+        "title": "Conclusión y Motivación",
+        "themes": [
+          "Conclusión sobre estrategias de lectura"
+        ],
+        "image_search_string": "lectura motivación éxito",
+        "question_types": [
+          "Intro"
+        ]
+      }
+    ],
+    "topicInEnglish": "Reading Strategies",
+    "generationLanguage": "es-ES"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "request": {
+    "lesson_description": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limericks. Understanding structure, themes, and stylistic choices.",
+    "exercises_ratio": 0.4,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "a4d81c63",
+    "topicInEnglish": "Poetry Forms",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Explorando las Formas de Poesía",
+    "slides": [
+      {
+        "content": "¡Bienvenidos! Hoy vamos a adentrarnos en el mundo de la poesía. Exploraremos diferentes formas poéticas, desde el Haiku hasta los Limericks, para descubrir cómo los poetas usan estructuras y estilos únicos para expresar emociones e ideas. 🌟",
+        "title": "Introducción a la Poesía",
+        "themes": [
+          "introducción a la poesía"
+        ],
+        "image_search_string": "poesía creativa",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "El Haiku es una forma de poesía breve originaria de Japón. Tiene una estructura de tres versos con un patrón de sílabas 5-7-5. Los Haikus suelen centrarse en la naturaleza y los cambios de estación, transmitiendo emociones a través de imágenes sencillas y directas.",
+        "title": "El Haiku",
+        "themes": [
+          "estructura del Haiku",
+          "temas del Haiku"
+        ],
+        "image_search_string": "poema Haiku",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Los sonetos son poemas de 14 versos con un esquema rítmico definido. Existen diferentes tipos, como el soneto inglés (Shakespeareano) y el italiano (Petrarquista). Los temas de los sonetos suelen incluir el amor, la belleza y la mortalidad.",
+        "title": "El Soneto",
+        "themes": [
+          "estructura del soneto",
+          "temas del soneto"
+        ],
+        "image_search_string": "poema soneto",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El verso libre es un estilo de poesía que no sigue reglas estrictas de métrica o rima. Permite a los poetas expresarse con mayor libertad, utilizando la cadencia y el ritmo natural del lenguaje.",
+        "title": "El Verso Libre",
+        "themes": [
+          "características del verso libre"
+        ],
+        "image_search_string": "poema verso libre",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los limericks son poemas humorísticos de cinco versos con un esquema de rima AABBA. Suelen contar pequeñas historias o situaciones cómicas, destacándose por su ritmo pegajoso y su contenido ligero.",
+        "title": "El Limerick",
+        "themes": [
+          "estructura del limerick",
+          "temas del limerick"
+        ],
+        "image_search_string": "poema limerick",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Comparando las formas poéticas: Los Haikus son breves y enfocados en la naturaleza, los sonetos son estructurados y profundos, los versos libres son flexibles y los limericks son humorísticos y rítmicos.",
+        "title": "Comparación de Formas Poéticas",
+        "themes": [
+          "comparación de formas poéticas"
+        ],
+        "image_search_string": "comparación poesía",
+        "question_types": [
+          "Match",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La métrica y la rima son elementos importantes en muchas formas poéticas. La métrica se refiere al ritmo creado por las sílabas acentuadas y no acentuadas, mientras que la rima es la repetición de sonidos al final de los versos.",
+        "title": "Métrica y Rima",
+        "themes": [
+          "concepto de métrica",
+          "concepto de rima"
+        ],
+        "image_search_string": "métrica y rima",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "El lenguaje figurado, como las metáforas y los símiles, es esencial en la poesía. Estos recursos ayudan a expresar ideas complejas de manera visual y emocional, enriqueciendo el significado del poema.",
+        "title": "Lenguaje Figurado en Poesía",
+        "themes": [
+          "uso del lenguaje figurado"
+        ],
+        "image_search_string": "lenguaje figurado poesía",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Los temas en la poesía son las ideas o emociones centrales que el poeta desea transmitir. Pueden ser universales, como el amor o la naturaleza, o personales, como la introspección o los recuerdos.",
+        "title": "Temas en la Poesía",
+        "themes": [
+          "temas comunes en poesía"
+        ],
+        "image_search_string": "temas de poesía",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La poesía ha evolucionado a lo largo del tiempo, adaptándose a diferentes culturas y épocas. Desde los poemas épicos antiguos hasta las formas modernas, cada estilo refleja su contexto histórico.",
+        "title": "Evolución de la Poesía",
+        "themes": [
+          "evolución histórica de la poesía"
+        ],
+        "image_search_string": "historia de la poesía",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Los poetas famosos como Pablo Neruda, Sor Juana Inés de la Cruz y Federico García Lorca han dejado una marca indeleble en la poesía. Sus obras nos inspiran y nos enseñan sobre la belleza del lenguaje.",
+        "title": "Poetas Famosos",
+        "themes": [
+          "poetas influyentes"
+        ],
+        "image_search_string": "poetas famosos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ahora que hemos explorado las formas poéticas y sus características, ¿qué tal si intentamos escribir un poema propio? Usa tus ideas y emociones para crear algo único y especial.",
+        "title": "Escribe Tu Propio Poema",
+        "themes": [
+          "crear un poema propio"
+        ],
+        "image_search_string": "escribir poesía",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Poetry Forms",
+    "generationLanguage": "es-ES"
+  }
+}

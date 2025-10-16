@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "L'étiquette numérique, ou \"netiquette\", désigne les règles et bonnes pratiques à suivre pour interagir en ligne.",
+      "correction": "L'étiquette numérique, ou « nétiquette », désigne les règles et bonnes pratiques à suivre pour interagir en ligne.",
+      "description": "The term 'netiquette' is presented in English spelling and with English quotation marks. In French, the standard term is 'nétiquette' and French quotation marks (« ») should be used for consistency and localization. This improves cultural appropriateness and aligns with French terminology standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Aujourd'hui, nous allons explorer comment communiquer en ligne de manière respectueuse, protéger notre vie privée et éviter les comportements nuisibles comme le cyberharcèlement. 🌐",
+      "correction": "Aujourd'hui, nous allons explorer comment communiquer en ligne de manière respectueuse, protéger notre vie privée et éviter les comportements nuisibles tels que le cyberharcèlement. 🌐",
+      "description": "The phrase 'comme le cyberharcèlement' is not the most precise connector in formal French. 'Tels que le cyberharcèlement' is more appropriate when listing examples, especially in educational content. This correction improves lexical precision and stylistic naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Soyez respectueux et bienveillant.",
+      "correction": "Soyez respectueux et bienveillants.",
+      "description": "The adjective 'bienveillant' should agree in number with 'Soyez', which addresses a plural or general audience. 'Bienveillants' is the correct plural form, ensuring proper agreement and a natural, inclusive tone for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:32:01.115477",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

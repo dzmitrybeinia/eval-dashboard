@@ -1,0 +1,188 @@
+{
+  "request": {
+    "lesson_description": "Understanding renewable and non-renewable natural resources, their importance, and the impact of human activities on resource sustainability.",
+    "exercises_ratio": 0.3,
+    "grade_level": "6th grade",
+    "estimated_length": 20,
+    "learning_standard": "Next Generation Science Standards (NGSS): MS-ESS3-3 - Apply scientific principles to design a method for monitoring and minimizing human impact on the environment.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "fd112e7a",
+    "topicInEnglish": "Natural Resources",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Erneuerbare und nicht erneuerbare Ressourcen verstehen",
+    "slides": [
+      {
+        "content": "Willkommen zu unserer Entdeckungsreise in die Welt der natürlichen Ressourcen! Heute lernen wir, was erneuerbare und nicht erneuerbare Ressourcen sind und warum sie für unser Leben so wichtig sind. 🌍",
+        "title": "Einführung: Die Bedeutung natürlicher Ressourcen",
+        "themes": [
+          "Einführung in natürliche Ressourcen"
+        ],
+        "image_search_string": "natural resources",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Natürliche Ressourcen sind Materialien und Energiequellen, die uns von der Natur zur Verfügung gestellt werden. Sie sind die Grundlage für unser Leben und ermöglichen uns, Nahrung, Energie und viele Produkte herzustellen.",
+        "title": "Was sind natürliche Ressourcen?",
+        "themes": [
+          "Definition natürliche Ressourcen"
+        ],
+        "image_search_string": "natural resources examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Es gibt zwei Hauptkategorien natürlicher Ressourcen: erneuerbare und nicht erneuerbare. Erneuerbare Ressourcen wie Sonnenlicht und Wind können sich regenerieren oder sind unbegrenzt verfügbar. Nicht erneuerbare Ressourcen wie Öl und Kohle sind begrenzt und können sich nicht in menschlicher Zeitspanne erneuern.",
+        "title": "Arten natürlicher Ressourcen",
+        "themes": [
+          "Erneuerbare vs. nicht erneuerbare Ressourcen"
+        ],
+        "image_search_string": "renewable vs nonrenewable",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Beispiele für erneuerbare Ressourcen sind: Solarenergie, Windkraft, Wasserenergie, Holz und Biomasse. Diese Ressourcen können entweder unbegrenzt genutzt werden oder regenerieren sich schnell.",
+        "title": "Erneuerbare Ressourcen",
+        "themes": [
+          "Beispiele erneuerbare Ressourcen"
+        ],
+        "image_search_string": "renewable resources examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Nicht erneuerbare Ressourcen umfassen Materialien wie Erdöl, Erdgas, Kohle und Metalle. Diese Ressourcen entstehen über Millionen von Jahren und können nicht schnell nachgebildet werden.",
+        "title": "Nicht erneuerbare Ressourcen",
+        "themes": [
+          "Beispiele nicht erneuerbare Ressourcen"
+        ],
+        "image_search_string": "nonrenewable resources examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Erneuerbare Ressourcen haben den Vorteil, dass sie nachhaltig genutzt werden können, ohne die Umwelt langfristig zu schädigen. Nicht erneuerbare Ressourcen sind jedoch oft effizienter, haben aber eine begrenzte Menge und können Umweltschäden verursachen.",
+        "title": "Vorteile und Nachteile",
+        "themes": [
+          "Vergleiche Ressourcen Vorteile"
+        ],
+        "image_search_string": "pros and cons resources",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Der Mensch nutzt Ressourcen für Energie, Bau, Herstellung von Produkten und vieles mehr. Übernutzung oder Verschwendung kann jedoch zu Ressourcenknappheit und Umweltschäden führen.",
+        "title": "Ressourcennutzung durch Menschen",
+        "themes": [
+          "Ressourcennutzung durch Menschen"
+        ],
+        "image_search_string": "human resource use",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Übernutzung nicht erneuerbarer Ressourcen führt zu Problemen wie Umweltverschmutzung, Klimawandel und Ressourcenerschöpfung. Nachhaltige Nutzung kann helfen, diese Probleme zu minimieren.",
+        "title": "Probleme durch Übernutzung",
+        "themes": [
+          "Probleme durch Ressourcenübernutzung"
+        ],
+        "image_search_string": "resource overuse problems",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Nachhaltigkeit bedeutet, Ressourcen so zu nutzen, dass zukünftige Generationen nicht beeinträchtigt werden. Es ist wichtig, erneuerbare Ressourcen zu fördern und Abfall zu minimieren.",
+        "title": "Nachhaltigkeit und Ressourcen",
+        "themes": [
+          "Definition Nachhaltigkeit"
+        ],
+        "image_search_string": "sustainability concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Um nachhaltiger zu leben, können wir Energie sparen, Recycling fördern und umweltfreundliche Technologien nutzen. Beispiele sind Solarenergie, Windkraft und Elektroautos.",
+        "title": "Wie können wir nachhaltiger leben?",
+        "themes": [
+          "Tipps für Nachhaltigkeit"
+        ],
+        "image_search_string": "sustainable living tips",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Länder auf der ganzen Welt setzen auf erneuerbare Energien und Recyclingprogramme, um die Umwelt zu schützen. Deutschland ist beispielsweise führend bei der Nutzung von Solar- und Windenergie.",
+        "title": "Globale Bemühungen für Nachhaltigkeit",
+        "themes": [
+          "Globale Nachhaltigkeitsmaßnahmen"
+        ],
+        "image_search_string": "global sustainability efforts",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Menschen können durch bewusste Entscheidungen wie sparsames Heizen, weniger Plastikverbrauch und Unterstützung von nachhaltigen Produkten einen Unterschied machen.",
+        "title": "Wie können wir helfen?",
+        "themes": [
+          "Individuelle Nachhaltigkeitsmaßnahmen"
+        ],
+        "image_search_string": "how to help sustainability",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Innovationen wie Technologien zur Energieeffizienz, umweltfreundliche Materialien und bessere Recyclingprozesse sind entscheidend, um die Umwelt zu schützen.",
+        "title": "Innovationen für Nachhaltigkeit",
+        "themes": [
+          "Technologien für Nachhaltigkeit"
+        ],
+        "image_search_string": "sustainability innovations",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Lasst uns gemeinsam daran arbeiten, unsere Ressourcen zu schützen und eine nachhaltige Zukunft zu schaffen. Jeder kleine Schritt zählt!",
+        "title": "Abschluss: Unsere Verantwortung",
+        "themes": [
+          "Schutz der Ressourcen"
+        ],
+        "image_search_string": "protecting natural resources",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Natural Resources",
+    "generationLanguage": "de-DE"
+  }
+}

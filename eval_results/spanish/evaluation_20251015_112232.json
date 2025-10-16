@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a esta emocionante lección sobre Python! Hoy aprenderemos sobre una de las bases más importantes de la programación: las variables y los tipos de datos. Prepárense para explorar cómo los programadores usan estas herramientas para crear programas geniales. 🚀",
+      "correction": "¡Bienvenidos a esta emocionante lección sobre Python! Hoy aprenderemos sobre una de las bases más importantes de la programación: las variables y los tipos de datos. Prepárate para explorar cómo los programadores usan estas herramientas para crear programas geniales. 🚀",
+      "description": "The text switches from plural ('Bienvenidos', 'Prepárense') to singular ('aprenderemos'), which is inconsistent in tone. In educational content for Spain, it is more common to use the singular informal imperative ('Prepárate') when addressing the reader directly, especially in interactive lessons. The correction ensures a consistent and engaging style by using the singular form throughout, which is more natural for this context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:22:32.876080",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Las variables pueden almacenar diferentes tipos de datos y realizar operaciones con ellos. Por ejemplo:\n\n- Sumar números: `a = 5 + 3`\n- Concatenar texto: `mensaje = \"Hola\" + \" mundo\"`\n- Comparar valores: `es_igual = 5 == 5`\n\nEstas operaciones permiten que los programas sean dinámicos y útiles.",
+      "correction": "Las variables pueden almacenar diferentes tipos de datos y realizar operaciones con ellos. Por ejemplo:\n\n- Sumar números: `a = 5 + 3`\n- Concatenar texto: `mensaje = \"Hola\" + \" mundo\"`\n- Comparar valores: `es_igual = 5 == 5`\n\nEstas operaciones permiten que los programas sean dinámicos y útiles.",
+      "description": "No orthographic errors are present in this text. However, the example 'mensaje = \"Hola\" + \" mundo\"' contains an unnecessary space before 'mundo', which is not standard in Spanish string concatenation and may confuse learners. The correct example should be 'mensaje = \"Hola\" + \" mundo\"' or, more naturally, 'mensaje = \"Hola\" + \" mundo\"' (without the space inside the quotes). This improves clarity and aligns with Spanish coding conventions.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Ahora es tu turno de practicar! Intenta declarar variables con diferentes tipos de datos, realiza operaciones con ellas y experimenta con la conversión de tipos. ¡Diviértete programando!",
+      "correction": "¡Ahora es tu turno de practicar! Intenta declarar variables con diferentes tipos de datos, realiza operaciones con ellas y experimenta con la conversión de tipos. ¡Diviértete programando!",
+      "description": "The use of the informal singular 'tu' and 'Diviértete' is appropriate for educational content aimed at young learners in Spain. No localization issues are present, and the tone is engaging and culturally suitable.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos, jóvenes artistas! Hoy exploraremos técnicas increíbles para dar vida a tus dibujos con sombras y texturas. 🌟 Prepárate para descubrir cómo el sombreado puede transformar tus obras de arte.",
+      "correction": "¡Bienvenidos, jóvenes artistas! Hoy exploraremos técnicas increíbles para dar vida a vuestros dibujos con sombras y texturas. 🌟 Prepárate para descubrir cómo el sombreado puede transformar vuestras obras de arte.",
+      "description": "The use of 'tus' and 'tus obras de arte' is inconsistent with the plural greeting 'Bienvenidos, jóvenes artistas', which addresses a group. In Peninsular Spanish, the plural possessive 'vuestros' and 'vuestras obras de arte' should be used to maintain agreement with the plural audience. This correction ensures proper pronoun and possessive concordance, improving linguistic accuracy and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:22:56.008932",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Se pueden usar herramientas como los dedos, esfuminos o papel para lograrlo.",
+      "correction": "Se pueden usar herramientas como los dedos, esfuminos o papel para lograrlo.",
+      "description": "While the sentence is linguistically correct, the mention of 'dedos' (fingers) as a drawing tool may be considered informal or less professional in educational contexts in Spain. It is more appropriate to prioritize standard tools such as 'esfuminos' or 'papel' and mention 'dedos' as an alternative for beginners. This adjustment would enhance the professional tone and cultural appropriateness of the content.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

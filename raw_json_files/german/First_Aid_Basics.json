@@ -1,0 +1,99 @@
+{
+  "request": {
+    "lesson_description": "Fundamentals of First Aid: Understanding how to respond to common injuries such as cuts, burns, and sprains.",
+    "exercises_ratio": 0.4,
+    "grade_level": "7th grade",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Science Standards (NGSS) MS-LS1-8: Gather and synthesize information about the role of technologies in monitoring human health and improving patient care.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "f59d4b25",
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Grundlagen der Ersten Hilfe: Umgang mit häufigen Verletzungen",
+    "slides": [
+      {
+        "content": "Herzlich willkommen zu unserer Lektion über die Grundlagen der Ersten Hilfe! Heute werden wir lernen, wie wir auf häufige Verletzungen wie Schnitte, Verbrennungen und Verstauchungen reagieren können. Erste Hilfe ist eine wichtige Fähigkeit, die uns hilft, in Notfällen schnell und sicher zu handeln. 🩹",
+        "title": "Einführung in die Erste Hilfe",
+        "themes": [
+          "Einführung in Erste Hilfe"
+        ],
+        "image_search_string": "first aid basics",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Erste Hilfe umfasst die sofortige Versorgung von Verletzungen und Erkrankungen, bevor professionelle Hilfe eintrifft. Dazu gehören Maßnahmen wie das Stillen von Blutungen, das Schützen von Wunden und das Stabilisieren von Verletzten. Ziel ist es, Leben zu retten, den Zustand des Verletzten zu stabilisieren und weitere Schäden zu verhindern.",
+        "title": "Was ist Erste Hilfe?",
+        "themes": [
+          "Definition von Erste Hilfe",
+          "Ziele der Ersten Hilfe"
+        ],
+        "image_search_string": "first aid concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Schnitte und Schürfwunden sind häufige Verletzungen. So reagierst du:\n\n1. Reinige die Wunde vorsichtig mit sauberem Wasser.\n2. Desinfiziere die Wunde, um Infektionen zu vermeiden.\n3. Bedecke die Wunde mit einem sterilen Verband.\n4. Übe Druck aus, um Blutungen zu stillen, falls nötig.\n\nMerke: Bleibt die Blutung stark oder tief, suche ärztliche Hilfe auf.",
+        "title": "Umgang mit Schnitten und Schürfwunden",
+        "themes": [
+          "Versorgung von Schnitten",
+          "Vermeidung von Infektionen"
+        ],
+        "image_search_string": "treating cuts",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Verbrennungen können durch Hitze, Chemikalien oder Strom entstehen. Hier ist die richtige Vorgehensweise:\n\n1. Kühle die verbrannte Stelle sofort mit lauwarmem Wasser (nicht eiskalt).\n2. Decke die Stelle mit einem sterilen, nicht klebenden Verband ab.\n3. Verzichte auf Hausmittel wie Butter oder Öl.\n4. Bei schweren Verbrennungen, großen Flächen oder Blasen suche sofort ärztliche Hilfe.",
+        "title": "Erste Hilfe bei Verbrennungen",
+        "themes": [
+          "Behandlung von Verbrennungen",
+          "Vermeidung von Fehlern bei Verbrennungen"
+        ],
+        "image_search_string": "burn first aid",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Verstauchungen entstehen durch Überdehnung oder Zerrung von Gelenkbändern. Für die Erstversorgung gilt die PECH-Regel:\n\n- **P**ause: Bewege das betroffene Gelenk nicht.\n- **E**is: Kühle die Stelle, um Schwellungen zu reduzieren.\n- **C**ompression: Lege einen elastischen Verband an.\n- **H**ochlagern: Halte das Gelenk über Herzhöhe.\n\nDiese Maßnahmen lindern Schmerzen und verhindern weitere Schäden.",
+        "title": "Verstauchungen und die PECH-Regel",
+        "themes": [
+          "Verstauchungen behandeln",
+          "PECH-Regel"
+        ],
+        "image_search_string": "sprain treatment",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Erste Hilfe ist eine wichtige Fähigkeit, die uns ermöglicht, in Notfällen richtig zu handeln. Technologien wie tragbare Gesundheitsgeräte, Apps und medizinische Geräte spielen eine große Rolle bei der Überwachung der Gesundheit und der Unterstützung bei Erste-Hilfe-Maßnahmen. Beispiele sind Herzfrequenzmesser oder Notfall-Apps, die Anleitungen geben.",
+        "title": "Technologien in der Ersten Hilfe",
+        "themes": [
+          "Technologie in der Ersten Hilfe",
+          "Gesundheitsüberwachung"
+        ],
+        "image_search_string": "health monitoring technology",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "First Aid Basics",
+    "generationLanguage": "de-DE"
+  }
+}

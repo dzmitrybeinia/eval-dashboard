@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Int : pour les nombres entiers (ex. : 1, 42, -7).\nFloat : pour les nombres à virgule (ex. : 3.14, -0.01).\nString : pour les textes (ex. : \"Bonjour\", \"Programmation\").\nBoolean : pour les valeurs vraies ou fausses (ex. : True, False).",
+      "correction": "Int : pour les nombres entiers (ex. : 1, 42, -7).\nFloat : pour les nombres à virgule (ex. : 3,14, -0,01).\nString : pour les textes (ex. : \"Bonjour\", \"Programmation\").\nBoolean : pour les valeurs vraies ou fausses (ex. : vrai, faux).",
+      "description": "The examples for 'Float' use a period as the decimal separator, which is not standard in French; a comma should be used instead. For 'Boolean', the examples use 'True' and 'False', which are English terms. In French, 'vrai' and 'faux' are the correct terms for boolean values. These changes improve localization and ensure the terminology matches French conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "bool estEtudiant = true;",
+      "correction": "bool estEtudiant = vrai;",
+      "description": "The value 'true' is in English, while the rest of the example is in French. For consistency and proper localization, 'vrai' should be used as the boolean value in French.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Respecter les conventions de la langue de programmation (ex. : camelCase en Java).",
+      "correction": "Respecter les conventions de la langue de programmation (ex. : camelCase en JavaScript ou Java).",
+      "description": "The example mentions 'camelCase en Java', but Java is not the only language using camelCase. For clarity and accuracy, it is better to mention 'JavaScript ou Java', as camelCase is a convention in both languages and this avoids implying exclusivity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "French",
+    "timestamp": "2025-10-16T16:31:35.956965",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

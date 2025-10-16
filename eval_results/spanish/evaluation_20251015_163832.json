@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos! Hoy aprenderemos sobre los recursos naturales, elementos esenciales para nuestra vida diaria y el medio ambiente 🌍. Descubriremos qué son, sus tipos y cómo podemos protegerlos.",
+      "correction": "¡Bienvenidos! Hoy aprenderemos sobre los recursos naturales, elementos esenciales para nuestra vida diaria y el medio ambiente 🌍. Descubriremos qué son, cuáles son sus tipos y cómo podemos protegerlos.",
+      "description": "The phrase 'sus tipos' is ambiguous and less precise in Spanish. For clarity and linguistic accuracy, 'cuáles son sus tipos' should be used to explicitly refer to the types of natural resources. This improves the sentence's structure and ensures the information is clearly presented.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Pueden ser cosas como el agua, el aire, los minerales, los árboles y los animales.",
+      "correction": "Pueden ser elementos como el agua, el aire, los minerales, los árboles y los animales.",
+      "description": "The use of 'cosas' is informal and less appropriate for educational content in Spain. Replacing 'cosas' with 'elementos' provides a more formal and natural tone, which is better suited for academic contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Animales y plantas para comida.",
+      "correction": "Animales y plantas para la alimentación.",
+      "description": "The word 'comida' is colloquial and less precise in educational Spanish from Spain. 'La alimentación' is the preferred term in academic and formal contexts, ensuring the content maintains a professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Separar la basura para reciclar.",
+      "correction": "Separar los residuos para reciclar.",
+      "description": "In Spain, 'residuos' is the standard term used in environmental education and official communications, while 'basura' is more colloquial. Using 'residuos' improves the professionalism and accuracy of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:38:32.252782",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Herzlich willkommen zu unserer spannenden Reise in die Welt der Wahrscheinlichkeiten! 🎲 Heute werden wir anhand von Spielen und alltäglichen Situationen lernen, wie man Chancen berechnet und versteht.",
+      "correction": "Herzlich willkommen zu unserer spannenden Reise in die Welt der Wahrscheinlichkeiten! 🎲 Heute werden wir anhand von Spielen und alltäglichen Situationen lernen, wie man Wahrscheinlichkeiten berechnet und versteht.",
+      "description": "The use of 'Chancen' in the context of probability is not fully accurate or natural in German educational materials. The term 'Wahrscheinlichkeiten' is the standard and precise term for this mathematical concept. Using 'Chancen' may cause confusion, as it is more colloquial and less precise. The correction ensures terminological accuracy and maintains a professional, educational tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Wahrscheinlichkeit ist ein Konzept, das uns hilft zu verstehen, wie wahrscheinlich es ist, dass ein bestimmtes Ereignis eintritt. Sie wird oft in Prozent, Brüchen oder Dezimalzahlen ausgedrückt.",
+      "correction": "Wahrscheinlichkeit ist ein Konzept, das uns hilft zu verstehen, wie wahrscheinlich es ist, dass ein bestimmtes Ereignis eintritt. Sie wird oft in Prozent, als Bruch oder als Dezimalzahl ausgedrückt.",
+      "description": "The phrase 'in Prozent, Brüchen oder Dezimalzahlen' is not fully idiomatic in German. The standard phrasing is 'in Prozent, als Bruch oder als Dezimalzahl', which is clearer and more natural for educational contexts. This correction improves the naturalness and clarity of the terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Die Wahrscheinlichkeit eines Ereignisses kann berechnet werden, indem man die Anzahl der günstigen Ergebnisse durch die Gesamtanzahl der möglichen Ergebnisse teilt. Beispiel: Die Wahrscheinlichkeit, eine 6 zu würfeln, ist 1/6.",
+      "correction": "Die Wahrscheinlichkeit eines Ereignisses kann berechnet werden, indem man die Anzahl der günstigen Ergebnisse durch die Gesamtzahl der möglichen Ergebnisse teilt. Beispiel: Die Wahrscheinlichkeit, eine 6 zu würfeln, ist 1/6.",
+      "description": "The term 'Gesamtanzahl' is less common and less precise than 'Gesamtzahl' in mathematical German. 'Gesamtzahl' is the standard term used in probability theory and mathematics education. This correction ensures terminological consistency and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:22.852897",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Man unterscheidet zwischen sicheren, unmöglichen und wahrscheinlichen Ereignissen: - Sicheres Ereignis: Es wird immer passieren. - Unmögliches Ereignis: Es wird nie passieren. - Wahrscheinliches Ereignis: Es könnte passieren, ist aber nicht garantiert.",
+      "correction": "Man unterscheidet zwischen sicheren, unmöglichen und wahrscheinlichen Ereignissen:\n- Sicheres Ereignis: Es wird immer passieren.\n- Unmögliches Ereignis: Es wird nie passieren.\n- Wahrscheinliches Ereignis: Es könnte passieren, ist aber nicht garantiert.",
+      "description": "The original text uses a colon followed by hyphens to introduce a list, which is not standard in German. The correct format is to use a colon and then start each list item on a new line with a hyphen or bullet point. This improves readability and adheres to German orthographic conventions for lists.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction (normalized)"
+    }
+  ]
+}

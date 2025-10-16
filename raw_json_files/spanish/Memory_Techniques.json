@@ -1,0 +1,72 @@
+{
+  "request": {
+    "lesson_description": "Memory Techniques: Understanding how the brain stores and retrieves information, and exploring strategies to enhance memory retention.",
+    "exercises_ratio": 0.6,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Science Standards (NGSS): HS-LS1-3 - Plan and conduct an investigation to provide evidence of how the brain processes information and supports memory.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "2743f047",
+    "topicInEnglish": "Memory Techniques",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Técnicas de Memoria: Cómo Funciona y Cómo Mejorarla",
+    "slides": [
+      {
+        "content": "¿Sabías que tu cerebro es como una biblioteca gigante que almacena recuerdos? En esta lección, exploraremos cómo funciona la memoria y descubriremos estrategias para recordar mejor las cosas. ¡Prepárate para aprender sobre el increíble poder de tu mente! 🧠",
+        "title": "¡Bienvenidos a la exploración del cerebro!",
+        "themes": [
+          "introducción a la memoria"
+        ],
+        "image_search_string": "cerebro y memoria",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La memoria es la capacidad de nuestro cerebro para almacenar, retener y recuperar información. Hay tres tipos principales de memoria: sensorial, a corto plazo y a largo plazo. La memoria sensorial captura información de los sentidos por un instante, la memoria a corto plazo retiene información por un tiempo breve, y la memoria a largo plazo almacena información por períodos prolongados.",
+        "title": "¿Qué es la memoria?",
+        "themes": [
+          "tipos de memoria",
+          "función de la memoria"
+        ],
+        "image_search_string": "tipos de memoria",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El cerebro procesa información a través de una red de neuronas. Cuando aprendemos algo nuevo, las neuronas crean conexiones llamadas sinapsis. Cuantas más veces se repite una información, más fuertes se vuelven estas conexiones, lo que facilita recordarla en el futuro.",
+        "title": "¿Cómo procesa información el cerebro?",
+        "themes": [
+          "neuronas y sinapsis",
+          "procesamiento de información"
+        ],
+        "image_search_string": "neuronas y sinapsis",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Existen varias técnicas para mejorar la memoria, como la repetición espaciada, que consiste en repasar información en intervalos crecientes de tiempo, y las asociaciones visuales, donde conectamos conceptos con imágenes. También, organizar la información en categorías o crear historias ayuda a recordarla más fácilmente.",
+        "title": "Estrategias para mejorar la memoria",
+        "themes": [
+          "técnicas de mejora de memoria",
+          "repetición espaciada"
+        ],
+        "image_search_string": "estrategias de memoria",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Memory Techniques",
+    "generationLanguage": "es-ES"
+  }
+}

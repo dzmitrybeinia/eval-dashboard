@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Das Christentum ist die weltweit größte Religion, die auf den Lehren von Jesus Christus basiert.",
+      "correction": "Das Christentum ist die weltweit größte Religion und basiert auf den Lehren von Jesus Christus.",
+      "description": "The original sentence uses a relative clause ('die auf den Lehren von Jesus Christus basiert') that is grammatically correct but stylistically awkward in German. The conjunction 'und' provides a clearer and more natural connection between the two statements, improving readability and flow. No other linguistic or localization issues are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die fünf Säulen des Islam sind: 1. Glaubensbekenntnis (Schahada), 2. Gebet (Salat), 3. Almosen (Zakat), 4. Fasten (Sawm), 5. Pilgerfahrt (Haddsch). Sie sind die Grundlage des muslimischen Glaubenslebens.",
+      "correction": "Die fünf Säulen des Islam sind: 1. Glaubensbekenntnis (Schahada), 2. Gebet (Salat), 3. Almosen (Zakat), 4. Fasten (Sawm), 5. Pilgerfahrt (Hadsch). Sie sind die Grundlage des muslimischen Glaubenslebens.",
+      "description": "The term 'Haddsch' is a non-standard spelling in German for the pilgrimage to Mecca. The correct and widely accepted spelling is 'Hadsch'. This correction ensures terminological consistency and aligns with standard German usage. No other linguistic or localization issues are present.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Die Rückkehr nach Israel ist ein zentrales Thema.",
+      "correction": "Die Rückkehr nach Israel ist für viele Juden ein zentrales Thema.",
+      "description": "The original sentence presents the return to Israel as a universally central theme for all Jews, which may not reflect the diversity of perspectives within the Jewish community. The correction adds nuance, acknowledging that this is a central theme for many, but not necessarily all, Jews. This improves cultural sensitivity and accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Die Bar-Mizwa ist ein wichtiges Übergangsritual.",
+      "correction": "Die Bar Mizwa ist ein wichtiges Übergangsritual.",
+      "description": "In German, the term 'Bar Mizwa' is typically written without a hyphen. The use of a hyphen is influenced by English spelling ('Bar Mitzvah'), but in standard German, the correct form is 'Bar Mizwa'. This correction improves orthographic accuracy and aligns with German conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:47:01.801082",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Vamos a descubrir cómo las fracciones están presentes en nuestra vida diaria!",
+      "correction": "¡Descubramos cómo las fracciones están presentes en nuestra vida diaria!",
+      "description": "The original uses a construction ('Vamos a descubrir') that is more typical of Latin American Spanish and informal spoken contexts. For educational content in Spain or for a neutral register, 'Descubramos' (first person plural subjunctive) is more natural and appropriate, inviting the reader in a formal yet engaging way. This improves the tone and style for a broad educational audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Si una pizza se corta en 6 rebanadas y comes 2, has comido 2/6 de la pizza.",
+      "correction": "Si una pizza se corta en 6 porciones y comes 2, has comido 2/6 de la pizza.",
+      "description": "The term 'rebanadas' is more commonly used for bread or cake, while 'porciones' is the standard and widely accepted term for pizza in educational and general Spanish usage. Using 'porciones' ensures consistency and naturalness in terminology for learners across regions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:53:59.982269",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Si una receta requiere 1/4 de taza de azúcar, significa que necesitas una parte de una taza dividida en 4 partes iguales.",
+      "correction": "Si una receta requiere 1/4 de taza de azúcar, significa que necesitas una parte de una taza dividida en 4 partes iguales.",
+      "description": "While the sentence is linguistically correct, the use of 'taza' as a unit of measurement is more common in American Spanish and may not be as familiar in Spain, where 'gramos' or 'mililitros' are preferred. For broader localization, consider mentioning both units or adapting to the local measurement system depending on the target audience.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

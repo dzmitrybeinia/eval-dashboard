@@ -1,0 +1,57 @@
+{
+  "issues": [],
+  "metadata": {
+    "file": "Fractions_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:23:10.200904",
+    "model": "gpt-4.1",
+    "label": "v9",
+    "false_positives_filtered": 3,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 10.0,
+    "classification": "NATIVE",
+    "total_issues": 0,
+    "total_penalty": 0.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepárate para descubrir el mundo de las mitades, cuartos y tercios. 😊",
+      "correction": "Prepárate para descubrir el mundo de las mitades, cuartos y tercios.",
+      "description": "The use of the emoji '😊' is not standard in formal educational content for Spain and may be considered informal or distracting in this context. Removing the emoji ensures the tone remains appropriate and professional for classroom materials.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Las fracciones se escriben como un número arriba (numerador) y otro abajo (denominador), separados por una línea.",
+      "correction": "Las fracciones se escriben como un número arriba (numerador) y otro abajo (denominador), separados por una línea.",
+      "description": "The phrase is linguistically correct, but the use of 'arriba' and 'abajo' could be improved for precision. In Spain, it is more accurate to say 'un número en la parte superior (numerador) y otro en la parte inferior (denominador)'. This change enhances lexical precision and clarity for educational purposes.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Intenta dibujar tus propias fracciones!",
+      "correction": "¡Intenta dibujar tus propias fracciones!",
+      "description": "While the phrase is linguistically correct, the imperative 'Intenta' is direct and may be softened for classroom use in Spain. A more natural and encouraging phrasing would be '¿Te animas a dibujar tus propias fracciones?' or 'Puedes intentar dibujar tus propias fracciones.' This adjustment improves the tone and aligns with common educational style in Spain.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

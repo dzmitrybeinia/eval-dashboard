@@ -1,0 +1,110 @@
+{
+  "request": {
+    "lesson_description": "Understanding story elements: characters, setting, plot, conflict, and resolution.",
+    "exercises_ratio": 1.0,
+    "grade_level": "4th grade",
+    "estimated_length": 25,
+    "learning_standard": "CCSS.ELA-LITERACY.RL.4.3: Describe in depth a character, setting, or event in a story or drama, drawing on specific details in the text.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "57840a45",
+    "topicInEnglish": "Story Elements",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Comprendre les éléments d'une histoire : personnages, décor, intrigue, conflit et résolution",
+    "slides": [
+      {
+        "content": "Bienvenue dans notre exploration des éléments essentiels d'une histoire ! Aujourd'hui, nous allons découvrir les personnages, le décor, l'intrigue, le conflit et la résolution. Préparez-vous à plonger dans le monde fascinant des récits ! 📚",
+        "title": "Introduction aux éléments d'une histoire",
+        "themes": [
+          "introduction aux éléments d'une histoire"
+        ],
+        "image_search_string": "story elements illustration",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Les personnages sont les individus, animaux ou créatures qui peuplent une histoire. Chaque personnage a des traits spécifiques qui le rendent unique, comme sa personnalité, ses actions et ses motivations. Par exemple, dans \"Le Petit Prince\", le Petit Prince est un personnage curieux et explorateur.",
+        "title": "Les personnages",
+        "themes": [
+          "définition des personnages"
+        ],
+        "image_search_string": "story characters illustration",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le décor est le lieu et le moment où se déroule l'histoire. Cela peut être un château médiéval, une ville moderne ou même une planète lointaine. Par exemple, dans \"Les Misérables\", une grande partie de l'histoire se déroule à Paris au XIXe siècle.",
+        "title": "Le décor",
+        "themes": [
+          "définition du décor"
+        ],
+        "image_search_string": "story setting illustration",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "L'intrigue est la série d'événements qui composent l'histoire. Elle commence souvent par une introduction, se développe avec des événements importants, atteint un sommet avec un moment clé, puis se termine par une résolution. Par exemple, dans \"Cendrillon\", l'intrigue suit son parcours pour aller au bal et trouver le bonheur.",
+        "title": "L'intrigue",
+        "themes": [
+          "définition de l'intrigue"
+        ],
+        "image_search_string": "story plot illustration",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le conflit est le problème ou la difficulté que les personnages doivent surmonter. Il peut être interne (un personnage lutte avec ses propres sentiments) ou externe (un personnage affronte une autre personne ou une situation). Par exemple, dans \"Harry Potter\", le conflit principal est entre Harry et Voldemort.",
+        "title": "Le conflit",
+        "themes": [
+          "définition du conflit"
+        ],
+        "image_search_string": "story conflict illustration",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La résolution est la manière dont le problème ou le conflit de l'histoire est résolu. Elle apporte souvent une conclusion satisfaisante pour les personnages et le lecteur. Par exemple, dans \"La Belle et la Bête\", la résolution est lorsque la Bête redevient un prince et retrouve l'amour.",
+        "title": "La résolution",
+        "themes": [
+          "définition de la résolution"
+        ],
+        "image_search_string": "story resolution illustration",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les personnages, le décor, l'intrigue, le conflit et la résolution sont tous connectés dans une histoire. Ils travaillent ensemble pour créer un récit captivant et cohérent. En comprenant ces éléments, nous pouvons mieux apprécier et analyser les histoires.",
+        "title": "Connexion entre les éléments",
+        "themes": [
+          "relation entre les éléments de l'histoire"
+        ],
+        "image_search_string": "story elements connection",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Story Elements",
+    "generationLanguage": "fr-FR"
+  }
+}

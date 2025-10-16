@@ -1,0 +1,65 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "libros de fantasía",
+      "correction": "novelas de fantasía",
+      "description": "The term 'libros de fantasía' is overly broad and less natural in Spanish when referring to fictional works; 'novelas de fantasía' is the standard and precise term for fantasy fiction. This correction improves lexical precision and aligns with common usage in educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "descripciones vividas",
+      "correction": "descripciones vívidas",
+      "description": "The word 'vividas' is a misspelling in this context; the correct adjective is 'vívidas' (with an accent), meaning 'vivid' or 'lively' descriptions. This error affects lexical precision and orthography, and the correction ensures accurate meaning and proper accent usage.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:53:51.199792",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Harry Potter y la piedra filosofal",
+      "correction": "Harry Potter y la piedra filosofal",
+      "description": "While the example of 'Harry Potter y la piedra filosofal' is globally recognized, it may not be the most culturally relevant or accessible example for all Spanish-speaking regions, especially in educational settings where local literature could be more relatable. Consider including a well-known Spanish-language fantasy work as an additional example to enhance cultural appropriateness.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "¿Quién fue Harriet Tubman?",
+      "correction": "¿Quién fue Harriet Tubman?",
+      "description": "The book title '¿Quién fue Harriet Tubman?' is presented in Spanish, but the author’s name remains in its original English form. This is standard for translated works, but for consistency and clarity, it is recommended to specify if the book is a translation and, if possible, reference the Spanish edition or translator to better localize the example for Spanish-speaking learners.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Evitar CAPS LOCK (parece que estamos gritando).",
+      "correction": "Evite escrever em letras maiúsculas (CAPS LOCK), pois isso pode parecer que você está gritando.",
+      "description": "The original sentence uses the English term 'CAPS LOCK' without explanation, which may not be immediately clear to all Brazilian Portuguese learners, especially younger students or those less familiar with computer terminology. Additionally, the phrase structure is informal and could be made more natural and educational by clarifying the behavior and its impact. The correction provides a more explicit explanation in Portuguese, maintains a formal and instructive tone, and ensures the concept is accessible to the target audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:50:30.451410",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

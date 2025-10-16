@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Llama al 911 una vez fuera y proporciona tu ubicación.",
+      "correction": "Llama al número de emergencias local una vez fuera y proporciona tu ubicación.",
+      "description": "The use of '911' as the emergency number is not universally applicable in all Spanish-speaking countries. While 911 is used in some places, others use different numbers (e.g., 112 in Spain, 911 in Mexico, 107 in Argentina). For educational content intended for a broad Spanish-speaking audience, it is more culturally appropriate to refer to the 'local emergency number' to ensure relevance and clarity. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Desecho inadecuado de cigarrillos o fósforos.",
+      "correction": "Deshecho inadecuado de cigarrillos o fósforos.",
+      "description": "The word 'desecho' is a noun meaning 'waste' or 'scrap', while the intended meaning here is the act of discarding, which should be 'deshecho' (past participle of 'deshacer', meaning 'to discard' or 'to get rid of'). This is a lexical and orthographic error that affects clarity. The rest of the sentence is correct.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:53:53.794116",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

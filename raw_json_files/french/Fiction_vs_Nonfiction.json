@@ -1,0 +1,108 @@
+{
+  "request": {
+    "lesson_description": "Fiction vs Nonfiction: Understanding key differences, characteristics, and examples of each type of text.",
+    "exercises_ratio": 0.5,
+    "grade_level": "6th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "edf1749c",
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Fiction vs Nonfiction: Understanding Key Differences",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon où nous allons explorer deux types importants de textes : la fiction et la non-fiction. 🌟 Préparez-vous à découvrir leurs différences, leurs caractéristiques et des exemples pour mieux comprendre ces genres d'écriture.",
+        "title": "Introduction à la fiction et à la non-fiction",
+        "themes": [
+          "introduction to fiction and nonfiction"
+        ],
+        "image_search_string": "fiction vs nonfiction",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La fiction est un type de texte qui raconte des histoires imaginaires. Elle peut inclure des romans, des contes, des fables et des pièces de théâtre. Ces histoires sont créées à partir de l'imagination de l'auteur et peuvent inclure des personnages, des lieux et des événements fictifs.",
+        "title": "Qu'est-ce que la fiction ?",
+        "themes": [
+          "definition of fiction",
+          "examples of fiction"
+        ],
+        "image_search_string": "fiction books",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La non-fiction est un type de texte basé sur des faits réels. Elle inclut des biographies, des livres d'histoire, des articles scientifiques et des reportages. Ces textes visent à informer le lecteur en fournissant des informations vérifiables.",
+        "title": "Qu'est-ce que la non-fiction ?",
+        "themes": [
+          "definition of nonfiction",
+          "examples of nonfiction"
+        ],
+        "image_search_string": "nonfiction books",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Voici quelques différences principales entre la fiction et la non-fiction : \n- La fiction raconte des histoires imaginaires, tandis que la non-fiction est basée sur des faits réels. \n- Les personnages de la fiction sont inventés, tandis que dans la non-fiction, ils sont réels ou basés sur des personnes réelles. \n- La fiction peut inclure des éléments fantastiques ou irréalistes, alors que la non-fiction se concentre sur la réalité.",
+        "title": "Différences entre fiction et non-fiction",
+        "themes": [
+          "comparison of fiction and nonfiction"
+        ],
+        "image_search_string": "fiction vs nonfiction comparison",
+        "question_types": [
+          "Match",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Les genres de la fiction incluent : \n- Les romans (par exemple, \"Le Petit Prince\")\n- Les contes de fées (par exemple, \"Cendrillon\")\n- Les fables (par exemple, \"Le Corbeau et le Renard\")\n\nLes genres de la non-fiction incluent : \n- Les biographies (par exemple, \"La vie de Marie Curie\")\n- Les livres d'histoire (par exemple, \"La Révolution française\")\n- Les essais scientifiques.",
+        "title": "Genres de fiction et de non-fiction",
+        "themes": [
+          "genres within fiction",
+          "genres within nonfiction"
+        ],
+        "image_search_string": "fiction and nonfiction genres",
+        "question_types": [
+          "Grouping",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Voici quelques exemples de fiction et de non-fiction :\n- Fiction : \"Harry Potter\", \"Les Misérables\", \"Le Seigneur des Anneaux\"\n- Non-fiction : \"Une brève histoire du temps\" de Stephen Hawking, \"Le Journal d'Anne Frank\", \"Sapiens : Une brève histoire de l'humanité\" par Yuval Noah Harari.",
+        "title": "Exemples de fiction et de non-fiction",
+        "themes": [
+          "examples of fiction",
+          "examples of nonfiction"
+        ],
+        "image_search_string": "fiction and nonfiction examples",
+        "question_types": [
+          "Match",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Pour résumer, la fiction et la non-fiction sont des genres distincts, chacun ayant ses propres caractéristiques et buts. La fiction stimule l'imagination et le divertissement, tandis que la non-fiction informe et éduque. Les deux sont essentiels pour enrichir nos connaissances et notre créativité.",
+        "title": "Conclusion : La complémentarité des deux genres",
+        "themes": [
+          "summary of fiction and nonfiction"
+        ],
+        "image_search_string": "fiction and nonfiction summary",
+        "question_types": [
+          "ShortForm"
+        ]
+      }
+    ],
+    "topicInEnglish": "Fiction vs Nonfiction",
+    "generationLanguage": "fr-FR"
+  }
+}

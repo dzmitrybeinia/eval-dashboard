@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Willkommen zu unserer Reise ins Alte Ägypten! 🌍 Heute werden wir die faszinierende Welt einer der ältesten Zivilisationen der Geschichte entdecken. Bereit, mehr über ihre Kultur, Errungenschaften und den Einfluss auf unsere moderne Welt zu erfahren?",
+      "correction": "Willkommen zu unserer Reise ins Alte Ägypten! 🌍 Heute entdecken wir die faszinierende Welt einer der ältesten Zivilisationen der Geschichte. Bist du bereit, mehr über ihre Kultur, Errungenschaften und ihren Einfluss auf unsere moderne Welt zu erfahren?",
+      "description": "The original text uses a mix of formal and informal register, with 'Bereit, mehr ... zu erfahren?' lacking a subject and sounding abrupt in German. For educational content, a consistent and natural style is important. Adding 'Bist du' clarifies the question and maintains a friendly, direct address suitable for younger audiences. The rest of the text is linguistically correct, but the style adjustment improves naturalness and engagement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Viele moderne Ingenieure bewundern noch heute die Präzision und die Planung dieser Bauwerke.",
+      "correction": "Viele moderne Ingenieure bewundern noch heute die Präzision und Planung dieser Bauwerke.",
+      "description": "The use of 'die Präzision und die Planung' is grammatically correct but stylistically redundant in German. In coordinated noun phrases with the same article, it is more natural to omit the second article unless emphasis is needed. Removing the second 'die' improves fluency and aligns with standard German usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:43:11.648821",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

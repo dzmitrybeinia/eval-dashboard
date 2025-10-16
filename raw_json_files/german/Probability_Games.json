@@ -1,0 +1,95 @@
+{
+  "request": {
+    "lesson_description": "Probability Games: Understanding basic probability concepts through simple games and real-life scenarios.",
+    "exercises_ratio": 0.2,
+    "grade_level": "6th grade",
+    "estimated_length": 30,
+    "learning_standard": "CCSS.MATH.CONTENT.6.SP.A.3: Recognize that a measure of center for a numerical data set summarizes all of its values with a single number, while a measure of variation describes how its values vary using probability concepts.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "8b82573f",
+    "topicInEnglish": "Probability Games",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Wahrscheinlichkeits-Spiele: Einführung in die Grundlagen der Wahrscheinlichkeit",
+    "slides": [
+      {
+        "content": "Herzlich willkommen zu unserer spannenden Reise in die Welt der Wahrscheinlichkeiten! 🎲 Heute werden wir anhand von Spielen und alltäglichen Situationen lernen, wie man Chancen berechnet und versteht.",
+        "title": "Einführung in die Wahrscheinlichkeits-Spiele",
+        "themes": [
+          "Einführung in Wahrscheinlichkeiten"
+        ],
+        "image_search_string": "probability games",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Wahrscheinlichkeit ist ein Konzept, das uns hilft zu verstehen, wie wahrscheinlich es ist, dass ein bestimmtes Ereignis eintritt. Sie wird oft in Prozent, Brüchen oder Dezimalzahlen ausgedrückt.",
+        "title": "Was ist Wahrscheinlichkeit?",
+        "themes": [
+          "Definition von Wahrscheinlichkeit"
+        ],
+        "image_search_string": "probability concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ein Ereignis ist ein Ergebnis oder eine Gruppe von Ergebnissen, die bei einem Experiment auftreten können. Zum Beispiel ist das Werfen eines Würfels ein Experiment, und die Zahl 6 zu würfeln ist ein Ereignis.",
+        "title": "Was ist ein Ereignis?",
+        "themes": [
+          "Definition eines Ereignisses"
+        ],
+        "image_search_string": "dice rolling event",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Man unterscheidet zwischen sicheren, unmöglichen und wahrscheinlichen Ereignissen: - Sicheres Ereignis: Es wird immer passieren. - Unmögliches Ereignis: Es wird nie passieren. - Wahrscheinliches Ereignis: Es könnte passieren, ist aber nicht garantiert.",
+        "title": "Arten von Ereignissen",
+        "themes": [
+          "Arten von Ereignissen"
+        ],
+        "image_search_string": "certainty probability",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Wahrscheinlichkeit eines Ereignisses kann berechnet werden, indem man die Anzahl der günstigen Ergebnisse durch die Gesamtanzahl der möglichen Ergebnisse teilt. Beispiel: Die Wahrscheinlichkeit, eine 6 zu würfeln, ist 1/6.",
+        "title": "Wie berechnet man Wahrscheinlichkeit?",
+        "themes": [
+          "Berechnung von Wahrscheinlichkeit"
+        ],
+        "image_search_string": "probability calculation",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Zufallsversuche sind Experimente, bei denen das Ergebnis nicht vorhergesagt werden kann. Beispiele sind das Werfen eines Würfels oder das Ziehen einer Karte aus einem Kartenspiel.",
+        "title": "Was sind Zufallsversuche?",
+        "themes": [
+          "Definition von Zufallsversuchen"
+        ],
+        "image_search_string": "random experiment",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Probability Games",
+    "generationLanguage": "de-DE"
+  }
+}

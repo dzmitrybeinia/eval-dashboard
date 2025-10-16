@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Willkommen in der faszinierenden Welt der Künstlichen Intelligenz (KI)! Heute werden wir entdecken, was KI ist, welche Arten es gibt und wie sie in unserem Alltag verwendet wird. 🚀",
+      "correction": "Willkommen in der faszinierenden Welt der Künstlichen Intelligenz (KI)! Heute entdecken wir, was KI ist, welche Arten es gibt und wie sie in unserem Alltag verwendet wird. 🚀",
+      "description": "The phrase 'Heute werden wir entdecken' uses a future passive construction that is less natural in German educational contexts. A more direct and active phrasing ('Heute entdecken wir') is preferred for engaging learners and aligns better with standard German didactic style. No linguistic errors, but the style can be improved for naturalness and learner engagement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Neuronale Netze: Inspiriert von der Struktur des menschlichen Gehirns.",
+      "correction": "Neuronale Netze: Inspiriert von der Funktionsweise des menschlichen Gehirns.",
+      "description": "The term 'Struktur des menschlichen Gehirns' is technically less precise in the context of neural networks, which are inspired by the 'Funktionsweise' (functioning) rather than the physical structure. Adjusting the terminology improves technical accuracy and aligns with standard German educational usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Empfehlungsalgorithmen auf Plattformen wie Netflix.",
+      "correction": "Empfehlungsalgorithmen auf Plattformen wie Netflix und anderen Streaming-Diensten.",
+      "description": "Referencing only 'Netflix' may be perceived as brand favoritism or lack of inclusivity. Adding 'und anderen Streaming-Diensten' makes the example more culturally neutral and inclusive, which is preferred in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zusammenfassend ist KI eine spannende Technologie, die unser Leben bereits verändert hat und weiter verändern wird. Sie bietet viele Möglichkeiten, bringt aber auch Verantwortung mit sich. 🌐",
+      "correction": "Zusammenfassend ist KI eine spannende Technologie, die unser Leben bereits verändert hat und weiterhin verändern wird. Sie bietet viele Möglichkeiten, bringt aber auch Verantwortung mit sich. 🌐",
+      "description": "The phrase 'weiter verändern wird' is grammatically correct but 'weiterhin verändern wird' is more idiomatic and natural in German, emphasizing the ongoing nature of change. This adjustment improves the style and naturalness of the summary.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:57.233830",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

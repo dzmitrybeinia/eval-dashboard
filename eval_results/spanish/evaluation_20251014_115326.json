@@ -1,0 +1,57 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "comestibles",
+      "correction": "alimentos",
+      "description": "The word 'comestibles' is correct but may sound formal or less natural in some Spanish-speaking regions, where 'alimentos' or 'productos de supermercado' are more commonly used in everyday speech. Adjusting this term can improve naturalness and relatability for a broader audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-14T11:53:26.616202",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 2,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "5 € por bolsa",
+      "correction": "5 € por bolsa",
+      "description": "The use of the euro symbol (€) is appropriate for Spanish audiences in Spain and most of the EU, but if the content is intended for Latin American countries, the currency should be adapted to local conventions (e.g., pesos, dollars). If the lesson is for a pan-Hispanic audience, consider clarifying the currency or using a more neutral example to avoid confusion.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "bolsa reutilizable",
+      "correction": "bolsa reutilizable",
+      "description": "The term 'bolsa reutilizable' is widely understood in Spain and many Latin American countries, but in some regions, alternative terms like 'bolsa ecológica' or 'bolsa de tela' may be more common. For maximum localization quality, consider regional preferences for terminology if targeting a specific country.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

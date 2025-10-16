@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Zusammenfassung der Geschichtelemente",
+      "correction": "Zusammenfassung der Geschichtselemente",
+      "description": "The compound noun 'Geschichtelemente' is incorrectly formed. In German, compound nouns should be written as a single word with the correct connecting element. The correct form is 'Geschichtselemente' (story elements), not 'Geschichtelemente'. This error affects spelling and word formation rules.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:46:44.444205",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

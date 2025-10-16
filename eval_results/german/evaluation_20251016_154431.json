@@ -1,0 +1,204 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Was soll ich heute anziehen?",
+      "correction": "Was ziehe ich heute an?",
+      "description": "The original phrase is grammatically correct but uses a construction ('Was soll ich ...?') that is less natural in everyday German. 'Was ziehe ich heute an?' is more idiomatic and commonly used in daily speech, improving localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wie verbringe ich meine Freizeit?",
+      "correction": "Was mache ich in meiner Freizeit?",
+      "description": "The original phrase is correct but slightly formal. 'Was mache ich in meiner Freizeit?' is more colloquial and natural for everyday German, improving localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ein systematischer Ansatz zur Entscheidungsfindung kann helfen, bessere Ergebnisse zu erzielen.",
+      "correction": "Ein systematischer Ansatz bei der Entscheidungsfindung kann zu besseren Ergebnissen führen.",
+      "description": "The original sentence is correct but uses a less natural construction. 'Kann helfen, bessere Ergebnisse zu erzielen' is wordy; 'kann zu besseren Ergebnissen führen' is more idiomatic and concise in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zusammenzuarbeiten: Gemeinsam nach Lösungen zu suchen.",
+      "correction": "Zusammenarbeiten: Gemeinsam nach Lösungen suchen.",
+      "description": "The original uses the infinitive with 'zu', which is less natural in bullet points. The correction uses the imperative or nominal form, which is preferred in lists for clarity and conciseness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Meinungen zu respektieren: Unterschiedliche Perspektiven zu berücksichtigen.",
+      "correction": "Meinungen respektieren: Unterschiedliche Perspektiven berücksichtigen.",
+      "description": "Similar to the previous point, removing 'zu' creates a more natural and concise bullet point style in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kompromisse einzugehen: Eine Lösung zu finden, die für alle akzeptabel ist.",
+      "correction": "Kompromisse eingehen: Eine Lösung finden, die für alle akzeptabel ist.",
+      "description": "The infinitive with 'zu' is less natural in bullet points. The correction uses the imperative or nominal form, which is preferred for clarity and conciseness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Sie können positiv wirken, indem sie uns motivieren, oder negativ, indem sie uns zu impulsiven Entscheidungen verleiten.",
+      "correction": "Sie können sich positiv auswirken, indem sie uns motivieren, oder negativ, indem sie uns zu impulsiven Entscheidungen verleiten.",
+      "description": "The original phrase 'Sie können positiv wirken' is understandable but 'sich positiv auswirken' is more idiomatic in German when discussing the effects of emotions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:44:31.652292",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 13,
+    "original_issue_count": 20
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 7,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Diese Lektion wird dir helfen, den Prozess des Entscheidens besser zu verstehen und wie du fundierte und logische Entscheidungen in verschiedenen Situationen treffen kannst. 🌟",
+      "correction": "Diese Lektion hilft dir, den Entscheidungsprozess besser zu verstehen und fundierte sowie logische Entscheidungen in verschiedenen Situationen zu treffen.",
+      "description": "The original sentence is somewhat wordy and uses a structure that is less natural in German educational writing. The phrase 'wird dir helfen, ... und wie du ... kannst' is awkward; a more concise and direct formulation is preferred for clarity and professionalism. Additionally, the use of the emoji 🌟 is not standard in formal educational content and may reduce perceived seriousness. The correction improves naturalness and removes the emoji for a more appropriate tone.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Issue about emoji formality/removal"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Problemlösungsfähigkeiten",
+      "correction": "Problemlösungsfähigkeiten",
+      "description": "No linguistic errors found. The compound noun is correctly formed and capitalized according to German orthographic rules.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Informationskompetenz",
+      "correction": "Informationskompetenz",
+      "description": "The term 'Informationskompetenz' is correct and widely accepted in German educational contexts. No localization or terminology issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Welche Schulprojekte haben Priorität?",
+      "correction": "Welche Schulprojekte sind besonders wichtig?",
+      "description": "While the original is correct, 'haben Priorität' is a direct translation from English and can sound slightly formal or technical. 'Sind besonders wichtig' is more natural and commonly used in spoken German, enhancing localization quality.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wie viel Zeit steht zur Verfügung?",
+      "correction": "Wie viel Zeit habe ich?",
+      "description": "The original is correct but uses a formal construction. 'Wie viel Zeit habe ich?' is more direct and natural in everyday German, enhancing localization quality.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Welche Mittel oder Materialien sind verfügbar?",
+      "correction": "Welche Mittel oder Materialien habe ich zur Verfügung?",
+      "description": "The original is correct but could be made more natural by including 'habe ich zur Verfügung', which is a common phrase in German when discussing available resources.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Was ist erlaubt oder notwendig?",
+      "correction": "Was darf ich und was muss ich tun?",
+      "description": "The original is correct but slightly formal. 'Was darf ich und was muss ich tun?' is more natural and commonly used in spoken German, improving localization.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wie gut spart die Option Zeit oder Ressourcen?",
+      "correction": "Spart die Option Zeit oder Ressourcen?",
+      "description": "The original is correct but wordy. A more concise and direct question is preferred in German educational content for clarity and naturalness.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wie einfach ist sie umzusetzen?",
+      "correction": "Ist sie einfach umzusetzen?",
+      "description": "The original is correct but can be made more concise and natural by rephrasing as a direct question.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ein Beispiel ist die Verwendung einer Entscheidungsmatrix, bei der du Optionen nach verschiedenen Kriterien bewertest und Punkte vergibst.",
+      "correction": "Ein Beispiel ist die Entscheidungsmatrix, bei der du Optionen anhand verschiedener Kriterien bewertest und Punkte vergibst.",
+      "description": "The original is correct but could be improved for naturalness. 'Die Verwendung einer Entscheidungsmatrix' is wordy; 'die Entscheidungsmatrix' is more direct. Also, 'anhand verschiedener Kriterien' is more idiomatic than 'nach verschiedenen Kriterien'.",
+      "severity": "MINOR",
+      "_filter_reason": "Description contradicts issue: '\\bthe\\s+(original|text)\\s+is\\s+(already\\s+)?correct'"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Strategische Entscheidungen",
+      "correction": "Strategische Entscheidungen",
+      "description": "The term is correct and standard in German business and educational contexts. No terminology issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Taktische Entscheidungen",
+      "correction": "Taktische Entscheidungen",
+      "description": "The term is correct and standard in German business and educational contexts. No terminology issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Operative Entscheidungen",
+      "correction": "Operative Entscheidungen",
+      "description": "The term is correct and standard in German business and educational contexts. No terminology issues found.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

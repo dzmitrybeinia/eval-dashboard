@@ -1,0 +1,151 @@
+{
+  "request": {
+    "lesson_description": "Introduction to simple machines, exploring the six types (lever, pulley, wheel and axle, inclined plane, wedge, and screw) and their applications in everyday life.",
+    "exercises_ratio": 0.0,
+    "grade_level": "5th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "Focus on explaining how each machine works, their mechanical advantages, and include real-world examples such as scissors (lever) and ramps (inclined plane).",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "6ff4e03d",
+    "topicInEnglish": "Simple Machines",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Introduction aux machines simples",
+    "slides": [
+      {
+        "content": "Les machines simples sont des dispositifs qui aident à faciliter le travail en réduisant la force nécessaire pour accomplir une tâche. Elles ne nécessitent pas de moteur ou d'énergie électrique, mais utilisent des principes mécaniques pour accomplir leur fonction.",
+        "title": "Qu'est-ce qu'une machine simple ?",
+        "themes": [
+          "définition de machine simple"
+        ],
+        "image_search_string": "simple machines concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les six types principaux de machines simples sont :\n\n1. Levier\n2. Poulie\n3. Roue et essieu\n4. Plan incliné\n5. Coin\n6. Vis",
+        "title": "Les six types de machines simples",
+        "themes": [
+          "types de machines simples"
+        ],
+        "image_search_string": "six types of simple machines",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Un levier est une barre rigide qui pivote autour d'un point fixe appelé le point d'appui. Il permet de soulever ou déplacer des objets avec moins d'effort. Par exemple, un pied-de-biche ou des ciseaux sont des leviers.",
+        "title": "Le levier",
+        "themes": [
+          "fonctionnement du levier",
+          "exemples de leviers"
+        ],
+        "image_search_string": "lever simple machine",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Une poulie est une roue avec une rainure dans laquelle passe une corde. Elle permet de soulever des objets en réduisant la force nécessaire. Les grues et les puits utilisent des poulies.",
+        "title": "La poulie",
+        "themes": [
+          "fonctionnement de la poulie",
+          "exemples de poulies"
+        ],
+        "image_search_string": "pulley simple machine",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La roue et l'essieu fonctionnent ensemble pour réduire la friction et faciliter le déplacement des objets. Un exemple courant est une voiture avec ses roues.",
+        "title": "La roue et l'essieu",
+        "themes": [
+          "fonctionnement de la roue et essieu",
+          "exemples de roues et essieux"
+        ],
+        "image_search_string": "wheel and axle machine",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un plan incliné est une surface plate et inclinée qui permet de soulever des objets avec moins d'effort. Les rampes sont un exemple courant de plan incliné.",
+        "title": "Le plan incliné",
+        "themes": [
+          "fonctionnement du plan incliné",
+          "exemples de plans inclinés"
+        ],
+        "image_search_string": "inclined plane ramp",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un coin est un objet avec une ou deux surfaces inclinées qui sert à diviser ou séparer des objets. Par exemple, une hache ou un couteau sont des coins.",
+        "title": "Le coin",
+        "themes": [
+          "fonctionnement du coin",
+          "exemples de coins"
+        ],
+        "image_search_string": "wedge simple machine",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Une vis est une tige avec un filetage en spirale qui transforme une force rotative en une force linéaire. Les vis sont utilisées pour fixer des objets en place.",
+        "title": "La vis",
+        "themes": [
+          "fonctionnement de la vis",
+          "exemples de vis"
+        ],
+        "image_search_string": "screw simple machine",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les machines simples offrent un avantage mécanique en multipliant la force appliquée. Cela permet de déplacer des objets plus lourds ou de réduire l'effort nécessaire pour accomplir une tâche.",
+        "title": "Avantage mécanique des machines simples",
+        "themes": [
+          "avantage mécanique",
+          "efficacité des machines simples"
+        ],
+        "image_search_string": "mechanical advantage concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les machines simples sont omniprésentes dans la vie quotidienne. Par exemple :\n\n- Les ciseaux (levier)\n- Les grues (poulie)\n- Les voitures (roue et essieu)\n- Les rampes (plan incliné)\n- Les haches (coin)\n- Les vis (fixation)",
+        "title": "Exemples de machines simples dans la vie quotidienne",
+        "themes": [
+          "exemples pratiques des machines simples"
+        ],
+        "image_search_string": "daily life simple machines",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Simple Machines",
+    "generationLanguage": "fr-FR"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Diwali: Ein indisches Lichterfest, das die Rückkehr von Lord Rama feiert.",
+      "correction": "Diwali: Ein indisches Lichterfest, das den Sieg des Guten über das Böse und die Rückkehr von Lord Rama feiert.",
+      "description": "The description of Diwali is culturally incomplete and may mislead learners. Diwali is not only about the return of Lord Rama but also symbolizes the victory of good over evil and is celebrated by various communities in India for different reasons. The correction provides a more accurate and inclusive explanation, improving cultural appropriateness and educational value.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Diskutiert eure Ideen mit anderen und teilt eure Erfahrungen!",
+      "correction": "Diskutiert eure Ideen mit anderen und teilt eure Erfahrungen.",
+      "description": "The use of an exclamation mark in educational instructions can be perceived as overly informal or directive in German academic contexts. A period is more appropriate for maintaining a neutral and professional tone, which is standard in educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:44:18.413182",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Tag der Toten: Ein mexikanisches Fest, das die Verstorbenen ehrt.",
+      "correction": "Tag der Toten: Ein mexikanisches Fest, das die Verstorbenen ehrt.",
+      "description": "The term 'Tag der Toten' is a literal translation of 'Day of the Dead.' The culturally accepted German term is 'Día de los Muertos,' which is often used in educational and cultural contexts to refer to the Mexican festival. Using the original Spanish name would be more accurate and respectful of the cultural context, and it avoids confusion with other similar-sounding German terms.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

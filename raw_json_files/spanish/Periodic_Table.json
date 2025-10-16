@@ -1,0 +1,99 @@
+{
+  "request": {
+    "lesson_description": "Understanding the Periodic Table: Exploring elements, their properties, and organization.",
+    "exercises_ratio": 0.4,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "81fcd2ac",
+    "topicInEnglish": "Periodic Table",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Understanding the Periodic Table",
+    "slides": [
+      {
+        "content": "¡Bienvenidos al fascinante mundo de la tabla periódica! En esta lección, exploraremos cómo está organizada y cómo nos ayuda a entender los elementos que componen todo lo que nos rodea. 🌟",
+        "title": "Introducción a la tabla periódica",
+        "themes": [
+          "introducción a la tabla periódica"
+        ],
+        "image_search_string": "tabla periódica ilustración",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La tabla periódica es una herramienta que organiza los elementos químicos de manera sistemática. Fue diseñada por Dmitri Mendeléyev en 1869. Su objetivo era clasificar los elementos conocidos según sus propiedades químicas y físicas.",
+        "title": "Origen de la tabla periódica",
+        "themes": [
+          "historia de la tabla periódica",
+          "Dmitri Mendeléyev"
+        ],
+        "image_search_string": "Dmitri Mendeléyev",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En la tabla periódica, los elementos están organizados en filas horizontales llamadas períodos y columnas verticales conocidas como grupos. Los grupos contienen elementos con propiedades químicas similares, mientras que los períodos nos muestran tendencias en las propiedades de los elementos.",
+        "title": "Estructura de la tabla periódica",
+        "themes": [
+          "grupos y períodos",
+          "organización de elementos"
+        ],
+        "image_search_string": "estructura de la tabla periódica",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los elementos se clasifican en tres categorías principales: metales, no metales y metaloides. Los metales son buenos conductores de calor y electricidad; los no metales suelen ser aislantes, y los metaloides tienen propiedades intermedias.",
+        "title": "Clasificación de los elementos",
+        "themes": [
+          "metales no metales metaloides",
+          "propiedades de los elementos"
+        ],
+        "image_search_string": "metales no metales metaloides",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Cada elemento tiene un símbolo químico único, generalmente derivado de su nombre en latín o inglés. Por ejemplo, el oro tiene el símbolo 'Au' (del latín 'Aurum') y el sodio 'Na' (del latín 'Natrium'). Este símbolo nos da una forma breve y universal de identificar los elementos.",
+        "title": "Símbolos químicos de los elementos",
+        "themes": [
+          "símbolos químicos",
+          "nomenclatura de elementos"
+        ],
+        "image_search_string": "símbolos químicos ejemplo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En la tabla periódica, los elementos están ordenados por su número atómico, que representa la cantidad de protones en el núcleo de un átomo. Este orden refleja sus propiedades químicas y físicas, mostrando patrones periódicos.",
+        "title": "El número atómico y su importancia",
+        "themes": [
+          "número atómico",
+          "patrones en la tabla periódica"
+        ],
+        "image_search_string": "número atómico tabla periódica",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Periodic Table",
+    "generationLanguage": "es-ES"
+  }
+}

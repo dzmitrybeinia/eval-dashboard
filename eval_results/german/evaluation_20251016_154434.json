@@ -1,0 +1,64 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Ingenieurdesignprozess ist eine systematische Methode, um technische Probleme zu lösen.",
+      "correction": "Der Ingenieurdesignprozess ist eine systematische Methode, um technische Probleme zu lösen.",
+      "description": "The definite article 'Die' is incorrect for the masculine noun 'Ingenieurdesignprozess'; it should be 'Der'. This error affects grammatical gender agreement and the overall correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die gewählte Lösung wird entworfen und ein Prototyp wird erstellt.",
+      "correction": "Die gewählte Lösung wird entworfen und ein Prototyp erstellt.",
+      "description": "The phrase 'und ein Prototyp wird erstellt' is grammatically correct, but in German, when two verbs share the same subject, the auxiliary verb 'wird' can be omitted for the second verb to improve style and avoid repetition. This is a minor stylistic improvement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "In dieser Phase wird Kreativität gefördert, und es gibt keine falschen Ideen!",
+      "correction": "In dieser Phase wird Kreativität gefördert, und alle Ideen sind willkommen!",
+      "description": "The phrase 'es gibt keine falschen Ideen' is understandable but slightly informal and less idiomatic in German educational contexts. 'Alle Ideen sind willkommen' is a more natural and culturally appropriate way to encourage creativity in German learning materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:44:34.899978",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 4
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "🚀",
+      "correction": "",
+      "description": "The use of the rocket emoji '🚀' in an educational context may be considered informal and less appropriate for professional or academic German materials. It is recommended to remove the emoji for a more formal tone.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

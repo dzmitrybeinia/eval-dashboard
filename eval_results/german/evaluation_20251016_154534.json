@@ -1,0 +1,48 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Bekannte Persönlichkeiten wie Albert Einstein oder Michael Jordan zeigen, wie wichtig eine Wachstumsmentalität ist. Beide haben Rückschläge erlitten, aber sie nutzten diese, um sich zu verbessern und erfolgreich zu werden.",
+      "correction": "Bekannte Persönlichkeiten wie Albert Einstein oder Steffi Graf zeigen, wie wichtig eine Wachstumsmentalität ist. Beide haben Rückschläge erlitten, aber sie nutzten diese, um sich zu verbessern und erfolgreich zu werden.",
+      "description": "The use of Michael Jordan as an example may not be as culturally relevant for a German audience, especially in educational contexts. Replacing him with Steffi Graf, a well-known German athlete, increases relatability and cultural appropriateness. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.md",
+    "language": "German",
+    "timestamp": "2025-10-16T15:45:34.815870",
+    "model": "gpt-4.1",
+    "label": "v1",
+    "false_positives_filtered": 1,
+    "original_issue_count": 2
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Positive Selbstgespräche bedeuten, dass man sich selbst ermutigt und an sich glaubt. Anstatt zu sagen: \"Ich kann das nicht\", sagt man: \"Ich kann das noch nicht, aber ich werde es lernen.\"",
+      "correction": "Positive Selbstgespräche bedeuten, dass man sich selbst ermutigt und an sich glaubt. Anstatt zu sagen: \"Ich kann das nicht\", sagt man: \"Ich kann das noch nicht, aber ich werde es lernen.\"",
+      "description": "The quotation marks used in the direct speech are English-style (\" \") rather than German-style („ “). For proper German orthography, the quotation marks should be replaced with the German format: „Ich kann das nicht“ and „Ich kann das noch nicht, aber ich werde es lernen.“. This improves typographical correctness and aligns with German writing conventions.",
+      "severity": "MINOR",
+      "_filter_reason": "Original equals correction"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Usa la técnica Pomodoro: estudia durante 25 minutos y descansa 5.",
+      "correction": "Usa la técnica Pomodoro: estudia durante 25 minutos y descansa 5 minutos.",
+      "description": "The original text omits the unit 'minutos' after 'descansa 5', which may cause ambiguity for learners unfamiliar with the Pomodoro technique. In Spanish educational contexts, it is clearer and more natural to specify the time unit for both study and rest periods. Adding 'minutos' after 'descansa 5' ensures clarity and consistency in format conventions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:24:33.403306",
+    "model": "gpt-4.1",
+    "label": "v9"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

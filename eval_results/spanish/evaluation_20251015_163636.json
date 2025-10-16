@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleanos (bool): verdadero o falso, representado como `True` o `False`.",
+      "correction": "Booleanos (bool): verdadero o falso, representado como `Verdadero` o `Falso`.",
+      "description": "The terms 'True' and 'False' are presented in English within a Spanish educational context. For introductory programming lessons aimed at Spanish speakers in Spain, it is more culturally appropriate and natural to use the Spanish equivalents 'Verdadero' and 'Falso' when explaining boolean values, unless specifically referencing code syntax. This improves clarity and aligns with local teaching conventions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:36:36.025540",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

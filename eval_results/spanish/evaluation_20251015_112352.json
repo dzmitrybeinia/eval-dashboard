@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Son menos reactivos que los metales alcalinos pero aún lo suficiente como para no encontrarse puros en la naturaleza.",
+      "correction": "Son menos reactivos que los metales alcalinos, pero aún lo son lo suficiente como para no encontrarse puros en la naturaleza.",
+      "description": "The original sentence lacks grammatical clarity due to the omission of the verb 'son' after 'pero aún', which is necessary for correct sentence structure in Spanish. The corrected version adds 'lo son' to clarify that the subject remains sufficiently reactive. This improves readability and grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Dmitri Mendeléyev fue el científico que organizó por primera vez los elementos en una tabla periódica basada en sus propiedades químicas y pesos atómicos.",
+      "correction": "Dmitri Mendeléyev fue el científico que organizó por primera vez los elementos en una tabla periódica basada en sus propiedades químicas y masas atómicas.",
+      "description": "The term 'pesos atómicos' is outdated in modern Spanish scientific usage in Spain; 'masas atómicas' is the preferred and more accurate term. Updating this terminology ensures consistency with current educational standards and scientific conventions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T11:23:52.702872",
+    "model": "gpt-4.1",
+    "label": "v9"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "request": {
+    "lesson_description": "Friendship Skills: Understanding empathy, active listening, and conflict resolution to build strong relationships.",
+    "exercises_ratio": 1.0,
+    "grade_level": "5th grade",
+    "estimated_length": 25,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "ed35d003",
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Freundschaftskompetenzen: Empathie, aktives Zuhören und Konfliktlösung",
+    "slides": [
+      {
+        "content": "Freundschaft ist etwas Besonderes! Heute lernen wir, wie wir gute Freunde sein können, indem wir Empathie zeigen, gut zuhören und Konflikte lösen.",
+        "title": "Willkommen zur Freundschaftslektion",
+        "themes": [
+          "Einführung in Freundschaftskompetenzen"
+        ],
+        "image_search_string": "friendship illustration",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Empathie bedeutet, die Gefühle anderer Menschen zu verstehen und nachzuvollziehen. Es ist, als würdest du in die Schuhe eines anderen schlüpfen und die Welt aus ihrer Sicht betrachten.",
+        "title": "Was ist Empathie?",
+        "themes": [
+          "Definition von Empathie"
+        ],
+        "image_search_string": "empathy concept",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Empathie hilft uns, bessere Freunde zu sein, weil wir die Bedürfnisse und Gefühle anderer besser verstehen können. So können wir einfühlsamer handeln und Beziehungen stärken.",
+        "title": "Warum ist Empathie wichtig?",
+        "themes": [
+          "Bedeutung von Empathie"
+        ],
+        "image_search_string": "understanding friends",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Aktives Zuhören bedeutet, dass wir uns voll auf das konzentrieren, was unser Gegenüber sagt. Es umfasst Augenkontakt, Nicken und das Wiederholen von Schlüsselgedanken, um sicherzugehen, dass wir richtig verstanden haben.",
+        "title": "Was bedeutet aktives Zuhören?",
+        "themes": [
+          "Definition von aktivem Zuhören"
+        ],
+        "image_search_string": "active listening",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Aktives Zuhören zeigt unserem Gesprächspartner, dass wir ihn respektieren und seine Gedanken und Gefühle wichtig nehmen. Das stärkt Vertrauen und Freundschaft.",
+        "title": "Warum ist aktives Zuhören wichtig?",
+        "themes": [
+          "Vorteile des aktiven Zuhörens"
+        ],
+        "image_search_string": "listening importance",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Konflikte sind normal in Freundschaften. Wichtig ist, wie man sie löst. Indem wir ruhig bleiben, klar kommunizieren und nach einer gemeinsamen Lösung suchen, können Konflikte unsere Beziehungen sogar stärken.",
+        "title": "Konflikte lösen in Freundschaften",
+        "themes": [
+          "Konfliktlösung in Freundschaften"
+        ],
+        "image_search_string": "conflict resolution",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ein Beispiel für Empathie ist, wenn dein Freund traurig ist, weil er etwas verloren hat, und du ihm zeigst, dass du sein Gefühl nachvollziehen kannst, indem du sagst: 'Das muss wirklich schwer für dich sein.'",
+        "title": "Beispiel für Empathie",
+        "themes": [
+          "Empathie durch Beispiele"
+        ],
+        "image_search_string": "empathy example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Wenn du aktiv zuhörst, kannst du sagen: 'Was ich von dir verstanden habe, ist, dass du dir Sorgen machst. Stimmt das?' Das zeigt, dass du wirklich zugehört hast und verstehen willst.",
+        "title": "Beispiel für aktives Zuhören",
+        "themes": [
+          "Beispiele für aktives Zuhören"
+        ],
+        "image_search_string": "active listening example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ein Konflikt kann entstehen, wenn zwei Freunde unterschiedliche Pläne für den Tag haben. Eine Lösung könnte sein, dass sie sich gemeinsam auf eine Aktivität einigen oder abwechselnd entscheiden.",
+        "title": "Beispiel für Konfliktlösung",
+        "themes": [
+          "Konfliktlösungsbeispiele"
+        ],
+        "image_search_string": "conflict resolution example",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Empathie üben wir, indem wir uns vorstellen, wie es wäre, in der Situation einer anderen Person zu sein. Zum Beispiel: 'Wie würde ich mich fühlen, wenn ich meinen Lieblingsstift verloren hätte?'",
+        "title": "Empathie üben",
+        "themes": [
+          "Empathie durch Übung"
+        ],
+        "image_search_string": "practicing empathy",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Aktives Zuhören kannst du üben, indem du dich darauf konzentrierst, was dein Gesprächspartner sagt, und nicht gleichzeitig an etwas anderes denkst. Wiederhole, was du gehört hast, um sicherzugehen, dass du es richtig verstanden hast.",
+        "title": "Aktives Zuhören üben",
+        "themes": [
+          "Übung für aktives Zuhören"
+        ],
+        "image_search_string": "practicing active listening",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Um Konflikte zu lösen, kannst du üben, ruhig zu bleiben, anstatt wütend zu werden. Denke daran, nach einer Lösung zu suchen, die für beide Seiten fair ist.",
+        "title": "Konfliktlösung üben",
+        "themes": [
+          "Übung für Konfliktlösung"
+        ],
+        "image_search_string": "practicing conflict resolution",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Friendship Skills",
+    "generationLanguage": "de-DE"
+  }
+}

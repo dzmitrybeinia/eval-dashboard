@@ -1,0 +1,101 @@
+{
+  "request": {
+    "lesson_description": "Developing effective study skills: time management, note-taking techniques, and active reading strategies.",
+    "exercises_ratio": 0.7,
+    "grade_level": "9th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.ELA-LITERACY.CCRA.R.10: Read and comprehend complex literary and informational texts independently and proficiently.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "abb5a05f",
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Developing Effective Study Skills",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon sur le développement des compétences d'étude efficaces ! Aujourd'hui, nous allons explorer des stratégies essentielles pour gérer votre temps, prendre des notes efficacement et lire activement. Ces compétences vous aideront non seulement à réussir vos études mais aussi dans de nombreux aspects de la vie. 📚",
+        "title": "Introduction aux compétences d'étude",
+        "themes": [
+          "introduction aux compétences d'étude"
+        ],
+        "image_search_string": "students studying together",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La gestion du temps est essentielle pour maximiser votre efficacité et éviter le stress. Voici quelques conseils pratiques : \n\n- **Planifiez votre semaine** : Utilisez un agenda ou une application pour noter vos cours, devoirs et temps libre.\n- **Priorisez vos tâches** : Identifiez les tâches importantes et urgentes à accomplir en premier.\n- **Évitez la procrastination** : Travaillez dans des blocs de temps courts avec des pauses régulières.\n- **Fixez des objectifs réalistes** : Fractionnez vos grandes tâches en étapes plus petites.",
+        "title": "Gestion du temps efficace",
+        "themes": [
+          "gestion du temps",
+          "organisation personnelle"
+        ],
+        "image_search_string": "time management tips",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Une bonne prise de notes peut transformer la façon dont vous apprenez. Voici des méthodes courantes :\n\n- **Méthode Cornell** : Divisez votre page en trois sections : notes, mots-clés/questions, et résumé.\n- **Prise de notes linéaire** : Écrivez les informations de manière structurée, en utilisant des titres et des sous-titres.\n- **Cartes mentales** : Organisez les idées sous forme de diagrammes autour d'un concept central.\n\nExpérimentez ces techniques et choisissez celle qui vous convient le mieux.",
+        "title": "Techniques de prise de notes",
+        "themes": [
+          "techniques de prise de notes",
+          "méthodes d'apprentissage"
+        ],
+        "image_search_string": "note-taking techniques",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La lecture active implique de s'engager pleinement avec le texte pour mieux le comprendre. Voici comment :\n\n- **Posez des questions** avant de lire : Qu'attendez-vous du texte ?\n- **Surlignez ou annotez** les informations clés.\n- **Résumé** les idées principales après avoir lu.\n- **Reliez** les informations à vos connaissances ou expériences personnelles.",
+        "title": "Stratégies de lecture active",
+        "themes": [
+          "lecture active",
+          "stratégies de compréhension"
+        ],
+        "image_search_string": "active reading techniques",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Une combinaison de gestion du temps, de bonnes notes et de lecture active peut transformer vos études. Voici un exemple d'application quotidienne :\n\n1. **Planifiez** votre journée : Identifiez une heure pour chaque tâche (révision, lecture, etc.).\n2. **Prenez des notes** en classe avec une méthode adaptée.\n3. **Relisez activement** vos notes et connectez-les aux concepts clés.\n\nEn intégrant ces pratiques, vous serez mieux préparé pour vos évaluations et vos devoirs.",
+        "title": "Combiner les stratégies",
+        "themes": [
+          "combinaison de stratégies",
+          "études efficaces"
+        ],
+        "image_search_string": "study habits",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Bravo ! Vous avez appris des stratégies essentielles pour améliorer vos compétences d'étude. En utilisant la gestion du temps, des techniques efficaces de prise de notes et des stratégies de lecture active, vous êtes sur la voie de la réussite scolaire. Continuez à pratiquer et à ajuster ces méthodes pour trouver ce qui fonctionne le mieux pour vous. 🌟",
+        "title": "Conclusion et encouragements",
+        "themes": [
+          "résumé des compétences",
+          "motivation"
+        ],
+        "image_search_string": "student success",
+        "question_types": [
+          "Intro"
+        ]
+      }
+    ],
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "fr-FR"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La sociedad egipcia estaba organizada en una jerarquía clara: en la cima estaba el faraón, seguido por sacerdotes, escribas, artesanos, campesinos y esclavos. Esta estructura social ayudó a mantener el orden y permitió el desarrollo de proyectos monumentales.",
+      "correction": "La sociedad egipcia estaba organizada en una jerarquía clara: en la cima estaba el faraón, seguido de sacerdotes, escribas, artesanos, campesinos y esclavos. Esta estructura social ayudó a mantener el orden y permitió el desarrollo de proyectos monumentales.",
+      "description": "In Spain, 'seguido de' is more idiomatic than 'seguido por' when listing hierarchical order. This change enhances the naturalness and consistency of terminology for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El faraón Tutankamón es uno de los más conocidos debido al descubrimiento de su tumba intacta en 1922. Este hallazgo reveló el esplendor del arte y la cultura egipcia, fascinando al mundo moderno.",
+      "correction": "El faraón Tutankamón es uno de los más conocidos debido al descubrimiento de su tumba intacta en 1922. Este hallazgo reveló el esplendor del arte y la cultura egipcias, fascinando al mundo moderno.",
+      "description": "The phrase 'el arte y la cultura egipcia' should use the plural 'egipcias' to agree with both 'arte' and 'cultura'. This correction improves grammatical agreement and naturalness in Spanish.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T17:24:45.302605",
+    "model": "gpt-4.1",
+    "label": "v12",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo del Antiguo Egipto! 🌟 En esta lección, exploraremos cómo la geografía, la cultura y los eventos históricos clave dieron forma a una de las civilizaciones más antiguas y sorprendentes de la historia.",
+      "correction": "¡Bienvenidos al fascinante mundo del Antiguo Egipto! En esta lección, exploraremos cómo la geografía, la cultura y los acontecimientos históricos clave dieron forma a una de las civilizaciones más antiguas y sorprendentes de la historia.",
+      "description": "The use of the emoji 🌟 is not standard in formal educational content for Spain and may reduce the perceived professionalism of the lesson. Additionally, 'eventos históricos' is less natural than 'acontecimientos históricos' in this context; the latter is preferred in Spain for historical events. Removing the emoji and adjusting the terminology improves the style and naturalness for the target audience.",
+      "severity": "MEDIUM",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

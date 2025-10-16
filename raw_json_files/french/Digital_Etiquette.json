@@ -1,0 +1,73 @@
+{
+  "request": {
+    "lesson_description": "Understanding Digital Etiquette: Best practices for online communication, respecting privacy, and avoiding cyberbullying.",
+    "exercises_ratio": 0.8,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "ISTE Standards for Students 2b: Engage in positive, safe, legal, and ethical behavior when using technology, including social interactions online or when using networked devices.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "f4318e7d",
+    "topicInEnglish": "Digital Etiquette",
+    "generationLanguage": "fr-FR"
+  },
+  "response": {
+    "title": "Comprendre l'Étiquette Numérique",
+    "slides": [
+      {
+        "content": "Bienvenue dans cette leçon sur l'étiquette numérique ! Aujourd'hui, nous allons explorer comment communiquer en ligne de manière respectueuse, protéger notre vie privée et éviter les comportements nuisibles comme le cyberharcèlement. 🌐",
+        "title": "Introduction à l'Étiquette Numérique",
+        "themes": [
+          "introduction à l'étiquette numérique"
+        ],
+        "image_search_string": "digital etiquette concept",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "L'étiquette numérique, ou \"netiquette\", désigne les règles et bonnes pratiques à suivre pour interagir en ligne. Cela inclut : \n\n- Être respectueux dans ses communications.\n- Éviter les insultes, les moqueries ou tout comportement offensant.\n- Utiliser un langage approprié et clair.\n- Réfléchir avant de partager ou publier quelque chose.",
+        "title": "Qu'est-ce que l'Étiquette Numérique ?",
+        "themes": [
+          "définition de l'étiquette numérique"
+        ],
+        "image_search_string": "netiquette rules",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Respecter la vie privée en ligne est essentiel. Quelques conseils :\n\n1. Ne partagez pas vos informations personnelles (adresse, numéro de téléphone, etc.).\n2. Protégez vos mots de passe et ne les partagez pas.\n3. Vérifiez les paramètres de confidentialité sur vos comptes.\n4. Ne publiez pas d'informations sensibles sur d'autres personnes sans leur consentement.",
+        "title": "Protéger sa Vie Privée en Ligne",
+        "themes": [
+          "protection de la vie privée en ligne"
+        ],
+        "image_search_string": "online privacy tips",
+        "question_types": [
+          "ShortForm",
+          "Sort",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Le cyberharcèlement est un comportement nuisible en ligne qui inclut :\n\n- Envoyer des messages méchants ou menaçants.\n- Partager des contenus embarrassants ou mensongers.\n- Exclure quelqu'un intentionnellement des discussions.\n\nPour l'éviter :\n\n- Soyez respectueux et bienveillant.\n- Signalez tout comportement inapproprié.\n- Soutenez les victimes en leur offrant votre aide.",
+        "title": "Éviter et Réagir face au Cyberharcèlement",
+        "themes": [
+          "prévention du cyberharcèlement",
+          "réaction au cyberharcèlement"
+        ],
+        "image_search_string": "cyberbullying prevention",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Digital Etiquette",
+    "generationLanguage": "fr-FR"
+  }
+}

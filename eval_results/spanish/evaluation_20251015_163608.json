@@ -1,0 +1,56 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las pirámides son uno de los logros más emblemáticos de los egipcios.",
+      "correction": "Las pirámides son uno de los logros más emblemáticos de Egipto.",
+      "description": "The phrase 'de los egipcios' is grammatically correct, but in this context, 'de Egipto' is more precise and idiomatic in Spanish when referring to the achievements of a civilization rather than its people. This improves clarity and aligns with standard usage in historical discourse.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Intercambiaban bienes como oro, lino y papiros por madera, especias y marfil.",
+      "correction": "Intercambiaban bienes como oro, lino y papiro por madera, especias y marfil.",
+      "description": "The term 'papiros' is technically correct as a plural, but in Spanish academic and historical contexts, 'papiro' is typically used as an uncountable noun when referring to the material or commodity. Using 'papiro' here is more natural and consistent with standard terminology in Spain.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:36:08.404802",
+    "model": "gpt-4.1",
+    "label": "v11",
+    "false_positives_filtered": 1,
+    "original_issue_count": 3
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  },
+  "_filtered_false_positives": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo del Antiguo Egipto! A lo largo de esta lección, exploraremos cómo esta civilización logró grandes avances en geografía, sociedad, religión y cultura. 🌍🏺",
+      "correction": "¡Bienvenidos al fascinante mundo del Antiguo Egipto! A lo largo de esta lección, exploraremos cómo esta civilización logró grandes avances en geografía, sociedad, religión y cultura.",
+      "description": "The use of emoji symbols (🌍🏺) in educational content for Spain is generally considered informal and may reduce the perceived seriousness of the material. For formal educational contexts, especially history lessons, it is recommended to avoid emojis to maintain a professional and academic tone.",
+      "severity": "MINOR",
+      "_filter_reason": "Issue about emoji formality/removal"
+    }
+  ]
+}

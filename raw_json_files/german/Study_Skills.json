@@ -1,0 +1,75 @@
+{
+  "request": {
+    "lesson_description": "Effective Study Skills: Time Management, Note-Taking Techniques, and Active Reading Strategies.",
+    "exercises_ratio": 0.6,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "f003a5dd",
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Effektive Lerntechniken: Zeitmanagement, Notizentechniken und aktives Lesen",
+    "slides": [
+      {
+        "content": "Willkommen zu unserer Lektion über effektive Lerntechniken! Heute werden wir spannende Strategien kennenlernen, die dir helfen, deine Zeit besser zu nutzen, effektive Notizen zu machen und aktiv zu lesen. Lerne, wie du dein Lernen optimieren kannst! ✨",
+        "title": "Einführung: Effektive Lerntechniken",
+        "themes": [
+          "Einführung in Lerntechniken"
+        ],
+        "image_search_string": "students studying together",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Zeitmanagement ist eine Schlüsselkompetenz für effektives Lernen. Es hilft dir, deine Aufgaben zu organisieren und Prioritäten zu setzen. Nutze Techniken wie To-do-Listen, Zeitpläne und die Pomodoro-Technik, um deinen Tag effizient zu gestalten. Zeitmanagement reduziert Stress und verbessert deine Produktivität.",
+        "title": "Zeitmanagement für Schüler",
+        "themes": [
+          "Grundlagen des Zeitmanagements",
+          "Strategien zur Zeitplanung"
+        ],
+        "image_search_string": "time management techniques",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Effektive Notizen sind der Schlüssel zu gutem Lernen. Verwende Techniken wie die Cornell-Methode, Mindmaps oder das Strukturieren in Stichpunkten. Notiere die wichtigsten Punkte und stelle sicher, dass deine Notizen übersichtlich und leicht verständlich sind. Überarbeite sie regelmäßig, um das Wissen zu festigen.",
+        "title": "Techniken für effektive Notizen",
+        "themes": [
+          "Notizmethoden",
+          "Wichtigkeit von Notizen"
+        ],
+        "image_search_string": "note-taking techniques",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Aktives Lesen bedeutet, dass du dich beim Lesen voll auf den Text konzentrierst und mit ihm interagierst. Markiere wichtige Stellen, stelle Fragen und mache dir Notizen. Diese Technik hilft dir, den Text besser zu verstehen und dich länger daran zu erinnern.",
+        "title": "Strategien für aktives Lesen",
+        "themes": [
+          "Aktives Lesen",
+          "Lesestrategien"
+        ],
+        "image_search_string": "active reading strategies",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Study Skills",
+    "generationLanguage": "de-DE"
+  }
+}

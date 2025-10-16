@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "El sistema de pesos y contrapesos",
+      "correction": "El sistema de controles y equilibrios",
+      "description": "The phrase 'pesos y contrapesos' is a literal translation of 'checks and balances' and is not the standard terminology used in Spain for this governmental concept. The correct and widely accepted term in Spanish (Spain) is 'controles y equilibrios'. Using the literal translation may cause confusion or sound unnatural to native speakers. The rest of the sentence is clear and accurate.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-15T16:37:52.557829",
+    "model": "gpt-4.1",
+    "label": "v11"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

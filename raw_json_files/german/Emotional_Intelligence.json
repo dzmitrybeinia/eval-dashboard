@@ -1,0 +1,95 @@
+{
+  "request": {
+    "lesson_description": "Understanding Emotional Intelligence: Exploring self-awareness, empathy, and effective communication.",
+    "exercises_ratio": 0.4,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "CASEL Framework for Social and Emotional Learning (SEL): Develop self-awareness, self-management, social awareness, relationship skills, and responsible decision-making.",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "2178f7bd",
+    "topicInEnglish": "Emotional Intelligence",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Verstehen von Emotionaler Intelligenz",
+    "slides": [
+      {
+        "content": "Emotional Intelligence (EI) ist die Fähigkeit, die eigenen Emotionen zu erkennen, zu verstehen und zu steuern sowie die Emotionen anderer zu erkennen und darauf einzugehen. Es hilft uns, bessere Beziehungen zu pflegen, effektiv zu kommunizieren und kluge Entscheidungen zu treffen.",
+        "title": "Was ist Emotionale Intelligenz?",
+        "themes": [
+          "Definition von Emotionaler Intelligenz"
+        ],
+        "image_search_string": "emotional intelligence concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Selbstbewusstsein ist der Prozess, die eigenen Emotionen, Stärken und Schwächen zu erkennen. Es ist ein wichtiger Aspekt der Emotionalen Intelligenz, da es uns hilft, uns selbst besser zu verstehen und auf unsere Gefühle zu achten.",
+        "title": "Selbstbewusstsein",
+        "themes": [
+          "Selbstbewusstsein und Emotionen"
+        ],
+        "image_search_string": "self-awareness emotions",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Empathie bedeutet, sich in die Lage anderer zu versetzen und ihre Gefühle zu verstehen. Es ist entscheidend für gesunde Beziehungen und ermöglicht es uns, mit Mitgefühl und Verständnis zu handeln.",
+        "title": "Empathie verstehen",
+        "themes": [
+          "Empathie und Mitgefühl"
+        ],
+        "image_search_string": "empathy understanding",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Effektive Kommunikation umfasst das klare und respektvolle Austauschen von Gedanken und Gefühlen. Es erfordert aktives Zuhören, die Wahl der richtigen Worte und den Einsatz von nonverbaler Kommunikation.",
+        "title": "Effektive Kommunikation",
+        "themes": [
+          "Kommunikationsfähigkeiten"
+        ],
+        "image_search_string": "effective communication skills",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die CASEL Framework besteht aus fünf Kernkompetenzen: Selbstbewusstsein, Selbstmanagement, soziale Bewusstheit, Beziehungsfähigkeiten und verantwortungsvolle Entscheidungsfindung. Diese fördern eine ganzheitliche soziale und emotionale Entwicklung.",
+        "title": "Die CASEL Framework",
+        "themes": [
+          "CASEL Framework Kernkompetenzen"
+        ],
+        "image_search_string": "CASEL framework diagram",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Emotionale Intelligenz kann durch Praxis und Reflexion entwickelt werden. Übungen wie Tagebuchschreiben, Rollenspiele und Achtsamkeitstechniken können helfen, die Fähigkeiten der Emotionalen Intelligenz zu verbessern.",
+        "title": "Entwicklung von Emotionaler Intelligenz",
+        "themes": [
+          "Fähigkeiten zur Verbesserung von EI"
+        ],
+        "image_search_string": "emotional intelligence training",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      }
+    ],
+    "topicInEnglish": "Emotional Intelligence",
+    "generationLanguage": "de-DE"
+  }
+}

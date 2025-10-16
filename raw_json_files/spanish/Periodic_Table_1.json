@@ -1,0 +1,99 @@
+{
+  "request": {
+    "lesson_description": "Introduction to the Periodic Table: Understanding elements, groups, periods, and basic atomic structure.",
+    "exercises_ratio": 0.6,
+    "grade_level": "9th grade",
+    "estimated_length": 15,
+    "learning_standard": "NGSS HS-PS1-1: Use the periodic table as a model to predict the relative properties of elements based on the patterns of electrons in the outermost energy level of atoms.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
+    "files_content": null,
+    "request_id": "a4a4b804",
+    "topicInEnglish": "Periodic Table",
+    "generationLanguage": "es-ES"
+  },
+  "response": {
+    "title": "Introducción a la Tabla Periódica y la Estructura Atómica Básica",
+    "slides": [
+      {
+        "content": "Bienvenidos a una fascinante exploración de la tabla periódica, una herramienta esencial para entender los elementos que componen nuestro mundo. 🌍 ¡Prepárense para descubrir patrones y secretos de los átomos!",
+        "title": "Introducción a la Tabla Periódica",
+        "themes": [
+          "Introducción a la tabla periódica"
+        ],
+        "image_search_string": "tabla periódica básica",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "La tabla periódica es una organización sistemática de todos los elementos químicos conocidos. Fue creada por Dmitri Mendeléyev en 1869. Los elementos están organizados según su número atómico, que es el número de protones en su núcleo.",
+        "title": "¿Qué es la Tabla Periódica?",
+        "themes": [
+          "Definición de tabla periódica",
+          "Número atómico y organización"
+        ],
+        "image_search_string": "tabla periódica de elementos",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La tabla periódica se divide en grupos (columnas) y períodos (filas). Los grupos contienen elementos con propiedades químicas similares, mientras que los períodos muestran un patrón de cambio gradual en estas propiedades.",
+        "title": "Grupos y Períodos",
+        "themes": [
+          "Grupos y períodos de la tabla periódica",
+          "Propiedades químicas similares"
+        ],
+        "image_search_string": "grupos y períodos tabla periódica",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los elementos se clasifican en metales, no metales y metaloides. Los metales son buenos conductores de electricidad y calor. Los no metales, en cambio, son malos conductores y suelen ser gases o sólidos quebradizos. Los metaloides tienen propiedades intermedias.",
+        "title": "Clasificación de los Elementos",
+        "themes": [
+          "Metales, no metales y metaloides",
+          "Propiedades de los elementos"
+        ],
+        "image_search_string": "clasificación de elementos químicos",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Cada elemento tiene una estructura atómica única. El núcleo contiene protones y neutrones, mientras que los electrones orbitan alrededor del núcleo en niveles de energía. Los electrones en el nivel más externo determinan las propiedades químicas del elemento.",
+        "title": "Estructura Atómica Básica",
+        "themes": [
+          "Estructura atómica",
+          "Niveles de energía y electrones"
+        ],
+        "image_search_string": "estructura del átomo",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La tabla periódica no solo organiza elementos, sino que también predice propiedades. Los elementos en el mismo grupo tienen patrones similares en sus electrones de valencia, lo que influye en su reactividad y enlaces químicos.",
+        "title": "Patrones y Predicciones en la Tabla Periódica",
+        "themes": [
+          "Predicción de propiedades",
+          "Electrones de valencia"
+        ],
+        "image_search_string": "tabla periódica patrones",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      }
+    ],
+    "topicInEnglish": "Periodic Table",
+    "generationLanguage": "es-ES"
+  }
+}

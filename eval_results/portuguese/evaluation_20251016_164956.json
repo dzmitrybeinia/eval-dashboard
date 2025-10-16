@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "movimentos feminista e LGBTQ+",
+      "correction": "movimentos feminista e LGBTQIA+",
+      "description": "The term 'LGBTQ+' is commonly used in English, but in Brazilian Portuguese, the more inclusive and locally accepted term is 'LGBTQIA+'. This change ensures cultural appropriateness and reflects current terminology standards in Brazil.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ato dos Direitos Civis",
+      "correction": "Lei dos Direitos Civis",
+      "description": "The term 'Ato dos Direitos Civis' is a literal translation of 'Civil Rights Act', but the more natural and widely used term in Brazilian Portuguese is 'Lei dos Direitos Civis'. This adjustment improves terminology consistency and aligns with local usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Eu Tenho um Sonho",
+      "correction": "Eu tenho um sonho",
+      "description": "In Portuguese, only the first word of a title or phrase is capitalized unless it is a proper noun. The phrase 'Eu Tenho um Sonho' incorrectly capitalizes every word. The correct form is 'Eu tenho um sonho'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-16T16:49:56.640223",
+    "model": "gpt-4.1",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

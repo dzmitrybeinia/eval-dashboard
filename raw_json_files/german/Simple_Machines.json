@@ -1,0 +1,72 @@
+{
+  "request": {
+    "lesson_description": "Introduction to simple machines: Understanding the types (lever, wheel and axle, pulley, inclined plane, wedge, and screw) and their applications in everyday life.",
+    "exercises_ratio": 0.8,
+    "grade_level": "5th grade",
+    "estimated_length": 20,
+    "learning_standard": "NGSS 3-5-ETS1-2: Generate and compare multiple solutions to a problem based on how well they meet the criteria and constraints of a design problem.",
+    "additional_guidance": "Focus on real-world examples such as how pulleys are used in construction, or how levers work in seesaws and crowbars. Include explanations on the mechanical advantage provided by each machine.",
+    "activity_type": "LearningZone",
+    "files_content": null,
+    "request_id": "85ef20ce",
+    "topicInEnglish": "Simple Machines",
+    "generationLanguage": "de-DE"
+  },
+  "response": {
+    "title": "Einführung in einfache Maschinen",
+    "slides": [
+      {
+        "content": "Willkommen zu unserer spannenden Reise in die Welt der einfachen Maschinen! Heute lernen wir, wie alltägliche Gegenstände wie Hebel, Rollen und Schrauben uns dabei helfen, schwere Arbeiten leichter zu machen. 🌟",
+        "title": "Einführung in einfache Maschinen",
+        "themes": [
+          "Einfache Maschinen"
+        ],
+        "image_search_string": "simple machines examples",
+        "question_types": [
+          "Intro"
+        ]
+      },
+      {
+        "content": "Ein Hebel ist eine einfache Maschine, die aus einer starren Stange besteht, die sich um einen festen Punkt, den Drehpunkt, bewegt. Hebel werden verwendet, um eine Kraft zu verstärken. Beispiele sind Schaukeln auf Spielplätzen und Brechstangen. Wenn du beispielsweise eine Brechstange benutzt, kannst du mit weniger Kraftaufwand schwere Dinge bewegen.",
+        "title": "Hebel: Schaukeln und Brechstangen",
+        "themes": [
+          "Hebel Funktionsweise",
+          "Beispiele für Hebel"
+        ],
+        "image_search_string": "lever examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Rollen bestehen aus einem Rad, das um eine Achse gedreht wird, und werden oft verwendet, um schwere Lasten zu heben oder zu bewegen. Ein Beispiel ist ein Flaschenzug, der auf Baustellen verwendet wird, um große Materialien zu heben. Die Verwendung einer Rolle reduziert die notwendige Kraft, um die Last zu bewegen.",
+        "title": "Rollen: Flaschenzüge im Bau",
+        "themes": [
+          "Rollen Funktionsweise",
+          "Beispiele für Rollen"
+        ],
+        "image_search_string": "pulley system construction",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Eine schiefe Ebene ist eine geneigte Fläche, die verwendet wird, um schwere Objekte über eine längere Strecke mit weniger Kraftaufwand zu bewegen. Ein Beispiel ist eine Rampe, die es ermöglicht, Objekte auf ein höheres Niveau zu heben, ohne sie direkt anzuheben. Sie erleichtert das Heben, indem die Kraft über eine größere Strecke verteilt wird.",
+        "title": "Schiefe Ebene: Rampen",
+        "themes": [
+          "Schiefe Ebene Beispiele",
+          "Kraftverteilung"
+        ],
+        "image_search_string": "inclined plane ramp",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      }
+    ],
+    "topicInEnglish": "Simple Machines",
+    "generationLanguage": "de-DE"
+  }
+}

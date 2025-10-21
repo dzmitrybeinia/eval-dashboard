@@ -1,137 +1,115 @@
 {
   "request": {
-    "lesson_description": "What is Artificial Intelligence (AI)? Understanding its definition, applications, and ethical considerations.",
-    "exercises_ratio": 0.2,
-    "grade_level": "10th grade",
-    "estimated_length": 25,
-    "learning_standard": "Next Generation Science Standards (NGSS): HS-ETS1-4 - Use a computer simulation to model the impact of proposed solutions to a complex real-world problem with numerous criteria and constraints on interactions within and between systems.",
-    "additional_guidance": "Focus on real-world examples such as self-driving cars, virtual assistants, and healthcare applications. Include discussions on the benefits and challenges of AI, as well as ethical implications like bias and privacy.",
-    "activity_type": "Kahoot",
+    "lesson_description": "What is Artificial Intelligence (AI)? Understanding its definition, history, types, and real-world applications.",
+    "exercises_ratio": 0.5,
+    "grade_level": "9th grade",
+    "estimated_length": 30,
+    "learning_standard": "",
+    "additional_guidance": "",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "293cfc06",
+    "request_id": "0dadb308",
     "topicInEnglish": "What is AI",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "¿Qué es la Inteligencia Artificial (IA)?",
+    "title": "Introducción a la Inteligencia Artificial (IA)",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy vamos a explorar un tema fascinante: la Inteligencia Artificial (IA). Descubriremos qué significa, cómo se utiliza en nuestra vida diaria y las preguntas éticas que plantea. 🌟",
-        "title": "Introducción a la IA",
+        "content": "¡Bienvenidos a esta emocionante lección sobre la Inteligencia Artificial! Hoy exploraremos qué es la IA, cómo ha evolucionado a lo largo del tiempo y en qué áreas de nuestra vida diaria la encontramos. 🌟",
+        "title": "Introducción a la Inteligencia Artificial",
         "themes": [
-          "introducción a la IA"
+          "Introducción a la IA"
         ],
-        "image_search_string": "inteligencia artificial concepto",
+        "image_search_string": "artificial intelligence concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La inteligencia artificial, o IA, se refiere a sistemas o máquinas que pueden realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, la resolución de problemas, el reconocimiento de patrones y la toma de decisiones.",
-        "title": "Definición de IA",
+        "content": "La Inteligencia Artificial o IA se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana, como el reconocimiento de voz, la toma de decisiones y la resolución de problemas. Es una rama de la informática que busca crear sistemas capaces de aprender y adaptarse.",
+        "title": "¿Qué es la Inteligencia Artificial?",
         "themes": [
-          "definición de inteligencia artificial"
+          "Definición de IA"
         ],
-        "image_search_string": "definición inteligencia artificial",
+        "image_search_string": "definition of artificial intelligence",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Algunos ejemplos comunes de IA incluyen:\n- Asistentes virtuales como Siri y Alexa.\n- Sistemas de recomendación en Netflix o Spotify.\n- Autos que se conducen solos.\n- Diagnósticos médicos asistidos por IA.",
-        "title": "Ejemplos de IA en la vida cotidiana",
+        "content": "El término \"Inteligencia Artificial\" fue acuñado en 1956 por John McCarthy durante la conferencia de Dartmouth. Desde entonces, la IA ha evolucionado desde simples programas hasta sistemas avanzados capaces de aprender y mejorar por sí mismos.",
+        "title": "Historia de la Inteligencia Artificial",
         "themes": [
-          "ejemplos de inteligencia artificial"
+          "Origen del término IA",
+          "Evolución histórica de la IA"
         ],
-        "image_search_string": "ejemplos de inteligencia artificial",
+        "image_search_string": "history of artificial intelligence",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La IA se clasifica en tres tipos principales: \n\n1. IA Débil (o Estrecha): Diseñada para realizar tareas específicas, como asistentes virtuales o videojuegos.\n2. IA Fuerte (o General): Una IA con capacidad para realizar cualquier tarea intelectual que un humano pueda hacer.\n3. Superinteligencia: Una IA hipotética que supera la inteligencia humana en todos los aspectos.",
+        "title": "Tipos de Inteligencia Artificial",
+        "themes": [
+          "Clasificación de la IA"
+        ],
+        "image_search_string": "types of artificial intelligence",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "La IA funciona utilizando algoritmos y grandes cantidades de datos. Los algoritmos son conjuntos de instrucciones que la máquina sigue para resolver problemas. Los datos ayudan a la IA a aprender patrones y mejorar con el tiempo.",
-        "title": "¿Cómo funciona la IA?",
+        "content": "La IA utiliza diversas técnicas, entre ellas:\n- Aprendizaje Automático (Machine Learning): Enseñar a las máquinas a aprender de los datos.\n- Redes Neuronales: Modelos inspirados en el cerebro humano para procesar información.\n- Procesamiento de Lenguaje Natural (NLP): Permite a las máquinas entender y generar lenguaje humano.",
+        "title": "Técnicas clave en IA",
         "themes": [
-          "funcionamiento de la IA"
+          "Técnicas de IA"
         ],
-        "image_search_string": "funcionamiento inteligencia artificial",
+        "image_search_string": "artificial intelligence techniques",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "En el campo de la salud, la IA se aplica para:\n- Diagnosticar enfermedades con imágenes médicas.\n- Proporcionar tratamientos personalizados.\n- Ayudar en investigaciones para desarrollar nuevos medicamentos.",
-        "title": "Aplicaciones de IA en la salud",
+        "content": "La IA tiene aplicaciones en diversas áreas como:\n- Salud: Diagnóstico de enfermedades y desarrollo de tratamientos.\n- Transporte: Vehículos autónomos y optimización de rutas.\n- Educación: Sistemas personalizados de aprendizaje y evaluación.\n- Entretenimiento: Recomendaciones de contenido en plataformas como Netflix o Spotify.",
+        "title": "Aplicaciones de la Inteligencia Artificial",
         "themes": [
-          "IA en la salud"
+          "Aplicaciones prácticas de la IA"
         ],
-        "image_search_string": "inteligencia artificial en salud",
+        "image_search_string": "applications of artificial intelligence",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Los autos que se conducen solos utilizan IA para:\n- Reconocer señales de tráfico y peatones.\n- Navegar por calles usando mapas.\n- Prevenir accidentes con sistemas de frenado automático.",
-        "title": "IA en los autos autónomos",
-        "themes": [
-          "IA en autos autónomos"
-        ],
-        "image_search_string": "autos autónomos",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La IA también tiene aplicaciones en la educación, como:\n- Personalizar el aprendizaje para cada estudiante.\n- Proporcionar retroalimentación instantánea.\n- Automatizar tareas administrativas para los maestros.",
-        "title": "IA en la educación",
-        "themes": [
-          "IA en la educación"
-        ],
-        "image_search_string": "educación con inteligencia artificial",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Aunque la IA trae grandes beneficios, también plantea desafíos éticos, como:\n- La posibilidad de sesgos en los algoritmos.\n- La pérdida de privacidad de los usuarios.\n- El impacto en el empleo debido a la automatización.",
+        "content": "A pesar de sus beneficios, la IA también plantea desafíos éticos como:\n- Privacidad: Uso de datos personales.\n- Sesgo: Decisiones influenciadas por datos sesgados.\n- Desempleo: Reemplazo de trabajos humanos por máquinas.",
         "title": "Desafíos éticos de la IA",
         "themes": [
-          "desafíos éticos de la IA"
+          "Desafíos éticos en IA"
         ],
-        "image_search_string": "desafíos éticos IA",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El sesgo en la IA ocurre cuando los datos usados para entrenarla no son representativos o están influenciados por prejuicios. Esto puede llevar a decisiones injustas o discriminatorias.",
-        "title": "El sesgo en la IA",
-        "themes": [
-          "sesgo en la IA"
-        ],
-        "image_search_string": "sesgo en inteligencia artificial",
+        "image_search_string": "ethical challenges in AI",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La privacidad es una preocupación clave en la IA, ya que recopila y analiza grandes cantidades de datos personales. Es importante establecer regulaciones para proteger la información de los usuarios.",
-        "title": "La privacidad en la IA",
+        "content": "¡Esperamos que esta lección te haya dado una visión clara y completa sobre la Inteligencia Artificial! Sigue explorando y aprendiendo sobre este fascinante campo que está transformando nuestro mundo. 🌐",
+        "title": "Conclusión sobre la Inteligencia Artificial",
         "themes": [
-          "privacidad y IA"
+          "Conclusión sobre la IA"
         ],
-        "image_search_string": "privacidad y tecnología",
+        "image_search_string": "artificial intelligence overview",
         "question_types": [
-          "ShortForm",
-          "Match"
+          "Intro"
         ]
       }
     ],

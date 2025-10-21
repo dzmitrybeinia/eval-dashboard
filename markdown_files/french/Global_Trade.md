@@ -1,57 +1,100 @@
-# Lesson name: Introduction au Commerce Mondial
+# Lesson name: Comprendre le Commerce Mondial
 
 ## Intro
 
-### Introduction au Commerce Mondial
+### Introduction au commerce mondial
 
-Bienvenue dans notre exploration du commerce mondial ! Aujourd'hui, nous allons découvrir comment les pays échangent des biens et des services, et comment cela influence les économies et les cultures à travers le monde. 🌍
+Bienvenue dans notre exploration du commerce mondial ! 🌍 Aujourd'hui, nous allons découvrir comment les échanges entre nations façonnent nos économies, nos cultures et nos vies quotidiennes.
 
 #### **Themes:**
 - introduction au commerce mondial
 
 ## Content slide
 
-### Qu'est-ce que le Commerce Mondial ?
+### Origines du commerce mondial
 
-Le commerce mondial consiste en l'échange de biens et de services entre les pays. Cela inclut les exportations, où un pays vend ses produits à d'autres, et les importations, où il en achète. Par exemple, la France exporte des vins et importe des équipements électroniques.
+Le commerce mondial existe depuis des siècles, reliant des civilisations à travers des routes commerciales célèbres comme la Route de la Soie. Ces routes permettaient l'échange de biens, de cultures et de technologies.
 
 #### **Themes:**
-- définition du commerce mondial
+- routes commerciales anciennes
+- échanges culturels
 
 ## Content slide
 
-### Importations et Exportations
+### Routes commerciales modernes
 
-Les exportations sont les biens ou services qu'un pays vend à un autre pays. Les importations, en revanche, sont ceux qu'un pays achète à l'étranger. Ce système permet aux pays de bénéficier de produits qu'ils ne peuvent pas produire eux-mêmes.
+Les routes commerciales modernes, comme les voies maritimes et ferroviaires, sont essentielles pour transporter les biens à travers le monde. Par exemple, le canal de Suez et le canal de Panama jouent un rôle clé dans le commerce international.
 
 #### **Themes:**
-- importations
-- exportations
+- infrastructures de commerce
+- canaux stratégiques
 
 ## Content slide
 
-### Les Barrières Commerciales
+### Rôle des tarifs douaniers
 
-Les barrières commerciales sont des obstacles qui limitent le commerce entre les pays. Elles peuvent inclure des tarifs douaniers, des quotas ou des restrictions réglementaires. Par exemple, un tarif douanier est une taxe sur les produits importés.
+Les tarifs douaniers sont des taxes imposées sur les marchandises importées. Ils influencent les prix des produits et peuvent protéger les industries locales, mais ils peuvent aussi provoquer des tensions commerciales.
 
 #### **Themes:**
-- types de barrières commerciales
+- tarifs douaniers
+- protectionnisme
 
 ## Content slide
 
-### Impact de la Mondialisation
+### Impact de la mondialisation
 
-La mondialisation a élargi le commerce mondial, reliant les économies et cultures à une échelle sans précédent. Cela conduit à une disponibilité accrue de produits mais aussi à des défis comme la délocalisation de l'emploi ou les impacts environnementaux.
+La mondialisation a intensifié les liens commerciaux, facilitant l'accès aux marchés mondiaux. Cependant, elle a aussi des impacts, comme la délocalisation des emplois ou les écarts de richesse.
 
 #### **Themes:**
 - effets de la mondialisation
+- commerce et inégalités
 
 ## Content slide
 
-### Avantages et Défis du Commerce Mondial
+### Exemple : Union Européenne
 
-Les échanges commerciaux ont des avantages comme une diversité accrue de produits et des prix compétitifs. Cependant, ils posent aussi des défis tels que les disparités économiques ou les pressions environnementales.
+L'Union Européenne est un exemple de coopération commerciale régionale. Grâce à des accords comme le marché unique, les pays membres échangent librement des biens et services.
 
 #### **Themes:**
-- avantages du commerce
-- défis du commerce
+- coopération commerciale
+- marché unique
+
+## Content slide
+
+### Exemple : États-Unis et Chine
+
+La relation commerciale entre les États-Unis et la Chine est complexe, marquée par des interdépendances et des rivalités. Elle illustre les défis du commerce mondial aujourd'hui.
+
+#### **Themes:**
+- relation commerciale
+- défis modernes
+
+## Content slide
+
+### Accords commerciaux
+
+Les accords commerciaux, comme l'ALENA ou le Partenariat Transpacifique, visent à réduire les barrières commerciales et à promouvoir les échanges entre les pays participants.
+
+#### **Themes:**
+- réduction des barrières
+- coopération économique
+
+## Content slide
+
+### Commerce et pays en développement
+
+Les pays en développement participent de plus en plus au commerce mondial, mais ils font face à des défis comme l'accès aux marchés ou les infrastructures insuffisantes.
+
+#### **Themes:**
+- développement économique
+- défis commerciaux
+
+## Summary
+
+### Conclusion : le commerce mondial aujourd'hui
+
+En résumé, le commerce mondial est un réseau complexe influencé par l'histoire, la politique, et l'économie. Il façonne notre monde et offre à chacun des opportunités, mais aussi des défis.
+
+#### **Themes:**
+- résumé du commerce mondial
+- opportunités et défis

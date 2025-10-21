@@ -1,62 +1,52 @@
 {
   "request": {
-    "lesson_description": "The Civil Rights Movement: Key Events, Leaders, and Impact on American Society",
-    "exercises_ratio": 0.5,
+    "lesson_description": "The Civil Rights Movement: Key Events, Leaders, and Impact on Modern Society.",
+    "exercises_ratio": 0.6,
     "grade_level": "10th grade",
-    "estimated_length": 30,
-    "learning_standard": "CCSS.ELA-LITERACY.RH.9-10.2: Determine the central ideas or information of a primary or secondary source; provide an accurate summary of how key events or ideas develop over the course of the text.",
+    "estimated_length": 25,
+    "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "2a82163c",
+    "request_id": "9eafaae0",
     "topicInEnglish": "Civil Rights Movement",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "The Civil Rights Movement: Key Events, Leaders, and Impact on American Society",
+    "title": "The Civil Rights Movement: Key Events, Leaders, and Impact on Modern Society",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy exploraremos un capítulo crucial de la historia de Estados Unidos: el Movimiento por los Derechos Civiles. Juntos descubriremos los eventos clave, los líderes destacados y su impacto transformador en la sociedad. 🌍✨",
+        "content": "¡Bienvenidos a un viaje fascinante por uno de los periodos históricos más influyentes del siglo XX! Exploraremos los eventos clave, las figuras destacadas y cómo el Movimiento por los Derechos Civiles cambió nuestra sociedad para siempre. 🌟",
         "title": "Introducción al Movimiento por los Derechos Civiles",
         "themes": [
           "introducción al movimiento"
         ],
-        "image_search_string": "movimiento derechos civiles",
+        "image_search_string": "civil rights movement",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El Movimiento por los Derechos Civiles en Estados Unidos se desarrolló principalmente durante las décadas de 1950 y 1960. Fue un esfuerzo colectivo para terminar con la segregación racial y garantizar la igualdad de derechos para todos los ciudadanos, independientemente de su raza o color de piel.",
-        "title": "Contexto Histórico",
+        "content": "El Movimiento por los Derechos Civiles en Estados Unidos tuvo lugar principalmente durante las décadas de 1950 y 1960. Surgió para combatir la segregación racial y la discriminación, buscando igualdad y justicia para todos, especialmente para los afroamericanos.",
+        "title": "Contexto del Movimiento",
         "themes": [
-          "contexto histórico del movimiento"
+          "contexto histórico",
+          "objetivos del movimiento"
         ],
-        "image_search_string": "historia derechos civiles",
+        "image_search_string": "civil rights era",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Uno de los primeros eventos clave fue el caso de Brown vs. Board of Education en 1954. Este fallo de la Corte Suprema declaró que la segregación en las escuelas públicas era inconstitucional, marcando un paso crucial hacia la igualdad educativa.",
-        "title": "Caso Brown vs. Board of Education",
+        "content": "En 1955, Rosa Parks se negó a ceder su asiento en un autobús a una persona blanca en Montgomery, Alabama, lo que llevó al boicot de autobuses liderado por Martin Luther King Jr. Este evento marcó un punto de partida crucial para el movimiento.",
+        "title": "El Boicot de Autobuses de Montgomery",
         "themes": [
-          "caso judicial clave"
+          "boicot de autobuses",
+          "acción de Rosa Parks"
         ],
-        "image_search_string": "Brown vs Board of Education",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El boicot a los autobuses de Montgomery en 1955-1956 fue un evento significativo. Tras el arresto de Rosa Parks por no ceder su asiento a un hombre blanco, la comunidad afroamericana lideró un boicot de 381 días contra el sistema de transporte segregado.",
-        "title": "Boicot a los Autobuses de Montgomery",
-        "themes": [
-          "boicot autobuses Montgomery"
-        ],
-        "image_search_string": "boicot autobuses Montgomery",
+        "image_search_string": "Montgomery bus boycott",
         "question_types": [
           "ShortForm",
           "Match",
@@ -64,10 +54,11 @@
         ]
       },
       {
-        "content": "Martin Luther King Jr. emergió como una figura central del movimiento. Conocido por su liderazgo en el boicot de Montgomery y su filosofía de la no violencia, King se convirtió en un símbolo de esperanza y cambio.",
-        "title": "Liderazgo de Martin Luther King Jr.",
+        "content": "Una de las figuras más emblemáticas del movimiento fue Martin Luther King Jr., conocido por su enfoque no violento. Su discurso \"Tengo un sueño\" durante la Marcha en Washington en 1963 inspiró a millones y sigue siendo un símbolo de esperanza y unidad.",
+        "title": "Martin Luther King Jr. y su impacto",
         "themes": [
-          "liderazgo de MLK"
+          "liderazgo de King",
+          "discurso Tengo un sueño"
         ],
         "image_search_string": "Martin Luther King Jr.",
         "question_types": [
@@ -76,108 +67,80 @@
         ]
       },
       {
-        "content": "El Movimiento por los Derechos Civiles abarcó importantes marchas, como la Marcha en Washington de 1963. Durante esta marcha, Martin Luther King Jr. pronunció su famoso discurso \"Yo tengo un sueño\", que inspiró a millones de personas.",
-        "title": "Marcha en Washington y el Discurso de MLK",
+        "content": "En 1964, la Ley de Derechos Civiles fue promulgada, prohibiendo la discriminación en lugares públicos y en el empleo. Este logro fue un hito para la igualdad y marcó un avance significativo en la lucha por los derechos civiles.",
+        "title": "La Ley de Derechos Civiles de 1964",
         "themes": [
-          "marcha y discurso MLK"
+          "ley de derechos civiles",
+          "impacto legislativo"
         ],
-        "image_search_string": "Marcha Washington MLK",
+        "image_search_string": "Civil Rights Act 1964",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La Ley de Derechos Civiles de 1964 fue un logro monumental del movimiento. Prohibió la discriminación basada en la raza, el color, la religión, el sexo o el origen nacional, marcando un gran avance hacia la igualdad.",
-        "title": "Ley de Derechos Civiles de 1964",
+        "content": "Malcolm X, otro líder destacado, promovió un enfoque más firme hacia la lucha por los derechos de los afroamericanos, destacando la importancia de la autosuficiencia y el orgullo racial. Su filosofía complementó la diversidad de estrategias dentro del movimiento.",
+        "title": "La perspectiva de Malcolm X",
         "themes": [
-          "ley de derechos civiles"
+          "Malcolm X",
+          "enfoques del movimiento"
         ],
-        "image_search_string": "Ley de Derechos Civiles 1964",
+        "image_search_string": "Malcolm X speech",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Otro logro importante fue la Ley de Derecho al Voto de 1965, que eliminó las barreras legales que impedían a los afroamericanos ejercer su derecho al voto, como las pruebas de alfabetización y los impuestos al voto.",
-        "title": "Ley de Derecho al Voto de 1965",
+        "content": "La marcha desde Selma hasta Montgomery en 1965 destacó la lucha por el derecho al voto. Esta protesta pacífica enfrentó brutalidad policial, pero resultó en la aprobación de la Ley de Derecho al Voto de 1965.",
+        "title": "La Marcha de Selma a Montgomery",
         "themes": [
-          "ley de derecho al voto"
+          "derecho al voto",
+          "protestas pacíficas"
         ],
-        "image_search_string": "Ley de Derecho al Voto 1965",
+        "image_search_string": "Selma march",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Sort"
         ]
       },
       {
-        "content": "Malcolm X fue otro destacado líder del movimiento. A diferencia de Martin Luther King Jr., Malcolm X defendía el derecho a la autodefensa y promovía el orgullo y la autonomía de la comunidad afroamericana.",
-        "title": "Malcolm X y su Filosofía",
+        "content": "Aunque el movimiento logró avances significativos, la lucha por la igualdad continúa. Problemas como la discriminación sistémica y la desigualdad económica muestran que el legado del movimiento sigue siendo relevante.",
+        "title": "El legado del Movimiento por los Derechos Civiles",
         "themes": [
-          "Malcolm X liderazgo"
+          "impacto duradero",
+          "problemas actuales"
         ],
-        "image_search_string": "Malcolm X",
+        "image_search_string": "civil rights legacy",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Grouping"
         ]
       },
       {
-        "content": "El movimiento también incluyó la lucha por la igualdad de género dentro de la comunidad afroamericana. Líderes como Fannie Lou Hamer trabajaron para destacar los derechos de las mujeres afroamericanas.",
-        "title": "Igualdad de Género en el Movimiento",
+        "content": "El Movimiento por los Derechos Civiles inspiró otros movimientos sociales, como el de los derechos de las mujeres y los derechos LGBTQ+. Su ejemplo de resistencia y esperanza sigue motivando a nuevas generaciones.",
+        "title": "Inspiración para otros movimientos",
         "themes": [
-          "igualdad de género"
+          "inspiración social",
+          "movimientos posteriores"
         ],
-        "image_search_string": "igualdad género derechos civiles",
+        "image_search_string": "social movements inspiration",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "El Movimiento por los Derechos Civiles tuvo un impacto duradero, transformando la sociedad estadounidense. Desafió las estructuras de poder existentes y sentó las bases para futuros movimientos de justicia social.",
-        "title": "Impacto Duradero del Movimiento",
+        "content": "El Movimiento por los Derechos Civiles nos enseña la importancia de la justicia, la igualdad y la perseverancia. Reflexionemos sobre cómo podemos contribuir a un futuro más inclusivo y justo para todos.",
+        "title": "Reflexión final",
         "themes": [
-          "impacto duradero"
+          "justicia e igualdad",
+          "reflexión personal"
         ],
-        "image_search_string": "impacto derechos civiles",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Sin embargo, los desafíos persisten. A pesar de los avances logrados, el racismo y la desigualdad siguen siendo problemas actuales, lo que subraya la importancia de continuar la lucha por la justicia social.",
-        "title": "Desafíos Actuales",
-        "themes": [
-          "desafíos actuales"
-        ],
-        "image_search_string": "desafíos sociales actuales",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El Movimiento por los Derechos Civiles inspiró a otros movimientos en todo el mundo, como el Movimiento contra el Apartheid en Sudáfrica. Este intercambio global de ideas reforzó la lucha por la igualdad y la justicia.",
-        "title": "Inspiración Global",
-        "themes": [
-          "inspiración global"
-        ],
-        "image_search_string": "movimientos globales igualdad",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Hoy, recordamos a los héroes y heroínas del Movimiento por los Derechos Civiles, cuyas acciones valientes nos recuerdan la importancia de luchar por la justicia y la igualdad.",
-        "title": "Reflexión Final",
-        "themes": [
-          "reflexión sobre el movimiento"
-        ],
-        "image_search_string": "héroes derechos civiles",
+        "image_search_string": "justice and equality",
         "question_types": [
           "ShortForm"
         ]

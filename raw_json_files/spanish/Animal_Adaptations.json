@@ -1,51 +1,39 @@
 {
   "request": {
-    "lesson_description": "Animal Adaptations: Understanding how animals survive and thrive in different environments, focusing on physical and behavioral adaptations.",
-    "exercises_ratio": 0.4,
-    "grade_level": "5th grade",
-    "estimated_length": 20,
+    "lesson_description": "Understanding Animal Adaptations: How animals survive in different environments through structural, behavioral, and physiological changes.",
+    "exercises_ratio": 0.0,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
     "learning_standard": "",
-    "additional_guidance": "Include real-world examples such as how polar bears adapt to cold climates and desert animals conserve water. Emphasize the relationship between adaptations and survival in specific ecosystems.",
+    "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "e70c17db",
+    "request_id": "f7b1c7fe",
     "topicInEnglish": "Animal Adaptations",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Adaptaciones de los Animales: Cómo sobreviven y prosperan",
+    "title": "Understanding Animal Adaptations",
     "slides": [
       {
-        "content": "¡Bienvenidos a una fascinante aventura para descubrir cómo los animales sobreviven y prosperan en sus hábitats! Exploraremos cómo las adaptaciones físicas y de comportamiento les permiten enfrentar desafíos únicos en la naturaleza. 🌍",
-        "title": "Introducción a las Adaptaciones de los Animales",
+        "content": "¡Bienvenidos! Hoy vamos a explorar cómo los animales se adaptan a sus entornos para sobrevivir. 🦁🌵 Desde cambios en su cuerpo hasta comportamientos sorprendentes, descubrirás cómo la naturaleza les ayuda a enfrentar desafíos únicos.",
+        "title": "Introducción a las adaptaciones animales",
         "themes": [
-          "concepto de adaptaciones animales"
+          "introducción a las adaptaciones"
         ],
-        "image_search_string": "animales en hábitats",
+        "image_search_string": "animal adaptations",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las adaptaciones son características especiales que ayudan a los animales a sobrevivir en su entorno. Estas pueden ser físicas, como el pelaje grueso de los osos polares, o de comportamiento, como migrar a climas más cálidos durante el invierno.",
-        "title": "¿Qué son las Adaptaciones?",
+        "content": "Las adaptaciones estructurales son cambios físicos en los cuerpos de los animales que les ayudan a sobrevivir. Por ejemplo, los camellos tienen jorobas que almacenan grasa para sobrevivir en el desierto, y los delfines tienen cuerpos aerodinámicos para nadar rápidamente en el agua.",
+        "title": "Adaptaciones estructurales",
         "themes": [
-          "definición de adaptaciones",
-          "ejemplos de adaptaciones animales"
+          "definición de adaptaciones estructurales",
+          "ejemplos de adaptaciones físicas"
         ],
-        "image_search_string": "adaptaciones animales",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Las adaptaciones físicas son cambios en el cuerpo del animal que le ayudan a vivir en su entorno. Ejemplos incluyen:\n- **Pelaje grueso:** Mantiene calientes a los animales en climas fríos.\n- **Picos especiales:** Ayudan a las aves a comer alimentos específicos.\n- **Colores de camuflaje:** Protegen a los animales de depredadores.",
-        "title": "Adaptaciones Físicas",
-        "themes": [
-          "características físicas especiales"
-        ],
-        "image_search_string": "adaptaciones físicas animales",
+        "image_search_string": "camel dolphin adaptations",
         "question_types": [
           "ShortForm",
           "Match",
@@ -53,13 +41,13 @@
         ]
       },
       {
-        "content": "Las adaptaciones de comportamiento son acciones que los animales realizan para sobrevivir. Algunos ejemplos son:\n- **Migración:** Viajar a otro lugar para encontrar comida o un clima adecuado.\n- **Hibernación:** Dormir durante el invierno para conservar energía.\n- **Formación de grupos:** Protección contra depredadores.",
-        "title": "Adaptaciones de Comportamiento",
+        "content": "Las adaptaciones conductuales incluyen acciones o comportamientos que los animales realizan para sobrevivir. Por ejemplo, las aves migran a climas más cálidos durante el invierno, y los osos hibernan para conservar energía.",
+        "title": "Adaptaciones conductuales",
         "themes": [
-          "acciones para sobrevivir",
-          "ejemplos de comportamiento animal"
+          "definición de adaptaciones conductuales",
+          "ejemplos de comportamientos adaptativos"
         ],
-        "image_search_string": "adaptaciones comportamiento animal",
+        "image_search_string": "animal migration hibernation",
         "question_types": [
           "ShortForm",
           "Match",
@@ -67,39 +55,13 @@
         ]
       },
       {
-        "content": "Los osos polares son un gran ejemplo de adaptaciones físicas y de comportamiento:\n- **Pelaje blanco:** Camuflaje en la nieve.\n- **Grasa corporal gruesa:** Protección contra el frío.\n- **Caza eficiente:** Comportamiento adaptado para atrapar focas.",
-        "title": "Adaptaciones de los Osos Polares",
+        "content": "Las adaptaciones fisiológicas son cambios internos en los procesos corporales que ayudan a los animales a sobrevivir. Un ejemplo es la capacidad de algunos peces para respirar tanto bajo el agua como en tierra, o la producción de veneno en serpientes para defenderse.",
+        "title": "Adaptaciones fisiológicas",
         "themes": [
-          "adaptaciones de osos polares",
-          "supervivencia en climas fríos"
+          "definición de adaptaciones fisiológicas",
+          "ejemplos de adaptaciones internas"
         ],
-        "image_search_string": "osos polares adaptaciones",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Los animales del desierto tienen adaptaciones únicas para conservar agua y soportar el calor extremo:\n- **Piel gruesa:** Reduce la pérdida de agua.\n- **Hábitos nocturnos:** Evitan el calor del día.\n- **Almacenamiento de agua:** Algunos, como los camellos, almacenan agua en sus cuerpos.",
-        "title": "Adaptaciones de los Animales del Desierto",
-        "themes": [
-          "supervivencia en el desierto",
-          "conservación de agua"
-        ],
-        "image_search_string": "animales desierto adaptaciones",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "En los ecosistemas acuáticos, los animales tienen adaptaciones como:\n- **Aletas y colas:** Para nadar eficientemente.\n- **Branquias:** Para respirar bajo el agua.\n- **Cuerpos hidrodinámicos:** Reducen la resistencia al agua.",
-        "title": "Adaptaciones en Ecosistemas Acuáticos",
-        "themes": [
-          "adaptaciones en el agua",
-          "supervivencia acuática"
-        ],
-        "image_search_string": "adaptaciones animales acuáticas",
+        "image_search_string": "physiological animal adaptations",
         "question_types": [
           "ShortForm",
           "Match",
@@ -107,65 +69,87 @@
         ]
       },
       {
-        "content": "El camuflaje es una adaptación que permite a los animales mezclarse con su entorno para evitar depredadores o cazar presas. Ejemplos:\n- **Camaleones:** Cambian de color para confundirse.\n- **Mariposas hoja:** Parecen hojas secas.",
-        "title": "Camuflaje: Una Estrategia de Supervivencia",
+        "content": "Los animales que viven en el desierto tienen adaptaciones únicas para sobrevivir en condiciones extremas. Por ejemplo, los zorros del desierto tienen orejas grandes para disipar el calor, y los cactus almacenan agua en sus tejidos.",
+        "title": "Adaptaciones en el desierto",
         "themes": [
-          "camuflaje animal",
-          "evitar depredadores"
+          "adaptaciones específicas del desierto",
+          "ejemplos de animales y plantas del desierto"
         ],
-        "image_search_string": "camuflaje animal",
+        "image_search_string": "desert animal adaptations",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Algunos animales desarrollan mimetismo, una adaptación donde imitan la apariencia de otros seres para protegerse o engañar. Ejemplo:\n- **Mariposa monarca y virrey:** La virrey imita el aspecto de la monarca, que es tóxica para los depredadores.",
-        "title": "Mimetismo: Imitación para Sobrevivir",
-        "themes": [
-          "mimetismo animal",
-          "engañar depredadores"
-        ],
-        "image_search_string": "mimetismo animal",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Las adaptaciones están estrechamente relacionadas con la supervivencia y reproducción. Los animales que mejor se adaptan a su entorno tienen más probabilidades de sobrevivir y dejar descendencia, lo que asegura la continuidad de sus especies.",
-        "title": "Adaptaciones y Supervivencia",
-        "themes": [
-          "relación entre adaptación y supervivencia"
-        ],
-        "image_search_string": "adaptación y supervivencia",
-        "question_types": [
-          "ShortForm",
+          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Aunque las adaptaciones son asombrosas, los cambios rápidos en el entorno como la contaminación y el cambio climático pueden dificultar la supervivencia de los animales. Por ejemplo:\n- **Derretimiento del hielo ártico:** Afecta a los osos polares.\n- **Deforestación:** Destruye hábitats de muchas especies.",
-        "title": "Desafíos para las Adaptaciones",
+        "content": "En las regiones árticas, los animales tienen adaptaciones para enfrentar el frío extremo. Los osos polares tienen gruesos abrigos de piel y grasa para mantenerse calientes, y los pingüinos forman grupos para conservar el calor.",
+        "title": "Adaptaciones en el Ártico",
         "themes": [
-          "impacto del cambio climático",
-          "desafíos para animales"
+          "adaptaciones específicas del Ártico",
+          "ejemplos de animales árticos"
         ],
-        "image_search_string": "animales cambio climático",
+        "image_search_string": "arctic animal adaptations",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Ahora que hemos aprendido sobre las adaptaciones, podemos observar cómo cada animal está perfectamente diseñado para su entorno. ¿Qué adaptaciones crees que son las más sorprendentes y por qué?",
-        "title": "Reflexión sobre las Adaptaciones",
+        "content": "Los animales acuáticos tienen características que les permiten vivir bajo el agua. Por ejemplo, los peces tienen branquias para respirar, y las ballenas tienen pulmones y deben salir a la superficie para obtener oxígeno.",
+        "title": "Adaptaciones acuáticas",
         "themes": [
-          "observación y reflexión"
+          "adaptaciones específicas de animales acuáticos",
+          "ejemplos de animales acuáticos"
         ],
-        "image_search_string": "animales adaptados",
+        "image_search_string": "aquatic animal adaptations",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "En las selvas tropicales, los animales han desarrollado adaptaciones para moverse entre los árboles y evitar depredadores. Por ejemplo, los monos tienen colas prensiles para colgarse de las ramas, y los camaleones cambian de color para camuflarse.",
+        "title": "Adaptaciones en la selva tropical",
+        "themes": [
+          "adaptaciones específicas de la selva tropical",
+          "ejemplos de animales de la selva"
+        ],
+        "image_search_string": "rainforest animal adaptations",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las adaptaciones no son aleatorias; son el resultado de la evolución a lo largo de millones de años. Los animales con adaptaciones que les ayudan a sobrevivir tienen más probabilidades de reproducirse y transmitir esas características a sus crías.",
+        "title": "El papel de la evolución en las adaptaciones",
+        "themes": [
+          "relación entre evolución y adaptaciones",
+          "proceso de selección natural"
+        ],
+        "image_search_string": "evolution animal adaptations",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las adaptaciones permiten a los animales sobrevivir en diversos entornos, desde desiertos hasta océanos. Estas pueden ser estructurales, conductuales o fisiológicas, y cada una juega un papel crucial en la supervivencia.",
+        "title": "Resumen de las adaptaciones animales",
+        "themes": [
+          "resumen de tipos de adaptaciones",
+          "importancia de las adaptaciones"
+        ],
+        "image_search_string": "animal adaptations summary",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       }
     ],

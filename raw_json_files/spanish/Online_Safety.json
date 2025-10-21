@@ -1,138 +1,137 @@
 {
   "request": {
-    "lesson_description": "Understanding Online Safety: Protecting personal information, recognizing cyber threats, and practicing safe online habits.",
-    "exercises_ratio": 0.5,
+    "lesson_description": "Online Safety: Understanding cyber threats, safe internet practices, and the importance of strong passwords.",
+    "exercises_ratio": 1.0,
     "grade_level": "7th grade",
-    "estimated_length": 20,
-    "learning_standard": "ISTE Standards for Students: Digital Citizen - Students recognize the rights, responsibilities, and opportunities of living, learning, and working in an interconnected digital world.",
+    "estimated_length": 10,
+    "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "5314044b",
+    "request_id": "5ff7b911",
     "topicInEnglish": "Online Safety",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Comprendiendo la seguridad en línea: Protegernos en el mundo digital",
+    "title": "Seguridad en Línea: Entendiendo las Amenazas Cibernéticas y Cómo Protegerse",
     "slides": [
       {
-        "content": "¡Bienvenidos a esta lección sobre cómo mantenernos seguros en el mundo digital! Hoy aprenderemos cómo proteger nuestra información personal, identificar amenazas en línea y adoptar hábitos seguros al usar internet. 🌐✨",
-        "title": "Introducción a la seguridad en línea",
+        "content": "¡Bienvenidos, chicos y chicas! Hoy aprenderemos sobre cómo navegar por internet de forma segura 🛡️. Descubriremos las amenazas que podemos encontrar en línea y cómo protegernos de ellas.",
+        "title": "Introducción a la Seguridad en Línea",
         "themes": [
-          "introducción a la seguridad digital"
+          "concepto inicial de seguridad en línea"
         ],
-        "image_search_string": "niños usando computadoras",
+        "image_search_string": "internet safety",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Internet es una red global que conecta millones de dispositivos. Nos permite comunicarnos, aprender y entretenernos, pero también implica ciertos riesgos si no tomamos medidas de seguridad adecuadas.",
-        "title": "¿Qué es Internet?",
+        "content": "El internet es un lugar lleno de oportunidades para aprender, divertirse y conectarse. Sin embargo, también existen amenazas como virus, phishing y ciberacoso que pueden poner en peligro nuestra información y seguridad.",
+        "title": "El Internet y sus Amenazas",
         "themes": [
-          "definición de Internet"
+          "tipos de amenazas en línea"
         ],
-        "image_search_string": "red global de internet",
+        "image_search_string": "cyber threats",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Grouping"
         ]
       },
       {
-        "content": "La información personal incluye datos como tu nombre completo, dirección, número de teléfono, contraseñas, y más. Compartir esta información sin cuidado puede llevar a problemas como robo de identidad.",
-        "title": "¿Qué es la información personal?",
+        "content": "Los virus informáticos son programas dañinos que pueden infectar tus dispositivos. Pueden robar información, ralentizar tu ordenador o incluso bloquear el acceso a tus archivos.",
+        "title": "¿Qué son los Virus Informáticos?",
         "themes": [
-          "definición de información personal"
+          "definición de virus informáticos"
         ],
-        "image_search_string": "información personal protegida",
+        "image_search_string": "computer virus",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Nunca compartas contraseñas ni datos sensibles en redes sociales o sitios desconocidos. Usa contraseñas fuertes y evita hacer clic en enlaces sospechosos.",
-        "title": "Proteger nuestra información personal",
+        "content": "El phishing es una técnica usada por ciberdelincuentes para engañarte y obtener datos como contraseñas o información bancaria. Suelen usar correos falsos o mensajes que parecen reales.",
+        "title": "El Peligro del Phishing",
         "themes": [
-          "protección de datos en línea"
+          "definición de phishing"
         ],
-        "image_search_string": "proteger datos en línea",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las amenazas cibernéticas incluyen virus, phishing, y robo de datos. El phishing ocurre cuando alguien intenta engañarte para obtener tus datos personales a través de correos o mensajes falsos.",
-        "title": "Reconociendo amenazas cibernéticas",
-        "themes": [
-          "tipos de amenazas cibernéticas"
-        ],
-        "image_search_string": "amenazas cibernéticas",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Para evitar caer en trampas, verifica siempre la autenticidad de los mensajes, no hagas clic en enlaces sospechosos y utiliza antivirus actualizado.",
-        "title": "Prevención de amenazas en línea",
-        "themes": [
-          "prevención de ciberamenazas"
-        ],
-        "image_search_string": "prevención ciberseguridad",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Los hábitos seguros incluyen mantener tus contraseñas privadas, actualizar tus dispositivos regularmente y tener cuidado con la información que compartes en línea.",
-        "title": "Hábitos seguros en línea",
-        "themes": [
-          "hábitos seguros en línea"
-        ],
-        "image_search_string": "hábitos seguros en línea",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Si encuentras algo sospechoso en línea, como mensajes extraños o contenido inapropiado, informa a un adulto de confianza o a los administradores del sitio web.",
-        "title": "Qué hacer ante situaciones sospechosas",
-        "themes": [
-          "reacción ante amenazas en línea"
-        ],
-        "image_search_string": "reportar contenido sospechoso",
+        "image_search_string": "phishing scam",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Recuerda que lo que compartes en línea puede ser visto por muchas personas, incluso después de haberlo borrado. Piensa antes de publicar y respeta a los demás en tus interacciones digitales.",
-        "title": "La huella digital y el respeto en línea",
+        "content": "El ciberacoso es cuando alguien utiliza internet para acosar, intimidar o hacer daño a otra persona. Puede ocurrir en redes sociales, chats o juegos en línea.",
+        "title": "Entendiendo el Ciberacoso",
         "themes": [
-          "huella digital",
-          "respeto en línea"
+          "concepto de ciberacoso"
         ],
-        "image_search_string": "huella digital en internet",
+        "image_search_string": "cyberbullying",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para mantenernos seguros en internet, es importante usar contraseñas fuertes. Una buena contraseña debe tener al menos 8 caracteres, combinar letras, números y símbolos, y evitar usar información personal.",
+        "title": "La Importancia de Contraseñas Fuertes",
+        "themes": [
+          "recomendaciones para contraseñas seguras"
+        ],
+        "image_search_string": "strong password tips",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Evita hacer clic en enlaces sospechosos y nunca compartas tu información personal en sitios no seguros. Siempre verifica que las páginas tengan el símbolo de candado en la barra de direcciones.",
+        "title": "Navegación Segura en Internet",
+        "themes": [
+          "prácticas seguras al navegar en línea"
+        ],
+        "image_search_string": "safe internet browsing",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Las redes sociales son un lugar para compartir y conectar, pero debemos ser cuidadosos. Configura tus perfiles como privados y revisa quién puede ver tus publicaciones.",
+        "title": "Seguridad en Redes Sociales",
+        "themes": [
+          "seguridad en redes sociales"
+        ],
+        "image_search_string": "social media privacy",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "¡Felicitaciones por aprender sobre la seguridad en línea! Ahora tienes herramientas para protegerte y navegar internet de manera segura y responsable. 🌟",
-        "title": "Conclusión y repaso",
+        "content": "Los antivirus son herramientas que ayudan a proteger tu dispositivo detectando y eliminando amenazas. Mantén tu software actualizado para mayor seguridad.",
+        "title": "El Papel de los Antivirus",
         "themes": [
-          "repaso seguridad en línea"
+          "función de los antivirus"
         ],
-        "image_search_string": "niños felices en computadoras",
+        "image_search_string": "antivirus software",
         "question_types": [
-          "Intro"
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Recordemos siempre ser cuidadosos en internet. Utiliza contraseñas fuertes, navega de forma segura y protege tu información personal. ¡La seguridad en línea comienza contigo!",
+        "title": "Conclusión: Mantente Seguro en Línea",
+        "themes": [
+          "resumen de prácticas seguras en línea"
+        ],
+        "image_search_string": "online safety tips",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
         ]
       }
     ],

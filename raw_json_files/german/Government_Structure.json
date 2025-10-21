@@ -1,38 +1,39 @@
 {
   "request": {
-    "lesson_description": "Understanding the three branches of the U.S. government: legislative, executive, and judicial, and their roles in maintaining checks and balances.",
-    "exercises_ratio": 0.4,
+    "lesson_description": "Understanding the structure of the U.S. Government: Legislative, Executive, and Judicial branches.",
+    "exercises_ratio": 0.0,
     "grade_level": "8th grade",
-    "estimated_length": 10,
-    "learning_standard": "C3 Framework for Social Studies State Standards: D2.Civ.1.6-8 - Explain how a democracy relies on people’s responsible participation, and draw implications for how individuals should participate.",
+    "estimated_length": 20,
+    "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "c61e06f4",
+    "request_id": "6a7fd168",
     "topicInEnglish": "Government Structure",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Die drei Gewalten der US-Regierung und ihre Rollen",
+    "title": "Die Struktur der US-Regierung: Legislative, Exekutive und Judikative",
     "slides": [
       {
-        "content": "Willkommen! Heute lernen wir über die drei Gewalten der US-Regierung: die Legislative, die Exekutive und die Judikative. Jede dieser Gewalten hat eine wichtige Rolle im System der Gewaltenteilung, das die Demokratie schützt und Gleichgewicht bewahrt. 🌟",
-        "title": "Einführung in die drei Gewalten",
+        "content": "Die US-Regierung besteht aus drei Hauptzweigen: der Legislative, der Exekutive und der Judikative. Diese Trennung der Gewalten sorgt dafür, dass keine einzelne Instanz zu viel Macht erhält und dass die Regierung effizient und gerecht arbeitet. 🌟",
+        "title": "Einführung in die Regierung der USA",
         "themes": [
-          "Einführung in die drei Gewalten"
+          "Drei Zweige der US-Regierung"
         ],
-        "image_search_string": "branches of US government",
+        "image_search_string": "US Regierung Zweige",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Die Legislative ist verantwortlich für die Gesetzgebung. Sie besteht aus zwei Kammern: dem Senat und dem Repräsentantenhaus, die zusammen den Kongress bilden. Diese Kammern arbeiten zusammen, um Gesetze zu erstellen, zu prüfen und zu verabschieden.",
-        "title": "Die Legislative: Gesetze machen",
+        "content": "Die Legislative ist der Zweig der Regierung, der für die Gesetzgebung verantwortlich ist. Sie besteht aus zwei Kammern: dem Senat und dem Repräsentantenhaus. Zusammen bilden sie den Kongress der Vereinigten Staaten.",
+        "title": "Die Legislative: Der Kongress",
         "themes": [
-          "Funktionen der Legislative"
+          "Aufgaben der Legislative",
+          "Struktur des Kongresses"
         ],
-        "image_search_string": "Legislative branch US",
+        "image_search_string": "US Kongress Gebäude",
         "question_types": [
           "ShortForm",
           "Match",
@@ -40,12 +41,13 @@
         ]
       },
       {
-        "content": "Die Exekutive setzt die Gesetze um und wird vom Präsidenten der Vereinigten Staaten geleitet. Der Präsident ist zugleich Staatsoberhaupt und Regierungschef und wird von einem Kabinett aus Beratern unterstützt. Zu den Aufgaben gehören die Durchsetzung von Gesetzen und die Führung der Außenpolitik.",
-        "title": "Die Exekutive: Gesetze umsetzen",
+        "content": "Der Senat ist eine der beiden Kammern des Kongresses. Jeder Bundesstaat entsendet zwei Senatoren, unabhängig von seiner Größe oder Bevölkerung. Dies sorgt für eine gleichmäßige Vertretung aller Bundesstaaten.",
+        "title": "Der Senat",
         "themes": [
-          "Funktionen der Exekutive"
+          "Struktur des Senats",
+          "Vertretung der Bundesstaaten"
         ],
-        "image_search_string": "executive branch US",
+        "image_search_string": "US Senat Symbol",
         "question_types": [
           "ShortForm",
           "Match",
@@ -53,25 +55,13 @@
         ]
       },
       {
-        "content": "Die Judikative interpretiert die Gesetze und sorgt dafür, dass sie verfassungsgemäß sind. Sie besteht aus dem Obersten Gerichtshof und anderen Bundesgerichten. Die Richter am Obersten Gerichtshof werden vom Präsidenten ernannt und vom Senat bestätigt.",
-        "title": "Die Judikative: Gesetze interpretieren",
+        "content": "Das Repräsentantenhaus ist die zweite Kammer des Kongresses. Die Anzahl der Abgeordneten eines Bundesstaates hängt von dessen Bevölkerungsgröße ab. Daher haben bevölkerungsreiche Staaten mehr Vertreter.",
+        "title": "Das Repräsentantenhaus",
         "themes": [
-          "Funktionen der Judikative"
+          "Struktur des Repräsentantenhauses",
+          "Vertretung nach Bevölkerung"
         ],
-        "image_search_string": "judicial branch US",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Das System der Gewaltenteilung sorgt dafür, dass keine der drei Gewalten zu mächtig wird. Jede Gewalt hat die Möglichkeit, die anderen zu kontrollieren und auszugleichen, z. B. durch ein Veto des Präsidenten, die Überprüfung der Verfassungsmäßigkeit durch die Gerichte oder die Verabschiedung von Gesetzen durch den Kongress.",
-        "title": "Gewaltenteilung und Checks and Balances",
-        "themes": [
-          "Checks and Balances System"
-        ],
-        "image_search_string": "checks and balances US",
+        "image_search_string": "US Repräsentantenhaus",
         "question_types": [
           "ShortForm",
           "Match",
@@ -80,15 +70,81 @@
         ]
       },
       {
-        "content": "Die Demokratie hängt von der verantwortungsvollen Beteiligung der Bürger ab. Bürger können wählen, sich politisch engagieren, ihre Meinung äußern und sich über politische Themen informieren. Jede Stimme und jede Handlung trägt zur Stärkung der Demokratie bei.",
-        "title": "Die Rolle der Bürger in der Demokratie",
+        "content": "Die Exekutive ist der Zweig der Regierung, der die Gesetze umsetzt und durchsetzt. An ihrer Spitze steht der Präsident, der durch die Vizepräsidentin oder den Vizepräsidenten und das Kabinett unterstützt wird.",
+        "title": "Die Exekutive: Der Präsident",
         "themes": [
-          "Beteiligung der Bürger"
+          "Aufgaben der Exekutive",
+          "Rolle des Präsidenten"
         ],
-        "image_search_string": "citizen participation democracy",
+        "image_search_string": "US Präsident Amt",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Der Präsident ist das Staatsoberhaupt und die wichtigste Exekutivperson. Zu seinen Aufgaben gehören das Unterzeichnen oder Veto von Gesetzen, die Leitung der Außenpolitik und die Rolle als Oberbefehlshaber der Streitkräfte.",
+        "title": "Die Rolle des Präsidenten",
+        "themes": [
+          "Aufgaben des Präsidenten",
+          "Befugnisse des Präsidenten"
+        ],
+        "image_search_string": "US Präsident Aufgaben",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Das Kabinett besteht aus den leitenden Köpfen der Exekutivbehörden und berät den Präsidenten in wichtigen Angelegenheiten. Zu den Ministerien gehören unter anderem das Verteidigungsministerium, das Außenministerium und das Finanzministerium.",
+        "title": "Das Kabinett",
+        "themes": [
+          "Struktur des Kabinetts",
+          "Ministerien der US-Regierung"
+        ],
+        "image_search_string": "US Kabinett Treffen",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Judikative ist der Zweig der Regierung, der die Gesetze interpretiert und ihre Verfassungsmäßigkeit überprüft. Der Oberste Gerichtshof ist das höchste Gericht der Vereinigten Staaten.",
+        "title": "Die Judikative: Das Gerichtswesen",
+        "themes": [
+          "Aufgaben der Judikative",
+          "Oberster Gerichtshof"
+        ],
+        "image_search_string": "Oberster Gerichtshof USA",
         "question_types": [
           "ShortForm",
           "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Der Oberste Gerichtshof besteht aus neun Richterinnen und Richtern, die vom Präsidenten ernannt und vom Senat bestätigt werden. Sie entscheiden über wichtige rechtliche und verfassungsrechtliche Fragen.",
+        "title": "Der Oberste Gerichtshof",
+        "themes": [
+          "Struktur des Obersten Gerichtshofs",
+          "Rolle der Richter"
+        ],
+        "image_search_string": "US Oberste Richter",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Neben dem Obersten Gerichtshof gibt es auch untergeordnete Bundesgerichte, die sich mit einer Vielzahl von Fällen befassen. Dazu gehören Berufungs- und Bezirksgerichte.",
+        "title": "Bundesgerichte",
+        "themes": [
+          "Struktur der Bundesgerichte",
+          "Arten von Gerichten"
+        ],
+        "image_search_string": "US Bundesgerichte",
+        "question_types": [
+          "ShortForm",
           "Grouping"
         ]
       }

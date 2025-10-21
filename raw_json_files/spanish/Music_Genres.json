@@ -1,39 +1,38 @@
 {
   "request": {
-    "lesson_description": "Exploring Music Genres: Understanding the characteristics, history, and cultural impact of genres such as classical, jazz, rock, hip-hop, and electronic music.",
-    "exercises_ratio": 0.7,
-    "grade_level": "9th grade",
-    "estimated_length": 30,
-    "learning_standard": "National Core Arts Standards (NCCAS): MU:Re7.1.HSI - Analyze how the structure and context of varied musical works inform the response.",
-    "additional_guidance": "Focus on the evolution of each genre, notable artists, and how social and historical contexts influenced their development. Include real-world examples of iconic songs or compositions.",
-    "activity_type": "LearningZone",
+    "lesson_description": "Exploring music genres: Understanding the characteristics of classical, jazz, rock, and hip-hop.",
+    "exercises_ratio": 0.4,
+    "grade_level": "8th grade",
+    "estimated_length": 10,
+    "learning_standard": "National Core Arts Standards (NCAS): MU:Re7.1.8 - Explain reasons for selecting music based on musical elements, cultural context, and personal interest.",
+    "additional_guidance": "",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "bd1536de",
+    "request_id": "f354df92",
     "topicInEnglish": "Music Genres",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Explorando los Géneros Musicales: Características, Historia e Impacto Cultural",
+    "title": "Exploring Music Genres",
     "slides": [
       {
-        "content": "¡Bienvenidos a un viaje fascinante por el mundo de la música! Hoy exploraremos diferentes géneros musicales, sus historias, características y cómo han influido en nuestras culturas. 🎶",
-        "title": "Introducción a la exploración musical",
+        "content": "¡Bienvenidos a un emocionante viaje por el mundo de la música! 🎵 En esta lección, descubriremos juntos las características únicas de cuatro fascinantes géneros musicales: clásico, jazz, rock y hip-hop. ¡Prepárate para abrir tus oídos y tu mente a nuevos sonidos y ritmos!",
+        "title": "Introducción a los géneros musicales",
         "themes": [
           "introducción a géneros musicales"
         ],
-        "image_search_string": "música y géneros",
+        "image_search_string": "music genres illustration",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La música clásica tiene sus raíces en Europa entre los siglos XVII y XIX. Este género se caracteriza por su complejidad estructural y su enfoque en la melodía y armonía. Compositores destacados incluyen a Ludwig van Beethoven, Wolfgang Amadeus Mozart y Johann Sebastian Bach. Una obra representativa es la 'Novena Sinfonía' de Beethoven.",
-        "title": "El legado de la música clásica",
+        "content": "La música clásica, con raíces que se extienden hasta la Edad Media, es conocida por su estructura compleja y su énfasis en la armonía. Este género incluye estilos como el barroco, el clásico y el romántico. Compositores famosos como Mozart, Beethoven y Bach crearon obras que aún inspiran hoy en día.",
+        "title": "Características de la música clásica",
         "themes": [
-          "orígenes de la música clásica",
-          "compositores famosos"
+          "características de la música clásica"
         ],
-        "image_search_string": "música clásica",
+        "image_search_string": "classical music instruments",
         "question_types": [
           "ShortForm",
           "Match",
@@ -41,39 +40,12 @@
         ]
       },
       {
-        "content": "El jazz surgió a principios del siglo XX en Estados Unidos, influenciado por las tradiciones africanas y europeas. Es conocido por su improvisación y ritmos sincopados. Artistas como Louis Armstrong y Duke Ellington marcaron el género. 'What a Wonderful World' de Armstrong es un ejemplo icónico.",
-        "title": "El nacimiento del jazz",
+        "content": "El jazz surgió a principios del siglo XX en los Estados Unidos, combinando ritmos africanos, blues y música europea. Se caracteriza por la improvisación, el swing y el uso de instrumentos como el saxofón y la trompeta. Artistas como Louis Armstrong y Duke Ellington son figuras icónicas de este género.",
+        "title": "Características del jazz",
         "themes": [
-          "orígenes del jazz",
-          "improvisación en el jazz"
+          "características del jazz"
         ],
-        "image_search_string": "músicos de jazz",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El rock nació en los años 50, combinando blues, country y R&B. Este género revolucionó la música con su energía y actitud. Bandas como The Beatles y Led Zeppelin definieron su era. Canciones como 'Hey Jude' de The Beatles son emblemáticas.",
-        "title": "La revolución del rock",
-        "themes": [
-          "orígenes del rock",
-          "bandas influyentes"
-        ],
-        "image_search_string": "banda de rock",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El hip-hop emergió en los años 70 en Nueva York como una expresión cultural de la comunidad afroamericana y latina. Este género combina rap, DJing, breakdance y graffiti. Artistas icónicos incluyen a Tupac Shakur y The Notorious B.I.G. Una canción representativa es 'California Love' de Tupac.",
-        "title": "El impacto del hip-hop",
-        "themes": [
-          "orígenes del hip-hop",
-          "elementos culturales del hip-hop"
-        ],
-        "image_search_string": "cultura hip-hop",
+        "image_search_string": "jazz band instruments",
         "question_types": [
           "ShortForm",
           "Match",
@@ -81,26 +53,12 @@
         ]
       },
       {
-        "content": "La música electrónica comenzó en el siglo XX con el desarrollo de nuevas tecnologías como los sintetizadores. Este género abarca estilos como el techno y el house. Pioneros como Kraftwerk y Daft Punk han llevado la música electrónica a nuevas alturas.",
-        "title": "La era de la música electrónica",
+        "content": "El rock, que se originó en la década de 1950, es conocido por su energía y uso predominante de guitarras eléctricas. Bandas como The Beatles y Led Zeppelin marcaron la historia del rock con sonidos innovadores y letras que conectaron con generaciones enteras.",
+        "title": "Características del rock",
         "themes": [
-          "orígenes de la música electrónica",
-          "tecnología en la música"
+          "características del rock"
         ],
-        "image_search_string": "música electrónica",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Cada género musical no solo refleja la creatividad de sus artistas, sino también los contextos sociales e históricos de su tiempo. Por ejemplo, el jazz refleja la lucha por los derechos civiles, mientras que el rock simboliza la rebeldía juvenil.",
-        "title": "La música como espejo de la sociedad",
-        "themes": [
-          "contexto social de la música",
-          "influencia histórica en géneros"
-        ],
-        "image_search_string": "música y sociedad",
+        "image_search_string": "rock music band",
         "question_types": [
           "ShortForm",
           "Match",
@@ -108,28 +66,29 @@
         ]
       },
       {
-        "content": "En cada género musical, han surgido canciones que se han convertido en símbolos culturales. Por ejemplo, 'Imagine' de John Lennon en el rock y 'Rapper's Delight' de Sugarhill Gang en el hip-hop han trascendido generaciones.",
-        "title": "Canciones icónicas y su legado",
+        "content": "El hip-hop nació en los años 70 en las comunidades afroamericanas de Nueva York. Este género combina ritmos de percusión, rap y elementos visuales como el grafiti. Es una expresión cultural que aborda temas sociales y personales. Artistas como Tupac y The Notorious B.I.G. han dejado un impacto duradero.",
+        "title": "Características del hip-hop",
         "themes": [
-          "canciones representativas",
-          "legado musical"
+          "características del hip-hop"
         ],
-        "image_search_string": "canciones icónicas",
+        "image_search_string": "hip hop culture",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Explorar los géneros musicales nos ayuda a entender mejor cómo la música conecta a las personas, expresa emociones y refleja la evolución de la sociedad. ¡Continuemos descubriendo y disfrutando la música!",
-        "title": "Conclusión: La música como puente cultural",
+        "content": "Cada género musical tiene sus propias características que lo hacen único. La música clásica destaca por su complejidad y armonía, el jazz por su improvisación y swing, el rock por su energía y guitarras eléctricas, y el hip-hop por su ritmo y expresión cultural. Reflexiona sobre qué género resuena más contigo y por qué.",
+        "title": "Conclusión y reflexión",
         "themes": [
-          "importancia de la música",
-          "conexión cultural"
+          "resumen de géneros musicales"
         ],
-        "image_search_string": "música y cultura",
+        "image_search_string": "music genres collage",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       }
     ],

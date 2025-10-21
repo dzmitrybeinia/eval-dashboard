@@ -1,64 +1,55 @@
-# Lesson name: Comprendre les éléments d'une histoire : personnages, décor, intrigue, conflit et résolution
+# Lesson name: Understanding Story Elements
 
 ## Intro
 
-### Introduction aux éléments d'une histoire
+### Introduction aux éléments de l'histoire
 
-Bienvenue dans notre exploration des éléments essentiels d'une histoire ! Aujourd'hui, nous allons découvrir les personnages, le décor, l'intrigue, le conflit et la résolution. Préparez-vous à plonger dans le monde fascinant des récits ! 📚
+Bienvenue dans notre exploration des éléments essentiels d'une histoire ! Aujourd'hui, nous allons découvrir les personnages, le cadre, l'intrigue, le conflit et le thème, qui sont les piliers de toute bonne histoire. 📖
 
 #### **Themes:**
-- introduction aux éléments d'une histoire
+- Introduction aux éléments narratifs
 
 ## Content slide
 
 ### Les personnages
 
-Les personnages sont les individus, animaux ou créatures qui peuplent une histoire. Chaque personnage a des traits spécifiques qui le rendent unique, comme sa personnalité, ses actions et ses motivations. Par exemple, dans "Le Petit Prince", le Petit Prince est un personnage curieux et explorateur.
+Les personnages sont les individus ou les êtres qui animent une histoire. Ils peuvent être principaux ou secondaires, et chaque personnage joue un rôle spécifique dans le déroulement de l'intrigue. Les bons auteurs donnent à leurs personnages des caractéristiques distinctes, comme des traits de personnalité, des motivations et des objectifs.
 
 #### **Themes:**
-- définition des personnages
+- Rôles des personnages dans une histoire
 
 ## Content slide
 
-### Le décor
+### Le cadre
 
-Le décor est le lieu et le moment où se déroule l'histoire. Cela peut être un château médiéval, une ville moderne ou même une planète lointaine. Par exemple, dans "Les Misérables", une grande partie de l'histoire se déroule à Paris au XIXe siècle.
+Le cadre d'une histoire correspond au lieu et à l'époque où l'action se déroule. Il peut inclure des détails sur l'environnement, comme le climat, la culture locale ou l'époque historique. Le cadre aide à créer l'ambiance et à situer les événements dans un contexte réaliste ou imaginaire.
 
 #### **Themes:**
-- définition du décor
+- Définir le cadre narratif
 
 ## Content slide
 
 ### L'intrigue
 
-L'intrigue est la série d'événements qui composent l'histoire. Elle commence souvent par une introduction, se développe avec des événements importants, atteint un sommet avec un moment clé, puis se termine par une résolution. Par exemple, dans "Cendrillon", l'intrigue suit son parcours pour aller au bal et trouver le bonheur.
+L'intrigue est la série d'événements qui composent l'histoire. Elle commence souvent par une exposition qui introduit les personnages et le cadre, suivie d'une montée de l'action, d'un point culminant, d'une chute de l'action et enfin d'une résolution. La structure de l'intrigue est essentielle pour captiver l'attention du lecteur.
 
 #### **Themes:**
-- définition de l'intrigue
+- Structure de l'intrigue
 
 ## Content slide
 
 ### Le conflit
 
-Le conflit est le problème ou la difficulté que les personnages doivent surmonter. Il peut être interne (un personnage lutte avec ses propres sentiments) ou externe (un personnage affronte une autre personne ou une situation). Par exemple, dans "Harry Potter", le conflit principal est entre Harry et Voldemort.
+Le conflit dans une histoire est le problème ou le défi principal que les personnages doivent surmonter. Il peut être interne, comme un dilemme personnel, ou externe, comme un affrontement avec un antagoniste ou un obstacle naturel.
 
 #### **Themes:**
-- définition du conflit
+- Types de conflits narratifs
 
 ## Content slide
 
-### La résolution
+### Le thème
 
-La résolution est la manière dont le problème ou le conflit de l'histoire est résolu. Elle apporte souvent une conclusion satisfaisante pour les personnages et le lecteur. Par exemple, dans "La Belle et la Bête", la résolution est lorsque la Bête redevient un prince et retrouve l'amour.
-
-#### **Themes:**
-- définition de la résolution
-
-## Content slide
-
-### Connexion entre les éléments
-
-Les personnages, le décor, l'intrigue, le conflit et la résolution sont tous connectés dans une histoire. Ils travaillent ensemble pour créer un récit captivant et cohérent. En comprenant ces éléments, nous pouvons mieux apprécier et analyser les histoires.
+Le thème est le message ou la leçon principale que l'auteur veut transmettre à travers l'histoire. Il peut s'agir de l'amour, du courage, de l'amitié ou de nombreux autres sujets universels.
 
 #### **Themes:**
-- relation entre les éléments de l'histoire
+- Comprendre le thème

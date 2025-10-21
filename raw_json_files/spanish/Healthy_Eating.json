@@ -1,139 +1,115 @@
 {
   "request": {
-    "lesson_description": "Healthy Eating: Understanding food groups, balanced diets, and the importance of nutrition.",
-    "exercises_ratio": 0.3,
-    "grade_level": "6th grade",
-    "estimated_length": 15,
+    "lesson_description": "Understanding the basics of healthy eating: The food groups, balanced meals, and the importance of nutrition for growth and energy.",
+    "exercises_ratio": 0.2,
+    "grade_level": "5th grade",
+    "estimated_length": 10,
     "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "40afb2c4",
+    "request_id": "df6defe3",
     "topicInEnglish": "Healthy Eating",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Comiendo Saludablemente: Entendiendo Grupos de Alimentos y Nutrición",
+    "title": "Understanding the Basics of Healthy Eating",
     "slides": [
       {
-        "content": "¡Bienvenidos a una aventura hacia una vida más saludable! Hoy exploraremos cómo los alimentos que consumimos afectan nuestro cuerpo y nuestra energía. 🌱🍎",
-        "title": "Introducción a la Alimentación Saludable",
+        "content": "¡Hola a todos! Hoy vamos a aprender sobre cómo mantenernos sanos y fuertes a través de una alimentación equilibrada. Exploraremos los grupos de alimentos, cómo crear comidas balanceadas y por qué la nutrición es esencial para nuestro crecimiento y energía. 🌟",
+        "title": "Introducción a la alimentación saludable",
         "themes": [
-          "importancia de la alimentación saludable"
+          "introducción a la nutrición"
         ],
-        "image_search_string": "niños comiendo saludablemente",
+        "image_search_string": "healthy food",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Los grupos alimenticios nos ayudan a organizar los diferentes tipos de alimentos que necesitamos para mantenernos saludables. Los principales grupos son:\n\n- **Vegetales y frutas**: Ricos en vitaminas, minerales y fibra.\n- **Cereales y granos**: Proveen energía a través de carbohidratos.\n- **Proteínas**: Ayudan a construir y reparar tejidos, incluyen carnes, huevos y legumbres.\n- **Lácteos**: Fuente de calcio para huesos fuertes.\n- **Grasas saludables**: Importantes para el cerebro, como las que se encuentran en nueces y aguacates.",
-        "title": "Los Grupos Alimenticios",
+        "content": "Los alimentos que consumimos se dividen en diferentes grupos según los nutrientes que aportan. Los principales grupos son:\n\n- **Frutas y verduras**: Ricos en vitaminas, minerales y fibra.\n- **Cereales y tubérculos**: Fuente principal de energía.\n- **Proteínas**: Incluyen carnes, pescados, huevos, legumbres y frutos secos, importantes para la construcción y reparación de tejidos.\n- **Lácteos**: Aportan calcio para huesos y dientes fuertes.\n- **Grasas saludables**: Aceites, aguacates y frutos secos, necesarios en pequeñas cantidades.",
+        "title": "Los grupos de alimentos",
         "themes": [
-          "grupos alimenticios principales",
-          "necesidades nutricionales"
+          "clasificación de alimentos",
+          "nutrientes esenciales"
         ],
-        "image_search_string": "pirámide alimenticia",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Una dieta balanceada incluye alimentos de todos los grupos en las proporciones correctas. Esto asegura que obtengamos la energía y los nutrientes que necesitamos para nuestras actividades diarias y para crecer saludablemente.",
-        "title": "¿Qué es una Dieta Balanceada?",
-        "themes": [
-          "concepto de dieta balanceada"
-        ],
-        "image_search_string": "plato balanceado",
+        "image_search_string": "food groups",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Los nutrientes son sustancias que nuestro cuerpo necesita para funcionar correctamente. Hay seis tipos principales:\n\n1. **Carbohidratos**: Principal fuente de energía.\n2. **Proteínas**: Para crecimiento y reparación.\n3. **Grasas**: Proveen energía y son esenciales para el cerebro.\n4. **Vitaminas**: Ayudan en procesos corporales como la visión y el sistema inmunológico.\n5. **Minerales**: Como el calcio y hierro, importantes para huesos y sangre.\n6. **Agua**: Indispensable para la vida, transporta nutrientes y regula la temperatura.",
-        "title": "Los Nutrientes Esenciales",
+        "content": "Para mantenernos sanos, es importante que nuestras comidas incluyan alimentos de todos los grupos en proporciones adecuadas. Esto se llama una comida equilibrada. Ejemplo de un plato equilibrado:\n\n- Mitad del plato: Frutas y verduras.\n- Un cuarto del plato: Proteínas.\n- Un cuarto del plato: Cereales o tubérculos.",
+        "title": "Qué es una comida equilibrada",
         "themes": [
-          "tipos de nutrientes esenciales"
+          "composición de una comida equilibrada"
         ],
-        "image_search_string": "nutrientes esenciales",
+        "image_search_string": "balanced meal plate",
         "question_types": [
           "ShortForm",
-          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Los nutrientes son sustancias que nuestro cuerpo necesita para funcionar correctamente. Hay seis principales:\n\n1. **Carbohidratos**: Proveen energía.\n2. **Proteínas**: Ayudan a construir y reparar tejidos.\n3. **Grasas**: Proveen energía y ayudan a absorber vitaminas.\n4. **Vitaminas**: Mantienen las funciones corporales.\n5. **Minerales**: Importantes para huesos, dientes y procesos corporales.\n6. **Agua**: Esencial para la vida y regula la temperatura corporal.",
+        "title": "¿Qué son los nutrientes?",
+        "themes": [
+          "tipos de nutrientes",
+          "funciones de los nutrientes"
+        ],
+        "image_search_string": "nutrients chart",
+        "question_types": [
+          "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Los alimentos procesados son aquellos que han sido modificados de su estado natural. A menudo contienen altos niveles de azúcar, grasas no saludables y sodio. Consumirlos con moderación es clave para una dieta saludable.",
-        "title": "Alimentos Procesados",
+        "content": "Una dieta equilibrada debe incluir:\n\n- **Variedad**: Consumir alimentos de todos los grupos.\n- **Moderación**: No comer en exceso.\n- **Proporción**: Equilibrar los alimentos según las necesidades del cuerpo.",
+        "title": "Principios de una dieta equilibrada",
         "themes": [
-          "impacto de alimentos procesados"
+          "principios de una dieta sana"
         ],
-        "image_search_string": "alimentos procesados",
+        "image_search_string": "healthy diet principles",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La mala alimentación puede llevar a problemas como:\n\n- Falta de energía.\n- Problemas de crecimiento.\n- Enfermedades como obesidad o diabetes.",
+        "title": "Consecuencias de una mala alimentación",
+        "themes": [
+          "efectos de la mala alimentación"
+        ],
+        "image_search_string": "unhealthy eating effects",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La hidratación es fundamental para nuestra salud. El agua ayuda a mantener la temperatura corporal, transportar nutrientes y eliminar toxinas. Se recomienda beber al menos 8 vasos al día.",
-        "title": "La Importancia del Agua",
+        "content": "La actividad física es tan importante como la alimentación para mantenernos sanos. Juntas, ayudan a:\n\n- Fortalecer los músculos y el corazón.\n- Mejorar el estado de ánimo.\n- Mantener un peso saludable.",
+        "title": "La relación entre alimentación y actividad física",
         "themes": [
-          "beneficios de la hidratación"
+          "importancia del ejercicio y la nutrición"
         ],
-        "image_search_string": "niño bebiendo agua",
+        "image_search_string": "exercise and nutrition",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Un buen desayuno debe incluir alimentos de varios grupos, como cereales integrales, frutas y proteínas, para comenzar el día con energía.",
-        "title": "La Importancia del Desayuno",
+        "content": "Recuerda:\n\n- Come frutas y verduras todos los días.\n- Bebe suficiente agua.\n- Limita los alimentos procesados y con mucho azúcar.\n- Realiza actividad física regularmente.",
+        "title": "Consejos para una vida saludable",
         "themes": [
-          "beneficios de un desayuno equilibrado"
+          "consejos para la salud"
         ],
-        "image_search_string": "desayuno saludable",
+        "image_search_string": "healthy lifestyle tips",
         "question_types": [
           "ShortForm",
           "Grouping"
-        ]
-      },
-      {
-        "content": "La actividad física y una buena alimentación trabajan juntas para mantenernos sanos. Ejercitarse regularmente ayuda a utilizar la energía de los alimentos y fortalece el cuerpo.",
-        "title": "Ejercicio y Alimentación",
-        "themes": [
-          "relación entre ejercicio y alimentación"
-        ],
-        "image_search_string": "niños haciendo ejercicio",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Planificar tus comidas puede ayudarte a mantener una dieta balanceada. Incluye variedad y evita comer lo mismo todos los días. ¡Experimenta con recetas saludables!",
-        "title": "Planificación de Comidas",
-        "themes": [
-          "planificación de dietas saludables"
-        ],
-        "image_search_string": "planificación de comidas saludables",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Recuerda, comer saludablemente no significa dejar de disfrutar los alimentos. Se trata de equilibrio, variedad y moderación. ¡Tu cuerpo te lo agradecerá!",
-        "title": "Conclusión: Comer Saludablemente",
-        "themes": [
-          "importancia de hábitos alimenticios equilibrados"
-        ],
-        "image_search_string": "alimentación saludable",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

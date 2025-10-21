@@ -1,70 +1,99 @@
 {
   "request": {
-    "lesson_description": "Conflict Resolution: Understanding and managing interpersonal conflicts through effective communication and problem-solving strategies.",
-    "exercises_ratio": 0.6,
+    "lesson_description": "Conflict Resolution: Understanding different types of conflict and strategies for effective resolution, including communication techniques and empathy.",
+    "exercises_ratio": 0.5,
     "grade_level": "8th grade",
-    "estimated_length": 10,
+    "estimated_length": 15,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "3f308cb9",
+    "request_id": "0ba61f0a",
     "topicInEnglish": "Conflict Resolution",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Resolución de Conflictos: Estrategias y Comunicación Efectiva",
+    "title": "Conflict Resolution: Understanding and Strategies",
     "slides": [
       {
-        "content": "¡Bienvenidos a una lección fascinante! Hoy exploraremos cómo manejar y resolver conflictos de manera efectiva, utilizando la comunicación y estrategias inteligentes. 🌟",
-        "title": "Introducción a la resolución de conflictos",
+        "content": "¡Bienvenidos! Hoy exploraremos cómo entender los diferentes tipos de conflicto y aprenderemos estrategias efectivas para resolverlos. 🌟",
+        "title": "Introducción al tema",
         "themes": [
-          "introducción a la resolución de conflictos"
+          "introducción al conflicto"
         ],
-        "image_search_string": "resolución de conflictos",
+        "image_search_string": "conflict resolution concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Los conflictos surgen cuando dos o más personas tienen intereses, necesidades o valores que chocan. Es algo natural en las relaciones humanas, pero es importante aprender a manejarlos para evitar que dañen nuestras conexiones. Algunos ejemplos de conflictos incluyen discusiones entre amigos, desacuerdos en el trabajo en equipo o malentendidos familiares.",
+        "content": "Un conflicto es una situación en la que dos o más personas tienen intereses, opiniones o metas opuestas. Puede surgir en cualquier lugar: en casa, en la escuela o en la comunidad.",
         "title": "¿Qué es un conflicto?",
         "themes": [
-          "definición de conflicto",
-          "ejemplos de conflictos"
+          "definición de conflicto"
         ],
-        "image_search_string": "personas en desacuerdo",
+        "image_search_string": "conflict explanation",
         "question_types": [
-          "ShortForm",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Existen varios tipos de conflictos, como:\n1. Interpersonales: entre dos personas.\n2. Grupales: entre grupos.\n3. Internos: dentro de uno mismo.",
+        "title": "Tipos de conflicto",
+        "themes": [
+          "tipos de conflicto"
+        ],
+        "image_search_string": "types of conflict",
+        "question_types": [
+          "Sort",
           "Grouping"
         ]
       },
       {
-        "content": "La comunicación efectiva es clave para resolver conflictos. Algunos elementos importantes incluyen: \n- Escuchar activamente a la otra persona.\n- Expresar tus propias ideas y sentimientos con claridad y respeto.\n- Evitar interrupciones y juicios durante la conversación.\n- Buscar puntos en común y soluciones mutuamente beneficiosas.",
-        "title": "La importancia de la comunicación efectiva",
+        "content": "Para resolver conflictos, es importante:\n- Escuchar activamente.\n- Mantener la calma.\n- Buscar soluciones juntos.",
+        "title": "Estrategias básicas de resolución",
         "themes": [
-          "elementos de comunicación efectiva",
-          "resolución de conflictos"
+          "estrategias de resolución"
         ],
-        "image_search_string": "comunicación efectiva",
+        "image_search_string": "conflict resolution strategies",
         "question_types": [
           "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La comunicación efectiva incluye:\n- Hablar con claridad.\n- Usar un tono respetuoso.\n- Evitar interrumpir.",
+        "title": "Técnicas de comunicación",
+        "themes": [
+          "comunicación efectiva"
+        ],
+        "image_search_string": "effective communication",
+        "question_types": [
           "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Existen varias estrategias para resolver conflictos, como:\n1. Identificar el problema real detrás del conflicto.\n2. Generar posibles soluciones y evaluarlas juntos.\n3. Elegir la mejor solución que beneficie a ambas partes.\n4. Implementar el acuerdo y seguir comunicándose para evitar futuros problemas.\nEstas estrategias se basan en la colaboración y el respeto mutuo.",
-        "title": "Estrategias para resolver conflictos",
+        "content": "La empatía nos ayuda a entender los sentimientos de los demás, lo que facilita resolver conflictos de forma respetuosa.",
+        "title": "El papel de la empatía",
         "themes": [
-          "estrategias de resolución",
-          "pasos para resolver conflictos"
+          "importancia de la empatía"
         ],
-        "image_search_string": "estrategias de resolución",
+        "image_search_string": "empathy concept",
         "question_types": [
           "ShortForm",
-          "Sort",
-          "Grouping"
+          "Match"
+        ]
+      },
+      {
+        "content": "Recuerda: resolver conflictos no se trata de ganar, sino de encontrar una solución que beneficie a todos.",
+        "title": "Conclusión y reflexión",
+        "themes": [
+          "resolución colaborativa"
+        ],
+        "image_search_string": "conflict resolution teamwork",
+        "question_types": [
+          "ShortForm"
         ]
       }
     ],

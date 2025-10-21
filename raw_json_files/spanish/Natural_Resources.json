@@ -1,124 +1,100 @@
 {
   "request": {
-    "lesson_description": "Understanding renewable and non-renewable natural resources, their importance, and sustainable practices to conserve them.",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Understanding renewable and non-renewable natural resources: Types, uses, and conservation efforts.",
+    "exercises_ratio": 0.0,
     "grade_level": "6th grade",
-    "estimated_length": 10,
-    "learning_standard": "Next Generation Science Standards (NGSS): MS-ESS3-3 - Apply scientific principles to design a method for monitoring and minimizing human impact on the environment.",
+    "estimated_length": 15,
+    "learning_standard": "Next Generation Science Standards (NGSS): MS-ESS3-1 - Construct a scientific explanation based on evidence for how the uneven distributions of Earth's resources are the result of past and current geoscience processes.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "7dad3b41",
+    "request_id": "03c6c4cf",
     "topicInEnglish": "Natural Resources",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Recursos naturales: renovables y no renovables",
+    "title": "Understanding Renewable and Non-Renewable Natural Resources",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo de los recursos naturales! Hoy aprenderemos sobre los diferentes tipos de recursos que nos proporciona la naturaleza y cómo podemos cuidarlos para un futuro más sostenible. 🌱🌍",
-        "title": "Introducción a los recursos naturales",
+        "content": "¡Hola, estudiantes! Hoy vamos a aprender sobre los recursos naturales, aquellos regalos de la naturaleza que utilizamos diariamente. Exploraremos cómo se dividen en renovables y no renovables, sus usos y cómo podemos conservarlos para el futuro. 🌍",
+        "title": "Introducción a los Recursos Naturales",
         "themes": [
-          "introducción a los recursos naturales"
+          "recursos naturales básicos"
         ],
-        "image_search_string": "recursos naturales",
+        "image_search_string": "natural resources",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Los recursos naturales son materiales o energía que obtenemos de la naturaleza y que usamos en nuestra vida diaria. Estos incluyen agua, minerales, plantas, animales y mucho más. Son fundamentales para nuestra supervivencia y desarrollo.",
-        "title": "¿Qué son los recursos naturales?",
+        "content": "Los recursos naturales son materiales o elementos que encontramos en la naturaleza y que los seres humanos utilizamos para satisfacer nuestras necesidades. Estos recursos pueden incluir el agua, el aire, los minerales, los bosques y los combustibles fósiles.",
+        "title": "¿Qué son los Recursos Naturales?",
         "themes": [
           "definición de recursos naturales"
         ],
-        "image_search_string": "recursos naturales ejemplos",
+        "image_search_string": "natural resources examples",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Los recursos renovables son aquellos que pueden regenerarse o reponerse naturalmente en un periodo de tiempo relativamente corto. Ejemplos incluyen el agua, la luz solar, el viento y los árboles. Por otro lado, los recursos no renovables son aquellos que existen en cantidades limitadas y no se reponen fácilmente, como el petróleo, el gas natural y los minerales.",
-        "title": "Recursos renovables vs. no renovables",
+        "content": "Los recursos naturales se dividen en dos grandes categorías: renovables y no renovables.\n\n1. **Recursos renovables:** Son aquellos que la naturaleza puede reponer en un periodo corto de tiempo, como el agua, los bosques y la energía solar.\n2. **Recursos no renovables:** Son aquellos que se forman a lo largo de millones de años y no se regeneran fácilmente, como el petróleo, el gas natural y los minerales.",
+        "title": "Tipos de Recursos Naturales",
         "themes": [
-          "tipos de recursos naturales",
-          "diferencias entre recursos"
+          "tipos de recursos naturales"
         ],
-        "image_search_string": "recursos renovables y no renovables",
+        "image_search_string": "renewable and nonrenewable resources",
         "question_types": [
           "ShortForm",
-          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Los recursos renovables son valiosos porque pueden ser utilizados sin agotarse si los manejamos correctamente. Por ejemplo, la energía solar y eólica son fuentes de energía limpia y sostenible. Sin embargo, es importante no sobreexplotar recursos como los bosques, ya que su regeneración puede tomar tiempo.",
-        "title": "Importancia de los recursos renovables",
+        "content": "Los recursos renovables incluyen:\n\n- **Energía solar:** Utilizamos la luz solar como fuente de energía limpia.\n- **Agua:** Es esencial para la vida y se renueva a través del ciclo del agua.\n- **Bosques:** Proporcionan madera, papel y oxígeno.\n\nEstos recursos son sostenibles si los usamos de manera responsable.",
+        "title": "Ejemplos de Recursos Renovables",
         "themes": [
-          "valor de los recursos renovables",
-          "sostenibilidad"
+          "ejemplos de recursos renovables"
         ],
-        "image_search_string": "energía renovable",
+        "image_search_string": "renewable resources",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Los recursos no renovables son esenciales para muchas actividades humanas, pero su uso excesivo puede llevar a su agotamiento. Por ejemplo, el petróleo es vital para el transporte y la industria, pero tardaría millones de años en regenerarse. Esto nos lleva a buscar alternativas más sostenibles.",
-        "title": "Importancia de los recursos no renovables",
+        "content": "Los recursos no renovables incluyen:\n\n- **Petróleo:** Usado para producir combustible y plásticos.\n- **Carbón:** Una fuente de energía fósil para generar electricidad.\n- **Minerales:** Como el oro y el hierro, utilizados en la construcción y fabricación.\n\nEstos recursos son limitados y su extracción tiene impactos ambientales.",
+        "title": "Ejemplos de Recursos No Renovables",
         "themes": [
-          "uso de recursos no renovables",
-          "agotamiento de recursos"
+          "ejemplos de recursos no renovables"
         ],
-        "image_search_string": "recursos no renovables",
+        "image_search_string": "nonrenewable resources",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "El impacto humano puede ser significativo, pero podemos tomar medidas para reducirlo. Por ejemplo, reciclar, usar energía renovable, plantar árboles y reducir el consumo de agua son prácticas sostenibles que ayudan a conservar nuestros recursos naturales.",
-        "title": "Prácticas sostenibles para conservar recursos",
+        "content": "La distribución de los recursos naturales en la Tierra no es uniforme. Por ejemplo:\n\n- El petróleo se encuentra principalmente en regiones como Oriente Medio.\n- Los bosques tropicales, como el Amazonas, son ricos en biodiversidad.\n\nEsta distribución desigual es resultado de procesos geológicos y climáticos que han ocurrido a lo largo de millones de años.",
+        "title": "Distribución de Recursos Naturales",
         "themes": [
-          "prácticas sostenibles",
-          "reducción del impacto humano"
+          "distribución de recursos naturales"
         ],
-        "image_search_string": "prácticas sostenibles",
+        "image_search_string": "distribution of natural resources",
         "question_types": [
           "ShortForm",
-          "Match",
           "Sort"
         ]
       },
       {
-        "content": "El monitoreo ambiental incluye el uso de tecnologías y métodos para medir el estado de los recursos naturales. Ejemplos incluyen el uso de sensores para medir la calidad del aire, estaciones meteorológicas para observar el clima y sistemas de satélites para monitorear deforestación.",
-        "title": "Monitoreo del impacto ambiental",
+        "content": "La conservación de los recursos naturales es esencial para garantizar su disponibilidad futura. Algunas estrategias incluyen:\n\n- **Reducir:** Disminuir el consumo innecesario.\n- **Reusar:** Dar un nuevo uso a los materiales.\n- **Reciclar:** Transformar materiales usados en nuevos productos.",
+        "title": "Conservación de Recursos Naturales",
         "themes": [
-          "tecnologías de monitoreo",
-          "impacto ambiental"
+          "estrategias de conservación"
         ],
-        "image_search_string": "monitoreo ambiental",
+        "image_search_string": "natural resources conservation",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Diseñar métodos para minimizar el impacto humano implica creatividad y ciencia. Por ejemplo, desarrollar sistemas de riego eficientes, fomentar el uso de transporte público y crear campañas de concienciación sobre el reciclaje son formas efectivas de ayudar al medio ambiente.",
-        "title": "Diseñando soluciones para el futuro",
-        "themes": [
-          "diseño de soluciones sostenibles",
-          "minimización del impacto humano"
-        ],
-        "image_search_string": "soluciones sostenibles",
-        "question_types": [
-          "ShortForm",
-          "Match",
           "Grouping"
         ]
       }

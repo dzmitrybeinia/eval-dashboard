@@ -1,37 +1,36 @@
 {
   "request": {
     "lesson_description": "Understanding Story Elements: Characters, Setting, Plot, Conflict, and Theme.",
-    "exercises_ratio": 0.4,
-    "grade_level": "4th grade",
-    "estimated_length": 15,
-    "learning_standard": "",
+    "exercises_ratio": 0.6,
+    "grade_level": "6th grade",
+    "estimated_length": 25,
+    "learning_standard": "CCSS.ELA-LITERACY.RL.6.3: Describe how a particular story’s or drama’s plot unfolds in a series of episodes as well as how the characters respond or change as the plot moves toward a resolution.",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "05b9edbd",
+    "request_id": "61b993c4",
     "topicInEnglish": "Story Elements",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Grundlagen der Geschichte: Charaktere, Schauplatz, Handlung, Konflikt und Thema",
+    "title": "Die Elemente einer Geschichte verstehen: Figuren, Schauplatz, Handlung, Konflikt und Thema",
     "slides": [
       {
-        "content": "Geschichten sind wie Abenteuer! Sie bestehen aus verschiedenen Teilen, die zusammen eine spannende Geschichte erzählen. Heute lernen wir die Bausteine einer Geschichte kennen – Charaktere, Schauplatz, Handlung, Konflikt und Thema. 🚀",
-        "title": "Willkommen in der Welt der Geschichten!",
+        "content": "Willkommen zu einer spannenden Reise in die Welt der Geschichten! Wir werden gemeinsam die wichtigsten Elemente einer Geschichte kennenlernen. 📖",
+        "title": "Einleitung",
         "themes": [
           "Einführung in die Elemente einer Geschichte"
         ],
-        "image_search_string": "story elements illustration",
+        "image_search_string": "excited students reading",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Charaktere sind die Personen oder Wesen in einer Geschichte. Sie können Menschen, Tiere oder Fantasiefiguren sein. Hauptcharaktere stehen im Mittelpunkt der Geschichte, während Nebencharaktere unterstützen. Ein Beispiel: In einem Märchen könnte der Prinz der Hauptcharakter sein, und die Diener sind Nebencharaktere.",
-        "title": "Charaktere in Geschichten",
+        "content": "Jede Geschichte hat Figuren, die die Handlung vorantreiben. Diese können Hauptfiguren, Nebenfiguren oder sogar Tiere und Fantasiegestalten sein. Sie haben Eigenschaften, die sie einzigartig machen, und ihre Entscheidungen formen den Verlauf der Geschichte.",
+        "title": "Figuren in einer Geschichte",
         "themes": [
-          "Definition von Charakteren",
-          "Haupt- und Nebencharaktere"
+          "Definition und Bedeutung von Figuren"
         ],
         "image_search_string": "story characters illustration",
         "question_types": [
@@ -41,11 +40,10 @@
         ]
       },
       {
-        "content": "Der Schauplatz ist der Ort und die Zeit, wo und wann die Geschichte spielt. Er kann real oder erfunden sein. Ein Beispiel: Eine Geschichte kann in einem Wald (Ort) während der Nacht (Zeit) spielen.",
-        "title": "Der Schauplatz einer Geschichte",
+        "content": "Der Schauplatz ist der Ort und die Zeit, in der eine Geschichte spielt. Er gibt den Rahmen für die Handlung und kann die Stimmung beeinflussen. Zum Beispiel könnte ein dunkler Wald eine unheimliche Atmosphäre schaffen.",
+        "title": "Der Schauplatz",
         "themes": [
-          "Definition des Schauplatzes",
-          "Beispiele für Schauplätze"
+          "Schauplatz und seine Wirkung"
         ],
         "image_search_string": "story setting illustration",
         "question_types": [
@@ -54,82 +52,85 @@
         ]
       },
       {
-        "content": "Die Handlung ist das, was in der Geschichte passiert, also die Ereignisse. Sie hat oft einen Anfang, eine Mitte und ein Ende. Beispiel: In der Geschichte \"Rotkäppchen\" geht es um ihre Reise durch den Wald und ihre Begegnung mit dem Wolf.",
-        "title": "Die Handlung einer Geschichte",
+        "content": "Die Handlung ist die Abfolge von Ereignissen, die in einer Geschichte geschehen. Sie beginnt oft mit einer Einführung, geht über einen Höhepunkt und endet mit einer Lösung. Die Handlung ist das Herzstück jeder Geschichte.",
+        "title": "Die Handlung",
         "themes": [
-          "Definition der Handlung",
-          "Aufbau einer Handlung"
+          "Aufbau der Handlung"
         ],
-        "image_search_string": "story plot sequence",
+        "image_search_string": "story plot diagram",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "Der Konflikt ist das Problem oder die Herausforderung, mit der die Charaktere konfrontiert sind. Es kann ein Kampf gegen einen Bösewicht, ein innerer Konflikt oder ein Problem in der Umgebung sein. Beispiel: In \"Rotkäppchen\" ist der Konflikt der Wolf, der die Großmutter bedroht.",
-        "title": "Konflikt in Geschichten",
+        "content": "Ein Konflikt ist das Problem oder die Herausforderung, die die Figuren überwinden müssen. Es gibt verschiedene Arten von Konflikten, wie z. B. ein Konflikt zwischen Figuren, ein innerer Konflikt oder ein Konflikt mit der Umwelt.",
+        "title": "Der Konflikt",
         "themes": [
-          "Definition von Konflikten",
           "Arten von Konflikten"
         ],
-        "image_search_string": "story conflict illustration",
+        "image_search_string": "conflict in story",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Das Thema einer Geschichte ist die Hauptidee oder die Botschaft, die sie vermitteln möchte. Es kann eine Lektion sein, wie \"Freundschaft ist wichtig\" oder \"Mut zahlt sich aus.\"",
-        "title": "Das Thema einer Geschichte",
+        "content": "Das Thema ist die zentrale Idee oder Botschaft der Geschichte. Es könnte etwas wie Freundschaft, Mut oder Gerechtigkeit sein. Das Thema regt die Leser oft zum Nachdenken an.",
+        "title": "Das Thema",
         "themes": [
-          "Definition von Thema",
-          "Beispiele für Themen"
+          "Bedeutung des Themas"
         ],
-        "image_search_string": "story theme illustration",
+        "image_search_string": "story theme concept",
+        "question_types": [
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "In einer Geschichte entwickeln sich die Figuren oft weiter. Sie lernen aus ihren Erlebnissen und verändern sich, was das Ende der Geschichte beeinflusst.",
+        "title": "Entwicklung der Figuren",
+        "themes": [
+          "Veränderung der Figuren"
+        ],
+        "image_search_string": "character development",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Alle Elemente einer Geschichte – Charaktere, Schauplatz, Handlung, Konflikt und Thema – arbeiten zusammen, um die Geschichte lebendig und interessant zu machen. Jedes Element hat seine eigene wichtige Rolle.",
-        "title": "Zusammenspiel der Elemente",
+        "content": "Der Schauplatz beeinflusst, wie die Figuren agieren und welche Herausforderungen sie meistern müssen. Eine Wüste stellt andere Anforderungen als ein belebter Marktplatz.",
+        "title": "Einfluss des Schauplatzes",
         "themes": [
-          "Zusammenhang der Elemente",
-          "Rolle jedes Elements"
+          "Schauplatz und Figureninteraktion"
         ],
-        "image_search_string": "story elements teamwork",
+        "image_search_string": "setting influencing characters",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Lass uns die Elemente einer Geschichte zusammenfassen: Charaktere sind die Figuren, der Schauplatz ist der Ort und die Zeit, die Handlung erzählt die Ereignisse, der Konflikt ist das Problem, und das Thema ist die Botschaft der Geschichte.",
-        "title": "Zusammenfassung der Geschichtelemente",
+        "content": "Die Handlung kann in Episoden unterteilt werden, wobei jede Episode eine eigene Bedeutung für die Entwicklung der Geschichte hat. Diese Episoden bauen aufeinander auf.",
+        "title": "Handlungsverlauf in Episoden",
         "themes": [
-          "Zusammenfassung der Elemente",
-          "Wiederholung der Konzepte"
+          "Episoden und ihre Bedeutung"
         ],
-        "image_search_string": "story elements summary",
+        "image_search_string": "story episodes sequence",
         "question_types": [
           "ShortForm",
-          "Match",
           "Sort"
         ]
       },
       {
-        "content": "Jetzt, da du die Elemente einer Geschichte kennst, versuche, sie in deinen Lieblingsgeschichten zu erkennen. Welche Charaktere gibt es? Wo spielt die Geschichte? Was ist der Konflikt? Und was ist die Botschaft?",
-        "title": "Anwendung: Erkenne die Elemente",
+        "content": "Am Ende einer Geschichte werden Konflikte gelöst und die Themen klären sich. Dies ist der Moment, in dem die Geschichte ihre Botschaft deutlich macht.",
+        "title": "Auflösung und Botschaft",
         "themes": [
-          "Anwendung des Wissens",
-          "Analyse von Geschichten"
+          "Schluss und Bedeutung"
         ],
-        "image_search_string": "analyze story elements",
+        "image_search_string": "story resolution",
         "question_types": [
-          "ShortForm",
-          "Grouping"
+          "ShortForm"
         ]
       }
     ],

@@ -1,87 +1,105 @@
 {
   "request": {
-    "lesson_description": "Fiction vs Nonfiction: Understanding the differences, examples, and characteristics of each genre.",
-    "exercises_ratio": 0.8,
-    "grade_level": "6th grade",
+    "lesson_description": "Fiction vs Nonfiction: Understanding the differences, identifying key characteristics, and analyzing examples from literature.",
+    "exercises_ratio": 0.3,
+    "grade_level": "4th grade",
     "estimated_length": 10,
-    "learning_standard": "CCSS.ELA-LITERACY.RL.6.9: Compare and contrast texts in different forms or genres in terms of their approaches to similar themes and topics.",
-    "additional_guidance": "Include real-world examples of fiction and nonfiction texts, focusing on key distinguishing features such as purpose, structure, and language. Emphasize critical thinking by asking students to classify texts and justify their reasoning.",
+    "learning_standard": "CCSS.ELA-LITERACY.RL.4.5: Explain major differences between poems, drama, and prose, and refer to the structural elements of each when writing or speaking about a text.",
+    "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "c04558f2",
+    "request_id": "9dd6a497",
     "topicInEnglish": "Fiction vs Nonfiction",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Ficción vs. No Ficción: Entendiendo las diferencias",
+    "title": "Fiction vs Nonfiction: Understanding and Analyzing Literature",
     "slides": [
       {
-        "content": "¡Bienvenidos a una exploración fascinante de dos mundos literarios! Hoy aprenderemos sobre las principales diferencias entre la ficción y la no ficción. 🌟",
-        "title": "Introducción: Dos mundos literarios",
+        "content": "¡Hola, estudiantes! Hoy vamos a explorar las diferencias entre ficción y no ficción. 📚 Preparaos para un emocionante viaje al mundo de los libros, donde aprenderemos a identificar y analizar sus características únicas. ¡Comencemos!",
+        "title": "Introducción a Ficción y No Ficción",
         "themes": [
-          "Introducción a géneros literarios"
+          "Introducción a ficción y no ficción"
         ],
-        "image_search_string": "ficción y no ficción libros",
+        "image_search_string": "fiction and nonfiction books",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La ficción es un género literario que incluye historias inventadas o imaginadas. Su propósito principal es entretener, inspirar o provocar emociones. Ejemplos incluyen novelas, cuentos, y obras de teatro.",
+        "content": "La ficción incluye historias creadas a partir de la imaginación del autor. Estas narraciones pueden ser novelas, cuentos o poemas. Ejemplos de ficción incluyen cuentos de hadas, novelas de aventuras y relatos de ciencia ficción.",
         "title": "¿Qué es la ficción?",
         "themes": [
-          "Definición de ficción"
+          "Definición de ficción",
+          "Ejemplos de ficción"
         ],
-        "image_search_string": "libros de ficción",
+        "image_search_string": "fiction books",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "La no ficción incluye textos basados en hechos reales, como biografías, ensayos y reportajes. Su objetivo es informar, educar o persuadir al lector.",
+        "content": "La no ficción se basa en hechos y realidad. Los textos de no ficción incluyen biografías, libros de historia y artículos periodísticos. Están diseñados para informar, explicar o describir algo real.",
         "title": "¿Qué es la no ficción?",
         "themes": [
-          "Definición de no ficción"
+          "Definición de no ficción",
+          "Ejemplos de no ficción"
         ],
-        "image_search_string": "libros de no ficción",
+        "image_search_string": "nonfiction books",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "| Característica         | Ficción                           | No Ficción                      |\n|-----------------------|----------------------------------|----------------------------------|\n| Propósito            | Entretener o inspirar            | Informar o persuadir             |\n| Contenido            | Imaginado o inventado            | Basado en hechos reales          |\n| Ejemplos             | Novelas, cuentos, poesía         | Biografías, ensayos, reportajes |\n| Lenguaje             | Creativo y descriptivo           | Preciso y claro                 |",
-        "title": "Comparación: Ficción vs No Ficción",
+        "content": "Comparando ambos géneros, la ficción se centra en personajes y eventos inventados, mientras que la no ficción trata sobre hechos y personas reales. Por ejemplo, una novela puede contar la historia de un héroe imaginario, mientras que una biografía relata la vida de una persona real.",
+        "title": "Comparación entre ficción y no ficción",
         "themes": [
-          "Comparación entre géneros literarios"
+          "Diferencias entre ficción y no ficción"
         ],
-        "image_search_string": "comparación ficción no ficción",
+        "image_search_string": "fiction vs nonfiction comparison",
         "question_types": [
+          "ShortForm",
           "Match",
           "Sort"
         ]
       },
       {
-        "content": "Ejemplo de ficción: \"El Principito\" de Antoine de Saint-Exupéry, una historia imaginativa sobre un pequeño príncipe y sus aventuras.\n\nEjemplo de no ficción: \"El diario de Ana Frank\", un relato real sobre la vida de una joven durante la Segunda Guerra Mundial.",
-        "title": "Ejemplos del mundo real",
+        "content": "Los textos de ficción suelen tener estructuras como narraciones con introducción, desarrollo y desenlace. Por otro lado, los textos de no ficción pueden incluir índices, tablas y gráficos para organizar información.",
+        "title": "Estructuras en ficción y no ficción",
         "themes": [
-          "Ejemplos de ficción",
-          "Ejemplos de no ficción"
+          "Estructuras en ficción",
+          "Estructuras en no ficción"
         ],
-        "image_search_string": "ejemplo ficción y no ficción",
+        "image_search_string": "book structure examples",
         "question_types": [
           "ShortForm",
+          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Cuando leas un texto, pregúntate: ¿Es una historia real o inventada? ¿El propósito es entretener o informar? Estas preguntas te ayudarán a clasificar textos correctamente.",
-        "title": "Cómo identificar el género",
+        "content": "Analicemos un ejemplo de ficción: 'Las aventuras de Tom Sawyer' de Mark Twain. Este libro cuenta la historia de un niño imaginario y sus travesuras. Ahora, piensa en un libro de no ficción que hayas leído, ¿en qué se diferencia?",
+        "title": "Ejemplo de ficción: 'Las aventuras de Tom Sawyer'",
         "themes": [
-          "Clasificación de textos"
+          "Ejemplo de ficción",
+          "Diferencias prácticas"
         ],
-        "image_search_string": "clasificación de textos",
+        "image_search_string": "Tom Sawyer book",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "¡Vamos a practicar! Busca dos libros en tu casa o biblioteca, uno de ficción y otro de no ficción. Compara sus características, estructuras y temas. Reflexiona sobre lo que los hace únicos y escribe tus observaciones.",
+        "title": "Actividad práctica: Explorando libros",
+        "themes": [
+          "Actividad práctica",
+          "Comparación de libros"
+        ],
+        "image_search_string": "students reading books",
         "question_types": [
           "ShortForm",
           "Grouping"

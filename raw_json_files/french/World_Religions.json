@@ -1,14 +1,14 @@
 {
   "request": {
-    "lesson_description": "Introduction to World Religions: Exploring the beliefs, practices, and cultural significance of major world religions such as Christianity, Islam, Hinduism, Buddhism, and Judaism.",
-    "exercises_ratio": 0.3,
-    "grade_level": "10th grade",
+    "lesson_description": "Introduction to World Religions: Understanding the beliefs, practices, and cultural impact of major world religions such as Christianity, Islam, Hinduism, Buddhism, and Judaism.",
+    "exercises_ratio": 1.0,
+    "grade_level": "8th grade",
     "estimated_length": 25,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "05ef9f5d",
+    "request_id": "6d8810bd",
     "topicInEnglish": "World Religions",
     "generationLanguage": "fr-FR"
   },
@@ -16,37 +16,37 @@
     "title": "Introduction aux religions du monde",
     "slides": [
       {
-        "content": "Bienvenue dans notre exploration des grandes religions du monde ! Dans cette leçon, nous découvrirons les croyances, pratiques et significations culturelles de religions telles que le christianisme, l'islam, l'hindouisme, le bouddhisme et le judaïsme. Préparez-vous à un voyage fascinant à travers les traditions spirituelles qui ont façonné l'histoire et les cultures humaines 🌍.",
-        "title": "Introduction",
+        "content": "Bienvenue dans notre exploration des grandes religions du monde ! 🌍 Dans cette leçon, nous découvrirons les croyances, les pratiques et les impacts culturels des principales religions telles que le christianisme, l'islam, l'hindouisme, le bouddhisme et le judaïsme. Préparez-vous à un voyage fascinant à travers les traditions et les cultures !",
+        "title": "Bienvenue dans le monde des religions",
         "themes": [
-          "Introduction aux religions du monde"
+          "Introduction au sujet"
         ],
-        "image_search_string": "world religions symbols",
+        "image_search_string": "symboles religieux",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Le christianisme est une religion monothéiste centrée sur la vie et les enseignements de Jésus-Christ. Avec environ 2,3 milliards d'adeptes, c'est la plus grande religion au monde. Ses textes sacrés incluent la Bible, composée de l'Ancien et du Nouveau Testament. Les principales dénominations du christianisme sont le catholicisme, le protestantisme et l'orthodoxie.",
+        "content": "Le christianisme est l'une des religions les plus répandues au monde. Fondée sur la vie et les enseignements de Jésus-Christ, elle repose sur des textes sacrés comme la Bible. Les chrétiens croient en un Dieu unique et en la rédemption par la foi.",
         "title": "Le christianisme",
         "themes": [
-          "Concepts clés du christianisme"
+          "Origines du christianisme",
+          "Croyances chrétiennes"
         ],
-        "image_search_string": "Christianity cross Bible",
+        "image_search_string": "croix chrétienne",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "L'islam est une religion monothéiste fondée au 7ème siècle en Arabie par le prophète Mahomet. Les musulmans croient en un seul Dieu, Allah, et suivent les enseignements du Coran, leur texte sacré. Les cinq piliers de l'islam, qui sont des pratiques fondamentales, incluent la foi, la prière, le jeûne, l'aumône et le pèlerinage à La Mecque.",
+        "content": "L'islam, pratiqué majoritairement dans les pays du Moyen-Orient et d'Asie, repose sur les enseignements du prophète Mahomet et le Coran. Les musulmans suivent les cinq piliers de l'islam, qui incluent la prière, le jeûne, et le pèlerinage à La Mecque.",
         "title": "L'islam",
         "themes": [
           "Fondements de l'islam",
-          "Les cinq piliers de l'islam"
+          "Pratiques musulmanes"
         ],
-        "image_search_string": "Islam crescent Quran",
+        "image_search_string": "mosquée et croissant",
         "question_types": [
           "ShortForm",
           "Match",
@@ -54,13 +54,13 @@
         ]
       },
       {
-        "content": "L'hindouisme est l'une des plus anciennes religions du monde, principalement pratiquée en Inde. C'est une religion polythéiste, mettant en avant des divinités comme Vishnou, Shiva et Lakshmi. Les textes sacrés incluent les Védas et les Upanishads. L'hindouisme valorise également le karma, le dharma et le cycle de la réincarnation.",
+        "content": "L'hindouisme, principalement pratiqué en Inde, est une religion polythéiste avec des millions de divinités. Il met l'accent sur le karma, le dharma et la réincarnation. Les textes sacrés incluent les Védas et les Upanishads.",
         "title": "L'hindouisme",
         "themes": [
           "Principes de l'hindouisme",
-          "Divinités majeures et textes sacrés"
+          "Textes sacrés hindous"
         ],
-        "image_search_string": "Hinduism temple deities",
+        "image_search_string": "temple hindou",
         "question_types": [
           "ShortForm",
           "Match",
@@ -68,12 +68,13 @@
         ]
       },
       {
-        "content": "Le bouddhisme, fondé par Siddhartha Gautama (le Bouddha) au 6ème siècle avant J.-C., enseigne la voie de l'éveil pour échapper au cycle de la souffrance. Les Quatre Nobles Vérités et le Noble Chemin Octuple sont des principes centraux. Le bouddhisme met l'accent sur la méditation, la sagesse et la compassion.",
+        "content": "Le bouddhisme, fondé par Siddhartha Gautama, ou Bouddha, enseigne le chemin vers l'illumination à travers des pratiques comme la méditation et la pleine conscience. Les Quatre Nobles Vérités et le Noble Sentier Octuple sont des principes fondamentaux.",
         "title": "Le bouddhisme",
         "themes": [
-          "Enseignements fondamentaux du bouddhisme"
+          "Enseignements du bouddhisme",
+          "Pratiques bouddhistes"
         ],
-        "image_search_string": "Buddhism meditation Buddha",
+        "image_search_string": "statue de Bouddha",
         "question_types": [
           "ShortForm",
           "Match",
@@ -81,38 +82,13 @@
         ]
       },
       {
-        "content": "Le judaïsme est une religion monothéiste ancienne, centrée sur l'alliance entre Dieu et le peuple juif. La Torah, qui fait partie du Tanakh, est son texte sacré principal. Les pratiques incluent des fêtes comme le Sabbat et des rites comme la circoncision. Le judaïsme a influencé d'autres religions monothéistes comme le christianisme et l'islam.",
+        "content": "Le judaïsme, l'une des plus anciennes religions monothéistes, est basé sur l'alliance entre Dieu et le peuple juif, tel que raconté dans la Torah. Les pratiques incluent les fêtes comme le Shabbat et les rites de passage.",
         "title": "Le judaïsme",
         "themes": [
-          "Fondements du judaïsme",
-          "Influence sur d'autres religions"
+          "Origines du judaïsme",
+          "Pratiques juives"
         ],
-        "image_search_string": "Judaism Torah synagogue",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les religions du monde partagent certaines caractéristiques, comme la croyance en des êtres ou forces supérieurs, des pratiques rituelles et des textes sacrés. Cependant, elles diffèrent dans leurs doctrines, leurs rituels et leurs visions du monde. Cette diversité reflète les différentes réponses humaines aux questions existentielles.",
-        "title": "Caractéristiques communes et diversité",
-        "themes": [
-          "Similitudes et différences entre religions"
-        ],
-        "image_search_string": "world religions comparison",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Certaines grandes fêtes religieuses incluent Noël et Pâques en christianisme, le Ramadan en islam, Diwali en hindouisme, Vesak en bouddhisme et Hanoukka en judaïsme. Ces célébrations jouent un rôle essentiel dans la vie communautaire et spirituelle des croyants.",
-        "title": "Fêtes religieuses",
-        "themes": [
-          "Fêtes majeures des religions"
-        ],
-        "image_search_string": "religious festivals celebration",
+        "image_search_string": "étoile de David",
         "question_types": [
           "ShortForm",
           "Match",

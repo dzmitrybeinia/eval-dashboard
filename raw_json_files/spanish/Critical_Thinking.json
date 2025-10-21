@@ -1,90 +1,91 @@
 {
   "request": {
-    "lesson_description": "Developing critical thinking skills: Understanding logical reasoning, identifying biases, and evaluating evidence.",
-    "exercises_ratio": 0.6,
-    "grade_level": "8th grade",
-    "estimated_length": 15,
+    "lesson_description": "Developing critical thinking skills through evaluating sources of information and identifying biases.",
+    "exercises_ratio": 0.4,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "f118b23d",
+    "request_id": "244c1d5c",
     "topicInEnglish": "Critical Thinking",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Desarrollo del pensamiento crítico: razonamiento lógico, identificación de sesgos y evaluación de evidencias.",
+    "title": "Desarrollar habilidades de pensamiento crítico",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy exploraremos cómo desarrollar habilidades de pensamiento crítico. Aprenderemos a razonar de manera lógica, identificar sesgos y evaluar evidencias para tomar decisiones informadas. 🌟",
+        "content": "¡Bienvenidos! Hoy exploraremos cómo evaluar fuentes de información y descubrir posibles sesgos en ellas. 🧠 Aprenderemos a pensar críticamente y a tomar decisiones informadas.",
         "title": "Introducción al pensamiento crítico",
         "themes": [
-          "introducción al pensamiento crítico"
+          "evaluación de fuentes",
+          "detección de sesgos"
         ],
-        "image_search_string": "pensamiento crítico",
+        "image_search_string": "critical thinking concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El razonamiento lógico es el proceso de pensar de manera estructurada para llegar a conclusiones válidas. Se basa en hechos y relaciones claras entre ideas, evitando suposiciones sin fundamento. Un ejemplo es usar premisas para deducir un resultado lógico.",
-        "title": "¿Qué es el razonamiento lógico?",
+        "content": "El pensamiento crítico es la capacidad de analizar y evaluar información de manera lógica y objetiva. Es esencial para discernir la veracidad de las afirmaciones y tomar decisiones basadas en hechos.",
+        "title": "¿Qué es el pensamiento crítico?",
         "themes": [
-          "concepto de razonamiento lógico"
+          "definición de pensamiento crítico"
         ],
-        "image_search_string": "razonamiento lógico",
+        "image_search_string": "critical thinking process",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Los sesgos son errores en nuestro pensamiento que afectan la objetividad. Algunos comunes incluyen: \n- **Sesgo de confirmación**: buscar solo información que respalde nuestras creencias. \n- **Sesgo de anclaje**: depender demasiado de la primera información recibida. \n- **Sesgo de grupo**: preferir opiniones del grupo al que pertenecemos.",
-        "title": "Identificando sesgos comunes",
+        "content": "Para evaluar una fuente de información, considera: \n- Autoridad: ¿Quién es el autor y cuáles son sus credenciales?\n- Propósito: ¿Cuál es el objetivo de la información?\n- Precisión: ¿Es la información actual y verificable?\n- Relevancia: ¿Es pertinente para tu investigación?",
+        "title": "Evaluar fuentes de información",
         "themes": [
-          "tipos de sesgos cognitivos"
+          "criterios de evaluación de fuentes"
         ],
-        "image_search_string": "tipos de sesgos",
+        "image_search_string": "information source evaluation",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los sesgos son prejuicios o inclinaciones que afectan la objetividad. Pueden ser evidentes en el lenguaje, el enfoque en ciertos datos y la omisión de otros.",
+        "title": "¿Qué son los sesgos?",
+        "themes": [
+          "definición de sesgos"
+        ],
+        "image_search_string": "bias concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para identificar sesgos, busca señales como:\n- Lenguaje emocional o persuasivo.\n- Ausencia de fuentes diversas.\n- Representación desproporcionada de un lado del argumento.\n- Omisión de datos relevantes.",
+        "title": "Cómo identificar sesgos",
+        "themes": [
+          "identificación de sesgos"
+        ],
+        "image_search_string": "bias detection",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Para evaluar evidencia, considera:\n1. **Fuente confiable**: ¿Quién proporciona la información? ¿Es experto?\n2. **Relevancia**: ¿La información está relacionada con el tema?\n3. **Consistencia**: ¿Coincide con otras evidencias creíbles?\n4. **Pruebas claras**: ¿Hay datos o ejemplos concretos que la respalden?",
-        "title": "Evaluación de evidencias",
+        "content": "Practiquemos evaluando una fuente. Observa un artículo o noticia y responde:\n- ¿Quién lo escribió y por qué?\n- ¿Qué evidencia se presenta?\n- ¿Hay señales de sesgo?\n\nEste ejercicio fortalece tu pensamiento crítico.",
+        "title": "Practicando la evaluación de fuentes",
         "themes": [
-          "criterios para evaluar evidencias"
+          "práctica de evaluación de fuentes"
         ],
-        "image_search_string": "evaluación de evidencias",
+        "image_search_string": "source evaluation practice",
         "question_types": [
           "ShortForm",
           "Sort"
-        ]
-      },
-      {
-        "content": "Aplicar el pensamiento crítico significa:\n- Cuestionar la información antes de aceptarla.\n- Comparar diferentes perspectivas.\n- Formular preguntas como: ¿Es esto lógico? ¿Qué evidencia lo apoya?\n- Evitar conclusiones rápidas sin análisis.",
-        "title": "Aplicando el pensamiento crítico",
-        "themes": [
-          "aplicación del pensamiento crítico"
-        ],
-        "image_search_string": "aplicación del pensamiento crítico",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Recapitulemos: \n- El razonamiento lógico nos ayuda a pensar de manera estructurada.\n- Identificar sesgos mejora nuestra objetividad.\n- Evaluar evidencia asegura decisiones informadas.\n¡Practica estas habilidades para convertirte en un pensador crítico!",
-        "title": "Resumen y práctica",
-        "themes": [
-          "resumen del pensamiento crítico",
-          "importancia de practicar"
-        ],
-        "image_search_string": "resumen del pensamiento crítico",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
         ]
       }
     ],

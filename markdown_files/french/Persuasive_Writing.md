@@ -1,140 +1,73 @@
-# Lesson name: Comprendre l’écriture persuasive : construire des arguments convaincants
+# Lesson name: Persuasive Writing: Crafting Compelling Arguments
 
 ## Intro
 
 ### Introduction à l'écriture persuasive
 
-L'écriture persuasive est un type de communication qui vise à convaincre le lecteur d'adopter une certaine opinion ou d'agir d'une certaine manière. Elle repose sur l'utilisation d'arguments logiques, d'exemples pertinents et souvent d'éléments émotionnels pour influencer son audience.
+Bienvenue dans le monde de l'écriture persuasive ! 🌟 Aujourd'hui, nous allons découvrir comment présenter des arguments convaincants en utilisant des idées claires, une logique solide et des preuves pertinentes.
 
 #### **Themes:**
-- introduction à l'écriture persuasive
+- Introduction à l'écriture persuasive
 
 ## Content slide
 
-### Comprendre le public cible
+### Qu'est-ce que l'écriture persuasive ?
 
-Pour écrire de manière persuasive, il est essentiel de bien comprendre son public cible. Connaître les valeurs, les besoins et les préoccupations de votre audience permet d'adapter vos arguments pour qu'ils soient plus efficaces.
+L'écriture persuasive consiste à convaincre le lecteur d'adopter un point de vue ou d'agir d'une certaine manière. Cela repose sur trois éléments clés : des revendications claires, un raisonnement logique et des preuves pertinentes.
 
 #### **Themes:**
-- importance de comprendre le public cible
+- Définition de l'écriture persuasive
 
 ## Content slide
 
-### Les trois piliers de l'argumentation persuasive
+### Comprendre les revendications
 
-Un argument convaincant repose sur trois piliers :
-1. **Logos** (logique) : des raisons claires et des preuves solides.
-2. **Pathos** (émotion) : susciter des émotions pour toucher le lecteur.
-3. **Ethos** (crédibilité) : établir votre autorité et votre fiabilité.
+Une revendication est une déclaration ou une position que l'auteur défend dans son texte. Elle doit être claire et précise pour que le lecteur comprenne immédiatement le point de vue de l'auteur.
 
 #### **Themes:**
-- logos pathos ethos
+- Définition des revendications
 
 ## Content slide
 
-### Techniques pour captiver l’audience
+### Raisonnement logique
 
-Pour captiver votre audience, utilisez des techniques comme :
-- Poser des questions rhétoriques.
-- Employer des anecdotes engageantes.
-- Répéter des phrases clés pour renforcer votre message.
-- Utiliser des métaphores et des comparaisons.
+Le raisonnement logique est le processus qui relie la revendication aux preuves. Il doit être structuré et cohérent pour renforcer la crédibilité de l'argument.
 
 #### **Themes:**
-- techniques pour captiver l'audience
+- Importance du raisonnement logique
 
 ## Content slide
 
-### Soutenir ses arguments avec des preuves
+### L'importance des preuves
 
-Un argument efficace est soutenu par des preuves solides, comme :
-- Des statistiques.
-- Des témoignages.
-- Des exemples concrets.
-- Des citations d'experts.
+Les preuves sont des faits, des statistiques, des témoignages ou des exemples qui soutiennent la revendication. Elles doivent être pertinentes et fiables pour renforcer l'argument.
 
 #### **Themes:**
-- types de preuves pour argumentation
+- Rôle des preuves dans l'argumentation
 
 ## Content slide
 
-### Structure d’un texte persuasif
+### Stratégies d'argumentation
 
-L'organisation d'un texte persuasif est cruciale. Suivez cette structure :
-1. Introduction : présentez votre sujet et votre thèse.
-2. Corps : développez vos arguments, un par paragraphe.
-3. Conclusion : résumez vos points et terminez avec un appel à l'action.
+Il existe plusieurs stratégies pour organiser une argumentation persuasive, telles que l'appel à la logique, l'émotion ou l'éthique. Chaque approche peut être utilisée selon le public visé.
 
 #### **Themes:**
-- structure d'un texte persuasif
-
-## Intro
-
-### Rédiger une introduction percutante
-
-Dans l'introduction, captez l'attention avec un 'hook' (accroche) fort, comme une question intrigante ou un fait surprenant. Ensuite, présentez brièvement votre sujet et énoncez votre thèse.
-
-#### **Themes:**
-- écrire une introduction persuasive
+- Stratégies pour construire des arguments
 
 ## Content slide
 
-### Développer le corps du texte
+### Structure d'un texte persuasif
 
-Chaque paragraphe du corps doit :
-- Introduire un argument principal.
-- Fournir des preuves ou des exemples.
-- Expliquer comment cela soutient votre thèse.
+Lorsque vous rédigez un texte persuasif, commencez par une introduction captivante, développez vos arguments dans le corps du texte, et terminez par une conclusion percutante.
 
 #### **Themes:**
-- structurer le corps du texte
+- Organisation d'une argumentation
 
 ## Content slide
 
-### Conclure votre texte persuasif
+### Mise en pratique
 
-Une conclusion efficace :
-- Récapitule les points principaux.
-- Renforce la thèse.
-- Termine par un appel à l'action ou une pensée marquante.
+Pratiquez en rédigeant votre propre argumentation sur un sujet qui vous passionne. Utilisez des revendications claires, un raisonnement logique et des preuves pertinentes pour convaincre votre lecteur.
 
 #### **Themes:**
-- rédiger une conclusion persuasive
-
-## Content slide
-
-### Erreurs à éviter dans l’écriture persuasive
-
-Les erreurs courantes à éviter incluent :
-- Des arguments non fondés ou vagues.
-- Ignorer les contre-arguments.
-- Ne pas adapter le ton au public.
-- Une structure confuse ou désorganisée.
-
-#### **Themes:**
-- erreurs courantes en écriture persuasive
-
-## Content slide
-
-### Applications pratiques de l’écriture persuasive
-
-L’écriture persuasive peut être utilisée dans divers contextes :
-- Écrire une lettre ouverte.
-- Rédiger un discours.
-- Préparer une publicité.
-- Composer un essai argumentatif.
-
-#### **Themes:**
-- applications de l'écriture persuasive
-
-## Content slide
-
-### Pratiquer pour s’améliorer
-
-Pour maîtriser l'écriture persuasive, pratiquez régulièrement :
-- Analysez des exemples d’écrits persuasifs.
-- Rédigez vos propres textes.
-- Demandez des retours pour vous améliorer.
-
-#### **Themes:**
-- pratique pour améliorer l'écriture persuasive
+- Exercice d'écriture persuasive

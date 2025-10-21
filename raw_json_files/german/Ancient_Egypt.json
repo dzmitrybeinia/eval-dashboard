@@ -1,38 +1,81 @@
 {
   "request": {
-    "lesson_description": "The civilization of Ancient Egypt: Exploring its geography, culture, and contributions to modern society.",
-    "exercises_ratio": 0.5,
-    "grade_level": "7th grade",
-    "estimated_length": 10,
+    "lesson_description": "The civilization of Ancient Egypt: Exploring its geography, society, religion, and innovations.",
+    "exercises_ratio": 0.7,
+    "grade_level": "6th grade",
+    "estimated_length": 20,
     "learning_standard": "",
-    "additional_guidance": "Focus on aspects such as the Nile River's role in agriculture, the development of hieroglyphic writing, and the architectural significance of pyramids. Include real-world connections to modern engineering and writing systems.",
+    "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "d0ec6954",
+    "request_id": "c649e762",
     "topicInEnglish": "Ancient Egypt",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Die Zivilisation des Alten Ägyptens: Geographie, Kultur und Beiträge",
+    "title": "Die Zivilisation des Alten Ägyptens",
     "slides": [
       {
-        "content": "Willkommen zu unserer Reise ins Alte Ägypten! 🌍 Heute werden wir die faszinierende Welt einer der ältesten Zivilisationen der Geschichte entdecken. Bereit, mehr über ihre Kultur, Errungenschaften und den Einfluss auf unsere moderne Welt zu erfahren?",
-        "title": "Einleitung: Das Alte Ägypten",
+        "content": "Willkommen zu unserer Reise ins Alte Ägypten! 🌟 Heute entdecken wir eine der faszinierendsten Zivilisationen der Geschichte. Bist du bereit, mehr über ihre Geografie, Gesellschaft, Religion und Innovationen zu erfahren?",
+        "title": "Einführung ins Alte Ägypten",
         "themes": [
-          "Einführung in das Alte Ägypten"
+          "Einführung in das Thema"
         ],
-        "image_search_string": "Ancient Egypt overview",
+        "image_search_string": "Ancient Egypt",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Der Nil war die Lebensader des Alten Ägyptens. Jedes Jahr überschwemmte er das Land und hinterließ fruchtbaren Schlamm, der den Ackerbau ermöglichte. Diese Überschwemmungen waren so wichtig, dass die Ägypter ihren Kalender danach ausrichteten. Ohne den Nil hätte sich diese beeindruckende Zivilisation nicht entwickeln können.",
-        "title": "Die Bedeutung des Nils",
+        "content": "Das Alte Ägypten lag im Nordosten Afrikas, entlang des Nils. Der Nil war die Lebensader der Region und sorgte für fruchtbaren Boden durch die jährlichen Überschwemmungen. Ägyptens Geografie, mit Wüste im Westen und Osten und dem Mittelmeer im Norden, bot natürlichen Schutz vor Invasionen.",
+        "title": "Geografie des Alten Ägypten",
         "themes": [
-          "Nil und Landwirtschaft"
+          "Geografie des Alten Ägypten",
+          "Rolle des Nils"
         ],
-        "image_search_string": "Nile River agriculture",
+        "image_search_string": "Nile River Ancient Egypt",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Gesellschaft im Alten Ägypten war streng hierarchisch organisiert. An der Spitze stand der Pharao, gefolgt von Priestern, Beamten und Kriegern. Danach kamen Händler, Handwerker und Bauern. Ganz unten standen die Sklaven. Jeder hatte eine festgelegte Rolle, die zur Stabilität des Reiches beitrug.",
+        "title": "Gesellschaftsstruktur des Alten Ägypten",
+        "themes": [
+          "Gesellschaftsstruktur",
+          "Rollen im Alten Ägypten"
+        ],
+        "image_search_string": "Ancient Egyptian society hierarchy",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Religion spielte eine zentrale Rolle im Leben der alten Ägypter. Sie glaubten an viele Götter, die verschiedene Aspekte der Natur und des Lebens repräsentierten. Tempel waren heilige Orte, und Priester führten Rituale durch, um die Götter zu ehren. Der Glaube an ein Leben nach dem Tod war tief verwurzelt.",
+        "title": "Religion im Alten Ägypten",
+        "themes": [
+          "Ägyptische Religion",
+          "Glaube an das Leben nach dem Tod"
+        ],
+        "image_search_string": "Ancient Egyptian gods",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Das Alte Ägypten war bekannt für seine beeindruckenden Innovationen. Dazu gehören die Pyramiden, ein ausgeklügeltes Bewässerungssystem, und die Entwicklung einer eigenen Schrift, den Hieroglyphen. Diese Errungenschaften zeigen den Erfindungsreichtum der Ägypter.",
+        "title": "Innovationen des Alten Ägypten",
+        "themes": [
+          "Ägyptische Innovationen",
+          "Hieroglyphen und Pyramiden"
+        ],
+        "image_search_string": "Ancient Egyptian innovations",
         "question_types": [
           "ShortForm",
           "Match",
@@ -40,39 +83,13 @@
         ]
       },
       {
-        "content": "Die Hieroglyphen waren das Schriftsystem des Alten Ägyptens. Sie bestanden aus Symbolen, die Wörter oder Laute darstellten. Die Entdeckung des Steins von Rosetta half den Forschern, diese Schrift zu entschlüsseln, was unser Wissen über die ägyptische Geschichte revolutionierte.",
-        "title": "Hieroglyphen und ihre Bedeutung",
+        "content": "Die Zivilisation des Alten Ägyptens hat einen enormen Einfluss auf die heutige Welt. Ihre Architektur, Kunst und Konzepte wie der Kalender und medizinische Praktiken inspirieren uns bis heute. Ihre Geschichte ist ein Zeugnis menschlicher Kreativität und Beständigkeit.",
+        "title": "Das Erbe des Alten Ägyptens",
         "themes": [
-          "Hieroglyphen",
-          "Stein von Rosetta"
+          "Einfluss des Alten Ägyptens",
+          "Historisches Erbe"
         ],
-        "image_search_string": "Ancient Egyptian hieroglyphs",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Die Pyramiden, insbesondere die Pyramiden von Gizeh, sind beeindruckende Beispiele antiker Architektur. Sie dienten als Grabstätten für Pharaonen und zeugen von den technischen Fähigkeiten der Ägypter. Viele moderne Ingenieure bewundern noch heute die Präzision und die Planung dieser Bauwerke.",
-        "title": "Die Pyramiden: Architektur und Bedeutung",
-        "themes": [
-          "Pyramiden",
-          "Architektur im Alten Ägypten"
-        ],
-        "image_search_string": "Egyptian pyramids architecture",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Das Alte Ägypten hat zahlreiche Beiträge zur modernen Welt geleistet, von der Entwicklung eines Kalenders bis hin zu medizinischen Praktiken. Ihre Baukunst beeinflusst noch heute moderne Ingenieure, und ihre Schrift inspirierte spätere Schriftsysteme. Viele Errungenschaften dieser Zivilisation sind auch heute noch spürbar.",
-        "title": "Beiträge des Alten Ägyptens zur modernen Welt",
-        "themes": [
-          "Beiträge des Alten Ägyptens"
-        ],
-        "image_search_string": "Ancient Egypt legacy",
+        "image_search_string": "Ancient Egyptian legacy",
         "question_types": [
           "ShortForm",
           "Match",

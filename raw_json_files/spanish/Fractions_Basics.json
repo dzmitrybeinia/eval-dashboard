@@ -1,149 +1,142 @@
 {
   "request": {
-    "lesson_description": "Understanding the basics of fractions: parts of a whole, numerator, denominator, and simple fraction comparisons.",
-    "exercises_ratio": 0.6,
+    "lesson_description": "Understanding Fractions: Basics, including parts of a fraction, equivalent fractions, and comparing fractions.",
+    "exercises_ratio": 0.5,
     "grade_level": "4th grade",
-    "estimated_length": 25,
-    "learning_standard": "CCSS.MATH.CONTENT.4.NF.A.1: Explain why a fraction a/b is equivalent to a fraction (n × a)/(n × b) by using visual fraction models; recognize and generate equivalent fractions.",
-    "additional_guidance": "Focus on using real-world examples such as dividing a pizza or sharing a set of objects to help students visualize fractions. Include tips for identifying and comparing fractions with the same or different denominators.",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.MATH.CONTENT.4.NF.A.1: Explain why a fraction a/b is equivalent to a fraction (n × a)/(n × b) by using visual fraction models.",
+    "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "e19d40ee",
+    "request_id": "5a29b724",
     "topicInEnglish": "Fractions Basics",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Fundamentos de las Fracciones",
+    "title": "Understanding Fractions: Basics and Comparisons",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo de las fracciones! Hoy aprenderemos cómo las fracciones representan partes de un todo y cómo compararlas de forma sencilla. 🌟",
+        "content": "¡Bienvenidos al emocionante mundo de las fracciones! En esta lección aprenderemos qué son las fracciones, cómo identificarlas, y la manera de compararlas y encontrar equivalencias entre ellas. 🌟",
         "title": "Introducción a las Fracciones",
         "themes": [
-          "concepto inicial de fracciones"
+          "Introducción a las fracciones"
         ],
-        "image_search_string": "niños aprendiendo fracciones",
+        "image_search_string": "fractions basics",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las fracciones representan partes de un todo. Por ejemplo, si tienes una pizza dividida en 8 porciones y comes 3, has consumido 3/8 de la pizza. Aquí, el número de arriba (3) es el numerador y muestra cuántas partes tomaste. El número de abajo (8) es el denominador y muestra en cuántas partes se dividió el todo.",
+        "content": "Una fracción representa una parte de un todo. Se compone de dos números: el numerador (arriba) y el denominador (abajo). El numerador indica cuántas partes tenemos, mientras que el denominador muestra en cuántas partes iguales se ha dividido el todo.",
         "title": "¿Qué es una fracción?",
         "themes": [
-          "definición de fracción",
-          "concepto de numerador y denominador"
+          "Definición de fracción",
+          "Partes de una fracción"
         ],
-        "image_search_string": "pizza dividida en porciones",
+        "image_search_string": "fraction parts diagram",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El numerador es el número que indica cuántas partes seleccionamos o consideramos. El denominador indica en cuántas partes iguales se ha dividido el todo. Por ejemplo, en 5/6, el numerador es 5 y el denominador es 6.",
-        "title": "Numerador y Denominador",
+        "content": "Ejemplos de fracciones: \n- Si divides una pizza en 4 partes iguales y te comes 1 parte, la fracción sería 1/4.\n- Si tienes 3 caramelos de un paquete de 5, la fracción sería 3/5.",
+        "title": "Ejemplos de Fracciones",
         "themes": [
-          "función del numerador",
-          "función del denominador"
+          "Ejemplos de fracciones",
+          "Interpretación de fracciones"
         ],
-        "image_search_string": "fracción numerador denominador",
+        "image_search_string": "fraction examples",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para entender las fracciones, pensemos en ejemplos reales. Imagina que tienes una barra de chocolate dividida en 4 partes iguales. Si comes 1 parte, has comido 1/4 de la barra. Si comes 2 partes, has comido 2/4 o la mitad (1/2).",
-        "title": "Ejemplo: Barra de Chocolate",
-        "themes": [
-          "fracciones en ejemplos reales",
-          "visualización de fracciones"
-        ],
-        "image_search_string": "barra de chocolate fracciones",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las fracciones equivalentes representan la misma cantidad aunque se vean diferentes. Por ejemplo, 1/2 es equivalente a 2/4 y 4/8. Si multiplicamos el numerador y el denominador de 1/2 por el mismo número, obtenemos fracciones equivalentes.",
+        "content": "Las fracciones equivalentes son diferentes fracciones que representan la misma cantidad. Por ejemplo, 1/2 es equivalente a 2/4 y 4/8. Esto se debe a que el numerador y el denominador se han multiplicado o dividido por el mismo número.",
         "title": "Fracciones Equivalentes",
         "themes": [
-          "concepto de fracciones equivalentes",
-          "multiplicación para equivalencia"
+          "Definición de fracciones equivalentes",
+          "Cálculo de fracciones equivalentes"
         ],
-        "image_search_string": "fracciones equivalentes modelo",
+        "image_search_string": "equivalent fractions",
         "question_types": [
           "ShortForm",
           "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Para comparar fracciones con el mismo denominador, solo necesitamos mirar los numeradores. Por ejemplo, 3/8 es menor que 5/8 porque 3 es menor que 5. Para comparar fracciones con diferentes denominadores, podemos usar un modelo visual o encontrar un denominador común.",
-        "title": "Comparación de Fracciones",
-        "themes": [
-          "comparar fracciones mismo denominador",
-          "comparar fracciones denominadores diferentes"
-        ],
-        "image_search_string": "comparar fracciones visual",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Usar modelos visuales ayuda a entender las fracciones. Por ejemplo, si dividimos un círculo en cuatro partes iguales y coloreamos dos, podemos ver que 2/4 es igual a 1/2 porque ocupan la misma cantidad del círculo.",
-        "title": "Modelos Visuales para Fracciones",
-        "themes": [
-          "uso de modelos visuales",
-          "comprender equivalencias"
-        ],
-        "image_search_string": "modelo visual fracciones",
-        "question_types": [
-          "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Para generar fracciones equivalentes, multiplica o divide el numerador y el denominador por el mismo número. Por ejemplo, 1/3 se convierte en 2/6 si multiplicamos ambos por 2. Esto no cambia el valor de la fracción.",
-        "title": "Cómo Generar Fracciones Equivalentes",
+        "content": "Para encontrar fracciones equivalentes, multiplica o divide el numerador y el denominador por el mismo número. Por ejemplo:\n- Multiplica: 1/3 × 2/2 = 2/6\n- Divide: 4/8 ÷ 2/2 = 2/4.",
+        "title": "Cómo encontrar Fracciones Equivalentes",
         "themes": [
-          "crear fracciones equivalentes",
-          "multiplicación y división"
+          "Método para encontrar fracciones equivalentes"
         ],
-        "image_search_string": "generar fracciones equivalentes",
+        "image_search_string": "finding equivalent fractions",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Comparar fracciones significa determinar cuál es mayor, menor o si son iguales. Usa un denominador común o representa las fracciones en una figura para compararlas visualmente.",
+        "title": "Comparando Fracciones",
+        "themes": [
+          "Métodos para comparar fracciones",
+          "Denominadores comunes"
+        ],
+        "image_search_string": "comparing fractions",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Un truco para encontrar denominadores comunes al comparar fracciones es multiplicar los denominadores entre sí. Por ejemplo, para 1/3 y 1/4, el denominador común más simple es 12.",
-        "title": "Denominadores Comunes",
+        "content": "Cuando las fracciones tienen el mismo denominador, simplemente compara los numeradores. Por ejemplo: 3/8 es mayor que 2/8 porque 3 es mayor que 2.",
+        "title": "Comparación con el mismo denominador",
         "themes": [
-          "encontrar denominadores comunes"
+          "Comparación de fracciones con igual denominador"
         ],
-        "image_search_string": "denominadores comunes fracciones",
+        "image_search_string": "fractions same denominator",
         "question_types": [
           "ShortForm",
-          "Match",
+          "Match"
+        ]
+      },
+      {
+        "content": "Para comparar fracciones con diferentes denominadores, encuentra un denominador común. Por ejemplo:\n- Compara 1/3 y 1/4.\n- El denominador común es 12.\n- 1/3 = 4/12 y 1/4 = 3/12.\n- Por lo tanto, 1/3 > 1/4.",
+        "title": "Comparación con diferentes denominadores",
+        "themes": [
+          "Uso de denominadores comunes en comparación"
+        ],
+        "image_search_string": "fractions different denominators",
+        "question_types": [
+          "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "¡Bien hecho! Ahora sabes qué son las fracciones, cómo comparar y generar fracciones equivalentes, y cómo usar modelos visuales. Recuerda practicar con ejemplos de la vida diaria como repartir comida o contar objetos.",
-        "title": "Conclusión y Repaso",
+        "content": "Las fracciones también se pueden comparar visualmente usando diagramas como círculos o barras divididas en partes iguales. Esto ayuda a ver cuál es mayor o menor.",
+        "title": "Comparación visual de fracciones",
         "themes": [
-          "repaso conceptos fracciones"
+          "Métodos visuales para comparar fracciones"
         ],
-        "image_search_string": "niños aprendiendo juntos",
+        "image_search_string": "visual fraction comparison",
         "question_types": [
           "ShortForm",
+          "Match",
           "Grouping"
+        ]
+      },
+      {
+        "content": "Las fracciones son una herramienta poderosa para entender partes de un todo y compararlas. Ahora que sabes cómo identificarlas, encontrar equivalencias y compararlas, ¡estás listo para resolver problemas y aplicarlas en la vida diaria!",
+        "title": "Resumen y Aplicaciones",
+        "themes": [
+          "Resumen de conceptos clave sobre fracciones"
+        ],
+        "image_search_string": "fractions summary",
+        "question_types": [
+          "ShortForm"
         ]
       }
     ],

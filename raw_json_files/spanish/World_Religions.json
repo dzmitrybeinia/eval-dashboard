@@ -1,139 +1,138 @@
 {
   "request": {
-    "lesson_description": "Introduction to World Religions: Exploring the beliefs, practices, and cultural significance of Christianity, Islam, Judaism, Hinduism, and Buddhism.",
-    "exercises_ratio": 0.2,
-    "grade_level": "8th grade",
+    "lesson_description": "An introduction to the major world religions: Christianity, Islam, Judaism, Hinduism, and Buddhism. Understanding their core beliefs, practices, and cultural impact.",
+    "exercises_ratio": 0.5,
+    "grade_level": "7th grade",
     "estimated_length": 20,
-    "learning_standard": "",
-    "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "learning_standard": "NCSS.D2.HIS.14.6-8: Explain multiple causes and effects of events and developments in the past, including the influence of religion on societies.",
+    "additional_guidance": "Focus on comparing similarities and differences between the religions. Include real-world examples of their influence on art, literature, and culture.",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "7c8db89c",
+    "request_id": "77d4cdc3",
     "topicInEnglish": "World Religions",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Introducción a las Religiones del Mundo",
+    "title": "Introduction to Major World Religions",
     "slides": [
       {
-        "content": "¡Bienvenidos a un fascinante viaje por las religiones del mundo! Juntas exploraremos las creencias, prácticas y significados culturales de cinco grandes religiones: Cristianismo, Islam, Judaísmo, Hinduismo y Budismo. 🌍✨",
-        "title": "¡Descubramos las Religiones del Mundo!",
+        "content": "¡Bienvenidos a esta fascinante exploración de las religiones del mundo! 🌍 Hoy aprenderemos sobre cinco de las religiones más importantes: el Cristianismo, el Islam, el Judaísmo, el Hinduismo y el Budismo. Descubriremos sus creencias principales, prácticas y cómo han influido profundamente en la cultura y la sociedad.",
+        "title": "Introducción a las religiones del mundo",
         "themes": [
-          "introducción a las religiones"
+          "Presentación de las religiones del mundo"
         ],
-        "image_search_string": "religiones del mundo",
+        "image_search_string": "world religions symbols",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El Cristianismo es una de las religiones más practicadas en el mundo. Se basa en las enseñanzas de Jesús de Nazaret, considerado el Hijo de Dios por los cristianos. Los textos sagrados incluyen la Biblia, dividida en el Antiguo y Nuevo Testamento. La cruz es un símbolo importante del Cristianismo.",
-        "title": "Cristianismo: Creencias y Prácticas",
+        "content": "El Cristianismo es una religión monoteísta basada en las enseñanzas de Jesús de Nazaret. Sus seguidores creen en un Dios único y en la salvación a través de Jesucristo. La Biblia, que incluye el Antiguo y el Nuevo Testamento, es su texto sagrado. Las prácticas incluyen la oración, la asistencia a la iglesia y los sacramentos como el bautismo y la eucaristía.",
+        "title": "El Cristianismo",
         "themes": [
-          "fundamentos del cristianismo"
+          "Creencias y prácticas cristianas"
         ],
-        "image_search_string": "símbolo del cristianismo",
+        "image_search_string": "Christianity symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El Islam se centra en la fe en un único Dios, llamado Alá, y en las enseñanzas del profeta Mahoma. El libro sagrado del Islam es el Corán, y los musulmanes practican los Cinco Pilares del Islam: fe, oración, caridad, ayuno durante el Ramadán y peregrinación a La Meca.",
-        "title": "Islam: Los Cinco Pilares",
+        "content": "El Islam es una religión monoteísta que sigue las enseñanzas del profeta Mahoma, quien recibió revelaciones del Corán, su libro sagrado. Los musulmanes practican los Cinco Pilares del Islam: la declaración de fe, la oración cinco veces al día, la limosna, el ayuno durante el Ramadán y la peregrinación a La Meca.",
+        "title": "El Islam",
         "themes": [
-          "prácticas del islam"
+          "Creencias y prácticas islámicas"
         ],
-        "image_search_string": "símbolo del islam",
+        "image_search_string": "Islamic symbols",
         "question_types": [
           "ShortForm",
           "Match",
-          "Grouping"
+          "Sort"
         ]
       },
       {
-        "content": "El Judaísmo es una de las religiones más antiguas del mundo. Los judíos creen en un único Dios y siguen las enseñanzas de la Torá, que es parte del Tanaj. Las festividades importantes incluyen el Shabat, el Rosh Hashaná y el Yom Kipur.",
-        "title": "Judaísmo: Una Fe Antigua",
+        "content": "El Judaísmo es una de las religiones más antiguas, centrada en la creencia en un Dios único y en los principios de la Torá, los primeros cinco libros de la Biblia. Las prácticas incluyen el Shabat (día de descanso), las festividades como el Yom Kipur y el Rosh Hashaná, y el cumplimiento de los mandamientos.",
+        "title": "El Judaísmo",
         "themes": [
-          "prácticas y textos del judaísmo"
+          "Creencias y prácticas judías"
         ],
-        "image_search_string": "símbolo del judaísmo",
+        "image_search_string": "Jewish symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El Hinduismo es una religión diversa con muchas deidades y tradiciones. Los textos sagrados incluyen los Vedas y el Bhagavad Gita. Conceptos clave son el karma, el dharma y la reencarnación. Los hindúes a menudo adoran en templos y celebran festivales como el Diwali.",
-        "title": "Hinduismo: Diversidad y Tradiciones",
+        "content": "El Hinduismo es una religión politeísta originaria de la India, con textos sagrados como los Vedas y el Bhagavad Gita. Tiene múltiples deidades importantes como Brahma, Vishnu y Shiva. Las prácticas incluyen el yoga, los rituales en templos y festividades como el Diwali.",
+        "title": "El Hinduismo",
         "themes": [
-          "valores del hinduismo"
+          "Creencias y prácticas hindúes"
         ],
-        "image_search_string": "símbolo del hinduismo",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El Budismo se basa en las enseñanzas de Siddhartha Gautama, conocido como Buda. Los budistas buscan alcanzar la iluminación siguiendo el Camino Óctuple. El concepto de Nirvana es clave, y las prácticas incluyen la meditación y el estudio de las enseñanzas del Buda.",
-        "title": "Budismo: El Camino a la Iluminación",
-        "themes": [
-          "enseñanzas del budismo"
-        ],
-        "image_search_string": "símbolo del budismo",
+        "image_search_string": "Hindu symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El Cristianismo, el Islam y el Judaísmo comparten raíces en la región del Medio Oriente y veneran a un único Dios. A menudo se les llama religiones abrahámicas por su conexión con el patriarca Abraham.",
-        "title": "Religiones Abrahámicas",
+        "content": "El Budismo, fundado por Siddhartha Gautama (Buda), se centra en alcanzar la iluminación y el fin del sufrimiento a través del Noble Camino Óctuple. No es teísta, ya que no se centra en dioses, sino en principios éticos y prácticas como la meditación.",
+        "title": "El Budismo",
         "themes": [
-          "conexión entre religiones abrahámicas"
+          "Creencias y prácticas budistas"
         ],
-        "image_search_string": "religiones abrahámicas",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El Hinduismo y el Budismo, originarios de la India, comparten conceptos como el karma y la reencarnación, pero difieren en sus visiones sobre la divinidad y el camino hacia la iluminación.",
-        "title": "Comparación: Hinduismo y Budismo",
-        "themes": [
-          "contraste entre hinduismo y budismo"
-        ],
-        "image_search_string": "hinduismo y budismo",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las religiones influyen en la cultura a través del arte, la música, la literatura y las festividades. Por ejemplo, la música gospel en el Cristianismo o las pinturas tibetanas en el Budismo reflejan la espiritualidad y las creencias.",
-        "title": "Religión y Cultura",
-        "themes": [
-          "impacto cultural de las religiones"
-        ],
-        "image_search_string": "religión y cultura",
+        "image_search_string": "Buddhist symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "En todo el mundo, las religiones ofrecen respuestas a preguntas profundas sobre el propósito de la vida, la moralidad y el más allá. También son fundamentales para la formación de comunidades y la identidad cultural.",
-        "title": "El Propósito de las Religiones",
+        "content": "A pesar de sus diferencias, estas religiones comparten similitudes significativas. Todas buscan dar sentido a la vida, tienen textos o enseñanzas sagradas y rituales para conectar con lo divino. También promueven valores éticos como la compasión, la justicia y la paz.",
+        "title": "Similitudes entre las religiones",
         "themes": [
-          "función de las religiones"
+          "Similitudes entre religiones principales"
         ],
-        "image_search_string": "el propósito de las religiones",
+        "image_search_string": "world religions similarities",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Cada religión tiene prácticas y creencias únicas. Por ejemplo, mientras el Cristianismo y el Islam son monoteístas, el Hinduismo es politeísta. El Judaísmo tiene un fuerte enfoque en la ley y las tradiciones, mientras el Budismo pone énfasis en la meditación y el autodescubrimiento.",
+        "title": "Diferencias entre las religiones",
+        "themes": [
+          "Diferencias entre religiones principales"
+        ],
+        "image_search_string": "religion differences",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las religiones han influido en la cultura de maneras profundas. Por ejemplo, el Cristianismo ha inspirado obras de arte como la Capilla Sixtina, el Islam ha contribuido con la arquitectura como la Alhambra, y el Hinduismo con festividades coloridas como el Holi.",
+        "title": "Influencia cultural de las religiones",
+        "themes": [
+          "Influencia cultural de las religiones"
+        ],
+        "image_search_string": "cultural impact of religions",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Aunque estas religiones tienen raíces antiguas, siguen siendo relevantes hoy en día. Sus enseñanzas y valores continúan guiando a millones de personas, influyendo en decisiones éticas y en la convivencia social.",
+        "title": "Relevancia actual de las religiones",
+        "themes": [
+          "Relevancia contemporánea de las religiones"
+        ],
+        "image_search_string": "modern relevance of religions",
+        "question_types": [
+          "ShortForm",
+          "Match"
         ]
       }
     ],

@@ -1,50 +1,62 @@
 {
   "request": {
-    "lesson_description": "Introduction to Variables and Data Types in Computer Programming.",
-    "exercises_ratio": 0.4,
-    "grade_level": "8th grade",
-    "estimated_length": 10,
-    "learning_standard": "CSTA K-12 CS Standards - 2-AP-11: Create clearly named variables that represent different data types and perform operations on their values.",
+    "lesson_description": "Introduction to Python programming: Variables, data types, and basic operations.",
+    "exercises_ratio": 0.3,
+    "grade_level": "9th grade",
+    "estimated_length": 25,
+    "learning_standard": "CSTA K-12 Computer Science Standards: 2-AP-10 - Use flowcharts and pseudocode to address complex problems as algorithms.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "b2f39832",
+    "request_id": "2f3a7372",
     "topicInEnglish": "Computer Programming",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Introduction to Variables and Data Types in Computer Programming",
+    "title": "Introduction à la programmation Python : Variables, types de données et opérations de base",
     "slides": [
       {
-        "content": "Bienvenue dans l'univers fascinant de la programmation informatique ! Aujourd'hui, nous allons explorer une partie essentielle de la programmation : les variables et les types de données. Prêts à découvrir comment les ordinateurs stockent et manipulent des informations ? 🚀",
-        "title": "Bienvenue à la programmation !",
+        "content": "Bienvenue dans le monde fascinant de la programmation Python ! Python est un langage de programmation puissant et accessible qui permet de créer des programmes informatiques pour résoudre des problèmes variés et complexes. Découvrons ensemble les bases de ce langage, en commençant par les variables, les types de données et les opérations fondamentales. 🐍",
+        "title": "Bienvenue dans Python !",
         "themes": [
-          "introduction to programming"
+          "Introduction au langage Python"
         ],
-        "image_search_string": "programming concept",
+        "image_search_string": "Python programming",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Une variable est un espace de stockage dans la mémoire de l'ordinateur où l'on peut conserver des données. Imaginez une boîte avec une étiquette qui indique ce qu'elle contient. En programmation, ces boîtes peuvent contenir des nombres, des mots ou d'autres types d'informations.",
-        "title": "Qu'est-ce qu'une variable ?",
+        "content": "Qu'est-ce qu'une variable en programmation ? Une variable est une sorte de boîte dans laquelle nous pouvons stocker des informations que nous voulons utiliser ou modifier plus tard dans notre programme. Par exemple, nous pouvons utiliser une variable pour stocker un numéro, un mot ou une phrase.",
+        "title": "Les variables en programmation",
         "themes": [
-          "definition of variables"
+          "Concept des variables"
         ],
-        "image_search_string": "variable concept",
+        "image_search_string": "programming variables",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les types de données définissent quel genre de données une variable peut contenir. Les principaux types sont :\n\n- **Int** : pour les nombres entiers (ex. : 1, 42, -7).\n- **Float** : pour les nombres à virgule (ex. : 3.14, -0.01).\n- **String** : pour les textes (ex. : \"Bonjour\", \"Programmation\").\n- **Boolean** : pour les valeurs vraies ou fausses (ex. : True, False).",
-        "title": "Les types de données",
+        "content": "En Python, il existe plusieurs types de données de base :\n- **Entiers** (int) : pour stocker des nombres entiers (ex. : 1, 42, -7)\n- **Nombres décimaux** (float) : pour stocker des nombres à virgule (ex. : 3.14, -0.001)\n- **Chaînes de caractères** (str) : pour stocker du texte (ex. : \"Bonjour\", \"Python\")\n- **Booléens** (bool) : pour stocker les valeurs Vrai ou Faux (ex. : True, False)",
+        "title": "Les types de données en Python",
         "themes": [
-          "data types overview"
+          "Types de données en Python"
         ],
-        "image_search_string": "data types examples",
+        "image_search_string": "Python data types",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Pour définir une variable en Python, il suffit de choisir un nom, puis d'utiliser le signe égal (=) pour assigner une valeur. Par exemple :\n```python\nage = 15\nnom = \"Alice\"\npi = 3.14\n```Ces lignes créent respectivement une variable entière, une chaîne de caractères et un nombre décimal.",
+        "title": "Créer des variables",
+        "themes": [
+          "Syntaxe de création de variables"
+        ],
+        "image_search_string": "Python variable assignment",
         "question_types": [
           "ShortForm",
           "Match",
@@ -52,41 +64,16 @@
         ]
       },
       {
-        "content": "Pour utiliser une variable, il faut d'abord la déclarer et lui attribuer une valeur. Par exemple :\n\n- `int age = 15;` (déclare une variable \"age\" de type entier avec la valeur 15).\n- `float pi = 3.14;` (déclare une variable \"pi\" de type float).\n- `string nom = \"Alice\";` (déclare une variable \"nom\" de type string).\n- `bool estEtudiant = true;` (déclare une variable \"estEtudiant\" de type boolean).",
-        "title": "Déclarer et utiliser des variables",
+        "content": "Les opérations de base en Python incluent :\n- **Addition (+)** : `a + b`\n- **Soustraction (-)** : `a - b`\n- **Multiplication (*)** : `a * b`\n- **Division (/)** : `a / b`\n- **Division entière (//)** : `a // b`\n- **Modulo (%)** : `a % b` (reste de la division)\nCes opérations peuvent être utilisées avec des variables ou des valeurs directes.",
+        "title": "Opérations mathématiques de base",
         "themes": [
-          "declaring variables"
+          "Opérations mathématiques en Python"
         ],
-        "image_search_string": "variable declaration",
+        "image_search_string": "Python arithmetic operations",
         "question_types": [
           "ShortForm",
           "Match",
           "Sort"
-        ]
-      },
-      {
-        "content": "Les opérations sur les variables permettent de manipuler leurs valeurs. Par exemple :\n\n- Ajouter ou soustraire : `int total = a + b;`\n- Comparer : `bool estEgal = (a == b);`\n- Concaténer des chaînes : `string phrase = \"Bonjour, \" + nom;`",
-        "title": "Opérations sur les variables",
-        "themes": [
-          "operations on variables"
-        ],
-        "image_search_string": "operations on variables",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les bonnes pratiques pour nommer une variable incluent :\n\n- Utiliser des noms clairs et significatifs (ex. : `ageUtilisateur` au lieu de `a`).\n- Respecter les conventions de la langue de programmation (ex. : camelCase en Java).\n- Éviter les mots réservés (ex. : \"class\" ou \"int\" ne peuvent pas être des noms de variables).",
-        "title": "Noms de variables efficaces",
-        "themes": [
-          "naming variables"
-        ],
-        "image_search_string": "variable naming tips",
-        "question_types": [
-          "ShortForm",
-          "Match"
         ]
       }
     ],

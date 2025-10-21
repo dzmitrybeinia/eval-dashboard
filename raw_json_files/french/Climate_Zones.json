@@ -1,14 +1,14 @@
 {
   "request": {
-    "lesson_description": "Understanding Climate Zones: Exploring the different types of climate zones (tropical, temperate, polar, etc.), their characteristics, and how they affect ecosystems and human activities.",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Understanding Climate Zones: Exploring Earth's major climate regions and their characteristics.",
+    "exercises_ratio": 1.0,
     "grade_level": "6th grade",
     "estimated_length": 15,
     "learning_standard": "",
-    "additional_guidance": "",
+    "additional_guidance": "Include real-world examples of how climate zones impact ecosystems and human activities. Focus on aspects such as temperature, precipitation patterns, and vegetation types.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "8b78b998",
+    "request_id": "2ceb3b05",
     "topicInEnglish": "Climate Zones",
     "generationLanguage": "fr-FR"
   },
@@ -16,59 +16,23 @@
     "title": "Understanding Climate Zones",
     "slides": [
       {
-        "content": "Bienvenue dans le monde fascinant des zones climatiques ! 🌍 Aujourd'hui, nous allons explorer les différents types de climats sur Terre et découvrir comment ils influencent notre planète.",
+        "content": "Bienvenue dans notre exploration des zones climatiques de la Terre ! 🌍 Aujourd'hui, nous allons découvrir les grandes régions climatiques de la planète et comprendre leurs caractéristiques uniques.",
         "title": "Introduction aux zones climatiques",
         "themes": [
-          "introduction aux zones climatiques"
+          "Introduction aux zones climatiques"
         ],
-        "image_search_string": "climate zones globe",
+        "image_search_string": "global climate zones",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Les zones climatiques sont des régions de la Terre qui partagent des conditions climatiques similaires. Ces zones sont déterminées par des facteurs comme la température, les précipitations et la latitude.",
-        "title": "Qu'est-ce qu'une zone climatique ?",
+        "content": "La Terre est divisée en plusieurs zones climatiques principales, chacune ayant des températures et des précipitations spécifiques. Ces zones incluent les climats tropicaux, arides, tempérés, continentaux et polaires.",
+        "title": "Les zones climatiques de la Terre",
         "themes": [
-          "définition des zones climatiques"
+          "Principales zones climatiques"
         ],
-        "image_search_string": "climate zones map",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Les trois principales zones climatiques sont :\n- **Zone tropicale** : Chaude et humide toute l'année.\n- **Zone tempérée** : Saisonnière avec des étés chauds et des hivers froids.\n- **Zone polaire** : Froid extrême avec de la glace et de la neige toute l'année.",
-        "title": "Les trois principales zones climatiques",
-        "themes": [
-          "zones tropicales tempérées polaires"
-        ],
-        "image_search_string": "main climate zones",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La zone tropicale se situe près de l'équateur. Elle est caractérisée par des températures élevées toute l'année et des précipitations abondantes, favorisant une biodiversité riche, comme les forêts tropicales.",
-        "title": "La zone tropicale",
-        "themes": [
-          "caractéristiques de la zone tropicale"
-        ],
-        "image_search_string": "tropical rainforest climate",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La zone tempérée se trouve entre les zones tropicales et polaires. Elle connaît quatre saisons distinctes : printemps, été, automne et hiver, avec une variété de climats comme méditerranéen ou continental.",
-        "title": "La zone tempérée",
-        "themes": [
-          "caractéristiques de la zone tempérée"
-        ],
-        "image_search_string": "temperate climate regions",
+        "image_search_string": "world climate map",
         "question_types": [
           "ShortForm",
           "Match",
@@ -76,24 +40,39 @@
         ]
       },
       {
-        "content": "Les zones polaires se trouvent près des pôles Nord et Sud. Elles sont marquées par de longues périodes de froid glacial et des paysages dominés par la glace et la neige.",
-        "title": "La zone polaire",
+        "content": "Les zones climatiques tropicales se trouvent près de l'équateur. Elles se caractérisent par des températures élevées tout au long de l'année et des précipitations abondantes, favorisant des forêts tropicales luxuriantes.",
+        "title": "Climat tropical",
         "themes": [
-          "caractéristiques de la zone polaire"
+          "Climat tropical",
+          "Caractéristiques des zones tropicales"
         ],
-        "image_search_string": "polar ice climate",
+        "image_search_string": "tropical rainforest",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les climats influencent les écosystèmes. Par exemple, les forêts tropicales abritent une immense biodiversité, alors que les zones polaires sont dominées par des espèces adaptées au froid extrême.",
-        "title": "Impact des climats sur les écosystèmes",
+        "content": "Les zones arides, comme les déserts, reçoivent peu de précipitations. Elles se trouvent souvent à l'intérieur des continents ou dans les zones ombragées par les montagnes.",
+        "title": "Climat aride",
         "themes": [
-          "climats et écosystèmes"
+          "Climat aride",
+          "Caractéristiques des zones arides"
         ],
-        "image_search_string": "ecosystem diversity",
+        "image_search_string": "desert landscape",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les climats tempérés se caractérisent par des saisons distinctes, avec des étés chauds et des hivers modérés. Ces zones sont souvent propices à l'agriculture, comme en France.",
+        "title": "Climat tempéré",
+        "themes": [
+          "Climat tempéré",
+          "Saisons distinctes"
+        ],
+        "image_search_string": "temperate forest",
         "question_types": [
           "ShortForm",
           "Match",
@@ -101,60 +80,131 @@
         ]
       },
       {
-        "content": "Les activités humaines sont adaptées aux climats. Par exemple, l'agriculture dépend des saisons dans les zones tempérées, tandis que les infrastructures dans les zones polaires sont conçues pour résister au froid.",
-        "title": "Impact des climats sur les activités humaines",
+        "content": "Les climats continentaux présentent des hivers froids et des étés chauds. Ces zones se trouvent souvent à l'intérieur des continents, loin des grandes masses d'eau.",
+        "title": "Climat continental",
         "themes": [
-          "climats et activités humaines"
+          "Climat continental",
+          "Caractéristiques des zones continentales"
         ],
-        "image_search_string": "human activities climate",
+        "image_search_string": "continental climate landscape",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Le climat est influencé par des facteurs comme la latitude, l'altitude et la proximité des océans. Par exemple, les régions proches de l'équateur sont plus chaudes, et les montagnes sont plus froides.",
-        "title": "Facteurs influençant le climat",
+        "content": "Les zones polaires se caractérisent par des températures extrêmement froides et des précipitations principalement sous forme de neige. Elles sont situées près des pôles.",
+        "title": "Climat polaire",
         "themes": [
-          "facteurs du climat"
+          "Climat polaire",
+          "Températures froides"
         ],
-        "image_search_string": "climate factors latitude",
+        "image_search_string": "polar ice caps",
         "question_types": [
           "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les précipitations varient dans les différentes zones climatiques, influençant les types de végétation et les activités humaines. Par exemple, les régions tropicales favorisent l'agriculture, tandis que les zones arides limitent les cultures.",
+        "title": "Précipitations et végétation",
+        "themes": [
+          "Précipitations",
+          "Impact sur la végétation"
+        ],
+        "image_search_string": "rainfall patterns",
+        "question_types": [
+          "ShortForm",
+          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Les climats changent au fil du temps. Les changements climatiques actuels, causés par les activités humaines, affectent toutes les zones climatiques de la planète.",
-        "title": "Changements climatiques",
+        "content": "Les écosystèmes des climats tropicaux abritent une biodiversité riche, avec des forêts tropicales et des espèces variées. Ces régions sont cruciales pour la régulation du climat global.",
+        "title": "Écosystèmes tropicaux",
         "themes": [
-          "changements climatiques"
+          "Écosystèmes tropicaux",
+          "Biodiversité"
+        ],
+        "image_search_string": "tropical biodiversity",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Dans les zones arides, les écosystèmes s'adaptent aux faibles précipitations. On y trouve des plantes résistantes à la sécheresse comme les cactus et des animaux comme les chameaux.",
+        "title": "Écosystèmes arides",
+        "themes": [
+          "Écosystèmes arides",
+          "Adaptations à la sécheresse"
+        ],
+        "image_search_string": "desert ecosystem",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les zones tempérées offrent une variété d'écosystèmes, des forêts mixtes aux prairies. Ces régions sont souvent densément peuplées en raison de leur climat favorable.",
+        "title": "Écosystèmes tempérés",
+        "themes": [
+          "Écosystèmes tempérés",
+          "Habitabilité"
+        ],
+        "image_search_string": "temperate ecosystem",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les écosystèmes des régions polaires sont adaptés aux conditions extrêmes. On y trouve des animaux comme les ours polaires et des plantes comme la mousse.",
+        "title": "Écosystèmes polaires",
+        "themes": [
+          "Écosystèmes polaires",
+          "Adaptations extrêmes"
+        ],
+        "image_search_string": "polar ecosystem",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les humains adaptent leurs activités aux zones climatiques. Par exemple, les cultures agricoles diffèrent selon le climat, et les constructions tiennent compte des conditions météorologiques locales.",
+        "title": "Impact des climats sur les humains",
+        "themes": [
+          "Impact des climats sur les humains"
+        ],
+        "image_search_string": "human activity climate",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les changements climatiques affectent les zones climatiques, modifiant les précipitations et les températures, et impactant les écosystèmes et les populations humaines.",
+        "title": "Les changements climatiques et leurs impacts",
+        "themes": [
+          "Changements climatiques",
+          "Effets sur les zones climatiques"
         ],
         "image_search_string": "climate change effects",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Comprendre les climats nous aide à mieux protéger notre planète. Nous pouvons adapter nos modes de vie pour réduire notre impact et préserver les écosystèmes.",
-        "title": "L'importance de comprendre les climats",
+        "content": "Comprendre les zones climatiques nous aide à mieux gérer les ressources naturelles et à nous adapter aux changements climatiques, protégeant ainsi notre planète.",
+        "title": "Conclusion et importance",
         "themes": [
-          "importance de comprendre les climats"
+          "Importance de comprendre les climats"
         ],
-        "image_search_string": "climate protection",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Nous avons exploré les zones climatiques principales, leurs caractéristiques, et leur impact sur la vie sur Terre. Continuez à réfléchir à la manière dont le climat influence votre quotidien.",
-        "title": "Résumé et réflexion",
-        "themes": [
-          "résumé des zones climatiques"
-        ],
-        "image_search_string": "earth climate overview",
+        "image_search_string": "earth protection",
         "question_types": [
           "ShortForm",
           "Match"

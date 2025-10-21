@@ -1,14 +1,14 @@
 {
   "request": {
-    "lesson_description": "What is Artificial Intelligence (AI)? Introduction to the concept of AI, its types, and real-world applications.",
+    "lesson_description": "What is Artificial Intelligence (AI)? Understanding its definition, types, and real-world applications.",
     "exercises_ratio": 0.2,
-    "grade_level": "8th grade",
-    "estimated_length": 10,
-    "learning_standard": "",
+    "grade_level": "9th grade",
+    "estimated_length": 15,
+    "learning_standard": "Next Generation Science Standards (NGSS): HS-ETS1-4 - Use a computer simulation to model the impact of proposed solutions to complex real-world problems.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "45ef6f74",
+    "request_id": "83afd25c",
     "topicInEnglish": "What is AI",
     "generationLanguage": "de-DE"
   },
@@ -16,10 +16,10 @@
     "title": "Einführung in Künstliche Intelligenz (KI)",
     "slides": [
       {
-        "content": "Willkommen in der faszinierenden Welt der Künstlichen Intelligenz (KI)! Heute werden wir entdecken, was KI ist, welche Arten es gibt und wie sie in unserem Alltag verwendet wird. 🚀",
-        "title": "Einführung in die Künstliche Intelligenz",
+        "content": "Hallo, und willkommen zu unserem spannenden Thema: Künstliche Intelligenz (KI)! 🌟 Heute werden wir entdecken, was KI ist, welche Arten es gibt und wie sie unser tägliches Leben beeinflusst. Mach dich bereit, in die Welt der Technologie einzutauchen!",
+        "title": "Einleitung: Willkommen zur KI",
         "themes": [
-          "Begrüßung zur KI"
+          "Einführung in KI"
         ],
         "image_search_string": "artificial intelligence concept",
         "question_types": [
@@ -27,21 +27,23 @@
         ]
       },
       {
-        "content": "Künstliche Intelligenz (KI) bezieht sich auf Maschinen oder Computerprogramme, die Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern, wie Lernen, Problemlösen oder Sprache verstehen.",
+        "content": "Künstliche Intelligenz (KI) ist ein Bereich der Informatik, der sich mit der Entwicklung von Systemen beschäftigt, die Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern. Dazu gehören Lernen, Problemlösen, Wahrnehmung und Sprachverarbeitung.",
         "title": "Was ist Künstliche Intelligenz?",
         "themes": [
           "Definition von KI"
         ],
-        "image_search_string": "AI definition concept",
+        "image_search_string": "definition of artificial intelligence",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match"
         ]
       },
       {
-        "content": "Es gibt drei Hauptarten von KI:\n\n1. **Schwache KI**: Sie ist auf spezifische Aufgaben spezialisiert, wie Sprachassistenten (z. B. Alexa).\n2. **Starke KI**: Diese Art von KI könnte theoretisch jede intellektuelle Aufgabe erledigen, die ein Mensch lösen kann. (Noch in Entwicklung.)\n3. **Superintelligenz**: Eine hypothetische KI, die weit über menschliche Fähigkeiten hinausgeht.",
+        "content": "Es gibt drei Haupttypen von KI:\n\n1. **Schwache KI**: Systeme, die auf spezifische Aufgaben spezialisiert sind, wie Sprachassistenten.\n2. **Starke KI**: Hypothetische Systeme, die über umfassende Intelligenz wie ein Mensch verfügen könnten.\n3. **Superintelligenz**: Eine theoretische Stufe, bei der KI die menschliche Intelligenz übertrifft.",
         "title": "Arten von Künstlicher Intelligenz",
         "themes": [
-          "Arten der KI"
+          "Typen von KI",
+          "Schwache und starke KI"
         ],
         "image_search_string": "types of artificial intelligence",
         "question_types": [
@@ -50,64 +52,112 @@
         ]
       },
       {
-        "content": "KI verwendet verschiedene Techniken, um zu lernen und zu arbeiten, darunter:\n\n- **Maschinelles Lernen**: Algorithmen lernen aus Daten.\n- **Neuronale Netze**: Inspiriert von der Struktur des menschlichen Gehirns.\n- **Natürliche Sprachverarbeitung (NLP)**: Ermöglicht Computern, Sprache zu verstehen und zu generieren.",
-        "title": "Wie funktioniert KI?",
+        "content": "KI wird in vielen Bereichen des täglichen Lebens eingesetzt, darunter:\n\n- **Gesundheitswesen**: Diagnose und Behandlung von Krankheiten.\n- **Verkehr**: Autonomes Fahren.\n- **Unterhaltung**: Empfehlungssysteme für Filme und Musik.\n- **Bildung**: Individuelle Lernprogramme.",
+        "title": "Anwendungen von KI",
         "themes": [
-          "Techniken der KI"
+          "KI Anwendungen"
         ],
-        "image_search_string": "how artificial intelligence works",
+        "image_search_string": "artificial intelligence applications",
         "question_types": [
           "ShortForm",
-          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "KI wird in vielen Bereichen unseres Lebens verwendet, wie:\n\n- **Gesundheit**: Diagnose von Krankheiten.\n- **Verkehr**: Selbstfahrende Autos.\n- **Unterhaltung**: Empfehlungsalgorithmen auf Plattformen wie Netflix.\n- **Bildung**: Personalisierte Lernplattformen.",
-        "title": "Anwendungen von KI im Alltag",
+        "content": "Ein zentraler Aspekt der KI ist das maschinelle Lernen. Dabei handelt es sich um Algorithmen, die aus Daten lernen und sich an neue Informationen anpassen können, ohne explizit programmiert zu sein.",
+        "title": "Maschinelles Lernen",
         "themes": [
-          "Anwendungen der KI"
+          "Einführung in maschinelles Lernen"
         ],
-        "image_search_string": "AI applications in daily life",
+        "image_search_string": "machine learning concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Die Entwicklung von KI hat viele Vorteile, wie:\n\n- **Effizienz**: Automatisierung von Routineaufgaben.\n- **Genauigkeit**: Weniger Fehler durch präzise Datenanalyse.\n- **Innovation**: Ermöglicht neue Technologien und Entdeckungen.\n\nJedoch gibt es auch Herausforderungen:\n\n- **Ethik**: Datenschutz und Missbrauch.\n- **Arbeitsmarkt**: Automatisierung könnte Arbeitsplätze ersetzen.",
-        "title": "Vorteile und Herausforderungen von KI",
+        "content": "Neuronale Netze sind ein wesentlicher Bestandteil des maschinellen Lernens. Sie sind inspiriert von der Struktur des menschlichen Gehirns und bestehen aus Knoten (Neuronen), die miteinander verbunden sind, um Daten zu verarbeiten.",
+        "title": "Neuronale Netze",
+        "themes": [
+          "Grundlagen neuronaler Netze"
+        ],
+        "image_search_string": "neural network diagram",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Ein Schlüsselbereich der KI ist die Verarbeitung natürlicher Sprache (Natural Language Processing, NLP). Dies ermöglicht Computern, menschliche Sprache zu verstehen, zu interpretieren und zu generieren.",
+        "title": "Verarbeitung natürlicher Sprache",
+        "themes": [
+          "Einführung in NLP"
+        ],
+        "image_search_string": "natural language processing",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "KI kann sowohl Vorteile als auch Herausforderungen mit sich bringen. Vorteile sind Effizienzsteigerungen und Innovationen, während Herausforderungen ethische Fragen und Arbeitsplatzverluste umfassen können.",
+        "title": "Vor- und Nachteile von KI",
         "themes": [
           "Vorteile von KI",
           "Herausforderungen durch KI"
         ],
-        "image_search_string": "AI advantages and challenges",
+        "image_search_string": "advantages and disadvantages chart",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Für die Zukunft der KI gibt es viele Möglichkeiten:\n\n- **Verbesserte Technologien**: Noch intelligentere Systeme.\n- **Mensch-Maschine-Kooperation**: Zusammenarbeit zwischen KI und Menschen.\n- **Gesellschaftliche Auswirkungen**: Neue Regeln und Gesetze, um KI verantwortungsvoll zu nutzen.",
-        "title": "Die Zukunft der KI",
+        "content": "Ethische Überlegungen sind ein wichtiger Aspekt der KI. Dazu gehören Themen wie Datenschutz, Bias in Algorithmen und die Verantwortung für KI-Entscheidungen.",
+        "title": "Ethische Aspekte der KI",
         "themes": [
-          "Zukunft der KI"
+          "Ethik in der KI"
         ],
-        "image_search_string": "future of artificial intelligence",
+        "image_search_string": "ethics in artificial intelligence",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "KI-Systeme können auch verwendet werden, um komplexe Probleme zu modellieren, wie Klimawandel oder Verkehrsfluss. Sie simulieren mögliche Lösungen und deren Auswirkungen.",
+        "title": "KI zur Problemlösung",
+        "themes": [
+          "KI zur Modellierung"
+        ],
+        "image_search_string": "AI solving problems",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "Zusammenfassend ist KI eine spannende Technologie, die unser Leben bereits verändert hat und weiter verändern wird. Sie bietet viele Möglichkeiten, bringt aber auch Verantwortung mit sich. 🌐",
-        "title": "Zusammenfassung",
+        "content": "Ein Beispiel für KI in der Praxis ist die Verwendung von KI in medizinischen Diagnosesystemen. Diese Systeme analysieren Patientendaten, um Krankheiten frühzeitig zu erkennen.",
+        "title": "Fallbeispiel: KI in der Medizin",
         "themes": [
-          "Zusammenfassung zu KI"
+          "KI in der Medizin"
         ],
-        "image_search_string": "artificial intelligence summary",
+        "image_search_string": "AI in healthcare",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Zusammenfassend ist KI ein spannendes und vielseitiges Feld mit vielen Anwendungsmöglichkeiten. Es ist wichtig, KI verantwortungsvoll zu nutzen, um ihre Vorteile zu maximieren und mögliche Risiken zu minimieren.",
+        "title": "Zusammenfassung und Ausblick",
+        "themes": [
+          "Zusammenfassung KI"
+        ],
+        "image_search_string": "artificial intelligence overview",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
         ]
       }
     ],

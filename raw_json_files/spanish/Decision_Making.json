@@ -1,67 +1,100 @@
 {
   "request": {
-    "lesson_description": "Understanding decision making: Exploring factors that influence choices, analyzing outcomes, and applying decision-making models.",
-    "exercises_ratio": 0.8,
-    "grade_level": "8th grade",
+    "lesson_description": "Decision Making: Understanding the process, identifying factors, and evaluating outcomes, with a focus on real-world applications such as personal choices, career planning, and ethical dilemmas.",
+    "exercises_ratio": 0.4,
+    "grade_level": "9th grade",
     "estimated_length": 20,
-    "learning_standard": "Next Generation Science Standards (NGSS): MS-ETS1-1 - Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution.",
-    "additional_guidance": "Focus on aspects such as real-world scenarios, ethical considerations, and the role of critical thinking in decision making. Include examples from daily life to illustrate concepts.",
+    "learning_standard": "CCSS.ELA-LITERACY.RI.9-10.7: Analyze various accounts of a subject told in different mediums, determining which details are emphasized in each account.",
+    "additional_guidance": "Include real-world examples of decision-making scenarios, emphasize critical thinking skills, and explore strategies for weighing pros and cons effectively.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "bf03781c",
+    "request_id": "0afda242",
     "topicInEnglish": "Decision Making",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Entendiendo la toma de decisiones",
+    "title": "Decision Making: Process, Factors, and Outcomes",
     "slides": [
       {
-        "content": "¡Bienvenidos a una fascinante exploración sobre cómo tomamos decisiones! En esta lección, descubriremos los factores que influyen en nuestras elecciones y cómo podemos usar modelos para tomar decisiones más informadas. 🌟",
+        "content": "¡Bienvenidos a esta lección sobre la toma de decisiones! Hoy aprenderemos cómo entender el proceso de tomar decisiones, identificar los factores que influyen en ellas y evaluar los resultados. 🌟",
         "title": "Introducción a la toma de decisiones",
         "themes": [
-          "Introducción a la toma de decisiones"
+          "introducción a la toma de decisiones"
         ],
-        "image_search_string": "tomar decisiones",
+        "image_search_string": "decision making process",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las decisiones que tomamos están influenciadas por diversos factores. Algunos de ellos incluyen:\n\n- **Factores personales**: como nuestras emociones, valores y experiencias previas.\n- **Factores sociales**: como la opinión de amigos, familia o la sociedad.\n- **Factores contextuales**: como el tiempo disponible o los recursos con los que contamos.\n\nEntender estos elementos es clave para analizar nuestras elecciones.",
-        "title": "Factores que influyen en las decisiones",
+        "content": "La toma de decisiones es el proceso de elegir entre varias opciones para alcanzar un objetivo o resolver un problema. Este proceso es fundamental en nuestra vida diaria, desde decisiones simples como qué comer, hasta decisiones complejas como elegir una carrera.",
+        "title": "¿Qué es la toma de decisiones?",
         "themes": [
-          "Factores personales en decisiones",
-          "Factores sociales en elecciones"
+          "definición de toma de decisiones"
         ],
-        "image_search_string": "factores de decisiones",
+        "image_search_string": "decision making concept",
         "question_types": [
-          "ShortForm",
-          "Grouping"
+          "ShortForm"
         ]
       },
       {
-        "content": "Para tomar decisiones más efectivas, podemos usar modelos de toma de decisiones. Uno de los más comunes es el modelo de los pasos básicos:\n\n1. Identificar el problema o situación.\n2. Explorar posibles opciones.\n3. Evaluar las ventajas y desventajas de cada opción.\n4. Tomar una decisión basada en la mejor opción.\n5. Reflexionar sobre los resultados para aprender para el futuro.",
-        "title": "Modelo básico de toma de decisiones",
+        "content": "1. Identificar el problema o la decisión a tomar. \n2. Recopilar información relevante. \n3. Evaluar las posibles opciones. \n4. Elegir la mejor opción. \n5. Implementar la decisión. \n6. Evaluar los resultados.",
+        "title": "Pasos en el proceso de toma de decisiones",
         "themes": [
-          "Pasos en la toma de decisiones"
+          "pasos en la toma de decisiones"
         ],
-        "image_search_string": "proceso de decisiones",
+        "image_search_string": "steps decision making",
         "question_types": [
-          "ShortForm",
-          "Sort"
+          "Sort",
+          "ShortForm"
         ]
       },
       {
-        "content": "Tomemos un ejemplo cotidiano: decidir qué hacer con una tarde libre.\n\n1. **Identificar el problema**: Tienes una tarde libre.\n2. **Explorar opciones**: Salir con amigos, leer un libro o practicar deporte.\n3. **Evaluar opciones**: Salir con amigos puede ser divertido, leer puede ser relajante, y practicar deporte es bueno para la salud.\n4. **Tomar una decisión**: Optas por practicar deporte.\n5. **Reflexionar**: Te sientes bien por haber hecho una elección saludable y piensas en cómo equilibrar actividades en el futuro.",
-        "title": "Ejemplo de toma de decisiones",
+        "content": "Factores internos como emociones, valores, y experiencias personales pueden influir en nuestras decisiones. También hay factores externos como la presión social, la cultura, y las circunstancias económicas.",
+        "title": "Factores que influyen en nuestras decisiones",
         "themes": [
-          "Ejemplo de decisión diaria"
+          "factores internos y externos en decisiones"
         ],
-        "image_search_string": "decisión diaria ejemplo",
+        "image_search_string": "decision influencing factors",
+        "question_types": [
+          "Grouping",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Al tomar decisiones, es útil hacer una lista de pros y contras para cada opción. Este método nos ayuda a visualizar las ventajas y desventajas, facilitando una elección más informada.",
+        "title": "Uso de una lista de pros y contras",
+        "themes": [
+          "método de pros y contras"
+        ],
+        "image_search_string": "pros and cons list",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
+        ]
+      },
+      {
+        "content": "Imagina que estás eligiendo entre dos carreras universitarias. Considera factores como tus intereses, habilidades, oportunidades laborales y costos. Al analizar estos elementos, puedes tomar una decisión más acertada.",
+        "title": "Ejemplo práctico: Elección de carrera",
+        "themes": [
+          "ejemplo de toma de decisiones"
+        ],
+        "image_search_string": "career choice decision",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Reflexionar sobre decisiones pasadas, tanto exitosas como fallidas, nos ayuda a aprender y mejorar nuestras habilidades de toma de decisiones. Identifica qué funcionó y qué no.",
+        "title": "Aprender de decisiones pasadas",
+        "themes": [
+          "reflexión sobre decisiones pasadas"
+        ],
+        "image_search_string": "learning from decisions",
+        "question_types": [
+          "ShortForm",
+          "Match"
         ]
       }
     ],

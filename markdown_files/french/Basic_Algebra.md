@@ -1,64 +1,65 @@
-# Lesson name: Introduction to Basic Algebra
+# Lesson name: Introduction à l'Algèbre de Base : Les Variables, Expressions et Équations
 
 ## Intro
 
-### Bienvenue à l'Algèbre
+### Introduction à l'algèbre
 
-Bienvenue dans le monde fascinant de l'algèbre ! Aujourd'hui, nous allons explorer les bases : les variables, les expressions et les équations simples. Préparez-vous à découvrir comment les mathématiques peuvent vous aider à résoudre des problèmes et à comprendre le monde qui vous entoure ! ✨
+Bienvenue dans le monde fascinant de l'algèbre ! Aujourd'hui, nous allons explorer des concepts essentiels tels que les variables, les expressions et les équations. Préparez-vous à découvrir comment ces outils mathématiques peuvent résoudre des problèmes du quotidien ! 😊
 
 #### **Themes:**
-- introduction to algebra
+- introduction à l'algèbre
+
+## Content slide
+
+### Qu'est-ce que l'algèbre ?
+
+L'algèbre est une branche des mathématiques qui utilise des symboles, souvent des lettres, pour représenter des nombres ou des quantités inconnues. Ces symboles, appelés variables, permettent de généraliser des problèmes et de trouver des solutions.
+
+#### **Themes:**
+- définition de l'algèbre
 
 ## Content slide
 
 ### Qu'est-ce qu'une variable ?
 
-Une variable est un symbole, généralement une lettre, qui représente un nombre inconnu ou changeant. Par exemple, dans l'expression "x + 3", la lettre "x" est une variable. Les variables sont essentielles en algèbre car elles nous permettent de travailler avec des nombres inconnus ou de généraliser des problèmes.
+En algèbre, une variable est un symbole, généralement une lettre comme x ou y, qui représente un nombre ou une quantité inconnue. Par exemple, dans l'équation x + 3 = 7, x est la variable.
 
 #### **Themes:**
-- definition of variables
+- concept de variable
 
 ## Content slide
 
 ### Les expressions algébriques
 
-Une expression algébrique est une combinaison de nombres, de variables et d'opérations (comme l'addition, la soustraction, la multiplication et la division). Par exemple, "2x + 5" est une expression algébrique composée de la variable "x", du coefficient 2, et du nombre 5.
+Une expression algébrique est une combinaison de variables, de nombres et d'opérations. Par exemple, 2x + 5 est une expression où 2x représente le produit de 2 et x, et 5 est un terme constant.
 
 #### **Themes:**
-- algebraic expressions
+- définition d'expression algébrique
 
 ## Content slide
 
 ### Qu'est-ce qu'une équation ?
 
-Une équation est une déclaration mathématique indiquant que deux expressions sont égales. Par exemple, "2x + 3 = 7" est une équation. Résoudre une équation signifie trouver la valeur de la variable qui rend l'égalité vraie.
+Une équation est une déclaration mathématique indiquant que deux expressions sont égales. Par exemple, 3x + 2 = 11 est une équation où les deux côtés de l'égalité doivent être équivalents.
 
 #### **Themes:**
-- definition of equations
+- définition d'une équation
 
 ## Content slide
 
-### Comment résoudre une équation simple
+### Résolution d'une équation simple
 
-Pour résoudre une équation simple comme "x + 3 = 7", vous devez isoler la variable. Dans cet exemple, on soustrait 3 des deux côtés de l'équation pour obtenir "x = 4". Cette méthode est appelée l'équilibrage, car on effectue la même opération des deux côtés.
+Pour résoudre une équation, on cherche la valeur de la variable qui rend l'égalité vraie. Par exemple, résoudre x + 3 = 7 consiste à trouver x = 4.
 
 #### **Themes:**
-- solving simple equations
+- résolution d'équations simples
 
 ## Content slide
 
-### Applications pratiques de l'algèbre
+### Applications des expressions algébriques
 
-Les variables et les équations peuvent être utilisées pour résoudre des problèmes quotidiens. Par exemple, si un billet de cinéma coûte 10 € et que vous avez 50 €, combien de billets pouvez-vous acheter ? On peut écrire une équation comme "10x = 50" pour trouver la réponse.
-
-#### **Themes:**
-- real-life algebra applications
-
-## Content slide
-
-### Résumé de la leçon
-
-Récapitulons ce que nous avons appris : les variables sont des symboles représentant des nombres inconnus, les expressions sont des combinaisons de variables avec des opérations, et les équations montrent l'égalité entre deux expressions. Résoudre des équations nous aide à répondre à des questions pratiques.
+Les expressions algébriques peuvent être utilisées pour modéliser des situations réelles, comme calculer le coût total d'un achat ou la distance parcourue en fonction du temps.
 
 #### **Themes:**
-- summary of basic algebra
+- applications des expressions
+- modélisation algébrique

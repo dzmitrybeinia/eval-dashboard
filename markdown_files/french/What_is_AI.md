@@ -2,59 +2,46 @@
 
 ## Intro
 
-### Introduction à l'IA
+### Introduction à l'Intelligence Artificielle (IA)
 
-Bienvenue dans le monde fascinant de l'intelligence artificielle (IA) ! Aujourd'hui, nous allons découvrir ce qu'est l'IA, ses différents types et ses applications dans notre quotidien. Préparez-vous à explorer une des technologies les plus influentes de notre époque ! 🤖
+Bienvenue dans ce voyage fascinant à travers le monde de l'intelligence artificielle (IA). Nous allons découvrir ce qu'est l'IA, ses différents types et comment elle est utilisée dans notre quotidien. 🤖
 
 #### **Themes:**
-- introduction à l'intelligence artificielle
+- introduction to AI
 
 ## Content slide
 
 ### Qu'est-ce que l'IA ?
 
-L'intelligence artificielle (IA) est une branche de l'informatique qui vise à créer des systèmes capables de simuler des comportements intelligents. Cela inclut la résolution de problèmes, l'apprentissage, la reconnaissance des formes et la prise de décisions. L'IA permet aux machines de "penser" et d'agir comme des humains, mais à une vitesse et une précision souvent supérieures.
+L'intelligence artificielle, ou IA, désigne la capacité des machines à simuler des comportements intelligents similaires à ceux des humains. Cela inclut des tâches comme apprendre, raisonner, résoudre des problèmes et comprendre le langage.
 
 #### **Themes:**
-- définition de l'intelligence artificielle
+- definition of AI
 
 ## Content slide
 
 ### Les types d'IA
 
-Il existe trois grands types d'intelligence artificielle :
+Il existe plusieurs types d'IA :
 
-1. **IA faible ou étroite** : Conçue pour effectuer une tâche spécifique, comme Siri ou Google Translate.
-2. **IA générale** : Une machine capable de réaliser n'importe quelle tâche intellectuelle qu'un humain peut accomplir (encore en développement).
-3. **Superintelligence** : Une IA plus avancée que l'intelligence humaine dans tous les domaines (actuellement théorique).
+1. **IA étroite (ou faible)** : Conçue pour accomplir une tâche spécifique, comme les assistants vocaux ou les applications de traduction.
+2. **IA générale** : Théorique, elle pourrait accomplir n'importe quelle tâche intellectuelle qu'un humain peut faire.
+3. **Superintelligence** : Hypothétique, elle surpasserait l'intelligence humaine dans tous les domaines.
 
 #### **Themes:**
-- types d'intelligence artificielle
+- types of AI
 
 ## Content slide
 
 ### Applications de l'IA
 
-L'IA est utilisée dans de nombreux domaines de notre vie quotidienne, tels que :
+L'IA est utilisée dans de nombreux domaines :
 
-- **Santé** : Diagnostic assisté par IA, analyse des radiographies.
+- **Médecine** : Diagnostic des maladies, recherche de médicaments.
 - **Transport** : Voitures autonomes.
-- **Technologie de la consommation** : Assistants vocaux, recommandations sur les plateformes de streaming.
-- **Commerce** : Prévisions de vente, personnalisation des publicités.
-- **Sécurité** : Reconnaissance faciale, détection des fraudes.
+- **Éducation** : Apprentissage personnalisé.
+- **Divertissement** : Recommandations de films et musiques.
+- **Environnement** : Surveillance des écosystèmes.
 
 #### **Themes:**
-- applications de l'intelligence artificielle
-
-## Content slide
-
-### Comment fonctionne l'IA
-
-L'IA fonctionne grâce à des algorithmes sophistiqués et des données massives. Voici les étapes principales :
-
-1. **Collecte de données** : Les machines collectent des informations à partir de diverses sources.
-2. **Traitement des données** : Les données sont analysées pour identifier des motifs et tendances.
-3. **Apprentissage** : Les machines utilisent des modèles mathématiques pour apprendre et améliorer leur performance au fil du temps.
-
-#### **Themes:**
-- fonctionnement de l'intelligence artificielle
+- AI applications

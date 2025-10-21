@@ -1,14 +1,14 @@
 {
   "request": {
-    "lesson_description": "Understanding Emotions and Feelings: Identifying and Expressing Basic Emotions.",
-    "exercises_ratio": 0.2,
-    "grade_level": "2nd grade",
-    "estimated_length": 15,
-    "learning_standard": "CASEL SEL Competencies: Self-Awareness - Recognizing emotions and their influence on behavior.",
-    "additional_guidance": "Focus on helping students recognize and label emotions, using relatable real-world examples and scenarios.",
+    "lesson_description": "Understanding emotions and feelings: Identifying and expressing emotions, the role of empathy, and managing emotional responses.",
+    "exercises_ratio": 0.7,
+    "grade_level": "5th grade",
+    "estimated_length": 10,
+    "learning_standard": "CASEL Framework for Social-Emotional Learning: Self-awareness and self-management competencies.",
+    "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "3562891e",
+    "request_id": "13857756",
     "topicInEnglish": "Emotions and Feelings",
     "generationLanguage": "es-ES"
   },
@@ -16,145 +16,53 @@
     "title": "Understanding Emotions and Feelings",
     "slides": [
       {
-        "content": "¡Bienvenidos a una emocionante aventura para aprender sobre nuestras emociones y sentimientos! Hoy exploraremos cómo reconocer y expresar lo que sentimos de una manera divertida y sencilla. 😊",
+        "content": "¡Bienvenidos, chicos y chicas! Hoy vamos a explorar algo muy importante para nuestra vida diaria: las emociones y los sentimientos. ¿Sabíais que entender nuestras emociones nos ayuda a conocernos mejor y a relacionarnos con los demás? 🌟",
         "title": "Introducción a las emociones",
         "themes": [
-          "introducción al tema"
+          "Introducción a las emociones"
         ],
-        "image_search_string": "niños felices y emocionados",
+        "image_search_string": "children emotions",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las emociones son reacciones que sentimos en nuestro cuerpo y mente. Nos ayudan a entender cómo nos afecta lo que pasa a nuestro alrededor. Por ejemplo, cuando alguien nos da un regalo, podemos sentir felicidad.",
+        "content": "Las emociones son respuestas que tenemos ante situaciones o pensamientos. Algunas emociones son alegría, tristeza, miedo, sorpresa, enojo y amor. Todas las emociones son válidas, y cada una nos da información sobre lo que sentimos y cómo reaccionamos ante el mundo.",
         "title": "¿Qué son las emociones?",
         "themes": [
-          "definición de emociones"
+          "Definición de emociones",
+          "Tipos de emociones"
         ],
-        "image_search_string": "niño feliz con regalo",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Hay muchas emociones, pero algunas de las básicas son:\n- Alegría: cuando nos sentimos contentos.\n- Tristeza: cuando algo nos pone melancólicos.\n- Miedo: cuando algo nos asusta.\n- Enojo: cuando algo nos molesta.",
-        "title": "Tipos básicos de emociones",
-        "themes": [
-          "emociones básicas",
-          "ejemplos de emociones"
-        ],
-        "image_search_string": "caras mostrando emociones",
-        "question_types": [
-          "ShortForm",
-          "Grouping",
-          "Match"
-        ]
-      },
-      {
-        "content": "Las emociones afectan cómo actuamos. Por ejemplo:\n- Cuando estamos felices, podemos sonreír y querer jugar.\n- Si estamos tristes, tal vez queramos estar solos o hablar con alguien.\n- Al sentir miedo, podemos buscar protección.",
-        "title": "¿Cómo influyen las emociones?",
-        "themes": [
-          "influencia de emociones en comportamiento"
-        ],
-        "image_search_string": "niño con diferentes expresiones",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Podemos reconocer emociones observando las expresiones faciales. Por ejemplo:\n- Una sonrisa suele indicar alegría.\n- Lágrimas pueden mostrar tristeza.\n- Ceño fruncido puede ser señal de enojo.",
-        "title": "Reconociendo emociones en los demás",
-        "themes": [
-          "interpretar expresiones faciales"
-        ],
-        "image_search_string": "características de expresiones faciales",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Es importante hablar sobre lo que sentimos. Decir \"me siento feliz\" o \"estoy triste\" ayuda a que los demás nos entiendan y sepan cómo apoyarnos.",
-        "title": "Expresar lo que sentimos",
-        "themes": [
-          "importancia de expresar emociones"
-        ],
-        "image_search_string": "niño hablando de emociones",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "A veces, hacer una pausa para respirar profundo puede ayudarnos a manejar emociones fuertes como el enojo o el miedo. Esto nos da tiempo para pensar antes de reaccionar.",
-        "title": "Manejando emociones fuertes",
-        "themes": [
-          "técnicas para manejar emociones"
-        ],
-        "image_search_string": "niño respirando profundamente",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Podemos usar palabras para describir nuestras emociones. Por ejemplo:\n- \"Estoy emocionado porque vamos al parque.\"\n- \"Me siento triste porque mi amigo no vino.\"\nPractiquemos usar frases como estas para expresar cómo nos sentimos.",
-        "title": "Usando palabras para describir emociones",
-        "themes": [
-          "práctica de vocabulario emocional"
-        ],
-        "image_search_string": "niños hablando entre sí",
+        "image_search_string": "basic emotions chart",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Hay situaciones que pueden causar emociones diferentes. Por ejemplo:\n- Ver un arcoíris puede hacernos felices.\n- Perder un juguete puede hacernos sentir tristes.\n- Una película de miedo puede causarnos miedo.",
-        "title": "Ejemplos de situaciones y emociones",
+        "content": "La empatía es la capacidad de entender y compartir los sentimientos de los demás. Por ejemplo, si un amigo está triste, podemos mostrar empatía escuchándolo y ofreciéndole apoyo. Ser empático nos ayuda a construir relaciones más fuertes y positivas.",
+        "title": "El papel de la empatía",
         "themes": [
-          "relación entre situaciones y emociones"
+          "Definición de empatía",
+          "Importancia de la empatía"
         ],
-        "image_search_string": "niños en diferentes situaciones",
+        "image_search_string": "empathy concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Las emociones no son malas ni buenas, simplemente nos ayudan a entendernos mejor. Lo importante es aprender a manejarlas de manera positiva.",
-        "title": "Entendiendo que todas las emociones son válidas",
+        "content": "Aprender a manejar nuestras emociones implica reconocer cómo nos sentimos y encontrar formas saludables de expresarlo. Por ejemplo, si estamos enojados, podemos respirar profundamente o hablar con alguien de confianza. Esto nos ayuda a evitar reacciones impulsivas y a tomar mejores decisiones.",
+        "title": "Manejar nuestras emociones",
         "themes": [
-          "aceptación de emociones"
+          "Técnicas de gestión emocional",
+          "Importancia de la autorregulación"
         ],
-        "image_search_string": "niño reflexionando tranquilo",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Practiquemos identificar y expresar emociones. Observa estas imágenes y di qué emoción ves. Luego, usa una frase para describir cómo se siente el personaje.",
-        "title": "Práctica de identificación y expresión",
-        "themes": [
-          "práctica de identificación de emociones"
-        ],
-        "image_search_string": "imágenes de niños con emociones",
+        "image_search_string": "emotional regulation strategies",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "¡Hemos aprendido mucho sobre nuestras emociones! Ahora sabemos cómo reconocerlas, expresarlas y manejarlas. ¡Sigamos practicando para ser más conscientes de lo que sentimos!",
-        "title": "Resumen y cierre",
-        "themes": [
-          "resumen de la lección"
-        ],
-        "image_search_string": "niños celebrando juntos",
-        "question_types": [
-          "ShortForm"
+          "Sort"
         ]
       }
     ],

@@ -1,136 +1,91 @@
 {
   "request": {
-    "lesson_description": "Friendship Skills: Understanding empathy, effective communication, and conflict resolution.",
-    "exercises_ratio": 0.6,
+    "lesson_description": "Understanding and practicing friendship skills: empathy, active listening, conflict resolution, and cooperation.",
+    "exercises_ratio": 0.4,
     "grade_level": "5th grade",
-    "estimated_length": 25,
-    "learning_standard": "CASEL's SEL Framework: Social Awareness and Relationship Skills, aligned with Common Core State Standards for Speaking and Listening (CCSS.ELA-LITERACY.SL.5.1).",
-    "additional_guidance": "",
+    "estimated_length": 10,
+    "learning_standard": "CASEL Framework: Social and Emotional Learning (SEL) Competencies - Relationship Skills.",
+    "additional_guidance": "Focus on real-world examples such as resolving disagreements during group projects or listening to a friend’s concerns. Emphasize the importance of building trust and mutual respect.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "9c3c4ded",
+    "request_id": "080c1be4",
     "topicInEnglish": "Friendship Skills",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Habilidades de Amistad: Empatía, Comunicación y Resolución de Conflictos",
+    "title": "Habilidades de Amistad y Relaciones Positivas",
     "slides": [
       {
-        "content": "¡Hola, estudiantes! Hoy vamos a explorar cómo ser amigos increíbles aprendiendo sobre empatía, comunicación efectiva y cómo resolver conflictos de manera positiva. 🌟 ¡Prepárense para descubrir habilidades que les ayudarán a construir y mantener amistades fuertes y saludables!",
-        "title": "Introducción a las habilidades de amistad",
+        "content": "¡Bienvenidos! Hoy exploraremos habilidades importantes para construir y mantener amistades saludables 🤝. Estas habilidades nos ayudan a entender a los demás, resolver problemas y trabajar juntos de manera efectiva.",
+        "title": "Introducción a las Habilidades de Amistad",
         "themes": [
-          "introducción a la amistad"
+          "Introducción a habilidades de amistad"
         ],
-        "image_search_string": "niños siendo amigos",
+        "image_search_string": "friendship skills",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La empatía es la habilidad de entender y compartir los sentimientos de los demás. Significa ponerse en el lugar del otro para comprender cómo se siente. Por ejemplo, si un amigo está triste porque perdió su juguete favorito, sentir empatía es intentar comprender su tristeza y apoyarlo.",
-        "title": "¿Qué es la empatía?",
+        "content": "La empatía es la capacidad de ponerse en el lugar de otra persona y sentir lo que ella siente. Nos ayuda a comprender mejor a nuestros amigos y a responder de manera considerada. Por ejemplo, si un amigo está triste porque perdió un partido, mostrar empatía sería decir: \"Entiendo que te sientas mal, pero hiciste un gran esfuerzo\".",
+        "title": "¿Qué es la Empatía?",
         "themes": [
-          "definición de empatía"
+          "Definición y ejemplo de empatía"
         ],
-        "image_search_string": "empatía entre niños",
+        "image_search_string": "empathy concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La empatía se puede mostrar escuchando con atención, ofreciendo palabras de apoyo, o simplemente estando ahí para alguien. Por ejemplo, si un amigo está nervioso antes de un examen, puedes decirle: \"Sé que puedes hacerlo, confío en ti\".",
-        "title": "Cómo mostrar empatía",
+        "content": "Escuchar activamente significa prestar atención a lo que alguien dice sin interrumpir, mostrando interés con gestos como asentir o hacer preguntas. Esto demuestra a la otra persona que sus palabras son importantes. Por ejemplo, si un amigo cuenta un problema, puedes escuchar atentamente y luego preguntar: \"¿Cómo te sientes al respecto?\"",
+        "title": "La Importancia de Escuchar Activamente",
         "themes": [
-          "formas de mostrar empatía"
+          "Definición y práctica de la escucha activa"
         ],
-        "image_search_string": "niño consolando a amigo",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La comunicación efectiva es clave para una buena amistad. Esto incluye hablar con claridad, escuchar activamente, y expresar tus sentimientos y pensamientos de manera respetuosa. Un buen comunicador también se asegura de entender antes de responder.",
-        "title": "¿Qué es la comunicación efectiva?",
-        "themes": [
-          "definición de comunicación efectiva"
-        ],
-        "image_search_string": "niños hablando y escuchando",
+        "image_search_string": "active listening",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para mejorar la comunicación, intenta hacer contacto visual, usar un tono de voz amable y preguntar si no entiendes algo. Por ejemplo, si un amigo parece molesto, podrías preguntarle: \"¿Estás bien? ¿Quieres hablar de ello?\"",
-        "title": "Consejos para mejorar la comunicación",
+        "content": "Resolver conflictos implica encontrar soluciones justas para ambas partes. Un buen enfoque es hablar con calma, escuchar a la otra persona y buscar compromisos. Por ejemplo, si dos amigos quieren el mismo lugar en un proyecto grupal, pueden turnarse o decidir juntos cómo colaborar.",
+        "title": "Resolver Conflictos de Manera Positiva",
         "themes": [
-          "mejorar la comunicación"
+          "Métodos para resolver conflictos"
         ],
-        "image_search_string": "niños comunicándose",
+        "image_search_string": "conflict resolution",
         "question_types": [
           "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Los conflictos son normales en las amistades, pero resolverlos de manera positiva es importante. Esto significa hablar sobre el problema, escuchar el punto de vista del otro, y buscar una solución que funcione para ambos.",
-        "title": "¿Qué es la resolución de conflictos?",
-        "themes": [
-          "definición de resolución de conflictos"
-        ],
-        "image_search_string": "niños resolviendo un conflicto",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Para resolver un conflicto, sigue estos pasos: 1. Mantén la calma. 2. Expresa cómo te sientes. 3. Escucha al otro sin interrumpir. 4. Trabajen juntos para encontrar una solución. Por ejemplo, si ambos quieren el mismo juguete, podrían turnarse para usarlo.",
-        "title": "Pasos para resolver un conflicto",
-        "themes": [
-          "pasos para resolución de conflictos"
-        ],
-        "image_search_string": "niños compartiendo juguete",
-        "question_types": [
-          "ShortForm",
+          "Match",
           "Sort"
         ]
       },
       {
-        "content": "La empatía y la comunicación son esenciales para resolver conflictos. Al escuchar con empatía y hablar con respeto, es más fácil llegar a un acuerdo y mantener la amistad fuerte.",
-        "title": "Empatía y comunicación en los conflictos",
+        "content": "La cooperación es trabajar juntos para alcanzar un objetivo común. Esto requiere comunicación, respeto mutuo y disposición para ayudar. Por ejemplo, en un proyecto grupal, cada miembro puede asumir una tarea diferente para completar el trabajo más rápido.",
+        "title": "Trabajando Juntos: La Cooperación",
         "themes": [
-          "empatía y comunicación en conflictos"
+          "Definición y ejemplos de cooperación"
         ],
-        "image_search_string": "niños reconciliándose",
+        "image_search_string": "teamwork cooperation",
         "question_types": [
           "ShortForm",
+          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Practicar las habilidades de amistad puede ser divertido. Intenta juegos de roles donde simules conflictos y los resuelvas, o actividades donde trabajes en equipo para lograr un objetivo común.",
-        "title": "Practicando habilidades de amistad",
+        "content": "Construir confianza y respeto mutuo es esencial para relaciones fuertes. Esto significa ser honesto, cumplir con las promesas y tratar a los demás con amabilidad. Por ejemplo, si prometes ayudar a un amigo con su tarea, cumplir con tu palabra fortalece la confianza.",
+        "title": "Confianza y Respeto Mutuo",
         "themes": [
-          "práctica de habilidades de amistad"
+          "Importancia de la confianza en las relaciones"
         ],
-        "image_search_string": "niños jugando juntos",
+        "image_search_string": "trust and respect",
         "question_types": [
           "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las habilidades de amistad como la empatía, la comunicación efectiva y la resolución de conflictos son esenciales para relaciones saludables. Sigamos practicando estas habilidades cada día para ser mejores amigos.",
-        "title": "Conclusión: La importancia de las habilidades de amistad",
-        "themes": [
-          "importancia de habilidades de amistad"
-        ],
-        "image_search_string": "niños felices juntos",
-        "question_types": [
-          "ShortForm"
+          "Match"
         ]
       }
     ],

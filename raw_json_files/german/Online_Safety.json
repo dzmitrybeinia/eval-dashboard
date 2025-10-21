@@ -1,163 +1,67 @@
 {
   "request": {
-    "lesson_description": "Online safety basics: Understanding cyber threats, creating strong passwords, and recognizing phishing attempts.",
-    "exercises_ratio": 0.5,
-    "grade_level": "6th grade",
-    "estimated_length": 25,
-    "learning_standard": "ISTE Standards for Students: 2b - Students engage in positive, safe, legal, and ethical behavior when using technology, including social interactions online or when using networked devices.",
-    "additional_guidance": "",
+    "lesson_description": "Understanding Online Safety: Protecting Personal Information and Avoiding Cyber Threats.",
+    "exercises_ratio": 0.8,
+    "grade_level": "7th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "Focus on real-world examples such as recognizing phishing emails, understanding password security, and the importance of privacy settings on social media platforms.",
     "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "ccc5b3ff",
+    "request_id": "e03a4564",
     "topicInEnglish": "Online Safety",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Online Safety Basics",
+    "title": "Online-Sicherheit verstehen: Schutz persönlicher Daten und Vermeidung von Cyber-Bedrohungen",
     "slides": [
       {
-        "content": "Das Internet ist ein spannender Ort voller Informationen und Möglichkeiten 🌐. Aber wusstest du, dass es auch Risiken gibt? In dieser Lektion lernst du, wie du sicher im Internet unterwegs bist und dich vor Cyber-Bedrohungen schützt.",
-        "title": "Einleitung: Sicher im Internet",
+        "content": "Willkommen zu unserem spannenden Thema der Online-Sicherheit! 🌐 Heute lernen wir, wie wir unsere persönlichen Informationen schützen und uns vor Cyber-Bedrohungen schützen können. Machen wir uns bereit, gemeinsam die digitale Welt sicherer zu machen!",
+        "title": "Einleitung in die Online-Sicherheit",
         "themes": [
-          "Bedeutung der Internetsicherheit"
+          "Einführung in Online-Sicherheit"
         ],
-        "image_search_string": "online safety illustration",
+        "image_search_string": "online safety concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Cyber-Bedrohungen sind Gefahren, die online auf dich lauern können. Dazu gehören: \n\n- **Viren und Malware**: Programme, die deinen Computer beschädigen können.\n- **Phishing**: Betrugsversuche, bei denen jemand deine persönlichen Daten stehlen will.\n- **Cyber-Mobbing**: Gemeine oder verletzende Kommentare online.\n\nEs ist wichtig, diese Bedrohungen zu erkennen, um dich zu schützen.",
-        "title": "Was sind Cyber-Bedrohungen?",
+        "content": "Phishing ist eine Methode, bei der Betrüger versuchen, an persönliche Informationen wie Passwörter oder Kreditkartendaten zu gelangen. Sie tun dies oft durch täuschend echte E-Mails oder Nachrichten, die von vertrauenswürdigen Quellen zu stammen scheinen. Achten Sie auf verdächtige Links, Rechtschreibfehler und ungewöhnliche Aufforderungen.",
+        "title": "Was ist Phishing?",
         "themes": [
-          "Arten von Cyber-Bedrohungen"
+          "Phishing erkennen"
         ],
-        "image_search_string": "cyber threats examples",
+        "image_search_string": "phishing email example",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Ein sicheres Passwort ist der erste Schritt, um deine Online-Konten zu schützen. Hier sind Tipps für ein starkes Passwort:\n\n- **Lang und einzigartig**: Mindestens 12 Zeichen.\n- **Kombination aus Buchstaben, Zahlen und Symbolen**.\n- **Kein persönlicher Bezug**: Vermeide Namen oder Geburtsdaten.\n- **Verwende einen Passwort-Manager**: Um Passwörter sicher zu speichern.",
+        "content": "Ein starkes Passwort ist der erste Schritt zu einem sicheren Konto. Verwenden Sie mindestens 12 Zeichen, eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen. Vermeiden Sie leicht zu erratende Wörter wie Ihren Namen oder Geburtstage. Verwenden Sie für jedes Konto ein einzigartiges Passwort.",
         "title": "Wie erstellt man ein sicheres Passwort?",
         "themes": [
-          "Tipps für sichere Passwörter"
+          "Sichere Passwörter erstellen"
         ],
         "image_search_string": "strong password tips",
         "question_types": [
           "ShortForm",
-          "Sort",
-          "Grouping"
+          "Match",
+          "Sort"
         ]
       },
       {
-        "content": "Phishing ist ein Trick, bei dem Betrüger versuchen, dich dazu zu bringen, sensible Informationen preiszugeben, wie Passwörter oder Kreditkartendaten. Sie verwenden oft gefälschte E-Mails oder Webseiten, die echt aussehen.\n\n**So erkennst du Phishing-Versuche:**\n- Rechtschreib- oder Grammatikfehler.\n- Dringende Aufforderungen (\"Sofort handeln!\").\n- Verdächtige Links oder Absender.",
-        "title": "Phishing erkennen",
+        "content": "Die Privatsphäre-Einstellungen auf sozialen Medien ermöglichen es Ihnen, zu kontrollieren, wer Ihre Informationen sieht. Setzen Sie Ihre Profile auf „privat“, überprüfen Sie regelmäßig, wer Zugriff auf Ihre Beiträge hat, und denken Sie daran, dass alles, was online geteilt wird, potenziell öffentlich werden kann.",
+        "title": "Privatsphäre-Einstellungen auf sozialen Medien",
         "themes": [
-          "Merkmale von Phishing-Versuchen"
+          "Schutz durch Privatsphäre-Einstellungen"
         ],
-        "image_search_string": "phishing scam example",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Hier sind einige Tipps, um sicher online zu bleiben:\n\n1. **Teile keine persönlichen Informationen** öffentlich.\n2. **Sei vorsichtig mit unbekannten Nachrichten oder Links.**\n3. **Installiere Antivirenprogramme** und halte sie aktuell.\n4. **Nutze sichere Netzwerke**, besonders bei öffentlichen WLANs.\n5. **Melde verdächtige Aktivitäten** an die Plattform.",
-        "title": "Tipps für sicheres Surfen",
-        "themes": [
-          "Online-Sicherheitstipps"
-        ],
-        "image_search_string": "safe internet tips",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Cyber-Mobbing passiert, wenn jemand online absichtlich gemein oder verletzend ist. Das kann durch Kommentare, Nachrichten oder das Teilen von peinlichen Bildern geschehen.\n\n**Was tun bei Cyber-Mobbing?**\n- **Ignorieren und blockieren**: Reagiere nicht auf Mobber.\n- **Beweise sichern**: Screenshots machen.\n- **Erwachsene informieren**: Sprich mit Eltern oder Lehrern.",
-        "title": "Was ist Cyber-Mobbing?",
-        "themes": [
-          "Definition von Cyber-Mobbing",
-          "Umgang mit Cyber-Mobbing"
-        ],
-        "image_search_string": "cyberbullying concept",
+        "image_search_string": "social media privacy settings",
         "question_types": [
           "ShortForm",
           "Match",
           "Grouping"
-        ]
-      },
-      {
-        "content": "Ein sicheres Verhalten online bedeutet auch, die Rechte und Privatsphäre anderer zu respektieren. Teile keine Bilder oder Inhalte ohne Erlaubnis und sei freundlich in deinen Kommentaren.",
-        "title": "Respekt und Ethik im Internet",
-        "themes": [
-          "Respektvolles Verhalten online"
-        ],
-        "image_search_string": "respect online ethics",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "In sozialen Medien ist es leicht, zu viel von sich preiszugeben. Überlege immer:\n- Könnte diese Information missbraucht werden?\n- Wer kann das sehen?\n- Würde ich das auch in der Öffentlichkeit sagen?\n\nDenke an deine Privatsphäre und teile bewusst.",
-        "title": "Privatsphäre in sozialen Medien",
-        "themes": [
-          "Schutz der Privatsphäre"
-        ],
-        "image_search_string": "social media privacy",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Antivirenprogramme schützen deinen Computer vor Malware und anderen Bedrohungen. Sie scannen Dateien und blockieren verdächtige Aktivitäten. Stelle sicher, dass dein Programm immer aktuell ist.",
-        "title": "Antivirenprogramme nutzen",
-        "themes": [
-          "Nutzen von Antivirenprogrammen"
-        ],
-        "image_search_string": "antivirus software use",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Öffentliche WLAN-Netzwerke können unsicher sein. Betrüger könnten versuchen, deine Daten abzufangen. Verwende ein VPN (Virtual Private Network), um sicher zu surfen, und vermeide es, sensible Informationen einzugeben.",
-        "title": "Sicheres Surfen in öffentlichen WLANs",
-        "themes": [
-          "Sicherheit im öffentlichen WLAN"
-        ],
-        "image_search_string": "public wifi safety",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Wenn du verdächtige Aktivitäten auf einer Plattform bemerkst, wie gefälschte Profile oder unangemessenes Verhalten, melde es dem Support-Team der Plattform. Du trägst so dazu bei, die Online-Welt sicherer zu machen.",
-        "title": "Verdächtige Aktivitäten melden",
-        "themes": [
-          "Meldung von Online-Bedrohungen"
-        ],
-        "image_search_string": "report online threats",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Nun hast du viele Tipps und Tricks gelernt, um sicher im Internet zu sein. Denke daran, wachsam zu bleiben und dein Wissen mit anderen zu teilen. Gemeinsam machen wir das Internet sicherer! 🚀",
-        "title": "Abschluss: Bleib sicher online!",
-        "themes": [
-          "Zusammenfassung der Internetsicherheit"
-        ],
-        "image_search_string": "online safety summary",
-        "question_types": [
-          "Intro"
         ]
       }
     ],

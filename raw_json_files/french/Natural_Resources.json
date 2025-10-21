@@ -1,87 +1,76 @@
 {
   "request": {
-    "lesson_description": "Introduction to Natural Resources: Types, Uses, and Sustainable Practices.",
-    "exercises_ratio": 0.0,
-    "grade_level": "6th grade",
+    "lesson_description": "Understanding Natural Resources: Types, Uses, and Conservation. Explore renewable and non-renewable resources and their impact on the environment.",
+    "exercises_ratio": 0.3,
+    "grade_level": "7th grade",
     "estimated_length": 20,
     "learning_standard": "",
-    "additional_guidance": "",
+    "additional_guidance": "Focus on real-world examples of resource utilization and conservation practices. Emphasize the importance of sustainable use of resources to protect biodiversity and ecosystems.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "445dc02c",
+    "request_id": "df5fe9f4",
     "topicInEnglish": "Natural Resources",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Introduction aux ressources naturelles : types, utilisations et pratiques durables",
+    "title": "Comprendre les ressources naturelles : types, usages et conservation",
     "slides": [
       {
-        "content": "Bienvenue dans cette leçon sur les ressources naturelles ! 🌍 Aujourd'hui, nous allons explorer les différents types de ressources naturelles, leurs utilisations et comment nous pouvons les gérer de manière durable. Prêt à découvrir les trésors de notre planète ?",
-        "title": "Bienvenue à la découverte des ressources naturelles",
+        "content": "Bienvenue dans cette leçon sur les ressources naturelles ! 🌍 Nous allons explorer les types de ressources naturelles, leurs usages et comment nous pouvons les conserver pour protéger notre environnement.",
+        "title": "Introduction aux ressources naturelles",
         "themes": [
           "introduction aux ressources naturelles"
         ],
-        "image_search_string": "natural resources concept",
+        "image_search_string": "natural resources",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Les ressources naturelles sont des matériaux ou des substances provenant de la Terre, que nous utilisons pour répondre à nos besoins. Elles incluent des éléments comme l'eau, l'air, le bois, les minéraux et les combustibles fossiles.",
+        "content": "Les ressources naturelles sont des éléments que nous trouvons dans la nature et qui sont utilisés pour répondre à nos besoins. Elles se divisent en deux catégories principales : renouvelables et non renouvelables.",
         "title": "Qu'est-ce qu'une ressource naturelle ?",
         "themes": [
-          "définition des ressources naturelles"
+          "définition des ressources naturelles",
+          "catégories des ressources"
         ],
-        "image_search_string": "natural resources examples",
+        "image_search_string": "natural resources types",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les ressources naturelles peuvent être classées en deux catégories principales : renouvelables et non renouvelables. Les renouvelables, comme l'eau et le bois, peuvent être reconstituées naturellement. Les non renouvelables, comme le pétrole et le charbon, sont limitées.",
-        "title": "Types de ressources naturelles",
+        "content": "Les ressources renouvelables sont celles qui peuvent se régénérer naturellement à un rythme égal ou supérieur à leur consommation, comme :\n- Le vent\n- L'eau\n- La lumière solaire\n- Les forêts (si elles sont gérées durablement)",
+        "title": "Les ressources renouvelables",
         "themes": [
           "ressources renouvelables",
-          "ressources non renouvelables"
-        ],
-        "image_search_string": "renewable and nonrenewable resources",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les ressources naturelles renouvelables incluent :\n- **L'eau** : essentielle pour la vie et utilisée dans l'agriculture, l'industrie et la consommation quotidienne.\n- **Le bois** : utilisé pour la construction, le chauffage et la fabrication de papier.\n- **L'énergie solaire et éolienne** : sources d'énergie propres.",
-        "title": "Exemples de ressources renouvelables",
-        "themes": [
           "exemples de ressources renouvelables"
         ],
         "image_search_string": "renewable resources examples",
         "question_types": [
           "ShortForm",
-          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Les ressources naturelles non renouvelables incluent :\n- **Le pétrole** : utilisé comme carburant et matière première pour les plastiques.\n- **Le charbon** : utilisé pour produire de l'énergie.\n- **Les minéraux** : utilisés dans la construction et la fabrication de nombreux produits.",
-        "title": "Exemples de ressources non renouvelables",
+        "content": "Les ressources non renouvelables sont celles qui ne se reconstituent pas ou se reconstituent trop lentement pour être considérées comme renouvelables. Exemples :\n- Le pétrole\n- Le charbon\n- Le gaz naturel\n- Les minerais comme l'or et le fer",
+        "title": "Les ressources non renouvelables",
         "themes": [
+          "ressources non renouvelables",
           "exemples de ressources non renouvelables"
         ],
         "image_search_string": "nonrenewable resources examples",
         "question_types": [
           "ShortForm",
-          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Nous utilisons les ressources naturelles pour :\n- Produire de l'énergie (pétrole, charbon, vent).\n- Construire des habitations et des infrastructures (bois, minéraux).\n- Fabriquer des biens de consommation (plastiques, métaux).\n- Survivre (eau, nourriture).",
+        "content": "Les ressources naturelles sont essentielles pour :\n- Fournir de l'énergie (pétrole, vent, soleil)\n- Construire des infrastructures (bois, métaux)\n- Produire des biens de consommation (plastiques, aliments)\n- Maintenir les écosystèmes (eau, forêts)",
         "title": "Utilisations des ressources naturelles",
         "themes": [
-          "utilisations des ressources naturelles"
+          "usages des ressources naturelles",
+          "importance des ressources"
         ],
         "image_search_string": "uses of natural resources",
         "question_types": [
@@ -90,34 +79,76 @@
         ]
       },
       {
-        "content": "La surexploitation des ressources naturelles peut entraîner :\n- L'épuisement de ressources non renouvelables.\n- La déforestation et la perte de biodiversité.\n- La pollution de l'eau et de l'air.\n- Des changements climatiques.",
-        "title": "Problèmes liés à la surexploitation",
+        "content": "L'utilisation excessive ou non durable des ressources naturelles peut entraîner :\n- L'épuisement des ressources non renouvelables\n- La déforestation\n- La pollution de l'eau et de l'air\n- La perte de biodiversité",
+        "title": "Impacts de l'utilisation non durable",
         "themes": [
-          "impacts de la surexploitation"
+          "conséquences de l'utilisation non durable",
+          "menaces environnementales"
         ],
-        "image_search_string": "natural resources exploitation issues",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La gestion durable des ressources naturelles inclut :\n- Réduire, Réutiliser, Recycler.\n- Utiliser des énergies renouvelables.\n- Protéger les écosystèmes.\n- Planifier l'utilisation des ressources pour les générations futures.",
-        "title": "Gestion durable des ressources",
-        "themes": [
-          "pratiques de gestion durable"
-        ],
-        "image_search_string": "sustainable resource management",
+        "image_search_string": "environmental impacts of resource misuse",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Nous pouvons tous contribuer à la gestion durable en :\n- Économisant l'eau et l'énergie.\n- Participant au recyclage.\n- Soutenant des produits respectueux de l'environnement.\n- Sensibilisant notre entourage.",
-        "title": "Que pouvons-nous faire ?",
+        "content": "Pour conserver les ressources naturelles, nous pouvons :\n- Réduire la consommation et le gaspillage\n- Réutiliser et recycler les matériaux\n- Utiliser des énergies renouvelables\n- Protéger les habitats naturels",
+        "title": "Mesures pour la conservation",
         "themes": [
-          "actions individuelles pour la durabilité"
+          "conservation des ressources",
+          "pratiques durables"
+        ],
+        "image_search_string": "natural resource conservation",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "En France, des efforts sont faits pour promouvoir l'énergie renouvelable, comme :\n- Les parcs éoliens\n- Les panneaux solaires sur les bâtiments\n- Les programmes de recyclage et de compostage\n- La protection des forêts",
+        "title": "Exemples de conservation en France",
+        "themes": [
+          "conservation en France",
+          "initiatives locales"
+        ],
+        "image_search_string": "renewable energy France",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La biodiversité dépend des ressources naturelles comme l'eau et les forêts. En protégeant ces ressources, nous aidons à préserver les écosystèmes et les espèces qui y vivent.",
+        "title": "Lien entre biodiversité et ressources naturelles",
+        "themes": [
+          "biodiversité et ressources",
+          "protection des écosystèmes"
+        ],
+        "image_search_string": "biodiversity and natural resources",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le développement durable implique de répondre aux besoins actuels sans compromettre la capacité des générations futures à répondre aux leurs. Cela inclut :\n- Une gestion équilibrée des ressources\n- La réduction des émissions de CO₂\n- L'éducation et la sensibilisation",
+        "title": "Développement durable et ressources",
+        "themes": [
+          "développement durable",
+          "gestion des ressources"
+        ],
+        "image_search_string": "sustainable development resources",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Pour un avenir durable, chaque individu peut :\n- Réduire sa consommation d'énergie\n- Pratiquer le recyclage et le compostage\n- Soutenir les politiques environnementales\n- Éduquer les autres sur l'importance des ressources naturelles",
+        "title": "Actions individuelles pour la durabilité",
+        "themes": [
+          "actions individuelles",
+          "durabilité"
         ],
         "image_search_string": "individual actions sustainability",
         "question_types": [
@@ -126,12 +157,39 @@
         ]
       },
       {
-        "content": "En résumé, il est crucial de comprendre la valeur des ressources naturelles et de les utiliser de manière responsable pour assurer un avenir durable pour tous.",
-        "title": "Conclusion : la valeur des ressources naturelles",
+        "content": "Les entreprises jouent un rôle clé dans la gestion des ressources :\n- En adoptant des pratiques de production durables\n- En investissant dans les énergies renouvelables\n- En réduisant leurs déchets et émissions",
+        "title": "Rôle des entreprises",
         "themes": [
-          "importance des ressources naturelles"
+          "rôle des entreprises",
+          "pratiques durables"
         ],
-        "image_search_string": "natural resources importance",
+        "image_search_string": "corporate sustainability",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les gouvernements peuvent influencer positivement la conservation des ressources en :\n- Promulguant des lois environnementales\n- Subventionnant les énergies renouvelables\n- Éduquant le public sur la conservation",
+        "title": "Rôle des gouvernements",
+        "themes": [
+          "rôle des gouvernements",
+          "politiques environnementales"
+        ],
+        "image_search_string": "government conservation policies",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "En résumé, les ressources naturelles sont vitales pour notre survie et notre bien-être. Leur gestion durable est essentielle pour protéger notre planète et assurer un avenir prospère pour tous.",
+        "title": "Conclusion sur les ressources naturelles",
+        "themes": [
+          "gestion durable",
+          "importance des ressources"
+        ],
+        "image_search_string": "natural resources conservation",
         "question_types": [
           "ShortForm"
         ]

@@ -1,33 +1,33 @@
 {
   "request": {
-    "lesson_description": "States of Matter: Understanding solids, liquids, gases, and plasma, including their properties and transitions.",
-    "exercises_ratio": 0.5,
-    "grade_level": "7th grade",
+    "lesson_description": "Understanding the states of matter: Solid, liquid, gas, and plasma, along with the processes of phase changes such as melting, freezing, evaporation, condensation, and sublimation.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
     "estimated_length": 20,
-    "learning_standard": "",
+    "learning_standard": "NGSS.MS-PS1-4: Develop a model that predicts and describes changes in particle motion, temperature, and state of a pure substance when thermal energy is added or removed.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "94ed4c36",
+    "request_id": "87ea6bfa",
     "topicInEnglish": "States of Matter",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Les États de la Matière",
+    "title": "Understanding the States of Matter and Phase Changes",
     "slides": [
       {
-        "content": "Bienvenue dans notre exploration des états de la matière ! Aujourd'hui, nous allons découvrir les solides, les liquides, les gaz et même le plasma. Préparez-vous à comprendre leurs propriétés uniques et les transformations qu'ils peuvent subir. 🌟",
+        "content": "Bienvenue dans notre exploration des états de la matière et des changements de phase ! Aujourd'hui, nous allons découvrir comment la matière peut exister sous différentes formes et comment elle change d'état. 🌟",
         "title": "Introduction aux états de la matière",
         "themes": [
           "introduction aux états de la matière"
         ],
-        "image_search_string": "states of matter illustration",
+        "image_search_string": "states of matter introduction",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La matière existe sous différentes formes appelées états : solide, liquide, gaz et plasma. Chaque état a des caractéristiques distinctes :\n\n- **Solide** : Forme et volume définis, particules serrées.\n- **Liquide** : Volume défini mais forme variable, particules mobiles.\n- **Gaz** : Ni forme ni volume définis, particules très espacées.\n- **Plasma** : Gaz ionisé avec des particules chargées, trouvé dans les étoiles.",
+        "content": "La matière peut exister sous quatre états principaux : solide, liquide, gaz et plasma. Chaque état a des caractéristiques uniques :\n\n- **Solide** : Forme et volume fixes, particules étroitement liées.\n- **Liquide** : Volume fixe mais forme variable, particules glissent les unes sur les autres.\n- **Gaz** : Ni forme ni volume fixes, particules très espacées et en mouvement rapide.\n- **Plasma** : Gaz ionisé, particules chargées électriquement.",
         "title": "Les quatre états de la matière",
         "themes": [
           "caractéristiques des états de la matière"
@@ -39,96 +39,148 @@
         ]
       },
       {
-        "content": "Dans un solide, les particules sont étroitement liées, formant une structure rigide. Cela donne au solide sa forme et son volume fixes. Les particules vibrent, mais ne se déplacent pas librement.",
-        "title": "Les propriétés des solides",
+        "content": "Les solides se transforment en liquides par **fusion** lorsque la température augmente. Les liquides deviennent solides par **solidification** lorsque la température diminue. Ces processus dépendent de l'énergie thermique et des interactions entre particules.",
+        "title": "De solide à liquide et vice versa",
         "themes": [
-          "propriétés des solides"
+          "fusion et solidification"
         ],
-        "image_search_string": "solid matter properties",
+        "image_search_string": "melting and freezing",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Les liquides ont des particules plus éloignées que les solides, ce qui leur permet de glisser les unes sur les autres. C'est pourquoi un liquide peut changer de forme tout en conservant un volume constant.",
-        "title": "Les propriétés des liquides",
-        "themes": [
-          "propriétés des liquides"
-        ],
-        "image_search_string": "liquid matter properties",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Les gaz ont des particules très espacées qui se déplacent rapidement dans toutes les directions. Cela leur permet de remplir complètement le récipient qui les contient et de changer facilement de forme et de volume.",
-        "title": "Les propriétés des gaz",
-        "themes": [
-          "propriétés des gaz"
-        ],
-        "image_search_string": "gas matter properties",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Le plasma est un état de la matière où les particules sont ionisées, ce qui signifie qu'elles portent une charge électrique. On le trouve dans les étoiles et les éclairs, et il est utilisé dans les écrans plasma.",
-        "title": "Les propriétés du plasma",
-        "themes": [
-          "propriétés du plasma"
-        ],
-        "image_search_string": "plasma matter properties",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Un changement d'état se produit lorsque la matière passe d'un état à un autre, par exemple :\n\n- **Fusion** : Solide → Liquide\n- **Vaporisation** : Liquide → Gaz\n- **Condensation** : Gaz → Liquide\n- **Solidification** : Liquide → Solide\n\nCes transitions se produisent en fonction des variations de température et de pression.",
-        "title": "Les changements d'état",
-        "themes": [
-          "changements d'état de la matière"
-        ],
-        "image_search_string": "matter state transitions",
-        "question_types": [
-          "ShortForm",
+          "Match",
           "Sort"
         ]
       },
       {
-        "content": "La température joue un rôle clé dans les changements d'état. Par exemple :\n\n- L'eau gèle à 0°C (solidification).\n- L'eau bout à 100°C (vaporisation).\n\nLa pression peut également influencer ces points de transition.",
-        "title": "L'impact de la température et de la pression",
+        "content": "Lorsqu'un liquide devient un gaz, on parle d'**évaporation** (progressive) ou d'**ébullition** (rapide). La condensation est le processus inverse, où un gaz devient liquide. Cela se produit lorsque de la chaleur est retirée.",
+        "title": "De liquide à gaz et vice versa",
         "themes": [
-          "rôle de la température et pression"
+          "évaporation et condensation"
         ],
-        "image_search_string": "temperature and pressure effects",
+        "image_search_string": "evaporation and condensation",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La sublimation est le passage direct d'un solide à un gaz sans passer par l'état liquide. La déposition est le processus inverse. Ces changements sont rares et dépendent de conditions spécifiques.",
+        "title": "Sublimation et déposition",
+        "themes": [
+          "sublimation et déposition"
+        ],
+        "image_search_string": "sublimation process",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La matière peut parfois exister dans des états intermédiaires, comme le gel ou le plasma froid, utilisés dans des domaines tels que la science des matériaux et la médecine.",
-        "title": "Les états intermédiaires et leurs applications",
+        "content": "Le plasma se forme lorsque les gaz gagnent suffisamment d'énergie pour ioniser leurs particules. On trouve du plasma dans les étoiles, les éclairs et certains écrans électroniques.",
+        "title": "L'état plasma",
         "themes": [
-          "états intermédiaires de la matière"
+          "formation et exemples de plasma"
         ],
-        "image_search_string": "intermediate states of matter",
+        "image_search_string": "plasma state examples",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "L'énergie thermique joue un rôle clé dans les changements d'état :\n\n- Augmentation de l'énergie : Particules bougent plus vite, passant à un état plus dispersé.\n- Diminution de l'énergie : Particules ralentissent, se regroupant dans un état plus ordonné.",
+        "title": "Rôle de l'énergie thermique",
+        "themes": [
+          "énergie thermique et changements d'état"
+        ],
+        "image_search_string": "thermal energy changes",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Les changements d'état sont des processus physiques. Ils n'altèrent pas la composition chimique de la substance mais modifient la disposition et l'énergie des particules.",
+        "title": "Changements d'état : processus physiques",
+        "themes": [
+          "nature physique des changements d'état"
+        ],
+        "image_search_string": "physical state changes",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "En résumé, les solides, liquides, gaz et plasma ont des propriétés uniques et peuvent se transformer grâce à la température et à la pression. Ces concepts sont essentiels pour comprendre le monde qui nous entoure.",
-        "title": "Conclusion sur les états de la matière",
+        "content": "Les diagrammes de phase montrent comment une substance change d'état en fonction de la température et de la pression. Ils aident à comprendre les conditions nécessaires pour chaque état.",
+        "title": "Diagrammes de phase",
         "themes": [
-          "résumé des états de la matière"
+          "utilisation des diagrammes de phase"
         ],
-        "image_search_string": "matter summary illustration",
+        "image_search_string": "phase diagrams",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "L'eau est un excellent exemple pour observer les changements d'état :\n\n- Glace (solide) fond en eau (liquide).\n- Eau s'évapore en vapeur (gaz).\n- Vapeur se condense en eau liquide.",
+        "title": "Exemple : l'eau et ses changements d'état",
+        "themes": [
+          "exemples de changements d'état"
+        ],
+        "image_search_string": "water state changes",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Dans les changements d'état, les particules interagissent via des forces intermoléculaires. Ces forces influencent la température et la pression nécessaires pour chaque transition.",
+        "title": "Forces intermoléculaires",
+        "themes": [
+          "rôle des forces intermoléculaires"
+        ],
+        "image_search_string": "intermolecular forces",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La conservation de l'énergie s'applique aux changements d'état : l'énergie n'est ni créée ni détruite, mais transférée ou transformée.",
+        "title": "Conservation de l'énergie",
+        "themes": [
+          "principe de conservation de l'énergie"
+        ],
+        "image_search_string": "energy conservation",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les changements d'état ont des applications pratiques :\n\n- Réfrigération (condensation et évaporation).\n- Purification de substances (distillation).\n- Technologie plasma (écrans, éclairages).",
+        "title": "Applications pratiques des changements d'état",
+        "themes": [
+          "applications des changements d'état"
+        ],
+        "image_search_string": "state change applications",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les états de la matière et les changements de phase sont essentiels pour comprendre le monde qui nous entoure. Explorez comment la matière réagit à l'énergie pour mieux appréhender les phénomènes naturels et technologiques.",
+        "title": "Résumé et perspectives",
+        "themes": [
+          "résumé des concepts clés"
+        ],
+        "image_search_string": "summary of matter states",
         "question_types": [
           "ShortForm"
         ]

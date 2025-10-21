@@ -1,103 +1,88 @@
-# Lesson name: Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick
+# Lesson name: Exploring Poetry Forms
 
 ## Intro
 
 ### Introduction à la poésie
 
-Bienvenue ! Aujourd'hui, nous allons découvrir différents types de poésie : le haïku, le sonnet, le vers libre et le limerick. Préparez-vous à plonger dans le monde des mots et à explorer comment les poètes jouent avec la langue pour exprimer des idées et des émotions. 📜✨
+Bienvenue dans le monde fascinant de la poésie ! Aujourd'hui, nous allons découvrir différentes formes poétiques, leurs structures uniques et leur importance culturelle. 🌟
 
 #### **Themes:**
-- introduction aux formes poétiques
+- Introduction aux formes poétiques
 
 ## Content slide
 
-### Le Haïku
+### Le haïku
 
-Un haïku est une forme de poésie japonaise traditionnelle composée de trois vers. Le premier et le dernier vers comportent cinq syllabes, tandis que le deuxième en a sept. Les haïkus capturent souvent un moment ou une émotion liée à la nature ou aux saisons. Exemple :
-
-"Dans l'étang ancien, Une grenouille plongeant, L'eau résonne."
-
-Les haïkus utilisent des images précises et évocatrices pour transmettre des idées profondes.
+Le haïku est une forme de poésie japonaise traditionnelle. Il est constitué de trois vers respectivement de 5, 7 et 5 syllabes. Les haïkus capturent souvent des moments de la nature ou des émotions fugitives en peu de mots.
 
 #### **Themes:**
-- structure et caractéristiques du haïku
+- Structure du haïku
+- Origine japonaise
 
 ## Content slide
 
-### Le Sonnet
+### Le sonnet
 
-Le sonnet est une forme poétique classique qui suit une structure stricte de 14 vers, souvent écrits en pentamètre iambique. Les sonnets peuvent être divisés en deux types principaux : le sonnet italien (ou pétrarquien) et le sonnet anglais (ou shakespearien). Chaque type a ses propres schémas de rimes et structures thématiques. Les sonnets explorent des thèmes variés comme l'amour, le passage du temps ou la beauté.
+Le sonnet est une forme poétique classique, souvent utilisée dans la poésie européenne. Un sonnet est composé de 14 vers, généralement en alexandrins, avec des schémas de rimes spécifiques comme ABBA ABBA CDC DCD.
 
 #### **Themes:**
-- structure et types de sonnets
+- Structure du sonnet
+- Schémas de rimes
 
 ## Content slide
 
-### Le Vers Libre
+### Le vers libre
 
-Le vers libre est une forme de poésie qui ne suit pas de schéma rythmique ou de rime fixe. Cela permet au poète une grande liberté d'expression. Les poèmes en vers libres se concentrent souvent sur le langage, les images et la signification plutôt que sur la forme. Exemple :
-
-"Les feuilles tombent, emportées par le vent, Un murmure doux dans l'air du soir."
+La poésie en vers libres n'obéit pas à des règles strictes de rime ou de mètre. Elle permet une grande liberté d'expression et est souvent utilisée pour exprimer des idées modernes ou abstraites.
 
 #### **Themes:**
-- caractéristiques du vers libre
+- Liberté dans le vers libre
+- Expression moderne
 
 ## Content slide
 
-### Le Limerick
+### Le limerick
 
-Le limerick est une forme de poésie humoristique composée de cinq vers. Il suit un schéma de rime AABBA et a un rythme distinctif. Les limericks racontent souvent de petites histoires absurdes ou drôles. Exemple :
-
-"Il était une dame de Nantes, Qui mangeait des tartes en abondance, Elle en mangea tant, Qu'elle devint géante, Et maintenant elle danse en transe."
+Le limerick est une forme légère et humoristique de poésie, souvent composée de cinq vers avec un schéma de rimes AABBA. Les limericks sont populaires pour leur ton comique et leurs jeux de mots.
 
 #### **Themes:**
-- structure et ton du limerick
+- Structure du limerick
+- Ton humoristique
 
 ## Content slide
 
-### Choix des mots et impact
+### Comparaison des formes poétiques
 
-Les poètes choisissent des mots avec soin pour évoquer des émotions et des images. Par exemple, des mots comme "fragile" ou "ombragé" peuvent créer une atmosphère mélancolique, tandis que "brillant" ou "vivant" évoquent souvent une ambiance joyeuse. L'analyse des choix de mots dans un poème aide à comprendre son ton et son impact.
+Comparons les quatre formes poétiques : le haïku est bref et évocateur, le sonnet est structuré et classique, le vers libre est libre et moderne, et le limerick est humoristique et rythmique.
 
 #### **Themes:**
-- analyse des choix lexicaux
+- Comparaison des formes
+- Caractéristiques distinctives
 
 ## Content slide
 
-### Comparer les formes poétiques
+### Poésie et culture
 
-Comparez les différentes formes poétiques :
-
-- Haïku : court, lié à la nature, structure stricte.
-- Sonnet : long, thématique, structure rigide.
-- Vers libre : libre, centré sur l'expression.
-- Limerick : humoristique, structure rythmée.
-
-Chaque forme a des caractéristiques uniques qui influencent comment les idées et émotions sont exprimées.
+La poésie reflète souvent la culture dont elle est issue. Par exemple, les haïkus s'inspirent de la nature japonaise, tandis que les sonnets européens reflètent souvent des thèmes philosophiques ou romantiques.
 
 #### **Themes:**
-- comparaison des formes poétiques
+- Lien entre poésie et culture
 
 ## Content slide
 
-### Créer votre propre poème
+### L'importance de la poésie
 
-Essayez de créer un poème dans une des formes étudiées. Vous pouvez écrire un haïku sur la nature, un limerick drôle ou un vers libre sur vos pensées. Concentrez-vous sur le choix des mots pour transmettre votre idée ou émotion.
+La poésie nous invite à explorer nos émotions et à observer le monde différemment. Chaque forme poétique offre une manière unique de s'exprimer et de communiquer des idées.
 
 #### **Themes:**
-- création poétique
+- Expression dans la poésie
+- Observation du monde
 
 ## Content slide
 
-### Révision et réflexion
+### Créer votre propre poésie
 
-Réfléchissez à ce que vous avez appris :
-
-- Quelles sont les caractéristiques d'un haïku ?
-- Comment les sonnets diffèrent-ils des limericks ?
-- Pourquoi le choix des mots est-il crucial en poésie ?
-
-Pensez à la façon dont vous pourriez utiliser ces formes pour exprimer vos propres idées.
+Prenez un moment pour réfléchir à vos propres idées. Imaginez un haïku sur la nature, un limerick amusant ou une strophe en vers libres sur vos pensées du jour.
 
 #### **Themes:**
-- révision des concepts de poésie
+- Création poétique personnelle

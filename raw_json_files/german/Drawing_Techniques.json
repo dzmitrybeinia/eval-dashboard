@@ -1,81 +1,71 @@
 {
   "request": {
-    "lesson_description": "Introduction to Drawing Techniques: Exploring Line, Shape, and Texture",
-    "exercises_ratio": 0.5,
+    "lesson_description": "Introduction to basic drawing techniques: line work, shading, and perspective.",
+    "exercises_ratio": 0.7,
     "grade_level": "6th grade",
     "estimated_length": 10,
-    "learning_standard": "National Core Arts Standards (NCAS): VA:Cr2.1.6 - Demonstrate openness in trying new ideas, materials, methods, and approaches in making works of art and design.",
+    "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "0aae2902",
+    "request_id": "997bfb04",
     "topicInEnglish": "Drawing Techniques",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Einführung in Zeichentechniken: Linie, Form und Textur",
+    "title": "Grundlagen des Zeichnens: Linien, Schattierung und Perspektive",
     "slides": [
       {
-        "content": "Zeichnen ist eine der ältesten und grundlegendsten Formen der künstlerischen Ausdrucksweise. Es ermöglicht uns, unsere Gedanken, Gefühle und Ideen visuell darzustellen. In dieser Lektion werden wir die Grundlagen des Zeichnens erkunden, einschließlich der Verwendung von Linien, Formen und Texturen, um spannende Kunstwerke zu schaffen. 🎨",
-        "title": "Willkommen in der Welt des Zeichnens",
+        "content": "Willkommen zu unserem Abenteuer in die Welt des Zeichnens! Heute entdecken wir, wie man mit Linien, Schatten und Perspektiven beeindruckende Kunstwerke erschafft. 🎨",
+        "title": "Einführung in das Zeichnen",
         "themes": [
-          "Grundlagen des Zeichnens"
+          "Einführung ins Zeichnen"
         ],
-        "image_search_string": "drawing introduction",
+        "image_search_string": "drawing basics",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Linien sind die Basis jedes gezeichneten Kunstwerks. Sie können gerade, gebogen, dick, dünn oder gepunktet sein. Verschiedene Arten von Linien können unterschiedliche Gefühle oder Bewegungen ausdrücken. Zum Beispiel kann eine geschwungene Linie Zartheit oder Bewegung darstellen, während eine gerade Linie Stabilität symbolisiert.",
-        "title": "Die Kraft der Linien",
+        "content": "Linien sind die Grundlage jeder Zeichnung. Es gibt verschiedene Arten von Linien: gerade, gebogene, dicke, dünne und gepunktete. Sie können verwendet werden, um Formen, Texturen und Bewegungen darzustellen. Zum Beispiel können geschwungene Linien fließende Bewegungen oder Haare darstellen, während gerade Linien für Architektur oder Geometrie geeignet sind.",
+        "title": "Arten und Verwendung von Linien",
         "themes": [
-          "Arten von Linien",
-          "Emotionen durch Linien"
+          "Grundlagen der Linienarbeit",
+          "Linienarten und ihre Anwendung"
         ],
         "image_search_string": "line drawing types",
         "question_types": [
           "ShortForm",
           "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Schattierung verleiht einer Zeichnung Tiefe und Dimension. Es gibt verschiedene Techniken wie Schraffieren, Kreuzschraffieren und Verwischen. Beim Schraffieren werden parallele Linien verwendet, um Schatten zu erzeugen, während Kreuzschraffieren überlagerte Linien verwendet. Verwischen kann mit dem Finger oder einem Stift erfolgen, um weiche Übergänge zu schaffen.",
+        "title": "Techniken der Schattierung",
+        "themes": [
+          "Schattierungstechniken",
+          "Tiefe und Dimension im Zeichnen"
+        ],
+        "image_search_string": "shading techniques",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Perspektive hilft uns, den Eindruck von Raum und Tiefe in einer Zeichnung zu erzeugen. Es gibt verschiedene Arten der Perspektive, wie die Ein-Punkt-, Zwei-Punkt- und Drei-Punkt-Perspektive. In der Ein-Punkt-Perspektive laufen alle Linien zu einem einzigen Fluchtpunkt zusammen, während in der Zwei-Punkt-Perspektive zwei Fluchtpunkte verwendet werden.",
+        "title": "Perspektive im Zeichnen",
+        "themes": [
+          "Arten der Perspektive",
+          "Raum und Tiefe im Zeichnen"
+        ],
+        "image_search_string": "drawing perspective types",
+        "question_types": [
+          "ShortForm",
+          "Match",
           "Sort"
-        ]
-      },
-      {
-        "content": "Formen sind geschlossene Bereiche, die durch Linien, Farben oder Texturen definiert werden. Es gibt geometrische Formen wie Kreise, Quadrate und Dreiecke sowie organische Formen, die natürlicher und unregelmäßiger sind. Künstler verwenden Formen, um Objekte darzustellen und ihre Kunstwerke zu strukturieren.",
-        "title": "Formen und ihre Rolle in der Kunst",
-        "themes": [
-          "Geometrische und organische Formen",
-          "Verwendung von Formen in der Kunst"
-        ],
-        "image_search_string": "shapes in art",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Textur in der Kunst bezieht sich darauf, wie etwas aussieht oder sich anfühlt. Es gibt tatsächliche Texturen, die man fühlen kann, und visuelle Texturen, die das Auge täuschen und den Eindruck von Oberflächen wie Holz, Stoff oder Stein vermitteln. Durch Textur können Kunstwerke lebendiger wirken.",
-        "title": "Textur: Der Eindruck von Oberfläche",
-        "themes": [
-          "Tatsächliche und visuelle Texturen"
-        ],
-        "image_search_string": "texture in art",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Jetzt, da wir Linien, Formen und Texturen kennen, können wir alles kombinieren, um ein eigenes Kunstwerk zu schaffen. Experimentiere mit verschiedenen Materialien und Techniken, um herauszufinden, wie du diese Elemente am besten nutzen kannst. Denke daran: Es gibt kein Richtig oder Falsch – deine Kreativität ist das Wichtigste!",
-        "title": "Kombinieren von Elementen: Kreativität entfalten",
-        "themes": [
-          "Kombination von Zeichenelementen",
-          "Kreativität im Zeichnen"
-        ],
-        "image_search_string": "creative drawing techniques",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
         ]
       }
     ],

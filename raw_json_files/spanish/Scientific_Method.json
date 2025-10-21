@@ -1,95 +1,78 @@
 {
   "request": {
-    "lesson_description": "Understanding the Scientific Method: Steps and Applications in Everyday Life.",
-    "exercises_ratio": 0.6,
+    "lesson_description": "The Scientific Method: Understanding the steps of observation, hypothesis, experimentation, analysis, and conclusion.",
+    "exercises_ratio": 0.0,
     "grade_level": "7th grade",
-    "estimated_length": 15,
+    "estimated_length": 30,
     "learning_standard": "",
-    "additional_guidance": "Focus on real-world examples such as testing hypotheses in daily scenarios (e.g., determining the best insulation material for keeping ice cold). Emphasize the importance of repeatability and controlled variables.",
+    "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "a805e533",
+    "request_id": "7cb513e7",
     "topicInEnglish": "Scientific Method",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Understanding the Scientific Method",
+    "title": "The Scientific Method: Steps and Applications",
     "slides": [
       {
-        "content": "¡Bienvenidos a una emocionante exploración del método científico! 🌟 En esta lección, aprenderemos los pasos clave para investigar y resolver preguntas sobre el mundo que nos rodea. ¡Prepárense para descubrir cómo la ciencia está presente en nuestra vida diaria!",
+        "content": "¡Bienvenidos! Hoy vamos a explorar los fascinantes pasos del método científico, una herramienta esencial para descubrir cómo funciona el mundo que nos rodea. 🌍🔬",
         "title": "Introducción al Método Científico",
         "themes": [
           "introducción al método científico"
         ],
-        "image_search_string": "ciencia y método científico",
+        "image_search_string": "scientific method diagram",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El método científico es un proceso sistemático que los científicos utilizan para resolver problemas y responder preguntas. Los pasos principales incluyen:\n\n1. **Formular una pregunta**: Identificar algo que se desea entender o resolver.\n2. **Investigar y observar**: Reunir información relevante sobre el tema.\n3. **Formar una hipótesis**: Proponer una explicación o solución posible basada en las observaciones.\n4. **Experimentar**: Diseñar y realizar pruebas para comprobar la hipótesis.\n5. **Analizar los resultados**: Examinar los datos recogidos durante los experimentos.\n6. **Concluir y comunicar**: Determinar si la hipótesis era correcta y compartir los hallazgos.",
+        "content": "El método científico es un proceso sistemático que los científicos utilizan para responder preguntas y resolver problemas. Este método asegura que las investigaciones sean precisas, repetibles y basadas en evidencias.",
         "title": "¿Qué es el Método Científico?",
         "themes": [
-          "pasos del método científico",
           "definición del método científico"
         ],
-        "image_search_string": "pasos del método científico",
+        "image_search_string": "scientific process concept",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       },
       {
-        "content": "Un ejemplo del método científico en acción es determinar cuál material es mejor para mantener el hielo frío por más tiempo. Siguiendo los pasos:\n\n1. **Pregunta**: ¿Qué material es el mejor aislante para hielo?\n2. **Hipótesis**: \"El poliuretano mantendrá el hielo frío por más tiempo que el cartón o el plástico.\"\n3. **Experimentación**: Colocar hielo en recipientes hechos de diferentes materiales y medir cuánto tiempo tarda en derretirse.\n4. **Resultados**: Comparar los tiempos de derretimiento del hielo.\n5. **Conclusión**: Identificar el material más efectivo basado en los datos.",
-        "title": "Ejemplo: Mantener el Hielo Frío",
+        "content": "Los pasos básicos del método científico incluyen:\n\n1. **Observación:** Identificar un fenómeno o problema.\n2. **Formulación de hipótesis:** Proponer una explicación o solución posible.\n3. **Experimentación:** Diseñar y realizar pruebas para comprobar la hipótesis.\n4. **Análisis:** Interpretar los datos obtenidos.\n5. **Conclusión:** Resumir los hallazgos y determinar si la hipótesis fue correcta.",
+        "title": "Pasos del Método Científico",
         "themes": [
-          "aplicación del método científico",
-          "ejemplo de aislamiento térmico"
+          "pasos del método científico"
         ],
-        "image_search_string": "experimento con hielo",
+        "image_search_string": "scientific method steps",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Sort",
+          "Grouping"
         ]
       },
       {
-        "content": "Los experimentos efectivos deben ser repetibles y controlar las variables. Esto significa:\n\n- **Repetibilidad**: Otros deben poder realizar el experimento de la misma manera y obtener resultados similares.\n- **Variables controladas**: Solo debe cambiarse una variable, mientras que las demás se mantienen constantes. Por ejemplo, en el experimento del hielo, los recipientes deben estar en el mismo ambiente y contener la misma cantidad de hielo.",
-        "title": "Importancia de la Repetibilidad y Variables Controladas",
+        "content": "El primer paso del método científico es observar. Esto implica usar los sentidos para recopilar información sobre el entorno. Las observaciones pueden ser cualitativas (descriptivas) o cuantitativas (numéricas).",
+        "title": "Paso 1: Observación",
         "themes": [
-          "repetibilidad de experimentos",
-          "control de variables"
+          "observación científica"
         ],
-        "image_search_string": "control de variables en experimentos",
+        "image_search_string": "scientific observation",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "El método científico no solo se aplica en laboratorios. Lo usamos en nuestra vida diaria, como cuando:\n\n- Probamos diferentes rutas para llegar más rápido a casa.\n- Elegimos la mejor receta ajustando ingredientes y tiempos.\n- Decidimos qué planta crece mejor en diferentes condiciones de luz o agua.\n\n¡El método científico nos ayuda a tomar decisiones informadas!",
-        "title": "El Método Científico en la Vida Diaria",
+        "content": "Una hipótesis es una explicación propuesta basada en observaciones previas. Debe ser específica y comprobable mediante experimentos.",
+        "title": "Paso 2: Formulación de Hipótesis",
         "themes": [
-          "uso cotidiano del método científico"
+          "formulación de hipótesis"
         ],
-        "image_search_string": "uso cotidiano del método científico",
+        "image_search_string": "formulating hypothesis",
         "question_types": [
           "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "¡Recapitulemos! El método científico:\n\n1. Ayuda a resolver problemas y responder preguntas de manera lógica y organizada.\n2. Incluye pasos clave: pregunta, investigación, hipótesis, experimentación, análisis y conclusión.\n3. Es esencial en experimentos repetibles con variables controladas.\n4. Se aplica tanto en la ciencia como en situaciones cotidianas.\n\n¡Sigue explorando y aplicando el método científico en tu vida diaria!",
-        "title": "Resumen del Método Científico",
-        "themes": [
-          "resumen de conceptos del método científico"
-        ],
-        "image_search_string": "resumen del método científico",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       }
     ],

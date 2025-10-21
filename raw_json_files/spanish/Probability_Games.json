@@ -1,161 +1,56 @@
 {
   "request": {
-    "lesson_description": "Introduction to probability games: Exploring concepts of probability using real-world examples such as dice rolls, coin flips, and card games.",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Exploring Probability through Games: Understanding Chance, Randomness, and Strategy.",
+    "exercises_ratio": 0.7,
     "grade_level": "7th grade",
-    "estimated_length": 15,
-    "learning_standard": "NGSS.MS-PS2-4: Develop a model to describe the patterns of probability in predicting the outcome of events.",
+    "estimated_length": 10,
+    "learning_standard": "CCSS.MATH.CONTENT.7.SP.C.5: Understand that the probability of a chance event is a number between 0 and 1 that expresses the likelihood of the event occurring.",
     "additional_guidance": "",
     "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "60b0703e",
+    "request_id": "fd8b6137",
     "topicInEnglish": "Probability Games",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Introducción a los Juegos de Probabilidad",
+    "title": "Explorando la Probabilidad a través de Juegos",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo de la probabilidad! Hoy aprenderemos cómo predecir resultados explorando juegos como lanzar monedas, tirar dados y jugar con cartas. 🌟",
-        "title": "¡Explorando la Probabilidad!",
+        "content": "¡Bienvenidos! Hoy exploraremos cómo la probabilidad nos ayuda a entender el mundo del azar y las estrategias en juegos. 🌟",
+        "title": "Introducción a la Probabilidad",
         "themes": [
-          "introducción a la probabilidad"
+          "introducción a probabilidad"
         ],
-        "image_search_string": "juegos de probabilidad",
+        "image_search_string": "students playing board games",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La probabilidad es la medida de la posibilidad de que ocurra un evento. Se expresa como un número entre 0 y 1, donde 0 significa que el evento es imposible y 1 significa que es seguro.",
-        "title": "¿Qué es la probabilidad?",
+        "content": "La probabilidad es un número entre 0 y 1 que mide la posibilidad de que ocurra un evento. Por ejemplo:\n\n- **Probabilidad de 0**: Un evento que no puede ocurrir (imposible).\n- **Probabilidad de 1**: Un evento que siempre ocurrirá (seguro).\n- **Probabilidad entre 0 y 1**: Eventos que pueden o no ocurrir (posibles).",
+        "title": "¿Qué es la Probabilidad?",
         "themes": [
-          "definición de probabilidad"
+          "definición de probabilidad",
+          "rango de probabilidad"
         ],
-        "image_search_string": "concepto de probabilidad",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Un ejemplo clásico es lanzar una moneda. Hay dos resultados posibles: cara o cruz. Cada uno tiene la misma probabilidad de ocurrir, que es 1/2 o 50%.",
-        "title": "Ejemplo: Lanzar una moneda",
-        "themes": [
-          "probabilidad de lanzar una moneda"
-        ],
-        "image_search_string": "lanzar una moneda",
+        "image_search_string": "probability scale diagram",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Cuando lanzamos un dado, hay seis caras posibles. La probabilidad de que salga un número específico, como el 3, es 1/6.",
-        "title": "Ejemplo: Tirar un dado",
+        "content": "Podemos calcular la probabilidad utilizando la fórmula:\n\n\\[\nP(A) = \\frac{\\text{Número de resultados favorables}}{\\text{Número total de resultados posibles}}\n\\]\n\nPor ejemplo, al lanzar un dado de seis caras, la probabilidad de sacar un 3 es:\n\n\\[\nP(3) = \\frac{1}{6}\n\\]\n\nEsto se debe a que solo hay un resultado favorable (el 3) y seis resultados posibles en total.",
+        "title": "Cálculo de la Probabilidad",
         "themes": [
-          "probabilidad de tirar un dado"
+          "cálculo de probabilidad",
+          "ejemplo con dados"
         ],
-        "image_search_string": "tirar un dado",
+        "image_search_string": "dice rolling probability",
         "question_types": [
           "ShortForm",
+          "Sort",
           "Match"
-        ]
-      },
-      {
-        "content": "En los juegos de cartas, si usamos una baraja estándar de 52 cartas, la probabilidad de sacar un as es 4/52 o 1/13.",
-        "title": "Ejemplo: Sacar una carta",
-        "themes": [
-          "probabilidad en juegos de cartas"
-        ],
-        "image_search_string": "baraja de cartas",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La probabilidad se calcula como el número de resultados favorables dividido por el número total de resultados posibles. Fórmula: P(evento) = Resultados favorables / Resultados posibles.",
-        "title": "Cómo calcular la probabilidad",
-        "themes": [
-          "cálculo de probabilidad"
-        ],
-        "image_search_string": "fórmula de probabilidad",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Cuando combinamos eventos, como lanzar dos monedas, podemos calcular probabilidades usando tablas o diagramas. Esto nos ayuda a visualizar los posibles resultados.",
-        "title": "Probabilidad de eventos combinados",
-        "themes": [
-          "eventos combinados en probabilidad"
-        ],
-        "image_search_string": "eventos combinados probabilidad",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Los juegos de azar, como la ruleta o los dados, son ejemplos de cómo aplicamos la probabilidad para predecir resultados y entender patrones.",
-        "title": "Probabilidad en juegos de azar",
-        "themes": [
-          "probabilidad en juegos de azar"
-        ],
-        "image_search_string": "juegos de azar probabilidad",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La probabilidad experimental se basa en realizar experimentos y observar los resultados. Por ejemplo, lanzar una moneda 100 veces para observar cuántas veces sale cara.",
-        "title": "Probabilidad experimental",
-        "themes": [
-          "probabilidad experimental"
-        ],
-        "image_search_string": "experimento de probabilidad",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La probabilidad teórica, por otro lado, se calcula sin realizar experimentos, usando solo razonamiento matemático.",
-        "title": "Probabilidad teórica",
-        "themes": [
-          "probabilidad teórica"
-        ],
-        "image_search_string": "cálculo teórico probabilidad",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Comparando la probabilidad experimental y teórica, notamos que los resultados experimentales se acercan a los teóricos al aumentar el número de repeticiones.",
-        "title": "Comparación entre probabilidad experimental y teórica",
-        "themes": [
-          "comparación experimental y teórica"
-        ],
-        "image_search_string": "comparación probabilidad",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "¡Ahora es tu turno! Usa monedas, dados o cartas para realizar tus propios experimentos y calcula las probabilidades. ¡Descubre los patrones por ti mismo!",
-        "title": "¡Explora por ti mismo!",
-        "themes": [
-          "actividades prácticas de probabilidad"
-        ],
-        "image_search_string": "experimentar con probabilidad",
-        "question_types": [
-          "Intro"
         ]
       }
     ],

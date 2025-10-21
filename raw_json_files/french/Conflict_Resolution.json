@@ -1,102 +1,100 @@
 {
   "request": {
-    "lesson_description": "Conflict Resolution: Understanding and Applying Effective Strategies for Resolving Disputes",
-    "exercises_ratio": 0.5,
+    "lesson_description": "Conflict Resolution: Understanding and Managing Disagreements Effectively.",
+    "exercises_ratio": 0.3,
     "grade_level": "8th grade",
-    "estimated_length": 15,
+    "estimated_length": 10,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "4745a72e",
+    "request_id": "2037c782",
     "topicInEnglish": "Conflict Resolution",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Résolution des Conflits : Comprendre et Appliquer des Stratégies Efficaces",
+    "title": "Résolution des conflits : Comprendre et gérer les désaccords efficacement",
     "slides": [
       {
-        "content": "Bienvenue dans cette leçon sur la résolution des conflits ! Aujourd'hui, nous allons explorer comment mieux comprendre et gérer les disputes pour favoriser des relations harmonieuses et respectueuses. 🌟",
-        "title": "Introduction à la Résolution des Conflits",
+        "content": "Bienvenue dans notre leçon sur la résolution des conflits ! 🌟 Aujourd'hui, nous allons découvrir comment comprendre les désaccords et apprendre à les gérer de manière constructive et respectueuse.",
+        "title": "Introduction à la résolution des conflits",
         "themes": [
           "introduction à la résolution des conflits"
         ],
-        "image_search_string": "conflict resolution concept",
+        "image_search_string": "résolution des conflits",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Un conflit est une situation où deux ou plusieurs personnes ont des opinions, des besoins ou des intérêts divergents qui peuvent mener à des désaccords. Ces désaccords peuvent survenir à l'école, à la maison ou dans d'autres contextes.",
-        "title": "Qu'est-ce qu'un Conflit ?",
+        "content": "Un conflit se produit lorsque deux parties ou plus ont des opinions, des besoins ou des intérêts divergents. Les conflits sont naturels et peuvent survenir dans de nombreuses situations, que ce soit à l'école, à la maison ou dans d'autres environnements.",
+        "title": "Qu'est-ce qu'un conflit ?",
         "themes": [
-          "définition de conflit"
+          "définition d'un conflit"
         ],
-        "image_search_string": "disagreement between people",
+        "image_search_string": "définition du conflit",
         "question_types": [
-          "ShortForm",
-          "Match"
+          "ShortForm"
         ]
       },
       {
-        "content": "Les causes des conflits peuvent inclure :\n\n- La mauvaise communication ou des malentendus.\n- Des différences de valeurs ou de croyances.\n- Des besoins ou des désirs incompatibles.\n- Une compétition pour des ressources limitées.\n- Des émotions fortes comme la colère ou la frustration.",
-        "title": "Les Causes des Conflits",
+        "content": "Les causes des conflits incluent :\n- Les différences de valeurs ou de croyances.\n- Les intérêts ou objectifs conflictuels.\n- Les problèmes de communication.\n- Le manque de compréhension ou d'empathie.",
+        "title": "Causes courantes des conflits",
         "themes": [
           "causes des conflits"
         ],
-        "image_search_string": "causes of conflict",
+        "image_search_string": "causes des conflits",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Il existe plusieurs moyens de résoudre les conflits :\n\n1. **Écouter activement** : comprendre les points de vue des autres sans interrompre.\n2. **Communiquer clairement** : exprimer ses sentiments et besoins de manière respectueuse.\n3. **Trouver un terrain d'entente** : chercher des solutions qui conviennent à toutes les parties.\n4. **Faire des compromis** : accepter de céder sur certains points pour arriver à un accord.",
-        "title": "Stratégies pour Résoudre les Conflits",
+        "content": "Pour résoudre un conflit efficacement, il est important de suivre ces étapes :\n1. Identifier les causes du conflit.\n2. Écouter les points de vue de toutes les parties.\n3. Rechercher des solutions communes et satisfaisantes.\n4. Mettre en œuvre la solution choisie et évaluer ses résultats.",
+        "title": "Étapes pour résoudre un conflit",
         "themes": [
-          "stratégies de résolution de conflits"
+          "étapes de résolution des conflits"
         ],
-        "image_search_string": "conflict resolution strategies",
+        "image_search_string": "étapes résolution conflit",
         "question_types": [
-          "ShortForm",
           "Sort",
-          "Match"
+          "ShortForm"
         ]
       },
       {
-        "content": "Voici un exemple :\n\n- Situation : Deux amis veulent utiliser la même tablette à l'école.\n- Résolution : Ils discutent calmement et conviennent de partager le temps d'utilisation à parts égales.",
-        "title": "Exemple de Résolution de Conflit",
+        "content": "Une communication efficace est essentielle pour résoudre les conflits. Cela inclut :\n- Écouter activement sans interrompre.\n- Utiliser des phrases \"je\" pour exprimer ses sentiments.\n- Faire preuve d'empathie envers les autres.",
+        "title": "L'importance de la communication",
         "themes": [
-          "exemple de résolution de conflit"
+          "communication dans les conflits"
         ],
-        "image_search_string": "conflict resolution example",
+        "image_search_string": "communication efficace",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Les bénéfices d'une bonne résolution de conflit incluent :\n\n- Une meilleure compréhension mutuelle.\n- Une amélioration des relations.\n- Une prévention des conflits futurs.\n- Une augmentation de la confiance et du respect.",
-        "title": "Les Avantages d'une Bonne Résolution",
+        "content": "Il existe différents styles de gestion des conflits, notamment :\n- **Collaboratif** : travailler ensemble pour une solution gagnant-gagnant.\n- **Compétitif** : chercher à gagner sans compromis.\n- **Évitant** : ignorer le conflit.\n- **Accommodant** : céder pour maintenir la paix.\n- **Compromettant** : trouver un terrain d'entente.",
+        "title": "Styles de gestion des conflits",
         "themes": [
-          "avantages de la résolution des conflits"
+          "styles de gestion des conflits"
         ],
-        "image_search_string": "benefits of conflict resolution",
+        "image_search_string": "styles gestion conflit",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Grouping",
+          "Match"
         ]
       },
       {
-        "content": "Pour appliquer ces stratégies, rappelez-vous :\n\n- Restez calme et réfléchissez avant d'agir.\n- Soyez ouvert à entendre les autres points de vue.\n- Travaillez ensemble pour trouver des solutions constructives.",
-        "title": "Conseils pour une Bonne Application",
+        "content": "En appliquant une résolution de conflit efficace, les résultats peuvent inclure :\n- Une meilleure compréhension entre les parties.\n- Des relations renforcées.\n- Une réduction du stress et des tensions.\n- Une amélioration de la collaboration et de la productivité.",
+        "title": "Les bénéfices d'une résolution efficace",
         "themes": [
-          "conseils pour appliquer les stratégies"
+          "bénéfices résolution conflits"
         ],
-        "image_search_string": "tips for conflict resolution",
+        "image_search_string": "bénéfices résolution conflits",
         "question_types": [
-          "ShortForm",
-          "Match"
+          "ShortForm"
         ]
       }
     ],

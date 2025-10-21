@@ -1,53 +1,80 @@
-# Lesson name: Développer des Compétences d'Amitié : Empathie, Communication et Résolution de Conflits
+# Lesson name: Comprendre les compétences en amitié : bâtir la confiance, communiquer efficacement et résoudre les conflits
 
 ## Intro
 
-### Introduction aux compétences d'amitié
+### Bienvenue à la leçon
 
-Bienvenue dans cette leçon sur les compétences d'amitié ! Aujourd'hui, nous allons explorer comment développer des relations saines et enrichissantes avec les autres. Préparez-vous à découvrir l'empathie, la communication et la résolution de conflits. 🌟
+Bienvenue dans cette leçon passionnante sur les compétences en amitié ! Aujourd'hui, nous allons explorer comment construire des relations solides et harmonieuses avec nos amis. 🤝
 
 #### **Themes:**
-- introduction à l'empathie et communication
+- introduction à l'amitié
 
 ## Content slide
 
-### Qu'est-ce que l'empathie ?
+### Construire la confiance
 
-L'empathie, c'est la capacité de comprendre et de partager les sentiments d'une autre personne. Voici quelques exemples :
-
-- Écouter attentivement un ami qui parle de ses problèmes.
-- Imaginer ce que ressent quelqu'un dans une situation difficile.
-- Offrir du soutien ou des mots encourageants quand quelqu'un en a besoin.
+La confiance est la base de toute bonne amitié. Elle se construit en étant honnête, en tenant ses promesses et en montrant qu'on est digne de foi. Une bonne communication et le respect des limites de chacun renforcent également la confiance.
 
 #### **Themes:**
-- définition de l'empathie
-- exemples d'empathie
+- importance de la confiance
+- comment bâtir la confiance
 
 ## Content slide
 
-### Les bases de la communication
+### Communiquer efficacement
 
-Une bonne communication est essentielle dans toute relation. Voici quelques conseils pour mieux communiquer :
-
-- Écoutez avant de répondre.
-- Utilisez un ton respectueux et des mots clairs.
-- Posez des questions pour montrer que vous êtes intéressé.
+Une communication efficace est essentielle dans une amitié. Cela inclut écouter attentivement, exprimer ses pensées de manière claire et respectueuse, et éviter les malentendus en posant des questions pour clarifier.
 
 #### **Themes:**
-- importance de la bonne communication
-- conseils pour communiquer
+- écoute active
+- expression claire
 
 ## Content slide
 
 ### Résolution de conflits
 
-Les conflits peuvent survenir même entre amis proches. Voici comment les résoudre :
-
-1. Prenez un moment pour vous calmer si vous êtes en colère.
-2. Parlez calmement et expliquez vos sentiments.
-3. Écoutez l'autre personne et essayez de comprendre son point de vue.
-4. Trouvez ensemble une solution qui satisfait tout le monde.
+Les conflits sont naturels dans toute relation. Pour les résoudre, il est important de rester calme, d'écouter l'autre point de vue, et de chercher une solution qui convient à tous.
 
 #### **Themes:**
-- étapes pour résoudre un conflit
-- importance de comprendre l'autre
+- gestion des conflits
+- trouver des solutions
+
+## Content slide
+
+### Pardonner et demander pardon
+
+Les amis ont parfois des malentendus. Il est crucial de pardonner et de demander pardon pour garder une amitié saine et durable. Cela montre qu'on valorise la relation plus que les désaccords passés.
+
+#### **Themes:**
+- importance du pardon
+- réparation des relations
+
+## Content slide
+
+### Respect des différences
+
+Respecter les différences est essentiel dans une amitié. Chaque ami a ses propres goûts, opinions et valeurs. L'acceptation de ces différences enrichit la relation et évite les jugements.
+
+#### **Themes:**
+- acceptation des différences
+- éviter les jugements
+
+## Content slide
+
+### Créer des souvenirs
+
+Partager des moments ensemble renforce les liens d'amitié. Jouer, discuter ou travailler ensemble permet de créer des souvenirs communs et de mieux se connaître.
+
+#### **Themes:**
+- partager des moments
+- renforcer les liens
+
+## Content slide
+
+### Mettre en pratique les compétences
+
+Les compétences en amitié nécessitent de la pratique. En appliquant ces principes dans vos relations, vous deviendrez un meilleur ami et aiderez vos amitiés à prospérer.
+
+#### **Themes:**
+- pratique des compétences
+- amélioration continue

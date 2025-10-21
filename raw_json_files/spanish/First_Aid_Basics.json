@@ -1,76 +1,112 @@
 {
   "request": {
-    "lesson_description": "First Aid Basics: Recognizing and Responding to Common Injuries and Emergencies.",
-    "exercises_ratio": 0.3,
-    "grade_level": "7th grade",
-    "estimated_length": 30,
-    "learning_standard": "",
+    "lesson_description": "First Aid Basics: Understanding common injuries, how to assess the situation, and basic steps for providing care.",
+    "exercises_ratio": 1.0,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "Next Generation Science Standards (NGSS) MS-LS1-8: Gather and synthesize information that sensory receptors respond to stimuli by sending messages to the brain for immediate behavior or storage as memories.",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "ca93aa63",
+    "request_id": "8ff0551b",
     "topicInEnglish": "First Aid Basics",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Primeros Auxilios: Reconociendo y Respondiendo a Lesiones y Emergencias Comunes",
+    "title": "First Aid Basics: Understanding Common Injuries and Care",
     "slides": [
       {
-        "content": "¡Bienvenidos a una lección sobre primeros auxilios! Aquí aprenderemos a reconocer y responder de manera segura y efectiva a lesiones y emergencias comunes. 🚑",
-        "title": "Introducción a los Primeros Auxilios",
+        "content": "¡Bienvenidos al fascinante mundo de los primeros auxilios! En esta lección, exploraremos cómo identificar y atender lesiones comunes, y cómo nuestros sentidos nos ayudan a responder rápidamente a las emergencias. 🩹",
+        "title": "Introducción a los primeros auxilios",
         "themes": [
-          "introducción a primeros auxilios"
+          "introducción a los primeros auxilios"
         ],
-        "image_search_string": "primeros auxilios básicos",
+        "image_search_string": "first aid basics",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Los primeros auxilios son acciones inmediatas que se toman para ayudar a alguien que ha sufrido una lesión o una emergencia médica antes de que llegue ayuda profesional. Son esenciales para reducir el daño y salvar vidas.",
-        "title": "¿Qué son los Primeros Auxilios?",
+        "content": "Los primeros auxilios son las acciones inmediatas que realizamos para ayudar a alguien que ha sufrido una lesión o enfermedad repentina. Estas acciones pueden salvar vidas y prevenir que la situación empeore.",
+        "title": "¿Qué son los primeros auxilios?",
         "themes": [
           "definición de primeros auxilios"
         ],
-        "image_search_string": "concepto de primeros auxilios",
+        "image_search_string": "first aid definition",
         "question_types": [
           "ShortForm"
         ]
       },
       {
-        "content": "Las emergencias comunes incluyen:\n\n- Cortes y raspaduras.\n- Quemaduras.\n- Asfixia.\n- Golpes o fracturas.\n- Desmayos.\n- Reacciones alérgicas graves.",
-        "title": "Tipos de Emergencias Comunes",
+        "content": "Algunas lesiones comunes que podemos encontrar son:\n- Cortes y raspones: Heridas superficiales que requieren limpieza y protección.\n- Torceduras: Lesiones en los ligamentos causadas por movimientos bruscos.\n- Quemaduras leves: Daños en la piel por calor, químicos o electricidad.",
+        "title": "Lesiones comunes",
         "themes": [
-          "tipos de emergencias comunes"
+          "tipos de lesiones comunes"
         ],
-        "image_search_string": "tipos de emergencias",
+        "image_search_string": "common injuries",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Si te encuentras con una emergencia:\n\n1. Mantén la calma.\n2. Evalúa la seguridad del lugar.\n3. Llama al número de emergencias (por ejemplo, 112 en muchos países).\n4. Proporciona la ayuda necesaria mientras esperas a los servicios de emergencia.",
-        "title": "Pasos Generales en una Emergencia",
+        "content": "Cuando ocurre una emergencia, nuestros sentidos juegan un papel crucial. Los ojos detectan el peligro, los oídos escuchan gritos o señales de alarma, y el tacto puede percibir cambios en la temperatura o textura.",
+        "title": "El papel de los sentidos en emergencias",
         "themes": [
-          "pasos para actuar en emergencias",
-          "llamar a emergencias"
+          "sentidos en emergencias"
         ],
-        "image_search_string": "pasos en emergencias",
+        "image_search_string": "senses in emergencies",
         "question_types": [
-          "Sort",
-          "ShortForm"
+          "ShortForm",
+          "Match"
         ]
       },
       {
-        "content": "El contenido continuará con más detalles específicos sobre el tratamiento de cada tipo de emergencia, asegurando una cobertura completa y educativa del tema.",
-        "title": "Continuación del Contenido",
+        "content": "Antes de brindar ayuda, asegúrate de:\n1. Evaluar la seguridad del lugar para evitar riesgos.\n2. Identificar la gravedad de la lesión o problema.\n3. Llamar a los servicios de emergencia si es necesario.",
+        "title": "Evaluación inicial de la situación",
         "themes": [
-          "avance de la lección"
+          "evaluación de la situación"
         ],
-        "image_search_string": "continuación del tema",
+        "image_search_string": "situation assessment",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Para heridas menores como cortes:\n1. Limpia la herida con agua y jabón.\n2. Aplica presión para detener el sangrado.\n3. Cubre con una venda limpia para protegerla.",
+        "title": "Atención de cortes y raspones",
+        "themes": [
+          "primeros auxilios para heridas menores"
+        ],
+        "image_search_string": "first aid cuts",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Para torceduras:\n1. Descansa la articulación afectada.\n2. Aplica hielo para reducir la hinchazón.\n3. Envuelve con una venda elástica para soporte.",
+        "title": "Atención de torceduras",
+        "themes": [
+          "primeros auxilios para torceduras"
+        ],
+        "image_search_string": "first aid sprains",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "En caso de quemaduras leves:\n1. Enfría la zona afectada bajo agua corriente durante 10 minutos.\n2. Cubre con un apósito limpio y no adhesivo.\n3. Evita romper ampollas.",
+        "title": "Atención de quemaduras leves",
+        "themes": [
+          "primeros auxilios para quemaduras leves"
+        ],
+        "image_search_string": "first aid burns",
+        "question_types": [
+          "ShortForm",
+          "Sort"
         ]
       }
     ],

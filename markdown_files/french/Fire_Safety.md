@@ -1,60 +1,62 @@
-# Lesson name: Fondamentaux de la sécurité incendie
+# Lesson name: Understanding Fire Safety: Causes, Prevention, and Emergency Response
 
 ## Intro
 
-### Qu'est-ce qu'un incendie ?
+### Introduction à la sécurité incendie
 
-Les incendies sont des phénomènes naturels ou artificiels qui surviennent lorsqu'une source de chaleur entre en contact avec un combustible en présence d'oxygène. Pour comprendre les incendies, il est essentiel de connaître le "triangle du feu", qui inclut : le combustible (ce qui brûle), la chaleur (ce qui allume le feu) et l'oxygène (ce qui permet au feu de se développer).
+Bienvenue dans notre leçon sur la sécurité incendie ! Aujourd'hui, nous allons explorer les causes des incendies, comment les prévenir et comment réagir en cas d'urgence. 🔥
 
 #### **Themes:**
-- triangle du feu
-- composants du feu
+- introduction à la sécurité incendie
 
 ## Content slide
 
-### Les causes des incendies
+### Causes des incendies
 
-Le feu peut être causé par plusieurs facteurs, comme des équipements électriques défectueux, des bougies laissées sans surveillance, ou des feux allumés à l'extérieur par temps sec et venteux. Comprendre ces causes permet de mieux les prévenir.
+Les incendies peuvent être causés par des sources variées :
+- Les équipements électriques défectueux.
+- Les bougies ou cigarettes non surveillées.
+- Les feux de cuisine ou de graisse.
+- Les feux d'extérieur mal contrôlés.
 
 #### **Themes:**
-- causes courantes des incendies
+- causes des incendies
+- sources communes d'incendies
 
 ## Content slide
 
-### Stratégies de prévention des incendies
+### Prévention des incendies
 
-Pour prévenir les incendies, il est important de : 1) Éteindre les appareils électriques inutilisés ; 2) Ne jamais laisser des bougies allumées sans surveillance ; 3) Ranger les matériaux inflammables loin des sources de chaleur ; et 4) Installer des détecteurs de fumée et les vérifier régulièrement.
+Pour prévenir les incendies :
+- Éteignez toujours les bougies et cigarettes après usage.
+- Ne laissez pas les appareils électriques en surcharge.
+- Surveillez les feux en cuisine.
+- Rangez les produits inflammables en sécurité.
 
 #### **Themes:**
 - prévention des incendies
-- sécurité domestique
+- mesures de sécurité
 
 ## Content slide
 
-### L'importance des détecteurs de fumée
+### Réagir en cas d'incendie
 
-Les détecteurs de fumée sont des outils essentiels pour détecter la fumée rapidement et donner l'alerte. Ils doivent être installés dans chaque pièce principale d'une maison, testés chaque mois, et leurs piles doivent être remplacées régulièrement.
-
-#### **Themes:**
-- détecteurs de fumée
-- sécurité incendie
-
-## Content slide
-
-### Que faire en cas d'incendie ?
-
-En cas d'incendie, il est crucial de : 1) Garder son calme ; 2) Suivre le plan d'évacuation ; 3) Ne jamais utiliser un ascenseur ; 4) Ramper sous la fumée pour éviter l'inhalation ; et 5) Appeler les services d'urgence dès que possible.
+En cas d'incendie :
+1. Restez calme et ne paniquez pas.
+2. Alertez les pompiers en appelant le 18 ou le 112.
+3. Quittez les lieux rapidement et en sécurité.
+4. Ne retournez jamais dans un bâtiment en feu.
 
 #### **Themes:**
 - réaction en cas d'incendie
-- plan d'évacuation
+- procédures d'urgence
 
 ## Content slide
 
 ### Le rôle des pompiers
 
-Les pompiers jouent un rôle vital dans la lutte contre les incendies et le sauvetage. Ils utilisent des équipements spécialisés, comme des camions d'incendie, des échelles et des tuyaux, pour éteindre les feux et sauver des vies. Leur travail est dangereux mais essentiel.
+Les pompiers jouent un rôle clé dans la sécurité incendie. Ils éteignent les feux, sauvent des vies et sensibilisent au danger des incendies. Leur numéro est le 18 ou le 112 pour les urgences.
 
 #### **Themes:**
 - rôle des pompiers
-- équipements de lutte contre le feu
+- numéros d'urgence

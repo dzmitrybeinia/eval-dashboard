@@ -1,193 +1,135 @@
 {
   "request": {
-    "lesson_description": "Reading Strategies: Understanding main ideas, scanning for key details, and making inferences.",
-    "exercises_ratio": 0.0,
-    "grade_level": "8th grade",
-    "estimated_length": 15,
-    "learning_standard": "",
+    "lesson_description": "Developing reading strategies: Understanding context clues, identifying main ideas, and making inferences.",
+    "exercises_ratio": 1.0,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "CCSS.ELA-LITERACY.RI.6.1: Cite textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "5ce94358",
+    "request_id": "0fbe87c0",
     "topicInEnglish": "Reading Strategies",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Estrategias de Lectura: Comprensión de Ideas Principales y Más",
+    "title": "Developing Reading Strategies: Understanding Context Clues, Identifying Main Ideas, and Making Inferences",
     "slides": [
       {
-        "content": "¡Bienvenidos a una aventura de lectura! Hoy aprenderemos formas especiales de entender mejor lo que leemos. ¡Prepárense para descubrir nuevas estrategias que harán de la lectura algo emocionante! 📚✨",
-        "title": "Introducción a las Estrategias de Lectura",
+        "content": "¡Hola, estudiantes! Hoy vamos a explorar herramientas que nos ayudarán a comprender mejor los textos. Descubriremos cómo usar pistas del contexto, identificar las ideas principales y hacer inferencias para convertirnos en lectores expertos. 📚",
+        "title": "Introducción a las estrategias de lectura",
         "themes": [
-          "Introducción a estrategias de lectura"
+          "introducción a las estrategias de lectura"
         ],
-        "image_search_string": "niños leyendo libros",
+        "image_search_string": "students reading book",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las ideas principales son el corazón de cualquier texto. Estas responden a la pregunta: ¿De qué trata principalmente este texto? Identificar la idea principal te ayuda a comprender el propósito general del autor y a organizar la información de manera más clara.",
-        "title": "¿Qué son las Ideas Principales?",
+        "content": "Las pistas de contexto son palabras o frases en un texto que nos ayudan a entender el significado de palabras desconocidas. Pueden ser sinónimos, antónimos o explicaciones cercanas en el texto. Por ejemplo, en la frase: \"El cielo estaba sombrío y oscuro, como si una tormenta se aproximara\", la palabra 'sombrío' se entiende como 'oscuro' gracias al contexto.",
+        "title": "¿Qué son las pistas de contexto?",
         "themes": [
-          "Definición de ideas principales"
+          "definición de pistas de contexto"
         ],
-        "image_search_string": "idea principal texto",
+        "image_search_string": "context clues example",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para encontrar la idea principal, sigue estos pasos:\n\n1. Lee el título y subtítulos.\n2. Fíjate en las primeras y últimas oraciones de cada párrafo.\n3. Busca palabras o frases que se repitan.\n4. Pregúntate: ¿Qué mensaje está tratando de comunicar el autor?\n\nCon práctica, identificar la idea principal será más sencillo.",
-        "title": "Cómo Identificar la Idea Principal",
+        "content": "Para encontrar pistas de contexto, sigue estos pasos:\n1. Lee la oración completa.\n2. Busca palabras o frases alrededor de la palabra desconocida.\n3. Piensa en el significado general de la oración.\n4. Reemplaza la palabra desconocida con un sinónimo probable y verifica si tiene sentido.",
+        "title": "Cómo identificar pistas de contexto",
         "themes": [
-          "Pasos para identificar ideas principales"
+          "técnicas para identificar pistas de contexto"
         ],
-        "image_search_string": "pasos lectura idea principal",
+        "image_search_string": "context clues strategy",
         "question_types": [
-          "Sort",
-          "ShortForm"
+          "ShortForm",
+          "Sort"
         ]
       },
       {
-        "content": "Los detalles clave son piezas específicas de información que respaldan la idea principal. Estos pueden incluir datos, ejemplos, descripciones o explicaciones que refuercen el mensaje principal del texto.",
-        "title": "¿Qué son los Detalles Clave?",
+        "content": "La idea principal es el concepto más importante de un texto o párrafo. Responde a la pregunta: '¿De qué trata principalmente este texto?' Por ejemplo, en un texto sobre la migración de aves, la idea principal podría ser: 'Las aves migran para buscar climas más cálidos y alimento durante el invierno'.",
+        "title": "¿Qué es la idea principal?",
         "themes": [
-          "Definición de detalles clave"
+          "definición de idea principal"
         ],
-        "image_search_string": "detalles clave texto",
+        "image_search_string": "main idea concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para encontrar detalles clave:\n\n1. Lee detenidamente cada párrafo.\n2. Subraya o anota información que parezca importante.\n3. Relaciona estos detalles con la idea principal para asegurarte de que son relevantes.\n\n¡Recuerda! No todos los detalles son igualmente importantes, enfócate en los que más apoyan la idea principal.",
-        "title": "Cómo Identificar Detalles Clave",
+        "content": "Para identificar la idea principal:\n1. Lee todo el texto o párrafo.\n2. Pregúntate: '¿Cuál es la información más importante aquí?'\n3. Busca en las primeras y últimas oraciones del párrafo, donde frecuentemente se encuentra la idea principal.\n4. Resume el texto en una oración.",
+        "title": "Cómo encontrar la idea principal",
         "themes": [
-          "Pasos para identificar detalles clave"
+          "técnicas para encontrar la idea principal"
         ],
-        "image_search_string": "encontrar detalles clave",
+        "image_search_string": "main idea strategy",
         "question_types": [
-          "Sort",
-          "ShortForm"
+          "ShortForm",
+          "Sort"
         ]
       },
       {
-        "content": "Inferir significa leer entre líneas para encontrar significados ocultos o implícitos en el texto. Esto implica usar pistas del texto y tu propio conocimiento para entender lo que no está dicho directamente.",
-        "title": "¿Qué es Inferir?",
+        "content": "Hacer inferencias significa leer entre líneas. Utilizamos las pistas del texto y nuestro conocimiento previo para entender algo que no se dice directamente. Por ejemplo, si un personaje lleva un paraguas y botas, podemos inferir que está lloviendo, aunque el texto no lo mencione.",
+        "title": "¿Qué son las inferencias?",
         "themes": [
-          "Definición de inferencia"
+          "definición de inferencias"
         ],
-        "image_search_string": "inferencias lectura",
+        "image_search_string": "making inferences",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para hacer inferencias:\n\n1. Lee el texto cuidadosamente.\n2. Busca pistas o información implícita.\n3. Usa tu conocimiento previo para conectar las pistas.\n4. Formula una conclusión lógica basada en la evidencia.\n\nEsta estrategia te ayudará a entender el texto de manera más profunda.",
-        "title": "Cómo Hacer Inferencias",
+        "content": "Para hacer inferencias:\n1. Lee atentamente el texto.\n2. Busca pistas en las palabras y acciones de los personajes o en las descripciones.\n3. Usa tu conocimiento previo para conectar las pistas y deducir información implícita.\n4. Verifica si tu inferencia tiene sentido en el contexto.",
+        "title": "Cómo hacer inferencias",
         "themes": [
-          "Pasos para hacer inferencias"
+          "técnicas para hacer inferencias"
         ],
-        "image_search_string": "pasos hacer inferencias",
+        "image_search_string": "inference strategy",
         "question_types": [
-          "Sort",
-          "ShortForm"
+          "ShortForm",
+          "Sort"
         ]
       },
       {
-        "content": "Comparar y contrastar es una estrategia útil para analizar información. Comparar significa buscar similitudes, mientras que contrastar busca diferencias. Esto te ayuda a entender mejor los conceptos o eventos en un texto.",
-        "title": "Comparar y Contrastar",
+        "content": "Las pistas de contexto, la idea principal y las inferencias están conectadas. Las pistas de contexto nos ayudan a comprender palabras, lo que facilita encontrar la idea principal. Entender la idea principal nos da información clave para hacer inferencias. Todas trabajan juntas para mejorar nuestra comprensión lectora.",
+        "title": "Conexión entre las estrategias",
         "themes": [
-          "Definición de comparar y contrastar"
+          "interrelación de estrategias de lectura"
         ],
-        "image_search_string": "comparar contrastar texto",
+        "image_search_string": "reading comprehension strategies",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Para comparar y contrastar:\n\n1. Identifica los elementos a analizar.\n2. Haz una lista de similitudes y diferencias.\n3. Usa organizadores gráficos como diagramas de Venn para visualizar la información.\n\nEsto te ayudará a organizar mejor tus ideas y comprender relaciones entre conceptos.",
-        "title": "Cómo Comparar y Contrastar",
+        "content": "Practicar estas estrategias es esencial. Lee un texto y busca pistas de contexto para palabras desconocidas, identifica la idea principal y haz una inferencia basada en las pistas y el contenido. Recuerda citar evidencia textual para respaldar tus respuestas, como lo indica el estándar CCSS.ELA-LITERACY.RI.6.1.",
+        "title": "Practicando las estrategias",
         "themes": [
-          "Pasos para comparar y contrastar"
+          "práctica de estrategias de lectura"
         ],
-        "image_search_string": "diagrama de venn lectura",
-        "question_types": [
-          "Sort",
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "El escaneo es una técnica para encontrar información específica rápidamente. Esta estrategia es especialmente útil cuando buscas fechas, nombres, o palabras clave en un texto.",
-        "title": "¿Qué es el Escaneo?",
-        "themes": [
-          "Definición de escaneo en lectura"
-        ],
-        "image_search_string": "escaneo texto lectura",
+        "image_search_string": "reading practice",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Para escanear un texto:\n\n1. Ten claro lo que estás buscando.\n2. Deja que tus ojos se muevan rápidamente por el texto.\n3. Fíjate en palabras clave, números o títulos.\n4. Detente cuando encuentres lo que buscas.\n\n¡El escaneo te ahorra tiempo y esfuerzo!",
-        "title": "Cómo Escanear un Texto",
-        "themes": [
-          "Pasos para escanear un texto"
-        ],
-        "image_search_string": "técnica escaneo lectura",
-        "question_types": [
           "Sort",
-          "ShortForm"
+          "Grouping"
         ]
       },
       {
-        "content": "El resumen consiste en condensar la información principal de un texto en unas pocas oraciones. Es una habilidad importante para retener y transmitir información de manera clara y concisa.",
-        "title": "¿Qué es Resumir?",
+        "content": "¡Excelente trabajo explorando estas estrategias! Usar pistas de contexto, identificar ideas principales y hacer inferencias te permitirá comprender mejor cualquier texto. Sigue practicando estas habilidades para convertirte en un lector experto.",
+        "title": "Conclusión y motivación",
         "themes": [
-          "Definición de resumen en lectura"
+          "resumen y motivación final"
         ],
-        "image_search_string": "resumen lectura texto",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Para hacer un buen resumen:\n\n1. Identifica la idea principal y los detalles clave.\n2. Escribe las ideas en tus propias palabras.\n3. Omite información innecesaria o repetitiva.\n\nUn resumen efectivo te ayuda a entender y recordar lo que has leído.",
-        "title": "Cómo Hacer un Resumen",
-        "themes": [
-          "Pasos para resumir"
-        ],
-        "image_search_string": "escribir resumen claro",
-        "question_types": [
-          "Sort",
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Practicar regularmente estas estrategias te hará un lector más eficiente. Intenta aplicarlas en diferentes tipos de textos como cuentos, artículos, y ensayos. Con el tiempo, te sentirás más seguro y disfrutarás más de la lectura.",
-        "title": "La Importancia de Practicar",
-        "themes": [
-          "Importancia de practicar estrategias"
-        ],
-        "image_search_string": "practicar lectura estrategias",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "¡Ahora estás listo para aplicar lo aprendido! Recuerda: identificar ideas principales, buscar detalles clave, hacer inferencias y usar estrategias como el escaneo y el resumen te convertirán en un experto lector. ¡Sigue practicando y explorando el mundo de la lectura! 📖",
-        "title": "Conclusión y Motivación",
-        "themes": [
-          "Conclusión sobre estrategias de lectura"
-        ],
-        "image_search_string": "lectura motivación éxito",
+        "image_search_string": "students celebrating learning",
         "question_types": [
           "Intro"
         ]

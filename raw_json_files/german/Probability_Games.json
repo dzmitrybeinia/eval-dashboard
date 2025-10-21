@@ -1,25 +1,25 @@
 {
   "request": {
-    "lesson_description": "Probability Games: Understanding basic probability concepts through simple games and real-life scenarios.",
-    "exercises_ratio": 0.2,
-    "grade_level": "6th grade",
-    "estimated_length": 30,
-    "learning_standard": "CCSS.MATH.CONTENT.6.SP.A.3: Recognize that a measure of center for a numerical data set summarizes all of its values with a single number, while a measure of variation describes how its values vary using probability concepts.",
+    "lesson_description": "Probability Games: Exploring chance through dice rolls, coin flips, and card draws.",
+    "exercises_ratio": 0.8,
+    "grade_level": "7th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "8b82573f",
+    "request_id": "3137e9a9",
     "topicInEnglish": "Probability Games",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Wahrscheinlichkeits-Spiele: Einführung in die Grundlagen der Wahrscheinlichkeit",
+    "title": "Wahrscheinlichkeitsberechnung mit Spielen",
     "slides": [
       {
-        "content": "Herzlich willkommen zu unserer spannenden Reise in die Welt der Wahrscheinlichkeiten! 🎲 Heute werden wir anhand von Spielen und alltäglichen Situationen lernen, wie man Chancen berechnet und versteht.",
-        "title": "Einführung in die Wahrscheinlichkeits-Spiele",
+        "content": "Herzlich willkommen zu einer spannenden Reise in die Welt der Wahrscheinlichkeiten! 🎲 Heute werden wir untersuchen, wie Zufall und Wahrscheinlichkeit in alltäglichen Spielen wie Würfeln, Münzwurf und Kartenziehen eine Rolle spielen.",
+        "title": "Einführung in die Wahrscheinlichkeit",
         "themes": [
-          "Einführung in Wahrscheinlichkeiten"
+          "Einführung in die Wahrscheinlichkeit"
         ],
         "image_search_string": "probability games",
         "question_types": [
@@ -27,65 +27,56 @@
         ]
       },
       {
-        "content": "Wahrscheinlichkeit ist ein Konzept, das uns hilft zu verstehen, wie wahrscheinlich es ist, dass ein bestimmtes Ereignis eintritt. Sie wird oft in Prozent, Brüchen oder Dezimalzahlen ausgedrückt.",
-        "title": "Was ist Wahrscheinlichkeit?",
+        "content": "Ein Würfel hat sechs Seiten, nummeriert von 1 bis 6. Wenn wir einen Würfel werfen, hat jede Seite die gleiche Wahrscheinlichkeit, oben zu landen: 1/6. Das bedeutet, dass jede Zahl eine Wahrscheinlichkeit von 16,67% hat.",
+        "title": "Wahrscheinlichkeit beim Würfeln",
         "themes": [
-          "Definition von Wahrscheinlichkeit"
+          "Würfelwahrscheinlichkeit",
+          "Gleiche Wahrscheinlichkeiten"
         ],
-        "image_search_string": "probability concept",
+        "image_search_string": "dice roll probability",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Ein Ereignis ist ein Ergebnis oder eine Gruppe von Ergebnissen, die bei einem Experiment auftreten können. Zum Beispiel ist das Werfen eines Würfels ein Experiment, und die Zahl 6 zu würfeln ist ein Ereignis.",
-        "title": "Was ist ein Ereignis?",
+        "content": "Beim Münzwurf gibt es zwei mögliche Ergebnisse: Kopf oder Zahl. Da beide gleich wahrscheinlich sind, beträgt die Wahrscheinlichkeit für jedes Ergebnis 1/2 oder 50%. Ein Münzwurf ist ein klassisches Beispiel für ein Experiment mit nur zwei Ergebnissen.",
+        "title": "Wahrscheinlichkeit beim Münzwurf",
         "themes": [
-          "Definition eines Ereignisses"
+          "Münzwurfwahrscheinlichkeit",
+          "Zwei mögliche Ergebnisse"
         ],
-        "image_search_string": "dice rolling event",
+        "image_search_string": "coin flip probability",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Man unterscheidet zwischen sicheren, unmöglichen und wahrscheinlichen Ereignissen: - Sicheres Ereignis: Es wird immer passieren. - Unmögliches Ereignis: Es wird nie passieren. - Wahrscheinliches Ereignis: Es könnte passieren, ist aber nicht garantiert.",
-        "title": "Arten von Ereignissen",
+        "content": "Ein Standardkartenspiel besteht aus 52 Karten, aufgeteilt in 4 Farben (Kreuz, Pik, Herz, Karo) mit je 13 Karten. Wenn Sie eine Karte ziehen, beträgt die Wahrscheinlichkeit, eine bestimmte Karte (z. B. Pik-Ass) zu ziehen, 1/52.",
+        "title": "Wahrscheinlichkeit beim Kartenziehen",
         "themes": [
-          "Arten von Ereignissen"
+          "Kartenziehwahrscheinlichkeit",
+          "Zufällige Auswahl"
         ],
-        "image_search_string": "certainty probability",
+        "image_search_string": "card draw probability",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Wahrscheinlichkeiten werden oft in Prozent, Brüchen oder Dezimalzahlen ausgedrückt. Zum Beispiel entspricht eine Wahrscheinlichkeit von 1/2 50% oder 0,5. Diese verschiedenen Darstellungen sind nützlich, je nachdem, wie wir die Wahrscheinlichkeit anwenden.",
+        "title": "Darstellung von Wahrscheinlichkeiten",
+        "themes": [
+          "Darstellung von Wahrscheinlichkeiten",
+          "Prozent und Brüche"
+        ],
+        "image_search_string": "probability representation",
         "question_types": [
           "ShortForm",
           "Match",
           "Grouping"
-        ]
-      },
-      {
-        "content": "Die Wahrscheinlichkeit eines Ereignisses kann berechnet werden, indem man die Anzahl der günstigen Ergebnisse durch die Gesamtanzahl der möglichen Ergebnisse teilt. Beispiel: Die Wahrscheinlichkeit, eine 6 zu würfeln, ist 1/6.",
-        "title": "Wie berechnet man Wahrscheinlichkeit?",
-        "themes": [
-          "Berechnung von Wahrscheinlichkeit"
-        ],
-        "image_search_string": "probability calculation",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Zufallsversuche sind Experimente, bei denen das Ergebnis nicht vorhergesagt werden kann. Beispiele sind das Werfen eines Würfels oder das Ziehen einer Karte aus einem Kartenspiel.",
-        "title": "Was sind Zufallsversuche?",
-        "themes": [
-          "Definition von Zufallsversuchen"
-        ],
-        "image_search_string": "random experiment",
-        "question_types": [
-          "ShortForm",
-          "Match"
         ]
       }
     ],

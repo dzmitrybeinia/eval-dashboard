@@ -1,50 +1,74 @@
 {
   "request": {
-    "lesson_description": "Understanding persuasive writing: crafting compelling arguments, identifying target audience, and using rhetorical devices effectively.",
+    "lesson_description": "Persuasive Writing: Crafting compelling arguments through clear claims, logical reasoning, and relevant evidence.",
     "exercises_ratio": 0.2,
     "grade_level": "9th grade",
-    "estimated_length": 15,
+    "estimated_length": 10,
     "learning_standard": "CCSS.ELA-LITERACY.W.9-10.1: Write arguments to support claims with clear reasons and relevant evidence.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "d880e6a2",
+    "request_id": "7e7c91cf",
     "topicInEnglish": "Persuasive Writing",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Comprendre l’écriture persuasive : construire des arguments convaincants",
+    "title": "Persuasive Writing: Crafting Compelling Arguments",
     "slides": [
       {
-        "content": "L'écriture persuasive est un type de communication qui vise à convaincre le lecteur d'adopter une certaine opinion ou d'agir d'une certaine manière. Elle repose sur l'utilisation d'arguments logiques, d'exemples pertinents et souvent d'éléments émotionnels pour influencer son audience.",
+        "content": "Bienvenue dans le monde de l'écriture persuasive ! 🌟 Aujourd'hui, nous allons découvrir comment présenter des arguments convaincants en utilisant des idées claires, une logique solide et des preuves pertinentes.",
         "title": "Introduction à l'écriture persuasive",
         "themes": [
-          "introduction à l'écriture persuasive"
+          "Introduction à l'écriture persuasive"
         ],
-        "image_search_string": "persuasive writing concept",
+        "image_search_string": "persuasive writing",
         "question_types": [
-          "ShortForm"
+          "Intro"
         ]
       },
       {
-        "content": "Pour écrire de manière persuasive, il est essentiel de bien comprendre son public cible. Connaître les valeurs, les besoins et les préoccupations de votre audience permet d'adapter vos arguments pour qu'ils soient plus efficaces.",
-        "title": "Comprendre le public cible",
+        "content": "L'écriture persuasive consiste à convaincre le lecteur d'adopter un point de vue ou d'agir d'une certaine manière. Cela repose sur trois éléments clés : des revendications claires, un raisonnement logique et des preuves pertinentes.",
+        "title": "Qu'est-ce que l'écriture persuasive ?",
         "themes": [
-          "importance de comprendre le public cible"
+          "Définition de l'écriture persuasive"
         ],
-        "image_search_string": "understanding audience",
+        "image_search_string": "convincing argument",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Un argument convaincant repose sur trois piliers :\n1. **Logos** (logique) : des raisons claires et des preuves solides.\n2. **Pathos** (émotion) : susciter des émotions pour toucher le lecteur.\n3. **Ethos** (crédibilité) : établir votre autorité et votre fiabilité.",
-        "title": "Les trois piliers de l'argumentation persuasive",
+        "content": "Une revendication est une déclaration ou une position que l'auteur défend dans son texte. Elle doit être claire et précise pour que le lecteur comprenne immédiatement le point de vue de l'auteur.",
+        "title": "Comprendre les revendications",
         "themes": [
-          "logos pathos ethos"
+          "Définition des revendications"
         ],
-        "image_search_string": "logos pathos ethos",
+        "image_search_string": "clear statement",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Le raisonnement logique est le processus qui relie la revendication aux preuves. Il doit être structuré et cohérent pour renforcer la crédibilité de l'argument.",
+        "title": "Raisonnement logique",
+        "themes": [
+          "Importance du raisonnement logique"
+        ],
+        "image_search_string": "logical reasoning",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les preuves sont des faits, des statistiques, des témoignages ou des exemples qui soutiennent la revendication. Elles doivent être pertinentes et fiables pour renforcer l'argument.",
+        "title": "L'importance des preuves",
+        "themes": [
+          "Rôle des preuves dans l'argumentation"
+        ],
+        "image_search_string": "relevant evidence",
         "question_types": [
           "ShortForm",
           "Match",
@@ -52,24 +76,12 @@
         ]
       },
       {
-        "content": "Pour captiver votre audience, utilisez des techniques comme :\n- Poser des questions rhétoriques.\n- Employer des anecdotes engageantes.\n- Répéter des phrases clés pour renforcer votre message.\n- Utiliser des métaphores et des comparaisons.",
-        "title": "Techniques pour captiver l’audience",
+        "content": "Il existe plusieurs stratégies pour organiser une argumentation persuasive, telles que l'appel à la logique, l'émotion ou l'éthique. Chaque approche peut être utilisée selon le public visé.",
+        "title": "Stratégies d'argumentation",
         "themes": [
-          "techniques pour captiver l'audience"
+          "Stratégies pour construire des arguments"
         ],
-        "image_search_string": "rhetorical devices examples",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Un argument efficace est soutenu par des preuves solides, comme :\n- Des statistiques.\n- Des témoignages.\n- Des exemples concrets.\n- Des citations d'experts.",
-        "title": "Soutenir ses arguments avec des preuves",
-        "themes": [
-          "types de preuves pour argumentation"
-        ],
-        "image_search_string": "evidence for arguments",
+        "image_search_string": "argument strategies",
         "question_types": [
           "ShortForm",
           "Match",
@@ -77,86 +89,27 @@
         ]
       },
       {
-        "content": "L'organisation d'un texte persuasif est cruciale. Suivez cette structure :\n1. Introduction : présentez votre sujet et votre thèse.\n2. Corps : développez vos arguments, un par paragraphe.\n3. Conclusion : résumez vos points et terminez avec un appel à l'action.",
-        "title": "Structure d’un texte persuasif",
+        "content": "Lorsque vous rédigez un texte persuasif, commencez par une introduction captivante, développez vos arguments dans le corps du texte, et terminez par une conclusion percutante.",
+        "title": "Structure d'un texte persuasif",
         "themes": [
-          "structure d'un texte persuasif"
+          "Organisation d'une argumentation"
         ],
-        "image_search_string": "persuasive essay structure",
+        "image_search_string": "text structure",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "Dans l'introduction, captez l'attention avec un 'hook' (accroche) fort, comme une question intrigante ou un fait surprenant. Ensuite, présentez brièvement votre sujet et énoncez votre thèse.",
-        "title": "Rédiger une introduction percutante",
+        "content": "Pratiquez en rédigeant votre propre argumentation sur un sujet qui vous passionne. Utilisez des revendications claires, un raisonnement logique et des preuves pertinentes pour convaincre votre lecteur.",
+        "title": "Mise en pratique",
         "themes": [
-          "écrire une introduction persuasive"
+          "Exercice d'écriture persuasive"
         ],
-        "image_search_string": "writing a strong introduction",
+        "image_search_string": "writing practice",
         "question_types": [
           "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Chaque paragraphe du corps doit :\n- Introduire un argument principal.\n- Fournir des preuves ou des exemples.\n- Expliquer comment cela soutient votre thèse.",
-        "title": "Développer le corps du texte",
-        "themes": [
-          "structurer le corps du texte"
-        ],
-        "image_search_string": "writing body paragraphs",
-        "question_types": [
-          "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Une conclusion efficace :\n- Récapitule les points principaux.\n- Renforce la thèse.\n- Termine par un appel à l'action ou une pensée marquante.",
-        "title": "Conclure votre texte persuasif",
-        "themes": [
-          "rédiger une conclusion persuasive"
-        ],
-        "image_search_string": "persuasive conclusion",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les erreurs courantes à éviter incluent :\n- Des arguments non fondés ou vagues.\n- Ignorer les contre-arguments.\n- Ne pas adapter le ton au public.\n- Une structure confuse ou désorganisée.",
-        "title": "Erreurs à éviter dans l’écriture persuasive",
-        "themes": [
-          "erreurs courantes en écriture persuasive"
-        ],
-        "image_search_string": "common writing mistakes",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "L’écriture persuasive peut être utilisée dans divers contextes :\n- Écrire une lettre ouverte.\n- Rédiger un discours.\n- Préparer une publicité.\n- Composer un essai argumentatif.",
-        "title": "Applications pratiques de l’écriture persuasive",
-        "themes": [
-          "applications de l'écriture persuasive"
-        ],
-        "image_search_string": "persuasive writing applications",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Pour maîtriser l'écriture persuasive, pratiquez régulièrement :\n- Analysez des exemples d’écrits persuasifs.\n- Rédigez vos propres textes.\n- Demandez des retours pour vous améliorer.",
-        "title": "Pratiquer pour s’améliorer",
-        "themes": [
-          "pratique pour améliorer l'écriture persuasive"
-        ],
-        "image_search_string": "practice persuasive writing",
-        "question_types": [
-          "ShortForm"
+          "Match"
         ]
       }
     ],

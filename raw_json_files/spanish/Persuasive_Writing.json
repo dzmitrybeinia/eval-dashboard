@@ -1,87 +1,54 @@
 {
   "request": {
-    "lesson_description": "Understanding persuasive writing: Identifying techniques such as ethos, pathos, and logos, and crafting compelling arguments.",
-    "exercises_ratio": 0.6,
-    "grade_level": "9th grade",
-    "estimated_length": 15,
-    "learning_standard": "CCSS.ELA-LITERACY.W.9-10.1: Write arguments to support claims with clear reasons and relevant evidence.",
+    "lesson_description": "The art of persuasive writing: Crafting compelling arguments using ethos, pathos, and logos.",
+    "exercises_ratio": 0.8,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "CCSS.ELA-LITERACY.W.8.1: Write arguments to support claims with clear reasons and relevant evidence.",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "b7f2e7d3",
+    "request_id": "430868b9",
     "topicInEnglish": "Persuasive Writing",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Comprendiendo la escritura persuasiva",
+    "title": "The Art of Persuasive Writing: Ethos, Pathos, and Logos",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy exploraremos cómo escribir de manera persuasiva, aprendiendo sobre técnicas como ethos, pathos y logos. ¡Prepárense para descubrir cómo crear argumentos convincentes! 😊",
+        "content": "¡Bienvenidos! Hoy vamos a aprender cómo escribir argumentos persuasivos utilizando estrategias efectivas como el ethos, pathos y logos. 🌟 Aprenderemos a capturar la atención de nuestros lectores y a defender nuestras ideas con claridad y fuerza.",
         "title": "Introducción a la escritura persuasiva",
         "themes": [
-          "introducción a la escritura persuasiva"
+          "introducción a la persuasión"
         ],
-        "image_search_string": "escritura persuasiva",
+        "image_search_string": "persuasive writing concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La escritura persuasiva busca convencer al lector sobre un punto de vista o acción. Utiliza argumentos sólidos, evidencia clara y apela a las emociones, la lógica y la credibilidad para lograr su objetivo.",
+        "content": "La escritura persuasiva busca convencer al lector de aceptar un punto de vista o realizar una acción. Esto se logra a través de argumentos claros, razones sólidas y evidencias relevantes. Es importante estructurar nuestras ideas de manera lógica y conectar emocionalmente con el lector.",
         "title": "¿Qué es la escritura persuasiva?",
         "themes": [
           "definición de escritura persuasiva"
         ],
-        "image_search_string": "persuasion writing concept",
+        "image_search_string": "persuasive writing example",
         "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Aristóteles definió tres modos principales de persuasión: \n\n- **Ethos**: Apela a la credibilidad o ética del autor.\n- **Pathos**: Apela a las emociones del lector.\n- **Logos**: Utiliza la lógica y razonamiento.",
-        "title": "Los tres pilares de la persuasión",
-        "themes": [
-          "ethos pathos logos"
-        ],
-        "image_search_string": "ethos pathos logos",
-        "question_types": [
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Para escribir un argumento persuasivo efectivo:\n\n1. Define claramente tu posición.\n2. Apoya tu posición con evidencia relevante.\n3. Usa ethos, pathos y logos estratégicamente.\n4. Dirige tus argumentos a tu audiencia específica.",
-        "title": "Pasos para argumentos persuasivos",
-        "themes": [
-          "pasos para escribir persuasivamente"
-        ],
-        "image_search_string": "writing persuasive steps",
-        "question_types": [
-          "Sort",
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Algunas técnicas comunes en la escritura persuasiva incluyen:\n\n- Uso de estadísticas para respaldar argumentos (logos).\n- Historias personales para conectar emocionalmente (pathos).\n- Citar expertos para establecer credibilidad (ethos).\n\nEstas técnicas refuerzan el impacto del mensaje.",
-        "title": "Técnicas comunes de persuasión",
-        "themes": [
-          "técnicas de persuasión"
-        ],
-        "image_search_string": "persuasive writing techniques",
-        "question_types": [
-          "Grouping",
+          "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La práctica es clave para dominar la escritura persuasiva. Intenta escribir un argumento breve sobre un tema que te interese. Usa ethos, pathos y logos, y revisa si lograste convencer a tu lector.",
-        "title": "Practicando la escritura persuasiva",
+        "content": "Aristóteles identificó tres pilares para persuadir: \n1. **Ethos**: Credibilidad del autor. \n2. **Pathos**: Apelar a las emociones del lector. \n3. **Logos**: Uso de la lógica y razones claras. \nUtilizar estos elementos de manera equilibrada fortalece cualquier argumento.",
+        "title": "Ethos, Pathos y Logos",
         "themes": [
-          "práctica de escritura persuasiva"
+          "conceptos de ethos, pathos y logos"
         ],
-        "image_search_string": "practice writing",
+        "image_search_string": "ethos pathos logos diagram",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       }
     ],

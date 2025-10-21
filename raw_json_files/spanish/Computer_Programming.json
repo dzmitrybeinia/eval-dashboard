@@ -1,62 +1,50 @@
 {
   "request": {
-    "lesson_description": "Introduction to Python programming: Understanding variables, data types, and basic input/output.",
-    "exercises_ratio": 1.0,
-    "grade_level": "9th grade",
-    "estimated_length": 10,
-    "learning_standard": "",
+    "lesson_description": "Introduction to basic programming concepts: variables, data types, and control structures.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
+    "estimated_length": 25,
+    "learning_standard": "CSTA K-12 Computer Science Standards: 2-AP-11 - Create clearly named variables that represent different data types and perform operations on their values.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "b5664abe",
+    "request_id": "6bab4a0b",
     "topicInEnglish": "Computer Programming",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Introducción a la programación en Python",
+    "title": "Introduction to Basic Programming Concepts",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo de la programación con Python! Aprenderemos cómo manejar variables, tipos de datos y cómo interactuar con nuestro programa usando entradas y salidas. 🌟",
-        "title": "¡Comencemos con Python!",
+        "content": "¡Bienvenidos a una aventura en el mundo de la programación! 🌟 Hoy comenzaremos a explorar conceptos fundamentales que son la base de cualquier programa: variables, tipos de datos y estructuras de control. ¡Prepárate para descubrir cómo los programadores dan vida a sus ideas!",
+        "title": "¡Comencemos con la programación!",
         "themes": [
-          "introducción a Python"
+          "Introducción a la programación"
         ],
-        "image_search_string": "programming Python basics",
+        "image_search_string": "programming introduction",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Python es un lenguaje de programación de alto nivel, conocido por su simplicidad y legibilidad. Es ampliamente utilizado en áreas como desarrollo web, ciencia de datos, inteligencia artificial y más.",
-        "title": "¿Qué es Python?",
+        "content": "En programación, una **variable** es un espacio de memoria que almacenamos para guardar un valor. Por ejemplo, puedes usar una variable para guardar tu nombre, como \"nombre = 'Juan'\". Las variables tienen nombres únicos que las identifican en el código.",
+        "title": "¿Qué es una variable?",
         "themes": [
-          "definición de Python"
+          "Definición de variable"
         ],
-        "image_search_string": "Python programming",
+        "image_search_string": "variable concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Las variables son contenedores que almacenan valores. En Python, no necesitas declarar el tipo de variable antes de usarla, lo que lo hace dinámico. Ejemplo:\n\n```python\nmi_variable = 42\nmi_texto = \"Hola, mundo!\"\n```",
-        "title": "Variables en Python",
+        "content": "Existen diferentes **tipos de datos** que podemos almacenar en las variables. Los más comunes son:\n\n- **Texto (String):** Por ejemplo, \"Hola Mundo\".\n- **Números enteros (Int):** Como 10, -3, 0.\n- **Números decimales (Float):** Como 3.14, -0.5.\n- **Booleanos:** Verdadero (True) o Falso (False).\n\nCada tipo de dato se usa para una finalidad específica.",
+        "title": "Tipos de datos en programación",
         "themes": [
-          "concepto de variables"
+          "Tipos de datos en variables"
         ],
-        "image_search_string": "Python variables example",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "En Python, los tipos de datos más comunes incluyen:\n- **int**: números enteros (e.g., 5, -10)\n- **float**: números decimales (e.g., 3.14, -0.001)\n- **str**: cadenas de texto (e.g., \"Hola\")\n- **bool**: valores booleanos (e.g., True, False)",
-        "title": "Tipos de datos básicos",
-        "themes": [
-          "tipos de datos en Python"
-        ],
-        "image_search_string": "Python data types",
+        "image_search_string": "data types programming",
         "question_types": [
           "ShortForm",
           "Match",
@@ -64,73 +52,28 @@
         ]
       },
       {
-        "content": "Puedes usar la función `print()` para mostrar información en la pantalla. Ejemplo:\n\n```python\nprint(\"¡Hola, mundo!\")\n```\nEsto mostrará: `¡Hola, mundo!`",
-        "title": "Salida de datos con print()",
+        "content": "Las estructuras de control permiten que un programa tome decisiones o repita acciones. Las principales son:\n\n1. **Condicionales (if, else):** Permiten ejecutar código basado en condiciones.\n2. **Bucles (for, while):** Repiten una acción varias veces según una regla.",
+        "title": "Estructuras de control",
         "themes": [
-          "función print en Python"
+          "Concepto de estructuras de control"
         ],
-        "image_search_string": "Python print function",
+        "image_search_string": "control structures programming",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Para recibir entrada del usuario, usamos la función `input()`. Ejemplo:\n\n```python\nnombre = input(\"¿Cómo te llamas?\")\nprint(\"Hola, \" + nombre)\n```\nEsto pedirá al usuario su nombre y luego saludará.",
-        "title": "Entrada de datos con input()",
+        "content": "Un ejemplo de condicional en Python:\n```python\nedad = 18\nif edad >= 18:\n    print(\"Eres mayor de edad\")\nelse:\n    print(\"Eres menor de edad\")\n```\nAquí, el programa verifica si la variable `edad` es mayor o igual a 18 y elige qué mensaje mostrar.",
+        "title": "Ejemplo de condicional",
         "themes": [
-          "función input en Python"
+          "Ejemplo práctico de condicional"
         ],
-        "image_search_string": "Python input function",
+        "image_search_string": "conditional statement code",
         "question_types": [
           "ShortForm",
           "Match"
-        ]
-      },
-      {
-        "content": "En Python, puedes convertir entre tipos de datos usando funciones como `int()`, `float()`, y `str()`. Ejemplo:\n\n```python\nedad = input(\"¿Cuántos años tienes?\")\nedad = int(edad)\n```",
-        "title": "Conversión de tipos de datos",
-        "themes": [
-          "conversión de datos"
-        ],
-        "image_search_string": "Python type conversion",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Las cadenas de texto se pueden manipular fácilmente en Python. Ejemplo de concatenación:\n\n```python\nsaludo = \"Hola\" + \" \" + \"Mundo\"\nprint(saludo)\n```",
-        "title": "Manipulación de cadenas",
-        "themes": [
-          "cadenas en Python"
-        ],
-        "image_search_string": "Python string manipulation",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Es importante comentar tu código para hacerlo más comprensible. En Python, usamos el símbolo `#` para comentarios de una línea. Ejemplo:\n\n```python\n# Esto es un comentario\na = 5  # Asignamos 5 a la variable a\n```",
-        "title": "Comentarios en Python",
-        "themes": [
-          "comentarios en Python"
-        ],
-        "image_search_string": "Python comments example",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "¡Felicidades! Ahora tienes una base sólida sobre variables, tipos de datos y entrada/salida en Python. ¡Es hora de practicar y crear tus propios programas!",
-        "title": "Resumen y motivación",
-        "themes": [
-          "resumen de conceptos"
-        ],
-        "image_search_string": "Python programming basics",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

@@ -1,141 +1,65 @@
 {
   "request": {
-    "lesson_description": "Understanding Digital Etiquette: Best Practices for Online Communication and Responsible Internet Use.",
-    "exercises_ratio": 1.0,
+    "lesson_description": "Understanding digital etiquette: Exploring best practices for online communication, managing privacy, and respecting digital boundaries.",
+    "exercises_ratio": 0.6,
     "grade_level": "8th grade",
     "estimated_length": 10,
-    "learning_standard": "ISTE Standards for Students: Digital Citizenship - Students recognize the rights, responsibilities, and opportunities of living, learning, and working in an interconnected digital world, and they act in ways that are safe, legal, and ethical.",
+    "learning_standard": "ISTE Standards for Students: Digital Citizen - Students recognize the rights, responsibilities, and opportunities of living, learning, and working in an interconnected digital world.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "1d1fa32b",
+    "request_id": "4f94b099",
     "topicInEnglish": "Digital Etiquette",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Digitale Etikette: Best Practices für Online-Kommunikation",
+    "title": "Digitale Etikette verstehen: Beste Praktiken für Online-Kommunikation",
     "slides": [
       {
-        "content": "Willkommen zu unserer Lektion über digitale Etikette! Heute lernen wir, wie wir respektvoll und verantwortungsbewusst online kommunizieren können. 🌐",
-        "title": "Einführung in digitale Etikette",
+        "content": "Willkommen zu unserer Lektion über digitale Etikette! 🌐 Heute lernen wir, wie wir respektvoll und sicher in der digitalen Welt kommunizieren können. Lasst uns gemeinsam entdecken, wie wir unsere Privatsphäre schützen, digitale Grenzen respektieren und die besten Kommunikationspraktiken anwenden können.",
+        "title": "Einführung in die digitale Etikette",
         "themes": [
           "Einführung in digitale Etikette"
         ],
-        "image_search_string": "online communication etiquette",
+        "image_search_string": "digital communication concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Digitale Etikette bedeutet, sich im Internet respektvoll, höflich und verantwortungsbewusst zu verhalten. Es betrifft, wie wir Nachrichten schreiben, Inhalte teilen und mit anderen interagieren.",
+        "content": "Digitale Etikette bezeichnet die Verhaltensregeln und sozialen Normen, die für Online-Kommunikation und Interaktionen gelten. Sie hilft uns, respektvoll, höflich und effektiv miteinander zu kommunizieren, unabhängig davon, ob wir eine E-Mail schreiben, in sozialen Medien posten oder in einem Online-Meeting sprechen.",
         "title": "Was ist digitale Etikette?",
         "themes": [
           "Definition digitale Etikette"
         ],
-        "image_search_string": "digital etiquette concept",
+        "image_search_string": "online etiquette rules",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "1. Verwenden Sie eine höfliche Sprache.\n2. Teilen Sie nur Inhalte, die wahr und angemessen sind.\n3. Respektieren Sie die Privatsphäre anderer online.\n4. Antworten Sie zeitnah auf Nachrichten, wenn möglich.",
-        "title": "Grundregeln der digitalen Kommunikation",
+        "content": "Zu den besten Praktiken für Online-Kommunikation gehören:\n- Höflichkeit und Respekt gegenüber anderen.\n- Vermeidung von Caps Lock, um Schreien zu vermeiden.\n- Klare und präzise Ausdrucksweise.\n- Vermeidung von Spam und irrelevanten Nachrichten.\n- Nutzung von Emojis und Abkürzungen in angemessener Weise.",
+        "title": "Beste Praktiken für Online-Kommunikation",
         "themes": [
-          "Grundregeln für Online-Kommunikation"
+          "Online-Kommunikationspraktiken"
         ],
-        "image_search_string": "online communication rules",
+        "image_search_string": "online communication tips",
         "question_types": [
           "ShortForm",
-          "Sort",
           "Grouping"
         ]
       },
       {
-        "content": "Ein respektvoller Umgang online fördert ein positives Umfeld. Negative Kommentare oder Cybermobbing können dagegen schädlich sein und andere verletzen.",
-        "title": "Warum ist digitale Etikette wichtig?",
+        "content": "Der Schutz der Privatsphäre im digitalen Raum ist entscheidend. Hier einige Tipps:\n- Verwende starke Passwörter und ändere sie regelmäßig.\n- Teile keine persönlichen Informationen öffentlich.\n- Achte auf die Datenschutzeinstellungen in sozialen Medien.\n- Sei vorsichtig bei der Weitergabe von Informationen an unbekannte Personen oder Websites.",
+        "title": "Privatsphäre online schützen",
         "themes": [
-          "Bedeutung von digitaler Etikette"
+          "Schutz der digitalen Privatsphäre"
         ],
-        "image_search_string": "importance of online respect",
+        "image_search_string": "online privacy protection",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Einige Beispiele für schlechte digitale Etikette sind:\n- Beleidigungen oder unhöfliche Kommentare\n- Verbreitung falscher Informationen\n- Ignorieren von Nachrichten absichtlich\n- Teilen von privaten Informationen ohne Zustimmung",
-        "title": "Beispiele für schlechte digitale Etikette",
-        "themes": [
-          "Beispiele für schlechte Etikette"
-        ],
-        "image_search_string": "bad online behavior",
-        "question_types": [
-          "ShortForm",
-          "Match",
           "Grouping"
-        ]
-      },
-      {
-        "content": "1. Überlegen Sie, bevor Sie posten: Ist das wahr? Ist es freundlich? Ist es notwendig?\n2. Fragen Sie vor dem Teilen von Fotos oder Informationen um Erlaubnis.\n3. Verwenden Sie sichere Passwörter und schützen Sie Ihre Konten.",
-        "title": "Tipps für verantwortungsvolle Internetnutzung",
-        "themes": [
-          "Tipps für sicheres Online-Verhalten"
-        ],
-        "image_search_string": "safe internet tips",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Das Urheberrecht schützt die Werke von Kreativen. Bevor Sie Inhalte teilen oder nutzen, stellen Sie sicher, dass Sie die Erlaubnis dazu haben oder dass die Inhalte frei verwendbar sind.",
-        "title": "Urheberrechte und Online-Inhalte",
-        "themes": [
-          "Urheberrecht im Internet"
-        ],
-        "image_search_string": "copyright online",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Cybermobbing ist, wenn jemand im Internet absichtlich gemein oder verletzend handelt. Es kann schwerwiegende Auswirkungen auf das Opfer haben, wie Stress oder Angst. Es ist wichtig, Zeuge zu sein und zu helfen.",
-        "title": "Was ist Cybermobbing?",
-        "themes": [
-          "Definition von Cybermobbing"
-        ],
-        "image_search_string": "cyberbullying awareness",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Wenn Sie Zeuge von Cybermobbing werden:\n1. Greifen Sie ein, wenn es sicher ist.\n2. Melden Sie das Verhalten an die Plattform.\n3. Unterstützen Sie das Opfer und sprechen Sie mit einem vertrauenswürdigen Erwachsenen.",
-        "title": "Umgang mit Cybermobbing",
-        "themes": [
-          "Handlungsmöglichkeiten bei Cybermobbing"
-        ],
-        "image_search_string": "cyberbullying solutions",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Digitale Bürgerrechte umfassen das Recht auf Meinungsfreiheit, Privatsphäre und Zugang zu Informationen. Mit diesen Rechten geht die Verantwortung einher, respektvoll und ethisch zu handeln.",
-        "title": "Digitale Bürgerrechte und Verantwortungen",
-        "themes": [
-          "Rechte und Pflichten online"
-        ],
-        "image_search_string": "digital citizenship rights",
-        "question_types": [
-          "ShortForm",
-          "Match"
         ]
       }
     ],

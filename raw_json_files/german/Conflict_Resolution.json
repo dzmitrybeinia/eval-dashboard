@@ -1,104 +1,116 @@
 {
   "request": {
-    "lesson_description": "Understanding Conflict Resolution: Identifying causes of conflict, effective communication strategies, and problem-solving techniques.",
-    "exercises_ratio": 0.5,
-    "grade_level": "8th grade",
-    "estimated_length": 15,
-    "learning_standard": "CCSS.ELA-LITERACY.SL.8.1: Engage effectively in a range of collaborative discussions, building on others' ideas and expressing their own clearly.",
-    "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "lesson_description": "Conflict Resolution: Understanding and Managing Disagreements Effectively in Everyday Situations.",
+    "exercises_ratio": 0.2,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "",
+    "additional_guidance": "Focus on real-world examples of conflict resolution, such as peer disagreements at school or family discussions. Include strategies for active listening, empathy, and finding mutually beneficial solutions.",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "f6faa656",
+    "request_id": "398ec5c1",
     "topicInEnglish": "Conflict Resolution",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Konfliktlösung verstehen: Ursachen, Kommunikation und Problemlösung",
+    "title": "Konfliktlösung: Verständnis und effektives Management von Meinungsverschiedenheiten",
     "slides": [
       {
-        "content": "Willkommen zu unserem heutigen Thema: Konfliktlösung! 🤝 Konflikte sind ein natürlicher Teil des Lebens, aber zu lernen, wie man sie versteht und löst, ist eine wichtige Fähigkeit. Lass uns gemeinsam die Ursachen von Konflikten erforschen und Strategien entwickeln, um sie effektiv zu bewältigen.",
+        "content": "Willkommen zu unserem spannenden Thema über Konfliktlösung! Heute lernen wir, wie wir alltägliche Meinungsverschiedenheiten besser verstehen und lösen können. 😊",
         "title": "Einführung in die Konfliktlösung",
         "themes": [
-          "Konfliktlösung Einführung"
+          "Einführung in Konfliktlösung"
         ],
-        "image_search_string": "conflict resolution",
+        "image_search_string": "conflict resolution concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Konflikte können aus verschiedenen Gründen entstehen. Einige häufige Ursachen sind:\n\n- **Missverständnisse:** Wenn Kommunikation unklar oder zweideutig ist.\n- **Unterschiedliche Werte:** Wenn Menschen unterschiedliche Überzeugungen oder Prioritäten haben.\n- **Ressourcenkonflikte:** Wenn begrenzte Ressourcen wie Zeit, Geld oder Raum geteilt werden müssen.\n- **Persönliche Differenzen:** Unterschiedliche Persönlichkeiten oder Verhaltensweisen können Spannungen verursachen.",
-        "title": "Ursachen von Konflikten",
+        "content": "Ein Konflikt entsteht, wenn zwei oder mehr Personen unterschiedliche Meinungen, Interessen oder Bedürfnisse haben. Konflikte sind ein natürlicher Teil des Lebens und können konstruktiv gelöst werden.",
+        "title": "Was ist ein Konflikt?",
         "themes": [
-          "Ursachen für Konflikte"
+          "Definition von Konflikten"
         ],
-        "image_search_string": "causes of conflict",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Effektive Kommunikation ist entscheidend, um Konflikte zu lösen. Hier sind einige Strategien:\n\n- **Aktives Zuhören:** Zeige, dass du die andere Person verstehst, indem du ihre Worte wiederholst und nachfragst.\n- **Ich-Botschaften:** Drücke deine Gefühle und Bedürfnisse ohne Vorwürfe aus (z. B. „Ich fühle mich…“).\n- **Klarheit und Respekt:** Sprich deutlich und respektvoll, um Missverständnisse zu vermeiden.",
-        "title": "Effektive Kommunikationsstrategien",
-        "themes": [
-          "Kommunikation in Konflikten"
-        ],
-        "image_search_string": "effective communication",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Um Konflikte zu lösen, ist es wichtig, ein Problem strukturiert anzugehen. Ein bewährter Ansatz ist:\n\n1. **Das Problem identifizieren:** Verstehen, worum es wirklich geht.\n2. **Lösungen vorschlagen:** Gemeinsam Optionen entwickeln.\n3. **Eine Lösung auswählen:** Eine einvernehmliche Entscheidung treffen.\n4. **Die Lösung umsetzen:** Handeln und die Lösung überprüfen.",
-        "title": "Schritte zur Konfliktlösung",
-        "themes": [
-          "Problemlösungsansatz"
-        ],
-        "image_search_string": "problem solving steps",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Emotionen können Konflikte eskalieren oder entschärfen. Zu lernen, wie man Emotionen kontrolliert, ist entscheidend:\n\n- **Selbstregulierung:** Atme tief ein und bleibe ruhig.\n- **Empathie:** Versuche, die Perspektive der anderen Person zu verstehen.\n- **Konstruktiver Ausdruck:** Teile deine Gefühle, ohne die andere Person zu verletzen.",
-        "title": "Umgang mit Emotionen in Konflikten",
-        "themes": [
-          "Emotionen in Konflikten"
-        ],
-        "image_search_string": "emotions during conflict",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Manchmal können Konflikte nicht allein gelöst werden, und Unterstützung von außen ist hilfreich:\n\n- **Mediation:** Ein neutraler Dritter hilft, eine Lösung zu finden.\n- **Beratung:** Professionelle Unterstützung zur Klärung komplexer Konflikte.\n- **Schiedsverfahren:** Eine Entscheidung wird von einer neutralen Partei getroffen.",
-        "title": "Externe Hilfe bei Konflikten",
-        "themes": [
-          "Externe Konflikthilfe"
-        ],
-        "image_search_string": "mediation conflict resolution",
+        "image_search_string": "people disagreeing",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Zusammenfassung: Konflikte sind unvermeidlich, aber mit den richtigen Strategien können sie gelöst werden. Denke daran:\n\n- Ursachen zu erkennen.\n- Effektiv zu kommunizieren.\n- Einen klaren Problemlösungsprozess zu verfolgen.\n- Emotionen zu kontrollieren.\n- Bei Bedarf Hilfe in Anspruch zu nehmen.\n\nÜbe diese Fähigkeiten, um ein besserer Konfliktlöser zu werden!",
-        "title": "Zusammenfassung: Konfliktlösungsfähigkeiten",
+        "content": "Häufige Ursachen für Konflikte sind:\n- Missverständnisse oder Kommunikationsprobleme.\n- Unterschiedliche Werte oder Überzeugungen.\n- Konkurrenz um Ressourcen oder Anerkennung.",
+        "title": "Ursachen von Konflikten",
         "themes": [
-          "Konfliktlösungszusammenfassung"
+          "Hauptursachen von Konflikten"
         ],
-        "image_search_string": "conflict resolution skills",
+        "image_search_string": "conflict causes",
         "question_types": [
           "ShortForm",
+          "Match",
           "Grouping"
+        ]
+      },
+      {
+        "content": "Effektive Kommunikation ist der Schlüssel zur Konfliktlösung. Dazu gehören:\n- Aktives Zuhören: Zeigen, dass man aufmerksam zuhört.\n- Klare Ausdrucksweise: Die eigenen Gefühle und Bedürfnisse klar und respektvoll ausdrücken.\n- Vermeidung von Schuldzuweisungen.",
+        "title": "Die Rolle der Kommunikation",
+        "themes": [
+          "Rolle der Kommunikation",
+          "Strategien für aktives Zuhören"
+        ],
+        "image_search_string": "communication skills",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Empathie bedeutet, sich in die Lage der anderen Person hineinzuversetzen. Durch Empathie können wir:\n- Die Gefühle und Perspektiven anderer besser verstehen.\n- Missverständnisse reduzieren und Vertrauen aufbauen.",
+        "title": "Empathie in Konflikten",
+        "themes": [
+          "Bedeutung von Empathie"
+        ],
+        "image_search_string": "empathy in relationships",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Einige Strategien zur Konfliktlösung beinhalten:\n- Gemeinsam nach Lösungen suchen, die für beide Seiten akzeptabel sind.\n- Kompromisse eingehen, wenn nötig.\n- Unterstützung durch eine neutrale Person suchen, falls erforderlich.",
+        "title": "Strategien zur Konfliktlösung",
+        "themes": [
+          "Strategien zur Konfliktlösung"
+        ],
+        "image_search_string": "conflict resolution strategies",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Ein Beispiel aus dem Alltag: Zwei Freunde streiten sich darüber, welches Spiel sie spielen sollen. Lösung: Beide hören einander zu, schlagen abwechselnd Spiele vor und entscheiden sich dann für ein Spiel, das beide mögen.",
+        "title": "Beispiel: Konfliktlösung im Alltag",
+        "themes": [
+          "Praktische Konfliktlösungsbeispiele"
+        ],
+        "image_search_string": "everyday conflict resolution",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Zusammenfassung: Konflikte können durch effektive Kommunikation, Empathie und Zusammenarbeit gelöst werden. Diese Fähigkeiten helfen uns, stärkere und respektvollere Beziehungen aufzubauen.",
+        "title": "Zusammenfassung und Abschluss",
+        "themes": [
+          "Zusammenfassung von Konfliktlösungsstrategien"
+        ],
+        "image_search_string": "conflict resolution summary",
+        "question_types": [
+          "ShortForm"
         ]
       }
     ],

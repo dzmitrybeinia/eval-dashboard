@@ -1,196 +1,216 @@
 {
   "request": {
-    "lesson_description": "Exploring the cultural significance and traditions of Diwali, the Festival of Lights.",
-    "exercises_ratio": 0.0,
-    "grade_level": "6th grade",
+    "lesson_description": "Exploring Cultural Celebrations Around the World: Traditions, Food, and Symbolism",
+    "exercises_ratio": 1.0,
+    "grade_level": "7th grade",
     "estimated_length": 15,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "5a5ff3a4",
+    "request_id": "11819000",
     "topicInEnglish": "Cultural Celebrations",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "La Signification Culturelle et les Traditions de Diwali",
+    "title": "Exploring Cultural Celebrations Around the World",
     "slides": [
       {
-        "content": "Bienvenue dans cette exploration fascinante de Diwali, la Fête des Lumières ! Préparez-vous à découvrir ses origines, ses traditions, et pourquoi elle est si spéciale pour des millions de personnes à travers le monde 🌟.",
-        "title": "Introduction à Diwali",
+        "content": "Bienvenue à notre exploration des célébrations culturelles à travers le monde ! 🌍 Dans cette leçon, nous découvrirons les traditions, les cuisines et les symboles uniques qui rendent chaque fête spéciale et significative.",
+        "title": "Introduction aux célébrations culturelles",
         "themes": [
-          "introduction à Diwali"
+          "introduction aux célébrations",
+          "diversité culturelle"
         ],
-        "image_search_string": "Diwali festival lights",
+        "image_search_string": "cultural celebrations",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Diwali, également appelée la Fête des Lumières, est une célébration majeure dans plusieurs cultures, notamment en Inde. Elle symbolise la victoire de la lumière sur les ténèbres et du bien sur le mal.",
-        "title": "Qu'est-ce que Diwali ?",
+        "content": "Les célébrations culturelles sont des événements marquants dans les sociétés. Elles servent à commémorer des moments historiques, des croyances religieuses ou des traditions sociales, et elles varient grandement d'une culture à l'autre.",
+        "title": "Qu'est-ce qu'une célébration culturelle ?",
         "themes": [
-          "définition de Diwali"
+          "définition des célébrations",
+          "importance culturelle"
         ],
-        "image_search_string": "Diwali festival meaning",
+        "image_search_string": "cultural events",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les origines de Diwali remontent à des récits anciens, comme le retour du roi Rama après 14 ans d'exil, où les habitants allumaient des lampes pour l'accueillir.",
-        "title": "Les Origines de Diwali",
+        "content": "La diversité des célébrations culturelles reflète l'histoire, la géographie et les valeurs des sociétés. Par exemple, le Nouvel An chinois met en avant des traditions basées sur le calendrier lunaire, tandis que le Carnaval au Brésil célèbre la musique et la danse.",
+        "title": "Diversité des célébrations culturelles",
         "themes": [
-          "origines de Diwali"
+          "variété des traditions",
+          "impact culturel"
         ],
-        "image_search_string": "Rama returning Diwali",
-        "question_types": [
-          "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Une tradition importante de Diwali est l'éclairage des diyas, de petites lampes à huile, pour illuminer les maisons et symboliser la lumière intérieure qui protège des ténèbres.",
-        "title": "L'Éclairage des Diyas",
-        "themes": [
-          "tradition des diyas"
-        ],
-        "image_search_string": "Diwali diyas lamps",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Les rangolis, des motifs colorés réalisés avec des poudres ou des fleurs, sont créés devant les maisons pour accueillir la déesse Lakshmi et pour apporter chance et prospérité.",
-        "title": "Les Rangolis Colorés",
-        "themes": [
-          "motifs rangolis"
-        ],
-        "image_search_string": "Diwali rangoli patterns",
+        "image_search_string": "cultural diversity celebrations",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Pendant Diwali, des offrandes spéciales sont faites à Lakshmi, la déesse de la richesse. Les gens prient pour la prospérité et le bonheur.",
-        "title": "Adoration de Lakshmi",
+        "content": "La nourriture joue souvent un rôle central dans les fêtes culturelles. Par exemple, le Thanksgiving aux États-Unis est marqué par des repas à base de dinde, tandis que le Diwali en Inde est célébré avec des douceurs comme les laddoos et barfis.",
+        "title": "Rôle de la nourriture dans les fêtes",
         "themes": [
-          "prière à Lakshmi"
+          "importance de la nourriture",
+          "traditions culinaires"
         ],
-        "image_search_string": "Lakshmi Diwali prayers",
+        "image_search_string": "traditional festive food",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les vêtements traditionnels sont souvent portés lors des célébrations pour honorer les coutumes. Les kimonos au Japon, les saris en Inde ou les kilts en Écosse sont des exemples de tenues spéciales portées pendant les fêtes.",
+        "title": "Vêtements traditionnels et fêtes",
+        "themes": [
+          "tenues festives",
+          "symbolisme des vêtements"
+        ],
+        "image_search_string": "traditional festive attire",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les symboles comme les couleurs, les objets ou les motifs jouent un rôle essentiel. Par exemple, les lanternes rouges pour le Nouvel An chinois symbolisent la chance, et les œufs peints de Pâques représentent la renaissance.",
+        "title": "Symboles dans les célébrations",
+        "themes": [
+          "symbolisme des fêtes",
+          "importance des objets"
+        ],
+        "image_search_string": "cultural celebration symbols",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Certaines célébrations marquent les saisons. Par exemple, le Solstice d'été est célébré en Scandinavie par des danses et des feux de joie, symbolisant la lumière et la fertilité.",
+        "title": "Célébrations saisonnières",
+        "themes": [
+          "fêtes saisonnières",
+          "traditions naturelles"
+        ],
+        "image_search_string": "seasonal celebrations",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les feux d'artifice sont une partie essentielle de Diwali. Ils symbolisent la joie et chassent les mauvais esprits.",
-        "title": "Les Feux d'Artifice",
+        "content": "Les célébrations religieuses telles que Noël, l'Aïd al-Fitr ou Hanoukka reflètent les croyances et les pratiques spirituelles des communautés. Elles sont souvent accompagnées de rituels spécifiques.",
+        "title": "Fêtes religieuses",
         "themes": [
-          "feux d'artifice Diwali"
+          "célébrations religieuses",
+          "rituels et croyances"
         ],
-        "image_search_string": "Diwali fireworks celebration",
+        "image_search_string": "religious celebrations",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les célébrations nationales, comme le 14 juillet en France ou le Jour de l'Indépendance aux États-Unis, mettent en avant l'unité et l'histoire d'une nation.",
+        "title": "Fêtes nationales",
+        "themes": [
+          "unités nationales",
+          "importance historique"
+        ],
+        "image_search_string": "national celebrations",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les sucreries et les plats délicieux sont préparés et partagés entre les amis et la famille, renforçant les liens et la convivialité.",
-        "title": "Les Délices de Diwali",
+        "content": "Les danses, la musique et les arts sont souvent au cœur des célébrations. Par exemple, le tango en Argentine ou les masques vénitiens au Carnaval de Venise illustrent la richesse artistique des fêtes.",
+        "title": "Arts et célébrations",
         "themes": [
-          "partage de nourriture"
+          "arts dans les fêtes",
+          "expression culturelle"
         ],
-        "image_search_string": "Diwali sweets food",
+        "image_search_string": "celebration arts",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Diwali est un moment pour échanger des cadeaux, souvent des vêtements neufs, des bijoux ou des sucreries, comme signe de respect et d'amour.",
-        "title": "Les Échanges de Cadeaux",
+        "content": "Les célébrations varient souvent en fonction du calendrier. Certaines suivent un calendrier solaire, comme Noël, tandis que d'autres suivent un calendrier lunaire, comme le Nouvel An chinois.",
+        "title": "Calendriers et fêtes",
         "themes": [
-          "échange de cadeaux"
+          "calendrier solaire et lunaire",
+          "organisation temporelle"
         ],
-        "image_search_string": "Diwali gift exchange",
+        "image_search_string": "celebration calendar",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les célébrations locales, comme les marchés de Noël en Alsace ou les festivals de la lavande en Provence, reflètent la culture régionale et attirent souvent des visiteurs.",
+        "title": "Fêtes locales et régionales",
+        "themes": [
+          "fêtes régionales",
+          "attraction culturelle"
+        ],
+        "image_search_string": "local cultural festivals",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Diwali est célébrée sur cinq jours, chacun ayant une signification particulière, comme Dhanteras pour la fortune et Bhai Dooj pour les relations fraternelles.",
-        "title": "Les Cinq Jours de Diwali",
+        "content": "Les célébrations offrent une opportunité de transmettre des traditions aux nouvelles générations et de renforcer les liens familiaux et communautaires.",
+        "title": "Transmission des traditions",
         "themes": [
-          "jours de Diwali"
+          "héritage culturel",
+          "liens communautaires"
         ],
-        "image_search_string": "Diwali five days",
-        "question_types": [
-          "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Les célébrations varient selon les régions et les communautés, avec des traditions uniques comme le Kali Puja au Bengale ou l'adoration de Govardhan en Uttar Pradesh.",
-        "title": "Variations Régionales",
-        "themes": [
-          "variations régionales de Diwali"
-        ],
-        "image_search_string": "regional Diwali traditions",
+        "image_search_string": "tradition transmission",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Diwali est aussi célébrée dans d'autres pays comme le Népal, la Malaisie, et Maurice, où des communautés indiennes y vivent.",
-        "title": "Diwali à l'International",
+        "content": "Les célébrations modernes, telles que la Journée de la Terre ou la Fête de la Musique, ont émergé pour répondre à des enjeux contemporains ou promouvoir la culture.",
+        "title": "Fêtes modernes",
         "themes": [
-          "Diwali dans le monde"
+          "nouveaux types de fêtes",
+          "enjeux contemporains"
         ],
-        "image_search_string": "Diwali worldwide",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La symbolique de Diwali est universelle : elle nous rappelle l'importance de la lumière, de la bonté et de l'espoir dans nos vies.",
-        "title": "La Symbolique Universelle",
-        "themes": [
-          "symbolisme de Diwali"
-        ],
-        "image_search_string": "Diwali light hope",
+        "image_search_string": "modern celebrations",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Aujourd'hui, Diwali est une occasion de renforcer les liens familiaux et communautaires, tout en honorant ses riches traditions culturelles.",
-        "title": "L'Importance Sociale",
+        "content": "Pour conclure, les célébrations culturelles sont un miroir de la diversité et des valeurs humaines. Elles nous enseignent l'importance de la communauté, de l'histoire et du respect des traditions.",
+        "title": "Conclusion sur les célébrations culturelles",
         "themes": [
-          "importance sociale de Diwali"
+          "importance des fêtes",
+          "diversité culturelle"
         ],
-        "image_search_string": "Diwali family celebration",
+        "image_search_string": "cultural celebration summary",
         "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Nous espérons que cet aperçu de Diwali vous a inspiré et éclairé sur sa signification et ses coutumes. Que cette fête continue d'illuminer les cœurs de tous ceux qui la célèbrent.",
-        "title": "Conclusion",
-        "themes": [
-          "conclusion sur Diwali"
-        ],
-        "image_search_string": "Diwali celebration joy",
-        "question_types": [
-          "Intro"
+          "ShortForm"
         ]
       }
     ],

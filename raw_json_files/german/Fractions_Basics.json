@@ -1,71 +1,58 @@
 {
   "request": {
-    "lesson_description": "Fractions Basics: Understanding numerators, denominators, and the concept of parts of a whole.",
-    "exercises_ratio": 0.7,
+    "lesson_description": "Understanding the basics of fractions: Identifying numerators and denominators, comparing fractions, and simple addition of fractions with like denominators.",
+    "exercises_ratio": 0.8,
     "grade_level": "4th grade",
-    "estimated_length": 15,
+    "estimated_length": 20,
     "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "ef161dcb",
+    "request_id": "61518137",
     "topicInEnglish": "Fractions Basics",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Grundlagen der Brüche: Zähler, Nenner und Teile eines Ganzen",
+    "title": "Grundlagen der Brüche verstehen",
     "slides": [
       {
-        "content": "Brüche sind eine Möglichkeit, Teile eines Ganzen darzustellen. Sie bestehen aus zwei Teilen: dem Zähler, der die Anzahl der Teile angibt, und dem Nenner, der die Gesamtanzahl der Teile beschreibt. Zum Beispiel zeigt der Bruch 1/2, dass etwas in zwei gleiche Teile geteilt wurde und wir eines davon betrachten.",
+        "content": "Brüche sind ein Weg, Zahlen darzustellen, die Teile eines Ganzen repräsentieren. Jede Zahl in einem Bruch hat einen spezifischen Namen: Der obere Teil wird Zähler genannt, und der untere Teil wird Nenner genannt. Der Zähler zeigt, wie viele Teile wir haben, und der Nenner zeigt, in wie viele gleiche Teile das Ganze geteilt wurde.",
         "title": "Was ist ein Bruch?",
         "themes": [
-          "Definition von Brüchen",
+          "Definition eines Bruchs",
           "Zähler und Nenner"
         ],
-        "image_search_string": "fraction example",
+        "image_search_string": "fraction numerator denominator",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Der Zähler ist die Zahl oben im Bruch. Er zeigt, wie viele Teile des Ganzen betrachtet werden. Der Nenner ist die Zahl unten im Bruch. Er zeigt, in wie viele Teile das Ganze aufgeteilt ist. Zum Beispiel: In 3/4 ist 3 der Zähler und 4 der Nenner.",
-        "title": "Zähler und Nenner verstehen",
+        "content": "Um zwei Brüche zu vergleichen, können wir ihre Zähler und Nenner betrachten. Wenn die Nenner gleich sind, ist der Bruch mit dem größeren Zähler der größere Bruch. Wenn die Nenner unterschiedlich sind, müssen wir die Brüche auf denselben Nenner bringen, um sie zu vergleichen.",
+        "title": "Brüche vergleichen",
         "themes": [
-          "Zähler Bedeutung",
-          "Nenner Bedeutung"
+          "Vergleich von Brüchen",
+          "Gleiche Nenner"
         ],
-        "image_search_string": "numerator and denominator",
+        "image_search_string": "comparing fractions",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Ein Bruch repräsentiert Teile eines Ganzen. Ein Beispiel: Wenn ein Kuchen in 4 gleiche Stücke geschnitten wird und du 1 Stück nimmst, entspricht dies dem Bruch 1/4. Wenn du 3 Stücke nimmst, entspricht dies dem Bruch 3/4.",
-        "title": "Teile eines Ganzen",
-        "themes": [
-          "Teile eines Ganzen"
-        ],
-        "image_search_string": "parts of a whole",
-        "question_types": [
-          "ShortForm",
-          "Match",
+          "Sort",
           "Grouping"
         ]
       },
       {
-        "content": "Wenn der Zähler kleiner als der Nenner ist, spricht man von einem echten Bruch. Wenn der Zähler gleich oder größer als der Nenner ist, spricht man von einem unechten Bruch oder einer gemischten Zahl. Beispiele: 1/2 ist ein echter Bruch; 4/3 ist ein unechter Bruch.",
-        "title": "Echte und unechte Brüche",
+        "content": "Das Addieren von Brüchen mit gleichen Nennern ist einfach: Man addiert die Zähler und lässt den Nenner gleich. Zum Beispiel: \\( \\frac{2}{5} + \\frac{3}{5} = \\frac{5}{5} \\). Nach der Addition kann es notwendig sein, das Ergebnis zu vereinfachen, wenn der Zähler größer als der Nenner ist.",
+        "title": "Addition von Brüchen mit gleichen Nennern",
         "themes": [
-          "Echte Brüche",
-          "Unechte Brüche"
+          "Addition von Brüchen",
+          "Gleiche Nenner"
         ],
-        "image_search_string": "proper and improper fractions",
+        "image_search_string": "adding fractions same denominator",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       }
     ],

@@ -1,61 +1,50 @@
 {
   "request": {
-    "lesson_description": "Memory Techniques: Strategies to Improve Recall and Retention. Explore methods such as chunking, visualization, and mnemonic devices.",
-    "exercises_ratio": 0.5,
+    "lesson_description": "Memory Techniques: Exploring mnemonic devices, visualization methods, and chunking to enhance retention and recall.",
+    "exercises_ratio": 1.0,
     "grade_level": "9th grade",
-    "estimated_length": 10,
+    "estimated_length": 25,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "12a75515",
+    "request_id": "d206e842",
     "topicInEnglish": "Memory Techniques",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Techniques de Mémoire : Améliorer le Rappel et la Rétention",
+    "title": "Techniques de Mémoire : Dispositifs Mnémotechniques, Visualisation et Fragmentation",
     "slides": [
       {
-        "content": "Bienvenue dans cette leçon sur les techniques de mémoire ! Aujourd'hui, nous allons découvrir des stratégies efficaces pour améliorer votre capacité de mémorisation et de rappel. Préparez-vous à transformer votre façon de retenir les informations ! ✨",
+        "content": "Bienvenue dans cette leçon fascinante sur les techniques de mémoire ! Aujourd'hui, nous allons découvrir des méthodes efficaces pour améliorer votre mémoire et faciliter la rétention d'informations. 🎓",
         "title": "Introduction aux Techniques de Mémoire",
         "themes": [
           "introduction aux techniques de mémoire"
         ],
-        "image_search_string": "memory strategies",
+        "image_search_string": "memory techniques",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La segmentation consiste à diviser une grande quantité d'informations en morceaux plus petits et plus faciles à gérer. Par exemple, pour mémoriser un numéro de téléphone comme 0612345678, vous pourriez le diviser en 06-12-34-56-78. Cela simplifie la rétention en réduisant la charge cognitive.",
-        "title": "La Segmentation (Chunking)",
+        "content": "La mémoire est la capacité de notre cerveau à encoder, stocker et récupérer des informations. Elle est essentielle dans notre quotidien pour apprendre, se souvenir d'événements et accomplir des tâches.",
+        "title": "Qu'est-ce que la mémoire ?",
         "themes": [
-          "segmentation des informations"
+          "définition de la mémoire",
+          "importance de la mémoire"
         ],
-        "image_search_string": "chunking technique",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La visualisation est une technique où vous associez des images mentales aux informations que vous voulez mémoriser. Par exemple, si vous devez mémoriser une liste d'épicerie, imaginez chaque article dans un scénario amusant ou exagéré, comme une pomme géante roulant dans la rue.",
-        "title": "La Visualisation",
-        "themes": [
-          "technique de visualisation"
-        ],
-        "image_search_string": "visualization technique",
+        "image_search_string": "brain memory function",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Les moyens mnémotechniques sont des outils qui utilisent des associations faciles à retenir pour mémoriser des informations. Par exemple, pour se souvenir de l'ordre des planètes (Mercure, Vénus, Terre, Mars, etc.), vous pouvez créer une phrase comme 'Mon Vieux Tonton Mange'.",
-        "title": "Les Moyens Mnémotechniques",
+        "content": "Les dispositifs mnémotechniques sont des méthodes pour aider à se souvenir d'informations complexes en les simplifiant. Par exemple, on peut utiliser des acronymes ou des phrases mémorables pour rappeler des concepts.",
+        "title": "Les dispositifs mnémotechniques",
         "themes": [
-          "utilisation des moyens mnémotechniques"
+          "dispositifs mnémotechniques",
+          "simplification de l'information"
         ],
         "image_search_string": "mnemonic devices",
         "question_types": [
@@ -65,14 +54,30 @@
         ]
       },
       {
-        "content": "Pour renforcer votre mémoire, combinez ces techniques. Par exemple, utilisez la segmentation pour organiser les informations, la visualisation pour les rendre vivantes, et les moyens mnémotechniques pour les structurer de manière mémorable. La pratique régulière de ces méthodes peut transformer votre capacité à retenir et rappeler des informations.",
-        "title": "Combiner les Techniques",
+        "content": "La visualisation consiste à créer des images mentales vivantes pour associer des informations à des visuels mémorables. Cela peut inclure des schémas, des cartes mentales ou des représentations imagées.",
+        "title": "La Visualisation",
         "themes": [
-          "combinaison des techniques de mémoire"
+          "technique de visualisation",
+          "associer des informations à des images"
         ],
-        "image_search_string": "memory improvement techniques",
+        "image_search_string": "visual memory techniques",
         "question_types": [
           "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La fragmentation, ou \"chunking\", consiste à diviser les informations en groupes ou \"fragments\" plus petits et plus faciles à mémoriser. Par exemple, retenir un numéro de téléphone par groupes de trois ou quatre chiffres.",
+        "title": "La Fragmentation",
+        "themes": [
+          "fragmentation pour mémorisation",
+          "diviser l'information"
+        ],
+        "image_search_string": "chunking memory technique",
+        "question_types": [
+          "ShortForm",
+          "Sort",
           "Grouping"
         ]
       }

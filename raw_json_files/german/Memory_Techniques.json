@@ -1,204 +1,70 @@
 {
   "request": {
-    "lesson_description": "Memory Techniques: Exploring mnemonic devices, chunking, and visualization strategies to enhance learning and retention.",
-    "exercises_ratio": 0.0,
-    "grade_level": "10th grade",
-    "estimated_length": 15,
-    "learning_standard": "",
+    "lesson_description": "Memory Techniques: Exploring methods to enhance memory retention, including visualization, association, and mnemonic devices.",
+    "exercises_ratio": 0.6,
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Science Standards (NGSS): HS-LS1-3 - Plan and conduct an investigation to provide evidence of the importance of specific memory processes in the human brain.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "54585b9b",
+    "request_id": "ddc7eec7",
     "topicInEnglish": "Memory Techniques",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Memory Techniques: Enhancing Learning and Retention",
+    "title": "Memory Techniques and Retention Strategies",
     "slides": [
       {
-        "content": "Lass uns in die faszinierende Welt der Gedächtnistechniken eintauchen! Hier lernst du Methoden kennen, um Informationen leichter zu speichern und besser zu behalten. 🌟",
-        "title": "Einleitung",
+        "content": "🌟 Willkommen zu unserer spannenden Reise durch die Welt der Gedächtnistechniken! Heute entdecken wir, wie unser Gehirn Informationen speichert und wie wir diese Prozesse durch clevere Methoden verbessern können. 🧠",
+        "title": "Einführung in Gedächtnistechniken",
         "themes": [
-          "Einführung in Gedächtnistechniken"
+          "Einführung in Gedächtnisstrategien"
         ],
-        "image_search_string": "brain with memory icons",
+        "image_search_string": "brain with lightbulb",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Gedächtnistechniken sind Strategien, die das Speichern und Abrufen von Informationen erleichtern. Sie helfen, das Gehirn effizienter zu nutzen und die Lernfähigkeit zu verbessern.",
-        "title": "Was sind Gedächtnistechniken?",
+        "content": "Das menschliche Gedächtnis besteht aus verschiedenen Prozessen: Enkodierung, Speicherung und Abruf. Diese Prozesse arbeiten zusammen, um Informationen aufzunehmen, zu bewahren und bei Bedarf abzurufen. Enkodierung verwandelt Informationen in ein speicherbares Format, Speicherung bewahrt sie langfristig, und Abruf ermöglicht den Zugang zu gespeicherten Daten.",
+        "title": "Wie funktioniert das Gedächtnis?",
         "themes": [
-          "Definition von Gedächtnistechniken"
+          "Prozesse des Gedächtnisses",
+          "Enkodierung und Speicherung"
         ],
-        "image_search_string": "memory concept illustration",
+        "image_search_string": "memory process diagram",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Mnemonik ist eine Technik, die hilft, Informationen durch Reime, Akronyme oder visuelle Bilder zu speichern. Zum Beispiel kann man sich die Reihenfolge der Planeten mit einem Satz wie „Mein Vater erklärt mir jeden Samstag unsere neun Planeten“ merken.",
-        "title": "Mnemonik: Eine Einführung",
-        "themes": [
-          "Mnemonik-Technik",
-          "Beispiele für Mnemonik"
-        ],
-        "image_search_string": "mnemonics example",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Chunking bezeichnet das Aufteilen von Informationen in kleinere, leichter zu merkende Einheiten. Zum Beispiel wird eine lange Zahlenfolge in kleinere Gruppen unterteilt, wie 123-456-789.",
-        "title": "Chunking: Informationen in Teile zerlegen",
-        "themes": [
-          "Chunking-Technik",
-          "Beispiele für Chunking"
-        ],
-        "image_search_string": "chunking memory technique",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Visualisierung ist die Technik, Informationen durch lebhafte Bilder im Gedächtnis zu verankern. Zum Beispiel kann man sich ein Bild von einem Elefanten vorstellen, der auf einer Erdnuss balanciert, um sich an „Elefant“ und „Erdnuss“ zu erinnern.",
-        "title": "Visualisierung: Mit Bildern lernen",
-        "themes": [
-          "Visualisierungstechniken",
-          "Gedächtnisbilder"
-        ],
-        "image_search_string": "visualization technique",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Die Loci-Methode nutzt bekannte Orte, um Informationen zu speichern. Man stellt sich vor, wie man durch einen Raum geht, in dem verschiedene Gegenstände mit den zu merkenden Informationen platziert sind.",
-        "title": "Die Loci-Methode",
-        "themes": [
-          "Loci-Methode",
-          "Speicherung durch Orte"
-        ],
-        "image_search_string": "method of loci",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Assoziationen helfen, neue Informationen mit bereits bekannten Fakten zu verknüpfen. Zum Beispiel kann man sich den Namen „Rose“ merken, indem man an die Blume denkt.",
-        "title": "Assoziationen bilden",
-        "themes": [
-          "Assoziationstechniken",
-          "Verknüpfung mit Bekanntem"
-        ],
-        "image_search_string": "associative memory",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Reime und Rhythmen erleichtern das Lernen durch melodische oder rhythmische Strukturen. Zum Beispiel bleibt das Alphabet-Lied leicht im Gedächtnis.",
-        "title": "Reime und Rhythmen",
-        "themes": [
-          "Reime",
-          "Rhythmen"
-        ],
-        "image_search_string": "rhymes and rhythms",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Wiederholung ist eine grundlegende Methode, um Informationen im Gedächtnis zu festigen. Regelmäßiges Wiederholen verbessert die Langzeitbehaltung.",
-        "title": "Die Macht der Wiederholung",
-        "themes": [
-          "Wiederholungstechniken"
-        ],
-        "image_search_string": "repetition for memory",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Mnemotechniken können kombiniert werden, um ihre Wirksamkeit zu erhöhen. Zum Beispiel könnten Chunking und Visualisierung zusammen genutzt werden, um Telefonnummern zu merken.",
-        "title": "Techniken kombinieren",
-        "themes": [
-          "Kombination von Mnemotechniken"
-        ],
-        "image_search_string": "combination of memory techniques",
-        "question_types": [
-          "ShortForm",
+          "Sort",
           "Grouping"
         ]
       },
       {
-        "content": "Das Gedächtnis profitiert von gesunder Ernährung, ausreichend Schlaf und regelmäßiger Bewegung. Diese Faktoren unterstützen die Gehirnfunktion und verbessern die Erinnerungsfähigkeit.",
-        "title": "Gesunde Lebensweise für ein starkes Gedächtnis",
+        "content": "Visualisierung ist eine Technik, bei der man sich Informationen in Form von Bildern oder Szenarien vorstellt. Zum Beispiel kann man sich eine Einkaufsliste als eine Szene in der Küche vorstellen, wo jede Zutat sichtbar ist. Diese Methode hilft, durch stärkere neuronale Verbindungen besser zu erinnern.",
+        "title": "Technik der Visualisierung",
         "themes": [
-          "Einfluss von Lebensstil auf Gedächtnis"
+          "Definition von Visualisierung",
+          "Anwendung der Technik"
         ],
-        "image_search_string": "healthy brain habits",
+        "image_search_string": "visualization concept",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Stress kann die Gedächtnisleistung beeinträchtigen. Entspannungstechniken wie Meditation oder Atemübungen helfen, den Kopf frei zu bekommen und sich besser zu konzentrieren.",
-        "title": "Stressbewältigung und Gedächtnis",
+        "content": "Mnemonik umfasst verschiedene Strategien, um sich Informationen besser zu merken, wie Reime, Akronyme oder Geschichten. Zum Beispiel kann man sich die Reihenfolge der Planeten mit dem Satz „Mein Vater erklärt mir jeden Sonntag unsere neun Planeten“ merken.",
+        "title": "Mnemonische Techniken",
         "themes": [
-          "Stress und Gedächtnis",
-          "Entspannungstechniken"
+          "Mnemonik Beispiele",
+          "Gedächtnishilfen"
         ],
-        "image_search_string": "stress and memory",
+        "image_search_string": "mnemonic devices",
         "question_types": [
           "ShortForm",
           "Match"
-        ]
-      },
-      {
-        "content": "Manche Menschen lernen besser durch Hören, andere durch Sehen oder Tun. Den eigenen Lernstil zu kennen, hilft, die passenden Gedächtnistechniken zu wählen.",
-        "title": "Lernstile und Gedächtnis",
-        "themes": [
-          "Lernstile",
-          "Anpassung von Techniken"
-        ],
-        "image_search_string": "learning styles",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Der Einsatz von Gedächtnistechniken in der Schule kann helfen, Prüfungen besser zu bestehen und Wissen nachhaltig zu speichern. Sie sind ein wertvolles Werkzeug für den Lernerfolg.",
-        "title": "Gedächtnistechniken im Alltag",
-        "themes": [
-          "Anwendung im Alltag"
-        ],
-        "image_search_string": "memory techniques in school",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Das Erkunden und Anwenden verschiedener Gedächtnistechniken kann dir helfen, deinen Lernprozess effektiver zu gestalten. Nutze diese Methoden, um dein Gedächtnis zu stärken! 🌟",
-        "title": "Zusammenfassung und Motivation",
-        "themes": [
-          "Motivation zur Anwendung"
-        ],
-        "image_search_string": "motivational memory techniques",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

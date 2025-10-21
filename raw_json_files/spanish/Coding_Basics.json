@@ -1,76 +1,135 @@
 {
   "request": {
-    "lesson_description": "Introduction to coding basics: understanding variables, data types, and simple algorithms.",
-    "exercises_ratio": 0.0,
+    "lesson_description": "Introduction to Coding Basics: Understanding variables, data types, and simple algorithms.",
+    "exercises_ratio": 0.6,
     "grade_level": "7th grade",
     "estimated_length": 25,
-    "learning_standard": "",
+    "learning_standard": "CSTA K-12 Computer Science Standards 2-CS-02: Design and implement a program that uses variables to store and modify data.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "de8ee545",
+    "request_id": "3d0cee72",
     "topicInEnglish": "Coding Basics",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Introducción a los conceptos básicos de la programación",
+    "title": "Introduction to Coding Basics",
     "slides": [
       {
-        "content": "¡Bienvenidos al mundo de la programación! Aquí aprenderemos sobre conceptos básicos como variables, tipos de datos y algoritmos simples. 🚀",
-        "title": "¡Bienvenidos a la programación!",
+        "content": "¡Bienvenidos al mundo de la programación! Hoy aprenderemos conceptos clave que son la base de todos los programas de computadora, como variables, tipos de datos y algoritmos simples. 🌟",
+        "title": "Introducción a la programación",
         "themes": [
-          "introducción a la programación"
+          "introducción a conceptos básicos"
         ],
-        "image_search_string": "programación básica",
+        "image_search_string": "coding basics",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Una **variable** es como una caja que guarda información. Por ejemplo, si tienes una caja con el nombre \"edad\" y dentro guardas el número 12, esa es una variable.",
-        "title": "¿Qué es una variable?",
+        "content": "Las variables son espacios en la memoria de un programa donde podemos guardar información para usarla más tarde. Piensa en ellas como cajones donde guardas cosas que puedes etiquetar para saber qué contienen.",
+        "title": "¿Qué son las variables?",
         "themes": [
-          "definición de variable"
+          "concepto de variables"
         ],
-        "image_search_string": "definición de variable",
+        "image_search_string": "variable concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Existen diferentes tipos de datos, como números, texto y valores de verdad (verdadero o falso). Estos se llaman **tipos de datos**.",
+        "content": "Existen diferentes tipos de datos que podemos almacenar en una variable, como números (enteros o decimales), texto (cadenas de caracteres) y valores de verdadero o falso (booleanos). Cada tipo de dato tiene un propósito específico.",
         "title": "Tipos de datos",
         "themes": [
-          "tipos de datos en programación"
+          "tipos de datos"
         ],
-        "image_search_string": "tipos de datos",
+        "image_search_string": "data types",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Un **algoritmo** es una serie de pasos que seguimos para resolver un problema. Por ejemplo, una receta de cocina es un algoritmo.",
+        "content": "Un algoritmo es un conjunto de pasos que seguimos para resolver un problema o realizar una tarea. Por ejemplo, una receta de cocina es un algoritmo porque describe pasos claros para preparar un plato.",
         "title": "¿Qué es un algoritmo?",
         "themes": [
-          "definición de algoritmo"
+          "concepto de algoritmo"
         ],
-        "image_search_string": "definición de algoritmo",
+        "image_search_string": "algorithm steps",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Para usar una variable, primero debemos declararla, es decir, darle un nombre y definir su tipo. Luego, podemos asignarle un valor y modificarlo según lo necesitemos.",
+        "title": "Declarar y usar variables",
+        "themes": [
+          "cómo usar variables"
+        ],
+        "image_search_string": "variable declaration",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para crear un programa, primero necesitamos identificar el problema, luego escribir los pasos (algoritmo) y finalmente convertir esos pasos en código.",
-        "title": "Pasos para crear un programa",
+        "content": "Veamos un ejemplo: si queremos guardar la edad de alguien, declaramos una variable llamada 'edad' y le asignamos un valor, como 12. Luego podemos usar 'edad' en cálculos o mostrarla en pantalla.",
+        "title": "Ejemplo práctico de variables",
         "themes": [
-          "proceso de programación"
+          "ejemplo de variables"
         ],
-        "image_search_string": "proceso de programación",
+        "image_search_string": "variable example",
         "question_types": [
-          "Sort",
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Cuando trabajamos con datos, es importante elegir el tipo correcto para garantizar que las operaciones sean válidas. Por ejemplo, no podemos sumar texto con números directamente.",
+        "title": "Importancia de los tipos de datos",
+        "themes": [
+          "selección de tipos de datos"
+        ],
+        "image_search_string": "data types importance",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los algoritmos simples pueden incluir pasos como leer datos, procesarlos y mostrar un resultado. Por ejemplo, calcular el promedio de varias notas es un algoritmo.",
+        "title": "Ejemplo de algoritmo simple",
+        "themes": [
+          "ejemplo de algoritmo"
+        ],
+        "image_search_string": "simple algorithm example",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "En la programación, el orden de los pasos es crucial. Si los pasos no están en el orden correcto, el programa no funcionará como se espera.",
+        "title": "La importancia del orden en los algoritmos",
+        "themes": [
+          "orden en algoritmos"
+        ],
+        "image_search_string": "algorithm order",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "¡Has aprendido los fundamentos de la programación! Ahora sabes qué son las variables, los tipos de datos y los algoritmos simples. Estos son los bloques de construcción para crear programas más complejos.",
+        "title": "Resumen de los conceptos aprendidos",
+        "themes": [
+          "resumen de conceptos"
+        ],
+        "image_search_string": "coding summary",
+        "question_types": [
           "ShortForm"
         ]
       }

@@ -1,107 +1,95 @@
 {
   "request": {
-    "lesson_description": "Understanding the six types of simple machines: lever, wheel and axle, pulley, inclined plane, wedge, and screw, and how they reduce effort in work.",
-    "exercises_ratio": 0.3,
+    "lesson_description": "Introduction to simple machines: Understanding the functions and applications of levers, pulleys, inclined planes, screws, wedges, and wheel-and-axle.",
+    "exercises_ratio": 0.6,
     "grade_level": "5th grade",
-    "estimated_length": 10,
-    "learning_standard": "NGSS.5-PS2-1: Support an argument that the gravitational force exerted by Earth on objects is directed down.",
-    "additional_guidance": "",
+    "estimated_length": 15,
+    "learning_standard": "Next Generation Science Standards (NGSS): 3-5-ETS1-1 - Define a simple design problem reflecting a need or a want that includes specified criteria for success and constraints on materials, time, or cost.",
+    "additional_guidance": "Focus on real-world examples of simple machines and their role in everyday life, such as how pulleys are used in construction or how levers are applied in tools. Ensure concepts are explained in an accessible, age-appropriate manner.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "b275a25b",
+    "request_id": "bc3b8e57",
     "topicInEnglish": "Simple Machines",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Las seis máquinas simples y cómo facilitan el trabajo",
+    "title": "Introduction to Simple Machines",
     "slides": [
       {
-        "content": "¡Bienvenidos a una aventura de aprendizaje sobre las máquinas simples! Hoy exploraremos cómo estas herramientas ingeniosas nos ayudan a hacer el trabajo más fácil y eficiente. 🌟",
-        "title": "Introducción a las máquinas simples",
+        "content": "¡Bienvenidos a una emocionante aventura en el mundo de las máquinas simples! 🌟 Hoy aprenderemos cómo estas herramientas ingeniosas facilitan nuestra vida diaria y nos ayudan a realizar tareas. ¡Prepárate para descubrir cómo funcionan y dónde las encontramos!",
+        "title": "¡Descubriendo las máquinas simples!",
         "themes": [
           "introducción a máquinas simples"
         ],
-        "image_search_string": "máquinas simples",
+        "image_search_string": "simple machines",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las máquinas simples son herramientas que nos ayudan a reducir el esfuerzo necesario para realizar un trabajo. Hay seis tipos principales: palanca, rueda y eje, polea, plano inclinado, cuña y tornillo. Cada una tiene un diseño único que nos permite aprovechar mejor las fuerzas.",
+        "content": "Las máquinas simples son herramientas que nos ayudan a hacer trabajo con menos esfuerzo. Existen 6 tipos principales: palancas, poleas, planos inclinados, tornillos, cuñas y ruedas con ejes. Cada una tiene una función única y se usa para diferentes propósitos.",
         "title": "¿Qué son las máquinas simples?",
         "themes": [
           "definición de máquinas simples",
           "tipos de máquinas simples"
         ],
-        "image_search_string": "tipos de máquinas simples",
+        "image_search_string": "types of simple machines",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "La palanca es una barra rígida que gira sobre un punto de apoyo llamado fulcro. Se utiliza para mover objetos aplicando menos fuerza. Ejemplos incluyen balancines y palancas de puerta.",
-        "title": "La palanca",
+        "content": "Una palanca es una barra rígida que gira sobre un punto de apoyo llamado fulcro. Ayuda a mover o levantar objetos al aplicar una fuerza en un extremo. Ejemplo: un balancín o un destornillador usado para abrir una lata de pintura.",
+        "title": "La palanca: una herramienta poderosa",
         "themes": [
-          "función de la palanca",
-          "ejemplos de palanca"
+          "funcionamiento de la palanca",
+          "ejemplos de palancas"
         ],
-        "image_search_string": "ejemplo de palanca",
+        "image_search_string": "lever tool example",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La rueda y el eje consisten en una rueda grande conectada a un eje más pequeño. Este diseño reduce la fricción y facilita el movimiento de cargas pesadas. Ejemplos comunes son las ruedas de carretillas y los engranajes.",
-        "title": "La rueda y el eje",
+        "content": "Las poleas son ruedas con una cuerda que pasan por un canal. Se usan para levantar objetos pesados aplicando menos fuerza. Un ejemplo común es una grúa en un sitio de construcción.",
+        "title": "Las poleas y su utilidad",
         "themes": [
-          "estructura de rueda y eje",
-          "usos de rueda y eje"
+          "funcionamiento de poleas",
+          "usos de poleas"
         ],
-        "image_search_string": "rueda y eje",
+        "image_search_string": "pulley construction example",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La polea es una rueda con una cuerda o cadena que pasa por su ranura. Permite levantar objetos pesados con menor esfuerzo. Las poleas son comunes en grúas y banderas.",
-        "title": "La polea",
+        "content": "Un plano inclinado es una superficie plana colocada en ángulo. Reduce la fuerza necesaria para mover un objeto hacia arriba. Ejemplo: una rampa para sillas de ruedas.",
+        "title": "El plano inclinado: facilitando el trabajo",
         "themes": [
-          "uso de la polea",
-          "ejemplos de polea"
+          "funcionamiento de plano inclinado",
+          "ejemplos de planos inclinados"
         ],
-        "image_search_string": "sistema de poleas",
+        "image_search_string": "inclined plane example",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El plano inclinado es una superficie plana que está inclinada respecto al suelo. Se usa para mover objetos hacia arriba o abajo con menos fuerza. Las rampas son un ejemplo clásico.",
-        "title": "El plano inclinado",
+        "content": "Los tornillos, cuñas y ruedas con ejes son otras máquinas simples. Los tornillos convierten la fuerza giratoria en fuerza lineal, las cuñas dividen materiales al aplicar fuerza, y las ruedas con ejes facilitan el movimiento de objetos pesados.",
+        "title": "Otros tipos de máquinas simples",
         "themes": [
-          "función del plano inclinado",
-          "ejemplo de plano inclinado"
+          "funciones de tornillos",
+          "usos de cuñas",
+          "función de ruedas y ejes"
         ],
-        "image_search_string": "plano inclinado",
+        "image_search_string": "screw wedge axle examples",
         "question_types": [
           "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La cuña y el tornillo son variantes del plano inclinado. La cuña transforma una fuerza hacia abajo en fuerzas laterales, como en cuchillos y hachas. El tornillo es un plano inclinado enrollado alrededor de un eje, utilizado en herramientas y estructuras.",
-        "title": "La cuña y el tornillo",
-        "themes": [
-          "función de la cuña",
-          "función del tornillo"
-        ],
-        "image_search_string": "cuña y tornillo",
-        "question_types": [
-          "ShortForm",
-          "Match"
+          "Grouping"
         ]
       }
     ],

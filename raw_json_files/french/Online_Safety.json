@@ -1,138 +1,68 @@
 {
   "request": {
-    "lesson_description": "Understanding Online Safety: Protecting Personal Information and Recognizing Cyber Threats.",
-    "exercises_ratio": 1.0,
+    "lesson_description": "Online Safety: Understanding cyberbullying, phishing, and safe password practices.",
+    "exercises_ratio": 0.7,
     "grade_level": "7th grade",
-    "estimated_length": 20,
+    "estimated_length": 10,
     "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "63ab778d",
+    "request_id": "d37f40cc",
     "topicInEnglish": "Online Safety",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Comprendre la sécurité en ligne : protéger ses informations personnelles et reconnaître les menaces numériques",
+    "title": "Sécurité en ligne : Comprendre le cyberharcèlement, le phishing et les bonnes pratiques pour les mots de passe",
     "slides": [
       {
-        "content": "La sécurité en ligne est essentielle pour protéger vos informations personnelles et éviter les dangers liés à l'utilisation d'Internet. Dans cette leçon, nous allons explorer les moyens de rester en sécurité en ligne et comment reconnaître les menaces potentielles.",
+        "content": "Bienvenue dans cette leçon où nous allons explorer les moyens de rester en sécurité en ligne. Apprenons à reconnaître les dangers comme le cyberharcèlement et le phishing, et découvrons comment créer des mots de passe solides pour protéger nos informations personnelles.",
         "title": "Introduction à la sécurité en ligne",
         "themes": [
-          "importance de la sécurité en ligne"
+          "introduction à la sécurité en ligne"
         ],
-        "image_search_string": "online safety concept",
+        "image_search_string": "online safety icons",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Vos informations personnelles incluent votre nom, adresse, numéro de téléphone, date de naissance, mots de passe, et autres données sensibles. Ces informations doivent être protégées pour éviter qu'elles ne soient utilisées à votre insu.",
-        "title": "Qu'est-ce que les informations personnelles ?",
+        "content": "Le cyberharcèlement est une forme de harcèlement qui se produit en ligne, souvent via les réseaux sociaux, les messageries ou les forums. Il peut inclure des insultes, des menaces, ou même la diffusion de fausses informations. Il est important d'en parler à un adulte de confiance et de signaler le contenu inapproprié.",
+        "title": "Qu'est-ce que le cyberharcèlement ?",
         "themes": [
-          "définition des informations personnelles"
+          "définition du cyberharcèlement"
         ],
-        "image_search_string": "personal information concept",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les mots de passe doivent être complexes, uniques, et régulièrement mis à jour. Une bonne pratique est d'utiliser une combinaison de lettres majuscules et minuscules, de chiffres et de symboles.",
-        "title": "Créer un mot de passe sécurisé",
-        "themes": [
-          "bonnes pratiques pour les mots de passe"
-        ],
-        "image_search_string": "secure password tips",
+        "image_search_string": "cyberbullying concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Ne partagez jamais vos informations personnelles sur des sites ou avec des personnes que vous ne connaissez pas. Vérifiez toujours la fiabilité d'un site avant de fournir vos données.",
-        "title": "Précautions à prendre en ligne",
+        "content": "Le phishing est une technique utilisée par des fraudeurs pour obtenir vos informations personnelles, comme vos mots de passe ou vos numéros de carte bancaire. Ces attaques se présentent souvent sous forme de courriels ou de faux sites web imitant des entités de confiance. Méfiez-vous des liens suspects et vérifiez toujours l'authenticité des sources.",
+        "title": "Comprendre le phishing",
         "themes": [
-          "précautions pour partager des informations"
+          "définition du phishing",
+          "comment identifier les escroqueries"
         ],
-        "image_search_string": "online precautions",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les cybermenaces incluent les virus, le phishing, les logiciels espions, et les ransomwares. Elles peuvent causer des pertes financières, des vols d'identité, ou des atteintes à la vie privée.",
-        "title": "Types de cybermenaces",
-        "themes": [
-          "différents types de cybermenaces"
-        ],
-        "image_search_string": "cyber threats examples",
+        "image_search_string": "phishing scam email",
         "question_types": [
           "ShortForm",
           "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Pour protéger vos comptes en ligne, il est essentiel de créer des mots de passe forts. Utilisez une combinaison de lettres majuscules, minuscules, chiffres et caractères spéciaux. Évitez les informations faciles à deviner comme votre prénom ou date de naissance. Changez régulièrement vos mots de passe et ne les partagez avec personne.",
+        "title": "Bonnes pratiques pour les mots de passe",
+        "themes": [
+          "création de mots de passe solides"
+        ],
+        "image_search_string": "password security tips",
+        "question_types": [
+          "ShortForm",
+          "Sort",
           "Grouping"
-        ]
-      },
-      {
-        "content": "Le phishing est une tentative de vol d'informations en se faisant passer pour une entité de confiance. Méfiez-vous des e-mails ou messages demandant vos informations personnelles.",
-        "title": "Comprendre le phishing",
-        "themes": [
-          "phishing et comment le reconnaître"
-        ],
-        "image_search_string": "phishing scam example",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Pour éviter les logiciels malveillants, installez un antivirus, mettez à jour vos logiciels, et ne téléchargez pas de fichiers suspects.",
-        "title": "Se protéger contre les logiciels malveillants",
-        "themes": [
-          "prévention contre les logiciels malveillants"
-        ],
-        "image_search_string": "antivirus protection",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les paramètres de confidentialité sur les réseaux sociaux permettent de contrôler qui peut voir vos informations. Configurez-les pour protéger votre vie privée.",
-        "title": "Paramètres de confidentialité sur les réseaux sociaux",
-        "themes": [
-          "utilisation des paramètres de confidentialité"
-        ],
-        "image_search_string": "social media privacy settings",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Les cyberharcèlements incluent les insultes, menaces, ou humiliations en ligne. Si vous êtes victime, parlez-en à un adulte de confiance et signalez-le.",
-        "title": "Reconnaître et gérer le cyberharcèlement",
-        "themes": [
-          "identification et gestion du cyberharcèlement"
-        ],
-        "image_search_string": "cyberbullying awareness",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Protéger ses informations personnelles en ligne est essentiel pour éviter les vols d'identité, les fraudes, et les atteintes à la vie privée.",
-        "title": "Pourquoi protéger ses informations en ligne ?",
-        "themes": [
-          "importance de la protection des données"
-        ],
-        "image_search_string": "data protection importance",
-        "question_types": [
-          "ShortForm",
-          "Match"
         ]
       }
     ],

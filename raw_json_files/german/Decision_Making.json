@@ -1,87 +1,39 @@
 {
   "request": {
-    "lesson_description": "Understanding Decision Making: Exploring the process of making informed and logical choices in everyday scenarios.",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Decision Making in Ecosystems: Understanding how organisms adapt and make choices for survival in their environment.",
+    "exercises_ratio": 0.8,
     "grade_level": "7th grade",
-    "estimated_length": 30,
-    "learning_standard": "Next Generation Science Standards (NGSS): MS-ETS1-2 - Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem.",
+    "estimated_length": 10,
+    "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "c026a9e6",
+    "request_id": "826353d7",
     "topicInEnglish": "Decision Making",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Understanding Decision Making",
+    "title": "Entscheidungsfindung in Ökosystemen",
     "slides": [
       {
-        "content": "Entscheidungen zu treffen ist ein wesentlicher Teil unseres Alltags. Diese Lektion wird dir helfen, den Prozess des Entscheidens besser zu verstehen und wie du fundierte und logische Entscheidungen in verschiedenen Situationen treffen kannst. 🌟",
-        "title": "Einführung in die Entscheidungsfindung",
+        "content": "Willkommen zu unserer spannenden Reise durch die Welt der Ökosysteme! 🌿 Heute werden wir entdecken, wie Lebewesen Entscheidungen treffen und sich an ihre Umgebung anpassen, um zu überleben. Lasst uns gemeinsam herausfinden, wie die Natur funktioniert!",
+        "title": "Einführung",
         "themes": [
-          "Einführung in Entscheidungen"
+          "Einführung in Ökosystementscheidungen"
         ],
-        "image_search_string": "decision making concept",
+        "image_search_string": "ecosystem overview",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Entscheidungen werden oft in vier Hauptschritten getroffen:\n\n1. **Das Problem verstehen:** Was ist das Problem oder die Herausforderung, die gelöst werden soll?\n2. **Informationen sammeln:** Welche Daten oder Fakten brauchst du, um eine Entscheidung zu treffen?\n3. **Optionen bewerten:** Welche Möglichkeiten hast du, und wie gut erfüllen sie die Anforderungen?\n4. **Eine Wahl treffen:** Welche Option ist die beste basierend auf den gesammelten Informationen und Bewertungen?",
-        "title": "Die vier Schritte der Entscheidungsfindung",
+        "content": "Ein Ökosystem ist ein Netzwerk von Lebewesen und ihrer Umgebung, die miteinander interagieren. Es umfasst Pflanzen, Tiere, Mikroorganismen, Boden, Wasser und Luft. Jedes Element spielt eine wichtige Rolle, um das Gleichgewicht zu halten.",
+        "title": "Was ist ein Ökosystem?",
         "themes": [
-          "Schritte der Entscheidungsfindung"
+          "Definition eines Ökosystems",
+          "Bestandteile eines Ökosystems"
         ],
-        "image_search_string": "decision making steps",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Um fundierte Entscheidungen zu treffen, benötigst du:\n\n- **Kritisches Denken:** Die Fähigkeit, logisch und objektiv zu denken.\n- **Problemlösungsfähigkeiten:** Lösungen zu entwickeln und umzusetzen.\n- **Informationskompetenz:** Die Fähigkeit, relevante Informationen zu finden und zu bewerten.",
-        "title": "Wichtige Fähigkeiten für gute Entscheidungen",
-        "themes": [
-          "Fähigkeiten für Entscheidungen"
-        ],
-        "image_search_string": "critical thinking skills",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Es gibt viele Situationen im Alltag, in denen wir Entscheidungen treffen müssen, wie z. B.:\n\n- Was soll ich heute anziehen?\n- Wie verbringe ich meine Freizeit?\n- Welche Schulprojekte haben Priorität?\n\nDiese Beispiele zeigen, dass Entscheidungen in allen Lebensbereichen getroffen werden.",
-        "title": "Entscheidungen im Alltag",
-        "themes": [
-          "Alltagsentscheidungen"
-        ],
-        "image_search_string": "everyday decisions",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Manchmal gibt es Einschränkungen, die unsere Entscheidungen beeinflussen können, wie z. B.:\n\n- Zeit: Wie viel Zeit steht zur Verfügung?\n- Ressourcen: Welche Mittel oder Materialien sind verfügbar?\n- Regeln oder Vorschriften: Was ist erlaubt oder notwendig?",
-        "title": "Einschränkungen bei Entscheidungen",
-        "themes": [
-          "Entscheidungsbeschränkungen"
-        ],
-        "image_search_string": "decision constraints",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Um Entscheidungen zu bewerten, können wir verschiedene Kriterien verwenden, wie:\n\n- **Effizienz:** Wie gut spart die Option Zeit oder Ressourcen?\n- **Nachhaltigkeit:** Ist die Option umweltfreundlich?\n- **Kosten:** Ist die Option erschwinglich?\n- **Praktikabilität:** Wie einfach ist sie umzusetzen?",
-        "title": "Kriterien zur Bewertung von Entscheidungen",
-        "themes": [
-          "Bewertungskriterien für Entscheidungen"
-        ],
-        "image_search_string": "decision evaluation criteria",
+        "image_search_string": "ecosystem components",
         "question_types": [
           "ShortForm",
           "Match",
@@ -89,52 +41,42 @@
         ]
       },
       {
-        "content": "Ein systematischer Ansatz zur Entscheidungsfindung kann helfen, bessere Ergebnisse zu erzielen. Ein Beispiel ist die Verwendung einer **Entscheidungsmatrix**, bei der du Optionen nach verschiedenen Kriterien bewertest und Punkte vergibst.",
-        "title": "Systematische Entscheidungsfindung",
+        "content": "Lebewesen in einem Ökosystem stehen vor der Herausforderung, Ressourcen wie Nahrung, Wasser und Lebensraum zu sichern. Dabei müssen sie Entscheidungen treffen, wie zum Beispiel: Wo finde ich Nahrung? Soll ich bleiben oder wandern? Diese Entscheidungen beeinflussen ihr Überleben und das Gleichgewicht des Ökosystems.",
+        "title": "Herausforderungen und Entscheidungen",
         "themes": [
-          "Systematische Ansätze"
+          "Ressourcenbeschaffung",
+          "Überlebensentscheidungen in Ökosystemen"
         ],
-        "image_search_string": "decision matrix",
+        "image_search_string": "ecosystem challenges",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Adaptionen sind besondere Eigenschaften oder Verhaltensweisen, die es Organismen ermöglichen, in ihrer Umgebung zu überleben. Zum Beispiel haben Kamele Höcker, um Wasser zu speichern, und Eisbären dickes Fell, um sich vor Kälte zu schützen. Diese Anpassungen sind das Ergebnis von Evolution und helfen den Organismen, ihre Lebensräume effektiv zu nutzen.",
+        "title": "Anpassungen in der Natur",
+        "themes": [
+          "Anpassungen und Evolution",
+          "Beispiele für Überlebensstrategien"
+        ],
+        "image_search_string": "animal adaptations",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Balance in einem Ökosystem ist empfindlich. Wenn ein Element gestört wird, wie zum Beispiel durch Überjagung einer Art oder Umweltverschmutzung, können sich die Auswirkungen auf das gesamte System ausbreiten. Daher ist es wichtig, die Entscheidungen und Anpassungen von Organismen zu verstehen, um Ökosysteme zu schützen.",
+        "title": "Die Bedeutung des Gleichgewichts",
+        "themes": [
+          "Ökosystemgleichgewicht",
+          "Einfluss menschlicher Aktivitäten"
+        ],
+        "image_search_string": "ecosystem balance",
         "question_types": [
           "ShortForm",
           "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Wenn du als Gruppe Entscheidungen treffen musst, ist es wichtig:\n\n- **Zusammenzuarbeiten:** Gemeinsam nach Lösungen zu suchen.\n- **Meinungen zu respektieren:** Unterschiedliche Perspektiven zu berücksichtigen.\n- **Kompromisse einzugehen:** Eine Lösung zu finden, die für alle akzeptabel ist.",
-        "title": "Entscheidungen in Gruppen",
-        "themes": [
-          "Gruppenentscheidungen"
-        ],
-        "image_search_string": "group decision making",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Es gibt verschiedene Arten von Entscheidungen, wie:\n\n- **Strategische Entscheidungen:** Langfristige, wichtige Entscheidungen.\n- **Taktische Entscheidungen:** Mittelfristige Entscheidungen zur Umsetzung von Strategien.\n- **Operative Entscheidungen:** Kurzfristige, alltägliche Entscheidungen.",
-        "title": "Arten von Entscheidungen",
-        "themes": [
-          "Entscheidungsarten"
-        ],
-        "image_search_string": "types of decisions",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Emotionen können unsere Entscheidungen stark beeinflussen. Sie können positiv wirken, indem sie uns motivieren, oder negativ, indem sie uns zu impulsiven Entscheidungen verleiten. Es ist wichtig, sich dieser Einflüsse bewusst zu sein.",
-        "title": "Die Rolle von Emotionen",
-        "themes": [
-          "Emotionen in Entscheidungen"
-        ],
-        "image_search_string": "emotions in decision making",
-        "question_types": [
-          "ShortForm",
           "Grouping"
         ]
       }

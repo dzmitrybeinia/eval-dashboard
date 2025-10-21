@@ -1,72 +1,36 @@
 {
   "request": {
-    "lesson_description": "Understanding the importance of kindness: Exploring empathy, compassion, and the impact of kind actions in daily life.",
-    "exercises_ratio": 0.3,
+    "lesson_description": "The importance of kindness and its impact on individuals and communities, exploring real-world examples and strategies to practice kindness.",
+    "exercises_ratio": 0.6,
     "grade_level": "5th grade",
-    "estimated_length": 20,
+    "estimated_length": 10,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "8c83d1d2",
+    "request_id": "7d0474e6",
     "topicInEnglish": "Kindness Matters",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Die Bedeutung von Freundlichkeit",
+    "title": "Die Bedeutung der Freundlichkeit",
     "slides": [
       {
-        "content": "Freundlichkeit ist wie ein magisches Werkzeug, das Menschen verbindet und das Leben schöner macht. Heute werden wir lernen, warum es wichtig ist, freundlich zu sein und wie unsere Taten andere beeinflussen können. 🌟",
-        "title": "Einführung in Freundlichkeit",
+        "content": "Freundlichkeit ist eine mächtige Eigenschaft, die nicht nur unser eigenes Leben, sondern auch das Leben der Menschen um uns herum beeinflussen kann. Sie hilft, positive Beziehungen aufzubauen, fördert ein Gefühl von Gemeinschaft und trägt zu einem harmonischeren Zusammenleben bei. 🌟",
+        "title": "Einführung in die Freundlichkeit",
         "themes": [
-          "Bedeutung von Freundlichkeit"
+          "Definition und Bedeutung von Freundlichkeit"
         ],
-        "image_search_string": "smiling people together",
+        "image_search_string": "kindness illustration",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Freundlichkeit bedeutet, mitfühlend und rücksichtsvoll zu handeln. Es geht darum, anderen zu helfen, ohne eine Gegenleistung zu erwarten. Freundlichkeit zeigt sich in kleinen Gesten wie einem Lächeln oder einer helfenden Hand.",
-        "title": "Was bedeutet Freundlichkeit?",
+        "content": "Freundlichkeit zeigt sich in vielen kleinen Taten, wie einem Lächeln, einem freundlichen Wort oder einem hilfsbereiten Handeln. Diese Taten können das Leben von anderen Menschen positiv beeinflussen und bringen oft auch ein gutes Gefühl für uns selbst mit sich.",
+        "title": "Wie Freundlichkeit aussieht",
         "themes": [
-          "Definition von Freundlichkeit"
-        ],
-        "image_search_string": "helping hand gesture",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Empathie bedeutet, die Gefühle und Perspektiven anderer zu verstehen. Dies hilft uns, mit anderen mitzufühlen und ihre Bedürfnisse zu erkennen. Empathie ist ein wichtiger Teil der Freundlichkeit.",
-        "title": "Was ist Empathie?",
-        "themes": [
-          "Bedeutung von Empathie"
-        ],
-        "image_search_string": "empathy concept",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Mitgefühl ist, wenn wir nicht nur verstehen, wie sich jemand fühlt, sondern auch den Wunsch haben, ihm zu helfen. Es ist eine aktive Form der Empathie.",
-        "title": "Was ist Mitgefühl?",
-        "themes": [
-          "Bedeutung von Mitgefühl"
-        ],
-        "image_search_string": "compassion towards others",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Freundliche Taten können das Leben anderer verbessern. Zum Beispiel: \n- Jemandem helfen, der gestürzt ist.\n- Einem Freund zuhören, der traurig ist.\n- Einem Fremden ein Lächeln schenken.",
-        "title": "Beispiele für Freundlichkeit",
-        "themes": [
-          "Beispiele für Freundlichkeit"
+          "Beispiele für freundliche Taten"
         ],
         "image_search_string": "acts of kindness",
         "question_types": [
@@ -75,110 +39,27 @@
         ]
       },
       {
-        "content": "Freundlichkeit wirkt sich positiv auf uns und andere aus. Sie kann:\n- Freude und Glück bringen.\n- Beziehungen stärken.\n- Eine freundlichere Gesellschaft fördern.",
-        "title": "Die Wirkung von Freundlichkeit",
+        "content": "Wenn wir freundlich zu anderen sind, schaffen wir eine positive Atmosphäre und können auch schwierige Situationen verbessern. Freundlichkeit kann dazu führen, dass andere sich geschätzt fühlen, und sie motivieren, ebenfalls freundlich zu sein. Das erzeugt eine Kettenreaktion positiver Handlungen.",
+        "title": "Der Einfluss von Freundlichkeit",
         "themes": [
-          "Positive Wirkung von Freundlichkeit"
+          "Auswirkungen von Freundlichkeit auf andere"
         ],
-        "image_search_string": "positive impact of kindness",
+        "image_search_string": "positive impact kindness",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Sort"
         ]
       },
       {
-        "content": "Wenn wir freundlich sind, fühlen wir uns oft selbst besser. Studien zeigen, dass Freundlichkeit Stress reduziert und das Wohlbefinden steigert.",
-        "title": "Freundlichkeit macht glücklich",
+        "content": "Freundlichkeit kann geübt werden, indem wir uns bewusst darum bemühen, freundlich zu sein. Dazu gehört, anderen zuzuhören, ihre Bedürfnisse zu erkennen und kleine, aber bedeutsame Taten der Unterstützung und Wertschätzung zu zeigen.",
+        "title": "Freundlichkeit praktizieren",
         "themes": [
-          "Freundlichkeit und Wohlbefinden"
+          "Strategien zur Förderung von Freundlichkeit"
         ],
-        "image_search_string": "happiness and kindness",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Freundlichkeit kann ansteckend sein. Wenn wir freundlich sind, inspirieren wir oft andere, es uns gleichzutun. So verbreitet sich Freundlichkeit wie eine Welle.",
-        "title": "Die ansteckende Wirkung von Freundlichkeit",
-        "themes": [
-          "Ansteckende Wirkung von Freundlichkeit"
-        ],
-        "image_search_string": "ripple effect kindness",
+        "image_search_string": "practicing kindness",
         "question_types": [
           "ShortForm",
           "Match"
-        ]
-      },
-      {
-        "content": "Manchmal ist es nicht einfach, freundlich zu sein, besonders wenn wir gestresst oder wütend sind. Aber gerade dann ist es wichtig, bewusst freundlich zu handeln.",
-        "title": "Herausforderungen der Freundlichkeit",
-        "themes": [
-          "Herausforderungen der Freundlichkeit"
-        ],
-        "image_search_string": "kindness challenges",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Freundlichkeit können wir üben, indem wir:\n- Jeden Tag eine gute Tat vollbringen.\n- Uns in die Lage anderer versetzen.\n- Dankbarkeit zeigen.",
-        "title": "Wie man Freundlichkeit üben kann",
-        "themes": [
-          "Freundlichkeit üben"
-        ],
-        "image_search_string": "practice kindness daily",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "In Geschichten wird Freundlichkeit oft als Heldentat dargestellt. Zum Beispiel in Märchen, wo der Held anderen hilft und am Ende dafür belohnt wird.",
-        "title": "Freundlichkeit in Geschichten",
-        "themes": [
-          "Freundlichkeit in Geschichten"
-        ],
-        "image_search_string": "kindness in fairy tales",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "In vielen Kulturen und Religionen wird Freundlichkeit als eine der wichtigsten Tugenden angesehen. Sie wird als Weg zu einem harmonischen und glücklichen Leben betrachtet.",
-        "title": "Freundlichkeit in Kulturen",
-        "themes": [
-          "Freundlichkeit in verschiedenen Kulturen"
-        ],
-        "image_search_string": "kindness across cultures",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Freundlichkeit ist eine Fähigkeit, die jeder lernen und verbessern kann. Sie beginnt mit kleinen Schritten und wächst mit der Übung.",
-        "title": "Freundlichkeit als Fähigkeit",
-        "themes": [
-          "Freundlichkeit als Fähigkeit"
-        ],
-        "image_search_string": "kindness as a skill",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Lasst uns daran denken, dass Freundlichkeit die Welt zu einem besseren Ort macht. Jeder kleine Akt der Freundlichkeit zählt und hat eine große Wirkung. 🌟",
-        "title": "Abschlussgedanken zur Freundlichkeit",
-        "themes": [
-          "Wichtigkeit von Freundlichkeit"
-        ],
-        "image_search_string": "world kindness",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

@@ -1,39 +1,39 @@
 {
   "request": {
-    "lesson_description": "Understanding the basics of balanced diets: Exploring food groups, their roles, and the importance of portion control.",
+    "lesson_description": "Healthy Eating: Understanding nutrients, food groups, and their role in maintaining a balanced diet.",
     "exercises_ratio": 0.0,
-    "grade_level": "5th grade",
-    "estimated_length": 10,
-    "learning_standard": "Next Generation Science Standards (NGSS): 5-LS1-1: Support an argument that plants get the materials they need for growth chiefly from air and water, and relate this to how humans obtain nutrients from food.",
-    "additional_guidance": "",
+    "grade_level": "6th grade",
+    "estimated_length": 20,
+    "learning_standard": "Next Generation Science Standards (NGSS): MS-LS1-7 - Develop and use a model to describe how food is rearranged through chemical reactions to form new molecules that support growth and release energy.",
+    "additional_guidance": "Include real-world examples of balanced meals and explain the importance of portion sizes and hydration. Emphasize the role of nutrients like vitamins, minerals, proteins, carbohydrates, and fats in overall health.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "5fb0ad99",
+    "request_id": "cd5a16c4",
     "topicInEnglish": "Healthy Eating",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Die Grundlagen einer ausgewogenen Ernährung",
+    "title": "Gesunde Ernährung: Nährstoffe und ausgewogene Ernährung",
     "slides": [
       {
-        "content": "Eine ausgewogene Ernährung ist wichtig, um gesund und fit zu bleiben. In dieser Lektion lernen wir, welche Nährstoffe unser Körper braucht, welche Lebensmittelgruppen es gibt und wie wir die richtige Portionsgröße für eine gesunde Ernährung wählen.",
-        "title": "Einführung in die ausgewogene Ernährung",
+        "content": "Willkommen zu unserer Lektion über gesunde Ernährung! 🌱 Heute entdecken wir, wie verschiedene Nährstoffe und Lebensmittelgruppen zusammenarbeiten, um unseren Körper stark und gesund zu halten!",
+        "title": "Einleitung",
         "themes": [
-          "Einführung in Ernährung"
+          "Einführung in gesunde Ernährung"
         ],
-        "image_search_string": "balanced diet concept",
+        "image_search_string": "healthy food introduction",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Unser Körper benötigt sechs Hauptnährstoffe, um zu funktionieren:\n\n- **Kohlenhydrate**: Sie liefern Energie, z. B. in Brot, Reis und Nudeln.\n- **Proteine**: Sie helfen beim Aufbau und der Reparatur von Gewebe, z. B. in Fleisch, Fisch und Hülsenfrüchten.\n- **Fette**: Sie liefern Energie und unterstützen wichtige Körperfunktionen, z. B. in Nüssen, Öl und Avocados.\n- **Vitamine**: Sie helfen bei unterschiedlichen Körperfunktionen, z. B. Vitamin C in Zitrusfrüchten.\n- **Mineralien**: Sie unterstützen Knochen, Zähne und andere Funktionen, z. B. Kalzium in Milchprodukten.\n- **Wasser**: Es reguliert die Körpertemperatur und transportiert Nährstoffe.",
-        "title": "Die sechs Hauptnährstoffe",
+        "content": "Nährstoffe sind lebenswichtige Substanzen, die unser Körper benötigt, um zu funktionieren. Diese umfassen:\n\n- **Kohlenhydrate**: Hauptenergiequelle.\n- **Proteine**: Unterstützen Wachstum und Reparatur.\n- **Fette**: Energiespeicher und Schutz.\n- **Vitamine und Mineralien**: Unterstützen zahlreiche Körperfunktionen.\n- **Wasser**: Wichtig für nahezu alle Körperprozesse.",
+        "title": "Was sind Nährstoffe?",
         "themes": [
-          "Hauptnährstoffe",
-          "Nährstofffunktionen"
+          "Definition von Nährstoffen",
+          "Arten von Nährstoffen"
         ],
-        "image_search_string": "nutrition nutrients diagram",
+        "image_search_string": "different nutrients types",
         "question_types": [
           "ShortForm",
           "Match",
@@ -41,11 +41,11 @@
         ]
       },
       {
-        "content": "Lebensmittel lassen sich in verschiedene Gruppen einteilen, die jeweils wichtige Nährstoffe liefern:\n\n- **Getreideprodukte**: z. B. Brot, Nudeln, Reis.\n- **Gemüse und Obst**: Liefert Vitamine und Mineralstoffe.\n- **Milchprodukte**: Liefert Kalzium und Proteine.\n- **Fleisch, Fisch und Alternativen**: Liefert Proteine und Eisen.\n- **Fette und Öle**: Liefert Energie und essentielle Fettsäuren.",
+        "content": "Es gibt fünf Hauptlebensmittelgruppen, die Teil einer ausgewogenen Ernährung sein sollten:\n\n1. **Obst**: Reich an Vitaminen und Ballaststoffen.\n2. **Gemüse**: Liefert wichtige Mineralstoffe.\n3. **Getreideprodukte**: Hauptquelle für Kohlenhydrate.\n4. **Proteinquellen**: Fleisch, Fisch, Eier, Hülsenfrüchte.\n5. **Milchprodukte**: Reich an Kalzium für starke Knochen.",
         "title": "Lebensmittelgruppen",
         "themes": [
           "Lebensmittelgruppen",
-          "Nährstoffquellen"
+          "Bedeutung der Lebensmittelgruppen"
         ],
         "image_search_string": "food groups chart",
         "question_types": [
@@ -55,93 +55,99 @@
         ]
       },
       {
-        "content": "Der menschliche Körper benötigt Energie, die in Kalorien gemessen wird. Der tägliche Energiebedarf hängt von Alter, Geschlecht und Aktivitätsniveau ab. Es ist wichtig, nicht zu viel oder zu wenig zu essen, um ein gesundes Gewicht zu halten.",
-        "title": "Energiebedarf und Kalorien",
+        "content": "Ein ausgewogener Teller sollte etwa so aussehen:\n\n- **Hälfte**: Obst und Gemüse.\n- **Ein Viertel**: Proteine wie Fisch oder Bohnen.\n- **Ein Viertel**: Vollkornprodukte.\n- **Ein Glas Wasser**: Für ausreichende Hydration.",
+        "title": "Der ausgewogene Teller",
         "themes": [
-          "Kalorienbedarf",
-          "Energiebalance"
+          "Anteile auf einem Teller",
+          "Hydration"
         ],
-        "image_search_string": "caloric needs chart",
+        "image_search_string": "balanced meal plate",
         "question_types": [
           "ShortForm",
+          "Match",
           "Sort"
         ]
       },
       {
-        "content": "Portionskontrolle hilft uns, die richtige Menge an Nahrung zu essen. Verwenden Sie kleinere Teller, messen Sie Portionsgrößen und vermeiden Sie übermäßiges Essen. Zum Beispiel entspricht eine Portion Obst einer Handvoll.",
-        "title": "Portionskontrolle",
+        "content": "Kohlenhydrate liefern Energie für den Alltag. Gute Quellen sind:\n\n- Vollkornbrot\n- Reis\n- Nudeln\n- Kartoffeln\n\nVermeiden Sie übermäßigen Konsum von Zucker, da dies zu Energiespitzen und -abfällen führen kann.",
+        "title": "Die Rolle der Kohlenhydrate",
         "themes": [
-          "Portionsgrößen",
-          "Essgewohnheiten"
+          "Energie durch Kohlenhydrate",
+          "Gute und schlechte Kohlenhydrate"
         ],
-        "image_search_string": "portion control plate",
+        "image_search_string": "carbohydrate food sources",
         "question_types": [
           "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Einige Lebensmittel sollten seltener gegessen werden, da sie viel Zucker, Salz oder Fett enthalten, z. B. Süßigkeiten und Chips. Gesunde Alternativen umfassen Obst, Nüsse und Vollkornprodukte.",
-        "title": "Gesunde und weniger gesunde Lebensmittel",
-        "themes": [
-          "Gesunde Ernährung",
-          "Lebensmittelalternativen"
-        ],
-        "image_search_string": "healthy vs unhealthy food",
-        "question_types": [
-          "ShortForm",
+          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Pflanzen erhalten ihre Nährstoffe hauptsächlich aus Wasser und Luft. Menschen hingegen müssen verschiedene Lebensmittel essen, um alle nötigen Nährstoffe zu erhalten. Dies zeigt, wie wichtig eine ausgewogene Ernährung ist.",
-        "title": "Pflanzen und Menschen: Unterschiedliche Nährstoffquellen",
+        "content": "Proteine sind Bausteine für Muskeln und Gewebe. Sie sind wichtig für:\n\n- Muskelaufbau.\n- Reparatur beschädigter Gewebe.\n- Produktion von Enzymen und Hormonen.\n\nQuellen umfassen Fleisch, Fisch, Eier, Bohnen und Nüsse.",
+        "title": "Die Rolle der Proteine",
         "themes": [
-          "Pflanzennährstoffe",
-          "Menschliche Ernährung"
+          "Funktion von Proteinen",
+          "Proteinquellen"
         ],
-        "image_search_string": "plants human nutrition",
+        "image_search_string": "protein rich foods",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Lebensmittelverpackungen geben wichtige Informationen über den Nährwert. Achten Sie auf Kalorien, Zucker, Fett und Salzgehalt. Nutzen Sie diese Informationen, um gesunde Entscheidungen zu treffen.",
-        "title": "Nährwertangaben verstehen",
+        "content": "Fette sind eine konzentrierte Energiequelle und schützen Organe. Es gibt:\n\n- **Gesunde Fette**: Pflanzenöle, Avocados, Nüsse.\n- **Ungesunde Fette**: Transfette in frittierten Speisen.\n\nWählen Sie gesunde Fette, um Ihr Herz zu schützen.",
+        "title": "Die Rolle der Fette",
         "themes": [
-          "Lebensmittelkennzeichnung",
-          "Nährwertanalyse"
+          "Funktion von Fetten",
+          "Arten von Fetten"
         ],
-        "image_search_string": "nutrition label example",
+        "image_search_string": "healthy fats sources",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
         ]
       },
       {
-        "content": "Trinken Sie ausreichend Wasser, um Ihren Körper hydratisiert zu halten. Erwachsene sollten etwa 2 Liter am Tag trinken, Kinder etwas weniger, je nach Alter und Aktivität.",
+        "content": "Vitamine und Mineralien stärken das Immunsystem, fördern das Wachstum und schützen vor Krankheiten. Beispiele:\n\n- **Vitamin C**: In Orangen, stärkt die Immunfunktion.\n- **Kalzium**: In Milchprodukten, stärkt Knochen.",
+        "title": "Vitamine und Mineralien",
+        "themes": [
+          "Wichtigkeit von Vitaminen",
+          "Beispiele für Mineralien"
+        ],
+        "image_search_string": "vitamins and minerals sources",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Wasser ist lebensnotwendig. Es hilft bei:\n\n- Temperaturregulierung.\n- Transport von Nährstoffen.\n- Ausscheidung von Abfallstoffen.\n\nTrinken Sie täglich mindestens 1,5 Liter.",
         "title": "Die Bedeutung von Wasser",
         "themes": [
-          "Wasseraufnahme",
+          "Funktion von Wasser",
           "Hydration"
         ],
         "image_search_string": "importance of drinking water",
         "question_types": [
           "ShortForm",
-          "Sort"
+          "Match"
         ]
       },
       {
-        "content": "Eine ausgewogene Ernährung kombiniert alle Lebensmittelgruppen in den richtigen Mengen. Planen Sie Mahlzeiten mit einer Vielfalt an Lebensmitteln und achten Sie auf Portionsgrößen, um alle Nährstoffe zu erhalten.",
-        "title": "Zusammenfassung: Der Schlüssel zur ausgewogenen Ernährung",
+        "content": "Ein Beispiel für eine ausgewogene Mahlzeit:\n\n- **Frühstück**: Haferflocken mit frischen Beeren.\n- **Mittagessen**: Gegrilltes Hähnchen mit Quinoa und Gemüse.\n- **Abendessen**: Lachs mit Süßkartoffeln und Brokkoli.",
+        "title": "Beispiele für ausgewogene Mahlzeiten",
         "themes": [
-          "Ernährungsplanung",
-          "Ausgewogene Mahlzeiten"
+          "Beispiele für Mahlzeiten",
+          "Ausgewogene Ernährung"
         ],
-        "image_search_string": "balanced meal plate",
+        "image_search_string": "balanced meal examples",
         "question_types": [
           "ShortForm",
+          "Match",
           "Grouping"
         ]
       }

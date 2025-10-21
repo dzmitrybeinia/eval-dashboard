@@ -1,62 +1,60 @@
 {
   "request": {
-    "lesson_description": "Introduction to Basic Algebra: Understanding variables, constants, and basic operations like addition, subtraction, multiplication, and division.",
-    "exercises_ratio": 0.5,
+    "lesson_description": "Introduction to Basic Algebra: Understanding variables, expressions, and simple equations.",
+    "exercises_ratio": 1.0,
     "grade_level": "7th grade",
-    "estimated_length": 15,
-    "learning_standard": "CCSS.MATH.CONTENT.7.EE.B.4 - Use variables to solve equations and analyze relationships between dependent and independent variables.",
+    "estimated_length": 10,
+    "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "27eb068e",
+    "request_id": "12a06d42",
     "topicInEnglish": "Basic Algebra",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Introducción al Álgebra Básica",
+    "title": "Introduction to Basic Algebra",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo del álgebra! En este tema aprenderemos sobre conceptos básicos como variables, constantes y operaciones matemáticas fundamentales. ¡Prepárate para descubrir cómo el álgebra nos ayuda a resolver problemas y entender relaciones matemáticas!",
-        "title": "Bienvenida al Álgebra",
+        "content": "¡Bienvenidos al fascinante mundo del álgebra! En esta lección, aprenderemos sobre los conceptos básicos del álgebra, incluyendo qué son las variables, las expresiones algebraicas y cómo resolver ecuaciones simples. 🌟",
+        "title": "Introducción al Álgebra",
         "themes": [
           "introducción al álgebra"
         ],
-        "image_search_string": "niños aprendiendo álgebra",
+        "image_search_string": "basic algebra concepts",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "En álgebra, una **variable** es un símbolo, generalmente una letra, que representa un número desconocido o que puede cambiar. Por ejemplo, en la ecuación \"x + 3 = 7\", la variable es \"x\".",
-        "title": "¿Qué es una variable?",
+        "content": "El álgebra es una rama de las matemáticas que utiliza letras y símbolos para representar números y operaciones. Estas letras, llamadas variables, se usan para generalizar problemas y resolver ecuaciones.",
+        "title": "¿Qué es el Álgebra?",
         "themes": [
-          "definición de variable"
+          "definición de álgebra"
         ],
-        "image_search_string": "símbolos matemáticos variables",
+        "image_search_string": "algebra definition",
         "question_types": [
-          "ShortForm",
-          "Match"
+          "ShortForm"
         ]
       },
       {
-        "content": "Una **constante** es un valor fijo que no cambia. Por ejemplo, en la ecuación \"x + 3 = 7\", el número 3 y el número 7 son constantes porque no cambian.",
-        "title": "¿Qué es una constante?",
+        "content": "Una variable es un símbolo, usualmente una letra como x o y, que representa un número desconocido o que puede cambiar. Por ejemplo, en la expresión x + 2, x es la variable.",
+        "title": "¿Qué es una Variable?",
         "themes": [
-          "definición de constante"
+          "concepto de variable"
         ],
-        "image_search_string": "números constantes matemáticas",
+        "image_search_string": "algebra variable",
         "question_types": [
-          "ShortForm",
-          "Match"
+          "ShortForm"
         ]
       },
       {
-        "content": "En álgebra, utilizamos operaciones como la suma (+), resta (-), multiplicación (×) y división (÷) para manipular variables y constantes. Estas operaciones nos ayudan a resolver ecuaciones y entender relaciones.",
-        "title": "Operaciones básicas en álgebra",
+        "content": "Las expresiones algebraicas combinan números, variables y operaciones. Por ejemplo: 3x + 5, donde 3x significa 3 multiplicado por x, y 5 es un término constante.",
+        "title": "Expresiones Algebraicas",
         "themes": [
-          "operaciones matemáticas básicas"
+          "definición de expresiones algebraicas"
         ],
-        "image_search_string": "símbolos de operaciones matemáticas",
+        "image_search_string": "algebraic expression",
         "question_types": [
           "ShortForm",
           "Match",
@@ -64,37 +62,71 @@
         ]
       },
       {
-        "content": "Cuando resolvemos una ecuación, buscamos el valor de la variable que hace que la ecuación sea verdadera. Por ejemplo, en \"x + 3 = 7\", restamos 3 de ambos lados para encontrar que \"x = 4\".",
-        "title": "Resolviendo ecuaciones básicas",
+        "content": "Resolver una ecuación significa encontrar el valor de la variable que hace que la ecuación sea verdadera. Por ejemplo, en x + 3 = 7, el valor de x es 4.",
+        "title": "Resolver Ecuaciones Simples",
         "themes": [
-          "resolución de ecuaciones simples"
+          "resolver ecuaciones simples"
         ],
-        "image_search_string": "resolver ecuaciones simples",
+        "image_search_string": "simple equation solving",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "En álgebra, las variables independientes son las que elegimos o controlamos, mientras que las variables dependientes son las que cambian en respuesta. Por ejemplo, si \"y = 2x\", \"x\" es independiente y \"y\" es dependiente.",
-        "title": "Relaciones entre variables",
+        "content": "Para resolver ecuaciones simples, sigue estos pasos: 1) Identifica la variable, 2) Aísla la variable en un lado de la ecuación, 3) Realiza las operaciones necesarias para encontrar su valor.",
+        "title": "Pasos para Resolver Ecuaciones",
         "themes": [
-          "variables dependientes e independientes"
+          "métodos para resolver ecuaciones"
         ],
-        "image_search_string": "relaciones variables independientes y dependientes",
+        "image_search_string": "steps to solve equations",
+        "question_types": [
+          "Sort"
+        ]
+      },
+      {
+        "content": "El álgebra tiene muchas aplicaciones en la vida diaria, como en la planificación financiera, el diseño de estructuras y la programación de computadoras.",
+        "title": "Aplicaciones del Álgebra",
+        "themes": [
+          "usos del álgebra"
+        ],
+        "image_search_string": "algebra applications",
         "question_types": [
           "ShortForm",
-          "Match",
+          "Match"
+        ]
+      },
+      {
+        "content": "Comparando expresiones algebraicas: Una expresión como 2x tiene un término variable, mientras que 5 es un término constante. Mezclando ambos obtenemos expresiones completas como 2x + 5.",
+        "title": "Comparación de Términos",
+        "themes": [
+          "comparación de términos algebraicos"
+        ],
+        "image_search_string": "compare algebra terms",
+        "question_types": [
+          "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "El álgebra nos permite analizar y resolver problemas matemáticos y del mundo real. Con práctica y paciencia, podemos dominar el uso de variables, constantes y operaciones para resolver ecuaciones y entender relaciones.",
-        "title": "La importancia del álgebra",
+        "content": "Existen diferentes tipos de ecuaciones, como lineales y cuadráticas. En el nivel básico, nos enfocamos en las ecuaciones lineales, que tienen la forma ax + b = c.",
+        "title": "Tipos de Ecuaciones",
         "themes": [
-          "importancia del álgebra"
+          "tipos básicos de ecuaciones"
         ],
-        "image_search_string": "niños resolviendo problemas matemáticos",
+        "image_search_string": "types of algebra equations",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Ahora que comprendes los conceptos básicos del álgebra, estás listo para practicar y resolver problemas por tu cuenta. ¡Diviértete explorando el mundo del álgebra!",
+        "title": "Conclusión de la Lección",
+        "themes": [
+          "resumen del álgebra básico"
+        ],
+        "image_search_string": "algebra summary",
         "question_types": [
           "ShortForm"
         ]

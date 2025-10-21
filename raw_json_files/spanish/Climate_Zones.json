@@ -1,14 +1,14 @@
 {
   "request": {
-    "lesson_description": "Understanding Climate Zones: Exploring the major climate zones (tropical, temperate, polar) and their characteristics.",
-    "exercises_ratio": 0.0,
-    "grade_level": "6th grade",
+    "lesson_description": "Understanding climate zones: Exploring factors that influence climate, such as latitude, altitude, and proximity to water bodies.",
+    "exercises_ratio": 0.2,
+    "grade_level": "7th grade",
     "estimated_length": 25,
     "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "df32ebf1",
+    "request_id": "f8c49308",
     "topicInEnglish": "Climate Zones",
     "generationLanguage": "es-ES"
   },
@@ -16,37 +16,62 @@
     "title": "Understanding Climate Zones",
     "slides": [
       {
-        "content": "¡Bienvenidos a una aventura para explorar los secretos del clima en nuestro planeta! 🌍 ¿Alguna vez te has preguntado por qué algunas regiones son cálidas y húmedas mientras que otras son frías y secas? Acompáñanos a descubrir las zonas climáticas y sus fascinantes características.",
-        "title": "Introducción a las zonas climáticas",
+        "content": "¡Bienvenidos! Hoy vamos a explorar los fascinantes climas de nuestro planeta 🌍. Descubriremos qué factores influyen en el clima, como la latitud, la altitud y la cercanía a los cuerpos de agua. ¡Prepárate para un viaje educativo lleno de sorpresas!",
+        "title": "Introducción a los climas",
         "themes": [
-          "introducción a las zonas climáticas"
+          "introducción a los climas"
         ],
-        "image_search_string": "zonas climáticas del mundo",
+        "image_search_string": "global climate map",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El clima de un lugar es determinado por factores como la temperatura, la cantidad de lluvia y la humedad. Las zonas climáticas son grandes áreas del mundo que comparten patrones similares de clima.",
-        "title": "¿Qué es el clima y las zonas climáticas?",
+        "content": "El clima es el patrón promedio del tiempo atmosférico en un área durante un periodo prolongado. Incluye aspectos como la temperatura, la precipitación y el viento. Es diferente al tiempo, que describe las condiciones atmosféricas diarias.",
+        "title": "¿Qué es el clima?",
         "themes": [
           "definición de clima",
-          "concepto de zonas climáticas"
+          "diferencias entre clima y tiempo"
         ],
-        "image_search_string": "definición de clima",
+        "image_search_string": "weather vs climate",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La Tierra tiene tres principales zonas climáticas: tropical, templada y polar. Estas zonas se determinan por la posición del lugar en relación al ecuador y la inclinación del eje terrestre.",
-        "title": "Las tres zonas climáticas principales",
+        "content": "La latitud afecta al clima porque determina la cantidad de luz solar que recibe una región. Cerca del ecuador, las áreas reciben más luz solar directa y tienen climas más cálidos. A medida que nos alejamos hacia los polos, las temperaturas tienden a bajar.",
+        "title": "Influencia de la latitud",
         "themes": [
-          "zonas climáticas principales",
-          "ubicación de zonas climáticas"
+          "impacto de la latitud en el clima"
         ],
-        "image_search_string": "mapa de zonas climáticas",
+        "image_search_string": "latitude and climate",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La altitud también influye en el clima. A mayor altitud, las temperaturas suelen ser más bajas debido a que el aire es más delgado y no retiene tanto calor. Por eso, en las montañas hace más frío que en las llanuras cercanas.",
+        "title": "Efectos de la altitud",
+        "themes": [
+          "cómo la altitud afecta al clima"
+        ],
+        "image_search_string": "altitude and temperature",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Sort"
+        ]
+      },
+      {
+        "content": "La proximidad a grandes cuerpos de agua, como océanos y mares, modera el clima. Estas masas de agua almacenan calor y lo liberan lentamente, lo que ayuda a evitar extremos de temperatura en áreas cercanas.",
+        "title": "Influencia de los cuerpos de agua",
+        "themes": [
+          "efecto de cuerpos de agua en el clima"
+        ],
+        "image_search_string": "water bodies and climate",
         "question_types": [
           "ShortForm",
           "Match",
@@ -54,36 +79,12 @@
         ]
       },
       {
-        "content": "Las zonas tropicales están ubicadas cerca del ecuador. Estas áreas disfrutan de temperaturas cálidas durante todo el año y tienen temporadas de lluvia y sequía.",
-        "title": "Zona tropical",
+        "content": "Estos factores: latitud, altitud y cercanía al agua, interactúan para crear distintos climas en todo el mundo. Por ejemplo, una región montañosa cerca del ecuador puede tener un clima fresco, a pesar de su latitud.",
+        "title": "Interacción de factores climáticos",
         "themes": [
-          "características de la zona tropical"
+          "interacción entre factores climáticos"
         ],
-        "image_search_string": "zona tropical características",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las zonas templadas se encuentran entre las zonas tropicales y polares. Aquí las estaciones son más marcadas, con veranos cálidos e inviernos fríos.",
-        "title": "Zona templada",
-        "themes": [
-          "características de la zona templada"
-        ],
-        "image_search_string": "zona templada características",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las zonas polares están cerca de los polos norte y sur. Estas áreas son muy frías y la nieve cubre el suelo la mayor parte del año.",
-        "title": "Zona polar",
-        "themes": [
-          "características de la zona polar"
-        ],
-        "image_search_string": "zona polar características",
+        "image_search_string": "climate factors interaction",
         "question_types": [
           "ShortForm",
           "Grouping"

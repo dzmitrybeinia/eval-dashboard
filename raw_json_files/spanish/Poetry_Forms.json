@@ -1,166 +1,83 @@
 {
   "request": {
-    "lesson_description": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limericks. Understanding structure, themes, and stylistic choices.",
-    "exercises_ratio": 0.4,
+    "lesson_description": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick.",
+    "exercises_ratio": 0.8,
     "grade_level": "8th grade",
-    "estimated_length": 20,
-    "learning_standard": "",
+    "estimated_length": 25,
+    "learning_standard": "CCSS.ELA-LITERACY.RL.8.4: Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "a4d81c63",
+    "request_id": "8ede9bb1",
     "topicInEnglish": "Poetry Forms",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Explorando las Formas de Poesía",
+    "title": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy vamos a adentrarnos en el mundo de la poesía. Exploraremos diferentes formas poéticas, desde el Haiku hasta los Limericks, para descubrir cómo los poetas usan estructuras y estilos únicos para expresar emociones e ideas. 🌟",
+        "content": "¡Bienvenidos a una aventura poética! 🌟 Hoy exploraremos las formas poéticas más fascinantes y cómo las palabras y sus significados pueden crear emociones y tonos únicos. ¡Prepárate para sumergirte en la magia de las palabras!",
         "title": "Introducción a la Poesía",
         "themes": [
-          "introducción a la poesía"
+          "Introducción a la poesía"
         ],
-        "image_search_string": "poesía creativa",
+        "image_search_string": "poetry symbols",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El Haiku es una forma de poesía breve originaria de Japón. Tiene una estructura de tres versos con un patrón de sílabas 5-7-5. Los Haikus suelen centrarse en la naturaleza y los cambios de estación, transmitiendo emociones a través de imágenes sencillas y directas.",
-        "title": "El Haiku",
+        "content": "Los haikus son una forma de poesía japonesa tradicional. Su estructura es muy particular: consta de tres versos, el primero de 5 sílabas, el segundo de 7 y el tercero de 5. Los haikus suelen centrarse en la naturaleza y los cambios estacionales, utilizando palabras precisas y evocadoras para transmitir emociones profundas.",
+        "title": "¿Qué es un Haiku?",
         "themes": [
-          "estructura del Haiku",
-          "temas del Haiku"
+          "Estructura del Haiku",
+          "Temas del Haiku"
         ],
-        "image_search_string": "poema Haiku",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Los sonetos son poemas de 14 versos con un esquema rítmico definido. Existen diferentes tipos, como el soneto inglés (Shakespeareano) y el italiano (Petrarquista). Los temas de los sonetos suelen incluir el amor, la belleza y la mortalidad.",
-        "title": "El Soneto",
-        "themes": [
-          "estructura del soneto",
-          "temas del soneto"
-        ],
-        "image_search_string": "poema soneto",
+        "image_search_string": "haiku poem nature",
         "question_types": [
           "ShortForm",
           "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El verso libre es un estilo de poesía que no sigue reglas estrictas de métrica o rima. Permite a los poetas expresarse con mayor libertad, utilizando la cadencia y el ritmo natural del lenguaje.",
-        "title": "El Verso Libre",
-        "themes": [
-          "características del verso libre"
-        ],
-        "image_search_string": "poema verso libre",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Los limericks son poemas humorísticos de cinco versos con un esquema de rima AABBA. Suelen contar pequeñas historias o situaciones cómicas, destacándose por su ritmo pegajoso y su contenido ligero.",
-        "title": "El Limerick",
-        "themes": [
-          "estructura del limerick",
-          "temas del limerick"
-        ],
-        "image_search_string": "poema limerick",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Comparando las formas poéticas: Los Haikus son breves y enfocados en la naturaleza, los sonetos son estructurados y profundos, los versos libres son flexibles y los limericks son humorísticos y rítmicos.",
-        "title": "Comparación de Formas Poéticas",
-        "themes": [
-          "comparación de formas poéticas"
-        ],
-        "image_search_string": "comparación poesía",
-        "question_types": [
-          "Match",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La métrica y la rima son elementos importantes en muchas formas poéticas. La métrica se refiere al ritmo creado por las sílabas acentuadas y no acentuadas, mientras que la rima es la repetición de sonidos al final de los versos.",
-        "title": "Métrica y Rima",
-        "themes": [
-          "concepto de métrica",
-          "concepto de rima"
-        ],
-        "image_search_string": "métrica y rima",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El lenguaje figurado, como las metáforas y los símiles, es esencial en la poesía. Estos recursos ayudan a expresar ideas complejas de manera visual y emocional, enriqueciendo el significado del poema.",
-        "title": "Lenguaje Figurado en Poesía",
-        "themes": [
-          "uso del lenguaje figurado"
-        ],
-        "image_search_string": "lenguaje figurado poesía",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Los temas en la poesía son las ideas o emociones centrales que el poeta desea transmitir. Pueden ser universales, como el amor o la naturaleza, o personales, como la introspección o los recuerdos.",
-        "title": "Temas en la Poesía",
-        "themes": [
-          "temas comunes en poesía"
-        ],
-        "image_search_string": "temas de poesía",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La poesía ha evolucionado a lo largo del tiempo, adaptándose a diferentes culturas y épocas. Desde los poemas épicos antiguos hasta las formas modernas, cada estilo refleja su contexto histórico.",
-        "title": "Evolución de la Poesía",
-        "themes": [
-          "evolución histórica de la poesía"
-        ],
-        "image_search_string": "historia de la poesía",
-        "question_types": [
-          "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "Los poetas famosos como Pablo Neruda, Sor Juana Inés de la Cruz y Federico García Lorca han dejado una marca indeleble en la poesía. Sus obras nos inspiran y nos enseñan sobre la belleza del lenguaje.",
-        "title": "Poetas Famosos",
+        "content": "El soneto es una forma de poesía que tiene 14 versos, generalmente divididos en dos cuartetos y dos tercetos. Los sonetos pueden abordar una variedad de temas, desde el amor hasta la reflexión filosófica. Son famosos por su métrica rigurosa y el uso de rimas estructuradas, que crean un ritmo armónico.",
+        "title": "Descubriendo el Soneto",
         "themes": [
-          "poetas influyentes"
+          "Estructura del Soneto",
+          "Temas del Soneto"
         ],
-        "image_search_string": "poetas famosos",
+        "image_search_string": "sonnet poem writing",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los poemas de verso libre no tienen una estructura fija de rima o métrica, lo que permite al poeta una mayor libertad creativa. A menudo, el verso libre experimenta con el ritmo, las imágenes y el lenguaje para expresar ideas y emociones de manera única.",
+        "title": "El Verso Libre",
+        "themes": [
+          "Características del verso libre"
+        ],
+        "image_search_string": "free verse poem",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Ahora que hemos explorado las formas poéticas y sus características, ¿qué tal si intentamos escribir un poema propio? Usa tus ideas y emociones para crear algo único y especial.",
-        "title": "Escribe Tu Propio Poema",
+        "content": "Los limericks son poemas humorísticos de cinco versos con un esquema fijo de rima (AABBA). Suelen contar pequeñas historias o situaciones cómicas, usando un lenguaje sencillo y directo para provocar una sonrisa o una risa.",
+        "title": "El Encanto del Limerick",
         "themes": [
-          "crear un poema propio"
+          "Estructura del Limerick",
+          "Propósito del Limerick"
         ],
-        "image_search_string": "escribir poesía",
+        "image_search_string": "limerick poem funny",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       }
     ],

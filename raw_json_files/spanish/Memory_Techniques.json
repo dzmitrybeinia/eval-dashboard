@@ -1,67 +1,66 @@
 {
   "request": {
-    "lesson_description": "Memory Techniques: Understanding how the brain stores and retrieves information, and exploring strategies to enhance memory retention.",
-    "exercises_ratio": 0.6,
+    "lesson_description": "Memory Techniques: Exploring mnemonic devices, visualization strategies, and the method of loci to enhance learning and retention.",
+    "exercises_ratio": 0.7,
     "grade_level": "9th grade",
     "estimated_length": 10,
-    "learning_standard": "Next Generation Science Standards (NGSS): HS-LS1-3 - Plan and conduct an investigation to provide evidence of how the brain processes information and supports memory.",
+    "learning_standard": "Next Generation Science Standards (NGSS) - HS-LS1-3: Plan and conduct an investigation to provide evidence of how memory works as a function of brain structure and processes.",
     "additional_guidance": "",
     "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "2743f047",
+    "request_id": "b15119e5",
     "topicInEnglish": "Memory Techniques",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Técnicas de Memoria: Cómo Funciona y Cómo Mejorarla",
+    "title": "Memory Techniques: Enhancing Learning and Retention",
     "slides": [
       {
-        "content": "¿Sabías que tu cerebro es como una biblioteca gigante que almacena recuerdos? En esta lección, exploraremos cómo funciona la memoria y descubriremos estrategias para recordar mejor las cosas. ¡Prepárate para aprender sobre el increíble poder de tu mente! 🧠",
-        "title": "¡Bienvenidos a la exploración del cerebro!",
+        "content": "¡Bienvenidos! Hoy vamos a explorar técnicas fascinantes que nos ayudarán a mejorar nuestra memoria. A través de dispositivos mnemotécnicos, estrategias de visualización y el método de loci, descubriremos cómo recordar información de manera más efectiva. 🌟",
+        "title": "Introducción a las Técnicas de Memoria",
         "themes": [
           "introducción a la memoria"
         ],
-        "image_search_string": "cerebro y memoria",
+        "image_search_string": "memory techniques",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La memoria es la capacidad de nuestro cerebro para almacenar, retener y recuperar información. Hay tres tipos principales de memoria: sensorial, a corto plazo y a largo plazo. La memoria sensorial captura información de los sentidos por un instante, la memoria a corto plazo retiene información por un tiempo breve, y la memoria a largo plazo almacena información por períodos prolongados.",
-        "title": "¿Qué es la memoria?",
+        "content": "Los dispositivos mnemotécnicos son estrategias que usamos para asociar información nueva con algo que ya conocemos. Por ejemplo, los acrónimos como \"ROYGBIV\" nos ayudan a recordar los colores del arcoíris en inglés. Estas técnicas funcionan porque nuestro cerebro recuerda mejor cuando conectamos conceptos con imágenes, sonidos o patrones familiares.",
+        "title": "Dispositivos Mnemotécnicos",
         "themes": [
-          "tipos de memoria",
-          "función de la memoria"
+          "concepto de dispositivos mnemotécnicos"
         ],
-        "image_search_string": "tipos de memoria",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El cerebro procesa información a través de una red de neuronas. Cuando aprendemos algo nuevo, las neuronas crean conexiones llamadas sinapsis. Cuantas más veces se repite una información, más fuertes se vuelven estas conexiones, lo que facilita recordarla en el futuro.",
-        "title": "¿Cómo procesa información el cerebro?",
-        "themes": [
-          "neuronas y sinapsis",
-          "procesamiento de información"
-        ],
-        "image_search_string": "neuronas y sinapsis",
+        "image_search_string": "mnemonic devices",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Existen varias técnicas para mejorar la memoria, como la repetición espaciada, que consiste en repasar información en intervalos crecientes de tiempo, y las asociaciones visuales, donde conectamos conceptos con imágenes. También, organizar la información en categorías o crear historias ayuda a recordarla más fácilmente.",
-        "title": "Estrategias para mejorar la memoria",
+        "content": "La visualización implica crear imágenes mentales para representar la información que deseamos recordar. Por ejemplo, si necesitas memorizar una lista de compras, puedes imaginar cada objeto en tu casa: un pan gigante en el sofá o una botella de leche en la mesa del comedor. Esta técnica funciona porque el cerebro procesa mejor las imágenes visuales.",
+        "title": "Estrategias de Visualización",
         "themes": [
-          "técnicas de mejora de memoria",
-          "repetición espaciada"
+          "uso de visualización para memorizar"
         ],
-        "image_search_string": "estrategias de memoria",
+        "image_search_string": "visualization technique",
         "question_types": [
           "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El método de loci, también conocido como \"palacio de la memoria\", consiste en asociar información con lugares específicos que conocemos bien. Imagina recorrer tu casa, y en cada habitación colocas un dato o idea que necesitas recordar. Este método aprovecha nuestra memoria espacial, que es muy poderosa.",
+        "title": "Método de Loci",
+        "themes": [
+          "método de loci para memoria"
+        ],
+        "image_search_string": "method of loci",
+        "question_types": [
+          "ShortForm",
+          "Sort",
           "Grouping"
         ]
       }

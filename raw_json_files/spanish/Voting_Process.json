@@ -1,168 +1,78 @@
 {
   "request": {
-    "lesson_description": "Understanding the Voting Process: How elections work, the role of voters, and the importance of civic engagement.",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Understanding the voting process: Exploring the steps from voter registration to casting a ballot, and the importance of civic engagement.",
+    "exercises_ratio": 1.0,
     "grade_level": "8th grade",
-    "estimated_length": 15,
+    "estimated_length": 25,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "4378a56a",
+    "request_id": "18f366d5",
     "topicInEnglish": "Voting Process",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Entendiendo el proceso electoral: Cómo funcionan las elecciones",
+    "title": "Entendiendo el proceso de votación: De la inscripción al voto",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo de las elecciones! 🌟 Hoy aprenderás cómo funcionan las elecciones, el papel fundamental de los votantes y por qué es tan importante participar en la vida cívica de tu comunidad.",
-        "title": "Introducción al proceso electoral",
+        "content": "¡Hola, estudiantes! Hoy vamos a embarcarnos en un recorrido fascinante para descubrir cómo funciona el proceso de votación. 🗳️ Aprenderemos paso a paso desde cómo registrarse para votar hasta el momento de emitir nuestro voto. ¡Vamos a explorar juntos la importancia de participar en nuestra sociedad!",
+        "title": "Introducción al proceso de votación",
         "themes": [
-          "introducción al proceso electoral"
+          "Introducción al proceso de votación"
         ],
-        "image_search_string": "elecciones y votación",
+        "image_search_string": "voting illustration",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las elecciones son procesos organizados donde las personas votan para elegir a sus representantes o tomar decisiones importantes. Este sistema es clave en las democracias, donde el poder reside en los ciudadanos.",
-        "title": "¿Qué son las elecciones?",
+        "content": "El primer paso para participar en las elecciones es registrarse como votante. En España, este proceso se realiza automáticamente cuando se alcanza la mayoría de edad y se inscribe en el padrón municipal. Es importante mantener actualizada esta información si cambias de domicilio.",
+        "title": "Registro de votantes",
         "themes": [
-          "definición de elecciones",
-          "función en la democracia"
+          "Proceso de registro de votantes",
+          "Importancia del padrón municipal"
         ],
-        "image_search_string": "concepto de elecciones",
+        "image_search_string": "voter registration",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "En el sistema democrático, los ciudadanos tienen el derecho y la responsabilidad de participar en las elecciones. Los representantes elegidos toman decisiones en nombre de la comunidad.",
-        "title": "La democracia y el voto",
+        "content": "Una vez registrado, recibirás una tarjeta censal que confirma tu inscripción y te indica tu mesa electoral. Este documento es esencial para participar en las elecciones, ya que contiene la información sobre dónde debes acudir a votar.",
+        "title": "Tarjeta censal y su importancia",
         "themes": [
-          "relación entre democracia y voto",
-          "responsabilidad ciudadana"
+          "Función de la tarjeta censal",
+          "Localización de mesa electoral"
         ],
-        "image_search_string": "democracia y votantes",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El proceso electoral incluye varias etapas: 1) Registro de votantes, 2) Campañas políticas, 3) Día de votación, y 4) Conteo de votos y anuncio de resultados.",
-        "title": "Etapas del proceso electoral",
-        "themes": [
-          "etapas del proceso electoral"
-        ],
-        "image_search_string": "proceso de votación",
-        "question_types": [
-          "Sort",
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Los votantes son personas registradas para votar. Pueden ser ciudadanos mayores de edad y en muchos países deben registrarse previamente para poder votar.",
-        "title": "¿Quiénes son los votantes?",
-        "themes": [
-          "definición de votantes",
-          "requisitos para votar"
-        ],
-        "image_search_string": "votantes en fila",
+        "image_search_string": "census card",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Las campañas políticas son un periodo donde los candidatos presentan sus ideas y propuestas para ganar el apoyo de los votantes. Este es un momento clave para informarse y decidir.",
-        "title": "Campañas políticas",
-        "themes": [
-          "importancia de las campañas políticas",
-          "información para votantes"
-        ],
-        "image_search_string": "campañas políticas",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El día de las elecciones, los votantes acuden a las urnas para emitir su voto. Este es un proceso confidencial y fundamental para la democracia.",
+        "content": "El día de las elecciones, acude a tu mesa electoral con tu tarjeta censal y un documento de identidad válido, como el DNI. Sigue las indicaciones del personal electoral para emitir tu voto de manera correcta.",
         "title": "El día de las elecciones",
         "themes": [
-          "proceso de votación",
-          "confidencialidad del voto"
+          "Preparativos para votar",
+          "Documentos necesarios para votar"
         ],
-        "image_search_string": "votación en urna",
+        "image_search_string": "election day voting",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Sort"
         ]
       },
       {
-        "content": "El conteo de votos asegura que cada voto sea contabilizado. Los resultados reflejan la voluntad de los ciudadanos.",
-        "title": "Conteo de votos y resultados",
+        "content": "Participar en las elecciones no solo es un derecho, sino también una responsabilidad como ciudadanos. Votar nos permite expresar nuestras opiniones y participar activamente en la toma de decisiones que afectan a nuestra sociedad.",
+        "title": "La importancia de votar",
         "themes": [
-          "proceso de conteo",
-          "importancia de los resultados"
+          "Responsabilidad cívica",
+          "Participación ciudadana"
         ],
-        "image_search_string": "conteo de votos",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La participación ciudadana fortalece la democracia. Al votar, los ciudadanos tienen el poder de influir en las decisiones que afectan a su comunidad.",
-        "title": "Importancia de votar",
-        "themes": [
-          "participación ciudadana",
-          "impacto del voto"
-        ],
-        "image_search_string": "importancia de votar",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La educación cívica enseña a los jóvenes sobre sus derechos y deberes como ciudadanos. Es esencial para preparar a futuros votantes responsables.",
-        "title": "Educación cívica y responsabilidad",
-        "themes": [
-          "educación cívica",
-          "preparación de votantes"
-        ],
-        "image_search_string": "educación cívica",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "En muchos lugares, además de elegir representantes, los ciudadanos pueden votar en referéndums para decidir sobre temas específicos.",
-        "title": "Referéndums y consultas",
-        "themes": [
-          "referéndums en elecciones",
-          "decisiones ciudadanas"
-        ],
-        "image_search_string": "referéndums y votación",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Cada voto cuenta. Participar en las elecciones es una manera de expresar tu voz y contribuir al futuro de tu comunidad.",
-        "title": "Tu voz, tu futuro",
-        "themes": [
-          "valor del voto",
-          "contribución cívica"
-        ],
-        "image_search_string": "votar por el futuro",
+        "image_search_string": "importance of voting",
         "question_types": [
           "ShortForm",
           "Grouping"

@@ -1,14 +1,14 @@
 {
   "request": {
-    "lesson_description": "Introduction to coding basics: Understanding algorithms, variables, and loops.",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Introduction to Coding Basics: Understanding Variables, Data Types, and Simple Algorithms.",
+    "exercises_ratio": 1.0,
     "grade_level": "7th grade",
-    "estimated_length": 10,
-    "learning_standard": "Next Generation Science Standards (NGSS): MS-ETS1-4 - Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process.",
+    "estimated_length": 20,
+    "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "4a720506",
+    "request_id": "d390a2ed",
     "topicInEnglish": "Coding Basics",
     "generationLanguage": "de-DE"
   },
@@ -16,30 +16,18 @@
     "title": "Einführung in die Grundlagen des Programmierens",
     "slides": [
       {
-        "content": "Programmieren ist wie das Lösen eines Rätsels! Es ist eine Möglichkeit, Computern Anweisungen zu geben, damit sie Aufgaben für uns erledigen. Heute werden wir die Grundlagen kennenlernen: Algorithmen, Variablen und Schleifen. 🎮",
-        "title": "Willkommen in der Welt des Programmierens!",
+        "content": "Willkommen zu unserer spannenden Reise in die Welt des Programmierens! Heute beginnen wir mit den Grundlagen, die alles andere als langweilig sind. 👩‍💻👨‍💻",
+        "title": "Einführung in die Programmierung",
         "themes": [
-          "Einführung in Programmieren"
+          "Begrüßung zur Programmierung"
         ],
-        "image_search_string": "programming basics",
+        "image_search_string": "coding concepts",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung, um ein Problem zu lösen. Stell dir vor, du gibst jemandem ein Rezept, um einen Kuchen zu backen. Das Rezept ist ein Algorithmus!",
-        "title": "Was ist ein Algorithmus?",
-        "themes": [
-          "Definition von Algorithmus"
-        ],
-        "image_search_string": "algorithm steps",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Variablen sind wie Behälter, die Informationen speichern. Zum Beispiel kannst du eine Variable namens 'Alter' erstellen und ihr den Wert 13 zuweisen. Später kannst du diesen Wert verwenden oder ändern.",
+        "content": "Variablen sind wie kleine Boxen, in denen wir Informationen speichern können. Zum Beispiel: Wenn du dir das Alter deiner Freunde merken möchtest, könntest du eine Variable namens „Alter“ erstellen.",
         "title": "Was sind Variablen?",
         "themes": [
           "Definition von Variablen"
@@ -47,69 +35,20 @@
         "image_search_string": "variable concept",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Schleifen helfen uns, Dinge wiederholt auszuführen, ohne den gleichen Code immer wieder zu schreiben. Zum Beispiel kannst du mit einer Schleife 10-mal 'Hallo' ausgeben lassen.",
-        "title": "Einführung in Schleifen",
-        "themes": [
-          "Schleifen in Programmierung"
-        ],
-        "image_search_string": "coding loops",
-        "question_types": [
-          "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Algorithmen, Variablen und Schleifen arbeiten zusammen. Ein Algorithmus verwendet Variablen, um Daten zu speichern, und Schleifen, um Aufgaben effizient zu wiederholen.",
-        "title": "Zusammenarbeit der Grundlagen",
+        "content": "Ein Datentyp beschreibt, welche Art von Daten in einer Variable gespeichert werden kann, wie Zahlen, Wörter oder Wahrheitswerte (true/false).",
+        "title": "Verständnis von Datentypen",
         "themes": [
-          "Zusammenarbeit Programmierkonzepte"
+          "Erklärung von Datentypen"
         ],
-        "image_search_string": "coding concepts teamwork",
+        "image_search_string": "data types",
         "question_types": [
           "ShortForm",
           "Match",
           "Grouping"
-        ]
-      },
-      {
-        "content": "Ein Beispiel: Schreibe einen Algorithmus, der die Summe von Zahlen von 1 bis 10 berechnet. Du verwendest eine Schleife, um jede Zahl hinzuzufügen, und eine Variable, um die Summe zu speichern.",
-        "title": "Ein Anwendungsbeispiel",
-        "themes": [
-          "Algorithmus mit Schleifen und Variablen"
-        ],
-        "image_search_string": "algorithm example",
-        "question_types": [
-          "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Das Testen und Verbessern von Code ist wichtig. Wenn ein Algorithmus nicht funktioniert, überprüfst du die Schritte und suchst nach Fehlern. Dies nennt man Debugging.",
-        "title": "Code testen und verbessern",
-        "themes": [
-          "Debugging und Iteration"
-        ],
-        "image_search_string": "debugging code",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Übung: Schreibe einen Algorithmus für deinen Morgenablauf. Welche Schritte führst du aus? Kannst du Variablen oder Schleifen verwenden, um ihn effizienter zu machen?",
-        "title": "Zeit, kreativ zu werden!",
-        "themes": [
-          "Übungsaufgabe zu Algorithmen"
-        ],
-        "image_search_string": "morning routine steps",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

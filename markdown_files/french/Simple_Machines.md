@@ -1,112 +1,64 @@
-# Lesson name: Introduction aux machines simples
+# Lesson name: Comprendre les six types de machines simples
 
 ## Intro
 
-### Qu'est-ce qu'une machine simple ?
+### Introduction aux machines simples
 
-Les machines simples sont des dispositifs qui aident à faciliter le travail en réduisant la force nécessaire pour accomplir une tâche. Elles ne nécessitent pas de moteur ou d'énergie électrique, mais utilisent des principes mécaniques pour accomplir leur fonction.
+Découvrons les machines simples ! Ces outils ingénieux nous aident à effectuer des tâches plus facilement en réduisant l'effort nécessaire. Prêts à explorer leurs secrets ? 🚀
 
 #### **Themes:**
-- définition de machine simple
+- Introduction aux machines simples
 
 ## Content slide
 
-### Les six types de machines simples
+### Les leviers
 
-Les six types principaux de machines simples sont :
-
-1. Levier
-2. Poulie
-3. Roue et essieu
-4. Plan incliné
-5. Coin
-6. Vis
+Les leviers sont des barres rigides qui pivotent autour d'un point appelé pivot. Ils permettent de soulever ou de déplacer des objets lourds avec moins d'effort. En fonction de l'emplacement du pivot, de la force et de la charge, il existe trois types de leviers.
 
 #### **Themes:**
-- types de machines simples
+- Fonctionnement des leviers
 
 ## Content slide
 
-### Le levier
+### La roue et l'axe
 
-Un levier est une barre rigide qui pivote autour d'un point fixe appelé le point d'appui. Il permet de soulever ou déplacer des objets avec moins d'effort. Par exemple, un pied-de-biche ou des ciseaux sont des leviers.
+Une roue et un axe fonctionnent ensemble pour réduire la friction et faciliter le mouvement. La roue tourne autour de l'axe, ce qui permet de déplacer des objets ou de transmettre une force efficacement.
 
 #### **Themes:**
-- fonctionnement du levier
-- exemples de leviers
+- Roue et axe
 
 ## Content slide
 
-### La poulie
+### Les poulies
 
-Une poulie est une roue avec une rainure dans laquelle passe une corde. Elle permet de soulever des objets en réduisant la force nécessaire. Les grues et les puits utilisent des poulies.
-
-#### **Themes:**
-- fonctionnement de la poulie
-- exemples de poulies
-
-## Content slide
-
-### La roue et l'essieu
-
-La roue et l'essieu fonctionnent ensemble pour réduire la friction et faciliter le déplacement des objets. Un exemple courant est une voiture avec ses roues.
+Une poulie utilise une roue avec une corde ou une chaîne pour soulever ou déplacer des objets. Elle peut changer la direction de la force ou réduire l'effort nécessaire.
 
 #### **Themes:**
-- fonctionnement de la roue et essieu
-- exemples de roues et essieux
+- Utilisation des poulies
 
 ## Content slide
 
 ### Le plan incliné
 
-Un plan incliné est une surface plate et inclinée qui permet de soulever des objets avec moins d'effort. Les rampes sont un exemple courant de plan incliné.
+Un plan incliné est une surface plane inclinée qui facilite le déplacement d'objets lourds en réduisant l'effort nécessaire pour les soulever.
 
 #### **Themes:**
-- fonctionnement du plan incliné
-- exemples de plans inclinés
+- Utilité du plan incliné
 
 ## Content slide
 
-### Le coin
+### Les coins
 
-Un coin est un objet avec une ou deux surfaces inclinées qui sert à diviser ou séparer des objets. Par exemple, une hache ou un couteau sont des coins.
+Un coin est un objet en forme de triangle qui divise ou coupe des matériaux lorsqu'une force est appliquée. Il transforme une force de pression en une force de séparation.
 
 #### **Themes:**
-- fonctionnement du coin
-- exemples de coins
+- Fonction des coins
 
 ## Content slide
 
-### La vis
+### Les vis
 
-Une vis est une tige avec un filetage en spirale qui transforme une force rotative en une force linéaire. Les vis sont utilisées pour fixer des objets en place.
-
-#### **Themes:**
-- fonctionnement de la vis
-- exemples de vis
-
-## Content slide
-
-### Avantage mécanique des machines simples
-
-Les machines simples offrent un avantage mécanique en multipliant la force appliquée. Cela permet de déplacer des objets plus lourds ou de réduire l'effort nécessaire pour accomplir une tâche.
+Une vis est un plan incliné enroulé autour d'un axe. Elle est utilisée pour fixer des objets ou pour soulever des charges avec une force réduite.
 
 #### **Themes:**
-- avantage mécanique
-- efficacité des machines simples
-
-## Content slide
-
-### Exemples de machines simples dans la vie quotidienne
-
-Les machines simples sont omniprésentes dans la vie quotidienne. Par exemple :
-
-- Les ciseaux (levier)
-- Les grues (poulie)
-- Les voitures (roue et essieu)
-- Les rampes (plan incliné)
-- Les haches (coin)
-- Les vis (fixation)
-
-#### **Themes:**
-- exemples pratiques des machines simples
+- Fonction des vis

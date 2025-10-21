@@ -1,158 +1,77 @@
 {
   "request": {
-    "lesson_description": "Effective Study Skills: Developing Organization, Time Management, and Note-Taking Strategies.",
-    "exercises_ratio": 0.5,
-    "grade_level": "9th grade",
-    "estimated_length": 25,
-    "learning_standard": "CCSS.ELA-LITERACY.CCRA.L.1: Demonstrate command of the conventions of standard English grammar and usage when writing or speaking, with emphasis on organization and communication skills.",
+    "lesson_description": "Understanding the Water Cycle: Evaporation, Condensation, Precipitation, and Collection.",
+    "exercises_ratio": 1.0,
+    "grade_level": "5th grade",
+    "estimated_length": 20,
+    "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "6d671b86",
+    "request_id": "07d8e094",
     "topicInEnglish": "Study Skills",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Habilidades de estudio efectivas: organización, gestión del tiempo y estrategias de toma de apuntes",
+    "title": "Understanding the Water Cycle",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy aprenderemos sobre cómo mejorar nuestras habilidades de estudio para ser más organizados, manejar mejor nuestro tiempo y tomar apuntes efectivos. Estas habilidades no solo nos ayudarán en el aula, sino también en nuestra vida diaria. 🌟",
-        "title": "Introducción a habilidades de estudio",
+        "content": "El ciclo del agua es el proceso natural que mueve el agua a través del planeta en diferentes formas y estados. Es un ciclo continuo que asegura la disponibilidad de agua para todos los seres vivos.",
+        "title": "Introducción al ciclo del agua",
         "themes": [
-          "introducción a habilidades de estudio"
+          "definición del ciclo del agua"
         ],
-        "image_search_string": "estudiantes organizados",
+        "image_search_string": "water cycle diagram",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La organización es clave para el éxito académico. Mantén tus materiales ordenados, utiliza carpetas o cuadernos para asignaturas específicas y revisa tu horario diariamente. Esto te ayudará a encontrar lo que necesitas rápidamente y a mantenerte al día con tus tareas.",
-        "title": "Importancia de la organización",
+        "content": "La evaporación ocurre cuando el calor del sol calienta el agua en ríos, lagos y océanos, transformándola en vapor que asciende hacia la atmósfera.",
+        "title": "Evaporación",
         "themes": [
-          "importancia de la organización"
+          "proceso de evaporación"
         ],
-        "image_search_string": "materiales escolares organizados",
+        "image_search_string": "water evaporation process",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Para gestionar tu tiempo de manera efectiva, planifica tus actividades. Usa una agenda o aplicación para programar tus tareas, clases y tiempo libre. Divide grandes proyectos en pequeñas tareas y asigna tiempo específico para cada una.",
-        "title": "Gestión del tiempo",
+        "content": "La condensación sucede cuando el vapor de agua en el aire se enfría y se convierte en pequeñas gotas de agua, formando nubes.",
+        "title": "Condensación",
         "themes": [
-          "gestión del tiempo"
+          "proceso de condensación"
         ],
-        "image_search_string": "planificación del tiempo",
-        "question_types": [
-          "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Tomar apuntes efectivos implica escuchar atentamente y escribir las ideas clave. Usa abreviaturas, resalta puntos importantes y organiza tus notas de manera clara. De esta forma, será más fácil estudiar después.",
-        "title": "Cómo tomar apuntes efectivos",
-        "themes": [
-          "estrategias para tomar apuntes"
-        ],
-        "image_search_string": "persona tomando apuntes",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Una técnica útil para la toma de apuntes es el método Cornell. Divide tu página en tres secciones: notas principales, palabras clave y un resumen. Esto te ayuda a organizar mejor la información y a revisarla fácilmente.",
-        "title": "Método Cornell para apuntes",
-        "themes": [
-          "método Cornell"
-        ],
-        "image_search_string": "notas método Cornell",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Prioriza tus tareas según su importancia y urgencia. Usa la matriz de Eisenhower para clasificar tus actividades en cuatro categorías: urgentes e importantes, importantes pero no urgentes, urgentes pero no importantes, y ni urgentes ni importantes.",
-        "title": "Priorización de tareas",
-        "themes": [
-          "matriz de Eisenhower"
-        ],
-        "image_search_string": "matriz de Eisenhower",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "El ambiente de estudio también es importante. Encuentra un lugar tranquilo, bien iluminado y sin distracciones. Tener un espacio dedicado para estudiar puede mejorar tu capacidad de concentración y productividad.",
-        "title": "Creando un ambiente de estudio ideal",
-        "themes": [
-          "ambiente de estudio"
-        ],
-        "image_search_string": "espacio de estudio ordenado",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Establecer metas claras te ayuda a mantenerte enfocado. Usa la técnica SMART para definir tus metas: específicas, medibles, alcanzables, relevantes y con tiempo definido.",
-        "title": "Establecimiento de metas",
-        "themes": [
-          "técnica SMART para metas"
-        ],
-        "image_search_string": "definir metas SMART",
+        "image_search_string": "cloud formation condensation",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Evita las distracciones mientras estudias. Apaga notificaciones, usa aplicaciones que bloqueen redes sociales y establece períodos de tiempo específicos para concentrarte completamente.",
-        "title": "Cómo evitar distracciones",
+        "content": "La precipitación ocurre cuando las gotas de agua en las nubes se agrupan y se vuelven demasiado pesadas, cayendo a la tierra en forma de lluvia, nieve o granizo.",
+        "title": "Precipitación",
         "themes": [
-          "evitar distracciones"
+          "proceso de precipitación"
         ],
-        "image_search_string": "persona estudiando sin distracciones",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Revisar tus apuntes regularmente es esencial para retener información. Dedica tiempo después de cada clase para repasar lo aprendido y aclarar dudas.",
-        "title": "Importancia de la revisión",
-        "themes": [
-          "revisión de apuntes"
-        ],
-        "image_search_string": "persona revisando notas",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Trabajar en equipo puede ser beneficioso. Comparte apuntes, discute temas y resuelve dudas con compañeros. Asegúrate de que todos estén enfocados en el tema.",
-        "title": "Estudio en equipo",
-        "themes": [
-          "trabajo en equipo para estudiar"
-        ],
-        "image_search_string": "grupo estudiando juntos",
+        "image_search_string": "rain falling from clouds",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Recuerda que las habilidades de estudio efectivas requieren práctica. Implementa estas estrategias poco a poco y ajusta lo que funcione mejor para ti. ¡Buena suerte!",
-        "title": "Conclusión y práctica",
+        "content": "La colección es el proceso donde el agua que cae al suelo se acumula en ríos, lagos y océanos, completando el ciclo del agua.",
+        "title": "Colección",
         "themes": [
-          "práctica de habilidades de estudio"
+          "proceso de colección"
         ],
-        "image_search_string": "práctica de estudio",
+        "image_search_string": "water collection in nature",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match"
         ]
       }
     ],

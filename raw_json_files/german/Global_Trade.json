@@ -1,113 +1,92 @@
 {
   "request": {
-    "lesson_description": "Understanding Global Trade: Key Concepts, Benefits, and Challenges",
-    "exercises_ratio": 0.2,
+    "lesson_description": "Introduction to Global Trade: Understanding imports, exports, and the role of trade in connecting economies.",
+    "exercises_ratio": 0.4,
     "grade_level": "10th grade",
     "estimated_length": 10,
-    "learning_standard": "",
+    "learning_standard": "Next Generation Social Studies Standards (NGSSS): Understand economic principles and the role of trade in the global economy.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "f694e6c1",
+    "request_id": "a3c4f0e8",
     "topicInEnglish": "Global Trade",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Understanding Global Trade: Key Concepts, Benefits, and Challenges",
+    "title": "Einführung in den globalen Handel",
     "slides": [
       {
-        "content": "Willkommen zur spannenden Welt des globalen Handels! 🌍 In dieser Lektion werden wir untersuchen, wie der Handel zwischen Ländern funktioniert, welche Vorteile er mit sich bringt und welche Herausforderungen dabei auftreten können. Machen wir uns auf die Reise, um die Verbindungen zwischen den Nationen besser zu verstehen!",
-        "title": "Einführung in den globalen Handel",
+        "content": "Willkommen zu unserem spannenden Thema über den globalen Handel! 🌍 Wir werden heute lernen, wie der Handel zwischen Ländern funktioniert und warum er so wichtig für unsere Weltwirtschaft ist.",
+        "title": "Einleitung",
         "themes": [
           "Einführung in den globalen Handel"
         ],
-        "image_search_string": "global trade concept",
+        "image_search_string": "world trade map",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Globaler Handel bezeichnet den Austausch von Waren und Dienstleistungen zwischen verschiedenen Ländern. Dieser Handel ermöglicht es Nationen, Produkte zu kaufen, die sie selbst nicht herstellen können, und ihre eigenen Produkte in andere Länder zu exportieren. Beispiele sind der Export von deutschen Autos nach China oder der Import von tropischen Früchten nach Europa.",
-        "title": "Definition des globalen Handels",
+        "content": "Globaler Handel ist der Austausch von Waren und Dienstleistungen zwischen verschiedenen Ländern. Er ermöglicht es, dass Länder Produkte erhalten, die sie selbst nicht produzieren können, und ihre eigenen Produkte an andere verkaufen. Dies fördert wirtschaftliches Wachstum und kulturelle Verbindungen.",
+        "title": "Was ist globaler Handel?",
         "themes": [
           "Definition globaler Handel"
         ],
-        "image_search_string": "global trade explanation",
+        "image_search_string": "global trade concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Globaler Handel bietet viele Vorteile:\n\n- **Zugang zu Produkten**: Länder können Produkte importieren, die sie nicht selbst herstellen können.\n- **Wirtschaftswachstum**: Der Handel fördert die Produktion und Schaffung von Arbeitsplätzen.\n- **Kulturelle Bereicherung**: Der Austausch von Waren führt auch zu kulturellem Austausch.\n- **Kostenvorteile**: Länder können von günstigeren Produktionskosten in anderen Ländern profitieren.",
-        "title": "Vorteile des globalen Handels",
+        "content": "Import ist der Kauf von Waren und Dienstleistungen aus anderen Ländern, während Export der Verkauf ins Ausland ist. Beispielsweise importiert Deutschland Kaffee, da das Klima für den Kaffeeanbau ungeeignet ist, und exportiert Maschinen, da es führend in deren Produktion ist.",
+        "title": "Import und Export",
         "themes": [
-          "Vorteile globaler Handel"
+          "Definition von Import und Export",
+          "Beispiele für Handel"
         ],
-        "image_search_string": "benefits of global trade",
+        "image_search_string": "import export goods",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Der globale Handel hat viele Vorteile: Er fördert die Spezialisierung, steigert die Effizienz und ermöglicht Zugang zu einer größeren Vielfalt an Gütern. Gleichzeitig birgt er Herausforderungen wie Abhängigkeiten und Umweltbelastungen.",
+        "title": "Vorteile und Herausforderungen",
+        "themes": [
+          "Vorteile des Handels",
+          "Herausforderungen des Handels"
+        ],
+        "image_search_string": "global trade benefits",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Globaler Handel ist nicht ohne Herausforderungen:\n\n- **Ungleichheit**: Nicht alle Länder profitieren gleichermaßen.\n- **Abhängigkeit**: Länder können abhängig von anderen werden.\n- **Umweltbelastung**: Der Transport von Waren verursacht CO2-Emissionen.\n- **Handelskonflikte**: Es kann zu Streitigkeiten zwischen Ländern kommen.",
-        "title": "Herausforderungen im globalen Handel",
-        "themes": [
-          "Herausforderungen globaler Handel"
-        ],
-        "image_search_string": "challenges in global trade",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Freihandelsabkommen sind Verträge zwischen zwei oder mehr Ländern, die Handelsbarrieren wie Zölle und Quoten abbauen. Beispiele sind die Europäische Union (EU) und das Nordamerikanische Freihandelsabkommen (NAFTA). Diese Abkommen fördern den Handel und stärken wirtschaftliche Beziehungen.",
+        "content": "Freihandelsabkommen sind Vereinbarungen zwischen Ländern, die Handelsbarrieren wie Zölle reduzieren sollen. Beispiele sind die EU oder die NAFTA, die den Warenfluss zwischen Mitgliedsländern erleichtern.",
         "title": "Freihandelsabkommen",
         "themes": [
-          "Freihandelsabkommen und ihre Vorteile"
+          "Definition Freihandelsabkommen",
+          "Beispiele für Handelsabkommen"
         ],
-        "image_search_string": "free trade agreements",
+        "image_search_string": "free trade agreement",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Ein Beispiel für globalen Handel ist der Import und Export von Kaffee. Deutschland importiert Rohkaffee aus Ländern wie Brasilien und Vietnam, verarbeitet ihn und exportiert ihn dann als veredeltes Produkt in andere Länder. Dies zeigt, wie Länder zusammenarbeiten, um eine Wertschöpfungskette aufzubauen.",
-        "title": "Beispiel: Der globale Kaffeehandel",
+        "content": "Globaler Handel verbindet Volkswirtschaften und fördert den internationalen Austausch. Er ist ein wichtiger Faktor für Innovationen, wirtschaftliches Wachstum und globale Zusammenarbeit.",
+        "title": "Warum ist globaler Handel wichtig?",
         "themes": [
-          "Beispiel globaler Handel"
+          "Bedeutung des globalen Handels"
         ],
-        "image_search_string": "global coffee trade",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Technologie spielt eine entscheidende Rolle im globalen Handel:\n\n- **Transport**: Moderne Schiffe und Flugzeuge ermöglichen den schnellen und kosteneffizienten Transport.\n- **Kommunikation**: Das Internet erleichtert den Austausch von Informationen zwischen Handelspartnern.\n- **Produktion**: Fortschritte in der Technologie senken die Produktionskosten und verbessern die Produktqualität.",
-        "title": "Die Rolle der Technologie im globalen Handel",
-        "themes": [
-          "Technologie im Handel"
-        ],
-        "image_search_string": "technology in global trade",
+        "image_search_string": "world economy connections",
         "question_types": [
           "ShortForm",
           "Grouping"
-        ]
-      },
-      {
-        "content": "Die Zukunft des globalen Handels könnte durch folgende Trends geprägt sein:\n\n- **Nachhaltigkeit**: Der Fokus auf umweltfreundliche Handelspraktiken wächst.\n- **Digitalisierung**: Digitale Plattformen und E-Commerce werden immer wichtiger.\n- **Regionale Handelsabkommen**: Regionen könnten enger zusammenarbeiten, um den Handel zu fördern.",
-        "title": "Zukunft des globalen Handels",
-        "themes": [
-          "Zukunft globaler Handel"
-        ],
-        "image_search_string": "future trends in trade",
-        "question_types": [
-          "ShortForm",
-          "Sort"
         ]
       }
     ],

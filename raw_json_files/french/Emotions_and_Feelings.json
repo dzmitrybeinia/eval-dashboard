@@ -1,115 +1,81 @@
 {
   "request": {
-    "lesson_description": "Understanding emotions and feelings: Identifying basic emotions, their causes, and how they influence behavior.",
-    "exercises_ratio": 0.6,
+    "lesson_description": "Understanding Emotions and Feelings: Exploring basic emotions, their causes, and how they influence behavior.",
+    "exercises_ratio": 0.0,
     "grade_level": "5th grade",
-    "estimated_length": 20,
-    "learning_standard": "",
+    "estimated_length": 25,
+    "learning_standard": "Next Generation Science Standards (NGSS) - LS1.D: Information Processing: Describe how humans perceive and respond to their environment.",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "ffa2bd91",
+    "request_id": "6da21510",
     "topicInEnglish": "Emotions and Feelings",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Comprendre les émotions et les sentiments",
+    "title": "Understanding Emotions and Feelings",
     "slides": [
       {
-        "content": "Les émotions sont des réactions naturelles que nous ressentons face à différentes situations de la vie. Elles peuvent être joyeuses, tristes, effrayantes ou encore énervées. Les émotions nous aident à comprendre nos expériences et à réagir à ce qui se passe autour de nous.",
-        "title": "Qu'est-ce qu'une émotion ?",
+        "content": "Bienvenue dans notre exploration des émotions et des sentiments ! Aujourd'hui, nous allons découvrir les émotions de base, leurs causes, et comment elles influencent notre comportement. Préparez-vous à plonger dans le fascinant monde des émotions humaines ! 😊",
+        "title": "Introduction aux émotions",
         "themes": [
-          "définition des émotions"
+          "Introduction aux émotions"
         ],
-        "image_search_string": "children emotions",
+        "image_search_string": "happy and sad faces",
         "question_types": [
-          "ShortForm",
-          "Match"
+          "Intro"
         ]
       },
       {
-        "content": "Il existe des émotions de base que la plupart des gens ressentent : la joie, la tristesse, la peur, la colère, le dégoût et la surprise. Ces émotions sont universelles et se retrouvent dans toutes les cultures.",
+        "content": "Les émotions de base sont universelles et partagées par tous les humains. Les principales émotions incluent :\n\n- La joie : une sensation de bonheur ou de satisfaction.\n- La tristesse : un sentiment de perte ou de déception.\n- La peur : une réaction face à un danger ou une menace.\n- La colère : une émotion provoquée par une injustice ou une frustration.\n- Le dégoût : une aversion pour quelque chose de désagréable.\n- La surprise : une réaction à un événement inattendu.",
         "title": "Les émotions de base",
         "themes": [
-          "émotions universelles"
+          "Émotions de base",
+          "Catégories d'émotions"
         ],
-        "image_search_string": "basic emotions",
+        "image_search_string": "basic emotions chart",
         "question_types": [
           "ShortForm",
-          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "La joie peut être causée par des événements positifs comme recevoir un cadeau ou passer du temps avec des amis. La tristesse peut venir d'une perte ou d'une déception. La peur peut apparaître face à un danger ou une situation inconnue. La colère peut être déclenchée par une injustice ou un obstacle.",
-        "title": "Causes des émotions",
+        "content": "Les émotions sont déclenchées par des causes variées, comme :\n\n- Les événements externes (par exemple, recevoir un cadeau peut provoquer de la joie).\n- Les pensées ou souvenirs (se rappeler un moment triste peut causer de la tristesse).\n- Les besoins physiques (avoir faim peut causer de l'irritabilité).\n\nCes causes peuvent être personnelles et varier d'une personne à l'autre.",
+        "title": "Les causes des émotions",
         "themes": [
-          "causes des émotions"
+          "Causes des émotions",
+          "Facteurs déclencheurs"
         ],
         "image_search_string": "causes of emotions",
         "question_types": [
           "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les émotions influencent notre comportement. Par exemple, la peur peut nous pousser à fuir un danger, tandis que la joie peut nous encourager à partager et à être sociables. Comprendre nos émotions nous aide à mieux gérer nos réactions.",
-        "title": "Comment les émotions influencent nos actions",
-        "themes": [
-          "impact des émotions sur les comportements"
-        ],
-        "image_search_string": "emotions and actions",
-        "question_types": [
-          "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Il est important d'apprendre à reconnaître nos émotions. Cela commence par observer nos sensations physiques (comme un cœur qui bat vite) et nos pensées. Ensuite, on peut nommer l'émotion que l'on ressent, comme \"je suis en colère\" ou \"je suis triste\".",
-        "title": "Reconnaître ses émotions",
+        "content": "Les émotions influencent notre comportement de plusieurs façons :\n\n- Elles peuvent nous motiver à agir (la peur peut nous inciter à fuir un danger).\n- Elles influencent nos relations avec les autres (la joie peut nous rendre plus sociables).\n- Elles affectent notre prise de décision (la colère peut nous pousser à réagir impulsivement).\n\nComprendre ces influences peut nous aider à mieux gérer nos émotions.",
+        "title": "Comment les émotions influencent notre comportement",
         "themes": [
-          "identifier ses émotions"
+          "Influence des émotions",
+          "Comportement humain"
         ],
-        "image_search_string": "recognizing emotions",
+        "image_search_string": "emotions influencing behavior",
         "question_types": [
           "ShortForm",
-          "Match",
           "Sort"
         ]
       },
       {
-        "content": "Il existe des techniques pour gérer ses émotions, comme prendre de grandes respirations, parler à quelqu'un en qui on a confiance, ou encore écrire dans un journal. Ces outils permettent de retrouver un équilibre émotionnel.",
-        "title": "Gérer ses émotions",
+        "content": "Les humains perçoivent et répondent à leur environnement grâce à leurs sens et leurs émotions. Les émotions jouent un rôle clé dans la manière dont nous interprétons des situations et réagissons. Par exemple :\n\n- Une odeur agréable peut évoquer un souvenir heureux.\n- Une voix forte et colérique peut provoquer de la peur ou de la vigilance.\n\nCette interaction entre perception et émotion est essentielle à notre survie et à notre bien-être.",
+        "title": "Perception et réponse émotionnelle",
         "themes": [
-          "techniques de gestion des émotions"
+          "Perception humaine",
+          "Réponse émotionnelle"
         ],
-        "image_search_string": "emotions management",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les émotions jouent un rôle dans nos relations. Par exemple, exprimer sa joie peut renforcer une amitié, tandis que mal gérer sa colère peut créer des conflits. Apprendre à communiquer ses émotions de manière respectueuse est essentiel pour des relations saines.",
-        "title": "Émotions et relations",
-        "themes": [
-          "émotions et interactions sociales"
-        ],
-        "image_search_string": "emotions in relationships",
+        "image_search_string": "human perception emotions",
         "question_types": [
           "ShortForm",
           "Match"
-        ]
-      },
-      {
-        "content": "Comprendre et gérer ses émotions est une compétence précieuse que nous utilisons toute notre vie. Cela nous permet de mieux nous comprendre, de prendre soin de nous-mêmes et d'avoir des relations harmonieuses avec les autres.",
-        "title": "L'importance de comprendre ses émotions",
-        "themes": [
-          "importance de la gestion émotionnelle"
-        ],
-        "image_search_string": "importance of emotions",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

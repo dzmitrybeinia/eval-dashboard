@@ -1,109 +1,168 @@
 {
   "request": {
-    "lesson_description": "The Science of Space Travel: Understanding Rockets, Orbits, and the Challenges of Space Exploration.",
-    "exercises_ratio": 1.0,
+    "lesson_description": "The science of space travel: Understanding the physics behind rocket propulsion, orbital mechanics, and the challenges of living in space.",
+    "exercises_ratio": 0.4,
     "grade_level": "9th grade",
-    "estimated_length": 30,
-    "learning_standard": "Next Generation Science Standards (HS-PS2-4): Use mathematical representations of Newton's Law of Gravitation and Coulomb's Law to describe and predict the gravitational and electrostatic forces between objects.",
-    "additional_guidance": "",
+    "estimated_length": 20,
+    "learning_standard": "",
+    "additional_guidance": "Focus on real-world applications such as how rockets achieve escape velocity, the role of gravity in orbits, and the engineering challenges of sustaining human life in space environments.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "ce16f826",
+    "request_id": "84c05f6e",
     "topicInEnglish": "Space Travel",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "The Science of Space Travel: Understanding Rockets, Orbits, and the Challenges of Space Exploration",
+    "title": "Die Wissenschaft der Raumfahrt",
     "slides": [
       {
-        "content": "Der Weltraum ist ein faszinierendes und herausforderndes Gebiet, das die Menschheit seit Jahrzehnten erforscht. 🚀 In dieser Lektion werden wir die Wissenschaft hinter Raumfahrt und Raketen kennenlernen und verstehen, welche physikalischen Gesetze die Grundlage für unsere Reisen zu den Sternen bilden.",
-        "title": "Einleitung: Die Faszination der Raumfahrt",
+        "content": "Willkommen in der faszinierenden Welt der Raumfahrt! 🌌 Wir werden entdecken, wie Raketen funktionieren, wie sie die Erde verlassen, und wie das Leben im Weltraum möglich ist.",
+        "title": "Einführung in die Raumfahrt",
         "themes": [
-          "Einführung in die Raumfahrt"
+          "Einführung in Raumfahrt"
         ],
-        "image_search_string": "space exploration illustration",
+        "image_search_string": "space exploration",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Raketen nutzen das Prinzip der Rückstoßbewegung, basierend auf Newtons drittem Gesetz: \"Jede Aktion hat eine gleichgroße, entgegengesetzte Reaktion.\" Wenn Treibstoff in einer Rakete verbrannt wird, erzeugt dies heiße Gase, die mit hoher Geschwindigkeit ausgestoßen werden. Diese Abgase erzeugen einen Schub, der die Rakete nach oben treibt.",
-        "title": "Wie funktionieren Raketen?",
+        "content": "Raketenantrieb basiert auf dem dritten Gesetz von Newton: Jede Aktion hat eine gleichgroße und entgegengesetzte Reaktion. Wenn Raketen Treibstoff verbrennen und ihn mit hoher Geschwindigkeit ausstoßen, erzeugen sie eine Schubkraft, die sie vorwärts bewegt.",
+        "title": "Grundlagen des Raketenantriebs",
         "themes": [
-          "Newtons drittes Gesetz",
-          "Prinzip der Rückstoßbewegung"
+          "Newton's drittes Gesetz",
+          "Schubkraft"
         ],
-        "image_search_string": "rocket propulsion diagram",
+        "image_search_string": "rocket propulsion physics",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       },
       {
-        "content": "Ein Orbit ist die Bahn, die ein Objekt um ein anderes aufgrund der Gravitation beschreibt. Zum Beispiel umkreisen Satelliten die Erde, weil die Schwerkraft sie anzieht, während ihre Geschwindigkeit verhindert, dass sie abstürzen. Die Balance zwischen der Gravitationskraft und der Trägheit des Objekts ermöglicht stabile Umlaufbahnen.",
-        "title": "Was ist ein Orbit?",
+        "content": "Um die Erde zu verlassen, muss eine Rakete die Fluchtgeschwindigkeit erreichen, die etwa 11,2 km/s beträgt. Diese Geschwindigkeit ermöglicht es, der Gravitationskraft der Erde zu entkommen.",
+        "title": "Fluchtgeschwindigkeit",
         "themes": [
-          "Definition von Orbit",
-          "Gravitation und Trägheit"
+          "Fluchtgeschwindigkeit",
+          "Gravitationskraft"
         ],
-        "image_search_string": "orbital mechanics diagram",
+        "image_search_string": "escape velocity concept",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       },
       {
-        "content": "Die Gravitationskraft zwischen zwei Objekten wird durch Newtons Gesetz der Gravitation beschrieben: F = G * (m1 * m2) / r^2. Hierbei ist F die Kraft, G die Gravitationskonstante, m1 und m2 die Massen der Objekte und r der Abstand zwischen ihnen. Diese Formel hilft, die Stärke der Anziehungskraft zu berechnen.",
-        "title": "Newtons Gesetz der Gravitation",
+        "content": "Die Umlaufbahn eines Objekts wird durch die Gravitation der Erde und die Geschwindigkeit des Objekts bestimmt. Ein Gleichgewicht zwischen diesen Kräften hält Satelliten in ihren Bahnen.",
+        "title": "Orbitalmechanik",
         "themes": [
-          "Gravitationsgesetz",
-          "Formel und Anwendung"
+          "Gravitation und Umlaufbahnen"
         ],
-        "image_search_string": "gravity law equation",
+        "image_search_string": "orbital mechanics",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       },
       {
-        "content": "Die Coulomb-Kraft beschreibt die Anziehung oder Abstoßung zwischen elektrisch geladenen Objekten. Sie wird durch die Formel F = k * (q1 * q2) / r^2 beschrieben, wobei k die Coulomb-Konstante ist, q1 und q2 die Ladungen und r der Abstand zwischen ihnen. Diese Kraft wirkt in der Raumfahrttechnologie bei elektrischen Antrieben.",
-        "title": "Coulombs Gesetz und Raumfahrt",
+        "content": "Im Weltraum gibt es keine Atmosphäre, was bedeutet, dass es keine Luft gibt, um Wärme abzuführen oder Druck zu erzeugen. Dies stellt eine Herausforderung für die Konstruktion von Raumfahrzeugen dar.",
+        "title": "Herausforderungen im Weltraum",
         "themes": [
-          "Coulombs Gesetz",
-          "Elektrische Kräfte"
+          "Weltraumumgebung",
+          "Raumfahrzeugkonstruktion"
         ],
-        "image_search_string": "coulomb force diagram",
+        "image_search_string": "space environment challenges",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Eine der größten Herausforderungen in der Raumfahrt ist die Überwindung der Erdgravitation. Dafür benötigt man eine enorme Menge an Energie und Treibstoff. Effiziente Raketenantriebe und die Nutzung von Gravitationshilfen durch Planeten sind Schlüsseltechnologien, um diese Hürde zu meistern.",
-        "title": "Herausforderungen der Raumfahrt: Gravitation",
-        "themes": [
-          "Herausforderungen Erdgravitation",
-          "Energiebedarf"
-        ],
-        "image_search_string": "rocket launch challenge",
-        "question_types": [
-          "ShortForm",
-          "Match",
           "Grouping"
         ]
       },
       {
-        "content": "Die Sicherheit von Astronauten ist entscheidend. Strahlung im Weltraum, extreme Temperaturen und die Schwerelosigkeit stellen Risiken dar. Schutzmaßnahmen wie Strahlungsabschirmungen, Isolierung und körperliche Übungen sind notwendig, um die Gesundheit der Astronauten zu gewährleisten.",
-        "title": "Gefahren und Schutz im Weltraum",
+        "content": "Da es im Weltraum keine Schwerkraft gibt, müssen Astronauten spezielle Techniken anwenden, um zu essen, zu trinken und ihren Körper fit zu halten.",
+        "title": "Leben im Weltraum",
         "themes": [
-          "Sicherheitsmaßnahmen Weltraum",
-          "Gesundheitsrisiken"
+          "Schwerkraftlosigkeit",
+          "Astronautenleben"
         ],
-        "image_search_string": "astronaut safety measures",
+        "image_search_string": "living in space",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Die Internationale Raumstation (ISS) ist ein Beispiel für internationale Zusammenarbeit im Weltraum. Sie dient als Forschungsstation und Wohnraum für Astronauten.",
+        "title": "Die Internationale Raumstation",
+        "themes": [
+          "ISS",
+          "Internationale Zusammenarbeit"
+        ],
+        "image_search_string": "international space station",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Raumfahrzeuge müssen mit Technologien ausgestattet sein, die Sauerstoff und Wasser recyceln sowie die Temperatur regulieren, um das Überleben der Besatzung zu sichern.",
+        "title": "Technologien zur Lebenserhaltung",
+        "themes": [
+          "Lebenserhaltung im Weltraum",
+          "Recycling von Ressourcen"
+        ],
+        "image_search_string": "life support systems",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Ein Raketenstart erfordert präzise Planung und Berechnungen, um die richtige Bahn zu erreichen und Treibstoff effizient zu nutzen.",
+        "title": "Raketenstarts und Planung",
+        "themes": [
+          "Raketenstartplanung",
+          "Effizienter Treibstoffverbrauch"
+        ],
+        "image_search_string": "rocket launch planning",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Die Rückkehr zur Erde ist eine kritische Phase einer Mission. Die Raumkapsel muss extreme Temperaturen überstehen, die durch den Wiedereintritt in die Atmosphäre entstehen.",
+        "title": "Wiedereintritt in die Atmosphäre",
+        "themes": [
+          "Wiedereintritt",
+          "Hitzeschutz"
+        ],
+        "image_search_string": "reentry heat shield",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Erforschung des Weltraums hat zu zahlreichen Innovationen geführt, wie GPS-Technologie, Satellitenkommunikation und medizinische Fortschritte.",
+        "title": "Technologische Fortschritte durch Raumfahrt",
+        "themes": [
+          "Raumfahrtinnovationen",
+          "Technologische Fortschritte"
+        ],
+        "image_search_string": "space exploration innovations",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Weltraumreisen sind teuer und stellen große Herausforderungen dar, bieten jedoch auch eine Chance, unser Wissen über das Universum zu erweitern und neue Technologien zu entwickeln.",
+        "title": "Zukunft der Raumfahrt",
+        "themes": [
+          "Herausforderungen der Raumfahrt",
+          "Zukunftsperspektiven"
+        ],
+        "image_search_string": "future space exploration",
         "question_types": [
           "ShortForm",
           "Grouping"

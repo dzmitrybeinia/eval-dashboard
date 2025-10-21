@@ -1,100 +1,68 @@
 {
   "request": {
-    "lesson_description": "Kindness Matters: Understanding the importance of kindness in building positive relationships, fostering empathy, and creating a supportive community.",
-    "exercises_ratio": 0.7,
+    "lesson_description": "Understanding the importance of kindness and how small acts can create positive change in communities.",
+    "exercises_ratio": 0.6,
     "grade_level": "5th grade",
-    "estimated_length": 25,
-    "learning_standard": "",
+    "estimated_length": 10,
+    "learning_standard": "CCSS.ELA-LITERACY.SL.5.1: Engage effectively in a range of collaborative discussions with diverse partners on grade 5 topics and texts, building on others' ideas and expressing their own clearly.",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "baea5745",
+    "request_id": "756ddfe7",
     "topicInEnglish": "Kindness Matters",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Kindness Matters: Building a Compassionate Community",
+    "title": "L'importance de la gentillesse et son impact positif",
     "slides": [
       {
-        "content": "Bienvenue ! Aujourd’hui, nous allons explorer pourquoi la gentillesse est essentielle pour créer des relations positives et une communauté solidaire. 🌟",
-        "title": "Introduction à la gentillesse",
-        "themes": [
-          "introduction à la gentillesse"
-        ],
-        "image_search_string": "kindness concept",
-        "question_types": [
-          "Intro"
-        ]
-      },
-      {
-        "content": "La gentillesse, c'est montrer de la considération, de l'empathie et de l'altruisme envers les autres. Cela peut être aussi simple qu'un sourire, un mot doux ou une aide spontanée.",
+        "content": "La gentillesse, c'est ce qui rend nos interactions plus agréables et harmonieuses. Être gentil, c'est montrer de l'empathie, de la compréhension et de l'attention envers les autres. Imaginez un monde où chacun fait preuve de gentillesse : ce serait un endroit plus heureux pour tous ! 😊",
         "title": "Qu'est-ce que la gentillesse ?",
         "themes": [
-          "définition de la gentillesse"
+          "Définition de la gentillesse"
         ],
-        "image_search_string": "kindness examples",
+        "image_search_string": "empathy and kindness",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Être gentil favorise des relations positives car cela montre aux autres qu'ils sont appréciés et respectés. Cela crée un climat de confiance et de coopération.",
-        "title": "Gentillesse et relations positives",
+        "content": "Un petit acte de gentillesse peut sembler insignifiant, mais il peut avoir un effet domino. Par exemple, aider quelqu'un à porter ses courses peut lui remonter le moral, et il pourrait à son tour faire preuve de gentillesse envers une autre personne. C'est ainsi qu'un seul acte peut se multiplier et toucher de nombreuses vies.",
+        "title": "L'effet domino de la gentillesse",
         "themes": [
-          "impact de la gentillesse sur les relations"
+          "Effets des actes de gentillesse"
         ],
-        "image_search_string": "positive relationships",
+        "image_search_string": "domino effect kindness",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Sort",
+          "Grouping"
         ]
       },
       {
-        "content": "L'empathie est la capacité de comprendre et de partager les sentiments des autres. La gentillesse aide à développer l'empathie, en nous poussant à nous mettre à la place des autres.",
-        "title": "La gentillesse nourrit l'empathie",
+        "content": "La gentillesse peut prendre de nombreuses formes : aider un camarade à faire ses devoirs, dire merci, ou simplement sourire à quelqu'un. Ces petits gestes montrent que vous vous souciez des autres et peuvent illuminer leur journée.",
+        "title": "Des exemples d'actes de gentillesse",
         "themes": [
-          "relation entre gentillesse et empathie"
+          "Exemples d'actes de gentillesse"
         ],
-        "image_search_string": "empathy concept",
+        "image_search_string": "examples of kindness",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Une communauté solidaire repose sur des actes de gentillesse entre ses membres. Ces actes renforcent les liens et créent un environnement où chacun se sent soutenu.",
-        "title": "Créer une communauté solidaire",
+        "content": "Lorsque nous faisons preuve de gentillesse, nous contribuons à créer un environnement positif dans notre communauté. Cela inspire les autres à agir de manière similaire, renforçant ainsi les liens entre les membres de la communauté et favorisant une atmosphère d'entraide et de respect.",
+        "title": "La gentillesse dans la communauté",
         "themes": [
-          "gentillesse dans la communauté"
+          "Impact communautaire de la gentillesse"
         ],
-        "image_search_string": "supportive community",
+        "image_search_string": "community kindness",
         "question_types": [
           "ShortForm",
+          "Match",
           "Grouping"
-        ]
-      },
-      {
-        "content": "Vous pouvez pratiquer la gentillesse chaque jour en souriant, en disant merci, ou en aidant quelqu'un en difficulté. Chaque petit geste compte !",
-        "title": "Comment pratiquer la gentillesse",
-        "themes": [
-          "pratiques quotidiennes de gentillesse"
-        ],
-        "image_search_string": "kindness daily acts",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Alors, souvenez-vous : la gentillesse a le pouvoir de transformer le monde autour de vous. Soyez la personne qui répand la lumière et l’amour partout où elle passe. 🌈",
-        "title": "Conclusion : La puissance de la gentillesse",
-        "themes": [
-          "importance globale de la gentillesse"
-        ],
-        "image_search_string": "power of kindness",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

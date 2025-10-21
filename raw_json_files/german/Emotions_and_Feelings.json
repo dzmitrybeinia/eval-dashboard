@@ -1,22 +1,22 @@
 {
   "request": {
-    "lesson_description": "Understanding emotions and feelings: Identifying, expressing, and managing emotions effectively.",
-    "exercises_ratio": 0.8,
-    "grade_level": "6th grade",
-    "estimated_length": 25,
+    "lesson_description": "Understanding Emotions and Feelings: Exploring the science behind emotions, their impact on behavior, and strategies for emotional regulation.",
+    "exercises_ratio": 0.4,
+    "grade_level": "7th grade",
+    "estimated_length": 15,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "b23b3794",
+    "request_id": "3fd65917",
     "topicInEnglish": "Emotions and Feelings",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Emotionen und Gefühle verstehen",
+    "title": "Verstehen von Emotionen und Gefühlen",
     "slides": [
       {
-        "content": "Willkommen zu unserer Reise, Emotionen und Gefühle besser zu verstehen! Heute entdecken wir, wie wir unsere eigenen Emotionen erkennen, ausdrücken und auf gesunde Weise mit ihnen umgehen können. 🌟",
+        "content": "Willkommen zu unserem spannenden Thema über Emotionen und Gefühle! Heute werden wir die Wissenschaft hinter Emotionen entdecken und wie sie unser Verhalten beeinflussen. 🌟",
         "title": "Einführung in Emotionen",
         "themes": [
           "Einführung in Emotionen"
@@ -27,13 +27,36 @@
         ]
       },
       {
-        "content": "Emotionen sind starke Gefühle, die uns helfen, auf verschiedene Situationen zu reagieren. Es gibt grundlegende Emotionen wie Freude, Traurigkeit, Angst, Wut, Überraschung und Ekel. Diese Emotionen sind universell und werden von Menschen auf der ganzen Welt erlebt.",
+        "content": "Emotionen sind innere Zustände, die durch bestimmte Ereignisse oder Situationen ausgelöst werden. Sie umfassen körperliche Reaktionen, Gedanken und Verhaltensweisen. Beispiele für Emotionen sind Freude, Trauer, Angst und Wut.",
         "title": "Was sind Emotionen?",
         "themes": [
-          "Grundlegende Emotionen",
           "Definition von Emotionen"
         ],
-        "image_search_string": "basic emotions chart",
+        "image_search_string": "emotions chart",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Emotionen entstehen im Gehirn, insbesondere im limbischen System. Dieses System steuert unsere Reaktionen auf emotionale Reize und umfasst Teile wie die Amygdala und den Hippocampus.",
+        "title": "Wie entstehen Emotionen?",
+        "themes": [
+          "Ursprung der Emotionen"
+        ],
+        "image_search_string": "brain limbic system",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Emotionen beeinflussen unser Verhalten stark. Zum Beispiel kann Angst uns dazu bringen, einer Gefahr auszuweichen, während Freude uns motiviert, bestimmte Aktivitäten zu wiederholen.",
+        "title": "Wie beeinflussen Emotionen unser Verhalten?",
+        "themes": [
+          "Emotionen und Verhalten"
+        ],
+        "image_search_string": "emotions influencing behavior",
         "question_types": [
           "ShortForm",
           "Match",
@@ -41,44 +64,65 @@
         ]
       },
       {
-        "content": "Das Erkennen von Emotionen ist der erste Schritt, um mit ihnen umzugehen. Du kannst deine Emotionen identifizieren, indem du auf körperliche Reaktionen achtest, wie Herzklopfen bei Angst, oder auf deine Gedanken und Handlungen. Zum Beispiel: Wenn du dich nervös fühlst, könnte das ein Zeichen von Angst sein.",
-        "title": "Wie erkenne ich Emotionen?",
+        "content": "Es gibt Strategien, um Emotionen zu regulieren, wie bewusstes Atmen, Achtsamkeitsübungen und das Verstehen der eigenen Emotionen. Diese helfen, Stress zu reduzieren und klarer zu denken.",
+        "title": "Strategien zur Emotionsregulation",
         "themes": [
-          "Emotionen erkennen",
-          "Körperliche Reaktionen"
+          "Strategien zur Emotionsregulation"
         ],
-        "image_search_string": "person identifying emotions",
+        "image_search_string": "emotional regulation techniques",
         "question_types": [
           "ShortForm",
           "Match",
-          "Sort"
+          "Grouping"
         ]
       },
       {
-        "content": "Es ist wichtig, Emotionen auf eine gesunde Weise auszudrücken. Du kannst dies tun, indem du darüber sprichst, Tagebuch führst, Kunst machst oder Sport treibst. Das hilft, schwierige Emotionen zu verarbeiten und mit anderen zu kommunizieren, wie du dich fühlst.",
-        "title": "Emotionen ausdrücken",
+        "content": "Emotionen können sowohl positive als auch negative Auswirkungen haben. Positive Emotionen fördern Wohlbefinden und Beziehungen, während negative Emotionen, wenn unreguliert, zu Konflikten führen können.",
+        "title": "Positive und negative Auswirkungen von Emotionen",
         "themes": [
-          "Emotionen ausdrücken",
-          "Gesunde Methoden"
+          "Auswirkungen von Emotionen"
         ],
-        "image_search_string": "expressing emotions",
+        "image_search_string": "positive and negative emotions",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Emotionen zu managen bedeutet, Strategien zu nutzen, um mit schwierigen Gefühlen umzugehen. Dazu gehört, tief zu atmen, positive Selbstgespräche zu führen oder Unterstützung von Freunden und Familie zu suchen. Es geht darum, sich selbst zu helfen, ruhig und ausgeglichen zu bleiben.",
-        "title": "Wie man Emotionen managt",
+        "content": "Achtsamkeit ist eine Technik, die hilft, Emotionen besser zu verstehen und zu regulieren. Sie umfasst das bewusste Erleben des Augenblicks ohne Urteil.",
+        "title": "Die Rolle der Achtsamkeit",
         "themes": [
-          "Emotionen managen",
-          "Bewältigungsstrategien"
+          "Achtsamkeit und Emotionen"
         ],
-        "image_search_string": "managing emotions techniques",
+        "image_search_string": "mindfulness practice",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Kulturelle Unterschiede beeinflussen, wie Emotionen ausgedrückt und wahrgenommen werden. In manchen Kulturen wird zum Beispiel Zurückhaltung geschätzt, während andere einen offenen Ausdruck bevorzugen.",
+        "title": "Kulturelle Unterschiede in Emotionen",
+        "themes": [
+          "Kulturelle Unterschiede bei Emotionen"
+        ],
+        "image_search_string": "cultural emotion differences",
         "question_types": [
           "ShortForm",
           "Match",
           "Grouping"
+        ]
+      },
+      {
+        "content": "Emotionale Intelligenz beschreibt die Fähigkeit, eigene und fremde Emotionen zu erkennen, zu verstehen und zu regulieren. Sie ist wichtig für erfolgreiche soziale Interaktionen.",
+        "title": "Emotionale Intelligenz",
+        "themes": [
+          "Bedeutung der emotionalen Intelligenz"
+        ],
+        "image_search_string": "emotional intelligence concept",
+        "question_types": [
+          "ShortForm",
+          "Match"
         ]
       }
     ],

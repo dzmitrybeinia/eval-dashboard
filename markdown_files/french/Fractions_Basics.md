@@ -1,55 +1,58 @@
-# Lesson name: Les bases des fractions : Identifier, comparer et représenter
+# Lesson name: Comprendre les fractions de base
 
 ## Intro
 
 ### Introduction aux fractions
 
-Bienvenue dans le monde fascinant des fractions ! Aujourd'hui, nous allons découvrir ce que sont les fractions et comment elles fonctionnent. Préparez-vous à explorer les parts égales, les modèles visuels et bien plus encore pour comprendre ce concept mathématique important 📐.
+Bienvenue dans le monde des fractions ! Aujourd'hui, nous allons découvrir comment identifier les parties d'une fraction, les visualiser avec des formes et les comparer. 🌟
 
 #### **Themes:**
 - introduction aux fractions
 
 ## Content slide
 
-### Qu'est-ce qu'une fraction ?
+### Les parties d'une fraction
 
-Une fraction représente une partie d'un tout. Elle est composée de deux nombres :
+Une fraction est composée de deux parties :
 
-- **Le numérateur** (le chiffre au-dessus) indique combien de parties nous avons.
-- **Le dénominateur** (le chiffre en dessous) indique en combien de parties égales le tout est divisé.
+1. **Numérateur** : le nombre au-dessus de la barre de fraction. Il indique combien de parts sont considérées.
+2. **Dénominateur** : le nombre en dessous de la barre de fraction. Il indique en combien de parts égales l'objet est divisé.
 
-Par exemple, dans la fraction 3/4, le tout est divisé en 4 parties égales, et nous en avons 3.
+Exemple : Dans \(\frac{3}{4}\), 3 est le numérateur et 4 est le dénominateur.
 
 #### **Themes:**
-- définition des fractions
-- numérateur et dénominateur
+- numérateur
+- dénominateur
 
 ## Content slide
 
-### Fractions équivalentes
+### Visualiser les fractions
 
-Les fractions équivalentes sont des fractions qui représentent la même portion d'un tout, même si elles utilisent des nombres différents. Par exemple :
+Pour visualiser une fraction, imaginez une forme géométrique (comme un cercle ou un rectangle) divisée en parts égales. Coloriez le nombre de parts correspondant au numérateur.
 
-- 1/2 est équivalent à 2/4.
-- 3/6 est équivalent à 1/2.
-
-Pour vérifier si deux fractions sont équivalentes, on peut multiplier ou diviser le numérateur et le dénominateur par le même nombre.
+Exemple : Pour \(\frac{2}{3}\), divisez un cercle en 3 parties égales et coloriez-en 2.
 
 #### **Themes:**
-- fractions équivalentes
-- vérification des équivalences
+- visualisation des fractions
 
 ## Content slide
 
-### Modèles visuels pour les fractions
+### Comparer des fractions
 
-Nous pouvons utiliser des modèles visuels pour mieux comprendre les fractions. Par exemple :
+Comparer deux fractions est facile si elles ont le même dénominateur. Comparez simplement les numérateurs.
 
-- Un cercle divisé en parties égales peut représenter une pizza où chaque part est une fraction.
-- Une barre divisée en segments égaux peut montrer des fractions d'une longueur.
-
-En comparant des fractions avec des modèles visuels, il est plus facile de voir quelles fractions sont plus grandes ou si elles sont équivalentes.
+Exemple : \(\frac{3}{5} > \frac{2}{5}\) car 3 est plus grand que 2.
 
 #### **Themes:**
-- modèles visuels des fractions
-- comparaison visuelle
+- comparaison de fractions
+
+## Content slide
+
+### Fractions sur une droite numérique
+
+Une fraction peut être représentée sur une droite numérique. Divisez la droite en parties égales correspondant au dénominateur, puis marquez la position indiquée par le numérateur.
+
+Exemple : \(\frac{3}{4}\) se trouve après 3 divisions sur une droite divisée en 4 parts égales.
+
+#### **Themes:**
+- fractions sur une droite numérique

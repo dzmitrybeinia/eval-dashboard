@@ -1,159 +1,122 @@
 {
   "request": {
-    "lesson_description": "Kindness Matters: Understanding empathy, compassion, and the importance of treating others with respect in daily life.",
-    "exercises_ratio": 0.2,
-    "grade_level": "5th grade",
-    "estimated_length": 15,
-    "learning_standard": "CASEL Framework for Social and Emotional Learning: Develop self-awareness, social awareness, and relationship skills.",
+    "lesson_description": "Understanding the importance of kindness: Exploring empathy, compassion, and the impact of kind actions on individuals and communities.",
+    "exercises_ratio": 0.7,
+    "grade_level": "6th grade",
+    "estimated_length": 30,
+    "learning_standard": "CCSS.ELA-LITERACY.SL.6.1: Engage effectively in a range of collaborative discussions with diverse partners, building on others' ideas and expressing their own clearly.",
     "additional_guidance": "",
     "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "13373a70",
+    "request_id": "9760584f",
     "topicInEnglish": "Kindness Matters",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "La importancia de la bondad: empatía, compasión y respeto",
+    "title": "The Importance of Kindness",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy exploraremos cómo la empatía, la compasión y el respeto pueden transformar nuestras relaciones y cómo podemos aplicarlos en nuestra vida diaria. 🌟",
+        "content": "¡Bienvenidos! Hoy vamos a explorar la importancia de la bondad y cómo la empatía y la compasión pueden cambiar vidas y comunidades. 😊",
         "title": "Introducción a la bondad",
         "themes": [
           "introducción a la bondad"
         ],
-        "image_search_string": "niños ayudándose",
+        "image_search_string": "kindness concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La empatía es la capacidad de ponerse en el lugar de los demás y entender cómo se sienten. Esto nos ayuda a conectar con las personas y a ser más comprensivos.",
+        "content": "La bondad significa ser considerado y actuar con generosidad y respeto hacia los demás. Puede ser tan simple como un gesto amable o tan significativo como ayudar a alguien en necesidad.",
+        "title": "¿Qué es la bondad?",
+        "themes": [
+          "definición de bondad"
+        ],
+        "image_search_string": "act of kindness",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La empatía es la capacidad de entender y compartir los sentimientos de otra persona. Es esencial para construir relaciones fuertes y promover la comprensión mutua.",
         "title": "¿Qué es la empatía?",
         "themes": [
           "definición de empatía"
         ],
-        "image_search_string": "empatía entre personas",
+        "image_search_string": "empathy concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La compasión va más allá de la empatía. Es sentir el deseo de ayudar cuando vemos que alguien está sufriendo. Es un motor para la acción bondadosa.",
+        "content": "La compasión va un paso más allá de la empatía: no solo entendemos el dolor de otros, sino que sentimos el deseo de ayudar. Es un motor para la acción bondadosa.",
         "title": "¿Qué es la compasión?",
         "themes": [
           "definición de compasión"
         ],
-        "image_search_string": "compasión y ayuda",
+        "image_search_string": "compassion concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El respeto consiste en tratar a las personas con dignidad, escuchar sus ideas y valorar sus sentimientos. Es fundamental para construir relaciones positivas.",
-        "title": "¿Qué es el respeto?",
-        "themes": [
-          "definición de respeto"
-        ],
-        "image_search_string": "respeto entre niños",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "1. Escucha activa: presta atención cuando alguien habla. 2. Sé amable: usa palabras respetuosas y positivas. 3. Ayuda a los demás: ofrece tu apoyo cuando lo necesiten.",
-        "title": "Cómo practicar la bondad diariamente",
-        "themes": [
-          "formas de practicar bondad"
-        ],
-        "image_search_string": "niños siendo amables",
-        "question_types": [
-          "ShortForm",
-          "Sort",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Cuando somos bondadosos, no solo hacemos felices a los demás, sino que también nos sentimos bien con nosotros mismos. La bondad crea un ciclo positivo.",
-        "title": "Beneficios de ser bondadoso",
-        "themes": [
-          "beneficios de la bondad"
-        ],
-        "image_search_string": "felicidad y bondad",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La empatía nos ayuda a entender mejor a los demás. La compasión nos motiva a actuar. El respeto construye relaciones fuertes. Juntos, forman la base de la bondad.",
-        "title": "La conexión entre empatía, compasión y respeto",
-        "themes": [
-          "relación entre conceptos"
-        ],
-        "image_search_string": "conceptos de bondad",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Ejemplo 1: Si un amigo está triste, muestra empatía diciéndole \"Entiendo cómo te sientes\". Ejemplo 2: Ayuda a alguien que lo necesita, como recoger algo que se le cayó.",
-        "title": "Ejemplos de bondad en acción",
+        "content": "Los actos de bondad pueden ser pequeños, como sonreír a alguien, o grandes, como donar tiempo o recursos. Cada acción tiene el poder de mejorar la vida de otra persona.",
+        "title": "Ejemplos de actos de bondad",
         "themes": [
           "ejemplos de bondad"
         ],
-        "image_search_string": "actos de bondad",
+        "image_search_string": "examples of kindness",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La bondad no solo ayuda a los demás; también mejora nuestra propia vida. Nos hace más felices, reduce el estrés y fortalece nuestras relaciones.",
+        "title": "Beneficios personales de la bondad",
+        "themes": [
+          "beneficios personales de la bondad"
+        ],
+        "image_search_string": "benefits of kindness",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "1. Imagina cómo se siente la otra persona. 2. Piensa en lo que necesitarías en su lugar. 3. Actúa con amabilidad y respeto.",
-        "title": "Pasos para ser más empático",
+        "content": "Cuando somos amables, inspiramos a otros a hacer lo mismo, creando una cadena de bondad que puede transformar comunidades enteras.",
+        "title": "El impacto en la comunidad",
         "themes": [
-          "práctica de empatía"
+          "impacto comunitario de la bondad"
         ],
-        "image_search_string": "empatía paso a paso",
+        "image_search_string": "community kindness",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "1. Respeta las diferencias culturales y de opinión. 2. Sé un buen oyente. 3. Evita juzgar rápidamente. 4. Ofrece ayuda desinteresadamente.",
-        "title": "Consejos para mejorar las relaciones",
+        "content": "Podemos practicar la bondad escuchando con atención, ofreciendo ayuda o simplemente mostrando gratitud. Cada pequeño esfuerzo cuenta.",
+        "title": "Cómo practicar la bondad",
         "themes": [
-          "mejorar relaciones"
+          "prácticas de bondad"
         ],
-        "image_search_string": "relaciones positivas",
+        "image_search_string": "practicing kindness",
         "question_types": [
           "ShortForm",
-          "Sort",
           "Grouping"
         ]
       },
       {
-        "content": "La bondad puede cambiar el mundo. Cada pequeño acto cuenta, desde sonreír a un extraño hasta ayudar a un amigo. ¡Tú puedes marcar la diferencia!",
-        "title": "El impacto de la bondad",
+        "content": "Reflexiona sobre cómo puedes ser más amable en tu vida diaria. Piensa en un acto específico que podrías realizar hoy para traer alegría a alguien.",
+        "title": "Reflexión sobre la bondad",
         "themes": [
-          "impacto de la bondad"
+          "reflexión sobre la bondad"
         ],
-        "image_search_string": "bondad en el mundo",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Reflexiona: ¿Cómo puedes practicar la empatía, la compasión y el respeto hoy? Piensa en acciones concretas que puedas realizar para ser más bondadoso.",
-        "title": "Reflexión final",
-        "themes": [
-          "reflexión sobre bondad"
-        ],
-        "image_search_string": "reflexión sobre bondad",
+        "image_search_string": "kindness reflection",
         "question_types": [
           "ShortForm"
         ]

@@ -1,25 +1,25 @@
 {
   "request": {
-    "lesson_description": "Understanding Human Rights: Exploring the Universal Declaration of Human Rights and its significance in modern society.",
-    "exercises_ratio": 0.3,
-    "grade_level": "10th grade",
-    "estimated_length": 25,
-    "learning_standard": "C3.D2.Civ.2.9-12: Analyze the role of citizens in promoting and protecting individual rights and the common good within the context of the Universal Declaration of Human Rights.",
+    "lesson_description": "Understanding Human Rights: The Universal Declaration of Human Rights and its significance.",
+    "exercises_ratio": 0.5,
+    "grade_level": "9th grade",
+    "estimated_length": 15,
+    "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "1f8e4aef",
+    "request_id": "f8463273",
     "topicInEnglish": "Human Rights",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Understanding Human Rights: Exploring the Universal Declaration of Human Rights",
+    "title": "Understanding Human Rights: The Universal Declaration of Human Rights",
     "slides": [
       {
-        "content": "Menschenrechte sind grundlegende Rechte, die jedem Menschen zustehen, unabhängig von Herkunft, Geschlecht, Religion oder sozialem Status. Sie schützen die Freiheit und Würde jedes Einzelnen und sind unverzichtbar für eine gerechte und friedliche Gesellschaft. 🌍",
+        "content": "🌟 Willkommen zu unserem spannenden Thema: Menschenrechte! Heute tauchen wir in die Welt der Menschenrechte ein und entdecken ihre Bedeutung und ihren Ursprung. Lasst uns gemeinsam mehr über die Allgemeine Erklärung der Menschenrechte erfahren!",
         "title": "Einführung in die Menschenrechte",
         "themes": [
-          "Grundlagen der Menschenrechte"
+          "Einführung in Menschenrechte"
         ],
         "image_search_string": "human rights concept",
         "question_types": [
@@ -27,39 +27,40 @@
         ]
       },
       {
-        "content": "Die Allgemeine Erklärung der Menschenrechte (AEMR) wurde 1948 von den Vereinten Nationen verabschiedet. Sie enthält 30 Artikel, die grundlegende Rechte wie Freiheit, Gleichheit und Sicherheit definieren. Es war ein Meilenstein für die internationale Menschenrechtsbewegung.",
-        "title": "Die Allgemeine Erklärung der Menschenrechte (AEMR)",
+        "content": "Die Menschenrechte sind grundlegende Rechte, die jedem Menschen unabhängig von Herkunft, Geschlecht oder Religion zustehen. Sie umfassen Rechte wie das Recht auf Leben, Freiheit und Sicherheit. Diese Rechte sind universell und unveräußerlich.",
+        "title": "Was sind Menschenrechte?",
+        "themes": [
+          "Definition von Menschenrechten",
+          "Grundprinzipien der Menschenrechte"
+        ],
+        "image_search_string": "human rights definition",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Die Allgemeine Erklärung der Menschenrechte (AEMR) wurde am 10. Dezember 1948 von der Generalversammlung der Vereinten Nationen verabschiedet. Sie stellt eine gemeinsame Vision dar, um die Würde und Rechte aller Menschen zu schützen.",
+        "title": "Die Allgemeine Erklärung der Menschenrechte",
         "themes": [
           "Geschichte der AEMR",
-          "Wichtige Meilensteine"
+          "Bedeutung der AEMR"
         ],
-        "image_search_string": "universal declaration of human rights",
+        "image_search_string": "Universal Declaration of Human Rights",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Sort"
         ]
       },
       {
-        "content": "Artikel 1 der AEMR erklärt: \"Alle Menschen sind frei und gleich an Würde und Rechten geboren.\" Dies bedeutet, dass jeder Mensch unabhängig von Unterschieden gleich behandelt werden sollte.",
-        "title": "Artikel 1 der AEMR",
+        "content": "Die AEMR enthält 30 Artikel, die verschiedene Rechte abdecken: von der Meinungsfreiheit bis hin zum Recht auf Bildung. Diese Artikel setzen Maßstäbe für den Schutz der Menschenrechte weltweit.",
+        "title": "Die 30 Artikel der AEMR",
         "themes": [
-          "Gleichheit und Würde",
-          "Wichtigkeit des Artikel 1"
+          "Inhalt der AEMR",
+          "Rechte in der AEMR"
         ],
-        "image_search_string": "equality and human dignity",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Die AEMR betont die Bedeutung von Freiheit und Sicherheit. Sie schützt vor willkürlicher Verhaftung und Folter (Artikel 5 und 9) und garantiert das Recht auf ein faires Gerichtsverfahren (Artikel 10).",
-        "title": "Freiheit und Sicherheit in der AEMR",
-        "themes": [
-          "Schutz vor Willkür",
-          "Recht auf Sicherheit"
-        ],
-        "image_search_string": "freedom and security",
+        "image_search_string": "articles of Universal Declaration",
         "question_types": [
           "ShortForm",
           "Match",
@@ -67,68 +68,45 @@
         ]
       },
       {
-        "content": "Die AEMR fordert das Recht auf Bildung (Artikel 26) und betont, dass Bildung zur vollen Entfaltung der Persönlichkeit beitragen sollte. Sie fördert Verständnis, Toleranz und Freundschaft zwischen den Nationen.",
-        "title": "Bildung als Menschenrecht",
-        "themes": [
-          "Recht auf Bildung",
-          "Förderung von Toleranz"
-        ],
-        "image_search_string": "education as a human right",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Ein zentraler Aspekt der AEMR ist die Förderung von Meinungsfreiheit (Artikel 19). Jeder hat das Recht, seine Meinung frei zu äußern, ohne dafür verfolgt zu werden.",
-        "title": "Meinungsfreiheit und ihre Bedeutung",
-        "themes": [
-          "Recht auf Meinungsfreiheit"
-        ],
-        "image_search_string": "freedom of speech",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Die AEMR betont die Verantwortung der Staaten, die Rechte ihrer Bürger zu schützen und zu fördern. Dies erfordert Gesetze, die Diskriminierung verhindern und Gleichheit fördern.",
-        "title": "Die Rolle der Staaten in der AEMR",
-        "themes": [
-          "Staatliche Verantwortung",
-          "Förderung der Gleichheit"
-        ],
-        "image_search_string": "government responsibility human rights",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Die AEMR hat die Basis für viele internationale Menschenrechtsorganisationen gelegt. Organisationen wie Amnesty International arbeiten daran, Verstöße gegen die Menschenrechte zu dokumentieren und Gerechtigkeit zu fördern.",
-        "title": "Internationale Auswirkungen der AEMR",
+        "content": "Die AEMR hat weltweit Einfluss auf die Gesetzgebung und internationale Abkommen. Sie dient als Grundlage für den Schutz der Menschenrechte und inspiriert viele Länder bei der Gestaltung ihrer Verfassungen.",
+        "title": "Einfluss der AEMR",
         "themes": [
           "Einfluss der AEMR",
-          "Rolle von Organisationen"
+          "Internationale Relevanz der AEMR"
         ],
-        "image_search_string": "human rights organizations",
+        "image_search_string": "impact of Universal Declaration",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Sort"
         ]
       },
       {
-        "content": "Bürger spielen eine entscheidende Rolle, um Menschenrechte zu verteidigen und zu fördern. Dies kann durch Proteste, Bildung und Unterstützung von Organisationen geschehen, die sich für Menschenrechte einsetzen.",
-        "title": "Die Rolle der Bürger bei der Förderung der Menschenrechte",
+        "content": "Trotz der AEMR gibt es weiterhin Herausforderungen bei der Umsetzung der Menschenrechte. Viele Menschen weltweit erleben Diskriminierung, Armut und Gewalt, was zeigt, dass der Schutz der Menschenrechte ein andauernder Prozess ist.",
+        "title": "Herausforderungen bei der Umsetzung der Menschenrechte",
         "themes": [
-          "Beteiligung der Bürger",
-          "Förderung der Menschenrechte"
+          "Probleme bei Menschenrechten",
+          "Fortschritte und Hindernisse"
         ],
-        "image_search_string": "citizens protecting human rights",
+        "image_search_string": "human rights challenges",
         "question_types": [
           "ShortForm",
-          "Match"
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Jeder kann zur Förderung der Menschenrechte beitragen, indem er sich für Gleichheit, Gerechtigkeit und Respekt einsetzt. Organisationen, Bildung und persönliches Engagement spielen dabei eine zentrale Rolle.",
+        "title": "Wie wir Menschenrechte fördern können",
+        "themes": [
+          "Förderung der Menschenrechte",
+          "Rolle des Einzelnen"
+        ],
+        "image_search_string": "promoting human rights",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       }
     ],

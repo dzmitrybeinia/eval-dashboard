@@ -1,139 +1,136 @@
 {
   "request": {
-    "lesson_description": "Understanding the structure and function of cell organelles, including the nucleus, mitochondria, ribosomes, and the cell membrane.",
-    "exercises_ratio": 0.0,
-    "grade_level": "7th grade",
-    "estimated_length": 10,
-    "learning_standard": "Next Generation Science Standards (NGSS): MS-LS1-2 - Develop and use a model to describe the function of a cell as a whole and ways parts of cells contribute to the function.",
+    "lesson_description": "Understanding cell parts: Exploring the structure and function of organelles including nucleus, mitochondria, ribosomes, and more.",
+    "exercises_ratio": 1.0,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
+    "learning_standard": "NGSS MS-LS1-2: Develop and use a model to describe the function of a cell as a whole and ways parts of cells contribute to the function.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "6f71e9d4",
+    "request_id": "04a888f3",
     "topicInEnglish": "Cell Parts",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Comprendiendo la estructura y función de los orgánulos celulares",
+    "title": "Understanding Cell Parts: Structure and Function of Organelles",
     "slides": [
       {
-        "content": "¡Bienvenidos a una fascinante exploración de las células! Las células son los bloques de construcción de todos los seres vivos. Hoy aprenderemos sobre las partes internas de las células, llamadas orgánulos, y cómo trabajan juntas para mantener la vida. 🌟",
+        "content": "¡Bienvenidos, estudiantes! Hoy exploraremos el fascinante mundo de las células, aprendiendo sobre sus partes fundamentales y cómo cada una contribuye al funcionamiento de esta unidad de vida. 🌱🔬",
         "title": "Introducción a las células",
         "themes": [
-          "introducción a las células"
+          "Introducción a las células vivas"
         ],
-        "image_search_string": "células básicas",
+        "image_search_string": "cell structure diagram",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Las células son las unidades básicas de la vida. Hay dos tipos principales: células procariotas y células eucariotas. Las células eucariotas tienen orgánulos rodeados por membranas, mientras que las procariotas no. Las células eucariotas se encuentran en plantas y animales.",
+        "content": "Las células son las unidades básicas de la vida. Existen dos tipos principales: las células procariotas, que no tienen núcleo definido, y las células eucariotas, que poseen un núcleo y organelos especializados.",
         "title": "Tipos de células",
         "themes": [
-          "tipos de células",
-          "procariotas y eucariotas"
+          "Diferencia entre células procariotas y eucariotas"
         ],
-        "image_search_string": "tipos de células",
+        "image_search_string": "prokaryotic and eukaryotic cells",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "El núcleo es como el 'cerebro' de la célula. Contiene el material genético (ADN) y controla las actividades de la célula, como el crecimiento, la reproducción y la síntesis de proteínas.",
+        "content": "El núcleo es el centro de control de la célula. Contiene el ADN, que dirige las actividades celulares y almacena la información genética necesaria para la reproducción y el funcionamiento de la célula.",
         "title": "El núcleo",
         "themes": [
-          "función del núcleo"
+          "Función del núcleo en la célula"
         ],
-        "image_search_string": "núcleo celular",
+        "image_search_string": "cell nucleus illustration",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Las mitocondrias son las 'fábricas de energía' de la célula. Producen energía en forma de ATP mediante un proceso llamado respiración celular. Son esenciales para proporcionar energía a la célula para realizar sus funciones.",
+        "content": "Las mitocondrias son conocidas como las \"plantas de energía\" de la célula. Convierten los nutrientes en energía utilizable mediante un proceso llamado respiración celular.",
         "title": "Las mitocondrias",
         "themes": [
-          "función de las mitocondrias"
+          "Producción de energía celular"
         ],
-        "image_search_string": "mitocondrias",
+        "image_search_string": "mitochondria structure",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Los ribosomas son pequeñas estructuras que producen proteínas, las cuales son necesarias para casi todas las funciones celulares. Pueden estar libres en el citoplasma o adheridos al retículo endoplasmático.",
+        "content": "Los ribosomas son responsables de la síntesis de proteínas. Pueden encontrarse flotando libremente en el citoplasma o adheridos al retículo endoplásmico.",
         "title": "Los ribosomas",
         "themes": [
-          "función de los ribosomas"
+          "Síntesis de proteínas por ribosomas"
         ],
-        "image_search_string": "ribosomas",
+        "image_search_string": "ribosome diagram",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "La membrana celular actúa como una barrera protectora que regula qué sustancias pueden entrar y salir de la célula. Está compuesta de una bicapa de fosfolípidos con proteínas incrustadas.",
-        "title": "La membrana celular",
+        "content": "El retículo endoplásmico se divide en liso y rugoso. El rugoso tiene ribosomas en su superficie y participa en la síntesis de proteínas, mientras que el liso está involucrado en la síntesis de lípidos y detoxificación.",
+        "title": "El retículo endoplásmico",
         "themes": [
-          "función de la membrana celular"
+          "Tipos y funciones del retículo endoplásmico"
         ],
-        "image_search_string": "membrana celular",
+        "image_search_string": "endoplasmic reticulum types",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El aparato de Golgi procesa, empaqueta y distribuye moléculas como proteínas y lípidos a diferentes partes de la célula o hacia el exterior.",
+        "title": "El aparato de Golgi",
+        "themes": [
+          "Distribución celular por el aparato de Golgi"
+        ],
+        "image_search_string": "golgi apparatus function",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Los orgánulos trabajan juntos para mantener la célula funcionando. Por ejemplo, el núcleo envía instrucciones a los ribosomas para producir proteínas, y las mitocondrias proporcionan la energía necesaria para estas actividades.",
-        "title": "Colaboración entre orgánulos",
+        "content": "Los lisosomas contienen enzimas que descomponen materiales de desecho y ayudan a la célula a deshacerse de sustancias dañinas.",
+        "title": "Los lisosomas",
         "themes": [
-          "interacción entre orgánulos"
+          "Eliminación de desechos por lisosomas"
         ],
-        "image_search_string": "orgánulos celulares",
+        "image_search_string": "lysosome function",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Las células vegetales tienen características únicas como la pared celular, que proporciona soporte estructural, y los cloroplastos, que realizan la fotosíntesis para producir alimento.",
-        "title": "Células vegetales",
+        "content": "El citoplasma es el fluido dentro de la célula donde están suspendidos los organelos. Proporciona un medio para las reacciones químicas y soporte estructural.",
+        "title": "El citoplasma",
         "themes": [
-          "características de células vegetales"
+          "Función del citoplasma en la célula"
         ],
-        "image_search_string": "células vegetales",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Las células animales carecen de pared celular y cloroplastos, pero tienen otros orgánulos como los lisosomas, que ayudan a descomponer materiales no deseados en la célula.",
-        "title": "Células animales",
-        "themes": [
-          "características de células animales"
-        ],
-        "image_search_string": "células animales",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Los orgánulos celulares y sus funciones son esenciales para entender cómo las células trabajan como un todo. ¡Ahora tienes el conocimiento básico para explorar más sobre la biología celular y cómo se relaciona con los organismos vivos!",
-        "title": "Resumen y conclusión",
-        "themes": [
-          "resumen de funciones celulares"
-        ],
-        "image_search_string": "célula completa",
+        "image_search_string": "cytoplasm function",
         "question_types": [
           "ShortForm"
+        ]
+      },
+      {
+        "content": "La membrana celular es una barrera semipermeable que regula el intercambio de sustancias entre el interior y el exterior de la célula, ayudando a mantener un ambiente interno estable.",
+        "title": "La membrana celular",
+        "themes": [
+          "Regulación de sustancias por la membrana celular"
+        ],
+        "image_search_string": "cell membrane structure",
+        "question_types": [
+          "ShortForm",
+          "Match"
         ]
       }
     ],

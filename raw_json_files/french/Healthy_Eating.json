@@ -1,104 +1,138 @@
 {
   "request": {
-    "lesson_description": "Understanding the importance of healthy eating: Nutrients, food groups, and balanced diets.",
-    "exercises_ratio": 0.5,
-    "grade_level": "7th grade",
-    "estimated_length": 15,
-    "learning_standard": "NGSS.MS-LS1-7: Develop and use a model to describe how food is rearranged through chemical reactions to support growth or release energy in organisms.",
+    "lesson_description": "The importance of healthy eating: Understanding nutrients, food groups, and balanced meals.",
+    "exercises_ratio": 1.0,
+    "grade_level": "6th grade",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Science Standards MS-LS1-7: Use arguments supported by evidence for how the body is impacted by healthy and unhealthy eating habits.",
     "additional_guidance": "",
-    "activity_type": "LearningZone",
+    "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "2cd008cc",
+    "request_id": "c2121a72",
     "topicInEnglish": "Healthy Eating",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "L'importance d'une alimentation saine : nutriments, groupes alimentaires et régimes équilibrés",
+    "title": "L'importance d'une alimentation saine",
     "slides": [
       {
-        "content": "Bienvenue à cette leçon où nous allons explorer pourquoi et comment une alimentation saine est essentielle pour notre corps. Ensemble, nous découvrirons les nutriments, les groupes alimentaires et comment équilibrer nos repas pour rester en bonne santé 🌟.",
+        "content": "Bienvenue dans notre leçon sur l'importance d'une alimentation saine ! Aujourd'hui, nous allons découvrir les nutriments essentiels, les groupes alimentaires et comment composer des repas équilibrés pour rester en bonne santé. 🍎",
         "title": "Introduction à l'alimentation saine",
         "themes": [
           "introduction à l'alimentation saine"
         ],
-        "image_search_string": "healthy food plate",
+        "image_search_string": "healthy eating concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Les nutriments sont des substances essentielles présentes dans les aliments qui permettent à notre corps de fonctionner correctement. Ils se divisent en six catégories principales :\n\n- **Glucides** : fournissent de l'énergie.\n- **Protéines** : aident à la croissance et à la réparation des tissus.\n- **Lipides** : servent de réserve d'énergie et protègent certains organes.\n- **Vitamines** et **minéraux** : nécessaires pour diverses fonctions corporelles.\n- **Eau** : essentielle pour la digestion, la circulation et la régulation de la température corporelle.",
+        "content": "Les nutriments sont les éléments essentiels dont notre corps a besoin pour fonctionner correctement. Ils incluent :\n\n- **Les glucides** : fournissent de l'énergie.\n- **Les protéines** : aident à construire et réparer les tissus.\n- **Les lipides** : fournissent de l'énergie et aident à absorber certaines vitamines.\n- **Les vitamines** : nécessaires pour diverses fonctions corporelles.\n- **Les minéraux** : comme le calcium et le fer, importants pour les os et le sang.\n- **L'eau** : essentielle pour l'hydratation et le transport des nutriments.",
         "title": "Les nutriments essentiels",
         "themes": [
-          "les types de nutriments",
-          "rôles des nutriments"
+          "types de nutriments",
+          "importance des nutriments"
         ],
-        "image_search_string": "nutrients chart",
+        "image_search_string": "essential nutrients chart",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Les groupes alimentaires aident à classer les différents types d'aliments selon leurs apports nutritionnels. Voici les cinq groupes principaux :\n\n1. **Fruits** : sources de vitamines, minéraux et fibres.\n2. **Légumes** : riches en fibres, vitamines et minéraux.\n3. **Céréales** : fournissent des glucides pour l'énergie.\n4. **Produits laitiers** : riches en calcium et en protéines.\n5. **Viandes, poissons et alternatives** : apportent des protéines et des nutriments essentiels comme le fer.",
+        "content": "Il existe cinq principaux groupes alimentaires :\n\n1. **Fruits** : riches en vitamines et fibres.\n2. **Légumes** : sources de vitamines, minéraux et fibres.\n3. **Produits céréaliers** : comme le pain et les pâtes, riches en glucides complexes.\n4. **Protéines** : viande, poisson, œufs, légumineuses.\n5. **Produits laitiers** : lait, fromage, riches en calcium.",
         "title": "Les groupes alimentaires",
         "themes": [
-          "classification des groupes alimentaires",
-          "apports nutritionnels des groupes"
+          "groupes alimentaires",
+          "caractéristiques des groupes alimentaires"
         ],
         "image_search_string": "food groups chart",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Grouping",
+          "Match"
         ]
       },
       {
-        "content": "Un régime alimentaire équilibré signifie consommer des quantités appropriées de chaque groupe alimentaire pour répondre aux besoins nutritionnels de votre corps. Voici quelques principes d'un régime équilibré :\n\n- Inclure des fruits et légumes dans chaque repas.\n- Privilégier les céréales complètes.\n- Consommer des protéines variées (viandes maigres, légumineuses, noix).\n- Limiter les sucres et graisses saturées.\n- Boire beaucoup d'eau.",
-        "title": "Qu'est-ce qu'un régime équilibré ?",
+        "content": "Un repas équilibré inclut des aliments de tous les groupes alimentaires. Par exemple :\n\n- Une portion de protéines (comme du poulet ou des lentilles).\n- Une portion de légumes variés.\n- Une source de glucides complexes (comme du riz brun).\n- Une petite quantité de lipides sains (comme de l'huile d'olive).\n- Un produit laitier ou un équivalent.",
+        "title": "Composer un repas équilibré",
         "themes": [
-          "définition de régime équilibré",
-          "principes d'un régime sain"
+          "composition d'un repas équilibré"
         ],
-        "image_search_string": "balanced diet plate",
+        "image_search_string": "balanced meal plate",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "Les aliments que nous mangeons subissent des réactions chimiques dans notre corps pour produire de l'énergie ou soutenir la croissance. Par exemple :\n\n- Les glucides sont transformés en glucose, une source d'énergie immédiate.\n- Les protéines sont décomposées en acides aminés pour construire et réparer les tissus.\n- Les lipides sont stockés comme réserve d'énergie ou utilisés pour isoler et protéger les organes.",
-        "title": "Comment les aliments soutiennent notre corps",
+        "content": "Une alimentation saine aide à prévenir les maladies et à maintenir un poids adéquat. Elle contribue également à :\n\n- Améliorer la concentration.\n- Augmenter l'énergie.\n- Renforcer le système immunitaire.\n\nUne alimentation déséquilibrée peut entraîner des problèmes comme l'obésité, le diabète ou des carences nutritionnelles.",
+        "title": "Les bienfaits d'une alimentation saine",
         "themes": [
-          "réactions chimiques des aliments",
-          "fonction des nutriments"
+          "avantages de manger sainement",
+          "risques d'une mauvaise alimentation"
         ],
-        "image_search_string": "chemical reaction in body",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Une alimentation déséquilibrée peut avoir des effets négatifs sur la santé, tels que :\n\n- **Carences** : manque de nutriments essentiels, entraînant des problèmes comme l'anémie ou le scorbut.\n- **Surpoids et obésité** : causés par une consommation excessive de calories.\n- **Maladies chroniques** : comme le diabète de type 2 ou les maladies cardiaques, souvent liées à une mauvaise alimentation.",
-        "title": "Conséquences d'une mauvaise alimentation",
-        "themes": [
-          "effets d'une alimentation déséquilibrée",
-          "risques pour la santé"
-        ],
-        "image_search_string": "unhealthy food effects",
+        "image_search_string": "healthy lifestyle benefits",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Pour adopter une alimentation saine et équilibrée :\n\n- Planifiez vos repas en incluant des aliments de chaque groupe alimentaire.\n- Évitez les aliments transformés riches en sucres et graisses.\n- Lisez les étiquettes nutritionnelles pour faire des choix éclairés.\n- Faites attention aux portions pour éviter de trop manger.\n- Adoptez une routine de repas régulière et buvez beaucoup d'eau.",
+        "content": "Les habitudes alimentaires varient selon les cultures et les traditions. Par exemple :\n\n- En France, les repas incluent souvent une entrée, un plat principal et un dessert.\n- En Méditerranée, l'huile d'olive et les légumes frais sont prédominants.\n- En Asie, le riz est une base courante.\n\nCes différences montrent l'importance culturelle de l'alimentation.",
+        "title": "L'impact des cultures sur l'alimentation",
+        "themes": [
+          "variations culturelles de l'alimentation"
+        ],
+        "image_search_string": "cultural food diversity",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Pour maintenir une alimentation équilibrée, suivez ces conseils :\n\n- Limitez les aliments transformés riches en sucre et en graisses.\n- Privilégiez les produits frais et locaux.\n- Buvez beaucoup d'eau.\n- Évitez de sauter des repas, surtout le petit-déjeuner.",
         "title": "Conseils pour une alimentation saine",
         "themes": [
-          "pratiques pour une alimentation saine",
-          "planification des repas"
+          "conseils pour une alimentation saine"
         ],
         "image_search_string": "healthy eating tips",
+        "question_types": [
+          "ShortForm",
+          "Sort"
+        ]
+      },
+      {
+        "content": "Le corps utilise l'énergie des aliments pour fonctionner. Les glucides sont la principale source d'énergie, suivis par les lipides et les protéines. Si nous consommons trop peu ou trop d'énergie, cela peut affecter notre santé.",
+        "title": "L'énergie et l'alimentation",
+        "themes": [
+          "lien entre énergie et alimentation"
+        ],
+        "image_search_string": "food and energy",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les étiquettes nutritionnelles sur les produits alimentaires indiquent les calories, les nutriments et la taille des portions. Lire ces étiquettes peut aider à faire des choix alimentaires plus informés.",
+        "title": "Lire les étiquettes nutritionnelles",
+        "themes": [
+          "lecture des étiquettes alimentaires"
+        ],
+        "image_search_string": "nutrition label",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Un journal alimentaire peut vous aider à suivre ce que vous mangez et à identifier les améliorations possibles. Notez vos repas, collations et boissons chaque jour pour mieux comprendre vos habitudes.",
+        "title": "Tenir un journal alimentaire",
+        "themes": [
+          "suivi des habitudes alimentaires"
+        ],
+        "image_search_string": "food journal",
         "question_types": [
           "ShortForm",
           "Sort"

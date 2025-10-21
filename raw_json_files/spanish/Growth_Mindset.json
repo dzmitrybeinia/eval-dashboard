@@ -1,39 +1,52 @@
 {
   "request": {
-    "lesson_description": "Understanding the Growth Mindset: How embracing challenges and learning from failure can lead to personal and academic success.",
-    "exercises_ratio": 0.3,
-    "grade_level": "8th grade",
-    "estimated_length": 10,
-    "learning_standard": "Next Generation Science Standards: MS-LS1-8 - Gather and synthesize information that individuals can use to influence their own behaviors and improve their personal development.",
+    "lesson_description": "Understanding the concept of Growth Mindset: How embracing challenges and learning from failures can lead to personal and academic growth.",
+    "exercises_ratio": 0.4,
+    "grade_level": "7th grade",
+    "estimated_length": 30,
+    "learning_standard": "CCSS.ELA-LITERACY.RI.7.1: Cite several pieces of textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text.",
     "additional_guidance": "",
     "activity_type": "Kahoot",
     "files_content": null,
-    "request_id": "ae41be21",
+    "request_id": "599d7be8",
     "topicInEnglish": "Growth Mindset",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Comprendiendo la Mentalidad de Crecimiento",
+    "title": "Understanding Growth Mindset: Embracing Challenges and Learning from Failures",
     "slides": [
       {
-        "content": "¿Sabías que tu cerebro puede crecer y volverse más fuerte cuando enfrentas desafíos? En esta lección, aprenderemos sobre la mentalidad de crecimiento y cómo puede ayudarte a superar obstáculos y aprender de tus errores. 🌱",
-        "title": "Introducción a la Mentalidad de Crecimiento",
+        "content": "¡Bienvenidos! En esta lección, exploraremos cómo nuestra actitud hacia los retos y los errores puede influir en nuestro desarrollo personal y académico. 🌱",
+        "title": "Introducción al tema",
         "themes": [
-          "introducción a la mentalidad de crecimiento"
+          "introducción al concepto de mentalidad de crecimiento"
         ],
-        "image_search_string": "niño pensando con ideas",
+        "image_search_string": "growth mindset concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La mentalidad de crecimiento es la creencia de que puedes mejorar tus habilidades y conocimientos con esfuerzo, estrategias adecuadas y la ayuda de otros. Contrasta con la mentalidad fija, que cree que las habilidades son innatas e inmutables.",
-        "title": "¿Qué es la Mentalidad de Crecimiento?",
+        "content": "La mentalidad de crecimiento es la creencia de que nuestras habilidades y talentos pueden desarrollarse con esfuerzo, aprendizaje y dedicación. Contrasta con la mentalidad fija, donde se piensa que nuestras habilidades son innatas e inmutables.",
+        "title": "¿Qué es la mentalidad de crecimiento?",
         "themes": [
           "definición de mentalidad de crecimiento",
-          "mentalidad fija vs. mentalidad de crecimiento"
+          "mentalidad fija vs crecimiento"
         ],
-        "image_search_string": "crecimiento personal",
+        "image_search_string": "growth mindset versus fixed mindset",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Las personas con mentalidad de crecimiento tienden a ver los errores y los desafíos como oportunidades para aprender y mejorar. En cambio, aquellos con mentalidad fija suelen evitar desafíos por miedo al fracaso.",
+        "title": "Diferencias clave entre mentalidad fija y de crecimiento",
+        "themes": [
+          "actitudes hacia desafíos",
+          "percepción de errores"
+        ],
+        "image_search_string": "opportunity from challenges",
         "question_types": [
           "ShortForm",
           "Match",
@@ -41,64 +54,27 @@
         ]
       },
       {
-        "content": "Cuando enfrentas un desafío, tu cerebro establece nuevas conexiones neuronales. Esto significa que cada vez que trabajas duro para resolver un problema, ¡tu cerebro se fortalece!",
-        "title": "El Cerebro y los Desafíos",
+        "content": "Adoptar una mentalidad de crecimiento implica: 1) Aceptar que cometer errores es parte del aprendizaje. 2) Buscar soluciones y aprender de los fracasos. 3) Creer en la posibilidad de mejora continua.",
+        "title": "Cómo adoptar una mentalidad de crecimiento",
         "themes": [
-          "cómo el cerebro crece con desafíos"
+          "pasos para adoptar mentalidad de crecimiento"
         ],
-        "image_search_string": "cerebro creciendo",
+        "image_search_string": "steps for growth mindset",
         "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "1. Aceptar desafíos.\n2. Ver los errores como oportunidades para aprender.\n3. Practicar la persistencia cuando algo es difícil.\n4. Buscar ayuda o nuevas estrategias para mejorar.",
-        "title": "Claves para Desarrollar una Mentalidad de Crecimiento",
-        "themes": [
-          "estrategias para desarrollar mentalidad de crecimiento"
-        ],
-        "image_search_string": "persona superando desafío",
-        "question_types": [
-          "ShortForm",
           "Sort",
-          "Grouping"
+          "ShortForm"
         ]
       },
       {
-        "content": "Las personas con mentalidad de crecimiento tienden a tener más éxito académico y personal porque están dispuestas a esforzarse, aprender de los errores y adaptarse. Por ejemplo, un estudiante que lucha con matemáticas pero busca ayuda y practica regularmente puede mejorar significativamente.",
-        "title": "Beneficios de la Mentalidad de Crecimiento",
+        "content": "La neuroplasticidad es la capacidad del cerebro para cambiar y adaptarse a través del aprendizaje. Esto respalda la idea de que nuestras habilidades pueden desarrollarse con práctica y esfuerzo.",
+        "title": "El cerebro y la neuroplasticidad",
         "themes": [
-          "ventajas de la mentalidad de crecimiento"
+          "neuroplasticidad y aprendizaje"
         ],
-        "image_search_string": "éxito académico y personal",
+        "image_search_string": "neuroplasticity concept",
         "question_types": [
           "ShortForm",
           "Match"
-        ]
-      },
-      {
-        "content": "Ejemplo:\n- Mentalidad fija: \"No soy bueno en ciencias, así que no tiene sentido intentarlo.\"\n- Mentalidad de crecimiento: \"Aún no entiendo ciencias, pero con práctica y ayuda puedo mejorar.\"",
-        "title": "Ejemplos de Mentalidad de Crecimiento vs. Fija",
-        "themes": [
-          "comparación de mentalidades"
-        ],
-        "image_search_string": "comparación mentalidad fija y de crecimiento",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Reflexiona sobre una situación en la que enfrentaste un desafío. ¿Cómo reaccionaste? ¿Qué harías diferente con una mentalidad de crecimiento?",
-        "title": "Reflexión Personal",
-        "themes": [
-          "reflexión sobre mentalidad personal"
-        ],
-        "image_search_string": "persona reflexionando",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

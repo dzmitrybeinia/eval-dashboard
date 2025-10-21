@@ -1,270 +1,136 @@
 {
   "request": {
-    "lesson_description": "Introduction to World Religions: Exploring the basic beliefs, practices, and cultural significance of major religions including Christianity, Islam, Judaism, Hinduism, and Buddhism.",
+    "lesson_description": "Introduction to World Religions: Exploring the beliefs, practices, and cultural significance of major global religions including Christianity, Islam, Judaism, Hinduism, and Buddhism.",
     "exercises_ratio": 1.0,
-    "grade_level": "8th grade",
-    "estimated_length": 20,
-    "learning_standard": "",
+    "grade_level": "9th grade",
+    "estimated_length": 10,
+    "learning_standard": "NCSS.D2.His.1.9-12: Analyze connections among historical events and developments in broader historical contexts.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "eee5048a",
+    "request_id": "d4cbc769",
     "topicInEnglish": "World Religions",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Introduction to World Religions",
+    "title": "Einführung in Weltreligionen",
     "slides": [
       {
-        "content": "Willkommen zu unserer spannenden Reise durch die Weltreligionen! 🌏 Heute werden wir die grundlegenden Überzeugungen, Praktiken und die kulturelle Bedeutung von fünf bedeutenden Religionen entdecken: Christentum, Islam, Judentum, Hinduismus und Buddhismus.",
-        "title": "Einleitung: Eine Reise durch die Weltreligionen",
+        "content": "Willkommen zu unserer Reise durch die Welt der Religionen! 🌍 In dieser Lektion werden wir die Vielfalt und den Reichtum der Glaubensrichtungen erkunden, die die Welt geprägt haben.",
+        "title": "Einleitung",
         "themes": [
-          "Einführung in Weltreligionen"
+          "Einführung in Religionen"
         ],
-        "image_search_string": "world religions map",
+        "image_search_string": "world religions symbols",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Das Christentum ist die weltweit größte Religion, die auf den Lehren von Jesus Christus basiert. Christen glauben an einen Gott und an die Bibel als heiliges Buch. Die wichtigsten Feiertage sind Weihnachten, das die Geburt Jesu feiert, und Ostern, das seine Auferstehung ehrt.",
+        "content": "Religionen spielen eine zentrale Rolle in der Geschichte und Kultur der Menschheit. Sie bieten Antworten auf fundamentale Fragen des Lebens, wie den Sinn des Lebens, den Ursprung der Welt und moralische Prinzipien.",
+        "title": "Die Bedeutung von Religion",
+        "themes": [
+          "Rolle der Religion in der Gesellschaft"
+        ],
+        "image_search_string": "importance of religion",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Das Christentum ist die weltweit größte Religion. Es basiert auf dem Leben und den Lehren von Jesus Christus. Die Bibel, bestehend aus Altem und Neuem Testament, ist die heilige Schrift des Christentums.",
         "title": "Das Christentum",
         "themes": [
           "Grundlagen des Christentums"
         ],
-        "image_search_string": "Christian cross bible",
+        "image_search_string": "Christianity symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Der Islam ist die zweitgrößte Religion der Welt. Muslime folgen den Lehren des Propheten Mohammed und dem heiligen Buch Koran. Die fünf Säulen des Islam sind zentrale Praktiken, darunter das Gebet und das Fasten während des Ramadan.",
+        "content": "Der Islam ist eine der großen monotheistischen Religionen und wurde vom Propheten Mohammed im 7. Jahrhundert gegründet. Der Koran ist das heilige Buch des Islam, und die Gläubigen folgen den fünf Säulen des Islam.",
         "title": "Der Islam",
         "themes": [
           "Grundlagen des Islam"
         ],
-        "image_search_string": "Islamic crescent Quran",
+        "image_search_string": "Islam symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Das Judentum ist eine der ältesten monotheistischen Religionen. Juden glauben an den einen Gott und folgen der Tora, die Teil der hebräischen Bibel ist. Wichtige Feiertage sind Rosch Haschana und Jom Kippur.",
+        "content": "Das Judentum ist eine der ältesten monotheistischen Religionen. Es basiert auf den Lehren der Tora, die Teil des Tanach ist. Das Judentum legt großen Wert auf die Einhaltung der Gebote und die Verbundenheit mit Gott.",
         "title": "Das Judentum",
         "themes": [
           "Grundlagen des Judentums"
         ],
-        "image_search_string": "Jewish star Torah",
+        "image_search_string": "Judaism symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Der Hinduismus ist die vorherrschende Religion in Indien und eine der ältesten der Welt. Er umfasst viele Götter und heilige Schriften wie die Veden. Karma und Wiedergeburt sind zentrale Konzepte.",
+        "content": "Der Hinduismus, vor allem in Indien verbreitet, ist eine polytheistische Religion mit einer Vielzahl an Göttern und Ritualen. Er basiert auf Texten wie den Veden und Upanishaden und betont das Konzept des Karma.",
         "title": "Der Hinduismus",
         "themes": [
           "Grundlagen des Hinduismus"
         ],
-        "image_search_string": "Hindu temple Vedas",
+        "image_search_string": "Hinduism symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Der Buddhismus basiert auf den Lehren von Siddhartha Gautama, bekannt als Buddha. Buddhisten streben nach Erleuchtung durch Meditation und das Befolgen des edlen Achtfachen Pfades.",
+        "content": "Der Buddhismus wurde von Siddhartha Gautama, dem Buddha, gegründet. Er lehrt den Weg zur Erleuchtung durch die vier edlen Wahrheiten und den achtfachen Pfad. Meditation spielt eine zentrale Rolle im Buddhismus.",
         "title": "Der Buddhismus",
         "themes": [
           "Grundlagen des Buddhismus"
         ],
-        "image_search_string": "Buddha meditation",
+        "image_search_string": "Buddhism symbols",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Monotheismus ist der Glaube an einen einzigen Gott und ist charakteristisch für Religionen wie Christentum, Islam und Judentum. Polytheismus hingegen ist der Glaube an mehrere Götter, wie es im Hinduismus der Fall ist.",
-        "title": "Monotheismus und Polytheismus",
+        "content": "Religionen haben die Geschichte durch Kriege, Allianzen und kulturelle Entwicklungen beeinflusst. Sie haben Kunst, Sprache und Rechtssysteme geformt und sind oft eng mit politischen Entwicklungen verknüpft.",
+        "title": "Religion und Geschichte",
         "themes": [
-          "Monotheismus und Polytheismus"
+          "Einfluss von Religion auf die Geschichte"
         ],
-        "image_search_string": "monotheism polytheism symbols",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Die fünf Säulen des Islam sind: 1. Glaubensbekenntnis (Schahada), 2. Gebet (Salat), 3. Almosen (Zakat), 4. Fasten (Sawm), 5. Pilgerfahrt (Haddsch). Sie sind die Grundlage des muslimischen Glaubenslebens.",
-        "title": "Die fünf Säulen des Islam",
-        "themes": [
-          "Fünf Säulen des Islam"
-        ],
-        "image_search_string": "five pillars Islam",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Das Christentum hat viele Konfessionen, darunter Katholizismus, Protestantismus und Orthodoxie. Jede hat spezifische Traditionen, aber alle teilen den Glauben an Jesus Christus.",
-        "title": "Konfessionen im Christentum",
-        "themes": [
-          "Christliche Konfessionen"
-        ],
-        "image_search_string": "Christian denominations symbols",
+        "image_search_string": "religion and history",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Im Hinduismus gibt es viele Götter, die Aspekte des Göttlichen repräsentieren. Brahma, Vishnu und Shiva sind die bekanntesten. Tempelfeste und Rituale sind zentral.",
-        "title": "Hinduistische Götter und Rituale",
+        "content": "Obwohl Religionen unterschiedlich sind, gibt es zahlreiche Gemeinsamkeiten, wie das Streben nach einem höheren Sinn, Rituale und moralische Leitlinien. Diese Ähnlichkeiten können als Brücke zwischen Kulturen dienen.",
+        "title": "Gemeinsamkeiten der Religionen",
         "themes": [
-          "Hinduistische Götter",
-          "Hinduistische Rituale"
+          "Gemeinsame Merkmale von Religionen"
         ],
-        "image_search_string": "Hindu gods rituals",
+        "image_search_string": "religion unity",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Im Buddhismus spielt Meditation eine Schlüsselrolle. Sie hilft, den Geist zu beruhigen und Einsicht zu gewinnen. Meditationstechniken variieren je nach Tradition.",
-        "title": "Meditation im Buddhismus",
+        "content": "Die Vielfalt der Religionen zeigt die Kreativität und den geistigen Reichtum der Menschheit. Indem wir sie studieren, können wir ein tieferes Verständnis für unsere Welt und unsere Mitmenschen gewinnen.",
+        "title": "Schlussfolgerung",
         "themes": [
-          "Meditation im Buddhismus"
+          "Vielfalt und Verständnis"
         ],
-        "image_search_string": "Buddhist meditation",
+        "image_search_string": "diversity and understanding",
         "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Das Judentum hat einen starken Gemeinschaftsaspekt. Synagogen sind zentrale Orte des Gebets und Lernens. Die Bar-Mizwa ist ein wichtiges Übergangsritual.",
-        "title": "Gemeinschaft im Judentum",
-        "themes": [
-          "Jüdische Gemeinschaft",
-          "Bar-Mizwa"
-        ],
-        "image_search_string": "Jewish synagogue bar mitzvah",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Der Islam hat weltweit eine reiche kulturelle Vielfalt. Kunst, Architektur und Wissenschaft wurden stark von islamischen Prinzipien beeinflusst, wie die Alhambra und die arabische Kalligrafie zeigen.",
-        "title": "Kulturelle Vielfalt im Islam",
-        "themes": [
-          "Islamische Kultur",
-          "Islamische Kunst"
-        ],
-        "image_search_string": "Islamic art and architecture",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Der Buddhismus verbreitete sich von Indien nach Asien und beeinflusste Kunst, Literatur und Philosophie. Zen-Buddhismus in Japan ist ein Beispiel für eine regionale Form.",
-        "title": "Verbreitung des Buddhismus",
-        "themes": [
-          "Buddhismus in Asien",
-          "Zen-Buddhismus"
-        ],
-        "image_search_string": "Buddhism spread Asia",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Das Judentum hat eine lange Geschichte von Verfolgung und Diaspora, die die Identität und Kultur stark geprägt hat. Die Rückkehr nach Israel ist ein zentrales Thema.",
-        "title": "Geschichte des Judentums",
-        "themes": [
-          "Jüdische Diaspora",
-          "Rückkehr nach Israel"
-        ],
-        "image_search_string": "Jewish history diaspora",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Im Hinduismus sind Tempel wichtige Orte der Verehrung. Sie sind oft kunstvoll gestaltet und symbolisieren das Universum. Tempelrituale spielen eine zentrale Rolle im religiösen Leben.",
-        "title": "Hinduistische Tempel",
-        "themes": [
-          "Hinduistische Tempel",
-          "Religiöse Rituale"
-        ],
-        "image_search_string": "Hindu temple rituals",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Christliche Feiertage wie Weihnachten und Ostern werden weltweit gefeiert, oft mit kulturellen Variationen. Diese Feste haben sowohl religiöse als auch gesellschaftliche Bedeutung.",
-        "title": "Christliche Feiertage",
-        "themes": [
-          "Feiertage im Christentum",
-          "Kulturelle Variationen"
-        ],
-        "image_search_string": "Christian holidays celebration",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Das Judentum betont ethische Prinzipien, wie das Gebot der Nächstenliebe. Diese Werte beeinflussen das soziale Handeln der jüdischen Gemeinschaft.",
-        "title": "Ethische Prinzipien im Judentum",
-        "themes": [
-          "Jüdische Ethik",
-          "Nächstenliebe"
-        ],
-        "image_search_string": "Jewish ethical principles",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Der Buddhismus lehrt Mitgefühl und Achtsamkeit als zentrale Werte. Diese Prinzipien fördern Frieden und Harmonie in der Gemeinschaft.",
-        "title": "Mitgefühl im Buddhismus",
-        "themes": [
-          "Mitgefühl im Buddhismus",
-          "Achtsamkeit"
-        ],
-        "image_search_string": "Buddhist compassion mindfulness",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Der Hinduismus integriert Kunst und Musik stark in die religiöse Praxis. Tänze wie Bharatanatyam und Gesänge wie Bhajans sind Ausdrucksformen des Glaubens.",
-        "title": "Kunst und Musik im Hinduismus",
-        "themes": [
-          "Hinduistische Kunst",
-          "Religiöse Musik"
-        ],
-        "image_search_string": "Hindu art music",
-        "question_types": [
-          "ShortForm",
-          "Match"
+          "ShortForm"
         ]
       }
     ],

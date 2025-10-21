@@ -2,75 +2,59 @@
 
 ## Intro
 
-### Introduction
+### Bienvenue dans le monde des religions
 
-Bienvenue dans notre exploration des grandes religions du monde ! Dans cette leçon, nous découvrirons les croyances, pratiques et significations culturelles de religions telles que le christianisme, l'islam, l'hindouisme, le bouddhisme et le judaïsme. Préparez-vous à un voyage fascinant à travers les traditions spirituelles qui ont façonné l'histoire et les cultures humaines 🌍.
+Bienvenue dans notre exploration des grandes religions du monde ! 🌍 Dans cette leçon, nous découvrirons les croyances, les pratiques et les impacts culturels des principales religions telles que le christianisme, l'islam, l'hindouisme, le bouddhisme et le judaïsme. Préparez-vous à un voyage fascinant à travers les traditions et les cultures !
 
 #### **Themes:**
-- Introduction aux religions du monde
+- Introduction au sujet
 
 ## Content slide
 
 ### Le christianisme
 
-Le christianisme est une religion monothéiste centrée sur la vie et les enseignements de Jésus-Christ. Avec environ 2,3 milliards d'adeptes, c'est la plus grande religion au monde. Ses textes sacrés incluent la Bible, composée de l'Ancien et du Nouveau Testament. Les principales dénominations du christianisme sont le catholicisme, le protestantisme et l'orthodoxie.
+Le christianisme est l'une des religions les plus répandues au monde. Fondée sur la vie et les enseignements de Jésus-Christ, elle repose sur des textes sacrés comme la Bible. Les chrétiens croient en un Dieu unique et en la rédemption par la foi.
 
 #### **Themes:**
-- Concepts clés du christianisme
+- Origines du christianisme
+- Croyances chrétiennes
 
 ## Content slide
 
 ### L'islam
 
-L'islam est une religion monothéiste fondée au 7ème siècle en Arabie par le prophète Mahomet. Les musulmans croient en un seul Dieu, Allah, et suivent les enseignements du Coran, leur texte sacré. Les cinq piliers de l'islam, qui sont des pratiques fondamentales, incluent la foi, la prière, le jeûne, l'aumône et le pèlerinage à La Mecque.
+L'islam, pratiqué majoritairement dans les pays du Moyen-Orient et d'Asie, repose sur les enseignements du prophète Mahomet et le Coran. Les musulmans suivent les cinq piliers de l'islam, qui incluent la prière, le jeûne, et le pèlerinage à La Mecque.
 
 #### **Themes:**
 - Fondements de l'islam
-- Les cinq piliers de l'islam
+- Pratiques musulmanes
 
 ## Content slide
 
 ### L'hindouisme
 
-L'hindouisme est l'une des plus anciennes religions du monde, principalement pratiquée en Inde. C'est une religion polythéiste, mettant en avant des divinités comme Vishnou, Shiva et Lakshmi. Les textes sacrés incluent les Védas et les Upanishads. L'hindouisme valorise également le karma, le dharma et le cycle de la réincarnation.
+L'hindouisme, principalement pratiqué en Inde, est une religion polythéiste avec des millions de divinités. Il met l'accent sur le karma, le dharma et la réincarnation. Les textes sacrés incluent les Védas et les Upanishads.
 
 #### **Themes:**
 - Principes de l'hindouisme
-- Divinités majeures et textes sacrés
+- Textes sacrés hindous
 
 ## Content slide
 
 ### Le bouddhisme
 
-Le bouddhisme, fondé par Siddhartha Gautama (le Bouddha) au 6ème siècle avant J.-C., enseigne la voie de l'éveil pour échapper au cycle de la souffrance. Les Quatre Nobles Vérités et le Noble Chemin Octuple sont des principes centraux. Le bouddhisme met l'accent sur la méditation, la sagesse et la compassion.
+Le bouddhisme, fondé par Siddhartha Gautama, ou Bouddha, enseigne le chemin vers l'illumination à travers des pratiques comme la méditation et la pleine conscience. Les Quatre Nobles Vérités et le Noble Sentier Octuple sont des principes fondamentaux.
 
 #### **Themes:**
-- Enseignements fondamentaux du bouddhisme
+- Enseignements du bouddhisme
+- Pratiques bouddhistes
 
 ## Content slide
 
 ### Le judaïsme
 
-Le judaïsme est une religion monothéiste ancienne, centrée sur l'alliance entre Dieu et le peuple juif. La Torah, qui fait partie du Tanakh, est son texte sacré principal. Les pratiques incluent des fêtes comme le Sabbat et des rites comme la circoncision. Le judaïsme a influencé d'autres religions monothéistes comme le christianisme et l'islam.
+Le judaïsme, l'une des plus anciennes religions monothéistes, est basé sur l'alliance entre Dieu et le peuple juif, tel que raconté dans la Torah. Les pratiques incluent les fêtes comme le Shabbat et les rites de passage.
 
 #### **Themes:**
-- Fondements du judaïsme
-- Influence sur d'autres religions
-
-## Content slide
-
-### Caractéristiques communes et diversité
-
-Les religions du monde partagent certaines caractéristiques, comme la croyance en des êtres ou forces supérieurs, des pratiques rituelles et des textes sacrés. Cependant, elles diffèrent dans leurs doctrines, leurs rituels et leurs visions du monde. Cette diversité reflète les différentes réponses humaines aux questions existentielles.
-
-#### **Themes:**
-- Similitudes et différences entre religions
-
-## Content slide
-
-### Fêtes religieuses
-
-Certaines grandes fêtes religieuses incluent Noël et Pâques en christianisme, le Ramadan en islam, Diwali en hindouisme, Vesak en bouddhisme et Hanoukka en judaïsme. Ces célébrations jouent un rôle essentiel dans la vie communautaire et spirituelle des croyants.
-
-#### **Themes:**
-- Fêtes majeures des religions
+- Origines du judaïsme
+- Pratiques juives

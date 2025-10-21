@@ -1,51 +1,64 @@
 {
   "request": {
-    "lesson_description": "DNA Basics: Understanding the structure and function of DNA, including its role in heredity and protein synthesis.",
-    "exercises_ratio": 0.4,
+    "lesson_description": "DNA Basics: Understanding the structure, function, and importance of DNA in living organisms.",
+    "exercises_ratio": 0.3,
     "grade_level": "9th grade",
     "estimated_length": 15,
-    "learning_standard": "Next Generation Science Standards: HS-LS1-1 - Construct an explanation based on evidence for how the structure of DNA determines the structure of proteins which carry out essential functions of life through systems of specialized cells.",
-    "additional_guidance": "",
+    "learning_standard": "",
+    "additional_guidance": "Focus on explaining the double helix structure, the role of nucleotides, and how DNA carries genetic information. Include real-world examples, such as hereditary traits and DNA's role in medical research.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "d7bcbb43",
+    "request_id": "f55d0d0f",
     "topicInEnglish": "DNA Basics",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Fundamentos del ADN: Estructura y Función",
+    "title": "DNA Basics: Structure, Function, and Importance",
     "slides": [
       {
-        "content": "El ADN, o ácido desoxirribonucleico, es una molécula que contiene las instrucciones genéticas esenciales para el desarrollo, funcionamiento, crecimiento y reproducción de todos los organismos vivos y algunos virus. Es como un manual de instrucciones que determina las características de un ser vivo.",
+        "content": "¡Bienvenidos al fascinante mundo del ADN! 🌟 En esta lección, exploraremos qué es el ADN, cómo está formado y por qué es tan importante para todos los seres vivos. ¡Prepárate para descubrir los secretos de la vida!",
         "title": "Introducción al ADN",
         "themes": [
-          "Definición de ADN"
+          "introducción al ADN"
         ],
-        "image_search_string": "molécula de ADN",
+        "image_search_string": "DNA molecule",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El ADN tiene una estructura única en forma de doble hélice, compuesta por dos cadenas enrolladas entre sí. Cada cadena está formada por nucleótidos, que son las unidades básicas del ADN. Un nucleótido está compuesto por un azúcar (desoxirribosa), un grupo fosfato y una base nitrogenada.",
-        "title": "Estructura básica del ADN",
+        "content": "El ADN, o ácido desoxirribonucleico, es una molécula presente en el núcleo de las células de todos los seres vivos. Es el portador de la información genética, que determina las características y funciones de cada organismo.",
+        "title": "¿Qué es el ADN?",
         "themes": [
-          "Estructura de la doble hélice del ADN"
+          "definición del ADN",
+          "información genética"
         ],
-        "image_search_string": "estructura de doble hélice del ADN",
+        "image_search_string": "DNA molecule nucleus",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Las bases nitrogenadas del ADN son adenina (A), timina (T), citosina (C) y guanina (G). Estas bases forman pares específicos: adenina siempre se une con timina, y citosina siempre se une con guanina. Esto se conoce como el apareamiento de bases complementarias.",
-        "title": "Bases nitrogenadas y apareamiento",
+        "content": "El ADN tiene una estructura única llamada doble hélice. Esta forma se compone de dos cadenas enrolladas entre sí, similares a una escalera que gira.",
+        "title": "La estructura del ADN",
         "themes": [
-          "Bases nitrogenadas",
-          "Complementariedad de bases"
+          "estructura de doble hélice"
         ],
-        "image_search_string": "pares de bases ADN",
+        "image_search_string": "DNA double helix",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Cada cadena del ADN está formada por unidades llamadas nucleótidos. Un nucleótido está compuesto por: un azúcar desoxirribosa, un grupo fosfato y una base nitrogenada.",
+        "title": "La composición del ADN",
+        "themes": [
+          "componentes del ADN",
+          "estructura de nucleótidos"
+        ],
+        "image_search_string": "DNA nucleotide structure",
         "question_types": [
           "ShortForm",
           "Match",
@@ -53,13 +66,13 @@
         ]
       },
       {
-        "content": "El ADN está organizado en estructuras llamadas cromosomas. En los organismos eucariotas, los cromosomas están ubicados dentro del núcleo celular. Cada cromosoma contiene miles de genes, que son segmentos de ADN que codifican proteínas específicas.",
-        "title": "Organización del ADN en cromosomas",
+        "content": "Las bases nitrogenadas del ADN son adenina (A), timina (T), citosina (C) y guanina (G). Se emparejan de manera específica: A con T y C con G, formando los \"peldaños\" de la escalera.",
+        "title": "Emparejamiento de bases",
         "themes": [
-          "Cromosomas y genes",
-          "Organización del ADN"
+          "bases nitrogenadas",
+          "emparejamiento específico"
         ],
-        "image_search_string": "cromosomas y núcleo celular",
+        "image_search_string": "DNA base pairing",
         "question_types": [
           "ShortForm",
           "Match",
@@ -67,68 +80,69 @@
         ]
       },
       {
-        "content": "El proceso de replicación del ADN asegura que cada célula hija reciba una copia exacta del ADN durante la división celular. Este proceso consiste en la separación de las dos cadenas de la doble hélice y la formación de nuevas cadenas complementarias.",
+        "content": "El ADN es esencial porque lleva las instrucciones necesarias para construir y mantener un organismo. Estas instrucciones están codificadas en secuencias de nucleótidos.",
+        "title": "El ADN como portador de información",
+        "themes": [
+          "información genética",
+          "secuencias de nucleótidos"
+        ],
+        "image_search_string": "genetic information DNA",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La información genética en el ADN se organiza en segmentos llamados genes. Los genes son responsables de transmitir características hereditarias, como el color de los ojos o la altura.",
+        "title": "Genes y características hereditarias",
+        "themes": [
+          "genes",
+          "herencia genética"
+        ],
+        "image_search_string": "genes inheritance",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "El ADN no solo define características físicas, sino que también juega un papel crucial en investigaciones médicas, como en la identificación de enfermedades genéticas y en la terapia génica.",
+        "title": "El ADN en la investigación médica",
+        "themes": [
+          "ADN en medicina",
+          "enfermedades genéticas"
+        ],
+        "image_search_string": "DNA medical research",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La replicación del ADN es el proceso por el cual una célula copia su ADN antes de dividirse. Esto asegura que cada célula hija reciba una copia completa del material genético.",
         "title": "Replicación del ADN",
         "themes": [
-          "Proceso de replicación del ADN"
+          "proceso de replicación",
+          "copias de ADN"
         ],
-        "image_search_string": "replicación de ADN",
+        "image_search_string": "DNA replication process",
         "question_types": [
           "ShortForm",
           "Sort"
         ]
       },
       {
-        "content": "Los genes en el ADN contienen las instrucciones para sintetizar proteínas. Este proceso ocurre en dos etapas principales: transcripción y traducción. La transcripción convierte el ADN en ARN mensajero, y la traducción utiliza este ARN para construir proteínas.",
-        "title": "Del ADN a las proteínas",
+        "content": "El estudio del ADN ha revolucionado campos como la biología, la medicina y la forense. Desde entender nuestras raíces evolutivas hasta resolver crímenes, el ADN es una herramienta poderosa.",
+        "title": "Impacto del estudio del ADN",
         "themes": [
-          "Transcripción y traducción",
-          "Síntesis de proteínas"
+          "impacto del ADN",
+          "aplicaciones del ADN"
         ],
-        "image_search_string": "síntesis de proteínas",
+        "image_search_string": "DNA science applications",
         "question_types": [
           "ShortForm",
-          "Sort",
           "Match"
-        ]
-      },
-      {
-        "content": "La transcripción ocurre en el núcleo de la célula, donde una enzima llamada ARN polimerasa lee la secuencia de ADN y produce una molécula de ARN mensajero. Este ARN mensajero luego se transporta al citoplasma para la traducción.",
-        "title": "La transcripción del ADN",
-        "themes": [
-          "Proceso de transcripción del ADN"
-        ],
-        "image_search_string": "transcripción del ADN",
-        "question_types": [
-          "ShortForm",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Durante la traducción, el ARN mensajero se une a un ribosoma, donde se leen sus codones (tripletes de bases). Cada codón codifica un aminoácido específico, que se une para formar una proteína.",
-        "title": "La traducción del ARN mensajero",
-        "themes": [
-          "Proceso de traducción",
-          "Codones y aminoácidos"
-        ],
-        "image_search_string": "traducción de ARN",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "El ADN es fundamental para la herencia, ya que pasa de generación en generación en los organismos. Las mutaciones o cambios en el ADN pueden llevar a variaciones genéticas, que son la base de la diversidad biológica y pueden tener efectos positivos, negativos o neutros.",
-        "title": "ADN y herencia genética",
-        "themes": [
-          "Rol del ADN en la herencia",
-          "Mutaciones y variación genética"
-        ],
-        "image_search_string": "herencia genética",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
         ]
       }
     ],

@@ -1,46 +1,50 @@
-# Lesson name: Techniques de Mémoire : Améliorer le Rappel et la Rétention
+# Lesson name: Techniques de Mémoire : Dispositifs Mnémotechniques, Visualisation et Fragmentation
 
 ## Intro
 
 ### Introduction aux Techniques de Mémoire
 
-Bienvenue dans cette leçon sur les techniques de mémoire ! Aujourd'hui, nous allons découvrir des stratégies efficaces pour améliorer votre capacité de mémorisation et de rappel. Préparez-vous à transformer votre façon de retenir les informations ! ✨
+Bienvenue dans cette leçon fascinante sur les techniques de mémoire ! Aujourd'hui, nous allons découvrir des méthodes efficaces pour améliorer votre mémoire et faciliter la rétention d'informations. 🎓
 
 #### **Themes:**
 - introduction aux techniques de mémoire
 
 ## Content slide
 
-### La Segmentation (Chunking)
+### Qu'est-ce que la mémoire ?
 
-La segmentation consiste à diviser une grande quantité d'informations en morceaux plus petits et plus faciles à gérer. Par exemple, pour mémoriser un numéro de téléphone comme 0612345678, vous pourriez le diviser en 06-12-34-56-78. Cela simplifie la rétention en réduisant la charge cognitive.
+La mémoire est la capacité de notre cerveau à encoder, stocker et récupérer des informations. Elle est essentielle dans notre quotidien pour apprendre, se souvenir d'événements et accomplir des tâches.
 
 #### **Themes:**
-- segmentation des informations
+- définition de la mémoire
+- importance de la mémoire
+
+## Content slide
+
+### Les dispositifs mnémotechniques
+
+Les dispositifs mnémotechniques sont des méthodes pour aider à se souvenir d'informations complexes en les simplifiant. Par exemple, on peut utiliser des acronymes ou des phrases mémorables pour rappeler des concepts.
+
+#### **Themes:**
+- dispositifs mnémotechniques
+- simplification de l'information
 
 ## Content slide
 
 ### La Visualisation
 
-La visualisation est une technique où vous associez des images mentales aux informations que vous voulez mémoriser. Par exemple, si vous devez mémoriser une liste d'épicerie, imaginez chaque article dans un scénario amusant ou exagéré, comme une pomme géante roulant dans la rue.
+La visualisation consiste à créer des images mentales vivantes pour associer des informations à des visuels mémorables. Cela peut inclure des schémas, des cartes mentales ou des représentations imagées.
 
 #### **Themes:**
 - technique de visualisation
+- associer des informations à des images
 
 ## Content slide
 
-### Les Moyens Mnémotechniques
+### La Fragmentation
 
-Les moyens mnémotechniques sont des outils qui utilisent des associations faciles à retenir pour mémoriser des informations. Par exemple, pour se souvenir de l'ordre des planètes (Mercure, Vénus, Terre, Mars, etc.), vous pouvez créer une phrase comme 'Mon Vieux Tonton Mange'.
-
-#### **Themes:**
-- utilisation des moyens mnémotechniques
-
-## Content slide
-
-### Combiner les Techniques
-
-Pour renforcer votre mémoire, combinez ces techniques. Par exemple, utilisez la segmentation pour organiser les informations, la visualisation pour les rendre vivantes, et les moyens mnémotechniques pour les structurer de manière mémorable. La pratique régulière de ces méthodes peut transformer votre capacité à retenir et rappeler des informations.
+La fragmentation, ou "chunking", consiste à diviser les informations en groupes ou "fragments" plus petits et plus faciles à mémoriser. Par exemple, retenir un numéro de téléphone par groupes de trois ou quatre chiffres.
 
 #### **Themes:**
-- combinaison des techniques de mémoire
+- fragmentation pour mémorisation
+- diviser l'information

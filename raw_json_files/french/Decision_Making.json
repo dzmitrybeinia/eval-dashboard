@@ -1,93 +1,184 @@
 {
   "request": {
-    "lesson_description": "Understanding the science of decision making: exploring cognitive processes, biases, and strategies for effective choices.",
-    "exercises_ratio": 0.4,
-    "grade_level": "11th grade",
-    "estimated_length": 10,
+    "lesson_description": "Understanding the process of decision making, exploring factors that influence decisions, and strategies for making thoughtful and informed choices.",
+    "exercises_ratio": 0.3,
+    "grade_level": "8th grade",
+    "estimated_length": 20,
     "learning_standard": "",
     "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "e57b3c9e",
+    "request_id": "68057954",
     "topicInEnglish": "Decision Making",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Comprendre la science de la prise de décision",
+    "title": "Le processus de prise de décision",
     "slides": [
       {
-        "content": "Bienvenue dans notre exploration des mystères de la prise de décision ! Aujourd'hui, nous allons plonger dans les processus cognitifs, les biais et les stratégies qui influencent nos choix au quotidien. Préparez-vous pour une aventure intellectuelle fascinante ! 🌟",
+        "content": "Bienvenue dans cette exploration captivante du processus de prise de décision ! Nous allons découvrir comment nous prenons des décisions et les facteurs qui influencent nos choix. 🌟",
         "title": "Introduction à la prise de décision",
         "themes": [
-          "introduction à la prise de décision"
+          "processus de décision"
         ],
-        "image_search_string": "decision making concept",
+        "image_search_string": "decision making illustration",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "La prise de décision repose sur des processus cognitifs complexes. Notre cerveau analyse les informations disponibles, évalue les options et anticipe les résultats possibles. Ces processus incluent la mémorisation, l'attention, et la logique, qui travaillent ensemble pour guider nos choix.",
-        "title": "Les processus cognitifs dans la prise de décision",
+        "content": "La prise de décision est le processus par lequel une personne choisit une option parmi plusieurs possibles. Cela peut inclure des choix simples, comme choisir quoi manger, ou complexes, comme planifier une carrière.",
+        "title": "Qu'est-ce que la prise de décision ?",
         "themes": [
-          "processus cognitifs dans les décisions"
+          "définition de la prise de décision"
         ],
-        "image_search_string": "cognitive process in decisions",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Les biais cognitifs sont des erreurs systématiques dans notre pensée. Par exemple, le biais de confirmation nous pousse à rechercher des informations qui confirment nos croyances existantes, tandis que le biais d'ancrage nous influence à baser nos décisions sur la première information reçue.",
-        "title": "Les biais cognitifs",
-        "themes": [
-          "biais cognitifs",
-          "erreurs systématiques dans la pensée"
-        ],
-        "image_search_string": "cognitive biases examples",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Pour prendre des décisions efficaces, il est utile d’utiliser des stratégies comme la décomposition du problème en étapes, la recherche d'avis extérieurs, ou encore l'évaluation des conséquences à court et long terme. Ces techniques permettent de réduire l'influence des biais et de clarifier nos objectifs.",
-        "title": "Stratégies pour des décisions efficaces",
-        "themes": [
-          "stratégies de prise de décision",
-          "réduction des biais"
-        ],
-        "image_search_string": "decision making strategies",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Nos émotions jouent un rôle clé dans nos décisions. Elles peuvent nous alerter sur des dangers ou nous motiver, mais elles peuvent aussi biaiser notre jugement. Par exemple, l'anxiété peut nous rendre trop prudents, tandis que l'excitation peut nous pousser à prendre des risques.",
-        "title": "L'impact des émotions sur la prise de décision",
-        "themes": [
-          "émotions et prise de décision"
-        ],
-        "image_search_string": "emotions in decision making",
+        "image_search_string": "decision making concept",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Prendre des décisions éclairées nécessite de combiner logique et intuition, tout en tenant compte de nos émotions et des biais potentiels. En comprenant ces éléments, nous pouvons améliorer la qualité de nos choix et mieux naviguer dans la complexité du monde.",
-        "title": "Synthèse : Devenir un décideur éclairé",
+        "content": "Les étapes typiques de la prise de décision comportent : 1) Identification du problème ou de la décision à prendre, 2) Collecte d'informations, 3) Évaluation des options, 4) Prise de la décision, et 5) Réflexion sur les résultats.",
+        "title": "Les étapes de la prise de décision",
         "themes": [
-          "amélioration de la prise de décision",
-          "synthèse des concepts"
+          "étapes de la prise de décision"
         ],
-        "image_search_string": "improving decision making",
+        "image_search_string": "decision making steps",
+        "question_types": [
+          "Sort",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Les émotions, les valeurs personnelles, les influences sociales et les informations disponibles sont quelques-uns des nombreux facteurs qui influencent nos décisions.",
+        "title": "Facteurs influençant les décisions",
+        "themes": [
+          "facteurs influençant les décisions"
+        ],
+        "image_search_string": "decision influencing factors",
+        "question_types": [
+          "Grouping",
+          "ShortForm"
+        ]
+      },
+      {
+        "content": "Pour prendre de bonnes décisions, il est utile d'utiliser des stratégies comme la liste des avantages et inconvénients, la consultation de personnes de confiance, et l'analyse des conséquences à long terme.",
+        "title": "Stratégies pour de meilleures décisions",
+        "themes": [
+          "stratégies de prise de décision"
+        ],
+        "image_search_string": "decision strategies",
         "question_types": [
           "ShortForm",
           "Grouping"
+        ]
+      },
+      {
+        "content": "Les biais cognitifs, comme le biais de confirmation ou l'effet de halo, peuvent influencer négativement nos décisions en nous amenant à des jugements partiaux.",
+        "title": "Les biais dans la prise de décision",
+        "themes": [
+          "biais cognitifs"
+        ],
+        "image_search_string": "cognitive biases",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La réflexion critique est essentielle pour évaluer les informations et éviter les pièges des biais. Elle inclut le questionnement des hypothèses et la recherche de preuves.",
+        "title": "L'importance de la pensée critique",
+        "themes": [
+          "pensée critique"
+        ],
+        "image_search_string": "critical thinking",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La prise de décision en groupe peut être bénéfique grâce à la diversité des perspectives, mais elle peut aussi entraîner des conflits ou des compromis inefficaces.",
+        "title": "Prise de décision en groupe",
+        "themes": [
+          "décision de groupe"
+        ],
+        "image_search_string": "group decision making",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les décisions éthiques impliquent de considérer ce qui est juste et équitable, souvent en tenant compte des impacts sur autrui et des principes moraux.",
+        "title": "Décisions éthiques",
+        "themes": [
+          "décisions éthiques"
+        ],
+        "image_search_string": "ethical decision making",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les outils d'aide à la décision, comme les matrices de décision ou les diagrammes de décision, peuvent aider à structurer les choix et à visualiser les conséquences.",
+        "title": "Outils pour aider la décision",
+        "themes": [
+          "outils d'aide à la décision"
+        ],
+        "image_search_string": "decision tools",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "Les erreurs courantes incluent l'impulsivité, l'ignorance des informations importantes et la peur de l'échec. Les reconnaître peut aider à les éviter.",
+        "title": "Erreurs courantes dans la prise de décision",
+        "themes": [
+          "erreurs dans la prise de décision"
+        ],
+        "image_search_string": "decision making mistakes",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "La pratique et l'expérience sont essentielles pour améliorer les compétences en prise de décision. Réfléchir aux décisions passées peut aussi offrir des leçons précieuses.",
+        "title": "Améliorer ses compétences en décision",
+        "themes": [
+          "amélioration des compétences décisionnelles"
+        ],
+        "image_search_string": "decision making improvement",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Les décisions à long terme peuvent nécessiter une planification approfondie et une prise en compte des conséquences à venir, comme dans le choix d'une carrière ou d'un investissement.",
+        "title": "Prendre des décisions à long terme",
+        "themes": [
+          "décisions à long terme"
+        ],
+        "image_search_string": "long term decision",
+        "question_types": [
+          "ShortForm",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Félicitations pour avoir exploré le processus de prise de décision ! N'oubliez pas que chaque décision est une opportunité d'apprendre et de grandir. 🌟",
+        "title": "Conclusion",
+        "themes": [
+          "conclusion sur la prise de décision"
+        ],
+        "image_search_string": "decision conclusion",
+        "question_types": [
+          "Intro"
         ]
       }
     ],

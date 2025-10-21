@@ -1,113 +1,80 @@
 {
   "request": {
-    "lesson_description": "Exploring Cultural Celebrations Around the World: Traditions, History, and Significance.",
-    "exercises_ratio": 0.2,
-    "grade_level": "7th grade",
-    "estimated_length": 10,
-    "learning_standard": "",
+    "lesson_description": "Exploring the cultural celebrations of different countries: traditions, customs, and their significance.",
+    "exercises_ratio": 0.0,
+    "grade_level": "6th grade",
+    "estimated_length": 20,
+    "learning_standard": "NGSS.D2.Geo.4.6-8: Explain how cultural patterns and economic decisions influence environments and the daily lives of people in both nearby and distant places.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "6b413e31",
+    "request_id": "2e990e3f",
     "topicInEnglish": "Cultural Celebrations",
     "generationLanguage": "de-DE"
   },
   "response": {
-    "title": "Kulturelle Feste weltweit: Traditionen, Geschichte und Bedeutung",
+    "title": "Kulturelle Feste und Feierlichkeiten weltweit",
     "slides": [
       {
-        "content": "Willkommen zu einer spannenden Reise durch die kulturellen Feste der Welt! 🌍 Heute entdecken wir, wie verschiedene Kulturen ihre einzigartigen Traditionen, Geschichten und Bedeutungen feiern. Lasst uns die Vielfalt und Schönheit dieser Feste gemeinsam erkunden!",
+        "content": "Willkommen zu unserer spannenden Reise durch die kulturellen Feste und Feierlichkeiten verschiedener Länder! 🌍 Heute werden wir entdecken, wie Menschen weltweit ihre Traditionen und Bräuche feiern und welche Bedeutung diese für sie haben.",
         "title": "Einleitung",
         "themes": [
           "Einführung in kulturelle Feste"
         ],
-        "image_search_string": "global cultural celebrations",
+        "image_search_string": "world cultural celebrations",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Kulturelle Feste sind besondere Anlässe, die von verschiedenen Gemeinschaften gefeiert werden, um historische Ereignisse, religiöse Traditionen oder kulturelle Identitäten zu ehren. Sie stärken den Zusammenhalt und fördern das Verständnis zwischen Kulturen.",
-        "title": "Was sind kulturelle Feste?",
+        "content": "Feste spielen eine wichtige Rolle in vielen Kulturen weltweit. Sie verbinden Gemeinschaften, fördern den Austausch und bewahren Traditionen. Durch Feste lernen wir die Werte, Überzeugungen und Geschichten von Völkern kennen.",
+        "title": "Bedeutung von Festen",
         "themes": [
-          "Definition kultureller Feste"
+          "Rolle von Festen",
+          "Kulturelle Verbindung"
         ],
-        "image_search_string": "cultural festival celebration",
+        "image_search_string": "importance of festivals",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Einige der ältesten kulturellen Feste der Welt sind: \n\n- **Das Chinesische Neujahr**: Eine Feier, die seit über 3000 Jahren in China begangen wird. \n- **Diwali**: Ein indisches Lichterfest, das die Rückkehr von Lord Rama feiert.\n- **Halloween**: Ursprünglich ein keltisches Fest, das Samhain genannt wurde.\n\nDiese Feste haben historische Wurzeln, die uns viel über die Kulturen ihrer Zeit verraten.",
-        "title": "Historische Feste und ihre Ursprünge",
+        "content": "In Deutschland ist Weihnachten eines der bedeutendsten Feste. Es wird mit Adventskalendern, Weihnachtsmärkten und dem Aufstellen eines Tannenbaums gefeiert. Der Heilige Abend am 24. Dezember ist ein Höhepunkt, an dem Geschenke ausgetauscht werden.",
+        "title": "Weihnachten in Deutschland",
         "themes": [
-          "Ursprünge kultureller Feste"
+          "Deutsche Weihnachtsbräuche"
         ],
-        "image_search_string": "ancient cultural festivals",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Religiöse Feste sind oft tief in den Glaubenspraktiken einer Gemeinschaft verwurzelt. Beispiele sind:\n\n- **Weihnachten**: Die Geburt Jesu Christi, gefeiert von Christen weltweit.\n- **Ramadan**: Ein Fastenmonat im Islam, der mit dem Fest des Fastenbrechens endet.\n- **Hanukkah**: Ein jüdisches Lichterfest, das an ein Wunder erinnert.\n\nDiese Feste bringen Menschen zusammen und fördern die spirituelle Reflexion.",
-        "title": "Religiöse Feste",
-        "themes": [
-          "Religiöse kulturelle Feste"
-        ],
-        "image_search_string": "religious celebrations",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Weltweit gibt es auch viele nicht-religiöse Feste, die kulturelle oder nationale Identitäten feiern, wie:\n\n- **Karneval in Rio**: Ein farbenfrohes Fest in Brasilien, das für seine Musik und Tänze bekannt ist.\n- **Oktoberfest**: Ein traditionelles bayerisches Volksfest in Deutschland.\n- **Tag der Toten**: Ein mexikanisches Fest, das die Verstorbenen ehrt.\n\nDiese Feste zeigen die Vielfalt und Lebensfreude verschiedener Kulturen.",
-        "title": "Nicht-religiöse Feste",
-        "themes": [
-          "Nicht-religiöse kulturelle Feste"
-        ],
-        "image_search_string": "cultural festivals worldwide",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Kulturelle Feste haben oft symbolische Elemente wie Farben, Speisen, Kleidung und Musik. Zum Beispiel:\n\n- **Farben**: Rot für Glück im Chinesischen Neujahr.\n- **Speisen**: Traditionelle Gerichte wie Latkes zu Hanukkah.\n- **Musik und Tanz**: Samba beim Karneval in Rio.\n\nDiese Elemente tragen zur einzigartigen Atmosphäre jedes Festes bei.",
-        "title": "Symbolik in Festen",
-        "themes": [
-          "Symbolik und Bedeutung"
-        ],
-        "image_search_string": "festival traditions",
+        "image_search_string": "German Christmas traditions",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Kulturelle Feste fördern das Verständnis und die Wertschätzung für andere Kulturen. Das Feiern solcher Feste hilft, Vorurteile abzubauen und Gemeinsamkeiten zu entdecken. Sie sind eine Gelegenheit für interkulturellen Austausch und das Teilen von Traditionen.",
-        "title": "Die Bedeutung kultureller Feste",
+        "content": "In Indien ist Diwali, das Lichterfest, eine der bekanntesten Feierlichkeiten. Es symbolisiert den Sieg des Lichts über die Dunkelheit und wird mit Kerzen, Feuerwerken und besonderen Süßigkeiten gefeiert. Häuser werden liebevoll dekoriert.",
+        "title": "Diwali in Indien",
         "themes": [
-          "Bedeutung kultureller Feste"
+          "Indische Festtraditionen",
+          "Symbolik von Diwali"
         ],
-        "image_search_string": "cultural diversity celebration",
+        "image_search_string": "Diwali festival India",
         "question_types": [
           "ShortForm",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Denkt an ein kulturelles Fest, das ihr kennt oder an dem ihr teilgenommen habt. Überlegt:\n\n- Welche Traditionen werden bei diesem Fest gepflegt?\n- Welche Geschichte oder Bedeutung steht dahinter?\n- Warum ist dieses Fest wichtig für die Menschen, die es feiern?\n\nDiskutiert eure Ideen mit anderen und teilt eure Erfahrungen!",
-        "title": "Reflexion: Eure Erfahrungen mit Festen",
+        "content": "Das chinesische Neujahr ist ein bedeutendes Fest in China. Es markiert den Beginn des neuen Mondjahres und wird mit roten Dekorationen, traditionellen Tänzen wie dem Löwentanz und großem Familienessen gefeiert.",
+        "title": "Chinesisches Neujahr",
         "themes": [
-          "Reflexion über kulturelle Feste"
+          "Chinesische Neujahrsbräuche"
         ],
-        "image_search_string": "people celebrating festival",
+        "image_search_string": "Chinese New Year traditions",
         "question_types": [
-          "ShortForm"
+          "ShortForm",
+          "Match",
+          "Grouping"
         ]
       }
     ],

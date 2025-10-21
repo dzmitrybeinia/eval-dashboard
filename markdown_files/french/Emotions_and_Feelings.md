@@ -1,73 +1,74 @@
-# Lesson name: Comprendre les émotions et les sentiments
+# Lesson name: Understanding Emotions and Feelings
 
 ## Intro
 
-### Qu'est-ce qu'une émotion ?
+### Introduction aux émotions
 
-Les émotions sont des réactions naturelles que nous ressentons face à différentes situations de la vie. Elles peuvent être joyeuses, tristes, effrayantes ou encore énervées. Les émotions nous aident à comprendre nos expériences et à réagir à ce qui se passe autour de nous.
+Bienvenue dans notre exploration des émotions et des sentiments ! Aujourd'hui, nous allons découvrir les émotions de base, leurs causes, et comment elles influencent notre comportement. Préparez-vous à plonger dans le fascinant monde des émotions humaines ! 😊
 
 #### **Themes:**
-- définition des émotions
+- Introduction aux émotions
 
 ## Content slide
 
 ### Les émotions de base
 
-Il existe des émotions de base que la plupart des gens ressentent : la joie, la tristesse, la peur, la colère, le dégoût et la surprise. Ces émotions sont universelles et se retrouvent dans toutes les cultures.
+Les émotions de base sont universelles et partagées par tous les humains. Les principales émotions incluent :
+
+- La joie : une sensation de bonheur ou de satisfaction.
+- La tristesse : un sentiment de perte ou de déception.
+- La peur : une réaction face à un danger ou une menace.
+- La colère : une émotion provoquée par une injustice ou une frustration.
+- Le dégoût : une aversion pour quelque chose de désagréable.
+- La surprise : une réaction à un événement inattendu.
 
 #### **Themes:**
-- émotions universelles
+- Émotions de base
+- Catégories d'émotions
 
 ## Content slide
 
-### Causes des émotions
+### Les causes des émotions
 
-La joie peut être causée par des événements positifs comme recevoir un cadeau ou passer du temps avec des amis. La tristesse peut venir d'une perte ou d'une déception. La peur peut apparaître face à un danger ou une situation inconnue. La colère peut être déclenchée par une injustice ou un obstacle.
+Les émotions sont déclenchées par des causes variées, comme :
+
+- Les événements externes (par exemple, recevoir un cadeau peut provoquer de la joie).
+- Les pensées ou souvenirs (se rappeler un moment triste peut causer de la tristesse).
+- Les besoins physiques (avoir faim peut causer de l'irritabilité).
+
+Ces causes peuvent être personnelles et varier d'une personne à l'autre.
 
 #### **Themes:**
-- causes des émotions
+- Causes des émotions
+- Facteurs déclencheurs
 
 ## Content slide
 
-### Comment les émotions influencent nos actions
+### Comment les émotions influencent notre comportement
 
-Les émotions influencent notre comportement. Par exemple, la peur peut nous pousser à fuir un danger, tandis que la joie peut nous encourager à partager et à être sociables. Comprendre nos émotions nous aide à mieux gérer nos réactions.
+Les émotions influencent notre comportement de plusieurs façons :
+
+- Elles peuvent nous motiver à agir (la peur peut nous inciter à fuir un danger).
+- Elles influencent nos relations avec les autres (la joie peut nous rendre plus sociables).
+- Elles affectent notre prise de décision (la colère peut nous pousser à réagir impulsivement).
+
+Comprendre ces influences peut nous aider à mieux gérer nos émotions.
 
 #### **Themes:**
-- impact des émotions sur les comportements
+- Influence des émotions
+- Comportement humain
 
 ## Content slide
 
-### Reconnaître ses émotions
+### Perception et réponse émotionnelle
 
-Il est important d'apprendre à reconnaître nos émotions. Cela commence par observer nos sensations physiques (comme un cœur qui bat vite) et nos pensées. Ensuite, on peut nommer l'émotion que l'on ressent, comme "je suis en colère" ou "je suis triste".
+Les humains perçoivent et répondent à leur environnement grâce à leurs sens et leurs émotions. Les émotions jouent un rôle clé dans la manière dont nous interprétons des situations et réagissons. Par exemple :
 
-#### **Themes:**
-- identifier ses émotions
+- Une odeur agréable peut évoquer un souvenir heureux.
+- Une voix forte et colérique peut provoquer de la peur ou de la vigilance.
 
-## Content slide
-
-### Gérer ses émotions
-
-Il existe des techniques pour gérer ses émotions, comme prendre de grandes respirations, parler à quelqu'un en qui on a confiance, ou encore écrire dans un journal. Ces outils permettent de retrouver un équilibre émotionnel.
+Cette interaction entre perception et émotion est essentielle à notre survie et à notre bien-être.
 
 #### **Themes:**
-- techniques de gestion des émotions
-
-## Content slide
-
-### Émotions et relations
-
-Les émotions jouent un rôle dans nos relations. Par exemple, exprimer sa joie peut renforcer une amitié, tandis que mal gérer sa colère peut créer des conflits. Apprendre à communiquer ses émotions de manière respectueuse est essentiel pour des relations saines.
-
-#### **Themes:**
-- émotions et interactions sociales
-
-## Content slide
-
-### L'importance de comprendre ses émotions
-
-Comprendre et gérer ses émotions est une compétence précieuse que nous utilisons toute notre vie. Cela nous permet de mieux nous comprendre, de prendre soin de nous-mêmes et d'avoir des relations harmonieuses avec les autres.
-
-#### **Themes:**
-- importance de la gestion émotionnelle
+- Perception humaine
+- Réponse émotionnelle

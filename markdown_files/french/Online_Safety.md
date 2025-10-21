@@ -1,91 +1,38 @@
-# Lesson name: Comprendre la sécurité en ligne : protéger ses informations personnelles et reconnaître les menaces numériques
+# Lesson name: Sécurité en ligne : Comprendre le cyberharcèlement, le phishing et les bonnes pratiques pour les mots de passe
 
 ## Intro
 
 ### Introduction à la sécurité en ligne
 
-La sécurité en ligne est essentielle pour protéger vos informations personnelles et éviter les dangers liés à l'utilisation d'Internet. Dans cette leçon, nous allons explorer les moyens de rester en sécurité en ligne et comment reconnaître les menaces potentielles.
+Bienvenue dans cette leçon où nous allons explorer les moyens de rester en sécurité en ligne. Apprenons à reconnaître les dangers comme le cyberharcèlement et le phishing, et découvrons comment créer des mots de passe solides pour protéger nos informations personnelles.
 
 #### **Themes:**
-- importance de la sécurité en ligne
+- introduction à la sécurité en ligne
 
 ## Content slide
 
-### Qu'est-ce que les informations personnelles ?
+### Qu'est-ce que le cyberharcèlement ?
 
-Vos informations personnelles incluent votre nom, adresse, numéro de téléphone, date de naissance, mots de passe, et autres données sensibles. Ces informations doivent être protégées pour éviter qu'elles ne soient utilisées à votre insu.
-
-#### **Themes:**
-- définition des informations personnelles
-
-## Content slide
-
-### Créer un mot de passe sécurisé
-
-Les mots de passe doivent être complexes, uniques, et régulièrement mis à jour. Une bonne pratique est d'utiliser une combinaison de lettres majuscules et minuscules, de chiffres et de symboles.
+Le cyberharcèlement est une forme de harcèlement qui se produit en ligne, souvent via les réseaux sociaux, les messageries ou les forums. Il peut inclure des insultes, des menaces, ou même la diffusion de fausses informations. Il est important d'en parler à un adulte de confiance et de signaler le contenu inapproprié.
 
 #### **Themes:**
-- bonnes pratiques pour les mots de passe
-
-## Content slide
-
-### Précautions à prendre en ligne
-
-Ne partagez jamais vos informations personnelles sur des sites ou avec des personnes que vous ne connaissez pas. Vérifiez toujours la fiabilité d'un site avant de fournir vos données.
-
-#### **Themes:**
-- précautions pour partager des informations
-
-## Content slide
-
-### Types de cybermenaces
-
-Les cybermenaces incluent les virus, le phishing, les logiciels espions, et les ransomwares. Elles peuvent causer des pertes financières, des vols d'identité, ou des atteintes à la vie privée.
-
-#### **Themes:**
-- différents types de cybermenaces
+- définition du cyberharcèlement
 
 ## Content slide
 
 ### Comprendre le phishing
 
-Le phishing est une tentative de vol d'informations en se faisant passer pour une entité de confiance. Méfiez-vous des e-mails ou messages demandant vos informations personnelles.
+Le phishing est une technique utilisée par des fraudeurs pour obtenir vos informations personnelles, comme vos mots de passe ou vos numéros de carte bancaire. Ces attaques se présentent souvent sous forme de courriels ou de faux sites web imitant des entités de confiance. Méfiez-vous des liens suspects et vérifiez toujours l'authenticité des sources.
 
 #### **Themes:**
-- phishing et comment le reconnaître
+- définition du phishing
+- comment identifier les escroqueries
 
 ## Content slide
 
-### Se protéger contre les logiciels malveillants
+### Bonnes pratiques pour les mots de passe
 
-Pour éviter les logiciels malveillants, installez un antivirus, mettez à jour vos logiciels, et ne téléchargez pas de fichiers suspects.
-
-#### **Themes:**
-- prévention contre les logiciels malveillants
-
-## Content slide
-
-### Paramètres de confidentialité sur les réseaux sociaux
-
-Les paramètres de confidentialité sur les réseaux sociaux permettent de contrôler qui peut voir vos informations. Configurez-les pour protéger votre vie privée.
+Pour protéger vos comptes en ligne, il est essentiel de créer des mots de passe forts. Utilisez une combinaison de lettres majuscules, minuscules, chiffres et caractères spéciaux. Évitez les informations faciles à deviner comme votre prénom ou date de naissance. Changez régulièrement vos mots de passe et ne les partagez avec personne.
 
 #### **Themes:**
-- utilisation des paramètres de confidentialité
-
-## Content slide
-
-### Reconnaître et gérer le cyberharcèlement
-
-Les cyberharcèlements incluent les insultes, menaces, ou humiliations en ligne. Si vous êtes victime, parlez-en à un adulte de confiance et signalez-le.
-
-#### **Themes:**
-- identification et gestion du cyberharcèlement
-
-## Content slide
-
-### Pourquoi protéger ses informations en ligne ?
-
-Protéger ses informations personnelles en ligne est essentiel pour éviter les vols d'identité, les fraudes, et les atteintes à la vie privée.
-
-#### **Themes:**
-- importance de la protection des données
+- création de mots de passe solides

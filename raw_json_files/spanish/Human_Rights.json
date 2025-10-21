@@ -1,196 +1,90 @@
 {
   "request": {
     "lesson_description": "Understanding Human Rights: Exploring the Universal Declaration of Human Rights and its impact on global societies.",
-    "exercises_ratio": 1.0,
+    "exercises_ratio": 0.4,
     "grade_level": "10th grade",
-    "estimated_length": 15,
+    "estimated_length": 10,
     "learning_standard": "",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "03e1d705",
+    "request_id": "c2d3bc70",
     "topicInEnglish": "Human Rights",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Understanding Human Rights: Exploring the Universal Declaration of Human Rights",
+    "title": "Understanding Human Rights",
     "slides": [
       {
-        "content": "¡Bienvenidos! Hoy vamos a explorar un tema muy importante: los derechos humanos. Aprenderemos sobre su significado, su historia y cómo impactan nuestras vidas y sociedades en todo el mundo. 🌍",
-        "title": "Introducción a los Derechos Humanos",
+        "content": "¡Bienvenidos a nuestra exploración de los derechos humanos! En esta lección descubriremos qué son los derechos humanos, por qué son importantes y cómo la Declaración Universal de los Derechos Humanos ha influido en todo el mundo 🌍.",
+        "title": "Introducción a los derechos humanos",
         "themes": [
           "introducción a los derechos humanos"
         ],
-        "image_search_string": "derechos humanos símbolo",
+        "image_search_string": "human rights concept",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Los derechos humanos son derechos inherentes a todos los seres humanos, sin importar su raza, sexo, nacionalidad, etnia, idioma, religión o cualquier otra condición. Estos derechos incluyen la libertad, la igualdad y la dignidad.",
-        "title": "¿Qué son los Derechos Humanos?",
+        "content": "Los derechos humanos son libertades y protecciones básicas que todas las personas tienen simplemente por ser humanas. Estos derechos incluyen la vida, la libertad, la igualdad y la dignidad, y son universales, indivisibles e inalienables.",
+        "title": "¿Qué son los derechos humanos?",
         "themes": [
-          "definición de derechos humanos"
+          "concepto de derechos humanos"
         ],
-        "image_search_string": "derechos humanos definición",
+        "image_search_string": "human rights definition",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "El concepto de derechos humanos tiene raíces antiguas, pero su formalización moderna comenzó con la Declaración Universal de los Derechos Humanos en 1948, adoptada por las Naciones Unidas tras los horrores de la Segunda Guerra Mundial.",
-        "title": "Origen Moderno de los Derechos Humanos",
+        "content": "La Declaración Universal de los Derechos Humanos fue adoptada en 1948 por las Naciones Unidas. Este documento establece 30 derechos fundamentales que deben ser protegidos universalmente, como el derecho a la educación, la libertad de expresión y la protección contra la tortura.",
+        "title": "La Declaración Universal de los Derechos Humanos",
         "themes": [
-          "historia de los derechos humanos"
+          "Declaración Universal de los Derechos Humanos"
         ],
-        "image_search_string": "declaración derechos humanos 1948",
+        "image_search_string": "Universal Declaration of Human Rights",
         "question_types": [
           "ShortForm",
+          "Match",
           "Sort"
         ]
       },
       {
-        "content": "La Declaración Universal de los Derechos Humanos consta de 30 artículos que detallan los derechos básicos, como el derecho a la vida, la libertad de expresión, la educación y la protección contra la discriminación.",
-        "title": "Contenido de la Declaración Universal",
+        "content": "Los derechos humanos se dividen en varias categorías: derechos civiles y políticos (como la libertad de expresión y el derecho al voto), y derechos económicos, sociales y culturales (como el derecho a la educación y a un nivel de vida adecuado).",
+        "title": "Categorías de derechos humanos",
         "themes": [
-          "artículos de la declaración de derechos humanos"
+          "categorías de derechos humanos"
         ],
-        "image_search_string": "artículos declaración derechos humanos",
+        "image_search_string": "human rights categories",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "La Declaración Universal ha influido en la creación de numerosas leyes y tratados internacionales, ayudando a promover la justicia y la igualdad en diferentes países.",
-        "title": "Impacto Global de la Declaración",
+        "content": "La Declaración Universal ha tenido un gran impacto en las leyes y políticas globales. Ha inspirado constituciones, movimientos sociales y tratados internacionales, promoviendo la justicia y la igualdad en todo el mundo.",
+        "title": "Impacto global de la Declaración Universal",
         "themes": [
-          "impacto global de los derechos humanos"
+          "impacto de la Declaración Universal"
         ],
-        "image_search_string": "impacto declaración derechos humanos",
+        "image_search_string": "impact of human rights",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Aunque la Declaración Universal establece estándares globales, persisten retos como las violaciones de derechos humanos, la desigualdad y la falta de implementación en algunos lugares.",
-        "title": "Retos Actuales en Derechos Humanos",
+        "content": "Aunque se han hecho grandes avances en la promoción de los derechos humanos, aún existen desafíos como la discriminación, la pobreza y los conflictos armados. La comunidad internacional trabaja continuamente para superar estos obstáculos.",
+        "title": "Desafíos actuales en los derechos humanos",
         "themes": [
-          "retos en derechos humanos"
+          "desafíos en los derechos humanos"
         ],
-        "image_search_string": "violaciones derechos humanos",
+        "image_search_string": "challenges human rights",
         "question_types": [
           "ShortForm",
           "Match"
-        ]
-      },
-      {
-        "content": "El respeto a los derechos humanos es fundamental para la convivencia pacífica y el desarrollo sostenible, ya que fomenta la tolerancia, la inclusión y la solidaridad.",
-        "title": "Importancia de los Derechos Humanos",
-        "themes": [
-          "importancia de los derechos humanos"
-        ],
-        "image_search_string": "importancia derechos humanos",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Los derechos humanos se dividen en tres generaciones: derechos civiles y políticos, derechos económicos, sociales y culturales, y derechos de solidaridad como el desarrollo y un medio ambiente sano.",
-        "title": "Generaciones de Derechos Humanos",
-        "themes": [
-          "clasificación de derechos humanos"
-        ],
-        "image_search_string": "generaciones derechos humanos",
-        "question_types": [
-          "ShortForm",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Los derechos civiles y políticos incluyen la libertad de expresión, el derecho al voto y la protección contra la tortura. Son esenciales para la participación en la vida pública.",
-        "title": "Derechos Civiles y Políticos",
-        "themes": [
-          "derechos civiles y políticos"
-        ],
-        "image_search_string": "derechos civiles políticos",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Los derechos económicos, sociales y culturales garantizan condiciones de vida dignas, incluyendo el derecho a la educación, la salud y el trabajo.",
-        "title": "Derechos Económicos, Sociales y Culturales",
-        "themes": [
-          "derechos económicos sociales culturales"
-        ],
-        "image_search_string": "derechos sociales culturales",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Los derechos de solidaridad incluyen derechos colectivos como el desarrollo, la paz y un medio ambiente limpio. Estos reflejan las necesidades globales compartidas.",
-        "title": "Derechos de Solidaridad",
-        "themes": [
-          "derechos de solidaridad"
-        ],
-        "image_search_string": "derechos solidaridad",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La educación en derechos humanos busca crear conciencia y promover valores como el respeto, la igualdad y la justicia, esenciales para un mundo más justo.",
-        "title": "Educación en Derechos Humanos",
-        "themes": [
-          "educación en derechos humanos"
-        ],
-        "image_search_string": "educación derechos humanos",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Organizaciones como Amnistía Internacional y Human Rights Watch trabajan para proteger los derechos humanos, denunciando violaciones y promoviendo cambios positivos.",
-        "title": "Organizaciones Defensoras de Derechos Humanos",
-        "themes": [
-          "organizaciones de derechos humanos"
-        ],
-        "image_search_string": "organizaciones derechos humanos",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Podemos contribuir al respeto de los derechos humanos informándonos, apoyando causas justas y defendiendo la igualdad en nuestras comunidades.",
-        "title": "Cómo Contribuir al Respeto de los Derechos Humanos",
-        "themes": [
-          "acciones para derechos humanos"
-        ],
-        "image_search_string": "cómo apoyar derechos humanos",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Reflexionemos sobre cómo los derechos humanos nos afectan personalmente y qué acciones podemos tomar para promoverlos y protegerlos en nuestra vida diaria.",
-        "title": "Reflexión Final sobre Derechos Humanos",
-        "themes": [
-          "reflexión sobre derechos humanos"
-        ],
-        "image_search_string": "reflexión derechos humanos",
-        "question_types": [
-          "ShortForm"
         ]
       }
     ],

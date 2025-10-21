@@ -1,64 +1,39 @@
 {
   "request": {
-    "lesson_description": "Understanding the structure of the U.S. government: The three branches and their roles.",
-    "exercises_ratio": 0.3,
+    "lesson_description": "Understanding the three branches of the United States government: Legislative, Executive, and Judicial.",
+    "exercises_ratio": 0.0,
     "grade_level": "8th grade",
     "estimated_length": 20,
-    "learning_standard": "",
-    "additional_guidance": "",
+    "learning_standard": "Next Generation Social Studies Standards: Analyze the structure and functions of government institutions at the federal level.",
+    "additional_guidance": "Include real-world examples of how each branch operates and interacts, such as passing laws, enforcing policies, and interpreting legal disputes.",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "285dbb4e",
+    "request_id": "15128877",
     "topicInEnglish": "Government Structure",
     "generationLanguage": "fr-FR"
   },
   "response": {
-    "title": "Understanding the Structure of the U.S. Government",
+    "title": "Comprendre les trois branches du gouvernement des États-Unis",
     "slides": [
       {
-        "content": "Bienvenue dans notre exploration de la structure du gouvernement des États-Unis ! Aujourd'hui, nous allons découvrir comment ce gouvernement est organisé et quelles sont les responsabilités des trois branches principales qui le composent. 🇺🇸",
-        "title": "Introduction au gouvernement des États-Unis",
+        "content": "Bienvenue dans une exploration fascinante du fonctionnement du gouvernement des États-Unis ! Aujourd'hui, nous allons découvrir les trois branches principales qui dirigent ce pays : la branche législative, la branche exécutive et la branche judiciaire. Préparez-vous à explorer comment ces branches collaborent et interagissent pour gouverner efficacement.",
+        "title": "Introduction aux trois branches du gouvernement",
         "themes": [
-          "introduction au gouvernement"
+          "Introduction aux branches du gouvernement"
         ],
-        "image_search_string": "US government structure",
+        "image_search_string": "gouvernement des États-Unis",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Le gouvernement des États-Unis est divisé en trois branches principales : législative, exécutive et judiciaire. Cette séparation des pouvoirs permet d'assurer un équilibre et d'empêcher qu'une seule branche ne devienne trop puissante.",
-        "title": "Les trois branches du gouvernement",
-        "themes": [
-          "division des pouvoirs"
-        ],
-        "image_search_string": "three branches of government",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La branche législative est composée du Congrès, qui inclut le Sénat et la Chambre des représentants. Son rôle principal est de rédiger, débattre et adopter les lois.",
+        "content": "La branche législative est composée de deux chambres : la Chambre des représentants et le Sénat. Ensemble, elles forment le Congrès. Leur rôle principal est de rédiger, débattre et adopter des lois. Par exemple, le Congrès a récemment adopté des lois sur la réforme de la santé et les mesures économiques.",
         "title": "La branche législative",
         "themes": [
-          "rôle de la branche législative"
+          "Structure et rôle du Congrès",
+          "Exemple de lois adoptées"
         ],
-        "image_search_string": "legislative branch",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "Le Sénat compte 100 membres, deux pour chaque État, tandis que la Chambre des représentants a un nombre de membres basé sur la population des États. Ensemble, ils travaillent pour représenter les citoyens et leurs intérêts.",
-        "title": "Composition de la branche législative",
-        "themes": [
-          "composition du Congrès"
-        ],
-        "image_search_string": "US Congress members",
+        "image_search_string": "Congrès américain",
         "question_types": [
           "ShortForm",
           "Match",
@@ -66,61 +41,26 @@
         ]
       },
       {
-        "content": "La branche exécutive est dirigée par le président des États-Unis. Cette branche est responsable de l'application et de l'exécution des lois adoptées par le Congrès.",
+        "content": "La branche exécutive est dirigée par le Président, qui est également le commandant en chef des forces armées. Cette branche est responsable de l'application et de l'exécution des lois adoptées par le Congrès. Par exemple, le Président peut signer des décrets pour mettre en œuvre des politiques nationales.",
         "title": "La branche exécutive",
         "themes": [
-          "rôle de la branche exécutive"
+          "Rôle du Président",
+          "Exécution des lois"
         ],
-        "image_search_string": "executive branch US",
+        "image_search_string": "Président américain",
         "question_types": [
           "ShortForm",
           "Match"
         ]
       },
       {
-        "content": "Le président est assisté par le vice-président et un cabinet composé de responsables de différentes agences gouvernementales. Ces membres conseillent le président sur divers sujets.",
-        "title": "Composition de la branche exécutive",
-        "themes": [
-          "composition de la branche exécutive"
-        ],
-        "image_search_string": "US executive branch members",
-        "question_types": [
-          "ShortForm",
-          "Match",
-          "Grouping"
-        ]
-      },
-      {
-        "content": "La branche judiciaire interprète les lois et s'assure qu'elles respectent la Constitution. Elle est dirigée par la Cour suprême.",
+        "content": "La branche judiciaire est composée de la Cour suprême et des tribunaux fédéraux inférieurs. Elle interprète la Constitution et résout les litiges juridiques. Par exemple, la Cour suprême a récemment statué sur des cas importants concernant les droits civils.",
         "title": "La branche judiciaire",
         "themes": [
-          "rôle de la branche judiciaire"
+          "Structure de la branche judiciaire",
+          "Interprétation des lois"
         ],
-        "image_search_string": "judicial branch US",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La Cour suprême est composée de neuf juges, appelés juges de la Cour suprême, qui sont nommés par le président et confirmés par le Sénat.",
-        "title": "Composition de la branche judiciaire",
-        "themes": [
-          "composition de la Cour suprême"
-        ],
-        "image_search_string": "US Supreme Court",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Chaque branche du gouvernement dispose de pouvoirs spécifiques et peut limiter les actions des autres branches pour maintenir un équilibre. Ce système est connu sous le nom de freins et contrepoids.",
-        "title": "Le système des freins et contrepoids",
-        "themes": [
-          "système de freins et contrepoids"
-        ],
-        "image_search_string": "checks and balances",
+        "image_search_string": "Cour suprême américaine",
         "question_types": [
           "ShortForm",
           "Match",
@@ -128,62 +68,17 @@
         ]
       },
       {
-        "content": "Par exemple, le président peut opposer son veto à une loi adoptée par le Congrès, mais le Congrès peut passer outre ce veto avec une majorité des deux tiers. De même, la Cour suprême peut déclarer une loi inconstitutionnelle.",
-        "title": "Exemples de freins et contrepoids",
+        "content": "Ces trois branches interagissent régulièrement. Par exemple, une loi adoptée par la branche législative peut être signée par le Président (branche exécutive) mais contestée devant la Cour suprême (branche judiciaire).",
+        "title": "Interaction entre les branches",
         "themes": [
-          "exemples de freins et contrepoids"
+          "Collaboration entre branches",
+          "Exemple d'interaction"
         ],
-        "image_search_string": "veto process US",
+        "image_search_string": "interactions gouvernementales",
         "question_types": [
           "ShortForm",
           "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "La Constitution des États-Unis est la base de tout le système gouvernemental. Elle définit les pouvoirs et les responsabilités de chaque branche et protège les droits des citoyens.",
-        "title": "La Constitution des États-Unis",
-        "themes": [
-          "rôle de la Constitution"
-        ],
-        "image_search_string": "US Constitution",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Les amendements à la Constitution permettent de l'adapter aux changements de la société. Par exemple, le premier amendement garantit la liberté d'expression et de religion.",
-        "title": "Les amendements à la Constitution",
-        "themes": [
-          "amendements de la Constitution"
-        ],
-        "image_search_string": "US Constitution amendments",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "Comprendre la structure du gouvernement des États-Unis est essentiel pour saisir comment les lois sont créées, appliquées et interprétées, et pour voir comment les citoyens peuvent participer activement à la démocratie.",
-        "title": "Importance de comprendre le gouvernement",
-        "themes": [
-          "importance de la compréhension du gouvernement"
-        ],
-        "image_search_string": "civic engagement",
-        "question_types": [
-          "ShortForm"
-        ]
-      },
-      {
-        "content": "Nous avons exploré les trois branches du gouvernement des États-Unis, leurs rôles et leurs responsabilités. Maintenant, réfléchissez à comment ces informations peuvent vous aider à comprendre votre rôle en tant que citoyen.",
-        "title": "Résumé et réflexion",
-        "themes": [
-          "résumé du gouvernement"
-        ],
-        "image_search_string": "three branches review",
-        "question_types": [
-          "ShortForm"
+          "Grouping"
         ]
       }
     ],

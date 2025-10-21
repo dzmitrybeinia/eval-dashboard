@@ -1,14 +1,14 @@
 {
   "request": {
     "lesson_description": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick.",
-    "exercises_ratio": 0.6,
+    "exercises_ratio": 0.2,
     "grade_level": "8th grade",
-    "estimated_length": 15,
-    "learning_standard": "CCSS.ELA-LITERACY.RL.8.4: Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone, including analogies or allusions to other texts.",
+    "estimated_length": 25,
+    "learning_standard": "CCSS.ELA-LITERACY.RL.8.5: Compare and contrast the structure of two or more texts and analyze how the differing structure of each text contributes to its meaning and style.",
     "additional_guidance": "",
     "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "c2485621",
+    "request_id": "18f6d91b",
     "topicInEnglish": "Poetry Forms",
     "generationLanguage": "de-DE"
   },
@@ -16,80 +16,61 @@
     "title": "Exploring Poetry Forms: Haiku, Sonnet, Free Verse, and Limerick",
     "slides": [
       {
-        "content": "Poesie ist eine kreative und ausdrucksstarke Form des Schreibens. Sie verwendet sorgfältig ausgewählte Wörter, um Gefühle, Bilder und Ideen zu vermitteln. In dieser Lektion werden wir vier wichtige Formen der Poesie kennenlernen: Haiku, Sonett, freie Verse und Limerick. Jede dieser Formen hat ihre eigenen Regeln und Besonderheiten! ✨",
-        "title": "Einführung in die Welt der Poesie",
+        "content": "Willkommen! Heute tauchen wir in die faszinierende Welt der Poesie ein. Gemeinsam entdecken wir die Strukturen und Stile von Haikus, Sonetten, freien Versen und Limericks. 🌟",
+        "title": "Einleitung zur Poesie",
         "themes": [
           "Einführung in Poesieformen"
         ],
-        "image_search_string": "poetry writing concept",
+        "image_search_string": "poetry introduction",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "Ein Haiku ist eine traditionelle japanische Gedichtform. Es besteht aus drei Zeilen mit einer bestimmten Silbenstruktur: 5 Silben in der ersten Zeile, 7 in der zweiten und 5 in der dritten. Haikus beschreiben oft Naturphänomene oder Jahreszeiten. Sie sind bekannt für ihre Einfachheit und ihren tiefen Ausdruck.",
-        "title": "Das Haiku",
+        "content": "Ein Haiku ist eine traditionelle japanische Gedichtform. Es besteht aus drei Zeilen mit einer Silbenstruktur von 5-7-5. Haikus konzentrieren sich oft auf die Natur oder den Moment des Augenblicks.",
+        "title": "Was ist ein Haiku?",
         "themes": [
-          "Merkmale eines Haikus"
+          "Merkmale von Haikus"
         ],
-        "image_search_string": "haiku poetry writing",
+        "image_search_string": "haiku poetry",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
+          "Match"
         ]
       },
       {
-        "content": "Das Sonett ist eine poetische Form mit 14 Zeilen, die oft einen strengen Reimschema und eine feste Struktur aufweist. Es gibt verschiedene Arten von Sonetten, darunter das Shakespeare-Sonett, das aus drei Quartetten und einem abschließenden Couplet besteht. Sonette behandeln oft Themen wie Liebe, Zeit und Vergänglichkeit.",
-        "title": "Das Sonett",
+        "content": "Das Sonett ist eine klassische Gedichtform, die aus 14 Zeilen besteht. Es folgt oft einem strengen Reimschema, wie ABAB CDCD EFEF GG, und wird häufig verwendet, um tiefgründige Themen wie Liebe oder Vergänglichkeit zu erforschen.",
+        "title": "Was ist ein Sonett?",
         "themes": [
-          "Struktur des Sonetts",
-          "Themen des Sonetts"
+          "Merkmale von Sonetten"
         ],
-        "image_search_string": "sonnet poetry book",
+        "image_search_string": "sonnet poetry",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Freie Verse sind eine moderne Form der Poesie, die keine festen Regeln für Reime oder Metrik hat. Sie ermöglichen dem Dichter, frei zu experimentieren und die Sprache auf eine einzigartige Weise zu verwenden. Freie Verse können verschiedene Themen behandeln und sind ideal, um persönliche Gedanken auszudrücken.",
-        "title": "Freie Verse",
+        "content": "Freie Verse sind Gedichte ohne festgelegte Reimschemata oder Rhythmus. Diese Form erlaubt es dem Dichter, sich frei auszudrücken, ohne an traditionelle Regeln gebunden zu sein.",
+        "title": "Was sind freie Verse?",
         "themes": [
-          "Merkmale freier Verse"
+          "Merkmale von freien Versen"
         ],
         "image_search_string": "free verse poetry",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Grouping"
+          "Match"
         ]
       },
       {
-        "content": "Ein Limerick ist eine humorvolle Gedichtform mit fünf Zeilen und einem festen Reimschema (AABBA). Die erste, zweite und fünfte Zeile haben oft mehr Silben als die dritte und vierte. Limericks sind bekannt für ihre witzigen und manchmal unsinnigen Inhalte und sind leicht zu merken.",
-        "title": "Der Limerick",
+        "content": "Ein Limerick ist ein humorvolles Gedicht mit fünf Zeilen und dem Reimschema AABBA. Diese Form ist oft leicht und verspielt, mit einem rhythmischen Fluss.",
+        "title": "Was ist ein Limerick?",
         "themes": [
-          "Merkmale eines Limericks"
+          "Merkmale von Limericks"
         ],
-        "image_search_string": "limerick poetry fun",
+        "image_search_string": "limerick poetry",
         "question_types": [
           "ShortForm",
-          "Match",
-          "Sort"
-        ]
-      },
-      {
-        "content": "Poesieformen wie Haiku, Sonett, freie Verse und Limerick bieten unterschiedliche Möglichkeiten, Gefühle und Ideen auszudrücken. Jede Form hat ihre eigenen Regeln, die helfen, die Bedeutung und den Ton des Gedichts zu gestalten. Durch das Verständnis dieser Formen können wir die Kunst der Poesie besser schätzen und anwenden.",
-        "title": "Zusammenfassung: Die Kunst der Poesie",
-        "themes": [
-          "Vergleich von Poesieformen",
-          "Bedeutung von Poesieformen"
-        ],
-        "image_search_string": "poetry comparison",
-        "question_types": [
-          "ShortForm",
-          "Grouping",
           "Match"
         ]
       }

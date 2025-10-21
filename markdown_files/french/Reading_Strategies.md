@@ -1,153 +1,92 @@
-# Lesson name: Stratégies pour améliorer la compréhension de lecture
+# Lesson name: Strategies for Understanding Nonfiction Texts
 
 ## Intro
 
-### Introduction à la compréhension de lecture
+### Introduction aux stratégies de lecture
 
-Bienvenue à notre leçon sur les stratégies de compréhension de lecture ! Aujourd'hui, nous allons explorer comment identifier les idées principales, résumer un texte et faire des inférences pour mieux comprendre ce que nous lisons. 📚
+Bienvenue à cette leçon sur les stratégies de lecture pour mieux comprendre les textes non fictionnels ! 📚 Aujourd'hui, nous allons explorer des techniques utiles qui vous aideront à lire plus efficacement et à extraire les informations essentielles.
 
 #### **Themes:**
-- introduction à la compréhension de lecture
+- introduction aux stratégies de lecture
 
 ## Content slide
 
-### Qu'est-ce qu'une idée principale ?
+### Lecture en diagonale : Skimming
 
-Une idée principale est le message le plus important ou central d'un texte. Elle peut être explicite (clairement exprimée) ou implicite (sous-entendue). Pour la trouver, posez-vous la question : "Quel est le point principal que l'auteur veut transmettre ?"
+La lecture en diagonale, ou "skimming", consiste à parcourir rapidement un texte pour en saisir l'idée générale. Elle est particulièrement utile pour avoir un aperçu du contenu avant une lecture plus détaillée.
 
 #### **Themes:**
-- définition de l'idée principale
+- technique de lecture en diagonale
 
 ## Content slide
 
-### Comment identifier une idée principale ?
+### Balayage : Scanning
 
-Pour identifier une idée principale, cherchez :
-- Les phrases clés ou le premier/dernier paragraphe.
-- Les mots ou expressions répétés.
-- Les exemples ou détails qui soutiennent un même point.
+Le balayage, ou "scanning", est une technique où l'on recherche des informations spécifiques dans un texte, comme des dates, des noms ou des chiffres. Cela vous permet d'aller directement à l'information recherchée sans lire tout le texte.
 
 #### **Themes:**
-- techniques pour trouver l'idée principale
+- technique de balayage
 
 ## Content slide
 
-### Qu'est-ce qu'un résumé ?
+### Identifier les idées principales
 
-Résumer un texte consiste à exprimer ses idées principales en quelques phrases. Cela aide à se concentrer sur l'essentiel et à vérifier sa compréhension.
+Identifier les idées principales d'un texte est essentiel. Les idées principales sont souvent exprimées dans les titres, les sous-titres ou les premières phrases des paragraphes. Elles résument le point clé de chaque section.
 
 #### **Themes:**
-- définition du résumé
+- identifier les idées principales
 
 ## Content slide
 
-### Comment résumer un texte ?
+### Résumé : Summarizing
 
-Pour résumer efficacement :
-1. Identifiez les idées principales.
-2. Excluez les détails secondaires ou redondants.
-3. Reformulez avec vos propres mots.
-4. Vérifiez que votre résumé reflète bien le texte original.
+Le résumé consiste à condenser un texte en ne retenant que les points essentiels. Cela vous aide à comprendre et à mémoriser les informations importantes tout en éliminant les détails secondaires.
 
 #### **Themes:**
-- étapes pour résumer un texte
+- technique de résumé
 
 ## Content slide
 
-### Qu'est-ce qu'une inférence ?
+### Combiner les stratégies
 
-Une inférence est une conclusion que vous tirez à partir d'indices dans le texte et de vos propres connaissances. Elle n'est pas explicitement écrite, mais elle est logique.
+Pour mieux comprendre un texte non fictionnel, il est utile de combiner plusieurs stratégies, comme commencer par une lecture en diagonale pour obtenir une vue d'ensemble, puis rechercher des informations spécifiques avec le balayage.
 
 #### **Themes:**
-- définition de l'inférence
+- combinaison de stratégies
+- lecture efficace
 
 ## Content slide
 
-### Comment faire une inférence ?
+### Utiliser les indices visuels
 
-Pour faire une inférence :
-- Identifiez les indices dans le texte.
-- Utilisez vos connaissances personnelles.
-- Connectez ces éléments pour tirer une conclusion.
+Dans les textes non fictionnels, les indices visuels comme les graphiques, les tableaux et les images peuvent fournir des informations cruciales et aider à comprendre le contenu.
 
 #### **Themes:**
-- techniques pour faire des inférences
+- indices visuels dans les textes
 
 ## Content slide
 
-### Qu'est-ce que citer des preuves textuelles ?
+### Organisation des textes non fictionnels
 
-Citer des preuves textuelles signifie utiliser des phrases ou passages spécifiques du texte pour soutenir une idée, une analyse ou une inférence.
+L'organisation du texte, comme l'utilisation de paragraphes, de listes à puces et de sections, peut vous aider à naviguer plus facilement et à identifier les idées principales et les détails importants.
 
 #### **Themes:**
-- définition de citer des preuves textuelles
+- organisation des textes non fictionnels
 
 ## Content slide
 
-### Comment citer des preuves textuelles ?
+### Prendre des notes efficaces
 
-Pour citer des preuves textuelles :
-1. Trouvez une phrase ou un passage qui soutient votre idée.
-2. Introduisez la citation avec vos propres mots.
-3. Expliquez comment cette citation soutient votre point.
+Prendre des notes pendant la lecture vous permet de mieux retenir les informations et de les organiser. Vous pouvez utiliser des schémas, des listes ou des tableaux pour structurer vos idées.
 
 #### **Themes:**
-- étapes pour citer des preuves textuelles
+- prise de notes pendant la lecture
 
 ## Content slide
 
-### Exemple d'idée principale et de résumé
+### Pratique et application
 
-Un exemple :
-Texte : "L'école est un lieu d'apprentissage et de croissance."
-Idée principale : L'école aide les élèves à apprendre et à grandir.
-Résumé : L'école favorise l'apprentissage et la croissance.
+Enfin, pratiquer régulièrement ces stratégies de lecture vous aidera à les maîtriser. Essayez de lire différents types de textes non fictionnels pour diversifier votre expérience et affiner vos compétences.
 
 #### **Themes:**
-- exemple d'idée principale et résumé
-
-## Content slide
-
-### Exemple d'inférence
-
-Un exemple d'inférence :
-Texte : "Les feuilles jaunes jonchaient le sol. Le vent était frais et portait une odeur de bois brûlé."
-Inférence : C'est probablement l'automne.
-
-#### **Themes:**
-- exemple d'inférence
-
-## Content slide
-
-### Poser des questions pour mieux comprendre
-
-Une pratique clé est de poser des questions pendant la lecture :
-- Que veut dire cette phrase ?
-- Pourquoi l'auteur a-t-il mentionné cela ?
-- Que puis-je conclure de ce passage ?
-
-#### **Themes:**
-- importance de poser des questions
-
-## Content slide
-
-### Autres stratégies pour la compréhension
-
-Les lectures répétées et les discussions en groupe peuvent aussi améliorer la compréhension. Lire plusieurs fois permet de trouver des détails manqués, et discuter aide à voir d'autres perspectives.
-
-#### **Themes:**
-- stratégies supplémentaires pour la compréhension
-
-## Summary
-
-### Conclusion de la leçon
-
-En résumé, pour améliorer votre compréhension de lecture :
-- Identifiez les idées principales.
-- Résumez les textes.
-- Faites des inférences.
-- Citez des preuves textuelles.
-- Posez des questions et échangez avec les autres.
-
-#### **Themes:**
-- résumé des stratégies de compréhension
+- pratique des stratégies de lecture

@@ -1,39 +1,80 @@
 {
   "request": {
-    "lesson_description": "An introduction to Ancient Egypt: Exploring the geography, culture, and key historical events of one of the world's earliest civilizations.",
-    "exercises_ratio": 0.3,
+    "lesson_description": "Understanding the civilization of Ancient Egypt: society, architecture, religion, and innovations.",
+    "exercises_ratio": 0.2,
     "grade_level": "6th grade",
-    "estimated_length": 15,
-    "learning_standard": "",
-    "additional_guidance": "",
-    "activity_type": "Kahoot",
+    "estimated_length": 10,
+    "learning_standard": "Next Generation Social Studies Standards (NGSSS): SS.6.W.2.4 - Identify key features of ancient civilizations, including their impact on the modern world.",
+    "additional_guidance": "Focus on the significance of the Nile River, the role of pharaohs, and the cultural advancements such as hieroglyphics and pyramid construction. Include real-world examples of how Ancient Egypt has influenced modern society.",
+    "activity_type": "LearningZone",
     "files_content": null,
-    "request_id": "e0d51d86",
+    "request_id": "016ff77e",
     "topicInEnglish": "Ancient Egypt",
     "generationLanguage": "es-ES"
   },
   "response": {
-    "title": "Introducción al Antiguo Egipto",
+    "title": "Understanding Ancient Egypt: Society, Achievements, and Legacy",
     "slides": [
       {
-        "content": "¡Bienvenidos al fascinante mundo del Antiguo Egipto! 🌟 En esta lección, exploraremos cómo la geografía, la cultura y los eventos históricos clave dieron forma a una de las civilizaciones más antiguas y sorprendentes de la historia.",
-        "title": "¡Explorando el Antiguo Egipto!",
+        "content": "¡Bienvenidos a una fascinante aventura por el mundo del Antiguo Egipto! 🌟 En esta lección, exploraremos una de las civilizaciones más impresionantes de la historia, descubriendo cómo vivían, sus increíbles logros y cómo su legado sigue presente en el mundo actual.",
+        "title": "Introducción al Antiguo Egipto",
         "themes": [
-          "introducción al Antiguo Egipto"
+          "Introducción a la civilización egipcia"
         ],
-        "image_search_string": "antiguo Egipto",
+        "image_search_string": "ancient egypt map",
         "question_types": [
           "Intro"
         ]
       },
       {
-        "content": "El Antiguo Egipto se desarrolló a lo largo del río Nilo, una fuente vital de agua y recursos. Este río no solo proporcionaba agua para la agricultura, sino que también conectaba las regiones del Alto y Bajo Egipto, fomentando el comercio y la comunicación.",
-        "title": "La geografía del Antiguo Egipto",
+        "content": "El río Nilo fue el corazón y alma del Antiguo Egipto. 🌊 Este río proporcionaba agua para la agricultura, lo que permitía cultivar alimentos como el trigo y la cebada. Además, el Nilo era una vía de transporte crucial, conectando diferentes partes del reino y facilitando el comercio.",
+        "title": "El papel del Nilo en Egipto",
         "themes": [
-          "río Nilo en Egipto",
-          "importancia de la geografía"
+          "Importancia del río Nilo",
+          "Agricultura y comercio egipcios"
         ],
-        "image_search_string": "río Nilo Egipto",
+        "image_search_string": "nile river ancient egypt",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Los faraones eran los gobernantes supremos de Egipto y se consideraban dioses en la Tierra. 👑 Su poder era absoluto, y eran responsables de la construcción de templos, la organización del ejército y el mantenimiento de la armonía en el reino. Ejemplos famosos incluyen Tutankamón y Ramsés II.",
+        "title": "Los faraones y su poder",
+        "themes": [
+          "Rol de los faraones",
+          "Ejemplos de faraones destacados"
+        ],
+        "image_search_string": "pharaoh ancient egypt",
+        "question_types": [
+          "ShortForm",
+          "Match"
+        ]
+      },
+      {
+        "content": "La escritura jeroglífica fue uno de los mayores logros culturales de Egipto. ✍️ Este sistema de escritura, compuesto por símbolos y dibujos, se utilizaba para registrar eventos históricos, ceremonias religiosas y actividades comerciales. La piedra Rosetta fue clave para descifrar este lenguaje.",
+        "title": "Los jeroglíficos egipcios",
+        "themes": [
+          "Sistema de escritura jeroglífico",
+          "Desciframiento con la piedra Rosetta"
+        ],
+        "image_search_string": "hieroglyphs egypt",
+        "question_types": [
+          "ShortForm",
+          "Match",
+          "Grouping"
+        ]
+      },
+      {
+        "content": "Las pirámides egipcias son maravillas arquitectónicas que servían como tumbas para los faraones y nobles. 🏗️ La Gran Pirámide de Giza, construida para el faraón Keops, es una de las Siete Maravillas del Mundo Antiguo. Estas estructuras muestran el avanzado conocimiento en matemáticas y construcción de los egipcios.",
+        "title": "Las pirámides: maravillas arquitectónicas",
+        "themes": [
+          "Construcción de pirámides",
+          "Gran Pirámide de Giza"
+        ],
+        "image_search_string": "pyramids egypt",
         "question_types": [
           "ShortForm",
           "Match",
@@ -41,39 +82,26 @@
         ]
       },
       {
-        "content": "La civilización egipcia dependía de las inundaciones anuales del Nilo, que fertilizaban las tierras cercanas con limo rico en nutrientes, permitiendo cosechas abundantes. Esto convirtió al Nilo en un símbolo de vida para los egipcios.",
-        "title": "El río Nilo: Fuente de vida",
+        "content": "La religión egipcia estaba profundamente conectada con su vida cotidiana. 🙏 Adoraban a múltiples dioses, como Ra, el dios del Sol, e Isis, la diosa de la magia. Los egipcios creían en la vida después de la muerte y realizaban elaborados rituales funerarios para garantizar el paso al más allá.",
+        "title": "La religión en el Antiguo Egipto",
         "themes": [
-          "inundaciones del Nilo",
-          "fertilidad agrícola"
+          "Politeísmo en Egipto",
+          "Creencias sobre la vida después de la muerte"
         ],
-        "image_search_string": "fertilidad río Nilo",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La sociedad egipcia estaba organizada en una jerarquía clara: en la cima estaba el faraón, seguido por sacerdotes, escribas, artesanos, campesinos y esclavos. Esta estructura social ayudó a mantener el orden y permitió el desarrollo de proyectos monumentales.",
-        "title": "Estructura social en Egipto",
-        "themes": [
-          "jerarquía social egipcia",
-          "roles en la sociedad"
-        ],
-        "image_search_string": "estructura social Egipto",
+        "image_search_string": "egyptian gods",
         "question_types": [
           "ShortForm",
           "Grouping"
         ]
       },
       {
-        "content": "Los egipcios tenían una religión politeísta, con dioses como Ra, Osiris e Isis desempeñando papeles importantes. Creían en la vida después de la muerte, y esta creencia influenció profundamente sus prácticas funerarias, como la momificación.",
-        "title": "Religión y creencias egipcias",
+        "content": "El Antiguo Egipto dejó un impacto duradero en el mundo moderno. 🏺 Su arte, arquitectura e innovaciones como el calendario y la medicina influyeron en diversas culturas. Por ejemplo, los obeliscos egipcios inspiraron monumentos en ciudades como París y Washington D.C.",
+        "title": "El legado del Antiguo Egipto",
         "themes": [
-          "religión politeísta egipcia",
-          "vida después de la muerte"
+          "Influencia cultural y tecnológica egipcia",
+          "Ejemplos de impacto moderno"
         ],
-        "image_search_string": "dioses egipcios",
+        "image_search_string": "egyptian legacy",
         "question_types": [
           "ShortForm",
           "Match",
@@ -81,68 +109,15 @@
         ]
       },
       {
-        "content": "La escritura egipcia, conocida como jeroglíficos, fue un sistema avanzado que combinaba símbolos pictóricos y fonéticos. Los escribas eran los encargados de escribir y registrar eventos importantes, desempeñando un papel crucial en la administración.",
-        "title": "Escritura y jeroglíficos",
+        "content": "El Antiguo Egipto estaba lleno de logros increíbles que han dejado una huella imborrable en la humanidad. 🌟 Desde el papel del Nilo hasta sus faraones y avances culturales, esta civilización nos enseña cómo una sociedad puede prosperar y dejar un legado duradero. ¡Sigamos explorando la historia para aprender más lecciones valiosas!",
+        "title": "Conclusión: Reflexión sobre el Antiguo Egipto",
         "themes": [
-          "jeroglíficos egipcios",
-          "papel de los escribas"
+          "Resumen de logros egipcios",
+          "Importancia de estudiar el pasado"
         ],
-        "image_search_string": "jeroglíficos egipcios",
+        "image_search_string": "ancient egypt achievements",
         "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El Antiguo Egipto es famoso por sus monumentos, como las pirámides de Giza y el templo de Karnak. Estas estructuras no solo muestran la habilidad arquitectónica, sino también la importancia de la religión y el poder del faraón.",
-        "title": "Monumentos y arquitectura",
-        "themes": [
-          "pirámides de Giza",
-          "importancia arquitectónica"
-        ],
-        "image_search_string": "pirámides de Giza",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El faraón Tutankamón es uno de los más conocidos debido al descubrimiento de su tumba intacta en 1922. Este hallazgo reveló el esplendor del arte y la cultura egipcia, fascinando al mundo moderno.",
-        "title": "Tutankamón y su legado",
-        "themes": [
-          "descubrimiento de Tutankamón",
-          "arte y cultura egipcia"
-        ],
-        "image_search_string": "tumba de Tutankamón",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "El Antiguo Egipto tuvo muchos logros en ciencia y tecnología, como la medicina avanzada para su época y la construcción de canales para la irrigación. Estos avances reflejan su ingenio y adaptación al entorno.",
-        "title": "Logros en ciencia y tecnología",
-        "themes": [
-          "avances científicos egipcios",
-          "tecnología en irrigación"
-        ],
-        "image_search_string": "tecnología egipcia",
-        "question_types": [
-          "ShortForm",
-          "Match"
-        ]
-      },
-      {
-        "content": "La civilización egipcia dejó un legado duradero en la historia, influenciando a culturas posteriores y fascinando a generaciones. Sus logros en arte, arquitectura y escritura continúan siendo estudiados y admirados hoy en día.",
-        "title": "El legado del Antiguo Egipto",
-        "themes": [
-          "influencia cultural egipcia",
-          "legado histórico"
-        ],
-        "image_search_string": "legado del Antiguo Egipto",
-        "question_types": [
-          "ShortForm",
-          "Match"
+          "ShortForm"
         ]
       }
     ],

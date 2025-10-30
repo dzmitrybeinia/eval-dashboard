@@ -1,64 +1,72 @@
 import json
 from pathlib import Path
-from typing import Dict
+from typing import Dict, List
 
 
 class BaseConverter:
     def get_file_extension(self) -> str:
         return ".jsonl"
 
-    def convert_file(self, input_path: Path, output_path: Path) -> bool:
-        try:
-            data = self._load_json(input_path)
-            lesson_name = self._extract_lesson_name(input_path, data)
-            markdown = self._build_markdown(data, lesson_name)
-            return self._save_markdown(output_path, markdown)
-        except Exception as exc:
-            print(f"Error processing {input_path}: {exc}")
-            return False
-
     def convert_language(self, input_dir: Path, output_dir: Path, language: str) -> bool:
         if not input_dir.exists():
-            print(f"❌ Source directory not found: {input_dir}")
+            print(f"Source directory not found: {input_dir}")
             return False
 
         output_dir.mkdir(parents=True, exist_ok=True)
         json_files = sorted(input_dir.glob(f"*{self.get_file_extension()}"))
 
         if not json_files:
-            print(f"❌ No {self.get_file_extension()} files found in {input_dir}")
+            print(f"No {self.get_file_extension()} files found in {input_dir}")
             return False
 
-        converted = 0
-        skipped = 0
+        total_converted = 0
+        total_skipped = 0
 
         for json_file in json_files:
-            output_file = output_dir / f"{json_file.stem}.md"
-            if output_file.exists():
-                print(f"⏭️  Skipping {json_file.name} (output already exists)")
-                skipped += 1
-                continue
-
             try:
-                print(f"Converting {json_file.name}...")
-                if self.convert_file(json_file, output_file):
-                    converted += 1
-                    print(f"✓ Created {output_file.name}")
-                else:
-                    print(f"❌ Failed to convert {json_file.name}")
+                print(f"Processing {json_file.name}...")
+                lessons = self._load_lessons(json_file)
+
+                for lesson_index, lesson_data in enumerate(lessons, 1):
+                    lesson_name = self._extract_lesson_name(json_file, lesson_data)
+                    safe_name = self._sanitize_filename(lesson_name)
+                    output_file = output_dir / f"{safe_name}.md"
+
+                    if output_file.exists():
+                        print(f"  Skipping lesson {lesson_index}/{len(lessons)}: {lesson_name} (already exists)")
+                        total_skipped += 1
+                        continue
+
+                    markdown = self._build_markdown(lesson_data, lesson_name)
+                    self._save_markdown(output_file, markdown)
+                    total_converted += 1
+                    print(f"  Converted lesson {lesson_index}/{len(lessons)}: {lesson_name}")
+
             except Exception as exc:
-                print(f"❌ Error converting {json_file.name}: {exc}")
+                print(f"Error processing {json_file.name}: {exc}")
 
-        print("\nConversion Summary:")
-        print(f"   ✓ Converted: {converted}")
-        print(f"   ⏭️  Skipped: {skipped}")
-        print(f"   Total files: {len(json_files)}")
+        print(f"\nConversion Summary:")
+        print(f"  Converted: {total_converted}")
+        print(f"  Skipped: {total_skipped}")
+        print(f"  Total lessons: {total_converted + total_skipped}")
 
-        return (converted + skipped) > 0
+        return (total_converted + total_skipped) > 0
 
-    def _load_json(self, input_path: Path) -> Dict:
+    def _load_lessons(self, input_path: Path) -> List[Dict]:
+        lessons = []
         with open(input_path, "r", encoding="utf-8") as handle:
-            return json.load(handle)
+            for line in handle:
+                line = line.strip()
+                if line:
+                    lessons.append(json.loads(line))
+        return lessons
+
+    def _sanitize_filename(self, name: str) -> str:
+        invalid_chars = '<>:"/\\|?*'
+        for char in invalid_chars:
+            name = name.replace(char, '_')
+        name = name.replace('  ', ' ').strip()
+        return name[:200]
 
     def _extract_lesson_name(self, json_file: Path, data: Dict) -> str:
         if isinstance(data, dict):

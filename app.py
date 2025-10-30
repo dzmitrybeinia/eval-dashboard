@@ -10,9 +10,9 @@ from dotenv import load_dotenv
 
 from config import LANGUAGES, RAW_JSON_DIR, MARKDOWN_DIR, EVAL_RESULTS_DIR
 from core import Evaluator, aggregate_issues, analyze_patterns
-from orchestrators.full_evaluation_orchestrator import FullEvaluationOrchestrator
-from orchestrators.content_only_orchestrator import ContentOnlyOrchestrator
-from orchestrators.yes_no_evaluation_orchestrator import YesNoEvaluationOrchestrator
+from orchestrators.lz_full_eval_orchestrator import LZFullEvalOrchestrator
+from orchestrators.lz_lesson_eval_orchestrator import LZLessonEvalOrchestrator
+from orchestrators.lz_quiz_eval_orchestrator import LZQuizEvalOrchestrator
 from utils.cleaner import clean_eval_results, clean_markdown_files, clean_raw_json_files
 from utils.labels import sanitize_label
 from utils.servers import serve_dashboard
@@ -22,12 +22,12 @@ load_dotenv()
 
 
 ORCHESTRATORS = {
-    "fullevaluation": FullEvaluationOrchestrator,
-    "contentonly": ContentOnlyOrchestrator,
-    "yesnoevaluation": YesNoEvaluationOrchestrator,
+    "lzfull": LZFullEvalOrchestrator,
+    "lzlesson": LZLessonEvalOrchestrator,
+    "lzquiz": LZQuizEvalOrchestrator,
 }
 
-DEFAULT_ORCHESTRATOR = "fullevaluation"
+DEFAULT_ORCHESTRATOR = "lzfull"
 
 
 def load_orchestrator(name: str):
@@ -51,39 +51,30 @@ def get_standard_paths(language: str):
 
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(
-        description="""Localization Quality Evaluation Tool - AI-powered evaluation of localized content
+        description="""Eval Dashboard - AI-powered evaluation of educational quiz content
 
-Orchestrators (optional, default: fullevaluation):
-  fullevaluation   - Evaluate full content: lessons + all exercises
-  contentonly      - Evaluate only lesson content (skip exercises)
-  yesnoevaluation  - Evaluate lessons + yes/no exercises only
+HOW IT WORKS:
+  1. Convert: JSONL files -> Markdown files 
+  2. Evaluate: Each markdown file -> LLM -> Issue report (JSON)
+  3. Analyze: Combine all issues -> Find common patterns
 
-Examples:
-  # Full evaluation pipeline (auto-converts if needed)
-  python app.py eval spanish --label v1
-  python app.py eval hebrew --label prod --orchestrator contentonly
+ORCHESTRATORS (choose what to evaluate, default: lzfull):
+  lzfull    - Full content: Lesson text + ALL 8 quiz types (DynamicQuiz, FillInTheBlanks,
+              YesNo, KahootQuiz, OpenEnded, Match, Sort, Group)
+  lzlesson  - Lesson content only (no quizzes)
+  lzquiz    - Quiz questions only (all 8 types, no lesson content)
 
-  # Convert JSON to markdown
+BASIC WORKFLOW:
+  # 1. Convert JSONL -> Markdown
   python app.py convert spanish
-  python app.py convert polish --orchestrator yesnoevaluation
 
-  # Aggregate and analyze results
-  python app.py aggregate spanish --label v1
-  python app.py analyze spanish --label v1
+  # 2. Evaluate all lessons 
+  python app.py eval spanish --label v1
 
-  # Clean up files
-  python app.py clean eval_results --language spanish
-  python app.py clean markdown_files --all
-  python app.py clean eval_results --label old-test
-
-  # Update file index
-  python app.py file-index
-
-  # View results
+  # 3. View results
   python app.py dashboard
-  python app.py export --output docs
 
-For detailed help on any command: python app.py <command> -h""",
+For detailed help: python app.py <command> -h""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
 
@@ -97,13 +88,22 @@ For detailed help on any command: python app.py <command> -h""",
     eval_parser = subparsers.add_parser(
         "eval",
         help="Run full evaluation pipeline (convert + evaluate + aggregate + analyze)",
-        description="""Convert JSON to markdown, run AI evaluation, aggregate issues, and analyze patterns.
-Auto-converts from raw_json_files/{language}/ to markdown_files/{language}/ if needed.
+        description="""Convert JSONL to markdown, run GPT-4 evaluation, aggregate issues, and analyze patterns.
+
+ORCHESTRATORS:
+  lzfull    - Evaluates lesson content + all 8 quiz types (default)
+  lzlesson  - Evaluates only lesson content (skips quizzes)
+  lzquiz    - Evaluates only quiz questions (skips lesson content)
 
 Examples:
+  # Evaluate everything (uses lzfull by default)
   python app.py eval spanish --label v1
-  python app.py eval hebrew --label prod --orchestrator contentonly
-  python app.py eval french --label 2024-01-15 --orchestrator yesnoevaluation""",
+
+  # Evaluate only lesson content
+  python app.py eval spanish --label content_v1 --orchestrator lzlesson
+
+  # Evaluate only quiz questions
+  python app.py eval spanish --label quiz_v1 --orchestrator lzquiz""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     eval_parser.add_argument(
@@ -126,14 +126,28 @@ Examples:
     # convert command
     convert_parser = subparsers.add_parser(
         "convert",
-        help="Convert JSON files to markdown",
-        description="""Transform JSON lesson files into markdown format.
-Converts from raw_json_files/{language}/ to markdown_files/{language}/
+        help="Convert JSONL files to markdown",
+        description="""Transform JSONL lesson files into markdown format.
+
+WHAT HAPPENS:
+  - Reads JSONL files from raw_json_files/{language}/
+  - Creates separate markdown file for each lesson
+  - Saves to markdown_files/{language}/
+
+ORCHESTRATORS:
+  lzfull    - Converts lesson content + all 8 quiz types (default)
+  lzlesson  - Converts only lesson content (no quizzes)
+  lzquiz    - Converts only quiz questions (no lesson content)
 
 Examples:
+  # Convert everything (uses lzfull by default)
   python app.py convert spanish
-  python app.py convert hebrew --orchestrator contentonly
-  python app.py convert polish --orchestrator yesnoevaluation""",
+
+  # Convert only lesson content
+  python app.py convert spanish --orchestrator lzlesson
+
+  # Convert only quiz questions
+  python app.py convert spanish --orchestrator lzquiz""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     convert_parser.add_argument(
@@ -224,8 +238,8 @@ The file index contains:
     # export command
     export_parser = subparsers.add_parser(
         "export",
-        help="Export dashboard as static site for GitHub Pages",
-        description="Create a self-contained static site with all evaluation data for GitHub Pages hosting",
+        help="Export dashboard as static files",
+        description="Create a self-contained static files",
     )
     export_parser.add_argument(
         "--output",

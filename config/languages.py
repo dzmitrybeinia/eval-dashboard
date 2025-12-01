@@ -2,6 +2,7 @@
 
 SUPPORTED_LANGUAGES = [
     "english",
+    "english-gb",
     "spanish",
     "polish",
     "french",

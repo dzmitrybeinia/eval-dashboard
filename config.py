@@ -6,7 +6,7 @@ load_dotenv()
 
 # Languages
 LANGUAGES = [
-    "english", "spanish", "polish", "french", "russian",
+    "english", "english-gb", "spanish", "polish", "french", "russian",
     "german", "portuguese", "japanese", "serbian", "arabic", "hebrew"
 ]
 

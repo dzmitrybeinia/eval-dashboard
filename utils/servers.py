@@ -35,7 +35,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         else:
             print(f"{message}")
 
-def serve_dashboard(port: int = 8084, *, auto_open: bool = True) -> None:
+def serve_dashboard(port: int = 8081, *, auto_open: bool = True) -> None:
     _serve_file("dashboard.html", port, auto_open=auto_open)
 
 def _serve_file(html_filename: str, start_port: int, *, auto_open: bool = True) -> None:

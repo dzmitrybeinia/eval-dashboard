@@ -174,8 +174,22 @@ class LZQuizConverter(BaseConverter):
 
         if pairs:
             md_lines.append("**Pairs:**")
-            for key, value in pairs.items():
-                md_lines.append(f"- {key}: {value}")
+            
+            # Handle dictionary format
+            if isinstance(pairs, dict):
+                for key, value in pairs.items():
+                    md_lines.append(f"- {key}: {value}")
+            
+            # Handle list format
+            elif isinstance(pairs, list):
+                for pair in pairs:
+                    if isinstance(pair, dict):
+                        # Extract term and value (handle multiple naming patterns)
+                        term = pair.get("term1") or pair.get("term") or pair.get("key")
+                        value = pair.get("value1") or pair.get("value") or pair.get("definition")
+                        if term and value:
+                            md_lines.append(f"- {term}: {value}")
+            
             md_lines.append("")
         md_lines.append("")
 
